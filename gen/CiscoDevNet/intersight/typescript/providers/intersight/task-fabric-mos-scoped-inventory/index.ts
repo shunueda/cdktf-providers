@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TaskFabricMosScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#account_moid TaskFabricMosScopedInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#account_moid TaskFabricMosScopedInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#ancestors TaskFabricMosScopedInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#ancestors TaskFabricMosScopedInventory#ancestors}
   */
   readonly ancestors?: TaskFabricMosScopedInventoryAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface TaskFabricMosScopedInventoryConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#create_time TaskFabricMosScopedInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#create_time TaskFabricMosScopedInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#domain_group_moid TaskFabricMosScopedInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#domain_group_moid TaskFabricMosScopedInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#id TaskFabricMosScopedInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#id TaskFabricMosScopedInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,111 +53,111 @@ export interface TaskFabricMosScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * Device will immediately collect the objects from the platform. If false, the device will wait for any in flight scheduled collections to complete first. Used to ensure that any long running collections do not delay the scoped collection result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#immediate TaskFabricMosScopedInventory#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#immediate TaskFabricMosScopedInventory#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#mod_time TaskFabricMosScopedInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#mod_time TaskFabricMosScopedInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
   * A property that uniquely identifies the object to be inventoried as a part of the scoped inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#naming_property TaskFabricMosScopedInventory#naming_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#naming_property TaskFabricMosScopedInventory#naming_property}
   */
   readonly namingProperty?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#owners TaskFabricMosScopedInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#owners TaskFabricMosScopedInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#parent TaskFabricMosScopedInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#parent TaskFabricMosScopedInventory#parent}
   */
   readonly parent?: TaskFabricMosScopedInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#permission_resources TaskFabricMosScopedInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#permission_resources TaskFabricMosScopedInventory#permission_resources}
   */
   readonly permissionResources?: TaskFabricMosScopedInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Set of queries to identify objects to be inventoried as part of this scoped inventory action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#queries TaskFabricMosScopedInventory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#queries TaskFabricMosScopedInventory#queries}
   */
   readonly queries?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#registered_device TaskFabricMosScopedInventory#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#registered_device TaskFabricMosScopedInventory#registered_device}
   */
   readonly registeredDevice?: TaskFabricMosScopedInventoryRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#shared_scope TaskFabricMosScopedInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#shared_scope TaskFabricMosScopedInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#tags TaskFabricMosScopedInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#tags TaskFabricMosScopedInventory#tags}
   */
   readonly tags?: TaskFabricMosScopedInventoryTags[] | cdktf.IResolvable;
   /**
   * Type of the object for which scoped inventory needs to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#type TaskFabricMosScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#type TaskFabricMosScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#values TaskFabricMosScopedInventory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#values TaskFabricMosScopedInventory#values}
   */
   readonly values?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#version_context TaskFabricMosScopedInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#version_context TaskFabricMosScopedInventory#version_context}
   */
   readonly versionContext?: TaskFabricMosScopedInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface TaskFabricMosScopedInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class TaskFabricMosScopedInventoryAncestorsList extends cdktf.ComplexList
 }
 export interface TaskFabricMosScopedInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class TaskFabricMosScopedInventoryParentList extends cdktf.ComplexList {
 }
 export interface TaskFabricMosScopedInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class TaskFabricMosScopedInventoryPermissionResourcesList extends cdktf.C
 }
 export interface TaskFabricMosScopedInventoryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class TaskFabricMosScopedInventoryRegisteredDeviceList extends cdktf.Comp
 }
 export interface TaskFabricMosScopedInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class TaskFabricMosScopedInventoryTagsAncestorDefinitionsList extends cdk
 }
 export interface TaskFabricMosScopedInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1629,35 +1629,35 @@ export class TaskFabricMosScopedInventoryTagsDefinitionList extends cdktf.Comple
 }
 export interface TaskFabricMosScopedInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#ancestor_definitions TaskFabricMosScopedInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#ancestor_definitions TaskFabricMosScopedInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TaskFabricMosScopedInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#definition TaskFabricMosScopedInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#definition TaskFabricMosScopedInventory#definition}
   */
   readonly definition?: TaskFabricMosScopedInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#key TaskFabricMosScopedInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#key TaskFabricMosScopedInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#propagated TaskFabricMosScopedInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#propagated TaskFabricMosScopedInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#sys_tag TaskFabricMosScopedInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#sys_tag TaskFabricMosScopedInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#type TaskFabricMosScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#type TaskFabricMosScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#value TaskFabricMosScopedInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#value TaskFabricMosScopedInventory#value}
   */
   readonly value?: string;
 }
@@ -1976,23 +1976,23 @@ export class TaskFabricMosScopedInventoryTagsList extends cdktf.ComplexList {
 }
 export interface TaskFabricMosScopedInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2224,23 +2224,23 @@ export class TaskFabricMosScopedInventoryVersionContextInterestedMosList extends
 }
 export interface TaskFabricMosScopedInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#moid TaskFabricMosScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#selector TaskFabricMosScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2472,39 +2472,39 @@ export class TaskFabricMosScopedInventoryVersionContextRefMoList extends cdktf.C
 }
 export interface TaskFabricMosScopedInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#additional_properties TaskFabricMosScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#class_id TaskFabricMosScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#interested_mos TaskFabricMosScopedInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#interested_mos TaskFabricMosScopedInventory#interested_mos}
   */
   readonly interestedMos?: TaskFabricMosScopedInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#marked_for_deletion TaskFabricMosScopedInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#marked_for_deletion TaskFabricMosScopedInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#nr_version TaskFabricMosScopedInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#nr_version TaskFabricMosScopedInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#object_type TaskFabricMosScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#ref_mo TaskFabricMosScopedInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#ref_mo TaskFabricMosScopedInventory#ref_mo}
   */
   readonly refMo?: TaskFabricMosScopedInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#timestamp TaskFabricMosScopedInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#timestamp TaskFabricMosScopedInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#version_type TaskFabricMosScopedInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#version_type TaskFabricMosScopedInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -2852,7 +2852,7 @@ export class TaskFabricMosScopedInventoryVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory intersight_task_fabric_mos_scoped_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory intersight_task_fabric_mos_scoped_inventory}
 */
 export class TaskFabricMosScopedInventory extends cdktf.TerraformResource {
 
@@ -2868,7 +2868,7 @@ export class TaskFabricMosScopedInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskFabricMosScopedInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskFabricMosScopedInventory to import
-  * @param importFromId The id of the existing TaskFabricMosScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskFabricMosScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskFabricMosScopedInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2880,7 +2880,7 @@ export class TaskFabricMosScopedInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_fabric_mos_scoped_inventory intersight_task_fabric_mos_scoped_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_fabric_mos_scoped_inventory intersight_task_fabric_mos_scoped_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2891,8 +2891,8 @@ export class TaskFabricMosScopedInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_task_fabric_mos_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface DataIntersightCommTagDefinitionConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#account_moid DataIntersightCommTagDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#account_moid DataIntersightCommTagDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#allowed_values DataIntersightCommTagDefinition#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#allowed_values DataIntersightCommTagDefinition#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
@@ -26,19 +26,19 @@ export interface DataIntersightCommTagDefinitionConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#create_time DataIntersightCommTagDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#create_time DataIntersightCommTagDefinition#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#domain_group_moid DataIntersightCommTagDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#domain_group_moid DataIntersightCommTagDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -46,11 +46,11 @@ export interface DataIntersightCommTagDefinitionConfig extends cdktf.TerraformMe
   * Propagation is supported in a limited manner for path tags and it is not supported for key value. Rules for propagation are
   * configured by Intersight and cannot be configured by user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#enable_propagation DataIntersightCommTagDefinition#enable_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#enable_propagation DataIntersightCommTagDefinition#enable_propagation}
   */
   readonly enablePropagation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#id DataIntersightCommTagDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#id DataIntersightCommTagDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,49 +60,49 @@ export interface DataIntersightCommTagDefinitionConfig extends cdktf.TerraformMe
   * The string representation of the tag key. If the tag is of path type, then "/" will be interpreted as path delimiters.
   * The tag key must be unique within the account. The tag key is case sensitive and must not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#key DataIntersightCommTagDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#key DataIntersightCommTagDefinition#key}
   */
   readonly key?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#mod_time DataIntersightCommTagDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#mod_time DataIntersightCommTagDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#owners DataIntersightCommTagDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#owners DataIntersightCommTagDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * If this flag is enabled, then values of the KeyValue tag is restricted to values present in the allowedValues list. RestrictValues is not applicable to path tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#restrict_values DataIntersightCommTagDefinition#restrict_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#restrict_values DataIntersightCommTagDefinition#restrict_values}
   */
   readonly restrictValues?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#shared_scope DataIntersightCommTagDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#shared_scope DataIntersightCommTagDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#sys_tag DataIntersightCommTagDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#sys_tag DataIntersightCommTagDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -110,55 +110,55 @@ export interface DataIntersightCommTagDefinitionConfig extends cdktf.TerraformMe
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#type DataIntersightCommTagDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#type DataIntersightCommTagDefinition#type}
   */
   readonly type?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#account DataIntersightCommTagDefinition#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#account DataIntersightCommTagDefinition#account}
   */
   readonly account?: DataIntersightCommTagDefinitionAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#ancestors DataIntersightCommTagDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#ancestors DataIntersightCommTagDefinition#ancestors}
   */
   readonly ancestors?: DataIntersightCommTagDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#parent DataIntersightCommTagDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#parent DataIntersightCommTagDefinition#parent}
   */
   readonly parent?: DataIntersightCommTagDefinitionParent;
   /**
   * parent_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#parent_tag DataIntersightCommTagDefinition#parent_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#parent_tag DataIntersightCommTagDefinition#parent_tag}
   */
   readonly parentTag?: DataIntersightCommTagDefinitionParentTag;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#permission_resources DataIntersightCommTagDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#permission_resources DataIntersightCommTagDefinition#permission_resources}
   */
   readonly permissionResources?: DataIntersightCommTagDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#tags DataIntersightCommTagDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#tags DataIntersightCommTagDefinition#tags}
   */
   readonly tags?: DataIntersightCommTagDefinitionTags[] | cdktf.IResolvable;
   /**
   * usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#usage DataIntersightCommTagDefinition#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#usage DataIntersightCommTagDefinition#usage}
   */
   readonly usage?: DataIntersightCommTagDefinitionUsage;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#version_context DataIntersightCommTagDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#version_context DataIntersightCommTagDefinition#version_context}
   */
   readonly versionContext?: DataIntersightCommTagDefinitionVersionContext;
 }
@@ -1541,7 +1541,7 @@ export class DataIntersightCommTagDefinitionResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightCommTagDefinitionAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1549,19 +1549,19 @@ export interface DataIntersightCommTagDefinitionAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1574,7 +1574,7 @@ export interface DataIntersightCommTagDefinitionAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1774,7 +1774,7 @@ export class DataIntersightCommTagDefinitionAccountOutputReference extends cdktf
 }
 export interface DataIntersightCommTagDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1782,19 +1782,19 @@ export interface DataIntersightCommTagDefinitionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1807,7 +1807,7 @@ export interface DataIntersightCommTagDefinitionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2039,7 +2039,7 @@ export class DataIntersightCommTagDefinitionAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightCommTagDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2047,19 +2047,19 @@ export interface DataIntersightCommTagDefinitionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2072,7 +2072,7 @@ export interface DataIntersightCommTagDefinitionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2272,7 +2272,7 @@ export class DataIntersightCommTagDefinitionParentOutputReference extends cdktf.
 }
 export interface DataIntersightCommTagDefinitionParentTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2280,19 +2280,19 @@ export interface DataIntersightCommTagDefinitionParentTag {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2305,7 +2305,7 @@ export interface DataIntersightCommTagDefinitionParentTag {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2505,7 +2505,7 @@ export class DataIntersightCommTagDefinitionParentTagOutputReference extends cdk
 }
 export interface DataIntersightCommTagDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2513,19 +2513,19 @@ export interface DataIntersightCommTagDefinitionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2538,7 +2538,7 @@ export interface DataIntersightCommTagDefinitionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2770,7 +2770,7 @@ export class DataIntersightCommTagDefinitionPermissionResourcesList extends cdkt
 }
 export interface DataIntersightCommTagDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2778,19 +2778,19 @@ export interface DataIntersightCommTagDefinitionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2803,7 +2803,7 @@ export interface DataIntersightCommTagDefinitionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3035,7 +3035,7 @@ export class DataIntersightCommTagDefinitionTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightCommTagDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3043,19 +3043,19 @@ export interface DataIntersightCommTagDefinitionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3068,7 +3068,7 @@ export interface DataIntersightCommTagDefinitionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3268,25 +3268,25 @@ export class DataIntersightCommTagDefinitionTagsDefinitionOutputReference extend
 }
 export interface DataIntersightCommTagDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#key DataIntersightCommTagDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#key DataIntersightCommTagDefinition#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#propagated DataIntersightCommTagDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#propagated DataIntersightCommTagDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#sys_tag DataIntersightCommTagDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#sys_tag DataIntersightCommTagDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3294,25 +3294,25 @@ export interface DataIntersightCommTagDefinitionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#type DataIntersightCommTagDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#type DataIntersightCommTagDefinition#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#value DataIntersightCommTagDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#value DataIntersightCommTagDefinition#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#ancestor_definitions DataIntersightCommTagDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#ancestor_definitions DataIntersightCommTagDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCommTagDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#definition DataIntersightCommTagDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#definition DataIntersightCommTagDefinition#definition}
   */
   readonly definition?: DataIntersightCommTagDefinitionTagsDefinition;
 }
@@ -3631,7 +3631,7 @@ export class DataIntersightCommTagDefinitionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCommTagDefinitionUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3639,24 +3639,24 @@ export interface DataIntersightCommTagDefinitionUsage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Total count of managed objects that are tagged with this tag. For path tags, this will be a cumulative count. By default, this property is not returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#nr_count DataIntersightCommTagDefinition#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#nr_count DataIntersightCommTagDefinition#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#tagged_object_types DataIntersightCommTagDefinition#tagged_object_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#tagged_object_types DataIntersightCommTagDefinition#tagged_object_types}
   */
   readonly taggedObjectTypes?: string[];
 }
@@ -3856,7 +3856,7 @@ export class DataIntersightCommTagDefinitionUsageOutputReference extends cdktf.C
 }
 export interface DataIntersightCommTagDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3864,19 +3864,19 @@ export interface DataIntersightCommTagDefinitionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3889,7 +3889,7 @@ export interface DataIntersightCommTagDefinitionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4121,7 +4121,7 @@ export class DataIntersightCommTagDefinitionVersionContextInterestedMosList exte
 }
 export interface DataIntersightCommTagDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4129,19 +4129,19 @@ export interface DataIntersightCommTagDefinitionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#moid DataIntersightCommTagDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4154,7 +4154,7 @@ export interface DataIntersightCommTagDefinitionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#selector DataIntersightCommTagDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4354,7 +4354,7 @@ export class DataIntersightCommTagDefinitionVersionContextRefMoOutputReference e
 }
 export interface DataIntersightCommTagDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#additional_properties DataIntersightCommTagDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4362,32 +4362,32 @@ export interface DataIntersightCommTagDefinitionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#class_id DataIntersightCommTagDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#marked_for_deletion DataIntersightCommTagDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#marked_for_deletion DataIntersightCommTagDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#nr_version DataIntersightCommTagDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#nr_version DataIntersightCommTagDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#object_type DataIntersightCommTagDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#timestamp DataIntersightCommTagDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#timestamp DataIntersightCommTagDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4398,19 +4398,19 @@ export interface DataIntersightCommTagDefinitionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#version_type DataIntersightCommTagDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#version_type DataIntersightCommTagDefinition#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#interested_mos DataIntersightCommTagDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#interested_mos DataIntersightCommTagDefinition#interested_mos}
   */
   readonly interestedMos?: DataIntersightCommTagDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#ref_mo DataIntersightCommTagDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#ref_mo DataIntersightCommTagDefinition#ref_mo}
   */
   readonly refMo?: DataIntersightCommTagDefinitionVersionContextRefMo;
 }
@@ -4726,7 +4726,7 @@ export class DataIntersightCommTagDefinitionVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition intersight_comm_tag_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition intersight_comm_tag_definition}
 */
 export class DataIntersightCommTagDefinition extends cdktf.TerraformDataSource {
 
@@ -4742,7 +4742,7 @@ export class DataIntersightCommTagDefinition extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightCommTagDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCommTagDefinition to import
-  * @param importFromId The id of the existing DataIntersightCommTagDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCommTagDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCommTagDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4754,7 +4754,7 @@ export class DataIntersightCommTagDefinition extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_tag_definition intersight_comm_tag_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_tag_definition intersight_comm_tag_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4765,8 +4765,8 @@ export class DataIntersightCommTagDefinition extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_comm_tag_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

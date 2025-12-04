@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClickhouseKeyvalConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#id ClickhouseKeyvalConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#id ClickhouseKeyvalConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ClickhouseKeyvalConfigConfig extends cdktf.TerraformMetaArgumen
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#instance_id ClickhouseKeyvalConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#instance_id ClickhouseKeyvalConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#items ClickhouseKeyvalConfig#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#items ClickhouseKeyvalConfig#items}
   */
   readonly items: ClickhouseKeyvalConfigItems;
 }
@@ -31,13 +31,13 @@ export interface ClickhouseKeyvalConfigItems {
   /**
   * Instance config key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#conf_key ClickhouseKeyvalConfig#conf_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#conf_key ClickhouseKeyvalConfig#conf_key}
   */
   readonly confKey: string;
   /**
   * Instance config value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#conf_value ClickhouseKeyvalConfig#conf_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#conf_value ClickhouseKeyvalConfig#conf_value}
   */
   readonly confValue: string;
 }
@@ -144,7 +144,7 @@ export class ClickhouseKeyvalConfigItemsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config tencentcloud_clickhouse_keyval_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config tencentcloud_clickhouse_keyval_config}
 */
 export class ClickhouseKeyvalConfig extends cdktf.TerraformResource {
 
@@ -160,7 +160,7 @@ export class ClickhouseKeyvalConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseKeyvalConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseKeyvalConfig to import
-  * @param importFromId The id of the existing ClickhouseKeyvalConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseKeyvalConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseKeyvalConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class ClickhouseKeyvalConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/clickhouse_keyval_config tencentcloud_clickhouse_keyval_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/clickhouse_keyval_config tencentcloud_clickhouse_keyval_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class ClickhouseKeyvalConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clickhouse_keyval_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

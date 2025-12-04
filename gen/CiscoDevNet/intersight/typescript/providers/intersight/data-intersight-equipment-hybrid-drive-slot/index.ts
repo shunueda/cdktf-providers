@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentHybridDriveSlotConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#account_moid DataIntersightEquipmentHybridDriveSlot#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#account_moid DataIntersightEquipmentHybridDriveSlot#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,13 +22,13 @@ export interface DataIntersightEquipmentHybridDriveSlotConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#create_time DataIntersightEquipmentHybridDriveSlot#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#create_time DataIntersightEquipmentHybridDriveSlot#create_time}
   */
   readonly createTime?: string;
   /**
@@ -37,29 +37,29 @@ export interface DataIntersightEquipmentHybridDriveSlotConfig extends cdktf.Terr
   * * `Controller` - Hybrid Drive slot mode is Controller.
   * * `Direct` - Hybrid Drive slot mode is Direct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#current_mode DataIntersightEquipmentHybridDriveSlot#current_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#current_mode DataIntersightEquipmentHybridDriveSlot#current_mode}
   */
   readonly currentMode?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#device_mo_id DataIntersightEquipmentHybridDriveSlot#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#device_mo_id DataIntersightEquipmentHybridDriveSlot#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#dn DataIntersightEquipmentHybridDriveSlot#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#dn DataIntersightEquipmentHybridDriveSlot#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#domain_group_moid DataIntersightEquipmentHybridDriveSlot#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#domain_group_moid DataIntersightEquipmentHybridDriveSlot#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#id DataIntersightEquipmentHybridDriveSlot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#id DataIntersightEquipmentHybridDriveSlot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,42 +68,42 @@ export interface DataIntersightEquipmentHybridDriveSlotConfig extends cdktf.Terr
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#is_upgraded DataIntersightEquipmentHybridDriveSlot#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#is_upgraded DataIntersightEquipmentHybridDriveSlot#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#mod_time DataIntersightEquipmentHybridDriveSlot#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#mod_time DataIntersightEquipmentHybridDriveSlot#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#model DataIntersightEquipmentHybridDriveSlot#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#model DataIntersightEquipmentHybridDriveSlot#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#owners DataIntersightEquipmentHybridDriveSlot#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#owners DataIntersightEquipmentHybridDriveSlot#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#presence DataIntersightEquipmentHybridDriveSlot#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#presence DataIntersightEquipmentHybridDriveSlot#presence}
   */
   readonly presence?: string;
   /**
@@ -112,104 +112,104 @@ export interface DataIntersightEquipmentHybridDriveSlotConfig extends cdktf.Terr
   * * `Controller` - Hybrid Drive slot mode is Controller.
   * * `Direct` - Hybrid Drive slot mode is Direct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#requested_mode DataIntersightEquipmentHybridDriveSlot#requested_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#requested_mode DataIntersightEquipmentHybridDriveSlot#requested_mode}
   */
   readonly requestedMode?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#revision DataIntersightEquipmentHybridDriveSlot#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#revision DataIntersightEquipmentHybridDriveSlot#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#rn DataIntersightEquipmentHybridDriveSlot#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#rn DataIntersightEquipmentHybridDriveSlot#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#serial DataIntersightEquipmentHybridDriveSlot#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#serial DataIntersightEquipmentHybridDriveSlot#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#shared_scope DataIntersightEquipmentHybridDriveSlot#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#shared_scope DataIntersightEquipmentHybridDriveSlot#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field identifies a specific slot on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#slot_id DataIntersightEquipmentHybridDriveSlot#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#slot_id DataIntersightEquipmentHybridDriveSlot#slot_id}
   */
   readonly slotId?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#vendor DataIntersightEquipmentHybridDriveSlot#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#vendor DataIntersightEquipmentHybridDriveSlot#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#ancestors DataIntersightEquipmentHybridDriveSlot#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#ancestors DataIntersightEquipmentHybridDriveSlot#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentHybridDriveSlotAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#compute_blade DataIntersightEquipmentHybridDriveSlot#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#compute_blade DataIntersightEquipmentHybridDriveSlot#compute_blade}
   */
   readonly computeBlade?: DataIntersightEquipmentHybridDriveSlotComputeBlade;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#compute_board DataIntersightEquipmentHybridDriveSlot#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#compute_board DataIntersightEquipmentHybridDriveSlot#compute_board}
   */
   readonly computeBoard?: DataIntersightEquipmentHybridDriveSlotComputeBoard;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#compute_rack_unit DataIntersightEquipmentHybridDriveSlot#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#compute_rack_unit DataIntersightEquipmentHybridDriveSlot#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightEquipmentHybridDriveSlotComputeRackUnit;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#parent DataIntersightEquipmentHybridDriveSlot#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#parent DataIntersightEquipmentHybridDriveSlot#parent}
   */
   readonly parent?: DataIntersightEquipmentHybridDriveSlotParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#permission_resources DataIntersightEquipmentHybridDriveSlot#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#permission_resources DataIntersightEquipmentHybridDriveSlot#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentHybridDriveSlotPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#previous_fru DataIntersightEquipmentHybridDriveSlot#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#previous_fru DataIntersightEquipmentHybridDriveSlot#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentHybridDriveSlotPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#registered_device DataIntersightEquipmentHybridDriveSlot#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#registered_device DataIntersightEquipmentHybridDriveSlot#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentHybridDriveSlotRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#tags DataIntersightEquipmentHybridDriveSlot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#tags DataIntersightEquipmentHybridDriveSlot#tags}
   */
   readonly tags?: DataIntersightEquipmentHybridDriveSlotTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#version_context DataIntersightEquipmentHybridDriveSlot#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#version_context DataIntersightEquipmentHybridDriveSlot#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentHybridDriveSlotVersionContext;
 }
@@ -1824,7 +1824,7 @@ export class DataIntersightEquipmentHybridDriveSlotResultsList extends cdktf.Com
 }
 export interface DataIntersightEquipmentHybridDriveSlotAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1832,19 +1832,19 @@ export interface DataIntersightEquipmentHybridDriveSlotAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1857,7 +1857,7 @@ export interface DataIntersightEquipmentHybridDriveSlotAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -2089,7 +2089,7 @@ export class DataIntersightEquipmentHybridDriveSlotAncestorsList extends cdktf.C
 }
 export interface DataIntersightEquipmentHybridDriveSlotComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2097,19 +2097,19 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2122,7 +2122,7 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -2322,7 +2322,7 @@ export class DataIntersightEquipmentHybridDriveSlotComputeBladeOutputReference e
 }
 export interface DataIntersightEquipmentHybridDriveSlotComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2330,19 +2330,19 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2355,7 +2355,7 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -2555,7 +2555,7 @@ export class DataIntersightEquipmentHybridDriveSlotComputeBoardOutputReference e
 }
 export interface DataIntersightEquipmentHybridDriveSlotComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2563,19 +2563,19 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2588,7 +2588,7 @@ export interface DataIntersightEquipmentHybridDriveSlotComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -2788,7 +2788,7 @@ export class DataIntersightEquipmentHybridDriveSlotComputeRackUnitOutputReferenc
 }
 export interface DataIntersightEquipmentHybridDriveSlotParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2796,19 +2796,19 @@ export interface DataIntersightEquipmentHybridDriveSlotParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2821,7 +2821,7 @@ export interface DataIntersightEquipmentHybridDriveSlotParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -3021,7 +3021,7 @@ export class DataIntersightEquipmentHybridDriveSlotParentOutputReference extends
 }
 export interface DataIntersightEquipmentHybridDriveSlotPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3029,19 +3029,19 @@ export interface DataIntersightEquipmentHybridDriveSlotPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3054,7 +3054,7 @@ export interface DataIntersightEquipmentHybridDriveSlotPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -3286,7 +3286,7 @@ export class DataIntersightEquipmentHybridDriveSlotPermissionResourcesList exten
 }
 export interface DataIntersightEquipmentHybridDriveSlotPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3294,19 +3294,19 @@ export interface DataIntersightEquipmentHybridDriveSlotPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3319,7 +3319,7 @@ export interface DataIntersightEquipmentHybridDriveSlotPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -3519,7 +3519,7 @@ export class DataIntersightEquipmentHybridDriveSlotPreviousFruOutputReference ex
 }
 export interface DataIntersightEquipmentHybridDriveSlotRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3527,19 +3527,19 @@ export interface DataIntersightEquipmentHybridDriveSlotRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3552,7 +3552,7 @@ export interface DataIntersightEquipmentHybridDriveSlotRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -3752,7 +3752,7 @@ export class DataIntersightEquipmentHybridDriveSlotRegisteredDeviceOutputReferen
 }
 export interface DataIntersightEquipmentHybridDriveSlotTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3760,19 +3760,19 @@ export interface DataIntersightEquipmentHybridDriveSlotTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3785,7 +3785,7 @@ export interface DataIntersightEquipmentHybridDriveSlotTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -4017,7 +4017,7 @@ export class DataIntersightEquipmentHybridDriveSlotTagsAncestorDefinitionsList e
 }
 export interface DataIntersightEquipmentHybridDriveSlotTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4025,19 +4025,19 @@ export interface DataIntersightEquipmentHybridDriveSlotTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4050,7 +4050,7 @@ export interface DataIntersightEquipmentHybridDriveSlotTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -4250,25 +4250,25 @@ export class DataIntersightEquipmentHybridDriveSlotTagsDefinitionOutputReference
 }
 export interface DataIntersightEquipmentHybridDriveSlotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#key DataIntersightEquipmentHybridDriveSlot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#key DataIntersightEquipmentHybridDriveSlot#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#propagated DataIntersightEquipmentHybridDriveSlot#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#propagated DataIntersightEquipmentHybridDriveSlot#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#sys_tag DataIntersightEquipmentHybridDriveSlot#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#sys_tag DataIntersightEquipmentHybridDriveSlot#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4276,25 +4276,25 @@ export interface DataIntersightEquipmentHybridDriveSlotTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#type DataIntersightEquipmentHybridDriveSlot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#type DataIntersightEquipmentHybridDriveSlot#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#value DataIntersightEquipmentHybridDriveSlot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#value DataIntersightEquipmentHybridDriveSlot#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#ancestor_definitions DataIntersightEquipmentHybridDriveSlot#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#ancestor_definitions DataIntersightEquipmentHybridDriveSlot#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentHybridDriveSlotTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#definition DataIntersightEquipmentHybridDriveSlot#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#definition DataIntersightEquipmentHybridDriveSlot#definition}
   */
   readonly definition?: DataIntersightEquipmentHybridDriveSlotTagsDefinition;
 }
@@ -4613,7 +4613,7 @@ export class DataIntersightEquipmentHybridDriveSlotTagsList extends cdktf.Comple
 }
 export interface DataIntersightEquipmentHybridDriveSlotVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4621,19 +4621,19 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4646,7 +4646,7 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -4878,7 +4878,7 @@ export class DataIntersightEquipmentHybridDriveSlotVersionContextInterestedMosLi
 }
 export interface DataIntersightEquipmentHybridDriveSlotVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4886,19 +4886,19 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#moid DataIntersightEquipmentHybridDriveSlot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4911,7 +4911,7 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#selector DataIntersightEquipmentHybridDriveSlot#selector}
   */
   readonly selector?: string;
 }
@@ -5111,7 +5111,7 @@ export class DataIntersightEquipmentHybridDriveSlotVersionContextRefMoOutputRefe
 }
 export interface DataIntersightEquipmentHybridDriveSlotVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#additional_properties DataIntersightEquipmentHybridDriveSlot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5119,32 +5119,32 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#class_id DataIntersightEquipmentHybridDriveSlot#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#marked_for_deletion DataIntersightEquipmentHybridDriveSlot#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#marked_for_deletion DataIntersightEquipmentHybridDriveSlot#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#nr_version DataIntersightEquipmentHybridDriveSlot#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#nr_version DataIntersightEquipmentHybridDriveSlot#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#object_type DataIntersightEquipmentHybridDriveSlot#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#timestamp DataIntersightEquipmentHybridDriveSlot#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#timestamp DataIntersightEquipmentHybridDriveSlot#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5155,19 +5155,19 @@ export interface DataIntersightEquipmentHybridDriveSlotVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#version_type DataIntersightEquipmentHybridDriveSlot#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#version_type DataIntersightEquipmentHybridDriveSlot#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#interested_mos DataIntersightEquipmentHybridDriveSlot#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#interested_mos DataIntersightEquipmentHybridDriveSlot#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentHybridDriveSlotVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#ref_mo DataIntersightEquipmentHybridDriveSlot#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#ref_mo DataIntersightEquipmentHybridDriveSlot#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentHybridDriveSlotVersionContextRefMo;
 }
@@ -5483,7 +5483,7 @@ export class DataIntersightEquipmentHybridDriveSlotVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot intersight_equipment_hybrid_drive_slot}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot intersight_equipment_hybrid_drive_slot}
 */
 export class DataIntersightEquipmentHybridDriveSlot extends cdktf.TerraformDataSource {
 
@@ -5499,7 +5499,7 @@ export class DataIntersightEquipmentHybridDriveSlot extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightEquipmentHybridDriveSlot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentHybridDriveSlot to import
-  * @param importFromId The id of the existing DataIntersightEquipmentHybridDriveSlot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentHybridDriveSlot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentHybridDriveSlot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5511,7 +5511,7 @@ export class DataIntersightEquipmentHybridDriveSlot extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_hybrid_drive_slot intersight_equipment_hybrid_drive_slot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_hybrid_drive_slot intersight_equipment_hybrid_drive_slot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5522,8 +5522,8 @@ export class DataIntersightEquipmentHybridDriveSlot extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_equipment_hybrid_drive_slot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

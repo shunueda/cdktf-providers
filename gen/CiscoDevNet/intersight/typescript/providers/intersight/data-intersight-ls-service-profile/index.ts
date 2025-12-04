@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightLsServiceProfileConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#account_moid DataIntersightLsServiceProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#account_moid DataIntersightLsServiceProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Assignment state of the service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#assign_state DataIntersightLsServiceProfile#assign_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#assign_state DataIntersightLsServiceProfile#assign_state}
   */
   readonly assignState?: string;
   /**
   * Association state of the service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#assoc_state DataIntersightLsServiceProfile#assoc_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#assoc_state DataIntersightLsServiceProfile#assoc_state}
   */
   readonly assocState?: string;
   /**
   * Server to which the UCS Manager service profile is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#associated_server DataIntersightLsServiceProfile#associated_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#associated_server DataIntersightLsServiceProfile#associated_server}
   */
   readonly associatedServer?: string;
   /**
@@ -40,41 +40,41 @@ export interface DataIntersightLsServiceProfileConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration state of the service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#config_state DataIntersightLsServiceProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#config_state DataIntersightLsServiceProfile#config_state}
   */
   readonly configState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#create_time DataIntersightLsServiceProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#create_time DataIntersightLsServiceProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#device_mo_id DataIntersightLsServiceProfile#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#device_mo_id DataIntersightLsServiceProfile#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#dn DataIntersightLsServiceProfile#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#dn DataIntersightLsServiceProfile#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#domain_group_moid DataIntersightLsServiceProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#domain_group_moid DataIntersightLsServiceProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#id DataIntersightLsServiceProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#id DataIntersightLsServiceProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,91 +83,91 @@ export interface DataIntersightLsServiceProfileConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#mod_time DataIntersightLsServiceProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#mod_time DataIntersightLsServiceProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the UCS Manager service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#name DataIntersightLsServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#name DataIntersightLsServiceProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational state of the service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#oper_state DataIntersightLsServiceProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#oper_state DataIntersightLsServiceProfile#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#owners DataIntersightLsServiceProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#owners DataIntersightLsServiceProfile#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#rn DataIntersightLsServiceProfile#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#rn DataIntersightLsServiceProfile#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#shared_scope DataIntersightLsServiceProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#shared_scope DataIntersightLsServiceProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#ancestors DataIntersightLsServiceProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#ancestors DataIntersightLsServiceProfile#ancestors}
   */
   readonly ancestors?: DataIntersightLsServiceProfileAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#inventory_device_info DataIntersightLsServiceProfile#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#inventory_device_info DataIntersightLsServiceProfile#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightLsServiceProfileInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#parent DataIntersightLsServiceProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#parent DataIntersightLsServiceProfile#parent}
   */
   readonly parent?: DataIntersightLsServiceProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#permission_resources DataIntersightLsServiceProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#permission_resources DataIntersightLsServiceProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightLsServiceProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#registered_device DataIntersightLsServiceProfile#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#registered_device DataIntersightLsServiceProfile#registered_device}
   */
   readonly registeredDevice?: DataIntersightLsServiceProfileRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#tags DataIntersightLsServiceProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#tags DataIntersightLsServiceProfile#tags}
   */
   readonly tags?: DataIntersightLsServiceProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#version_context DataIntersightLsServiceProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#version_context DataIntersightLsServiceProfile#version_context}
   */
   readonly versionContext?: DataIntersightLsServiceProfileVersionContext;
 }
@@ -1464,7 +1464,7 @@ export class DataIntersightLsServiceProfileResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightLsServiceProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1472,19 +1472,19 @@ export interface DataIntersightLsServiceProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1497,7 +1497,7 @@ export interface DataIntersightLsServiceProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1729,7 +1729,7 @@ export class DataIntersightLsServiceProfileAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightLsServiceProfileInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1737,19 +1737,19 @@ export interface DataIntersightLsServiceProfileInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1762,7 +1762,7 @@ export interface DataIntersightLsServiceProfileInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1962,7 +1962,7 @@ export class DataIntersightLsServiceProfileInventoryDeviceInfoOutputReference ex
 }
 export interface DataIntersightLsServiceProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1970,19 +1970,19 @@ export interface DataIntersightLsServiceProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1995,7 +1995,7 @@ export interface DataIntersightLsServiceProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2195,7 +2195,7 @@ export class DataIntersightLsServiceProfileParentOutputReference extends cdktf.C
 }
 export interface DataIntersightLsServiceProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2203,19 +2203,19 @@ export interface DataIntersightLsServiceProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2228,7 +2228,7 @@ export interface DataIntersightLsServiceProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2460,7 +2460,7 @@ export class DataIntersightLsServiceProfilePermissionResourcesList extends cdktf
 }
 export interface DataIntersightLsServiceProfileRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2468,19 +2468,19 @@ export interface DataIntersightLsServiceProfileRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2493,7 +2493,7 @@ export interface DataIntersightLsServiceProfileRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2693,7 +2693,7 @@ export class DataIntersightLsServiceProfileRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightLsServiceProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2701,19 +2701,19 @@ export interface DataIntersightLsServiceProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2726,7 +2726,7 @@ export interface DataIntersightLsServiceProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2958,7 +2958,7 @@ export class DataIntersightLsServiceProfileTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightLsServiceProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2966,19 +2966,19 @@ export interface DataIntersightLsServiceProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2991,7 +2991,7 @@ export interface DataIntersightLsServiceProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3191,25 +3191,25 @@ export class DataIntersightLsServiceProfileTagsDefinitionOutputReference extends
 }
 export interface DataIntersightLsServiceProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#key DataIntersightLsServiceProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#key DataIntersightLsServiceProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#propagated DataIntersightLsServiceProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#propagated DataIntersightLsServiceProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#sys_tag DataIntersightLsServiceProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#sys_tag DataIntersightLsServiceProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3217,25 +3217,25 @@ export interface DataIntersightLsServiceProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#type DataIntersightLsServiceProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#type DataIntersightLsServiceProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#value DataIntersightLsServiceProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#value DataIntersightLsServiceProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#ancestor_definitions DataIntersightLsServiceProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#ancestor_definitions DataIntersightLsServiceProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightLsServiceProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#definition DataIntersightLsServiceProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#definition DataIntersightLsServiceProfile#definition}
   */
   readonly definition?: DataIntersightLsServiceProfileTagsDefinition;
 }
@@ -3554,7 +3554,7 @@ export class DataIntersightLsServiceProfileTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightLsServiceProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3562,19 +3562,19 @@ export interface DataIntersightLsServiceProfileVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3587,7 +3587,7 @@ export interface DataIntersightLsServiceProfileVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3819,7 +3819,7 @@ export class DataIntersightLsServiceProfileVersionContextInterestedMosList exten
 }
 export interface DataIntersightLsServiceProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3827,19 +3827,19 @@ export interface DataIntersightLsServiceProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#moid DataIntersightLsServiceProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3852,7 +3852,7 @@ export interface DataIntersightLsServiceProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#selector DataIntersightLsServiceProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4052,7 +4052,7 @@ export class DataIntersightLsServiceProfileVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightLsServiceProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#additional_properties DataIntersightLsServiceProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4060,32 +4060,32 @@ export interface DataIntersightLsServiceProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#class_id DataIntersightLsServiceProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#marked_for_deletion DataIntersightLsServiceProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#marked_for_deletion DataIntersightLsServiceProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#nr_version DataIntersightLsServiceProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#nr_version DataIntersightLsServiceProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#object_type DataIntersightLsServiceProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#timestamp DataIntersightLsServiceProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#timestamp DataIntersightLsServiceProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4096,19 +4096,19 @@ export interface DataIntersightLsServiceProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#version_type DataIntersightLsServiceProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#version_type DataIntersightLsServiceProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#interested_mos DataIntersightLsServiceProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#interested_mos DataIntersightLsServiceProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightLsServiceProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#ref_mo DataIntersightLsServiceProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#ref_mo DataIntersightLsServiceProfile#ref_mo}
   */
   readonly refMo?: DataIntersightLsServiceProfileVersionContextRefMo;
 }
@@ -4424,7 +4424,7 @@ export class DataIntersightLsServiceProfileVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile intersight_ls_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile intersight_ls_service_profile}
 */
 export class DataIntersightLsServiceProfile extends cdktf.TerraformDataSource {
 
@@ -4440,7 +4440,7 @@ export class DataIntersightLsServiceProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightLsServiceProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightLsServiceProfile to import
-  * @param importFromId The id of the existing DataIntersightLsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightLsServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightLsServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4452,7 +4452,7 @@ export class DataIntersightLsServiceProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ls_service_profile intersight_ls_service_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ls_service_profile intersight_ls_service_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4463,8 +4463,8 @@ export class DataIntersightLsServiceProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ls_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

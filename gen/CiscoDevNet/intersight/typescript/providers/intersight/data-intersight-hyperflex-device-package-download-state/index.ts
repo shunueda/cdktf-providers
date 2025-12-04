@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateConfig extends
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#account_moid DataIntersightHyperflexDevicePackageDownloadState#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#account_moid DataIntersightHyperflexDevicePackageDownloadState#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Checksum of HyperFlex health check Debian package installed on the HyperFlex Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#checksum DataIntersightHyperflexDevicePackageDownloadState#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#checksum DataIntersightHyperflexDevicePackageDownloadState#checksum}
   */
   readonly checksum?: string;
   /**
@@ -28,33 +28,33 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateConfig extends
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#create_time DataIntersightHyperflexDevicePackageDownloadState#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#create_time DataIntersightHyperflexDevicePackageDownloadState#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#domain_group_moid DataIntersightHyperflexDevicePackageDownloadState#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#domain_group_moid DataIntersightHyperflexDevicePackageDownloadState#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HyperFlex Device Name for which the package download state is tracked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#hx_device_name DataIntersightHyperflexDevicePackageDownloadState#hx_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#hx_device_name DataIntersightHyperflexDevicePackageDownloadState#hx_device_name}
   */
   readonly hxDeviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#hx_nodes DataIntersightHyperflexDevicePackageDownloadState#hx_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#hx_nodes DataIntersightHyperflexDevicePackageDownloadState#hx_nodes}
   */
   readonly hxNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#id DataIntersightHyperflexDevicePackageDownloadState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#id DataIntersightHyperflexDevicePackageDownloadState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,73 +63,73 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateConfig extends
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#mod_time DataIntersightHyperflexDevicePackageDownloadState#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#mod_time DataIntersightHyperflexDevicePackageDownloadState#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#owners DataIntersightHyperflexDevicePackageDownloadState#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#owners DataIntersightHyperflexDevicePackageDownloadState#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#shared_scope DataIntersightHyperflexDevicePackageDownloadState#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#shared_scope DataIntersightHyperflexDevicePackageDownloadState#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Timestamp of the last health check Debian package installation on the HyperFlex Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#timestamp DataIntersightHyperflexDevicePackageDownloadState#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#timestamp DataIntersightHyperflexDevicePackageDownloadState#timestamp}
   */
   readonly timestamp?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#ancestors DataIntersightHyperflexDevicePackageDownloadState#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#ancestors DataIntersightHyperflexDevicePackageDownloadState#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexDevicePackageDownloadStateAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#parent DataIntersightHyperflexDevicePackageDownloadState#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#parent DataIntersightHyperflexDevicePackageDownloadState#parent}
   */
   readonly parent?: DataIntersightHyperflexDevicePackageDownloadStateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#permission_resources DataIntersightHyperflexDevicePackageDownloadState#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#permission_resources DataIntersightHyperflexDevicePackageDownloadState#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexDevicePackageDownloadStatePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#registered_device DataIntersightHyperflexDevicePackageDownloadState#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#registered_device DataIntersightHyperflexDevicePackageDownloadState#registered_device}
   */
   readonly registeredDevice?: DataIntersightHyperflexDevicePackageDownloadStateRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#tags DataIntersightHyperflexDevicePackageDownloadState#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#tags DataIntersightHyperflexDevicePackageDownloadState#tags}
   */
   readonly tags?: DataIntersightHyperflexDevicePackageDownloadStateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#version_context DataIntersightHyperflexDevicePackageDownloadState#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#version_context DataIntersightHyperflexDevicePackageDownloadState#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexDevicePackageDownloadStateVersionContext;
 }
@@ -1300,7 +1300,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateResultsList extend
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1308,19 +1308,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1333,7 +1333,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -1565,7 +1565,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateAncestorsList exte
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1573,19 +1573,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1598,7 +1598,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -1798,7 +1798,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateParentOutputRefere
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1806,19 +1806,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStatePermissionReso
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1831,7 +1831,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStatePermissionReso
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -2063,7 +2063,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStatePermissionResource
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2071,19 +2071,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateRegisteredDevi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2096,7 +2096,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateRegisteredDevi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -2296,7 +2296,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateRegisteredDeviceOu
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2304,19 +2304,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateTagsAncestorDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2329,7 +2329,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateTagsAncestorDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -2561,7 +2561,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateTagsAncestorDefini
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2569,19 +2569,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateTagsDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2594,7 +2594,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateTagsDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -2794,25 +2794,25 @@ export class DataIntersightHyperflexDevicePackageDownloadStateTagsDefinitionOutp
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#key DataIntersightHyperflexDevicePackageDownloadState#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#key DataIntersightHyperflexDevicePackageDownloadState#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#propagated DataIntersightHyperflexDevicePackageDownloadState#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#propagated DataIntersightHyperflexDevicePackageDownloadState#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#sys_tag DataIntersightHyperflexDevicePackageDownloadState#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#sys_tag DataIntersightHyperflexDevicePackageDownloadState#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2820,25 +2820,25 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#type DataIntersightHyperflexDevicePackageDownloadState#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#type DataIntersightHyperflexDevicePackageDownloadState#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#value DataIntersightHyperflexDevicePackageDownloadState#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#value DataIntersightHyperflexDevicePackageDownloadState#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#ancestor_definitions DataIntersightHyperflexDevicePackageDownloadState#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#ancestor_definitions DataIntersightHyperflexDevicePackageDownloadState#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexDevicePackageDownloadStateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#definition DataIntersightHyperflexDevicePackageDownloadState#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#definition DataIntersightHyperflexDevicePackageDownloadState#definition}
   */
   readonly definition?: DataIntersightHyperflexDevicePackageDownloadStateTagsDefinition;
 }
@@ -3157,7 +3157,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateTagsList extends c
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3165,19 +3165,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3190,7 +3190,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -3422,7 +3422,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateVersionContextInte
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3430,19 +3430,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#moid DataIntersightHyperflexDevicePackageDownloadState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3455,7 +3455,7 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#selector DataIntersightHyperflexDevicePackageDownloadState#selector}
   */
   readonly selector?: string;
 }
@@ -3655,7 +3655,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateVersionContextRefM
 }
 export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#additional_properties DataIntersightHyperflexDevicePackageDownloadState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3663,32 +3663,32 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#class_id DataIntersightHyperflexDevicePackageDownloadState#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#marked_for_deletion DataIntersightHyperflexDevicePackageDownloadState#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#marked_for_deletion DataIntersightHyperflexDevicePackageDownloadState#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#nr_version DataIntersightHyperflexDevicePackageDownloadState#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#nr_version DataIntersightHyperflexDevicePackageDownloadState#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#object_type DataIntersightHyperflexDevicePackageDownloadState#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#timestamp DataIntersightHyperflexDevicePackageDownloadState#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#timestamp DataIntersightHyperflexDevicePackageDownloadState#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3699,19 +3699,19 @@ export interface DataIntersightHyperflexDevicePackageDownloadStateVersionContext
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#version_type DataIntersightHyperflexDevicePackageDownloadState#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#version_type DataIntersightHyperflexDevicePackageDownloadState#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#interested_mos DataIntersightHyperflexDevicePackageDownloadState#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#interested_mos DataIntersightHyperflexDevicePackageDownloadState#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexDevicePackageDownloadStateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#ref_mo DataIntersightHyperflexDevicePackageDownloadState#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#ref_mo DataIntersightHyperflexDevicePackageDownloadState#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexDevicePackageDownloadStateVersionContextRefMo;
 }
@@ -4027,7 +4027,7 @@ export class DataIntersightHyperflexDevicePackageDownloadStateVersionContextOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state intersight_hyperflex_device_package_download_state}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state intersight_hyperflex_device_package_download_state}
 */
 export class DataIntersightHyperflexDevicePackageDownloadState extends cdktf.TerraformDataSource {
 
@@ -4043,7 +4043,7 @@ export class DataIntersightHyperflexDevicePackageDownloadState extends cdktf.Ter
   * Generates CDKTF code for importing a DataIntersightHyperflexDevicePackageDownloadState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexDevicePackageDownloadState to import
-  * @param importFromId The id of the existing DataIntersightHyperflexDevicePackageDownloadState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexDevicePackageDownloadState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexDevicePackageDownloadState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4055,7 +4055,7 @@ export class DataIntersightHyperflexDevicePackageDownloadState extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_device_package_download_state intersight_hyperflex_device_package_download_state} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_device_package_download_state intersight_hyperflex_device_package_download_state} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4066,8 +4066,8 @@ export class DataIntersightHyperflexDevicePackageDownloadState extends cdktf.Ter
       terraformResourceType: 'intersight_hyperflex_device_package_download_state',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

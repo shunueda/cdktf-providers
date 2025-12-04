@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareMswitchDescriptorConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#account_moid DataIntersightFirmwareMswitchDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#account_moid DataIntersightFirmwareMswitchDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#brand_string DataIntersightFirmwareMswitchDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#brand_string DataIntersightFirmwareMswitchDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
@@ -29,29 +29,29 @@ export interface DataIntersightFirmwareMswitchDescriptorConfig extends cdktf.Ter
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#create_time DataIntersightFirmwareMswitchDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#create_time DataIntersightFirmwareMswitchDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#description DataIntersightFirmwareMswitchDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#description DataIntersightFirmwareMswitchDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#domain_group_moid DataIntersightFirmwareMswitchDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#domain_group_moid DataIntersightFirmwareMswitchDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#id DataIntersightFirmwareMswitchDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#id DataIntersightFirmwareMswitchDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,31 +60,31 @@ export interface DataIntersightFirmwareMswitchDescriptorConfig extends cdktf.Ter
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#label DataIntersightFirmwareMswitchDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#label DataIntersightFirmwareMswitchDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#mod_time DataIntersightFirmwareMswitchDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#mod_time DataIntersightFirmwareMswitchDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#model DataIntersightFirmwareMswitchDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#model DataIntersightFirmwareMswitchDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#nr_version DataIntersightFirmwareMswitchDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#nr_version DataIntersightFirmwareMswitchDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -92,66 +92,66 @@ export interface DataIntersightFirmwareMswitchDescriptorConfig extends cdktf.Ter
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#owners DataIntersightFirmwareMswitchDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#owners DataIntersightFirmwareMswitchDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#revision DataIntersightFirmwareMswitchDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#revision DataIntersightFirmwareMswitchDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#shared_scope DataIntersightFirmwareMswitchDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#shared_scope DataIntersightFirmwareMswitchDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#vendor DataIntersightFirmwareMswitchDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#vendor DataIntersightFirmwareMswitchDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#ancestors DataIntersightFirmwareMswitchDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#ancestors DataIntersightFirmwareMswitchDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareMswitchDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#capabilities DataIntersightFirmwareMswitchDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#capabilities DataIntersightFirmwareMswitchDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightFirmwareMswitchDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#parent DataIntersightFirmwareMswitchDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#parent DataIntersightFirmwareMswitchDescriptor#parent}
   */
   readonly parent?: DataIntersightFirmwareMswitchDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#permission_resources DataIntersightFirmwareMswitchDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#permission_resources DataIntersightFirmwareMswitchDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareMswitchDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#tags DataIntersightFirmwareMswitchDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#tags DataIntersightFirmwareMswitchDescriptor#tags}
   */
   readonly tags?: DataIntersightFirmwareMswitchDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#version_context DataIntersightFirmwareMswitchDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#version_context DataIntersightFirmwareMswitchDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareMswitchDescriptorVersionContext;
 }
@@ -1337,7 +1337,7 @@ export class DataIntersightFirmwareMswitchDescriptorResultsList extends cdktf.Co
 }
 export interface DataIntersightFirmwareMswitchDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1345,19 +1345,19 @@ export interface DataIntersightFirmwareMswitchDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1370,7 +1370,7 @@ export interface DataIntersightFirmwareMswitchDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1602,7 +1602,7 @@ export class DataIntersightFirmwareMswitchDescriptorAncestorsList extends cdktf.
 }
 export interface DataIntersightFirmwareMswitchDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1610,19 +1610,19 @@ export interface DataIntersightFirmwareMswitchDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1635,7 +1635,7 @@ export interface DataIntersightFirmwareMswitchDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1867,7 +1867,7 @@ export class DataIntersightFirmwareMswitchDescriptorCapabilitiesList extends cdk
 }
 export interface DataIntersightFirmwareMswitchDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1875,19 +1875,19 @@ export interface DataIntersightFirmwareMswitchDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1900,7 +1900,7 @@ export interface DataIntersightFirmwareMswitchDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2100,7 +2100,7 @@ export class DataIntersightFirmwareMswitchDescriptorParentOutputReference extend
 }
 export interface DataIntersightFirmwareMswitchDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2108,19 +2108,19 @@ export interface DataIntersightFirmwareMswitchDescriptorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2133,7 +2133,7 @@ export interface DataIntersightFirmwareMswitchDescriptorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2365,7 +2365,7 @@ export class DataIntersightFirmwareMswitchDescriptorPermissionResourcesList exte
 }
 export interface DataIntersightFirmwareMswitchDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2373,19 +2373,19 @@ export interface DataIntersightFirmwareMswitchDescriptorTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2398,7 +2398,7 @@ export interface DataIntersightFirmwareMswitchDescriptorTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2630,7 +2630,7 @@ export class DataIntersightFirmwareMswitchDescriptorTagsAncestorDefinitionsList 
 }
 export interface DataIntersightFirmwareMswitchDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2638,19 +2638,19 @@ export interface DataIntersightFirmwareMswitchDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2663,7 +2663,7 @@ export interface DataIntersightFirmwareMswitchDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2863,25 +2863,25 @@ export class DataIntersightFirmwareMswitchDescriptorTagsDefinitionOutputReferenc
 }
 export interface DataIntersightFirmwareMswitchDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#key DataIntersightFirmwareMswitchDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#key DataIntersightFirmwareMswitchDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#propagated DataIntersightFirmwareMswitchDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#propagated DataIntersightFirmwareMswitchDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#sys_tag DataIntersightFirmwareMswitchDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#sys_tag DataIntersightFirmwareMswitchDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2889,25 +2889,25 @@ export interface DataIntersightFirmwareMswitchDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#type DataIntersightFirmwareMswitchDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#type DataIntersightFirmwareMswitchDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#value DataIntersightFirmwareMswitchDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#value DataIntersightFirmwareMswitchDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#ancestor_definitions DataIntersightFirmwareMswitchDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#ancestor_definitions DataIntersightFirmwareMswitchDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareMswitchDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#definition DataIntersightFirmwareMswitchDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#definition DataIntersightFirmwareMswitchDescriptor#definition}
   */
   readonly definition?: DataIntersightFirmwareMswitchDescriptorTagsDefinition;
 }
@@ -3226,7 +3226,7 @@ export class DataIntersightFirmwareMswitchDescriptorTagsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwareMswitchDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3234,19 +3234,19 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3259,7 +3259,7 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3491,7 +3491,7 @@ export class DataIntersightFirmwareMswitchDescriptorVersionContextInterestedMosL
 }
 export interface DataIntersightFirmwareMswitchDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3499,19 +3499,19 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#moid DataIntersightFirmwareMswitchDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3524,7 +3524,7 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#selector DataIntersightFirmwareMswitchDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3724,7 +3724,7 @@ export class DataIntersightFirmwareMswitchDescriptorVersionContextRefMoOutputRef
 }
 export interface DataIntersightFirmwareMswitchDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#additional_properties DataIntersightFirmwareMswitchDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3732,32 +3732,32 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#class_id DataIntersightFirmwareMswitchDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#marked_for_deletion DataIntersightFirmwareMswitchDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#marked_for_deletion DataIntersightFirmwareMswitchDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#nr_version DataIntersightFirmwareMswitchDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#nr_version DataIntersightFirmwareMswitchDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#object_type DataIntersightFirmwareMswitchDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#timestamp DataIntersightFirmwareMswitchDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#timestamp DataIntersightFirmwareMswitchDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3768,19 +3768,19 @@ export interface DataIntersightFirmwareMswitchDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#version_type DataIntersightFirmwareMswitchDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#version_type DataIntersightFirmwareMswitchDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#interested_mos DataIntersightFirmwareMswitchDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#interested_mos DataIntersightFirmwareMswitchDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareMswitchDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#ref_mo DataIntersightFirmwareMswitchDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#ref_mo DataIntersightFirmwareMswitchDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareMswitchDescriptorVersionContextRefMo;
 }
@@ -4096,7 +4096,7 @@ export class DataIntersightFirmwareMswitchDescriptorVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor intersight_firmware_mswitch_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor intersight_firmware_mswitch_descriptor}
 */
 export class DataIntersightFirmwareMswitchDescriptor extends cdktf.TerraformDataSource {
 
@@ -4112,7 +4112,7 @@ export class DataIntersightFirmwareMswitchDescriptor extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightFirmwareMswitchDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareMswitchDescriptor to import
-  * @param importFromId The id of the existing DataIntersightFirmwareMswitchDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareMswitchDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareMswitchDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4124,7 +4124,7 @@ export class DataIntersightFirmwareMswitchDescriptor extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_mswitch_descriptor intersight_firmware_mswitch_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_mswitch_descriptor intersight_firmware_mswitch_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4135,8 +4135,8 @@ export class DataIntersightFirmwareMswitchDescriptor extends cdktf.TerraformData
       terraformResourceType: 'intersight_firmware_mswitch_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

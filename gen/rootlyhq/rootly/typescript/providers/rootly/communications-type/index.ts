@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CommunicationsTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The color of the communications type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#color CommunicationsType#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#color CommunicationsType#color}
   */
   readonly color: string;
   /**
   * The description of the communications type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#description CommunicationsType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#description CommunicationsType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#id CommunicationsType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#id CommunicationsType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CommunicationsTypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the communications type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#name CommunicationsType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#name CommunicationsType#name}
   */
   readonly name: string;
   /**
   * Position of the communications type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#position CommunicationsType#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#position CommunicationsType#position}
   */
   readonly position?: number;
   /**
   * The slug of the communications type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#slug CommunicationsType#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#slug CommunicationsType#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type rootly_communications_type}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type rootly_communications_type}
 */
 export class CommunicationsType extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CommunicationsType extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CommunicationsType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CommunicationsType to import
-  * @param importFromId The id of the existing CommunicationsType that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CommunicationsType that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CommunicationsType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CommunicationsType extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/communications_type rootly_communications_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/communications_type rootly_communications_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CommunicationsType extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_communications_type',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

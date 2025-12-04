@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHciDiskConfig extends cdktf.TerraformMetaArgument
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#account_moid DataIntersightHciDisk#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#account_moid DataIntersightHciDisk#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,65 +22,65 @@ export interface DataIntersightHciDiskConfig extends cdktf.TerraformMetaArgument
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The unique identifier of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#cluster_ext_id DataIntersightHciDisk#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#cluster_ext_id DataIntersightHciDisk#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
   * The name of the cluster this disk belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#cluster_name DataIntersightHciDisk#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#cluster_name DataIntersightHciDisk#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#create_time DataIntersightHciDisk#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#create_time DataIntersightHciDisk#create_time}
   */
   readonly createTime?: string;
   /**
   * The unique identifier of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#disk_ext_id DataIntersightHciDisk#disk_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#disk_ext_id DataIntersightHciDisk#disk_ext_id}
   */
   readonly diskExtId?: string;
   /**
   * The size of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#disk_size_bytes DataIntersightHciDisk#disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#disk_size_bytes DataIntersightHciDisk#disk_size_bytes}
   */
   readonly diskSizeBytes?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#domain_group_moid DataIntersightHciDisk#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#domain_group_moid DataIntersightHciDisk#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The current firmware version of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#firmware_version DataIntersightHciDisk#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#firmware_version DataIntersightHciDisk#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
   * Indicates if the disk is boot only and no disk operation to be run on it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#has_boot_partitions_only DataIntersightHciDisk#has_boot_partitions_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#has_boot_partitions_only DataIntersightHciDisk#has_boot_partitions_only}
   */
   readonly hasBootPartitionsOnly?: boolean | cdktf.IResolvable;
   /**
   * The name of the host the disk is running on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#host_name DataIntersightHciDisk#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#host_name DataIntersightHciDisk#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#id DataIntersightHciDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#id DataIntersightHciDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,255 +89,255 @@ export interface DataIntersightHciDiskConfig extends cdktf.TerraformMetaArgument
   /**
   * Indicate if the disk is a boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_boot_disk DataIntersightHciDisk#is_boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_boot_disk DataIntersightHciDisk#is_boot_disk}
   */
   readonly isBootDisk?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk data is migrated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_data_migrated DataIntersightHciDisk#is_data_migrated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_data_migrated DataIntersightHciDisk#is_data_migrated}
   */
   readonly isDataMigrated?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the diagnostic information is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_diagnostic_info_available DataIntersightHciDisk#is_diagnostic_info_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_diagnostic_info_available DataIntersightHciDisk#is_diagnostic_info_available}
   */
   readonly isDiagnosticInfoAvailable?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the error is found in kernel logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_error_found_in_logs DataIntersightHciDisk#is_error_found_in_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_error_found_in_logs DataIntersightHciDisk#is_error_found_in_logs}
   */
   readonly isErrorFoundInLogs?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is marked for removal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_marked_for_removal DataIntersightHciDisk#is_marked_for_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_marked_for_removal DataIntersightHciDisk#is_marked_for_removal}
   */
   readonly isMarkedForRemoval?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_mounted DataIntersightHciDisk#is_mounted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_mounted DataIntersightHciDisk#is_mounted}
   */
   readonly isMounted?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is online or offline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_online DataIntersightHciDisk#is_online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_online DataIntersightHciDisk#is_online}
   */
   readonly isOnline?: boolean | cdktf.IResolvable;
   /**
   * The password protection status of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_password_protected DataIntersightHciDisk#is_password_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_password_protected DataIntersightHciDisk#is_password_protected}
   */
   readonly isPasswordProtected?: boolean | cdktf.IResolvable;
   /**
   * Indicates if diagnostics are running on the Disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_planned_outage DataIntersightHciDisk#is_planned_outage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_planned_outage DataIntersightHciDisk#is_planned_outage}
   */
   readonly isPlannedOutage?: boolean | cdktf.IResolvable;
   /**
   * The self-encrypting drive status of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_self_encrypting_drive DataIntersightHciDisk#is_self_encrypting_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_self_encrypting_drive DataIntersightHciDisk#is_self_encrypting_drive}
   */
   readonly isSelfEncryptingDrive?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the NVMe Disk is self managed and no host/CVM reboot is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_self_managed_nvme DataIntersightHciDisk#is_self_managed_nvme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_self_managed_nvme DataIntersightHciDisk#is_self_managed_nvme}
   */
   readonly isSelfManagedNvme?: boolean | cdktf.IResolvable;
   /**
   * Indicates if NVMe device is managed by storage performance development 
   * kit (SPDK).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_spdk_managed DataIntersightHciDisk#is_spdk_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_spdk_managed DataIntersightHciDisk#is_spdk_managed}
   */
   readonly isSpdkManaged?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is suspected unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_suspected_unhealthy DataIntersightHciDisk#is_suspected_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_suspected_unhealthy DataIntersightHciDisk#is_suspected_unhealthy}
   */
   readonly isSuspectedUnhealthy?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is under diagnosis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_under_diagnosis DataIntersightHciDisk#is_under_diagnosis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_under_diagnosis DataIntersightHciDisk#is_under_diagnosis}
   */
   readonly isUnderDiagnosis?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the disk is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#is_unhealthy DataIntersightHciDisk#is_unhealthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#is_unhealthy DataIntersightHciDisk#is_unhealthy}
   */
   readonly isUnhealthy?: boolean | cdktf.IResolvable;
   /**
   * The location of the disk in the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#location DataIntersightHciDisk#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#location DataIntersightHciDisk#location}
   */
   readonly location?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#mod_time DataIntersightHciDisk#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#mod_time DataIntersightHciDisk#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the reported disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#model DataIntersightHciDisk#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#model DataIntersightHciDisk#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The mount path of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#mount_path DataIntersightHciDisk#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#mount_path DataIntersightHciDisk#mount_path}
   */
   readonly mountPath?: string;
   /**
   * The unique identifier of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#node_ext_id DataIntersightHciDisk#node_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#node_ext_id DataIntersightHciDisk#node_ext_id}
   */
   readonly nodeExtId?: string;
   /**
   * The PCIe path of the NVMe disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#nvme_pcie_path DataIntersightHciDisk#nvme_pcie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#nvme_pcie_path DataIntersightHciDisk#nvme_pcie_path}
   */
   readonly nvmePciePath?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#owners DataIntersightHciDisk#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#owners DataIntersightHciDisk#owners}
   */
   readonly owners?: string[];
   /**
   * The physical capacity of the disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#physical_capacity_bytes DataIntersightHciDisk#physical_capacity_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#physical_capacity_bytes DataIntersightHciDisk#physical_capacity_bytes}
   */
   readonly physicalCapacityBytes?: number;
   /**
   * The serial number of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#serial_number DataIntersightHciDisk#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#serial_number DataIntersightHciDisk#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The unique identifier of the service VM on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#service_vm_id DataIntersightHciDisk#service_vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#service_vm_id DataIntersightHciDisk#service_vm_id}
   */
   readonly serviceVmId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#shared_scope DataIntersightHciDisk#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#shared_scope DataIntersightHciDisk#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The status of the disk such as NORMAL, MARKED_FOR_REMOVAL_BUT_NOT_DETACHABLE,
   * DETACHABLE, DATA_MIGRATION_INITIATED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#status DataIntersightHciDisk#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#status DataIntersightHciDisk#status}
   */
   readonly status?: string;
   /**
   * The unique identifier of the storage pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#storage_pool_ext_id DataIntersightHciDisk#storage_pool_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#storage_pool_ext_id DataIntersightHciDisk#storage_pool_ext_id}
   */
   readonly storagePoolExtId?: string;
   /**
   * The storage tier of the disk such as SSD_PCIE, SSD_SATA, DAS_SATA, CLOUD, SSD_MEM_NVME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#storage_tier DataIntersightHciDisk#storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#storage_tier DataIntersightHciDisk#storage_tier}
   */
   readonly storageTier?: string;
   /**
   * The target firmware version of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#target_firmware_version DataIntersightHciDisk#target_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#target_firmware_version DataIntersightHciDisk#target_firmware_version}
   */
   readonly targetFirmwareVersion?: string;
   /**
   * The vendor of the reported disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#vendor DataIntersightHciDisk#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#vendor DataIntersightHciDisk#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ancestors DataIntersightHciDisk#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ancestors DataIntersightHciDisk#ancestors}
   */
   readonly ancestors?: DataIntersightHciDiskAncestors[] | cdktf.IResolvable;
   /**
   * cvm_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#cvm_ip_address DataIntersightHciDisk#cvm_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#cvm_ip_address DataIntersightHciDisk#cvm_ip_address}
   */
   readonly cvmIpAddress?: DataIntersightHciDiskCvmIpAddress;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#node DataIntersightHciDisk#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#node DataIntersightHciDisk#node}
   */
   readonly nodeAttribute?: DataIntersightHciDiskNode;
   /**
   * node_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#node_ip_address DataIntersightHciDisk#node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#node_ip_address DataIntersightHciDisk#node_ip_address}
   */
   readonly nodeIpAddress?: DataIntersightHciDiskNodeIpAddress;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#parent DataIntersightHciDisk#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#parent DataIntersightHciDisk#parent}
   */
   readonly parent?: DataIntersightHciDiskParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#permission_resources DataIntersightHciDisk#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#permission_resources DataIntersightHciDisk#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciDiskPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#registered_device DataIntersightHciDisk#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#registered_device DataIntersightHciDisk#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciDiskRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#tags DataIntersightHciDisk#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#tags DataIntersightHciDisk#tags}
   */
   readonly tags?: DataIntersightHciDiskTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#version_context DataIntersightHciDisk#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#version_context DataIntersightHciDisk#version_context}
   */
   readonly versionContext?: DataIntersightHciDiskVersionContext;
 }
@@ -1986,7 +1986,7 @@ export class DataIntersightHciDiskResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciDiskAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1994,19 +1994,19 @@ export interface DataIntersightHciDiskAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2019,7 +2019,7 @@ export interface DataIntersightHciDiskAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2251,7 +2251,7 @@ export class DataIntersightHciDiskAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciDiskCvmIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2259,38 +2259,38 @@ export interface DataIntersightHciDiskCvmIpAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv4_address DataIntersightHciDisk#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv4_address DataIntersightHciDisk#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv4_prefix_length DataIntersightHciDisk#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv4_prefix_length DataIntersightHciDisk#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv6_address DataIntersightHciDisk#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv6_address DataIntersightHciDisk#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv6_prefix_length DataIntersightHciDisk#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv6_prefix_length DataIntersightHciDisk#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
 }
@@ -2548,7 +2548,7 @@ export class DataIntersightHciDiskCvmIpAddressOutputReference extends cdktf.Comp
 }
 export interface DataIntersightHciDiskNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2556,19 +2556,19 @@ export interface DataIntersightHciDiskNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2581,7 +2581,7 @@ export interface DataIntersightHciDiskNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2781,7 +2781,7 @@ export class DataIntersightHciDiskNodeOutputReference extends cdktf.ComplexObjec
 }
 export interface DataIntersightHciDiskNodeIpAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2789,38 +2789,38 @@ export interface DataIntersightHciDiskNodeIpAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * An IPv4 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv4_address DataIntersightHciDisk#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv4_address DataIntersightHciDisk#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * The prefix length of the IPv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv4_prefix_length DataIntersightHciDisk#ipv4_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv4_prefix_length DataIntersightHciDisk#ipv4_prefix_length}
   */
   readonly ipv4PrefixLength?: number;
   /**
   * An IPv6 address in this IpAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv6_address DataIntersightHciDisk#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv6_address DataIntersightHciDisk#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The prefix length of the IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ipv6_prefix_length DataIntersightHciDisk#ipv6_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ipv6_prefix_length DataIntersightHciDisk#ipv6_prefix_length}
   */
   readonly ipv6PrefixLength?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
 }
@@ -3078,7 +3078,7 @@ export class DataIntersightHciDiskNodeIpAddressOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciDiskParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3086,19 +3086,19 @@ export interface DataIntersightHciDiskParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3111,7 +3111,7 @@ export interface DataIntersightHciDiskParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3311,7 +3311,7 @@ export class DataIntersightHciDiskParentOutputReference extends cdktf.ComplexObj
 }
 export interface DataIntersightHciDiskPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3319,19 +3319,19 @@ export interface DataIntersightHciDiskPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3344,7 +3344,7 @@ export interface DataIntersightHciDiskPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3576,7 +3576,7 @@ export class DataIntersightHciDiskPermissionResourcesList extends cdktf.ComplexL
 }
 export interface DataIntersightHciDiskRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3584,19 +3584,19 @@ export interface DataIntersightHciDiskRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3609,7 +3609,7 @@ export interface DataIntersightHciDiskRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3809,7 +3809,7 @@ export class DataIntersightHciDiskRegisteredDeviceOutputReference extends cdktf.
 }
 export interface DataIntersightHciDiskTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3817,19 +3817,19 @@ export interface DataIntersightHciDiskTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3842,7 +3842,7 @@ export interface DataIntersightHciDiskTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4074,7 +4074,7 @@ export class DataIntersightHciDiskTagsAncestorDefinitionsList extends cdktf.Comp
 }
 export interface DataIntersightHciDiskTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4082,19 +4082,19 @@ export interface DataIntersightHciDiskTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4107,7 +4107,7 @@ export interface DataIntersightHciDiskTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4307,25 +4307,25 @@ export class DataIntersightHciDiskTagsDefinitionOutputReference extends cdktf.Co
 }
 export interface DataIntersightHciDiskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#key DataIntersightHciDisk#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#key DataIntersightHciDisk#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#propagated DataIntersightHciDisk#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#propagated DataIntersightHciDisk#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#sys_tag DataIntersightHciDisk#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#sys_tag DataIntersightHciDisk#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4333,25 +4333,25 @@ export interface DataIntersightHciDiskTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#type DataIntersightHciDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#type DataIntersightHciDisk#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#value DataIntersightHciDisk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#value DataIntersightHciDisk#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ancestor_definitions DataIntersightHciDisk#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ancestor_definitions DataIntersightHciDisk#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciDiskTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#definition DataIntersightHciDisk#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#definition DataIntersightHciDisk#definition}
   */
   readonly definition?: DataIntersightHciDiskTagsDefinition;
 }
@@ -4670,7 +4670,7 @@ export class DataIntersightHciDiskTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciDiskVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4678,19 +4678,19 @@ export interface DataIntersightHciDiskVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4703,7 +4703,7 @@ export interface DataIntersightHciDiskVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4935,7 +4935,7 @@ export class DataIntersightHciDiskVersionContextInterestedMosList extends cdktf.
 }
 export interface DataIntersightHciDiskVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4943,19 +4943,19 @@ export interface DataIntersightHciDiskVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#moid DataIntersightHciDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4968,7 +4968,7 @@ export interface DataIntersightHciDiskVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#selector DataIntersightHciDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5168,7 +5168,7 @@ export class DataIntersightHciDiskVersionContextRefMoOutputReference extends cdk
 }
 export interface DataIntersightHciDiskVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#additional_properties DataIntersightHciDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5176,32 +5176,32 @@ export interface DataIntersightHciDiskVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#class_id DataIntersightHciDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#marked_for_deletion DataIntersightHciDisk#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#marked_for_deletion DataIntersightHciDisk#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#nr_version DataIntersightHciDisk#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#nr_version DataIntersightHciDisk#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#object_type DataIntersightHciDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#timestamp DataIntersightHciDisk#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#timestamp DataIntersightHciDisk#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5212,19 +5212,19 @@ export interface DataIntersightHciDiskVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#version_type DataIntersightHciDisk#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#version_type DataIntersightHciDisk#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#interested_mos DataIntersightHciDisk#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#interested_mos DataIntersightHciDisk#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciDiskVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#ref_mo DataIntersightHciDisk#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#ref_mo DataIntersightHciDisk#ref_mo}
   */
   readonly refMo?: DataIntersightHciDiskVersionContextRefMo;
 }
@@ -5540,7 +5540,7 @@ export class DataIntersightHciDiskVersionContextOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk intersight_hci_disk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk intersight_hci_disk}
 */
 export class DataIntersightHciDisk extends cdktf.TerraformDataSource {
 
@@ -5556,7 +5556,7 @@ export class DataIntersightHciDisk extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciDisk to import
-  * @param importFromId The id of the existing DataIntersightHciDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5568,7 +5568,7 @@ export class DataIntersightHciDisk extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_disk intersight_hci_disk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_disk intersight_hci_disk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5579,8 +5579,8 @@ export class DataIntersightHciDisk extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_disk',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

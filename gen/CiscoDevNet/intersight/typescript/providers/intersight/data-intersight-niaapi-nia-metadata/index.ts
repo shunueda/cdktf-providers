@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiaapiNiaMetadataConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#account_moid DataIntersightNiaapiNiaMetadata#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#account_moid DataIntersightNiaapiNiaMetadata#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiaapiNiaMetadataConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#create_time DataIntersightNiaapiNiaMetadata#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#create_time DataIntersightNiaapiNiaMetadata#create_time}
   */
   readonly createTime?: string;
   /**
   * The date when this package is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#date DataIntersightNiaapiNiaMetadata#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#date DataIntersightNiaapiNiaMetadata#date}
   */
   readonly date?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#domain_group_moid DataIntersightNiaapiNiaMetadata#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#domain_group_moid DataIntersightNiaapiNiaMetadata#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#id DataIntersightNiaapiNiaMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#id DataIntersightNiaapiNiaMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DataIntersightNiaapiNiaMetadataConfig extends cdktf.TerraformMe
   /**
   * Chksum used to check the integrity of the Metadata file downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#metadata_chksum DataIntersightNiaapiNiaMetadata#metadata_chksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#metadata_chksum DataIntersightNiaapiNiaMetadata#metadata_chksum}
   */
   readonly metadataChksum?: string;
   /**
   * The Filename of this Metadata package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#metadata_filename DataIntersightNiaapiNiaMetadata#metadata_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#metadata_filename DataIntersightNiaapiNiaMetadata#metadata_filename}
   */
   readonly metadataFilename?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#mod_time DataIntersightNiaapiNiaMetadata#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#mod_time DataIntersightNiaapiNiaMetadata#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The version number of the Metadata package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#nr_version DataIntersightNiaapiNiaMetadata#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#nr_version DataIntersightNiaapiNiaMetadata#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#owners DataIntersightNiaapiNiaMetadata#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#owners DataIntersightNiaapiNiaMetadata#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#shared_scope DataIntersightNiaapiNiaMetadata#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#shared_scope DataIntersightNiaapiNiaMetadata#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#ancestors DataIntersightNiaapiNiaMetadata#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#ancestors DataIntersightNiaapiNiaMetadata#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiNiaMetadataAncestors[] | cdktf.IResolvable;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#content DataIntersightNiaapiNiaMetadata#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#content DataIntersightNiaapiNiaMetadata#content}
   */
   readonly content?: DataIntersightNiaapiNiaMetadataContent[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#parent DataIntersightNiaapiNiaMetadata#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#parent DataIntersightNiaapiNiaMetadata#parent}
   */
   readonly parent?: DataIntersightNiaapiNiaMetadataParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#permission_resources DataIntersightNiaapiNiaMetadata#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#permission_resources DataIntersightNiaapiNiaMetadata#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiNiaMetadataPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#tags DataIntersightNiaapiNiaMetadata#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#tags DataIntersightNiaapiNiaMetadata#tags}
   */
   readonly tags?: DataIntersightNiaapiNiaMetadataTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#version_context DataIntersightNiaapiNiaMetadata#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#version_context DataIntersightNiaapiNiaMetadata#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiNiaMetadataVersionContext;
 }
@@ -1307,7 +1307,7 @@ export class DataIntersightNiaapiNiaMetadataResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightNiaapiNiaMetadataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1315,19 +1315,19 @@ export interface DataIntersightNiaapiNiaMetadataAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1340,7 +1340,7 @@ export interface DataIntersightNiaapiNiaMetadataAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -1572,13 +1572,13 @@ export class DataIntersightNiaapiNiaMetadataAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightNiaapiNiaMetadataContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Checksum of this part of Content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#chksum DataIntersightNiaapiNiaMetadata#chksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#chksum DataIntersightNiaapiNiaMetadata#chksum}
   */
   readonly chksum?: string;
   /**
@@ -1586,26 +1586,26 @@ export interface DataIntersightNiaapiNiaMetadataContent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The file name within this Metadata file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#filename DataIntersightNiaapiNiaMetadata#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#filename DataIntersightNiaapiNiaMetadata#filename}
   */
   readonly filename?: string;
   /**
   * The name of this Content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#name DataIntersightNiaapiNiaMetadata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#name DataIntersightNiaapiNiaMetadata#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
 }
@@ -1866,7 +1866,7 @@ export class DataIntersightNiaapiNiaMetadataContentList extends cdktf.ComplexLis
 }
 export interface DataIntersightNiaapiNiaMetadataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1874,19 +1874,19 @@ export interface DataIntersightNiaapiNiaMetadataParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1899,7 +1899,7 @@ export interface DataIntersightNiaapiNiaMetadataParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2099,7 +2099,7 @@ export class DataIntersightNiaapiNiaMetadataParentOutputReference extends cdktf.
 }
 export interface DataIntersightNiaapiNiaMetadataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2107,19 +2107,19 @@ export interface DataIntersightNiaapiNiaMetadataPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2132,7 +2132,7 @@ export interface DataIntersightNiaapiNiaMetadataPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2364,7 +2364,7 @@ export class DataIntersightNiaapiNiaMetadataPermissionResourcesList extends cdkt
 }
 export interface DataIntersightNiaapiNiaMetadataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2372,19 +2372,19 @@ export interface DataIntersightNiaapiNiaMetadataTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2397,7 +2397,7 @@ export interface DataIntersightNiaapiNiaMetadataTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2629,7 +2629,7 @@ export class DataIntersightNiaapiNiaMetadataTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightNiaapiNiaMetadataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2637,19 +2637,19 @@ export interface DataIntersightNiaapiNiaMetadataTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2662,7 +2662,7 @@ export interface DataIntersightNiaapiNiaMetadataTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2862,25 +2862,25 @@ export class DataIntersightNiaapiNiaMetadataTagsDefinitionOutputReference extend
 }
 export interface DataIntersightNiaapiNiaMetadataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#key DataIntersightNiaapiNiaMetadata#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#key DataIntersightNiaapiNiaMetadata#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#propagated DataIntersightNiaapiNiaMetadata#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#propagated DataIntersightNiaapiNiaMetadata#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#sys_tag DataIntersightNiaapiNiaMetadata#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#sys_tag DataIntersightNiaapiNiaMetadata#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2888,25 +2888,25 @@ export interface DataIntersightNiaapiNiaMetadataTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#type DataIntersightNiaapiNiaMetadata#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#type DataIntersightNiaapiNiaMetadata#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#value DataIntersightNiaapiNiaMetadata#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#value DataIntersightNiaapiNiaMetadata#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#ancestor_definitions DataIntersightNiaapiNiaMetadata#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#ancestor_definitions DataIntersightNiaapiNiaMetadata#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiNiaMetadataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#definition DataIntersightNiaapiNiaMetadata#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#definition DataIntersightNiaapiNiaMetadata#definition}
   */
   readonly definition?: DataIntersightNiaapiNiaMetadataTagsDefinition;
 }
@@ -3225,7 +3225,7 @@ export class DataIntersightNiaapiNiaMetadataTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNiaapiNiaMetadataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3233,19 +3233,19 @@ export interface DataIntersightNiaapiNiaMetadataVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3258,7 +3258,7 @@ export interface DataIntersightNiaapiNiaMetadataVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -3490,7 +3490,7 @@ export class DataIntersightNiaapiNiaMetadataVersionContextInterestedMosList exte
 }
 export interface DataIntersightNiaapiNiaMetadataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3498,19 +3498,19 @@ export interface DataIntersightNiaapiNiaMetadataVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#moid DataIntersightNiaapiNiaMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3523,7 +3523,7 @@ export interface DataIntersightNiaapiNiaMetadataVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#selector DataIntersightNiaapiNiaMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -3723,7 +3723,7 @@ export class DataIntersightNiaapiNiaMetadataVersionContextRefMoOutputReference e
 }
 export interface DataIntersightNiaapiNiaMetadataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#additional_properties DataIntersightNiaapiNiaMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3731,32 +3731,32 @@ export interface DataIntersightNiaapiNiaMetadataVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#class_id DataIntersightNiaapiNiaMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#marked_for_deletion DataIntersightNiaapiNiaMetadata#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#marked_for_deletion DataIntersightNiaapiNiaMetadata#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#nr_version DataIntersightNiaapiNiaMetadata#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#nr_version DataIntersightNiaapiNiaMetadata#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#object_type DataIntersightNiaapiNiaMetadata#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#timestamp DataIntersightNiaapiNiaMetadata#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#timestamp DataIntersightNiaapiNiaMetadata#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3767,19 +3767,19 @@ export interface DataIntersightNiaapiNiaMetadataVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#version_type DataIntersightNiaapiNiaMetadata#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#version_type DataIntersightNiaapiNiaMetadata#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#interested_mos DataIntersightNiaapiNiaMetadata#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#interested_mos DataIntersightNiaapiNiaMetadata#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiNiaMetadataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#ref_mo DataIntersightNiaapiNiaMetadata#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#ref_mo DataIntersightNiaapiNiaMetadata#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiNiaMetadataVersionContextRefMo;
 }
@@ -4095,7 +4095,7 @@ export class DataIntersightNiaapiNiaMetadataVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata intersight_niaapi_nia_metadata}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata intersight_niaapi_nia_metadata}
 */
 export class DataIntersightNiaapiNiaMetadata extends cdktf.TerraformDataSource {
 
@@ -4111,7 +4111,7 @@ export class DataIntersightNiaapiNiaMetadata extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNiaapiNiaMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiNiaMetadata to import
-  * @param importFromId The id of the existing DataIntersightNiaapiNiaMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiNiaMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiNiaMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4123,7 +4123,7 @@ export class DataIntersightNiaapiNiaMetadata extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nia_metadata intersight_niaapi_nia_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nia_metadata intersight_niaapi_nia_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4134,8 +4134,8 @@ export class DataIntersightNiaapiNiaMetadata extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niaapi_nia_metadata',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

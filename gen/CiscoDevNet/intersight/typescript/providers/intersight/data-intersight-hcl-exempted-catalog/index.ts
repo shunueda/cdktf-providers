@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHclExemptedCatalogConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#account_moid DataIntersightHclExemptedCatalog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#account_moid DataIntersightHclExemptedCatalog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightHclExemptedCatalogConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * Reason for the exemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#comments DataIntersightHclExemptedCatalog#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#comments DataIntersightHclExemptedCatalog#comments}
   */
   readonly comments?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#create_time DataIntersightHclExemptedCatalog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#create_time DataIntersightHclExemptedCatalog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#domain_group_moid DataIntersightHclExemptedCatalog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#domain_group_moid DataIntersightHclExemptedCatalog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#id DataIntersightHclExemptedCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#id DataIntersightHclExemptedCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,58 +53,58 @@ export interface DataIntersightHclExemptedCatalogConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#mod_time DataIntersightHclExemptedCatalog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#mod_time DataIntersightHclExemptedCatalog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * A unique descriptive name of the exemption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#name DataIntersightHclExemptedCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#name DataIntersightHclExemptedCatalog#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
   * Vendor of the Operating System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#os_vendor DataIntersightHclExemptedCatalog#os_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#os_vendor DataIntersightHclExemptedCatalog#os_vendor}
   */
   readonly osVendor?: string;
   /**
   * Version of the Operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#os_version DataIntersightHclExemptedCatalog#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#os_version DataIntersightHclExemptedCatalog#os_version}
   */
   readonly osVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#owners DataIntersightHclExemptedCatalog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#owners DataIntersightHclExemptedCatalog#owners}
   */
   readonly owners?: string[];
   /**
   * It indicates the personality of the sever.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#personality DataIntersightHclExemptedCatalog#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#personality DataIntersightHclExemptedCatalog#personality}
   */
   readonly personality?: string;
   /**
   * Name of the processor supported for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#processor_name DataIntersightHclExemptedCatalog#processor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#processor_name DataIntersightHclExemptedCatalog#processor_name}
   */
   readonly processorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#product_models DataIntersightHclExemptedCatalog#product_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#product_models DataIntersightHclExemptedCatalog#product_models}
   */
   readonly productModels?: string[];
   /**
@@ -114,62 +114,62 @@ export interface DataIntersightHclExemptedCatalogConfig extends cdktf.TerraformM
   * * `StorageController` - Represents storage controllers.
   * * `GPU` - Represents graphics cards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#product_type DataIntersightHclExemptedCatalog#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#product_type DataIntersightHclExemptedCatalog#product_type}
   */
   readonly productType?: string;
   /**
   * Three part ID representing the server model as returned by UCSM/CIMC XML APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#server_pid DataIntersightHclExemptedCatalog#server_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#server_pid DataIntersightHclExemptedCatalog#server_pid}
   */
   readonly serverPid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#shared_scope DataIntersightHclExemptedCatalog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#shared_scope DataIntersightHclExemptedCatalog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Version of the UCS software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#ucs_version DataIntersightHclExemptedCatalog#ucs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#ucs_version DataIntersightHclExemptedCatalog#ucs_version}
   */
   readonly ucsVersion?: string;
   /**
   * Type of the UCS version indicating whether it is a UCSM release vesion or a IMC release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#version_type DataIntersightHclExemptedCatalog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#version_type DataIntersightHclExemptedCatalog#version_type}
   */
   readonly versionType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#ancestors DataIntersightHclExemptedCatalog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#ancestors DataIntersightHclExemptedCatalog#ancestors}
   */
   readonly ancestors?: DataIntersightHclExemptedCatalogAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#parent DataIntersightHclExemptedCatalog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#parent DataIntersightHclExemptedCatalog#parent}
   */
   readonly parent?: DataIntersightHclExemptedCatalogParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#permission_resources DataIntersightHclExemptedCatalog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#permission_resources DataIntersightHclExemptedCatalog#permission_resources}
   */
   readonly permissionResources?: DataIntersightHclExemptedCatalogPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#tags DataIntersightHclExemptedCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#tags DataIntersightHclExemptedCatalog#tags}
   */
   readonly tags?: DataIntersightHclExemptedCatalogTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#version_context DataIntersightHclExemptedCatalog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#version_context DataIntersightHclExemptedCatalog#version_context}
   */
   readonly versionContext?: DataIntersightHclExemptedCatalogVersionContext;
 }
@@ -1274,7 +1274,7 @@ export class DataIntersightHclExemptedCatalogResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHclExemptedCatalogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1282,19 +1282,19 @@ export interface DataIntersightHclExemptedCatalogAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1307,7 +1307,7 @@ export interface DataIntersightHclExemptedCatalogAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -1539,7 +1539,7 @@ export class DataIntersightHclExemptedCatalogAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightHclExemptedCatalogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1547,19 +1547,19 @@ export interface DataIntersightHclExemptedCatalogParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1572,7 +1572,7 @@ export interface DataIntersightHclExemptedCatalogParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -1772,7 +1772,7 @@ export class DataIntersightHclExemptedCatalogParentOutputReference extends cdktf
 }
 export interface DataIntersightHclExemptedCatalogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1780,19 +1780,19 @@ export interface DataIntersightHclExemptedCatalogPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1805,7 +1805,7 @@ export interface DataIntersightHclExemptedCatalogPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2037,7 +2037,7 @@ export class DataIntersightHclExemptedCatalogPermissionResourcesList extends cdk
 }
 export interface DataIntersightHclExemptedCatalogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2045,19 +2045,19 @@ export interface DataIntersightHclExemptedCatalogTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2070,7 +2070,7 @@ export interface DataIntersightHclExemptedCatalogTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2302,7 +2302,7 @@ export class DataIntersightHclExemptedCatalogTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightHclExemptedCatalogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2310,19 +2310,19 @@ export interface DataIntersightHclExemptedCatalogTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2335,7 +2335,7 @@ export interface DataIntersightHclExemptedCatalogTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2535,25 +2535,25 @@ export class DataIntersightHclExemptedCatalogTagsDefinitionOutputReference exten
 }
 export interface DataIntersightHclExemptedCatalogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#key DataIntersightHclExemptedCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#key DataIntersightHclExemptedCatalog#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#propagated DataIntersightHclExemptedCatalog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#propagated DataIntersightHclExemptedCatalog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#sys_tag DataIntersightHclExemptedCatalog#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#sys_tag DataIntersightHclExemptedCatalog#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2561,25 +2561,25 @@ export interface DataIntersightHclExemptedCatalogTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#type DataIntersightHclExemptedCatalog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#type DataIntersightHclExemptedCatalog#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#value DataIntersightHclExemptedCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#value DataIntersightHclExemptedCatalog#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#ancestor_definitions DataIntersightHclExemptedCatalog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#ancestor_definitions DataIntersightHclExemptedCatalog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHclExemptedCatalogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#definition DataIntersightHclExemptedCatalog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#definition DataIntersightHclExemptedCatalog#definition}
   */
   readonly definition?: DataIntersightHclExemptedCatalogTagsDefinition;
 }
@@ -2898,7 +2898,7 @@ export class DataIntersightHclExemptedCatalogTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightHclExemptedCatalogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2906,19 +2906,19 @@ export interface DataIntersightHclExemptedCatalogVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2931,7 +2931,7 @@ export interface DataIntersightHclExemptedCatalogVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3163,7 +3163,7 @@ export class DataIntersightHclExemptedCatalogVersionContextInterestedMosList ext
 }
 export interface DataIntersightHclExemptedCatalogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3171,19 +3171,19 @@ export interface DataIntersightHclExemptedCatalogVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#moid DataIntersightHclExemptedCatalog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3196,7 +3196,7 @@ export interface DataIntersightHclExemptedCatalogVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#selector DataIntersightHclExemptedCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3396,7 +3396,7 @@ export class DataIntersightHclExemptedCatalogVersionContextRefMoOutputReference 
 }
 export interface DataIntersightHclExemptedCatalogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#additional_properties DataIntersightHclExemptedCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3404,32 +3404,32 @@ export interface DataIntersightHclExemptedCatalogVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#class_id DataIntersightHclExemptedCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#marked_for_deletion DataIntersightHclExemptedCatalog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#marked_for_deletion DataIntersightHclExemptedCatalog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#nr_version DataIntersightHclExemptedCatalog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#nr_version DataIntersightHclExemptedCatalog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#object_type DataIntersightHclExemptedCatalog#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#timestamp DataIntersightHclExemptedCatalog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#timestamp DataIntersightHclExemptedCatalog#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3440,19 +3440,19 @@ export interface DataIntersightHclExemptedCatalogVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#version_type DataIntersightHclExemptedCatalog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#version_type DataIntersightHclExemptedCatalog#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#interested_mos DataIntersightHclExemptedCatalog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#interested_mos DataIntersightHclExemptedCatalog#interested_mos}
   */
   readonly interestedMos?: DataIntersightHclExemptedCatalogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#ref_mo DataIntersightHclExemptedCatalog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#ref_mo DataIntersightHclExemptedCatalog#ref_mo}
   */
   readonly refMo?: DataIntersightHclExemptedCatalogVersionContextRefMo;
 }
@@ -3768,7 +3768,7 @@ export class DataIntersightHclExemptedCatalogVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog intersight_hcl_exempted_catalog}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog intersight_hcl_exempted_catalog}
 */
 export class DataIntersightHclExemptedCatalog extends cdktf.TerraformDataSource {
 
@@ -3784,7 +3784,7 @@ export class DataIntersightHclExemptedCatalog extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightHclExemptedCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHclExemptedCatalog to import
-  * @param importFromId The id of the existing DataIntersightHclExemptedCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHclExemptedCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHclExemptedCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3796,7 +3796,7 @@ export class DataIntersightHclExemptedCatalog extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_exempted_catalog intersight_hcl_exempted_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_exempted_catalog intersight_hcl_exempted_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3807,8 +3807,8 @@ export class DataIntersightHclExemptedCatalog extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_hcl_exempted_catalog',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

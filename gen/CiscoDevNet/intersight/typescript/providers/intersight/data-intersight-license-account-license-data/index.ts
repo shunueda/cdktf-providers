@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   /**
   * Root user's ID of the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#account_id DataIntersightLicenseAccountLicenseData#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#account_id DataIntersightLicenseAccountLicenseData#account_id}
   */
   readonly accountId?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#account_moid DataIntersightLicenseAccountLicenseData#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#account_moid DataIntersightLicenseAccountLicenseData#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Agent trusted store data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#agent_data DataIntersightLicenseAccountLicenseData#agent_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#agent_data DataIntersightLicenseAccountLicenseData#agent_data}
   */
   readonly agentData?: string;
   /**
   * Authorization expiration time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#auth_expire_time DataIntersightLicenseAccountLicenseData#auth_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#auth_expire_time DataIntersightLicenseAccountLicenseData#auth_expire_time}
   */
   readonly authExpireTime?: string;
   /**
   * Intial authorization time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#auth_initial_time DataIntersightLicenseAccountLicenseData#auth_initial_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#auth_initial_time DataIntersightLicenseAccountLicenseData#auth_initial_time}
   */
   readonly authInitialTime?: string;
   /**
   * Next time for the authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#auth_next_time DataIntersightLicenseAccountLicenseData#auth_next_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#auth_next_time DataIntersightLicenseAccountLicenseData#auth_next_time}
   */
   readonly authNextTime?: string;
   /**
   * Account license data category name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#category DataIntersightLicenseAccountLicenseData#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#category DataIntersightLicenseAccountLicenseData#category}
   */
   readonly category?: string;
   /**
@@ -58,13 +58,13 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#create_time DataIntersightLicenseAccountLicenseData#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#create_time DataIntersightLicenseAccountLicenseData#create_time}
   */
   readonly createTime?: string;
   /**
@@ -93,7 +93,7 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   * * `IKSTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode IWO tiers.
   * * `INCTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode Nexus tiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#default_license_type DataIntersightLicenseAccountLicenseData#default_license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#default_license_type DataIntersightLicenseAccountLicenseData#default_license_type}
   */
   readonly defaultLicenseType?: string;
   /**
@@ -122,25 +122,25 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   * * `IKSTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode IWO tiers.
   * * `INCTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode Nexus tiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#default_license_type_newer_models DataIntersightLicenseAccountLicenseData#default_license_type_newer_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#default_license_type_newer_models DataIntersightLicenseAccountLicenseData#default_license_type_newer_models}
   */
   readonly defaultLicenseTypeNewerModels?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#domain_group_moid DataIntersightLicenseAccountLicenseData#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#domain_group_moid DataIntersightLicenseAccountLicenseData#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The detailed error message when there is any error related to license sync of this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#error_desc DataIntersightLicenseAccountLicenseData#error_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#error_desc DataIntersightLicenseAccountLicenseData#error_desc}
   */
   readonly errorDesc?: string;
   /**
   * Account license data group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#group DataIntersightLicenseAccountLicenseData#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#group DataIntersightLicenseAccountLicenseData#group}
   */
   readonly group?: string;
   /**
@@ -169,11 +169,11 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   * * `IKSTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode IWO tiers.
   * * `INCTrial` - Virtual dummy license type to indicate trial. Used for UI display of trial mode Nexus tiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#highest_compliant_license_tier DataIntersightLicenseAccountLicenseData#highest_compliant_license_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#highest_compliant_license_tier DataIntersightLicenseAccountLicenseData#highest_compliant_license_tier}
   */
   readonly highestCompliantLicenseTier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#id DataIntersightLicenseAccountLicenseData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#id DataIntersightLicenseAccountLicenseData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -182,247 +182,247 @@ export interface DataIntersightLicenseAccountLicenseDataConfig extends cdktf.Ter
   /**
   * Specifies last sync time with CSSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#last_cssm_sync DataIntersightLicenseAccountLicenseData#last_cssm_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#last_cssm_sync DataIntersightLicenseAccountLicenseData#last_cssm_sync}
   */
   readonly lastCssmSync?: string;
   /**
   * Specifies last certificate renew time with SA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#last_renew DataIntersightLicenseAccountLicenseData#last_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#last_renew DataIntersightLicenseAccountLicenseData#last_renew}
   */
   readonly lastRenew?: string;
   /**
   * Specifies last sync time with SA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#last_sync DataIntersightLicenseAccountLicenseData#last_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#last_sync DataIntersightLicenseAccountLicenseData#last_sync}
   */
   readonly lastSync?: string;
   /**
   * Record's last update datetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#last_updated_time DataIntersightLicenseAccountLicenseData#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#last_updated_time DataIntersightLicenseAccountLicenseData#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
   * Aggregrated mode for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#license_state DataIntersightLicenseAccountLicenseData#license_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#license_state DataIntersightLicenseAccountLicenseData#license_state}
   */
   readonly licenseState?: string;
   /**
   * Tech-support info of a smart-agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#license_tech_support_info DataIntersightLicenseAccountLicenseData#license_tech_support_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#license_tech_support_info DataIntersightLicenseAccountLicenseData#license_tech_support_info}
   */
   readonly licenseTechSupportInfo?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#mod_time DataIntersightLicenseAccountLicenseData#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#mod_time DataIntersightLicenseAccountLicenseData#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#owners DataIntersightLicenseAccountLicenseData#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#owners DataIntersightLicenseAccountLicenseData#owners}
   */
   readonly owners?: string[];
   /**
   * Registration exipiration time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#register_expire_time DataIntersightLicenseAccountLicenseData#register_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#register_expire_time DataIntersightLicenseAccountLicenseData#register_expire_time}
   */
   readonly registerExpireTime?: string;
   /**
   * Initial time of registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#register_initial_time DataIntersightLicenseAccountLicenseData#register_initial_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#register_initial_time DataIntersightLicenseAccountLicenseData#register_initial_time}
   */
   readonly registerInitialTime?: string;
   /**
   * Next time for the license registration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#register_next_time DataIntersightLicenseAccountLicenseData#register_next_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#register_next_time DataIntersightLicenseAccountLicenseData#register_next_time}
   */
   readonly registerNextTime?: string;
   /**
   * Registration status of a smart-agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#registration_status DataIntersightLicenseAccountLicenseData#registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#registration_status DataIntersightLicenseAccountLicenseData#registration_status}
   */
   readonly registrationStatus?: string;
   /**
   * License renewal failure message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#renew_failure_string DataIntersightLicenseAccountLicenseData#renew_failure_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#renew_failure_string DataIntersightLicenseAccountLicenseData#renew_failure_string}
   */
   readonly renewFailureString?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#shared_scope DataIntersightLicenseAccountLicenseData#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#shared_scope DataIntersightLicenseAccountLicenseData#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the smart account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#smart_account DataIntersightLicenseAccountLicenseData#smart_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#smart_account DataIntersightLicenseAccountLicenseData#smart_account}
   */
   readonly smartAccount?: string;
   /**
   * Domain Name of the smart account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#smart_account_domain DataIntersightLicenseAccountLicenseData#smart_account_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#smart_account_domain DataIntersightLicenseAccountLicenseData#smart_account_domain}
   */
   readonly smartAccountDomain?: string;
   /**
   * Indicate whether API integration is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#smart_api_enabled DataIntersightLicenseAccountLicenseData#smart_api_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#smart_api_enabled DataIntersightLicenseAccountLicenseData#smart_api_enabled}
   */
   readonly smartApiEnabled?: boolean | cdktf.IResolvable;
   /**
   * The detailed error message when there is any smart API sync error related to this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#smart_api_sync_status DataIntersightLicenseAccountLicenseData#smart_api_sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#smart_api_sync_status DataIntersightLicenseAccountLicenseData#smart_api_sync_status}
   */
   readonly smartApiSyncStatus?: string;
   /**
   * Current sync status for the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#sync_status DataIntersightLicenseAccountLicenseData#sync_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#sync_status DataIntersightLicenseAccountLicenseData#sync_status}
   */
   readonly syncStatus?: string;
   /**
   * Name of the virtual account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#virtual_account DataIntersightLicenseAccountLicenseData#virtual_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#virtual_account DataIntersightLicenseAccountLicenseData#virtual_account}
   */
   readonly virtualAccount?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#account DataIntersightLicenseAccountLicenseData#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#account DataIntersightLicenseAccountLicenseData#account}
   */
   readonly account?: DataIntersightLicenseAccountLicenseDataAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#ancestors DataIntersightLicenseAccountLicenseData#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#ancestors DataIntersightLicenseAccountLicenseData#ancestors}
   */
   readonly ancestors?: DataIntersightLicenseAccountLicenseDataAncestors[] | cdktf.IResolvable;
   /**
   * customer_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#customer_op DataIntersightLicenseAccountLicenseData#customer_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#customer_op DataIntersightLicenseAccountLicenseData#customer_op}
   */
   readonly customerOp?: DataIntersightLicenseAccountLicenseDataCustomerOp;
   /**
   * erp_customer_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#erp_customer_op DataIntersightLicenseAccountLicenseData#erp_customer_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#erp_customer_op DataIntersightLicenseAccountLicenseData#erp_customer_op}
   */
   readonly erpCustomerOp?: DataIntersightLicenseAccountLicenseDataErpCustomerOp;
   /**
   * erp_license_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#erp_license_count DataIntersightLicenseAccountLicenseData#erp_license_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#erp_license_count DataIntersightLicenseAccountLicenseData#erp_license_count}
   */
   readonly erpLicenseCount?: DataIntersightLicenseAccountLicenseDataErpLicenseCount;
   /**
   * iks_customer_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#iks_customer_op DataIntersightLicenseAccountLicenseData#iks_customer_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#iks_customer_op DataIntersightLicenseAccountLicenseData#iks_customer_op}
   */
   readonly iksCustomerOp?: DataIntersightLicenseAccountLicenseDataIksCustomerOp;
   /**
   * iks_license_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#iks_license_count DataIntersightLicenseAccountLicenseData#iks_license_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#iks_license_count DataIntersightLicenseAccountLicenseData#iks_license_count}
   */
   readonly iksLicenseCount?: DataIntersightLicenseAccountLicenseDataIksLicenseCount;
   /**
   * inc_customer_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#inc_customer_op DataIntersightLicenseAccountLicenseData#inc_customer_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#inc_customer_op DataIntersightLicenseAccountLicenseData#inc_customer_op}
   */
   readonly incCustomerOp?: DataIntersightLicenseAccountLicenseDataIncCustomerOp;
   /**
   * inc_license_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#inc_license_count DataIntersightLicenseAccountLicenseData#inc_license_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#inc_license_count DataIntersightLicenseAccountLicenseData#inc_license_count}
   */
   readonly incLicenseCount?: DataIntersightLicenseAccountLicenseDataIncLicenseCount;
   /**
   * iwo_customer_op block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#iwo_customer_op DataIntersightLicenseAccountLicenseData#iwo_customer_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#iwo_customer_op DataIntersightLicenseAccountLicenseData#iwo_customer_op}
   */
   readonly iwoCustomerOp?: DataIntersightLicenseAccountLicenseDataIwoCustomerOp;
   /**
   * iwo_license_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#iwo_license_count DataIntersightLicenseAccountLicenseData#iwo_license_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#iwo_license_count DataIntersightLicenseAccountLicenseData#iwo_license_count}
   */
   readonly iwoLicenseCount?: DataIntersightLicenseAccountLicenseDataIwoLicenseCount;
   /**
   * license_info_view block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#license_info_view DataIntersightLicenseAccountLicenseData#license_info_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#license_info_view DataIntersightLicenseAccountLicenseData#license_info_view}
   */
   readonly licenseInfoView?: DataIntersightLicenseAccountLicenseDataLicenseInfoView;
   /**
   * license_registration_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#license_registration_status DataIntersightLicenseAccountLicenseData#license_registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#license_registration_status DataIntersightLicenseAccountLicenseData#license_registration_status}
   */
   readonly licenseRegistrationStatus?: DataIntersightLicenseAccountLicenseDataLicenseRegistrationStatus;
   /**
   * licenseinfos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#licenseinfos DataIntersightLicenseAccountLicenseData#licenseinfos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#licenseinfos DataIntersightLicenseAccountLicenseData#licenseinfos}
   */
   readonly licenseinfos?: DataIntersightLicenseAccountLicenseDataLicenseinfos[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#parent DataIntersightLicenseAccountLicenseData#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#parent DataIntersightLicenseAccountLicenseData#parent}
   */
   readonly parent?: DataIntersightLicenseAccountLicenseDataParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#permission_resources DataIntersightLicenseAccountLicenseData#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#permission_resources DataIntersightLicenseAccountLicenseData#permission_resources}
   */
   readonly permissionResources?: DataIntersightLicenseAccountLicenseDataPermissionResources[] | cdktf.IResolvable;
   /**
   * smartlicense_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#smartlicense_token DataIntersightLicenseAccountLicenseData#smartlicense_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#smartlicense_token DataIntersightLicenseAccountLicenseData#smartlicense_token}
   */
   readonly smartlicenseToken?: DataIntersightLicenseAccountLicenseDataSmartlicenseToken;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#tags DataIntersightLicenseAccountLicenseData#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#tags DataIntersightLicenseAccountLicenseData#tags}
   */
   readonly tags?: DataIntersightLicenseAccountLicenseDataTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#version_context DataIntersightLicenseAccountLicenseData#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#version_context DataIntersightLicenseAccountLicenseData#version_context}
   */
   readonly versionContext?: DataIntersightLicenseAccountLicenseDataVersionContext;
 }
@@ -3026,7 +3026,7 @@ export class DataIntersightLicenseAccountLicenseDataResultsList extends cdktf.Co
 }
 export interface DataIntersightLicenseAccountLicenseDataAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3034,19 +3034,19 @@ export interface DataIntersightLicenseAccountLicenseDataAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3059,7 +3059,7 @@ export interface DataIntersightLicenseAccountLicenseDataAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -3259,7 +3259,7 @@ export class DataIntersightLicenseAccountLicenseDataAccountOutputReference exten
 }
 export interface DataIntersightLicenseAccountLicenseDataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3267,19 +3267,19 @@ export interface DataIntersightLicenseAccountLicenseDataAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3292,7 +3292,7 @@ export interface DataIntersightLicenseAccountLicenseDataAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -3524,7 +3524,7 @@ export class DataIntersightLicenseAccountLicenseDataAncestorsList extends cdktf.
 }
 export interface DataIntersightLicenseAccountLicenseDataCustomerOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3532,19 +3532,19 @@ export interface DataIntersightLicenseAccountLicenseDataCustomerOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3557,7 +3557,7 @@ export interface DataIntersightLicenseAccountLicenseDataCustomerOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -3757,7 +3757,7 @@ export class DataIntersightLicenseAccountLicenseDataCustomerOpOutputReference ex
 }
 export interface DataIntersightLicenseAccountLicenseDataErpCustomerOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3765,19 +3765,19 @@ export interface DataIntersightLicenseAccountLicenseDataErpCustomerOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3790,7 +3790,7 @@ export interface DataIntersightLicenseAccountLicenseDataErpCustomerOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -3990,7 +3990,7 @@ export class DataIntersightLicenseAccountLicenseDataErpCustomerOpOutputReference
 }
 export interface DataIntersightLicenseAccountLicenseDataErpLicenseCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3998,19 +3998,19 @@ export interface DataIntersightLicenseAccountLicenseDataErpLicenseCount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4023,7 +4023,7 @@ export interface DataIntersightLicenseAccountLicenseDataErpLicenseCount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -4223,7 +4223,7 @@ export class DataIntersightLicenseAccountLicenseDataErpLicenseCountOutputReferen
 }
 export interface DataIntersightLicenseAccountLicenseDataIksCustomerOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4231,19 +4231,19 @@ export interface DataIntersightLicenseAccountLicenseDataIksCustomerOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4256,7 +4256,7 @@ export interface DataIntersightLicenseAccountLicenseDataIksCustomerOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -4456,7 +4456,7 @@ export class DataIntersightLicenseAccountLicenseDataIksCustomerOpOutputReference
 }
 export interface DataIntersightLicenseAccountLicenseDataIksLicenseCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4464,19 +4464,19 @@ export interface DataIntersightLicenseAccountLicenseDataIksLicenseCount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4489,7 +4489,7 @@ export interface DataIntersightLicenseAccountLicenseDataIksLicenseCount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -4689,7 +4689,7 @@ export class DataIntersightLicenseAccountLicenseDataIksLicenseCountOutputReferen
 }
 export interface DataIntersightLicenseAccountLicenseDataIncCustomerOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4697,19 +4697,19 @@ export interface DataIntersightLicenseAccountLicenseDataIncCustomerOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4722,7 +4722,7 @@ export interface DataIntersightLicenseAccountLicenseDataIncCustomerOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -4922,7 +4922,7 @@ export class DataIntersightLicenseAccountLicenseDataIncCustomerOpOutputReference
 }
 export interface DataIntersightLicenseAccountLicenseDataIncLicenseCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4930,19 +4930,19 @@ export interface DataIntersightLicenseAccountLicenseDataIncLicenseCount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4955,7 +4955,7 @@ export interface DataIntersightLicenseAccountLicenseDataIncLicenseCount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -5155,7 +5155,7 @@ export class DataIntersightLicenseAccountLicenseDataIncLicenseCountOutputReferen
 }
 export interface DataIntersightLicenseAccountLicenseDataIwoCustomerOp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5163,19 +5163,19 @@ export interface DataIntersightLicenseAccountLicenseDataIwoCustomerOp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5188,7 +5188,7 @@ export interface DataIntersightLicenseAccountLicenseDataIwoCustomerOp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -5388,7 +5388,7 @@ export class DataIntersightLicenseAccountLicenseDataIwoCustomerOpOutputReference
 }
 export interface DataIntersightLicenseAccountLicenseDataIwoLicenseCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5396,19 +5396,19 @@ export interface DataIntersightLicenseAccountLicenseDataIwoLicenseCount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5421,7 +5421,7 @@ export interface DataIntersightLicenseAccountLicenseDataIwoLicenseCount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -5621,7 +5621,7 @@ export class DataIntersightLicenseAccountLicenseDataIwoLicenseCountOutputReferen
 }
 export interface DataIntersightLicenseAccountLicenseDataLicenseInfoView {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5629,19 +5629,19 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseInfoView {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5654,7 +5654,7 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseInfoView {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -5854,7 +5854,7 @@ export class DataIntersightLicenseAccountLicenseDataLicenseInfoViewOutputReferen
 }
 export interface DataIntersightLicenseAccountLicenseDataLicenseRegistrationStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5862,19 +5862,19 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseRegistrationStatu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5887,7 +5887,7 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseRegistrationStatu
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -6087,7 +6087,7 @@ export class DataIntersightLicenseAccountLicenseDataLicenseRegistrationStatusOut
 }
 export interface DataIntersightLicenseAccountLicenseDataLicenseinfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6095,19 +6095,19 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseinfos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6120,7 +6120,7 @@ export interface DataIntersightLicenseAccountLicenseDataLicenseinfos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -6352,7 +6352,7 @@ export class DataIntersightLicenseAccountLicenseDataLicenseinfosList extends cdk
 }
 export interface DataIntersightLicenseAccountLicenseDataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6360,19 +6360,19 @@ export interface DataIntersightLicenseAccountLicenseDataParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6385,7 +6385,7 @@ export interface DataIntersightLicenseAccountLicenseDataParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -6585,7 +6585,7 @@ export class DataIntersightLicenseAccountLicenseDataParentOutputReference extend
 }
 export interface DataIntersightLicenseAccountLicenseDataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6593,19 +6593,19 @@ export interface DataIntersightLicenseAccountLicenseDataPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6618,7 +6618,7 @@ export interface DataIntersightLicenseAccountLicenseDataPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -6850,7 +6850,7 @@ export class DataIntersightLicenseAccountLicenseDataPermissionResourcesList exte
 }
 export interface DataIntersightLicenseAccountLicenseDataSmartlicenseToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6858,19 +6858,19 @@ export interface DataIntersightLicenseAccountLicenseDataSmartlicenseToken {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6883,7 +6883,7 @@ export interface DataIntersightLicenseAccountLicenseDataSmartlicenseToken {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -7083,7 +7083,7 @@ export class DataIntersightLicenseAccountLicenseDataSmartlicenseTokenOutputRefer
 }
 export interface DataIntersightLicenseAccountLicenseDataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7091,19 +7091,19 @@ export interface DataIntersightLicenseAccountLicenseDataTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7116,7 +7116,7 @@ export interface DataIntersightLicenseAccountLicenseDataTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -7348,7 +7348,7 @@ export class DataIntersightLicenseAccountLicenseDataTagsAncestorDefinitionsList 
 }
 export interface DataIntersightLicenseAccountLicenseDataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7356,19 +7356,19 @@ export interface DataIntersightLicenseAccountLicenseDataTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7381,7 +7381,7 @@ export interface DataIntersightLicenseAccountLicenseDataTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -7581,25 +7581,25 @@ export class DataIntersightLicenseAccountLicenseDataTagsDefinitionOutputReferenc
 }
 export interface DataIntersightLicenseAccountLicenseDataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#key DataIntersightLicenseAccountLicenseData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#key DataIntersightLicenseAccountLicenseData#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#propagated DataIntersightLicenseAccountLicenseData#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#propagated DataIntersightLicenseAccountLicenseData#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#sys_tag DataIntersightLicenseAccountLicenseData#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#sys_tag DataIntersightLicenseAccountLicenseData#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -7607,25 +7607,25 @@ export interface DataIntersightLicenseAccountLicenseDataTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#type DataIntersightLicenseAccountLicenseData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#type DataIntersightLicenseAccountLicenseData#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#value DataIntersightLicenseAccountLicenseData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#value DataIntersightLicenseAccountLicenseData#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#ancestor_definitions DataIntersightLicenseAccountLicenseData#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#ancestor_definitions DataIntersightLicenseAccountLicenseData#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightLicenseAccountLicenseDataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#definition DataIntersightLicenseAccountLicenseData#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#definition DataIntersightLicenseAccountLicenseData#definition}
   */
   readonly definition?: DataIntersightLicenseAccountLicenseDataTagsDefinition;
 }
@@ -7944,7 +7944,7 @@ export class DataIntersightLicenseAccountLicenseDataTagsList extends cdktf.Compl
 }
 export interface DataIntersightLicenseAccountLicenseDataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7952,19 +7952,19 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7977,7 +7977,7 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -8209,7 +8209,7 @@ export class DataIntersightLicenseAccountLicenseDataVersionContextInterestedMosL
 }
 export interface DataIntersightLicenseAccountLicenseDataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8217,19 +8217,19 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#moid DataIntersightLicenseAccountLicenseData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8242,7 +8242,7 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#selector DataIntersightLicenseAccountLicenseData#selector}
   */
   readonly selector?: string;
 }
@@ -8442,7 +8442,7 @@ export class DataIntersightLicenseAccountLicenseDataVersionContextRefMoOutputRef
 }
 export interface DataIntersightLicenseAccountLicenseDataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#additional_properties DataIntersightLicenseAccountLicenseData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8450,32 +8450,32 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#class_id DataIntersightLicenseAccountLicenseData#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#marked_for_deletion DataIntersightLicenseAccountLicenseData#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#marked_for_deletion DataIntersightLicenseAccountLicenseData#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#nr_version DataIntersightLicenseAccountLicenseData#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#nr_version DataIntersightLicenseAccountLicenseData#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#object_type DataIntersightLicenseAccountLicenseData#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#timestamp DataIntersightLicenseAccountLicenseData#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#timestamp DataIntersightLicenseAccountLicenseData#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8486,19 +8486,19 @@ export interface DataIntersightLicenseAccountLicenseDataVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#version_type DataIntersightLicenseAccountLicenseData#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#version_type DataIntersightLicenseAccountLicenseData#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#interested_mos DataIntersightLicenseAccountLicenseData#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#interested_mos DataIntersightLicenseAccountLicenseData#interested_mos}
   */
   readonly interestedMos?: DataIntersightLicenseAccountLicenseDataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#ref_mo DataIntersightLicenseAccountLicenseData#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#ref_mo DataIntersightLicenseAccountLicenseData#ref_mo}
   */
   readonly refMo?: DataIntersightLicenseAccountLicenseDataVersionContextRefMo;
 }
@@ -8814,7 +8814,7 @@ export class DataIntersightLicenseAccountLicenseDataVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data intersight_license_account_license_data}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data intersight_license_account_license_data}
 */
 export class DataIntersightLicenseAccountLicenseData extends cdktf.TerraformDataSource {
 
@@ -8830,7 +8830,7 @@ export class DataIntersightLicenseAccountLicenseData extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightLicenseAccountLicenseData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightLicenseAccountLicenseData to import
-  * @param importFromId The id of the existing DataIntersightLicenseAccountLicenseData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightLicenseAccountLicenseData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightLicenseAccountLicenseData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8842,7 +8842,7 @@ export class DataIntersightLicenseAccountLicenseData extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_account_license_data intersight_license_account_license_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/license_account_license_data intersight_license_account_license_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8853,8 +8853,8 @@ export class DataIntersightLicenseAccountLicenseData extends cdktf.TerraformData
       terraformResourceType: 'intersight_license_account_license_data',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

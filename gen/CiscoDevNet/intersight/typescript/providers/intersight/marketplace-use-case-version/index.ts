@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface MarketplaceUseCaseVersionConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#account_moid MarketplaceUseCaseVersion#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#account_moid MarketplaceUseCaseVersion#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#ancestors MarketplaceUseCaseVersion#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#ancestors MarketplaceUseCaseVersion#ancestors}
   */
   readonly ancestors?: MarketplaceUseCaseVersionAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a workflowCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#catalog MarketplaceUseCaseVersion#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#catalog MarketplaceUseCaseVersion#catalog}
   */
   readonly catalog?: MarketplaceUseCaseVersionCatalog[] | cdktf.IResolvable;
   /**
@@ -35,122 +35,122 @@ export interface MarketplaceUseCaseVersionConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#create_time MarketplaceUseCaseVersion#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#create_time MarketplaceUseCaseVersion#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#domain_group_moid MarketplaceUseCaseVersion#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#domain_group_moid MarketplaceUseCaseVersion#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#id MarketplaceUseCaseVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#id MarketplaceUseCaseVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#locales MarketplaceUseCaseVersion#locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#locales MarketplaceUseCaseVersion#locales}
   */
   readonly locales?: MarketplaceUseCaseVersionLocales[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#mod_time MarketplaceUseCaseVersion#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#mod_time MarketplaceUseCaseVersion#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
   * A string version for each use case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#nr_version MarketplaceUseCaseVersion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#nr_version MarketplaceUseCaseVersion#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#owners MarketplaceUseCaseVersion#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#owners MarketplaceUseCaseVersion#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#parent MarketplaceUseCaseVersion#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#parent MarketplaceUseCaseVersion#parent}
   */
   readonly parent?: MarketplaceUseCaseVersionParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#permission_resources MarketplaceUseCaseVersion#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#permission_resources MarketplaceUseCaseVersion#permission_resources}
   */
   readonly permissionResources?: MarketplaceUseCaseVersionPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#resources MarketplaceUseCaseVersion#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#resources MarketplaceUseCaseVersion#resources}
   */
   readonly resources?: MarketplaceUseCaseVersionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#shared_scope MarketplaceUseCaseVersion#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#shared_scope MarketplaceUseCaseVersion#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#tags MarketplaceUseCaseVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#tags MarketplaceUseCaseVersion#tags}
   */
   readonly tags?: MarketplaceUseCaseVersionTags[] | cdktf.IResolvable;
   /**
   * A reference to a marketplaceUseCase resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#use_case MarketplaceUseCaseVersion#use_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#use_case MarketplaceUseCaseVersion#use_case}
   */
   readonly useCase?: MarketplaceUseCaseVersionUseCase[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#version_context MarketplaceUseCaseVersion#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#version_context MarketplaceUseCaseVersion#version_context}
   */
   readonly versionContext?: MarketplaceUseCaseVersionVersionContext[] | cdktf.IResolvable;
 }
 export interface MarketplaceUseCaseVersionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -382,23 +382,23 @@ export class MarketplaceUseCaseVersionAncestorsList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -630,23 +630,23 @@ export class MarketplaceUseCaseVersionCatalogList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionLocales {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#description MarketplaceUseCaseVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#description MarketplaceUseCaseVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#locale MarketplaceUseCaseVersion#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#locale MarketplaceUseCaseVersion#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
 }
@@ -878,23 +878,23 @@ export class MarketplaceUseCaseVersionLocalesList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1126,23 +1126,23 @@ export class MarketplaceUseCaseVersionParentList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1374,23 +1374,23 @@ export class MarketplaceUseCaseVersionPermissionResourcesList extends cdktf.Comp
 }
 export interface MarketplaceUseCaseVersionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#resource_id MarketplaceUseCaseVersion#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#resource_id MarketplaceUseCaseVersion#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#resource_type MarketplaceUseCaseVersion#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#resource_type MarketplaceUseCaseVersion#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -1622,23 +1622,23 @@ export class MarketplaceUseCaseVersionResourcesList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -1870,23 +1870,23 @@ export class MarketplaceUseCaseVersionTagsAncestorDefinitionsList extends cdktf.
 }
 export interface MarketplaceUseCaseVersionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2118,35 +2118,35 @@ export class MarketplaceUseCaseVersionTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface MarketplaceUseCaseVersionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#ancestor_definitions MarketplaceUseCaseVersion#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#ancestor_definitions MarketplaceUseCaseVersion#ancestor_definitions}
   */
   readonly ancestorDefinitions?: MarketplaceUseCaseVersionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#definition MarketplaceUseCaseVersion#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#definition MarketplaceUseCaseVersion#definition}
   */
   readonly definition?: MarketplaceUseCaseVersionTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#key MarketplaceUseCaseVersion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#key MarketplaceUseCaseVersion#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#propagated MarketplaceUseCaseVersion#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#propagated MarketplaceUseCaseVersion#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#sys_tag MarketplaceUseCaseVersion#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#sys_tag MarketplaceUseCaseVersion#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#type MarketplaceUseCaseVersion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#type MarketplaceUseCaseVersion#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#value MarketplaceUseCaseVersion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#value MarketplaceUseCaseVersion#value}
   */
   readonly value?: string;
 }
@@ -2465,23 +2465,23 @@ export class MarketplaceUseCaseVersionTagsList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionUseCase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2713,23 +2713,23 @@ export class MarketplaceUseCaseVersionUseCaseList extends cdktf.ComplexList {
 }
 export interface MarketplaceUseCaseVersionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -2961,23 +2961,23 @@ export class MarketplaceUseCaseVersionVersionContextInterestedMosList extends cd
 }
 export interface MarketplaceUseCaseVersionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#moid MarketplaceUseCaseVersion#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#selector MarketplaceUseCaseVersion#selector}
   */
   readonly selector?: string;
 }
@@ -3209,39 +3209,39 @@ export class MarketplaceUseCaseVersionVersionContextRefMoList extends cdktf.Comp
 }
 export interface MarketplaceUseCaseVersionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#additional_properties MarketplaceUseCaseVersion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#class_id MarketplaceUseCaseVersion#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#interested_mos MarketplaceUseCaseVersion#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#interested_mos MarketplaceUseCaseVersion#interested_mos}
   */
   readonly interestedMos?: MarketplaceUseCaseVersionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#marked_for_deletion MarketplaceUseCaseVersion#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#marked_for_deletion MarketplaceUseCaseVersion#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#nr_version MarketplaceUseCaseVersion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#nr_version MarketplaceUseCaseVersion#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#object_type MarketplaceUseCaseVersion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#ref_mo MarketplaceUseCaseVersion#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#ref_mo MarketplaceUseCaseVersion#ref_mo}
   */
   readonly refMo?: MarketplaceUseCaseVersionVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#timestamp MarketplaceUseCaseVersion#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#timestamp MarketplaceUseCaseVersion#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#version_type MarketplaceUseCaseVersion#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#version_type MarketplaceUseCaseVersion#version_type}
   */
   readonly versionType?: string;
 }
@@ -3589,7 +3589,7 @@ export class MarketplaceUseCaseVersionVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version intersight_marketplace_use_case_version}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version intersight_marketplace_use_case_version}
 */
 export class MarketplaceUseCaseVersion extends cdktf.TerraformResource {
 
@@ -3605,7 +3605,7 @@ export class MarketplaceUseCaseVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MarketplaceUseCaseVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MarketplaceUseCaseVersion to import
-  * @param importFromId The id of the existing MarketplaceUseCaseVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MarketplaceUseCaseVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MarketplaceUseCaseVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3617,7 +3617,7 @@ export class MarketplaceUseCaseVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/marketplace_use_case_version intersight_marketplace_use_case_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/marketplace_use_case_version intersight_marketplace_use_case_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3628,8 +3628,8 @@ export class MarketplaceUseCaseVersion extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_marketplace_use_case_version',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

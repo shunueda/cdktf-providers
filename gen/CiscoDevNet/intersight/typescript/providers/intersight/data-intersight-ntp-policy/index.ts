@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNtpPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#account_moid DataIntersightNtpPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#account_moid DataIntersightNtpPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNtpPolicyConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#create_time DataIntersightNtpPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#create_time DataIntersightNtpPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#description DataIntersightNtpPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#description DataIntersightNtpPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#domain_group_moid DataIntersightNtpPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#domain_group_moid DataIntersightNtpPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * State of NTP service on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#enabled DataIntersightNtpPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#enabled DataIntersightNtpPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#id DataIntersightNtpPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#id DataIntersightNtpPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,41 +59,41 @@ export interface DataIntersightNtpPolicyConfig extends cdktf.TerraformMetaArgume
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#mod_time DataIntersightNtpPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#mod_time DataIntersightNtpPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#name DataIntersightNtpPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#name DataIntersightNtpPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#ntp_servers DataIntersightNtpPolicy#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#ntp_servers DataIntersightNtpPolicy#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#owners DataIntersightNtpPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#owners DataIntersightNtpPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#shared_scope DataIntersightNtpPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#shared_scope DataIntersightNtpPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -523,61 +523,61 @@ export interface DataIntersightNtpPolicyConfig extends cdktf.TerraformMetaArgume
   * * `Pacific/Wallis` - 
   * * `UTC` -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#timezone DataIntersightNtpPolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#timezone DataIntersightNtpPolicy#timezone}
   */
   readonly timezone?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#ancestors DataIntersightNtpPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#ancestors DataIntersightNtpPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightNtpPolicyAncestors[] | cdktf.IResolvable;
   /**
   * appliance_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#appliance_account DataIntersightNtpPolicy#appliance_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#appliance_account DataIntersightNtpPolicy#appliance_account}
   */
   readonly applianceAccount?: DataIntersightNtpPolicyApplianceAccount;
   /**
   * authenticated_ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#authenticated_ntp_servers DataIntersightNtpPolicy#authenticated_ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#authenticated_ntp_servers DataIntersightNtpPolicy#authenticated_ntp_servers}
   */
   readonly authenticatedNtpServers?: DataIntersightNtpPolicyAuthenticatedNtpServers[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#organization DataIntersightNtpPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#organization DataIntersightNtpPolicy#organization}
   */
   readonly organization?: DataIntersightNtpPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#parent DataIntersightNtpPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#parent DataIntersightNtpPolicy#parent}
   */
   readonly parent?: DataIntersightNtpPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#permission_resources DataIntersightNtpPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#permission_resources DataIntersightNtpPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightNtpPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#profiles DataIntersightNtpPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#profiles DataIntersightNtpPolicy#profiles}
   */
   readonly profiles?: DataIntersightNtpPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#tags DataIntersightNtpPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#tags DataIntersightNtpPolicy#tags}
   */
   readonly tags?: DataIntersightNtpPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#version_context DataIntersightNtpPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#version_context DataIntersightNtpPolicy#version_context}
   */
   readonly versionContext?: DataIntersightNtpPolicyVersionContext;
 }
@@ -2066,7 +2066,7 @@ export class DataIntersightNtpPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2074,19 +2074,19 @@ export interface DataIntersightNtpPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2099,7 +2099,7 @@ export interface DataIntersightNtpPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2331,7 +2331,7 @@ export class DataIntersightNtpPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpPolicyApplianceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2339,19 +2339,19 @@ export interface DataIntersightNtpPolicyApplianceAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2364,7 +2364,7 @@ export interface DataIntersightNtpPolicyApplianceAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2564,7 +2564,7 @@ export class DataIntersightNtpPolicyApplianceAccountOutputReference extends cdkt
 }
 export interface DataIntersightNtpPolicyAuthenticatedNtpServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2572,39 +2572,39 @@ export interface DataIntersightNtpPolicyAuthenticatedNtpServers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Type of symmetric key to use for this server.
   * * `SHA1` - Key type used by the authentication is SHA1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#key_type DataIntersightNtpPolicy#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#key_type DataIntersightNtpPolicy#key_type}
   */
   readonly keyType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Server hostname or IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#server_name DataIntersightNtpPolicy#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#server_name DataIntersightNtpPolicy#server_name}
   */
   readonly serverName?: string;
   /**
   * The key ID is a positive integer that identifies a cryptographic key used to authenticate NTP messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#sym_key_id DataIntersightNtpPolicy#sym_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#sym_key_id DataIntersightNtpPolicy#sym_key_id}
   */
   readonly symKeyId?: number;
   /**
   * The value of the symmetric key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#sym_key_value DataIntersightNtpPolicy#sym_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#sym_key_value DataIntersightNtpPolicy#sym_key_value}
   */
   readonly symKeyValue?: string;
 }
@@ -2894,7 +2894,7 @@ export class DataIntersightNtpPolicyAuthenticatedNtpServersList extends cdktf.Co
 }
 export interface DataIntersightNtpPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2902,19 +2902,19 @@ export interface DataIntersightNtpPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2927,7 +2927,7 @@ export interface DataIntersightNtpPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3127,7 +3127,7 @@ export class DataIntersightNtpPolicyOrganizationOutputReference extends cdktf.Co
 }
 export interface DataIntersightNtpPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3135,19 +3135,19 @@ export interface DataIntersightNtpPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3160,7 +3160,7 @@ export interface DataIntersightNtpPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3360,7 +3360,7 @@ export class DataIntersightNtpPolicyParentOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightNtpPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3368,19 +3368,19 @@ export interface DataIntersightNtpPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3393,7 +3393,7 @@ export interface DataIntersightNtpPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3625,7 +3625,7 @@ export class DataIntersightNtpPolicyPermissionResourcesList extends cdktf.Comple
 }
 export interface DataIntersightNtpPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3633,19 +3633,19 @@ export interface DataIntersightNtpPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3658,7 +3658,7 @@ export interface DataIntersightNtpPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3890,7 +3890,7 @@ export class DataIntersightNtpPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3898,19 +3898,19 @@ export interface DataIntersightNtpPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3923,7 +3923,7 @@ export interface DataIntersightNtpPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4155,7 +4155,7 @@ export class DataIntersightNtpPolicyTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface DataIntersightNtpPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4163,19 +4163,19 @@ export interface DataIntersightNtpPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4188,7 +4188,7 @@ export interface DataIntersightNtpPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4388,25 +4388,25 @@ export class DataIntersightNtpPolicyTagsDefinitionOutputReference extends cdktf.
 }
 export interface DataIntersightNtpPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#key DataIntersightNtpPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#key DataIntersightNtpPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#propagated DataIntersightNtpPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#propagated DataIntersightNtpPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#sys_tag DataIntersightNtpPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#sys_tag DataIntersightNtpPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4414,25 +4414,25 @@ export interface DataIntersightNtpPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#type DataIntersightNtpPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#type DataIntersightNtpPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#value DataIntersightNtpPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#value DataIntersightNtpPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#ancestor_definitions DataIntersightNtpPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#ancestor_definitions DataIntersightNtpPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNtpPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#definition DataIntersightNtpPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#definition DataIntersightNtpPolicy#definition}
   */
   readonly definition?: DataIntersightNtpPolicyTagsDefinition;
 }
@@ -4751,7 +4751,7 @@ export class DataIntersightNtpPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNtpPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4759,19 +4759,19 @@ export interface DataIntersightNtpPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4784,7 +4784,7 @@ export interface DataIntersightNtpPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5016,7 +5016,7 @@ export class DataIntersightNtpPolicyVersionContextInterestedMosList extends cdkt
 }
 export interface DataIntersightNtpPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5024,19 +5024,19 @@ export interface DataIntersightNtpPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#moid DataIntersightNtpPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5049,7 +5049,7 @@ export interface DataIntersightNtpPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#selector DataIntersightNtpPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5249,7 +5249,7 @@ export class DataIntersightNtpPolicyVersionContextRefMoOutputReference extends c
 }
 export interface DataIntersightNtpPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#additional_properties DataIntersightNtpPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5257,32 +5257,32 @@ export interface DataIntersightNtpPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#class_id DataIntersightNtpPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#marked_for_deletion DataIntersightNtpPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#marked_for_deletion DataIntersightNtpPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#nr_version DataIntersightNtpPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#nr_version DataIntersightNtpPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#object_type DataIntersightNtpPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#timestamp DataIntersightNtpPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#timestamp DataIntersightNtpPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5293,19 +5293,19 @@ export interface DataIntersightNtpPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#version_type DataIntersightNtpPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#version_type DataIntersightNtpPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#interested_mos DataIntersightNtpPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#interested_mos DataIntersightNtpPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightNtpPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#ref_mo DataIntersightNtpPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#ref_mo DataIntersightNtpPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightNtpPolicyVersionContextRefMo;
 }
@@ -5621,7 +5621,7 @@ export class DataIntersightNtpPolicyVersionContextOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy intersight_ntp_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy intersight_ntp_policy}
 */
 export class DataIntersightNtpPolicy extends cdktf.TerraformDataSource {
 
@@ -5637,7 +5637,7 @@ export class DataIntersightNtpPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNtpPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNtpPolicy to import
-  * @param importFromId The id of the existing DataIntersightNtpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNtpPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNtpPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5649,7 +5649,7 @@ export class DataIntersightNtpPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ntp_policy intersight_ntp_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ntp_policy intersight_ntp_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5660,8 +5660,8 @@ export class DataIntersightNtpPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ntp_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApicTenantConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#account_moid DataIntersightApicTenant#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#account_moid DataIntersightApicTenant#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightApicTenantConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#create_time DataIntersightApicTenant#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#create_time DataIntersightApicTenant#create_time}
   */
   readonly createTime?: string;
   /**
-  * Tenant description in Cisco Application Policy Infrastructure Controller (APIC).
+  * Description for Tenant in Cisco Application Policy Infrastructure Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#description DataIntersightApicTenant#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#description DataIntersightApicTenant#description}
   */
   readonly description?: string;
   /**
-  * Distinguished Name (DN) of an object in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Distinguished Name (DN) of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#dn DataIntersightApicTenant#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#dn DataIntersightApicTenant#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#domain_group_moid DataIntersightApicTenant#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#domain_group_moid DataIntersightApicTenant#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#id DataIntersightApicTenant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#id DataIntersightApicTenant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,73 +59,73 @@ export interface DataIntersightApicTenantConfig extends cdktf.TerraformMetaArgum
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#mod_time DataIntersightApicTenant#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#mod_time DataIntersightApicTenant#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
-  * Tenant name in Cisco Application Policy Infrastructure Controller (APIC).
+  * Tenant Name in Cisco Application Policy Infrastructure Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#name DataIntersightApicTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#name DataIntersightApicTenant#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#owners DataIntersightApicTenant#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#owners DataIntersightApicTenant#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#shared_scope DataIntersightApicTenant#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#shared_scope DataIntersightApicTenant#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#ancestors DataIntersightApicTenant#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#ancestors DataIntersightApicTenant#ancestors}
   */
   readonly ancestors?: DataIntersightApicTenantAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#parent DataIntersightApicTenant#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#parent DataIntersightApicTenant#parent}
   */
   readonly parent?: DataIntersightApicTenantParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#permission_resources DataIntersightApicTenant#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#permission_resources DataIntersightApicTenant#permission_resources}
   */
   readonly permissionResources?: DataIntersightApicTenantPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#registered_device DataIntersightApicTenant#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#registered_device DataIntersightApicTenant#registered_device}
   */
   readonly registeredDevice?: DataIntersightApicTenantRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#tags DataIntersightApicTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#tags DataIntersightApicTenant#tags}
   */
   readonly tags?: DataIntersightApicTenantTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#version_context DataIntersightApicTenant#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#version_context DataIntersightApicTenant#version_context}
   */
   readonly versionContext?: DataIntersightApicTenantVersionContext;
 }
@@ -1291,7 +1291,7 @@ export class DataIntersightApicTenantResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicTenantAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1299,19 +1299,19 @@ export interface DataIntersightApicTenantAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1324,7 +1324,7 @@ export interface DataIntersightApicTenantAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -1556,7 +1556,7 @@ export class DataIntersightApicTenantAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicTenantParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1564,19 +1564,19 @@ export interface DataIntersightApicTenantParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1589,7 +1589,7 @@ export interface DataIntersightApicTenantParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -1789,7 +1789,7 @@ export class DataIntersightApicTenantParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightApicTenantPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1797,19 +1797,19 @@ export interface DataIntersightApicTenantPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1822,7 +1822,7 @@ export interface DataIntersightApicTenantPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2054,7 +2054,7 @@ export class DataIntersightApicTenantPermissionResourcesList extends cdktf.Compl
 }
 export interface DataIntersightApicTenantRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2062,19 +2062,19 @@ export interface DataIntersightApicTenantRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2087,7 +2087,7 @@ export interface DataIntersightApicTenantRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2287,7 +2287,7 @@ export class DataIntersightApicTenantRegisteredDeviceOutputReference extends cdk
 }
 export interface DataIntersightApicTenantTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2295,19 +2295,19 @@ export interface DataIntersightApicTenantTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2320,7 +2320,7 @@ export interface DataIntersightApicTenantTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2552,7 +2552,7 @@ export class DataIntersightApicTenantTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightApicTenantTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2560,19 +2560,19 @@ export interface DataIntersightApicTenantTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2585,7 +2585,7 @@ export interface DataIntersightApicTenantTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -2785,25 +2785,25 @@ export class DataIntersightApicTenantTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightApicTenantTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#key DataIntersightApicTenant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#key DataIntersightApicTenant#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#propagated DataIntersightApicTenant#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#propagated DataIntersightApicTenant#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#sys_tag DataIntersightApicTenant#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#sys_tag DataIntersightApicTenant#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2811,25 +2811,25 @@ export interface DataIntersightApicTenantTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#type DataIntersightApicTenant#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#type DataIntersightApicTenant#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#value DataIntersightApicTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#value DataIntersightApicTenant#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#ancestor_definitions DataIntersightApicTenant#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#ancestor_definitions DataIntersightApicTenant#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApicTenantTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#definition DataIntersightApicTenant#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#definition DataIntersightApicTenant#definition}
   */
   readonly definition?: DataIntersightApicTenantTagsDefinition;
 }
@@ -3148,7 +3148,7 @@ export class DataIntersightApicTenantTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicTenantVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3156,19 +3156,19 @@ export interface DataIntersightApicTenantVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3181,7 +3181,7 @@ export interface DataIntersightApicTenantVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -3413,7 +3413,7 @@ export class DataIntersightApicTenantVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightApicTenantVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3421,19 +3421,19 @@ export interface DataIntersightApicTenantVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#moid DataIntersightApicTenant#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3446,7 +3446,7 @@ export interface DataIntersightApicTenantVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#selector DataIntersightApicTenant#selector}
   */
   readonly selector?: string;
 }
@@ -3646,7 +3646,7 @@ export class DataIntersightApicTenantVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightApicTenantVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#additional_properties DataIntersightApicTenant#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3654,32 +3654,32 @@ export interface DataIntersightApicTenantVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#class_id DataIntersightApicTenant#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#marked_for_deletion DataIntersightApicTenant#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#marked_for_deletion DataIntersightApicTenant#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#nr_version DataIntersightApicTenant#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#nr_version DataIntersightApicTenant#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#object_type DataIntersightApicTenant#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#timestamp DataIntersightApicTenant#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#timestamp DataIntersightApicTenant#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3690,19 +3690,19 @@ export interface DataIntersightApicTenantVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#version_type DataIntersightApicTenant#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#version_type DataIntersightApicTenant#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#interested_mos DataIntersightApicTenant#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#interested_mos DataIntersightApicTenant#interested_mos}
   */
   readonly interestedMos?: DataIntersightApicTenantVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#ref_mo DataIntersightApicTenant#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#ref_mo DataIntersightApicTenant#ref_mo}
   */
   readonly refMo?: DataIntersightApicTenantVersionContextRefMo;
 }
@@ -4018,7 +4018,7 @@ export class DataIntersightApicTenantVersionContextOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant intersight_apic_tenant}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant intersight_apic_tenant}
 */
 export class DataIntersightApicTenant extends cdktf.TerraformDataSource {
 
@@ -4034,7 +4034,7 @@ export class DataIntersightApicTenant extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightApicTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApicTenant to import
-  * @param importFromId The id of the existing DataIntersightApicTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApicTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApicTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4046,7 +4046,7 @@ export class DataIntersightApicTenant extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_tenant intersight_apic_tenant} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_tenant intersight_apic_tenant} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4057,8 +4057,8 @@ export class DataIntersightApicTenant extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_apic_tenant',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

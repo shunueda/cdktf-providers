@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentInterconnectConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#account_moid DataIntersightEquipmentInterconnect#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#account_moid DataIntersightEquipmentInterconnect#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightEquipmentInterconnectConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#create_time DataIntersightEquipmentInterconnect#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#create_time DataIntersightEquipmentInterconnect#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#device_mo_id DataIntersightEquipmentInterconnect#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#device_mo_id DataIntersightEquipmentInterconnect#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#dn DataIntersightEquipmentInterconnect#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#dn DataIntersightEquipmentInterconnect#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#domain_group_moid DataIntersightEquipmentInterconnect#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#domain_group_moid DataIntersightEquipmentInterconnect#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#id DataIntersightEquipmentInterconnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#id DataIntersightEquipmentInterconnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ export interface DataIntersightEquipmentInterconnectConfig extends cdktf.Terrafo
   /**
   * The identifier of the interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#interconnect_id DataIntersightEquipmentInterconnect#interconnect_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#interconnect_id DataIntersightEquipmentInterconnect#interconnect_id}
   */
   readonly interconnectId?: string;
   /**
@@ -67,145 +67,145 @@ export interface DataIntersightEquipmentInterconnectConfig extends cdktf.Terrafo
   * * `Unknown` - Interconnect type is unknown.
   * * `NVLink` - Interconnect type is NVLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#interconnect_type DataIntersightEquipmentInterconnect#interconnect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#interconnect_type DataIntersightEquipmentInterconnect#interconnect_type}
   */
   readonly interconnectType?: string;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#is_upgraded DataIntersightEquipmentInterconnect#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#is_upgraded DataIntersightEquipmentInterconnect#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#mod_time DataIntersightEquipmentInterconnect#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#mod_time DataIntersightEquipmentInterconnect#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#model DataIntersightEquipmentInterconnect#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#model DataIntersightEquipmentInterconnect#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#owners DataIntersightEquipmentInterconnect#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#owners DataIntersightEquipmentInterconnect#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#presence DataIntersightEquipmentInterconnect#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#presence DataIntersightEquipmentInterconnect#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#revision DataIntersightEquipmentInterconnect#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#revision DataIntersightEquipmentInterconnect#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#rn DataIntersightEquipmentInterconnect#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#rn DataIntersightEquipmentInterconnect#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#serial DataIntersightEquipmentInterconnect#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#serial DataIntersightEquipmentInterconnect#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#shared_scope DataIntersightEquipmentInterconnect#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#shared_scope DataIntersightEquipmentInterconnect#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#vendor DataIntersightEquipmentInterconnect#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#vendor DataIntersightEquipmentInterconnect#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#ancestors DataIntersightEquipmentInterconnect#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#ancestors DataIntersightEquipmentInterconnect#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentInterconnectAncestors[] | cdktf.IResolvable;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#compute_board DataIntersightEquipmentInterconnect#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#compute_board DataIntersightEquipmentInterconnect#compute_board}
   */
   readonly computeBoard?: DataIntersightEquipmentInterconnectComputeBoard;
   /**
   * interconnected_graphics_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#interconnected_graphics_cards DataIntersightEquipmentInterconnect#interconnected_graphics_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#interconnected_graphics_cards DataIntersightEquipmentInterconnect#interconnected_graphics_cards}
   */
   readonly interconnectedGraphicsCards?: DataIntersightEquipmentInterconnectInterconnectedGraphicsCards[] | cdktf.IResolvable;
   /**
   * interconnected_shared_graphics_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#interconnected_shared_graphics_cards DataIntersightEquipmentInterconnect#interconnected_shared_graphics_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#interconnected_shared_graphics_cards DataIntersightEquipmentInterconnect#interconnected_shared_graphics_cards}
   */
   readonly interconnectedSharedGraphicsCards?: DataIntersightEquipmentInterconnectInterconnectedSharedGraphicsCards[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#parent DataIntersightEquipmentInterconnect#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#parent DataIntersightEquipmentInterconnect#parent}
   */
   readonly parent?: DataIntersightEquipmentInterconnectParent;
   /**
   * pci_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#pci_node DataIntersightEquipmentInterconnect#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#pci_node DataIntersightEquipmentInterconnect#pci_node}
   */
   readonly pciNode?: DataIntersightEquipmentInterconnectPciNode;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#permission_resources DataIntersightEquipmentInterconnect#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#permission_resources DataIntersightEquipmentInterconnect#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentInterconnectPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#previous_fru DataIntersightEquipmentInterconnect#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#previous_fru DataIntersightEquipmentInterconnect#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentInterconnectPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#registered_device DataIntersightEquipmentInterconnect#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#registered_device DataIntersightEquipmentInterconnect#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentInterconnectRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#tags DataIntersightEquipmentInterconnect#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#tags DataIntersightEquipmentInterconnect#tags}
   */
   readonly tags?: DataIntersightEquipmentInterconnectTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#version_context DataIntersightEquipmentInterconnect#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#version_context DataIntersightEquipmentInterconnect#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentInterconnectVersionContext;
 }
@@ -1916,7 +1916,7 @@ export class DataIntersightEquipmentInterconnectResultsList extends cdktf.Comple
 }
 export interface DataIntersightEquipmentInterconnectAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1924,19 +1924,19 @@ export interface DataIntersightEquipmentInterconnectAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1949,7 +1949,7 @@ export interface DataIntersightEquipmentInterconnectAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -2181,7 +2181,7 @@ export class DataIntersightEquipmentInterconnectAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightEquipmentInterconnectComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2189,19 +2189,19 @@ export interface DataIntersightEquipmentInterconnectComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2214,7 +2214,7 @@ export interface DataIntersightEquipmentInterconnectComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -2414,7 +2414,7 @@ export class DataIntersightEquipmentInterconnectComputeBoardOutputReference exte
 }
 export interface DataIntersightEquipmentInterconnectInterconnectedGraphicsCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2422,19 +2422,19 @@ export interface DataIntersightEquipmentInterconnectInterconnectedGraphicsCards 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2447,7 +2447,7 @@ export interface DataIntersightEquipmentInterconnectInterconnectedGraphicsCards 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -2679,7 +2679,7 @@ export class DataIntersightEquipmentInterconnectInterconnectedGraphicsCardsList 
 }
 export interface DataIntersightEquipmentInterconnectInterconnectedSharedGraphicsCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2687,19 +2687,19 @@ export interface DataIntersightEquipmentInterconnectInterconnectedSharedGraphics
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2712,7 +2712,7 @@ export interface DataIntersightEquipmentInterconnectInterconnectedSharedGraphics
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -2944,7 +2944,7 @@ export class DataIntersightEquipmentInterconnectInterconnectedSharedGraphicsCard
 }
 export interface DataIntersightEquipmentInterconnectParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2952,19 +2952,19 @@ export interface DataIntersightEquipmentInterconnectParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2977,7 +2977,7 @@ export interface DataIntersightEquipmentInterconnectParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -3177,7 +3177,7 @@ export class DataIntersightEquipmentInterconnectParentOutputReference extends cd
 }
 export interface DataIntersightEquipmentInterconnectPciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3185,19 +3185,19 @@ export interface DataIntersightEquipmentInterconnectPciNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3210,7 +3210,7 @@ export interface DataIntersightEquipmentInterconnectPciNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -3410,7 +3410,7 @@ export class DataIntersightEquipmentInterconnectPciNodeOutputReference extends c
 }
 export interface DataIntersightEquipmentInterconnectPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3418,19 +3418,19 @@ export interface DataIntersightEquipmentInterconnectPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3443,7 +3443,7 @@ export interface DataIntersightEquipmentInterconnectPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -3675,7 +3675,7 @@ export class DataIntersightEquipmentInterconnectPermissionResourcesList extends 
 }
 export interface DataIntersightEquipmentInterconnectPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3683,19 +3683,19 @@ export interface DataIntersightEquipmentInterconnectPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3708,7 +3708,7 @@ export interface DataIntersightEquipmentInterconnectPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -3908,7 +3908,7 @@ export class DataIntersightEquipmentInterconnectPreviousFruOutputReference exten
 }
 export interface DataIntersightEquipmentInterconnectRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3916,19 +3916,19 @@ export interface DataIntersightEquipmentInterconnectRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3941,7 +3941,7 @@ export interface DataIntersightEquipmentInterconnectRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -4141,7 +4141,7 @@ export class DataIntersightEquipmentInterconnectRegisteredDeviceOutputReference 
 }
 export interface DataIntersightEquipmentInterconnectTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4149,19 +4149,19 @@ export interface DataIntersightEquipmentInterconnectTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4174,7 +4174,7 @@ export interface DataIntersightEquipmentInterconnectTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -4406,7 +4406,7 @@ export class DataIntersightEquipmentInterconnectTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightEquipmentInterconnectTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4414,19 +4414,19 @@ export interface DataIntersightEquipmentInterconnectTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4439,7 +4439,7 @@ export interface DataIntersightEquipmentInterconnectTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -4639,25 +4639,25 @@ export class DataIntersightEquipmentInterconnectTagsDefinitionOutputReference ex
 }
 export interface DataIntersightEquipmentInterconnectTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#key DataIntersightEquipmentInterconnect#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#key DataIntersightEquipmentInterconnect#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#propagated DataIntersightEquipmentInterconnect#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#propagated DataIntersightEquipmentInterconnect#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#sys_tag DataIntersightEquipmentInterconnect#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#sys_tag DataIntersightEquipmentInterconnect#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4665,25 +4665,25 @@ export interface DataIntersightEquipmentInterconnectTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#type DataIntersightEquipmentInterconnect#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#type DataIntersightEquipmentInterconnect#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#value DataIntersightEquipmentInterconnect#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#value DataIntersightEquipmentInterconnect#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#ancestor_definitions DataIntersightEquipmentInterconnect#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#ancestor_definitions DataIntersightEquipmentInterconnect#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentInterconnectTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#definition DataIntersightEquipmentInterconnect#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#definition DataIntersightEquipmentInterconnect#definition}
   */
   readonly definition?: DataIntersightEquipmentInterconnectTagsDefinition;
 }
@@ -5002,7 +5002,7 @@ export class DataIntersightEquipmentInterconnectTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightEquipmentInterconnectVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5010,19 +5010,19 @@ export interface DataIntersightEquipmentInterconnectVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5035,7 +5035,7 @@ export interface DataIntersightEquipmentInterconnectVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -5267,7 +5267,7 @@ export class DataIntersightEquipmentInterconnectVersionContextInterestedMosList 
 }
 export interface DataIntersightEquipmentInterconnectVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5275,19 +5275,19 @@ export interface DataIntersightEquipmentInterconnectVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#moid DataIntersightEquipmentInterconnect#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5300,7 +5300,7 @@ export interface DataIntersightEquipmentInterconnectVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#selector DataIntersightEquipmentInterconnect#selector}
   */
   readonly selector?: string;
 }
@@ -5500,7 +5500,7 @@ export class DataIntersightEquipmentInterconnectVersionContextRefMoOutputReferen
 }
 export interface DataIntersightEquipmentInterconnectVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#additional_properties DataIntersightEquipmentInterconnect#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5508,32 +5508,32 @@ export interface DataIntersightEquipmentInterconnectVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#class_id DataIntersightEquipmentInterconnect#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#marked_for_deletion DataIntersightEquipmentInterconnect#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#marked_for_deletion DataIntersightEquipmentInterconnect#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#nr_version DataIntersightEquipmentInterconnect#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#nr_version DataIntersightEquipmentInterconnect#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#object_type DataIntersightEquipmentInterconnect#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#timestamp DataIntersightEquipmentInterconnect#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#timestamp DataIntersightEquipmentInterconnect#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5544,19 +5544,19 @@ export interface DataIntersightEquipmentInterconnectVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#version_type DataIntersightEquipmentInterconnect#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#version_type DataIntersightEquipmentInterconnect#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#interested_mos DataIntersightEquipmentInterconnect#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#interested_mos DataIntersightEquipmentInterconnect#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentInterconnectVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#ref_mo DataIntersightEquipmentInterconnect#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#ref_mo DataIntersightEquipmentInterconnect#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentInterconnectVersionContextRefMo;
 }
@@ -5872,7 +5872,7 @@ export class DataIntersightEquipmentInterconnectVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect intersight_equipment_interconnect}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect intersight_equipment_interconnect}
 */
 export class DataIntersightEquipmentInterconnect extends cdktf.TerraformDataSource {
 
@@ -5888,7 +5888,7 @@ export class DataIntersightEquipmentInterconnect extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightEquipmentInterconnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentInterconnect to import
-  * @param importFromId The id of the existing DataIntersightEquipmentInterconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentInterconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentInterconnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5900,7 +5900,7 @@ export class DataIntersightEquipmentInterconnect extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_interconnect intersight_equipment_interconnect} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_interconnect intersight_equipment_interconnect} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5911,8 +5911,8 @@ export class DataIntersightEquipmentInterconnect extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_equipment_interconnect',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

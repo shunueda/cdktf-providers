@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationConfig extends 
   /**
   * ID of the SAML application to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#application_id OrganizationmanagerIdpApplicationSamlApplication#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#application_id OrganizationmanagerIdpApplicationSamlApplication#application_id}
   */
   readonly applicationId?: string;
   /**
   * Attribute mapping configuration for the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#attribute_mapping OrganizationmanagerIdpApplicationSamlApplication#attribute_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#attribute_mapping OrganizationmanagerIdpApplicationSamlApplication#attribute_mapping}
   */
   readonly attributeMapping?: OrganizationmanagerIdpApplicationSamlApplicationAttributeMapping;
   /**
   * Description of the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#description OrganizationmanagerIdpApplicationSamlApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#description OrganizationmanagerIdpApplicationSamlApplication#description}
   */
   readonly description?: string;
   /**
   * Group claims settings for the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#group_claims_settings OrganizationmanagerIdpApplicationSamlApplication#group_claims_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#group_claims_settings OrganizationmanagerIdpApplicationSamlApplication#group_claims_settings}
   */
   readonly groupClaimsSettings?: OrganizationmanagerIdpApplicationSamlApplicationGroupClaimsSettings;
   /**
   * ID of the SAML application to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#id OrganizationmanagerIdpApplicationSamlApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#id OrganizationmanagerIdpApplicationSamlApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,35 +43,35 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationConfig extends 
   /**
   * Resource labels as `` key:value `` pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#labels OrganizationmanagerIdpApplicationSamlApplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#labels OrganizationmanagerIdpApplicationSamlApplication#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#name OrganizationmanagerIdpApplicationSamlApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#name OrganizationmanagerIdpApplicationSamlApplication#name}
   */
   readonly name: string;
   /**
   * ID of the organization that the application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#organization_id OrganizationmanagerIdpApplicationSamlApplication#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#organization_id OrganizationmanagerIdpApplicationSamlApplication#organization_id}
   */
   readonly organizationId: string;
   /**
   * Security settings for the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#security_settings OrganizationmanagerIdpApplicationSamlApplication#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#security_settings OrganizationmanagerIdpApplicationSamlApplication#security_settings}
   */
   readonly securitySettings?: OrganizationmanagerIdpApplicationSamlApplicationSecuritySettings;
   /**
   * Service provider configuration for the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#service_provider OrganizationmanagerIdpApplicationSamlApplication#service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#service_provider OrganizationmanagerIdpApplicationSamlApplication#service_provider}
   */
   readonly serviceProvider?: OrganizationmanagerIdpApplicationSamlApplicationServiceProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#timeouts OrganizationmanagerIdpApplicationSamlApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#timeouts OrganizationmanagerIdpApplicationSamlApplication#timeouts}
   */
   readonly timeouts?: OrganizationmanagerIdpApplicationSamlApplicationTimeouts;
 }
@@ -79,13 +79,13 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationAttributeMappin
   /**
   * Name of the SAML attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#name OrganizationmanagerIdpApplicationSamlApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#name OrganizationmanagerIdpApplicationSamlApplication#name}
   */
   readonly name: string;
   /**
   * Value of the SAML attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#value OrganizationmanagerIdpApplicationSamlApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#value OrganizationmanagerIdpApplicationSamlApplication#value}
   */
   readonly value: string;
 }
@@ -226,7 +226,7 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationAttributeMappin
   /**
   * Format of the NameID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#format OrganizationmanagerIdpApplicationSamlApplication#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#format OrganizationmanagerIdpApplicationSamlApplication#format}
   */
   readonly format: string;
 }
@@ -314,13 +314,13 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationAttributeMappin
   /**
   * List of attribute mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#attributes OrganizationmanagerIdpApplicationSamlApplication#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#attributes OrganizationmanagerIdpApplicationSamlApplication#attributes}
   */
   readonly attributes?: OrganizationmanagerIdpApplicationSamlApplicationAttributeMappingAttributes[] | cdktf.IResolvable;
   /**
   * NameID configuration for the SAML application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#name_id OrganizationmanagerIdpApplicationSamlApplication#name_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#name_id OrganizationmanagerIdpApplicationSamlApplication#name_id}
   */
   readonly nameId: OrganizationmanagerIdpApplicationSamlApplicationAttributeMappingNameId;
 }
@@ -442,13 +442,13 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationGroupClaimsSett
   /**
   * Name of the SAML attribute that contains group information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#group_attribute_name OrganizationmanagerIdpApplicationSamlApplication#group_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#group_attribute_name OrganizationmanagerIdpApplicationSamlApplication#group_attribute_name}
   */
   readonly groupAttributeName?: string;
   /**
   * Distribution type for group claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#group_distribution_type OrganizationmanagerIdpApplicationSamlApplication#group_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#group_distribution_type OrganizationmanagerIdpApplicationSamlApplication#group_distribution_type}
   */
   readonly groupDistributionType?: string;
 }
@@ -642,13 +642,13 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationSecuritySetting
   /**
   * ID of the signature certificate to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#signature_certificate_id OrganizationmanagerIdpApplicationSamlApplication#signature_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#signature_certificate_id OrganizationmanagerIdpApplicationSamlApplication#signature_certificate_id}
   */
   readonly signatureCertificateId?: string;
   /**
   * Signature mode for SAML messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#signature_mode OrganizationmanagerIdpApplicationSamlApplication#signature_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#signature_mode OrganizationmanagerIdpApplicationSamlApplication#signature_mode}
   */
   readonly signatureMode?: string;
 }
@@ -773,13 +773,13 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationServiceProvider
   /**
   * Optional index for the assertion consumer service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#index OrganizationmanagerIdpApplicationSamlApplication#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#index OrganizationmanagerIdpApplicationSamlApplication#index}
   */
   readonly index?: number;
   /**
   * The URL where SAML responses are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#url OrganizationmanagerIdpApplicationSamlApplication#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#url OrganizationmanagerIdpApplicationSamlApplication#url}
   */
   readonly url: string;
 }
@@ -923,19 +923,19 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationServiceProvider
   /**
   * Protocol binding supported by the logout endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#protocol_binding OrganizationmanagerIdpApplicationSamlApplication#protocol_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#protocol_binding OrganizationmanagerIdpApplicationSamlApplication#protocol_binding}
   */
   readonly protocolBinding: string;
   /**
   * Optional separate URL for logout responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#response_url OrganizationmanagerIdpApplicationSamlApplication#response_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#response_url OrganizationmanagerIdpApplicationSamlApplication#response_url}
   */
   readonly responseUrl?: string;
   /**
   * The URL where logout requests are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#url OrganizationmanagerIdpApplicationSamlApplication#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#url OrganizationmanagerIdpApplicationSamlApplication#url}
   */
   readonly url: string;
 }
@@ -1105,19 +1105,19 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationServiceProvider
   /**
   * Assertion Consumer Service URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#acs_urls OrganizationmanagerIdpApplicationSamlApplication#acs_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#acs_urls OrganizationmanagerIdpApplicationSamlApplication#acs_urls}
   */
   readonly acsUrls?: OrganizationmanagerIdpApplicationSamlApplicationServiceProviderAcsUrls[] | cdktf.IResolvable;
   /**
   * Service provider entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#entity_id OrganizationmanagerIdpApplicationSamlApplication#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#entity_id OrganizationmanagerIdpApplicationSamlApplication#entity_id}
   */
   readonly entityId: string;
   /**
   * Single Logout Service URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#slo_urls OrganizationmanagerIdpApplicationSamlApplication#slo_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#slo_urls OrganizationmanagerIdpApplicationSamlApplication#slo_urls}
   */
   readonly sloUrls?: OrganizationmanagerIdpApplicationSamlApplicationServiceProviderSloUrls[] | cdktf.IResolvable;
 }
@@ -1268,25 +1268,25 @@ export interface OrganizationmanagerIdpApplicationSamlApplicationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#create OrganizationmanagerIdpApplicationSamlApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#create OrganizationmanagerIdpApplicationSamlApplication#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#delete OrganizationmanagerIdpApplicationSamlApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#delete OrganizationmanagerIdpApplicationSamlApplication#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#read OrganizationmanagerIdpApplicationSamlApplication#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#read OrganizationmanagerIdpApplicationSamlApplication#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#update OrganizationmanagerIdpApplicationSamlApplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#update OrganizationmanagerIdpApplicationSamlApplication#update}
   */
   readonly update?: string;
 }
@@ -1467,7 +1467,7 @@ export class OrganizationmanagerIdpApplicationSamlApplicationTimeoutsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application yandex_organizationmanager_idp_application_saml_application}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application yandex_organizationmanager_idp_application_saml_application}
 */
 export class OrganizationmanagerIdpApplicationSamlApplication extends cdktf.TerraformResource {
 
@@ -1483,7 +1483,7 @@ export class OrganizationmanagerIdpApplicationSamlApplication extends cdktf.Terr
   * Generates CDKTF code for importing a OrganizationmanagerIdpApplicationSamlApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerIdpApplicationSamlApplication to import
-  * @param importFromId The id of the existing OrganizationmanagerIdpApplicationSamlApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerIdpApplicationSamlApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerIdpApplicationSamlApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1495,7 +1495,7 @@ export class OrganizationmanagerIdpApplicationSamlApplication extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_application_saml_application yandex_organizationmanager_idp_application_saml_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_application_saml_application yandex_organizationmanager_idp_application_saml_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1506,8 +1506,8 @@ export class OrganizationmanagerIdpApplicationSamlApplication extends cdktf.Terr
       terraformResourceType: 'yandex_organizationmanager_idp_application_saml_application',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

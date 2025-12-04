@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#account_moid DataIntersightVirtualizationVmwareVirtualSwitch#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#account_moid DataIntersightVirtualizationVmwareVirtualSwitch#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,19 +22,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#create_time DataIntersightVirtualizationVmwareVirtualSwitch#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#create_time DataIntersightVirtualizationVmwareVirtualSwitch#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#domain_group_moid DataIntersightVirtualizationVmwareVirtualSwitch#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#domain_group_moid DataIntersightVirtualizationVmwareVirtualSwitch#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -42,11 +42,11 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   * * `Reject` - Indicates that the security policy is rejected.
   * * `Accept` - Indicates that the security policy is accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#forged_transmits DataIntersightVirtualizationVmwareVirtualSwitch#forged_transmits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#forged_transmits DataIntersightVirtualizationVmwareVirtualSwitch#forged_transmits}
   */
   readonly forgedTransmits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#id DataIntersightVirtualizationVmwareVirtualSwitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#id DataIntersightVirtualizationVmwareVirtualSwitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   /**
   * The internally generated identity of this switch. This entity is not manipulated by users. It aids in uniquely identifying the switch object. For VMware, this is MOR (managed object reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#identity DataIntersightVirtualizationVmwareVirtualSwitch#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#identity DataIntersightVirtualizationVmwareVirtualSwitch#identity}
   */
   readonly identity?: string;
   /**
@@ -63,54 +63,54 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   * * `Reject` - Indicates that the security policy is rejected.
   * * `Accept` - Indicates that the security policy is accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#mac_address_changes DataIntersightVirtualizationVmwareVirtualSwitch#mac_address_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#mac_address_changes DataIntersightVirtualizationVmwareVirtualSwitch#mac_address_changes}
   */
   readonly macAddressChanges?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#mod_time DataIntersightVirtualizationVmwareVirtualSwitch#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#mod_time DataIntersightVirtualizationVmwareVirtualSwitch#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * Maximum transmission unit configured on a virtual switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#mtu DataIntersightVirtualizationVmwareVirtualSwitch#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#mtu DataIntersightVirtualizationVmwareVirtualSwitch#mtu}
   */
   readonly mtu?: number;
   /**
   * User-provided name to identify the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#name DataIntersightVirtualizationVmwareVirtualSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#name DataIntersightVirtualizationVmwareVirtualSwitch#name}
   */
   readonly name?: string;
   /**
   * Number of networks available on this virtual switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#num_networks DataIntersightVirtualizationVmwareVirtualSwitch#num_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#num_networks DataIntersightVirtualizationVmwareVirtualSwitch#num_networks}
   */
   readonly numNetworks?: number;
   /**
   * Number of physical network interfaces connected with this virtual switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#num_physical_network_interfaces DataIntersightVirtualizationVmwareVirtualSwitch#num_physical_network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#num_physical_network_interfaces DataIntersightVirtualizationVmwareVirtualSwitch#num_physical_network_interfaces}
   */
   readonly numPhysicalNetworkInterfaces?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#owners DataIntersightVirtualizationVmwareVirtualSwitch#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#owners DataIntersightVirtualizationVmwareVirtualSwitch#owners}
   */
   readonly owners?: string[];
   /**
@@ -118,62 +118,62 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchConfig extends c
   * * `Reject` - Indicates that the security policy is rejected.
   * * `Accept` - Indicates that the security policy is accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#promiscuous_mode DataIntersightVirtualizationVmwareVirtualSwitch#promiscuous_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#promiscuous_mode DataIntersightVirtualizationVmwareVirtualSwitch#promiscuous_mode}
   */
   readonly promiscuousMode?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#shared_scope DataIntersightVirtualizationVmwareVirtualSwitch#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#shared_scope DataIntersightVirtualizationVmwareVirtualSwitch#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#ancestors DataIntersightVirtualizationVmwareVirtualSwitch#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#ancestors DataIntersightVirtualizationVmwareVirtualSwitch#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareVirtualSwitchAncestors[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#host DataIntersightVirtualizationVmwareVirtualSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#host DataIntersightVirtualizationVmwareVirtualSwitch#host}
   */
   readonly host?: DataIntersightVirtualizationVmwareVirtualSwitchHost;
   /**
   * nic_teaming_and_failover block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#nic_teaming_and_failover DataIntersightVirtualizationVmwareVirtualSwitch#nic_teaming_and_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#nic_teaming_and_failover DataIntersightVirtualizationVmwareVirtualSwitch#nic_teaming_and_failover}
   */
   readonly nicTeamingAndFailover?: DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFailover;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#parent DataIntersightVirtualizationVmwareVirtualSwitch#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#parent DataIntersightVirtualizationVmwareVirtualSwitch#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareVirtualSwitchParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#permission_resources DataIntersightVirtualizationVmwareVirtualSwitch#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#permission_resources DataIntersightVirtualizationVmwareVirtualSwitch#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareVirtualSwitchPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#registered_device DataIntersightVirtualizationVmwareVirtualSwitch#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#registered_device DataIntersightVirtualizationVmwareVirtualSwitch#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareVirtualSwitchRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#tags DataIntersightVirtualizationVmwareVirtualSwitch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#tags DataIntersightVirtualizationVmwareVirtualSwitch#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareVirtualSwitchTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#version_context DataIntersightVirtualizationVmwareVirtualSwitch#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#version_context DataIntersightVirtualizationVmwareVirtualSwitch#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareVirtualSwitchVersionContext;
 }
@@ -1591,7 +1591,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchResultsList extends 
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1599,19 +1599,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1624,7 +1624,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -1856,7 +1856,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchAncestorsList extend
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1864,19 +1864,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1889,7 +1889,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -2089,11 +2089,11 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchHostOutputReference 
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFailover {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#active_adapters DataIntersightVirtualizationVmwareVirtualSwitch#active_adapters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#active_adapters DataIntersightVirtualizationVmwareVirtualSwitch#active_adapters}
   */
   readonly activeAdapters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,13 +2101,13 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFai
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * By default, a failback policy is enabled on a NIC team. If a failed physical NIC returns online, the network component sets the NIC back to active by replacing the standby NIC that took over its slot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#failback DataIntersightVirtualizationVmwareVirtualSwitch#failback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#failback DataIntersightVirtualizationVmwareVirtualSwitch#failback}
   */
   readonly failback?: boolean | cdktf.IResolvable;
   /**
@@ -2118,13 +2118,13 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFai
   * * `failoverExplicit` - Use explicit failover order.
   * * `loadbalanceSrcnic` - Route based on physical NIC load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#load_balancing DataIntersightVirtualizationVmwareVirtualSwitch#load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#load_balancing DataIntersightVirtualizationVmwareVirtualSwitch#load_balancing}
   */
   readonly loadBalancing?: string;
   /**
   * Name of the network component, example dvswitch, dvnetwork, vswitch or standard network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#name DataIntersightVirtualizationVmwareVirtualSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#name DataIntersightVirtualizationVmwareVirtualSwitch#name}
   */
   readonly name?: string;
   /**
@@ -2132,24 +2132,24 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFai
   * * `linkStatus` - This option detects failures such as removed cables and physical switch power failures.
   * * `beaconProbing` - Sends out and listens for beacon probes on all NICs in the team, and uses this information, in addition to link status, to determine link failure. ESXi sends beacon packets every second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#network_failure_detection DataIntersightVirtualizationVmwareVirtualSwitch#network_failure_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#network_failure_detection DataIntersightVirtualizationVmwareVirtualSwitch#network_failure_detection}
   */
   readonly networkFailureDetection?: string;
   /**
   * Determines how network traffic is distributed between the network adapters in a NIC team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#notify_switches DataIntersightVirtualizationVmwareVirtualSwitch#notify_switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#notify_switches DataIntersightVirtualizationVmwareVirtualSwitch#notify_switches}
   */
   readonly notifySwitches?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#standby_adapters DataIntersightVirtualizationVmwareVirtualSwitch#standby_adapters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#standby_adapters DataIntersightVirtualizationVmwareVirtualSwitch#standby_adapters}
   */
   readonly standbyAdapters?: string[];
 }
@@ -2494,7 +2494,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchNicTeamingAndFailove
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2502,19 +2502,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2527,7 +2527,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -2727,7 +2727,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchParentOutputReferenc
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2735,19 +2735,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2760,7 +2760,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -2992,7 +2992,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchPermissionResourcesL
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3000,19 +3000,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchRegisteredDevice
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3025,7 +3025,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchRegisteredDevice
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -3225,7 +3225,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchRegisteredDeviceOutp
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3233,19 +3233,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3258,7 +3258,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -3490,7 +3490,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchTagsAncestorDefiniti
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3498,19 +3498,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3523,7 +3523,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -3723,25 +3723,25 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchTagsDefinitionOutput
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#key DataIntersightVirtualizationVmwareVirtualSwitch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#key DataIntersightVirtualizationVmwareVirtualSwitch#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#propagated DataIntersightVirtualizationVmwareVirtualSwitch#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#propagated DataIntersightVirtualizationVmwareVirtualSwitch#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#sys_tag DataIntersightVirtualizationVmwareVirtualSwitch#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#sys_tag DataIntersightVirtualizationVmwareVirtualSwitch#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3749,25 +3749,25 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#type DataIntersightVirtualizationVmwareVirtualSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#type DataIntersightVirtualizationVmwareVirtualSwitch#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#value DataIntersightVirtualizationVmwareVirtualSwitch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#value DataIntersightVirtualizationVmwareVirtualSwitch#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#ancestor_definitions DataIntersightVirtualizationVmwareVirtualSwitch#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#ancestor_definitions DataIntersightVirtualizationVmwareVirtualSwitch#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareVirtualSwitchTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#definition DataIntersightVirtualizationVmwareVirtualSwitch#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#definition DataIntersightVirtualizationVmwareVirtualSwitch#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareVirtualSwitchTagsDefinition;
 }
@@ -4086,7 +4086,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchTagsList extends cdk
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4094,19 +4094,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4119,7 +4119,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -4351,7 +4351,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchVersionContextIntere
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4359,19 +4359,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#moid DataIntersightVirtualizationVmwareVirtualSwitch#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4384,7 +4384,7 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#selector DataIntersightVirtualizationVmwareVirtualSwitch#selector}
   */
   readonly selector?: string;
 }
@@ -4584,7 +4584,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchVersionContextRefMoO
 }
 export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#additional_properties DataIntersightVirtualizationVmwareVirtualSwitch#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4592,32 +4592,32 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#class_id DataIntersightVirtualizationVmwareVirtualSwitch#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#marked_for_deletion DataIntersightVirtualizationVmwareVirtualSwitch#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#marked_for_deletion DataIntersightVirtualizationVmwareVirtualSwitch#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#nr_version DataIntersightVirtualizationVmwareVirtualSwitch#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#nr_version DataIntersightVirtualizationVmwareVirtualSwitch#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#object_type DataIntersightVirtualizationVmwareVirtualSwitch#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#timestamp DataIntersightVirtualizationVmwareVirtualSwitch#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#timestamp DataIntersightVirtualizationVmwareVirtualSwitch#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4628,19 +4628,19 @@ export interface DataIntersightVirtualizationVmwareVirtualSwitchVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#version_type DataIntersightVirtualizationVmwareVirtualSwitch#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#version_type DataIntersightVirtualizationVmwareVirtualSwitch#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#interested_mos DataIntersightVirtualizationVmwareVirtualSwitch#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#interested_mos DataIntersightVirtualizationVmwareVirtualSwitch#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareVirtualSwitchVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#ref_mo DataIntersightVirtualizationVmwareVirtualSwitch#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#ref_mo DataIntersightVirtualizationVmwareVirtualSwitch#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareVirtualSwitchVersionContextRefMo;
 }
@@ -4956,7 +4956,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitchVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch intersight_virtualization_vmware_virtual_switch}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch intersight_virtualization_vmware_virtual_switch}
 */
 export class DataIntersightVirtualizationVmwareVirtualSwitch extends cdktf.TerraformDataSource {
 
@@ -4972,7 +4972,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitch extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareVirtualSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareVirtualSwitch to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareVirtualSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4984,7 +4984,7 @@ export class DataIntersightVirtualizationVmwareVirtualSwitch extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_switch intersight_virtualization_vmware_virtual_switch} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_virtual_switch intersight_virtualization_vmware_virtual_switch} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4995,8 +4995,8 @@ export class DataIntersightVirtualizationVmwareVirtualSwitch extends cdktf.Terra
       terraformResourceType: 'intersight_virtualization_vmware_virtual_switch',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

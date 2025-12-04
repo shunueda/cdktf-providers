@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpentelekomcloudIdentityTemporaryAkskV3Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3#agency_name DataOpentelekomcloudIdentityTemporaryAkskV3#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3#agency_name DataOpentelekomcloudIdentityTemporaryAkskV3#agency_name}
   */
   readonly agencyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3#duration_seconds DataOpentelekomcloudIdentityTemporaryAkskV3#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3#duration_seconds DataOpentelekomcloudIdentityTemporaryAkskV3#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3#id DataOpentelekomcloudIdentityTemporaryAkskV3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3#id DataOpentelekomcloudIdentityTemporaryAkskV3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataOpentelekomcloudIdentityTemporaryAkskV3Config extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3 opentelekomcloud_identity_temporary_aksk_v3}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3 opentelekomcloud_identity_temporary_aksk_v3}
 */
 export class DataOpentelekomcloudIdentityTemporaryAkskV3 extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataOpentelekomcloudIdentityTemporaryAkskV3 extends cdktf.Terraform
   * Generates CDKTF code for importing a DataOpentelekomcloudIdentityTemporaryAkskV3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOpentelekomcloudIdentityTemporaryAkskV3 to import
-  * @param importFromId The id of the existing DataOpentelekomcloudIdentityTemporaryAkskV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOpentelekomcloudIdentityTemporaryAkskV3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOpentelekomcloudIdentityTemporaryAkskV3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataOpentelekomcloudIdentityTemporaryAkskV3 extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/data-sources/identity_temporary_aksk_v3 opentelekomcloud_identity_temporary_aksk_v3} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/data-sources/identity_temporary_aksk_v3 opentelekomcloud_identity_temporary_aksk_v3} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataOpentelekomcloudIdentityTemporaryAkskV3 extends cdktf.Terraform
       terraformResourceType: 'opentelekomcloud_identity_temporary_aksk_v3',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.53',
-        providerVersionConstraint: '1.36.53'
+        providerVersion: '1.36.54',
+        providerVersionConstraint: '1.36.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiExternalStoragePortConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#account_moid DataIntersightStorageHitachiExternalStoragePort#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#account_moid DataIntersightStorageHitachiExternalStoragePort#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,59 +22,59 @@ export interface DataIntersightStorageHitachiExternalStoragePortConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#create_time DataIntersightStorageHitachiExternalStoragePort#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#create_time DataIntersightStorageHitachiExternalStoragePort#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#domain_group_moid DataIntersightStorageHitachiExternalStoragePort#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#domain_group_moid DataIntersightStorageHitachiExternalStoragePort#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Is Used of the external storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_is_used DataIntersightStorageHitachiExternalStoragePort#external_is_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_is_used DataIntersightStorageHitachiExternalStoragePort#external_is_used}
   */
   readonly externalIsUsed?: boolean | cdktf.IResolvable;
   /**
   * Path Mode of the external storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_path_mode DataIntersightStorageHitachiExternalStoragePort#external_path_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_path_mode DataIntersightStorageHitachiExternalStoragePort#external_path_mode}
   */
   readonly externalPathMode?: string;
   /**
   * Object ID of ports on an external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_port_id DataIntersightStorageHitachiExternalStoragePort#external_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_port_id DataIntersightStorageHitachiExternalStoragePort#external_port_id}
   */
   readonly externalPortId?: string;
   /**
   * Serial Number of the external storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_serial_number DataIntersightStorageHitachiExternalStoragePort#external_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_serial_number DataIntersightStorageHitachiExternalStoragePort#external_serial_number}
   */
   readonly externalSerialNumber?: string;
   /**
   * Storage Information of the external storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_storage_info DataIntersightStorageHitachiExternalStoragePort#external_storage_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_storage_info DataIntersightStorageHitachiExternalStoragePort#external_storage_info}
   */
   readonly externalStorageInfo?: string;
   /**
   * WWN of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#external_wwn DataIntersightStorageHitachiExternalStoragePort#external_wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#external_wwn DataIntersightStorageHitachiExternalStoragePort#external_wwn}
   */
   readonly externalWwn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#id DataIntersightStorageHitachiExternalStoragePort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#id DataIntersightStorageHitachiExternalStoragePort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,97 +83,97 @@ export interface DataIntersightStorageHitachiExternalStoragePortConfig extends c
   /**
   * The iSCSI IP Address of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#iscsi_ip_address DataIntersightStorageHitachiExternalStoragePort#iscsi_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#iscsi_ip_address DataIntersightStorageHitachiExternalStoragePort#iscsi_ip_address}
   */
   readonly iscsiIpAddress?: string;
   /**
   * The iSCSI Name of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#iscsi_name DataIntersightStorageHitachiExternalStoragePort#iscsi_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#iscsi_name DataIntersightStorageHitachiExternalStoragePort#iscsi_name}
   */
   readonly iscsiName?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#mod_time DataIntersightStorageHitachiExternalStoragePort#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#mod_time DataIntersightStorageHitachiExternalStoragePort#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#owners DataIntersightStorageHitachiExternalStoragePort#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#owners DataIntersightStorageHitachiExternalStoragePort#owners}
   */
   readonly owners?: string[];
   /**
   * Port ID of the local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#port_id DataIntersightStorageHitachiExternalStoragePort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#port_id DataIntersightStorageHitachiExternalStoragePort#port_id}
   */
   readonly portId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#shared_scope DataIntersightStorageHitachiExternalStoragePort#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#shared_scope DataIntersightStorageHitachiExternalStoragePort#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Virtual port ID. This attribute is displayed when an iSCSI port is used and virtual port mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#virtual_port_id DataIntersightStorageHitachiExternalStoragePort#virtual_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#virtual_port_id DataIntersightStorageHitachiExternalStoragePort#virtual_port_id}
   */
   readonly virtualPortId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#ancestors DataIntersightStorageHitachiExternalStoragePort#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#ancestors DataIntersightStorageHitachiExternalStoragePort#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiExternalStoragePortAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#array DataIntersightStorageHitachiExternalStoragePort#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#array DataIntersightStorageHitachiExternalStoragePort#array}
   */
   readonly array?: DataIntersightStorageHitachiExternalStoragePortArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#parent DataIntersightStorageHitachiExternalStoragePort#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#parent DataIntersightStorageHitachiExternalStoragePort#parent}
   */
   readonly parent?: DataIntersightStorageHitachiExternalStoragePortParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#permission_resources DataIntersightStorageHitachiExternalStoragePort#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#permission_resources DataIntersightStorageHitachiExternalStoragePort#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiExternalStoragePortPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#registered_device DataIntersightStorageHitachiExternalStoragePort#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#registered_device DataIntersightStorageHitachiExternalStoragePort#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiExternalStoragePortRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#tags DataIntersightStorageHitachiExternalStoragePort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#tags DataIntersightStorageHitachiExternalStoragePort#tags}
   */
   readonly tags?: DataIntersightStorageHitachiExternalStoragePortTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#version_context DataIntersightStorageHitachiExternalStoragePort#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#version_context DataIntersightStorageHitachiExternalStoragePort#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiExternalStoragePortVersionContext;
 }
@@ -1475,7 +1475,7 @@ export class DataIntersightStorageHitachiExternalStoragePortResultsList extends 
 }
 export interface DataIntersightStorageHitachiExternalStoragePortAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1483,19 +1483,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1508,7 +1508,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -1740,7 +1740,7 @@ export class DataIntersightStorageHitachiExternalStoragePortAncestorsList extend
 }
 export interface DataIntersightStorageHitachiExternalStoragePortArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1748,19 +1748,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1773,7 +1773,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -1973,7 +1973,7 @@ export class DataIntersightStorageHitachiExternalStoragePortArrayOutputReference
 }
 export interface DataIntersightStorageHitachiExternalStoragePortParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1981,19 +1981,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2006,7 +2006,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -2206,7 +2206,7 @@ export class DataIntersightStorageHitachiExternalStoragePortParentOutputReferenc
 }
 export interface DataIntersightStorageHitachiExternalStoragePortPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2214,19 +2214,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2239,7 +2239,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -2471,7 +2471,7 @@ export class DataIntersightStorageHitachiExternalStoragePortPermissionResourcesL
 }
 export interface DataIntersightStorageHitachiExternalStoragePortRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2479,19 +2479,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortRegisteredDevice
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2504,7 +2504,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortRegisteredDevice
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -2704,7 +2704,7 @@ export class DataIntersightStorageHitachiExternalStoragePortRegisteredDeviceOutp
 }
 export interface DataIntersightStorageHitachiExternalStoragePortTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2712,19 +2712,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2737,7 +2737,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -2969,7 +2969,7 @@ export class DataIntersightStorageHitachiExternalStoragePortTagsAncestorDefiniti
 }
 export interface DataIntersightStorageHitachiExternalStoragePortTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2977,19 +2977,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3002,7 +3002,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -3202,25 +3202,25 @@ export class DataIntersightStorageHitachiExternalStoragePortTagsDefinitionOutput
 }
 export interface DataIntersightStorageHitachiExternalStoragePortTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#key DataIntersightStorageHitachiExternalStoragePort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#key DataIntersightStorageHitachiExternalStoragePort#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#propagated DataIntersightStorageHitachiExternalStoragePort#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#propagated DataIntersightStorageHitachiExternalStoragePort#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#sys_tag DataIntersightStorageHitachiExternalStoragePort#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#sys_tag DataIntersightStorageHitachiExternalStoragePort#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3228,25 +3228,25 @@ export interface DataIntersightStorageHitachiExternalStoragePortTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#type DataIntersightStorageHitachiExternalStoragePort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#type DataIntersightStorageHitachiExternalStoragePort#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#value DataIntersightStorageHitachiExternalStoragePort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#value DataIntersightStorageHitachiExternalStoragePort#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#ancestor_definitions DataIntersightStorageHitachiExternalStoragePort#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#ancestor_definitions DataIntersightStorageHitachiExternalStoragePort#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiExternalStoragePortTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#definition DataIntersightStorageHitachiExternalStoragePort#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#definition DataIntersightStorageHitachiExternalStoragePort#definition}
   */
   readonly definition?: DataIntersightStorageHitachiExternalStoragePortTagsDefinition;
 }
@@ -3565,7 +3565,7 @@ export class DataIntersightStorageHitachiExternalStoragePortTagsList extends cdk
 }
 export interface DataIntersightStorageHitachiExternalStoragePortVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3573,19 +3573,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3598,7 +3598,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -3830,7 +3830,7 @@ export class DataIntersightStorageHitachiExternalStoragePortVersionContextIntere
 }
 export interface DataIntersightStorageHitachiExternalStoragePortVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3838,19 +3838,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#moid DataIntersightStorageHitachiExternalStoragePort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3863,7 +3863,7 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#selector DataIntersightStorageHitachiExternalStoragePort#selector}
   */
   readonly selector?: string;
 }
@@ -4063,7 +4063,7 @@ export class DataIntersightStorageHitachiExternalStoragePortVersionContextRefMoO
 }
 export interface DataIntersightStorageHitachiExternalStoragePortVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#additional_properties DataIntersightStorageHitachiExternalStoragePort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4071,32 +4071,32 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#class_id DataIntersightStorageHitachiExternalStoragePort#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#marked_for_deletion DataIntersightStorageHitachiExternalStoragePort#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#marked_for_deletion DataIntersightStorageHitachiExternalStoragePort#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#nr_version DataIntersightStorageHitachiExternalStoragePort#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#nr_version DataIntersightStorageHitachiExternalStoragePort#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#object_type DataIntersightStorageHitachiExternalStoragePort#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#timestamp DataIntersightStorageHitachiExternalStoragePort#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#timestamp DataIntersightStorageHitachiExternalStoragePort#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4107,19 +4107,19 @@ export interface DataIntersightStorageHitachiExternalStoragePortVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#version_type DataIntersightStorageHitachiExternalStoragePort#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#version_type DataIntersightStorageHitachiExternalStoragePort#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#interested_mos DataIntersightStorageHitachiExternalStoragePort#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#interested_mos DataIntersightStorageHitachiExternalStoragePort#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiExternalStoragePortVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#ref_mo DataIntersightStorageHitachiExternalStoragePort#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#ref_mo DataIntersightStorageHitachiExternalStoragePort#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiExternalStoragePortVersionContextRefMo;
 }
@@ -4435,7 +4435,7 @@ export class DataIntersightStorageHitachiExternalStoragePortVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port intersight_storage_hitachi_external_storage_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port intersight_storage_hitachi_external_storage_port}
 */
 export class DataIntersightStorageHitachiExternalStoragePort extends cdktf.TerraformDataSource {
 
@@ -4451,7 +4451,7 @@ export class DataIntersightStorageHitachiExternalStoragePort extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightStorageHitachiExternalStoragePort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiExternalStoragePort to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalStoragePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalStoragePort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiExternalStoragePort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4463,7 +4463,7 @@ export class DataIntersightStorageHitachiExternalStoragePort extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_port intersight_storage_hitachi_external_storage_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_port intersight_storage_hitachi_external_storage_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4474,8 +4474,8 @@ export class DataIntersightStorageHitachiExternalStoragePort extends cdktf.Terra
       terraformResourceType: 'intersight_storage_hitachi_external_storage_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

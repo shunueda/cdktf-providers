@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexVmRestoreOperationConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#account_moid HyperflexVmRestoreOperation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#account_moid HyperflexVmRestoreOperation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#ancestors HyperflexVmRestoreOperation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#ancestors HyperflexVmRestoreOperation#ancestors}
   */
   readonly ancestors?: HyperflexVmRestoreOperationAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface HyperflexVmRestoreOperationConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#create_time HyperflexVmRestoreOperation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#create_time HyperflexVmRestoreOperation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#domain_group_moid HyperflexVmRestoreOperation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#domain_group_moid HyperflexVmRestoreOperation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#id HyperflexVmRestoreOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#id HyperflexVmRestoreOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,122 +53,122 @@ export interface HyperflexVmRestoreOperationConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#mod_time HyperflexVmRestoreOperation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#mod_time HyperflexVmRestoreOperation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
   * New name for the Virtual Machine after recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#new_name HyperflexVmRestoreOperation#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#new_name HyperflexVmRestoreOperation#new_name}
   */
   readonly newName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#organization HyperflexVmRestoreOperation#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#organization HyperflexVmRestoreOperation#organization}
   */
   readonly organization?: HyperflexVmRestoreOperationOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#owners HyperflexVmRestoreOperation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#owners HyperflexVmRestoreOperation#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#parent HyperflexVmRestoreOperation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#parent HyperflexVmRestoreOperation#parent}
   */
   readonly parent?: HyperflexVmRestoreOperationParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#permission_resources HyperflexVmRestoreOperation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#permission_resources HyperflexVmRestoreOperation#permission_resources}
   */
   readonly permissionResources?: HyperflexVmRestoreOperationPermissionResources[] | cdktf.IResolvable;
   /**
   * Power on the Virtual Machine after recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#power_on HyperflexVmRestoreOperation#power_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#power_on HyperflexVmRestoreOperation#power_on}
   */
   readonly powerOn?: boolean | cdktf.IResolvable;
   /**
   * A reference to a hyperflexCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#restore_edge_cluster_moid HyperflexVmRestoreOperation#restore_edge_cluster_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#restore_edge_cluster_moid HyperflexVmRestoreOperation#restore_edge_cluster_moid}
   */
   readonly restoreEdgeClusterMoid?: HyperflexVmRestoreOperationRestoreEdgeClusterMoid[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#shared_scope HyperflexVmRestoreOperation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#shared_scope HyperflexVmRestoreOperation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start time for the replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#start_time HyperflexVmRestoreOperation#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#start_time HyperflexVmRestoreOperation#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#tags HyperflexVmRestoreOperation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#tags HyperflexVmRestoreOperation#tags}
   */
   readonly tags?: HyperflexVmRestoreOperationTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#version_context HyperflexVmRestoreOperation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#version_context HyperflexVmRestoreOperation#version_context}
   */
   readonly versionContext?: HyperflexVmRestoreOperationVersionContext[] | cdktf.IResolvable;
   /**
   * A reference to a hyperflexVmBackupInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#vm_backup_info_moid HyperflexVmRestoreOperation#vm_backup_info_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#vm_backup_info_moid HyperflexVmRestoreOperation#vm_backup_info_moid}
   */
   readonly vmBackupInfoMoid?: HyperflexVmRestoreOperationVmBackupInfoMoid[] | cdktf.IResolvable;
   /**
   * A reference to a hyperflexVmSnapshotInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#vm_snapshot_info_moid HyperflexVmRestoreOperation#vm_snapshot_info_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#vm_snapshot_info_moid HyperflexVmRestoreOperation#vm_snapshot_info_moid}
   */
   readonly vmSnapshotInfoMoid?: HyperflexVmRestoreOperationVmSnapshotInfoMoid[] | cdktf.IResolvable;
 }
 export interface HyperflexVmRestoreOperationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -400,23 +400,23 @@ export class HyperflexVmRestoreOperationAncestorsList extends cdktf.ComplexList 
 }
 export interface HyperflexVmRestoreOperationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -648,23 +648,23 @@ export class HyperflexVmRestoreOperationOrganizationList extends cdktf.ComplexLi
 }
 export interface HyperflexVmRestoreOperationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -896,23 +896,23 @@ export class HyperflexVmRestoreOperationParentList extends cdktf.ComplexList {
 }
 export interface HyperflexVmRestoreOperationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1144,23 +1144,23 @@ export class HyperflexVmRestoreOperationPermissionResourcesList extends cdktf.Co
 }
 export interface HyperflexVmRestoreOperationRestoreEdgeClusterMoid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1392,23 +1392,23 @@ export class HyperflexVmRestoreOperationRestoreEdgeClusterMoidList extends cdktf
 }
 export interface HyperflexVmRestoreOperationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1640,23 +1640,23 @@ export class HyperflexVmRestoreOperationTagsAncestorDefinitionsList extends cdkt
 }
 export interface HyperflexVmRestoreOperationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -1888,35 +1888,35 @@ export class HyperflexVmRestoreOperationTagsDefinitionList extends cdktf.Complex
 }
 export interface HyperflexVmRestoreOperationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#ancestor_definitions HyperflexVmRestoreOperation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#ancestor_definitions HyperflexVmRestoreOperation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexVmRestoreOperationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#definition HyperflexVmRestoreOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#definition HyperflexVmRestoreOperation#definition}
   */
   readonly definition?: HyperflexVmRestoreOperationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#key HyperflexVmRestoreOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#key HyperflexVmRestoreOperation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#propagated HyperflexVmRestoreOperation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#propagated HyperflexVmRestoreOperation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#sys_tag HyperflexVmRestoreOperation#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#sys_tag HyperflexVmRestoreOperation#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#type HyperflexVmRestoreOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#type HyperflexVmRestoreOperation#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#value HyperflexVmRestoreOperation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#value HyperflexVmRestoreOperation#value}
   */
   readonly value?: string;
 }
@@ -2235,23 +2235,23 @@ export class HyperflexVmRestoreOperationTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexVmRestoreOperationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2483,23 +2483,23 @@ export class HyperflexVmRestoreOperationVersionContextInterestedMosList extends 
 }
 export interface HyperflexVmRestoreOperationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -2731,39 +2731,39 @@ export class HyperflexVmRestoreOperationVersionContextRefMoList extends cdktf.Co
 }
 export interface HyperflexVmRestoreOperationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#interested_mos HyperflexVmRestoreOperation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#interested_mos HyperflexVmRestoreOperation#interested_mos}
   */
   readonly interestedMos?: HyperflexVmRestoreOperationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#marked_for_deletion HyperflexVmRestoreOperation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#marked_for_deletion HyperflexVmRestoreOperation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#nr_version HyperflexVmRestoreOperation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#nr_version HyperflexVmRestoreOperation#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#ref_mo HyperflexVmRestoreOperation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#ref_mo HyperflexVmRestoreOperation#ref_mo}
   */
   readonly refMo?: HyperflexVmRestoreOperationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#timestamp HyperflexVmRestoreOperation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#timestamp HyperflexVmRestoreOperation#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#version_type HyperflexVmRestoreOperation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#version_type HyperflexVmRestoreOperation#version_type}
   */
   readonly versionType?: string;
 }
@@ -3111,23 +3111,23 @@ export class HyperflexVmRestoreOperationVersionContextList extends cdktf.Complex
 }
 export interface HyperflexVmRestoreOperationVmBackupInfoMoid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -3359,23 +3359,23 @@ export class HyperflexVmRestoreOperationVmBackupInfoMoidList extends cdktf.Compl
 }
 export interface HyperflexVmRestoreOperationVmSnapshotInfoMoid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#additional_properties HyperflexVmRestoreOperation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#class_id HyperflexVmRestoreOperation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#moid HyperflexVmRestoreOperation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#object_type HyperflexVmRestoreOperation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#selector HyperflexVmRestoreOperation#selector}
   */
   readonly selector?: string;
 }
@@ -3607,7 +3607,7 @@ export class HyperflexVmRestoreOperationVmSnapshotInfoMoidList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation intersight_hyperflex_vm_restore_operation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation intersight_hyperflex_vm_restore_operation}
 */
 export class HyperflexVmRestoreOperation extends cdktf.TerraformResource {
 
@@ -3623,7 +3623,7 @@ export class HyperflexVmRestoreOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexVmRestoreOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexVmRestoreOperation to import
-  * @param importFromId The id of the existing HyperflexVmRestoreOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexVmRestoreOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexVmRestoreOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3635,7 +3635,7 @@ export class HyperflexVmRestoreOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_vm_restore_operation intersight_hyperflex_vm_restore_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_vm_restore_operation intersight_hyperflex_vm_restore_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3646,8 +3646,8 @@ export class HyperflexVmRestoreOperation extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_vm_restore_operation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

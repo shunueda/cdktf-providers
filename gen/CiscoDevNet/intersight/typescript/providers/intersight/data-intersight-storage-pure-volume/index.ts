@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStoragePureVolumeConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#account_moid DataIntersightStoragePureVolume#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#account_moid DataIntersightStoragePureVolume#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStoragePureVolumeConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#create_time DataIntersightStoragePureVolume#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#create_time DataIntersightStoragePureVolume#create_time}
   */
   readonly createTime?: string;
   /**
   * Creation time of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#created DataIntersightStoragePureVolume#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#created DataIntersightStoragePureVolume#created}
   */
   readonly created?: string;
   /**
   * Short description about the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#description DataIntersightStoragePureVolume#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#description DataIntersightStoragePureVolume#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#domain_group_moid DataIntersightStoragePureVolume#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#domain_group_moid DataIntersightStoragePureVolume#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#id DataIntersightStoragePureVolume#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#id DataIntersightStoragePureVolume#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,115 +59,115 @@ export interface DataIntersightStoragePureVolumeConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#mod_time DataIntersightStoragePureVolume#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#mod_time DataIntersightStoragePureVolume#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * NAA id of volume. It is a significant number to identify corresponding lun path in hypervisor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#naa_id DataIntersightStoragePureVolume#naa_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#naa_id DataIntersightStoragePureVolume#naa_id}
   */
   readonly naaId?: string;
   /**
   * Named entity of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#name DataIntersightStoragePureVolume#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#name DataIntersightStoragePureVolume#name}
   */
   readonly name?: string;
   /**
   * Source from which the volume is created. Applicable only if the volume is cloned from other volume or snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#nr_source DataIntersightStoragePureVolume#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#nr_source DataIntersightStoragePureVolume#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#owners DataIntersightStoragePureVolume#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#owners DataIntersightStoragePureVolume#owners}
   */
   readonly owners?: string[];
   /**
   * Serial number of the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#serial DataIntersightStoragePureVolume#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#serial DataIntersightStoragePureVolume#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#shared_scope DataIntersightStoragePureVolume#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#shared_scope DataIntersightStoragePureVolume#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User provisioned volume size. It is the size exposed to host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#size DataIntersightStoragePureVolume#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#size DataIntersightStoragePureVolume#size}
   */
   readonly size?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#ancestors DataIntersightStoragePureVolume#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#ancestors DataIntersightStoragePureVolume#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureVolumeAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#array DataIntersightStoragePureVolume#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#array DataIntersightStoragePureVolume#array}
   */
   readonly array?: DataIntersightStoragePureVolumeArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#parent DataIntersightStoragePureVolume#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#parent DataIntersightStoragePureVolume#parent}
   */
   readonly parent?: DataIntersightStoragePureVolumeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#permission_resources DataIntersightStoragePureVolume#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#permission_resources DataIntersightStoragePureVolume#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureVolumePermissionResources[] | cdktf.IResolvable;
   /**
   * protection_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#protection_group DataIntersightStoragePureVolume#protection_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#protection_group DataIntersightStoragePureVolume#protection_group}
   */
   readonly protectionGroup?: DataIntersightStoragePureVolumeProtectionGroup;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#registered_device DataIntersightStoragePureVolume#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#registered_device DataIntersightStoragePureVolume#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureVolumeRegisteredDevice;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#storage_utilization DataIntersightStoragePureVolume#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#storage_utilization DataIntersightStoragePureVolume#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStoragePureVolumeStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#tags DataIntersightStoragePureVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#tags DataIntersightStoragePureVolume#tags}
   */
   readonly tags?: DataIntersightStoragePureVolumeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#version_context DataIntersightStoragePureVolume#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#version_context DataIntersightStoragePureVolume#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureVolumeVersionContext;
 }
@@ -1671,7 +1671,7 @@ export class DataIntersightStoragePureVolumeResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightStoragePureVolumeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1679,19 +1679,19 @@ export interface DataIntersightStoragePureVolumeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1704,7 +1704,7 @@ export interface DataIntersightStoragePureVolumeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -1936,7 +1936,7 @@ export class DataIntersightStoragePureVolumeAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightStoragePureVolumeArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1944,19 +1944,19 @@ export interface DataIntersightStoragePureVolumeArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1969,7 +1969,7 @@ export interface DataIntersightStoragePureVolumeArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2169,7 +2169,7 @@ export class DataIntersightStoragePureVolumeArrayOutputReference extends cdktf.C
 }
 export interface DataIntersightStoragePureVolumeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2177,19 +2177,19 @@ export interface DataIntersightStoragePureVolumeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2202,7 +2202,7 @@ export interface DataIntersightStoragePureVolumeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2402,7 +2402,7 @@ export class DataIntersightStoragePureVolumeParentOutputReference extends cdktf.
 }
 export interface DataIntersightStoragePureVolumePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2410,19 +2410,19 @@ export interface DataIntersightStoragePureVolumePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2435,7 +2435,7 @@ export interface DataIntersightStoragePureVolumePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2667,7 +2667,7 @@ export class DataIntersightStoragePureVolumePermissionResourcesList extends cdkt
 }
 export interface DataIntersightStoragePureVolumeProtectionGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2675,19 +2675,19 @@ export interface DataIntersightStoragePureVolumeProtectionGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2700,7 +2700,7 @@ export interface DataIntersightStoragePureVolumeProtectionGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -2900,7 +2900,7 @@ export class DataIntersightStoragePureVolumeProtectionGroupOutputReference exten
 }
 export interface DataIntersightStoragePureVolumeRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2908,19 +2908,19 @@ export interface DataIntersightStoragePureVolumeRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2933,7 +2933,7 @@ export interface DataIntersightStoragePureVolumeRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -3133,19 +3133,19 @@ export class DataIntersightStoragePureVolumeRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightStoragePureVolumeStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#available DataIntersightStoragePureVolume#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#available DataIntersightStoragePureVolume#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#capacity_utilization DataIntersightStoragePureVolume#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#capacity_utilization DataIntersightStoragePureVolume#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -3154,13 +3154,13 @@ export interface DataIntersightStoragePureVolumeStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#free DataIntersightStoragePureVolume#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#free DataIntersightStoragePureVolume#free}
   */
   readonly free?: number;
   /**
@@ -3168,19 +3168,19 @@ export interface DataIntersightStoragePureVolumeStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#total DataIntersightStoragePureVolume#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#total DataIntersightStoragePureVolume#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#used DataIntersightStoragePureVolume#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#used DataIntersightStoragePureVolume#used}
   */
   readonly used?: number;
 }
@@ -3467,7 +3467,7 @@ export class DataIntersightStoragePureVolumeStorageUtilizationOutputReference ex
 }
 export interface DataIntersightStoragePureVolumeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3475,19 +3475,19 @@ export interface DataIntersightStoragePureVolumeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3500,7 +3500,7 @@ export interface DataIntersightStoragePureVolumeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -3732,7 +3732,7 @@ export class DataIntersightStoragePureVolumeTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightStoragePureVolumeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3740,19 +3740,19 @@ export interface DataIntersightStoragePureVolumeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3765,7 +3765,7 @@ export interface DataIntersightStoragePureVolumeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -3965,25 +3965,25 @@ export class DataIntersightStoragePureVolumeTagsDefinitionOutputReference extend
 }
 export interface DataIntersightStoragePureVolumeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#key DataIntersightStoragePureVolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#key DataIntersightStoragePureVolume#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#propagated DataIntersightStoragePureVolume#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#propagated DataIntersightStoragePureVolume#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#sys_tag DataIntersightStoragePureVolume#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#sys_tag DataIntersightStoragePureVolume#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3991,25 +3991,25 @@ export interface DataIntersightStoragePureVolumeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#type DataIntersightStoragePureVolume#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#type DataIntersightStoragePureVolume#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#value DataIntersightStoragePureVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#value DataIntersightStoragePureVolume#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#ancestor_definitions DataIntersightStoragePureVolume#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#ancestor_definitions DataIntersightStoragePureVolume#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureVolumeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#definition DataIntersightStoragePureVolume#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#definition DataIntersightStoragePureVolume#definition}
   */
   readonly definition?: DataIntersightStoragePureVolumeTagsDefinition;
 }
@@ -4328,7 +4328,7 @@ export class DataIntersightStoragePureVolumeTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightStoragePureVolumeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4336,19 +4336,19 @@ export interface DataIntersightStoragePureVolumeVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4361,7 +4361,7 @@ export interface DataIntersightStoragePureVolumeVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -4593,7 +4593,7 @@ export class DataIntersightStoragePureVolumeVersionContextInterestedMosList exte
 }
 export interface DataIntersightStoragePureVolumeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4601,19 +4601,19 @@ export interface DataIntersightStoragePureVolumeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#moid DataIntersightStoragePureVolume#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4626,7 +4626,7 @@ export interface DataIntersightStoragePureVolumeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#selector DataIntersightStoragePureVolume#selector}
   */
   readonly selector?: string;
 }
@@ -4826,7 +4826,7 @@ export class DataIntersightStoragePureVolumeVersionContextRefMoOutputReference e
 }
 export interface DataIntersightStoragePureVolumeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#additional_properties DataIntersightStoragePureVolume#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4834,32 +4834,32 @@ export interface DataIntersightStoragePureVolumeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#class_id DataIntersightStoragePureVolume#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#marked_for_deletion DataIntersightStoragePureVolume#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#marked_for_deletion DataIntersightStoragePureVolume#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#nr_version DataIntersightStoragePureVolume#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#nr_version DataIntersightStoragePureVolume#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#object_type DataIntersightStoragePureVolume#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#timestamp DataIntersightStoragePureVolume#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#timestamp DataIntersightStoragePureVolume#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4870,19 +4870,19 @@ export interface DataIntersightStoragePureVolumeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#version_type DataIntersightStoragePureVolume#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#version_type DataIntersightStoragePureVolume#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#interested_mos DataIntersightStoragePureVolume#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#interested_mos DataIntersightStoragePureVolume#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureVolumeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#ref_mo DataIntersightStoragePureVolume#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#ref_mo DataIntersightStoragePureVolume#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureVolumeVersionContextRefMo;
 }
@@ -5198,7 +5198,7 @@ export class DataIntersightStoragePureVolumeVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume intersight_storage_pure_volume}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume intersight_storage_pure_volume}
 */
 export class DataIntersightStoragePureVolume extends cdktf.TerraformDataSource {
 
@@ -5214,7 +5214,7 @@ export class DataIntersightStoragePureVolume extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightStoragePureVolume resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureVolume to import
-  * @param importFromId The id of the existing DataIntersightStoragePureVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5226,7 +5226,7 @@ export class DataIntersightStoragePureVolume extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_volume intersight_storage_pure_volume} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_volume intersight_storage_pure_volume} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5237,8 +5237,8 @@ export class DataIntersightStoragePureVolume extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_storage_pure_volume',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

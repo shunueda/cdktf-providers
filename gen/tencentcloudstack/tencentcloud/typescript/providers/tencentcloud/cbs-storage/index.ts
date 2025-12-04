@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CbsStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The available zone that the CBS instance locates at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#availability_zone CbsStorage#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#availability_zone CbsStorage#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Whether to enable performance burst when creating a cloud disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#burst_performance CbsStorage#burst_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#burst_performance CbsStorage#burst_performance}
   */
   readonly burstPerformance?: boolean | cdktf.IResolvable;
   /**
   * The charge type of CBS instance. Valid values are `PREPAID`, `POSTPAID_BY_HOUR`, `CDCPAID` and `DEDICATED_CLUSTER_PAID`. The default is `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#charge_type CbsStorage#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#charge_type CbsStorage#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Exclusive cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#dedicated_cluster_id CbsStorage#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#dedicated_cluster_id CbsStorage#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
   * The quota of backup points of cloud disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#disk_backup_quota CbsStorage#disk_backup_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#disk_backup_quota CbsStorage#disk_backup_quota}
   */
   readonly diskBackupQuota?: number;
   /**
   * Pass in this parameter to create an encrypted cloud disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#encrypt CbsStorage#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#encrypt CbsStorage#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * Specifies the cloud disk encryption type. The values are `ENCRYPT_V1` and `ENCRYPT_V2`, which represent the first-generation and second-generation encryption technologies respectively. The two encryption technologies are incompatible with each other. It is recommended to use the second-generation encryption technology `ENCRYPT_V2` first. The first-generation encryption technology is only supported on some older models. This parameter is only valid when creating an encrypted cloud disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#encrypt_type CbsStorage#encrypt_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#encrypt_type CbsStorage#encrypt_type}
   */
   readonly encryptType?: string;
   /**
   * Indicate whether to delete CBS instance directly or not. Default is false. If set true, the instance will be deleted instead of staying recycle bin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#force_delete CbsStorage#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#force_delete CbsStorage#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#id CbsStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#id CbsStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,73 +65,73 @@ export interface CbsStorageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional parameters. When purchasing an encryption disk, customize the key. When this parameter is passed in, the `encrypt` parameter need be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#kms_key_id CbsStorage#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#kms_key_id CbsStorage#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The purchased usage period of CBS. Valid values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#period CbsStorage#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#period CbsStorage#period}
   */
   readonly period?: number;
   /**
   * The tenancy (time unit is month) of the prepaid instance, NOTE: it only works when charge_type is set to `PREPAID`. Valid values are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#prepaid_period CbsStorage#prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#prepaid_period CbsStorage#prepaid_period}
   */
   readonly prepaidPeriod?: number;
   /**
   * Auto Renewal flag. Value range: `NOTIFY_AND_AUTO_RENEW`: Notify expiry and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: Notify expiry but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: Neither notify expiry nor renew automatically. Default value range: `NOTIFY_AND_MANUAL_RENEW`: Notify expiry but do not renew automatically. NOTE: it only works when charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#prepaid_renew_flag CbsStorage#prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#prepaid_renew_flag CbsStorage#prepaid_renew_flag}
   */
   readonly prepaidRenewFlag?: string;
   /**
   * ID of the project to which the instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#project_id CbsStorage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#project_id CbsStorage#project_id}
   */
   readonly projectId?: number;
   /**
   * ID of the snapshot. If specified, created the CBS by this snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#snapshot_id CbsStorage#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#snapshot_id CbsStorage#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Name of CBS. The maximum length can not exceed 60 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#storage_name CbsStorage#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#storage_name CbsStorage#storage_name}
   */
   readonly storageName: string;
   /**
   * Volume of CBS, and unit is GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#storage_size CbsStorage#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#storage_size CbsStorage#storage_size}
   */
   readonly storageSize: number;
   /**
   * Type of CBS medium. Valid values: CLOUD_BASIC: HDD cloud disk, CLOUD_PREMIUM: Premium Cloud Storage, CLOUD_BSSD: General Purpose SSD, CLOUD_SSD: SSD, CLOUD_HSSD: Enhanced SSD, CLOUD_TSSD: Tremendous SSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#storage_type CbsStorage#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#storage_type CbsStorage#storage_type}
   */
   readonly storageType: string;
   /**
   * The available tags within this CBS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#tags CbsStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#tags CbsStorage#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Add extra performance to the data disk. Only works when disk type is `CLOUD_TSSD` or `CLOUD_HSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#throughput_performance CbsStorage#throughput_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#throughput_performance CbsStorage#throughput_performance}
   */
   readonly throughputPerformance?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage tencentcloud_cbs_storage}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage tencentcloud_cbs_storage}
 */
 export class CbsStorage extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class CbsStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CbsStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CbsStorage to import
-  * @param importFromId The id of the existing CbsStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CbsStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CbsStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class CbsStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cbs_storage tencentcloud_cbs_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cbs_storage tencentcloud_cbs_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class CbsStorage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cbs_storage',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

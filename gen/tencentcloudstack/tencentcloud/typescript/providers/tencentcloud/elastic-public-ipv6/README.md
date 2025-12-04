@@ -1,3 +1,3 @@
 # `tencentcloud_elastic_public_ipv6`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_elastic_public_ipv6`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/elastic_public_ipv6).
+Refer to the Terraform Registry for docs: [`tencentcloud_elastic_public_ipv6`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/elastic_public_ipv6).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,173 +10,173 @@ export interface PageLoadConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#agents PageLoad#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#agents PageLoad#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#alert_rules PageLoad#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#alert_rules PageLoad#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#alerts_enabled PageLoad#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#alerts_enabled PageLoad#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Set true to use the agent's geolocation by the web page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#allow_geolocation PageLoad#allow_geolocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#allow_geolocation PageLoad#allow_geolocation}
   */
   readonly allowGeolocation?: boolean | cdktf.IResolvable;
   /**
   * Set true allow the use of a fake mic and camera in the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#allow_mic_and_camera PageLoad#allow_mic_and_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#allow_mic_and_camera PageLoad#allow_mic_and_camera}
   */
   readonly allowMicAndCamera?: boolean | cdktf.IResolvable;
   /**
   * Allows TLS renegotiation with servers not supporting RFC 5746. Default Set to true to allow unsafe legacy renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#allow_unsafe_legacy_renegotiation PageLoad#allow_unsafe_legacy_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#allow_unsafe_legacy_renegotiation PageLoad#allow_unsafe_legacy_renegotiation}
   */
   readonly allowUnsafeLegacyRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * [none, basic, ntlm, kerberos, oauth] The HTTP authentication type. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#auth_type PageLoad#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#auth_type PageLoad#auth_type}
   */
   readonly authType?: string;
   /**
   * Set to `true` to measure bandwidth. This only applies to Enterprise Agents assigned to the test, and requires that networkMeasurements is set. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#bandwidth_measurements PageLoad#bandwidth_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#bandwidth_measurements PageLoad#bandwidth_measurements}
   */
   readonly bandwidthMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#bgp_measurements PageLoad#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#bgp_measurements PageLoad#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Domains or full object URLs to be excluded from metrics and waterfall data for transaction tests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#block_domains PageLoad#block_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#block_domains PageLoad#block_domains}
   */
   readonly blockDomains?: string;
   /**
   * Set one of the available browser language that you want to use to configure the browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#browser_language PageLoad#browser_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#browser_language PageLoad#browser_language}
   */
   readonly browserLanguage?: string;
   /**
   * String representation (containing newline characters) of client certificate, the private key must be placed first, then the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#client_certificate PageLoad#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#client_certificate PageLoad#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Indicates whether network data to the proxy should be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#collect_proxy_network_data PageLoad#collect_proxy_network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#collect_proxy_network_data PageLoad#collect_proxy_network_data}
   */
   readonly collectProxyNetworkData?: boolean | cdktf.IResolvable;
   /**
   * Verify content using a regular expression. This field does not require escaping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#content_regex PageLoad#content_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#content_regex PageLoad#content_regex}
   */
   readonly contentRegex?: string;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#description PageLoad#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#description PageLoad#description}
   */
   readonly description?: string;
   /**
   * The valid HTTP response code you’re interested in retrieving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#desired_status_code PageLoad#desired_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#desired_status_code PageLoad#desired_status_code}
   */
   readonly desiredStatusCode?: string;
   /**
   * Enables or disables screenshots on error. Set true to not capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#disable_screenshot PageLoad#disable_screenshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#disable_screenshot PageLoad#disable_screenshot}
   */
   readonly disableScreenshot?: boolean | cdktf.IResolvable;
   /**
   * Adds distributed tracing headers to API requests using B3 and W3C standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#distributed_tracing PageLoad#distributed_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#distributed_tracing PageLoad#distributed_tracing}
   */
   readonly distributedTracing?: boolean | cdktf.IResolvable;
   /**
   * The IP address to use for DNS override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#dns_override PageLoad#dns_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#dns_override PageLoad#dns_override}
   */
   readonly dnsOverride?: string;
   /**
   * Specify the maximum number of bytes to download from the target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#download_limit PageLoad#download_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#download_limit PageLoad#download_limit}
   */
   readonly downloadLimit?: number;
   /**
   * ID of the emulated device, if one was given when the test was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#emulated_device_id PageLoad#emulated_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#emulated_device_id PageLoad#emulated_device_id}
   */
   readonly emulatedDeviceId?: string;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#enabled PageLoad#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#enabled PageLoad#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sets packets rate sent to measure the network in packets per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#fixed_packet_rate PageLoad#fixed_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#fixed_packet_rate PageLoad#fixed_packet_rate}
   */
   readonly fixedPacketRate?: number;
   /**
   * Follow HTTP/301 or HTTP/302 redirect directives. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#follow_redirects PageLoad#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#follow_redirects PageLoad#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * The interval to run the HTTP server test on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#http_interval PageLoad#http_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#http_interval PageLoad#http_interval}
   */
   readonly httpInterval: number;
   /**
   * The target time for HTTP server completion, specified in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#http_target_time PageLoad#http_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#http_target_time PageLoad#http_target_time}
   */
   readonly httpTargetTime?: number;
   /**
   * The target time for HTTP server limits, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#http_time_limit PageLoad#http_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#http_time_limit PageLoad#http_time_limit}
   */
   readonly httpTimeLimit?: number;
   /**
   * Set to 2 for the default HTTP version (prefer HTTP/2), or 1 for HTTP/1.1 only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#http_version PageLoad#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#http_version PageLoad#http_version}
   */
   readonly httpVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#id PageLoad#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#id PageLoad#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,175 +185,175 @@ export interface PageLoadConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables identification of agent traffic using user agent string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#identify_agent_traffic_with_user_agent PageLoad#identify_agent_traffic_with_user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#identify_agent_traffic_with_user_agent PageLoad#identify_agent_traffic_with_user_agent}
   */
   readonly identifyAgentTrafficWithUserAgent?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to capture response headers for objects loaded by the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#include_headers PageLoad#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#include_headers PageLoad#include_headers}
   */
   readonly includeHeaders?: boolean | cdktf.IResolvable;
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#interval PageLoad#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#interval PageLoad#interval}
   */
   readonly interval: number;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#monitors PageLoad#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#monitors PageLoad#monitors}
   */
   readonly monitors?: string[];
   /**
   * Measure MTU sizes on the network from agents to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#mtu_measurements PageLoad#mtu_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#mtu_measurements PageLoad#mtu_measurements}
   */
   readonly mtuMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable network measurements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#network_measurements PageLoad#network_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#network_measurements PageLoad#network_measurements}
   */
   readonly networkMeasurements?: boolean | cdktf.IResolvable;
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#num_path_traces PageLoad#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#num_path_traces PageLoad#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * Flag indicating if a proxy other than the default should be used. To override the default proxy for agents, set to `true` and specify a value for `overrideProxyId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#override_agent_proxy PageLoad#override_agent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#override_agent_proxy PageLoad#override_agent_proxy}
   */
   readonly overrideAgentProxy?: boolean | cdktf.IResolvable;
   /**
   * ID of the proxy to be used if the default proxy is overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#override_proxy_id PageLoad#override_proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#override_proxy_id PageLoad#override_proxy_id}
   */
   readonly overrideProxyId?: string;
   /**
   * Target time for page load completion, specified in seconds and cannot exceed the `pageLoadTimeLimit`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#page_load_target_time PageLoad#page_load_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#page_load_target_time PageLoad#page_load_target_time}
   */
   readonly pageLoadTargetTime?: number;
   /**
   * Page load time limit. Must be larger than the `httpTimeLimit`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#page_load_time_limit PageLoad#page_load_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#page_load_time_limit PageLoad#page_load_time_limit}
   */
   readonly pageLoadTimeLimit?: number;
   /**
   * [normal, eager or none] Defines page loading strategy. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#page_loading_strategy PageLoad#page_loading_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#page_loading_strategy PageLoad#page_loading_strategy}
   */
   readonly pageLoadingStrategy?: string;
   /**
   * The password to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#password PageLoad#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#password PageLoad#password}
   */
   readonly password?: string;
   /**
   * [classic or in-session] Choose 'inSession' to perform the path trace within a TCP session. Default value is 'classic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#path_trace_mode PageLoad#path_trace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#path_trace_mode PageLoad#path_trace_mode}
   */
   readonly pathTraceMode?: string;
   /**
   * [auto, sack, or syn] The probe mode used by end-to-end network tests. This is only valid if the protocol is set to TCP. The default value is AUTO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#probe_mode PageLoad#probe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#probe_mode PageLoad#probe_mode}
   */
   readonly probeMode?: string;
   /**
   * The protocol used by dependent network tests (end-to-end, path trace, PMTUD). Default value is tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#protocol PageLoad#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#protocol PageLoad#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#randomized_start_time PageLoad#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#randomized_start_time PageLoad#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#shared_with_accounts PageLoad#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#shared_with_accounts PageLoad#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * Defines the SSL version. 0 for auto, 3 for SSLv3, 4 for TLS v1.0, 5 for TLS v1.1, 6 for TLS v1.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#ssl_version_id PageLoad#ssl_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#ssl_version_id PageLoad#ssl_version_id}
   */
   readonly sslVersionId?: string;
   /**
   * The subinterval for round-robin testing (in seconds). The value must be less than or equal to 'interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#subinterval PageLoad#subinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#subinterval PageLoad#subinterval}
   */
   readonly subinterval?: number;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#test_name PageLoad#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#test_name PageLoad#test_name}
   */
   readonly testName?: string;
   /**
   * The target URL for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#url PageLoad#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#url PageLoad#url}
   */
   readonly url: string;
   /**
   * Enable to use basic authentication. Only include this field if you are using authentication. Requires the username and password to be set if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#use_ntlm PageLoad#use_ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#use_ntlm PageLoad#use_ntlm}
   */
   readonly useNtlm?: boolean | cdktf.IResolvable;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#use_public_bgp PageLoad#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#use_public_bgp PageLoad#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
   /**
   * The user-agent string to be provided during the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#user_agent PageLoad#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#user_agent PageLoad#user_agent}
   */
   readonly userAgent?: string;
   /**
   * The username to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#username PageLoad#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#username PageLoad#username}
   */
   readonly username?: string;
   /**
   * Set whether to ignore certificate errors. Set to 'false' to ignore certificate errors. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#verify_certificate PageLoad#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#verify_certificate PageLoad#verify_certificate}
   */
   readonly verifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * agent_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#agent_interfaces PageLoad#agent_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#agent_interfaces PageLoad#agent_interfaces}
   */
   readonly agentInterfaces?: PageLoadAgentInterfaces[] | cdktf.IResolvable;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#custom_headers PageLoad#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#custom_headers PageLoad#custom_headers}
   */
   readonly customHeaders?: PageLoadCustomHeaders[] | cdktf.IResolvable;
 }
@@ -361,13 +361,13 @@ export interface PageLoadAgentInterfaces {
   /**
   * The agent ID of the enterprise agent for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#agent_id PageLoad#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#agent_id PageLoad#agent_id}
   */
   readonly agentId?: string;
   /**
   * IP address of the agent interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#ip_address PageLoad#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#ip_address PageLoad#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -514,19 +514,19 @@ export interface PageLoadCustomHeaders {
   /**
   * Use these HTTP headers for all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#all PageLoad#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#all PageLoad#all}
   */
   readonly all?: { [key: string]: string };
   /**
   * Use these HTTP headers for the specified domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#domains PageLoad#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#domains PageLoad#domains}
   */
   readonly domains?: { [key: string]: string };
   /**
   * Use these HTTP headers for root server request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#root PageLoad#root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#root PageLoad#root}
   */
   readonly root?: { [key: string]: string };
 }
@@ -700,7 +700,7 @@ export class PageLoadCustomHeadersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load thousandeyes_page_load}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load thousandeyes_page_load}
 */
 export class PageLoad extends cdktf.TerraformResource {
 
@@ -716,7 +716,7 @@ export class PageLoad extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PageLoad resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PageLoad to import
-  * @param importFromId The id of the existing PageLoad that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PageLoad that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PageLoad to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -728,7 +728,7 @@ export class PageLoad extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/page_load thousandeyes_page_load} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/page_load thousandeyes_page_load} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -739,8 +739,8 @@ export class PageLoad extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_page_load',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

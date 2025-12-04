@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CynosdbParamTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Database type, optional values: NORMAL (default), SERVERLESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#db_mode CynosdbParamTemplate#db_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#db_mode CynosdbParamTemplate#db_mode}
   */
   readonly dbMode?: string;
   /**
   * MySQL version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#engine_version CynosdbParamTemplate#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#engine_version CynosdbParamTemplate#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#id CynosdbParamTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#id CynosdbParamTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CynosdbParamTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#template_description CynosdbParamTemplate#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#template_description CynosdbParamTemplate#template_description}
   */
   readonly templateDescription?: string;
   /**
   * Optional parameter, template ID to be copied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#template_id CynosdbParamTemplate#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#template_id CynosdbParamTemplate#template_id}
   */
   readonly templateId?: number;
   /**
   * Template Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#template_name CynosdbParamTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#template_name CynosdbParamTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * param_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#param_list CynosdbParamTemplate#param_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#param_list CynosdbParamTemplate#param_list}
   */
   readonly paramList?: CynosdbParamTemplateParamListStruct[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface CynosdbParamTemplateParamListStruct {
   /**
   * Current value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#current_value CynosdbParamTemplate#current_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#current_value CynosdbParamTemplate#current_value}
   */
   readonly currentValue?: string;
   /**
   * Parameter Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#param_name CynosdbParamTemplate#param_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#param_name CynosdbParamTemplate#param_name}
   */
   readonly paramName?: string;
 }
@@ -206,7 +206,7 @@ export class CynosdbParamTemplateParamListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template tencentcloud_cynosdb_param_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template tencentcloud_cynosdb_param_template}
 */
 export class CynosdbParamTemplate extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class CynosdbParamTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbParamTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbParamTemplate to import
-  * @param importFromId The id of the existing CynosdbParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbParamTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbParamTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class CynosdbParamTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_param_template tencentcloud_cynosdb_param_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_param_template tencentcloud_cynosdb_param_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class CynosdbParamTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_param_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EmrAutoScaleStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#id EmrAutoScaleStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#id EmrAutoScaleStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface EmrAutoScaleStrategyConfig extends cdktf.TerraformMetaArguments
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#instance_id EmrAutoScaleStrategy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#instance_id EmrAutoScaleStrategy#instance_id}
   */
   readonly instanceId: string;
   /**
   * 1 means expansion and contraction according to load rules, 2 means expansion and contraction according to time rules. Must be filled in and match the following rule policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_type EmrAutoScaleStrategy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_type EmrAutoScaleStrategy#strategy_type}
   */
   readonly strategyType: number;
   /**
   * load_auto_scale_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#load_auto_scale_strategy EmrAutoScaleStrategy#load_auto_scale_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#load_auto_scale_strategy EmrAutoScaleStrategy#load_auto_scale_strategy}
   */
   readonly loadAutoScaleStrategy?: EmrAutoScaleStrategyLoadAutoScaleStrategy[] | cdktf.IResolvable;
   /**
   * time_auto_scale_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#time_auto_scale_strategy EmrAutoScaleStrategy#time_auto_scale_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#time_auto_scale_strategy EmrAutoScaleStrategy#time_auto_scale_strategy}
   */
   readonly timeAutoScaleStrategy?: EmrAutoScaleStrategyTimeAutoScaleStrategy[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditionsL
   /**
   * Conditional comparison method, 1 means greater than, 2 means less than, 3 means greater than or equal to, 4 means less than or equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#compare_method EmrAutoScaleStrategy#compare_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#compare_method EmrAutoScaleStrategy#compare_method}
   */
   readonly compareMethod: number;
   /**
   * Conditional threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#threshold EmrAutoScaleStrategy#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#threshold EmrAutoScaleStrategy#threshold}
   */
   readonly threshold?: number;
 }
@@ -193,31 +193,31 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditionsL
   /**
   * Expansion and contraction load indicators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#load_metrics EmrAutoScaleStrategy#load_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#load_metrics EmrAutoScaleStrategy#load_metrics}
   */
   readonly loadMetrics?: string;
   /**
   * Rule metadata record ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#metric_id EmrAutoScaleStrategy#metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#metric_id EmrAutoScaleStrategy#metric_id}
   */
   readonly metricId?: number;
   /**
   * The regular statistical period provides 1min, 3min, and 5min.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#statistic_period EmrAutoScaleStrategy#statistic_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#statistic_period EmrAutoScaleStrategy#statistic_period}
   */
   readonly statisticPeriod?: number;
   /**
   * The number of triggers. When the number of consecutive triggers exceeds TriggerThreshold, the expansion and contraction will begin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#trigger_threshold EmrAutoScaleStrategy#trigger_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#trigger_threshold EmrAutoScaleStrategy#trigger_threshold}
   */
   readonly triggerThreshold?: number;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#conditions EmrAutoScaleStrategy#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#conditions EmrAutoScaleStrategy#conditions}
   */
   readonly conditions?: EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditionsLoadMetricsConditions[] | cdktf.IResolvable;
 }
@@ -451,7 +451,7 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditions 
   /**
   * load_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#load_metrics EmrAutoScaleStrategy#load_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#load_metrics EmrAutoScaleStrategy#load_metrics}
   */
   readonly loadMetrics?: EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditionsLoadMetrics[] | cdktf.IResolvable;
 }
@@ -537,13 +537,13 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategyTags {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tag_key EmrAutoScaleStrategy#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tag_key EmrAutoScaleStrategy#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tag_value EmrAutoScaleStrategy#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tag_value EmrAutoScaleStrategy#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -690,25 +690,25 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategy {
   /**
   * Cooling time for rules to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#calm_down_time EmrAutoScaleStrategy#calm_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#calm_down_time EmrAutoScaleStrategy#calm_down_time}
   */
   readonly calmDownTime?: number;
   /**
   * Default configuration group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#config_group_assigned EmrAutoScaleStrategy#config_group_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#config_group_assigned EmrAutoScaleStrategy#config_group_assigned}
   */
   readonly configGroupAssigned?: string;
   /**
   * Elegant shrink switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#grace_down_flag EmrAutoScaleStrategy#grace_down_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#grace_down_flag EmrAutoScaleStrategy#grace_down_flag}
   */
   readonly graceDownFlag?: boolean | cdktf.IResolvable;
   /**
   * Graceful downsizing waiting time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#grace_down_time EmrAutoScaleStrategy#grace_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#grace_down_time EmrAutoScaleStrategy#grace_down_time}
   */
   readonly graceDownTime?: number;
   /**
@@ -718,73 +718,73 @@ export interface EmrAutoScaleStrategyLoadAutoScaleStrategy {
   * "CPU" means calculated based on the number of cores of the machine.
   * "MEMORYGB" means calculated based on the number of machine memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#measure_method EmrAutoScaleStrategy#measure_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#measure_method EmrAutoScaleStrategy#measure_method}
   */
   readonly measureMethod?: string;
   /**
   * Effective time for the rule to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#period_valid EmrAutoScaleStrategy#period_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#period_valid EmrAutoScaleStrategy#period_valid}
   */
   readonly periodValid?: string;
   /**
   * Rule priority, invalid when added, defaults to auto-increment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#priority EmrAutoScaleStrategy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#priority EmrAutoScaleStrategy#priority}
   */
   readonly priority?: number;
   /**
   * Indicator processing method, 1 represents MAX, 2 represents MIN, and 3 represents AVG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#process_method EmrAutoScaleStrategy#process_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#process_method EmrAutoScaleStrategy#process_method}
   */
   readonly processMethod?: number;
   /**
   * Expansion and contraction actions, 1 means expansion, 2 means shrinkage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#scale_action EmrAutoScaleStrategy#scale_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#scale_action EmrAutoScaleStrategy#scale_action}
   */
   readonly scaleAction?: number;
   /**
   * The amount of expansion and contraction each time the rule takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#scale_num EmrAutoScaleStrategy#scale_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#scale_num EmrAutoScaleStrategy#scale_num}
   */
   readonly scaleNum?: number;
   /**
   * Rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_id EmrAutoScaleStrategy#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_id EmrAutoScaleStrategy#strategy_id}
   */
   readonly strategyId?: number;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_name EmrAutoScaleStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_name EmrAutoScaleStrategy#strategy_name}
   */
   readonly strategyName?: string;
   /**
   * Rule status, 1 means enabled, 3 means disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_status EmrAutoScaleStrategy#strategy_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_status EmrAutoScaleStrategy#strategy_status}
   */
   readonly strategyStatus?: number;
   /**
   * Rule expansion specifies yarn node label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#yarn_node_label EmrAutoScaleStrategy#yarn_node_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#yarn_node_label EmrAutoScaleStrategy#yarn_node_label}
   */
   readonly yarnNodeLabel?: string;
   /**
   * load_metrics_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#load_metrics_conditions EmrAutoScaleStrategy#load_metrics_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#load_metrics_conditions EmrAutoScaleStrategy#load_metrics_conditions}
   */
   readonly loadMetricsConditions?: EmrAutoScaleStrategyLoadAutoScaleStrategyLoadMetricsConditions;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tags EmrAutoScaleStrategy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tags EmrAutoScaleStrategy#tags}
   */
   readonly tags?: EmrAutoScaleStrategyLoadAutoScaleStrategyTags[] | cdktf.IResolvable;
 }
@@ -1337,13 +1337,13 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyDayRepea
   /**
   * Repeat the specific time when the task is executed, such as "01:02:00".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
   */
   readonly executeAtTimeOfDay: string;
   /**
   * Executed every Step day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#step EmrAutoScaleStrategy#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#step EmrAutoScaleStrategy#step}
   */
   readonly step: number;
 }
@@ -1452,13 +1452,13 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyMonthRep
   /**
   * The description of the day period in each month, the length can only be 2, for example, [2,10] means the 2-10th of each month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#days_of_month_range EmrAutoScaleStrategy#days_of_month_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#days_of_month_range EmrAutoScaleStrategy#days_of_month_range}
   */
   readonly daysOfMonthRange: number[];
   /**
   * Repeat the specific time when the task is executed, such as "01:02:00".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
   */
   readonly executeAtTimeOfDay: string;
 }
@@ -1567,7 +1567,7 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyNotRepea
   /**
   * The specific and complete time of the task execution, the format is "2020-07-13 00:00:00".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#execute_at EmrAutoScaleStrategy#execute_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#execute_at EmrAutoScaleStrategy#execute_at}
   */
   readonly executeAt: string;
 }
@@ -1650,13 +1650,13 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyWeekRepe
   /**
   * The numerical description of the days of the week, for example, [1,3,4] means Monday, Wednesday, and Thursday every week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#days_of_week EmrAutoScaleStrategy#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#days_of_week EmrAutoScaleStrategy#days_of_week}
   */
   readonly daysOfWeek: number[];
   /**
   * Repeat the specific time when the task is executed, such as "01:02:00".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#execute_at_time_of_day EmrAutoScaleStrategy#execute_at_time_of_day}
   */
   readonly executeAtTimeOfDay: string;
 }
@@ -1765,37 +1765,37 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategy {
   /**
   * Rule expiration time. After this time, the rule will automatically be placed in a suspended state, in the form of "2020-07-23 00:00:00". Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#expire EmrAutoScaleStrategy#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#expire EmrAutoScaleStrategy#expire}
   */
   readonly expire?: string;
   /**
   * The value range is "DAY", "DOW", "DOM", and "NONE", which respectively represent daily repetition, weekly repetition, monthly repetition and one-time execution. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#repeat_type EmrAutoScaleStrategy#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#repeat_type EmrAutoScaleStrategy#repeat_type}
   */
   readonly repeatType: string;
   /**
   * day_repeat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#day_repeat EmrAutoScaleStrategy#day_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#day_repeat EmrAutoScaleStrategy#day_repeat}
   */
   readonly dayRepeat?: EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyDayRepeat;
   /**
   * month_repeat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#month_repeat EmrAutoScaleStrategy#month_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#month_repeat EmrAutoScaleStrategy#month_repeat}
   */
   readonly monthRepeat?: EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyMonthRepeat;
   /**
   * not_repeat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#not_repeat EmrAutoScaleStrategy#not_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#not_repeat EmrAutoScaleStrategy#not_repeat}
   */
   readonly notRepeat?: EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyNotRepeat;
   /**
   * week_repeat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#week_repeat EmrAutoScaleStrategy#week_repeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#week_repeat EmrAutoScaleStrategy#week_repeat}
   */
   readonly weekRepeat?: EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategyWeekRepeat;
 }
@@ -2023,13 +2023,13 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategyTags {
   /**
   * tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tag_key EmrAutoScaleStrategy#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tag_key EmrAutoScaleStrategy#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tag_value EmrAutoScaleStrategy#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tag_value EmrAutoScaleStrategy#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -2176,43 +2176,43 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategy {
   /**
   * Compensation expansion, 0 means not enabled, 1 means enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#compensate_flag EmrAutoScaleStrategy#compensate_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#compensate_flag EmrAutoScaleStrategy#compensate_flag}
   */
   readonly compensateFlag?: number;
   /**
   * Default configuration group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#config_group_assigned EmrAutoScaleStrategy#config_group_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#config_group_assigned EmrAutoScaleStrategy#config_group_assigned}
   */
   readonly configGroupAssigned?: string;
   /**
   * Elegant shrink switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#grace_down_flag EmrAutoScaleStrategy#grace_down_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#grace_down_flag EmrAutoScaleStrategy#grace_down_flag}
   */
   readonly graceDownFlag?: boolean | cdktf.IResolvable;
   /**
   * Graceful downsizing waiting time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#grace_down_time EmrAutoScaleStrategy#grace_down_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#grace_down_time EmrAutoScaleStrategy#grace_down_time}
   */
   readonly graceDownTime?: number;
   /**
   * scaling group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#group_id EmrAutoScaleStrategy#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#group_id EmrAutoScaleStrategy#group_id}
   */
   readonly groupId?: number;
   /**
   * The cooling time after the policy is triggered. During this period, elastic expansion and contraction will not be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#interval_time EmrAutoScaleStrategy#interval_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#interval_time EmrAutoScaleStrategy#interval_time}
   */
   readonly intervalTime: number;
   /**
   * Maximum usage time, seconds, minimum 1 hour, maximum 24 hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#max_use EmrAutoScaleStrategy#max_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#max_use EmrAutoScaleStrategy#max_use}
   */
   readonly maxUse?: number;
   /**
@@ -2222,73 +2222,73 @@ export interface EmrAutoScaleStrategyTimeAutoScaleStrategy {
   * "CPU" means calculated based on the number of cores of the machine.
   * "MEMORYGB" means calculated based on the number of machine memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#measure_method EmrAutoScaleStrategy#measure_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#measure_method EmrAutoScaleStrategy#measure_method}
   */
   readonly measureMethod?: string;
   /**
   * Rule priority, the smaller it is, the higher it is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#priority EmrAutoScaleStrategy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#priority EmrAutoScaleStrategy#priority}
   */
   readonly priority: number;
   /**
   * When multiple rules are triggered at the same time and some of them are not actually executed, retries will be made within this time range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#retry_valid_time EmrAutoScaleStrategy#retry_valid_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#retry_valid_time EmrAutoScaleStrategy#retry_valid_time}
   */
   readonly retryValidTime: number;
   /**
   * Expansion and contraction actions, 1 means expansion, 2 means shrinkage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#scale_action EmrAutoScaleStrategy#scale_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#scale_action EmrAutoScaleStrategy#scale_action}
   */
   readonly scaleAction: number;
   /**
   * The number of expansions and contractions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#scale_num EmrAutoScaleStrategy#scale_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#scale_num EmrAutoScaleStrategy#scale_num}
   */
   readonly scaleNum: number;
   /**
   * Start process list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#service_node_info EmrAutoScaleStrategy#service_node_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#service_node_info EmrAutoScaleStrategy#service_node_info}
   */
   readonly serviceNodeInfo?: number[];
   /**
   * Node deployment service list. Only fill in HDFS and YARN for deployment services. [Mapping relationship table corresponding to component names](https://cloud.tencent.com/document/product/589/98760).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#soft_deploy_info EmrAutoScaleStrategy#soft_deploy_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#soft_deploy_info EmrAutoScaleStrategy#soft_deploy_info}
   */
   readonly softDeployInfo?: number[];
   /**
   * Policy name, unique within the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_name EmrAutoScaleStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_name EmrAutoScaleStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * Rule status, 1 means valid, 2 means invalid, and 3 means suspended. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#strategy_status EmrAutoScaleStrategy#strategy_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#strategy_status EmrAutoScaleStrategy#strategy_status}
   */
   readonly strategyStatus: number;
   /**
   * Destruction strategy, "DEFAULT", the default destruction strategy, shrinkage is triggered by shrinkage rules, "TIMING" means scheduled destruction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#terminate_policy EmrAutoScaleStrategy#terminate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#terminate_policy EmrAutoScaleStrategy#terminate_policy}
   */
   readonly terminatePolicy?: string;
   /**
   * repeat_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#repeat_strategy EmrAutoScaleStrategy#repeat_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#repeat_strategy EmrAutoScaleStrategy#repeat_strategy}
   */
   readonly repeatStrategy: EmrAutoScaleStrategyTimeAutoScaleStrategyRepeatStrategy;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#tags EmrAutoScaleStrategy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#tags EmrAutoScaleStrategy#tags}
   */
   readonly tags?: EmrAutoScaleStrategyTimeAutoScaleStrategyTags[] | cdktf.IResolvable;
 }
@@ -2907,7 +2907,7 @@ export class EmrAutoScaleStrategyTimeAutoScaleStrategyList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy tencentcloud_emr_auto_scale_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy tencentcloud_emr_auto_scale_strategy}
 */
 export class EmrAutoScaleStrategy extends cdktf.TerraformResource {
 
@@ -2923,7 +2923,7 @@ export class EmrAutoScaleStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmrAutoScaleStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmrAutoScaleStrategy to import
-  * @param importFromId The id of the existing EmrAutoScaleStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmrAutoScaleStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmrAutoScaleStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2935,7 +2935,7 @@ export class EmrAutoScaleStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/emr_auto_scale_strategy tencentcloud_emr_auto_scale_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/emr_auto_scale_strategy tencentcloud_emr_auto_scale_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2946,8 +2946,8 @@ export class EmrAutoScaleStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_emr_auto_scale_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

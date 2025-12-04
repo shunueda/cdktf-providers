@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface HyperflexFeatureLimitExternalConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#account_moid HyperflexFeatureLimitExternal#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#account_moid HyperflexFeatureLimitExternal#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#ancestors HyperflexFeatureLimitExternal#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#ancestors HyperflexFeatureLimitExternal#ancestors}
   */
   readonly ancestors?: HyperflexFeatureLimitExternalAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a hyperflexAppCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#app_catalog HyperflexFeatureLimitExternal#app_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#app_catalog HyperflexFeatureLimitExternal#app_catalog}
   */
   readonly appCatalog?: HyperflexFeatureLimitExternalAppCatalog[] | cdktf.IResolvable;
   /**
@@ -35,27 +35,27 @@ export interface HyperflexFeatureLimitExternalConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#create_time HyperflexFeatureLimitExternal#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#create_time HyperflexFeatureLimitExternal#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#domain_group_moid HyperflexFeatureLimitExternal#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#domain_group_moid HyperflexFeatureLimitExternal#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#feature_limit_entries HyperflexFeatureLimitExternal#feature_limit_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#feature_limit_entries HyperflexFeatureLimitExternal#feature_limit_entries}
   */
   readonly featureLimitEntries?: HyperflexFeatureLimitExternalFeatureLimitEntries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#id HyperflexFeatureLimitExternal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#id HyperflexFeatureLimitExternal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,76 +64,76 @@ export interface HyperflexFeatureLimitExternalConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#mod_time HyperflexFeatureLimitExternal#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#mod_time HyperflexFeatureLimitExternal#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#owners HyperflexFeatureLimitExternal#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#owners HyperflexFeatureLimitExternal#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#parent HyperflexFeatureLimitExternal#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#parent HyperflexFeatureLimitExternal#parent}
   */
   readonly parent?: HyperflexFeatureLimitExternalParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#permission_resources HyperflexFeatureLimitExternal#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#permission_resources HyperflexFeatureLimitExternal#permission_resources}
   */
   readonly permissionResources?: HyperflexFeatureLimitExternalPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#shared_scope HyperflexFeatureLimitExternal#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#shared_scope HyperflexFeatureLimitExternal#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#tags HyperflexFeatureLimitExternal#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#tags HyperflexFeatureLimitExternal#tags}
   */
   readonly tags?: HyperflexFeatureLimitExternalTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#version_context HyperflexFeatureLimitExternal#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#version_context HyperflexFeatureLimitExternal#version_context}
   */
   readonly versionContext?: HyperflexFeatureLimitExternalVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexFeatureLimitExternalAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -365,23 +365,23 @@ export class HyperflexFeatureLimitExternalAncestorsList extends cdktf.ComplexLis
 }
 export interface HyperflexFeatureLimitExternalAppCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -613,35 +613,35 @@ export class HyperflexFeatureLimitExternalAppCatalogList extends cdktf.ComplexLi
 }
 export interface HyperflexFeatureLimitExternalFeatureLimitEntriesConstraint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#deployment_type HyperflexFeatureLimitExternal#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#deployment_type HyperflexFeatureLimitExternal#deployment_type}
   */
   readonly deploymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#hxdp_version HyperflexFeatureLimitExternal#hxdp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#hxdp_version HyperflexFeatureLimitExternal#hxdp_version}
   */
   readonly hxdpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#hypervisor_type HyperflexFeatureLimitExternal#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#hypervisor_type HyperflexFeatureLimitExternal#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#mgmt_platform HyperflexFeatureLimitExternal#mgmt_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#mgmt_platform HyperflexFeatureLimitExternal#mgmt_platform}
   */
   readonly mgmtPlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#server_model HyperflexFeatureLimitExternal#server_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#server_model HyperflexFeatureLimitExternal#server_model}
   */
   readonly serverModel?: string;
 }
@@ -960,27 +960,27 @@ export class HyperflexFeatureLimitExternalFeatureLimitEntriesConstraintList exte
 }
 export interface HyperflexFeatureLimitExternalFeatureLimitEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#constraint HyperflexFeatureLimitExternal#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#constraint HyperflexFeatureLimitExternal#constraint}
   */
   readonly constraint?: HyperflexFeatureLimitExternalFeatureLimitEntriesConstraint[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#name HyperflexFeatureLimitExternal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#name HyperflexFeatureLimitExternal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#value HyperflexFeatureLimitExternal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#value HyperflexFeatureLimitExternal#value}
   */
   readonly value?: string;
 }
@@ -1241,23 +1241,23 @@ export class HyperflexFeatureLimitExternalFeatureLimitEntriesList extends cdktf.
 }
 export interface HyperflexFeatureLimitExternalParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -1489,23 +1489,23 @@ export class HyperflexFeatureLimitExternalParentList extends cdktf.ComplexList {
 }
 export interface HyperflexFeatureLimitExternalPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -1737,23 +1737,23 @@ export class HyperflexFeatureLimitExternalPermissionResourcesList extends cdktf.
 }
 export interface HyperflexFeatureLimitExternalTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -1985,23 +1985,23 @@ export class HyperflexFeatureLimitExternalTagsAncestorDefinitionsList extends cd
 }
 export interface HyperflexFeatureLimitExternalTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -2233,35 +2233,35 @@ export class HyperflexFeatureLimitExternalTagsDefinitionList extends cdktf.Compl
 }
 export interface HyperflexFeatureLimitExternalTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#ancestor_definitions HyperflexFeatureLimitExternal#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#ancestor_definitions HyperflexFeatureLimitExternal#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexFeatureLimitExternalTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#definition HyperflexFeatureLimitExternal#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#definition HyperflexFeatureLimitExternal#definition}
   */
   readonly definition?: HyperflexFeatureLimitExternalTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#key HyperflexFeatureLimitExternal#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#key HyperflexFeatureLimitExternal#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#propagated HyperflexFeatureLimitExternal#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#propagated HyperflexFeatureLimitExternal#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#sys_tag HyperflexFeatureLimitExternal#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#sys_tag HyperflexFeatureLimitExternal#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#type HyperflexFeatureLimitExternal#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#type HyperflexFeatureLimitExternal#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#value HyperflexFeatureLimitExternal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#value HyperflexFeatureLimitExternal#value}
   */
   readonly value?: string;
 }
@@ -2580,23 +2580,23 @@ export class HyperflexFeatureLimitExternalTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexFeatureLimitExternalVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -2828,23 +2828,23 @@ export class HyperflexFeatureLimitExternalVersionContextInterestedMosList extend
 }
 export interface HyperflexFeatureLimitExternalVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#moid HyperflexFeatureLimitExternal#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#selector HyperflexFeatureLimitExternal#selector}
   */
   readonly selector?: string;
 }
@@ -3076,39 +3076,39 @@ export class HyperflexFeatureLimitExternalVersionContextRefMoList extends cdktf.
 }
 export interface HyperflexFeatureLimitExternalVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#additional_properties HyperflexFeatureLimitExternal#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#class_id HyperflexFeatureLimitExternal#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#interested_mos HyperflexFeatureLimitExternal#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#interested_mos HyperflexFeatureLimitExternal#interested_mos}
   */
   readonly interestedMos?: HyperflexFeatureLimitExternalVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#marked_for_deletion HyperflexFeatureLimitExternal#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#marked_for_deletion HyperflexFeatureLimitExternal#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#nr_version HyperflexFeatureLimitExternal#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#nr_version HyperflexFeatureLimitExternal#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#object_type HyperflexFeatureLimitExternal#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#ref_mo HyperflexFeatureLimitExternal#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#ref_mo HyperflexFeatureLimitExternal#ref_mo}
   */
   readonly refMo?: HyperflexFeatureLimitExternalVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#timestamp HyperflexFeatureLimitExternal#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#timestamp HyperflexFeatureLimitExternal#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#version_type HyperflexFeatureLimitExternal#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#version_type HyperflexFeatureLimitExternal#version_type}
   */
   readonly versionType?: string;
 }
@@ -3456,7 +3456,7 @@ export class HyperflexFeatureLimitExternalVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external intersight_hyperflex_feature_limit_external}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external intersight_hyperflex_feature_limit_external}
 */
 export class HyperflexFeatureLimitExternal extends cdktf.TerraformResource {
 
@@ -3472,7 +3472,7 @@ export class HyperflexFeatureLimitExternal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexFeatureLimitExternal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexFeatureLimitExternal to import
-  * @param importFromId The id of the existing HyperflexFeatureLimitExternal that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexFeatureLimitExternal that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexFeatureLimitExternal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3484,7 +3484,7 @@ export class HyperflexFeatureLimitExternal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_feature_limit_external intersight_hyperflex_feature_limit_external} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_feature_limit_external intersight_hyperflex_feature_limit_external} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3495,8 +3495,8 @@ export class HyperflexFeatureLimitExternal extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_feature_limit_external',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

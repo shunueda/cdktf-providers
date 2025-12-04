@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightOprsDeploymentConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#account_moid DataIntersightOprsDeployment#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#account_moid DataIntersightOprsDeployment#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Available number of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#available_replicas DataIntersightOprsDeployment#available_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#available_replicas DataIntersightOprsDeployment#available_replicas}
   */
   readonly availableReplicas?: number;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightOprsDeploymentConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#create_time DataIntersightOprsDeployment#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#create_time DataIntersightOprsDeployment#create_time}
   */
   readonly createTime?: string;
   /**
   * The expected number of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#desired_replicas DataIntersightOprsDeployment#desired_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#desired_replicas DataIntersightOprsDeployment#desired_replicas}
   */
   readonly desiredReplicas?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#domain_group_moid DataIntersightOprsDeployment#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#domain_group_moid DataIntersightOprsDeployment#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The type of event which was triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#event DataIntersightOprsDeployment#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#event DataIntersightOprsDeployment#event}
   */
   readonly event?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#id DataIntersightOprsDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#id DataIntersightOprsDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface DataIntersightOprsDeploymentConfig extends cdktf.TerraformMetaA
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#mod_time DataIntersightOprsDeployment#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#mod_time DataIntersightOprsDeployment#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * Agent name for which the event is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#name DataIntersightOprsDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#name DataIntersightOprsDeployment#name}
   */
   readonly name?: string;
   /**
   * Name space in which the agents are running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#namespace DataIntersightOprsDeployment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#namespace DataIntersightOprsDeployment#namespace}
   */
   readonly namespace?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#owners DataIntersightOprsDeployment#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#owners DataIntersightOprsDeployment#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#shared_scope DataIntersightOprsDeployment#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#shared_scope DataIntersightOprsDeployment#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -110,61 +110,61 @@ export interface DataIntersightOprsDeploymentConfig extends cdktf.TerraformMetaA
   * * `Healthy` - A healthy status indicates that the resource is healthy and running as per spec.
   * * `Unhealthy` - An unhealthy status indicates that the resource is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#status DataIntersightOprsDeployment#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#status DataIntersightOprsDeployment#status}
   */
   readonly status?: string;
   /**
   * The time at which the event was generated. Date is accurate to Intersights clock. This time will be used to identify order of events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#time_stamp DataIntersightOprsDeployment#time_stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#time_stamp DataIntersightOprsDeployment#time_stamp}
   */
   readonly timeStamp?: string;
   /**
   * Number of replicas Unavailable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#unavailable_replicas DataIntersightOprsDeployment#unavailable_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#unavailable_replicas DataIntersightOprsDeployment#unavailable_replicas}
   */
   readonly unavailableReplicas?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#ancestors DataIntersightOprsDeployment#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#ancestors DataIntersightOprsDeployment#ancestors}
   */
   readonly ancestors?: DataIntersightOprsDeploymentAncestors[] | cdktf.IResolvable;
   /**
   * assist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#assist DataIntersightOprsDeployment#assist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#assist DataIntersightOprsDeployment#assist}
   */
   readonly assist?: DataIntersightOprsDeploymentAssist;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#labels DataIntersightOprsDeployment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#labels DataIntersightOprsDeployment#labels}
   */
   readonly labels?: DataIntersightOprsDeploymentLabels[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#parent DataIntersightOprsDeployment#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#parent DataIntersightOprsDeployment#parent}
   */
   readonly parent?: DataIntersightOprsDeploymentParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#permission_resources DataIntersightOprsDeployment#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#permission_resources DataIntersightOprsDeployment#permission_resources}
   */
   readonly permissionResources?: DataIntersightOprsDeploymentPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#tags DataIntersightOprsDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#tags DataIntersightOprsDeployment#tags}
   */
   readonly tags?: DataIntersightOprsDeploymentTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#version_context DataIntersightOprsDeployment#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#version_context DataIntersightOprsDeployment#version_context}
   */
   readonly versionContext?: DataIntersightOprsDeploymentVersionContext;
 }
@@ -1456,7 +1456,7 @@ export class DataIntersightOprsDeploymentResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOprsDeploymentAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1464,19 +1464,19 @@ export interface DataIntersightOprsDeploymentAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1489,7 +1489,7 @@ export interface DataIntersightOprsDeploymentAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -1721,7 +1721,7 @@ export class DataIntersightOprsDeploymentAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightOprsDeploymentAssist {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1729,19 +1729,19 @@ export interface DataIntersightOprsDeploymentAssist {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1754,7 +1754,7 @@ export interface DataIntersightOprsDeploymentAssist {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -1954,7 +1954,7 @@ export class DataIntersightOprsDeploymentAssistOutputReference extends cdktf.Com
 }
 export interface DataIntersightOprsDeploymentLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1962,26 +1962,26 @@ export interface DataIntersightOprsDeploymentLabels {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the property which is used as key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#key DataIntersightOprsDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#key DataIntersightOprsDeployment#key}
   */
   readonly key?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
   * Value of the property corresponding to the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#value DataIntersightOprsDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#value DataIntersightOprsDeployment#value}
   */
   readonly value?: string;
 }
@@ -2213,7 +2213,7 @@ export class DataIntersightOprsDeploymentLabelsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOprsDeploymentParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2221,19 +2221,19 @@ export interface DataIntersightOprsDeploymentParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2246,7 +2246,7 @@ export interface DataIntersightOprsDeploymentParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2446,7 +2446,7 @@ export class DataIntersightOprsDeploymentParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightOprsDeploymentPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2454,19 +2454,19 @@ export interface DataIntersightOprsDeploymentPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2479,7 +2479,7 @@ export interface DataIntersightOprsDeploymentPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2711,7 +2711,7 @@ export class DataIntersightOprsDeploymentPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightOprsDeploymentTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2719,19 +2719,19 @@ export interface DataIntersightOprsDeploymentTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2744,7 +2744,7 @@ export interface DataIntersightOprsDeploymentTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2976,7 +2976,7 @@ export class DataIntersightOprsDeploymentTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightOprsDeploymentTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2984,19 +2984,19 @@ export interface DataIntersightOprsDeploymentTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3009,7 +3009,7 @@ export interface DataIntersightOprsDeploymentTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3209,25 +3209,25 @@ export class DataIntersightOprsDeploymentTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightOprsDeploymentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#key DataIntersightOprsDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#key DataIntersightOprsDeployment#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#propagated DataIntersightOprsDeployment#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#propagated DataIntersightOprsDeployment#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#sys_tag DataIntersightOprsDeployment#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#sys_tag DataIntersightOprsDeployment#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3235,25 +3235,25 @@ export interface DataIntersightOprsDeploymentTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#type DataIntersightOprsDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#type DataIntersightOprsDeployment#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#value DataIntersightOprsDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#value DataIntersightOprsDeployment#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#ancestor_definitions DataIntersightOprsDeployment#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#ancestor_definitions DataIntersightOprsDeployment#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOprsDeploymentTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#definition DataIntersightOprsDeployment#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#definition DataIntersightOprsDeployment#definition}
   */
   readonly definition?: DataIntersightOprsDeploymentTagsDefinition;
 }
@@ -3572,7 +3572,7 @@ export class DataIntersightOprsDeploymentTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOprsDeploymentVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3580,19 +3580,19 @@ export interface DataIntersightOprsDeploymentVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3605,7 +3605,7 @@ export interface DataIntersightOprsDeploymentVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3837,7 +3837,7 @@ export class DataIntersightOprsDeploymentVersionContextInterestedMosList extends
 }
 export interface DataIntersightOprsDeploymentVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3845,19 +3845,19 @@ export interface DataIntersightOprsDeploymentVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#moid DataIntersightOprsDeployment#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3870,7 +3870,7 @@ export interface DataIntersightOprsDeploymentVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#selector DataIntersightOprsDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -4070,7 +4070,7 @@ export class DataIntersightOprsDeploymentVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightOprsDeploymentVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#additional_properties DataIntersightOprsDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4078,32 +4078,32 @@ export interface DataIntersightOprsDeploymentVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#class_id DataIntersightOprsDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#marked_for_deletion DataIntersightOprsDeployment#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#marked_for_deletion DataIntersightOprsDeployment#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#nr_version DataIntersightOprsDeployment#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#nr_version DataIntersightOprsDeployment#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#object_type DataIntersightOprsDeployment#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#timestamp DataIntersightOprsDeployment#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#timestamp DataIntersightOprsDeployment#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4114,19 +4114,19 @@ export interface DataIntersightOprsDeploymentVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#version_type DataIntersightOprsDeployment#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#version_type DataIntersightOprsDeployment#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#interested_mos DataIntersightOprsDeployment#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#interested_mos DataIntersightOprsDeployment#interested_mos}
   */
   readonly interestedMos?: DataIntersightOprsDeploymentVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#ref_mo DataIntersightOprsDeployment#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#ref_mo DataIntersightOprsDeployment#ref_mo}
   */
   readonly refMo?: DataIntersightOprsDeploymentVersionContextRefMo;
 }
@@ -4442,7 +4442,7 @@ export class DataIntersightOprsDeploymentVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment intersight_oprs_deployment}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment intersight_oprs_deployment}
 */
 export class DataIntersightOprsDeployment extends cdktf.TerraformDataSource {
 
@@ -4458,7 +4458,7 @@ export class DataIntersightOprsDeployment extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightOprsDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOprsDeployment to import
-  * @param importFromId The id of the existing DataIntersightOprsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOprsDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOprsDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4470,7 +4470,7 @@ export class DataIntersightOprsDeployment extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_deployment intersight_oprs_deployment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_deployment intersight_oprs_deployment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4481,8 +4481,8 @@ export class DataIntersightOprsDeployment extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_oprs_deployment',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

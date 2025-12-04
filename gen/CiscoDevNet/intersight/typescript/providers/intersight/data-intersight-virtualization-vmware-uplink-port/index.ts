@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwareUplinkPortConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#account_moid DataIntersightVirtualizationVmwareUplinkPort#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#account_moid DataIntersightVirtualizationVmwareUplinkPort#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightVirtualizationVmwareUplinkPortConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#create_time DataIntersightVirtualizationVmwareUplinkPort#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#create_time DataIntersightVirtualizationVmwareUplinkPort#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#domain_group_moid DataIntersightVirtualizationVmwareUplinkPort#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#domain_group_moid DataIntersightVirtualizationVmwareUplinkPort#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#id DataIntersightVirtualizationVmwareUplinkPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#id DataIntersightVirtualizationVmwareUplinkPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,103 +47,103 @@ export interface DataIntersightVirtualizationVmwareUplinkPortConfig extends cdkt
   /**
   * The VMware managed object reference as a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#identity DataIntersightVirtualizationVmwareUplinkPort#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#identity DataIntersightVirtualizationVmwareUplinkPort#identity}
   */
   readonly identity?: string;
   /**
   * The internally assigned key of this uplink port object. This entity is not manipulated by users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#key DataIntersightVirtualizationVmwareUplinkPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#key DataIntersightVirtualizationVmwareUplinkPort#key}
   */
   readonly key?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#mod_time DataIntersightVirtualizationVmwareUplinkPort#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#mod_time DataIntersightVirtualizationVmwareUplinkPort#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * User-provided name to identify the uplink port object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#name DataIntersightVirtualizationVmwareUplinkPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#name DataIntersightVirtualizationVmwareUplinkPort#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#owners DataIntersightVirtualizationVmwareUplinkPort#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#owners DataIntersightVirtualizationVmwareUplinkPort#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#shared_scope DataIntersightVirtualizationVmwareUplinkPort#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#shared_scope DataIntersightVirtualizationVmwareUplinkPort#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#ancestors DataIntersightVirtualizationVmwareUplinkPort#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#ancestors DataIntersightVirtualizationVmwareUplinkPort#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareUplinkPortAncestors[] | cdktf.IResolvable;
   /**
   * distributed_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#distributed_network DataIntersightVirtualizationVmwareUplinkPort#distributed_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#distributed_network DataIntersightVirtualizationVmwareUplinkPort#distributed_network}
   */
   readonly distributedNetwork?: DataIntersightVirtualizationVmwareUplinkPortDistributedNetwork;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#host DataIntersightVirtualizationVmwareUplinkPort#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#host DataIntersightVirtualizationVmwareUplinkPort#host}
   */
   readonly host?: DataIntersightVirtualizationVmwareUplinkPortHost;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#parent DataIntersightVirtualizationVmwareUplinkPort#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#parent DataIntersightVirtualizationVmwareUplinkPort#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareUplinkPortParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#permission_resources DataIntersightVirtualizationVmwareUplinkPort#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#permission_resources DataIntersightVirtualizationVmwareUplinkPort#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareUplinkPortPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#physical_network_interface DataIntersightVirtualizationVmwareUplinkPort#physical_network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#physical_network_interface DataIntersightVirtualizationVmwareUplinkPort#physical_network_interface}
   */
   readonly physicalNetworkInterface?: DataIntersightVirtualizationVmwareUplinkPortPhysicalNetworkInterface;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#registered_device DataIntersightVirtualizationVmwareUplinkPort#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#registered_device DataIntersightVirtualizationVmwareUplinkPort#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareUplinkPortRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#tags DataIntersightVirtualizationVmwareUplinkPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#tags DataIntersightVirtualizationVmwareUplinkPort#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareUplinkPortTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#version_context DataIntersightVirtualizationVmwareUplinkPort#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#version_context DataIntersightVirtualizationVmwareUplinkPort#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareUplinkPortVersionContext;
 }
@@ -1612,7 +1612,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortResultsList extends cdk
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1620,19 +1620,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1645,7 +1645,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -1877,7 +1877,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortAncestorsList extends c
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortDistributedNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1885,19 +1885,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortDistributedNetwork 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1910,7 +1910,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortDistributedNetwork 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -2110,7 +2110,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortDistributedNetworkOutpu
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2118,19 +2118,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2143,7 +2143,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -2343,7 +2343,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortHostOutputReference ext
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2351,19 +2351,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2376,7 +2376,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -2576,7 +2576,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortParentOutputReference e
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2584,19 +2584,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2609,7 +2609,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -2841,7 +2841,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortPermissionResourcesList
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortPhysicalNetworkInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2849,19 +2849,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortPhysicalNetworkInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2874,7 +2874,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortPhysicalNetworkInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -3074,7 +3074,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortPhysicalNetworkInterfac
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3082,19 +3082,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3107,7 +3107,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -3307,7 +3307,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortRegisteredDeviceOutputR
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3315,19 +3315,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3340,7 +3340,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -3572,7 +3572,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortTagsAncestorDefinitions
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3580,19 +3580,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3605,7 +3605,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -3805,25 +3805,25 @@ export class DataIntersightVirtualizationVmwareUplinkPortTagsDefinitionOutputRef
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#key DataIntersightVirtualizationVmwareUplinkPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#key DataIntersightVirtualizationVmwareUplinkPort#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#propagated DataIntersightVirtualizationVmwareUplinkPort#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#propagated DataIntersightVirtualizationVmwareUplinkPort#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#sys_tag DataIntersightVirtualizationVmwareUplinkPort#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#sys_tag DataIntersightVirtualizationVmwareUplinkPort#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3831,25 +3831,25 @@ export interface DataIntersightVirtualizationVmwareUplinkPortTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#type DataIntersightVirtualizationVmwareUplinkPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#type DataIntersightVirtualizationVmwareUplinkPort#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#value DataIntersightVirtualizationVmwareUplinkPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#value DataIntersightVirtualizationVmwareUplinkPort#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#ancestor_definitions DataIntersightVirtualizationVmwareUplinkPort#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#ancestor_definitions DataIntersightVirtualizationVmwareUplinkPort#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareUplinkPortTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#definition DataIntersightVirtualizationVmwareUplinkPort#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#definition DataIntersightVirtualizationVmwareUplinkPort#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareUplinkPortTagsDefinition;
 }
@@ -4168,7 +4168,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortTagsList extends cdktf.
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4176,19 +4176,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4201,7 +4201,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -4433,7 +4433,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortVersionContextIntereste
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4441,19 +4441,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#moid DataIntersightVirtualizationVmwareUplinkPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4466,7 +4466,7 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#selector DataIntersightVirtualizationVmwareUplinkPort#selector}
   */
   readonly selector?: string;
 }
@@ -4666,7 +4666,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortVersionContextRefMoOutp
 }
 export interface DataIntersightVirtualizationVmwareUplinkPortVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#additional_properties DataIntersightVirtualizationVmwareUplinkPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4674,32 +4674,32 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#class_id DataIntersightVirtualizationVmwareUplinkPort#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#marked_for_deletion DataIntersightVirtualizationVmwareUplinkPort#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#marked_for_deletion DataIntersightVirtualizationVmwareUplinkPort#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#nr_version DataIntersightVirtualizationVmwareUplinkPort#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#nr_version DataIntersightVirtualizationVmwareUplinkPort#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#object_type DataIntersightVirtualizationVmwareUplinkPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#timestamp DataIntersightVirtualizationVmwareUplinkPort#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#timestamp DataIntersightVirtualizationVmwareUplinkPort#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4710,19 +4710,19 @@ export interface DataIntersightVirtualizationVmwareUplinkPortVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#version_type DataIntersightVirtualizationVmwareUplinkPort#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#version_type DataIntersightVirtualizationVmwareUplinkPort#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#interested_mos DataIntersightVirtualizationVmwareUplinkPort#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#interested_mos DataIntersightVirtualizationVmwareUplinkPort#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareUplinkPortVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#ref_mo DataIntersightVirtualizationVmwareUplinkPort#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#ref_mo DataIntersightVirtualizationVmwareUplinkPort#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareUplinkPortVersionContextRefMo;
 }
@@ -5038,7 +5038,7 @@ export class DataIntersightVirtualizationVmwareUplinkPortVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port intersight_virtualization_vmware_uplink_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port intersight_virtualization_vmware_uplink_port}
 */
 export class DataIntersightVirtualizationVmwareUplinkPort extends cdktf.TerraformDataSource {
 
@@ -5054,7 +5054,7 @@ export class DataIntersightVirtualizationVmwareUplinkPort extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareUplinkPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareUplinkPort to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareUplinkPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareUplinkPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareUplinkPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5066,7 +5066,7 @@ export class DataIntersightVirtualizationVmwareUplinkPort extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_uplink_port intersight_virtualization_vmware_uplink_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_uplink_port intersight_virtualization_vmware_uplink_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5077,8 +5077,8 @@ export class DataIntersightVirtualizationVmwareUplinkPort extends cdktf.Terrafor
       terraformResourceType: 'intersight_virtualization_vmware_uplink_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

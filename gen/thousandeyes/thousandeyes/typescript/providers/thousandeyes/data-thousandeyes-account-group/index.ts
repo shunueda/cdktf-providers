@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThousandeyesAccountGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group#id DataThousandeyesAccountGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group#id DataThousandeyesAccountGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThousandeyesAccountGroupConfig extends cdktf.TerraformMetaA
   /**
   * The name of the account group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group#name DataThousandeyesAccountGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group#name DataThousandeyesAccountGroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group thousandeyes_account_group}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group thousandeyes_account_group}
 */
 export class DataThousandeyesAccountGroup extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataThousandeyesAccountGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThousandeyesAccountGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThousandeyesAccountGroup to import
-  * @param importFromId The id of the existing DataThousandeyesAccountGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThousandeyesAccountGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThousandeyesAccountGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataThousandeyesAccountGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/account_group thousandeyes_account_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/account_group thousandeyes_account_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataThousandeyesAccountGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'thousandeyes_account_group',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#account_moid FirmwareServerConfigurationUtilityDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#account_moid FirmwareServerConfigurationUtilityDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#ancestors FirmwareServerConfigurationUtilityDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#ancestors FirmwareServerConfigurationUtilityDistributable#ancestors}
   */
   readonly ancestors?: FirmwareServerConfigurationUtilityDistributableAncestors[] | cdktf.IResolvable;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#bundle_type FirmwareServerConfigurationUtilityDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#bundle_type FirmwareServerConfigurationUtilityDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
   * A reference to a softwarerepositoryCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#catalog FirmwareServerConfigurationUtilityDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#catalog FirmwareServerConfigurationUtilityDistributable#catalog}
   */
   readonly catalog?: FirmwareServerConfigurationUtilityDistributableCatalog[] | cdktf.IResolvable;
   /**
@@ -41,41 +41,41 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#component_meta FirmwareServerConfigurationUtilityDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#component_meta FirmwareServerConfigurationUtilityDistributable#component_meta}
   */
   readonly componentMeta?: FirmwareServerConfigurationUtilityDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#create_time FirmwareServerConfigurationUtilityDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#create_time FirmwareServerConfigurationUtilityDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#description FirmwareServerConfigurationUtilityDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#description FirmwareServerConfigurationUtilityDistributable#description}
   */
   readonly description?: string;
   /**
   * An array of relationships to firmwareDistributableMeta resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#distributable_metas FirmwareServerConfigurationUtilityDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#distributable_metas FirmwareServerConfigurationUtilityDistributable#distributable_metas}
   */
   readonly distributableMetas?: FirmwareServerConfigurationUtilityDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#domain_group_moid FirmwareServerConfigurationUtilityDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#domain_group_moid FirmwareServerConfigurationUtilityDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#download_count FirmwareServerConfigurationUtilityDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#download_count FirmwareServerConfigurationUtilityDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -84,17 +84,17 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#feature_source FirmwareServerConfigurationUtilityDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#feature_source FirmwareServerConfigurationUtilityDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#guid FirmwareServerConfigurationUtilityDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#guid FirmwareServerConfigurationUtilityDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#id FirmwareServerConfigurationUtilityDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#id FirmwareServerConfigurationUtilityDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,7 +103,7 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#image_type FirmwareServerConfigurationUtilityDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#image_type FirmwareServerConfigurationUtilityDistributable#image_type}
   */
   readonly imageType?: string;
   /**
@@ -118,7 +118,7 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#import_action FirmwareServerConfigurationUtilityDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#import_action FirmwareServerConfigurationUtilityDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -126,6 +126,7 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   * * `ReadyForImport` - The image is ready to be imported into the repository.
   * * `Importing` - The image is being imported into the repository.
   * * `Imported` - The image has been extracted and imported into the repository.
+  * * `ComputingMetadata` - Indicates that the image has been imported but its metadata computation has not been done.
   * * `PendingExtraction` - Indicates that the image has been imported but not extracted in the repository.
   * * `Extracting` - Indicates that the image is being extracted into the repository.
   * * `Extracted` - Indicates that the image has been extracted into the repository.
@@ -139,201 +140,201 @@ export interface FirmwareServerConfigurationUtilityDistributableConfig extends c
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#import_state FirmwareServerConfigurationUtilityDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#import_state FirmwareServerConfigurationUtilityDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#imported_time FirmwareServerConfigurationUtilityDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#imported_time FirmwareServerConfigurationUtilityDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#last_access_time FirmwareServerConfigurationUtilityDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#last_access_time FirmwareServerConfigurationUtilityDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#md5e_tag FirmwareServerConfigurationUtilityDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#md5e_tag FirmwareServerConfigurationUtilityDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#md5sum FirmwareServerConfigurationUtilityDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#md5sum FirmwareServerConfigurationUtilityDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#mdfid FirmwareServerConfigurationUtilityDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#mdfid FirmwareServerConfigurationUtilityDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#mod_time FirmwareServerConfigurationUtilityDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#mod_time FirmwareServerConfigurationUtilityDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#model FirmwareServerConfigurationUtilityDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#model FirmwareServerConfigurationUtilityDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#name FirmwareServerConfigurationUtilityDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#name FirmwareServerConfigurationUtilityDistributable#name}
   */
   readonly name?: string;
   /**
   * Location of the file in an external repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#nr_source FirmwareServerConfigurationUtilityDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#nr_source FirmwareServerConfigurationUtilityDistributable#nr_source}
   */
   readonly nrSource?: FirmwareServerConfigurationUtilityDistributableNrSource[] | cdktf.IResolvable;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#nr_version FirmwareServerConfigurationUtilityDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#nr_version FirmwareServerConfigurationUtilityDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#owners FirmwareServerConfigurationUtilityDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#owners FirmwareServerConfigurationUtilityDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#parent FirmwareServerConfigurationUtilityDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#parent FirmwareServerConfigurationUtilityDistributable#parent}
   */
   readonly parent?: FirmwareServerConfigurationUtilityDistributableParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#permission_resources FirmwareServerConfigurationUtilityDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#permission_resources FirmwareServerConfigurationUtilityDistributable#permission_resources}
   */
   readonly permissionResources?: FirmwareServerConfigurationUtilityDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#platform_type FirmwareServerConfigurationUtilityDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#platform_type FirmwareServerConfigurationUtilityDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#recommended_build FirmwareServerConfigurationUtilityDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#recommended_build FirmwareServerConfigurationUtilityDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#release FirmwareServerConfigurationUtilityDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#release FirmwareServerConfigurationUtilityDistributable#release}
   */
   readonly release?: FirmwareServerConfigurationUtilityDistributableRelease[] | cdktf.IResolvable;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#release_date FirmwareServerConfigurationUtilityDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#release_date FirmwareServerConfigurationUtilityDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#release_notes_url FirmwareServerConfigurationUtilityDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#release_notes_url FirmwareServerConfigurationUtilityDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#sha512sum FirmwareServerConfigurationUtilityDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#sha512sum FirmwareServerConfigurationUtilityDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#shared_scope FirmwareServerConfigurationUtilityDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#shared_scope FirmwareServerConfigurationUtilityDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#size FirmwareServerConfigurationUtilityDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#size FirmwareServerConfigurationUtilityDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#software_advisory_url FirmwareServerConfigurationUtilityDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#software_advisory_url FirmwareServerConfigurationUtilityDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#software_type_id FirmwareServerConfigurationUtilityDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#software_type_id FirmwareServerConfigurationUtilityDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#supported_models FirmwareServerConfigurationUtilityDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#supported_models FirmwareServerConfigurationUtilityDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#tags FirmwareServerConfigurationUtilityDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#tags FirmwareServerConfigurationUtilityDistributable#tags}
   */
   readonly tags?: FirmwareServerConfigurationUtilityDistributableTags[] | cdktf.IResolvable;
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#vendor FirmwareServerConfigurationUtilityDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#vendor FirmwareServerConfigurationUtilityDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#version_context FirmwareServerConfigurationUtilityDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#version_context FirmwareServerConfigurationUtilityDistributable#version_context}
   */
   readonly versionContext?: FirmwareServerConfigurationUtilityDistributableVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwareServerConfigurationUtilityDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -565,23 +566,23 @@ export class FirmwareServerConfigurationUtilityDistributableAncestorsList extend
 }
 export interface FirmwareServerConfigurationUtilityDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -813,63 +814,63 @@ export class FirmwareServerConfigurationUtilityDistributableCatalogList extends 
 }
 export interface FirmwareServerConfigurationUtilityDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#alternate_packed_version FirmwareServerConfigurationUtilityDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#alternate_packed_version FirmwareServerConfigurationUtilityDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#component_label FirmwareServerConfigurationUtilityDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#component_label FirmwareServerConfigurationUtilityDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#component_type FirmwareServerConfigurationUtilityDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#component_type FirmwareServerConfigurationUtilityDistributable#component_type}
   */
   readonly componentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#description FirmwareServerConfigurationUtilityDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#description FirmwareServerConfigurationUtilityDistributable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#disruption FirmwareServerConfigurationUtilityDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#disruption FirmwareServerConfigurationUtilityDistributable#disruption}
   */
   readonly disruption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#image_path FirmwareServerConfigurationUtilityDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#image_path FirmwareServerConfigurationUtilityDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#is_oob_supported FirmwareServerConfigurationUtilityDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#is_oob_supported FirmwareServerConfigurationUtilityDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#model FirmwareServerConfigurationUtilityDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#model FirmwareServerConfigurationUtilityDistributable#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#oob_manageability FirmwareServerConfigurationUtilityDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#oob_manageability FirmwareServerConfigurationUtilityDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#packed_version FirmwareServerConfigurationUtilityDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#packed_version FirmwareServerConfigurationUtilityDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#redfish_url FirmwareServerConfigurationUtilityDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#redfish_url FirmwareServerConfigurationUtilityDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#vendor FirmwareServerConfigurationUtilityDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#vendor FirmwareServerConfigurationUtilityDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -1391,23 +1392,23 @@ export class FirmwareServerConfigurationUtilityDistributableComponentMetaList ex
 }
 export interface FirmwareServerConfigurationUtilityDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -1639,15 +1640,15 @@ export class FirmwareServerConfigurationUtilityDistributableDistributableMetasLi
 }
 export interface FirmwareServerConfigurationUtilityDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -1821,23 +1822,23 @@ export class FirmwareServerConfigurationUtilityDistributableNrSourceList extends
 }
 export interface FirmwareServerConfigurationUtilityDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2069,23 +2070,23 @@ export class FirmwareServerConfigurationUtilityDistributableParentList extends c
 }
 export interface FirmwareServerConfigurationUtilityDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2317,23 +2318,23 @@ export class FirmwareServerConfigurationUtilityDistributablePermissionResourcesL
 }
 export interface FirmwareServerConfigurationUtilityDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2565,23 +2566,23 @@ export class FirmwareServerConfigurationUtilityDistributableReleaseList extends 
 }
 export interface FirmwareServerConfigurationUtilityDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2813,23 +2814,23 @@ export class FirmwareServerConfigurationUtilityDistributableTagsAncestorDefiniti
 }
 export interface FirmwareServerConfigurationUtilityDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3061,35 +3062,35 @@ export class FirmwareServerConfigurationUtilityDistributableTagsDefinitionList e
 }
 export interface FirmwareServerConfigurationUtilityDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#ancestor_definitions FirmwareServerConfigurationUtilityDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#ancestor_definitions FirmwareServerConfigurationUtilityDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareServerConfigurationUtilityDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#definition FirmwareServerConfigurationUtilityDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#definition FirmwareServerConfigurationUtilityDistributable#definition}
   */
   readonly definition?: FirmwareServerConfigurationUtilityDistributableTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#key FirmwareServerConfigurationUtilityDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#key FirmwareServerConfigurationUtilityDistributable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#propagated FirmwareServerConfigurationUtilityDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#propagated FirmwareServerConfigurationUtilityDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#sys_tag FirmwareServerConfigurationUtilityDistributable#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#sys_tag FirmwareServerConfigurationUtilityDistributable#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#type FirmwareServerConfigurationUtilityDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#type FirmwareServerConfigurationUtilityDistributable#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#value FirmwareServerConfigurationUtilityDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#value FirmwareServerConfigurationUtilityDistributable#value}
   */
   readonly value?: string;
 }
@@ -3408,23 +3409,23 @@ export class FirmwareServerConfigurationUtilityDistributableTagsList extends cdk
 }
 export interface FirmwareServerConfigurationUtilityDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3656,23 +3657,23 @@ export class FirmwareServerConfigurationUtilityDistributableVersionContextIntere
 }
 export interface FirmwareServerConfigurationUtilityDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#moid FirmwareServerConfigurationUtilityDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#selector FirmwareServerConfigurationUtilityDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3904,39 +3905,39 @@ export class FirmwareServerConfigurationUtilityDistributableVersionContextRefMoL
 }
 export interface FirmwareServerConfigurationUtilityDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#additional_properties FirmwareServerConfigurationUtilityDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#class_id FirmwareServerConfigurationUtilityDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#interested_mos FirmwareServerConfigurationUtilityDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#interested_mos FirmwareServerConfigurationUtilityDistributable#interested_mos}
   */
   readonly interestedMos?: FirmwareServerConfigurationUtilityDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#marked_for_deletion FirmwareServerConfigurationUtilityDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#marked_for_deletion FirmwareServerConfigurationUtilityDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#nr_version FirmwareServerConfigurationUtilityDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#nr_version FirmwareServerConfigurationUtilityDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#object_type FirmwareServerConfigurationUtilityDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#ref_mo FirmwareServerConfigurationUtilityDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#ref_mo FirmwareServerConfigurationUtilityDistributable#ref_mo}
   */
   readonly refMo?: FirmwareServerConfigurationUtilityDistributableVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#timestamp FirmwareServerConfigurationUtilityDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#timestamp FirmwareServerConfigurationUtilityDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#version_type FirmwareServerConfigurationUtilityDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#version_type FirmwareServerConfigurationUtilityDistributable#version_type}
   */
   readonly versionType?: string;
 }
@@ -4284,7 +4285,7 @@ export class FirmwareServerConfigurationUtilityDistributableVersionContextList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable intersight_firmware_server_configuration_utility_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable intersight_firmware_server_configuration_utility_distributable}
 */
 export class FirmwareServerConfigurationUtilityDistributable extends cdktf.TerraformResource {
 
@@ -4300,7 +4301,7 @@ export class FirmwareServerConfigurationUtilityDistributable extends cdktf.Terra
   * Generates CDKTF code for importing a FirmwareServerConfigurationUtilityDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareServerConfigurationUtilityDistributable to import
-  * @param importFromId The id of the existing FirmwareServerConfigurationUtilityDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareServerConfigurationUtilityDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareServerConfigurationUtilityDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4312,7 +4313,7 @@ export class FirmwareServerConfigurationUtilityDistributable extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_server_configuration_utility_distributable intersight_firmware_server_configuration_utility_distributable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_server_configuration_utility_distributable intersight_firmware_server_configuration_utility_distributable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4323,8 +4324,8 @@ export class FirmwareServerConfigurationUtilityDistributable extends cdktf.Terra
       terraformResourceType: 'intersight_firmware_server_configuration_utility_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

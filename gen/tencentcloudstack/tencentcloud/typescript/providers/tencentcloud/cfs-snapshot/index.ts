@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfsSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot#file_system_id CfsSnapshot#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot#file_system_id CfsSnapshot#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot#id CfsSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot#id CfsSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CfsSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot#snapshot_name CfsSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot#snapshot_name CfsSnapshot#snapshot_name}
   */
   readonly snapshotName?: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot#tags CfsSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot#tags CfsSnapshot#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot tencentcloud_cfs_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot tencentcloud_cfs_snapshot}
 */
 export class CfsSnapshot extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CfsSnapshot extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfsSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfsSnapshot to import
-  * @param importFromId The id of the existing CfsSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfsSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfsSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CfsSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cfs_snapshot tencentcloud_cfs_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cfs_snapshot tencentcloud_cfs_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CfsSnapshot extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfs_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

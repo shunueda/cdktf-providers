@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#account_moid DataIntersightComputePhysicalSummary#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#account_moid DataIntersightComputePhysicalSummary#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The desired power state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#admin_power_state DataIntersightComputePhysicalSummary#admin_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#admin_power_state DataIntersightComputePhysicalSummary#admin_power_state}
   */
   readonly adminPowerState?: string;
   /**
   * The user defined asset tag assigned to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#asset_tag DataIntersightComputePhysicalSummary#asset_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#asset_tag DataIntersightComputePhysicalSummary#asset_tag}
   */
   readonly assetTag?: string;
   /**
   * Total memeory of the server in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#available_memory DataIntersightComputePhysicalSummary#available_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#available_memory DataIntersightComputePhysicalSummary#available_memory}
   */
   readonly availableMemory?: number;
   /**
   * The BIOS POST completion status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#bios_post_complete DataIntersightComputePhysicalSummary#bios_post_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#bios_post_complete DataIntersightComputePhysicalSummary#bios_post_complete}
   */
   readonly biosPostComplete?: boolean | cdktf.IResolvable;
   /**
   * The id of the chassis that the blade is discovered in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#chassis_id DataIntersightComputePhysicalSummary#chassis_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#chassis_id DataIntersightComputePhysicalSummary#chassis_id}
   */
   readonly chassisId?: string;
   /**
@@ -52,13 +52,13 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * Connectivity Status of RackUnit to Switch - A or B or AB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#connection_status DataIntersightComputePhysicalSummary#connection_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#connection_status DataIntersightComputePhysicalSummary#connection_status}
   */
   readonly connectionStatus?: string;
   /**
@@ -66,49 +66,49 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   * * `Air` - Cooling mode of the device is set to Air.
   * * `Immersion` - Cooling mode of the device is set to Immersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#cooling_mode DataIntersightComputePhysicalSummary#cooling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#cooling_mode DataIntersightComputePhysicalSummary#cooling_mode}
   */
   readonly coolingMode?: string;
   /**
   * Total processing capacity of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#cpu_capacity DataIntersightComputePhysicalSummary#cpu_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#cpu_capacity DataIntersightComputePhysicalSummary#cpu_capacity}
   */
   readonly cpuCapacity?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#create_time DataIntersightComputePhysicalSummary#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#create_time DataIntersightComputePhysicalSummary#create_time}
   */
   readonly createTime?: string;
   /**
   * The MoId of the registered device that coresponds to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#device_mo_id DataIntersightComputePhysicalSummary#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#device_mo_id DataIntersightComputePhysicalSummary#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#dn DataIntersightComputePhysicalSummary#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#dn DataIntersightComputePhysicalSummary#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#domain_group_moid DataIntersightComputePhysicalSummary#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#domain_group_moid DataIntersightComputePhysicalSummary#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The fault summary for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#fault_summary DataIntersightComputePhysicalSummary#fault_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#fault_summary DataIntersightComputePhysicalSummary#fault_summary}
   */
   readonly faultSummary?: number;
   /**
   * The firmware version of the Cisco Integrated Management Controller (CIMC) for this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#firmware DataIntersightComputePhysicalSummary#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#firmware DataIntersightComputePhysicalSummary#firmware}
   */
   readonly firmware?: string;
   /**
@@ -117,23 +117,23 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   * * `Lock` - Front Panel of the server is set to Locked state.
   * * `Unlock` - Front Panel of the server is set to Unlocked state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#front_panel_lock_state DataIntersightComputePhysicalSummary#front_panel_lock_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#front_panel_lock_state DataIntersightComputePhysicalSummary#front_panel_lock_state}
   */
   readonly frontPanelLockState?: string;
   /**
   * The universally unique hardware identity of the server provided by the manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#hardware_uuid DataIntersightComputePhysicalSummary#hardware_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#hardware_uuid DataIntersightComputePhysicalSummary#hardware_uuid}
   */
   readonly hardwareUuid?: string;
   /**
   * The flag to indicate server has the support for E3.S drives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#has_e3_s_support DataIntersightComputePhysicalSummary#has_e3_s_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#has_e3_s_support DataIntersightComputePhysicalSummary#has_e3_s_support}
   */
   readonly hasE3SSupport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#id DataIntersightComputePhysicalSummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#id DataIntersightComputePhysicalSummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,31 +142,31 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   /**
   * The IPv4 address configured on the management interface of the Integrated Management Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#ipv4_address DataIntersightComputePhysicalSummary#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#ipv4_address DataIntersightComputePhysicalSummary#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#is_upgraded DataIntersightComputePhysicalSummary#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#is_upgraded DataIntersightComputePhysicalSummary#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The KVM server state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#kvm_server_state_enabled DataIntersightComputePhysicalSummary#kvm_server_state_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#kvm_server_state_enabled DataIntersightComputePhysicalSummary#kvm_server_state_enabled}
   */
   readonly kvmServerStateEnabled?: boolean | cdktf.IResolvable;
   /**
   * The KVM Vendor for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#kvm_vendor DataIntersightComputePhysicalSummary#kvm_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#kvm_vendor DataIntersightComputePhysicalSummary#kvm_vendor}
   */
   readonly kvmVendor?: string;
   /**
   * The Last host power state changed time of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#last_power_state_changed_time DataIntersightComputePhysicalSummary#last_power_state_changed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#last_power_state_changed_time DataIntersightComputePhysicalSummary#last_power_state_changed_time}
   */
   readonly lastPowerStateChangedTime?: string;
   /**
@@ -175,43 +175,43 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   * * `UCSM` - Unified Computing System Manager mode of operation.
   * * `Intersight` - Intersight managed mode of operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#management_mode DataIntersightComputePhysicalSummary#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#management_mode DataIntersightComputePhysicalSummary#management_mode}
   */
   readonly managementMode?: string;
   /**
   * The maximum memory speed in MHz available on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#memory_speed DataIntersightComputePhysicalSummary#memory_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#memory_speed DataIntersightComputePhysicalSummary#memory_speed}
   */
   readonly memorySpeed?: string;
   /**
   * Management address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#mgmt_ip_address DataIntersightComputePhysicalSummary#mgmt_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#mgmt_ip_address DataIntersightComputePhysicalSummary#mgmt_ip_address}
   */
   readonly mgmtIpAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#mod_time DataIntersightComputePhysicalSummary#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#mod_time DataIntersightComputePhysicalSummary#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field identifies the model of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#model DataIntersightComputePhysicalSummary#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#model DataIntersightComputePhysicalSummary#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The name of the UCS Fabric Interconnect cluster or Cisco Integrated Management Controller (CIMC). When this server is attached to a UCS Fabric Interconnect, the value of this property is the name of the UCS Fabric Interconnect along with chassis/server Id. When this server configured in standalone mode, the value of this property is the name of the Cisco Integrated Management Controller. when this server is configired in IMM mode, the value of this property contains model and chassis/server Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
   */
   readonly name?: string;
   /**
@@ -231,275 +231,275 @@ export interface DataIntersightComputePhysicalSummaryConfig extends cdktf.Terraf
   * * `Replaced` - The blade server has been removed from its discovered location and another blade has been inserted in that location. Blade inventory can be cleaned up and updated by doing a software remove operation on the physically removed blade.
   * * `MovedAndReplaced` - The blade server has been moved from its discovered location to a new location and another blade has been inserted into the old discovered location. Blade inventory can be updated by performing a rediscover operation on the moved blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#nr_lifecycle DataIntersightComputePhysicalSummary#nr_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#nr_lifecycle DataIntersightComputePhysicalSummary#nr_lifecycle}
   */
   readonly nrLifecycle?: string;
   /**
   * The total number of network adapters present on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_adaptors DataIntersightComputePhysicalSummary#num_adaptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_adaptors DataIntersightComputePhysicalSummary#num_adaptors}
   */
   readonly numAdaptors?: number;
   /**
   * The total number of CPU cores enabled on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_cpu_cores DataIntersightComputePhysicalSummary#num_cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_cpu_cores DataIntersightComputePhysicalSummary#num_cpu_cores}
   */
   readonly numCpuCores?: number;
   /**
   * The total number of CPU cores enabled on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_cpu_cores_enabled DataIntersightComputePhysicalSummary#num_cpu_cores_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_cpu_cores_enabled DataIntersightComputePhysicalSummary#num_cpu_cores_enabled}
   */
   readonly numCpuCoresEnabled?: number;
   /**
   * The total number of CPUs present on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_cpus DataIntersightComputePhysicalSummary#num_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_cpus DataIntersightComputePhysicalSummary#num_cpus}
   */
   readonly numCpus?: number;
   /**
   * The total number of vNICs which are visible to a host on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_eth_host_interfaces DataIntersightComputePhysicalSummary#num_eth_host_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_eth_host_interfaces DataIntersightComputePhysicalSummary#num_eth_host_interfaces}
   */
   readonly numEthHostInterfaces?: number;
   /**
   * The total number of vHBAs which are visible to a host on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_fc_host_interfaces DataIntersightComputePhysicalSummary#num_fc_host_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_fc_host_interfaces DataIntersightComputePhysicalSummary#num_fc_host_interfaces}
   */
   readonly numFcHostInterfaces?: number;
   /**
   * The total number of threads the server is capable of handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#num_threads DataIntersightComputePhysicalSummary#num_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#num_threads DataIntersightComputePhysicalSummary#num_threads}
   */
   readonly numThreads?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The actual power state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#oper_power_state DataIntersightComputePhysicalSummary#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#oper_power_state DataIntersightComputePhysicalSummary#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#oper_reason DataIntersightComputePhysicalSummary#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#oper_reason DataIntersightComputePhysicalSummary#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * The operational state of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#oper_state DataIntersightComputePhysicalSummary#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#oper_state DataIntersightComputePhysicalSummary#oper_state}
   */
   readonly operState?: string;
   /**
   * The operability of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#operability DataIntersightComputePhysicalSummary#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#operability DataIntersightComputePhysicalSummary#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#owners DataIntersightComputePhysicalSummary#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#owners DataIntersightComputePhysicalSummary#owners}
   */
   readonly owners?: string[];
   /**
   * Bundle version which the firmware belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#package_version DataIntersightComputePhysicalSummary#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#package_version DataIntersightComputePhysicalSummary#package_version}
   */
   readonly packageVersion?: string;
   /**
   * Unique identity of added software personality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#personality DataIntersightComputePhysicalSummary#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#personality DataIntersightComputePhysicalSummary#personality}
   */
   readonly personality?: string;
   /**
   * The platform type of the registered device - whether managed by UCSM or operating in standalone mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#platform_type DataIntersightComputePhysicalSummary#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#platform_type DataIntersightComputePhysicalSummary#platform_type}
   */
   readonly platformType?: string;
   /**
   * This field identifies the presence (equipped) or absence of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#presence DataIntersightComputePhysicalSummary#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#presence DataIntersightComputePhysicalSummary#presence}
   */
   readonly presence?: string;
   /**
   * This field identifies the revision of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#revision DataIntersightComputePhysicalSummary#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#revision DataIntersightComputePhysicalSummary#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#rn DataIntersightComputePhysicalSummary#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#rn DataIntersightComputePhysicalSummary#rn}
   */
   readonly rn?: string;
   /**
   * The mode of the server that determines it is scaled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#scaled_mode DataIntersightComputePhysicalSummary#scaled_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#scaled_mode DataIntersightComputePhysicalSummary#scaled_mode}
   */
   readonly scaledMode?: string;
   /**
   * This field identifies the serial of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#serial DataIntersightComputePhysicalSummary#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#serial DataIntersightComputePhysicalSummary#serial}
   */
   readonly serial?: string;
   /**
   * RackUnit ID that uniquely identifies the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#server_id DataIntersightComputePhysicalSummary#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#server_id DataIntersightComputePhysicalSummary#server_id}
   */
   readonly serverId?: number;
   /**
   * The distinguished name of the service profile to which the server is associated to. It is applicable only for servers which are managed via UCSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#service_profile DataIntersightComputePhysicalSummary#service_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#service_profile DataIntersightComputePhysicalSummary#service_profile}
   */
   readonly serviceProfile?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#shared_scope DataIntersightComputePhysicalSummary#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#shared_scope DataIntersightComputePhysicalSummary#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The slot number in the chassis that the blade is discovered in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#slot_id DataIntersightComputePhysicalSummary#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#slot_id DataIntersightComputePhysicalSummary#slot_id}
   */
   readonly slotId?: number;
   /**
   * Stores the source object type. This feild will either be RackUnit or Blade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#source_object_type DataIntersightComputePhysicalSummary#source_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#source_object_type DataIntersightComputePhysicalSummary#source_object_type}
   */
   readonly sourceObjectType?: string;
   /**
   * To maintain the Topology workflow run status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#topology_scan_status DataIntersightComputePhysicalSummary#topology_scan_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#topology_scan_status DataIntersightComputePhysicalSummary#topology_scan_status}
   */
   readonly topologyScanStatus?: string;
   /**
   * The total memory available on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#total_memory DataIntersightComputePhysicalSummary#total_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#total_memory DataIntersightComputePhysicalSummary#total_memory}
   */
   readonly totalMemory?: number;
   /**
   * The Tunneled vKVM status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#tunneled_kvm DataIntersightComputePhysicalSummary#tunneled_kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#tunneled_kvm DataIntersightComputePhysicalSummary#tunneled_kvm}
   */
   readonly tunneledKvm?: boolean | cdktf.IResolvable;
   /**
   * The user defined label assigned to the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#user_label DataIntersightComputePhysicalSummary#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#user_label DataIntersightComputePhysicalSummary#user_label}
   */
   readonly userLabel?: string;
   /**
   * The universally unique identity of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#uuid DataIntersightComputePhysicalSummary#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#uuid DataIntersightComputePhysicalSummary#uuid}
   */
   readonly uuid?: string;
   /**
   * This field identifies the vendor of the given component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#vendor DataIntersightComputePhysicalSummary#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#vendor DataIntersightComputePhysicalSummary#vendor}
   */
   readonly vendor?: string;
   /**
   * alarm_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#alarm_summary DataIntersightComputePhysicalSummary#alarm_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#alarm_summary DataIntersightComputePhysicalSummary#alarm_summary}
   */
   readonly alarmSummary?: DataIntersightComputePhysicalSummaryAlarmSummary;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#ancestors DataIntersightComputePhysicalSummary#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#ancestors DataIntersightComputePhysicalSummary#ancestors}
   */
   readonly ancestors?: DataIntersightComputePhysicalSummaryAncestors[] | cdktf.IResolvable;
   /**
   * custom_permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#custom_permission_resources DataIntersightComputePhysicalSummary#custom_permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#custom_permission_resources DataIntersightComputePhysicalSummary#custom_permission_resources}
   */
   readonly customPermissionResources?: DataIntersightComputePhysicalSummaryCustomPermissionResources[] | cdktf.IResolvable;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#equipment_chassis DataIntersightComputePhysicalSummary#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#equipment_chassis DataIntersightComputePhysicalSummary#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightComputePhysicalSummaryEquipmentChassis;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#inventory_device_info DataIntersightComputePhysicalSummary#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#inventory_device_info DataIntersightComputePhysicalSummary#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightComputePhysicalSummaryInventoryDeviceInfo;
   /**
   * inventory_parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#inventory_parent DataIntersightComputePhysicalSummary#inventory_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#inventory_parent DataIntersightComputePhysicalSummary#inventory_parent}
   */
   readonly inventoryParent?: DataIntersightComputePhysicalSummaryInventoryParent;
   /**
   * kvm_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#kvm_ip_addresses DataIntersightComputePhysicalSummary#kvm_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#kvm_ip_addresses DataIntersightComputePhysicalSummary#kvm_ip_addresses}
   */
   readonly kvmIpAddresses?: DataIntersightComputePhysicalSummaryKvmIpAddresses[] | cdktf.IResolvable;
   /**
   * location_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#location_details DataIntersightComputePhysicalSummary#location_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#location_details DataIntersightComputePhysicalSummary#location_details}
   */
   readonly locationDetails?: DataIntersightComputePhysicalSummaryLocationDetails;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#parent DataIntersightComputePhysicalSummary#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#parent DataIntersightComputePhysicalSummary#parent}
   */
   readonly parent?: DataIntersightComputePhysicalSummaryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#permission_resources DataIntersightComputePhysicalSummary#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#permission_resources DataIntersightComputePhysicalSummary#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputePhysicalSummaryPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#registered_device DataIntersightComputePhysicalSummary#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#registered_device DataIntersightComputePhysicalSummary#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputePhysicalSummaryRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#tags DataIntersightComputePhysicalSummary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#tags DataIntersightComputePhysicalSummary#tags}
   */
   readonly tags?: DataIntersightComputePhysicalSummaryTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#version_context DataIntersightComputePhysicalSummary#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#version_context DataIntersightComputePhysicalSummary#version_context}
   */
   readonly versionContext?: DataIntersightComputePhysicalSummaryVersionContext;
 }
@@ -2924,7 +2924,7 @@ export class DataIntersightComputePhysicalSummaryResultsList extends cdktf.Compl
 }
 export interface DataIntersightComputePhysicalSummaryAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2932,13 +2932,13 @@ export interface DataIntersightComputePhysicalSummaryAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The count of alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#critical DataIntersightComputePhysicalSummary#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#critical DataIntersightComputePhysicalSummary#critical}
   */
   readonly critical?: number;
   /**
@@ -2947,50 +2947,50 @@ export interface DataIntersightComputePhysicalSummaryAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#health DataIntersightComputePhysicalSummary#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#health DataIntersightComputePhysicalSummary#health}
   */
   readonly health?: string;
   /**
   * The count of alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#info DataIntersightComputePhysicalSummary#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#info DataIntersightComputePhysicalSummary#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The flag that indicates whether suppression is enabled or not in the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#suppressed DataIntersightComputePhysicalSummary#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#suppressed DataIntersightComputePhysicalSummary#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
   * The count of active suppressed alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#suppressed_critical DataIntersightComputePhysicalSummary#suppressed_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#suppressed_critical DataIntersightComputePhysicalSummary#suppressed_critical}
   */
   readonly suppressedCritical?: number;
   /**
   * The count of active suppressed alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#suppressed_info DataIntersightComputePhysicalSummary#suppressed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#suppressed_info DataIntersightComputePhysicalSummary#suppressed_info}
   */
   readonly suppressedInfo?: number;
   /**
   * The count of active suppressed alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#suppressed_warning DataIntersightComputePhysicalSummary#suppressed_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#suppressed_warning DataIntersightComputePhysicalSummary#suppressed_warning}
   */
   readonly suppressedWarning?: number;
   /**
   * The count of alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#warning DataIntersightComputePhysicalSummary#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#warning DataIntersightComputePhysicalSummary#warning}
   */
   readonly warning?: number;
 }
@@ -3364,7 +3364,7 @@ export class DataIntersightComputePhysicalSummaryAlarmSummaryOutputReference ext
 }
 export interface DataIntersightComputePhysicalSummaryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3372,19 +3372,19 @@ export interface DataIntersightComputePhysicalSummaryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3397,7 +3397,7 @@ export interface DataIntersightComputePhysicalSummaryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3629,7 +3629,7 @@ export class DataIntersightComputePhysicalSummaryAncestorsList extends cdktf.Com
 }
 export interface DataIntersightComputePhysicalSummaryCustomPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3637,19 +3637,19 @@ export interface DataIntersightComputePhysicalSummaryCustomPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3662,7 +3662,7 @@ export interface DataIntersightComputePhysicalSummaryCustomPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -3894,7 +3894,7 @@ export class DataIntersightComputePhysicalSummaryCustomPermissionResourcesList e
 }
 export interface DataIntersightComputePhysicalSummaryEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3902,19 +3902,19 @@ export interface DataIntersightComputePhysicalSummaryEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3927,7 +3927,7 @@ export interface DataIntersightComputePhysicalSummaryEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4127,7 +4127,7 @@ export class DataIntersightComputePhysicalSummaryEquipmentChassisOutputReference
 }
 export interface DataIntersightComputePhysicalSummaryInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4135,19 +4135,19 @@ export interface DataIntersightComputePhysicalSummaryInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4160,7 +4160,7 @@ export interface DataIntersightComputePhysicalSummaryInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4360,7 +4360,7 @@ export class DataIntersightComputePhysicalSummaryInventoryDeviceInfoOutputRefere
 }
 export interface DataIntersightComputePhysicalSummaryInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4368,19 +4368,19 @@ export interface DataIntersightComputePhysicalSummaryInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4393,7 +4393,7 @@ export interface DataIntersightComputePhysicalSummaryInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -4593,13 +4593,13 @@ export class DataIntersightComputePhysicalSummaryInventoryParentOutputReference 
 }
 export interface DataIntersightComputePhysicalSummaryKvmIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * IP Address to be used for KVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#address DataIntersightComputePhysicalSummary#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#address DataIntersightComputePhysicalSummary#address}
   */
   readonly address?: string;
   /**
@@ -4607,7 +4607,7 @@ export interface DataIntersightComputePhysicalSummaryKvmIpAddresses {
   * * `Equipment` - Ip Address assigned to an equipment.
   * * `ServiceProfile` - Ip Address assigned to a Service Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#category DataIntersightComputePhysicalSummary#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#category DataIntersightComputePhysicalSummary#category}
   */
   readonly category?: string;
   /**
@@ -4615,43 +4615,43 @@ export interface DataIntersightComputePhysicalSummaryKvmIpAddresses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * Default gateway property of KVM IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#default_gateway DataIntersightComputePhysicalSummary#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#default_gateway DataIntersightComputePhysicalSummary#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * The distinguished name for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#dn DataIntersightComputePhysicalSummary#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#dn DataIntersightComputePhysicalSummary#dn}
   */
   readonly dn?: string;
   /**
   * HTTP port of an IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#http_port DataIntersightComputePhysicalSummary#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#http_port DataIntersightComputePhysicalSummary#http_port}
   */
   readonly httpPort?: number;
   /**
   * Secured HTTP port of an IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#https_port DataIntersightComputePhysicalSummary#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#https_port DataIntersightComputePhysicalSummary#https_port}
   */
   readonly httpsPort?: number;
   /**
   * Port number on which the KVM is running and used for connecting to KVM console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#kvm_port DataIntersightComputePhysicalSummary#kvm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#kvm_port DataIntersightComputePhysicalSummary#kvm_port}
   */
   readonly kvmPort?: number;
   /**
   * VLAN Identifier of Inband IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#kvm_vlan DataIntersightComputePhysicalSummary#kvm_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#kvm_vlan DataIntersightComputePhysicalSummary#kvm_vlan}
   */
   readonly kvmVlan?: number;
   /**
@@ -4659,20 +4659,20 @@ export interface DataIntersightComputePhysicalSummaryKvmIpAddresses {
   * * `Outband` - The user assigned Out of band IP Address.
   * * `Inband` - The user assigned Inband IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * Subnet detail of a KVM IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#subnet DataIntersightComputePhysicalSummary#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#subnet DataIntersightComputePhysicalSummary#subnet}
   */
   readonly subnet?: string;
   /**
@@ -4686,7 +4686,7 @@ export interface DataIntersightComputePhysicalSummaryKvmIpAddresses {
   * * `VnicIpV4ProfDerivedAddr` - Server Profile derived Ipv4 Address of a Virtual Network Interface.
   * * `MgmtIpV6ProfDerivedAddr` - Server Profile derived Ipv6 Address used for accessing server management services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#type DataIntersightComputePhysicalSummary#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#type DataIntersightComputePhysicalSummary#type}
   */
   readonly type?: string;
 }
@@ -5179,25 +5179,25 @@ export class DataIntersightComputePhysicalSummaryKvmIpAddressesList extends cdkt
 }
 export interface DataIntersightComputePhysicalSummaryLocationDetailsAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The primary street address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#address1 DataIntersightComputePhysicalSummary#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#address1 DataIntersightComputePhysicalSummary#address1}
   */
   readonly address1?: string;
   /**
   * Additional address information, such as suite number or floor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#address2 DataIntersightComputePhysicalSummary#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#address2 DataIntersightComputePhysicalSummary#address2}
   */
   readonly address2?: string;
   /**
   * The city where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#city DataIntersightComputePhysicalSummary#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#city DataIntersightComputePhysicalSummary#city}
   */
   readonly city?: string;
   /**
@@ -5205,7 +5205,7 @@ export interface DataIntersightComputePhysicalSummaryLocationDetailsAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
@@ -5455,26 +5455,26 @@ export interface DataIntersightComputePhysicalSummaryLocationDetailsAddress {
   * * `ZM` - The country code for Zambia.
   * * `ZW` - The country code for Zimbabwe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#country DataIntersightComputePhysicalSummary#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#country DataIntersightComputePhysicalSummary#country}
   */
   readonly country?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The postal or ZIP code for the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#postal_code DataIntersightComputePhysicalSummary#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#postal_code DataIntersightComputePhysicalSummary#postal_code}
   */
   readonly postalCode?: string;
   /**
   * The state or province where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#state_province DataIntersightComputePhysicalSummary#state_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#state_province DataIntersightComputePhysicalSummary#state_province}
   */
   readonly stateProvince?: string;
 }
@@ -5790,7 +5790,7 @@ export class DataIntersightComputePhysicalSummaryLocationDetailsAddressOutputRef
 }
 export interface DataIntersightComputePhysicalSummaryLocationDetailsCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5798,26 +5798,26 @@ export interface DataIntersightComputePhysicalSummaryLocationDetailsCoordinates 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The latitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#latitude DataIntersightComputePhysicalSummary#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#latitude DataIntersightComputePhysicalSummary#latitude}
   */
   readonly latitude?: number;
   /**
   * The longitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#longitude DataIntersightComputePhysicalSummary#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#longitude DataIntersightComputePhysicalSummary#longitude}
   */
   readonly longitude?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
 }
@@ -6017,7 +6017,7 @@ export class DataIntersightComputePhysicalSummaryLocationDetailsCoordinatesOutpu
 }
 export interface DataIntersightComputePhysicalSummaryLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6025,32 +6025,32 @@ export interface DataIntersightComputePhysicalSummaryLocationDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * A user provided name for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#name DataIntersightComputePhysicalSummary#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#address DataIntersightComputePhysicalSummary#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#address DataIntersightComputePhysicalSummary#address}
   */
   readonly address?: DataIntersightComputePhysicalSummaryLocationDetailsAddress;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#coordinates DataIntersightComputePhysicalSummary#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#coordinates DataIntersightComputePhysicalSummary#coordinates}
   */
   readonly coordinates?: DataIntersightComputePhysicalSummaryLocationDetailsCoordinates;
 }
@@ -6279,7 +6279,7 @@ export class DataIntersightComputePhysicalSummaryLocationDetailsOutputReference 
 }
 export interface DataIntersightComputePhysicalSummaryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6287,19 +6287,19 @@ export interface DataIntersightComputePhysicalSummaryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6312,7 +6312,7 @@ export interface DataIntersightComputePhysicalSummaryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -6512,7 +6512,7 @@ export class DataIntersightComputePhysicalSummaryParentOutputReference extends c
 }
 export interface DataIntersightComputePhysicalSummaryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6520,19 +6520,19 @@ export interface DataIntersightComputePhysicalSummaryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6545,7 +6545,7 @@ export interface DataIntersightComputePhysicalSummaryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -6777,7 +6777,7 @@ export class DataIntersightComputePhysicalSummaryPermissionResourcesList extends
 }
 export interface DataIntersightComputePhysicalSummaryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6785,19 +6785,19 @@ export interface DataIntersightComputePhysicalSummaryRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6810,7 +6810,7 @@ export interface DataIntersightComputePhysicalSummaryRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -7010,7 +7010,7 @@ export class DataIntersightComputePhysicalSummaryRegisteredDeviceOutputReference
 }
 export interface DataIntersightComputePhysicalSummaryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7018,19 +7018,19 @@ export interface DataIntersightComputePhysicalSummaryTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7043,7 +7043,7 @@ export interface DataIntersightComputePhysicalSummaryTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -7275,7 +7275,7 @@ export class DataIntersightComputePhysicalSummaryTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightComputePhysicalSummaryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7283,19 +7283,19 @@ export interface DataIntersightComputePhysicalSummaryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7308,7 +7308,7 @@ export interface DataIntersightComputePhysicalSummaryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -7508,25 +7508,25 @@ export class DataIntersightComputePhysicalSummaryTagsDefinitionOutputReference e
 }
 export interface DataIntersightComputePhysicalSummaryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#key DataIntersightComputePhysicalSummary#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#key DataIntersightComputePhysicalSummary#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#propagated DataIntersightComputePhysicalSummary#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#propagated DataIntersightComputePhysicalSummary#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#sys_tag DataIntersightComputePhysicalSummary#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#sys_tag DataIntersightComputePhysicalSummary#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -7534,25 +7534,25 @@ export interface DataIntersightComputePhysicalSummaryTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#type DataIntersightComputePhysicalSummary#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#type DataIntersightComputePhysicalSummary#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#value DataIntersightComputePhysicalSummary#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#value DataIntersightComputePhysicalSummary#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#ancestor_definitions DataIntersightComputePhysicalSummary#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#ancestor_definitions DataIntersightComputePhysicalSummary#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputePhysicalSummaryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#definition DataIntersightComputePhysicalSummary#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#definition DataIntersightComputePhysicalSummary#definition}
   */
   readonly definition?: DataIntersightComputePhysicalSummaryTagsDefinition;
 }
@@ -7871,7 +7871,7 @@ export class DataIntersightComputePhysicalSummaryTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightComputePhysicalSummaryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7879,19 +7879,19 @@ export interface DataIntersightComputePhysicalSummaryVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7904,7 +7904,7 @@ export interface DataIntersightComputePhysicalSummaryVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -8136,7 +8136,7 @@ export class DataIntersightComputePhysicalSummaryVersionContextInterestedMosList
 }
 export interface DataIntersightComputePhysicalSummaryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8144,19 +8144,19 @@ export interface DataIntersightComputePhysicalSummaryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#moid DataIntersightComputePhysicalSummary#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8169,7 +8169,7 @@ export interface DataIntersightComputePhysicalSummaryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#selector DataIntersightComputePhysicalSummary#selector}
   */
   readonly selector?: string;
 }
@@ -8369,7 +8369,7 @@ export class DataIntersightComputePhysicalSummaryVersionContextRefMoOutputRefere
 }
 export interface DataIntersightComputePhysicalSummaryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#additional_properties DataIntersightComputePhysicalSummary#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8377,32 +8377,32 @@ export interface DataIntersightComputePhysicalSummaryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#class_id DataIntersightComputePhysicalSummary#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#marked_for_deletion DataIntersightComputePhysicalSummary#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#marked_for_deletion DataIntersightComputePhysicalSummary#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#nr_version DataIntersightComputePhysicalSummary#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#nr_version DataIntersightComputePhysicalSummary#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#object_type DataIntersightComputePhysicalSummary#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#timestamp DataIntersightComputePhysicalSummary#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#timestamp DataIntersightComputePhysicalSummary#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8413,19 +8413,19 @@ export interface DataIntersightComputePhysicalSummaryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#version_type DataIntersightComputePhysicalSummary#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#version_type DataIntersightComputePhysicalSummary#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#interested_mos DataIntersightComputePhysicalSummary#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#interested_mos DataIntersightComputePhysicalSummary#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputePhysicalSummaryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#ref_mo DataIntersightComputePhysicalSummary#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#ref_mo DataIntersightComputePhysicalSummary#ref_mo}
   */
   readonly refMo?: DataIntersightComputePhysicalSummaryVersionContextRefMo;
 }
@@ -8741,7 +8741,7 @@ export class DataIntersightComputePhysicalSummaryVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary intersight_compute_physical_summary}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary intersight_compute_physical_summary}
 */
 export class DataIntersightComputePhysicalSummary extends cdktf.TerraformDataSource {
 
@@ -8757,7 +8757,7 @@ export class DataIntersightComputePhysicalSummary extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightComputePhysicalSummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputePhysicalSummary to import
-  * @param importFromId The id of the existing DataIntersightComputePhysicalSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputePhysicalSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputePhysicalSummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8769,7 +8769,7 @@ export class DataIntersightComputePhysicalSummary extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_physical_summary intersight_compute_physical_summary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_physical_summary intersight_compute_physical_summary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8780,8 +8780,8 @@ export class DataIntersightComputePhysicalSummary extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_compute_physical_summary',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

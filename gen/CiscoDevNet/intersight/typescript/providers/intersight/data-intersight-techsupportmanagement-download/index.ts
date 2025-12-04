@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightTechsupportmanagementDownloadConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#account_moid DataIntersightTechsupportmanagementDownload#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#account_moid DataIntersightTechsupportmanagementDownload#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightTechsupportmanagementDownloadConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#create_time DataIntersightTechsupportmanagementDownload#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#create_time DataIntersightTechsupportmanagementDownload#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#domain_group_moid DataIntersightTechsupportmanagementDownload#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#domain_group_moid DataIntersightTechsupportmanagementDownload#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#id DataIntersightTechsupportmanagementDownload#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#id DataIntersightTechsupportmanagementDownload#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface DataIntersightTechsupportmanagementDownloadConfig extends cdktf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#mod_time DataIntersightTechsupportmanagementDownload#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#mod_time DataIntersightTechsupportmanagementDownload#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#owners DataIntersightTechsupportmanagementDownload#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#owners DataIntersightTechsupportmanagementDownload#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#shared_scope DataIntersightTechsupportmanagementDownload#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#shared_scope DataIntersightTechsupportmanagementDownload#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#ancestors DataIntersightTechsupportmanagementDownload#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#ancestors DataIntersightTechsupportmanagementDownload#ancestors}
   */
   readonly ancestors?: DataIntersightTechsupportmanagementDownloadAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#parent DataIntersightTechsupportmanagementDownload#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#parent DataIntersightTechsupportmanagementDownload#parent}
   */
   readonly parent?: DataIntersightTechsupportmanagementDownloadParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#permission_resources DataIntersightTechsupportmanagementDownload#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#permission_resources DataIntersightTechsupportmanagementDownload#permission_resources}
   */
   readonly permissionResources?: DataIntersightTechsupportmanagementDownloadPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#tags DataIntersightTechsupportmanagementDownload#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#tags DataIntersightTechsupportmanagementDownload#tags}
   */
   readonly tags?: DataIntersightTechsupportmanagementDownloadTags[] | cdktf.IResolvable;
   /**
   * tech_support_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#tech_support_status DataIntersightTechsupportmanagementDownload#tech_support_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#tech_support_status DataIntersightTechsupportmanagementDownload#tech_support_status}
   */
   readonly techSupportStatus?: DataIntersightTechsupportmanagementDownloadTechSupportStatus;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#version_context DataIntersightTechsupportmanagementDownload#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#version_context DataIntersightTechsupportmanagementDownload#version_context}
   */
   readonly versionContext?: DataIntersightTechsupportmanagementDownloadVersionContext;
 }
@@ -1258,7 +1258,7 @@ export class DataIntersightTechsupportmanagementDownloadResultsList extends cdkt
 }
 export interface DataIntersightTechsupportmanagementDownloadAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1266,19 +1266,19 @@ export interface DataIntersightTechsupportmanagementDownloadAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1291,7 +1291,7 @@ export interface DataIntersightTechsupportmanagementDownloadAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -1523,7 +1523,7 @@ export class DataIntersightTechsupportmanagementDownloadAncestorsList extends cd
 }
 export interface DataIntersightTechsupportmanagementDownloadParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1531,19 +1531,19 @@ export interface DataIntersightTechsupportmanagementDownloadParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1556,7 +1556,7 @@ export interface DataIntersightTechsupportmanagementDownloadParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -1756,7 +1756,7 @@ export class DataIntersightTechsupportmanagementDownloadParentOutputReference ex
 }
 export interface DataIntersightTechsupportmanagementDownloadPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1764,19 +1764,19 @@ export interface DataIntersightTechsupportmanagementDownloadPermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1789,7 +1789,7 @@ export interface DataIntersightTechsupportmanagementDownloadPermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2021,7 +2021,7 @@ export class DataIntersightTechsupportmanagementDownloadPermissionResourcesList 
 }
 export interface DataIntersightTechsupportmanagementDownloadTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2029,19 +2029,19 @@ export interface DataIntersightTechsupportmanagementDownloadTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2054,7 +2054,7 @@ export interface DataIntersightTechsupportmanagementDownloadTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2286,7 +2286,7 @@ export class DataIntersightTechsupportmanagementDownloadTagsAncestorDefinitionsL
 }
 export interface DataIntersightTechsupportmanagementDownloadTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2294,19 +2294,19 @@ export interface DataIntersightTechsupportmanagementDownloadTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2319,7 +2319,7 @@ export interface DataIntersightTechsupportmanagementDownloadTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -2519,25 +2519,25 @@ export class DataIntersightTechsupportmanagementDownloadTagsDefinitionOutputRefe
 }
 export interface DataIntersightTechsupportmanagementDownloadTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#key DataIntersightTechsupportmanagementDownload#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#key DataIntersightTechsupportmanagementDownload#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#propagated DataIntersightTechsupportmanagementDownload#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#propagated DataIntersightTechsupportmanagementDownload#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#sys_tag DataIntersightTechsupportmanagementDownload#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#sys_tag DataIntersightTechsupportmanagementDownload#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2545,25 +2545,25 @@ export interface DataIntersightTechsupportmanagementDownloadTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#type DataIntersightTechsupportmanagementDownload#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#type DataIntersightTechsupportmanagementDownload#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#value DataIntersightTechsupportmanagementDownload#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#value DataIntersightTechsupportmanagementDownload#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#ancestor_definitions DataIntersightTechsupportmanagementDownload#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#ancestor_definitions DataIntersightTechsupportmanagementDownload#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightTechsupportmanagementDownloadTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#definition DataIntersightTechsupportmanagementDownload#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#definition DataIntersightTechsupportmanagementDownload#definition}
   */
   readonly definition?: DataIntersightTechsupportmanagementDownloadTagsDefinition;
 }
@@ -2882,7 +2882,7 @@ export class DataIntersightTechsupportmanagementDownloadTagsList extends cdktf.C
 }
 export interface DataIntersightTechsupportmanagementDownloadTechSupportStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2890,19 +2890,19 @@ export interface DataIntersightTechsupportmanagementDownloadTechSupportStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2915,7 +2915,7 @@ export interface DataIntersightTechsupportmanagementDownloadTechSupportStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -3115,7 +3115,7 @@ export class DataIntersightTechsupportmanagementDownloadTechSupportStatusOutputR
 }
 export interface DataIntersightTechsupportmanagementDownloadVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3123,19 +3123,19 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3148,7 +3148,7 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -3380,7 +3380,7 @@ export class DataIntersightTechsupportmanagementDownloadVersionContextInterested
 }
 export interface DataIntersightTechsupportmanagementDownloadVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3388,19 +3388,19 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#moid DataIntersightTechsupportmanagementDownload#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3413,7 +3413,7 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#selector DataIntersightTechsupportmanagementDownload#selector}
   */
   readonly selector?: string;
 }
@@ -3613,7 +3613,7 @@ export class DataIntersightTechsupportmanagementDownloadVersionContextRefMoOutpu
 }
 export interface DataIntersightTechsupportmanagementDownloadVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#additional_properties DataIntersightTechsupportmanagementDownload#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3621,32 +3621,32 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#class_id DataIntersightTechsupportmanagementDownload#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#marked_for_deletion DataIntersightTechsupportmanagementDownload#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#marked_for_deletion DataIntersightTechsupportmanagementDownload#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#nr_version DataIntersightTechsupportmanagementDownload#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#nr_version DataIntersightTechsupportmanagementDownload#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#object_type DataIntersightTechsupportmanagementDownload#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#timestamp DataIntersightTechsupportmanagementDownload#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#timestamp DataIntersightTechsupportmanagementDownload#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3657,19 +3657,19 @@ export interface DataIntersightTechsupportmanagementDownloadVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#version_type DataIntersightTechsupportmanagementDownload#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#version_type DataIntersightTechsupportmanagementDownload#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#interested_mos DataIntersightTechsupportmanagementDownload#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#interested_mos DataIntersightTechsupportmanagementDownload#interested_mos}
   */
   readonly interestedMos?: DataIntersightTechsupportmanagementDownloadVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#ref_mo DataIntersightTechsupportmanagementDownload#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#ref_mo DataIntersightTechsupportmanagementDownload#ref_mo}
   */
   readonly refMo?: DataIntersightTechsupportmanagementDownloadVersionContextRefMo;
 }
@@ -3985,7 +3985,7 @@ export class DataIntersightTechsupportmanagementDownloadVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download intersight_techsupportmanagement_download}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download intersight_techsupportmanagement_download}
 */
 export class DataIntersightTechsupportmanagementDownload extends cdktf.TerraformDataSource {
 
@@ -4001,7 +4001,7 @@ export class DataIntersightTechsupportmanagementDownload extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightTechsupportmanagementDownload resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightTechsupportmanagementDownload to import
-  * @param importFromId The id of the existing DataIntersightTechsupportmanagementDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightTechsupportmanagementDownload that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightTechsupportmanagementDownload to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4013,7 +4013,7 @@ export class DataIntersightTechsupportmanagementDownload extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_download intersight_techsupportmanagement_download} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_download intersight_techsupportmanagement_download} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4024,8 +4024,8 @@ export class DataIntersightTechsupportmanagementDownload extends cdktf.Terraform
       terraformResourceType: 'intersight_techsupportmanagement_download',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

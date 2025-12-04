@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightPartnerintegrationDocIssuesConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#account_moid DataIntersightPartnerintegrationDocIssues#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#account_moid DataIntersightPartnerintegrationDocIssues#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightPartnerintegrationDocIssuesConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#create_time DataIntersightPartnerintegrationDocIssues#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#create_time DataIntersightPartnerintegrationDocIssues#create_time}
   */
   readonly createTime?: string;
   /**
   * List of documentation issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#documentation_issues DataIntersightPartnerintegrationDocIssues#documentation_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#documentation_issues DataIntersightPartnerintegrationDocIssues#documentation_issues}
   */
   readonly documentationIssues?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#domain_group_moid DataIntersightPartnerintegrationDocIssues#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#domain_group_moid DataIntersightPartnerintegrationDocIssues#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#id DataIntersightPartnerintegrationDocIssues#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#id DataIntersightPartnerintegrationDocIssues#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightPartnerintegrationDocIssuesConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#mod_time DataIntersightPartnerintegrationDocIssues#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#mod_time DataIntersightPartnerintegrationDocIssues#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#owners DataIntersightPartnerintegrationDocIssues#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#owners DataIntersightPartnerintegrationDocIssues#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#shared_scope DataIntersightPartnerintegrationDocIssues#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#shared_scope DataIntersightPartnerintegrationDocIssues#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#ancestors DataIntersightPartnerintegrationDocIssues#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#ancestors DataIntersightPartnerintegrationDocIssues#ancestors}
   */
   readonly ancestors?: DataIntersightPartnerintegrationDocIssuesAncestors[] | cdktf.IResolvable;
   /**
   * inventory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#inventory DataIntersightPartnerintegrationDocIssues#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#inventory DataIntersightPartnerintegrationDocIssues#inventory}
   */
   readonly inventory?: DataIntersightPartnerintegrationDocIssuesInventory;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#parent DataIntersightPartnerintegrationDocIssues#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#parent DataIntersightPartnerintegrationDocIssues#parent}
   */
   readonly parent?: DataIntersightPartnerintegrationDocIssuesParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#permission_resources DataIntersightPartnerintegrationDocIssues#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#permission_resources DataIntersightPartnerintegrationDocIssues#permission_resources}
   */
   readonly permissionResources?: DataIntersightPartnerintegrationDocIssuesPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#tags DataIntersightPartnerintegrationDocIssues#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#tags DataIntersightPartnerintegrationDocIssues#tags}
   */
   readonly tags?: DataIntersightPartnerintegrationDocIssuesTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#version_context DataIntersightPartnerintegrationDocIssues#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#version_context DataIntersightPartnerintegrationDocIssues#version_context}
   */
   readonly versionContext?: DataIntersightPartnerintegrationDocIssuesVersionContext;
 }
@@ -1269,7 +1269,7 @@ export class DataIntersightPartnerintegrationDocIssuesResultsList extends cdktf.
 }
 export interface DataIntersightPartnerintegrationDocIssuesAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1277,19 +1277,19 @@ export interface DataIntersightPartnerintegrationDocIssuesAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1302,7 +1302,7 @@ export interface DataIntersightPartnerintegrationDocIssuesAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -1534,7 +1534,7 @@ export class DataIntersightPartnerintegrationDocIssuesAncestorsList extends cdkt
 }
 export interface DataIntersightPartnerintegrationDocIssuesInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1542,19 +1542,19 @@ export interface DataIntersightPartnerintegrationDocIssuesInventory {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1567,7 +1567,7 @@ export interface DataIntersightPartnerintegrationDocIssuesInventory {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -1767,7 +1767,7 @@ export class DataIntersightPartnerintegrationDocIssuesInventoryOutputReference e
 }
 export interface DataIntersightPartnerintegrationDocIssuesParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1775,19 +1775,19 @@ export interface DataIntersightPartnerintegrationDocIssuesParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1800,7 +1800,7 @@ export interface DataIntersightPartnerintegrationDocIssuesParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -2000,7 +2000,7 @@ export class DataIntersightPartnerintegrationDocIssuesParentOutputReference exte
 }
 export interface DataIntersightPartnerintegrationDocIssuesPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2008,19 +2008,19 @@ export interface DataIntersightPartnerintegrationDocIssuesPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2033,7 +2033,7 @@ export interface DataIntersightPartnerintegrationDocIssuesPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -2265,7 +2265,7 @@ export class DataIntersightPartnerintegrationDocIssuesPermissionResourcesList ex
 }
 export interface DataIntersightPartnerintegrationDocIssuesTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2273,19 +2273,19 @@ export interface DataIntersightPartnerintegrationDocIssuesTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2298,7 +2298,7 @@ export interface DataIntersightPartnerintegrationDocIssuesTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -2530,7 +2530,7 @@ export class DataIntersightPartnerintegrationDocIssuesTagsAncestorDefinitionsLis
 }
 export interface DataIntersightPartnerintegrationDocIssuesTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2538,19 +2538,19 @@ export interface DataIntersightPartnerintegrationDocIssuesTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2563,7 +2563,7 @@ export interface DataIntersightPartnerintegrationDocIssuesTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -2763,25 +2763,25 @@ export class DataIntersightPartnerintegrationDocIssuesTagsDefinitionOutputRefere
 }
 export interface DataIntersightPartnerintegrationDocIssuesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#key DataIntersightPartnerintegrationDocIssues#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#key DataIntersightPartnerintegrationDocIssues#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#propagated DataIntersightPartnerintegrationDocIssues#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#propagated DataIntersightPartnerintegrationDocIssues#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#sys_tag DataIntersightPartnerintegrationDocIssues#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#sys_tag DataIntersightPartnerintegrationDocIssues#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2789,25 +2789,25 @@ export interface DataIntersightPartnerintegrationDocIssuesTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#type DataIntersightPartnerintegrationDocIssues#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#type DataIntersightPartnerintegrationDocIssues#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#value DataIntersightPartnerintegrationDocIssues#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#value DataIntersightPartnerintegrationDocIssues#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#ancestor_definitions DataIntersightPartnerintegrationDocIssues#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#ancestor_definitions DataIntersightPartnerintegrationDocIssues#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPartnerintegrationDocIssuesTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#definition DataIntersightPartnerintegrationDocIssues#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#definition DataIntersightPartnerintegrationDocIssues#definition}
   */
   readonly definition?: DataIntersightPartnerintegrationDocIssuesTagsDefinition;
 }
@@ -3126,7 +3126,7 @@ export class DataIntersightPartnerintegrationDocIssuesTagsList extends cdktf.Com
 }
 export interface DataIntersightPartnerintegrationDocIssuesVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3134,19 +3134,19 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3159,7 +3159,7 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -3391,7 +3391,7 @@ export class DataIntersightPartnerintegrationDocIssuesVersionContextInterestedMo
 }
 export interface DataIntersightPartnerintegrationDocIssuesVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3399,19 +3399,19 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#moid DataIntersightPartnerintegrationDocIssues#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3424,7 +3424,7 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#selector DataIntersightPartnerintegrationDocIssues#selector}
   */
   readonly selector?: string;
 }
@@ -3624,7 +3624,7 @@ export class DataIntersightPartnerintegrationDocIssuesVersionContextRefMoOutputR
 }
 export interface DataIntersightPartnerintegrationDocIssuesVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#additional_properties DataIntersightPartnerintegrationDocIssues#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3632,32 +3632,32 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#class_id DataIntersightPartnerintegrationDocIssues#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#marked_for_deletion DataIntersightPartnerintegrationDocIssues#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#marked_for_deletion DataIntersightPartnerintegrationDocIssues#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#nr_version DataIntersightPartnerintegrationDocIssues#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#nr_version DataIntersightPartnerintegrationDocIssues#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#object_type DataIntersightPartnerintegrationDocIssues#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#timestamp DataIntersightPartnerintegrationDocIssues#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#timestamp DataIntersightPartnerintegrationDocIssues#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3668,19 +3668,19 @@ export interface DataIntersightPartnerintegrationDocIssuesVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#version_type DataIntersightPartnerintegrationDocIssues#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#version_type DataIntersightPartnerintegrationDocIssues#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#interested_mos DataIntersightPartnerintegrationDocIssues#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#interested_mos DataIntersightPartnerintegrationDocIssues#interested_mos}
   */
   readonly interestedMos?: DataIntersightPartnerintegrationDocIssuesVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#ref_mo DataIntersightPartnerintegrationDocIssues#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#ref_mo DataIntersightPartnerintegrationDocIssues#ref_mo}
   */
   readonly refMo?: DataIntersightPartnerintegrationDocIssuesVersionContextRefMo;
 }
@@ -3996,7 +3996,7 @@ export class DataIntersightPartnerintegrationDocIssuesVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues intersight_partnerintegration_doc_issues}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues intersight_partnerintegration_doc_issues}
 */
 export class DataIntersightPartnerintegrationDocIssues extends cdktf.TerraformDataSource {
 
@@ -4012,7 +4012,7 @@ export class DataIntersightPartnerintegrationDocIssues extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightPartnerintegrationDocIssues resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPartnerintegrationDocIssues to import
-  * @param importFromId The id of the existing DataIntersightPartnerintegrationDocIssues that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPartnerintegrationDocIssues that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPartnerintegrationDocIssues to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4024,7 +4024,7 @@ export class DataIntersightPartnerintegrationDocIssues extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/partnerintegration_doc_issues intersight_partnerintegration_doc_issues} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/partnerintegration_doc_issues intersight_partnerintegration_doc_issues} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4035,8 +4035,8 @@ export class DataIntersightPartnerintegrationDocIssues extends cdktf.TerraformDa
       terraformResourceType: 'intersight_partnerintegration_doc_issues',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

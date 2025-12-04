@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryFabricPodProfileConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#account_moid DataIntersightNiatelemetryFabricPodProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#account_moid DataIntersightNiatelemetryFabricPodProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNiatelemetryFabricPodProfileConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#create_time DataIntersightNiatelemetryFabricPodProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#create_time DataIntersightNiatelemetryFabricPodProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the Fabric pod profile for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#dn DataIntersightNiatelemetryFabricPodProfile#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#dn DataIntersightNiatelemetryFabricPodProfile#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#domain_group_moid DataIntersightNiatelemetryFabricPodProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#domain_group_moid DataIntersightNiatelemetryFabricPodProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Dn of the Children PodS for the above Pod Profile .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#fabric_pods_list DataIntersightNiatelemetryFabricPodProfile#fabric_pods_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#fabric_pods_list DataIntersightNiatelemetryFabricPodProfile#fabric_pods_list}
   */
   readonly fabricPodsList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#id DataIntersightNiatelemetryFabricPodProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#id DataIntersightNiatelemetryFabricPodProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightNiatelemetryFabricPodProfileConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#mod_time DataIntersightNiatelemetryFabricPodProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#mod_time DataIntersightNiatelemetryFabricPodProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Fabric pod profile for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#name DataIntersightNiatelemetryFabricPodProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#name DataIntersightNiatelemetryFabricPodProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#owners DataIntersightNiatelemetryFabricPodProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#owners DataIntersightNiatelemetryFabricPodProfile#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#record_type DataIntersightNiatelemetryFabricPodProfile#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#record_type DataIntersightNiatelemetryFabricPodProfile#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#record_version DataIntersightNiatelemetryFabricPodProfile#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#record_version DataIntersightNiatelemetryFabricPodProfile#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#shared_scope DataIntersightNiatelemetryFabricPodProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#shared_scope DataIntersightNiatelemetryFabricPodProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#site_name DataIntersightNiatelemetryFabricPodProfile#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#site_name DataIntersightNiatelemetryFabricPodProfile#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#ancestors DataIntersightNiatelemetryFabricPodProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#ancestors DataIntersightNiatelemetryFabricPodProfile#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryFabricPodProfileAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#parent DataIntersightNiatelemetryFabricPodProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#parent DataIntersightNiatelemetryFabricPodProfile#parent}
   */
   readonly parent?: DataIntersightNiatelemetryFabricPodProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#permission_resources DataIntersightNiatelemetryFabricPodProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#permission_resources DataIntersightNiatelemetryFabricPodProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryFabricPodProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#registered_device DataIntersightNiatelemetryFabricPodProfile#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#registered_device DataIntersightNiatelemetryFabricPodProfile#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryFabricPodProfileRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#tags DataIntersightNiatelemetryFabricPodProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#tags DataIntersightNiatelemetryFabricPodProfile#tags}
   */
   readonly tags?: DataIntersightNiatelemetryFabricPodProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#version_context DataIntersightNiatelemetryFabricPodProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#version_context DataIntersightNiatelemetryFabricPodProfile#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryFabricPodProfileVersionContext;
 }
@@ -1324,7 +1324,7 @@ export class DataIntersightNiatelemetryFabricPodProfileResultsList extends cdktf
 }
 export interface DataIntersightNiatelemetryFabricPodProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1332,19 +1332,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1357,7 +1357,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1589,7 +1589,7 @@ export class DataIntersightNiatelemetryFabricPodProfileAncestorsList extends cdk
 }
 export interface DataIntersightNiatelemetryFabricPodProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1597,19 +1597,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1622,7 +1622,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1822,7 +1822,7 @@ export class DataIntersightNiatelemetryFabricPodProfileParentOutputReference ext
 }
 export interface DataIntersightNiatelemetryFabricPodProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1830,19 +1830,19 @@ export interface DataIntersightNiatelemetryFabricPodProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1855,7 +1855,7 @@ export interface DataIntersightNiatelemetryFabricPodProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2087,7 +2087,7 @@ export class DataIntersightNiatelemetryFabricPodProfilePermissionResourcesList e
 }
 export interface DataIntersightNiatelemetryFabricPodProfileRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2095,19 +2095,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2120,7 +2120,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2320,7 +2320,7 @@ export class DataIntersightNiatelemetryFabricPodProfileRegisteredDeviceOutputRef
 }
 export interface DataIntersightNiatelemetryFabricPodProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2328,19 +2328,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2353,7 +2353,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2585,7 +2585,7 @@ export class DataIntersightNiatelemetryFabricPodProfileTagsAncestorDefinitionsLi
 }
 export interface DataIntersightNiatelemetryFabricPodProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2593,19 +2593,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2618,7 +2618,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2818,25 +2818,25 @@ export class DataIntersightNiatelemetryFabricPodProfileTagsDefinitionOutputRefer
 }
 export interface DataIntersightNiatelemetryFabricPodProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#key DataIntersightNiatelemetryFabricPodProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#key DataIntersightNiatelemetryFabricPodProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#propagated DataIntersightNiatelemetryFabricPodProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#propagated DataIntersightNiatelemetryFabricPodProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#sys_tag DataIntersightNiatelemetryFabricPodProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#sys_tag DataIntersightNiatelemetryFabricPodProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2844,25 +2844,25 @@ export interface DataIntersightNiatelemetryFabricPodProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#type DataIntersightNiatelemetryFabricPodProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#type DataIntersightNiatelemetryFabricPodProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#value DataIntersightNiatelemetryFabricPodProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#value DataIntersightNiatelemetryFabricPodProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#ancestor_definitions DataIntersightNiatelemetryFabricPodProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#ancestor_definitions DataIntersightNiatelemetryFabricPodProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryFabricPodProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#definition DataIntersightNiatelemetryFabricPodProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#definition DataIntersightNiatelemetryFabricPodProfile#definition}
   */
   readonly definition?: DataIntersightNiatelemetryFabricPodProfileTagsDefinition;
 }
@@ -3181,7 +3181,7 @@ export class DataIntersightNiatelemetryFabricPodProfileTagsList extends cdktf.Co
 }
 export interface DataIntersightNiatelemetryFabricPodProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3189,19 +3189,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3214,7 +3214,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3446,7 +3446,7 @@ export class DataIntersightNiatelemetryFabricPodProfileVersionContextInterestedM
 }
 export interface DataIntersightNiatelemetryFabricPodProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3454,19 +3454,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#moid DataIntersightNiatelemetryFabricPodProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3479,7 +3479,7 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#selector DataIntersightNiatelemetryFabricPodProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3679,7 +3679,7 @@ export class DataIntersightNiatelemetryFabricPodProfileVersionContextRefMoOutput
 }
 export interface DataIntersightNiatelemetryFabricPodProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#additional_properties DataIntersightNiatelemetryFabricPodProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3687,32 +3687,32 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#class_id DataIntersightNiatelemetryFabricPodProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#marked_for_deletion DataIntersightNiatelemetryFabricPodProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#marked_for_deletion DataIntersightNiatelemetryFabricPodProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#nr_version DataIntersightNiatelemetryFabricPodProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#nr_version DataIntersightNiatelemetryFabricPodProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#object_type DataIntersightNiatelemetryFabricPodProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#timestamp DataIntersightNiatelemetryFabricPodProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#timestamp DataIntersightNiatelemetryFabricPodProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3723,19 +3723,19 @@ export interface DataIntersightNiatelemetryFabricPodProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#version_type DataIntersightNiatelemetryFabricPodProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#version_type DataIntersightNiatelemetryFabricPodProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#interested_mos DataIntersightNiatelemetryFabricPodProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#interested_mos DataIntersightNiatelemetryFabricPodProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryFabricPodProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#ref_mo DataIntersightNiatelemetryFabricPodProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#ref_mo DataIntersightNiatelemetryFabricPodProfile#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryFabricPodProfileVersionContextRefMo;
 }
@@ -4051,7 +4051,7 @@ export class DataIntersightNiatelemetryFabricPodProfileVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile intersight_niatelemetry_fabric_pod_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile intersight_niatelemetry_fabric_pod_profile}
 */
 export class DataIntersightNiatelemetryFabricPodProfile extends cdktf.TerraformDataSource {
 
@@ -4067,7 +4067,7 @@ export class DataIntersightNiatelemetryFabricPodProfile extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightNiatelemetryFabricPodProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryFabricPodProfile to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryFabricPodProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryFabricPodProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryFabricPodProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4079,7 +4079,7 @@ export class DataIntersightNiatelemetryFabricPodProfile extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_fabric_pod_profile intersight_niatelemetry_fabric_pod_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_fabric_pod_profile intersight_niatelemetry_fabric_pod_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4090,8 +4090,8 @@ export class DataIntersightNiatelemetryFabricPodProfile extends cdktf.TerraformD
       terraformResourceType: 'intersight_niatelemetry_fabric_pod_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

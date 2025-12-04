@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamResourcePermissionConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#account_moid DataIntersightIamResourcePermission#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#account_moid DataIntersightIamResourcePermission#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIamResourcePermissionConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#create_time DataIntersightIamResourcePermission#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#create_time DataIntersightIamResourcePermission#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#domain_group_moid DataIntersightIamResourcePermission#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#domain_group_moid DataIntersightIamResourcePermission#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#id DataIntersightIamResourcePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#id DataIntersightIamResourcePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightIamResourcePermissionConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#mod_time DataIntersightIamResourcePermission#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#mod_time DataIntersightIamResourcePermission#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#owners DataIntersightIamResourcePermission#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#owners DataIntersightIamResourcePermission#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#shared_scope DataIntersightIamResourcePermission#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#shared_scope DataIntersightIamResourcePermission#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the service owning the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#target_app DataIntersightIamResourcePermission#target_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#target_app DataIntersightIamResourcePermission#target_app}
   */
   readonly targetApp?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#ancestors DataIntersightIamResourcePermission#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#ancestors DataIntersightIamResourcePermission#ancestors}
   */
   readonly ancestors?: DataIntersightIamResourcePermissionAncestors[] | cdktf.IResolvable;
   /**
   * holder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#holder DataIntersightIamResourcePermission#holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#holder DataIntersightIamResourcePermission#holder}
   */
   readonly holder?: DataIntersightIamResourcePermissionHolder;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#parent DataIntersightIamResourcePermission#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#parent DataIntersightIamResourcePermission#parent}
   */
   readonly parent?: DataIntersightIamResourcePermissionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#permission_resources DataIntersightIamResourcePermission#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#permission_resources DataIntersightIamResourcePermission#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamResourcePermissionPermissionResources[] | cdktf.IResolvable;
   /**
   * permission_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#permission_roles DataIntersightIamResourcePermission#permission_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#permission_roles DataIntersightIamResourcePermission#permission_roles}
   */
   readonly permissionRoles?: DataIntersightIamResourcePermissionPermissionRoles[] | cdktf.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#resource DataIntersightIamResourcePermission#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#resource DataIntersightIamResourcePermission#resource}
   */
   readonly resource?: DataIntersightIamResourcePermissionResource;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#tags DataIntersightIamResourcePermission#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#tags DataIntersightIamResourcePermission#tags}
   */
   readonly tags?: DataIntersightIamResourcePermissionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#version_context DataIntersightIamResourcePermission#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#version_context DataIntersightIamResourcePermission#version_context}
   */
   readonly versionContext?: DataIntersightIamResourcePermissionVersionContext;
 }
@@ -604,6 +604,101 @@ export class DataIntersightIamResourcePermissionResultsPermissionRolesPermission
     return new DataIntersightIamResourcePermissionResultsPermissionRolesPermissionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSets {
+}
+
+export function dataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsToTerraform(struct?: DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsToHclTerraform(struct?: DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSets | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSets | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // moid - computed: true, optional: false, required: false
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // selector - computed: true, optional: false, required: false
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+}
+
+export class DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsOutputReference {
+    return new DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIntersightIamResourcePermissionResultsPermissionRolesRoles {
 }
 
@@ -769,6 +864,12 @@ export class DataIntersightIamResourcePermissionResultsPermissionRolesOutputRefe
   private _permission = new DataIntersightIamResourcePermissionResultsPermissionRolesPermissionList(this, "permission", false);
   public get permission() {
     return this._permission;
+  }
+
+  // privilege_sets - computed: true, optional: false, required: false
+  private _privilegeSets = new DataIntersightIamResourcePermissionResultsPermissionRolesPrivilegeSetsList(this, "privilege_sets", false);
+  public get privilegeSets() {
+    return this._privilegeSets;
   }
 
   // roles - computed: true, optional: false, required: false
@@ -1675,7 +1776,7 @@ export class DataIntersightIamResourcePermissionResultsList extends cdktf.Comple
 }
 export interface DataIntersightIamResourcePermissionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1683,19 +1784,19 @@ export interface DataIntersightIamResourcePermissionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1708,7 +1809,7 @@ export interface DataIntersightIamResourcePermissionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -1940,7 +2041,7 @@ export class DataIntersightIamResourcePermissionAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightIamResourcePermissionHolder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1948,19 +2049,19 @@ export interface DataIntersightIamResourcePermissionHolder {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1973,7 +2074,7 @@ export interface DataIntersightIamResourcePermissionHolder {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -2173,7 +2274,7 @@ export class DataIntersightIamResourcePermissionHolderOutputReference extends cd
 }
 export interface DataIntersightIamResourcePermissionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2181,19 +2282,19 @@ export interface DataIntersightIamResourcePermissionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2206,7 +2307,7 @@ export interface DataIntersightIamResourcePermissionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -2406,7 +2507,7 @@ export class DataIntersightIamResourcePermissionParentOutputReference extends cd
 }
 export interface DataIntersightIamResourcePermissionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2414,19 +2515,19 @@ export interface DataIntersightIamResourcePermissionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2439,7 +2540,7 @@ export interface DataIntersightIamResourcePermissionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -2671,7 +2772,7 @@ export class DataIntersightIamResourcePermissionPermissionResourcesList extends 
 }
 export interface DataIntersightIamResourcePermissionPermissionRolesPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2679,19 +2780,19 @@ export interface DataIntersightIamResourcePermissionPermissionRolesPermission {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2704,7 +2805,7 @@ export interface DataIntersightIamResourcePermissionPermissionRolesPermission {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -2902,9 +3003,9 @@ export class DataIntersightIamResourcePermissionPermissionRolesPermissionOutputR
     return this._selector;
   }
 }
-export interface DataIntersightIamResourcePermissionPermissionRolesRoles {
+export interface DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2912,19 +3013,19 @@ export interface DataIntersightIamResourcePermissionPermissionRolesRoles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2937,7 +3038,272 @@ export interface DataIntersightIamResourcePermissionPermissionRolesRoles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  */
+  readonly selector?: string;
+}
+
+export function dataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsToTerraform(struct?: DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    moid: cdktf.stringToTerraform(struct!.moid),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    selector: cdktf.stringToTerraform(struct!.selector),
+  }
+}
+
+
+export function dataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsToHclTerraform(struct?: DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    moid: {
+      value: cdktf.stringToHclTerraform(struct!.moid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    selector: {
+      value: cdktf.stringToHclTerraform(struct!.selector),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._moid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.moid = this._moid;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._selector !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.selector = this._selector;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._moid = undefined;
+      this._objectType = undefined;
+      this._selector = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._moid = value.moid;
+      this._objectType = value.objectType;
+      this._selector = value.selector;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // moid - computed: false, optional: true, required: false
+  private _moid?: string; 
+  public get moid() {
+    return this.getStringAttribute('moid');
+  }
+  public set moid(value: string) {
+    this._moid = value;
+  }
+  public resetMoid() {
+    this._moid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get moidInput() {
+    return this._moid;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // selector - computed: false, optional: true, required: false
+  private _selector?: string; 
+  public get selector() {
+    return this.getStringAttribute('selector');
+  }
+  public set selector(value: string) {
+    this._selector = value;
+  }
+  public resetSelector() {
+    this._selector = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get selectorInput() {
+    return this._selector;
+  }
+}
+
+export class DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsList extends cdktf.ComplexList {
+  public internalValue? : DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsOutputReference {
+    return new DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightIamResourcePermissionPermissionRolesRoles {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The Moid of the referenced REST resource.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  */
+  readonly moid?: string;
+  /**
+  * The fully-qualified name of the remote type referred by this relationship.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * An OData $filter expression which describes the REST resource to be referenced. This field may
+  * be set instead of 'moid' by clients.
+  * 1. If 'moid' is set this field is ignored.
+  * 1. If 'selector' is set and 'moid' is empty/absent from the request, Intersight determines the Moid of the
+  * resource matching the filter expression and populates it in the MoRef that is part of the object
+  * instance being inserted/updated to fulfill the REST request.
+  * An error is returned if the filter matches zero or more than one REST resource.
+  * An example filter string is: Serial eq '3AA8B7T11'.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -3169,7 +3535,7 @@ export class DataIntersightIamResourcePermissionPermissionRolesRolesList extends
 }
 export interface DataIntersightIamResourcePermissionPermissionRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3177,26 +3543,32 @@ export interface DataIntersightIamResourcePermissionPermissionRoles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#permission DataIntersightIamResourcePermission#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#permission DataIntersightIamResourcePermission#permission}
   */
   readonly permission?: DataIntersightIamResourcePermissionPermissionRolesPermission;
   /**
+  * privilege_sets block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#privilege_sets DataIntersightIamResourcePermission#privilege_sets}
+  */
+  readonly privilegeSets?: DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets[] | cdktf.IResolvable;
+  /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#roles DataIntersightIamResourcePermission#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#roles DataIntersightIamResourcePermission#roles}
   */
   readonly roles?: DataIntersightIamResourcePermissionPermissionRolesRoles[] | cdktf.IResolvable;
 }
@@ -3211,6 +3583,7 @@ export function dataIntersightIamResourcePermissionPermissionRolesToTerraform(st
     class_id: cdktf.stringToTerraform(struct!.classId),
     object_type: cdktf.stringToTerraform(struct!.objectType),
     permission: dataIntersightIamResourcePermissionPermissionRolesPermissionToTerraform(struct!.permission),
+    privilege_sets: cdktf.listMapper(dataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsToTerraform, true)(struct!.privilegeSets),
     roles: cdktf.listMapper(dataIntersightIamResourcePermissionPermissionRolesRolesToTerraform, true)(struct!.roles),
   }
 }
@@ -3245,6 +3618,12 @@ export function dataIntersightIamResourcePermissionPermissionRolesToHclTerraform
       isBlock: true,
       type: "list",
       storageClassType: "DataIntersightIamResourcePermissionPermissionRolesPermissionList",
+    },
+    privilege_sets: {
+      value: cdktf.listMapperHcl(dataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsToHclTerraform, true)(struct!.privilegeSets),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsList",
     },
     roles: {
       value: cdktf.listMapperHcl(dataIntersightIamResourcePermissionPermissionRolesRolesToHclTerraform, true)(struct!.roles),
@@ -3294,6 +3673,10 @@ export class DataIntersightIamResourcePermissionPermissionRolesOutputReference e
       hasAnyValues = true;
       internalValueResult.permission = this._permission?.internalValue;
     }
+    if (this._privilegeSets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.privilegeSets = this._privilegeSets?.internalValue;
+    }
     if (this._roles?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.roles = this._roles?.internalValue;
@@ -3309,6 +3692,7 @@ export class DataIntersightIamResourcePermissionPermissionRolesOutputReference e
       this._classId = undefined;
       this._objectType = undefined;
       this._permission.internalValue = undefined;
+      this._privilegeSets.internalValue = undefined;
       this._roles.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -3322,6 +3706,7 @@ export class DataIntersightIamResourcePermissionPermissionRolesOutputReference e
       this._classId = value.classId;
       this._objectType = value.objectType;
       this._permission.internalValue = value.permission;
+      this._privilegeSets.internalValue = value.privilegeSets;
       this._roles.internalValue = value.roles;
     }
   }
@@ -3390,6 +3775,22 @@ export class DataIntersightIamResourcePermissionPermissionRolesOutputReference e
     return this._permission.internalValue;
   }
 
+  // privilege_sets - computed: false, optional: true, required: false
+  private _privilegeSets = new DataIntersightIamResourcePermissionPermissionRolesPrivilegeSetsList(this, "privilege_sets", false);
+  public get privilegeSets() {
+    return this._privilegeSets;
+  }
+  public putPrivilegeSets(value: DataIntersightIamResourcePermissionPermissionRolesPrivilegeSets[] | cdktf.IResolvable) {
+    this._privilegeSets.internalValue = value;
+  }
+  public resetPrivilegeSets() {
+    this._privilegeSets.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privilegeSetsInput() {
+    return this._privilegeSets.internalValue;
+  }
+
   // roles - computed: false, optional: true, required: false
   private _roles = new DataIntersightIamResourcePermissionPermissionRolesRolesList(this, "roles", false);
   public get roles() {
@@ -3428,7 +3829,7 @@ export class DataIntersightIamResourcePermissionPermissionRolesList extends cdkt
 }
 export interface DataIntersightIamResourcePermissionResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3436,19 +3837,19 @@ export interface DataIntersightIamResourcePermissionResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3461,7 +3862,7 @@ export interface DataIntersightIamResourcePermissionResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -3661,7 +4062,7 @@ export class DataIntersightIamResourcePermissionResourceOutputReference extends 
 }
 export interface DataIntersightIamResourcePermissionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3669,19 +4070,19 @@ export interface DataIntersightIamResourcePermissionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3694,7 +4095,7 @@ export interface DataIntersightIamResourcePermissionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -3926,7 +4327,7 @@ export class DataIntersightIamResourcePermissionTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightIamResourcePermissionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3934,19 +4335,19 @@ export interface DataIntersightIamResourcePermissionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3959,7 +4360,7 @@ export interface DataIntersightIamResourcePermissionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -4159,25 +4560,25 @@ export class DataIntersightIamResourcePermissionTagsDefinitionOutputReference ex
 }
 export interface DataIntersightIamResourcePermissionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#key DataIntersightIamResourcePermission#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#key DataIntersightIamResourcePermission#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#propagated DataIntersightIamResourcePermission#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#propagated DataIntersightIamResourcePermission#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#sys_tag DataIntersightIamResourcePermission#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#sys_tag DataIntersightIamResourcePermission#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4185,25 +4586,25 @@ export interface DataIntersightIamResourcePermissionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#type DataIntersightIamResourcePermission#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#type DataIntersightIamResourcePermission#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#value DataIntersightIamResourcePermission#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#value DataIntersightIamResourcePermission#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#ancestor_definitions DataIntersightIamResourcePermission#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#ancestor_definitions DataIntersightIamResourcePermission#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamResourcePermissionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#definition DataIntersightIamResourcePermission#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#definition DataIntersightIamResourcePermission#definition}
   */
   readonly definition?: DataIntersightIamResourcePermissionTagsDefinition;
 }
@@ -4522,7 +4923,7 @@ export class DataIntersightIamResourcePermissionTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightIamResourcePermissionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4530,19 +4931,19 @@ export interface DataIntersightIamResourcePermissionVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4555,7 +4956,7 @@ export interface DataIntersightIamResourcePermissionVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -4787,7 +5188,7 @@ export class DataIntersightIamResourcePermissionVersionContextInterestedMosList 
 }
 export interface DataIntersightIamResourcePermissionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4795,19 +5196,19 @@ export interface DataIntersightIamResourcePermissionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#moid DataIntersightIamResourcePermission#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4820,7 +5221,7 @@ export interface DataIntersightIamResourcePermissionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#selector DataIntersightIamResourcePermission#selector}
   */
   readonly selector?: string;
 }
@@ -5020,7 +5421,7 @@ export class DataIntersightIamResourcePermissionVersionContextRefMoOutputReferen
 }
 export interface DataIntersightIamResourcePermissionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#additional_properties DataIntersightIamResourcePermission#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5028,32 +5429,32 @@ export interface DataIntersightIamResourcePermissionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#class_id DataIntersightIamResourcePermission#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#marked_for_deletion DataIntersightIamResourcePermission#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#marked_for_deletion DataIntersightIamResourcePermission#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#nr_version DataIntersightIamResourcePermission#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#nr_version DataIntersightIamResourcePermission#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#object_type DataIntersightIamResourcePermission#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#timestamp DataIntersightIamResourcePermission#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#timestamp DataIntersightIamResourcePermission#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5064,19 +5465,19 @@ export interface DataIntersightIamResourcePermissionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#version_type DataIntersightIamResourcePermission#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#version_type DataIntersightIamResourcePermission#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#interested_mos DataIntersightIamResourcePermission#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#interested_mos DataIntersightIamResourcePermission#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamResourcePermissionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#ref_mo DataIntersightIamResourcePermission#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#ref_mo DataIntersightIamResourcePermission#ref_mo}
   */
   readonly refMo?: DataIntersightIamResourcePermissionVersionContextRefMo;
 }
@@ -5392,7 +5793,7 @@ export class DataIntersightIamResourcePermissionVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission intersight_iam_resource_permission}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission intersight_iam_resource_permission}
 */
 export class DataIntersightIamResourcePermission extends cdktf.TerraformDataSource {
 
@@ -5408,7 +5809,7 @@ export class DataIntersightIamResourcePermission extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightIamResourcePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamResourcePermission to import
-  * @param importFromId The id of the existing DataIntersightIamResourcePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamResourcePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamResourcePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5420,7 +5821,7 @@ export class DataIntersightIamResourcePermission extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_resource_permission intersight_iam_resource_permission} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_resource_permission intersight_iam_resource_permission} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5431,8 +5832,8 @@ export class DataIntersightIamResourcePermission extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_iam_resource_permission',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

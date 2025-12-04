@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightKubernetesAciCniProfileConfig extends cdktf.Terra
   /**
   * Name of ACI AAEP (Attachable Access Entity Profile) to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#aaep_name DataIntersightKubernetesAciCniProfile#aaep_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#aaep_name DataIntersightKubernetesAciCniProfile#aaep_name}
   */
   readonly aaepName?: string;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#account_moid DataIntersightKubernetesAciCniProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#account_moid DataIntersightKubernetesAciCniProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightKubernetesAciCniProfileConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#create_time DataIntersightKubernetesAciCniProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#create_time DataIntersightKubernetesAciCniProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#description DataIntersightKubernetesAciCniProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#description DataIntersightKubernetesAciCniProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#domain_group_moid DataIntersightKubernetesAciCniProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#domain_group_moid DataIntersightKubernetesAciCniProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Start of range of IP subnets for external services with dynamic IP allocation for use by Kubernetes clusters using this ACI CNI policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#ext_svc_dyn_subnet_start DataIntersightKubernetesAciCniProfile#ext_svc_dyn_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#ext_svc_dyn_subnet_start DataIntersightKubernetesAciCniProfile#ext_svc_dyn_subnet_start}
   */
   readonly extSvcDynSubnetStart?: string;
   /**
   * Start of range of IP subnets for external services with static IP allocation for use by Kubernetes clusters using this ACI CNI policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#ext_svc_static_subnet_start DataIntersightKubernetesAciCniProfile#ext_svc_static_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#ext_svc_static_subnet_start DataIntersightKubernetesAciCniProfile#ext_svc_static_subnet_start}
   */
   readonly extSvcStaticSubnetStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#id DataIntersightKubernetesAciCniProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#id DataIntersightKubernetesAciCniProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,182 +71,182 @@ export interface DataIntersightKubernetesAciCniProfileConfig extends cdktf.Terra
   /**
   * Value of ACI infrastructuere VLAN ID for the ACI fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#infra_vlan_id DataIntersightKubernetesAciCniProfile#infra_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#infra_vlan_id DataIntersightKubernetesAciCniProfile#infra_vlan_id}
   */
   readonly infraVlanId?: number;
   /**
   * Name of ACI L3Out network to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#l3_out_network_name DataIntersightKubernetesAciCniProfile#l3_out_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#l3_out_network_name DataIntersightKubernetesAciCniProfile#l3_out_network_name}
   */
   readonly l3OutNetworkName?: string;
   /**
   * Name of ACI L3Out policy to be used for all Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#l3_out_policy_name DataIntersightKubernetesAciCniProfile#l3_out_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#l3_out_policy_name DataIntersightKubernetesAciCniProfile#l3_out_policy_name}
   */
   readonly l3OutPolicyName?: string;
   /**
   * Tenant in ACI used by this L3Out and Common VRF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#l3_out_tenant DataIntersightKubernetesAciCniProfile#l3_out_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#l3_out_tenant DataIntersightKubernetesAciCniProfile#l3_out_tenant}
   */
   readonly l3OutTenant?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#mod_time DataIntersightKubernetesAciCniProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#mod_time DataIntersightKubernetesAciCniProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#name DataIntersightKubernetesAciCniProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#name DataIntersightKubernetesAciCniProfile#name}
   */
   readonly name?: string;
   /**
   * VMM domain within which Kubernetes clusters using this policy are nested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#nested_vmm_domain DataIntersightKubernetesAciCniProfile#nested_vmm_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#nested_vmm_domain DataIntersightKubernetesAciCniProfile#nested_vmm_domain}
   */
   readonly nestedVmmDomain?: string;
   /**
   * Start of range of ACI Node Service IP subnets to use by Kubernetes clusters using this ACI CNI policy This is used for the service graph which is used for ACI PBR based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#node_svc_subnet_start DataIntersightKubernetesAciCniProfile#node_svc_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#node_svc_subnet_start DataIntersightKubernetesAciCniProfile#node_svc_subnet_start}
   */
   readonly nodeSvcSubnetStart?: string;
   /**
   * Ending value of VLAN range used to assign Node VLAN Ids for each Kubernetes cluster using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#node_vlan_range_end DataIntersightKubernetesAciCniProfile#node_vlan_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#node_vlan_range_end DataIntersightKubernetesAciCniProfile#node_vlan_range_end}
   */
   readonly nodeVlanRangeEnd?: number;
   /**
   * Starting value of VLAN range used to assign Node VLAN Ids for each Kubernetes cluster using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#node_vlan_range_start DataIntersightKubernetesAciCniProfile#node_vlan_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#node_vlan_range_start DataIntersightKubernetesAciCniProfile#node_vlan_range_start}
   */
   readonly nodeVlanRangeStart?: number;
   /**
   * Number of k8s clusters currently using this ACI CNI profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#number_of_kubernetes_clusters DataIntersightKubernetesAciCniProfile#number_of_kubernetes_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#number_of_kubernetes_clusters DataIntersightKubernetesAciCniProfile#number_of_kubernetes_clusters}
   */
   readonly numberOfKubernetesClusters?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Range of IP Multicast addresses to be used by the Opflex protocol for Kubernetes clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#opflex_multicast_address_range DataIntersightKubernetesAciCniProfile#opflex_multicast_address_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#opflex_multicast_address_range DataIntersightKubernetesAciCniProfile#opflex_multicast_address_range}
   */
   readonly opflexMulticastAddressRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#owners DataIntersightKubernetesAciCniProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#owners DataIntersightKubernetesAciCniProfile#owners}
   */
   readonly owners?: string[];
   /**
   * Start of range of Kubernetes pod IP subnets to use by Kubernetes clusters using this ACI CNI policy This should be a /8 IP subnet so that multiple /16 subnets can be assigned for pod subnets of Kubernetes clusters using this profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#pod_subnet_start DataIntersightKubernetesAciCniProfile#pod_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#pod_subnet_start DataIntersightKubernetesAciCniProfile#pod_subnet_start}
   */
   readonly podSubnetStart?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#shared_scope DataIntersightKubernetesAciCniProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#shared_scope DataIntersightKubernetesAciCniProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start of range of Kubernetes Service IP subnets to use by Kubernetes clusters using this ACI CNI policy Currently this is fixed internally and read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#svc_subnet_start DataIntersightKubernetesAciCniProfile#svc_subnet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#svc_subnet_start DataIntersightKubernetesAciCniProfile#svc_subnet_start}
   */
   readonly svcSubnetStart?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#type DataIntersightKubernetesAciCniProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#type DataIntersightKubernetesAciCniProfile#type}
   */
   readonly type?: string;
   /**
   * VRF (Virtual Routing and Forwarding) domain to be used within ACI fabric by all k8s clusters using this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#vrf DataIntersightKubernetesAciCniProfile#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#vrf DataIntersightKubernetesAciCniProfile#vrf}
   */
   readonly vrf?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#ancestors DataIntersightKubernetesAciCniProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#ancestors DataIntersightKubernetesAciCniProfile#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesAciCniProfileAncestors[] | cdktf.IResolvable;
   /**
   * cluster_aci_allocations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#cluster_aci_allocations DataIntersightKubernetesAciCniProfile#cluster_aci_allocations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#cluster_aci_allocations DataIntersightKubernetesAciCniProfile#cluster_aci_allocations}
   */
   readonly clusterAciAllocations?: DataIntersightKubernetesAciCniProfileClusterAciAllocations[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#cluster_profiles DataIntersightKubernetesAciCniProfile#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#cluster_profiles DataIntersightKubernetesAciCniProfile#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightKubernetesAciCniProfileClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#organization DataIntersightKubernetesAciCniProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#organization DataIntersightKubernetesAciCniProfile#organization}
   */
   readonly organization?: DataIntersightKubernetesAciCniProfileOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#parent DataIntersightKubernetesAciCniProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#parent DataIntersightKubernetesAciCniProfile#parent}
   */
   readonly parent?: DataIntersightKubernetesAciCniProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#permission_resources DataIntersightKubernetesAciCniProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#permission_resources DataIntersightKubernetesAciCniProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesAciCniProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#registered_device DataIntersightKubernetesAciCniProfile#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#registered_device DataIntersightKubernetesAciCniProfile#registered_device}
   */
   readonly registeredDevice?: DataIntersightKubernetesAciCniProfileRegisteredDevice;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#src_template DataIntersightKubernetesAciCniProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#src_template DataIntersightKubernetesAciCniProfile#src_template}
   */
   readonly srcTemplate?: DataIntersightKubernetesAciCniProfileSrcTemplate;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#tags DataIntersightKubernetesAciCniProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#tags DataIntersightKubernetesAciCniProfile#tags}
   */
   readonly tags?: DataIntersightKubernetesAciCniProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#version_context DataIntersightKubernetesAciCniProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#version_context DataIntersightKubernetesAciCniProfile#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesAciCniProfileVersionContext;
 }
@@ -1896,7 +1896,7 @@ export class DataIntersightKubernetesAciCniProfileResultsList extends cdktf.Comp
 }
 export interface DataIntersightKubernetesAciCniProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1904,19 +1904,19 @@ export interface DataIntersightKubernetesAciCniProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1929,7 +1929,7 @@ export interface DataIntersightKubernetesAciCniProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2161,7 +2161,7 @@ export class DataIntersightKubernetesAciCniProfileAncestorsList extends cdktf.Co
 }
 export interface DataIntersightKubernetesAciCniProfileClusterAciAllocations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2169,19 +2169,19 @@ export interface DataIntersightKubernetesAciCniProfileClusterAciAllocations {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2194,7 +2194,7 @@ export interface DataIntersightKubernetesAciCniProfileClusterAciAllocations {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2426,7 +2426,7 @@ export class DataIntersightKubernetesAciCniProfileClusterAciAllocationsList exte
 }
 export interface DataIntersightKubernetesAciCniProfileClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2434,19 +2434,19 @@ export interface DataIntersightKubernetesAciCniProfileClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2459,7 +2459,7 @@ export interface DataIntersightKubernetesAciCniProfileClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2691,7 +2691,7 @@ export class DataIntersightKubernetesAciCniProfileClusterProfilesList extends cd
 }
 export interface DataIntersightKubernetesAciCniProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2699,19 +2699,19 @@ export interface DataIntersightKubernetesAciCniProfileOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2724,7 +2724,7 @@ export interface DataIntersightKubernetesAciCniProfileOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2924,7 +2924,7 @@ export class DataIntersightKubernetesAciCniProfileOrganizationOutputReference ex
 }
 export interface DataIntersightKubernetesAciCniProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2932,19 +2932,19 @@ export interface DataIntersightKubernetesAciCniProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2957,7 +2957,7 @@ export interface DataIntersightKubernetesAciCniProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3157,7 +3157,7 @@ export class DataIntersightKubernetesAciCniProfileParentOutputReference extends 
 }
 export interface DataIntersightKubernetesAciCniProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3165,19 +3165,19 @@ export interface DataIntersightKubernetesAciCniProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3190,7 +3190,7 @@ export interface DataIntersightKubernetesAciCniProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3422,7 +3422,7 @@ export class DataIntersightKubernetesAciCniProfilePermissionResourcesList extend
 }
 export interface DataIntersightKubernetesAciCniProfileRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3430,19 +3430,19 @@ export interface DataIntersightKubernetesAciCniProfileRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3455,7 +3455,7 @@ export interface DataIntersightKubernetesAciCniProfileRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3655,7 +3655,7 @@ export class DataIntersightKubernetesAciCniProfileRegisteredDeviceOutputReferenc
 }
 export interface DataIntersightKubernetesAciCniProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3663,19 +3663,19 @@ export interface DataIntersightKubernetesAciCniProfileSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3688,7 +3688,7 @@ export interface DataIntersightKubernetesAciCniProfileSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3888,7 +3888,7 @@ export class DataIntersightKubernetesAciCniProfileSrcTemplateOutputReference ext
 }
 export interface DataIntersightKubernetesAciCniProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3896,19 +3896,19 @@ export interface DataIntersightKubernetesAciCniProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3921,7 +3921,7 @@ export interface DataIntersightKubernetesAciCniProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4153,7 +4153,7 @@ export class DataIntersightKubernetesAciCniProfileTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightKubernetesAciCniProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4161,19 +4161,19 @@ export interface DataIntersightKubernetesAciCniProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4186,7 +4186,7 @@ export interface DataIntersightKubernetesAciCniProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4386,25 +4386,25 @@ export class DataIntersightKubernetesAciCniProfileTagsDefinitionOutputReference 
 }
 export interface DataIntersightKubernetesAciCniProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#key DataIntersightKubernetesAciCniProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#key DataIntersightKubernetesAciCniProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#propagated DataIntersightKubernetesAciCniProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#propagated DataIntersightKubernetesAciCniProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#sys_tag DataIntersightKubernetesAciCniProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#sys_tag DataIntersightKubernetesAciCniProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4412,25 +4412,25 @@ export interface DataIntersightKubernetesAciCniProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#type DataIntersightKubernetesAciCniProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#type DataIntersightKubernetesAciCniProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#value DataIntersightKubernetesAciCniProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#value DataIntersightKubernetesAciCniProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#ancestor_definitions DataIntersightKubernetesAciCniProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#ancestor_definitions DataIntersightKubernetesAciCniProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesAciCniProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#definition DataIntersightKubernetesAciCniProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#definition DataIntersightKubernetesAciCniProfile#definition}
   */
   readonly definition?: DataIntersightKubernetesAciCniProfileTagsDefinition;
 }
@@ -4749,7 +4749,7 @@ export class DataIntersightKubernetesAciCniProfileTagsList extends cdktf.Complex
 }
 export interface DataIntersightKubernetesAciCniProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4757,19 +4757,19 @@ export interface DataIntersightKubernetesAciCniProfileVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4782,7 +4782,7 @@ export interface DataIntersightKubernetesAciCniProfileVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5014,7 +5014,7 @@ export class DataIntersightKubernetesAciCniProfileVersionContextInterestedMosLis
 }
 export interface DataIntersightKubernetesAciCniProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5022,19 +5022,19 @@ export interface DataIntersightKubernetesAciCniProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#moid DataIntersightKubernetesAciCniProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5047,7 +5047,7 @@ export interface DataIntersightKubernetesAciCniProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#selector DataIntersightKubernetesAciCniProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5247,7 +5247,7 @@ export class DataIntersightKubernetesAciCniProfileVersionContextRefMoOutputRefer
 }
 export interface DataIntersightKubernetesAciCniProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#additional_properties DataIntersightKubernetesAciCniProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5255,32 +5255,32 @@ export interface DataIntersightKubernetesAciCniProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#class_id DataIntersightKubernetesAciCniProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#marked_for_deletion DataIntersightKubernetesAciCniProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#marked_for_deletion DataIntersightKubernetesAciCniProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#nr_version DataIntersightKubernetesAciCniProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#nr_version DataIntersightKubernetesAciCniProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#object_type DataIntersightKubernetesAciCniProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#timestamp DataIntersightKubernetesAciCniProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#timestamp DataIntersightKubernetesAciCniProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5291,19 +5291,19 @@ export interface DataIntersightKubernetesAciCniProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#version_type DataIntersightKubernetesAciCniProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#version_type DataIntersightKubernetesAciCniProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#interested_mos DataIntersightKubernetesAciCniProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#interested_mos DataIntersightKubernetesAciCniProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesAciCniProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#ref_mo DataIntersightKubernetesAciCniProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#ref_mo DataIntersightKubernetesAciCniProfile#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesAciCniProfileVersionContextRefMo;
 }
@@ -5619,7 +5619,7 @@ export class DataIntersightKubernetesAciCniProfileVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile}
 */
 export class DataIntersightKubernetesAciCniProfile extends cdktf.TerraformDataSource {
 
@@ -5635,7 +5635,7 @@ export class DataIntersightKubernetesAciCniProfile extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightKubernetesAciCniProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesAciCniProfile to import
-  * @param importFromId The id of the existing DataIntersightKubernetesAciCniProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesAciCniProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesAciCniProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5647,7 +5647,7 @@ export class DataIntersightKubernetesAciCniProfile extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_profile intersight_kubernetes_aci_cni_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5658,8 +5658,8 @@ export class DataIntersightKubernetesAciCniProfile extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_kubernetes_aci_cni_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

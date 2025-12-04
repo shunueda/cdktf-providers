@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CkafkaConsumerGroupModifyOffsetConfig extends cdktf.TerraformMe
   /**
   * kafka group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#group CkafkaConsumerGroupModifyOffset#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#group CkafkaConsumerGroupModifyOffset#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#id CkafkaConsumerGroupModifyOffset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#id CkafkaConsumerGroupModifyOffset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CkafkaConsumerGroupModifyOffsetConfig extends cdktf.TerraformMe
   /**
   * Kafka instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#instance_id CkafkaConsumerGroupModifyOffset#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#instance_id CkafkaConsumerGroupModifyOffset#instance_id}
   */
   readonly instanceId: string;
   /**
   * The offset location that needs to be reset. When strategy is 2, this field must be included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#offset CkafkaConsumerGroupModifyOffset#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#offset CkafkaConsumerGroupModifyOffset#offset}
   */
   readonly offset?: number;
   /**
   * The list of partition that needs to be reset if no Topics parameter is specified. Resets the partition in the corresponding Partition list of all topics. When Topics is specified, the partition of the corresponding topic list of the specified Partitions list is reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#partitions CkafkaConsumerGroupModifyOffset#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#partitions CkafkaConsumerGroupModifyOffset#partitions}
   */
   readonly partitions?: number[];
   /**
   * This field must be included when strategy is 0. If it is greater than zero, the offset will be moved backward by shift bars, and if it is less than zero, the offset will be traced back to the number of shift entries. After the correct reset, the new offset should be (old_offset + shift). It should be noted that if the new offset is less than partition's earliest, it will be set to earliest, and if the latest greater than partition will be set to latest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#shift CkafkaConsumerGroupModifyOffset#shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#shift CkafkaConsumerGroupModifyOffset#shift}
   */
   readonly shift?: number;
   /**
   * Unit ms. When strategy is 1, you must include this field, where-2 means to reset the offset to the beginning,-1 means to reset to the latest position (equivalent to emptying), and other values represent the specified time. You will get the offset of the specified time in the topic and then reset it. If there is no message at the specified time, get the last offset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#shift_timestamp CkafkaConsumerGroupModifyOffset#shift_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#shift_timestamp CkafkaConsumerGroupModifyOffset#shift_timestamp}
   */
   readonly shiftTimestamp?: number;
   /**
@@ -56,19 +56,19 @@ export interface CkafkaConsumerGroupModifyOffsetConfig extends cdktf.TerraformMe
   * `1`: Alignment reference (by-duration,to-datetime,to-earliest,to-latest), which means moving the offset to the location of the specified timestamp;
   * `2`: Alignment reference (to-offset), which means to move the offset to the specified offset location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#strategy CkafkaConsumerGroupModifyOffset#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#strategy CkafkaConsumerGroupModifyOffset#strategy}
   */
   readonly strategy: number;
   /**
   * Indicates the topics that needs to be reset. Leave it empty means all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#topics CkafkaConsumerGroupModifyOffset#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#topics CkafkaConsumerGroupModifyOffset#topics}
   */
   readonly topics?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset tencentcloud_ckafka_consumer_group_modify_offset}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset tencentcloud_ckafka_consumer_group_modify_offset}
 */
 export class CkafkaConsumerGroupModifyOffset extends cdktf.TerraformResource {
 
@@ -84,7 +84,7 @@ export class CkafkaConsumerGroupModifyOffset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaConsumerGroupModifyOffset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaConsumerGroupModifyOffset to import
-  * @param importFromId The id of the existing CkafkaConsumerGroupModifyOffset that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaConsumerGroupModifyOffset that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaConsumerGroupModifyOffset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -96,7 +96,7 @@ export class CkafkaConsumerGroupModifyOffset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_consumer_group_modify_offset tencentcloud_ckafka_consumer_group_modify_offset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_consumer_group_modify_offset tencentcloud_ckafka_consumer_group_modify_offset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -107,8 +107,8 @@ export class CkafkaConsumerGroupModifyOffset extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_consumer_group_modify_offset',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

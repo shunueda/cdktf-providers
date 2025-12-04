@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#account_moid DataIntersightNiatelemetryAaaTacacsProviderDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#account_moid DataIntersightNiatelemetryAaaTacacsProviderDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#create_time DataIntersightNiatelemetryAaaTacacsProviderDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#create_time DataIntersightNiatelemetryAaaTacacsProviderDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the AAA tacacs provider in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#dn DataIntersightNiatelemetryAaaTacacsProviderDetails#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#dn DataIntersightNiatelemetryAaaTacacsProviderDetails#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#domain_group_moid DataIntersightNiatelemetryAaaTacacsProviderDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#domain_group_moid DataIntersightNiatelemetryAaaTacacsProviderDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#id DataIntersightNiatelemetryAaaTacacsProviderDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#id DataIntersightNiatelemetryAaaTacacsProviderDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#mod_time DataIntersightNiatelemetryAaaTacacsProviderDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#mod_time DataIntersightNiatelemetryAaaTacacsProviderDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * Owner Key of the AAA tacacs provider in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#owner_key DataIntersightNiatelemetryAaaTacacsProviderDetails#owner_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#owner_key DataIntersightNiatelemetryAaaTacacsProviderDetails#owner_key}
   */
   readonly ownerKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#owners DataIntersightNiatelemetryAaaTacacsProviderDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#owners DataIntersightNiatelemetryAaaTacacsProviderDetails#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#record_type DataIntersightNiatelemetryAaaTacacsProviderDetails#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#record_type DataIntersightNiatelemetryAaaTacacsProviderDetails#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#record_version DataIntersightNiatelemetryAaaTacacsProviderDetails#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#record_version DataIntersightNiatelemetryAaaTacacsProviderDetails#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#shared_scope DataIntersightNiatelemetryAaaTacacsProviderDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#shared_scope DataIntersightNiatelemetryAaaTacacsProviderDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#site_name DataIntersightNiatelemetryAaaTacacsProviderDetails#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#site_name DataIntersightNiatelemetryAaaTacacsProviderDetails#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ancestors DataIntersightNiatelemetryAaaTacacsProviderDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ancestors DataIntersightNiatelemetryAaaTacacsProviderDetails#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryAaaTacacsProviderDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#parent DataIntersightNiatelemetryAaaTacacsProviderDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#parent DataIntersightNiatelemetryAaaTacacsProviderDetails#parent}
   */
   readonly parent?: DataIntersightNiatelemetryAaaTacacsProviderDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#permission_resources DataIntersightNiatelemetryAaaTacacsProviderDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#permission_resources DataIntersightNiatelemetryAaaTacacsProviderDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryAaaTacacsProviderDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#registered_device DataIntersightNiatelemetryAaaTacacsProviderDetails#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#registered_device DataIntersightNiatelemetryAaaTacacsProviderDetails#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryAaaTacacsProviderDetailsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#tags DataIntersightNiatelemetryAaaTacacsProviderDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#tags DataIntersightNiatelemetryAaaTacacsProviderDetails#tags}
   */
   readonly tags?: DataIntersightNiatelemetryAaaTacacsProviderDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#version_context DataIntersightNiatelemetryAaaTacacsProviderDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#version_context DataIntersightNiatelemetryAaaTacacsProviderDetails#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContext;
 }
@@ -1313,7 +1313,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsResultsList exten
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1321,19 +1321,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1346,7 +1346,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1578,7 +1578,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsAncestorsList ext
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1586,19 +1586,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1611,7 +1611,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1811,7 +1811,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsParentOutputRefer
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1819,19 +1819,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1844,7 +1844,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2076,7 +2076,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsPermissionResourc
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2084,19 +2084,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsRegisteredDev
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2109,7 +2109,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsRegisteredDev
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2309,7 +2309,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsRegisteredDeviceO
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2317,19 +2317,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2342,7 +2342,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2574,7 +2574,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsAncestorDefin
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2582,19 +2582,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2607,7 +2607,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2807,25 +2807,25 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsDefinitionOut
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#key DataIntersightNiatelemetryAaaTacacsProviderDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#key DataIntersightNiatelemetryAaaTacacsProviderDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#propagated DataIntersightNiatelemetryAaaTacacsProviderDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#propagated DataIntersightNiatelemetryAaaTacacsProviderDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#sys_tag DataIntersightNiatelemetryAaaTacacsProviderDetails#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#sys_tag DataIntersightNiatelemetryAaaTacacsProviderDetails#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2833,25 +2833,25 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#type DataIntersightNiatelemetryAaaTacacsProviderDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#type DataIntersightNiatelemetryAaaTacacsProviderDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#value DataIntersightNiatelemetryAaaTacacsProviderDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#value DataIntersightNiatelemetryAaaTacacsProviderDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ancestor_definitions DataIntersightNiatelemetryAaaTacacsProviderDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ancestor_definitions DataIntersightNiatelemetryAaaTacacsProviderDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#definition DataIntersightNiatelemetryAaaTacacsProviderDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#definition DataIntersightNiatelemetryAaaTacacsProviderDetails#definition}
   */
   readonly definition?: DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsDefinition;
 }
@@ -3170,7 +3170,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsTagsList extends 
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3178,19 +3178,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3203,7 +3203,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3435,7 +3435,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextInt
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3443,19 +3443,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#moid DataIntersightNiatelemetryAaaTacacsProviderDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3468,7 +3468,7 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#selector DataIntersightNiatelemetryAaaTacacsProviderDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3668,7 +3668,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextRef
 }
 export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#additional_properties DataIntersightNiatelemetryAaaTacacsProviderDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3676,32 +3676,32 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#class_id DataIntersightNiatelemetryAaaTacacsProviderDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#marked_for_deletion DataIntersightNiatelemetryAaaTacacsProviderDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#marked_for_deletion DataIntersightNiatelemetryAaaTacacsProviderDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#nr_version DataIntersightNiatelemetryAaaTacacsProviderDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#nr_version DataIntersightNiatelemetryAaaTacacsProviderDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#object_type DataIntersightNiatelemetryAaaTacacsProviderDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#timestamp DataIntersightNiatelemetryAaaTacacsProviderDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#timestamp DataIntersightNiatelemetryAaaTacacsProviderDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3712,19 +3712,19 @@ export interface DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#version_type DataIntersightNiatelemetryAaaTacacsProviderDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#version_type DataIntersightNiatelemetryAaaTacacsProviderDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#interested_mos DataIntersightNiatelemetryAaaTacacsProviderDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#interested_mos DataIntersightNiatelemetryAaaTacacsProviderDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ref_mo DataIntersightNiatelemetryAaaTacacsProviderDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#ref_mo DataIntersightNiatelemetryAaaTacacsProviderDetails#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextRefMo;
 }
@@ -4040,7 +4040,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetailsVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details intersight_niatelemetry_aaa_tacacs_provider_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details intersight_niatelemetry_aaa_tacacs_provider_details}
 */
 export class DataIntersightNiatelemetryAaaTacacsProviderDetails extends cdktf.TerraformDataSource {
 
@@ -4056,7 +4056,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetails extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightNiatelemetryAaaTacacsProviderDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryAaaTacacsProviderDetails to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryAaaTacacsProviderDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryAaaTacacsProviderDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryAaaTacacsProviderDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4068,7 +4068,7 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetails extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_aaa_tacacs_provider_details intersight_niatelemetry_aaa_tacacs_provider_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_aaa_tacacs_provider_details intersight_niatelemetry_aaa_tacacs_provider_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4079,8 +4079,8 @@ export class DataIntersightNiatelemetryAaaTacacsProviderDetails extends cdktf.Te
       terraformResourceType: 'intersight_niatelemetry_aaa_tacacs_provider_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

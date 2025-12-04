@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DatasphereProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Community ID where project would be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#community_id DatasphereProject#community_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#community_id DatasphereProject#community_id}
   */
   readonly communityId: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#description DatasphereProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#description DatasphereProject#description}
   */
   readonly description?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#labels DatasphereProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#labels DatasphereProject#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Datasphere Project limits configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#limits DatasphereProject#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#limits DatasphereProject#limits}
   */
   readonly limits?: DatasphereProjectLimits;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#name DatasphereProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#name DatasphereProject#name}
   */
   readonly name: string;
   /**
   * Datasphere Project settings configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#settings DatasphereProject#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#settings DatasphereProject#settings}
   */
   readonly settings?: DatasphereProjectSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#timeouts DatasphereProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#timeouts DatasphereProject#timeouts}
   */
   readonly timeouts?: DatasphereProjectTimeouts;
 }
@@ -52,19 +52,19 @@ export interface DatasphereProjectLimits {
   /**
   * The number of units available to the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#balance DatasphereProject#balance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#balance DatasphereProject#balance}
   */
   readonly balance?: number;
   /**
   * The number of units that can be spent on the one execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#max_units_per_execution DatasphereProject#max_units_per_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#max_units_per_execution DatasphereProject#max_units_per_execution}
   */
   readonly maxUnitsPerExecution?: number;
   /**
   * The number of units that can be spent per hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#max_units_per_hour DatasphereProject#max_units_per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#max_units_per_hour DatasphereProject#max_units_per_hour}
   */
   readonly maxUnitsPerHour?: number;
 }
@@ -218,25 +218,25 @@ export interface DatasphereProjectSettings {
   /**
   * ID of the DataProcessing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#data_proc_cluster_id DatasphereProject#data_proc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#data_proc_cluster_id DatasphereProject#data_proc_cluster_id}
   */
   readonly dataProcClusterId?: string;
   /**
   * Default project folder ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#default_folder_id DatasphereProject#default_folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#default_folder_id DatasphereProject#default_folder_id}
   */
   readonly defaultFolderId?: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#security_group_ids DatasphereProject#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#security_group_ids DatasphereProject#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#service_account_id DatasphereProject#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#service_account_id DatasphereProject#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
@@ -246,13 +246,13 @@ export interface DatasphereProjectSettings {
   *   * `NO_TIMEOUT`: Setting to never automatically stop stale executions.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#stale_exec_timeout_mode DatasphereProject#stale_exec_timeout_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#stale_exec_timeout_mode DatasphereProject#stale_exec_timeout_mode}
   */
   readonly staleExecTimeoutMode?: string;
   /**
   * ID of the subnet where the DataProcessing cluster resides. Currently only subnets created in the availability zone `ru-central1-a` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#subnet_id DatasphereProject#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#subnet_id DatasphereProject#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -493,19 +493,19 @@ export interface DatasphereProjectTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#create DatasphereProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#create DatasphereProject#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#delete DatasphereProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#delete DatasphereProject#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#update DatasphereProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#update DatasphereProject#update}
   */
   readonly update?: string;
 }
@@ -657,7 +657,7 @@ export class DatasphereProjectTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project yandex_datasphere_project}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project yandex_datasphere_project}
 */
 export class DatasphereProject extends cdktf.TerraformResource {
 
@@ -673,7 +673,7 @@ export class DatasphereProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatasphereProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasphereProject to import
-  * @param importFromId The id of the existing DatasphereProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasphereProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasphereProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -685,7 +685,7 @@ export class DatasphereProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/datasphere_project yandex_datasphere_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/datasphere_project yandex_datasphere_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -696,8 +696,8 @@ export class DatasphereProject extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_datasphere_project',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

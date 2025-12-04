@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightManagementEntityConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#account_moid DataIntersightManagementEntity#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#account_moid DataIntersightManagementEntity#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,59 +22,59 @@ export interface DataIntersightManagementEntityConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * Cluster link state between the Fabric Interconnects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#cluster_link_state DataIntersightManagementEntity#cluster_link_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#cluster_link_state DataIntersightManagementEntity#cluster_link_state}
   */
   readonly clusterLinkState?: string;
   /**
   * Cluster readiness of the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#cluster_readiness DataIntersightManagementEntity#cluster_readiness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#cluster_readiness DataIntersightManagementEntity#cluster_readiness}
   */
   readonly clusterReadiness?: string;
   /**
   * Cluster state of the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#cluster_state DataIntersightManagementEntity#cluster_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#cluster_state DataIntersightManagementEntity#cluster_state}
   */
   readonly clusterState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#create_time DataIntersightManagementEntity#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#create_time DataIntersightManagementEntity#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#device_mo_id DataIntersightManagementEntity#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#device_mo_id DataIntersightManagementEntity#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#dn DataIntersightManagementEntity#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#dn DataIntersightManagementEntity#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#domain_group_moid DataIntersightManagementEntity#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#domain_group_moid DataIntersightManagementEntity#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Identity of the Fabric Interconnect - A/B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#entity_id DataIntersightManagementEntity#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#entity_id DataIntersightManagementEntity#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#id DataIntersightManagementEntity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#id DataIntersightManagementEntity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,91 +83,91 @@ export interface DataIntersightManagementEntityConfig extends cdktf.TerraformMet
   /**
   * Role (Primary / Subordinate) of the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#leadership DataIntersightManagementEntity#leadership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#leadership DataIntersightManagementEntity#leadership}
   */
   readonly leadership?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#mod_time DataIntersightManagementEntity#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#mod_time DataIntersightManagementEntity#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#owners DataIntersightManagementEntity#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#owners DataIntersightManagementEntity#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#rn DataIntersightManagementEntity#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#rn DataIntersightManagementEntity#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#shared_scope DataIntersightManagementEntity#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#shared_scope DataIntersightManagementEntity#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#ancestors DataIntersightManagementEntity#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#ancestors DataIntersightManagementEntity#ancestors}
   */
   readonly ancestors?: DataIntersightManagementEntityAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#inventory_device_info DataIntersightManagementEntity#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#inventory_device_info DataIntersightManagementEntity#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightManagementEntityInventoryDeviceInfo;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#network_element DataIntersightManagementEntity#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#network_element DataIntersightManagementEntity#network_element}
   */
   readonly networkElement?: DataIntersightManagementEntityNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#parent DataIntersightManagementEntity#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#parent DataIntersightManagementEntity#parent}
   */
   readonly parent?: DataIntersightManagementEntityParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#permission_resources DataIntersightManagementEntity#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#permission_resources DataIntersightManagementEntity#permission_resources}
   */
   readonly permissionResources?: DataIntersightManagementEntityPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#registered_device DataIntersightManagementEntity#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#registered_device DataIntersightManagementEntity#registered_device}
   */
   readonly registeredDevice?: DataIntersightManagementEntityRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#tags DataIntersightManagementEntity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#tags DataIntersightManagementEntity#tags}
   */
   readonly tags?: DataIntersightManagementEntityTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#version_context DataIntersightManagementEntity#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#version_context DataIntersightManagementEntity#version_context}
   */
   readonly versionContext?: DataIntersightManagementEntityVersionContext;
 }
@@ -1560,7 +1560,7 @@ export class DataIntersightManagementEntityResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightManagementEntityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1568,19 +1568,19 @@ export interface DataIntersightManagementEntityAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1593,7 +1593,7 @@ export interface DataIntersightManagementEntityAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -1825,7 +1825,7 @@ export class DataIntersightManagementEntityAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightManagementEntityInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1833,19 +1833,19 @@ export interface DataIntersightManagementEntityInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1858,7 +1858,7 @@ export interface DataIntersightManagementEntityInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -2058,7 +2058,7 @@ export class DataIntersightManagementEntityInventoryDeviceInfoOutputReference ex
 }
 export interface DataIntersightManagementEntityNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2066,19 +2066,19 @@ export interface DataIntersightManagementEntityNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2091,7 +2091,7 @@ export interface DataIntersightManagementEntityNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -2291,7 +2291,7 @@ export class DataIntersightManagementEntityNetworkElementOutputReference extends
 }
 export interface DataIntersightManagementEntityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2299,19 +2299,19 @@ export interface DataIntersightManagementEntityParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2324,7 +2324,7 @@ export interface DataIntersightManagementEntityParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -2524,7 +2524,7 @@ export class DataIntersightManagementEntityParentOutputReference extends cdktf.C
 }
 export interface DataIntersightManagementEntityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2532,19 +2532,19 @@ export interface DataIntersightManagementEntityPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2557,7 +2557,7 @@ export interface DataIntersightManagementEntityPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -2789,7 +2789,7 @@ export class DataIntersightManagementEntityPermissionResourcesList extends cdktf
 }
 export interface DataIntersightManagementEntityRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2797,19 +2797,19 @@ export interface DataIntersightManagementEntityRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2822,7 +2822,7 @@ export interface DataIntersightManagementEntityRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -3022,7 +3022,7 @@ export class DataIntersightManagementEntityRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightManagementEntityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3030,19 +3030,19 @@ export interface DataIntersightManagementEntityTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3055,7 +3055,7 @@ export interface DataIntersightManagementEntityTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -3287,7 +3287,7 @@ export class DataIntersightManagementEntityTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightManagementEntityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3295,19 +3295,19 @@ export interface DataIntersightManagementEntityTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3320,7 +3320,7 @@ export interface DataIntersightManagementEntityTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -3520,25 +3520,25 @@ export class DataIntersightManagementEntityTagsDefinitionOutputReference extends
 }
 export interface DataIntersightManagementEntityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#key DataIntersightManagementEntity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#key DataIntersightManagementEntity#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#propagated DataIntersightManagementEntity#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#propagated DataIntersightManagementEntity#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#sys_tag DataIntersightManagementEntity#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#sys_tag DataIntersightManagementEntity#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3546,25 +3546,25 @@ export interface DataIntersightManagementEntityTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#type DataIntersightManagementEntity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#type DataIntersightManagementEntity#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#value DataIntersightManagementEntity#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#value DataIntersightManagementEntity#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#ancestor_definitions DataIntersightManagementEntity#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#ancestor_definitions DataIntersightManagementEntity#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightManagementEntityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#definition DataIntersightManagementEntity#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#definition DataIntersightManagementEntity#definition}
   */
   readonly definition?: DataIntersightManagementEntityTagsDefinition;
 }
@@ -3883,7 +3883,7 @@ export class DataIntersightManagementEntityTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightManagementEntityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3891,19 +3891,19 @@ export interface DataIntersightManagementEntityVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3916,7 +3916,7 @@ export interface DataIntersightManagementEntityVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -4148,7 +4148,7 @@ export class DataIntersightManagementEntityVersionContextInterestedMosList exten
 }
 export interface DataIntersightManagementEntityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4156,19 +4156,19 @@ export interface DataIntersightManagementEntityVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#moid DataIntersightManagementEntity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4181,7 +4181,7 @@ export interface DataIntersightManagementEntityVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#selector DataIntersightManagementEntity#selector}
   */
   readonly selector?: string;
 }
@@ -4381,7 +4381,7 @@ export class DataIntersightManagementEntityVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightManagementEntityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#additional_properties DataIntersightManagementEntity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4389,32 +4389,32 @@ export interface DataIntersightManagementEntityVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#class_id DataIntersightManagementEntity#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#marked_for_deletion DataIntersightManagementEntity#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#marked_for_deletion DataIntersightManagementEntity#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#nr_version DataIntersightManagementEntity#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#nr_version DataIntersightManagementEntity#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#object_type DataIntersightManagementEntity#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#timestamp DataIntersightManagementEntity#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#timestamp DataIntersightManagementEntity#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4425,19 +4425,19 @@ export interface DataIntersightManagementEntityVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#version_type DataIntersightManagementEntity#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#version_type DataIntersightManagementEntity#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#interested_mos DataIntersightManagementEntity#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#interested_mos DataIntersightManagementEntity#interested_mos}
   */
   readonly interestedMos?: DataIntersightManagementEntityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#ref_mo DataIntersightManagementEntity#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#ref_mo DataIntersightManagementEntity#ref_mo}
   */
   readonly refMo?: DataIntersightManagementEntityVersionContextRefMo;
 }
@@ -4753,7 +4753,7 @@ export class DataIntersightManagementEntityVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity intersight_management_entity}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity intersight_management_entity}
 */
 export class DataIntersightManagementEntity extends cdktf.TerraformDataSource {
 
@@ -4769,7 +4769,7 @@ export class DataIntersightManagementEntity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightManagementEntity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightManagementEntity to import
-  * @param importFromId The id of the existing DataIntersightManagementEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightManagementEntity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightManagementEntity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4781,7 +4781,7 @@ export class DataIntersightManagementEntity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/management_entity intersight_management_entity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/management_entity intersight_management_entity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4792,8 +4792,8 @@ export class DataIntersightManagementEntity extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_management_entity',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

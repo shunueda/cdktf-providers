@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ConnectorpackConnectorPackUpgradeConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#account_moid ConnectorpackConnectorPackUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#account_moid ConnectorpackConnectorPackUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#ancestors ConnectorpackConnectorPackUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#ancestors ConnectorpackConnectorPackUpgrade#ancestors}
   */
   readonly ancestors?: ConnectorpackConnectorPackUpgradeAncestors[] | cdktf.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface ConnectorpackConnectorPackUpgradeConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -36,23 +36,23 @@ export interface ConnectorpackConnectorPackUpgradeConfig extends cdktf.Terraform
   * * `Install` - Installs the requisite connector packs on UCS Director.
   * * `Push` - Pushes the requisite connector packs to UCS Director.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#connector_pack_op_type ConnectorpackConnectorPackUpgrade#connector_pack_op_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#connector_pack_op_type ConnectorpackConnectorPackUpgrade#connector_pack_op_type}
   */
   readonly connectorPackOpType?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#create_time ConnectorpackConnectorPackUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#create_time ConnectorpackConnectorPackUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#domain_group_moid ConnectorpackConnectorPackUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#domain_group_moid ConnectorpackConnectorPackUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#id ConnectorpackConnectorPackUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#id ConnectorpackConnectorPackUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,96 +61,96 @@ export interface ConnectorpackConnectorPackUpgradeConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#mod_time ConnectorpackConnectorPackUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#mod_time ConnectorpackConnectorPackUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#owners ConnectorpackConnectorPackUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#owners ConnectorpackConnectorPackUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#parent ConnectorpackConnectorPackUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#parent ConnectorpackConnectorPackUpgrade#parent}
   */
   readonly parent?: ConnectorpackConnectorPackUpgradeParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#permission_resources ConnectorpackConnectorPackUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#permission_resources ConnectorpackConnectorPackUpgrade#permission_resources}
   */
   readonly permissionResources?: ConnectorpackConnectorPackUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#shared_scope ConnectorpackConnectorPackUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#shared_scope ConnectorpackConnectorPackUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#tags ConnectorpackConnectorPackUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#tags ConnectorpackConnectorPackUpgrade#tags}
   */
   readonly tags?: ConnectorpackConnectorPackUpgradeTags[] | cdktf.IResolvable;
   /**
   * A reference to a iaasUcsdInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#ucsd_info ConnectorpackConnectorPackUpgrade#ucsd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#ucsd_info ConnectorpackConnectorPackUpgrade#ucsd_info}
   */
   readonly ucsdInfo?: ConnectorpackConnectorPackUpgradeUcsdInfo[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#version_context ConnectorpackConnectorPackUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#version_context ConnectorpackConnectorPackUpgrade#version_context}
   */
   readonly versionContext?: ConnectorpackConnectorPackUpgradeVersionContext[] | cdktf.IResolvable;
   /**
   * This model object can trigger workflows. Use this option to wait for all running workflows to reach a complete state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#wait_for_completion ConnectorpackConnectorPackUpgrade#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#wait_for_completion ConnectorpackConnectorPackUpgrade#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * A reference to a workflowWorkflowInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#workflow ConnectorpackConnectorPackUpgrade#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#workflow ConnectorpackConnectorPackUpgrade#workflow}
   */
   readonly workflow?: ConnectorpackConnectorPackUpgradeWorkflow[] | cdktf.IResolvable;
 }
 export interface ConnectorpackConnectorPackUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -382,23 +382,23 @@ export class ConnectorpackConnectorPackUpgradeAncestorsList extends cdktf.Comple
 }
 export interface ConnectorpackConnectorPackUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -630,23 +630,23 @@ export class ConnectorpackConnectorPackUpgradeParentList extends cdktf.ComplexLi
 }
 export interface ConnectorpackConnectorPackUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -878,23 +878,23 @@ export class ConnectorpackConnectorPackUpgradePermissionResourcesList extends cd
 }
 export interface ConnectorpackConnectorPackUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1126,23 +1126,23 @@ export class ConnectorpackConnectorPackUpgradeTagsAncestorDefinitionsList extend
 }
 export interface ConnectorpackConnectorPackUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1374,35 +1374,35 @@ export class ConnectorpackConnectorPackUpgradeTagsDefinitionList extends cdktf.C
 }
 export interface ConnectorpackConnectorPackUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#ancestor_definitions ConnectorpackConnectorPackUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#ancestor_definitions ConnectorpackConnectorPackUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ConnectorpackConnectorPackUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#definition ConnectorpackConnectorPackUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#definition ConnectorpackConnectorPackUpgrade#definition}
   */
   readonly definition?: ConnectorpackConnectorPackUpgradeTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#key ConnectorpackConnectorPackUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#key ConnectorpackConnectorPackUpgrade#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#propagated ConnectorpackConnectorPackUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#propagated ConnectorpackConnectorPackUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#sys_tag ConnectorpackConnectorPackUpgrade#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#sys_tag ConnectorpackConnectorPackUpgrade#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#type ConnectorpackConnectorPackUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#type ConnectorpackConnectorPackUpgrade#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#value ConnectorpackConnectorPackUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#value ConnectorpackConnectorPackUpgrade#value}
   */
   readonly value?: string;
 }
@@ -1721,23 +1721,23 @@ export class ConnectorpackConnectorPackUpgradeTagsList extends cdktf.ComplexList
 }
 export interface ConnectorpackConnectorPackUpgradeUcsdInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1969,23 +1969,23 @@ export class ConnectorpackConnectorPackUpgradeUcsdInfoList extends cdktf.Complex
 }
 export interface ConnectorpackConnectorPackUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2217,23 +2217,23 @@ export class ConnectorpackConnectorPackUpgradeVersionContextInterestedMosList ex
 }
 export interface ConnectorpackConnectorPackUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2465,39 +2465,39 @@ export class ConnectorpackConnectorPackUpgradeVersionContextRefMoList extends cd
 }
 export interface ConnectorpackConnectorPackUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#interested_mos ConnectorpackConnectorPackUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#interested_mos ConnectorpackConnectorPackUpgrade#interested_mos}
   */
   readonly interestedMos?: ConnectorpackConnectorPackUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#marked_for_deletion ConnectorpackConnectorPackUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#marked_for_deletion ConnectorpackConnectorPackUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#nr_version ConnectorpackConnectorPackUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#nr_version ConnectorpackConnectorPackUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#ref_mo ConnectorpackConnectorPackUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#ref_mo ConnectorpackConnectorPackUpgrade#ref_mo}
   */
   readonly refMo?: ConnectorpackConnectorPackUpgradeVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#timestamp ConnectorpackConnectorPackUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#timestamp ConnectorpackConnectorPackUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#version_type ConnectorpackConnectorPackUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#version_type ConnectorpackConnectorPackUpgrade#version_type}
   */
   readonly versionType?: string;
 }
@@ -2845,23 +2845,23 @@ export class ConnectorpackConnectorPackUpgradeVersionContextList extends cdktf.C
 }
 export interface ConnectorpackConnectorPackUpgradeWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#additional_properties ConnectorpackConnectorPackUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#class_id ConnectorpackConnectorPackUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#moid ConnectorpackConnectorPackUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#object_type ConnectorpackConnectorPackUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#selector ConnectorpackConnectorPackUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3093,7 +3093,7 @@ export class ConnectorpackConnectorPackUpgradeWorkflowList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade intersight_connectorpack_connector_pack_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade intersight_connectorpack_connector_pack_upgrade}
 */
 export class ConnectorpackConnectorPackUpgrade extends cdktf.TerraformResource {
 
@@ -3109,7 +3109,7 @@ export class ConnectorpackConnectorPackUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorpackConnectorPackUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorpackConnectorPackUpgrade to import
-  * @param importFromId The id of the existing ConnectorpackConnectorPackUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorpackConnectorPackUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorpackConnectorPackUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3121,7 +3121,7 @@ export class ConnectorpackConnectorPackUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/connectorpack_connector_pack_upgrade intersight_connectorpack_connector_pack_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/connectorpack_connector_pack_upgrade intersight_connectorpack_connector_pack_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3132,8 +3132,8 @@ export class ConnectorpackConnectorPackUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_connectorpack_connector_pack_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamSessionLimitsConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#account_moid DataIntersightIamSessionLimits#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#account_moid DataIntersightIamSessionLimits#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIamSessionLimitsConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#create_time DataIntersightIamSessionLimits#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#create_time DataIntersightIamSessionLimits#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#domain_group_moid DataIntersightIamSessionLimits#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#domain_group_moid DataIntersightIamSessionLimits#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#id DataIntersightIamSessionLimits#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#id DataIntersightIamSessionLimits#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,97 +47,97 @@ export interface DataIntersightIamSessionLimitsConfig extends cdktf.TerraformMet
   /**
   * The idle timeout interval for the web session in seconds. When a session is not refreshed for this duration, the session is marked as idle and removed. The minimum value is 300 seconds and the maximum value is 18000 seconds (5 hours). The system default value is 1800 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#idle_time_out DataIntersightIamSessionLimits#idle_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#idle_time_out DataIntersightIamSessionLimits#idle_time_out}
   */
   readonly idleTimeOut?: number;
   /**
   * The maximum number of sessions allowed in an account or permission. The default value is 128.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#maximum_limit DataIntersightIamSessionLimits#maximum_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#maximum_limit DataIntersightIamSessionLimits#maximum_limit}
   */
   readonly maximumLimit?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#mod_time DataIntersightIamSessionLimits#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#mod_time DataIntersightIamSessionLimits#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#owners DataIntersightIamSessionLimits#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#owners DataIntersightIamSessionLimits#owners}
   */
   readonly owners?: string[];
   /**
   * The maximum number of sessions allowed per user. Default value is 32.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#per_user_limit DataIntersightIamSessionLimits#per_user_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#per_user_limit DataIntersightIamSessionLimits#per_user_limit}
   */
   readonly perUserLimit?: number;
   /**
   * The session expiry duration in seconds. The minimum value is 350 seconds and the maximum value is 31536000 seconds (1 year). The system default value is 57600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#session_time_out DataIntersightIamSessionLimits#session_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#session_time_out DataIntersightIamSessionLimits#session_time_out}
   */
   readonly sessionTimeOut?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#shared_scope DataIntersightIamSessionLimits#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#shared_scope DataIntersightIamSessionLimits#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#account DataIntersightIamSessionLimits#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#account DataIntersightIamSessionLimits#account}
   */
   readonly account?: DataIntersightIamSessionLimitsAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#ancestors DataIntersightIamSessionLimits#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#ancestors DataIntersightIamSessionLimits#ancestors}
   */
   readonly ancestors?: DataIntersightIamSessionLimitsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#parent DataIntersightIamSessionLimits#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#parent DataIntersightIamSessionLimits#parent}
   */
   readonly parent?: DataIntersightIamSessionLimitsParent;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#permission DataIntersightIamSessionLimits#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#permission DataIntersightIamSessionLimits#permission}
   */
   readonly permission?: DataIntersightIamSessionLimitsPermission;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#permission_resources DataIntersightIamSessionLimits#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#permission_resources DataIntersightIamSessionLimits#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamSessionLimitsPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#tags DataIntersightIamSessionLimits#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#tags DataIntersightIamSessionLimits#tags}
   */
   readonly tags?: DataIntersightIamSessionLimitsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#version_context DataIntersightIamSessionLimits#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#version_context DataIntersightIamSessionLimits#version_context}
   */
   readonly versionContext?: DataIntersightIamSessionLimitsVersionContext;
 }
@@ -1409,7 +1409,7 @@ export class DataIntersightIamSessionLimitsResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightIamSessionLimitsAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1417,19 +1417,19 @@ export interface DataIntersightIamSessionLimitsAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1442,7 +1442,7 @@ export interface DataIntersightIamSessionLimitsAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -1642,7 +1642,7 @@ export class DataIntersightIamSessionLimitsAccountOutputReference extends cdktf.
 }
 export interface DataIntersightIamSessionLimitsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1650,19 +1650,19 @@ export interface DataIntersightIamSessionLimitsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1675,7 +1675,7 @@ export interface DataIntersightIamSessionLimitsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -1907,7 +1907,7 @@ export class DataIntersightIamSessionLimitsAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightIamSessionLimitsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1915,19 +1915,19 @@ export interface DataIntersightIamSessionLimitsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1940,7 +1940,7 @@ export interface DataIntersightIamSessionLimitsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -2140,7 +2140,7 @@ export class DataIntersightIamSessionLimitsParentOutputReference extends cdktf.C
 }
 export interface DataIntersightIamSessionLimitsPermission {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2148,19 +2148,19 @@ export interface DataIntersightIamSessionLimitsPermission {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2173,7 +2173,7 @@ export interface DataIntersightIamSessionLimitsPermission {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -2373,7 +2373,7 @@ export class DataIntersightIamSessionLimitsPermissionOutputReference extends cdk
 }
 export interface DataIntersightIamSessionLimitsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2381,19 +2381,19 @@ export interface DataIntersightIamSessionLimitsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2406,7 +2406,7 @@ export interface DataIntersightIamSessionLimitsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -2638,7 +2638,7 @@ export class DataIntersightIamSessionLimitsPermissionResourcesList extends cdktf
 }
 export interface DataIntersightIamSessionLimitsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2646,19 +2646,19 @@ export interface DataIntersightIamSessionLimitsTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2671,7 +2671,7 @@ export interface DataIntersightIamSessionLimitsTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -2903,7 +2903,7 @@ export class DataIntersightIamSessionLimitsTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightIamSessionLimitsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2911,19 +2911,19 @@ export interface DataIntersightIamSessionLimitsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2936,7 +2936,7 @@ export interface DataIntersightIamSessionLimitsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -3136,25 +3136,25 @@ export class DataIntersightIamSessionLimitsTagsDefinitionOutputReference extends
 }
 export interface DataIntersightIamSessionLimitsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#key DataIntersightIamSessionLimits#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#key DataIntersightIamSessionLimits#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#propagated DataIntersightIamSessionLimits#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#propagated DataIntersightIamSessionLimits#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#sys_tag DataIntersightIamSessionLimits#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#sys_tag DataIntersightIamSessionLimits#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3162,25 +3162,25 @@ export interface DataIntersightIamSessionLimitsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#type DataIntersightIamSessionLimits#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#type DataIntersightIamSessionLimits#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#value DataIntersightIamSessionLimits#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#value DataIntersightIamSessionLimits#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#ancestor_definitions DataIntersightIamSessionLimits#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#ancestor_definitions DataIntersightIamSessionLimits#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamSessionLimitsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#definition DataIntersightIamSessionLimits#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#definition DataIntersightIamSessionLimits#definition}
   */
   readonly definition?: DataIntersightIamSessionLimitsTagsDefinition;
 }
@@ -3499,7 +3499,7 @@ export class DataIntersightIamSessionLimitsTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamSessionLimitsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3507,19 +3507,19 @@ export interface DataIntersightIamSessionLimitsVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3532,7 +3532,7 @@ export interface DataIntersightIamSessionLimitsVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -3764,7 +3764,7 @@ export class DataIntersightIamSessionLimitsVersionContextInterestedMosList exten
 }
 export interface DataIntersightIamSessionLimitsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3772,19 +3772,19 @@ export interface DataIntersightIamSessionLimitsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#moid DataIntersightIamSessionLimits#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3797,7 +3797,7 @@ export interface DataIntersightIamSessionLimitsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#selector DataIntersightIamSessionLimits#selector}
   */
   readonly selector?: string;
 }
@@ -3997,7 +3997,7 @@ export class DataIntersightIamSessionLimitsVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightIamSessionLimitsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#additional_properties DataIntersightIamSessionLimits#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4005,32 +4005,32 @@ export interface DataIntersightIamSessionLimitsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#class_id DataIntersightIamSessionLimits#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#marked_for_deletion DataIntersightIamSessionLimits#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#marked_for_deletion DataIntersightIamSessionLimits#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#nr_version DataIntersightIamSessionLimits#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#nr_version DataIntersightIamSessionLimits#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#object_type DataIntersightIamSessionLimits#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#timestamp DataIntersightIamSessionLimits#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#timestamp DataIntersightIamSessionLimits#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4041,19 +4041,19 @@ export interface DataIntersightIamSessionLimitsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#version_type DataIntersightIamSessionLimits#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#version_type DataIntersightIamSessionLimits#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#interested_mos DataIntersightIamSessionLimits#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#interested_mos DataIntersightIamSessionLimits#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamSessionLimitsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#ref_mo DataIntersightIamSessionLimits#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#ref_mo DataIntersightIamSessionLimits#ref_mo}
   */
   readonly refMo?: DataIntersightIamSessionLimitsVersionContextRefMo;
 }
@@ -4369,7 +4369,7 @@ export class DataIntersightIamSessionLimitsVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits intersight_iam_session_limits}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits intersight_iam_session_limits}
 */
 export class DataIntersightIamSessionLimits extends cdktf.TerraformDataSource {
 
@@ -4385,7 +4385,7 @@ export class DataIntersightIamSessionLimits extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamSessionLimits resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamSessionLimits to import
-  * @param importFromId The id of the existing DataIntersightIamSessionLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamSessionLimits that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamSessionLimits to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4397,7 +4397,7 @@ export class DataIntersightIamSessionLimits extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_session_limits intersight_iam_session_limits} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_session_limits intersight_iam_session_limits} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4408,8 +4408,8 @@ export class DataIntersightIamSessionLimits extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_session_limits',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

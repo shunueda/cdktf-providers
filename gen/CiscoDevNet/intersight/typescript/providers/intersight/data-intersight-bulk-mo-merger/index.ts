@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBulkMoMergerConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightBulkMoMergerConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#id DataIntersightBulkMoMerger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#id DataIntersightBulkMoMerger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,110 +49,110 @@ export interface DataIntersightBulkMoMergerConfig extends cdktf.TerraformMetaArg
   * * `Merge` - The null properties/relationships of the source MO will be ignored for the target MO. The non-null properties/relationships of the source will override the target MO properties/relationships.
   * * `Replace` - Merge action as described in RFC 7386. The null properties/relationships of the source MO will be deleted on the target MO.The non-null properties/relationships of the source will override the target MO properties/relationships.When source object type is different from target, only the properties common to both source and target  will be affected.Other properties on the target will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#merge_action DataIntersightBulkMoMerger#merge_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#merge_action DataIntersightBulkMoMerger#merge_action}
   */
   readonly mergeAction?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A user-friendly short name to identify the workflow. Name can only contain letters (a-z, A-Z),
   * numbers (0-9), hyphen (-), period (.), colon (:), space ( ), forward slash (/), comma or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#workflow_name_suffix DataIntersightBulkMoMerger#workflow_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#workflow_name_suffix DataIntersightBulkMoMerger#workflow_name_suffix}
   */
   readonly workflowNameSuffix?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoMergerAncestors[] | cdktf.IResolvable;
   /**
   * async_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#async_result DataIntersightBulkMoMerger#async_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#async_result DataIntersightBulkMoMerger#async_result}
   */
   readonly asyncResult?: DataIntersightBulkMoMergerAsyncResult;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#organization DataIntersightBulkMoMerger#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#organization DataIntersightBulkMoMerger#organization}
   */
   readonly organization?: DataIntersightBulkMoMergerOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
   */
   readonly parent?: DataIntersightBulkMoMergerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoMergerPermissionResources[] | cdktf.IResolvable;
   /**
   * responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#responses DataIntersightBulkMoMerger#responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#responses DataIntersightBulkMoMerger#responses}
   */
   readonly responses?: DataIntersightBulkMoMergerResponses[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sources DataIntersightBulkMoMerger#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sources DataIntersightBulkMoMerger#sources}
   */
   readonly sources?: DataIntersightBulkMoMergerSources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
   */
   readonly tags?: DataIntersightBulkMoMergerTags[] | cdktf.IResolvable;
   /**
   * target_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#target_config DataIntersightBulkMoMerger#target_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#target_config DataIntersightBulkMoMerger#target_config}
   */
   readonly targetConfig?: DataIntersightBulkMoMergerTargetConfig;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#targets DataIntersightBulkMoMerger#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#targets DataIntersightBulkMoMerger#targets}
   */
   readonly targets?: DataIntersightBulkMoMergerTargets[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoMergerVersionContext;
 }
@@ -5715,7 +5715,7 @@ export class DataIntersightBulkMoMergerResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5723,19 +5723,19 @@ export interface DataIntersightBulkMoMergerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5748,7 +5748,7 @@ export interface DataIntersightBulkMoMergerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -5980,7 +5980,7 @@ export class DataIntersightBulkMoMergerAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerAsyncResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5988,19 +5988,19 @@ export interface DataIntersightBulkMoMergerAsyncResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6013,7 +6013,7 @@ export interface DataIntersightBulkMoMergerAsyncResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -6213,7 +6213,7 @@ export class DataIntersightBulkMoMergerAsyncResultOutputReference extends cdktf.
 }
 export interface DataIntersightBulkMoMergerOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6221,19 +6221,19 @@ export interface DataIntersightBulkMoMergerOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6246,7 +6246,7 @@ export interface DataIntersightBulkMoMergerOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -6446,7 +6446,7 @@ export class DataIntersightBulkMoMergerOrganizationOutputReference extends cdktf
 }
 export interface DataIntersightBulkMoMergerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6454,19 +6454,19 @@ export interface DataIntersightBulkMoMergerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6479,7 +6479,7 @@ export interface DataIntersightBulkMoMergerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -6679,7 +6679,7 @@ export class DataIntersightBulkMoMergerParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBulkMoMergerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6687,19 +6687,19 @@ export interface DataIntersightBulkMoMergerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6712,7 +6712,7 @@ export interface DataIntersightBulkMoMergerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -6944,7 +6944,7 @@ export class DataIntersightBulkMoMergerPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightBulkMoMergerResponsesBodyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6952,19 +6952,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6977,7 +6977,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -7209,7 +7209,7 @@ export class DataIntersightBulkMoMergerResponsesBodyAncestorsList extends cdktf.
 }
 export interface DataIntersightBulkMoMergerResponsesBodyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7217,19 +7217,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7242,7 +7242,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -7442,7 +7442,7 @@ export class DataIntersightBulkMoMergerResponsesBodyParentOutputReference extend
 }
 export interface DataIntersightBulkMoMergerResponsesBodyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7450,19 +7450,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7475,7 +7475,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -7707,7 +7707,7 @@ export class DataIntersightBulkMoMergerResponsesBodyPermissionResourcesList exte
 }
 export interface DataIntersightBulkMoMergerResponsesBodyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7715,19 +7715,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7740,7 +7740,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -7972,7 +7972,7 @@ export class DataIntersightBulkMoMergerResponsesBodyTagsAncestorDefinitionsList 
 }
 export interface DataIntersightBulkMoMergerResponsesBodyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7980,19 +7980,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8005,7 +8005,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -8205,25 +8205,25 @@ export class DataIntersightBulkMoMergerResponsesBodyTagsDefinitionOutputReferenc
 }
 export interface DataIntersightBulkMoMergerResponsesBodyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -8231,25 +8231,25 @@ export interface DataIntersightBulkMoMergerResponsesBodyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoMergerResponsesBodyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
   */
   readonly definition?: DataIntersightBulkMoMergerResponsesBodyTagsDefinition;
 }
@@ -8568,7 +8568,7 @@ export class DataIntersightBulkMoMergerResponsesBodyTagsList extends cdktf.Compl
 }
 export interface DataIntersightBulkMoMergerResponsesBodyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8576,19 +8576,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8601,7 +8601,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -8833,7 +8833,7 @@ export class DataIntersightBulkMoMergerResponsesBodyVersionContextInterestedMosL
 }
 export interface DataIntersightBulkMoMergerResponsesBodyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8841,19 +8841,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8866,7 +8866,7 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -9066,7 +9066,7 @@ export class DataIntersightBulkMoMergerResponsesBodyVersionContextRefMoOutputRef
 }
 export interface DataIntersightBulkMoMergerResponsesBodyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9074,32 +9074,32 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -9110,19 +9110,19 @@ export interface DataIntersightBulkMoMergerResponsesBodyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoMergerResponsesBodyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoMergerResponsesBodyVersionContextRefMo;
 }
@@ -9440,11 +9440,11 @@ export interface DataIntersightBulkMoMergerResponsesBody {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9453,31 +9453,31 @@ export interface DataIntersightBulkMoMergerResponsesBody {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
@@ -9485,48 +9485,48 @@ export interface DataIntersightBulkMoMergerResponsesBody {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoMergerResponsesBodyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
   */
   readonly parent?: DataIntersightBulkMoMergerResponsesBodyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoMergerResponsesBodyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
   */
   readonly tags?: DataIntersightBulkMoMergerResponsesBodyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoMergerResponsesBodyVersionContext;
 }
@@ -10016,13 +10016,13 @@ export class DataIntersightBulkMoMergerResponsesBodyOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoMergerResponses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The response string for an individual REST API action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#body_string DataIntersightBulkMoMerger#body_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#body_string DataIntersightBulkMoMerger#body_string}
   */
   readonly bodyString?: string;
   /**
@@ -10030,26 +10030,26 @@ export interface DataIntersightBulkMoMergerResponses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The http return status of the individual API action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#status DataIntersightBulkMoMerger#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#status DataIntersightBulkMoMerger#status}
   */
   readonly status?: number;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#body DataIntersightBulkMoMerger#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#body DataIntersightBulkMoMerger#body}
   */
   readonly body?: DataIntersightBulkMoMergerResponsesBody;
 }
@@ -10310,7 +10310,7 @@ export class DataIntersightBulkMoMergerResponsesList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerSourcesAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10318,19 +10318,19 @@ export interface DataIntersightBulkMoMergerSourcesAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10343,7 +10343,7 @@ export interface DataIntersightBulkMoMergerSourcesAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -10575,7 +10575,7 @@ export class DataIntersightBulkMoMergerSourcesAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightBulkMoMergerSourcesParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10583,19 +10583,19 @@ export interface DataIntersightBulkMoMergerSourcesParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10608,7 +10608,7 @@ export interface DataIntersightBulkMoMergerSourcesParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -10808,7 +10808,7 @@ export class DataIntersightBulkMoMergerSourcesParentOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoMergerSourcesPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10816,19 +10816,19 @@ export interface DataIntersightBulkMoMergerSourcesPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10841,7 +10841,7 @@ export interface DataIntersightBulkMoMergerSourcesPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -11073,7 +11073,7 @@ export class DataIntersightBulkMoMergerSourcesPermissionResourcesList extends cd
 }
 export interface DataIntersightBulkMoMergerSourcesTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11081,19 +11081,19 @@ export interface DataIntersightBulkMoMergerSourcesTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11106,7 +11106,7 @@ export interface DataIntersightBulkMoMergerSourcesTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -11338,7 +11338,7 @@ export class DataIntersightBulkMoMergerSourcesTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightBulkMoMergerSourcesTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11346,19 +11346,19 @@ export interface DataIntersightBulkMoMergerSourcesTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11371,7 +11371,7 @@ export interface DataIntersightBulkMoMergerSourcesTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -11571,25 +11571,25 @@ export class DataIntersightBulkMoMergerSourcesTagsDefinitionOutputReference exte
 }
 export interface DataIntersightBulkMoMergerSourcesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -11597,25 +11597,25 @@ export interface DataIntersightBulkMoMergerSourcesTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoMergerSourcesTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
   */
   readonly definition?: DataIntersightBulkMoMergerSourcesTagsDefinition;
 }
@@ -11934,7 +11934,7 @@ export class DataIntersightBulkMoMergerSourcesTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightBulkMoMergerSourcesVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11942,19 +11942,19 @@ export interface DataIntersightBulkMoMergerSourcesVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11967,7 +11967,7 @@ export interface DataIntersightBulkMoMergerSourcesVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -12199,7 +12199,7 @@ export class DataIntersightBulkMoMergerSourcesVersionContextInterestedMosList ex
 }
 export interface DataIntersightBulkMoMergerSourcesVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12207,19 +12207,19 @@ export interface DataIntersightBulkMoMergerSourcesVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12232,7 +12232,7 @@ export interface DataIntersightBulkMoMergerSourcesVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -12432,7 +12432,7 @@ export class DataIntersightBulkMoMergerSourcesVersionContextRefMoOutputReference
 }
 export interface DataIntersightBulkMoMergerSourcesVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12440,32 +12440,32 @@ export interface DataIntersightBulkMoMergerSourcesVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -12476,19 +12476,19 @@ export interface DataIntersightBulkMoMergerSourcesVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoMergerSourcesVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoMergerSourcesVersionContextRefMo;
 }
@@ -12806,11 +12806,11 @@ export interface DataIntersightBulkMoMergerSources {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12819,31 +12819,31 @@ export interface DataIntersightBulkMoMergerSources {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
@@ -12851,48 +12851,48 @@ export interface DataIntersightBulkMoMergerSources {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoMergerSourcesAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
   */
   readonly parent?: DataIntersightBulkMoMergerSourcesParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoMergerSourcesPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
   */
   readonly tags?: DataIntersightBulkMoMergerSourcesTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoMergerSourcesVersionContext;
 }
@@ -13414,7 +13414,7 @@ export class DataIntersightBulkMoMergerSourcesList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13422,19 +13422,19 @@ export interface DataIntersightBulkMoMergerTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13447,7 +13447,7 @@ export interface DataIntersightBulkMoMergerTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -13679,7 +13679,7 @@ export class DataIntersightBulkMoMergerTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightBulkMoMergerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13687,19 +13687,19 @@ export interface DataIntersightBulkMoMergerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13712,7 +13712,7 @@ export interface DataIntersightBulkMoMergerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -13912,25 +13912,25 @@ export class DataIntersightBulkMoMergerTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightBulkMoMergerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -13938,25 +13938,25 @@ export interface DataIntersightBulkMoMergerTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoMergerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
   */
   readonly definition?: DataIntersightBulkMoMergerTagsDefinition;
 }
@@ -14275,7 +14275,7 @@ export class DataIntersightBulkMoMergerTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerTargetConfigAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14283,19 +14283,19 @@ export interface DataIntersightBulkMoMergerTargetConfigAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14308,7 +14308,7 @@ export interface DataIntersightBulkMoMergerTargetConfigAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -14540,7 +14540,7 @@ export class DataIntersightBulkMoMergerTargetConfigAncestorsList extends cdktf.C
 }
 export interface DataIntersightBulkMoMergerTargetConfigParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14548,19 +14548,19 @@ export interface DataIntersightBulkMoMergerTargetConfigParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14573,7 +14573,7 @@ export interface DataIntersightBulkMoMergerTargetConfigParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -14773,7 +14773,7 @@ export class DataIntersightBulkMoMergerTargetConfigParentOutputReference extends
 }
 export interface DataIntersightBulkMoMergerTargetConfigPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14781,19 +14781,19 @@ export interface DataIntersightBulkMoMergerTargetConfigPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14806,7 +14806,7 @@ export interface DataIntersightBulkMoMergerTargetConfigPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -15038,7 +15038,7 @@ export class DataIntersightBulkMoMergerTargetConfigPermissionResourcesList exten
 }
 export interface DataIntersightBulkMoMergerTargetConfigTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15046,19 +15046,19 @@ export interface DataIntersightBulkMoMergerTargetConfigTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15071,7 +15071,7 @@ export interface DataIntersightBulkMoMergerTargetConfigTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -15303,7 +15303,7 @@ export class DataIntersightBulkMoMergerTargetConfigTagsAncestorDefinitionsList e
 }
 export interface DataIntersightBulkMoMergerTargetConfigTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15311,19 +15311,19 @@ export interface DataIntersightBulkMoMergerTargetConfigTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15336,7 +15336,7 @@ export interface DataIntersightBulkMoMergerTargetConfigTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -15536,25 +15536,25 @@ export class DataIntersightBulkMoMergerTargetConfigTagsDefinitionOutputReference
 }
 export interface DataIntersightBulkMoMergerTargetConfigTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -15562,25 +15562,25 @@ export interface DataIntersightBulkMoMergerTargetConfigTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoMergerTargetConfigTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
   */
   readonly definition?: DataIntersightBulkMoMergerTargetConfigTagsDefinition;
 }
@@ -15899,7 +15899,7 @@ export class DataIntersightBulkMoMergerTargetConfigTagsList extends cdktf.Comple
 }
 export interface DataIntersightBulkMoMergerTargetConfigVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15907,19 +15907,19 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15932,7 +15932,7 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -16164,7 +16164,7 @@ export class DataIntersightBulkMoMergerTargetConfigVersionContextInterestedMosLi
 }
 export interface DataIntersightBulkMoMergerTargetConfigVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16172,19 +16172,19 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16197,7 +16197,7 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -16397,7 +16397,7 @@ export class DataIntersightBulkMoMergerTargetConfigVersionContextRefMoOutputRefe
 }
 export interface DataIntersightBulkMoMergerTargetConfigVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16405,32 +16405,32 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -16441,19 +16441,19 @@ export interface DataIntersightBulkMoMergerTargetConfigVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoMergerTargetConfigVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoMergerTargetConfigVersionContextRefMo;
 }
@@ -16771,11 +16771,11 @@ export interface DataIntersightBulkMoMergerTargetConfig {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16784,31 +16784,31 @@ export interface DataIntersightBulkMoMergerTargetConfig {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
@@ -16816,48 +16816,48 @@ export interface DataIntersightBulkMoMergerTargetConfig {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoMergerTargetConfigAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
   */
   readonly parent?: DataIntersightBulkMoMergerTargetConfigParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoMergerTargetConfigPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
   */
   readonly tags?: DataIntersightBulkMoMergerTargetConfigTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoMergerTargetConfigVersionContext;
 }
@@ -17347,7 +17347,7 @@ export class DataIntersightBulkMoMergerTargetConfigOutputReference extends cdktf
 }
 export interface DataIntersightBulkMoMergerTargetsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17355,19 +17355,19 @@ export interface DataIntersightBulkMoMergerTargetsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17380,7 +17380,7 @@ export interface DataIntersightBulkMoMergerTargetsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -17612,7 +17612,7 @@ export class DataIntersightBulkMoMergerTargetsAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightBulkMoMergerTargetsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17620,19 +17620,19 @@ export interface DataIntersightBulkMoMergerTargetsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17645,7 +17645,7 @@ export interface DataIntersightBulkMoMergerTargetsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -17845,7 +17845,7 @@ export class DataIntersightBulkMoMergerTargetsParentOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoMergerTargetsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17853,19 +17853,19 @@ export interface DataIntersightBulkMoMergerTargetsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17878,7 +17878,7 @@ export interface DataIntersightBulkMoMergerTargetsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -18110,7 +18110,7 @@ export class DataIntersightBulkMoMergerTargetsPermissionResourcesList extends cd
 }
 export interface DataIntersightBulkMoMergerTargetsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18118,19 +18118,19 @@ export interface DataIntersightBulkMoMergerTargetsTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -18143,7 +18143,7 @@ export interface DataIntersightBulkMoMergerTargetsTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -18375,7 +18375,7 @@ export class DataIntersightBulkMoMergerTargetsTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightBulkMoMergerTargetsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18383,19 +18383,19 @@ export interface DataIntersightBulkMoMergerTargetsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -18408,7 +18408,7 @@ export interface DataIntersightBulkMoMergerTargetsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -18608,25 +18608,25 @@ export class DataIntersightBulkMoMergerTargetsTagsDefinitionOutputReference exte
 }
 export interface DataIntersightBulkMoMergerTargetsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#key DataIntersightBulkMoMerger#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#propagated DataIntersightBulkMoMerger#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#sys_tag DataIntersightBulkMoMerger#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -18634,25 +18634,25 @@ export interface DataIntersightBulkMoMergerTargetsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#type DataIntersightBulkMoMerger#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#value DataIntersightBulkMoMerger#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestor_definitions DataIntersightBulkMoMerger#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoMergerTargetsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#definition DataIntersightBulkMoMerger#definition}
   */
   readonly definition?: DataIntersightBulkMoMergerTargetsTagsDefinition;
 }
@@ -18971,7 +18971,7 @@ export class DataIntersightBulkMoMergerTargetsTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightBulkMoMergerTargetsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18979,19 +18979,19 @@ export interface DataIntersightBulkMoMergerTargetsVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -19004,7 +19004,7 @@ export interface DataIntersightBulkMoMergerTargetsVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -19236,7 +19236,7 @@ export class DataIntersightBulkMoMergerTargetsVersionContextInterestedMosList ex
 }
 export interface DataIntersightBulkMoMergerTargetsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -19244,19 +19244,19 @@ export interface DataIntersightBulkMoMergerTargetsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -19269,7 +19269,7 @@ export interface DataIntersightBulkMoMergerTargetsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -19469,7 +19469,7 @@ export class DataIntersightBulkMoMergerTargetsVersionContextRefMoOutputReference
 }
 export interface DataIntersightBulkMoMergerTargetsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -19477,32 +19477,32 @@ export interface DataIntersightBulkMoMergerTargetsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -19513,19 +19513,19 @@ export interface DataIntersightBulkMoMergerTargetsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoMergerTargetsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoMergerTargetsVersionContextRefMo;
 }
@@ -19843,11 +19843,11 @@ export interface DataIntersightBulkMoMergerTargets {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#account_moid DataIntersightBulkMoMerger#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -19856,31 +19856,31 @@ export interface DataIntersightBulkMoMergerTargets {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#create_time DataIntersightBulkMoMerger#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#domain_group_moid DataIntersightBulkMoMerger#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#mod_time DataIntersightBulkMoMerger#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
@@ -19888,48 +19888,48 @@ export interface DataIntersightBulkMoMergerTargets {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#owners DataIntersightBulkMoMerger#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#shared_scope DataIntersightBulkMoMerger#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ancestors DataIntersightBulkMoMerger#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoMergerTargetsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#parent DataIntersightBulkMoMerger#parent}
   */
   readonly parent?: DataIntersightBulkMoMergerTargetsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#permission_resources DataIntersightBulkMoMerger#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoMergerTargetsPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#tags DataIntersightBulkMoMerger#tags}
   */
   readonly tags?: DataIntersightBulkMoMergerTargetsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_context DataIntersightBulkMoMerger#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoMergerTargetsVersionContext;
 }
@@ -20451,7 +20451,7 @@ export class DataIntersightBulkMoMergerTargetsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoMergerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -20459,19 +20459,19 @@ export interface DataIntersightBulkMoMergerVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -20484,7 +20484,7 @@ export interface DataIntersightBulkMoMergerVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -20716,7 +20716,7 @@ export class DataIntersightBulkMoMergerVersionContextInterestedMosList extends c
 }
 export interface DataIntersightBulkMoMergerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -20724,19 +20724,19 @@ export interface DataIntersightBulkMoMergerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#moid DataIntersightBulkMoMerger#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
@@ -20749,7 +20749,7 @@ export interface DataIntersightBulkMoMergerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#selector DataIntersightBulkMoMerger#selector}
   */
   readonly selector?: string;
 }
@@ -20949,7 +20949,7 @@ export class DataIntersightBulkMoMergerVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightBulkMoMergerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#additional_properties DataIntersightBulkMoMerger#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -20957,32 +20957,32 @@ export interface DataIntersightBulkMoMergerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#class_id DataIntersightBulkMoMerger#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#marked_for_deletion DataIntersightBulkMoMerger#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#nr_version DataIntersightBulkMoMerger#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#object_type DataIntersightBulkMoMerger#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#timestamp DataIntersightBulkMoMerger#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -20993,19 +20993,19 @@ export interface DataIntersightBulkMoMergerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#version_type DataIntersightBulkMoMerger#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#interested_mos DataIntersightBulkMoMerger#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoMergerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#ref_mo DataIntersightBulkMoMerger#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoMergerVersionContextRefMo;
 }
@@ -21321,7 +21321,7 @@ export class DataIntersightBulkMoMergerVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger intersight_bulk_mo_merger}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger intersight_bulk_mo_merger}
 */
 export class DataIntersightBulkMoMerger extends cdktf.TerraformDataSource {
 
@@ -21337,7 +21337,7 @@ export class DataIntersightBulkMoMerger extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBulkMoMerger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBulkMoMerger to import
-  * @param importFromId The id of the existing DataIntersightBulkMoMerger that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBulkMoMerger that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBulkMoMerger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -21349,7 +21349,7 @@ export class DataIntersightBulkMoMerger extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_merger intersight_bulk_mo_merger} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_merger intersight_bulk_mo_merger} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -21360,8 +21360,8 @@ export class DataIntersightBulkMoMerger extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bulk_mo_merger',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

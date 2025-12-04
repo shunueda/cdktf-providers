@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PostgresqlReadonlyInstanceConfig extends cdktf.TerraformMetaArg
   /**
   * Auto renew flag, `1` for enabled. NOTES: Only support prepaid instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#auto_renew_flag PostgresqlReadonlyInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#auto_renew_flag PostgresqlReadonlyInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to use voucher, `1` for enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#auto_voucher PostgresqlReadonlyInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#auto_voucher PostgresqlReadonlyInstance#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Number of CPU cores. Allowed value must be equal `cpu` that data source `tencentcloud_postgresql_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#cpu PostgresqlReadonlyInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#cpu PostgresqlReadonlyInstance#cpu}
   */
   readonly cpu?: number;
   /**
   * PostgreSQL kernel version, which must be the same as that of the primary instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#db_version PostgresqlReadonlyInstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#db_version PostgresqlReadonlyInstance#db_version}
   */
   readonly dbVersion: string;
   /**
   * Dedicated cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#dedicated_cluster_id PostgresqlReadonlyInstance#dedicated_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#dedicated_cluster_id PostgresqlReadonlyInstance#dedicated_cluster_id}
   */
   readonly dedicatedClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#id PostgresqlReadonlyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#id PostgresqlReadonlyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,103 +47,103 @@ export interface PostgresqlReadonlyInstanceConfig extends cdktf.TerraformMetaArg
   /**
   * instance billing mode. Valid values: PREPAID (monthly subscription), POSTPAID_BY_HOUR (pay-as-you-go).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#instance_charge_type PostgresqlReadonlyInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#instance_charge_type PostgresqlReadonlyInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * ID of the primary instance to which the read-only replica belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#master_db_instance_id PostgresqlReadonlyInstance#master_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#master_db_instance_id PostgresqlReadonlyInstance#master_db_instance_id}
   */
   readonly masterDbInstanceId: string;
   /**
   * Memory size(in GB). Allowed value must be larger than `memory` that data source `tencentcloud_postgresql_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#memory PostgresqlReadonlyInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#memory PostgresqlReadonlyInstance#memory}
   */
   readonly memory: number;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#name PostgresqlReadonlyInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#name PostgresqlReadonlyInstance#name}
   */
   readonly name: string;
   /**
   * Whether to support IPv6 address access. Valid values: 1 (yes), 0 (no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#need_support_ipv6 PostgresqlReadonlyInstance#need_support_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#need_support_ipv6 PostgresqlReadonlyInstance#need_support_ipv6}
   */
   readonly needSupportIpv6?: number;
   /**
   * Specify Prepaid period in month. Default `1`. Values: `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#period PostgresqlReadonlyInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#period PostgresqlReadonlyInstance#period}
   */
   readonly period?: number;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#project_id PostgresqlReadonlyInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#project_id PostgresqlReadonlyInstance#project_id}
   */
   readonly projectId: number;
   /**
   * RO group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#read_only_group_id PostgresqlReadonlyInstance#read_only_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#read_only_group_id PostgresqlReadonlyInstance#read_only_group_id}
   */
   readonly readOnlyGroupId?: string;
   /**
   * ID of security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#security_groups_ids PostgresqlReadonlyInstance#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#security_groups_ids PostgresqlReadonlyInstance#security_groups_ids}
   */
   readonly securityGroupsIds: string[];
   /**
   * Instance storage capacity in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#storage PostgresqlReadonlyInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#storage PostgresqlReadonlyInstance#storage}
   */
   readonly storage: number;
   /**
   * VPC subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#subnet_id PostgresqlReadonlyInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#subnet_id PostgresqlReadonlyInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#tags PostgresqlReadonlyInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#tags PostgresqlReadonlyInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Specify Voucher Ids if `auto_voucher` was `1`, only support using 1 vouchers for now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#voucher_ids PostgresqlReadonlyInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#voucher_ids PostgresqlReadonlyInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#vpc_id PostgresqlReadonlyInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#vpc_id PostgresqlReadonlyInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * Switch time after instance configurations are modified. `0`: Switch immediately; `2`: Switch during maintenance time window. Default: `0`. Note: This only takes effect when updating the `memory`, `storage`, `cpu` fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#wait_switch PostgresqlReadonlyInstance#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#wait_switch PostgresqlReadonlyInstance#wait_switch}
   */
   readonly waitSwitch?: number;
   /**
   * Availability zone ID, which can be obtained through the Zone field in the returned value of the DescribeZones API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#zone PostgresqlReadonlyInstance#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#zone PostgresqlReadonlyInstance#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance tencentcloud_postgresql_readonly_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance tencentcloud_postgresql_readonly_instance}
 */
 export class PostgresqlReadonlyInstance extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class PostgresqlReadonlyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlReadonlyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlReadonlyInstance to import
-  * @param importFromId The id of the existing PostgresqlReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlReadonlyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class PostgresqlReadonlyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/postgresql_readonly_instance tencentcloud_postgresql_readonly_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/postgresql_readonly_instance tencentcloud_postgresql_readonly_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class PostgresqlReadonlyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_readonly_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

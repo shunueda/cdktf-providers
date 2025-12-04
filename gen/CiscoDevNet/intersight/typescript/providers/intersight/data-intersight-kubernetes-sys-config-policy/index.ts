@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesSysConfigPolicyConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#account_moid DataIntersightKubernetesSysConfigPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#account_moid DataIntersightKubernetesSysConfigPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,39 +22,39 @@ export interface DataIntersightKubernetesSysConfigPolicyConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#create_time DataIntersightKubernetesSysConfigPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#create_time DataIntersightKubernetesSysConfigPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#description DataIntersightKubernetesSysConfigPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#description DataIntersightKubernetesSysConfigPolicy#description}
   */
   readonly description?: string;
   /**
   * The DNS Search Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#dns_domain_name DataIntersightKubernetesSysConfigPolicy#dns_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#dns_domain_name DataIntersightKubernetesSysConfigPolicy#dns_domain_name}
   */
   readonly dnsDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#dns_servers DataIntersightKubernetesSysConfigPolicy#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#dns_servers DataIntersightKubernetesSysConfigPolicy#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#domain_group_moid DataIntersightKubernetesSysConfigPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#domain_group_moid DataIntersightKubernetesSysConfigPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#id DataIntersightKubernetesSysConfigPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#id DataIntersightKubernetesSysConfigPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,41 +63,41 @@ export interface DataIntersightKubernetesSysConfigPolicyConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#mod_time DataIntersightKubernetesSysConfigPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#mod_time DataIntersightKubernetesSysConfigPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#name DataIntersightKubernetesSysConfigPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#name DataIntersightKubernetesSysConfigPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#ntp_servers DataIntersightKubernetesSysConfigPolicy#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#ntp_servers DataIntersightKubernetesSysConfigPolicy#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#owners DataIntersightKubernetesSysConfigPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#owners DataIntersightKubernetesSysConfigPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#shared_scope DataIntersightKubernetesSysConfigPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#shared_scope DataIntersightKubernetesSysConfigPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -527,49 +527,49 @@ export interface DataIntersightKubernetesSysConfigPolicyConfig extends cdktf.Ter
   * * `Pacific/Wallis` - 
   * * `UTC` -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#timezone DataIntersightKubernetesSysConfigPolicy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#timezone DataIntersightKubernetesSysConfigPolicy#timezone}
   */
   readonly timezone?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#ancestors DataIntersightKubernetesSysConfigPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#ancestors DataIntersightKubernetesSysConfigPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesSysConfigPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#cluster_profiles DataIntersightKubernetesSysConfigPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#cluster_profiles DataIntersightKubernetesSysConfigPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightKubernetesSysConfigPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#organization DataIntersightKubernetesSysConfigPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#organization DataIntersightKubernetesSysConfigPolicy#organization}
   */
   readonly organization?: DataIntersightKubernetesSysConfigPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#parent DataIntersightKubernetesSysConfigPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#parent DataIntersightKubernetesSysConfigPolicy#parent}
   */
   readonly parent?: DataIntersightKubernetesSysConfigPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#permission_resources DataIntersightKubernetesSysConfigPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#permission_resources DataIntersightKubernetesSysConfigPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesSysConfigPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#tags DataIntersightKubernetesSysConfigPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#tags DataIntersightKubernetesSysConfigPolicy#tags}
   */
   readonly tags?: DataIntersightKubernetesSysConfigPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#version_context DataIntersightKubernetesSysConfigPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#version_context DataIntersightKubernetesSysConfigPolicy#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesSysConfigPolicyVersionContext;
 }
@@ -1851,7 +1851,7 @@ export class DataIntersightKubernetesSysConfigPolicyResultsList extends cdktf.Co
 }
 export interface DataIntersightKubernetesSysConfigPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1859,19 +1859,19 @@ export interface DataIntersightKubernetesSysConfigPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1884,7 +1884,7 @@ export interface DataIntersightKubernetesSysConfigPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2116,7 +2116,7 @@ export class DataIntersightKubernetesSysConfigPolicyAncestorsList extends cdktf.
 }
 export interface DataIntersightKubernetesSysConfigPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2124,19 +2124,19 @@ export interface DataIntersightKubernetesSysConfigPolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2149,7 +2149,7 @@ export interface DataIntersightKubernetesSysConfigPolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2381,7 +2381,7 @@ export class DataIntersightKubernetesSysConfigPolicyClusterProfilesList extends 
 }
 export interface DataIntersightKubernetesSysConfigPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2389,19 +2389,19 @@ export interface DataIntersightKubernetesSysConfigPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2414,7 +2414,7 @@ export interface DataIntersightKubernetesSysConfigPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2614,7 +2614,7 @@ export class DataIntersightKubernetesSysConfigPolicyOrganizationOutputReference 
 }
 export interface DataIntersightKubernetesSysConfigPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2622,19 +2622,19 @@ export interface DataIntersightKubernetesSysConfigPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2647,7 +2647,7 @@ export interface DataIntersightKubernetesSysConfigPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2847,7 +2847,7 @@ export class DataIntersightKubernetesSysConfigPolicyParentOutputReference extend
 }
 export interface DataIntersightKubernetesSysConfigPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2855,19 +2855,19 @@ export interface DataIntersightKubernetesSysConfigPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2880,7 +2880,7 @@ export interface DataIntersightKubernetesSysConfigPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3112,7 +3112,7 @@ export class DataIntersightKubernetesSysConfigPolicyPermissionResourcesList exte
 }
 export interface DataIntersightKubernetesSysConfigPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3120,19 +3120,19 @@ export interface DataIntersightKubernetesSysConfigPolicyTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3145,7 +3145,7 @@ export interface DataIntersightKubernetesSysConfigPolicyTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3377,7 +3377,7 @@ export class DataIntersightKubernetesSysConfigPolicyTagsAncestorDefinitionsList 
 }
 export interface DataIntersightKubernetesSysConfigPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3385,19 +3385,19 @@ export interface DataIntersightKubernetesSysConfigPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3410,7 +3410,7 @@ export interface DataIntersightKubernetesSysConfigPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3610,25 +3610,25 @@ export class DataIntersightKubernetesSysConfigPolicyTagsDefinitionOutputReferenc
 }
 export interface DataIntersightKubernetesSysConfigPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#key DataIntersightKubernetesSysConfigPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#key DataIntersightKubernetesSysConfigPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#propagated DataIntersightKubernetesSysConfigPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#propagated DataIntersightKubernetesSysConfigPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#sys_tag DataIntersightKubernetesSysConfigPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#sys_tag DataIntersightKubernetesSysConfigPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3636,25 +3636,25 @@ export interface DataIntersightKubernetesSysConfigPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#type DataIntersightKubernetesSysConfigPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#type DataIntersightKubernetesSysConfigPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#value DataIntersightKubernetesSysConfigPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#value DataIntersightKubernetesSysConfigPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#ancestor_definitions DataIntersightKubernetesSysConfigPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#ancestor_definitions DataIntersightKubernetesSysConfigPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesSysConfigPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#definition DataIntersightKubernetesSysConfigPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#definition DataIntersightKubernetesSysConfigPolicy#definition}
   */
   readonly definition?: DataIntersightKubernetesSysConfigPolicyTagsDefinition;
 }
@@ -3973,7 +3973,7 @@ export class DataIntersightKubernetesSysConfigPolicyTagsList extends cdktf.Compl
 }
 export interface DataIntersightKubernetesSysConfigPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3981,19 +3981,19 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4006,7 +4006,7 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4238,7 +4238,7 @@ export class DataIntersightKubernetesSysConfigPolicyVersionContextInterestedMosL
 }
 export interface DataIntersightKubernetesSysConfigPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4246,19 +4246,19 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#moid DataIntersightKubernetesSysConfigPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4271,7 +4271,7 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#selector DataIntersightKubernetesSysConfigPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4471,7 +4471,7 @@ export class DataIntersightKubernetesSysConfigPolicyVersionContextRefMoOutputRef
 }
 export interface DataIntersightKubernetesSysConfigPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#additional_properties DataIntersightKubernetesSysConfigPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4479,32 +4479,32 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#class_id DataIntersightKubernetesSysConfigPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#marked_for_deletion DataIntersightKubernetesSysConfigPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#marked_for_deletion DataIntersightKubernetesSysConfigPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#nr_version DataIntersightKubernetesSysConfigPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#nr_version DataIntersightKubernetesSysConfigPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#object_type DataIntersightKubernetesSysConfigPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#timestamp DataIntersightKubernetesSysConfigPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#timestamp DataIntersightKubernetesSysConfigPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4515,19 +4515,19 @@ export interface DataIntersightKubernetesSysConfigPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#version_type DataIntersightKubernetesSysConfigPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#version_type DataIntersightKubernetesSysConfigPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#interested_mos DataIntersightKubernetesSysConfigPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#interested_mos DataIntersightKubernetesSysConfigPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesSysConfigPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#ref_mo DataIntersightKubernetesSysConfigPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#ref_mo DataIntersightKubernetesSysConfigPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesSysConfigPolicyVersionContextRefMo;
 }
@@ -4843,7 +4843,7 @@ export class DataIntersightKubernetesSysConfigPolicyVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy intersight_kubernetes_sys_config_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy intersight_kubernetes_sys_config_policy}
 */
 export class DataIntersightKubernetesSysConfigPolicy extends cdktf.TerraformDataSource {
 
@@ -4859,7 +4859,7 @@ export class DataIntersightKubernetesSysConfigPolicy extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightKubernetesSysConfigPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesSysConfigPolicy to import
-  * @param importFromId The id of the existing DataIntersightKubernetesSysConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesSysConfigPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesSysConfigPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4871,7 +4871,7 @@ export class DataIntersightKubernetesSysConfigPolicy extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_sys_config_policy intersight_kubernetes_sys_config_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_sys_config_policy intersight_kubernetes_sys_config_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4882,8 +4882,8 @@ export class DataIntersightKubernetesSysConfigPolicy extends cdktf.TerraformData
       terraformResourceType: 'intersight_kubernetes_sys_config_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

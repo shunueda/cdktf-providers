@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VpcPrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#description VpcPrivateEndpoint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#description VpcPrivateEndpoint#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#folder_id VpcPrivateEndpoint#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#folder_id VpcPrivateEndpoint#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#id VpcPrivateEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#id VpcPrivateEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface VpcPrivateEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#labels VpcPrivateEndpoint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#labels VpcPrivateEndpoint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#name VpcPrivateEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#name VpcPrivateEndpoint#name}
   */
   readonly name?: string;
   /**
   * ID of the network which private endpoint belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#network_id VpcPrivateEndpoint#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#network_id VpcPrivateEndpoint#network_id}
   */
   readonly networkId: string;
   /**
   * dns_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#dns_options VpcPrivateEndpoint#dns_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#dns_options VpcPrivateEndpoint#dns_options}
   */
   readonly dnsOptions?: VpcPrivateEndpointDnsOptions;
   /**
   * endpoint_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#endpoint_address VpcPrivateEndpoint#endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#endpoint_address VpcPrivateEndpoint#endpoint_address}
   */
   readonly endpointAddress?: VpcPrivateEndpointEndpointAddress;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#object_storage VpcPrivateEndpoint#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#object_storage VpcPrivateEndpoint#object_storage}
   */
   readonly objectStorage: VpcPrivateEndpointObjectStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#timeouts VpcPrivateEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#timeouts VpcPrivateEndpoint#timeouts}
   */
   readonly timeouts?: VpcPrivateEndpointTimeouts;
 }
@@ -73,7 +73,7 @@ export interface VpcPrivateEndpointDnsOptions {
   /**
   * If enabled - additional service DNS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#private_dns_records_enabled VpcPrivateEndpoint#private_dns_records_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#private_dns_records_enabled VpcPrivateEndpoint#private_dns_records_enabled}
   */
   readonly privateDnsRecordsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -159,19 +159,19 @@ export interface VpcPrivateEndpointEndpointAddress {
   /**
   * Specifies IP address within `subnet_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#address VpcPrivateEndpoint#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#address VpcPrivateEndpoint#address}
   */
   readonly address?: string;
   /**
   * ID of the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#address_id VpcPrivateEndpoint#address_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#address_id VpcPrivateEndpoint#address_id}
   */
   readonly addressId?: string;
   /**
   * Subnet of the IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#subnet_id VpcPrivateEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#subnet_id VpcPrivateEndpoint#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -362,15 +362,15 @@ export class VpcPrivateEndpointObjectStorageOutputReference extends cdktf.Comple
 }
 export interface VpcPrivateEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#create VpcPrivateEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#create VpcPrivateEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#delete VpcPrivateEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#delete VpcPrivateEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#update VpcPrivateEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#update VpcPrivateEndpoint#update}
   */
   readonly update?: string;
 }
@@ -522,7 +522,7 @@ export class VpcPrivateEndpointTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint yandex_vpc_private_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint yandex_vpc_private_endpoint}
 */
 export class VpcPrivateEndpoint extends cdktf.TerraformResource {
 
@@ -538,7 +538,7 @@ export class VpcPrivateEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPrivateEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPrivateEndpoint to import
-  * @param importFromId The id of the existing VpcPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPrivateEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPrivateEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class VpcPrivateEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/vpc_private_endpoint yandex_vpc_private_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/vpc_private_endpoint yandex_vpc_private_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class VpcPrivateEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_vpc_private_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

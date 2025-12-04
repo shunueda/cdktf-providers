@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface DataRootlyCommunicationsStageConfig extends cdktf.TerraformMeta
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage#created_at DataRootlyCommunicationsStage#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage#created_at DataRootlyCommunicationsStage#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage#name DataRootlyCommunicationsStage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage#name DataRootlyCommunicationsStage#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage#slug DataRootlyCommunicationsStage#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage#slug DataRootlyCommunicationsStage#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage rootly_communications_stage}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage rootly_communications_stage}
 */
 export class DataRootlyCommunicationsStage extends cdktf.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataRootlyCommunicationsStage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyCommunicationsStage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyCommunicationsStage to import
-  * @param importFromId The id of the existing DataRootlyCommunicationsStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyCommunicationsStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyCommunicationsStage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataRootlyCommunicationsStage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/communications_stage rootly_communications_stage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/communications_stage rootly_communications_stage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class DataRootlyCommunicationsStage extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_communications_stage',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

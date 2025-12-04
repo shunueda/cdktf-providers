@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface LtsTransferV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#id LtsTransferV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#id LtsTransferV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_group_id LtsTransferV2#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_group_id LtsTransferV2#log_group_id}
   */
   readonly logGroupId: string;
   /**
   * log_streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_streams LtsTransferV2#log_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_streams LtsTransferV2#log_streams}
   */
   readonly logStreams: LtsTransferV2LogStreams[] | cdktf.IResolvable;
   /**
   * log_transfer_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_transfer_info LtsTransferV2#log_transfer_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_transfer_info LtsTransferV2#log_transfer_info}
   */
   readonly logTransferInfo: LtsTransferV2LogTransferInfo;
 }
 export interface LtsTransferV2LogStreams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_stream_id LtsTransferV2#log_stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_stream_id LtsTransferV2#log_stream_id}
   */
   readonly logStreamId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_stream_name LtsTransferV2#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_stream_name LtsTransferV2#log_stream_name}
   */
   readonly logStreamName?: string;
 }
@@ -179,19 +179,19 @@ export class LtsTransferV2LogStreamsList extends cdktf.ComplexList {
 }
 export interface LtsTransferV2LogTransferInfoLogAgencyTransfer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#agency_domain_id LtsTransferV2#agency_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#agency_domain_id LtsTransferV2#agency_domain_id}
   */
   readonly agencyDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#agency_domain_name LtsTransferV2#agency_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#agency_domain_name LtsTransferV2#agency_domain_name}
   */
   readonly agencyDomainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#agency_name LtsTransferV2#agency_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#agency_name LtsTransferV2#agency_name}
   */
   readonly agencyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#agency_project_id LtsTransferV2#agency_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#agency_project_id LtsTransferV2#agency_project_id}
   */
   readonly agencyProjectId: string;
 }
@@ -350,51 +350,51 @@ export class LtsTransferV2LogTransferInfoLogAgencyTransferOutputReference extend
 }
 export interface LtsTransferV2LogTransferInfoLogTransferDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_bucket_name LtsTransferV2#obs_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_bucket_name LtsTransferV2#obs_bucket_name}
   */
   readonly obsBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_dir_prefix_name LtsTransferV2#obs_dir_prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_dir_prefix_name LtsTransferV2#obs_dir_prefix_name}
   */
   readonly obsDirPrefixName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_encrypted_enable LtsTransferV2#obs_encrypted_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_encrypted_enable LtsTransferV2#obs_encrypted_enable}
   */
   readonly obsEncryptedEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_encrypted_id LtsTransferV2#obs_encrypted_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_encrypted_id LtsTransferV2#obs_encrypted_id}
   */
   readonly obsEncryptedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_eps_id LtsTransferV2#obs_eps_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_eps_id LtsTransferV2#obs_eps_id}
   */
   readonly obsEpsId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_period LtsTransferV2#obs_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_period LtsTransferV2#obs_period}
   */
   readonly obsPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_period_unit LtsTransferV2#obs_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_period_unit LtsTransferV2#obs_period_unit}
   */
   readonly obsPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_prefix_name LtsTransferV2#obs_prefix_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_prefix_name LtsTransferV2#obs_prefix_name}
   */
   readonly obsPrefixName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_time_zone LtsTransferV2#obs_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_time_zone LtsTransferV2#obs_time_zone}
   */
   readonly obsTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_time_zone_id LtsTransferV2#obs_time_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_time_zone_id LtsTransferV2#obs_time_zone_id}
   */
   readonly obsTimeZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#obs_transfer_path LtsTransferV2#obs_transfer_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#obs_transfer_path LtsTransferV2#obs_transfer_path}
   */
   readonly obsTransferPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#tags LtsTransferV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#tags LtsTransferV2#tags}
   */
   readonly tags?: string[];
 }
@@ -797,31 +797,31 @@ export class LtsTransferV2LogTransferInfoLogTransferDetailOutputReference extend
 }
 export interface LtsTransferV2LogTransferInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_storage_format LtsTransferV2#log_storage_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_storage_format LtsTransferV2#log_storage_format}
   */
   readonly logStorageFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_transfer_mode LtsTransferV2#log_transfer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_transfer_mode LtsTransferV2#log_transfer_mode}
   */
   readonly logTransferMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_transfer_status LtsTransferV2#log_transfer_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_transfer_status LtsTransferV2#log_transfer_status}
   */
   readonly logTransferStatus: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_transfer_type LtsTransferV2#log_transfer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_transfer_type LtsTransferV2#log_transfer_type}
   */
   readonly logTransferType: string;
   /**
   * log_agency_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_agency_transfer LtsTransferV2#log_agency_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_agency_transfer LtsTransferV2#log_agency_transfer}
   */
   readonly logAgencyTransfer?: LtsTransferV2LogTransferInfoLogAgencyTransfer;
   /**
   * log_transfer_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#log_transfer_detail LtsTransferV2#log_transfer_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#log_transfer_detail LtsTransferV2#log_transfer_detail}
   */
   readonly logTransferDetail: LtsTransferV2LogTransferInfoLogTransferDetail;
 }
@@ -1040,7 +1040,7 @@ export class LtsTransferV2LogTransferInfoOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2 opentelekomcloud_lts_transfer_v2}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2 opentelekomcloud_lts_transfer_v2}
 */
 export class LtsTransferV2 extends cdktf.TerraformResource {
 
@@ -1056,7 +1056,7 @@ export class LtsTransferV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LtsTransferV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LtsTransferV2 to import
-  * @param importFromId The id of the existing LtsTransferV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LtsTransferV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LtsTransferV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1068,7 +1068,7 @@ export class LtsTransferV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/lts_transfer_v2 opentelekomcloud_lts_transfer_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/lts_transfer_v2 opentelekomcloud_lts_transfer_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1079,8 +1079,8 @@ export class LtsTransferV2 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_lts_transfer_v2',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.53',
-        providerVersionConstraint: '1.36.53'
+        providerVersion: '1.36.54',
+        providerVersionConstraint: '1.36.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

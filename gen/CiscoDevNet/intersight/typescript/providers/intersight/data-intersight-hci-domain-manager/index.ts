@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHciDomainManagerConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#account_moid DataIntersightHciDomainManager#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#account_moid DataIntersightHciDomainManager#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of the API limits as a string. It can be used by Alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#api_limits_string DataIntersightHciDomainManager#api_limits_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#api_limits_string DataIntersightHciDomainManager#api_limits_string}
   */
   readonly apiLimitsString?: string;
   /**
@@ -28,23 +28,23 @@ export interface DataIntersightHciDomainManagerConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#create_time DataIntersightHciDomainManager#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#create_time DataIntersightHciDomainManager#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#domain_group_moid DataIntersightHciDomainManager#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#domain_group_moid DataIntersightHciDomainManager#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#id DataIntersightHciDomainManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#id DataIntersightHciDomainManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,104 +53,104 @@ export interface DataIntersightHciDomainManagerConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#mod_time DataIntersightHciDomainManager#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#mod_time DataIntersightHciDomainManager#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The name of the domain manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#name DataIntersightHciDomainManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#name DataIntersightHciDomainManager#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#owners DataIntersightHciDomainManager#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#owners DataIntersightHciDomainManager#owners}
   */
   readonly owners?: string[];
   /**
   * The unique identifier of the domain manager (Prism Central) instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#pc_ext_id DataIntersightHciDomainManager#pc_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#pc_ext_id DataIntersightHciDomainManager#pc_ext_id}
   */
   readonly pcExtId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#shared_scope DataIntersightHciDomainManager#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#shared_scope DataIntersightHciDomainManager#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size of the domain manager such as STARTER, SMALL, LARGE, EXTRALARGE.
   * It determines the resources used by the domain manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#size DataIntersightHciDomainManager#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#size DataIntersightHciDomainManager#size}
   */
   readonly size?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#ancestors DataIntersightHciDomainManager#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#ancestors DataIntersightHciDomainManager#ancestors}
   */
   readonly ancestors?: DataIntersightHciDomainManagerAncestors[] | cdktf.IResolvable;
   /**
   * api_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#api_limits DataIntersightHciDomainManager#api_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#api_limits DataIntersightHciDomainManager#api_limits}
   */
   readonly apiLimits?: DataIntersightHciDomainManagerApiLimits[] | cdktf.IResolvable;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#clusters DataIntersightHciDomainManager#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#clusters DataIntersightHciDomainManager#clusters}
   */
   readonly clusters?: DataIntersightHciDomainManagerClusters[] | cdktf.IResolvable;
   /**
   * licenses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#licenses DataIntersightHciDomainManager#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#licenses DataIntersightHciDomainManager#licenses}
   */
   readonly licenses?: DataIntersightHciDomainManagerLicenses[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#parent DataIntersightHciDomainManager#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#parent DataIntersightHciDomainManager#parent}
   */
   readonly parent?: DataIntersightHciDomainManagerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#permission_resources DataIntersightHciDomainManager#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#permission_resources DataIntersightHciDomainManager#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciDomainManagerPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#registered_device DataIntersightHciDomainManager#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#registered_device DataIntersightHciDomainManager#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciDomainManagerRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#tags DataIntersightHciDomainManager#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#tags DataIntersightHciDomainManager#tags}
   */
   readonly tags?: DataIntersightHciDomainManagerTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#version_context DataIntersightHciDomainManager#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#version_context DataIntersightHciDomainManager#version_context}
   */
   readonly versionContext?: DataIntersightHciDomainManagerVersionContext;
 }
@@ -1634,7 +1634,7 @@ export class DataIntersightHciDomainManagerResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightHciDomainManagerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1642,19 +1642,19 @@ export interface DataIntersightHciDomainManagerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1667,7 +1667,7 @@ export interface DataIntersightHciDomainManagerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -1901,17 +1901,17 @@ export interface DataIntersightHciDomainManagerApiLimits {
   /**
   * The actual number of records returned by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#actual_size DataIntersightHciDomainManager#actual_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#actual_size DataIntersightHciDomainManager#actual_size}
   */
   readonly actualSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The name of the Nutanix API that has reach the limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#api_name DataIntersightHciDomainManager#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#api_name DataIntersightHciDomainManager#api_name}
   */
   readonly apiName?: string;
   /**
@@ -1919,26 +1919,26 @@ export interface DataIntersightHciDomainManagerApiLimits {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates if the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#is_limit_reached DataIntersightHciDomainManager#is_limit_reached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#is_limit_reached DataIntersightHciDomainManager#is_limit_reached}
   */
   readonly isLimitReached?: boolean | cdktf.IResolvable;
   /**
   * The number of records the API is allowed to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#limit DataIntersightHciDomainManager#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#limit DataIntersightHciDomainManager#limit}
   */
   readonly limit?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
 }
@@ -2228,7 +2228,7 @@ export class DataIntersightHciDomainManagerApiLimitsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHciDomainManagerClusters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2236,19 +2236,19 @@ export interface DataIntersightHciDomainManagerClusters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2261,7 +2261,7 @@ export interface DataIntersightHciDomainManagerClusters {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -2493,7 +2493,7 @@ export class DataIntersightHciDomainManagerClustersList extends cdktf.ComplexLis
 }
 export interface DataIntersightHciDomainManagerLicenses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2501,19 +2501,19 @@ export interface DataIntersightHciDomainManagerLicenses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2526,7 +2526,7 @@ export interface DataIntersightHciDomainManagerLicenses {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -2758,7 +2758,7 @@ export class DataIntersightHciDomainManagerLicensesList extends cdktf.ComplexLis
 }
 export interface DataIntersightHciDomainManagerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2766,19 +2766,19 @@ export interface DataIntersightHciDomainManagerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2791,7 +2791,7 @@ export interface DataIntersightHciDomainManagerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -2991,7 +2991,7 @@ export class DataIntersightHciDomainManagerParentOutputReference extends cdktf.C
 }
 export interface DataIntersightHciDomainManagerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2999,19 +2999,19 @@ export interface DataIntersightHciDomainManagerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3024,7 +3024,7 @@ export interface DataIntersightHciDomainManagerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -3256,7 +3256,7 @@ export class DataIntersightHciDomainManagerPermissionResourcesList extends cdktf
 }
 export interface DataIntersightHciDomainManagerRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3264,19 +3264,19 @@ export interface DataIntersightHciDomainManagerRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3289,7 +3289,7 @@ export interface DataIntersightHciDomainManagerRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -3489,7 +3489,7 @@ export class DataIntersightHciDomainManagerRegisteredDeviceOutputReference exten
 }
 export interface DataIntersightHciDomainManagerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3497,19 +3497,19 @@ export interface DataIntersightHciDomainManagerTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3522,7 +3522,7 @@ export interface DataIntersightHciDomainManagerTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -3754,7 +3754,7 @@ export class DataIntersightHciDomainManagerTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightHciDomainManagerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3762,19 +3762,19 @@ export interface DataIntersightHciDomainManagerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3787,7 +3787,7 @@ export interface DataIntersightHciDomainManagerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -3987,25 +3987,25 @@ export class DataIntersightHciDomainManagerTagsDefinitionOutputReference extends
 }
 export interface DataIntersightHciDomainManagerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#key DataIntersightHciDomainManager#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#key DataIntersightHciDomainManager#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#propagated DataIntersightHciDomainManager#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#propagated DataIntersightHciDomainManager#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#sys_tag DataIntersightHciDomainManager#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#sys_tag DataIntersightHciDomainManager#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4013,25 +4013,25 @@ export interface DataIntersightHciDomainManagerTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#type DataIntersightHciDomainManager#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#type DataIntersightHciDomainManager#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#value DataIntersightHciDomainManager#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#value DataIntersightHciDomainManager#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#ancestor_definitions DataIntersightHciDomainManager#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#ancestor_definitions DataIntersightHciDomainManager#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciDomainManagerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#definition DataIntersightHciDomainManager#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#definition DataIntersightHciDomainManager#definition}
   */
   readonly definition?: DataIntersightHciDomainManagerTagsDefinition;
 }
@@ -4350,7 +4350,7 @@ export class DataIntersightHciDomainManagerTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciDomainManagerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4358,19 +4358,19 @@ export interface DataIntersightHciDomainManagerVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4383,7 +4383,7 @@ export interface DataIntersightHciDomainManagerVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -4615,7 +4615,7 @@ export class DataIntersightHciDomainManagerVersionContextInterestedMosList exten
 }
 export interface DataIntersightHciDomainManagerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4623,19 +4623,19 @@ export interface DataIntersightHciDomainManagerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#moid DataIntersightHciDomainManager#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4648,7 +4648,7 @@ export interface DataIntersightHciDomainManagerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#selector DataIntersightHciDomainManager#selector}
   */
   readonly selector?: string;
 }
@@ -4848,7 +4848,7 @@ export class DataIntersightHciDomainManagerVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightHciDomainManagerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#additional_properties DataIntersightHciDomainManager#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4856,32 +4856,32 @@ export interface DataIntersightHciDomainManagerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#class_id DataIntersightHciDomainManager#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#marked_for_deletion DataIntersightHciDomainManager#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#marked_for_deletion DataIntersightHciDomainManager#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#nr_version DataIntersightHciDomainManager#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#nr_version DataIntersightHciDomainManager#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#object_type DataIntersightHciDomainManager#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#timestamp DataIntersightHciDomainManager#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#timestamp DataIntersightHciDomainManager#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4892,19 +4892,19 @@ export interface DataIntersightHciDomainManagerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#version_type DataIntersightHciDomainManager#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#version_type DataIntersightHciDomainManager#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#interested_mos DataIntersightHciDomainManager#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#interested_mos DataIntersightHciDomainManager#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciDomainManagerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#ref_mo DataIntersightHciDomainManager#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#ref_mo DataIntersightHciDomainManager#ref_mo}
   */
   readonly refMo?: DataIntersightHciDomainManagerVersionContextRefMo;
 }
@@ -5220,7 +5220,7 @@ export class DataIntersightHciDomainManagerVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager intersight_hci_domain_manager}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager intersight_hci_domain_manager}
 */
 export class DataIntersightHciDomainManager extends cdktf.TerraformDataSource {
 
@@ -5236,7 +5236,7 @@ export class DataIntersightHciDomainManager extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciDomainManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciDomainManager to import
-  * @param importFromId The id of the existing DataIntersightHciDomainManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciDomainManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciDomainManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5248,7 +5248,7 @@ export class DataIntersightHciDomainManager extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_domain_manager intersight_hci_domain_manager} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_domain_manager intersight_hci_domain_manager} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5259,8 +5259,8 @@ export class DataIntersightHciDomainManager extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_domain_manager',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#account_moid DataIntersightApicExternalRoutedLayerThreeDomain#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#account_moid DataIntersightApicExternalRoutedLayerThreeDomain#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#create_time DataIntersightApicExternalRoutedLayerThreeDomain#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#create_time DataIntersightApicExternalRoutedLayerThreeDomain#create_time}
   */
   readonly createTime?: string;
   /**
-  * Distinguished Name (DN) of an object in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Distinguished Name (DN) of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#dn DataIntersightApicExternalRoutedLayerThreeDomain#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#dn DataIntersightApicExternalRoutedLayerThreeDomain#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#domain_group_moid DataIntersightApicExternalRoutedLayerThreeDomain#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#domain_group_moid DataIntersightApicExternalRoutedLayerThreeDomain#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#id DataIntersightApicExternalRoutedLayerThreeDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#id DataIntersightApicExternalRoutedLayerThreeDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainConfig extends 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#mod_time DataIntersightApicExternalRoutedLayerThreeDomain#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#mod_time DataIntersightApicExternalRoutedLayerThreeDomain#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
-  * Object name in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Name of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#name DataIntersightApicExternalRoutedLayerThreeDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#name DataIntersightApicExternalRoutedLayerThreeDomain#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#owners DataIntersightApicExternalRoutedLayerThreeDomain#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#owners DataIntersightApicExternalRoutedLayerThreeDomain#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#shared_scope DataIntersightApicExternalRoutedLayerThreeDomain#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#shared_scope DataIntersightApicExternalRoutedLayerThreeDomain#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#ancestors DataIntersightApicExternalRoutedLayerThreeDomain#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#ancestors DataIntersightApicExternalRoutedLayerThreeDomain#ancestors}
   */
   readonly ancestors?: DataIntersightApicExternalRoutedLayerThreeDomainAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#parent DataIntersightApicExternalRoutedLayerThreeDomain#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#parent DataIntersightApicExternalRoutedLayerThreeDomain#parent}
   */
   readonly parent?: DataIntersightApicExternalRoutedLayerThreeDomainParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#permission_resources DataIntersightApicExternalRoutedLayerThreeDomain#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#permission_resources DataIntersightApicExternalRoutedLayerThreeDomain#permission_resources}
   */
   readonly permissionResources?: DataIntersightApicExternalRoutedLayerThreeDomainPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#registered_device DataIntersightApicExternalRoutedLayerThreeDomain#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#registered_device DataIntersightApicExternalRoutedLayerThreeDomain#registered_device}
   */
   readonly registeredDevice?: DataIntersightApicExternalRoutedLayerThreeDomainRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#tags DataIntersightApicExternalRoutedLayerThreeDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#tags DataIntersightApicExternalRoutedLayerThreeDomain#tags}
   */
   readonly tags?: DataIntersightApicExternalRoutedLayerThreeDomainTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#version_context DataIntersightApicExternalRoutedLayerThreeDomain#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#version_context DataIntersightApicExternalRoutedLayerThreeDomain#version_context}
   */
   readonly versionContext?: DataIntersightApicExternalRoutedLayerThreeDomainVersionContext;
 }
@@ -1280,7 +1280,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainResultsList extends
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1288,19 +1288,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1313,7 +1313,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -1545,7 +1545,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainAncestorsList exten
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1553,19 +1553,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1578,7 +1578,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -1778,7 +1778,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainParentOutputReferen
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1786,19 +1786,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1811,7 +1811,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2043,7 +2043,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainPermissionResources
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2051,19 +2051,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainRegisteredDevic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2076,7 +2076,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainRegisteredDevic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2276,7 +2276,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainRegisteredDeviceOut
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2284,19 +2284,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2309,7 +2309,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2541,7 +2541,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainTagsAncestorDefinit
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2549,19 +2549,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2574,7 +2574,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -2774,25 +2774,25 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainTagsDefinitionOutpu
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#key DataIntersightApicExternalRoutedLayerThreeDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#key DataIntersightApicExternalRoutedLayerThreeDomain#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#propagated DataIntersightApicExternalRoutedLayerThreeDomain#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#propagated DataIntersightApicExternalRoutedLayerThreeDomain#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#sys_tag DataIntersightApicExternalRoutedLayerThreeDomain#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#sys_tag DataIntersightApicExternalRoutedLayerThreeDomain#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2800,25 +2800,25 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#type DataIntersightApicExternalRoutedLayerThreeDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#type DataIntersightApicExternalRoutedLayerThreeDomain#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#value DataIntersightApicExternalRoutedLayerThreeDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#value DataIntersightApicExternalRoutedLayerThreeDomain#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#ancestor_definitions DataIntersightApicExternalRoutedLayerThreeDomain#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#ancestor_definitions DataIntersightApicExternalRoutedLayerThreeDomain#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApicExternalRoutedLayerThreeDomainTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#definition DataIntersightApicExternalRoutedLayerThreeDomain#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#definition DataIntersightApicExternalRoutedLayerThreeDomain#definition}
   */
   readonly definition?: DataIntersightApicExternalRoutedLayerThreeDomainTagsDefinition;
 }
@@ -3137,7 +3137,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainTagsList extends cd
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3145,19 +3145,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3170,7 +3170,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -3402,7 +3402,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainVersionContextInter
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3410,19 +3410,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#moid DataIntersightApicExternalRoutedLayerThreeDomain#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3435,7 +3435,7 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#selector DataIntersightApicExternalRoutedLayerThreeDomain#selector}
   */
   readonly selector?: string;
 }
@@ -3635,7 +3635,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainVersionContextRefMo
 }
 export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#additional_properties DataIntersightApicExternalRoutedLayerThreeDomain#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3643,32 +3643,32 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#class_id DataIntersightApicExternalRoutedLayerThreeDomain#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#marked_for_deletion DataIntersightApicExternalRoutedLayerThreeDomain#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#marked_for_deletion DataIntersightApicExternalRoutedLayerThreeDomain#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#nr_version DataIntersightApicExternalRoutedLayerThreeDomain#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#nr_version DataIntersightApicExternalRoutedLayerThreeDomain#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#object_type DataIntersightApicExternalRoutedLayerThreeDomain#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#timestamp DataIntersightApicExternalRoutedLayerThreeDomain#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#timestamp DataIntersightApicExternalRoutedLayerThreeDomain#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3679,19 +3679,19 @@ export interface DataIntersightApicExternalRoutedLayerThreeDomainVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#version_type DataIntersightApicExternalRoutedLayerThreeDomain#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#version_type DataIntersightApicExternalRoutedLayerThreeDomain#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#interested_mos DataIntersightApicExternalRoutedLayerThreeDomain#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#interested_mos DataIntersightApicExternalRoutedLayerThreeDomain#interested_mos}
   */
   readonly interestedMos?: DataIntersightApicExternalRoutedLayerThreeDomainVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#ref_mo DataIntersightApicExternalRoutedLayerThreeDomain#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#ref_mo DataIntersightApicExternalRoutedLayerThreeDomain#ref_mo}
   */
   readonly refMo?: DataIntersightApicExternalRoutedLayerThreeDomainVersionContextRefMo;
 }
@@ -4007,7 +4007,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomainVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain intersight_apic_external_routed_layer_three_domain}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain intersight_apic_external_routed_layer_three_domain}
 */
 export class DataIntersightApicExternalRoutedLayerThreeDomain extends cdktf.TerraformDataSource {
 
@@ -4023,7 +4023,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomain extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightApicExternalRoutedLayerThreeDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApicExternalRoutedLayerThreeDomain to import
-  * @param importFromId The id of the existing DataIntersightApicExternalRoutedLayerThreeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApicExternalRoutedLayerThreeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApicExternalRoutedLayerThreeDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4035,7 +4035,7 @@ export class DataIntersightApicExternalRoutedLayerThreeDomain extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_external_routed_layer_three_domain intersight_apic_external_routed_layer_three_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_external_routed_layer_three_domain intersight_apic_external_routed_layer_three_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4046,8 +4046,8 @@ export class DataIntersightApicExternalRoutedLayerThreeDomain extends cdktf.Terr
       terraformResourceType: 'intersight_apic_external_routed_layer_three_domain',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightExternalsiteAuthorizationConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#account_moid DataIntersightExternalsiteAuthorization#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#account_moid DataIntersightExternalsiteAuthorization#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightExternalsiteAuthorizationConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#create_time DataIntersightExternalsiteAuthorization#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#create_time DataIntersightExternalsiteAuthorization#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#domain_group_moid DataIntersightExternalsiteAuthorization#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#domain_group_moid DataIntersightExternalsiteAuthorization#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#id DataIntersightExternalsiteAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#id DataIntersightExternalsiteAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,98 +47,98 @@ export interface DataIntersightExternalsiteAuthorizationConfig extends cdktf.Ter
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#is_password_set DataIntersightExternalsiteAuthorization#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#is_password_set DataIntersightExternalsiteAuthorization#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'userId' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#is_user_id_set DataIntersightExternalsiteAuthorization#is_user_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#is_user_id_set DataIntersightExternalsiteAuthorization#is_user_id_set}
   */
   readonly isUserIdSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#mod_time DataIntersightExternalsiteAuthorization#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#mod_time DataIntersightExternalsiteAuthorization#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#owners DataIntersightExternalsiteAuthorization#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#owners DataIntersightExternalsiteAuthorization#owners}
   */
   readonly owners?: string[];
   /**
   * The password of the given username to download the image from external repository like cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#password DataIntersightExternalsiteAuthorization#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#password DataIntersightExternalsiteAuthorization#password}
   */
   readonly password?: string;
   /**
   * The repository type to which this authorization will be requested. Cisco is the only available repository today.
   * * `cisco` - Cisco as an external site from where the resources like image will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#repository_type DataIntersightExternalsiteAuthorization#repository_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#repository_type DataIntersightExternalsiteAuthorization#repository_type}
   */
   readonly repositoryType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#shared_scope DataIntersightExternalsiteAuthorization#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#shared_scope DataIntersightExternalsiteAuthorization#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The username that has permission to download the image from external repository like cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#user_id DataIntersightExternalsiteAuthorization#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#user_id DataIntersightExternalsiteAuthorization#user_id}
   */
   readonly userId?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#account DataIntersightExternalsiteAuthorization#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#account DataIntersightExternalsiteAuthorization#account}
   */
   readonly account?: DataIntersightExternalsiteAuthorizationAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#ancestors DataIntersightExternalsiteAuthorization#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#ancestors DataIntersightExternalsiteAuthorization#ancestors}
   */
   readonly ancestors?: DataIntersightExternalsiteAuthorizationAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#parent DataIntersightExternalsiteAuthorization#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#parent DataIntersightExternalsiteAuthorization#parent}
   */
   readonly parent?: DataIntersightExternalsiteAuthorizationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#permission_resources DataIntersightExternalsiteAuthorization#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#permission_resources DataIntersightExternalsiteAuthorization#permission_resources}
   */
   readonly permissionResources?: DataIntersightExternalsiteAuthorizationPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#tags DataIntersightExternalsiteAuthorization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#tags DataIntersightExternalsiteAuthorization#tags}
   */
   readonly tags?: DataIntersightExternalsiteAuthorizationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#version_context DataIntersightExternalsiteAuthorization#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#version_context DataIntersightExternalsiteAuthorization#version_context}
   */
   readonly versionContext?: DataIntersightExternalsiteAuthorizationVersionContext;
 }
@@ -1314,7 +1314,7 @@ export class DataIntersightExternalsiteAuthorizationResultsList extends cdktf.Co
 }
 export interface DataIntersightExternalsiteAuthorizationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1322,19 +1322,19 @@ export interface DataIntersightExternalsiteAuthorizationAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1347,7 +1347,7 @@ export interface DataIntersightExternalsiteAuthorizationAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -1547,7 +1547,7 @@ export class DataIntersightExternalsiteAuthorizationAccountOutputReference exten
 }
 export interface DataIntersightExternalsiteAuthorizationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1555,19 +1555,19 @@ export interface DataIntersightExternalsiteAuthorizationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1580,7 +1580,7 @@ export interface DataIntersightExternalsiteAuthorizationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -1812,7 +1812,7 @@ export class DataIntersightExternalsiteAuthorizationAncestorsList extends cdktf.
 }
 export interface DataIntersightExternalsiteAuthorizationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1820,19 +1820,19 @@ export interface DataIntersightExternalsiteAuthorizationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1845,7 +1845,7 @@ export interface DataIntersightExternalsiteAuthorizationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2045,7 +2045,7 @@ export class DataIntersightExternalsiteAuthorizationParentOutputReference extend
 }
 export interface DataIntersightExternalsiteAuthorizationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2053,19 +2053,19 @@ export interface DataIntersightExternalsiteAuthorizationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2078,7 +2078,7 @@ export interface DataIntersightExternalsiteAuthorizationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2310,7 +2310,7 @@ export class DataIntersightExternalsiteAuthorizationPermissionResourcesList exte
 }
 export interface DataIntersightExternalsiteAuthorizationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2318,19 +2318,19 @@ export interface DataIntersightExternalsiteAuthorizationTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2343,7 +2343,7 @@ export interface DataIntersightExternalsiteAuthorizationTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2575,7 +2575,7 @@ export class DataIntersightExternalsiteAuthorizationTagsAncestorDefinitionsList 
 }
 export interface DataIntersightExternalsiteAuthorizationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2583,19 +2583,19 @@ export interface DataIntersightExternalsiteAuthorizationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2608,7 +2608,7 @@ export interface DataIntersightExternalsiteAuthorizationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2808,25 +2808,25 @@ export class DataIntersightExternalsiteAuthorizationTagsDefinitionOutputReferenc
 }
 export interface DataIntersightExternalsiteAuthorizationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#key DataIntersightExternalsiteAuthorization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#key DataIntersightExternalsiteAuthorization#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#propagated DataIntersightExternalsiteAuthorization#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#propagated DataIntersightExternalsiteAuthorization#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#sys_tag DataIntersightExternalsiteAuthorization#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#sys_tag DataIntersightExternalsiteAuthorization#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2834,25 +2834,25 @@ export interface DataIntersightExternalsiteAuthorizationTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#type DataIntersightExternalsiteAuthorization#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#type DataIntersightExternalsiteAuthorization#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#value DataIntersightExternalsiteAuthorization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#value DataIntersightExternalsiteAuthorization#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#ancestor_definitions DataIntersightExternalsiteAuthorization#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#ancestor_definitions DataIntersightExternalsiteAuthorization#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightExternalsiteAuthorizationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#definition DataIntersightExternalsiteAuthorization#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#definition DataIntersightExternalsiteAuthorization#definition}
   */
   readonly definition?: DataIntersightExternalsiteAuthorizationTagsDefinition;
 }
@@ -3171,7 +3171,7 @@ export class DataIntersightExternalsiteAuthorizationTagsList extends cdktf.Compl
 }
 export interface DataIntersightExternalsiteAuthorizationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3179,19 +3179,19 @@ export interface DataIntersightExternalsiteAuthorizationVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3204,7 +3204,7 @@ export interface DataIntersightExternalsiteAuthorizationVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -3436,7 +3436,7 @@ export class DataIntersightExternalsiteAuthorizationVersionContextInterestedMosL
 }
 export interface DataIntersightExternalsiteAuthorizationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3444,19 +3444,19 @@ export interface DataIntersightExternalsiteAuthorizationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#moid DataIntersightExternalsiteAuthorization#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3469,7 +3469,7 @@ export interface DataIntersightExternalsiteAuthorizationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#selector DataIntersightExternalsiteAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -3669,7 +3669,7 @@ export class DataIntersightExternalsiteAuthorizationVersionContextRefMoOutputRef
 }
 export interface DataIntersightExternalsiteAuthorizationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#additional_properties DataIntersightExternalsiteAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3677,32 +3677,32 @@ export interface DataIntersightExternalsiteAuthorizationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#class_id DataIntersightExternalsiteAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#marked_for_deletion DataIntersightExternalsiteAuthorization#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#marked_for_deletion DataIntersightExternalsiteAuthorization#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#nr_version DataIntersightExternalsiteAuthorization#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#nr_version DataIntersightExternalsiteAuthorization#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#object_type DataIntersightExternalsiteAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#timestamp DataIntersightExternalsiteAuthorization#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#timestamp DataIntersightExternalsiteAuthorization#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3713,19 +3713,19 @@ export interface DataIntersightExternalsiteAuthorizationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#version_type DataIntersightExternalsiteAuthorization#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#version_type DataIntersightExternalsiteAuthorization#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#interested_mos DataIntersightExternalsiteAuthorization#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#interested_mos DataIntersightExternalsiteAuthorization#interested_mos}
   */
   readonly interestedMos?: DataIntersightExternalsiteAuthorizationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#ref_mo DataIntersightExternalsiteAuthorization#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#ref_mo DataIntersightExternalsiteAuthorization#ref_mo}
   */
   readonly refMo?: DataIntersightExternalsiteAuthorizationVersionContextRefMo;
 }
@@ -4041,7 +4041,7 @@ export class DataIntersightExternalsiteAuthorizationVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization intersight_externalsite_authorization}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization intersight_externalsite_authorization}
 */
 export class DataIntersightExternalsiteAuthorization extends cdktf.TerraformDataSource {
 
@@ -4057,7 +4057,7 @@ export class DataIntersightExternalsiteAuthorization extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightExternalsiteAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightExternalsiteAuthorization to import
-  * @param importFromId The id of the existing DataIntersightExternalsiteAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightExternalsiteAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightExternalsiteAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4069,7 +4069,7 @@ export class DataIntersightExternalsiteAuthorization extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/externalsite_authorization intersight_externalsite_authorization} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/externalsite_authorization intersight_externalsite_authorization} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4080,8 +4080,8 @@ export class DataIntersightExternalsiteAuthorization extends cdktf.TerraformData
       terraformResourceType: 'intersight_externalsite_authorization',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

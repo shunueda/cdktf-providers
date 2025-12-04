@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightOauthAccessTokenConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#account_moid DataIntersightOauthAccessToken#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#account_moid DataIntersightOauthAccessToken#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -23,7 +23,7 @@ export interface DataIntersightOauthAccessTokenConfig extends cdktf.TerraformMet
   * * `SmartLicensing-API` - Smart licensing API type.
   * * `CommerceEstimate-API` - Commerce Estimate API type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#api_type DataIntersightOauthAccessToken#api_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#api_type DataIntersightOauthAccessToken#api_type}
   */
   readonly apiType?: string;
   /**
@@ -31,29 +31,29 @@ export interface DataIntersightOauthAccessTokenConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#create_time DataIntersightOauthAccessToken#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#create_time DataIntersightOauthAccessToken#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#domain_group_moid DataIntersightOauthAccessToken#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#domain_group_moid DataIntersightOauthAccessToken#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Access token expiration date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#expiry DataIntersightOauthAccessToken#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#expiry DataIntersightOauthAccessToken#expiry}
   */
   readonly expiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#id DataIntersightOauthAccessToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#id DataIntersightOauthAccessToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,85 +62,85 @@ export interface DataIntersightOauthAccessTokenConfig extends cdktf.TerraformMet
   /**
   * OAuth access token issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#issuer DataIntersightOauthAccessToken#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#issuer DataIntersightOauthAccessToken#issuer}
   */
   readonly issuer?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#mod_time DataIntersightOauthAccessToken#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#mod_time DataIntersightOauthAccessToken#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#owners DataIntersightOauthAccessToken#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#owners DataIntersightOauthAccessToken#owners}
   */
   readonly owners?: string[];
   /**
   * Refresh token expiration date and time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#refresh_expiry DataIntersightOauthAccessToken#refresh_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#refresh_expiry DataIntersightOauthAccessToken#refresh_expiry}
   */
   readonly refreshExpiry?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#shared_scope DataIntersightOauthAccessToken#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#shared_scope DataIntersightOauthAccessToken#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * MOID of the access token owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#token_owner DataIntersightOauthAccessToken#token_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#token_owner DataIntersightOauthAccessToken#token_owner}
   */
   readonly tokenOwner?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#account DataIntersightOauthAccessToken#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#account DataIntersightOauthAccessToken#account}
   */
   readonly account?: DataIntersightOauthAccessTokenAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#ancestors DataIntersightOauthAccessToken#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#ancestors DataIntersightOauthAccessToken#ancestors}
   */
   readonly ancestors?: DataIntersightOauthAccessTokenAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#parent DataIntersightOauthAccessToken#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#parent DataIntersightOauthAccessToken#parent}
   */
   readonly parent?: DataIntersightOauthAccessTokenParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#permission_resources DataIntersightOauthAccessToken#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#permission_resources DataIntersightOauthAccessToken#permission_resources}
   */
   readonly permissionResources?: DataIntersightOauthAccessTokenPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#tags DataIntersightOauthAccessToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#tags DataIntersightOauthAccessToken#tags}
   */
   readonly tags?: DataIntersightOauthAccessTokenTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#version_context DataIntersightOauthAccessToken#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#version_context DataIntersightOauthAccessToken#version_context}
   */
   readonly versionContext?: DataIntersightOauthAccessTokenVersionContext;
 }
@@ -1316,7 +1316,7 @@ export class DataIntersightOauthAccessTokenResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightOauthAccessTokenAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1324,19 +1324,19 @@ export interface DataIntersightOauthAccessTokenAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1349,7 +1349,7 @@ export interface DataIntersightOauthAccessTokenAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -1549,7 +1549,7 @@ export class DataIntersightOauthAccessTokenAccountOutputReference extends cdktf.
 }
 export interface DataIntersightOauthAccessTokenAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1557,19 +1557,19 @@ export interface DataIntersightOauthAccessTokenAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1582,7 +1582,7 @@ export interface DataIntersightOauthAccessTokenAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -1814,7 +1814,7 @@ export class DataIntersightOauthAccessTokenAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightOauthAccessTokenParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1822,19 +1822,19 @@ export interface DataIntersightOauthAccessTokenParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1847,7 +1847,7 @@ export interface DataIntersightOauthAccessTokenParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -2047,7 +2047,7 @@ export class DataIntersightOauthAccessTokenParentOutputReference extends cdktf.C
 }
 export interface DataIntersightOauthAccessTokenPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2055,19 +2055,19 @@ export interface DataIntersightOauthAccessTokenPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2080,7 +2080,7 @@ export interface DataIntersightOauthAccessTokenPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -2312,7 +2312,7 @@ export class DataIntersightOauthAccessTokenPermissionResourcesList extends cdktf
 }
 export interface DataIntersightOauthAccessTokenTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2320,19 +2320,19 @@ export interface DataIntersightOauthAccessTokenTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2345,7 +2345,7 @@ export interface DataIntersightOauthAccessTokenTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -2577,7 +2577,7 @@ export class DataIntersightOauthAccessTokenTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightOauthAccessTokenTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2585,19 +2585,19 @@ export interface DataIntersightOauthAccessTokenTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2610,7 +2610,7 @@ export interface DataIntersightOauthAccessTokenTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -2810,25 +2810,25 @@ export class DataIntersightOauthAccessTokenTagsDefinitionOutputReference extends
 }
 export interface DataIntersightOauthAccessTokenTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#key DataIntersightOauthAccessToken#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#key DataIntersightOauthAccessToken#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#propagated DataIntersightOauthAccessToken#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#propagated DataIntersightOauthAccessToken#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#sys_tag DataIntersightOauthAccessToken#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#sys_tag DataIntersightOauthAccessToken#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2836,25 +2836,25 @@ export interface DataIntersightOauthAccessTokenTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#type DataIntersightOauthAccessToken#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#type DataIntersightOauthAccessToken#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#value DataIntersightOauthAccessToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#value DataIntersightOauthAccessToken#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#ancestor_definitions DataIntersightOauthAccessToken#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#ancestor_definitions DataIntersightOauthAccessToken#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOauthAccessTokenTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#definition DataIntersightOauthAccessToken#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#definition DataIntersightOauthAccessToken#definition}
   */
   readonly definition?: DataIntersightOauthAccessTokenTagsDefinition;
 }
@@ -3173,7 +3173,7 @@ export class DataIntersightOauthAccessTokenTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightOauthAccessTokenVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3181,19 +3181,19 @@ export interface DataIntersightOauthAccessTokenVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3206,7 +3206,7 @@ export interface DataIntersightOauthAccessTokenVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -3438,7 +3438,7 @@ export class DataIntersightOauthAccessTokenVersionContextInterestedMosList exten
 }
 export interface DataIntersightOauthAccessTokenVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3446,19 +3446,19 @@ export interface DataIntersightOauthAccessTokenVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#moid DataIntersightOauthAccessToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3471,7 +3471,7 @@ export interface DataIntersightOauthAccessTokenVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#selector DataIntersightOauthAccessToken#selector}
   */
   readonly selector?: string;
 }
@@ -3671,7 +3671,7 @@ export class DataIntersightOauthAccessTokenVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightOauthAccessTokenVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#additional_properties DataIntersightOauthAccessToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3679,32 +3679,32 @@ export interface DataIntersightOauthAccessTokenVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#class_id DataIntersightOauthAccessToken#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#marked_for_deletion DataIntersightOauthAccessToken#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#marked_for_deletion DataIntersightOauthAccessToken#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#nr_version DataIntersightOauthAccessToken#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#nr_version DataIntersightOauthAccessToken#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#object_type DataIntersightOauthAccessToken#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#timestamp DataIntersightOauthAccessToken#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#timestamp DataIntersightOauthAccessToken#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3715,19 +3715,19 @@ export interface DataIntersightOauthAccessTokenVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#version_type DataIntersightOauthAccessToken#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#version_type DataIntersightOauthAccessToken#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#interested_mos DataIntersightOauthAccessToken#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#interested_mos DataIntersightOauthAccessToken#interested_mos}
   */
   readonly interestedMos?: DataIntersightOauthAccessTokenVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#ref_mo DataIntersightOauthAccessToken#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#ref_mo DataIntersightOauthAccessToken#ref_mo}
   */
   readonly refMo?: DataIntersightOauthAccessTokenVersionContextRefMo;
 }
@@ -4043,7 +4043,7 @@ export class DataIntersightOauthAccessTokenVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token intersight_oauth_access_token}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token intersight_oauth_access_token}
 */
 export class DataIntersightOauthAccessToken extends cdktf.TerraformDataSource {
 
@@ -4059,7 +4059,7 @@ export class DataIntersightOauthAccessToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightOauthAccessToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOauthAccessToken to import
-  * @param importFromId The id of the existing DataIntersightOauthAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOauthAccessToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOauthAccessToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4071,7 +4071,7 @@ export class DataIntersightOauthAccessToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oauth_access_token intersight_oauth_access_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oauth_access_token intersight_oauth_access_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4082,8 +4082,8 @@ export class DataIntersightOauthAccessToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_oauth_access_token',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

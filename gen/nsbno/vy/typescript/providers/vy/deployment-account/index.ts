@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/deployment_account
+// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/deployment_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DeploymentAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * A Slack channel where info about deployments go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/deployment_account#slack_channel DeploymentAccount#slack_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/deployment_account#slack_channel DeploymentAccount#slack_channel}
   */
   readonly slackChannel: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/deployment_account vy_deployment_account}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/deployment_account vy_deployment_account}
 */
 export class DeploymentAccount extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class DeploymentAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentAccount to import
-  * @param importFromId The id of the existing DeploymentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/deployment_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/deployment_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DeploymentAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/deployment_account vy_deployment_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/deployment_account vy_deployment_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DeploymentAccount extends cdktf.TerraformResource {
       terraformResourceType: 'vy_deployment_account',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

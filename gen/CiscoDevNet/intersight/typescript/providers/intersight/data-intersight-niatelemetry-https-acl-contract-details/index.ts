@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsConfig extends
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#account_moid DataIntersightNiatelemetryHttpsAclContractDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#account_moid DataIntersightNiatelemetryHttpsAclContractDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsConfig extends
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * Consumer Dn of the HTTPS ACL contract children MOs for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#consumer_dn DataIntersightNiatelemetryHttpsAclContractDetails#consumer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#consumer_dn DataIntersightNiatelemetryHttpsAclContractDetails#consumer_dn}
   */
   readonly consumerDn?: string;
   /**
   * Name of HTTPS ACL contract for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#contract_name DataIntersightNiatelemetryHttpsAclContractDetails#contract_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#contract_name DataIntersightNiatelemetryHttpsAclContractDetails#contract_name}
   */
   readonly contractName?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#create_time DataIntersightNiatelemetryHttpsAclContractDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#create_time DataIntersightNiatelemetryHttpsAclContractDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#domain_group_moid DataIntersightNiatelemetryHttpsAclContractDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#domain_group_moid DataIntersightNiatelemetryHttpsAclContractDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#id DataIntersightNiatelemetryHttpsAclContractDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#id DataIntersightNiatelemetryHttpsAclContractDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsConfig extends
   /**
   * Mgmt Inst Dn of the HTTPS ACL contract children MOs for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#mgmt_instp_dn DataIntersightNiatelemetryHttpsAclContractDetails#mgmt_instp_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#mgmt_instp_dn DataIntersightNiatelemetryHttpsAclContractDetails#mgmt_instp_dn}
   */
   readonly mgmtInstpDn?: string;
   /**
   * Mgmt subnet address of the HTTPS ACL contract children MOs for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#mgmt_subnet_addresses DataIntersightNiatelemetryHttpsAclContractDetails#mgmt_subnet_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#mgmt_subnet_addresses DataIntersightNiatelemetryHttpsAclContractDetails#mgmt_subnet_addresses}
   */
   readonly mgmtSubnetAddresses?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#mod_time DataIntersightNiatelemetryHttpsAclContractDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#mod_time DataIntersightNiatelemetryHttpsAclContractDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#owners DataIntersightNiatelemetryHttpsAclContractDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#owners DataIntersightNiatelemetryHttpsAclContractDetails#owners}
   */
   readonly owners?: string[];
   /**
   * Provider dn of the HTTPS ACL contract children MOs for APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#provider_dn DataIntersightNiatelemetryHttpsAclContractDetails#provider_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#provider_dn DataIntersightNiatelemetryHttpsAclContractDetails#provider_dn}
   */
   readonly providerDn?: string;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#record_type DataIntersightNiatelemetryHttpsAclContractDetails#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#record_type DataIntersightNiatelemetryHttpsAclContractDetails#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#record_version DataIntersightNiatelemetryHttpsAclContractDetails#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#record_version DataIntersightNiatelemetryHttpsAclContractDetails#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#shared_scope DataIntersightNiatelemetryHttpsAclContractDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#shared_scope DataIntersightNiatelemetryHttpsAclContractDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#site_name DataIntersightNiatelemetryHttpsAclContractDetails#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#site_name DataIntersightNiatelemetryHttpsAclContractDetails#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#ancestors DataIntersightNiatelemetryHttpsAclContractDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#ancestors DataIntersightNiatelemetryHttpsAclContractDetails#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryHttpsAclContractDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#parent DataIntersightNiatelemetryHttpsAclContractDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#parent DataIntersightNiatelemetryHttpsAclContractDetails#parent}
   */
   readonly parent?: DataIntersightNiatelemetryHttpsAclContractDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#permission_resources DataIntersightNiatelemetryHttpsAclContractDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#permission_resources DataIntersightNiatelemetryHttpsAclContractDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryHttpsAclContractDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#registered_device DataIntersightNiatelemetryHttpsAclContractDetails#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#registered_device DataIntersightNiatelemetryHttpsAclContractDetails#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryHttpsAclContractDetailsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#tags DataIntersightNiatelemetryHttpsAclContractDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#tags DataIntersightNiatelemetryHttpsAclContractDetails#tags}
   */
   readonly tags?: DataIntersightNiatelemetryHttpsAclContractDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#version_context DataIntersightNiatelemetryHttpsAclContractDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#version_context DataIntersightNiatelemetryHttpsAclContractDetails#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext;
 }
@@ -1346,7 +1346,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsResultsList extend
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1354,19 +1354,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1379,7 +1379,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1611,7 +1611,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsAncestorsList exte
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1619,19 +1619,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1644,7 +1644,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1844,7 +1844,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsParentOutputRefere
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1852,19 +1852,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsPermissionReso
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1877,7 +1877,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsPermissionReso
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2109,7 +2109,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsPermissionResource
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2117,19 +2117,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsRegisteredDevi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2142,7 +2142,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsRegisteredDevi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2342,7 +2342,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsRegisteredDeviceOu
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2350,19 +2350,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsAncestorDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2375,7 +2375,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsAncestorDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2607,7 +2607,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsTagsAncestorDefini
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2615,19 +2615,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2640,7 +2640,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsTagsDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2840,25 +2840,25 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsTagsDefinitionOutp
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#key DataIntersightNiatelemetryHttpsAclContractDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#key DataIntersightNiatelemetryHttpsAclContractDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#propagated DataIntersightNiatelemetryHttpsAclContractDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#propagated DataIntersightNiatelemetryHttpsAclContractDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#sys_tag DataIntersightNiatelemetryHttpsAclContractDetails#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#sys_tag DataIntersightNiatelemetryHttpsAclContractDetails#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2866,25 +2866,25 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#type DataIntersightNiatelemetryHttpsAclContractDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#type DataIntersightNiatelemetryHttpsAclContractDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#value DataIntersightNiatelemetryHttpsAclContractDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#value DataIntersightNiatelemetryHttpsAclContractDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#ancestor_definitions DataIntersightNiatelemetryHttpsAclContractDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#ancestor_definitions DataIntersightNiatelemetryHttpsAclContractDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryHttpsAclContractDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#definition DataIntersightNiatelemetryHttpsAclContractDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#definition DataIntersightNiatelemetryHttpsAclContractDetails#definition}
   */
   readonly definition?: DataIntersightNiatelemetryHttpsAclContractDetailsTagsDefinition;
 }
@@ -3203,7 +3203,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsTagsList extends c
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3211,19 +3211,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3236,7 +3236,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3468,7 +3468,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextInte
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3476,19 +3476,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#moid DataIntersightNiatelemetryHttpsAclContractDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3501,7 +3501,7 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#selector DataIntersightNiatelemetryHttpsAclContractDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3701,7 +3701,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextRefM
 }
 export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#additional_properties DataIntersightNiatelemetryHttpsAclContractDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3709,32 +3709,32 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#class_id DataIntersightNiatelemetryHttpsAclContractDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#marked_for_deletion DataIntersightNiatelemetryHttpsAclContractDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#marked_for_deletion DataIntersightNiatelemetryHttpsAclContractDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#nr_version DataIntersightNiatelemetryHttpsAclContractDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#nr_version DataIntersightNiatelemetryHttpsAclContractDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#object_type DataIntersightNiatelemetryHttpsAclContractDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#timestamp DataIntersightNiatelemetryHttpsAclContractDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#timestamp DataIntersightNiatelemetryHttpsAclContractDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3745,19 +3745,19 @@ export interface DataIntersightNiatelemetryHttpsAclContractDetailsVersionContext
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#version_type DataIntersightNiatelemetryHttpsAclContractDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#version_type DataIntersightNiatelemetryHttpsAclContractDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#interested_mos DataIntersightNiatelemetryHttpsAclContractDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#interested_mos DataIntersightNiatelemetryHttpsAclContractDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#ref_mo DataIntersightNiatelemetryHttpsAclContractDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#ref_mo DataIntersightNiatelemetryHttpsAclContractDetails#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextRefMo;
 }
@@ -4073,7 +4073,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetailsVersionContextOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details intersight_niatelemetry_https_acl_contract_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details intersight_niatelemetry_https_acl_contract_details}
 */
 export class DataIntersightNiatelemetryHttpsAclContractDetails extends cdktf.TerraformDataSource {
 
@@ -4089,7 +4089,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetails extends cdktf.Ter
   * Generates CDKTF code for importing a DataIntersightNiatelemetryHttpsAclContractDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryHttpsAclContractDetails to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryHttpsAclContractDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryHttpsAclContractDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryHttpsAclContractDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4101,7 +4101,7 @@ export class DataIntersightNiatelemetryHttpsAclContractDetails extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_https_acl_contract_details intersight_niatelemetry_https_acl_contract_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_https_acl_contract_details intersight_niatelemetry_https_acl_contract_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4112,8 +4112,8 @@ export class DataIntersightNiatelemetryHttpsAclContractDetails extends cdktf.Ter
       terraformResourceType: 'intersight_niatelemetry_https_acl_contract_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApicApplicationEndpointGroupConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#account_moid DataIntersightApicApplicationEndpointGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#account_moid DataIntersightApicApplicationEndpointGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightApicApplicationEndpointGroupConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#create_time DataIntersightApicApplicationEndpointGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#create_time DataIntersightApicApplicationEndpointGroup#create_time}
   */
   readonly createTime?: string;
   /**
-  * Distinguished Name (DN) of an object in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Distinguished Name (DN) of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#dn DataIntersightApicApplicationEndpointGroup#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#dn DataIntersightApicApplicationEndpointGroup#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#domain_group_moid DataIntersightApicApplicationEndpointGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#domain_group_moid DataIntersightApicApplicationEndpointGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#id DataIntersightApicApplicationEndpointGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#id DataIntersightApicApplicationEndpointGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,79 +53,79 @@ export interface DataIntersightApicApplicationEndpointGroupConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#mod_time DataIntersightApicApplicationEndpointGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#mod_time DataIntersightApicApplicationEndpointGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
-  * Object name in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Name of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#name DataIntersightApicApplicationEndpointGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#name DataIntersightApicApplicationEndpointGroup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#owners DataIntersightApicApplicationEndpointGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#owners DataIntersightApicApplicationEndpointGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#shared_scope DataIntersightApicApplicationEndpointGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#shared_scope DataIntersightApicApplicationEndpointGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#ancestors DataIntersightApicApplicationEndpointGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#ancestors DataIntersightApicApplicationEndpointGroup#ancestors}
   */
   readonly ancestors?: DataIntersightApicApplicationEndpointGroupAncestors[] | cdktf.IResolvable;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#application DataIntersightApicApplicationEndpointGroup#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#application DataIntersightApicApplicationEndpointGroup#application}
   */
   readonly application?: DataIntersightApicApplicationEndpointGroupApplication;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#parent DataIntersightApicApplicationEndpointGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#parent DataIntersightApicApplicationEndpointGroup#parent}
   */
   readonly parent?: DataIntersightApicApplicationEndpointGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#permission_resources DataIntersightApicApplicationEndpointGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#permission_resources DataIntersightApicApplicationEndpointGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightApicApplicationEndpointGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#registered_device DataIntersightApicApplicationEndpointGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#registered_device DataIntersightApicApplicationEndpointGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightApicApplicationEndpointGroupRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#tags DataIntersightApicApplicationEndpointGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#tags DataIntersightApicApplicationEndpointGroup#tags}
   */
   readonly tags?: DataIntersightApicApplicationEndpointGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#version_context DataIntersightApicApplicationEndpointGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#version_context DataIntersightApicApplicationEndpointGroup#version_context}
   */
   readonly versionContext?: DataIntersightApicApplicationEndpointGroupVersionContext;
 }
@@ -1387,7 +1387,7 @@ export class DataIntersightApicApplicationEndpointGroupResultsList extends cdktf
 }
 export interface DataIntersightApicApplicationEndpointGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1395,19 +1395,19 @@ export interface DataIntersightApicApplicationEndpointGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1420,7 +1420,7 @@ export interface DataIntersightApicApplicationEndpointGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1652,7 +1652,7 @@ export class DataIntersightApicApplicationEndpointGroupAncestorsList extends cdk
 }
 export interface DataIntersightApicApplicationEndpointGroupApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1660,19 +1660,19 @@ export interface DataIntersightApicApplicationEndpointGroupApplication {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1685,7 +1685,7 @@ export interface DataIntersightApicApplicationEndpointGroupApplication {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1885,7 +1885,7 @@ export class DataIntersightApicApplicationEndpointGroupApplicationOutputReferenc
 }
 export interface DataIntersightApicApplicationEndpointGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1893,19 +1893,19 @@ export interface DataIntersightApicApplicationEndpointGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1918,7 +1918,7 @@ export interface DataIntersightApicApplicationEndpointGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2118,7 +2118,7 @@ export class DataIntersightApicApplicationEndpointGroupParentOutputReference ext
 }
 export interface DataIntersightApicApplicationEndpointGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2126,19 +2126,19 @@ export interface DataIntersightApicApplicationEndpointGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2151,7 +2151,7 @@ export interface DataIntersightApicApplicationEndpointGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2383,7 +2383,7 @@ export class DataIntersightApicApplicationEndpointGroupPermissionResourcesList e
 }
 export interface DataIntersightApicApplicationEndpointGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2391,19 +2391,19 @@ export interface DataIntersightApicApplicationEndpointGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2416,7 +2416,7 @@ export interface DataIntersightApicApplicationEndpointGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2616,7 +2616,7 @@ export class DataIntersightApicApplicationEndpointGroupRegisteredDeviceOutputRef
 }
 export interface DataIntersightApicApplicationEndpointGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2624,19 +2624,19 @@ export interface DataIntersightApicApplicationEndpointGroupTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2649,7 +2649,7 @@ export interface DataIntersightApicApplicationEndpointGroupTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2881,7 +2881,7 @@ export class DataIntersightApicApplicationEndpointGroupTagsAncestorDefinitionsLi
 }
 export interface DataIntersightApicApplicationEndpointGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2889,19 +2889,19 @@ export interface DataIntersightApicApplicationEndpointGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2914,7 +2914,7 @@ export interface DataIntersightApicApplicationEndpointGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3114,25 +3114,25 @@ export class DataIntersightApicApplicationEndpointGroupTagsDefinitionOutputRefer
 }
 export interface DataIntersightApicApplicationEndpointGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#key DataIntersightApicApplicationEndpointGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#key DataIntersightApicApplicationEndpointGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#propagated DataIntersightApicApplicationEndpointGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#propagated DataIntersightApicApplicationEndpointGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#sys_tag DataIntersightApicApplicationEndpointGroup#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#sys_tag DataIntersightApicApplicationEndpointGroup#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3140,25 +3140,25 @@ export interface DataIntersightApicApplicationEndpointGroupTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#type DataIntersightApicApplicationEndpointGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#type DataIntersightApicApplicationEndpointGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#value DataIntersightApicApplicationEndpointGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#value DataIntersightApicApplicationEndpointGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#ancestor_definitions DataIntersightApicApplicationEndpointGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#ancestor_definitions DataIntersightApicApplicationEndpointGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApicApplicationEndpointGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#definition DataIntersightApicApplicationEndpointGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#definition DataIntersightApicApplicationEndpointGroup#definition}
   */
   readonly definition?: DataIntersightApicApplicationEndpointGroupTagsDefinition;
 }
@@ -3477,7 +3477,7 @@ export class DataIntersightApicApplicationEndpointGroupTagsList extends cdktf.Co
 }
 export interface DataIntersightApicApplicationEndpointGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3485,19 +3485,19 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3510,7 +3510,7 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3742,7 +3742,7 @@ export class DataIntersightApicApplicationEndpointGroupVersionContextInterestedM
 }
 export interface DataIntersightApicApplicationEndpointGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3750,19 +3750,19 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#moid DataIntersightApicApplicationEndpointGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3775,7 +3775,7 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#selector DataIntersightApicApplicationEndpointGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3975,7 +3975,7 @@ export class DataIntersightApicApplicationEndpointGroupVersionContextRefMoOutput
 }
 export interface DataIntersightApicApplicationEndpointGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#additional_properties DataIntersightApicApplicationEndpointGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3983,32 +3983,32 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#class_id DataIntersightApicApplicationEndpointGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#marked_for_deletion DataIntersightApicApplicationEndpointGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#marked_for_deletion DataIntersightApicApplicationEndpointGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#nr_version DataIntersightApicApplicationEndpointGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#nr_version DataIntersightApicApplicationEndpointGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#object_type DataIntersightApicApplicationEndpointGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#timestamp DataIntersightApicApplicationEndpointGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#timestamp DataIntersightApicApplicationEndpointGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4019,19 +4019,19 @@ export interface DataIntersightApicApplicationEndpointGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#version_type DataIntersightApicApplicationEndpointGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#version_type DataIntersightApicApplicationEndpointGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#interested_mos DataIntersightApicApplicationEndpointGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#interested_mos DataIntersightApicApplicationEndpointGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightApicApplicationEndpointGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#ref_mo DataIntersightApicApplicationEndpointGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#ref_mo DataIntersightApicApplicationEndpointGroup#ref_mo}
   */
   readonly refMo?: DataIntersightApicApplicationEndpointGroupVersionContextRefMo;
 }
@@ -4347,7 +4347,7 @@ export class DataIntersightApicApplicationEndpointGroupVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group intersight_apic_application_endpoint_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group intersight_apic_application_endpoint_group}
 */
 export class DataIntersightApicApplicationEndpointGroup extends cdktf.TerraformDataSource {
 
@@ -4363,7 +4363,7 @@ export class DataIntersightApicApplicationEndpointGroup extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightApicApplicationEndpointGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApicApplicationEndpointGroup to import
-  * @param importFromId The id of the existing DataIntersightApicApplicationEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApicApplicationEndpointGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApicApplicationEndpointGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4375,7 +4375,7 @@ export class DataIntersightApicApplicationEndpointGroup extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_application_endpoint_group intersight_apic_application_endpoint_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_application_endpoint_group intersight_apic_application_endpoint_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4386,8 +4386,8 @@ export class DataIntersightApicApplicationEndpointGroup extends cdktf.TerraformD
       terraformResourceType: 'intersight_apic_application_endpoint_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

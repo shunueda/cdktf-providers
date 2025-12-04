@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpnGatewayCcnRoutesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Routing CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#destination_cidr_block VpnGatewayCcnRoutes#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#destination_cidr_block VpnGatewayCcnRoutes#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#id VpnGatewayCcnRoutes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#id VpnGatewayCcnRoutes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface VpnGatewayCcnRoutesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Route Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#route_id VpnGatewayCcnRoutes#route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#route_id VpnGatewayCcnRoutes#route_id}
   */
   readonly routeId: string;
   /**
   * Whether routing information is enabled. `ENABLE`: Enable Route, `DISABLE`: Disable Route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#status VpnGatewayCcnRoutes#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#status VpnGatewayCcnRoutes#status}
   */
   readonly status: string;
   /**
   * VPN GATEWAY INSTANCE ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#vpn_gateway_id VpnGatewayCcnRoutes#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#vpn_gateway_id VpnGatewayCcnRoutes#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes tencentcloud_vpn_gateway_ccn_routes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes tencentcloud_vpn_gateway_ccn_routes}
 */
 export class VpnGatewayCcnRoutes extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class VpnGatewayCcnRoutes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnGatewayCcnRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnGatewayCcnRoutes to import
-  * @param importFromId The id of the existing VpnGatewayCcnRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnGatewayCcnRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnGatewayCcnRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class VpnGatewayCcnRoutes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vpn_gateway_ccn_routes tencentcloud_vpn_gateway_ccn_routes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vpn_gateway_ccn_routes tencentcloud_vpn_gateway_ccn_routes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class VpnGatewayCcnRoutes extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpn_gateway_ccn_routes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

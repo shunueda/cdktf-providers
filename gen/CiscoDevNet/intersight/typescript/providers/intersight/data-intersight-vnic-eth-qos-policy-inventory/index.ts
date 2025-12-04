@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightVnicEthQosPolicyInventoryConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#account_moid DataIntersightVnicEthQosPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#account_moid DataIntersightVnicEthQosPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The burst traffic, in bytes, allowed on the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#burst DataIntersightVnicEthQosPolicyInventory#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#burst DataIntersightVnicEthQosPolicyInventory#burst}
   */
   readonly burst?: number;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightVnicEthQosPolicyInventoryConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * Class of Service to be associated to the traffic on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#cos DataIntersightVnicEthQosPolicyInventory#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#cos DataIntersightVnicEthQosPolicyInventory#cos}
   */
   readonly cos?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#create_time DataIntersightVnicEthQosPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#create_time DataIntersightVnicEthQosPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#description DataIntersightVnicEthQosPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#description DataIntersightVnicEthQosPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#device_mo_id DataIntersightVnicEthQosPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#device_mo_id DataIntersightVnicEthQosPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#domain_group_moid DataIntersightVnicEthQosPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#domain_group_moid DataIntersightVnicEthQosPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#id DataIntersightVnicEthQosPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#id DataIntersightVnicEthQosPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,36 +71,36 @@ export interface DataIntersightVnicEthQosPolicyInventoryConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#mod_time DataIntersightVnicEthQosPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#mod_time DataIntersightVnicEthQosPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The Maximum Transmission Unit (MTU) or packet size that the virtual interface accepts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#mtu DataIntersightVnicEthQosPolicyInventory#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#mtu DataIntersightVnicEthQosPolicyInventory#mtu}
   */
   readonly mtu?: number;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#name DataIntersightVnicEthQosPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#name DataIntersightVnicEthQosPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#owners DataIntersightVnicEthQosPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#owners DataIntersightVnicEthQosPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
@@ -112,62 +112,62 @@ export interface DataIntersightVnicEthQosPolicyInventoryConfig extends cdktf.Ter
   * * `Silver` - QoS Priority for Silver traffic.
   * * `Bronze` - QoS Priority for Bronze traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#priority DataIntersightVnicEthQosPolicyInventory#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#priority DataIntersightVnicEthQosPolicyInventory#priority}
   */
   readonly priority?: string;
   /**
   * The value in Mbps (0-10G/40G/100G depending on Adapter Model) to use for limiting the data rate on the virtual interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#rate_limit DataIntersightVnicEthQosPolicyInventory#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#rate_limit DataIntersightVnicEthQosPolicyInventory#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#shared_scope DataIntersightVnicEthQosPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#shared_scope DataIntersightVnicEthQosPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Enables usage of the Class of Service provided by the operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#trust_host_cos DataIntersightVnicEthQosPolicyInventory#trust_host_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#trust_host_cos DataIntersightVnicEthQosPolicyInventory#trust_host_cos}
   */
   readonly trustHostCos?: boolean | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#ancestors DataIntersightVnicEthQosPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#ancestors DataIntersightVnicEthQosPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightVnicEthQosPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#parent DataIntersightVnicEthQosPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#parent DataIntersightVnicEthQosPolicyInventory#parent}
   */
   readonly parent?: DataIntersightVnicEthQosPolicyInventoryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#permission_resources DataIntersightVnicEthQosPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#permission_resources DataIntersightVnicEthQosPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicEthQosPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#tags DataIntersightVnicEthQosPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#tags DataIntersightVnicEthQosPolicyInventory#tags}
   */
   readonly tags?: DataIntersightVnicEthQosPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#target_mo DataIntersightVnicEthQosPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#target_mo DataIntersightVnicEthQosPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightVnicEthQosPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#version_context DataIntersightVnicEthQosPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#version_context DataIntersightVnicEthQosPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightVnicEthQosPolicyInventoryVersionContext;
 }
@@ -1363,7 +1363,7 @@ export class DataIntersightVnicEthQosPolicyInventoryResultsList extends cdktf.Co
 }
 export interface DataIntersightVnicEthQosPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1371,19 +1371,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1396,7 +1396,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1628,7 +1628,7 @@ export class DataIntersightVnicEthQosPolicyInventoryAncestorsList extends cdktf.
 }
 export interface DataIntersightVnicEthQosPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1636,19 +1636,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1661,7 +1661,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1861,7 +1861,7 @@ export class DataIntersightVnicEthQosPolicyInventoryParentOutputReference extend
 }
 export interface DataIntersightVnicEthQosPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1869,19 +1869,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1894,7 +1894,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2126,7 +2126,7 @@ export class DataIntersightVnicEthQosPolicyInventoryPermissionResourcesList exte
 }
 export interface DataIntersightVnicEthQosPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2134,19 +2134,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2159,7 +2159,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2391,7 +2391,7 @@ export class DataIntersightVnicEthQosPolicyInventoryTagsAncestorDefinitionsList 
 }
 export interface DataIntersightVnicEthQosPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2399,19 +2399,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2424,7 +2424,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2624,25 +2624,25 @@ export class DataIntersightVnicEthQosPolicyInventoryTagsDefinitionOutputReferenc
 }
 export interface DataIntersightVnicEthQosPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#key DataIntersightVnicEthQosPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#key DataIntersightVnicEthQosPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#propagated DataIntersightVnicEthQosPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#propagated DataIntersightVnicEthQosPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#sys_tag DataIntersightVnicEthQosPolicyInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#sys_tag DataIntersightVnicEthQosPolicyInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2650,25 +2650,25 @@ export interface DataIntersightVnicEthQosPolicyInventoryTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#type DataIntersightVnicEthQosPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#type DataIntersightVnicEthQosPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#value DataIntersightVnicEthQosPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#value DataIntersightVnicEthQosPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#ancestor_definitions DataIntersightVnicEthQosPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#ancestor_definitions DataIntersightVnicEthQosPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicEthQosPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#definition DataIntersightVnicEthQosPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#definition DataIntersightVnicEthQosPolicyInventory#definition}
   */
   readonly definition?: DataIntersightVnicEthQosPolicyInventoryTagsDefinition;
 }
@@ -2987,7 +2987,7 @@ export class DataIntersightVnicEthQosPolicyInventoryTagsList extends cdktf.Compl
 }
 export interface DataIntersightVnicEthQosPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2995,19 +2995,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3020,7 +3020,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3220,7 +3220,7 @@ export class DataIntersightVnicEthQosPolicyInventoryTargetMoOutputReference exte
 }
 export interface DataIntersightVnicEthQosPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3228,19 +3228,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3253,7 +3253,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3485,7 +3485,7 @@ export class DataIntersightVnicEthQosPolicyInventoryVersionContextInterestedMosL
 }
 export interface DataIntersightVnicEthQosPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3493,19 +3493,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#moid DataIntersightVnicEthQosPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3518,7 +3518,7 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#selector DataIntersightVnicEthQosPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3718,7 +3718,7 @@ export class DataIntersightVnicEthQosPolicyInventoryVersionContextRefMoOutputRef
 }
 export interface DataIntersightVnicEthQosPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#additional_properties DataIntersightVnicEthQosPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3726,32 +3726,32 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#class_id DataIntersightVnicEthQosPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#marked_for_deletion DataIntersightVnicEthQosPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#marked_for_deletion DataIntersightVnicEthQosPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#nr_version DataIntersightVnicEthQosPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#nr_version DataIntersightVnicEthQosPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#object_type DataIntersightVnicEthQosPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#timestamp DataIntersightVnicEthQosPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#timestamp DataIntersightVnicEthQosPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3762,19 +3762,19 @@ export interface DataIntersightVnicEthQosPolicyInventoryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#version_type DataIntersightVnicEthQosPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#version_type DataIntersightVnicEthQosPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#interested_mos DataIntersightVnicEthQosPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#interested_mos DataIntersightVnicEthQosPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicEthQosPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#ref_mo DataIntersightVnicEthQosPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#ref_mo DataIntersightVnicEthQosPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightVnicEthQosPolicyInventoryVersionContextRefMo;
 }
@@ -4090,7 +4090,7 @@ export class DataIntersightVnicEthQosPolicyInventoryVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory intersight_vnic_eth_qos_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory intersight_vnic_eth_qos_policy_inventory}
 */
 export class DataIntersightVnicEthQosPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -4106,7 +4106,7 @@ export class DataIntersightVnicEthQosPolicyInventory extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightVnicEthQosPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicEthQosPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightVnicEthQosPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicEthQosPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicEthQosPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4118,7 +4118,7 @@ export class DataIntersightVnicEthQosPolicyInventory extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_eth_qos_policy_inventory intersight_vnic_eth_qos_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_eth_qos_policy_inventory intersight_vnic_eth_qos_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4129,8 +4129,8 @@ export class DataIntersightVnicEthQosPolicyInventory extends cdktf.TerraformData
       terraformResourceType: 'intersight_vnic_eth_qos_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

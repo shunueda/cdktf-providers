@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDbbrainNoPrimaryKeyTablesConfig extends cdktf.T
   /**
   * Query date, such as 2021-05-27, the earliest date is 30 days ago.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#date DataTencentcloudDbbrainNoPrimaryKeyTables#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#date DataTencentcloudDbbrainNoPrimaryKeyTables#date}
   */
   readonly date: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#id DataTencentcloudDbbrainNoPrimaryKeyTables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#id DataTencentcloudDbbrainNoPrimaryKeyTables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudDbbrainNoPrimaryKeyTablesConfig extends cdktf.T
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#instance_id DataTencentcloudDbbrainNoPrimaryKeyTables#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#instance_id DataTencentcloudDbbrainNoPrimaryKeyTables#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values: `mysql` - ApsaraDB for MySQL, the default is `mysql`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#product DataTencentcloudDbbrainNoPrimaryKeyTables#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#product DataTencentcloudDbbrainNoPrimaryKeyTables#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#result_output_file DataTencentcloudDbbrainNoPrimaryKeyTables#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#result_output_file DataTencentcloudDbbrainNoPrimaryKeyTables#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -136,7 +136,7 @@ export class DataTencentcloudDbbrainNoPrimaryKeyTablesNoPrimaryKeyTablesList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables tencentcloud_dbbrain_no_primary_key_tables}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables tencentcloud_dbbrain_no_primary_key_tables}
 */
 export class DataTencentcloudDbbrainNoPrimaryKeyTables extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataTencentcloudDbbrainNoPrimaryKeyTables extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudDbbrainNoPrimaryKeyTables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainNoPrimaryKeyTables to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainNoPrimaryKeyTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainNoPrimaryKeyTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainNoPrimaryKeyTables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataTencentcloudDbbrainNoPrimaryKeyTables extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_no_primary_key_tables tencentcloud_dbbrain_no_primary_key_tables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_no_primary_key_tables tencentcloud_dbbrain_no_primary_key_tables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class DataTencentcloudDbbrainNoPrimaryKeyTables extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_dbbrain_no_primary_key_tables',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

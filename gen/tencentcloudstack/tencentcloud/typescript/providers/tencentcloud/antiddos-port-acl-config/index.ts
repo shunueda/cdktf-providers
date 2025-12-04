@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AntiddosPortAclConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#id AntiddosPortAclConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#id AntiddosPortAclConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AntiddosPortAclConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * InstanceIdList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#instance_id AntiddosPortAclConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#instance_id AntiddosPortAclConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * acl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#acl_config AntiddosPortAclConfig#acl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#acl_config AntiddosPortAclConfig#acl_config}
   */
   readonly aclConfig: AntiddosPortAclConfigAclConfig;
 }
@@ -31,43 +31,43 @@ export interface AntiddosPortAclConfigAclConfig {
   /**
   * Action, can take values: drop, transmit, forward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#action AntiddosPortAclConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#action AntiddosPortAclConfig#action}
   */
   readonly action: string;
   /**
   * end from port, with a range of 0~65535 values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#d_port_end AntiddosPortAclConfig#d_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#d_port_end AntiddosPortAclConfig#d_port_end}
   */
   readonly dPortEnd: number;
   /**
   * Starting from port, with a range of 0~65535 values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#d_port_start AntiddosPortAclConfig#d_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#d_port_start AntiddosPortAclConfig#d_port_start}
   */
   readonly dPortStart: number;
   /**
   * Protocol type, can take TCP, udp, all values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#forward_protocol AntiddosPortAclConfig#forward_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#forward_protocol AntiddosPortAclConfig#forward_protocol}
   */
   readonly forwardProtocol: string;
   /**
   * The policy priority, the smaller the number, the higher the level, and the higher the matching of the rule, with values ranging from 1 to 1000. Note: This field may return null, indicating that a valid value cannot be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#priority AntiddosPortAclConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#priority AntiddosPortAclConfig#priority}
   */
   readonly priority?: number;
   /**
   * end from the source port, with a value range of 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#s_port_end AntiddosPortAclConfig#s_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#s_port_end AntiddosPortAclConfig#s_port_end}
   */
   readonly sPortEnd: number;
   /**
   * Starting from the source port, with a value range of 0~65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#s_port_start AntiddosPortAclConfig#s_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#s_port_start AntiddosPortAclConfig#s_port_start}
   */
   readonly sPortStart: number;
 }
@@ -307,7 +307,7 @@ export class AntiddosPortAclConfigAclConfigOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config tencentcloud_antiddos_port_acl_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config tencentcloud_antiddos_port_acl_config}
 */
 export class AntiddosPortAclConfig extends cdktf.TerraformResource {
 
@@ -323,7 +323,7 @@ export class AntiddosPortAclConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AntiddosPortAclConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AntiddosPortAclConfig to import
-  * @param importFromId The id of the existing AntiddosPortAclConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AntiddosPortAclConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AntiddosPortAclConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +335,7 @@ export class AntiddosPortAclConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/antiddos_port_acl_config tencentcloud_antiddos_port_acl_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/antiddos_port_acl_config tencentcloud_antiddos_port_acl_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +346,8 @@ export class AntiddosPortAclConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_antiddos_port_acl_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

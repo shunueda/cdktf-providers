@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexClusterReplicationNetworkPolicyDeploymentConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#account_moid HyperflexClusterReplicationNetworkPolicyDeployment#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#account_moid HyperflexClusterReplicationNetworkPolicyDeployment#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ancestors HyperflexClusterReplicationNetworkPolicyDeployment#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ancestors HyperflexClusterReplicationNetworkPolicyDeployment#ancestors}
   */
   readonly ancestors?: HyperflexClusterReplicationNetworkPolicyDeploymentAncestors[] | cdktf.IResolvable;
   /**
@@ -28,48 +28,48 @@ export interface HyperflexClusterReplicationNetworkPolicyDeploymentConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a hyperflexCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#cluster HyperflexClusterReplicationNetworkPolicyDeployment#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#cluster HyperflexClusterReplicationNetworkPolicyDeployment#cluster}
   */
   readonly cluster?: HyperflexClusterReplicationNetworkPolicyDeploymentCluster[] | cdktf.IResolvable;
   /**
   * Uuid of the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#cluster_uuid HyperflexClusterReplicationNetworkPolicyDeployment#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#cluster_uuid HyperflexClusterReplicationNetworkPolicyDeployment#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#create_time HyperflexClusterReplicationNetworkPolicyDeployment#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#create_time HyperflexClusterReplicationNetworkPolicyDeployment#create_time}
   */
   readonly createTime?: string;
   /**
   * Description from corresponding ClusterReplicationNetworkPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#description HyperflexClusterReplicationNetworkPolicyDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#description HyperflexClusterReplicationNetworkPolicyDeployment#description}
   */
   readonly description?: string;
   /**
   * True if record created by discovery on HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#discovered HyperflexClusterReplicationNetworkPolicyDeployment#discovered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#discovered HyperflexClusterReplicationNetworkPolicyDeployment#discovered}
   */
   readonly discovered?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#domain_group_moid HyperflexClusterReplicationNetworkPolicyDeployment#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#domain_group_moid HyperflexClusterReplicationNetworkPolicyDeployment#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#id HyperflexClusterReplicationNetworkPolicyDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#id HyperflexClusterReplicationNetworkPolicyDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,129 +78,129 @@ export interface HyperflexClusterReplicationNetworkPolicyDeploymentConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#mod_time HyperflexClusterReplicationNetworkPolicyDeployment#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#mod_time HyperflexClusterReplicationNetworkPolicyDeployment#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
   * Name from corresponding ClusterReplicationNetworkPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#name HyperflexClusterReplicationNetworkPolicyDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#name HyperflexClusterReplicationNetworkPolicyDeployment#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#organization HyperflexClusterReplicationNetworkPolicyDeployment#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#organization HyperflexClusterReplicationNetworkPolicyDeployment#organization}
   */
   readonly organization?: HyperflexClusterReplicationNetworkPolicyDeploymentOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#owners HyperflexClusterReplicationNetworkPolicyDeployment#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#owners HyperflexClusterReplicationNetworkPolicyDeployment#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#parent HyperflexClusterReplicationNetworkPolicyDeployment#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#parent HyperflexClusterReplicationNetworkPolicyDeployment#parent}
   */
   readonly parent?: HyperflexClusterReplicationNetworkPolicyDeploymentParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#permission_resources HyperflexClusterReplicationNetworkPolicyDeployment#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#permission_resources HyperflexClusterReplicationNetworkPolicyDeployment#permission_resources}
   */
   readonly permissionResources?: HyperflexClusterReplicationNetworkPolicyDeploymentPermissionResources[] | cdktf.IResolvable;
   /**
   * Deployed network policy moid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#policy_moid HyperflexClusterReplicationNetworkPolicyDeployment#policy_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#policy_moid HyperflexClusterReplicationNetworkPolicyDeployment#policy_moid}
   */
   readonly policyMoid?: string;
   /**
   * Deployed cluster profile moid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#profile_moid HyperflexClusterReplicationNetworkPolicyDeployment#profile_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#profile_moid HyperflexClusterReplicationNetworkPolicyDeployment#profile_moid}
   */
   readonly profileMoid?: string;
   /**
   * Bandwidth for the Replication network in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_bandwidth_mbps HyperflexClusterReplicationNetworkPolicyDeployment#replication_bandwidth_mbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_bandwidth_mbps HyperflexClusterReplicationNetworkPolicyDeployment#replication_bandwidth_mbps}
   */
   readonly replicationBandwidthMbps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_ipranges HyperflexClusterReplicationNetworkPolicyDeployment#replication_ipranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_ipranges HyperflexClusterReplicationNetworkPolicyDeployment#replication_ipranges}
   */
   readonly replicationIpranges?: HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIpranges[] | cdktf.IResolvable;
   /**
   * MTU for the Replication network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_mtu HyperflexClusterReplicationNetworkPolicyDeployment#replication_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_mtu HyperflexClusterReplicationNetworkPolicyDeployment#replication_mtu}
   */
   readonly replicationMtu?: number;
   /**
   * VLAN for the Replication network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_vlan HyperflexClusterReplicationNetworkPolicyDeployment#replication_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#replication_vlan HyperflexClusterReplicationNetworkPolicyDeployment#replication_vlan}
   */
   readonly replicationVlan?: HyperflexClusterReplicationNetworkPolicyDeploymentReplicationVlan[] | cdktf.IResolvable;
   /**
   * Unique request ID allowing retry of the same logical request following a transient communication failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#request_id HyperflexClusterReplicationNetworkPolicyDeployment#request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#request_id HyperflexClusterReplicationNetworkPolicyDeployment#request_id}
   */
   readonly requestId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#shared_scope HyperflexClusterReplicationNetworkPolicyDeployment#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#shared_scope HyperflexClusterReplicationNetworkPolicyDeployment#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#tags HyperflexClusterReplicationNetworkPolicyDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#tags HyperflexClusterReplicationNetworkPolicyDeployment#tags}
   */
   readonly tags?: HyperflexClusterReplicationNetworkPolicyDeploymentTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#version_context HyperflexClusterReplicationNetworkPolicyDeployment#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#version_context HyperflexClusterReplicationNetworkPolicyDeployment#version_context}
   */
   readonly versionContext?: HyperflexClusterReplicationNetworkPolicyDeploymentVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -432,23 +432,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentAncestorsList ext
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -680,23 +680,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentClusterList exten
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -928,23 +928,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentOrganizationList 
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -1176,23 +1176,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentParentList extend
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -1424,23 +1424,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentPermissionResourc
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIprangesIpAddrBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#end_address HyperflexClusterReplicationNetworkPolicyDeployment#end_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#end_address HyperflexClusterReplicationNetworkPolicyDeployment#end_address}
   */
   readonly endAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#start_address HyperflexClusterReplicationNetworkPolicyDeployment#start_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#start_address HyperflexClusterReplicationNetworkPolicyDeployment#start_address}
   */
   readonly startAddress?: string;
 }
@@ -1672,35 +1672,35 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIprang
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIpranges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#end_addr HyperflexClusterReplicationNetworkPolicyDeployment#end_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#end_addr HyperflexClusterReplicationNetworkPolicyDeployment#end_addr}
   */
   readonly endAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#gateway HyperflexClusterReplicationNetworkPolicyDeployment#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#gateway HyperflexClusterReplicationNetworkPolicyDeployment#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ip_addr_blocks HyperflexClusterReplicationNetworkPolicyDeployment#ip_addr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ip_addr_blocks HyperflexClusterReplicationNetworkPolicyDeployment#ip_addr_blocks}
   */
   readonly ipAddrBlocks?: HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIprangesIpAddrBlocks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#netmask HyperflexClusterReplicationNetworkPolicyDeployment#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#netmask HyperflexClusterReplicationNetworkPolicyDeployment#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#start_addr HyperflexClusterReplicationNetworkPolicyDeployment#start_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#start_addr HyperflexClusterReplicationNetworkPolicyDeployment#start_addr}
   */
   readonly startAddr?: string;
 }
@@ -2019,23 +2019,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentReplicationIprang
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentReplicationVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#name HyperflexClusterReplicationNetworkPolicyDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#name HyperflexClusterReplicationNetworkPolicyDeployment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#vlan_id HyperflexClusterReplicationNetworkPolicyDeployment#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#vlan_id HyperflexClusterReplicationNetworkPolicyDeployment#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -2267,23 +2267,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentReplicationVlanLi
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2515,23 +2515,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentTagsAncestorDefin
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -2763,35 +2763,35 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentTagsDefinitionLis
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ancestor_definitions HyperflexClusterReplicationNetworkPolicyDeployment#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ancestor_definitions HyperflexClusterReplicationNetworkPolicyDeployment#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexClusterReplicationNetworkPolicyDeploymentTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#definition HyperflexClusterReplicationNetworkPolicyDeployment#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#definition HyperflexClusterReplicationNetworkPolicyDeployment#definition}
   */
   readonly definition?: HyperflexClusterReplicationNetworkPolicyDeploymentTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#key HyperflexClusterReplicationNetworkPolicyDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#key HyperflexClusterReplicationNetworkPolicyDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#propagated HyperflexClusterReplicationNetworkPolicyDeployment#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#propagated HyperflexClusterReplicationNetworkPolicyDeployment#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#sys_tag HyperflexClusterReplicationNetworkPolicyDeployment#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#sys_tag HyperflexClusterReplicationNetworkPolicyDeployment#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#type HyperflexClusterReplicationNetworkPolicyDeployment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#type HyperflexClusterReplicationNetworkPolicyDeployment#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#value HyperflexClusterReplicationNetworkPolicyDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#value HyperflexClusterReplicationNetworkPolicyDeployment#value}
   */
   readonly value?: string;
 }
@@ -3110,23 +3110,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentTagsList extends 
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3358,23 +3358,23 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextInt
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#moid HyperflexClusterReplicationNetworkPolicyDeployment#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#selector HyperflexClusterReplicationNetworkPolicyDeployment#selector}
   */
   readonly selector?: string;
 }
@@ -3606,39 +3606,39 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextRef
 }
 export interface HyperflexClusterReplicationNetworkPolicyDeploymentVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#additional_properties HyperflexClusterReplicationNetworkPolicyDeployment#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#class_id HyperflexClusterReplicationNetworkPolicyDeployment#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#interested_mos HyperflexClusterReplicationNetworkPolicyDeployment#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#interested_mos HyperflexClusterReplicationNetworkPolicyDeployment#interested_mos}
   */
   readonly interestedMos?: HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#marked_for_deletion HyperflexClusterReplicationNetworkPolicyDeployment#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#marked_for_deletion HyperflexClusterReplicationNetworkPolicyDeployment#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#nr_version HyperflexClusterReplicationNetworkPolicyDeployment#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#nr_version HyperflexClusterReplicationNetworkPolicyDeployment#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#object_type HyperflexClusterReplicationNetworkPolicyDeployment#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ref_mo HyperflexClusterReplicationNetworkPolicyDeployment#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#ref_mo HyperflexClusterReplicationNetworkPolicyDeployment#ref_mo}
   */
   readonly refMo?: HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#timestamp HyperflexClusterReplicationNetworkPolicyDeployment#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#timestamp HyperflexClusterReplicationNetworkPolicyDeployment#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#version_type HyperflexClusterReplicationNetworkPolicyDeployment#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#version_type HyperflexClusterReplicationNetworkPolicyDeployment#version_type}
   */
   readonly versionType?: string;
 }
@@ -3986,7 +3986,7 @@ export class HyperflexClusterReplicationNetworkPolicyDeploymentVersionContextLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment intersight_hyperflex_cluster_replication_network_policy_deployment}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment intersight_hyperflex_cluster_replication_network_policy_deployment}
 */
 export class HyperflexClusterReplicationNetworkPolicyDeployment extends cdktf.TerraformResource {
 
@@ -4002,7 +4002,7 @@ export class HyperflexClusterReplicationNetworkPolicyDeployment extends cdktf.Te
   * Generates CDKTF code for importing a HyperflexClusterReplicationNetworkPolicyDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexClusterReplicationNetworkPolicyDeployment to import
-  * @param importFromId The id of the existing HyperflexClusterReplicationNetworkPolicyDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexClusterReplicationNetworkPolicyDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexClusterReplicationNetworkPolicyDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4014,7 +4014,7 @@ export class HyperflexClusterReplicationNetworkPolicyDeployment extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_cluster_replication_network_policy_deployment intersight_hyperflex_cluster_replication_network_policy_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_cluster_replication_network_policy_deployment intersight_hyperflex_cluster_replication_network_policy_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4025,8 +4025,8 @@ export class HyperflexClusterReplicationNetworkPolicyDeployment extends cdktf.Te
       terraformResourceType: 'intersight_hyperflex_cluster_replication_network_policy_deployment',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#account_moid DataIntersightCapabilityDimmsEndpointDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#account_moid DataIntersightCapabilityDimmsEndpointDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#create_time DataIntersightCapabilityDimmsEndpointDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#create_time DataIntersightCapabilityDimmsEndpointDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * This field is to provide description of the dimm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#description DataIntersightCapabilityDimmsEndpointDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#description DataIntersightCapabilityDimmsEndpointDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#domain_group_moid DataIntersightCapabilityDimmsEndpointDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#domain_group_moid DataIntersightCapabilityDimmsEndpointDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#id DataIntersightCapabilityDimmsEndpointDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#id DataIntersightCapabilityDimmsEndpointDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,89 +53,89 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#mod_time DataIntersightCapabilityDimmsEndpointDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#mod_time DataIntersightCapabilityDimmsEndpointDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field is to provide model of the dimm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#model DataIntersightCapabilityDimmsEndpointDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#model DataIntersightCapabilityDimmsEndpointDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#owners DataIntersightCapabilityDimmsEndpointDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#owners DataIntersightCapabilityDimmsEndpointDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * This field is to provide partNumber of the dimm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#part_number DataIntersightCapabilityDimmsEndpointDescriptor#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#part_number DataIntersightCapabilityDimmsEndpointDescriptor#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field is to provide pid of the dimm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#pid DataIntersightCapabilityDimmsEndpointDescriptor#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#pid DataIntersightCapabilityDimmsEndpointDescriptor#pid}
   */
   readonly pid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#shared_scope DataIntersightCapabilityDimmsEndpointDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#shared_scope DataIntersightCapabilityDimmsEndpointDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityDimmsEndpointDescriptor#supported_platforms_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityDimmsEndpointDescriptor#supported_platforms_pids}
   */
   readonly supportedPlatformsPids?: string[];
   /**
   * This field is to provide vendor of the dimm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#vendor DataIntersightCapabilityDimmsEndpointDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#vendor DataIntersightCapabilityDimmsEndpointDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#ancestors DataIntersightCapabilityDimmsEndpointDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#ancestors DataIntersightCapabilityDimmsEndpointDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityDimmsEndpointDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#parent DataIntersightCapabilityDimmsEndpointDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#parent DataIntersightCapabilityDimmsEndpointDescriptor#parent}
   */
   readonly parent?: DataIntersightCapabilityDimmsEndpointDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#permission_resources DataIntersightCapabilityDimmsEndpointDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#permission_resources DataIntersightCapabilityDimmsEndpointDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityDimmsEndpointDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#tags DataIntersightCapabilityDimmsEndpointDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#tags DataIntersightCapabilityDimmsEndpointDescriptor#tags}
   */
   readonly tags?: DataIntersightCapabilityDimmsEndpointDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#version_context DataIntersightCapabilityDimmsEndpointDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#version_context DataIntersightCapabilityDimmsEndpointDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityDimmsEndpointDescriptorVersionContext;
 }
@@ -1215,7 +1215,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorResultsList extends 
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1223,19 +1223,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1248,7 +1248,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1480,7 +1480,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorAncestorsList extend
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1488,19 +1488,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1513,7 +1513,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1713,7 +1713,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorParentOutputReferenc
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1721,19 +1721,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1746,7 +1746,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1978,7 +1978,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorPermissionResourcesL
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1986,19 +1986,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2011,7 +2011,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2243,7 +2243,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorTagsAncestorDefiniti
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2251,19 +2251,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2276,7 +2276,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2476,25 +2476,25 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorTagsDefinitionOutput
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#key DataIntersightCapabilityDimmsEndpointDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#key DataIntersightCapabilityDimmsEndpointDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#propagated DataIntersightCapabilityDimmsEndpointDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#propagated DataIntersightCapabilityDimmsEndpointDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#sys_tag DataIntersightCapabilityDimmsEndpointDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#sys_tag DataIntersightCapabilityDimmsEndpointDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2502,25 +2502,25 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#type DataIntersightCapabilityDimmsEndpointDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#type DataIntersightCapabilityDimmsEndpointDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#value DataIntersightCapabilityDimmsEndpointDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#value DataIntersightCapabilityDimmsEndpointDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityDimmsEndpointDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityDimmsEndpointDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityDimmsEndpointDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#definition DataIntersightCapabilityDimmsEndpointDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#definition DataIntersightCapabilityDimmsEndpointDescriptor#definition}
   */
   readonly definition?: DataIntersightCapabilityDimmsEndpointDescriptorTagsDefinition;
 }
@@ -2839,7 +2839,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorTagsList extends cdk
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2847,19 +2847,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2872,7 +2872,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3104,7 +3104,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorVersionContextIntere
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3112,19 +3112,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#moid DataIntersightCapabilityDimmsEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3137,7 +3137,7 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#selector DataIntersightCapabilityDimmsEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3337,7 +3337,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorVersionContextRefMoO
 }
 export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#additional_properties DataIntersightCapabilityDimmsEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3345,32 +3345,32 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#class_id DataIntersightCapabilityDimmsEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityDimmsEndpointDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityDimmsEndpointDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#nr_version DataIntersightCapabilityDimmsEndpointDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#nr_version DataIntersightCapabilityDimmsEndpointDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#object_type DataIntersightCapabilityDimmsEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#timestamp DataIntersightCapabilityDimmsEndpointDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#timestamp DataIntersightCapabilityDimmsEndpointDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3381,19 +3381,19 @@ export interface DataIntersightCapabilityDimmsEndpointDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#version_type DataIntersightCapabilityDimmsEndpointDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#version_type DataIntersightCapabilityDimmsEndpointDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#interested_mos DataIntersightCapabilityDimmsEndpointDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#interested_mos DataIntersightCapabilityDimmsEndpointDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityDimmsEndpointDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#ref_mo DataIntersightCapabilityDimmsEndpointDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#ref_mo DataIntersightCapabilityDimmsEndpointDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityDimmsEndpointDescriptorVersionContextRefMo;
 }
@@ -3709,7 +3709,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptorVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor intersight_capability_dimms_endpoint_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor intersight_capability_dimms_endpoint_descriptor}
 */
 export class DataIntersightCapabilityDimmsEndpointDescriptor extends cdktf.TerraformDataSource {
 
@@ -3725,7 +3725,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptor extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightCapabilityDimmsEndpointDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityDimmsEndpointDescriptor to import
-  * @param importFromId The id of the existing DataIntersightCapabilityDimmsEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityDimmsEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityDimmsEndpointDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3737,7 +3737,7 @@ export class DataIntersightCapabilityDimmsEndpointDescriptor extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_dimms_endpoint_descriptor intersight_capability_dimms_endpoint_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_dimms_endpoint_descriptor intersight_capability_dimms_endpoint_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3748,8 +3748,8 @@ export class DataIntersightCapabilityDimmsEndpointDescriptor extends cdktf.Terra
       terraformResourceType: 'intersight_capability_dimms_endpoint_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

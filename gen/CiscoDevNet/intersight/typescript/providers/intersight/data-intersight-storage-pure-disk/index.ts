@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#account_moid DataIntersightStoragePureDisk#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#account_moid DataIntersightStoragePureDisk#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#create_time DataIntersightStoragePureDisk#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#create_time DataIntersightStoragePureDisk#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#device_mo_id DataIntersightStoragePureDisk#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#device_mo_id DataIntersightStoragePureDisk#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#dn DataIntersightStoragePureDisk#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#dn DataIntersightStoragePureDisk#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#domain_group_moid DataIntersightStoragePureDisk#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#domain_group_moid DataIntersightStoragePureDisk#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#id DataIntersightStoragePureDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#id DataIntersightStoragePureDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,60 +59,60 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#is_upgraded DataIntersightStoragePureDisk#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#is_upgraded DataIntersightStoragePureDisk#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#mod_time DataIntersightStoragePureDisk#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#mod_time DataIntersightStoragePureDisk#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#model DataIntersightStoragePureDisk#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#model DataIntersightStoragePureDisk#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * Disk name available in storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#name DataIntersightStoragePureDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#name DataIntersightStoragePureDisk#name}
   */
   readonly name?: string;
   /**
   * Storage disk version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#nr_version DataIntersightStoragePureDisk#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#nr_version DataIntersightStoragePureDisk#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#owners DataIntersightStoragePureDisk#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#owners DataIntersightStoragePureDisk#owners}
   */
   readonly owners?: string[];
   /**
   * Storage disk part number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#part_number DataIntersightStoragePureDisk#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#part_number DataIntersightStoragePureDisk#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#presence DataIntersightStoragePureDisk#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#presence DataIntersightStoragePureDisk#presence}
   */
   readonly presence?: string;
   /**
@@ -122,38 +122,38 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   * * `NVMe` - Non-volatile memory express (NVMe) protocol used in disk.
   * * `SATA` - Serial Advanced Technology Attachment (SATA) used in disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#protocol DataIntersightStoragePureDisk#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#protocol DataIntersightStoragePureDisk#protocol}
   */
   readonly protocol?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#revision DataIntersightStoragePureDisk#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#revision DataIntersightStoragePureDisk#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#rn DataIntersightStoragePureDisk#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#rn DataIntersightStoragePureDisk#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#serial DataIntersightStoragePureDisk#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#serial DataIntersightStoragePureDisk#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#shared_scope DataIntersightStoragePureDisk#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#shared_scope DataIntersightStoragePureDisk#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Disk speed for read or write operation measured in rpm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#speed DataIntersightStoragePureDisk#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#speed DataIntersightStoragePureDisk#speed}
   */
   readonly speed?: number;
   /**
@@ -168,7 +168,7 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   * * `Updating` - Software update is in progress.
   * * `Unrecognized` - Component is not recognized. It may be because the component is not installed properly or it is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#status DataIntersightStoragePureDisk#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#status DataIntersightStoragePureDisk#status}
   */
   readonly status?: string;
   /**
@@ -186,67 +186,67 @@ export interface DataIntersightStoragePureDiskConfig extends cdktf.TerraformMeta
   * * `SAS` - Storage disk with serial attached SCSI.
   * * `VMDISK` - Virtual machine Data Disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#type DataIntersightStoragePureDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#type DataIntersightStoragePureDisk#type}
   */
   readonly type?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#vendor DataIntersightStoragePureDisk#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#vendor DataIntersightStoragePureDisk#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#ancestors DataIntersightStoragePureDisk#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#ancestors DataIntersightStoragePureDisk#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureDiskAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#array DataIntersightStoragePureDisk#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#array DataIntersightStoragePureDisk#array}
   */
   readonly array?: DataIntersightStoragePureDiskArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#parent DataIntersightStoragePureDisk#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#parent DataIntersightStoragePureDisk#parent}
   */
   readonly parent?: DataIntersightStoragePureDiskParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#permission_resources DataIntersightStoragePureDisk#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#permission_resources DataIntersightStoragePureDisk#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureDiskPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#previous_fru DataIntersightStoragePureDisk#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#previous_fru DataIntersightStoragePureDisk#previous_fru}
   */
   readonly previousFru?: DataIntersightStoragePureDiskPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#registered_device DataIntersightStoragePureDisk#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#registered_device DataIntersightStoragePureDisk#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureDiskRegisteredDevice;
   /**
   * storage_utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#storage_utilization DataIntersightStoragePureDisk#storage_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#storage_utilization DataIntersightStoragePureDisk#storage_utilization}
   */
   readonly storageUtilization?: DataIntersightStoragePureDiskStorageUtilization;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#tags DataIntersightStoragePureDisk#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#tags DataIntersightStoragePureDisk#tags}
   */
   readonly tags?: DataIntersightStoragePureDiskTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#version_context DataIntersightStoragePureDisk#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#version_context DataIntersightStoragePureDisk#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureDiskVersionContext;
 }
@@ -1795,7 +1795,7 @@ export class DataIntersightStoragePureDiskResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightStoragePureDiskAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1803,19 +1803,19 @@ export interface DataIntersightStoragePureDiskAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1828,7 +1828,7 @@ export interface DataIntersightStoragePureDiskAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2060,7 +2060,7 @@ export class DataIntersightStoragePureDiskAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightStoragePureDiskArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2068,19 +2068,19 @@ export interface DataIntersightStoragePureDiskArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2093,7 +2093,7 @@ export interface DataIntersightStoragePureDiskArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2293,7 +2293,7 @@ export class DataIntersightStoragePureDiskArrayOutputReference extends cdktf.Com
 }
 export interface DataIntersightStoragePureDiskParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2301,19 +2301,19 @@ export interface DataIntersightStoragePureDiskParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2326,7 +2326,7 @@ export interface DataIntersightStoragePureDiskParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2526,7 +2526,7 @@ export class DataIntersightStoragePureDiskParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightStoragePureDiskPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2534,19 +2534,19 @@ export interface DataIntersightStoragePureDiskPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2559,7 +2559,7 @@ export interface DataIntersightStoragePureDiskPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -2791,7 +2791,7 @@ export class DataIntersightStoragePureDiskPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightStoragePureDiskPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2799,19 +2799,19 @@ export interface DataIntersightStoragePureDiskPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2824,7 +2824,7 @@ export interface DataIntersightStoragePureDiskPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3024,7 +3024,7 @@ export class DataIntersightStoragePureDiskPreviousFruOutputReference extends cdk
 }
 export interface DataIntersightStoragePureDiskRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3032,19 +3032,19 @@ export interface DataIntersightStoragePureDiskRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3057,7 +3057,7 @@ export interface DataIntersightStoragePureDiskRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3257,19 +3257,19 @@ export class DataIntersightStoragePureDiskRegisteredDeviceOutputReference extend
 }
 export interface DataIntersightStoragePureDiskStorageUtilization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total consumable storage capacity represented in bytes. System may reserve some space for internal purposes which is excluded from total capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#available DataIntersightStoragePureDisk#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#available DataIntersightStoragePureDisk#available}
   */
   readonly available?: number;
   /**
   * Percentage of used capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#capacity_utilization DataIntersightStoragePureDisk#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#capacity_utilization DataIntersightStoragePureDisk#capacity_utilization}
   */
   readonly capacityUtilization?: number;
   /**
@@ -3278,13 +3278,13 @@ export interface DataIntersightStoragePureDiskStorageUtilization {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * Unused space available for applications to consume, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#free DataIntersightStoragePureDisk#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#free DataIntersightStoragePureDisk#free}
   */
   readonly free?: number;
   /**
@@ -3292,19 +3292,19 @@ export interface DataIntersightStoragePureDiskStorageUtilization {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * Total storage capacity, represented in bytes. It is set by the component manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#total DataIntersightStoragePureDisk#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#total DataIntersightStoragePureDisk#total}
   */
   readonly total?: number;
   /**
   * Used or consumed storage capacity, represented in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#used DataIntersightStoragePureDisk#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#used DataIntersightStoragePureDisk#used}
   */
   readonly used?: number;
 }
@@ -3591,7 +3591,7 @@ export class DataIntersightStoragePureDiskStorageUtilizationOutputReference exte
 }
 export interface DataIntersightStoragePureDiskTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3599,19 +3599,19 @@ export interface DataIntersightStoragePureDiskTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3624,7 +3624,7 @@ export interface DataIntersightStoragePureDiskTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3856,7 +3856,7 @@ export class DataIntersightStoragePureDiskTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightStoragePureDiskTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3864,19 +3864,19 @@ export interface DataIntersightStoragePureDiskTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3889,7 +3889,7 @@ export interface DataIntersightStoragePureDiskTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4089,25 +4089,25 @@ export class DataIntersightStoragePureDiskTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightStoragePureDiskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#key DataIntersightStoragePureDisk#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#key DataIntersightStoragePureDisk#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#propagated DataIntersightStoragePureDisk#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#propagated DataIntersightStoragePureDisk#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#sys_tag DataIntersightStoragePureDisk#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#sys_tag DataIntersightStoragePureDisk#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4115,25 +4115,25 @@ export interface DataIntersightStoragePureDiskTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#type DataIntersightStoragePureDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#type DataIntersightStoragePureDisk#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#value DataIntersightStoragePureDisk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#value DataIntersightStoragePureDisk#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#ancestor_definitions DataIntersightStoragePureDisk#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#ancestor_definitions DataIntersightStoragePureDisk#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureDiskTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#definition DataIntersightStoragePureDisk#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#definition DataIntersightStoragePureDisk#definition}
   */
   readonly definition?: DataIntersightStoragePureDiskTagsDefinition;
 }
@@ -4452,7 +4452,7 @@ export class DataIntersightStoragePureDiskTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightStoragePureDiskVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4460,19 +4460,19 @@ export interface DataIntersightStoragePureDiskVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4485,7 +4485,7 @@ export interface DataIntersightStoragePureDiskVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4717,7 +4717,7 @@ export class DataIntersightStoragePureDiskVersionContextInterestedMosList extend
 }
 export interface DataIntersightStoragePureDiskVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4725,19 +4725,19 @@ export interface DataIntersightStoragePureDiskVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#moid DataIntersightStoragePureDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4750,7 +4750,7 @@ export interface DataIntersightStoragePureDiskVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#selector DataIntersightStoragePureDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4950,7 +4950,7 @@ export class DataIntersightStoragePureDiskVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightStoragePureDiskVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#additional_properties DataIntersightStoragePureDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4958,32 +4958,32 @@ export interface DataIntersightStoragePureDiskVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#class_id DataIntersightStoragePureDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#marked_for_deletion DataIntersightStoragePureDisk#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#marked_for_deletion DataIntersightStoragePureDisk#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#nr_version DataIntersightStoragePureDisk#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#nr_version DataIntersightStoragePureDisk#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#object_type DataIntersightStoragePureDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#timestamp DataIntersightStoragePureDisk#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#timestamp DataIntersightStoragePureDisk#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4994,19 +4994,19 @@ export interface DataIntersightStoragePureDiskVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#version_type DataIntersightStoragePureDisk#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#version_type DataIntersightStoragePureDisk#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#interested_mos DataIntersightStoragePureDisk#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#interested_mos DataIntersightStoragePureDisk#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureDiskVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#ref_mo DataIntersightStoragePureDisk#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#ref_mo DataIntersightStoragePureDisk#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureDiskVersionContextRefMo;
 }
@@ -5322,7 +5322,7 @@ export class DataIntersightStoragePureDiskVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk intersight_storage_pure_disk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk intersight_storage_pure_disk}
 */
 export class DataIntersightStoragePureDisk extends cdktf.TerraformDataSource {
 
@@ -5338,7 +5338,7 @@ export class DataIntersightStoragePureDisk extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightStoragePureDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureDisk to import
-  * @param importFromId The id of the existing DataIntersightStoragePureDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5350,7 +5350,7 @@ export class DataIntersightStoragePureDisk extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_disk intersight_storage_pure_disk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_disk intersight_storage_pure_disk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5361,8 +5361,8 @@ export class DataIntersightStoragePureDisk extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_storage_pure_disk',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

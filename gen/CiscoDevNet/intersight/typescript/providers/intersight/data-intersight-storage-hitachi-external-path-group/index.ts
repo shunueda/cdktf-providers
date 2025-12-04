@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiExternalPathGroupConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#account_moid DataIntersightStorageHitachiExternalPathGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#account_moid DataIntersightStorageHitachiExternalPathGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStorageHitachiExternalPathGroupConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#create_time DataIntersightStorageHitachiExternalPathGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#create_time DataIntersightStorageHitachiExternalPathGroup#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#domain_group_moid DataIntersightStorageHitachiExternalPathGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#domain_group_moid DataIntersightStorageHitachiExternalPathGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Product ID of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_product_id DataIntersightStorageHitachiExternalPathGroup#external_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_product_id DataIntersightStorageHitachiExternalPathGroup#external_product_id}
   */
   readonly externalProductId?: string;
   /**
   * Serial number of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_serial_number DataIntersightStorageHitachiExternalPathGroup#external_serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_serial_number DataIntersightStorageHitachiExternalPathGroup#external_serial_number}
   */
   readonly externalSerialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#id DataIntersightStorageHitachiExternalPathGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#id DataIntersightStorageHitachiExternalPathGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightStorageHitachiExternalPathGroupConfig extends cdk
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#mod_time DataIntersightStorageHitachiExternalPathGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#mod_time DataIntersightStorageHitachiExternalPathGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * External path group number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#name DataIntersightStorageHitachiExternalPathGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#name DataIntersightStorageHitachiExternalPathGroup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#owners DataIntersightStorageHitachiExternalPathGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#owners DataIntersightStorageHitachiExternalPathGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#shared_scope DataIntersightStorageHitachiExternalPathGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#shared_scope DataIntersightStorageHitachiExternalPathGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#ancestors DataIntersightStorageHitachiExternalPathGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#ancestors DataIntersightStorageHitachiExternalPathGroup#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiExternalPathGroupAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#array DataIntersightStorageHitachiExternalPathGroup#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#array DataIntersightStorageHitachiExternalPathGroup#array}
   */
   readonly array?: DataIntersightStorageHitachiExternalPathGroupArray;
   /**
   * external_parity_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_parity_groups DataIntersightStorageHitachiExternalPathGroup#external_parity_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_parity_groups DataIntersightStorageHitachiExternalPathGroup#external_parity_groups}
   */
   readonly externalParityGroups?: DataIntersightStorageHitachiExternalPathGroupExternalParityGroups[] | cdktf.IResolvable;
   /**
   * external_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_paths DataIntersightStorageHitachiExternalPathGroup#external_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_paths DataIntersightStorageHitachiExternalPathGroup#external_paths}
   */
   readonly externalPaths?: DataIntersightStorageHitachiExternalPathGroupExternalPaths[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#parent DataIntersightStorageHitachiExternalPathGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#parent DataIntersightStorageHitachiExternalPathGroup#parent}
   */
   readonly parent?: DataIntersightStorageHitachiExternalPathGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#permission_resources DataIntersightStorageHitachiExternalPathGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#permission_resources DataIntersightStorageHitachiExternalPathGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiExternalPathGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#registered_device DataIntersightStorageHitachiExternalPathGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#registered_device DataIntersightStorageHitachiExternalPathGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiExternalPathGroupRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#tags DataIntersightStorageHitachiExternalPathGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#tags DataIntersightStorageHitachiExternalPathGroup#tags}
   */
   readonly tags?: DataIntersightStorageHitachiExternalPathGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#version_context DataIntersightStorageHitachiExternalPathGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#version_context DataIntersightStorageHitachiExternalPathGroup#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiExternalPathGroupVersionContext;
 }
@@ -1773,7 +1773,7 @@ export class DataIntersightStorageHitachiExternalPathGroupResultsList extends cd
 }
 export interface DataIntersightStorageHitachiExternalPathGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1781,19 +1781,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1806,7 +1806,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2038,7 +2038,7 @@ export class DataIntersightStorageHitachiExternalPathGroupAncestorsList extends 
 }
 export interface DataIntersightStorageHitachiExternalPathGroupArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2046,19 +2046,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2071,7 +2071,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2271,7 +2271,7 @@ export class DataIntersightStorageHitachiExternalPathGroupArrayOutputReference e
 }
 export interface DataIntersightStorageHitachiExternalPathGroupExternalParityGroupsExternalLuns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2279,44 +2279,44 @@ export interface DataIntersightStorageHitachiExternalPathGroupExternalParityGrou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * LUN within the ports of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_lun DataIntersightStorageHitachiExternalPathGroup#external_lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_lun DataIntersightStorageHitachiExternalPathGroup#external_lun}
   */
   readonly externalLun?: number;
   /**
   * WWN of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_wwn DataIntersightStorageHitachiExternalPathGroup#external_wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_wwn DataIntersightStorageHitachiExternalPathGroup#external_wwn}
   */
   readonly externalWwn?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * Status of the external path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#path_status DataIntersightStorageHitachiExternalPathGroup#path_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#path_status DataIntersightStorageHitachiExternalPathGroup#path_status}
   */
   readonly pathStatus?: string;
   /**
   * Port number of the local storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#port_id DataIntersightStorageHitachiExternalPathGroup#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#port_id DataIntersightStorageHitachiExternalPathGroup#port_id}
   */
   readonly portId?: string;
   /**
   * Priority within the external path group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#priority DataIntersightStorageHitachiExternalPathGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#priority DataIntersightStorageHitachiExternalPathGroup#priority}
   */
   readonly priority?: number;
 }
@@ -2635,13 +2635,13 @@ export class DataIntersightStorageHitachiExternalPathGroupExternalParityGroupsEx
 }
 export interface DataIntersightStorageHitachiExternalPathGroupExternalParityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Cache mode. Either E (enabled) or D (disabled) is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#cache_mode DataIntersightStorageHitachiExternalPathGroup#cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#cache_mode DataIntersightStorageHitachiExternalPathGroup#cache_mode}
   */
   readonly cacheMode?: string;
   /**
@@ -2649,62 +2649,62 @@ export interface DataIntersightStorageHitachiExternalPathGroupExternalParityGrou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * External parity group number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_parity_group_id DataIntersightStorageHitachiExternalPathGroup#external_parity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_parity_group_id DataIntersightStorageHitachiExternalPathGroup#external_parity_group_id}
   */
   readonly externalParityGroupId?: string;
   /**
   * Status of the external parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_parity_group_status DataIntersightStorageHitachiExternalPathGroup#external_parity_group_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_parity_group_status DataIntersightStorageHitachiExternalPathGroup#external_parity_group_status}
   */
   readonly externalParityGroupStatus?: string;
   /**
   * Whether the data direct mapping attribute is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#is_data_direct_mapping DataIntersightStorageHitachiExternalPathGroup#is_data_direct_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#is_data_direct_mapping DataIntersightStorageHitachiExternalPathGroup#is_data_direct_mapping}
   */
   readonly isDataDirectMapping?: boolean | cdktf.IResolvable;
   /**
   * Inflow cache control. Either true (enabled) or false (disabled) is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#is_inflow_control_enabled DataIntersightStorageHitachiExternalPathGroup#is_inflow_control_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#is_inflow_control_enabled DataIntersightStorageHitachiExternalPathGroup#is_inflow_control_enabled}
   */
   readonly isInflowControlEnabled?: boolean | cdktf.IResolvable;
   /**
   * The load balancing method for I-O operations for the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#load_balance_mode DataIntersightStorageHitachiExternalPathGroup#load_balance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#load_balance_mode DataIntersightStorageHitachiExternalPathGroup#load_balance_mode}
   */
   readonly loadBalanceMode?: string;
   /**
   * The blade number of the MP blade assigned to the external parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#mp_blade_id DataIntersightStorageHitachiExternalPathGroup#mp_blade_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#mp_blade_id DataIntersightStorageHitachiExternalPathGroup#mp_blade_id}
   */
   readonly mpBladeId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * Path mode of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#path_mode DataIntersightStorageHitachiExternalPathGroup#path_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#path_mode DataIntersightStorageHitachiExternalPathGroup#path_mode}
   */
   readonly pathMode?: string;
   /**
   * external_luns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_luns DataIntersightStorageHitachiExternalPathGroup#external_luns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_luns DataIntersightStorageHitachiExternalPathGroup#external_luns}
   */
   readonly externalLuns?: DataIntersightStorageHitachiExternalPathGroupExternalParityGroupsExternalLuns[] | cdktf.IResolvable;
 }
@@ -3139,13 +3139,13 @@ export class DataIntersightStorageHitachiExternalPathGroupExternalParityGroupsLi
 }
 export interface DataIntersightStorageHitachiExternalPathGroupExternalPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The time (in seconds) until the external parity group is blocked after all paths to the external parity group are disconnected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#blocked_path_monitoring DataIntersightStorageHitachiExternalPathGroup#blocked_path_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#blocked_path_monitoring DataIntersightStorageHitachiExternalPathGroup#blocked_path_monitoring}
   */
   readonly blockedPathMonitoring?: number;
   /**
@@ -3153,38 +3153,38 @@ export interface DataIntersightStorageHitachiExternalPathGroupExternalPaths {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * WWN of the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#external_wwn DataIntersightStorageHitachiExternalPathGroup#external_wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#external_wwn DataIntersightStorageHitachiExternalPathGroup#external_wwn}
   */
   readonly externalWwn?: string;
   /**
   * The value (in seconds) set for the I/O time over for the external parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#io_time_out DataIntersightStorageHitachiExternalPathGroup#io_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#io_time_out DataIntersightStorageHitachiExternalPathGroup#io_time_out}
   */
   readonly ioTimeOut?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * Port number of external path on the local storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#port_id DataIntersightStorageHitachiExternalPathGroup#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#port_id DataIntersightStorageHitachiExternalPathGroup#port_id}
   */
   readonly portId?: string;
   /**
   * Number of Read-Write commands that can be queued to the external parity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#queue_depth DataIntersightStorageHitachiExternalPathGroup#queue_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#queue_depth DataIntersightStorageHitachiExternalPathGroup#queue_depth}
   */
   readonly queueDepth?: number;
 }
@@ -3503,7 +3503,7 @@ export class DataIntersightStorageHitachiExternalPathGroupExternalPathsList exte
 }
 export interface DataIntersightStorageHitachiExternalPathGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3511,19 +3511,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3536,7 +3536,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3736,7 +3736,7 @@ export class DataIntersightStorageHitachiExternalPathGroupParentOutputReference 
 }
 export interface DataIntersightStorageHitachiExternalPathGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3744,19 +3744,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3769,7 +3769,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4001,7 +4001,7 @@ export class DataIntersightStorageHitachiExternalPathGroupPermissionResourcesLis
 }
 export interface DataIntersightStorageHitachiExternalPathGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4009,19 +4009,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4034,7 +4034,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4234,7 +4234,7 @@ export class DataIntersightStorageHitachiExternalPathGroupRegisteredDeviceOutput
 }
 export interface DataIntersightStorageHitachiExternalPathGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4242,19 +4242,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4267,7 +4267,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4499,7 +4499,7 @@ export class DataIntersightStorageHitachiExternalPathGroupTagsAncestorDefinition
 }
 export interface DataIntersightStorageHitachiExternalPathGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4507,19 +4507,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4532,7 +4532,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4732,25 +4732,25 @@ export class DataIntersightStorageHitachiExternalPathGroupTagsDefinitionOutputRe
 }
 export interface DataIntersightStorageHitachiExternalPathGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#key DataIntersightStorageHitachiExternalPathGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#key DataIntersightStorageHitachiExternalPathGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#propagated DataIntersightStorageHitachiExternalPathGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#propagated DataIntersightStorageHitachiExternalPathGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#sys_tag DataIntersightStorageHitachiExternalPathGroup#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#sys_tag DataIntersightStorageHitachiExternalPathGroup#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4758,25 +4758,25 @@ export interface DataIntersightStorageHitachiExternalPathGroupTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#type DataIntersightStorageHitachiExternalPathGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#type DataIntersightStorageHitachiExternalPathGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#value DataIntersightStorageHitachiExternalPathGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#value DataIntersightStorageHitachiExternalPathGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#ancestor_definitions DataIntersightStorageHitachiExternalPathGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#ancestor_definitions DataIntersightStorageHitachiExternalPathGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiExternalPathGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#definition DataIntersightStorageHitachiExternalPathGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#definition DataIntersightStorageHitachiExternalPathGroup#definition}
   */
   readonly definition?: DataIntersightStorageHitachiExternalPathGroupTagsDefinition;
 }
@@ -5095,7 +5095,7 @@ export class DataIntersightStorageHitachiExternalPathGroupTagsList extends cdktf
 }
 export interface DataIntersightStorageHitachiExternalPathGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5103,19 +5103,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5128,7 +5128,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -5360,7 +5360,7 @@ export class DataIntersightStorageHitachiExternalPathGroupVersionContextInterest
 }
 export interface DataIntersightStorageHitachiExternalPathGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5368,19 +5368,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#moid DataIntersightStorageHitachiExternalPathGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5393,7 +5393,7 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#selector DataIntersightStorageHitachiExternalPathGroup#selector}
   */
   readonly selector?: string;
 }
@@ -5593,7 +5593,7 @@ export class DataIntersightStorageHitachiExternalPathGroupVersionContextRefMoOut
 }
 export interface DataIntersightStorageHitachiExternalPathGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#additional_properties DataIntersightStorageHitachiExternalPathGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5601,32 +5601,32 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#class_id DataIntersightStorageHitachiExternalPathGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#marked_for_deletion DataIntersightStorageHitachiExternalPathGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#marked_for_deletion DataIntersightStorageHitachiExternalPathGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#nr_version DataIntersightStorageHitachiExternalPathGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#nr_version DataIntersightStorageHitachiExternalPathGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#object_type DataIntersightStorageHitachiExternalPathGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#timestamp DataIntersightStorageHitachiExternalPathGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#timestamp DataIntersightStorageHitachiExternalPathGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5637,19 +5637,19 @@ export interface DataIntersightStorageHitachiExternalPathGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#version_type DataIntersightStorageHitachiExternalPathGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#version_type DataIntersightStorageHitachiExternalPathGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#interested_mos DataIntersightStorageHitachiExternalPathGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#interested_mos DataIntersightStorageHitachiExternalPathGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiExternalPathGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#ref_mo DataIntersightStorageHitachiExternalPathGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#ref_mo DataIntersightStorageHitachiExternalPathGroup#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiExternalPathGroupVersionContextRefMo;
 }
@@ -5965,7 +5965,7 @@ export class DataIntersightStorageHitachiExternalPathGroupVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group intersight_storage_hitachi_external_path_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group intersight_storage_hitachi_external_path_group}
 */
 export class DataIntersightStorageHitachiExternalPathGroup extends cdktf.TerraformDataSource {
 
@@ -5981,7 +5981,7 @@ export class DataIntersightStorageHitachiExternalPathGroup extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightStorageHitachiExternalPathGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiExternalPathGroup to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalPathGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalPathGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiExternalPathGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5993,7 +5993,7 @@ export class DataIntersightStorageHitachiExternalPathGroup extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_path_group intersight_storage_hitachi_external_path_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_path_group intersight_storage_hitachi_external_path_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6004,8 +6004,8 @@ export class DataIntersightStorageHitachiExternalPathGroup extends cdktf.Terrafo
       terraformResourceType: 'intersight_storage_hitachi_external_path_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

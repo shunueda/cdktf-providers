@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServerlessEventrouterRuleConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the bus that the rule belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#bus_id ServerlessEventrouterRule#bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#bus_id ServerlessEventrouterRule#bus_id}
   */
   readonly busId: string;
   /**
   * Description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#description ServerlessEventrouterRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#description ServerlessEventrouterRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#id ServerlessEventrouterRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#id ServerlessEventrouterRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,67 +29,67 @@ export interface ServerlessEventrouterRuleConfig extends cdktf.TerraformMetaArgu
   /**
   * JQ filter for matching events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#jq_filter ServerlessEventrouterRule#jq_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#jq_filter ServerlessEventrouterRule#jq_filter}
   */
   readonly jqFilter?: string;
   /**
   * Rule labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#labels ServerlessEventrouterRule#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#labels ServerlessEventrouterRule#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#name ServerlessEventrouterRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#name ServerlessEventrouterRule#name}
   */
   readonly name: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#container ServerlessEventrouterRule#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#container ServerlessEventrouterRule#container}
   */
   readonly container?: ServerlessEventrouterRuleContainer[] | cdktf.IResolvable;
   /**
   * function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#function ServerlessEventrouterRule#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#function ServerlessEventrouterRule#function}
   */
   readonly function?: ServerlessEventrouterRuleFunction[] | cdktf.IResolvable;
   /**
   * gateway_websocket_broadcast block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#gateway_websocket_broadcast ServerlessEventrouterRule#gateway_websocket_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#gateway_websocket_broadcast ServerlessEventrouterRule#gateway_websocket_broadcast}
   */
   readonly gatewayWebsocketBroadcast?: ServerlessEventrouterRuleGatewayWebsocketBroadcast[] | cdktf.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#logging ServerlessEventrouterRule#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#logging ServerlessEventrouterRule#logging}
   */
   readonly logging?: ServerlessEventrouterRuleLogging[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#timeouts ServerlessEventrouterRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#timeouts ServerlessEventrouterRule#timeouts}
   */
   readonly timeouts?: ServerlessEventrouterRuleTimeouts;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#workflow ServerlessEventrouterRule#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#workflow ServerlessEventrouterRule#workflow}
   */
   readonly workflow?: ServerlessEventrouterRuleWorkflow[] | cdktf.IResolvable;
   /**
   * yds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#yds ServerlessEventrouterRule#yds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#yds ServerlessEventrouterRule#yds}
   */
   readonly yds?: ServerlessEventrouterRuleYds[] | cdktf.IResolvable;
   /**
   * ymq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#ymq ServerlessEventrouterRule#ymq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#ymq ServerlessEventrouterRule#ymq}
   */
   readonly ymq?: ServerlessEventrouterRuleYmq[] | cdktf.IResolvable;
 }
@@ -97,19 +97,19 @@ export interface ServerlessEventrouterRuleContainerBatchSettings {
   /**
   * Maximum batch size: rule will send a batch if its lifetime exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
   */
   readonly cutoff: string;
   /**
   * Maximum batch size: rule will send a batch if total size of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum batch size: rule will send a batch if number of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
   */
   readonly maxCount?: number;
 }
@@ -250,31 +250,31 @@ export interface ServerlessEventrouterRuleContainer {
   /**
   * Container ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#container_id ServerlessEventrouterRule#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#container_id ServerlessEventrouterRule#container_id}
   */
   readonly containerId: string;
   /**
   * Container revision ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#container_revision_id ServerlessEventrouterRule#container_revision_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#container_revision_id ServerlessEventrouterRule#container_revision_id}
   */
   readonly containerRevisionId?: string;
   /**
   * Endpoint HTTP path to invoke
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#path ServerlessEventrouterRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#path ServerlessEventrouterRule#path}
   */
   readonly path?: string;
   /**
   * Service account which should be used to call a container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * batch_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
   */
   readonly batchSettings?: ServerlessEventrouterRuleContainerBatchSettings;
 }
@@ -505,19 +505,19 @@ export interface ServerlessEventrouterRuleFunctionBatchSettings {
   /**
   * Maximum batch size: rule will send a batch if its lifetime exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
   */
   readonly cutoff: string;
   /**
   * Maximum batch size: rule will send a batch if total size of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum batch size: rule will send a batch if number of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
   */
   readonly maxCount?: number;
 }
@@ -658,25 +658,25 @@ export interface ServerlessEventrouterRuleFunction {
   /**
   * Function ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#function_id ServerlessEventrouterRule#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#function_id ServerlessEventrouterRule#function_id}
   */
   readonly functionId: string;
   /**
   * Function tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#function_tag ServerlessEventrouterRule#function_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#function_tag ServerlessEventrouterRule#function_tag}
   */
   readonly functionTag?: string;
   /**
   * Service account which has call permission on the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * batch_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
   */
   readonly batchSettings?: ServerlessEventrouterRuleFunctionBatchSettings;
 }
@@ -878,19 +878,19 @@ export interface ServerlessEventrouterRuleGatewayWebsocketBroadcastBatchSettings
   /**
   * Maximum batch size: rule will send a batch if its lifetime exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
   */
   readonly cutoff: string;
   /**
   * Maximum batch size: rule will send a batch if total size of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum batch size: rule will send a batch if number of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
   */
   readonly maxCount?: number;
 }
@@ -1031,25 +1031,25 @@ export interface ServerlessEventrouterRuleGatewayWebsocketBroadcast {
   /**
   * Gateway ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#gateway_id ServerlessEventrouterRule#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#gateway_id ServerlessEventrouterRule#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * Path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#path ServerlessEventrouterRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#path ServerlessEventrouterRule#path}
   */
   readonly path: string;
   /**
   * Service account which has permission for writing to websockets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * batch_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
   */
   readonly batchSettings?: ServerlessEventrouterRuleGatewayWebsocketBroadcastBatchSettings;
 }
@@ -1245,19 +1245,19 @@ export interface ServerlessEventrouterRuleLogging {
   /**
   * Folder ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#folder_id ServerlessEventrouterRule#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#folder_id ServerlessEventrouterRule#folder_id}
   */
   readonly folderId?: string;
   /**
   * Log group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#log_group_id ServerlessEventrouterRule#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#log_group_id ServerlessEventrouterRule#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Service account which has permission for writing logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId: string;
 }
@@ -1428,19 +1428,19 @@ export class ServerlessEventrouterRuleLoggingList extends cdktf.ComplexList {
 }
 export interface ServerlessEventrouterRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#create ServerlessEventrouterRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#create ServerlessEventrouterRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#delete ServerlessEventrouterRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#delete ServerlessEventrouterRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#read ServerlessEventrouterRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#read ServerlessEventrouterRule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#update ServerlessEventrouterRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#update ServerlessEventrouterRule#update}
   */
   readonly update?: string;
 }
@@ -1623,19 +1623,19 @@ export interface ServerlessEventrouterRuleWorkflowBatchSettings {
   /**
   * Maximum batch size: rule will send a batch if its lifetime exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#cutoff ServerlessEventrouterRule#cutoff}
   */
   readonly cutoff: string;
   /**
   * Maximum batch size: rule will send a batch if total size of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_bytes ServerlessEventrouterRule#max_bytes}
   */
   readonly maxBytes?: number;
   /**
   * Maximum batch size: rule will send a batch if number of events exceeds this value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#max_count ServerlessEventrouterRule#max_count}
   */
   readonly maxCount?: number;
 }
@@ -1776,19 +1776,19 @@ export interface ServerlessEventrouterRuleWorkflow {
   /**
   * Service account which should be used to start workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Workflow ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#workflow_id ServerlessEventrouterRule#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#workflow_id ServerlessEventrouterRule#workflow_id}
   */
   readonly workflowId: string;
   /**
   * batch_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#batch_settings ServerlessEventrouterRule#batch_settings}
   */
   readonly batchSettings?: ServerlessEventrouterRuleWorkflowBatchSettings;
 }
@@ -1958,19 +1958,19 @@ export interface ServerlessEventrouterRuleYds {
   /**
   * Stream database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#database ServerlessEventrouterRule#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#database ServerlessEventrouterRule#database}
   */
   readonly database: string;
   /**
   * Service account, which has write permission on the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * Full stream name, like /ru-central1/aoegtvhtp8ob******** /cc8004q4lbo6******** /test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#stream_name ServerlessEventrouterRule#stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#stream_name ServerlessEventrouterRule#stream_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2139,13 +2139,13 @@ export interface ServerlessEventrouterRuleYmq {
   /**
   * Queue ARN. Example: yrn:yc:ymq:ru-central1:aoe***:test
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#queue_arn ServerlessEventrouterRule#queue_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#queue_arn ServerlessEventrouterRule#queue_arn}
   */
   readonly queueArn: string;
   /**
   * Service account which has write access to the queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#service_account_id ServerlessEventrouterRule#service_account_id}
   */
   readonly serviceAccountId: string;
 }
@@ -2284,7 +2284,7 @@ export class ServerlessEventrouterRuleYmqList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule yandex_serverless_eventrouter_rule}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule yandex_serverless_eventrouter_rule}
 */
 export class ServerlessEventrouterRule extends cdktf.TerraformResource {
 
@@ -2300,7 +2300,7 @@ export class ServerlessEventrouterRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerlessEventrouterRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerlessEventrouterRule to import
-  * @param importFromId The id of the existing ServerlessEventrouterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerlessEventrouterRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerlessEventrouterRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2312,7 +2312,7 @@ export class ServerlessEventrouterRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/serverless_eventrouter_rule yandex_serverless_eventrouter_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/serverless_eventrouter_rule yandex_serverless_eventrouter_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2323,8 +2323,8 @@ export class ServerlessEventrouterRule extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_serverless_eventrouter_rule',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

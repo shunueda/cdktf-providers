@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EbEventTransformConfig extends cdktf.TerraformMetaArguments {
   /**
   * event bus Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#event_bus_id EbEventTransform#event_bus_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#event_bus_id EbEventTransform#event_bus_id}
   */
   readonly eventBusId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#id EbEventTransform#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#id EbEventTransform#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface EbEventTransformConfig extends cdktf.TerraformMetaArguments {
   /**
   * ruleId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#rule_id EbEventTransform#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#rule_id EbEventTransform#rule_id}
   */
   readonly ruleId: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#transformations EbEventTransform#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#transformations EbEventTransform#transformations}
   */
   readonly transformations: EbEventTransformTransformations[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface EbEventTransformTransformationsEtlFilter {
   /**
   * Grammatical Rules are consistent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#filter EbEventTransform#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#filter EbEventTransform#filter}
   */
   readonly filter: string;
 }
@@ -120,13 +120,13 @@ export interface EbEventTransformTransformationsExtractionTextParams {
   /**
   * Fill in the regular expression: length 128.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#regex EbEventTransform#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#regex EbEventTransform#regex}
   */
   readonly regex?: string;
   /**
   * `Comma`, `|`, `tab`, `space`, `newline`, `%`, `#`, the limit length is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#separator EbEventTransform#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#separator EbEventTransform#separator}
   */
   readonly separator?: string;
 }
@@ -241,19 +241,19 @@ export interface EbEventTransformTransformationsExtraction {
   /**
   * JsonPath, if not specified, the default value $.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#extraction_input_path EbEventTransform#extraction_input_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#extraction_input_path EbEventTransform#extraction_input_path}
   */
   readonly extractionInputPath: string;
   /**
   * Value: `TEXT`, `JSON`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#format EbEventTransform#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#format EbEventTransform#format}
   */
   readonly format: string;
   /**
   * text_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#text_params EbEventTransform#text_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#text_params EbEventTransform#text_params}
   */
   readonly textParams?: EbEventTransformTransformationsExtractionTextParams;
 }
@@ -391,19 +391,19 @@ export interface EbEventTransformTransformationsTransformOutputStructs {
   /**
   * Corresponding to the key in the output json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#key EbEventTransform#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#key EbEventTransform#key}
   */
   readonly key: string;
   /**
   * You can fill in the json-path and also support constants or built-in keyword date types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#value EbEventTransform#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#value EbEventTransform#value}
   */
   readonly value: string;
   /**
   * The data type of value, optional values: `STRING`, `NUMBER`, `BOOLEAN`, `NULL`, `SYS_VARIABLE`, `JSONPATH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#value_type EbEventTransform#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#value_type EbEventTransform#value_type}
   */
   readonly valueType: string;
 }
@@ -570,7 +570,7 @@ export interface EbEventTransformTransformationsTransform {
   /**
   * output_structs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#output_structs EbEventTransform#output_structs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#output_structs EbEventTransform#output_structs}
   */
   readonly outputStructs: EbEventTransformTransformationsTransformOutputStructs[] | cdktf.IResolvable;
 }
@@ -653,19 +653,19 @@ export interface EbEventTransformTransformations {
   /**
   * etl_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#etl_filter EbEventTransform#etl_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#etl_filter EbEventTransform#etl_filter}
   */
   readonly etlFilter?: EbEventTransformTransformationsEtlFilter;
   /**
   * extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#extraction EbEventTransform#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#extraction EbEventTransform#extraction}
   */
   readonly extraction?: EbEventTransformTransformationsExtraction;
   /**
   * transform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#transform EbEventTransform#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#transform EbEventTransform#transform}
   */
   readonly transform?: EbEventTransformTransformationsTransform;
 }
@@ -839,7 +839,7 @@ export class EbEventTransformTransformationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform tencentcloud_eb_event_transform}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform tencentcloud_eb_event_transform}
 */
 export class EbEventTransform extends cdktf.TerraformResource {
 
@@ -855,7 +855,7 @@ export class EbEventTransform extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbEventTransform resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbEventTransform to import
-  * @param importFromId The id of the existing EbEventTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbEventTransform that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbEventTransform to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -867,7 +867,7 @@ export class EbEventTransform extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eb_event_transform tencentcloud_eb_event_transform} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eb_event_transform tencentcloud_eb_event_transform} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -878,8 +878,8 @@ export class EbEventTransform extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eb_event_transform',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdatePagerdutyIncidentConfig extends cdktf.Terrafo
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#enabled WorkflowTaskUpdatePagerdutyIncident#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#enabled WorkflowTaskUpdatePagerdutyIncident#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#id WorkflowTaskUpdatePagerdutyIncident#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#id WorkflowTaskUpdatePagerdutyIncident#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdatePagerdutyIncidentConfig extends cdktf.Terrafo
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#name WorkflowTaskUpdatePagerdutyIncident#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#name WorkflowTaskUpdatePagerdutyIncident#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#position WorkflowTaskUpdatePagerdutyIncident#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#position WorkflowTaskUpdatePagerdutyIncident#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#skip_on_failure WorkflowTaskUpdatePagerdutyIncident#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#skip_on_failure WorkflowTaskUpdatePagerdutyIncident#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#workflow_id WorkflowTaskUpdatePagerdutyIncident#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#workflow_id WorkflowTaskUpdatePagerdutyIncident#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#task_params WorkflowTaskUpdatePagerdutyIncident#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#task_params WorkflowTaskUpdatePagerdutyIncident#task_params}
   */
   readonly taskParams: WorkflowTaskUpdatePagerdutyIncidentTaskParams;
 }
@@ -55,47 +55,47 @@ export interface WorkflowTaskUpdatePagerdutyIncidentTaskParams {
   /**
   * Escalation level of policy attached to incident
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#escalation_level WorkflowTaskUpdatePagerdutyIncident#escalation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#escalation_level WorkflowTaskUpdatePagerdutyIncident#escalation_level}
   */
   readonly escalationLevel?: string;
   /**
   * Pagerduty incident id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#pagerduty_incident_id WorkflowTaskUpdatePagerdutyIncident#pagerduty_incident_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#pagerduty_incident_id WorkflowTaskUpdatePagerdutyIncident#pagerduty_incident_id}
   */
   readonly pagerdutyIncidentId: string;
   /**
   * PagerDuty incident priority, selecting auto will let Rootly auto map our incident severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#priority WorkflowTaskUpdatePagerdutyIncident#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#priority WorkflowTaskUpdatePagerdutyIncident#priority}
   */
   readonly priority?: string;
   /**
   * A message outlining the incident's resolution in PagerDuty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#resolution WorkflowTaskUpdatePagerdutyIncident#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#resolution WorkflowTaskUpdatePagerdutyIncident#resolution}
   */
   readonly resolution?: string;
   /**
   * Value must be one of `resolved`, `acknowledged`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#status WorkflowTaskUpdatePagerdutyIncident#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#status WorkflowTaskUpdatePagerdutyIncident#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#task_type WorkflowTaskUpdatePagerdutyIncident#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#task_type WorkflowTaskUpdatePagerdutyIncident#task_type}
   */
   readonly taskType?: string;
   /**
   * Title to update to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#title WorkflowTaskUpdatePagerdutyIncident#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#title WorkflowTaskUpdatePagerdutyIncident#title}
   */
   readonly title?: string;
   /**
   * PagerDuty incident urgency, selecting auto will let Rootly auto map our incident severity. Value must be one of `high`, `low`, `auto`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#urgency WorkflowTaskUpdatePagerdutyIncident#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#urgency WorkflowTaskUpdatePagerdutyIncident#urgency}
   */
   readonly urgency?: string;
 }
@@ -379,7 +379,7 @@ export class WorkflowTaskUpdatePagerdutyIncidentTaskParamsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident rootly_workflow_task_update_pagerduty_incident}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident rootly_workflow_task_update_pagerduty_incident}
 */
 export class WorkflowTaskUpdatePagerdutyIncident extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class WorkflowTaskUpdatePagerdutyIncident extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WorkflowTaskUpdatePagerdutyIncident resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdatePagerdutyIncident to import
-  * @param importFromId The id of the existing WorkflowTaskUpdatePagerdutyIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdatePagerdutyIncident that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdatePagerdutyIncident to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class WorkflowTaskUpdatePagerdutyIncident extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_update_pagerduty_incident rootly_workflow_task_update_pagerduty_incident} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_update_pagerduty_incident rootly_workflow_task_update_pagerduty_incident} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class WorkflowTaskUpdatePagerdutyIncident extends cdktf.TerraformResource
       terraformResourceType: 'rootly_workflow_task_update_pagerduty_incident',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

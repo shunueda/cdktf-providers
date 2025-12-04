@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentEndPointLogConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#account_moid DataIntersightEquipmentEndPointLog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#account_moid DataIntersightEquipmentEndPointLog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightEquipmentEndPointLogConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The time at which the log was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#collection_time DataIntersightEquipmentEndPointLog#collection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#collection_time DataIntersightEquipmentEndPointLog#collection_time}
   */
   readonly collectionTime?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#create_time DataIntersightEquipmentEndPointLog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#create_time DataIntersightEquipmentEndPointLog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#domain_group_moid DataIntersightEquipmentEndPointLog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#domain_group_moid DataIntersightEquipmentEndPointLog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The Url to download the end point log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#download_url DataIntersightEquipmentEndPointLog#download_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#download_url DataIntersightEquipmentEndPointLog#download_url}
   */
   readonly downloadUrl?: string;
   /**
   * The end point log file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#file_name DataIntersightEquipmentEndPointLog#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#file_name DataIntersightEquipmentEndPointLog#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#id DataIntersightEquipmentEndPointLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#id DataIntersightEquipmentEndPointLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,37 +67,37 @@ export interface DataIntersightEquipmentEndPointLogConfig extends cdktf.Terrafor
   * * `None` - End point log file type None.
   * * `SEL` - End point log file type SEL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#log_type DataIntersightEquipmentEndPointLog#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#log_type DataIntersightEquipmentEndPointLog#log_type}
   */
   readonly logType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#mod_time DataIntersightEquipmentEndPointLog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#mod_time DataIntersightEquipmentEndPointLog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#owners DataIntersightEquipmentEndPointLog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#owners DataIntersightEquipmentEndPointLog#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#shared_scope DataIntersightEquipmentEndPointLog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#shared_scope DataIntersightEquipmentEndPointLog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -112,49 +112,49 @@ export interface DataIntersightEquipmentEndPointLogConfig extends cdktf.Terrafor
   * * `DownloadUrlCreationFailed` - Download Url creation failed.
   * * `Completed` - Log collection and upload completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#status DataIntersightEquipmentEndPointLog#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#status DataIntersightEquipmentEndPointLog#status}
   */
   readonly status?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#ancestors DataIntersightEquipmentEndPointLog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#ancestors DataIntersightEquipmentEndPointLog#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentEndPointLogAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#parent DataIntersightEquipmentEndPointLog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#parent DataIntersightEquipmentEndPointLog#parent}
   */
   readonly parent?: DataIntersightEquipmentEndPointLogParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#permission_resources DataIntersightEquipmentEndPointLog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#permission_resources DataIntersightEquipmentEndPointLog#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentEndPointLogPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#registered_device DataIntersightEquipmentEndPointLog#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#registered_device DataIntersightEquipmentEndPointLog#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentEndPointLogRegisteredDevice;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#server DataIntersightEquipmentEndPointLog#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#server DataIntersightEquipmentEndPointLog#server}
   */
   readonly server?: DataIntersightEquipmentEndPointLogServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#tags DataIntersightEquipmentEndPointLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#tags DataIntersightEquipmentEndPointLog#tags}
   */
   readonly tags?: DataIntersightEquipmentEndPointLogTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#version_context DataIntersightEquipmentEndPointLog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#version_context DataIntersightEquipmentEndPointLog#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentEndPointLogVersionContext;
 }
@@ -1431,7 +1431,7 @@ export class DataIntersightEquipmentEndPointLogResultsList extends cdktf.Complex
 }
 export interface DataIntersightEquipmentEndPointLogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1439,19 +1439,19 @@ export interface DataIntersightEquipmentEndPointLogAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1464,7 +1464,7 @@ export interface DataIntersightEquipmentEndPointLogAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -1696,7 +1696,7 @@ export class DataIntersightEquipmentEndPointLogAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightEquipmentEndPointLogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1704,19 +1704,19 @@ export interface DataIntersightEquipmentEndPointLogParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1729,7 +1729,7 @@ export interface DataIntersightEquipmentEndPointLogParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -1929,7 +1929,7 @@ export class DataIntersightEquipmentEndPointLogParentOutputReference extends cdk
 }
 export interface DataIntersightEquipmentEndPointLogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1937,19 +1937,19 @@ export interface DataIntersightEquipmentEndPointLogPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1962,7 +1962,7 @@ export interface DataIntersightEquipmentEndPointLogPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -2194,7 +2194,7 @@ export class DataIntersightEquipmentEndPointLogPermissionResourcesList extends c
 }
 export interface DataIntersightEquipmentEndPointLogRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2202,19 +2202,19 @@ export interface DataIntersightEquipmentEndPointLogRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2227,7 +2227,7 @@ export interface DataIntersightEquipmentEndPointLogRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -2427,7 +2427,7 @@ export class DataIntersightEquipmentEndPointLogRegisteredDeviceOutputReference e
 }
 export interface DataIntersightEquipmentEndPointLogServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2435,19 +2435,19 @@ export interface DataIntersightEquipmentEndPointLogServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2460,7 +2460,7 @@ export interface DataIntersightEquipmentEndPointLogServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -2660,7 +2660,7 @@ export class DataIntersightEquipmentEndPointLogServerOutputReference extends cdk
 }
 export interface DataIntersightEquipmentEndPointLogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2668,19 +2668,19 @@ export interface DataIntersightEquipmentEndPointLogTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2693,7 +2693,7 @@ export interface DataIntersightEquipmentEndPointLogTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -2925,7 +2925,7 @@ export class DataIntersightEquipmentEndPointLogTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightEquipmentEndPointLogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2933,19 +2933,19 @@ export interface DataIntersightEquipmentEndPointLogTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2958,7 +2958,7 @@ export interface DataIntersightEquipmentEndPointLogTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -3158,25 +3158,25 @@ export class DataIntersightEquipmentEndPointLogTagsDefinitionOutputReference ext
 }
 export interface DataIntersightEquipmentEndPointLogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#key DataIntersightEquipmentEndPointLog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#key DataIntersightEquipmentEndPointLog#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#propagated DataIntersightEquipmentEndPointLog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#propagated DataIntersightEquipmentEndPointLog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#sys_tag DataIntersightEquipmentEndPointLog#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#sys_tag DataIntersightEquipmentEndPointLog#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3184,25 +3184,25 @@ export interface DataIntersightEquipmentEndPointLogTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#type DataIntersightEquipmentEndPointLog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#type DataIntersightEquipmentEndPointLog#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#value DataIntersightEquipmentEndPointLog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#value DataIntersightEquipmentEndPointLog#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#ancestor_definitions DataIntersightEquipmentEndPointLog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#ancestor_definitions DataIntersightEquipmentEndPointLog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentEndPointLogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#definition DataIntersightEquipmentEndPointLog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#definition DataIntersightEquipmentEndPointLog#definition}
   */
   readonly definition?: DataIntersightEquipmentEndPointLogTagsDefinition;
 }
@@ -3521,7 +3521,7 @@ export class DataIntersightEquipmentEndPointLogTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightEquipmentEndPointLogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3529,19 +3529,19 @@ export interface DataIntersightEquipmentEndPointLogVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3554,7 +3554,7 @@ export interface DataIntersightEquipmentEndPointLogVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -3786,7 +3786,7 @@ export class DataIntersightEquipmentEndPointLogVersionContextInterestedMosList e
 }
 export interface DataIntersightEquipmentEndPointLogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3794,19 +3794,19 @@ export interface DataIntersightEquipmentEndPointLogVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#moid DataIntersightEquipmentEndPointLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3819,7 +3819,7 @@ export interface DataIntersightEquipmentEndPointLogVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#selector DataIntersightEquipmentEndPointLog#selector}
   */
   readonly selector?: string;
 }
@@ -4019,7 +4019,7 @@ export class DataIntersightEquipmentEndPointLogVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightEquipmentEndPointLogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#additional_properties DataIntersightEquipmentEndPointLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4027,32 +4027,32 @@ export interface DataIntersightEquipmentEndPointLogVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#class_id DataIntersightEquipmentEndPointLog#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#marked_for_deletion DataIntersightEquipmentEndPointLog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#marked_for_deletion DataIntersightEquipmentEndPointLog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#nr_version DataIntersightEquipmentEndPointLog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#nr_version DataIntersightEquipmentEndPointLog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#object_type DataIntersightEquipmentEndPointLog#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#timestamp DataIntersightEquipmentEndPointLog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#timestamp DataIntersightEquipmentEndPointLog#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4063,19 +4063,19 @@ export interface DataIntersightEquipmentEndPointLogVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#version_type DataIntersightEquipmentEndPointLog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#version_type DataIntersightEquipmentEndPointLog#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#interested_mos DataIntersightEquipmentEndPointLog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#interested_mos DataIntersightEquipmentEndPointLog#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentEndPointLogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#ref_mo DataIntersightEquipmentEndPointLog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#ref_mo DataIntersightEquipmentEndPointLog#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentEndPointLogVersionContextRefMo;
 }
@@ -4391,7 +4391,7 @@ export class DataIntersightEquipmentEndPointLogVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log intersight_equipment_end_point_log}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log intersight_equipment_end_point_log}
 */
 export class DataIntersightEquipmentEndPointLog extends cdktf.TerraformDataSource {
 
@@ -4407,7 +4407,7 @@ export class DataIntersightEquipmentEndPointLog extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightEquipmentEndPointLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentEndPointLog to import
-  * @param importFromId The id of the existing DataIntersightEquipmentEndPointLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentEndPointLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentEndPointLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4419,7 +4419,7 @@ export class DataIntersightEquipmentEndPointLog extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_end_point_log intersight_equipment_end_point_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_end_point_log intersight_equipment_end_point_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4430,8 +4430,8 @@ export class DataIntersightEquipmentEndPointLog extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_equipment_end_point_log',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

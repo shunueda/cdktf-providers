@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CesMetricDataV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#collect_time CesMetricDataV1#collect_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#collect_time CesMetricDataV1#collect_time}
   */
   readonly collectTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#id CesMetricDataV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#id CesMetricDataV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#ttl CesMetricDataV1#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#ttl CesMetricDataV1#ttl}
   */
   readonly ttl: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#type CesMetricDataV1#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#type CesMetricDataV1#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#unit CesMetricDataV1#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#unit CesMetricDataV1#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#value CesMetricDataV1#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#value CesMetricDataV1#value}
   */
   readonly value: number;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#metric CesMetricDataV1#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#metric CesMetricDataV1#metric}
   */
   readonly metric: CesMetricDataV1Metric;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#timeouts CesMetricDataV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#timeouts CesMetricDataV1#timeouts}
   */
   readonly timeouts?: CesMetricDataV1Timeouts;
 }
 export interface CesMetricDataV1MetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#name CesMetricDataV1#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#name CesMetricDataV1#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#value CesMetricDataV1#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#value CesMetricDataV1#value}
   */
   readonly value: string;
 }
@@ -192,17 +192,17 @@ export class CesMetricDataV1MetricDimensionsList extends cdktf.ComplexList {
 }
 export interface CesMetricDataV1Metric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#metric_name CesMetricDataV1#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#metric_name CesMetricDataV1#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#namespace CesMetricDataV1#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#namespace CesMetricDataV1#namespace}
   */
   readonly namespace: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#dimensions CesMetricDataV1#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#dimensions CesMetricDataV1#dimensions}
   */
   readonly dimensions: CesMetricDataV1MetricDimensions[] | cdktf.IResolvable;
 }
@@ -335,11 +335,11 @@ export class CesMetricDataV1MetricOutputReference extends cdktf.ComplexObject {
 }
 export interface CesMetricDataV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#create CesMetricDataV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#create CesMetricDataV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#delete CesMetricDataV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#delete CesMetricDataV1#delete}
   */
   readonly delete?: string;
 }
@@ -462,7 +462,7 @@ export class CesMetricDataV1TimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1 opentelekomcloud_ces_metric_data_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1 opentelekomcloud_ces_metric_data_v1}
 */
 export class CesMetricDataV1 extends cdktf.TerraformResource {
 
@@ -478,7 +478,7 @@ export class CesMetricDataV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CesMetricDataV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CesMetricDataV1 to import
-  * @param importFromId The id of the existing CesMetricDataV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CesMetricDataV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CesMetricDataV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class CesMetricDataV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ces_metric_data_v1 opentelekomcloud_ces_metric_data_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ces_metric_data_v1 opentelekomcloud_ces_metric_data_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class CesMetricDataV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_ces_metric_data_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.53',
-        providerVersionConstraint: '1.36.53'
+        providerVersion: '1.36.54',
+        providerVersionConstraint: '1.36.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

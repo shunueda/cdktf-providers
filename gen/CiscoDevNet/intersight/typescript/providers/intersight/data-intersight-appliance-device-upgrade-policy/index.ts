@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataIntersightApplianceDeviceUpgradePolicyConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#account_moid DataIntersightApplianceDeviceUpgradePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#account_moid DataIntersightApplianceDeviceUpgradePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Indicates if the upgrade service is set to automatically start the software upgrade or not. If autoUpgrade is true, then the value of the schedule field is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#auto_upgrade DataIntersightApplianceDeviceUpgradePolicy#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#auto_upgrade DataIntersightApplianceDeviceUpgradePolicy#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * If enabled, allows the user to define a blackout period during which the appliance will not be upgraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#blackout_dates_enabled DataIntersightApplianceDeviceUpgradePolicy#blackout_dates_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#blackout_dates_enabled DataIntersightApplianceDeviceUpgradePolicy#blackout_dates_enabled}
   */
   readonly blackoutDatesEnabled?: boolean | cdktf.IResolvable;
   /**
   * End date of the black out period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#blackout_end_date DataIntersightApplianceDeviceUpgradePolicy#blackout_end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#blackout_end_date DataIntersightApplianceDeviceUpgradePolicy#blackout_end_date}
   */
   readonly blackoutEndDate?: string;
   /**
   * Start date of the black out period. The appliance will not be upgraded during this period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#blackout_start_date DataIntersightApplianceDeviceUpgradePolicy#blackout_start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#blackout_start_date DataIntersightApplianceDeviceUpgradePolicy#blackout_start_date}
   */
   readonly blackoutStartDate?: string;
   /**
@@ -46,35 +46,35 @@ export interface DataIntersightApplianceDeviceUpgradePolicyConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#create_time DataIntersightApplianceDeviceUpgradePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#create_time DataIntersightApplianceDeviceUpgradePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Updates requiring a reboot will start automatically once the grace period ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#disruptive_grace_period_week DataIntersightApplianceDeviceUpgradePolicy#disruptive_grace_period_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#disruptive_grace_period_week DataIntersightApplianceDeviceUpgradePolicy#disruptive_grace_period_week}
   */
   readonly disruptiveGracePeriodWeek?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#domain_group_moid DataIntersightApplianceDeviceUpgradePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#domain_group_moid DataIntersightApplianceDeviceUpgradePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Indicates if the updated metadata files should be synced immediately or at the next upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#enable_meta_data_sync DataIntersightApplianceDeviceUpgradePolicy#enable_meta_data_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#enable_meta_data_sync DataIntersightApplianceDeviceUpgradePolicy#enable_meta_data_sync}
   */
   readonly enableMetaDataSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#id DataIntersightApplianceDeviceUpgradePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#id DataIntersightApplianceDeviceUpgradePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,49 +83,49 @@ export interface DataIntersightApplianceDeviceUpgradePolicyConfig extends cdktf.
   /**
   * Custom grace period for subsequent reboot and non-reboot updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#is_custom_grace_period_enabled DataIntersightApplianceDeviceUpgradePolicy#is_custom_grace_period_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#is_custom_grace_period_enabled DataIntersightApplianceDeviceUpgradePolicy#is_custom_grace_period_enabled}
   */
   readonly isCustomGracePeriodEnabled?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#mod_time DataIntersightApplianceDeviceUpgradePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#mod_time DataIntersightApplianceDeviceUpgradePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * Updates not requiring a reboot will start automatically once the grace period ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#nondisruptive_grace_period_week DataIntersightApplianceDeviceUpgradePolicy#nondisruptive_grace_period_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#nondisruptive_grace_period_week DataIntersightApplianceDeviceUpgradePolicy#nondisruptive_grace_period_week}
   */
   readonly nondisruptiveGracePeriodWeek?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#owners DataIntersightApplianceDeviceUpgradePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#owners DataIntersightApplianceDeviceUpgradePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * SerialId of the Intersight Appliance. SerialId is generated when the Intersight Appliance is setup. It is a unique UUID string, and serialId will not change for the life time of the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#serial_id DataIntersightApplianceDeviceUpgradePolicy#serial_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#serial_id DataIntersightApplianceDeviceUpgradePolicy#serial_id}
   */
   readonly serialId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#shared_scope DataIntersightApplianceDeviceUpgradePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#shared_scope DataIntersightApplianceDeviceUpgradePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -134,49 +134,49 @@ export interface DataIntersightApplianceDeviceUpgradePolicyConfig extends cdktf.
   * * `connected` - Indicates if the upgrade service is set to upload software to latest version automatically.
   * * `manual` - Indicates if the upgrade service is set to upload software to user picked verison manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#software_download_type DataIntersightApplianceDeviceUpgradePolicy#software_download_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#software_download_type DataIntersightApplianceDeviceUpgradePolicy#software_download_type}
   */
   readonly softwareDownloadType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#ancestors DataIntersightApplianceDeviceUpgradePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#ancestors DataIntersightApplianceDeviceUpgradePolicy#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceDeviceUpgradePolicyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#parent DataIntersightApplianceDeviceUpgradePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#parent DataIntersightApplianceDeviceUpgradePolicy#parent}
   */
   readonly parent?: DataIntersightApplianceDeviceUpgradePolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#permission_resources DataIntersightApplianceDeviceUpgradePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#permission_resources DataIntersightApplianceDeviceUpgradePolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceDeviceUpgradePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#registered_device DataIntersightApplianceDeviceUpgradePolicy#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#registered_device DataIntersightApplianceDeviceUpgradePolicy#registered_device}
   */
   readonly registeredDevice?: DataIntersightApplianceDeviceUpgradePolicyRegisteredDevice;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#schedule DataIntersightApplianceDeviceUpgradePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#schedule DataIntersightApplianceDeviceUpgradePolicy#schedule}
   */
   readonly schedule?: DataIntersightApplianceDeviceUpgradePolicySchedule;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#tags DataIntersightApplianceDeviceUpgradePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#tags DataIntersightApplianceDeviceUpgradePolicy#tags}
   */
   readonly tags?: DataIntersightApplianceDeviceUpgradePolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#version_context DataIntersightApplianceDeviceUpgradePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#version_context DataIntersightApplianceDeviceUpgradePolicy#version_context}
   */
   readonly versionContext?: DataIntersightApplianceDeviceUpgradePolicyVersionContext;
 }
@@ -1503,7 +1503,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyResultsList extends cdktf
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1511,19 +1511,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1536,7 +1536,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1768,7 +1768,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyAncestorsList extends cdk
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1776,19 +1776,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1801,7 +1801,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2001,7 +2001,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyParentOutputReference ext
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2009,19 +2009,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2034,7 +2034,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2266,7 +2266,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyPermissionResourcesList e
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2274,19 +2274,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2299,7 +2299,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2499,7 +2499,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyRegisteredDeviceOutputRef
 }
 export interface DataIntersightApplianceDeviceUpgradePolicySchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2507,44 +2507,44 @@ export interface DataIntersightApplianceDeviceUpgradePolicySchedule {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Schedule a task on a specific day of the month. Valid values are 1 through 31. If monthOfYear is specified, then dayOfMonth value must be valid for that month. DayOfMonth may not be set when dayOfWeek is specfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#day_of_month DataIntersightApplianceDeviceUpgradePolicy#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#day_of_month DataIntersightApplianceDeviceUpgradePolicy#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * Schedule a task on a specific day of the week. Valid values are 1 through 7, with 1 being Sunday. DayOfWeek may not be specfied when dayOfMonth is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#day_of_week DataIntersightApplianceDeviceUpgradePolicy#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#day_of_week DataIntersightApplianceDeviceUpgradePolicy#day_of_week}
   */
   readonly dayOfWeek?: number;
   /**
   * Schedule a task on a specific month of the year. Valid values are 1 through 12, with 1 being January.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#month_of_year DataIntersightApplianceDeviceUpgradePolicy#month_of_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#month_of_year DataIntersightApplianceDeviceUpgradePolicy#month_of_year}
   */
   readonly monthOfYear?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Schedule a task to run periodically at an interval. Default unit of the RepeatInterval is in minutes. If the RepeateInterval value is set, then all other properties are ignored by the scheduler. RepeateInterval constraints are enforced by the services that use the schedule. Each service has pre-configured service specific properties for enforcing minimum and maximum values of the RepeatInterval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#repeat_interval DataIntersightApplianceDeviceUpgradePolicy#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#repeat_interval DataIntersightApplianceDeviceUpgradePolicy#repeat_interval}
   */
   readonly repeatInterval?: number;
   /**
   * Time of the day in seconds. TimeOfDay is required for all schedule configurations, except when the RepeateInterval field is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#time_of_day DataIntersightApplianceDeviceUpgradePolicy#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#time_of_day DataIntersightApplianceDeviceUpgradePolicy#time_of_day}
   */
   readonly timeOfDay?: number;
   /**
@@ -2974,13 +2974,13 @@ export interface DataIntersightApplianceDeviceUpgradePolicySchedule {
   * * `Pacific/Wallis` - 
   * * `UTC` -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#time_zone DataIntersightApplianceDeviceUpgradePolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#time_zone DataIntersightApplianceDeviceUpgradePolicy#time_zone}
   */
   readonly timeZone?: string;
   /**
   * Schedule a task on a specific week of the month. Valid values are 1 through 5. Value of 5 means last week of the month. WeekOfMonth may not be set when dayOfMonth is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#week_of_month DataIntersightApplianceDeviceUpgradePolicy#week_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#week_of_month DataIntersightApplianceDeviceUpgradePolicy#week_of_month}
   */
   readonly weekOfMonth?: number;
 }
@@ -3325,7 +3325,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyScheduleOutputReference e
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3333,19 +3333,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3358,7 +3358,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3590,7 +3590,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyTagsAncestorDefinitionsLi
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3598,19 +3598,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3623,7 +3623,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3823,25 +3823,25 @@ export class DataIntersightApplianceDeviceUpgradePolicyTagsDefinitionOutputRefer
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#key DataIntersightApplianceDeviceUpgradePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#key DataIntersightApplianceDeviceUpgradePolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#propagated DataIntersightApplianceDeviceUpgradePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#propagated DataIntersightApplianceDeviceUpgradePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#sys_tag DataIntersightApplianceDeviceUpgradePolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#sys_tag DataIntersightApplianceDeviceUpgradePolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3849,25 +3849,25 @@ export interface DataIntersightApplianceDeviceUpgradePolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#type DataIntersightApplianceDeviceUpgradePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#type DataIntersightApplianceDeviceUpgradePolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#value DataIntersightApplianceDeviceUpgradePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#value DataIntersightApplianceDeviceUpgradePolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#ancestor_definitions DataIntersightApplianceDeviceUpgradePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#ancestor_definitions DataIntersightApplianceDeviceUpgradePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceDeviceUpgradePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#definition DataIntersightApplianceDeviceUpgradePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#definition DataIntersightApplianceDeviceUpgradePolicy#definition}
   */
   readonly definition?: DataIntersightApplianceDeviceUpgradePolicyTagsDefinition;
 }
@@ -4186,7 +4186,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyTagsList extends cdktf.Co
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4194,19 +4194,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4219,7 +4219,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4451,7 +4451,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyVersionContextInterestedM
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4459,19 +4459,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#moid DataIntersightApplianceDeviceUpgradePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4484,7 +4484,7 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#selector DataIntersightApplianceDeviceUpgradePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4684,7 +4684,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyVersionContextRefMoOutput
 }
 export interface DataIntersightApplianceDeviceUpgradePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#additional_properties DataIntersightApplianceDeviceUpgradePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4692,32 +4692,32 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#class_id DataIntersightApplianceDeviceUpgradePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#marked_for_deletion DataIntersightApplianceDeviceUpgradePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#marked_for_deletion DataIntersightApplianceDeviceUpgradePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#nr_version DataIntersightApplianceDeviceUpgradePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#nr_version DataIntersightApplianceDeviceUpgradePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#object_type DataIntersightApplianceDeviceUpgradePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#timestamp DataIntersightApplianceDeviceUpgradePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#timestamp DataIntersightApplianceDeviceUpgradePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4728,19 +4728,19 @@ export interface DataIntersightApplianceDeviceUpgradePolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#version_type DataIntersightApplianceDeviceUpgradePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#version_type DataIntersightApplianceDeviceUpgradePolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#interested_mos DataIntersightApplianceDeviceUpgradePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#interested_mos DataIntersightApplianceDeviceUpgradePolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceDeviceUpgradePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#ref_mo DataIntersightApplianceDeviceUpgradePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#ref_mo DataIntersightApplianceDeviceUpgradePolicy#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceDeviceUpgradePolicyVersionContextRefMo;
 }
@@ -5056,7 +5056,7 @@ export class DataIntersightApplianceDeviceUpgradePolicyVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy intersight_appliance_device_upgrade_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy intersight_appliance_device_upgrade_policy}
 */
 export class DataIntersightApplianceDeviceUpgradePolicy extends cdktf.TerraformDataSource {
 
@@ -5072,7 +5072,7 @@ export class DataIntersightApplianceDeviceUpgradePolicy extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightApplianceDeviceUpgradePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceDeviceUpgradePolicy to import
-  * @param importFromId The id of the existing DataIntersightApplianceDeviceUpgradePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceDeviceUpgradePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceDeviceUpgradePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5084,7 +5084,7 @@ export class DataIntersightApplianceDeviceUpgradePolicy extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_device_upgrade_policy intersight_appliance_device_upgrade_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_device_upgrade_policy intersight_appliance_device_upgrade_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5095,8 +5095,8 @@ export class DataIntersightApplianceDeviceUpgradePolicy extends cdktf.TerraformD
       terraformResourceType: 'intersight_appliance_device_upgrade_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

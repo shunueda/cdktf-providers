@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCloudTfcAgentpoolConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#account_moid DataIntersightCloudTfcAgentpool#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#account_moid DataIntersightCloudTfcAgentpool#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightCloudTfcAgentpoolConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#create_time DataIntersightCloudTfcAgentpool#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#create_time DataIntersightCloudTfcAgentpool#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#domain_group_moid DataIntersightCloudTfcAgentpool#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#domain_group_moid DataIntersightCloudTfcAgentpool#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#id DataIntersightCloudTfcAgentpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#id DataIntersightCloudTfcAgentpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightCloudTfcAgentpoolConfig extends cdktf.TerraformMe
   /**
   * The ID of the Agent Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#identity DataIntersightCloudTfcAgentpool#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#identity DataIntersightCloudTfcAgentpool#identity}
   */
   readonly identity?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#mod_time DataIntersightCloudTfcAgentpool#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#mod_time DataIntersightCloudTfcAgentpool#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The name of the agent pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#name DataIntersightCloudTfcAgentpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#name DataIntersightCloudTfcAgentpool#name}
   */
   readonly name?: string;
   /**
   * The number of active agents used by this pool. The total active agent are sum of idle, busy and unknown agent counts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#num_active_agents DataIntersightCloudTfcAgentpool#num_active_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#num_active_agents DataIntersightCloudTfcAgentpool#num_active_agents}
   */
   readonly numActiveAgents?: number;
   /**
   * The number of Tokens in this agent Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#num_tokens DataIntersightCloudTfcAgentpool#num_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#num_tokens DataIntersightCloudTfcAgentpool#num_tokens}
   */
   readonly numTokens?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#owners DataIntersightCloudTfcAgentpool#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#owners DataIntersightCloudTfcAgentpool#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#shared_scope DataIntersightCloudTfcAgentpool#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#shared_scope DataIntersightCloudTfcAgentpool#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#ancestors DataIntersightCloudTfcAgentpool#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#ancestors DataIntersightCloudTfcAgentpool#ancestors}
   */
   readonly ancestors?: DataIntersightCloudTfcAgentpoolAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#organization DataIntersightCloudTfcAgentpool#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#organization DataIntersightCloudTfcAgentpool#organization}
   */
   readonly organization?: DataIntersightCloudTfcAgentpoolOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#parent DataIntersightCloudTfcAgentpool#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#parent DataIntersightCloudTfcAgentpool#parent}
   */
   readonly parent?: DataIntersightCloudTfcAgentpoolParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#permission_resources DataIntersightCloudTfcAgentpool#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#permission_resources DataIntersightCloudTfcAgentpool#permission_resources}
   */
   readonly permissionResources?: DataIntersightCloudTfcAgentpoolPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#tags DataIntersightCloudTfcAgentpool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#tags DataIntersightCloudTfcAgentpool#tags}
   */
   readonly tags?: DataIntersightCloudTfcAgentpoolTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#version_context DataIntersightCloudTfcAgentpool#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#version_context DataIntersightCloudTfcAgentpool#version_context}
   */
   readonly versionContext?: DataIntersightCloudTfcAgentpoolVersionContext;
 }
@@ -1302,7 +1302,7 @@ export class DataIntersightCloudTfcAgentpoolResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightCloudTfcAgentpoolAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1310,19 +1310,19 @@ export interface DataIntersightCloudTfcAgentpoolAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1335,7 +1335,7 @@ export interface DataIntersightCloudTfcAgentpoolAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -1567,7 +1567,7 @@ export class DataIntersightCloudTfcAgentpoolAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightCloudTfcAgentpoolOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1575,19 +1575,19 @@ export interface DataIntersightCloudTfcAgentpoolOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1600,7 +1600,7 @@ export interface DataIntersightCloudTfcAgentpoolOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -1800,7 +1800,7 @@ export class DataIntersightCloudTfcAgentpoolOrganizationOutputReference extends 
 }
 export interface DataIntersightCloudTfcAgentpoolParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1808,19 @@ export interface DataIntersightCloudTfcAgentpoolParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1833,7 @@ export interface DataIntersightCloudTfcAgentpoolParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -2033,7 +2033,7 @@ export class DataIntersightCloudTfcAgentpoolParentOutputReference extends cdktf.
 }
 export interface DataIntersightCloudTfcAgentpoolPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2041,19 +2041,19 @@ export interface DataIntersightCloudTfcAgentpoolPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2066,7 +2066,7 @@ export interface DataIntersightCloudTfcAgentpoolPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2298,7 @@ export class DataIntersightCloudTfcAgentpoolPermissionResourcesList extends cdkt
 }
 export interface DataIntersightCloudTfcAgentpoolTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2306,19 @@ export interface DataIntersightCloudTfcAgentpoolTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2331,7 @@ export interface DataIntersightCloudTfcAgentpoolTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -2563,7 +2563,7 @@ export class DataIntersightCloudTfcAgentpoolTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightCloudTfcAgentpoolTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2571,19 +2571,19 @@ export interface DataIntersightCloudTfcAgentpoolTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2596,7 +2596,7 @@ export interface DataIntersightCloudTfcAgentpoolTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -2796,25 +2796,25 @@ export class DataIntersightCloudTfcAgentpoolTagsDefinitionOutputReference extend
 }
 export interface DataIntersightCloudTfcAgentpoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#key DataIntersightCloudTfcAgentpool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#key DataIntersightCloudTfcAgentpool#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#propagated DataIntersightCloudTfcAgentpool#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#propagated DataIntersightCloudTfcAgentpool#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#sys_tag DataIntersightCloudTfcAgentpool#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#sys_tag DataIntersightCloudTfcAgentpool#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2822,25 +2822,25 @@ export interface DataIntersightCloudTfcAgentpoolTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#type DataIntersightCloudTfcAgentpool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#type DataIntersightCloudTfcAgentpool#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#value DataIntersightCloudTfcAgentpool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#value DataIntersightCloudTfcAgentpool#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#ancestor_definitions DataIntersightCloudTfcAgentpool#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#ancestor_definitions DataIntersightCloudTfcAgentpool#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCloudTfcAgentpoolTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#definition DataIntersightCloudTfcAgentpool#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#definition DataIntersightCloudTfcAgentpool#definition}
   */
   readonly definition?: DataIntersightCloudTfcAgentpoolTagsDefinition;
 }
@@ -3159,7 +3159,7 @@ export class DataIntersightCloudTfcAgentpoolTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCloudTfcAgentpoolVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3167,19 +3167,19 @@ export interface DataIntersightCloudTfcAgentpoolVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3192,7 +3192,7 @@ export interface DataIntersightCloudTfcAgentpoolVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -3424,7 +3424,7 @@ export class DataIntersightCloudTfcAgentpoolVersionContextInterestedMosList exte
 }
 export interface DataIntersightCloudTfcAgentpoolVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3432,19 +3432,19 @@ export interface DataIntersightCloudTfcAgentpoolVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#moid DataIntersightCloudTfcAgentpool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3457,7 +3457,7 @@ export interface DataIntersightCloudTfcAgentpoolVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#selector DataIntersightCloudTfcAgentpool#selector}
   */
   readonly selector?: string;
 }
@@ -3657,7 +3657,7 @@ export class DataIntersightCloudTfcAgentpoolVersionContextRefMoOutputReference e
 }
 export interface DataIntersightCloudTfcAgentpoolVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#additional_properties DataIntersightCloudTfcAgentpool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3665,32 +3665,32 @@ export interface DataIntersightCloudTfcAgentpoolVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#class_id DataIntersightCloudTfcAgentpool#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#marked_for_deletion DataIntersightCloudTfcAgentpool#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#marked_for_deletion DataIntersightCloudTfcAgentpool#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#nr_version DataIntersightCloudTfcAgentpool#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#nr_version DataIntersightCloudTfcAgentpool#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#object_type DataIntersightCloudTfcAgentpool#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#timestamp DataIntersightCloudTfcAgentpool#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#timestamp DataIntersightCloudTfcAgentpool#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3701,19 +3701,19 @@ export interface DataIntersightCloudTfcAgentpoolVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#version_type DataIntersightCloudTfcAgentpool#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#version_type DataIntersightCloudTfcAgentpool#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#interested_mos DataIntersightCloudTfcAgentpool#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#interested_mos DataIntersightCloudTfcAgentpool#interested_mos}
   */
   readonly interestedMos?: DataIntersightCloudTfcAgentpoolVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#ref_mo DataIntersightCloudTfcAgentpool#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#ref_mo DataIntersightCloudTfcAgentpool#ref_mo}
   */
   readonly refMo?: DataIntersightCloudTfcAgentpoolVersionContextRefMo;
 }
@@ -4029,7 +4029,7 @@ export class DataIntersightCloudTfcAgentpoolVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool intersight_cloud_tfc_agentpool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool intersight_cloud_tfc_agentpool}
 */
 export class DataIntersightCloudTfcAgentpool extends cdktf.TerraformDataSource {
 
@@ -4045,7 +4045,7 @@ export class DataIntersightCloudTfcAgentpool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightCloudTfcAgentpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCloudTfcAgentpool to import
-  * @param importFromId The id of the existing DataIntersightCloudTfcAgentpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCloudTfcAgentpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCloudTfcAgentpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4057,7 +4057,7 @@ export class DataIntersightCloudTfcAgentpool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cloud_tfc_agentpool intersight_cloud_tfc_agentpool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cloud_tfc_agentpool intersight_cloud_tfc_agentpool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4068,8 +4068,8 @@ export class DataIntersightCloudTfcAgentpool extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_cloud_tfc_agentpool',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

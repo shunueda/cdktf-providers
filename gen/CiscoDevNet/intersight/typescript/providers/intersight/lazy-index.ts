@@ -62,7 +62,6 @@ Object.defineProperty(exports, 'capabilitySwitchEquipmentInfo', { get: function 
 Object.defineProperty(exports, 'capabilitySwitchManufacturingDef', { get: function () { return require('./capability-switch-manufacturing-def'); } });
 Object.defineProperty(exports, 'capabilityVicDescriptor', { get: function () { return require('./capability-vic-descriptor'); } });
 Object.defineProperty(exports, 'certificatemanagementPolicy', { get: function () { return require('./certificatemanagement-policy'); } });
-Object.defineProperty(exports, 'changelogItem', { get: function () { return require('./changelog-item'); } });
 Object.defineProperty(exports, 'chassisConfigImport', { get: function () { return require('./chassis-config-import'); } });
 Object.defineProperty(exports, 'chassisProfile', { get: function () { return require('./chassis-profile'); } });
 Object.defineProperty(exports, 'chassisProfileTemplate', { get: function () { return require('./chassis-profile-template'); } });
@@ -210,6 +209,8 @@ Object.defineProperty(exports, 'iamLdapProvider', { get: function () { return re
 Object.defineProperty(exports, 'iamLocalUserPassword', { get: function () { return require('./iam-local-user-password'); } });
 Object.defineProperty(exports, 'iamPermission', { get: function () { return require('./iam-permission'); } });
 Object.defineProperty(exports, 'iamPrivateKeySpec', { get: function () { return require('./iam-private-key-spec'); } });
+Object.defineProperty(exports, 'iamPrivilegeSet', { get: function () { return require('./iam-privilege-set'); } });
+Object.defineProperty(exports, 'iamPrivilegeSetMetaInfo', { get: function () { return require('./iam-privilege-set-meta-info'); } });
 Object.defineProperty(exports, 'iamQualifier', { get: function () { return require('./iam-qualifier'); } });
 Object.defineProperty(exports, 'iamResourceRoles', { get: function () { return require('./iam-resource-roles'); } });
 Object.defineProperty(exports, 'iamSessionLimits', { get: function () { return require('./iam-session-limits'); } });
@@ -367,7 +368,6 @@ Object.defineProperty(exports, 'taskNexusSystemScopedInventory', { get: function
 Object.defineProperty(exports, 'taskNexusVlanScopedInventory', { get: function () { return require('./task-nexus-vlan-scoped-inventory'); } });
 Object.defineProperty(exports, 'taskPureScopedInventory', { get: function () { return require('./task-pure-scoped-inventory'); } });
 Object.defineProperty(exports, 'taskServerScopedInventory', { get: function () { return require('./task-server-scoped-inventory'); } });
-Object.defineProperty(exports, 'taskWorkflowAction', { get: function () { return require('./task-workflow-action'); } });
 Object.defineProperty(exports, 'techsupportmanagementCollectionControlPolicy', { get: function () { return require('./techsupportmanagement-collection-control-policy'); } });
 Object.defineProperty(exports, 'techsupportmanagementTechSupportBundle', { get: function () { return require('./techsupportmanagement-tech-support-bundle'); } });
 Object.defineProperty(exports, 'thermalPolicy', { get: function () { return require('./thermal-policy'); } });
@@ -475,6 +475,7 @@ Object.defineProperty(exports, 'dataIntersightApplianceGroupStatus', { get: func
 Object.defineProperty(exports, 'dataIntersightApplianceImageBundle', { get: function () { return require('./data-intersight-appliance-image-bundle'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceMetaManifest', { get: function () { return require('./data-intersight-appliance-meta-manifest'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceMetricsConfig', { get: function () { return require('./data-intersight-appliance-metrics-config'); } });
+Object.defineProperty(exports, 'dataIntersightApplianceMetricsIngestionUtilization', { get: function () { return require('./data-intersight-appliance-metrics-ingestion-utilization'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceNetworkLinkStatus', { get: function () { return require('./data-intersight-appliance-network-link-status'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceNodeInfo', { get: function () { return require('./data-intersight-appliance-node-info'); } });
 Object.defineProperty(exports, 'dataIntersightApplianceNodeOpStatus', { get: function () { return require('./data-intersight-appliance-node-op-status'); } });
@@ -589,7 +590,6 @@ Object.defineProperty(exports, 'dataIntersightCatalystsdwanPolicyGroup', { get: 
 Object.defineProperty(exports, 'dataIntersightCatalystsdwanVedgeDevice', { get: function () { return require('./data-intersight-catalystsdwan-vedge-device'); } });
 Object.defineProperty(exports, 'dataIntersightCertificatemanagementPolicy', { get: function () { return require('./data-intersight-certificatemanagement-policy'); } });
 Object.defineProperty(exports, 'dataIntersightCertificatemanagementPolicyInventory', { get: function () { return require('./data-intersight-certificatemanagement-policy-inventory'); } });
-Object.defineProperty(exports, 'dataIntersightChangelogItem', { get: function () { return require('./data-intersight-changelog-item'); } });
 Object.defineProperty(exports, 'dataIntersightChassisConfigChangeDetail', { get: function () { return require('./data-intersight-chassis-config-change-detail'); } });
 Object.defineProperty(exports, 'dataIntersightChassisConfigImport', { get: function () { return require('./data-intersight-chassis-config-import'); } });
 Object.defineProperty(exports, 'dataIntersightChassisConfigResult', { get: function () { return require('./data-intersight-chassis-config-result'); } });
@@ -935,6 +935,7 @@ Object.defineProperty(exports, 'dataIntersightIamPermission', { get: function ()
 Object.defineProperty(exports, 'dataIntersightIamPrivateKeySpec', { get: function () { return require('./data-intersight-iam-private-key-spec'); } });
 Object.defineProperty(exports, 'dataIntersightIamPrivilege', { get: function () { return require('./data-intersight-iam-privilege'); } });
 Object.defineProperty(exports, 'dataIntersightIamPrivilegeSet', { get: function () { return require('./data-intersight-iam-privilege-set'); } });
+Object.defineProperty(exports, 'dataIntersightIamPrivilegeSetMetaInfo', { get: function () { return require('./data-intersight-iam-privilege-set-meta-info'); } });
 Object.defineProperty(exports, 'dataIntersightIamQualifier', { get: function () { return require('./data-intersight-iam-qualifier'); } });
 Object.defineProperty(exports, 'dataIntersightIamResourceLimits', { get: function () { return require('./data-intersight-iam-resource-limits'); } });
 Object.defineProperty(exports, 'dataIntersightIamResourcePermission', { get: function () { return require('./data-intersight-iam-resource-permission'); } });
@@ -1095,8 +1096,6 @@ Object.defineProperty(exports, 'dataIntersightNiaapiDcnmLatestMaintainedRelease'
 Object.defineProperty(exports, 'dataIntersightNiaapiDcnmReleaseRecommend', { get: function () { return require('./data-intersight-niaapi-dcnm-release-recommend'); } });
 Object.defineProperty(exports, 'dataIntersightNiaapiDcnmSweol', { get: function () { return require('./data-intersight-niaapi-dcnm-sweol'); } });
 Object.defineProperty(exports, 'dataIntersightNiaapiFileDownloader', { get: function () { return require('./data-intersight-niaapi-file-downloader'); } });
-Object.defineProperty(exports, 'dataIntersightNiaapiNdMetadata', { get: function () { return require('./data-intersight-niaapi-nd-metadata'); } });
-Object.defineProperty(exports, 'dataIntersightNiaapiNdMetadataFileDownloader', { get: function () { return require('./data-intersight-niaapi-nd-metadata-file-downloader'); } });
 Object.defineProperty(exports, 'dataIntersightNiaapiNiaMetadata', { get: function () { return require('./data-intersight-niaapi-nia-metadata'); } });
 Object.defineProperty(exports, 'dataIntersightNiaapiNibFileDownloader', { get: function () { return require('./data-intersight-niaapi-nib-file-downloader'); } });
 Object.defineProperty(exports, 'dataIntersightNiaapiNibMetadata', { get: function () { return require('./data-intersight-niaapi-nib-metadata'); } });
@@ -1451,7 +1450,6 @@ Object.defineProperty(exports, 'dataIntersightTamAdvisoryDefinition', { get: fun
 Object.defineProperty(exports, 'dataIntersightTamAdvisoryInfo', { get: function () { return require('./data-intersight-tam-advisory-info'); } });
 Object.defineProperty(exports, 'dataIntersightTamAdvisoryInstance', { get: function () { return require('./data-intersight-tam-advisory-instance'); } });
 Object.defineProperty(exports, 'dataIntersightTamSecurityAdvisory', { get: function () { return require('./data-intersight-tam-security-advisory'); } });
-Object.defineProperty(exports, 'dataIntersightTaskWorkflowAction', { get: function () { return require('./data-intersight-task-workflow-action'); } });
 Object.defineProperty(exports, 'dataIntersightTechsupportmanagementCollectionControlPolicy', { get: function () { return require('./data-intersight-techsupportmanagement-collection-control-policy'); } });
 Object.defineProperty(exports, 'dataIntersightTechsupportmanagementDownload', { get: function () { return require('./data-intersight-techsupportmanagement-download'); } });
 Object.defineProperty(exports, 'dataIntersightTechsupportmanagementEndPoint', { get: function () { return require('./data-intersight-techsupportmanagement-end-point'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightKubernetesClusterProfileConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#account_moid DataIntersightKubernetesClusterProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#account_moid DataIntersightKubernetesClusterProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#action DataIntersightKubernetesClusterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#action DataIntersightKubernetesClusterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,33 +28,33 @@ export interface DataIntersightKubernetesClusterProfileConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#create_time DataIntersightKubernetesClusterProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#create_time DataIntersightKubernetesClusterProfile#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#deployed_policies DataIntersightKubernetesClusterProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#deployed_policies DataIntersightKubernetesClusterProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#description DataIntersightKubernetesClusterProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#description DataIntersightKubernetesClusterProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#domain_group_moid DataIntersightKubernetesClusterProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#domain_group_moid DataIntersightKubernetesClusterProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#id DataIntersightKubernetesClusterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#id DataIntersightKubernetesClusterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,47 +67,47 @@ export interface DataIntersightKubernetesClusterProfileConfig extends cdktf.Terr
   * * `Provided` - Cluster management entities and endpoints are provided by the infrastructure platform.
   * * `Managed` - Cluster management entities and endpoints are provisioned and managed by Intersight kubernetes service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#managed_mode DataIntersightKubernetesClusterProfile#managed_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#managed_mode DataIntersightKubernetesClusterProfile#managed_mode}
   */
   readonly managedMode?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#mod_time DataIntersightKubernetesClusterProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#mod_time DataIntersightKubernetesClusterProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#owners DataIntersightKubernetesClusterProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#owners DataIntersightKubernetesClusterProfile#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#removed_policies DataIntersightKubernetesClusterProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#removed_policies DataIntersightKubernetesClusterProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#shared_scope DataIntersightKubernetesClusterProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#shared_scope DataIntersightKubernetesClusterProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -129,200 +129,212 @@ export interface DataIntersightKubernetesClusterProfileConfig extends cdktf.Terr
   * * `UndeployFailed` - The cluster undeploy action failed.
   * * `NotReady` - The cluster is created and some nodes are not ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#status DataIntersightKubernetesClusterProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#status DataIntersightKubernetesClusterProfile#status}
   */
   readonly status?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#type DataIntersightKubernetesClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#type DataIntersightKubernetesClusterProfile#type}
   */
   readonly type?: string;
   /**
   * aci_cni_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#aci_cni_profile DataIntersightKubernetesClusterProfile#aci_cni_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#aci_cni_profile DataIntersightKubernetesClusterProfile#aci_cni_profile}
   */
   readonly aciCniProfile?: DataIntersightKubernetesClusterProfileAciCniProfile;
   /**
   * action_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#action_info DataIntersightKubernetesClusterProfile#action_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#action_info DataIntersightKubernetesClusterProfile#action_info}
   */
   readonly actionInfo?: DataIntersightKubernetesClusterProfileActionInfo;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#action_params DataIntersightKubernetesClusterProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#action_params DataIntersightKubernetesClusterProfile#action_params}
   */
   readonly actionParams?: DataIntersightKubernetesClusterProfileActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ancestors DataIntersightKubernetesClusterProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ancestors DataIntersightKubernetesClusterProfile#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesClusterProfileAncestors[] | cdktf.IResolvable;
   /**
   * associated_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#associated_cluster DataIntersightKubernetesClusterProfile#associated_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#associated_cluster DataIntersightKubernetesClusterProfile#associated_cluster}
   */
   readonly associatedCluster?: DataIntersightKubernetesClusterProfileAssociatedCluster;
   /**
   * cert_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#cert_config DataIntersightKubernetesClusterProfile#cert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#cert_config DataIntersightKubernetesClusterProfile#cert_config}
   */
   readonly certConfig?: DataIntersightKubernetesClusterProfileCertConfig;
   /**
   * cluster_ip_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#cluster_ip_pools DataIntersightKubernetesClusterProfile#cluster_ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#cluster_ip_pools DataIntersightKubernetesClusterProfile#cluster_ip_pools}
   */
   readonly clusterIpPools?: DataIntersightKubernetesClusterProfileClusterIpPools[] | cdktf.IResolvable;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#config_context DataIntersightKubernetesClusterProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_context DataIntersightKubernetesClusterProfile#config_context}
   */
   readonly configContext?: DataIntersightKubernetesClusterProfileConfigContext;
   /**
   * container_runtime_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#container_runtime_config DataIntersightKubernetesClusterProfile#container_runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#container_runtime_config DataIntersightKubernetesClusterProfile#container_runtime_config}
   */
   readonly containerRuntimeConfig?: DataIntersightKubernetesClusterProfileContainerRuntimeConfig;
   /**
   * container_runtime_proxy_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#container_runtime_proxy_policy DataIntersightKubernetesClusterProfile#container_runtime_proxy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#container_runtime_proxy_policy DataIntersightKubernetesClusterProfile#container_runtime_proxy_policy}
   */
   readonly containerRuntimeProxyPolicy?: DataIntersightKubernetesClusterProfileContainerRuntimeProxyPolicy;
   /**
   * device_connector_proxy_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#device_connector_proxy_policy DataIntersightKubernetesClusterProfile#device_connector_proxy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#device_connector_proxy_policy DataIntersightKubernetesClusterProfile#device_connector_proxy_policy}
   */
   readonly deviceConnectorProxyPolicy?: DataIntersightKubernetesClusterProfileDeviceConnectorProxyPolicy;
   /**
   * essential_addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#essential_addons DataIntersightKubernetesClusterProfile#essential_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#essential_addons DataIntersightKubernetesClusterProfile#essential_addons}
   */
   readonly essentialAddons?: DataIntersightKubernetesClusterProfileEssentialAddons[] | cdktf.IResolvable;
   /**
   * kube_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#kube_config DataIntersightKubernetesClusterProfile#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#kube_config DataIntersightKubernetesClusterProfile#kube_config}
   */
   readonly kubeConfig?: DataIntersightKubernetesClusterProfileKubeConfig;
   /**
   * loadbalancer_block_ip_leases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#loadbalancer_block_ip_leases DataIntersightKubernetesClusterProfile#loadbalancer_block_ip_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#loadbalancer_block_ip_leases DataIntersightKubernetesClusterProfile#loadbalancer_block_ip_leases}
   */
   readonly loadbalancerBlockIpLeases?: DataIntersightKubernetesClusterProfileLoadbalancerBlockIpLeases[] | cdktf.IResolvable;
   /**
   * loadbalancer_ip_leases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#loadbalancer_ip_leases DataIntersightKubernetesClusterProfile#loadbalancer_ip_leases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#loadbalancer_ip_leases DataIntersightKubernetesClusterProfile#loadbalancer_ip_leases}
   */
   readonly loadbalancerIpLeases?: DataIntersightKubernetesClusterProfileLoadbalancerIpLeases[] | cdktf.IResolvable;
   /**
   * management_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#management_config DataIntersightKubernetesClusterProfile#management_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#management_config DataIntersightKubernetesClusterProfile#management_config}
   */
   readonly managementConfig?: DataIntersightKubernetesClusterProfileManagementConfig;
   /**
   * master_vip_lease block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#master_vip_lease DataIntersightKubernetesClusterProfile#master_vip_lease}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#master_vip_lease DataIntersightKubernetesClusterProfile#master_vip_lease}
   */
   readonly masterVipLease?: DataIntersightKubernetesClusterProfileMasterVipLease;
   /**
   * net_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#net_config DataIntersightKubernetesClusterProfile#net_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#net_config DataIntersightKubernetesClusterProfile#net_config}
   */
   readonly netConfig?: DataIntersightKubernetesClusterProfileNetConfig;
   /**
   * node_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#node_groups DataIntersightKubernetesClusterProfile#node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#node_groups DataIntersightKubernetesClusterProfile#node_groups}
   */
   readonly nodeGroups?: DataIntersightKubernetesClusterProfileNodeGroups[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#organization DataIntersightKubernetesClusterProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#organization DataIntersightKubernetesClusterProfile#organization}
   */
   readonly organization?: DataIntersightKubernetesClusterProfileOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#parent DataIntersightKubernetesClusterProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#parent DataIntersightKubernetesClusterProfile#parent}
   */
   readonly parent?: DataIntersightKubernetesClusterProfileParent;
   /**
   * parent_solution_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#parent_solution_profile DataIntersightKubernetesClusterProfile#parent_solution_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#parent_solution_profile DataIntersightKubernetesClusterProfile#parent_solution_profile}
   */
   readonly parentSolutionProfile?: DataIntersightKubernetesClusterProfileParentSolutionProfile;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#permission_resources DataIntersightKubernetesClusterProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#permission_resources DataIntersightKubernetesClusterProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesClusterProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#policy_bucket DataIntersightKubernetesClusterProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#policy_bucket DataIntersightKubernetesClusterProfile#policy_bucket}
   */
   readonly policyBucket?: DataIntersightKubernetesClusterProfilePolicyBucket[] | cdktf.IResolvable;
   /**
+  * policy_change_details block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#policy_change_details DataIntersightKubernetesClusterProfile#policy_change_details}
+  */
+  readonly policyChangeDetails?: DataIntersightKubernetesClusterProfilePolicyChangeDetails[] | cdktf.IResolvable;
+  /**
+  * reported_policy_changes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#reported_policy_changes DataIntersightKubernetesClusterProfile#reported_policy_changes}
+  */
+  readonly reportedPolicyChanges?: DataIntersightKubernetesClusterProfileReportedPolicyChanges[] | cdktf.IResolvable;
+  /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#scheduled_actions DataIntersightKubernetesClusterProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#scheduled_actions DataIntersightKubernetesClusterProfile#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightKubernetesClusterProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#src_template DataIntersightKubernetesClusterProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#src_template DataIntersightKubernetesClusterProfile#src_template}
   */
   readonly srcTemplate?: DataIntersightKubernetesClusterProfileSrcTemplate;
   /**
   * sys_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#sys_config DataIntersightKubernetesClusterProfile#sys_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#sys_config DataIntersightKubernetesClusterProfile#sys_config}
   */
   readonly sysConfig?: DataIntersightKubernetesClusterProfileSysConfig;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#tags DataIntersightKubernetesClusterProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#tags DataIntersightKubernetesClusterProfile#tags}
   */
   readonly tags?: DataIntersightKubernetesClusterProfileTags[] | cdktf.IResolvable;
   /**
   * trusted_registries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#trusted_registries DataIntersightKubernetesClusterProfile#trusted_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#trusted_registries DataIntersightKubernetesClusterProfile#trusted_registries}
   */
   readonly trustedRegistries?: DataIntersightKubernetesClusterProfileTrustedRegistries;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#version_context DataIntersightKubernetesClusterProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#version_context DataIntersightKubernetesClusterProfile#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesClusterProfileVersionContext;
   /**
   * workflow_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#workflow_info DataIntersightKubernetesClusterProfile#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#workflow_info DataIntersightKubernetesClusterProfile#workflow_info}
   */
   readonly workflowInfo?: DataIntersightKubernetesClusterProfileWorkflowInfo;
 }
@@ -3004,6 +3016,347 @@ export class DataIntersightKubernetesClusterProfileResultsPolicyBucketList exten
     return new DataIntersightKubernetesClusterProfileResultsPolicyBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContext {
+}
+
+export function dataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextToTerraform(struct?: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextToHclTerraform(struct?: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // dependent_policy_list - computed: true, optional: false, required: false
+  public get dependentPolicyList() {
+    return this.getListAttribute('dependent_policy_list');
+  }
+
+  // entity_data - computed: true, optional: false, required: false
+  public get entityData() {
+    return this.getStringAttribute('entity_data');
+  }
+
+  // entity_moid - computed: true, optional: false, required: false
+  public get entityMoid() {
+    return this.getStringAttribute('entity_moid');
+  }
+
+  // entity_name - computed: true, optional: false, required: false
+  public get entityName() {
+    return this.getStringAttribute('entity_name');
+  }
+
+  // entity_type - computed: true, optional: false, required: false
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // parent_moid - computed: true, optional: false, required: false
+  public get parentMoid() {
+    return this.getStringAttribute('parent_moid');
+  }
+
+  // parent_policy_object_type - computed: true, optional: false, required: false
+  public get parentPolicyObjectType() {
+    return this.getStringAttribute('parent_policy_object_type');
+  }
+
+  // parent_type - computed: true, optional: false, required: false
+  public get parentType() {
+    return this.getStringAttribute('parent_type');
+  }
+}
+
+export class DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference {
+    return new DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightKubernetesClusterProfileResultsPolicyChangeDetails {
+}
+
+export function dataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsToTerraform(struct?: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsToHclTerraform(struct?: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfileResultsPolicyChangeDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfileResultsPolicyChangeDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // changes - computed: true, optional: false, required: false
+  public get changes() {
+    return this.getListAttribute('changes');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // config_change_context - computed: true, optional: false, required: false
+  private _configChangeContext = new DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsConfigChangeContextList(this, "config_change_context", false);
+  public get configChangeContext() {
+    return this._configChangeContext;
+  }
+
+  // config_change_flag - computed: true, optional: false, required: false
+  public get configChangeFlag() {
+    return this.getStringAttribute('config_change_flag');
+  }
+
+  // disruptions - computed: true, optional: false, required: false
+  public get disruptions() {
+    return this.getListAttribute('disruptions');
+  }
+
+  // message - computed: true, optional: false, required: false
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+
+  // mod_status - computed: true, optional: false, required: false
+  public get modStatus() {
+    return this.getStringAttribute('mod_status');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+}
+
+export class DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsOutputReference {
+    return new DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightKubernetesClusterProfileResultsReportedPolicyChanges {
+}
+
+export function dataIntersightKubernetesClusterProfileResultsReportedPolicyChangesToTerraform(struct?: DataIntersightKubernetesClusterProfileResultsReportedPolicyChanges): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfileResultsReportedPolicyChangesToHclTerraform(struct?: DataIntersightKubernetesClusterProfileResultsReportedPolicyChanges): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightKubernetesClusterProfileResultsReportedPolicyChangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfileResultsReportedPolicyChanges | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfileResultsReportedPolicyChanges | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // change_id - computed: true, optional: false, required: false
+  public get changeId() {
+    return this.getStringAttribute('change_id');
+  }
+
+  // change_status - computed: true, optional: false, required: false
+  public get changeStatus() {
+    return this.getStringAttribute('change_status');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // policy_type - computed: true, optional: false, required: false
+  public get policyType() {
+    return this.getStringAttribute('policy_type');
+  }
+}
+
+export class DataIntersightKubernetesClusterProfileResultsReportedPolicyChangesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightKubernetesClusterProfileResultsReportedPolicyChangesOutputReference {
+    return new DataIntersightKubernetesClusterProfileResultsReportedPolicyChangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIntersightKubernetesClusterProfileResultsScheduledActionsActionQualifier {
 }
 
@@ -4444,9 +4797,21 @@ export class DataIntersightKubernetesClusterProfileResultsOutputReference extend
     return this._policyBucket;
   }
 
+  // policy_change_details - computed: true, optional: false, required: false
+  private _policyChangeDetails = new DataIntersightKubernetesClusterProfileResultsPolicyChangeDetailsList(this, "policy_change_details", false);
+  public get policyChangeDetails() {
+    return this._policyChangeDetails;
+  }
+
   // removed_policies - computed: true, optional: false, required: false
   public get removedPolicies() {
     return this.getListAttribute('removed_policies');
+  }
+
+  // reported_policy_changes - computed: true, optional: false, required: false
+  private _reportedPolicyChanges = new DataIntersightKubernetesClusterProfileResultsReportedPolicyChangesList(this, "reported_policy_changes", false);
+  public get reportedPolicyChanges() {
+    return this._reportedPolicyChanges;
   }
 
   // scheduled_actions - computed: true, optional: false, required: false
@@ -4527,7 +4892,7 @@ export class DataIntersightKubernetesClusterProfileResultsList extends cdktf.Com
 }
 export interface DataIntersightKubernetesClusterProfileAciCniProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4535,19 +4900,19 @@ export interface DataIntersightKubernetesClusterProfileAciCniProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4560,7 +4925,7 @@ export interface DataIntersightKubernetesClusterProfileAciCniProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4760,7 +5125,7 @@ export class DataIntersightKubernetesClusterProfileAciCniProfileOutputReference 
 }
 export interface DataIntersightKubernetesClusterProfileActionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4768,26 +5133,26 @@ export interface DataIntersightKubernetesClusterProfileActionInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * No longer maintained and will be removed soon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#failure_reason DataIntersightKubernetesClusterProfile#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#failure_reason DataIntersightKubernetesClusterProfile#failure_reason}
   */
   readonly failureReason?: string;
   /**
   * Name of the Action performed on a resource like VM, Disk etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4797,7 +5162,7 @@ export interface DataIntersightKubernetesClusterProfileActionInfo {
   * * `Success` - Action triggered on the resource is completed successfully.
   * * `Failure` - Action triggered on the resource is failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#status DataIntersightKubernetesClusterProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#status DataIntersightKubernetesClusterProfile#status}
   */
   readonly status?: string;
 }
@@ -5026,7 +5391,7 @@ export class DataIntersightKubernetesClusterProfileActionInfoOutputReference ext
 }
 export interface DataIntersightKubernetesClusterProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5034,26 +5399,26 @@ export interface DataIntersightKubernetesClusterProfileActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
   */
   readonly value?: string;
 }
@@ -5285,7 +5650,7 @@ export class DataIntersightKubernetesClusterProfileActionParamsList extends cdkt
 }
 export interface DataIntersightKubernetesClusterProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5293,19 +5658,19 @@ export interface DataIntersightKubernetesClusterProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5318,7 +5683,7 @@ export interface DataIntersightKubernetesClusterProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5550,7 +5915,7 @@ export class DataIntersightKubernetesClusterProfileAncestorsList extends cdktf.C
 }
 export interface DataIntersightKubernetesClusterProfileAssociatedCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5558,19 +5923,19 @@ export interface DataIntersightKubernetesClusterProfileAssociatedCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5583,7 +5948,7 @@ export interface DataIntersightKubernetesClusterProfileAssociatedCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5783,19 +6148,19 @@ export class DataIntersightKubernetesClusterProfileAssociatedClusterOutputRefere
 }
 export interface DataIntersightKubernetesClusterProfileCertConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Certificate for the Kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ca_cert DataIntersightKubernetesClusterProfile#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ca_cert DataIntersightKubernetesClusterProfile#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Private Key for the Kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ca_key DataIntersightKubernetesClusterProfile#ca_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ca_key DataIntersightKubernetesClusterProfile#ca_key}
   */
   readonly caKey?: string;
   /**
@@ -5803,54 +6168,54 @@ export interface DataIntersightKubernetesClusterProfileCertConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Certificate for the etcd cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#etcd_cert DataIntersightKubernetesClusterProfile#etcd_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#etcd_cert DataIntersightKubernetesClusterProfile#etcd_cert}
   */
   readonly etcdCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#etcd_encryption_key DataIntersightKubernetesClusterProfile#etcd_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#etcd_encryption_key DataIntersightKubernetesClusterProfile#etcd_encryption_key}
   */
   readonly etcdEncryptionKey?: string[];
   /**
   * Private key for the etcd cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#etcd_key DataIntersightKubernetesClusterProfile#etcd_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#etcd_key DataIntersightKubernetesClusterProfile#etcd_key}
   */
   readonly etcdKey?: string;
   /**
   * Certificate for the front proxy to support Kubernetes API aggregators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#front_proxy_cert DataIntersightKubernetesClusterProfile#front_proxy_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#front_proxy_cert DataIntersightKubernetesClusterProfile#front_proxy_cert}
   */
   readonly frontProxyCert?: string;
   /**
   * Private key for the front proxy to support Kubernetes API aggregators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#front_proxy_key DataIntersightKubernetesClusterProfile#front_proxy_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#front_proxy_key DataIntersightKubernetesClusterProfile#front_proxy_key}
   */
   readonly frontProxyKey?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Service account private key used by Kubernetes Token Controller to sign generated service account tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#sa_private_key DataIntersightKubernetesClusterProfile#sa_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#sa_private_key DataIntersightKubernetesClusterProfile#sa_private_key}
   */
   readonly saPrivateKey?: string;
   /**
   * Service account public key used by Kubernetes API Server to validate service account tokens generated by the Token Controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#sa_public_key DataIntersightKubernetesClusterProfile#sa_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#sa_public_key DataIntersightKubernetesClusterProfile#sa_public_key}
   */
   readonly saPublicKey?: string;
 }
@@ -6253,7 +6618,7 @@ export class DataIntersightKubernetesClusterProfileCertConfigOutputReference ext
 }
 export interface DataIntersightKubernetesClusterProfileClusterIpPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6261,19 +6626,19 @@ export interface DataIntersightKubernetesClusterProfileClusterIpPools {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6286,7 +6651,7 @@ export interface DataIntersightKubernetesClusterProfileClusterIpPools {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6518,7 +6883,7 @@ export class DataIntersightKubernetesClusterProfileClusterIpPoolsList extends cd
 }
 export interface DataIntersightKubernetesClusterProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6526,13 +6891,13 @@ export interface DataIntersightKubernetesClusterProfileConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#config_state DataIntersightKubernetesClusterProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_state DataIntersightKubernetesClusterProfile#config_state}
   */
   readonly configState?: string;
   /**
@@ -6542,6 +6907,7 @@ export interface DataIntersightKubernetesClusterProfileConfigContext {
   * * `Assigned` - Server is assigned to the profile and the configurations are not yet deployed.
   * * `Preparing` - Preparing to deploy the configuration.
   * * `Validating` - Profile validation in progress.
+  * * `Evaluating` - Policy edit configuration change evaluation in progress.
   * * `Configuring` - Profile deploy operation is in progress.
   * * `UnConfiguring` - Server is unassigned and config cleanup is in progress.
   * * `Analyzing` - Profile changes are being analyzed.
@@ -6553,42 +6919,42 @@ export interface DataIntersightKubernetesClusterProfileConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#config_state_summary DataIntersightKubernetesClusterProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_state_summary DataIntersightKubernetesClusterProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#config_type DataIntersightKubernetesClusterProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_type DataIntersightKubernetesClusterProfile#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#control_action DataIntersightKubernetesClusterProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#control_action DataIntersightKubernetesClusterProfile#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#error_state DataIntersightKubernetesClusterProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#error_state DataIntersightKubernetesClusterProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#inconsistency_reason DataIntersightKubernetesClusterProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#inconsistency_reason DataIntersightKubernetesClusterProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#oper_state DataIntersightKubernetesClusterProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#oper_state DataIntersightKubernetesClusterProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -6933,7 +7299,7 @@ export class DataIntersightKubernetesClusterProfileConfigContextOutputReference 
 }
 export interface DataIntersightKubernetesClusterProfileContainerRuntimeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6941,19 +7307,19 @@ export interface DataIntersightKubernetesClusterProfileContainerRuntimeConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6966,7 +7332,7 @@ export interface DataIntersightKubernetesClusterProfileContainerRuntimeConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7166,7 +7532,7 @@ export class DataIntersightKubernetesClusterProfileContainerRuntimeConfigOutputR
 }
 export interface DataIntersightKubernetesClusterProfileContainerRuntimeProxyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7174,19 +7540,19 @@ export interface DataIntersightKubernetesClusterProfileContainerRuntimeProxyPoli
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7199,7 +7565,7 @@ export interface DataIntersightKubernetesClusterProfileContainerRuntimeProxyPoli
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7399,7 +7765,7 @@ export class DataIntersightKubernetesClusterProfileContainerRuntimeProxyPolicyOu
 }
 export interface DataIntersightKubernetesClusterProfileDeviceConnectorProxyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7407,19 +7773,19 @@ export interface DataIntersightKubernetesClusterProfileDeviceConnectorProxyPolic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7432,7 +7798,7 @@ export interface DataIntersightKubernetesClusterProfileDeviceConnectorProxyPolic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7632,7 +7998,7 @@ export class DataIntersightKubernetesClusterProfileDeviceConnectorProxyPolicyOut
 }
 export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfigurationOverrideSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7640,26 +8006,26 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Key or property name in a key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#key DataIntersightKubernetesClusterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#key DataIntersightKubernetesClusterProfile#key}
   */
   readonly key?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Property value in a key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
   */
   readonly value?: string;
 }
@@ -7891,7 +8257,7 @@ export class DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfigura
 }
 export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7899,7 +8265,7 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -7909,32 +8275,32 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfi
   * * `InstallOnly` - Only install in green field. No action in case of failure or removal.
   * * `Always` - Attempt install if chart is not already installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#install_strategy DataIntersightKubernetesClusterProfile#install_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#install_strategy DataIntersightKubernetesClusterProfile#install_strategy}
   */
   readonly installStrategy?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Properties that can be overridden for an addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#overrides DataIntersightKubernetesClusterProfile#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#overrides DataIntersightKubernetesClusterProfile#overrides}
   */
   readonly overrides?: string;
   /**
   * Name for the helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#release_name DataIntersightKubernetesClusterProfile#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#release_name DataIntersightKubernetesClusterProfile#release_name}
   */
   readonly releaseName?: string;
   /**
   * Namespace for the helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#release_namespace DataIntersightKubernetesClusterProfile#release_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#release_namespace DataIntersightKubernetesClusterProfile#release_namespace}
   */
   readonly releaseNamespace?: string;
   /**
@@ -7945,13 +8311,13 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfi
   * * `ReinstallOnFailure` - Attempt upgrade first. Remove and install on upgrade failure.
   * * `AlwaysReinstall` - Always remove older release and reinstall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#upgrade_strategy DataIntersightKubernetesClusterProfile#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#upgrade_strategy DataIntersightKubernetesClusterProfile#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
   /**
   * override_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#override_sets DataIntersightKubernetesClusterProfile#override_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#override_sets DataIntersightKubernetesClusterProfile#override_sets}
   */
   readonly overrideSets?: DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfigurationOverrideSets[] | cdktf.IResolvable;
 }
@@ -8267,7 +8633,7 @@ export class DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfigura
 }
 export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8275,19 +8641,19 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8300,7 +8666,7 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddonsAddonDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8500,7 +8866,7 @@ export class DataIntersightKubernetesClusterProfileEssentialAddonsAddonDefinitio
 }
 export interface DataIntersightKubernetesClusterProfileEssentialAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8508,32 +8874,32 @@ export interface DataIntersightKubernetesClusterProfileEssentialAddons {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Name of addon to be installed on a Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#name DataIntersightKubernetesClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * addon_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#addon_configuration DataIntersightKubernetesClusterProfile#addon_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#addon_configuration DataIntersightKubernetesClusterProfile#addon_configuration}
   */
   readonly addonConfiguration?: DataIntersightKubernetesClusterProfileEssentialAddonsAddonConfiguration;
   /**
   * addon_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#addon_definition DataIntersightKubernetesClusterProfile#addon_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#addon_definition DataIntersightKubernetesClusterProfile#addon_definition}
   */
   readonly addonDefinition?: DataIntersightKubernetesClusterProfileEssentialAddonsAddonDefinition;
 }
@@ -8794,7 +9160,7 @@ export class DataIntersightKubernetesClusterProfileEssentialAddonsList extends c
 }
 export interface DataIntersightKubernetesClusterProfileKubeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8802,20 +9168,20 @@ export interface DataIntersightKubernetesClusterProfileKubeConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Kubernetes configuration to connect to the cluster as an system administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#kube_config DataIntersightKubernetesClusterProfile#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#kube_config DataIntersightKubernetesClusterProfile#kube_config}
   */
   readonly kubeConfig?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -8986,7 +9352,7 @@ export class DataIntersightKubernetesClusterProfileKubeConfigOutputReference ext
 }
 export interface DataIntersightKubernetesClusterProfileLoadbalancerBlockIpLeases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8994,19 +9360,19 @@ export interface DataIntersightKubernetesClusterProfileLoadbalancerBlockIpLeases
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9019,7 +9385,7 @@ export interface DataIntersightKubernetesClusterProfileLoadbalancerBlockIpLeases
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9251,7 +9617,7 @@ export class DataIntersightKubernetesClusterProfileLoadbalancerBlockIpLeasesList
 }
 export interface DataIntersightKubernetesClusterProfileLoadbalancerIpLeases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9259,19 +9625,19 @@ export interface DataIntersightKubernetesClusterProfileLoadbalancerIpLeases {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9284,7 +9650,7 @@ export interface DataIntersightKubernetesClusterProfileLoadbalancerIpLeases {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9516,7 +9882,7 @@ export class DataIntersightKubernetesClusterProfileLoadbalancerIpLeasesList exte
 }
 export interface DataIntersightKubernetesClusterProfileManagementConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9524,52 +9890,52 @@ export interface DataIntersightKubernetesClusterProfileManagementConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates whether the value of the 'tacPasswd' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#is_tac_passwd_set DataIntersightKubernetesClusterProfile#is_tac_passwd_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#is_tac_passwd_set DataIntersightKubernetesClusterProfile#is_tac_passwd_set}
   */
   readonly isTacPasswdSet?: boolean | cdktf.IResolvable;
   /**
   * Number of IP addresses to reserve for load balancer services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#load_balancer_count DataIntersightKubernetesClusterProfile#load_balancer_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#load_balancer_count DataIntersightKubernetesClusterProfile#load_balancer_count}
   */
   readonly loadBalancerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#load_balancers DataIntersightKubernetesClusterProfile#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#load_balancers DataIntersightKubernetesClusterProfile#load_balancers}
   */
   readonly loadBalancers?: string[];
   /**
   * VIP for the cluster Kubernetes API server. If this is empty and a cluster IP pool is specified, it will be allocated from the IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#master_vip DataIntersightKubernetesClusterProfile#master_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#master_vip DataIntersightKubernetesClusterProfile#master_vip}
   */
   readonly masterVip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ssh_keys DataIntersightKubernetesClusterProfile#ssh_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ssh_keys DataIntersightKubernetesClusterProfile#ssh_keys}
   */
   readonly sshKeys?: string[];
   /**
   * Name of the user to SSH to nodes in a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ssh_user DataIntersightKubernetesClusterProfile#ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ssh_user DataIntersightKubernetesClusterProfile#ssh_user}
   */
   readonly sshUser?: string;
   /**
   * Hashed password of the TAC user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#tac_passwd DataIntersightKubernetesClusterProfile#tac_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#tac_passwd DataIntersightKubernetesClusterProfile#tac_passwd}
   */
   readonly tacPasswd?: string;
 }
@@ -9914,7 +10280,7 @@ export class DataIntersightKubernetesClusterProfileManagementConfigOutputReferen
 }
 export interface DataIntersightKubernetesClusterProfileMasterVipLease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9922,19 +10288,19 @@ export interface DataIntersightKubernetesClusterProfileMasterVipLease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9947,7 +10313,7 @@ export interface DataIntersightKubernetesClusterProfileMasterVipLease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10147,7 +10513,7 @@ export class DataIntersightKubernetesClusterProfileMasterVipLeaseOutputReference
 }
 export interface DataIntersightKubernetesClusterProfileNetConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10155,19 +10521,19 @@ export interface DataIntersightKubernetesClusterProfileNetConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10180,7 +10546,7 @@ export interface DataIntersightKubernetesClusterProfileNetConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10380,7 +10746,7 @@ export class DataIntersightKubernetesClusterProfileNetConfigOutputReference exte
 }
 export interface DataIntersightKubernetesClusterProfileNodeGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10388,19 +10754,19 @@ export interface DataIntersightKubernetesClusterProfileNodeGroups {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10413,7 +10779,7 @@ export interface DataIntersightKubernetesClusterProfileNodeGroups {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10645,7 +11011,7 @@ export class DataIntersightKubernetesClusterProfileNodeGroupsList extends cdktf.
 }
 export interface DataIntersightKubernetesClusterProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10653,19 +11019,19 @@ export interface DataIntersightKubernetesClusterProfileOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10678,7 +11044,7 @@ export interface DataIntersightKubernetesClusterProfileOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10878,7 +11244,7 @@ export class DataIntersightKubernetesClusterProfileOrganizationOutputReference e
 }
 export interface DataIntersightKubernetesClusterProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10886,19 +11252,19 @@ export interface DataIntersightKubernetesClusterProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10911,7 +11277,7 @@ export interface DataIntersightKubernetesClusterProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11111,7 +11477,7 @@ export class DataIntersightKubernetesClusterProfileParentOutputReference extends
 }
 export interface DataIntersightKubernetesClusterProfileParentSolutionProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11119,19 +11485,19 @@ export interface DataIntersightKubernetesClusterProfileParentSolutionProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11144,7 +11510,7 @@ export interface DataIntersightKubernetesClusterProfileParentSolutionProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11344,7 +11710,7 @@ export class DataIntersightKubernetesClusterProfileParentSolutionProfileOutputRe
 }
 export interface DataIntersightKubernetesClusterProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11352,19 +11718,19 @@ export interface DataIntersightKubernetesClusterProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11377,7 +11743,7 @@ export interface DataIntersightKubernetesClusterProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11609,7 +11975,7 @@ export class DataIntersightKubernetesClusterProfilePermissionResourcesList exten
 }
 export interface DataIntersightKubernetesClusterProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11617,19 +11983,19 @@ export interface DataIntersightKubernetesClusterProfilePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11642,7 +12008,7 @@ export interface DataIntersightKubernetesClusterProfilePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11872,9 +12238,1141 @@ export class DataIntersightKubernetesClusterProfilePolicyBucketList extends cdkt
     return new DataIntersightKubernetesClusterProfilePolicyBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#dependent_policy_list DataIntersightKubernetesClusterProfile#dependent_policy_list}
+  */
+  readonly dependentPolicyList?: string[];
+  /**
+  * The data of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#entity_data DataIntersightKubernetesClusterProfile#entity_data}
+  */
+  readonly entityData?: string;
+  /**
+  * The Moid of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#entity_moid DataIntersightKubernetesClusterProfile#entity_moid}
+  */
+  readonly entityMoid?: string;
+  /**
+  * The name of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#entity_name DataIntersightKubernetesClusterProfile#entity_name}
+  */
+  readonly entityName?: string;
+  /**
+  * The type of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#entity_type DataIntersightKubernetesClusterProfile#entity_type}
+  */
+  readonly entityType?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * The Moid of the parent object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#parent_moid DataIntersightKubernetesClusterProfile#parent_moid}
+  */
+  readonly parentMoid?: string;
+  /**
+  * The type of the policy object associated with the profile.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#parent_policy_object_type DataIntersightKubernetesClusterProfile#parent_policy_object_type}
+  */
+  readonly parentPolicyObjectType?: string;
+  /**
+  * The type of the parent object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#parent_type DataIntersightKubernetesClusterProfile#parent_type}
+  */
+  readonly parentType?: string;
+}
+
+export function dataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextToTerraform(struct?: DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference | DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    dependent_policy_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dependentPolicyList),
+    entity_data: cdktf.stringToTerraform(struct!.entityData),
+    entity_moid: cdktf.stringToTerraform(struct!.entityMoid),
+    entity_name: cdktf.stringToTerraform(struct!.entityName),
+    entity_type: cdktf.stringToTerraform(struct!.entityType),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    parent_moid: cdktf.stringToTerraform(struct!.parentMoid),
+    parent_policy_object_type: cdktf.stringToTerraform(struct!.parentPolicyObjectType),
+    parent_type: cdktf.stringToTerraform(struct!.parentType),
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextToHclTerraform(struct?: DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference | DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dependent_policy_list: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dependentPolicyList),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    entity_data: {
+      value: cdktf.stringToHclTerraform(struct!.entityData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_moid: {
+      value: cdktf.stringToHclTerraform(struct!.entityMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_name: {
+      value: cdktf.stringToHclTerraform(struct!.entityName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_type: {
+      value: cdktf.stringToHclTerraform(struct!.entityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_moid: {
+      value: cdktf.stringToHclTerraform(struct!.parentMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_policy_object_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentPolicyObjectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._dependentPolicyList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dependentPolicyList = this._dependentPolicyList;
+    }
+    if (this._entityData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityData = this._entityData;
+    }
+    if (this._entityMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityMoid = this._entityMoid;
+    }
+    if (this._entityName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityName = this._entityName;
+    }
+    if (this._entityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityType = this._entityType;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._parentMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentMoid = this._parentMoid;
+    }
+    if (this._parentPolicyObjectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentPolicyObjectType = this._parentPolicyObjectType;
+    }
+    if (this._parentType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentType = this._parentType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._dependentPolicyList = undefined;
+      this._entityData = undefined;
+      this._entityMoid = undefined;
+      this._entityName = undefined;
+      this._entityType = undefined;
+      this._objectType = undefined;
+      this._parentMoid = undefined;
+      this._parentPolicyObjectType = undefined;
+      this._parentType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._dependentPolicyList = value.dependentPolicyList;
+      this._entityData = value.entityData;
+      this._entityMoid = value.entityMoid;
+      this._entityName = value.entityName;
+      this._entityType = value.entityType;
+      this._objectType = value.objectType;
+      this._parentMoid = value.parentMoid;
+      this._parentPolicyObjectType = value.parentPolicyObjectType;
+      this._parentType = value.parentType;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // dependent_policy_list - computed: false, optional: true, required: false
+  private _dependentPolicyList?: string[]; 
+  public get dependentPolicyList() {
+    return this.getListAttribute('dependent_policy_list');
+  }
+  public set dependentPolicyList(value: string[]) {
+    this._dependentPolicyList = value;
+  }
+  public resetDependentPolicyList() {
+    this._dependentPolicyList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dependentPolicyListInput() {
+    return this._dependentPolicyList;
+  }
+
+  // entity_data - computed: false, optional: true, required: false
+  private _entityData?: string; 
+  public get entityData() {
+    return this.getStringAttribute('entity_data');
+  }
+  public set entityData(value: string) {
+    this._entityData = value;
+  }
+  public resetEntityData() {
+    this._entityData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityDataInput() {
+    return this._entityData;
+  }
+
+  // entity_moid - computed: false, optional: true, required: false
+  private _entityMoid?: string; 
+  public get entityMoid() {
+    return this.getStringAttribute('entity_moid');
+  }
+  public set entityMoid(value: string) {
+    this._entityMoid = value;
+  }
+  public resetEntityMoid() {
+    this._entityMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityMoidInput() {
+    return this._entityMoid;
+  }
+
+  // entity_name - computed: false, optional: true, required: false
+  private _entityName?: string; 
+  public get entityName() {
+    return this.getStringAttribute('entity_name');
+  }
+  public set entityName(value: string) {
+    this._entityName = value;
+  }
+  public resetEntityName() {
+    this._entityName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityNameInput() {
+    return this._entityName;
+  }
+
+  // entity_type - computed: false, optional: true, required: false
+  private _entityType?: string; 
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+  public set entityType(value: string) {
+    this._entityType = value;
+  }
+  public resetEntityType() {
+    this._entityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityTypeInput() {
+    return this._entityType;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // parent_moid - computed: false, optional: true, required: false
+  private _parentMoid?: string; 
+  public get parentMoid() {
+    return this.getStringAttribute('parent_moid');
+  }
+  public set parentMoid(value: string) {
+    this._parentMoid = value;
+  }
+  public resetParentMoid() {
+    this._parentMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentMoidInput() {
+    return this._parentMoid;
+  }
+
+  // parent_policy_object_type - computed: false, optional: true, required: false
+  private _parentPolicyObjectType?: string; 
+  public get parentPolicyObjectType() {
+    return this.getStringAttribute('parent_policy_object_type');
+  }
+  public set parentPolicyObjectType(value: string) {
+    this._parentPolicyObjectType = value;
+  }
+  public resetParentPolicyObjectType() {
+    this._parentPolicyObjectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentPolicyObjectTypeInput() {
+    return this._parentPolicyObjectType;
+  }
+
+  // parent_type - computed: false, optional: true, required: false
+  private _parentType?: string; 
+  public get parentType() {
+    return this.getStringAttribute('parent_type');
+  }
+  public set parentType(value: string) {
+    this._parentType = value;
+  }
+  public resetParentType() {
+    this._parentType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentTypeInput() {
+    return this._parentType;
+  }
+}
+export interface DataIntersightKubernetesClusterProfilePolicyChangeDetails {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#changes DataIntersightKubernetesClusterProfile#changes}
+  */
+  readonly changes?: string[];
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Config change flag to differentiate Pending-changes and Config-drift.
+  * * `Pending-changes` - Config change flag represents changes are due to not deployed changes from Intersight.
+  * * `Drift-changes` - Config change flag represents changes are due to endpoint configuration changes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_change_flag DataIntersightKubernetesClusterProfile#config_change_flag}
+  */
+  readonly configChangeFlag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#disruptions DataIntersightKubernetesClusterProfile#disruptions}
+  */
+  readonly disruptions?: string[];
+  /**
+  * Detailed description of the config change.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#message DataIntersightKubernetesClusterProfile#message}
+  */
+  readonly message?: string;
+  /**
+  * Modification status of the mo in this config change.
+  * * `None` - The 'none' operation/state.Indicates a configuration profile has been deployed, and the desired configuration matches the actual device configuration.
+  * * `Created` - The 'create' operation/state.Indicates a configuration profile has been created and associated with a device, but the configuration specified in the profilehas not been applied yet. For example, this could happen when the user creates a server profile and has not deployed the profile yet.
+  * * `Modified` - The 'update' operation/state.Indicates some of the desired configuration changes specified in a profile have not been been applied to the associated device.This happens when the user has made changes to a profile and has not deployed the changes yet, or when the workflow to applythe configuration changes has not completed successfully.
+  * * `Deleted` - The 'delete' operation/state.Indicates a configuration profile has been been disassociated from a device and the user has not undeployed these changes yet.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#mod_status DataIntersightKubernetesClusterProfile#mod_status}
+  */
+  readonly modStatus?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * config_change_context block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#config_change_context DataIntersightKubernetesClusterProfile#config_change_context}
+  */
+  readonly configChangeContext?: DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext;
+}
+
+export function dataIntersightKubernetesClusterProfilePolicyChangeDetailsToTerraform(struct?: DataIntersightKubernetesClusterProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    changes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.changes),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    config_change_flag: cdktf.stringToTerraform(struct!.configChangeFlag),
+    disruptions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.disruptions),
+    message: cdktf.stringToTerraform(struct!.message),
+    mod_status: cdktf.stringToTerraform(struct!.modStatus),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    config_change_context: dataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextToTerraform(struct!.configChangeContext),
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfilePolicyChangeDetailsToHclTerraform(struct?: DataIntersightKubernetesClusterProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    changes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.changes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config_change_flag: {
+      value: cdktf.stringToHclTerraform(struct!.configChangeFlag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disruptions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.disruptions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    message: {
+      value: cdktf.stringToHclTerraform(struct!.message),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mod_status: {
+      value: cdktf.stringToHclTerraform(struct!.modStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config_change_context: {
+      value: dataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextToHclTerraform(struct!.configChangeContext),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightKubernetesClusterProfilePolicyChangeDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfilePolicyChangeDetails | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changes = this._changes;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._configChangeFlag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeFlag = this._configChangeFlag;
+    }
+    if (this._disruptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disruptions = this._disruptions;
+    }
+    if (this._message !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.message = this._message;
+    }
+    if (this._modStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.modStatus = this._modStatus;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._configChangeContext?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeContext = this._configChangeContext?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfilePolicyChangeDetails | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changes = undefined;
+      this._classId = undefined;
+      this._configChangeFlag = undefined;
+      this._disruptions = undefined;
+      this._message = undefined;
+      this._modStatus = undefined;
+      this._objectType = undefined;
+      this._configChangeContext.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changes = value.changes;
+      this._classId = value.classId;
+      this._configChangeFlag = value.configChangeFlag;
+      this._disruptions = value.disruptions;
+      this._message = value.message;
+      this._modStatus = value.modStatus;
+      this._objectType = value.objectType;
+      this._configChangeContext.internalValue = value.configChangeContext;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // changes - computed: false, optional: true, required: false
+  private _changes?: string[]; 
+  public get changes() {
+    return this.getListAttribute('changes');
+  }
+  public set changes(value: string[]) {
+    this._changes = value;
+  }
+  public resetChanges() {
+    this._changes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changesInput() {
+    return this._changes;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // config_change_flag - computed: false, optional: true, required: false
+  private _configChangeFlag?: string; 
+  public get configChangeFlag() {
+    return this.getStringAttribute('config_change_flag');
+  }
+  public set configChangeFlag(value: string) {
+    this._configChangeFlag = value;
+  }
+  public resetConfigChangeFlag() {
+    this._configChangeFlag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeFlagInput() {
+    return this._configChangeFlag;
+  }
+
+  // disruptions - computed: false, optional: true, required: false
+  private _disruptions?: string[]; 
+  public get disruptions() {
+    return this.getListAttribute('disruptions');
+  }
+  public set disruptions(value: string[]) {
+    this._disruptions = value;
+  }
+  public resetDisruptions() {
+    this._disruptions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disruptionsInput() {
+    return this._disruptions;
+  }
+
+  // message - computed: false, optional: true, required: false
+  private _message?: string; 
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+  public set message(value: string) {
+    this._message = value;
+  }
+  public resetMessage() {
+    this._message = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageInput() {
+    return this._message;
+  }
+
+  // mod_status - computed: false, optional: true, required: false
+  private _modStatus?: string; 
+  public get modStatus() {
+    return this.getStringAttribute('mod_status');
+  }
+  public set modStatus(value: string) {
+    this._modStatus = value;
+  }
+  public resetModStatus() {
+    this._modStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modStatusInput() {
+    return this._modStatus;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // config_change_context - computed: false, optional: true, required: false
+  private _configChangeContext = new DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference(this, "config_change_context");
+  public get configChangeContext() {
+    return this._configChangeContext;
+  }
+  public putConfigChangeContext(value: DataIntersightKubernetesClusterProfilePolicyChangeDetailsConfigChangeContext) {
+    this._configChangeContext.internalValue = value;
+  }
+  public resetConfigChangeContext() {
+    this._configChangeContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeContextInput() {
+    return this._configChangeContext.internalValue;
+  }
+}
+
+export class DataIntersightKubernetesClusterProfilePolicyChangeDetailsList extends cdktf.ComplexList {
+  public internalValue? : DataIntersightKubernetesClusterProfilePolicyChangeDetails[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightKubernetesClusterProfilePolicyChangeDetailsOutputReference {
+    return new DataIntersightKubernetesClusterProfilePolicyChangeDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightKubernetesClusterProfileReportedPolicyChanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The change evaluation identifier for which the change is reported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#change_id DataIntersightKubernetesClusterProfile#change_id}
+  */
+  readonly changeId?: string;
+  /**
+  * The status of policy change evaluation which has been reported.
+  * * `Initiated` - The status when policy change evaluation is triggered for a policy.
+  * * `Reported` - The status when policy change evaluation is reported for a policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#change_status DataIntersightKubernetesClusterProfile#change_status}
+  */
+  readonly changeStatus?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * The type of policy for which the change has been reported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#policy_type DataIntersightKubernetesClusterProfile#policy_type}
+  */
+  readonly policyType?: string;
+}
+
+export function dataIntersightKubernetesClusterProfileReportedPolicyChangesToTerraform(struct?: DataIntersightKubernetesClusterProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    change_id: cdktf.stringToTerraform(struct!.changeId),
+    change_status: cdktf.stringToTerraform(struct!.changeStatus),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    policy_type: cdktf.stringToTerraform(struct!.policyType),
+  }
+}
+
+
+export function dataIntersightKubernetesClusterProfileReportedPolicyChangesToHclTerraform(struct?: DataIntersightKubernetesClusterProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_id: {
+      value: cdktf.stringToHclTerraform(struct!.changeId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_status: {
+      value: cdktf.stringToHclTerraform(struct!.changeStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    policy_type: {
+      value: cdktf.stringToHclTerraform(struct!.policyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightKubernetesClusterProfileReportedPolicyChangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightKubernetesClusterProfileReportedPolicyChanges | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changeId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeId = this._changeId;
+    }
+    if (this._changeStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeStatus = this._changeStatus;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._policyType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyType = this._policyType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightKubernetesClusterProfileReportedPolicyChanges | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changeId = undefined;
+      this._changeStatus = undefined;
+      this._classId = undefined;
+      this._objectType = undefined;
+      this._policyType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changeId = value.changeId;
+      this._changeStatus = value.changeStatus;
+      this._classId = value.classId;
+      this._objectType = value.objectType;
+      this._policyType = value.policyType;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // change_id - computed: false, optional: true, required: false
+  private _changeId?: string; 
+  public get changeId() {
+    return this.getStringAttribute('change_id');
+  }
+  public set changeId(value: string) {
+    this._changeId = value;
+  }
+  public resetChangeId() {
+    this._changeId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeIdInput() {
+    return this._changeId;
+  }
+
+  // change_status - computed: false, optional: true, required: false
+  private _changeStatus?: string; 
+  public get changeStatus() {
+    return this.getStringAttribute('change_status');
+  }
+  public set changeStatus(value: string) {
+    this._changeStatus = value;
+  }
+  public resetChangeStatus() {
+    this._changeStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeStatusInput() {
+    return this._changeStatus;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // policy_type - computed: false, optional: true, required: false
+  private _policyType?: string; 
+  public get policyType() {
+    return this.getStringAttribute('policy_type');
+  }
+  public set policyType(value: string) {
+    this._policyType = value;
+  }
+  public resetPolicyType() {
+    this._policyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyTypeInput() {
+    return this._policyType;
+  }
+}
+
+export class DataIntersightKubernetesClusterProfileReportedPolicyChangesList extends cdktf.ComplexList {
+  public internalValue? : DataIntersightKubernetesClusterProfileReportedPolicyChanges[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightKubernetesClusterProfileReportedPolicyChangesOutputReference {
+    return new DataIntersightKubernetesClusterProfileReportedPolicyChangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIntersightKubernetesClusterProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11883,7 +13381,7 @@ export interface DataIntersightKubernetesClusterProfileScheduledActionsActionQua
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -11891,7 +13389,7 @@ export interface DataIntersightKubernetesClusterProfileScheduledActionsActionQua
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -12035,11 +13533,11 @@ export interface DataIntersightKubernetesClusterProfileScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#action DataIntersightKubernetesClusterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#action DataIntersightKubernetesClusterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12047,26 +13545,26 @@ export interface DataIntersightKubernetesClusterProfileScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#proceed_on_reboot DataIntersightKubernetesClusterProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#proceed_on_reboot DataIntersightKubernetesClusterProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#action_qualifier DataIntersightKubernetesClusterProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#action_qualifier DataIntersightKubernetesClusterProfile#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightKubernetesClusterProfileScheduledActionsActionQualifier;
 }
@@ -12327,7 +13825,7 @@ export class DataIntersightKubernetesClusterProfileScheduledActionsList extends 
 }
 export interface DataIntersightKubernetesClusterProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12335,19 +13833,19 @@ export interface DataIntersightKubernetesClusterProfileSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12360,7 +13858,7 @@ export interface DataIntersightKubernetesClusterProfileSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -12560,7 +14058,7 @@ export class DataIntersightKubernetesClusterProfileSrcTemplateOutputReference ex
 }
 export interface DataIntersightKubernetesClusterProfileSysConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12568,19 +14066,19 @@ export interface DataIntersightKubernetesClusterProfileSysConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12593,7 +14091,7 @@ export interface DataIntersightKubernetesClusterProfileSysConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -12793,7 +14291,7 @@ export class DataIntersightKubernetesClusterProfileSysConfigOutputReference exte
 }
 export interface DataIntersightKubernetesClusterProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12801,19 +14299,19 @@ export interface DataIntersightKubernetesClusterProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12826,7 +14324,7 @@ export interface DataIntersightKubernetesClusterProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -13058,7 +14556,7 @@ export class DataIntersightKubernetesClusterProfileTagsAncestorDefinitionsList e
 }
 export interface DataIntersightKubernetesClusterProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13066,19 +14564,19 @@ export interface DataIntersightKubernetesClusterProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13091,7 +14589,7 @@ export interface DataIntersightKubernetesClusterProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -13291,25 +14789,25 @@ export class DataIntersightKubernetesClusterProfileTagsDefinitionOutputReference
 }
 export interface DataIntersightKubernetesClusterProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#key DataIntersightKubernetesClusterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#key DataIntersightKubernetesClusterProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#propagated DataIntersightKubernetesClusterProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#propagated DataIntersightKubernetesClusterProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#sys_tag DataIntersightKubernetesClusterProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#sys_tag DataIntersightKubernetesClusterProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -13317,25 +14815,25 @@ export interface DataIntersightKubernetesClusterProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#type DataIntersightKubernetesClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#type DataIntersightKubernetesClusterProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#value DataIntersightKubernetesClusterProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ancestor_definitions DataIntersightKubernetesClusterProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ancestor_definitions DataIntersightKubernetesClusterProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesClusterProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#definition DataIntersightKubernetesClusterProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#definition DataIntersightKubernetesClusterProfile#definition}
   */
   readonly definition?: DataIntersightKubernetesClusterProfileTagsDefinition;
 }
@@ -13654,7 +15152,7 @@ export class DataIntersightKubernetesClusterProfileTagsList extends cdktf.Comple
 }
 export interface DataIntersightKubernetesClusterProfileTrustedRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13662,19 +15160,19 @@ export interface DataIntersightKubernetesClusterProfileTrustedRegistries {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13687,7 +15185,7 @@ export interface DataIntersightKubernetesClusterProfileTrustedRegistries {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -13887,7 +15385,7 @@ export class DataIntersightKubernetesClusterProfileTrustedRegistriesOutputRefere
 }
 export interface DataIntersightKubernetesClusterProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13895,19 +15393,19 @@ export interface DataIntersightKubernetesClusterProfileVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13920,7 +15418,7 @@ export interface DataIntersightKubernetesClusterProfileVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -14152,7 +15650,7 @@ export class DataIntersightKubernetesClusterProfileVersionContextInterestedMosLi
 }
 export interface DataIntersightKubernetesClusterProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14160,19 +15658,19 @@ export interface DataIntersightKubernetesClusterProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14185,7 +15683,7 @@ export interface DataIntersightKubernetesClusterProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -14385,7 +15883,7 @@ export class DataIntersightKubernetesClusterProfileVersionContextRefMoOutputRefe
 }
 export interface DataIntersightKubernetesClusterProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14393,32 +15891,32 @@ export interface DataIntersightKubernetesClusterProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#marked_for_deletion DataIntersightKubernetesClusterProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#marked_for_deletion DataIntersightKubernetesClusterProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#nr_version DataIntersightKubernetesClusterProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#nr_version DataIntersightKubernetesClusterProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#timestamp DataIntersightKubernetesClusterProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#timestamp DataIntersightKubernetesClusterProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -14429,19 +15927,19 @@ export interface DataIntersightKubernetesClusterProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#version_type DataIntersightKubernetesClusterProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#version_type DataIntersightKubernetesClusterProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#interested_mos DataIntersightKubernetesClusterProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#interested_mos DataIntersightKubernetesClusterProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesClusterProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#ref_mo DataIntersightKubernetesClusterProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#ref_mo DataIntersightKubernetesClusterProfile#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesClusterProfileVersionContextRefMo;
 }
@@ -14757,7 +16255,7 @@ export class DataIntersightKubernetesClusterProfileVersionContextOutputReference
 }
 export interface DataIntersightKubernetesClusterProfileWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#additional_properties DataIntersightKubernetesClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14765,19 +16263,19 @@ export interface DataIntersightKubernetesClusterProfileWorkflowInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#class_id DataIntersightKubernetesClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#moid DataIntersightKubernetesClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#object_type DataIntersightKubernetesClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14790,7 +16288,7 @@ export interface DataIntersightKubernetesClusterProfileWorkflowInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#selector DataIntersightKubernetesClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -14990,7 +16488,7 @@ export class DataIntersightKubernetesClusterProfileWorkflowInfoOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile intersight_kubernetes_cluster_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile intersight_kubernetes_cluster_profile}
 */
 export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataSource {
 
@@ -15006,7 +16504,7 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightKubernetesClusterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesClusterProfile to import
-  * @param importFromId The id of the existing DataIntersightKubernetesClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesClusterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -15018,7 +16516,7 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_profile intersight_kubernetes_cluster_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_profile intersight_kubernetes_cluster_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15029,8 +16527,8 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_kubernetes_cluster_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -15083,6 +16581,8 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
     this._parentSolutionProfile.internalValue = config.parentSolutionProfile;
     this._permissionResources.internalValue = config.permissionResources;
     this._policyBucket.internalValue = config.policyBucket;
+    this._policyChangeDetails.internalValue = config.policyChangeDetails;
+    this._reportedPolicyChanges.internalValue = config.reportedPolicyChanges;
     this._scheduledActions.internalValue = config.scheduledActions;
     this._srcTemplate.internalValue = config.srcTemplate;
     this._sysConfig.internalValue = config.sysConfig;
@@ -15790,6 +17290,38 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
     return this._policyBucket.internalValue;
   }
 
+  // policy_change_details - computed: false, optional: true, required: false
+  private _policyChangeDetails = new DataIntersightKubernetesClusterProfilePolicyChangeDetailsList(this, "policy_change_details", false);
+  public get policyChangeDetails() {
+    return this._policyChangeDetails;
+  }
+  public putPolicyChangeDetails(value: DataIntersightKubernetesClusterProfilePolicyChangeDetails[] | cdktf.IResolvable) {
+    this._policyChangeDetails.internalValue = value;
+  }
+  public resetPolicyChangeDetails() {
+    this._policyChangeDetails.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyChangeDetailsInput() {
+    return this._policyChangeDetails.internalValue;
+  }
+
+  // reported_policy_changes - computed: false, optional: true, required: false
+  private _reportedPolicyChanges = new DataIntersightKubernetesClusterProfileReportedPolicyChangesList(this, "reported_policy_changes", false);
+  public get reportedPolicyChanges() {
+    return this._reportedPolicyChanges;
+  }
+  public putReportedPolicyChanges(value: DataIntersightKubernetesClusterProfileReportedPolicyChanges[] | cdktf.IResolvable) {
+    this._reportedPolicyChanges.internalValue = value;
+  }
+  public resetReportedPolicyChanges() {
+    this._reportedPolicyChanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reportedPolicyChangesInput() {
+    return this._reportedPolicyChanges.internalValue;
+  }
+
   // scheduled_actions - computed: false, optional: true, required: false
   private _scheduledActions = new DataIntersightKubernetesClusterProfileScheduledActionsList(this, "scheduled_actions", false);
   public get scheduledActions() {
@@ -15951,6 +17483,8 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
       parent_solution_profile: dataIntersightKubernetesClusterProfileParentSolutionProfileToTerraform(this._parentSolutionProfile.internalValue),
       permission_resources: cdktf.listMapper(dataIntersightKubernetesClusterProfilePermissionResourcesToTerraform, true)(this._permissionResources.internalValue),
       policy_bucket: cdktf.listMapper(dataIntersightKubernetesClusterProfilePolicyBucketToTerraform, true)(this._policyBucket.internalValue),
+      policy_change_details: cdktf.listMapper(dataIntersightKubernetesClusterProfilePolicyChangeDetailsToTerraform, true)(this._policyChangeDetails.internalValue),
+      reported_policy_changes: cdktf.listMapper(dataIntersightKubernetesClusterProfileReportedPolicyChangesToTerraform, true)(this._reportedPolicyChanges.internalValue),
       scheduled_actions: cdktf.listMapper(dataIntersightKubernetesClusterProfileScheduledActionsToTerraform, true)(this._scheduledActions.internalValue),
       src_template: dataIntersightKubernetesClusterProfileSrcTemplateToTerraform(this._srcTemplate.internalValue),
       sys_config: dataIntersightKubernetesClusterProfileSysConfigToTerraform(this._sysConfig.internalValue),
@@ -16220,6 +17754,18 @@ export class DataIntersightKubernetesClusterProfile extends cdktf.TerraformDataS
         isBlock: true,
         type: "list",
         storageClassType: "DataIntersightKubernetesClusterProfilePolicyBucketList",
+      },
+      policy_change_details: {
+        value: cdktf.listMapperHcl(dataIntersightKubernetesClusterProfilePolicyChangeDetailsToHclTerraform, true)(this._policyChangeDetails.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntersightKubernetesClusterProfilePolicyChangeDetailsList",
+      },
+      reported_policy_changes: {
+        value: cdktf.listMapperHcl(dataIntersightKubernetesClusterProfileReportedPolicyChangesToHclTerraform, true)(this._reportedPolicyChanges.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntersightKubernetesClusterProfileReportedPolicyChangesList",
       },
       scheduled_actions: {
         value: cdktf.listMapperHcl(dataIntersightKubernetesClusterProfileScheduledActionsToHclTerraform, true)(this._scheduledActions.internalValue),

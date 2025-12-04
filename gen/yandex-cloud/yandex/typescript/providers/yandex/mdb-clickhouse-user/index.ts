@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface MdbClickhouseUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the ClickHouse cluster. Provided by the client when the user is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#cluster_id MdbClickhouseUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#cluster_id MdbClickhouseUser#cluster_id}
   */
   readonly clusterId: string;
   /**
@@ -19,41 +19,41 @@ export interface MdbClickhouseUserConfig extends cdktf.TerraformMetaArguments {
   * ~> **Must specify either password or generate_password**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#generate_password MdbClickhouseUser#generate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#generate_password MdbClickhouseUser#generate_password}
   */
   readonly generatePassword?: boolean | cdktf.IResolvable;
   /**
   * Name of the ClickHouse user. Provided by the client when the user is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#name MdbClickhouseUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#name MdbClickhouseUser#name}
   */
   readonly name: string;
   /**
   * Password of the ClickHouse user. Provided by the client when the user is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#password MdbClickhouseUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#password MdbClickhouseUser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#timeouts MdbClickhouseUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#timeouts MdbClickhouseUser#timeouts}
   */
   readonly timeouts?: MdbClickhouseUserTimeouts;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#permission MdbClickhouseUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#permission MdbClickhouseUser#permission}
   */
   readonly permission?: MdbClickhouseUserPermission[] | cdktf.IResolvable;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#quota MdbClickhouseUser#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#quota MdbClickhouseUser#quota}
   */
   readonly quota?: MdbClickhouseUserQuota[] | cdktf.IResolvable;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#settings MdbClickhouseUser#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#settings MdbClickhouseUser#settings}
   */
   readonly settings?: MdbClickhouseUserSettings;
 }
@@ -115,19 +115,19 @@ export interface MdbClickhouseUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#create MdbClickhouseUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#create MdbClickhouseUser#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#delete MdbClickhouseUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#delete MdbClickhouseUser#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#update MdbClickhouseUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#update MdbClickhouseUser#update}
   */
   readonly update?: string;
 }
@@ -281,7 +281,7 @@ export interface MdbClickhouseUserPermission {
   /**
   * Name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#database_name MdbClickhouseUser#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#database_name MdbClickhouseUser#database_name}
   */
   readonly databaseName: string;
 }
@@ -396,37 +396,37 @@ export interface MdbClickhouseUserQuota {
   /**
   * The number of queries that threw exception. 0 - unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#errors MdbClickhouseUser#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#errors MdbClickhouseUser#errors}
   */
   readonly errors?: number;
   /**
   * The total query execution time, in milliseconds (wall time). 0 - unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#execution_time MdbClickhouseUser#execution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#execution_time MdbClickhouseUser#execution_time}
   */
   readonly executionTime?: number;
   /**
   * Duration of interval for quota in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#interval_duration MdbClickhouseUser#interval_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#interval_duration MdbClickhouseUser#interval_duration}
   */
   readonly intervalDuration: number;
   /**
   * The total number of queries. 0 - unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#queries MdbClickhouseUser#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#queries MdbClickhouseUser#queries}
   */
   readonly queries?: number;
   /**
   * The total number of source rows read from tables for running the query, on all remote servers. 0 - unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#read_rows MdbClickhouseUser#read_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#read_rows MdbClickhouseUser#read_rows}
   */
   readonly readRows?: number;
   /**
   * The total number of rows given as the result. 0 - unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#result_rows MdbClickhouseUser#result_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#result_rows MdbClickhouseUser#result_rows}
   */
   readonly resultRows?: number;
 }
@@ -686,397 +686,397 @@ export interface MdbClickhouseUserSettings {
   /**
   * Include CORS headers in HTTP response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#add_http_cors_header MdbClickhouseUser#add_http_cors_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#add_http_cors_header MdbClickhouseUser#add_http_cors_header}
   */
   readonly addHttpCorsHeader?: boolean | cdktf.IResolvable;
   /**
   * Allows or denies DDL queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#allow_ddl MdbClickhouseUser#allow_ddl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#allow_ddl MdbClickhouseUser#allow_ddl}
   */
   readonly allowDdl?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables introspection functions for query profiling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#allow_introspection_functions MdbClickhouseUser#allow_introspection_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#allow_introspection_functions MdbClickhouseUser#allow_introspection_functions}
   */
   readonly allowIntrospectionFunctions?: boolean | cdktf.IResolvable;
   /**
   * Allows specifying LowCardinality modifier for types of small fixed size (8 or less) in CREATE TABLE statements. Enabling this may increase merge times and memory consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#allow_suspicious_low_cardinality_types MdbClickhouseUser#allow_suspicious_low_cardinality_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#allow_suspicious_low_cardinality_types MdbClickhouseUser#allow_suspicious_low_cardinality_types}
   */
   readonly allowSuspiciousLowCardinalityTypes?: boolean | cdktf.IResolvable;
   /**
   * Enables legacy ClickHouse server behaviour in ANY INNER|LEFT JOIN operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#any_join_distinct_right_table_keys MdbClickhouseUser#any_join_distinct_right_table_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#any_join_distinct_right_table_keys MdbClickhouseUser#any_join_distinct_right_table_keys}
   */
   readonly anyJoinDistinctRightTableKeys?: boolean | cdktf.IResolvable;
   /**
   * Enables asynchronous inserts. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert MdbClickhouseUser#async_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert MdbClickhouseUser#async_insert}
   */
   readonly asyncInsert?: boolean | cdktf.IResolvable;
   /**
   * The maximum timeout in milliseconds since the first INSERT query before inserting collected data. If the parameter is set to 0, the timeout is disabled. Default value: 200.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert_busy_timeout MdbClickhouseUser#async_insert_busy_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert_busy_timeout MdbClickhouseUser#async_insert_busy_timeout}
   */
   readonly asyncInsertBusyTimeout?: number;
   /**
   * The maximum size of the unparsed data in bytes collected per query before being inserted. If the parameter is set to 0, asynchronous insertions are disabled. Default value: 100000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert_max_data_size MdbClickhouseUser#async_insert_max_data_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert_max_data_size MdbClickhouseUser#async_insert_max_data_size}
   */
   readonly asyncInsertMaxDataSize?: number;
   /**
   * The maximum timeout in milliseconds since the last INSERT query before dumping collected data. If enabled, the settings prolongs the async_insert_busy_timeout with every INSERT query as long as async_insert_max_data_size is not exceeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert_stale_timeout MdbClickhouseUser#async_insert_stale_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert_stale_timeout MdbClickhouseUser#async_insert_stale_timeout}
   */
   readonly asyncInsertStaleTimeout?: number;
   /**
   * The maximum number of threads for background data parsing and insertion. If the parameter is set to 0, asynchronous insertions are disabled. Default value: 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert_threads MdbClickhouseUser#async_insert_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert_threads MdbClickhouseUser#async_insert_threads}
   */
   readonly asyncInsertThreads?: number;
   /**
   * If it is set to true, use adaptive busy timeout for asynchronous inserts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#async_insert_use_adaptive_busy_timeout MdbClickhouseUser#async_insert_use_adaptive_busy_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#async_insert_use_adaptive_busy_timeout MdbClickhouseUser#async_insert_use_adaptive_busy_timeout}
   */
   readonly asyncInsertUseAdaptiveBusyTimeout?: boolean | cdktf.IResolvable;
   /**
   * Cancels HTTP read-only queries (e.g. SELECT) when a client closes the connection without waiting for the response. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#cancel_http_readonly_queries_on_client_close MdbClickhouseUser#cancel_http_readonly_queries_on_client_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#cancel_http_readonly_queries_on_client_close MdbClickhouseUser#cancel_http_readonly_queries_on_client_close}
   */
   readonly cancelHttpReadonlyQueriesOnClientClose?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable compilation of some scalar functions and operators to native code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#compile_expressions MdbClickhouseUser#compile_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#compile_expressions MdbClickhouseUser#compile_expressions}
   */
   readonly compileExpressions?: boolean | cdktf.IResolvable;
   /**
   * Connection timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#connect_timeout MdbClickhouseUser#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#connect_timeout MdbClickhouseUser#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * The timeout in milliseconds for connecting to a remote server for a Distributed table engine.  Applies only if the cluster uses sharding and replication. If unsuccessful, several attempts are made to connect to various replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#connect_timeout_with_failover MdbClickhouseUser#connect_timeout_with_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#connect_timeout_with_failover MdbClickhouseUser#connect_timeout_with_failover}
   */
   readonly connectTimeoutWithFailover?: number;
   /**
   * Specifies which of the uniq* functions should be used to perform the COUNT(DISTINCT …) construction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#count_distinct_implementation MdbClickhouseUser#count_distinct_implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#count_distinct_implementation MdbClickhouseUser#count_distinct_implementation}
   */
   readonly countDistinctImplementation?: string;
   /**
   * Allows data types without explicit modifiers NULL or NOT NULL in column definition will be Nullable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#data_type_default_nullable MdbClickhouseUser#data_type_default_nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#data_type_default_nullable MdbClickhouseUser#data_type_default_nullable}
   */
   readonly dataTypeDefaultNullable?: boolean | cdktf.IResolvable;
   /**
   * Allows choosing a parser of the text representation of date and time, one of: `best_effort`, `basic`, `best_effort_us`. Default value: `basic`. Cloud default value: `best_effort`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#date_time_input_format MdbClickhouseUser#date_time_input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#date_time_input_format MdbClickhouseUser#date_time_input_format}
   */
   readonly dateTimeInputFormat?: string;
   /**
   * Allows choosing different output formats of the text representation of date and time, one of: `simple`, `iso`, `unix_timestamp`. Default value: `simple`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#date_time_output_format MdbClickhouseUser#date_time_output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#date_time_output_format MdbClickhouseUser#date_time_output_format}
   */
   readonly dateTimeOutputFormat?: string;
   /**
   * Enables or disables the deduplication check for materialized views that receive data from Replicated* tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#deduplicate_blocks_in_dependent_materialized_views MdbClickhouseUser#deduplicate_blocks_in_dependent_materialized_views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#deduplicate_blocks_in_dependent_materialized_views MdbClickhouseUser#deduplicate_blocks_in_dependent_materialized_views}
   */
   readonly deduplicateBlocksInDependentMaterializedViews?: boolean | cdktf.IResolvable;
   /**
   * Sets behaviour on overflow when using DISTINCT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#distinct_overflow_mode MdbClickhouseUser#distinct_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#distinct_overflow_mode MdbClickhouseUser#distinct_overflow_mode}
   */
   readonly distinctOverflowMode?: string;
   /**
   * Enables of disables memory saving mode when doing distributed aggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#distributed_aggregation_memory_efficient MdbClickhouseUser#distributed_aggregation_memory_efficient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#distributed_aggregation_memory_efficient MdbClickhouseUser#distributed_aggregation_memory_efficient}
   */
   readonly distributedAggregationMemoryEfficient?: boolean | cdktf.IResolvable;
   /**
   * Determines the format of distributed DDL query result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#distributed_ddl_output_mode MdbClickhouseUser#distributed_ddl_output_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#distributed_ddl_output_mode MdbClickhouseUser#distributed_ddl_output_mode}
   */
   readonly distributedDdlOutputMode?: string;
   /**
   * Timeout for DDL queries, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#distributed_ddl_task_timeout MdbClickhouseUser#distributed_ddl_task_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#distributed_ddl_task_timeout MdbClickhouseUser#distributed_ddl_task_timeout}
   */
   readonly distributedDdlTaskTimeout?: number;
   /**
   * Determine the behavior of distributed subqueries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#distributed_product_mode MdbClickhouseUser#distributed_product_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#distributed_product_mode MdbClickhouseUser#distributed_product_mode}
   */
   readonly distributedProductMode?: string;
   /**
   * Enable or disable independent processing of partitions for **SELECT** queries with **FINAL**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#do_not_merge_across_partitions_select_final MdbClickhouseUser#do_not_merge_across_partitions_select_final}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#do_not_merge_across_partitions_select_final MdbClickhouseUser#do_not_merge_across_partitions_select_final}
   */
   readonly doNotMergeAcrossPartitionsSelectFinal?: boolean | cdktf.IResolvable;
   /**
   * Allows to retunr empty result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#empty_result_for_aggregation_by_empty_set MdbClickhouseUser#empty_result_for_aggregation_by_empty_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#empty_result_for_aggregation_by_empty_set MdbClickhouseUser#empty_result_for_aggregation_by_empty_set}
   */
   readonly emptyResultForAggregationByEmptySet?: boolean | cdktf.IResolvable;
   /**
   * Enable new query analyzer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#enable_analyzer MdbClickhouseUser#enable_analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#enable_analyzer MdbClickhouseUser#enable_analyzer}
   */
   readonly enableAnalyzer?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables data compression in the response to an HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#enable_http_compression MdbClickhouseUser#enable_http_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#enable_http_compression MdbClickhouseUser#enable_http_compression}
   */
   readonly enableHttpCompression?: boolean | cdktf.IResolvable;
   /**
   * If turned on, results of SELECT queries are retrieved from the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#enable_reads_from_query_cache MdbClickhouseUser#enable_reads_from_query_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#enable_reads_from_query_cache MdbClickhouseUser#enable_reads_from_query_cache}
   */
   readonly enableReadsFromQueryCache?: boolean | cdktf.IResolvable;
   /**
   * If turned on, results of SELECT queries are stored in the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#enable_writes_to_query_cache MdbClickhouseUser#enable_writes_to_query_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#enable_writes_to_query_cache MdbClickhouseUser#enable_writes_to_query_cache}
   */
   readonly enableWritesToQueryCache?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables query forcing to a stale replica in case the actual data is unavailable. If enabled, ClickHouse will choose the most up-to-date replica and force the query to use the data in this replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#fallback_to_stale_replicas_for_distributed_queries MdbClickhouseUser#fallback_to_stale_replicas_for_distributed_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#fallback_to_stale_replicas_for_distributed_queries MdbClickhouseUser#fallback_to_stale_replicas_for_distributed_queries}
   */
   readonly fallbackToStaleReplicasForDistributedQueries?: boolean | cdktf.IResolvable;
   /**
   * Sets the data format of a nested columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#flatten_nested MdbClickhouseUser#flatten_nested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#flatten_nested MdbClickhouseUser#flatten_nested}
   */
   readonly flattenNested?: boolean | cdktf.IResolvable;
   /**
   * Disable query execution if the index cannot be used by date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#force_index_by_date MdbClickhouseUser#force_index_by_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#force_index_by_date MdbClickhouseUser#force_index_by_date}
   */
   readonly forceIndexByDate?: boolean | cdktf.IResolvable;
   /**
   * Disable query execution if indexing by the primary key is not possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#force_primary_key MdbClickhouseUser#force_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#force_primary_key MdbClickhouseUser#force_primary_key}
   */
   readonly forcePrimaryKey?: boolean | cdktf.IResolvable;
   /**
   * Avro schema registry URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#format_avro_schema_registry_url MdbClickhouseUser#format_avro_schema_registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#format_avro_schema_registry_url MdbClickhouseUser#format_avro_schema_registry_url}
   */
   readonly formatAvroSchemaRegistryUrl?: string;
   /**
   * Regular expression (for Regexp format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#format_regexp MdbClickhouseUser#format_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#format_regexp MdbClickhouseUser#format_regexp}
   */
   readonly formatRegexp?: string;
   /**
   * Skip lines unmatched by regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#format_regexp_skip_unmatched MdbClickhouseUser#format_regexp_skip_unmatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#format_regexp_skip_unmatched MdbClickhouseUser#format_regexp_skip_unmatched}
   */
   readonly formatRegexpSkipUnmatched?: boolean | cdktf.IResolvable;
   /**
   * Sets behaviour on overflow while GROUP BY operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#group_by_overflow_mode MdbClickhouseUser#group_by_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#group_by_overflow_mode MdbClickhouseUser#group_by_overflow_mode}
   */
   readonly groupByOverflowMode?: string;
   /**
   * Sets the threshold of the number of keys, after that the two-level aggregation should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#group_by_two_level_threshold MdbClickhouseUser#group_by_two_level_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#group_by_two_level_threshold MdbClickhouseUser#group_by_two_level_threshold}
   */
   readonly groupByTwoLevelThreshold?: number;
   /**
   * Sets the threshold of the number of bytes, after that the two-level aggregation should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#group_by_two_level_threshold_bytes MdbClickhouseUser#group_by_two_level_threshold_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#group_by_two_level_threshold_bytes MdbClickhouseUser#group_by_two_level_threshold_bytes}
   */
   readonly groupByTwoLevelThresholdBytes?: number;
   /**
   * Connection timeout for establishing connection with replica for Hedged requests. Default value: 50 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#hedged_connection_timeout_ms MdbClickhouseUser#hedged_connection_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#hedged_connection_timeout_ms MdbClickhouseUser#hedged_connection_timeout_ms}
   */
   readonly hedgedConnectionTimeoutMs?: number;
   /**
   * Timeout for HTTP connection in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_connection_timeout MdbClickhouseUser#http_connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_connection_timeout MdbClickhouseUser#http_connection_timeout}
   */
   readonly httpConnectionTimeout?: number;
   /**
   * Sets minimal interval between notifications about request process in HTTP header X-ClickHouse-Progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_headers_progress_interval MdbClickhouseUser#http_headers_progress_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_headers_progress_interval MdbClickhouseUser#http_headers_progress_interval}
   */
   readonly httpHeadersProgressInterval?: number;
   /**
   * Maximum length of field name in HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_max_field_name_size MdbClickhouseUser#http_max_field_name_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_max_field_name_size MdbClickhouseUser#http_max_field_name_size}
   */
   readonly httpMaxFieldNameSize?: number;
   /**
   * Maximum length of field value in HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_max_field_value_size MdbClickhouseUser#http_max_field_value_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_max_field_value_size MdbClickhouseUser#http_max_field_value_size}
   */
   readonly httpMaxFieldValueSize?: number;
   /**
   * Timeout for HTTP connection in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_receive_timeout MdbClickhouseUser#http_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_receive_timeout MdbClickhouseUser#http_receive_timeout}
   */
   readonly httpReceiveTimeout?: number;
   /**
   * Timeout for HTTP connection in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#http_send_timeout MdbClickhouseUser#http_send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#http_send_timeout MdbClickhouseUser#http_send_timeout}
   */
   readonly httpSendTimeout?: number;
   /**
   * Timeout to close idle TCP connections after specified number of seconds. Default value: 3600 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#idle_connection_timeout MdbClickhouseUser#idle_connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#idle_connection_timeout MdbClickhouseUser#idle_connection_timeout}
   */
   readonly idleConnectionTimeout?: number;
   /**
   * Ignore materialized views with dropped target table during pushing to views.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#ignore_materialized_views_with_dropped_target_table MdbClickhouseUser#ignore_materialized_views_with_dropped_target_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#ignore_materialized_views_with_dropped_target_table MdbClickhouseUser#ignore_materialized_views_with_dropped_target_table}
   */
   readonly ignoreMaterializedViewsWithDroppedTargetTable?: boolean | cdktf.IResolvable;
   /**
   * When performing INSERT queries, replace omitted input column values with default values of the respective columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_defaults_for_omitted_fields MdbClickhouseUser#input_format_defaults_for_omitted_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_defaults_for_omitted_fields MdbClickhouseUser#input_format_defaults_for_omitted_fields}
   */
   readonly inputFormatDefaultsForOmittedFields?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables the insertion of JSON data with nested objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_import_nested_json MdbClickhouseUser#input_format_import_nested_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_import_nested_json MdbClickhouseUser#input_format_import_nested_json}
   */
   readonly inputFormatImportNestedJson?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables the initialization of NULL fields with default values, if data type of these fields is not nullable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_null_as_default MdbClickhouseUser#input_format_null_as_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_null_as_default MdbClickhouseUser#input_format_null_as_default}
   */
   readonly inputFormatNullAsDefault?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables order-preserving parallel parsing of data formats. Supported only for TSV, TKSV, CSV and JSONEachRow formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_parallel_parsing MdbClickhouseUser#input_format_parallel_parsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_parallel_parsing MdbClickhouseUser#input_format_parallel_parsing}
   */
   readonly inputFormatParallelParsing?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables the full SQL parser if the fast stream parser can’t parse the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_values_interpret_expressions MdbClickhouseUser#input_format_values_interpret_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_values_interpret_expressions MdbClickhouseUser#input_format_values_interpret_expressions}
   */
   readonly inputFormatValuesInterpretExpressions?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables checking the column order when inserting data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#input_format_with_names_use_header MdbClickhouseUser#input_format_with_names_use_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#input_format_with_names_use_header MdbClickhouseUser#input_format_with_names_use_header}
   */
   readonly inputFormatWithNamesUseHeader?: boolean | cdktf.IResolvable;
   /**
   * The setting sets the maximum number of retries for ClickHouse Keeper (or ZooKeeper) requests during insert into replicated MergeTree. Only Keeper requests which failed due to network error, Keeper session timeout, or request timeout are considered for retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#insert_keeper_max_retries MdbClickhouseUser#insert_keeper_max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#insert_keeper_max_retries MdbClickhouseUser#insert_keeper_max_retries}
   */
   readonly insertKeeperMaxRetries?: number;
   /**
   * Enables the insertion of default values instead of NULL into columns with not nullable data type. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#insert_null_as_default MdbClickhouseUser#insert_null_as_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#insert_null_as_default MdbClickhouseUser#insert_null_as_default}
   */
   readonly insertNullAsDefault?: boolean | cdktf.IResolvable;
   /**
   * Enables the quorum writes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#insert_quorum MdbClickhouseUser#insert_quorum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#insert_quorum MdbClickhouseUser#insert_quorum}
   */
   readonly insertQuorum?: number;
   /**
   * Enables or disables parallelism for quorum INSERT queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#insert_quorum_parallel MdbClickhouseUser#insert_quorum_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#insert_quorum_parallel MdbClickhouseUser#insert_quorum_parallel}
   */
   readonly insertQuorumParallel?: boolean | cdktf.IResolvable;
   /**
   * Quorum write timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#insert_quorum_timeout MdbClickhouseUser#insert_quorum_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#insert_quorum_timeout MdbClickhouseUser#insert_quorum_timeout}
   */
   readonly insertQuorumTimeout?: number;
   /**
   * Specifies which JOIN algorithm to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#join_algorithm MdbClickhouseUser#join_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#join_algorithm MdbClickhouseUser#join_algorithm}
   */
   readonly joinAlgorithm?: string[];
   /**
   * Sets behaviour on overflow in JOIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#join_overflow_mode MdbClickhouseUser#join_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#join_overflow_mode MdbClickhouseUser#join_overflow_mode}
   */
   readonly joinOverflowMode?: string;
   /**
   * Sets the type of JOIN behaviour. When merging tables, empty cells may appear. ClickHouse fills them differently based on this setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#join_use_nulls MdbClickhouseUser#join_use_nulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#join_use_nulls MdbClickhouseUser#join_use_nulls}
   */
   readonly joinUseNulls?: boolean | cdktf.IResolvable;
   /**
   * Require aliases for subselects and table functions in FROM that more than one table is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#joined_subquery_requires_alias MdbClickhouseUser#joined_subquery_requires_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#joined_subquery_requires_alias MdbClickhouseUser#joined_subquery_requires_alias}
   */
   readonly joinedSubqueryRequiresAlias?: boolean | cdktf.IResolvable;
   /**
   * Specifies the algorithm of replicas selection that is used for distributed query processing, one of: random, nearest_hostname, in_order, first_or_random, round_robin. Default value: random.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#load_balancing MdbClickhouseUser#load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#load_balancing MdbClickhouseUser#load_balancing}
   */
   readonly loadBalancing?: string;
   /**
@@ -1086,595 +1086,595 @@ export interface MdbClickhouseUserSettings {
   * * 'pread_threadpool' - stop query execution, return partial result. 
   * If the parameter is set to 0 (default), no hops is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#local_filesystem_read_method MdbClickhouseUser#local_filesystem_read_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#local_filesystem_read_method MdbClickhouseUser#local_filesystem_read_method}
   */
   readonly localFilesystemReadMethod?: string;
   /**
   * Enabled or disable logging of processors level profiling data to the the system.log_processors_profiles table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#log_processors_profiles MdbClickhouseUser#log_processors_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#log_processors_profiles MdbClickhouseUser#log_processors_profiles}
   */
   readonly logProcessorsProfiles?: boolean | cdktf.IResolvable;
   /**
   * Log queries with the specified probability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#log_queries_probability MdbClickhouseUser#log_queries_probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#log_queries_probability MdbClickhouseUser#log_queries_probability}
   */
   readonly logQueriesProbability?: number;
   /**
   * Setting up query threads logging. Query threads log into the system.query_thread_log table. This setting has effect only when log_queries is true. Queries’ threads run by ClickHouse with this setup are logged according to the rules in the query_thread_log server configuration parameter. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#log_query_threads MdbClickhouseUser#log_query_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#log_query_threads MdbClickhouseUser#log_query_threads}
   */
   readonly logQueryThreads?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables query views logging to the the system.query_views_log table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#log_query_views MdbClickhouseUser#log_query_views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#log_query_views MdbClickhouseUser#log_query_views}
   */
   readonly logQueryViews?: boolean | cdktf.IResolvable;
   /**
   * Allows or restricts using the LowCardinality data type with the Native format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#low_cardinality_allow_in_native_format MdbClickhouseUser#low_cardinality_allow_in_native_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#low_cardinality_allow_in_native_format MdbClickhouseUser#low_cardinality_allow_in_native_format}
   */
   readonly lowCardinalityAllowInNativeFormat?: boolean | cdktf.IResolvable;
   /**
   * Limits the maximum depth of query syntax tree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_ast_depth MdbClickhouseUser#max_ast_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_ast_depth MdbClickhouseUser#max_ast_depth}
   */
   readonly maxAstDepth?: number;
   /**
   * Limits the maximum size of query syntax tree in number of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_ast_elements MdbClickhouseUser#max_ast_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_ast_elements MdbClickhouseUser#max_ast_elements}
   */
   readonly maxAstElements?: number;
   /**
   * A recommendation for what size of the block (in a count of rows) to load from tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_block_size MdbClickhouseUser#max_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_block_size MdbClickhouseUser#max_block_size}
   */
   readonly maxBlockSize?: number;
   /**
   * Limit in bytes for using memoru for GROUP BY before using swap on disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_before_external_group_by MdbClickhouseUser#max_bytes_before_external_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_before_external_group_by MdbClickhouseUser#max_bytes_before_external_group_by}
   */
   readonly maxBytesBeforeExternalGroupBy?: number;
   /**
   * This setting is equivalent of the max_bytes_before_external_group_by setting, except for it is for sort operation (ORDER BY), not aggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_before_external_sort MdbClickhouseUser#max_bytes_before_external_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_before_external_sort MdbClickhouseUser#max_bytes_before_external_sort}
   */
   readonly maxBytesBeforeExternalSort?: number;
   /**
   * Limits the maximum size of a hash table in bytes (uncompressed data) when using DISTINCT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_in_distinct MdbClickhouseUser#max_bytes_in_distinct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_in_distinct MdbClickhouseUser#max_bytes_in_distinct}
   */
   readonly maxBytesInDistinct?: number;
   /**
   * Limit on maximum size of the hash table for JOIN, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_in_join MdbClickhouseUser#max_bytes_in_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_in_join MdbClickhouseUser#max_bytes_in_join}
   */
   readonly maxBytesInJoin?: number;
   /**
   * Limit on the number of bytes in the set resulting from the execution of the IN section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_in_set MdbClickhouseUser#max_bytes_in_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_in_set MdbClickhouseUser#max_bytes_in_set}
   */
   readonly maxBytesInSet?: number;
   /**
   * Limits the maximum number of bytes (uncompressed data) that can be read from a table when running a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_to_read MdbClickhouseUser#max_bytes_to_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_to_read MdbClickhouseUser#max_bytes_to_read}
   */
   readonly maxBytesToRead?: number;
   /**
   * Limits the maximum number of bytes (uncompressed data) that can be read from a table for sorting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_to_sort MdbClickhouseUser#max_bytes_to_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_to_sort MdbClickhouseUser#max_bytes_to_sort}
   */
   readonly maxBytesToSort?: number;
   /**
   * Limits the maximum number of bytes (uncompressed data) that can be passed to a remote server or saved in a temporary table when using GLOBAL IN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_bytes_to_transfer MdbClickhouseUser#max_bytes_to_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_bytes_to_transfer MdbClickhouseUser#max_bytes_to_transfer}
   */
   readonly maxBytesToTransfer?: number;
   /**
   * Limits the maximum number of columns that can be read from a table in a single query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_columns_to_read MdbClickhouseUser#max_columns_to_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_columns_to_read MdbClickhouseUser#max_columns_to_read}
   */
   readonly maxColumnsToRead?: number;
   /**
   * The maximum number of concurrent requests per user. Default value: 0 (no limit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_concurrent_queries_for_user MdbClickhouseUser#max_concurrent_queries_for_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_concurrent_queries_for_user MdbClickhouseUser#max_concurrent_queries_for_user}
   */
   readonly maxConcurrentQueriesForUser?: number;
   /**
   * Limits the maximum query execution time in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_execution_time MdbClickhouseUser#max_execution_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_execution_time MdbClickhouseUser#max_execution_time}
   */
   readonly maxExecutionTime?: number;
   /**
   * Limits the maximum size of query syntax tree in number of nodes after expansion of aliases and the asterisk values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_expanded_ast_elements MdbClickhouseUser#max_expanded_ast_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_expanded_ast_elements MdbClickhouseUser#max_expanded_ast_elements}
   */
   readonly maxExpandedAstElements?: number;
   /**
   * Sets the maximum number of parallel threads for the SELECT query data read phase with the FINAL modifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_final_threads MdbClickhouseUser#max_final_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_final_threads MdbClickhouseUser#max_final_threads}
   */
   readonly maxFinalThreads?: number;
   /**
   * Limits the maximum number of HTTP GET redirect hops for URL-engine tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_http_get_redirects MdbClickhouseUser#max_http_get_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_http_get_redirects MdbClickhouseUser#max_http_get_redirects}
   */
   readonly maxHttpGetRedirects?: number;
   /**
   * The size of blocks (in a count of rows) to form for insertion into a table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_insert_block_size MdbClickhouseUser#max_insert_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_insert_block_size MdbClickhouseUser#max_insert_block_size}
   */
   readonly maxInsertBlockSize?: number;
   /**
   * The maximum number of threads to execute the INSERT SELECT query. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_insert_threads MdbClickhouseUser#max_insert_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_insert_threads MdbClickhouseUser#max_insert_threads}
   */
   readonly maxInsertThreads?: number;
   /**
   * Maximum memory usage for processing all concurrently running queries for the user. Zero means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_memory_usage MdbClickhouseUser#max_memory_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_memory_usage MdbClickhouseUser#max_memory_usage}
   */
   readonly maxMemoryUsage?: number;
   /**
   * Maximum memory usage for processing all concurrently running queries for the user. Zero means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_memory_usage_for_user MdbClickhouseUser#max_memory_usage_for_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_memory_usage_for_user MdbClickhouseUser#max_memory_usage_for_user}
   */
   readonly maxMemoryUsageForUser?: number;
   /**
   * Limits the speed of the data exchange over the network in bytes per second.  This setting applies to every query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_network_bandwidth MdbClickhouseUser#max_network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_network_bandwidth MdbClickhouseUser#max_network_bandwidth}
   */
   readonly maxNetworkBandwidth?: number;
   /**
   * Limits the speed of the data exchange over the network in bytes per second. This setting applies to all concurrently running queries performed by a single user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_network_bandwidth_for_user MdbClickhouseUser#max_network_bandwidth_for_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_network_bandwidth_for_user MdbClickhouseUser#max_network_bandwidth_for_user}
   */
   readonly maxNetworkBandwidthForUser?: number;
   /**
   * Limits maximum recursion depth in the recursive descent parser. Allows controlling the stack size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_parser_depth MdbClickhouseUser#max_parser_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_parser_depth MdbClickhouseUser#max_parser_depth}
   */
   readonly maxParserDepth?: number;
   /**
   * Limits the maximum number of partitions in a single inserted block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_partitions_per_insert_block MdbClickhouseUser#max_partitions_per_insert_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_partitions_per_insert_block MdbClickhouseUser#max_partitions_per_insert_block}
   */
   readonly maxPartitionsPerInsertBlock?: number;
   /**
   * The maximum part of a query that can be taken to RAM for parsing with the SQL parser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_query_size MdbClickhouseUser#max_query_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_query_size MdbClickhouseUser#max_query_size}
   */
   readonly maxQuerySize?: number;
   /**
   * The maximum size of the buffer to read from the filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_read_buffer_size MdbClickhouseUser#max_read_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_read_buffer_size MdbClickhouseUser#max_read_buffer_size}
   */
   readonly maxReadBufferSize?: number;
   /**
   * Max replica delay in milliseconds. If a replica lags more than the set value,this replica is not used and becomes a stale one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_replica_delay_for_distributed_queries MdbClickhouseUser#max_replica_delay_for_distributed_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_replica_delay_for_distributed_queries MdbClickhouseUser#max_replica_delay_for_distributed_queries}
   */
   readonly maxReplicaDelayForDistributedQueries?: number;
   /**
   * Limits the number of bytes in the result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_result_bytes MdbClickhouseUser#max_result_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_result_bytes MdbClickhouseUser#max_result_bytes}
   */
   readonly maxResultBytes?: number;
   /**
   * Limits the number of rows in the result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_result_rows MdbClickhouseUser#max_result_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_result_rows MdbClickhouseUser#max_result_rows}
   */
   readonly maxResultRows?: number;
   /**
   * Limits the maximum number of different rows when using DISTINCT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_in_distinct MdbClickhouseUser#max_rows_in_distinct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_in_distinct MdbClickhouseUser#max_rows_in_distinct}
   */
   readonly maxRowsInDistinct?: number;
   /**
   * Limit on maximum size of the hash table for JOIN, in rows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_in_join MdbClickhouseUser#max_rows_in_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_in_join MdbClickhouseUser#max_rows_in_join}
   */
   readonly maxRowsInJoin?: number;
   /**
   * Limit on the number of rows in the set resulting from the execution of the IN section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_in_set MdbClickhouseUser#max_rows_in_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_in_set MdbClickhouseUser#max_rows_in_set}
   */
   readonly maxRowsInSet?: number;
   /**
   * Limits the maximum number of unique keys received from aggregation function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_to_group_by MdbClickhouseUser#max_rows_to_group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_to_group_by MdbClickhouseUser#max_rows_to_group_by}
   */
   readonly maxRowsToGroupBy?: number;
   /**
   * Limits the maximum number of rows that can be read from a table when running a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_to_read MdbClickhouseUser#max_rows_to_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_to_read MdbClickhouseUser#max_rows_to_read}
   */
   readonly maxRowsToRead?: number;
   /**
   * Limits the maximum number of rows that can be read from a table for sorting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_to_sort MdbClickhouseUser#max_rows_to_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_to_sort MdbClickhouseUser#max_rows_to_sort}
   */
   readonly maxRowsToSort?: number;
   /**
   * Limits the maximum number of rows that can be passed to a remote server or saved in a temporary table when using GLOBAL IN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_rows_to_transfer MdbClickhouseUser#max_rows_to_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_rows_to_transfer MdbClickhouseUser#max_rows_to_transfer}
   */
   readonly maxRowsToTransfer?: number;
   /**
   * Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, including constant columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_temporary_columns MdbClickhouseUser#max_temporary_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_temporary_columns MdbClickhouseUser#max_temporary_columns}
   */
   readonly maxTemporaryColumns?: number;
   /**
   * The maximum amount of data consumed by temporary files on disk in bytes for all concurrently running queries. Zero means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_temporary_data_on_disk_size_for_query MdbClickhouseUser#max_temporary_data_on_disk_size_for_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_temporary_data_on_disk_size_for_query MdbClickhouseUser#max_temporary_data_on_disk_size_for_query}
   */
   readonly maxTemporaryDataOnDiskSizeForQuery?: number;
   /**
   * The maximum amount of data consumed by temporary files on disk in bytes for all concurrently running user queries. Zero means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_temporary_data_on_disk_size_for_user MdbClickhouseUser#max_temporary_data_on_disk_size_for_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_temporary_data_on_disk_size_for_user MdbClickhouseUser#max_temporary_data_on_disk_size_for_user}
   */
   readonly maxTemporaryDataOnDiskSizeForUser?: number;
   /**
   * Limits the maximum number of temporary columns that must be kept in RAM at the same time when running a query, excluding constant columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_temporary_non_const_columns MdbClickhouseUser#max_temporary_non_const_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_temporary_non_const_columns MdbClickhouseUser#max_temporary_non_const_columns}
   */
   readonly maxTemporaryNonConstColumns?: number;
   /**
   * The maximum number of query processing threads, excluding threads for retrieving data from remote servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#max_threads MdbClickhouseUser#max_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#max_threads MdbClickhouseUser#max_threads}
   */
   readonly maxThreads?: number;
   /**
   * It represents soft memory limit in case when hard limit is reached on user level. This value is used to compute overcommit ratio for the query. Zero means skip the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#memory_overcommit_ratio_denominator MdbClickhouseUser#memory_overcommit_ratio_denominator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#memory_overcommit_ratio_denominator MdbClickhouseUser#memory_overcommit_ratio_denominator}
   */
   readonly memoryOvercommitRatioDenominator?: number;
   /**
   * It represents soft memory limit in case when hard limit is reached on global level. This value is used to compute overcommit ratio for the query. Zero means skip the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#memory_overcommit_ratio_denominator_for_user MdbClickhouseUser#memory_overcommit_ratio_denominator_for_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#memory_overcommit_ratio_denominator_for_user MdbClickhouseUser#memory_overcommit_ratio_denominator_for_user}
   */
   readonly memoryOvercommitRatioDenominatorForUser?: number;
   /**
   * Collect random allocations and deallocations and write them into system.trace_log with 'MemorySample' trace_type. The probability is for every alloc/free regardless to the size of the allocation. Possible values: from 0 to 1. Default: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#memory_profiler_sample_probability MdbClickhouseUser#memory_profiler_sample_probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#memory_profiler_sample_probability MdbClickhouseUser#memory_profiler_sample_probability}
   */
   readonly memoryProfilerSampleProbability?: number;
   /**
   * Memory profiler step (in bytes). If the next query step requires more memory than this parameter specifies, the memory profiler collects the allocating stack trace. Values lower than a few megabytes slow down query processing. Default value: 4194304 (4 MB). Zero means disabled memory profiler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#memory_profiler_step MdbClickhouseUser#memory_profiler_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#memory_profiler_step MdbClickhouseUser#memory_profiler_step}
   */
   readonly memoryProfilerStep?: number;
   /**
   * Maximum time thread will wait for memory to be freed in the case of memory overcommit on a user level. If the timeout is reached and memory is not freed, an exception is thrown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#memory_usage_overcommit_max_wait_microseconds MdbClickhouseUser#memory_usage_overcommit_max_wait_microseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#memory_usage_overcommit_max_wait_microseconds MdbClickhouseUser#memory_usage_overcommit_max_wait_microseconds}
   */
   readonly memoryUsageOvercommitMaxWaitMicroseconds?: number;
   /**
   * If ClickHouse should read more than merge_tree_max_bytes_to_use_cache bytes in one query, it doesn’t use the cache of uncompressed blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#merge_tree_max_bytes_to_use_cache MdbClickhouseUser#merge_tree_max_bytes_to_use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#merge_tree_max_bytes_to_use_cache MdbClickhouseUser#merge_tree_max_bytes_to_use_cache}
   */
   readonly mergeTreeMaxBytesToUseCache?: number;
   /**
   * If ClickHouse should read more than merge_tree_max_rows_to_use_cache rows in one query, it doesn’t use the cache of uncompressed blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#merge_tree_max_rows_to_use_cache MdbClickhouseUser#merge_tree_max_rows_to_use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#merge_tree_max_rows_to_use_cache MdbClickhouseUser#merge_tree_max_rows_to_use_cache}
   */
   readonly mergeTreeMaxRowsToUseCache?: number;
   /**
   * If the number of bytes to read from one file of a MergeTree-engine table exceeds merge_tree_min_bytes_for_concurrent_read, then ClickHouse tries to concurrently read from this file in several threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#merge_tree_min_bytes_for_concurrent_read MdbClickhouseUser#merge_tree_min_bytes_for_concurrent_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#merge_tree_min_bytes_for_concurrent_read MdbClickhouseUser#merge_tree_min_bytes_for_concurrent_read}
   */
   readonly mergeTreeMinBytesForConcurrentRead?: number;
   /**
   * If the number of rows to be read from a file of a MergeTree table exceeds merge_tree_min_rows_for_concurrent_read then ClickHouse tries to perform a concurrent reading from this file on several threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#merge_tree_min_rows_for_concurrent_read MdbClickhouseUser#merge_tree_min_rows_for_concurrent_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#merge_tree_min_rows_for_concurrent_read MdbClickhouseUser#merge_tree_min_rows_for_concurrent_read}
   */
   readonly mergeTreeMinRowsForConcurrentRead?: number;
   /**
   * The minimum data volume required for using direct I/O access to the storage disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_bytes_to_use_direct_io MdbClickhouseUser#min_bytes_to_use_direct_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_bytes_to_use_direct_io MdbClickhouseUser#min_bytes_to_use_direct_io}
   */
   readonly minBytesToUseDirectIo?: number;
   /**
   * Minimum count of executing same expression before it is get compiled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_count_to_compile_expression MdbClickhouseUser#min_count_to_compile_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_count_to_compile_expression MdbClickhouseUser#min_count_to_compile_expression}
   */
   readonly minCountToCompileExpression?: number;
   /**
   * Minimal execution speed in rows per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_execution_speed MdbClickhouseUser#min_execution_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_execution_speed MdbClickhouseUser#min_execution_speed}
   */
   readonly minExecutionSpeed?: number;
   /**
   * Minimal execution speed in bytes per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_execution_speed_bytes MdbClickhouseUser#min_execution_speed_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_execution_speed_bytes MdbClickhouseUser#min_execution_speed_bytes}
   */
   readonly minExecutionSpeedBytes?: number;
   /**
   * Sets the minimum number of bytes in the block which can be inserted into a table by an INSERT query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_insert_block_size_bytes MdbClickhouseUser#min_insert_block_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_insert_block_size_bytes MdbClickhouseUser#min_insert_block_size_bytes}
   */
   readonly minInsertBlockSizeBytes?: number;
   /**
   * Sets the minimum number of rows in the block which can be inserted into a table by an INSERT query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#min_insert_block_size_rows MdbClickhouseUser#min_insert_block_size_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#min_insert_block_size_rows MdbClickhouseUser#min_insert_block_size_rows}
   */
   readonly minInsertBlockSizeRows?: number;
   /**
   * If the value is true, integers appear in quotes when using JSON* Int64 and UInt64 formats (for compatibility with most JavaScript implementations); otherwise, integers are output without the quotes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#output_format_json_quote_64bit_integers MdbClickhouseUser#output_format_json_quote_64bit_integers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#output_format_json_quote_64bit_integers MdbClickhouseUser#output_format_json_quote_64bit_integers}
   */
   readonly outputFormatJsonQuote64BitIntegers?: boolean | cdktf.IResolvable;
   /**
   * Enables +nan, -nan, +inf, -inf outputs in JSON output format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#output_format_json_quote_denormals MdbClickhouseUser#output_format_json_quote_denormals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#output_format_json_quote_denormals MdbClickhouseUser#output_format_json_quote_denormals}
   */
   readonly outputFormatJsonQuoteDenormals?: boolean | cdktf.IResolvable;
   /**
   * Enables/disables preferable using the localhost replica when processing distributed queries. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#prefer_localhost_replica MdbClickhouseUser#prefer_localhost_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#prefer_localhost_replica MdbClickhouseUser#prefer_localhost_replica}
   */
   readonly preferLocalhostReplica?: boolean | cdktf.IResolvable;
   /**
   * Priority of the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#priority MdbClickhouseUser#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#priority MdbClickhouseUser#priority}
   */
   readonly priority?: number;
   /**
   * The maximum number of query results the current user may store in the query cache. 0 means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_max_entries MdbClickhouseUser#query_cache_max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_max_entries MdbClickhouseUser#query_cache_max_entries}
   */
   readonly queryCacheMaxEntries?: number;
   /**
   * The maximum amount of memory (in bytes) the current user may allocate in the query cache. 0 means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_max_size_in_bytes MdbClickhouseUser#query_cache_max_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_max_size_in_bytes MdbClickhouseUser#query_cache_max_size_in_bytes}
   */
   readonly queryCacheMaxSizeInBytes?: number;
   /**
   * Minimum duration in milliseconds a query needs to run for its result to be stored in the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_min_query_duration MdbClickhouseUser#query_cache_min_query_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_min_query_duration MdbClickhouseUser#query_cache_min_query_duration}
   */
   readonly queryCacheMinQueryDuration?: number;
   /**
   * Minimum number of times a SELECT query must run before its result is stored in the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_min_query_runs MdbClickhouseUser#query_cache_min_query_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_min_query_runs MdbClickhouseUser#query_cache_min_query_runs}
   */
   readonly queryCacheMinQueryRuns?: number;
   /**
   * Controls how the query cache handles **SELECT** queries with non-deterministic functions like rand() or now().
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_nondeterministic_function_handling MdbClickhouseUser#query_cache_nondeterministic_function_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_nondeterministic_function_handling MdbClickhouseUser#query_cache_nondeterministic_function_handling}
   */
   readonly queryCacheNondeterministicFunctionHandling?: string;
   /**
   * If turned on, the result of SELECT queries cached in the query cache can be read by other users. It is not recommended to enable this setting due to security reasons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_share_between_users MdbClickhouseUser#query_cache_share_between_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_share_between_users MdbClickhouseUser#query_cache_share_between_users}
   */
   readonly queryCacheShareBetweenUsers?: boolean | cdktf.IResolvable;
   /**
   * Controls how the query cache handles **SELECT** queries against system tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_system_table_handling MdbClickhouseUser#query_cache_system_table_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_system_table_handling MdbClickhouseUser#query_cache_system_table_handling}
   */
   readonly queryCacheSystemTableHandling?: string;
   /**
   * A string which acts as a label for query cache entries. The same queries with different tags are considered different by the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_tag MdbClickhouseUser#query_cache_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_tag MdbClickhouseUser#query_cache_tag}
   */
   readonly queryCacheTag?: string;
   /**
   * After this time in seconds entries in the query cache become stale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#query_cache_ttl MdbClickhouseUser#query_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#query_cache_ttl MdbClickhouseUser#query_cache_ttl}
   */
   readonly queryCacheTtl?: number;
   /**
   * Quota accounting mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#quota_mode MdbClickhouseUser#quota_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#quota_mode MdbClickhouseUser#quota_mode}
   */
   readonly quotaMode?: string;
   /**
   * Sets behaviour on overflow while read. Possible values: * throw - abort query execution, return an error.  * break - stop query execution, return partial result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#read_overflow_mode MdbClickhouseUser#read_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#read_overflow_mode MdbClickhouseUser#read_overflow_mode}
   */
   readonly readOverflowMode?: string;
   /**
   * Restricts permissions for non-DDL queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#readonly MdbClickhouseUser#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#readonly MdbClickhouseUser#readonly}
   */
   readonly readonly?: number;
   /**
   * Receive timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#receive_timeout MdbClickhouseUser#receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#receive_timeout MdbClickhouseUser#receive_timeout}
   */
   readonly receiveTimeout?: number;
   /**
   * Method of reading data from remote filesystem, one of: `read`, `threadpool`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#remote_filesystem_read_method MdbClickhouseUser#remote_filesystem_read_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#remote_filesystem_read_method MdbClickhouseUser#remote_filesystem_read_method}
   */
   readonly remoteFilesystemReadMethod?: string;
   /**
   * Wait mode for asynchronous actions in ALTER queries on replicated tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#replication_alter_partitions_sync MdbClickhouseUser#replication_alter_partitions_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#replication_alter_partitions_sync MdbClickhouseUser#replication_alter_partitions_sync}
   */
   readonly replicationAlterPartitionsSync?: number;
   /**
   * Sets behaviour on overflow in result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#result_overflow_mode MdbClickhouseUser#result_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#result_overflow_mode MdbClickhouseUser#result_overflow_mode}
   */
   readonly resultOverflowMode?: string;
   /**
   * Enables or disables adaptive timeouts for S3 requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#s3_use_adaptive_timeouts MdbClickhouseUser#s3_use_adaptive_timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#s3_use_adaptive_timeouts MdbClickhouseUser#s3_use_adaptive_timeouts}
   */
   readonly s3UseAdaptiveTimeouts?: boolean | cdktf.IResolvable;
   /**
   * Determines the behavior of SELECT queries from replicated tables. If enabled, ClickHouse will terminate a query with error message in case the replica does not have a chunk written with the quorum and will not read the parts that have not yet been written with the quorum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#select_sequential_consistency MdbClickhouseUser#select_sequential_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#select_sequential_consistency MdbClickhouseUser#select_sequential_consistency}
   */
   readonly selectSequentialConsistency?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables X-ClickHouse-Progress HTTP response headers in clickhouse-server responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#send_progress_in_http_headers MdbClickhouseUser#send_progress_in_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#send_progress_in_http_headers MdbClickhouseUser#send_progress_in_http_headers}
   */
   readonly sendProgressInHttpHeaders?: boolean | cdktf.IResolvable;
   /**
   * Send timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#send_timeout MdbClickhouseUser#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#send_timeout MdbClickhouseUser#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
   * Sets behaviour on overflow in the set resulting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#set_overflow_mode MdbClickhouseUser#set_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#set_overflow_mode MdbClickhouseUser#set_overflow_mode}
   */
   readonly setOverflowMode?: string;
   /**
   * Enables or disables silent skipping of unavailable shards
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#skip_unavailable_shards MdbClickhouseUser#skip_unavailable_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#skip_unavailable_shards MdbClickhouseUser#skip_unavailable_shards}
   */
   readonly skipUnavailableShards?: boolean | cdktf.IResolvable;
   /**
   * Sets behaviour on overflow while sort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#sort_overflow_mode MdbClickhouseUser#sort_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#sort_overflow_mode MdbClickhouseUser#sort_overflow_mode}
   */
   readonly sortOverflowMode?: string;
   /**
   * Timeout (in seconds) between checks of execution speed. It is checked that execution speed is not less that specified in min_execution_speed parameter. Must be at least 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#timeout_before_checking_execution_speed MdbClickhouseUser#timeout_before_checking_execution_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#timeout_before_checking_execution_speed MdbClickhouseUser#timeout_before_checking_execution_speed}
   */
   readonly timeoutBeforeCheckingExecutionSpeed?: number;
   /**
   * Sets behaviour on overflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#timeout_overflow_mode MdbClickhouseUser#timeout_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#timeout_overflow_mode MdbClickhouseUser#timeout_overflow_mode}
   */
   readonly timeoutOverflowMode?: string;
   /**
   * Sets behaviour on overflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#transfer_overflow_mode MdbClickhouseUser#transfer_overflow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#transfer_overflow_mode MdbClickhouseUser#transfer_overflow_mode}
   */
   readonly transferOverflowMode?: string;
   /**
   * Enables equality of NULL values for IN operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#transform_null_in MdbClickhouseUser#transform_null_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#transform_null_in MdbClickhouseUser#transform_null_in}
   */
   readonly transformNullIn?: boolean | cdktf.IResolvable;
   /**
   * Enables hedged requests logic for remote queries. It allows to establish many connections with different replicas for query. New connection is enabled in case existent connection(s) with replica(s) were not established within hedged_connection_timeout or no data was received within receive_data_timeout. Query uses the first connection which send non empty progress packet (or data packet, if allow_changing_replica_until_first_data_packet); other connections are cancelled. Queries with max_parallel_replicas > 1 are supported. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#use_hedged_requests MdbClickhouseUser#use_hedged_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#use_hedged_requests MdbClickhouseUser#use_hedged_requests}
   */
   readonly useHedgedRequests?: boolean | cdktf.IResolvable;
   /**
   * If turned on, SELECT queries may utilize the query cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#use_query_cache MdbClickhouseUser#use_query_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#use_query_cache MdbClickhouseUser#use_query_cache}
   */
   readonly useQueryCache?: boolean | cdktf.IResolvable;
   /**
   * Whether to use a cache of uncompressed blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#use_uncompressed_cache MdbClickhouseUser#use_uncompressed_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#use_uncompressed_cache MdbClickhouseUser#use_uncompressed_cache}
   */
   readonly useUncompressedCache?: boolean | cdktf.IResolvable;
   /**
   * Enables waiting for processing of asynchronous insertion. If enabled, server returns OK only after the data is inserted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#wait_for_async_insert MdbClickhouseUser#wait_for_async_insert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#wait_for_async_insert MdbClickhouseUser#wait_for_async_insert}
   */
   readonly waitForAsyncInsert?: boolean | cdktf.IResolvable;
   /**
   * The timeout (in seconds) for waiting for processing of asynchronous insertion. Value must be at least 1000 (1 second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#wait_for_async_insert_timeout MdbClickhouseUser#wait_for_async_insert_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#wait_for_async_insert_timeout MdbClickhouseUser#wait_for_async_insert_timeout}
   */
   readonly waitForAsyncInsertTimeout?: number;
 }
@@ -6524,7 +6524,7 @@ export class MdbClickhouseUserSettingsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user yandex_mdb_clickhouse_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user yandex_mdb_clickhouse_user}
 */
 export class MdbClickhouseUser extends cdktf.TerraformResource {
 
@@ -6540,7 +6540,7 @@ export class MdbClickhouseUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbClickhouseUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbClickhouseUser to import
-  * @param importFromId The id of the existing MdbClickhouseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbClickhouseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbClickhouseUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6552,7 +6552,7 @@ export class MdbClickhouseUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_clickhouse_user yandex_mdb_clickhouse_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_clickhouse_user yandex_mdb_clickhouse_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6563,8 +6563,8 @@ export class MdbClickhouseUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_clickhouse_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

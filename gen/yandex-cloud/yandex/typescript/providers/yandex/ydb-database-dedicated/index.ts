@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface YdbDatabaseDedicatedConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether public IP addresses should be assigned to the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#assign_public_ips YdbDatabaseDedicated#assign_public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#assign_public_ips YdbDatabaseDedicated#assign_public_ips}
   */
   readonly assignPublicIps?: boolean | cdktf.IResolvable;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#deletion_protection YdbDatabaseDedicated#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#deletion_protection YdbDatabaseDedicated#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#description YdbDatabaseDedicated#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#description YdbDatabaseDedicated#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#folder_id YdbDatabaseDedicated#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#folder_id YdbDatabaseDedicated#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#id YdbDatabaseDedicated#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#id YdbDatabaseDedicated#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,71 +41,71 @@ export interface YdbDatabaseDedicatedConfig extends cdktf.TerraformMetaArguments
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#labels YdbDatabaseDedicated#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#labels YdbDatabaseDedicated#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location ID for the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#location_id YdbDatabaseDedicated#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#location_id YdbDatabaseDedicated#location_id}
   */
   readonly locationId?: string;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#name YdbDatabaseDedicated#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#name YdbDatabaseDedicated#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#network_id YdbDatabaseDedicated#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#network_id YdbDatabaseDedicated#network_id}
   */
   readonly networkId: string;
   /**
   * The Yandex Database cluster preset. Available presets can be obtained via `yc ydb resource-preset list` command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#resource_preset_id YdbDatabaseDedicated#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#resource_preset_id YdbDatabaseDedicated#resource_preset_id}
   */
   readonly resourcePresetId: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#security_group_ids YdbDatabaseDedicated#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#security_group_ids YdbDatabaseDedicated#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#sleep_after YdbDatabaseDedicated#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#sleep_after YdbDatabaseDedicated#sleep_after}
   */
   readonly sleepAfter?: number;
   /**
   * The list of VPC subnets identifiers which resource is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#subnet_ids YdbDatabaseDedicated#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#subnet_ids YdbDatabaseDedicated#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#location YdbDatabaseDedicated#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#location YdbDatabaseDedicated#location}
   */
   readonly location?: YdbDatabaseDedicatedLocation;
   /**
   * scale_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#scale_policy YdbDatabaseDedicated#scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#scale_policy YdbDatabaseDedicated#scale_policy}
   */
   readonly scalePolicy: YdbDatabaseDedicatedScalePolicy;
   /**
   * storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#storage_config YdbDatabaseDedicated#storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#storage_config YdbDatabaseDedicated#storage_config}
   */
   readonly storageConfig: YdbDatabaseDedicatedStorageConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#timeouts YdbDatabaseDedicated#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#timeouts YdbDatabaseDedicated#timeouts}
   */
   readonly timeouts?: YdbDatabaseDedicatedTimeouts;
 }
@@ -113,7 +113,7 @@ export interface YdbDatabaseDedicatedLocationRegion {
   /**
   * Region ID for the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#id YdbDatabaseDedicated#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#id YdbDatabaseDedicated#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface YdbDatabaseDedicatedLocation {
   /**
   * region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#region YdbDatabaseDedicated#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#region YdbDatabaseDedicated#region}
   */
   readonly region?: YdbDatabaseDedicatedLocationRegion;
 }
@@ -285,7 +285,7 @@ export interface YdbDatabaseDedicatedScalePolicyAutoScaleTargetTracking {
   /**
   * A percentage of database nodes average CPU utilization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#cpu_utilization_percent YdbDatabaseDedicated#cpu_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#cpu_utilization_percent YdbDatabaseDedicated#cpu_utilization_percent}
   */
   readonly cpuUtilizationPercent: number;
 }
@@ -368,19 +368,19 @@ export interface YdbDatabaseDedicatedScalePolicyAutoScale {
   /**
   * Maximum number of nodes to which autoscaling can scale the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#max_size YdbDatabaseDedicated#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#max_size YdbDatabaseDedicated#max_size}
   */
   readonly maxSize: number;
   /**
   * Minimum number of nodes to which autoscaling can scale the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#min_size YdbDatabaseDedicated#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#min_size YdbDatabaseDedicated#min_size}
   */
   readonly minSize: number;
   /**
   * target_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#target_tracking YdbDatabaseDedicated#target_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#target_tracking YdbDatabaseDedicated#target_tracking}
   */
   readonly targetTracking: YdbDatabaseDedicatedScalePolicyAutoScaleTargetTracking;
 }
@@ -515,7 +515,7 @@ export interface YdbDatabaseDedicatedScalePolicyFixedScale {
   /**
   * Number of instances for the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#size YdbDatabaseDedicated#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#size YdbDatabaseDedicated#size}
   */
   readonly size: number;
 }
@@ -598,13 +598,13 @@ export interface YdbDatabaseDedicatedScalePolicy {
   /**
   * auto_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#auto_scale YdbDatabaseDedicated#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#auto_scale YdbDatabaseDedicated#auto_scale}
   */
   readonly autoScale?: YdbDatabaseDedicatedScalePolicyAutoScale;
   /**
   * fixed_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#fixed_scale YdbDatabaseDedicated#fixed_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#fixed_scale YdbDatabaseDedicated#fixed_scale}
   */
   readonly fixedScale?: YdbDatabaseDedicatedScalePolicyFixedScale;
 }
@@ -719,13 +719,13 @@ export interface YdbDatabaseDedicatedStorageConfig {
   /**
   * Amount of storage groups of selected type for the Yandex Database cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#group_count YdbDatabaseDedicated#group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#group_count YdbDatabaseDedicated#group_count}
   */
   readonly groupCount: number;
   /**
   * Storage type ID for the Yandex Database cluster. Available presets can be obtained via `yc ydb storage-type list` command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#storage_type_id YdbDatabaseDedicated#storage_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#storage_type_id YdbDatabaseDedicated#storage_type_id}
   */
   readonly storageTypeId: string;
 }
@@ -832,7 +832,7 @@ export class YdbDatabaseDedicatedStorageConfigOutputReference extends cdktf.Comp
 }
 export interface YdbDatabaseDedicatedTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#default YdbDatabaseDedicated#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#default YdbDatabaseDedicated#default}
   */
   readonly default?: string;
 }
@@ -926,7 +926,7 @@ export class YdbDatabaseDedicatedTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated yandex_ydb_database_dedicated}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated yandex_ydb_database_dedicated}
 */
 export class YdbDatabaseDedicated extends cdktf.TerraformResource {
 
@@ -942,7 +942,7 @@ export class YdbDatabaseDedicated extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a YdbDatabaseDedicated resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the YdbDatabaseDedicated to import
-  * @param importFromId The id of the existing YdbDatabaseDedicated that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing YdbDatabaseDedicated that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the YdbDatabaseDedicated to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -954,7 +954,7 @@ export class YdbDatabaseDedicated extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/ydb_database_dedicated yandex_ydb_database_dedicated} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/ydb_database_dedicated yandex_ydb_database_dedicated} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -965,8 +965,8 @@ export class YdbDatabaseDedicated extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_ydb_database_dedicated',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

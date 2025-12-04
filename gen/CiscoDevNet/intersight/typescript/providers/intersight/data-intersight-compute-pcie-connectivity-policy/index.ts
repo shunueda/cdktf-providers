@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputePcieConnectivityPolicyConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#account_moid DataIntersightComputePcieConnectivityPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#account_moid DataIntersightComputePcieConnectivityPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightComputePcieConnectivityPolicyConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#create_time DataIntersightComputePcieConnectivityPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#create_time DataIntersightComputePcieConnectivityPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#description DataIntersightComputePcieConnectivityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#description DataIntersightComputePcieConnectivityPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#domain_group_moid DataIntersightComputePcieConnectivityPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#domain_group_moid DataIntersightComputePcieConnectivityPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#id DataIntersightComputePcieConnectivityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#id DataIntersightComputePcieConnectivityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DataIntersightComputePcieConnectivityPolicyConfig extends cdktf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#mod_time DataIntersightComputePcieConnectivityPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#mod_time DataIntersightComputePcieConnectivityPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#name DataIntersightComputePcieConnectivityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#name DataIntersightComputePcieConnectivityPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#owners DataIntersightComputePcieConnectivityPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#owners DataIntersightComputePcieConnectivityPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#shared_scope DataIntersightComputePcieConnectivityPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#shared_scope DataIntersightComputePcieConnectivityPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#ancestors DataIntersightComputePcieConnectivityPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#ancestors DataIntersightComputePcieConnectivityPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightComputePcieConnectivityPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#organization DataIntersightComputePcieConnectivityPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#organization DataIntersightComputePcieConnectivityPolicy#organization}
   */
   readonly organization?: DataIntersightComputePcieConnectivityPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#parent DataIntersightComputePcieConnectivityPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#parent DataIntersightComputePcieConnectivityPolicy#parent}
   */
   readonly parent?: DataIntersightComputePcieConnectivityPolicyParent;
   /**
   * pcie_zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#pcie_zones DataIntersightComputePcieConnectivityPolicy#pcie_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#pcie_zones DataIntersightComputePcieConnectivityPolicy#pcie_zones}
   */
   readonly pcieZones?: DataIntersightComputePcieConnectivityPolicyPcieZones[] | cdktf.IResolvable;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#permission_resources DataIntersightComputePcieConnectivityPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#permission_resources DataIntersightComputePcieConnectivityPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputePcieConnectivityPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#profiles DataIntersightComputePcieConnectivityPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#profiles DataIntersightComputePcieConnectivityPolicy#profiles}
   */
   readonly profiles?: DataIntersightComputePcieConnectivityPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#tags DataIntersightComputePcieConnectivityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#tags DataIntersightComputePcieConnectivityPolicy#tags}
   */
   readonly tags?: DataIntersightComputePcieConnectivityPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#version_context DataIntersightComputePcieConnectivityPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#version_context DataIntersightComputePcieConnectivityPolicy#version_context}
   */
   readonly versionContext?: DataIntersightComputePcieConnectivityPolicyVersionContext;
 }
@@ -1676,7 +1676,7 @@ export class DataIntersightComputePcieConnectivityPolicyResultsList extends cdkt
 }
 export interface DataIntersightComputePcieConnectivityPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1684,19 +1684,19 @@ export interface DataIntersightComputePcieConnectivityPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1709,7 +1709,7 @@ export interface DataIntersightComputePcieConnectivityPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1941,7 +1941,7 @@ export class DataIntersightComputePcieConnectivityPolicyAncestorsList extends cd
 }
 export interface DataIntersightComputePcieConnectivityPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1949,19 +1949,19 @@ export interface DataIntersightComputePcieConnectivityPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1974,7 +1974,7 @@ export interface DataIntersightComputePcieConnectivityPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2174,7 +2174,7 @@ export class DataIntersightComputePcieConnectivityPolicyOrganizationOutputRefere
 }
 export interface DataIntersightComputePcieConnectivityPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2182,19 +2182,19 @@ export interface DataIntersightComputePcieConnectivityPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2207,7 +2207,7 @@ export interface DataIntersightComputePcieConnectivityPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2407,7 +2407,7 @@ export class DataIntersightComputePcieConnectivityPolicyParentOutputReference ex
 }
 export interface DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2416,7 +2416,7 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpoin
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -2424,7 +2424,7 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpoin
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2432,7 +2432,7 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpoin
   * * `GPU` - The PCIe endpoint type is GPU.
   * * `Adapter` - The PCIe endpoint type is Adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#pcie_endpoint_type DataIntersightComputePcieConnectivityPolicy#pcie_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#pcie_endpoint_type DataIntersightComputePcieConnectivityPolicy#pcie_endpoint_type}
   */
   readonly pcieEndpointType?: string;
 }
@@ -2635,7 +2635,7 @@ export class DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpointsLi
 }
 export interface DataIntersightComputePcieConnectivityPolicyPcieZonesRootPcieEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2644,7 +2644,7 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZonesRootPcieEnd
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -2652,14 +2652,14 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZonesRootPcieEnd
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * Type of root PCIe endpoint device.
   * * `CPU` - The root PCIe endpoint type is CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#root_pcie_endpoint_type DataIntersightComputePcieConnectivityPolicy#root_pcie_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#root_pcie_endpoint_type DataIntersightComputePcieConnectivityPolicy#root_pcie_endpoint_type}
   */
   readonly rootPcieEndpointType?: string;
 }
@@ -2830,7 +2830,7 @@ export class DataIntersightComputePcieConnectivityPolicyPcieZonesRootPcieEndpoin
 }
 export interface DataIntersightComputePcieConnectivityPolicyPcieZones {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2838,26 +2838,26 @@ export interface DataIntersightComputePcieConnectivityPolicyPcieZones {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * pcie_endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#pcie_endpoints DataIntersightComputePcieConnectivityPolicy#pcie_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#pcie_endpoints DataIntersightComputePcieConnectivityPolicy#pcie_endpoints}
   */
   readonly pcieEndpoints?: DataIntersightComputePcieConnectivityPolicyPcieZonesPcieEndpoints[] | cdktf.IResolvable;
   /**
   * root_pcie_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#root_pcie_endpoint DataIntersightComputePcieConnectivityPolicy#root_pcie_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#root_pcie_endpoint DataIntersightComputePcieConnectivityPolicy#root_pcie_endpoint}
   */
   readonly rootPcieEndpoint?: DataIntersightComputePcieConnectivityPolicyPcieZonesRootPcieEndpoint;
 }
@@ -3089,7 +3089,7 @@ export class DataIntersightComputePcieConnectivityPolicyPcieZonesList extends cd
 }
 export interface DataIntersightComputePcieConnectivityPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3097,19 +3097,19 @@ export interface DataIntersightComputePcieConnectivityPolicyPermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3122,7 +3122,7 @@ export interface DataIntersightComputePcieConnectivityPolicyPermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3354,7 +3354,7 @@ export class DataIntersightComputePcieConnectivityPolicyPermissionResourcesList 
 }
 export interface DataIntersightComputePcieConnectivityPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3362,19 +3362,19 @@ export interface DataIntersightComputePcieConnectivityPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3387,7 +3387,7 @@ export interface DataIntersightComputePcieConnectivityPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3619,7 +3619,7 @@ export class DataIntersightComputePcieConnectivityPolicyProfilesList extends cdk
 }
 export interface DataIntersightComputePcieConnectivityPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3627,19 +3627,19 @@ export interface DataIntersightComputePcieConnectivityPolicyTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3652,7 +3652,7 @@ export interface DataIntersightComputePcieConnectivityPolicyTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3884,7 +3884,7 @@ export class DataIntersightComputePcieConnectivityPolicyTagsAncestorDefinitionsL
 }
 export interface DataIntersightComputePcieConnectivityPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3892,19 +3892,19 @@ export interface DataIntersightComputePcieConnectivityPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3917,7 +3917,7 @@ export interface DataIntersightComputePcieConnectivityPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4117,25 +4117,25 @@ export class DataIntersightComputePcieConnectivityPolicyTagsDefinitionOutputRefe
 }
 export interface DataIntersightComputePcieConnectivityPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#key DataIntersightComputePcieConnectivityPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#key DataIntersightComputePcieConnectivityPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#propagated DataIntersightComputePcieConnectivityPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#propagated DataIntersightComputePcieConnectivityPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#sys_tag DataIntersightComputePcieConnectivityPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#sys_tag DataIntersightComputePcieConnectivityPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4143,25 +4143,25 @@ export interface DataIntersightComputePcieConnectivityPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#type DataIntersightComputePcieConnectivityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#type DataIntersightComputePcieConnectivityPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#value DataIntersightComputePcieConnectivityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#value DataIntersightComputePcieConnectivityPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#ancestor_definitions DataIntersightComputePcieConnectivityPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#ancestor_definitions DataIntersightComputePcieConnectivityPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputePcieConnectivityPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#definition DataIntersightComputePcieConnectivityPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#definition DataIntersightComputePcieConnectivityPolicy#definition}
   */
   readonly definition?: DataIntersightComputePcieConnectivityPolicyTagsDefinition;
 }
@@ -4480,7 +4480,7 @@ export class DataIntersightComputePcieConnectivityPolicyTagsList extends cdktf.C
 }
 export interface DataIntersightComputePcieConnectivityPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4488,19 +4488,19 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4513,7 +4513,7 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4745,7 +4745,7 @@ export class DataIntersightComputePcieConnectivityPolicyVersionContextInterested
 }
 export interface DataIntersightComputePcieConnectivityPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4753,19 +4753,19 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#moid DataIntersightComputePcieConnectivityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4778,7 +4778,7 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#selector DataIntersightComputePcieConnectivityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4978,7 +4978,7 @@ export class DataIntersightComputePcieConnectivityPolicyVersionContextRefMoOutpu
 }
 export interface DataIntersightComputePcieConnectivityPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#additional_properties DataIntersightComputePcieConnectivityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4986,32 +4986,32 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#class_id DataIntersightComputePcieConnectivityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#marked_for_deletion DataIntersightComputePcieConnectivityPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#marked_for_deletion DataIntersightComputePcieConnectivityPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#nr_version DataIntersightComputePcieConnectivityPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#nr_version DataIntersightComputePcieConnectivityPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#object_type DataIntersightComputePcieConnectivityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#timestamp DataIntersightComputePcieConnectivityPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#timestamp DataIntersightComputePcieConnectivityPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5022,19 +5022,19 @@ export interface DataIntersightComputePcieConnectivityPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#version_type DataIntersightComputePcieConnectivityPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#version_type DataIntersightComputePcieConnectivityPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#interested_mos DataIntersightComputePcieConnectivityPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#interested_mos DataIntersightComputePcieConnectivityPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputePcieConnectivityPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#ref_mo DataIntersightComputePcieConnectivityPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#ref_mo DataIntersightComputePcieConnectivityPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightComputePcieConnectivityPolicyVersionContextRefMo;
 }
@@ -5350,7 +5350,7 @@ export class DataIntersightComputePcieConnectivityPolicyVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy intersight_compute_pcie_connectivity_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy intersight_compute_pcie_connectivity_policy}
 */
 export class DataIntersightComputePcieConnectivityPolicy extends cdktf.TerraformDataSource {
 
@@ -5366,7 +5366,7 @@ export class DataIntersightComputePcieConnectivityPolicy extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightComputePcieConnectivityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputePcieConnectivityPolicy to import
-  * @param importFromId The id of the existing DataIntersightComputePcieConnectivityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputePcieConnectivityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputePcieConnectivityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5378,7 +5378,7 @@ export class DataIntersightComputePcieConnectivityPolicy extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_pcie_connectivity_policy intersight_compute_pcie_connectivity_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_pcie_connectivity_policy intersight_compute_pcie_connectivity_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5389,8 +5389,8 @@ export class DataIntersightComputePcieConnectivityPolicy extends cdktf.Terraform
       terraformResourceType: 'intersight_compute_pcie_connectivity_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

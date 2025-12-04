@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIppoolShadowBlockConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#account_moid DataIntersightIppoolShadowBlock#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#account_moid DataIntersightIppoolShadowBlock#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightIppoolShadowBlockConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#create_time DataIntersightIppoolShadowBlock#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#create_time DataIntersightIppoolShadowBlock#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#domain_group_moid DataIntersightIppoolShadowBlock#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#domain_group_moid DataIntersightIppoolShadowBlock#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Free IDs that can be allocated in this block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#free_block_count DataIntersightIppoolShadowBlock#free_block_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#free_block_count DataIntersightIppoolShadowBlock#free_block_count}
   */
   readonly freeBlockCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#id DataIntersightIppoolShadowBlock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#id DataIntersightIppoolShadowBlock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,103 +55,103 @@ export interface DataIntersightIppoolShadowBlockConfig extends cdktf.TerraformMe
   * * `IPv4` - IP V4 address type requested.
   * * `IPv6` - IP V6 address type requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ip_type DataIntersightIppoolShadowBlock#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ip_type DataIntersightIppoolShadowBlock#ip_type}
   */
   readonly ipType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#mod_time DataIntersightIppoolShadowBlock#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#mod_time DataIntersightIppoolShadowBlock#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * Moving counter to allocate the next identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#next_id_allocator DataIntersightIppoolShadowBlock#next_id_allocator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#next_id_allocator DataIntersightIppoolShadowBlock#next_id_allocator}
   */
   readonly nextIdAllocator?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#owners DataIntersightIppoolShadowBlock#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#owners DataIntersightIppoolShadowBlock#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#shared_scope DataIntersightIppoolShadowBlock#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#shared_scope DataIntersightIppoolShadowBlock#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ancestors DataIntersightIppoolShadowBlock#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ancestors DataIntersightIppoolShadowBlock#ancestors}
   */
   readonly ancestors?: DataIntersightIppoolShadowBlockAncestors[] | cdktf.IResolvable;
   /**
   * ip_v4_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ip_v4_block DataIntersightIppoolShadowBlock#ip_v4_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ip_v4_block DataIntersightIppoolShadowBlock#ip_v4_block}
   */
   readonly ipV4Block?: DataIntersightIppoolShadowBlockIpV4Block;
   /**
   * ip_v6_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ip_v6_block DataIntersightIppoolShadowBlock#ip_v6_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ip_v6_block DataIntersightIppoolShadowBlock#ip_v6_block}
   */
   readonly ipV6Block?: DataIntersightIppoolShadowBlockIpV6Block;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#parent DataIntersightIppoolShadowBlock#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#parent DataIntersightIppoolShadowBlock#parent}
   */
   readonly parent?: DataIntersightIppoolShadowBlockParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#permission_resources DataIntersightIppoolShadowBlock#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#permission_resources DataIntersightIppoolShadowBlock#permission_resources}
   */
   readonly permissionResources?: DataIntersightIppoolShadowBlockPermissionResources[] | cdktf.IResolvable;
   /**
   * pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#pool DataIntersightIppoolShadowBlock#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#pool DataIntersightIppoolShadowBlock#pool}
   */
   readonly pool?: DataIntersightIppoolShadowBlockPool;
   /**
   * reservations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#reservations DataIntersightIppoolShadowBlock#reservations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#reservations DataIntersightIppoolShadowBlock#reservations}
   */
   readonly reservations?: DataIntersightIppoolShadowBlockReservations[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#tags DataIntersightIppoolShadowBlock#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#tags DataIntersightIppoolShadowBlock#tags}
   */
   readonly tags?: DataIntersightIppoolShadowBlockTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#version_context DataIntersightIppoolShadowBlock#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#version_context DataIntersightIppoolShadowBlock#version_context}
   */
   readonly versionContext?: DataIntersightIppoolShadowBlockVersionContext;
   /**
   * vrf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#vrf DataIntersightIppoolShadowBlock#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#vrf DataIntersightIppoolShadowBlock#vrf}
   */
   readonly vrf?: DataIntersightIppoolShadowBlockVrf;
 }
@@ -1953,7 +1953,7 @@ export class DataIntersightIppoolShadowBlockResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIppoolShadowBlockAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1961,19 +1961,19 @@ export interface DataIntersightIppoolShadowBlockAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1986,7 +1986,7 @@ export interface DataIntersightIppoolShadowBlockAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -2218,7 +2218,7 @@ export class DataIntersightIppoolShadowBlockAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightIppoolShadowBlockIpV4BlockIpV4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2226,38 +2226,38 @@ export interface DataIntersightIppoolShadowBlockIpV4BlockIpV4Config {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * IP address of the default IPv4 gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#gateway DataIntersightIppoolShadowBlock#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#gateway DataIntersightIppoolShadowBlock#gateway}
   */
   readonly gateway?: string;
   /**
   * A subnet mask is a 32-bit number that masks an IP address and divides the IP address into network address and host address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#netmask DataIntersightIppoolShadowBlock#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#netmask DataIntersightIppoolShadowBlock#netmask}
   */
   readonly netmask?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
   * IP Address of the primary Domain Name System (DNS) server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#primary_dns DataIntersightIppoolShadowBlock#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#primary_dns DataIntersightIppoolShadowBlock#primary_dns}
   */
   readonly primaryDns?: string;
   /**
   * IP Address of the secondary Domain Name System (DNS) server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#secondary_dns DataIntersightIppoolShadowBlock#secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#secondary_dns DataIntersightIppoolShadowBlock#secondary_dns}
   */
   readonly secondaryDns?: string;
 }
@@ -2515,7 +2515,7 @@ export class DataIntersightIppoolShadowBlockIpV4BlockIpV4ConfigOutputReference e
 }
 export interface DataIntersightIppoolShadowBlockIpV4Block {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2523,38 +2523,38 @@ export interface DataIntersightIppoolShadowBlockIpV4Block {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * First IPv4 address of the block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#from DataIntersightIppoolShadowBlock#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#from DataIntersightIppoolShadowBlock#from}
   */
   readonly from?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
   * Number of identifiers this block can hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#size DataIntersightIppoolShadowBlock#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#size DataIntersightIppoolShadowBlock#size}
   */
   readonly size?: number;
   /**
   * Last IPv4 address of the block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#to DataIntersightIppoolShadowBlock#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#to DataIntersightIppoolShadowBlock#to}
   */
   readonly to?: string;
   /**
   * ip_v4_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ip_v4_config DataIntersightIppoolShadowBlock#ip_v4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ip_v4_config DataIntersightIppoolShadowBlock#ip_v4_config}
   */
   readonly ipV4Config?: DataIntersightIppoolShadowBlockIpV4BlockIpV4Config;
 }
@@ -2812,7 +2812,7 @@ export class DataIntersightIppoolShadowBlockIpV4BlockOutputReference extends cdk
 }
 export interface DataIntersightIppoolShadowBlockIpV6BlockIpV6Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2820,38 +2820,38 @@ export interface DataIntersightIppoolShadowBlockIpV6BlockIpV6Config {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * IP address of the default IPv6 gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#gateway DataIntersightIppoolShadowBlock#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#gateway DataIntersightIppoolShadowBlock#gateway}
   */
   readonly gateway?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
   * A prefix length which masks the  IP address and divides the IP address into network address and host address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#prefix DataIntersightIppoolShadowBlock#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#prefix DataIntersightIppoolShadowBlock#prefix}
   */
   readonly prefix?: number;
   /**
   * IP Address of the primary Domain Name System (DNS) server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#primary_dns DataIntersightIppoolShadowBlock#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#primary_dns DataIntersightIppoolShadowBlock#primary_dns}
   */
   readonly primaryDns?: string;
   /**
   * IP Address of the secondary Domain Name System (DNS) server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#secondary_dns DataIntersightIppoolShadowBlock#secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#secondary_dns DataIntersightIppoolShadowBlock#secondary_dns}
   */
   readonly secondaryDns?: string;
 }
@@ -3109,7 +3109,7 @@ export class DataIntersightIppoolShadowBlockIpV6BlockIpV6ConfigOutputReference e
 }
 export interface DataIntersightIppoolShadowBlockIpV6Block {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3117,38 +3117,38 @@ export interface DataIntersightIppoolShadowBlockIpV6Block {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * First IPv6 address of the block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#from DataIntersightIppoolShadowBlock#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#from DataIntersightIppoolShadowBlock#from}
   */
   readonly from?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
   * Number of identifiers this block can hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#size DataIntersightIppoolShadowBlock#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#size DataIntersightIppoolShadowBlock#size}
   */
   readonly size?: number;
   /**
   * Last IPv6 address of the block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#to DataIntersightIppoolShadowBlock#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#to DataIntersightIppoolShadowBlock#to}
   */
   readonly to?: string;
   /**
   * ip_v6_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ip_v6_config DataIntersightIppoolShadowBlock#ip_v6_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ip_v6_config DataIntersightIppoolShadowBlock#ip_v6_config}
   */
   readonly ipV6Config?: DataIntersightIppoolShadowBlockIpV6BlockIpV6Config;
 }
@@ -3406,7 +3406,7 @@ export class DataIntersightIppoolShadowBlockIpV6BlockOutputReference extends cdk
 }
 export interface DataIntersightIppoolShadowBlockParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3414,19 +3414,19 @@ export interface DataIntersightIppoolShadowBlockParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3439,7 +3439,7 @@ export interface DataIntersightIppoolShadowBlockParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -3639,7 +3639,7 @@ export class DataIntersightIppoolShadowBlockParentOutputReference extends cdktf.
 }
 export interface DataIntersightIppoolShadowBlockPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3647,19 +3647,19 @@ export interface DataIntersightIppoolShadowBlockPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3672,7 +3672,7 @@ export interface DataIntersightIppoolShadowBlockPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -3904,7 +3904,7 @@ export class DataIntersightIppoolShadowBlockPermissionResourcesList extends cdkt
 }
 export interface DataIntersightIppoolShadowBlockPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3912,19 +3912,19 @@ export interface DataIntersightIppoolShadowBlockPool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3937,7 +3937,7 @@ export interface DataIntersightIppoolShadowBlockPool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -4137,7 +4137,7 @@ export class DataIntersightIppoolShadowBlockPoolOutputReference extends cdktf.Co
 }
 export interface DataIntersightIppoolShadowBlockReservations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4145,19 +4145,19 @@ export interface DataIntersightIppoolShadowBlockReservations {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4170,7 +4170,7 @@ export interface DataIntersightIppoolShadowBlockReservations {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -4402,7 +4402,7 @@ export class DataIntersightIppoolShadowBlockReservationsList extends cdktf.Compl
 }
 export interface DataIntersightIppoolShadowBlockTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4410,19 +4410,19 @@ export interface DataIntersightIppoolShadowBlockTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4435,7 +4435,7 @@ export interface DataIntersightIppoolShadowBlockTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -4667,7 +4667,7 @@ export class DataIntersightIppoolShadowBlockTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightIppoolShadowBlockTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4675,19 +4675,19 @@ export interface DataIntersightIppoolShadowBlockTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4700,7 +4700,7 @@ export interface DataIntersightIppoolShadowBlockTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -4900,25 +4900,25 @@ export class DataIntersightIppoolShadowBlockTagsDefinitionOutputReference extend
 }
 export interface DataIntersightIppoolShadowBlockTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#key DataIntersightIppoolShadowBlock#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#key DataIntersightIppoolShadowBlock#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#propagated DataIntersightIppoolShadowBlock#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#propagated DataIntersightIppoolShadowBlock#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#sys_tag DataIntersightIppoolShadowBlock#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#sys_tag DataIntersightIppoolShadowBlock#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4926,25 +4926,25 @@ export interface DataIntersightIppoolShadowBlockTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#type DataIntersightIppoolShadowBlock#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#type DataIntersightIppoolShadowBlock#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#value DataIntersightIppoolShadowBlock#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#value DataIntersightIppoolShadowBlock#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ancestor_definitions DataIntersightIppoolShadowBlock#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ancestor_definitions DataIntersightIppoolShadowBlock#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIppoolShadowBlockTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#definition DataIntersightIppoolShadowBlock#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#definition DataIntersightIppoolShadowBlock#definition}
   */
   readonly definition?: DataIntersightIppoolShadowBlockTagsDefinition;
 }
@@ -5263,7 +5263,7 @@ export class DataIntersightIppoolShadowBlockTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIppoolShadowBlockVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5271,19 +5271,19 @@ export interface DataIntersightIppoolShadowBlockVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5296,7 +5296,7 @@ export interface DataIntersightIppoolShadowBlockVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -5528,7 +5528,7 @@ export class DataIntersightIppoolShadowBlockVersionContextInterestedMosList exte
 }
 export interface DataIntersightIppoolShadowBlockVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5536,19 +5536,19 @@ export interface DataIntersightIppoolShadowBlockVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5561,7 +5561,7 @@ export interface DataIntersightIppoolShadowBlockVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -5761,7 +5761,7 @@ export class DataIntersightIppoolShadowBlockVersionContextRefMoOutputReference e
 }
 export interface DataIntersightIppoolShadowBlockVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5769,32 +5769,32 @@ export interface DataIntersightIppoolShadowBlockVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#marked_for_deletion DataIntersightIppoolShadowBlock#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#marked_for_deletion DataIntersightIppoolShadowBlock#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#nr_version DataIntersightIppoolShadowBlock#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#nr_version DataIntersightIppoolShadowBlock#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#timestamp DataIntersightIppoolShadowBlock#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#timestamp DataIntersightIppoolShadowBlock#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5805,19 +5805,19 @@ export interface DataIntersightIppoolShadowBlockVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#version_type DataIntersightIppoolShadowBlock#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#version_type DataIntersightIppoolShadowBlock#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#interested_mos DataIntersightIppoolShadowBlock#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#interested_mos DataIntersightIppoolShadowBlock#interested_mos}
   */
   readonly interestedMos?: DataIntersightIppoolShadowBlockVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#ref_mo DataIntersightIppoolShadowBlock#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#ref_mo DataIntersightIppoolShadowBlock#ref_mo}
   */
   readonly refMo?: DataIntersightIppoolShadowBlockVersionContextRefMo;
 }
@@ -6133,7 +6133,7 @@ export class DataIntersightIppoolShadowBlockVersionContextOutputReference extend
 }
 export interface DataIntersightIppoolShadowBlockVrf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#additional_properties DataIntersightIppoolShadowBlock#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6141,19 +6141,19 @@ export interface DataIntersightIppoolShadowBlockVrf {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#class_id DataIntersightIppoolShadowBlock#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#moid DataIntersightIppoolShadowBlock#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#object_type DataIntersightIppoolShadowBlock#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6166,7 +6166,7 @@ export interface DataIntersightIppoolShadowBlockVrf {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#selector DataIntersightIppoolShadowBlock#selector}
   */
   readonly selector?: string;
 }
@@ -6366,7 +6366,7 @@ export class DataIntersightIppoolShadowBlockVrfOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block intersight_ippool_shadow_block}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block intersight_ippool_shadow_block}
 */
 export class DataIntersightIppoolShadowBlock extends cdktf.TerraformDataSource {
 
@@ -6382,7 +6382,7 @@ export class DataIntersightIppoolShadowBlock extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIppoolShadowBlock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIppoolShadowBlock to import
-  * @param importFromId The id of the existing DataIntersightIppoolShadowBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIppoolShadowBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIppoolShadowBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6394,7 +6394,7 @@ export class DataIntersightIppoolShadowBlock extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ippool_shadow_block intersight_ippool_shadow_block} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ippool_shadow_block intersight_ippool_shadow_block} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6405,8 +6405,8 @@ export class DataIntersightIppoolShadowBlock extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ippool_shadow_block',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

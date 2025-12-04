@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,24 +10,24 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#account_moid FirmwareChassisUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#account_moid FirmwareChassisUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#ancestors FirmwareChassisUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#ancestors FirmwareChassisUpgrade#ancestors}
   */
   readonly ancestors?: FirmwareChassisUpgradeAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a equipmentChassis resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#chassis FirmwareChassisUpgrade#chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#chassis FirmwareChassisUpgrade#chassis}
   */
   readonly chassis?: FirmwareChassisUpgradeChassis[] | cdktf.IResolvable;
   /**
@@ -35,53 +35,53 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#create_time FirmwareChassisUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#create_time FirmwareChassisUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#device FirmwareChassisUpgrade#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#device FirmwareChassisUpgrade#device}
   */
   readonly device?: FirmwareChassisUpgradeDevice[] | cdktf.IResolvable;
   /**
   * Direct download options in case the upgradeType is direct download based upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#direct_download FirmwareChassisUpgrade#direct_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#direct_download FirmwareChassisUpgrade#direct_download}
   */
   readonly directDownload?: FirmwareChassisUpgradeDirectDownload[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareDistributable resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#distributable FirmwareChassisUpgrade#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#distributable FirmwareChassisUpgrade#distributable}
   */
   readonly distributable?: FirmwareChassisUpgradeDistributable[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#domain_group_moid FirmwareChassisUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#domain_group_moid FirmwareChassisUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#exclude_component_list FirmwareChassisUpgrade#exclude_component_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#exclude_component_list FirmwareChassisUpgrade#exclude_component_list}
   */
   readonly excludeComponentList?: string[];
   /**
   * Location of the image in user software repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#file_server FirmwareChassisUpgrade#file_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#file_server FirmwareChassisUpgrade#file_server}
   */
   readonly fileServer?: FirmwareChassisUpgradeFileServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#id FirmwareChassisUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#id FirmwareChassisUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,63 +90,63 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#mod_time FirmwareChassisUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#mod_time FirmwareChassisUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * Deprecated (Use 'fileServer' property). Network share options in case of the upgradeType is network share based upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#network_share FirmwareChassisUpgrade#network_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#network_share FirmwareChassisUpgrade#network_share}
   */
   readonly networkShare?: FirmwareChassisUpgradeNetworkShare[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#owners FirmwareChassisUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#owners FirmwareChassisUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#parent FirmwareChassisUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#parent FirmwareChassisUpgrade#parent}
   */
   readonly parent?: FirmwareChassisUpgradeParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#permission_resources FirmwareChassisUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#permission_resources FirmwareChassisUpgrade#permission_resources}
   */
   readonly permissionResources?: FirmwareChassisUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#release FirmwareChassisUpgrade#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#release FirmwareChassisUpgrade#release}
   */
   readonly release?: FirmwareChassisUpgradeRelease[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#shared_scope FirmwareChassisUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#shared_scope FirmwareChassisUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User has the option to skip the estimate impact calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#skip_estimate_impact FirmwareChassisUpgrade#skip_estimate_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#skip_estimate_impact FirmwareChassisUpgrade#skip_estimate_impact}
   */
   readonly skipEstimateImpact?: boolean | cdktf.IResolvable;
   /**
@@ -157,25 +157,25 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   * * `FAILED` - The upgrade shows failed status.
   * * `TERMINATED` - The upgrade has been terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#status FirmwareChassisUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#status FirmwareChassisUpgrade#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#tags FirmwareChassisUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#tags FirmwareChassisUpgrade#tags}
   */
   readonly tags?: FirmwareChassisUpgradeTags[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareUpgradeImpactStatus resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#upgrade_impact FirmwareChassisUpgrade#upgrade_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#upgrade_impact FirmwareChassisUpgrade#upgrade_impact}
   */
   readonly upgradeImpact?: FirmwareChassisUpgradeUpgradeImpact[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareUpgradeStatus resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#upgrade_status FirmwareChassisUpgrade#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#upgrade_status FirmwareChassisUpgrade#upgrade_status}
   */
   readonly upgradeStatus?: FirmwareChassisUpgradeUpgradeStatus[] | cdktf.IResolvable;
   /**
@@ -183,13 +183,13 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   * * `direct_upgrade` - Upgrade mode is direct download.
   * * `network_upgrade` - Upgrade mode is network upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#upgrade_type FirmwareChassisUpgrade#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#upgrade_type FirmwareChassisUpgrade#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#version_context FirmwareChassisUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#version_context FirmwareChassisUpgrade#version_context}
   */
   readonly versionContext?: FirmwareChassisUpgradeVersionContext[] | cdktf.IResolvable;
   /**
@@ -198,29 +198,29 @@ export interface FirmwareChassisUpgradeConfig extends cdktf.TerraformMetaArgumen
   * * `full-shutdown` - PSX Switch in XFM will be upgraded in single action.
   * * `partial-shutdown` - PSX Switch in XFM will be upgraded one after other.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#xfm_upgrade_option FirmwareChassisUpgrade#xfm_upgrade_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#xfm_upgrade_option FirmwareChassisUpgrade#xfm_upgrade_option}
   */
   readonly xfmUpgradeOption?: string;
 }
 export interface FirmwareChassisUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -452,23 +452,23 @@ export class FirmwareChassisUpgradeAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -700,23 +700,23 @@ export class FirmwareChassisUpgradeChassisList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -948,23 +948,23 @@ export class FirmwareChassisUpgradeDeviceList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeDirectDownloadHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#location_link FirmwareChassisUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#location_link FirmwareChassisUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -1196,39 +1196,39 @@ export class FirmwareChassisUpgradeDirectDownloadHttpServerList extends cdktf.Co
 }
 export interface FirmwareChassisUpgradeDirectDownload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#http_server FirmwareChassisUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#http_server FirmwareChassisUpgrade#http_server}
   */
   readonly httpServer?: FirmwareChassisUpgradeDirectDownloadHttpServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#image_source FirmwareChassisUpgrade#image_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#image_source FirmwareChassisUpgrade#image_source}
   */
   readonly imageSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#is_password_set FirmwareChassisUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#is_password_set FirmwareChassisUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#password FirmwareChassisUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#password FirmwareChassisUpgrade#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#upgradeoption FirmwareChassisUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#upgradeoption FirmwareChassisUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#username FirmwareChassisUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#username FirmwareChassisUpgrade#username}
   */
   readonly username?: string;
 }
@@ -1576,23 +1576,23 @@ export class FirmwareChassisUpgradeDirectDownloadList extends cdktf.ComplexList 
 }
 export interface FirmwareChassisUpgradeDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1824,15 +1824,15 @@ export class FirmwareChassisUpgradeDistributableList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeFileServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -2006,35 +2006,35 @@ export class FirmwareChassisUpgradeFileServerList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeNetworkShareCifsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#file_location FirmwareChassisUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#file_location FirmwareChassisUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_file FirmwareChassisUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_file FirmwareChassisUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_ip FirmwareChassisUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_ip FirmwareChassisUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_share FirmwareChassisUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_share FirmwareChassisUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -2353,23 +2353,23 @@ export class FirmwareChassisUpgradeNetworkShareCifsServerList extends cdktf.Comp
 }
 export interface FirmwareChassisUpgradeNetworkShareHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#location_link FirmwareChassisUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#location_link FirmwareChassisUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -2601,35 +2601,35 @@ export class FirmwareChassisUpgradeNetworkShareHttpServerList extends cdktf.Comp
 }
 export interface FirmwareChassisUpgradeNetworkShareNfsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#file_location FirmwareChassisUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#file_location FirmwareChassisUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#mount_options FirmwareChassisUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_file FirmwareChassisUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_file FirmwareChassisUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_ip FirmwareChassisUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_ip FirmwareChassisUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#remote_share FirmwareChassisUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#remote_share FirmwareChassisUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -2948,47 +2948,47 @@ export class FirmwareChassisUpgradeNetworkShareNfsServerList extends cdktf.Compl
 }
 export interface FirmwareChassisUpgradeNetworkShare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#cifs_server FirmwareChassisUpgrade#cifs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#cifs_server FirmwareChassisUpgrade#cifs_server}
   */
   readonly cifsServer?: FirmwareChassisUpgradeNetworkShareCifsServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#http_server FirmwareChassisUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#http_server FirmwareChassisUpgrade#http_server}
   */
   readonly httpServer?: FirmwareChassisUpgradeNetworkShareHttpServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#is_password_set FirmwareChassisUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#is_password_set FirmwareChassisUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#map_type FirmwareChassisUpgrade#map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#map_type FirmwareChassisUpgrade#map_type}
   */
   readonly mapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#nfs_server FirmwareChassisUpgrade#nfs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#nfs_server FirmwareChassisUpgrade#nfs_server}
   */
   readonly nfsServer?: FirmwareChassisUpgradeNetworkShareNfsServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#password FirmwareChassisUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#password FirmwareChassisUpgrade#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#upgradeoption FirmwareChassisUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#upgradeoption FirmwareChassisUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#username FirmwareChassisUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#username FirmwareChassisUpgrade#username}
   */
   readonly username?: string;
 }
@@ -3394,23 +3394,23 @@ export class FirmwareChassisUpgradeNetworkShareList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3642,23 +3642,23 @@ export class FirmwareChassisUpgradeParentList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3890,23 +3890,23 @@ export class FirmwareChassisUpgradePermissionResourcesList extends cdktf.Complex
 }
 export interface FirmwareChassisUpgradeRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4138,23 +4138,23 @@ export class FirmwareChassisUpgradeReleaseList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4386,23 +4386,23 @@ export class FirmwareChassisUpgradeTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface FirmwareChassisUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4634,35 +4634,35 @@ export class FirmwareChassisUpgradeTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface FirmwareChassisUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#ancestor_definitions FirmwareChassisUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#ancestor_definitions FirmwareChassisUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareChassisUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#definition FirmwareChassisUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#definition FirmwareChassisUpgrade#definition}
   */
   readonly definition?: FirmwareChassisUpgradeTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#key FirmwareChassisUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#key FirmwareChassisUpgrade#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#propagated FirmwareChassisUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#propagated FirmwareChassisUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#sys_tag FirmwareChassisUpgrade#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#sys_tag FirmwareChassisUpgrade#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#type FirmwareChassisUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#type FirmwareChassisUpgrade#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#value FirmwareChassisUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#value FirmwareChassisUpgrade#value}
   */
   readonly value?: string;
 }
@@ -4981,23 +4981,23 @@ export class FirmwareChassisUpgradeTagsList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeUpgradeImpact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5229,23 +5229,23 @@ export class FirmwareChassisUpgradeUpgradeImpactList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeUpgradeStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5477,23 +5477,23 @@ export class FirmwareChassisUpgradeUpgradeStatusList extends cdktf.ComplexList {
 }
 export interface FirmwareChassisUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5725,23 +5725,23 @@ export class FirmwareChassisUpgradeVersionContextInterestedMosList extends cdktf
 }
 export interface FirmwareChassisUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#moid FirmwareChassisUpgrade#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#selector FirmwareChassisUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5973,39 +5973,39 @@ export class FirmwareChassisUpgradeVersionContextRefMoList extends cdktf.Complex
 }
 export interface FirmwareChassisUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#additional_properties FirmwareChassisUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#class_id FirmwareChassisUpgrade#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#interested_mos FirmwareChassisUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#interested_mos FirmwareChassisUpgrade#interested_mos}
   */
   readonly interestedMos?: FirmwareChassisUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#marked_for_deletion FirmwareChassisUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#marked_for_deletion FirmwareChassisUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#nr_version FirmwareChassisUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#nr_version FirmwareChassisUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#object_type FirmwareChassisUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#ref_mo FirmwareChassisUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#ref_mo FirmwareChassisUpgrade#ref_mo}
   */
   readonly refMo?: FirmwareChassisUpgradeVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#timestamp FirmwareChassisUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#timestamp FirmwareChassisUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#version_type FirmwareChassisUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#version_type FirmwareChassisUpgrade#version_type}
   */
   readonly versionType?: string;
 }
@@ -6353,7 +6353,7 @@ export class FirmwareChassisUpgradeVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade intersight_firmware_chassis_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade intersight_firmware_chassis_upgrade}
 */
 export class FirmwareChassisUpgrade extends cdktf.TerraformResource {
 
@@ -6369,7 +6369,7 @@ export class FirmwareChassisUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwareChassisUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareChassisUpgrade to import
-  * @param importFromId The id of the existing FirmwareChassisUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareChassisUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareChassisUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6381,7 +6381,7 @@ export class FirmwareChassisUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_chassis_upgrade intersight_firmware_chassis_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_chassis_upgrade intersight_firmware_chassis_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6392,8 +6392,8 @@ export class FirmwareChassisUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_chassis_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

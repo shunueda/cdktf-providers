@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface SoftwarerepositoryAuthorizationConfig extends cdktf.TerraformMe
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#account SoftwarerepositoryAuthorization#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#account SoftwarerepositoryAuthorization#account}
   */
   readonly account?: SoftwarerepositoryAuthorizationAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#account_moid SoftwarerepositoryAuthorization#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#account_moid SoftwarerepositoryAuthorization#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#ancestors SoftwarerepositoryAuthorization#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#ancestors SoftwarerepositoryAuthorization#ancestors}
   */
   readonly ancestors?: SoftwarerepositoryAuthorizationAncestors[] | cdktf.IResolvable;
   /**
@@ -35,23 +35,23 @@ export interface SoftwarerepositoryAuthorizationConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#create_time SoftwarerepositoryAuthorization#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#create_time SoftwarerepositoryAuthorization#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#domain_group_moid SoftwarerepositoryAuthorization#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#domain_group_moid SoftwarerepositoryAuthorization#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#id SoftwarerepositoryAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#id SoftwarerepositoryAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,25 +60,25 @@ export interface SoftwarerepositoryAuthorizationConfig extends cdktf.TerraformMe
   /**
   * The state of the alarm dismissal for the 'IsAsdDialogDismissed' alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#is_asdv4_alarm_dismissed SoftwarerepositoryAuthorization#is_asdv4_alarm_dismissed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#is_asdv4_alarm_dismissed SoftwarerepositoryAuthorization#is_asdv4_alarm_dismissed}
   */
   readonly isAsdv4AlarmDismissed?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#is_password_set SoftwarerepositoryAuthorization#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#is_password_set SoftwarerepositoryAuthorization#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#mod_time SoftwarerepositoryAuthorization#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#mod_time SoftwarerepositoryAuthorization#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
@@ -86,37 +86,37 @@ export interface SoftwarerepositoryAuthorizationConfig extends cdktf.TerraformMe
   * * `V3` - The client is running Automated Software Distribution V3.
   * * `V4` - The client is running Automated Software Distribution V4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#nr_version SoftwarerepositoryAuthorization#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#nr_version SoftwarerepositoryAuthorization#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#owners SoftwarerepositoryAuthorization#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#owners SoftwarerepositoryAuthorization#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#parent SoftwarerepositoryAuthorization#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#parent SoftwarerepositoryAuthorization#parent}
   */
   readonly parent?: SoftwarerepositoryAuthorizationParent[] | cdktf.IResolvable;
   /**
   * The password that will be used by Intersight to create OAuth2 tokens for interacting with the external repository, on the user account's behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#password SoftwarerepositoryAuthorization#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#password SoftwarerepositoryAuthorization#password}
   */
   readonly password?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#permission_resources SoftwarerepositoryAuthorization#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#permission_resources SoftwarerepositoryAuthorization#permission_resources}
   */
   readonly permissionResources?: SoftwarerepositoryAuthorizationPermissionResources[] | cdktf.IResolvable;
   /**
@@ -126,52 +126,52 @@ export interface SoftwarerepositoryAuthorizationConfig extends cdktf.TerraformMe
   * * `LocalMachine` - The file is available on the local client machine. Used as an upload source type.
   * * `NetworkShare` - External repository in the customer datacenter. This will typically be a file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#repository_type SoftwarerepositoryAuthorization#repository_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#repository_type SoftwarerepositoryAuthorization#repository_type}
   */
   readonly repositoryType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#shared_scope SoftwarerepositoryAuthorization#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#shared_scope SoftwarerepositoryAuthorization#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#tags SoftwarerepositoryAuthorization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#tags SoftwarerepositoryAuthorization#tags}
   */
   readonly tags?: SoftwarerepositoryAuthorizationTags[] | cdktf.IResolvable;
   /**
   * The username that will be used by Intersight to create OAuth2 tokens for interacting with the external repository, on the user account's behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#user_id SoftwarerepositoryAuthorization#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#user_id SoftwarerepositoryAuthorization#user_id}
   */
   readonly userId?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#version_context SoftwarerepositoryAuthorization#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#version_context SoftwarerepositoryAuthorization#version_context}
   */
   readonly versionContext?: SoftwarerepositoryAuthorizationVersionContext[] | cdktf.IResolvable;
 }
 export interface SoftwarerepositoryAuthorizationAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -403,23 +403,23 @@ export class SoftwarerepositoryAuthorizationAccountList extends cdktf.ComplexLis
 }
 export interface SoftwarerepositoryAuthorizationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -651,23 +651,23 @@ export class SoftwarerepositoryAuthorizationAncestorsList extends cdktf.ComplexL
 }
 export interface SoftwarerepositoryAuthorizationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -899,23 +899,23 @@ export class SoftwarerepositoryAuthorizationParentList extends cdktf.ComplexList
 }
 export interface SoftwarerepositoryAuthorizationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -1147,23 +1147,23 @@ export class SoftwarerepositoryAuthorizationPermissionResourcesList extends cdkt
 }
 export interface SoftwarerepositoryAuthorizationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -1395,23 +1395,23 @@ export class SoftwarerepositoryAuthorizationTagsAncestorDefinitionsList extends 
 }
 export interface SoftwarerepositoryAuthorizationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -1643,35 +1643,35 @@ export class SoftwarerepositoryAuthorizationTagsDefinitionList extends cdktf.Com
 }
 export interface SoftwarerepositoryAuthorizationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#ancestor_definitions SoftwarerepositoryAuthorization#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#ancestor_definitions SoftwarerepositoryAuthorization#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SoftwarerepositoryAuthorizationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#definition SoftwarerepositoryAuthorization#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#definition SoftwarerepositoryAuthorization#definition}
   */
   readonly definition?: SoftwarerepositoryAuthorizationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#key SoftwarerepositoryAuthorization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#key SoftwarerepositoryAuthorization#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#propagated SoftwarerepositoryAuthorization#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#propagated SoftwarerepositoryAuthorization#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#sys_tag SoftwarerepositoryAuthorization#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#sys_tag SoftwarerepositoryAuthorization#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#type SoftwarerepositoryAuthorization#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#type SoftwarerepositoryAuthorization#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#value SoftwarerepositoryAuthorization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#value SoftwarerepositoryAuthorization#value}
   */
   readonly value?: string;
 }
@@ -1990,23 +1990,23 @@ export class SoftwarerepositoryAuthorizationTagsList extends cdktf.ComplexList {
 }
 export interface SoftwarerepositoryAuthorizationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2238,23 +2238,23 @@ export class SoftwarerepositoryAuthorizationVersionContextInterestedMosList exte
 }
 export interface SoftwarerepositoryAuthorizationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#moid SoftwarerepositoryAuthorization#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#selector SoftwarerepositoryAuthorization#selector}
   */
   readonly selector?: string;
 }
@@ -2486,39 +2486,39 @@ export class SoftwarerepositoryAuthorizationVersionContextRefMoList extends cdkt
 }
 export interface SoftwarerepositoryAuthorizationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#additional_properties SoftwarerepositoryAuthorization#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#class_id SoftwarerepositoryAuthorization#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#interested_mos SoftwarerepositoryAuthorization#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#interested_mos SoftwarerepositoryAuthorization#interested_mos}
   */
   readonly interestedMos?: SoftwarerepositoryAuthorizationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#marked_for_deletion SoftwarerepositoryAuthorization#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#marked_for_deletion SoftwarerepositoryAuthorization#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#nr_version SoftwarerepositoryAuthorization#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#nr_version SoftwarerepositoryAuthorization#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#object_type SoftwarerepositoryAuthorization#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#ref_mo SoftwarerepositoryAuthorization#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#ref_mo SoftwarerepositoryAuthorization#ref_mo}
   */
   readonly refMo?: SoftwarerepositoryAuthorizationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#timestamp SoftwarerepositoryAuthorization#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#timestamp SoftwarerepositoryAuthorization#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#version_type SoftwarerepositoryAuthorization#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#version_type SoftwarerepositoryAuthorization#version_type}
   */
   readonly versionType?: string;
 }
@@ -2866,7 +2866,7 @@ export class SoftwarerepositoryAuthorizationVersionContextList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization intersight_softwarerepository_authorization}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization intersight_softwarerepository_authorization}
 */
 export class SoftwarerepositoryAuthorization extends cdktf.TerraformResource {
 
@@ -2882,7 +2882,7 @@ export class SoftwarerepositoryAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SoftwarerepositoryAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SoftwarerepositoryAuthorization to import
-  * @param importFromId The id of the existing SoftwarerepositoryAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SoftwarerepositoryAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SoftwarerepositoryAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2894,7 +2894,7 @@ export class SoftwarerepositoryAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_authorization intersight_softwarerepository_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_authorization intersight_softwarerepository_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2905,8 +2905,8 @@ export class SoftwarerepositoryAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_softwarerepository_authorization',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

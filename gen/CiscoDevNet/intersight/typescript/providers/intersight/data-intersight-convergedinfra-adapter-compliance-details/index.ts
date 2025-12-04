@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#account_moid DataIntersightConvergedinfraAdapterComplianceDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#account_moid DataIntersightConvergedinfraAdapterComplianceDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,37 +22,37 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#create_time DataIntersightConvergedinfraAdapterComplianceDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#create_time DataIntersightConvergedinfraAdapterComplianceDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#domain_group_moid DataIntersightConvergedinfraAdapterComplianceDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#domain_group_moid DataIntersightConvergedinfraAdapterComplianceDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The driver name (e.g. nenic, nfnic) of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#driver_name DataIntersightConvergedinfraAdapterComplianceDetails#driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#driver_name DataIntersightConvergedinfraAdapterComplianceDetails#driver_name}
   */
   readonly driverName?: string;
   /**
   * The driver version of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#driver_version DataIntersightConvergedinfraAdapterComplianceDetails#driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#driver_version DataIntersightConvergedinfraAdapterComplianceDetails#driver_version}
   */
   readonly driverVersion?: string;
   /**
   * The firmware version of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#firmware DataIntersightConvergedinfraAdapterComplianceDetails#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#firmware DataIntersightConvergedinfraAdapterComplianceDetails#firmware}
   */
   readonly firmware?: string;
   /**
@@ -62,7 +62,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   * * `NotApproved` - The component is not valid as per the interoperability compliance check.
   * * `Incomplete` - The interoperability compliance check could not be completed for the component due to incomplete data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#hcl_status DataIntersightConvergedinfraAdapterComplianceDetails#hcl_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#hcl_status DataIntersightConvergedinfraAdapterComplianceDetails#hcl_status}
   */
   readonly hclStatus?: string;
   /**
@@ -81,11 +81,11 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   * * `Not-Evaluated` - The validation for the hardware or software HCL status was not yet evaluated because some previous validation had failed. For example if a server's hardware profile fails to validate with HCL, then the server's software status will not be evaluated.
   * * `Compatible` - The validation has passed for this server PID, processor, OS vendor and version, component model, component firmware and driver version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#hcl_status_reason DataIntersightConvergedinfraAdapterComplianceDetails#hcl_status_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#hcl_status_reason DataIntersightConvergedinfraAdapterComplianceDetails#hcl_status_reason}
   */
   readonly hclStatusReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#id DataIntersightConvergedinfraAdapterComplianceDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#id DataIntersightConvergedinfraAdapterComplianceDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,36 +94,36 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#mod_time DataIntersightConvergedinfraAdapterComplianceDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#mod_time DataIntersightConvergedinfraAdapterComplianceDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model information of the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#model DataIntersightConvergedinfraAdapterComplianceDetails#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#model DataIntersightConvergedinfraAdapterComplianceDetails#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The name of the component for which the compliance is evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#name DataIntersightConvergedinfraAdapterComplianceDetails#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#name DataIntersightConvergedinfraAdapterComplianceDetails#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#owners DataIntersightConvergedinfraAdapterComplianceDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#owners DataIntersightConvergedinfraAdapterComplianceDetails#owners}
   */
   readonly owners?: string[];
   /**
@@ -147,14 +147,14 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   * * `Incompatible-Components` - The validation failed for the given server because one or more of its components failed validation.
   * * `Compatible` - This means the HCL status and Interop status for the component have passed all validations for all of its related components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#reason DataIntersightConvergedinfraAdapterComplianceDetails#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#reason DataIntersightConvergedinfraAdapterComplianceDetails#reason}
   */
   readonly reason?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#shared_scope DataIntersightConvergedinfraAdapterComplianceDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#shared_scope DataIntersightConvergedinfraAdapterComplianceDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -164,55 +164,55 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsConfig exte
   * * `NotApproved` - The component is not valid as per the interoperability compliance check.
   * * `Incomplete` - The interoperability compliance check could not be completed for the component due to incomplete data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#status DataIntersightConvergedinfraAdapterComplianceDetails#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#status DataIntersightConvergedinfraAdapterComplianceDetails#status}
   */
   readonly status?: string;
   /**
   * adapter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#adapter DataIntersightConvergedinfraAdapterComplianceDetails#adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#adapter DataIntersightConvergedinfraAdapterComplianceDetails#adapter}
   */
   readonly adapter?: DataIntersightConvergedinfraAdapterComplianceDetailsAdapter;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#ancestors DataIntersightConvergedinfraAdapterComplianceDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#ancestors DataIntersightConvergedinfraAdapterComplianceDetails#ancestors}
   */
   readonly ancestors?: DataIntersightConvergedinfraAdapterComplianceDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#parent DataIntersightConvergedinfraAdapterComplianceDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#parent DataIntersightConvergedinfraAdapterComplianceDetails#parent}
   */
   readonly parent?: DataIntersightConvergedinfraAdapterComplianceDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#permission_resources DataIntersightConvergedinfraAdapterComplianceDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#permission_resources DataIntersightConvergedinfraAdapterComplianceDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightConvergedinfraAdapterComplianceDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * server_compliance_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#server_compliance_details DataIntersightConvergedinfraAdapterComplianceDetails#server_compliance_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#server_compliance_details DataIntersightConvergedinfraAdapterComplianceDetails#server_compliance_details}
   */
   readonly serverComplianceDetails?: DataIntersightConvergedinfraAdapterComplianceDetailsServerComplianceDetails;
   /**
   * storage_compliances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#storage_compliances DataIntersightConvergedinfraAdapterComplianceDetails#storage_compliances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#storage_compliances DataIntersightConvergedinfraAdapterComplianceDetails#storage_compliances}
   */
   readonly storageCompliances?: DataIntersightConvergedinfraAdapterComplianceDetailsStorageCompliances[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#tags DataIntersightConvergedinfraAdapterComplianceDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#tags DataIntersightConvergedinfraAdapterComplianceDetails#tags}
   */
   readonly tags?: DataIntersightConvergedinfraAdapterComplianceDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#version_context DataIntersightConvergedinfraAdapterComplianceDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#version_context DataIntersightConvergedinfraAdapterComplianceDetails#version_context}
   */
   readonly versionContext?: DataIntersightConvergedinfraAdapterComplianceDetailsVersionContext;
 }
@@ -1610,7 +1610,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsResultsList ext
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsAdapter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1618,19 +1618,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsAdapter {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1643,7 +1643,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsAdapter {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1843,7 +1843,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsAdapterOutputRe
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1851,19 +1851,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1876,7 +1876,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2108,7 +2108,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsAncestorsList e
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2116,19 +2116,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2141,7 +2141,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2341,7 +2341,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsParentOutputRef
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2349,19 +2349,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsPermissionR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2374,7 +2374,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsPermissionR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2606,7 +2606,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsPermissionResou
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsServerComplianceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2614,19 +2614,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsServerCompl
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2639,7 +2639,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsServerCompl
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2839,7 +2839,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsServerComplianc
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsStorageCompliances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2847,19 +2847,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsStorageComp
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2872,7 +2872,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsStorageComp
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3104,7 +3104,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsStorageComplian
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3112,19 +3112,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsAncesto
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3137,7 +3137,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsAncesto
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3369,7 +3369,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsTagsAncestorDef
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3377,19 +3377,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3402,7 +3402,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsTagsDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3602,25 +3602,25 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsTagsDefinitionO
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#key DataIntersightConvergedinfraAdapterComplianceDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#key DataIntersightConvergedinfraAdapterComplianceDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#propagated DataIntersightConvergedinfraAdapterComplianceDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#propagated DataIntersightConvergedinfraAdapterComplianceDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#sys_tag DataIntersightConvergedinfraAdapterComplianceDetails#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#sys_tag DataIntersightConvergedinfraAdapterComplianceDetails#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3628,25 +3628,25 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#type DataIntersightConvergedinfraAdapterComplianceDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#type DataIntersightConvergedinfraAdapterComplianceDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#value DataIntersightConvergedinfraAdapterComplianceDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#value DataIntersightConvergedinfraAdapterComplianceDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#ancestor_definitions DataIntersightConvergedinfraAdapterComplianceDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#ancestor_definitions DataIntersightConvergedinfraAdapterComplianceDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightConvergedinfraAdapterComplianceDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#definition DataIntersightConvergedinfraAdapterComplianceDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#definition DataIntersightConvergedinfraAdapterComplianceDetails#definition}
   */
   readonly definition?: DataIntersightConvergedinfraAdapterComplianceDetailsTagsDefinition;
 }
@@ -3965,7 +3965,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsTagsList extend
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3973,19 +3973,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3998,7 +3998,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -4230,7 +4230,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextI
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4238,19 +4238,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#moid DataIntersightConvergedinfraAdapterComplianceDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4263,7 +4263,7 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#selector DataIntersightConvergedinfraAdapterComplianceDetails#selector}
   */
   readonly selector?: string;
 }
@@ -4463,7 +4463,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextR
 }
 export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#additional_properties DataIntersightConvergedinfraAdapterComplianceDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4471,32 +4471,32 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#class_id DataIntersightConvergedinfraAdapterComplianceDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#marked_for_deletion DataIntersightConvergedinfraAdapterComplianceDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#marked_for_deletion DataIntersightConvergedinfraAdapterComplianceDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#nr_version DataIntersightConvergedinfraAdapterComplianceDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#nr_version DataIntersightConvergedinfraAdapterComplianceDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#object_type DataIntersightConvergedinfraAdapterComplianceDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#timestamp DataIntersightConvergedinfraAdapterComplianceDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#timestamp DataIntersightConvergedinfraAdapterComplianceDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4507,19 +4507,19 @@ export interface DataIntersightConvergedinfraAdapterComplianceDetailsVersionCont
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#version_type DataIntersightConvergedinfraAdapterComplianceDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#version_type DataIntersightConvergedinfraAdapterComplianceDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#interested_mos DataIntersightConvergedinfraAdapterComplianceDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#interested_mos DataIntersightConvergedinfraAdapterComplianceDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#ref_mo DataIntersightConvergedinfraAdapterComplianceDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#ref_mo DataIntersightConvergedinfraAdapterComplianceDetails#ref_mo}
   */
   readonly refMo?: DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextRefMo;
 }
@@ -4835,7 +4835,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetailsVersionContextO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details intersight_convergedinfra_adapter_compliance_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details intersight_convergedinfra_adapter_compliance_details}
 */
 export class DataIntersightConvergedinfraAdapterComplianceDetails extends cdktf.TerraformDataSource {
 
@@ -4851,7 +4851,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetails extends cdktf.
   * Generates CDKTF code for importing a DataIntersightConvergedinfraAdapterComplianceDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightConvergedinfraAdapterComplianceDetails to import
-  * @param importFromId The id of the existing DataIntersightConvergedinfraAdapterComplianceDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightConvergedinfraAdapterComplianceDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightConvergedinfraAdapterComplianceDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4863,7 +4863,7 @@ export class DataIntersightConvergedinfraAdapterComplianceDetails extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/convergedinfra_adapter_compliance_details intersight_convergedinfra_adapter_compliance_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/convergedinfra_adapter_compliance_details intersight_convergedinfra_adapter_compliance_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4874,8 +4874,8 @@ export class DataIntersightConvergedinfraAdapterComplianceDetails extends cdktf.
       terraformResourceType: 'intersight_convergedinfra_adapter_compliance_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

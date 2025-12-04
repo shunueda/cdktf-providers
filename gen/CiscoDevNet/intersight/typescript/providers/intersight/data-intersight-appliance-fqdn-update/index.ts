@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceFqdnUpdateConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#account_moid DataIntersightApplianceFqdnUpdate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#account_moid DataIntersightApplianceFqdnUpdate#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightApplianceFqdnUpdateConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#create_time DataIntersightApplianceFqdnUpdate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#create_time DataIntersightApplianceFqdnUpdate#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#domain_group_moid DataIntersightApplianceFqdnUpdate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#domain_group_moid DataIntersightApplianceFqdnUpdate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * End date of the appliance FQDN change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#end_time DataIntersightApplianceFqdnUpdate#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#end_time DataIntersightApplianceFqdnUpdate#end_time}
   */
   readonly endTime?: string;
   /**
   * The FQDN (fully qualified domain name) of the destination appliance for target migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#fqdn DataIntersightApplianceFqdnUpdate#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#fqdn DataIntersightApplianceFqdnUpdate#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#id DataIntersightApplianceFqdnUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#id DataIntersightApplianceFqdnUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,37 +59,37 @@ export interface DataIntersightApplianceFqdnUpdateConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#mod_time DataIntersightApplianceFqdnUpdate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#mod_time DataIntersightApplianceFqdnUpdate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#owners DataIntersightApplianceFqdnUpdate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#owners DataIntersightApplianceFqdnUpdate#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#shared_scope DataIntersightApplianceFqdnUpdate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#shared_scope DataIntersightApplianceFqdnUpdate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start date of the appliance FQDN change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#start_time DataIntersightApplianceFqdnUpdate#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#start_time DataIntersightApplianceFqdnUpdate#start_time}
   */
   readonly startTime?: string;
   /**
@@ -99,43 +99,43 @@ export interface DataIntersightApplianceFqdnUpdateConfig extends cdktf.Terraform
   * * `Failed` - Appliance FQDN update operation has failed.
   * * `Completed` - Appliance FQDN update operation has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#status DataIntersightApplianceFqdnUpdate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#status DataIntersightApplianceFqdnUpdate#status}
   */
   readonly status?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#account DataIntersightApplianceFqdnUpdate#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#account DataIntersightApplianceFqdnUpdate#account}
   */
   readonly account?: DataIntersightApplianceFqdnUpdateAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#ancestors DataIntersightApplianceFqdnUpdate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#ancestors DataIntersightApplianceFqdnUpdate#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceFqdnUpdateAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#parent DataIntersightApplianceFqdnUpdate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#parent DataIntersightApplianceFqdnUpdate#parent}
   */
   readonly parent?: DataIntersightApplianceFqdnUpdateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#permission_resources DataIntersightApplianceFqdnUpdate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#permission_resources DataIntersightApplianceFqdnUpdate#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceFqdnUpdatePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#tags DataIntersightApplianceFqdnUpdate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#tags DataIntersightApplianceFqdnUpdate#tags}
   */
   readonly tags?: DataIntersightApplianceFqdnUpdateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#version_context DataIntersightApplianceFqdnUpdate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#version_context DataIntersightApplianceFqdnUpdate#version_context}
   */
   readonly versionContext?: DataIntersightApplianceFqdnUpdateVersionContext;
 }
@@ -1306,7 +1306,7 @@ export class DataIntersightApplianceFqdnUpdateResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightApplianceFqdnUpdateAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1314,19 +1314,19 @@ export interface DataIntersightApplianceFqdnUpdateAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1339,7 +1339,7 @@ export interface DataIntersightApplianceFqdnUpdateAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -1539,7 +1539,7 @@ export class DataIntersightApplianceFqdnUpdateAccountOutputReference extends cdk
 }
 export interface DataIntersightApplianceFqdnUpdateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1547,19 +1547,19 @@ export interface DataIntersightApplianceFqdnUpdateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1572,7 +1572,7 @@ export interface DataIntersightApplianceFqdnUpdateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -1804,7 +1804,7 @@ export class DataIntersightApplianceFqdnUpdateAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightApplianceFqdnUpdateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1812,19 +1812,19 @@ export interface DataIntersightApplianceFqdnUpdateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1837,7 +1837,7 @@ export interface DataIntersightApplianceFqdnUpdateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2037,7 +2037,7 @@ export class DataIntersightApplianceFqdnUpdateParentOutputReference extends cdkt
 }
 export interface DataIntersightApplianceFqdnUpdatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2045,19 +2045,19 @@ export interface DataIntersightApplianceFqdnUpdatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2070,7 +2070,7 @@ export interface DataIntersightApplianceFqdnUpdatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2302,7 +2302,7 @@ export class DataIntersightApplianceFqdnUpdatePermissionResourcesList extends cd
 }
 export interface DataIntersightApplianceFqdnUpdateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2310,19 +2310,19 @@ export interface DataIntersightApplianceFqdnUpdateTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2335,7 +2335,7 @@ export interface DataIntersightApplianceFqdnUpdateTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2567,7 +2567,7 @@ export class DataIntersightApplianceFqdnUpdateTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightApplianceFqdnUpdateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2575,19 +2575,19 @@ export interface DataIntersightApplianceFqdnUpdateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2600,7 +2600,7 @@ export interface DataIntersightApplianceFqdnUpdateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2800,25 +2800,25 @@ export class DataIntersightApplianceFqdnUpdateTagsDefinitionOutputReference exte
 }
 export interface DataIntersightApplianceFqdnUpdateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#key DataIntersightApplianceFqdnUpdate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#key DataIntersightApplianceFqdnUpdate#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#propagated DataIntersightApplianceFqdnUpdate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#propagated DataIntersightApplianceFqdnUpdate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#sys_tag DataIntersightApplianceFqdnUpdate#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#sys_tag DataIntersightApplianceFqdnUpdate#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2826,25 +2826,25 @@ export interface DataIntersightApplianceFqdnUpdateTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#type DataIntersightApplianceFqdnUpdate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#type DataIntersightApplianceFqdnUpdate#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#value DataIntersightApplianceFqdnUpdate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#value DataIntersightApplianceFqdnUpdate#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#ancestor_definitions DataIntersightApplianceFqdnUpdate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#ancestor_definitions DataIntersightApplianceFqdnUpdate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceFqdnUpdateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#definition DataIntersightApplianceFqdnUpdate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#definition DataIntersightApplianceFqdnUpdate#definition}
   */
   readonly definition?: DataIntersightApplianceFqdnUpdateTagsDefinition;
 }
@@ -3163,7 +3163,7 @@ export class DataIntersightApplianceFqdnUpdateTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightApplianceFqdnUpdateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3171,19 +3171,19 @@ export interface DataIntersightApplianceFqdnUpdateVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3196,7 +3196,7 @@ export interface DataIntersightApplianceFqdnUpdateVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -3428,7 +3428,7 @@ export class DataIntersightApplianceFqdnUpdateVersionContextInterestedMosList ex
 }
 export interface DataIntersightApplianceFqdnUpdateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3436,19 +3436,19 @@ export interface DataIntersightApplianceFqdnUpdateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#moid DataIntersightApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3461,7 +3461,7 @@ export interface DataIntersightApplianceFqdnUpdateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#selector DataIntersightApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -3661,7 +3661,7 @@ export class DataIntersightApplianceFqdnUpdateVersionContextRefMoOutputReference
 }
 export interface DataIntersightApplianceFqdnUpdateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#additional_properties DataIntersightApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3669,32 +3669,32 @@ export interface DataIntersightApplianceFqdnUpdateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#class_id DataIntersightApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#marked_for_deletion DataIntersightApplianceFqdnUpdate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#marked_for_deletion DataIntersightApplianceFqdnUpdate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#nr_version DataIntersightApplianceFqdnUpdate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#nr_version DataIntersightApplianceFqdnUpdate#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#object_type DataIntersightApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#timestamp DataIntersightApplianceFqdnUpdate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#timestamp DataIntersightApplianceFqdnUpdate#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3705,19 +3705,19 @@ export interface DataIntersightApplianceFqdnUpdateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#version_type DataIntersightApplianceFqdnUpdate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#version_type DataIntersightApplianceFqdnUpdate#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#interested_mos DataIntersightApplianceFqdnUpdate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#interested_mos DataIntersightApplianceFqdnUpdate#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceFqdnUpdateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#ref_mo DataIntersightApplianceFqdnUpdate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#ref_mo DataIntersightApplianceFqdnUpdate#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceFqdnUpdateVersionContextRefMo;
 }
@@ -4033,7 +4033,7 @@ export class DataIntersightApplianceFqdnUpdateVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update intersight_appliance_fqdn_update}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update intersight_appliance_fqdn_update}
 */
 export class DataIntersightApplianceFqdnUpdate extends cdktf.TerraformDataSource {
 
@@ -4049,7 +4049,7 @@ export class DataIntersightApplianceFqdnUpdate extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightApplianceFqdnUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceFqdnUpdate to import
-  * @param importFromId The id of the existing DataIntersightApplianceFqdnUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceFqdnUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceFqdnUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4061,7 +4061,7 @@ export class DataIntersightApplianceFqdnUpdate extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_fqdn_update intersight_appliance_fqdn_update} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_fqdn_update intersight_appliance_fqdn_update} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4072,8 +4072,8 @@ export class DataIntersightApplianceFqdnUpdate extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_appliance_fqdn_update',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightIamEndPointUserRoleConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#account_moid DataIntersightIamEndPointUserRole#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#account_moid DataIntersightIamEndPointUserRole#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Denotes whether password has changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#change_password DataIntersightIamEndPointUserRole#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#change_password DataIntersightIamEndPointUserRole#change_password}
   */
   readonly changePassword?: boolean | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightIamEndPointUserRoleConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#create_time DataIntersightIamEndPointUserRole#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#create_time DataIntersightIamEndPointUserRole#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#domain_group_moid DataIntersightIamEndPointUserRole#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#domain_group_moid DataIntersightIamEndPointUserRole#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Enables the user account on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#enabled DataIntersightIamEndPointUserRole#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#enabled DataIntersightIamEndPointUserRole#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#id DataIntersightIamEndPointUserRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#id DataIntersightIamEndPointUserRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightIamEndPointUserRoleConfig extends cdktf.Terraform
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#is_password_set DataIntersightIamEndPointUserRole#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#is_password_set DataIntersightIamEndPointUserRole#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#mod_time DataIntersightIamEndPointUserRole#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#mod_time DataIntersightIamEndPointUserRole#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#owners DataIntersightIamEndPointUserRole#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#owners DataIntersightIamEndPointUserRole#owners}
   */
   readonly owners?: string[];
   /**
   * The password must have a minimum of 8 and a maximum of 127 characters. For servers with IPMI user role enabled, the maximum length is limited to 20 characters. When strong password is enabled, must satisfy below requirements: A. The password must not contain the User's Name. B. The password must contain characters from three of the following four categories. 1) English uppercase characters (A through Z). 2) English lowercase characters (a through z). 3) Base 10 digits (0 through 9). 4) Non-alphabetic characters (! , @, #, $, %, ^, &, *, -, _, +, =).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#password DataIntersightIamEndPointUserRole#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#password DataIntersightIamEndPointUserRole#password}
   */
   readonly password?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#shared_scope DataIntersightIamEndPointUserRole#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#shared_scope DataIntersightIamEndPointUserRole#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#ancestors DataIntersightIamEndPointUserRole#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#ancestors DataIntersightIamEndPointUserRole#ancestors}
   */
   readonly ancestors?: DataIntersightIamEndPointUserRoleAncestors[] | cdktf.IResolvable;
   /**
   * end_point_role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#end_point_role DataIntersightIamEndPointUserRole#end_point_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#end_point_role DataIntersightIamEndPointUserRole#end_point_role}
   */
   readonly endPointRole?: DataIntersightIamEndPointUserRoleEndPointRole[] | cdktf.IResolvable;
   /**
   * end_point_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#end_point_user DataIntersightIamEndPointUserRole#end_point_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#end_point_user DataIntersightIamEndPointUserRole#end_point_user}
   */
   readonly endPointUser?: DataIntersightIamEndPointUserRoleEndPointUser;
   /**
   * end_point_user_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#end_point_user_policy DataIntersightIamEndPointUserRole#end_point_user_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#end_point_user_policy DataIntersightIamEndPointUserRole#end_point_user_policy}
   */
   readonly endPointUserPolicy?: DataIntersightIamEndPointUserRoleEndPointUserPolicy;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#parent DataIntersightIamEndPointUserRole#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#parent DataIntersightIamEndPointUserRole#parent}
   */
   readonly parent?: DataIntersightIamEndPointUserRoleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#permission_resources DataIntersightIamEndPointUserRole#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#permission_resources DataIntersightIamEndPointUserRole#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamEndPointUserRolePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#tags DataIntersightIamEndPointUserRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#tags DataIntersightIamEndPointUserRole#tags}
   */
   readonly tags?: DataIntersightIamEndPointUserRoleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#version_context DataIntersightIamEndPointUserRole#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#version_context DataIntersightIamEndPointUserRole#version_context}
   */
   readonly versionContext?: DataIntersightIamEndPointUserRoleVersionContext;
 }
@@ -1516,7 +1516,7 @@ export class DataIntersightIamEndPointUserRoleResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightIamEndPointUserRoleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1524,19 +1524,19 @@ export interface DataIntersightIamEndPointUserRoleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1549,7 +1549,7 @@ export interface DataIntersightIamEndPointUserRoleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -1781,7 +1781,7 @@ export class DataIntersightIamEndPointUserRoleAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightIamEndPointUserRoleEndPointRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1789,19 +1789,19 @@ export interface DataIntersightIamEndPointUserRoleEndPointRole {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1814,7 +1814,7 @@ export interface DataIntersightIamEndPointUserRoleEndPointRole {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -2046,7 +2046,7 @@ export class DataIntersightIamEndPointUserRoleEndPointRoleList extends cdktf.Com
 }
 export interface DataIntersightIamEndPointUserRoleEndPointUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2054,19 +2054,19 @@ export interface DataIntersightIamEndPointUserRoleEndPointUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2079,7 +2079,7 @@ export interface DataIntersightIamEndPointUserRoleEndPointUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -2279,7 +2279,7 @@ export class DataIntersightIamEndPointUserRoleEndPointUserOutputReference extend
 }
 export interface DataIntersightIamEndPointUserRoleEndPointUserPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2287,19 +2287,19 @@ export interface DataIntersightIamEndPointUserRoleEndPointUserPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2312,7 +2312,7 @@ export interface DataIntersightIamEndPointUserRoleEndPointUserPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -2512,7 +2512,7 @@ export class DataIntersightIamEndPointUserRoleEndPointUserPolicyOutputReference 
 }
 export interface DataIntersightIamEndPointUserRoleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2520,19 +2520,19 @@ export interface DataIntersightIamEndPointUserRoleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2545,7 +2545,7 @@ export interface DataIntersightIamEndPointUserRoleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -2745,7 +2745,7 @@ export class DataIntersightIamEndPointUserRoleParentOutputReference extends cdkt
 }
 export interface DataIntersightIamEndPointUserRolePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2753,19 +2753,19 @@ export interface DataIntersightIamEndPointUserRolePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2778,7 +2778,7 @@ export interface DataIntersightIamEndPointUserRolePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -3010,7 +3010,7 @@ export class DataIntersightIamEndPointUserRolePermissionResourcesList extends cd
 }
 export interface DataIntersightIamEndPointUserRoleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3018,19 +3018,19 @@ export interface DataIntersightIamEndPointUserRoleTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3043,7 +3043,7 @@ export interface DataIntersightIamEndPointUserRoleTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -3275,7 +3275,7 @@ export class DataIntersightIamEndPointUserRoleTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightIamEndPointUserRoleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3283,19 +3283,19 @@ export interface DataIntersightIamEndPointUserRoleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3308,7 +3308,7 @@ export interface DataIntersightIamEndPointUserRoleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -3508,25 +3508,25 @@ export class DataIntersightIamEndPointUserRoleTagsDefinitionOutputReference exte
 }
 export interface DataIntersightIamEndPointUserRoleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#key DataIntersightIamEndPointUserRole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#key DataIntersightIamEndPointUserRole#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#propagated DataIntersightIamEndPointUserRole#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#propagated DataIntersightIamEndPointUserRole#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#sys_tag DataIntersightIamEndPointUserRole#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#sys_tag DataIntersightIamEndPointUserRole#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3534,25 +3534,25 @@ export interface DataIntersightIamEndPointUserRoleTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#type DataIntersightIamEndPointUserRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#type DataIntersightIamEndPointUserRole#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#value DataIntersightIamEndPointUserRole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#value DataIntersightIamEndPointUserRole#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#ancestor_definitions DataIntersightIamEndPointUserRole#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#ancestor_definitions DataIntersightIamEndPointUserRole#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamEndPointUserRoleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#definition DataIntersightIamEndPointUserRole#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#definition DataIntersightIamEndPointUserRole#definition}
   */
   readonly definition?: DataIntersightIamEndPointUserRoleTagsDefinition;
 }
@@ -3871,7 +3871,7 @@ export class DataIntersightIamEndPointUserRoleTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightIamEndPointUserRoleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3879,19 +3879,19 @@ export interface DataIntersightIamEndPointUserRoleVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3904,7 +3904,7 @@ export interface DataIntersightIamEndPointUserRoleVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -4136,7 +4136,7 @@ export class DataIntersightIamEndPointUserRoleVersionContextInterestedMosList ex
 }
 export interface DataIntersightIamEndPointUserRoleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4144,19 +4144,19 @@ export interface DataIntersightIamEndPointUserRoleVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#moid DataIntersightIamEndPointUserRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4169,7 +4169,7 @@ export interface DataIntersightIamEndPointUserRoleVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#selector DataIntersightIamEndPointUserRole#selector}
   */
   readonly selector?: string;
 }
@@ -4369,7 +4369,7 @@ export class DataIntersightIamEndPointUserRoleVersionContextRefMoOutputReference
 }
 export interface DataIntersightIamEndPointUserRoleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#additional_properties DataIntersightIamEndPointUserRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4377,32 +4377,32 @@ export interface DataIntersightIamEndPointUserRoleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#class_id DataIntersightIamEndPointUserRole#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#marked_for_deletion DataIntersightIamEndPointUserRole#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#marked_for_deletion DataIntersightIamEndPointUserRole#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#nr_version DataIntersightIamEndPointUserRole#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#nr_version DataIntersightIamEndPointUserRole#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#object_type DataIntersightIamEndPointUserRole#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#timestamp DataIntersightIamEndPointUserRole#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#timestamp DataIntersightIamEndPointUserRole#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4413,19 +4413,19 @@ export interface DataIntersightIamEndPointUserRoleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#version_type DataIntersightIamEndPointUserRole#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#version_type DataIntersightIamEndPointUserRole#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#interested_mos DataIntersightIamEndPointUserRole#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#interested_mos DataIntersightIamEndPointUserRole#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamEndPointUserRoleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#ref_mo DataIntersightIamEndPointUserRole#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#ref_mo DataIntersightIamEndPointUserRole#ref_mo}
   */
   readonly refMo?: DataIntersightIamEndPointUserRoleVersionContextRefMo;
 }
@@ -4741,7 +4741,7 @@ export class DataIntersightIamEndPointUserRoleVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role intersight_iam_end_point_user_role}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role intersight_iam_end_point_user_role}
 */
 export class DataIntersightIamEndPointUserRole extends cdktf.TerraformDataSource {
 
@@ -4757,7 +4757,7 @@ export class DataIntersightIamEndPointUserRole extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightIamEndPointUserRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamEndPointUserRole to import
-  * @param importFromId The id of the existing DataIntersightIamEndPointUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamEndPointUserRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamEndPointUserRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4769,7 +4769,7 @@ export class DataIntersightIamEndPointUserRole extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_role intersight_iam_end_point_user_role} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_role intersight_iam_end_point_user_role} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4780,8 +4780,8 @@ export class DataIntersightIamEndPointUserRole extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_iam_end_point_user_role',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

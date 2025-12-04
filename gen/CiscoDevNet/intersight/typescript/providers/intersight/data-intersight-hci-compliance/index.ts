@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHciComplianceConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#account_moid DataIntersightHciCompliance#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#account_moid DataIntersightHciCompliance#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,13 +22,13 @@ export interface DataIntersightHciComplianceConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The identifier of a license, usually in LIC-xxxx format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#cluster_ext_id DataIntersightHciCompliance#cluster_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#cluster_ext_id DataIntersightHciCompliance#cluster_ext_id}
   */
   readonly clusterExtId?: string;
   /**
@@ -38,23 +38,23 @@ export interface DataIntersightHciComplianceConfig extends cdktf.TerraformMetaAr
   * * `InCompliance` - The license compliance state for a Nutanix cluster is in compliance.
   * * `NotInCompliance` - The license compliance state for a Nutanix cluster is not in compliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#compliance_state DataIntersightHciCompliance#compliance_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#compliance_state DataIntersightHciCompliance#compliance_state}
   */
   readonly complianceState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#create_time DataIntersightHciCompliance#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#create_time DataIntersightHciCompliance#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#domain_group_moid DataIntersightHciCompliance#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#domain_group_moid DataIntersightHciCompliance#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#id DataIntersightHciCompliance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#id DataIntersightHciCompliance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,13 +63,13 @@ export interface DataIntersightHciComplianceConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#mod_time DataIntersightHciCompliance#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#mod_time DataIntersightHciCompliance#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
@@ -78,79 +78,79 @@ export interface DataIntersightHciComplianceConfig extends cdktf.TerraformMetaAr
   * in compliance or the license check is not enforced.
   * A synthesized property for the services property for ease of querying.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#non_compliance_count DataIntersightHciCompliance#non_compliance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#non_compliance_count DataIntersightHciCompliance#non_compliance_count}
   */
   readonly nonComplianceCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#owners DataIntersightHciCompliance#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#owners DataIntersightHciCompliance#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#shared_scope DataIntersightHciCompliance#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#shared_scope DataIntersightHciCompliance#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The type of the cluster which could be NUTANIX, VMWARE, or NON_NUTANIX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
   */
   readonly type?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#ancestors DataIntersightHciCompliance#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#ancestors DataIntersightHciCompliance#ancestors}
   */
   readonly ancestors?: DataIntersightHciComplianceAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#cluster DataIntersightHciCompliance#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#cluster DataIntersightHciCompliance#cluster}
   */
   readonly cluster?: DataIntersightHciComplianceCluster;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#parent DataIntersightHciCompliance#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#parent DataIntersightHciCompliance#parent}
   */
   readonly parent?: DataIntersightHciComplianceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#permission_resources DataIntersightHciCompliance#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#permission_resources DataIntersightHciCompliance#permission_resources}
   */
   readonly permissionResources?: DataIntersightHciCompliancePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#registered_device DataIntersightHciCompliance#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#registered_device DataIntersightHciCompliance#registered_device}
   */
   readonly registeredDevice?: DataIntersightHciComplianceRegisteredDevice;
   /**
   * services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#services DataIntersightHciCompliance#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#services DataIntersightHciCompliance#services}
   */
   readonly services?: DataIntersightHciComplianceServices[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#tags DataIntersightHciCompliance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#tags DataIntersightHciCompliance#tags}
   */
   readonly tags?: DataIntersightHciComplianceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#version_context DataIntersightHciCompliance#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#version_context DataIntersightHciCompliance#version_context}
   */
   readonly versionContext?: DataIntersightHciComplianceVersionContext;
 }
@@ -1639,7 +1639,7 @@ export class DataIntersightHciComplianceResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciComplianceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1647,19 +1647,19 @@ export interface DataIntersightHciComplianceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1672,7 +1672,7 @@ export interface DataIntersightHciComplianceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -1904,7 +1904,7 @@ export class DataIntersightHciComplianceAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightHciComplianceCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1912,19 +1912,19 @@ export interface DataIntersightHciComplianceCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1937,7 +1937,7 @@ export interface DataIntersightHciComplianceCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -2137,7 +2137,7 @@ export class DataIntersightHciComplianceClusterOutputReference extends cdktf.Com
 }
 export interface DataIntersightHciComplianceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2145,19 +2145,19 @@ export interface DataIntersightHciComplianceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2170,7 +2170,7 @@ export interface DataIntersightHciComplianceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -2370,7 +2370,7 @@ export class DataIntersightHciComplianceParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightHciCompliancePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2378,19 +2378,19 @@ export interface DataIntersightHciCompliancePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2403,7 +2403,7 @@ export interface DataIntersightHciCompliancePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -2635,7 +2635,7 @@ export class DataIntersightHciCompliancePermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightHciComplianceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2643,19 +2643,19 @@ export interface DataIntersightHciComplianceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2668,7 +2668,7 @@ export interface DataIntersightHciComplianceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -2868,7 +2868,7 @@ export class DataIntersightHciComplianceRegisteredDeviceOutputReference extends 
 }
 export interface DataIntersightHciComplianceServicesViolations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2876,27 +2876,27 @@ export interface DataIntersightHciComplianceServicesViolations {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
   * The start date of the violation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#start_date DataIntersightHciCompliance#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#start_date DataIntersightHciCompliance#start_date}
   */
   readonly startDate?: string;
   /**
   * The type of the service violation. The possible values are:
   * 'LICENSE_EXPIRED', 'FEATURE_VIOLATION', 'CAPACITY_VIOLATION'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
   */
   readonly type?: string;
 }
@@ -3128,7 +3128,7 @@ export class DataIntersightHciComplianceServicesViolationsList extends cdktf.Com
 }
 export interface DataIntersightHciComplianceServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3136,48 +3136,48 @@ export interface DataIntersightHciComplianceServices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#enforcement_actions DataIntersightHciCompliance#enforcement_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#enforcement_actions DataIntersightHciCompliance#enforcement_actions}
   */
   readonly enforcementActions?: string[];
   /**
   * The level of enforcement applied on any violotions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#enforcement_level DataIntersightHciCompliance#enforcement_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#enforcement_level DataIntersightHciCompliance#enforcement_level}
   */
   readonly enforcementLevel?: string;
   /**
   * Indicate if the service is in-compliance with the license type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#is_compliant DataIntersightHciCompliance#is_compliant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#is_compliant DataIntersightHciCompliance#is_compliant}
   */
   readonly isCompliant?: boolean | cdktf.IResolvable;
   /**
   * The type of license used by the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#license_type DataIntersightHciCompliance#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#license_type DataIntersightHciCompliance#license_type}
   */
   readonly licenseType?: string;
   /**
   * The name of the licensed service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#name DataIntersightHciCompliance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#name DataIntersightHciCompliance#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
   * violations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#violations DataIntersightHciCompliance#violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#violations DataIntersightHciCompliance#violations}
   */
   readonly violations?: DataIntersightHciComplianceServicesViolations[] | cdktf.IResolvable;
 }
@@ -3525,7 +3525,7 @@ export class DataIntersightHciComplianceServicesList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciComplianceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3533,19 +3533,19 @@ export interface DataIntersightHciComplianceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3558,7 +3558,7 @@ export interface DataIntersightHciComplianceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -3790,7 +3790,7 @@ export class DataIntersightHciComplianceTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightHciComplianceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3798,19 +3798,19 @@ export interface DataIntersightHciComplianceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3823,7 +3823,7 @@ export interface DataIntersightHciComplianceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -4023,25 +4023,25 @@ export class DataIntersightHciComplianceTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightHciComplianceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#key DataIntersightHciCompliance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#key DataIntersightHciCompliance#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#propagated DataIntersightHciCompliance#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#propagated DataIntersightHciCompliance#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#sys_tag DataIntersightHciCompliance#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#sys_tag DataIntersightHciCompliance#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4049,25 +4049,25 @@ export interface DataIntersightHciComplianceTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#type DataIntersightHciCompliance#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#value DataIntersightHciCompliance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#value DataIntersightHciCompliance#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#ancestor_definitions DataIntersightHciCompliance#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#ancestor_definitions DataIntersightHciCompliance#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHciComplianceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#definition DataIntersightHciCompliance#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#definition DataIntersightHciCompliance#definition}
   */
   readonly definition?: DataIntersightHciComplianceTagsDefinition;
 }
@@ -4386,7 +4386,7 @@ export class DataIntersightHciComplianceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHciComplianceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4394,19 +4394,19 @@ export interface DataIntersightHciComplianceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4419,7 +4419,7 @@ export interface DataIntersightHciComplianceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -4651,7 +4651,7 @@ export class DataIntersightHciComplianceVersionContextInterestedMosList extends 
 }
 export interface DataIntersightHciComplianceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4659,19 +4659,19 @@ export interface DataIntersightHciComplianceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#moid DataIntersightHciCompliance#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4684,7 +4684,7 @@ export interface DataIntersightHciComplianceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#selector DataIntersightHciCompliance#selector}
   */
   readonly selector?: string;
 }
@@ -4884,7 +4884,7 @@ export class DataIntersightHciComplianceVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightHciComplianceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#additional_properties DataIntersightHciCompliance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4892,32 +4892,32 @@ export interface DataIntersightHciComplianceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#class_id DataIntersightHciCompliance#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#marked_for_deletion DataIntersightHciCompliance#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#marked_for_deletion DataIntersightHciCompliance#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#nr_version DataIntersightHciCompliance#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#nr_version DataIntersightHciCompliance#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#object_type DataIntersightHciCompliance#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#timestamp DataIntersightHciCompliance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#timestamp DataIntersightHciCompliance#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4928,19 +4928,19 @@ export interface DataIntersightHciComplianceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#version_type DataIntersightHciCompliance#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#version_type DataIntersightHciCompliance#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#interested_mos DataIntersightHciCompliance#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#interested_mos DataIntersightHciCompliance#interested_mos}
   */
   readonly interestedMos?: DataIntersightHciComplianceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#ref_mo DataIntersightHciCompliance#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#ref_mo DataIntersightHciCompliance#ref_mo}
   */
   readonly refMo?: DataIntersightHciComplianceVersionContextRefMo;
 }
@@ -5256,7 +5256,7 @@ export class DataIntersightHciComplianceVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance intersight_hci_compliance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance intersight_hci_compliance}
 */
 export class DataIntersightHciCompliance extends cdktf.TerraformDataSource {
 
@@ -5272,7 +5272,7 @@ export class DataIntersightHciCompliance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHciCompliance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHciCompliance to import
-  * @param importFromId The id of the existing DataIntersightHciCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHciCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHciCompliance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5284,7 +5284,7 @@ export class DataIntersightHciCompliance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hci_compliance intersight_hci_compliance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hci_compliance intersight_hci_compliance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5295,8 +5295,8 @@ export class DataIntersightHciCompliance extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hci_compliance',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

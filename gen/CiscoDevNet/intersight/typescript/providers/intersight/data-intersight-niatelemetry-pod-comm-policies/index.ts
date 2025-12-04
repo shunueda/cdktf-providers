@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryPodCommPoliciesConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#account_moid DataIntersightNiatelemetryPodCommPolicies#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#account_moid DataIntersightNiatelemetryPodCommPolicies#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightNiatelemetryPodCommPoliciesConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * Comm Http Admin State of the Comm Pol in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#comm_http_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_http_admin_st}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#comm_http_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_http_admin_st}
   */
   readonly commHttpAdminSt?: string;
   /**
   * Comm Https Admin State of the Comm Pol in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#comm_https_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_https_admin_st}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#comm_https_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_https_admin_st}
   */
   readonly commHttpsAdminSt?: string;
   /**
   * Comm Ssh Admin State of the Comm Pol in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#comm_ssh_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_ssh_admin_st}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#comm_ssh_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_ssh_admin_st}
   */
   readonly commSshAdminSt?: string;
   /**
   * Comm Telnet Admin State of the Comm Pol in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#comm_telnet_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_telnet_admin_st}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#comm_telnet_admin_st DataIntersightNiatelemetryPodCommPolicies#comm_telnet_admin_st}
   */
   readonly commTelnetAdminSt?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#create_time DataIntersightNiatelemetryPodCommPolicies#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#create_time DataIntersightNiatelemetryPodCommPolicies#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#domain_group_moid DataIntersightNiatelemetryPodCommPolicies#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#domain_group_moid DataIntersightNiatelemetryPodCommPolicies#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#id DataIntersightNiatelemetryPodCommPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#id DataIntersightNiatelemetryPodCommPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,91 +71,91 @@ export interface DataIntersightNiatelemetryPodCommPoliciesConfig extends cdktf.T
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#mod_time DataIntersightNiatelemetryPodCommPolicies#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#mod_time DataIntersightNiatelemetryPodCommPolicies#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#owners DataIntersightNiatelemetryPodCommPolicies#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#owners DataIntersightNiatelemetryPodCommPolicies#owners}
   */
   readonly owners?: string[];
   /**
   * Dn of the Comm Pol in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#pol_dn DataIntersightNiatelemetryPodCommPolicies#pol_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#pol_dn DataIntersightNiatelemetryPodCommPolicies#pol_dn}
   */
   readonly polDn?: string;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#record_type DataIntersightNiatelemetryPodCommPolicies#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#record_type DataIntersightNiatelemetryPodCommPolicies#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#record_version DataIntersightNiatelemetryPodCommPolicies#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#record_version DataIntersightNiatelemetryPodCommPolicies#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#shared_scope DataIntersightNiatelemetryPodCommPolicies#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#shared_scope DataIntersightNiatelemetryPodCommPolicies#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#site_name DataIntersightNiatelemetryPodCommPolicies#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#site_name DataIntersightNiatelemetryPodCommPolicies#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#ancestors DataIntersightNiatelemetryPodCommPolicies#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#ancestors DataIntersightNiatelemetryPodCommPolicies#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryPodCommPoliciesAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#parent DataIntersightNiatelemetryPodCommPolicies#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#parent DataIntersightNiatelemetryPodCommPolicies#parent}
   */
   readonly parent?: DataIntersightNiatelemetryPodCommPoliciesParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#permission_resources DataIntersightNiatelemetryPodCommPolicies#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#permission_resources DataIntersightNiatelemetryPodCommPolicies#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryPodCommPoliciesPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#registered_device DataIntersightNiatelemetryPodCommPolicies#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#registered_device DataIntersightNiatelemetryPodCommPolicies#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryPodCommPoliciesRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#tags DataIntersightNiatelemetryPodCommPolicies#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#tags DataIntersightNiatelemetryPodCommPolicies#tags}
   */
   readonly tags?: DataIntersightNiatelemetryPodCommPoliciesTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#version_context DataIntersightNiatelemetryPodCommPolicies#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#version_context DataIntersightNiatelemetryPodCommPolicies#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryPodCommPoliciesVersionContext;
 }
@@ -1346,7 +1346,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesResultsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1354,19 +1354,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1379,7 +1379,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -1611,7 +1611,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesAncestorsList extends cdkt
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1619,19 +1619,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1644,7 +1644,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -1844,7 +1844,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesParentOutputReference exte
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1852,19 +1852,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1877,7 +1877,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -2109,7 +2109,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesPermissionResourcesList ex
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2117,19 +2117,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2142,7 +2142,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -2342,7 +2342,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesRegisteredDeviceOutputRefe
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2350,19 +2350,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2375,7 +2375,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -2607,7 +2607,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesTagsAncestorDefinitionsLis
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2615,19 +2615,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2640,7 +2640,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -2840,25 +2840,25 @@ export class DataIntersightNiatelemetryPodCommPoliciesTagsDefinitionOutputRefere
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#key DataIntersightNiatelemetryPodCommPolicies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#key DataIntersightNiatelemetryPodCommPolicies#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#propagated DataIntersightNiatelemetryPodCommPolicies#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#propagated DataIntersightNiatelemetryPodCommPolicies#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#sys_tag DataIntersightNiatelemetryPodCommPolicies#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#sys_tag DataIntersightNiatelemetryPodCommPolicies#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2866,25 +2866,25 @@ export interface DataIntersightNiatelemetryPodCommPoliciesTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#type DataIntersightNiatelemetryPodCommPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#type DataIntersightNiatelemetryPodCommPolicies#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#value DataIntersightNiatelemetryPodCommPolicies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#value DataIntersightNiatelemetryPodCommPolicies#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#ancestor_definitions DataIntersightNiatelemetryPodCommPolicies#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#ancestor_definitions DataIntersightNiatelemetryPodCommPolicies#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryPodCommPoliciesTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#definition DataIntersightNiatelemetryPodCommPolicies#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#definition DataIntersightNiatelemetryPodCommPolicies#definition}
   */
   readonly definition?: DataIntersightNiatelemetryPodCommPoliciesTagsDefinition;
 }
@@ -3203,7 +3203,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesTagsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3211,19 +3211,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3236,7 +3236,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -3468,7 +3468,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesVersionContextInterestedMo
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3476,19 +3476,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#moid DataIntersightNiatelemetryPodCommPolicies#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3501,7 +3501,7 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#selector DataIntersightNiatelemetryPodCommPolicies#selector}
   */
   readonly selector?: string;
 }
@@ -3701,7 +3701,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesVersionContextRefMoOutputR
 }
 export interface DataIntersightNiatelemetryPodCommPoliciesVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#additional_properties DataIntersightNiatelemetryPodCommPolicies#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3709,32 +3709,32 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#class_id DataIntersightNiatelemetryPodCommPolicies#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#marked_for_deletion DataIntersightNiatelemetryPodCommPolicies#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#marked_for_deletion DataIntersightNiatelemetryPodCommPolicies#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#nr_version DataIntersightNiatelemetryPodCommPolicies#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#nr_version DataIntersightNiatelemetryPodCommPolicies#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#object_type DataIntersightNiatelemetryPodCommPolicies#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#timestamp DataIntersightNiatelemetryPodCommPolicies#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#timestamp DataIntersightNiatelemetryPodCommPolicies#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3745,19 +3745,19 @@ export interface DataIntersightNiatelemetryPodCommPoliciesVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#version_type DataIntersightNiatelemetryPodCommPolicies#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#version_type DataIntersightNiatelemetryPodCommPolicies#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#interested_mos DataIntersightNiatelemetryPodCommPolicies#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#interested_mos DataIntersightNiatelemetryPodCommPolicies#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryPodCommPoliciesVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#ref_mo DataIntersightNiatelemetryPodCommPolicies#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#ref_mo DataIntersightNiatelemetryPodCommPolicies#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryPodCommPoliciesVersionContextRefMo;
 }
@@ -4073,7 +4073,7 @@ export class DataIntersightNiatelemetryPodCommPoliciesVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies intersight_niatelemetry_pod_comm_policies}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies intersight_niatelemetry_pod_comm_policies}
 */
 export class DataIntersightNiatelemetryPodCommPolicies extends cdktf.TerraformDataSource {
 
@@ -4089,7 +4089,7 @@ export class DataIntersightNiatelemetryPodCommPolicies extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightNiatelemetryPodCommPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryPodCommPolicies to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryPodCommPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryPodCommPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryPodCommPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4101,7 +4101,7 @@ export class DataIntersightNiatelemetryPodCommPolicies extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_pod_comm_policies intersight_niatelemetry_pod_comm_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_pod_comm_policies intersight_niatelemetry_pod_comm_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4112,8 +4112,8 @@ export class DataIntersightNiatelemetryPodCommPolicies extends cdktf.TerraformDa
       terraformResourceType: 'intersight_niatelemetry_pod_comm_policies',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DcdbDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   *  Automatic renewal flag, 0 means the default state (the user has not set it, that is, the initial state is manual renewal, and the user has activated the prepaid non-stop privilege and will also perform automatic renewal).  1 means automatic renewal, 2 means no automatic renewal (user setting).  if the business has no concept of renewal or automatic renewal is not required, it needs to be set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#auto_renew_flag DcdbDbInstance#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#auto_renew_flag DcdbDbInstance#auto_renew_flag}
   */
   readonly autoRenewFlag?: number;
   /**
   * Whether to automatically use vouchers for payment, not used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#auto_voucher DcdbDbInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#auto_voucher DcdbDbInstance#auto_voucher}
   */
   readonly autoVoucher?: boolean | cdktf.IResolvable;
   /**
   *  Database engine version, currently available: 8.0.18, 10.1.9, 5.7.17.  8.0.18 - MySQL 8.0.18;  10.1.9 - Mariadb 10.1.9;  5.7.17 - Percona 5.7.17  If not filled, the default is 5.7.17, which means Percona 5.7.17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#db_version_id DcdbDbInstance#db_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#db_version_id DcdbDbInstance#db_version_id}
   */
   readonly dbVersionId?: string;
   /**
   * DCN source instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#dcn_instance_id DcdbDbInstance#dcn_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#dcn_instance_id DcdbDbInstance#dcn_instance_id}
   */
   readonly dcnInstanceId?: string;
   /**
   * DCN source region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#dcn_region DcdbDbInstance#dcn_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#dcn_region DcdbDbInstance#dcn_region}
   */
   readonly dcnRegion?: string;
   /**
   * Whether to open the extranet access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#extranet_access DcdbDbInstance#extranet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#extranet_access DcdbDbInstance#extranet_access}
   */
   readonly extranetAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#id DcdbDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#id DcdbDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DcdbDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name, you can set the name of the instance independently through this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#instance_name DcdbDbInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#instance_name DcdbDbInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Whether to support IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#ipv6_flag DcdbDbInstance#ipv6_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#ipv6_flag DcdbDbInstance#ipv6_flag}
   */
   readonly ipv6Flag?: number;
   /**
   * The length of time you want to buy, unit: month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#period DcdbDbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#period DcdbDbInstance#period}
   */
   readonly period: number;
   /**
   * Project ID, which can be obtained by viewing the project list, if not passed, it will be associated with the default project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#project_id DcdbDbInstance#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#project_id DcdbDbInstance#project_id}
   */
   readonly projectId?: number;
   /**
   * Security group ids, the security group can be passed in the form of an array, compatible with the previous SecurityGroupId parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#security_group_ids DcdbDbInstance#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#security_group_ids DcdbDbInstance#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The number of instance fragments, the optional range is 2-8, and new fragments can be added to a maximum of 64 fragments by upgrading the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#shard_count DcdbDbInstance#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#shard_count DcdbDbInstance#shard_count}
   */
   readonly shardCount: number;
   /**
   * Shard memory size, unit: GB, can pass DescribeShardSpec Query the instance specification to obtain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#shard_memory DcdbDbInstance#shard_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#shard_memory DcdbDbInstance#shard_memory}
   */
   readonly shardMemory: number;
   /**
   *  Number of single shard nodes, can pass DescribeShardSpec  Query the instance specification to obtain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#shard_node_count DcdbDbInstance#shard_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#shard_node_count DcdbDbInstance#shard_node_count}
   */
   readonly shardNodeCount: number;
   /**
   *  Shard storage size, unit: GB, can pass DescribeShardSpec  Query the instance specification to obtain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#shard_storage DcdbDbInstance#shard_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#shard_storage DcdbDbInstance#shard_storage}
   */
   readonly shardStorage: number;
   /**
   * Virtual private network subnet ID, required when VpcId is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#subnet_id DcdbDbInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#subnet_id DcdbDbInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The field is required to specify VIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#vip DcdbDbInstance#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#vip DcdbDbInstance#vip}
   */
   readonly vip?: string;
   /**
   * The field is required to specify VIPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#vipv6 DcdbDbInstance#vipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#vipv6 DcdbDbInstance#vipv6}
   */
   readonly vipv6?: string;
   /**
   * Voucher ID list, currently only supports specifying one voucher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#voucher_ids DcdbDbInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#voucher_ids DcdbDbInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * Virtual private network ID, if not passed or passed empty, it means that it is created as a basic network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#vpc_id DcdbDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#vpc_id DcdbDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * The availability zone distribution of shard nodes can be filled with up to two availability zones. When the shard specification is one master and two slaves, two of the nodes are in the first availability zone.Note that the current availability zone that can be sold needs to be pulled through the DescribeDCDBSaleInfo interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#zones DcdbDbInstance#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#zones DcdbDbInstance#zones}
   */
   readonly zones: string[];
   /**
   * init_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#init_params DcdbDbInstance#init_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#init_params DcdbDbInstance#init_params}
   */
   readonly initParams?: DcdbDbInstanceInitParams[] | cdktf.IResolvable;
   /**
   * resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#resource_tags DcdbDbInstance#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#resource_tags DcdbDbInstance#resource_tags}
   */
   readonly resourceTags?: DcdbDbInstanceResourceTags[] | cdktf.IResolvable;
 }
@@ -157,13 +157,13 @@ export interface DcdbDbInstanceInitParams {
   /**
   * The name of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#param DcdbDbInstance#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#param DcdbDbInstance#param}
   */
   readonly param: string;
   /**
   * The value of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#value DcdbDbInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#value DcdbDbInstance#value}
   */
   readonly value: string;
 }
@@ -304,13 +304,13 @@ export interface DcdbDbInstanceResourceTags {
   /**
   * The key of tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#tag_key DcdbDbInstance#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#tag_key DcdbDbInstance#tag_key}
   */
   readonly tagKey: string;
   /**
   * The value of tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#tag_value DcdbDbInstance#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#tag_value DcdbDbInstance#tag_value}
   */
   readonly tagValue: string;
 }
@@ -449,7 +449,7 @@ export class DcdbDbInstanceResourceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance tencentcloud_dcdb_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance tencentcloud_dcdb_db_instance}
 */
 export class DcdbDbInstance extends cdktf.TerraformResource {
 
@@ -465,7 +465,7 @@ export class DcdbDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdbDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdbDbInstance to import
-  * @param importFromId The id of the existing DcdbDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdbDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdbDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -477,7 +477,7 @@ export class DcdbDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dcdb_db_instance tencentcloud_dcdb_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dcdb_db_instance tencentcloud_dcdb_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,8 +488,8 @@ export class DcdbDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

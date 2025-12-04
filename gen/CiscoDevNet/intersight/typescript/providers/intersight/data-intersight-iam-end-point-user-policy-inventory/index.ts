@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamEndPointUserPolicyInventoryConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#account_moid DataIntersightIamEndPointUserPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#account_moid DataIntersightIamEndPointUserPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightIamEndPointUserPolicyInventoryConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#create_time DataIntersightIamEndPointUserPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#create_time DataIntersightIamEndPointUserPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#description DataIntersightIamEndPointUserPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#description DataIntersightIamEndPointUserPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#device_mo_id DataIntersightIamEndPointUserPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#device_mo_id DataIntersightIamEndPointUserPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#domain_group_moid DataIntersightIamEndPointUserPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#domain_group_moid DataIntersightIamEndPointUserPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#id DataIntersightIamEndPointUserPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#id DataIntersightIamEndPointUserPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightIamEndPointUserPolicyInventoryConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#mod_time DataIntersightIamEndPointUserPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#mod_time DataIntersightIamEndPointUserPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#name DataIntersightIamEndPointUserPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#name DataIntersightIamEndPointUserPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#owners DataIntersightIamEndPointUserPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#owners DataIntersightIamEndPointUserPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#shared_scope DataIntersightIamEndPointUserPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#shared_scope DataIntersightIamEndPointUserPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#ancestors DataIntersightIamEndPointUserPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#ancestors DataIntersightIamEndPointUserPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightIamEndPointUserPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * end_point_user_roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#end_point_user_roles DataIntersightIamEndPointUserPolicyInventory#end_point_user_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#end_point_user_roles DataIntersightIamEndPointUserPolicyInventory#end_point_user_roles}
   */
   readonly endPointUserRoles?: DataIntersightIamEndPointUserPolicyInventoryEndPointUserRoles[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#parent DataIntersightIamEndPointUserPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#parent DataIntersightIamEndPointUserPolicyInventory#parent}
   */
   readonly parent?: DataIntersightIamEndPointUserPolicyInventoryParent;
   /**
   * password_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#password_properties DataIntersightIamEndPointUserPolicyInventory#password_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#password_properties DataIntersightIamEndPointUserPolicyInventory#password_properties}
   */
   readonly passwordProperties?: DataIntersightIamEndPointUserPolicyInventoryPasswordProperties;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#permission_resources DataIntersightIamEndPointUserPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#permission_resources DataIntersightIamEndPointUserPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamEndPointUserPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#tags DataIntersightIamEndPointUserPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#tags DataIntersightIamEndPointUserPolicyInventory#tags}
   */
   readonly tags?: DataIntersightIamEndPointUserPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#target_mo DataIntersightIamEndPointUserPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#target_mo DataIntersightIamEndPointUserPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightIamEndPointUserPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#version_context DataIntersightIamEndPointUserPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#version_context DataIntersightIamEndPointUserPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightIamEndPointUserPolicyInventoryVersionContext;
 }
@@ -1530,7 +1530,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryResultsList extends cdk
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1538,19 +1538,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1563,7 +1563,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1795,7 +1795,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryAncestorsList extends c
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryEndPointUserRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1803,19 +1803,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryEndPointUserRoles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1828,7 +1828,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryEndPointUserRoles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2060,7 +2060,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryEndPointUserRolesList e
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2068,19 +2068,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2093,7 +2093,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2293,7 +2293,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryParentOutputReference e
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryPasswordProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2301,56 +2301,56 @@ export interface DataIntersightIamEndPointUserPolicyInventoryPasswordProperties 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * Enables password expiry on the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#enable_password_expiry DataIntersightIamEndPointUserPolicyInventory#enable_password_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#enable_password_expiry DataIntersightIamEndPointUserPolicyInventory#enable_password_expiry}
   */
   readonly enablePasswordExpiry?: boolean | cdktf.IResolvable;
   /**
   * Enables a strong password policy. Strong password requirements: A. The password must have a minimum of 8 and a maximum of 127 characters. B. The password must not contain the User's Name. C. The password must contain characters from three of the following four categories. 1) English uppercase characters (A through Z). 2) English lowercase characters (a through z). 3) Base 10 digits (0 through 9). 4) Non-alphabetic characters (! , @, #, $, %, ^, &, *, -, _, +, =).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#enforce_strong_password DataIntersightIamEndPointUserPolicyInventory#enforce_strong_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#enforce_strong_password DataIntersightIamEndPointUserPolicyInventory#enforce_strong_password}
   */
   readonly enforceStrongPassword?: boolean | cdktf.IResolvable;
   /**
   * User password will always be sent to endpoint device. If the option is not selected, then user password will be sent to endpoint device for new users and if user password is changed for existing users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#force_send_password DataIntersightIamEndPointUserPolicyInventory#force_send_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#force_send_password DataIntersightIamEndPointUserPolicyInventory#force_send_password}
   */
   readonly forceSendPassword?: boolean | cdktf.IResolvable;
   /**
   * Time period until when you can use the existing password, after it expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#grace_period DataIntersightIamEndPointUserPolicyInventory#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#grace_period DataIntersightIamEndPointUserPolicyInventory#grace_period}
   */
   readonly gracePeriod?: number;
   /**
   * The duration after which the password will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#notification_period DataIntersightIamEndPointUserPolicyInventory#notification_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#notification_period DataIntersightIamEndPointUserPolicyInventory#notification_period}
   */
   readonly notificationPeriod?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * Set time period for password expiration. Value should be greater than notification period and grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#password_expiry_duration DataIntersightIamEndPointUserPolicyInventory#password_expiry_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#password_expiry_duration DataIntersightIamEndPointUserPolicyInventory#password_expiry_duration}
   */
   readonly passwordExpiryDuration?: number;
   /**
   * Tracks password change history. Specifies in number of instances, that the new password was already used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#password_history DataIntersightIamEndPointUserPolicyInventory#password_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#password_history DataIntersightIamEndPointUserPolicyInventory#password_history}
   */
   readonly passwordHistory?: number;
 }
@@ -2695,7 +2695,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryPasswordPropertiesOutpu
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2703,19 +2703,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2728,7 +2728,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2960,7 +2960,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryPermissionResourcesList
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2968,19 +2968,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2993,7 +2993,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3225,7 +3225,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryTagsAncestorDefinitions
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3233,19 +3233,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3258,7 +3258,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3458,25 +3458,25 @@ export class DataIntersightIamEndPointUserPolicyInventoryTagsDefinitionOutputRef
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#key DataIntersightIamEndPointUserPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#key DataIntersightIamEndPointUserPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#propagated DataIntersightIamEndPointUserPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#propagated DataIntersightIamEndPointUserPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#sys_tag DataIntersightIamEndPointUserPolicyInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#sys_tag DataIntersightIamEndPointUserPolicyInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3484,25 +3484,25 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#type DataIntersightIamEndPointUserPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#type DataIntersightIamEndPointUserPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#value DataIntersightIamEndPointUserPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#value DataIntersightIamEndPointUserPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#ancestor_definitions DataIntersightIamEndPointUserPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#ancestor_definitions DataIntersightIamEndPointUserPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamEndPointUserPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#definition DataIntersightIamEndPointUserPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#definition DataIntersightIamEndPointUserPolicyInventory#definition}
   */
   readonly definition?: DataIntersightIamEndPointUserPolicyInventoryTagsDefinition;
 }
@@ -3821,7 +3821,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryTagsList extends cdktf.
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3829,19 +3829,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3854,7 +3854,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4054,7 +4054,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryTargetMoOutputReference
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4062,19 +4062,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4087,7 +4087,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4319,7 +4319,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryVersionContextIntereste
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4327,19 +4327,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#moid DataIntersightIamEndPointUserPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4352,7 +4352,7 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#selector DataIntersightIamEndPointUserPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -4552,7 +4552,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryVersionContextRefMoOutp
 }
 export interface DataIntersightIamEndPointUserPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#additional_properties DataIntersightIamEndPointUserPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4560,32 +4560,32 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#class_id DataIntersightIamEndPointUserPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#marked_for_deletion DataIntersightIamEndPointUserPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#marked_for_deletion DataIntersightIamEndPointUserPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#nr_version DataIntersightIamEndPointUserPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#nr_version DataIntersightIamEndPointUserPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#object_type DataIntersightIamEndPointUserPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#timestamp DataIntersightIamEndPointUserPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#timestamp DataIntersightIamEndPointUserPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4596,19 +4596,19 @@ export interface DataIntersightIamEndPointUserPolicyInventoryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#version_type DataIntersightIamEndPointUserPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#version_type DataIntersightIamEndPointUserPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#interested_mos DataIntersightIamEndPointUserPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#interested_mos DataIntersightIamEndPointUserPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamEndPointUserPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#ref_mo DataIntersightIamEndPointUserPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#ref_mo DataIntersightIamEndPointUserPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightIamEndPointUserPolicyInventoryVersionContextRefMo;
 }
@@ -4924,7 +4924,7 @@ export class DataIntersightIamEndPointUserPolicyInventoryVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory intersight_iam_end_point_user_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory intersight_iam_end_point_user_policy_inventory}
 */
 export class DataIntersightIamEndPointUserPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -4940,7 +4940,7 @@ export class DataIntersightIamEndPointUserPolicyInventory extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightIamEndPointUserPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamEndPointUserPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightIamEndPointUserPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamEndPointUserPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamEndPointUserPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4952,7 +4952,7 @@ export class DataIntersightIamEndPointUserPolicyInventory extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_end_point_user_policy_inventory intersight_iam_end_point_user_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_end_point_user_policy_inventory intersight_iam_end_point_user_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4963,8 +4963,8 @@ export class DataIntersightIamEndPointUserPolicyInventory extends cdktf.Terrafor
       terraformResourceType: 'intersight_iam_end_point_user_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

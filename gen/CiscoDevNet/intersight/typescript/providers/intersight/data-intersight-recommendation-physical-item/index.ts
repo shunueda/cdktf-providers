@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightRecommendationPhysicalItemConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#account_moid DataIntersightRecommendationPhysicalItem#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#account_moid DataIntersightRecommendationPhysicalItem#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Capacity of the physical entity added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#capacity DataIntersightRecommendationPhysicalItem#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#capacity DataIntersightRecommendationPhysicalItem#capacity}
   */
   readonly capacity?: number;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightRecommendationPhysicalItemConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * Configuration path for the physical entity to be used when ordering it through the Cisco Commerce Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#configuration_path DataIntersightRecommendationPhysicalItem#configuration_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#configuration_path DataIntersightRecommendationPhysicalItem#configuration_path}
   */
   readonly configurationPath?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#create_time DataIntersightRecommendationPhysicalItem#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#create_time DataIntersightRecommendationPhysicalItem#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#domain_group_moid DataIntersightRecommendationPhysicalItem#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#domain_group_moid DataIntersightRecommendationPhysicalItem#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#id DataIntersightRecommendationPhysicalItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#id DataIntersightRecommendationPhysicalItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,79 +59,79 @@ export interface DataIntersightRecommendationPhysicalItemConfig extends cdktf.Te
   /**
   * If the PhysicalItem is new, this is set to true, else false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#is_new DataIntersightRecommendationPhysicalItem#is_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#is_new DataIntersightRecommendationPhysicalItem#is_new}
   */
   readonly isNew?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of items/devices which can be added on this PhysicalItem.For example, maximum number of disks allowed on a node PhysicalItem in case of HyperFlex Cluster recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#max_count DataIntersightRecommendationPhysicalItem#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#max_count DataIntersightRecommendationPhysicalItem#max_count}
   */
   readonly maxCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#mod_time DataIntersightRecommendationPhysicalItem#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#mod_time DataIntersightRecommendationPhysicalItem#mod_time}
   */
   readonly modTime?: string;
   /**
   * Model of the recommended physical device which is externally identifiable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#model DataIntersightRecommendationPhysicalItem#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#model DataIntersightRecommendationPhysicalItem#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The name of the physical device recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#name DataIntersightRecommendationPhysicalItem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#name DataIntersightRecommendationPhysicalItem#name}
   */
   readonly name?: string;
   /**
   * Count of number of items/devices to be added.For example, number of disks to add on a node PhysicalItem in case of HyperFlex Cluster recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#nr_count DataIntersightRecommendationPhysicalItem#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#nr_count DataIntersightRecommendationPhysicalItem#nr_count}
   */
   readonly nrCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#owners DataIntersightRecommendationPhysicalItem#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#owners DataIntersightRecommendationPhysicalItem#owners}
   */
   readonly owners?: string[];
   /**
   * Moid of the managed object which represents the parent physical entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#parent_moid DataIntersightRecommendationPhysicalItem#parent_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#parent_moid DataIntersightRecommendationPhysicalItem#parent_moid}
   */
   readonly parentMoid?: string;
   /**
   * The personality of the physical device recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#personality DataIntersightRecommendationPhysicalItem#personality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#personality DataIntersightRecommendationPhysicalItem#personality}
   */
   readonly personality?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#shared_scope DataIntersightRecommendationPhysicalItem#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#shared_scope DataIntersightRecommendationPhysicalItem#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Moid of the managed object which represents the existing physical entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#source_moid DataIntersightRecommendationPhysicalItem#source_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#source_moid DataIntersightRecommendationPhysicalItem#source_moid}
   */
   readonly sourceMoid?: string;
   /**
@@ -143,7 +143,7 @@ export interface DataIntersightRecommendationPhysicalItemConfig extends cdktf.Te
   * * `Memory` - The Enum value Memory represents that the item type recommended is a memory unit.
   * * `Cluster` - The Enum value Cluster represents that the item type recommended is a HyperFlex Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#type DataIntersightRecommendationPhysicalItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#type DataIntersightRecommendationPhysicalItem#type}
   */
   readonly type?: string;
   /**
@@ -155,61 +155,61 @@ export interface DataIntersightRecommendationPhysicalItemConfig extends cdktf.Te
   * * `GHz` - The Enum value GHz represents that the measurement unit is in gigahertz.
   * * `Percentage` - The Enum value Percentage represents that the expansion request is in the percentage of resource increase. For example, a 20% increase in CPU capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#unit DataIntersightRecommendationPhysicalItem#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#unit DataIntersightRecommendationPhysicalItem#unit}
   */
   readonly unit?: string;
   /**
   * Uuid of the recommended physical device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#uuid DataIntersightRecommendationPhysicalItem#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#uuid DataIntersightRecommendationPhysicalItem#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#ancestors DataIntersightRecommendationPhysicalItem#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#ancestors DataIntersightRecommendationPhysicalItem#ancestors}
   */
   readonly ancestors?: DataIntersightRecommendationPhysicalItemAncestors[] | cdktf.IResolvable;
   /**
   * capacity_runway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#capacity_runway DataIntersightRecommendationPhysicalItem#capacity_runway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#capacity_runway DataIntersightRecommendationPhysicalItem#capacity_runway}
   */
   readonly capacityRunway?: DataIntersightRecommendationPhysicalItemCapacityRunway;
   /**
   * cluster_expansion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#cluster_expansion DataIntersightRecommendationPhysicalItem#cluster_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#cluster_expansion DataIntersightRecommendationPhysicalItem#cluster_expansion}
   */
   readonly clusterExpansion?: DataIntersightRecommendationPhysicalItemClusterExpansion;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#parent DataIntersightRecommendationPhysicalItem#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#parent DataIntersightRecommendationPhysicalItem#parent}
   */
   readonly parent?: DataIntersightRecommendationPhysicalItemParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#permission_resources DataIntersightRecommendationPhysicalItem#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#permission_resources DataIntersightRecommendationPhysicalItem#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecommendationPhysicalItemPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#physical_item DataIntersightRecommendationPhysicalItem#physical_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#physical_item DataIntersightRecommendationPhysicalItem#physical_item}
   */
   readonly physicalItem?: DataIntersightRecommendationPhysicalItemPhysicalItem[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#tags DataIntersightRecommendationPhysicalItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#tags DataIntersightRecommendationPhysicalItem#tags}
   */
   readonly tags?: DataIntersightRecommendationPhysicalItemTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#version_context DataIntersightRecommendationPhysicalItem#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#version_context DataIntersightRecommendationPhysicalItem#version_context}
   */
   readonly versionContext?: DataIntersightRecommendationPhysicalItemVersionContext;
 }
@@ -1627,7 +1627,7 @@ export class DataIntersightRecommendationPhysicalItemResultsList extends cdktf.C
 }
 export interface DataIntersightRecommendationPhysicalItemAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1635,19 +1635,19 @@ export interface DataIntersightRecommendationPhysicalItemAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1660,7 +1660,7 @@ export interface DataIntersightRecommendationPhysicalItemAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -1892,7 +1892,7 @@ export class DataIntersightRecommendationPhysicalItemAncestorsList extends cdktf
 }
 export interface DataIntersightRecommendationPhysicalItemCapacityRunway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1900,19 +1900,19 @@ export interface DataIntersightRecommendationPhysicalItemCapacityRunway {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1925,7 +1925,7 @@ export interface DataIntersightRecommendationPhysicalItemCapacityRunway {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -2125,7 +2125,7 @@ export class DataIntersightRecommendationPhysicalItemCapacityRunwayOutputReferen
 }
 export interface DataIntersightRecommendationPhysicalItemClusterExpansion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2133,19 +2133,19 @@ export interface DataIntersightRecommendationPhysicalItemClusterExpansion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2158,7 +2158,7 @@ export interface DataIntersightRecommendationPhysicalItemClusterExpansion {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -2358,7 +2358,7 @@ export class DataIntersightRecommendationPhysicalItemClusterExpansionOutputRefer
 }
 export interface DataIntersightRecommendationPhysicalItemParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2366,19 +2366,19 @@ export interface DataIntersightRecommendationPhysicalItemParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2391,7 +2391,7 @@ export interface DataIntersightRecommendationPhysicalItemParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -2591,7 +2591,7 @@ export class DataIntersightRecommendationPhysicalItemParentOutputReference exten
 }
 export interface DataIntersightRecommendationPhysicalItemPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2599,19 +2599,19 @@ export interface DataIntersightRecommendationPhysicalItemPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2624,7 +2624,7 @@ export interface DataIntersightRecommendationPhysicalItemPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -2856,7 +2856,7 @@ export class DataIntersightRecommendationPhysicalItemPermissionResourcesList ext
 }
 export interface DataIntersightRecommendationPhysicalItemPhysicalItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2864,19 +2864,19 @@ export interface DataIntersightRecommendationPhysicalItemPhysicalItem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2889,7 +2889,7 @@ export interface DataIntersightRecommendationPhysicalItemPhysicalItem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -3121,7 +3121,7 @@ export class DataIntersightRecommendationPhysicalItemPhysicalItemList extends cd
 }
 export interface DataIntersightRecommendationPhysicalItemTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3129,19 +3129,19 @@ export interface DataIntersightRecommendationPhysicalItemTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3154,7 +3154,7 @@ export interface DataIntersightRecommendationPhysicalItemTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -3386,7 +3386,7 @@ export class DataIntersightRecommendationPhysicalItemTagsAncestorDefinitionsList
 }
 export interface DataIntersightRecommendationPhysicalItemTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3394,19 +3394,19 @@ export interface DataIntersightRecommendationPhysicalItemTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3419,7 +3419,7 @@ export interface DataIntersightRecommendationPhysicalItemTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -3619,25 +3619,25 @@ export class DataIntersightRecommendationPhysicalItemTagsDefinitionOutputReferen
 }
 export interface DataIntersightRecommendationPhysicalItemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#key DataIntersightRecommendationPhysicalItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#key DataIntersightRecommendationPhysicalItem#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#propagated DataIntersightRecommendationPhysicalItem#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#propagated DataIntersightRecommendationPhysicalItem#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#sys_tag DataIntersightRecommendationPhysicalItem#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#sys_tag DataIntersightRecommendationPhysicalItem#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3645,25 +3645,25 @@ export interface DataIntersightRecommendationPhysicalItemTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#type DataIntersightRecommendationPhysicalItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#type DataIntersightRecommendationPhysicalItem#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#value DataIntersightRecommendationPhysicalItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#value DataIntersightRecommendationPhysicalItem#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#ancestor_definitions DataIntersightRecommendationPhysicalItem#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#ancestor_definitions DataIntersightRecommendationPhysicalItem#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecommendationPhysicalItemTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#definition DataIntersightRecommendationPhysicalItem#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#definition DataIntersightRecommendationPhysicalItem#definition}
   */
   readonly definition?: DataIntersightRecommendationPhysicalItemTagsDefinition;
 }
@@ -3982,7 +3982,7 @@ export class DataIntersightRecommendationPhysicalItemTagsList extends cdktf.Comp
 }
 export interface DataIntersightRecommendationPhysicalItemVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3990,19 +3990,19 @@ export interface DataIntersightRecommendationPhysicalItemVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4015,7 +4015,7 @@ export interface DataIntersightRecommendationPhysicalItemVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -4247,7 +4247,7 @@ export class DataIntersightRecommendationPhysicalItemVersionContextInterestedMos
 }
 export interface DataIntersightRecommendationPhysicalItemVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4255,19 +4255,19 @@ export interface DataIntersightRecommendationPhysicalItemVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#moid DataIntersightRecommendationPhysicalItem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4280,7 +4280,7 @@ export interface DataIntersightRecommendationPhysicalItemVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#selector DataIntersightRecommendationPhysicalItem#selector}
   */
   readonly selector?: string;
 }
@@ -4480,7 +4480,7 @@ export class DataIntersightRecommendationPhysicalItemVersionContextRefMoOutputRe
 }
 export interface DataIntersightRecommendationPhysicalItemVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#additional_properties DataIntersightRecommendationPhysicalItem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4488,32 +4488,32 @@ export interface DataIntersightRecommendationPhysicalItemVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#class_id DataIntersightRecommendationPhysicalItem#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#marked_for_deletion DataIntersightRecommendationPhysicalItem#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#marked_for_deletion DataIntersightRecommendationPhysicalItem#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#nr_version DataIntersightRecommendationPhysicalItem#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#nr_version DataIntersightRecommendationPhysicalItem#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#object_type DataIntersightRecommendationPhysicalItem#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#timestamp DataIntersightRecommendationPhysicalItem#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#timestamp DataIntersightRecommendationPhysicalItem#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4524,19 +4524,19 @@ export interface DataIntersightRecommendationPhysicalItemVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#version_type DataIntersightRecommendationPhysicalItem#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#version_type DataIntersightRecommendationPhysicalItem#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#interested_mos DataIntersightRecommendationPhysicalItem#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#interested_mos DataIntersightRecommendationPhysicalItem#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecommendationPhysicalItemVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#ref_mo DataIntersightRecommendationPhysicalItem#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#ref_mo DataIntersightRecommendationPhysicalItem#ref_mo}
   */
   readonly refMo?: DataIntersightRecommendationPhysicalItemVersionContextRefMo;
 }
@@ -4852,7 +4852,7 @@ export class DataIntersightRecommendationPhysicalItemVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item intersight_recommendation_physical_item}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item intersight_recommendation_physical_item}
 */
 export class DataIntersightRecommendationPhysicalItem extends cdktf.TerraformDataSource {
 
@@ -4868,7 +4868,7 @@ export class DataIntersightRecommendationPhysicalItem extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightRecommendationPhysicalItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecommendationPhysicalItem to import
-  * @param importFromId The id of the existing DataIntersightRecommendationPhysicalItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecommendationPhysicalItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecommendationPhysicalItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4880,7 +4880,7 @@ export class DataIntersightRecommendationPhysicalItem extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_physical_item intersight_recommendation_physical_item} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_physical_item intersight_recommendation_physical_item} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4891,8 +4891,8 @@ export class DataIntersightRecommendationPhysicalItem extends cdktf.TerraformDat
       terraformResourceType: 'intersight_recommendation_physical_item',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

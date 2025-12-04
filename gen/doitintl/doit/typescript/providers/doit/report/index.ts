@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,45 @@ export interface ReportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Report configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#config Report#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#config Report#config}
   */
   readonly config?: ReportConfigA;
   /**
   * Report description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#description Report#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#description Report#description}
   */
   readonly description?: string;
   /**
   * Report name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#name Report#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#name Report#name}
   */
   readonly name: string;
 }
 export interface ReportConfigAdvancedAnalysis {
   /**
-  * Advanced analysis toggles. Each of these can be set independently
+  * Whether to enable forecast
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#forecast Report#forecast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#forecast Report#forecast}
   */
   readonly forecast?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#not_trending Report#not_trending}
+  * Whether to enable not trending analysis
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#not_trending Report#not_trending}
   */
   readonly notTrending?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#trending_down Report#trending_down}
+  * Whether to enable trending down analysis
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#trending_down Report#trending_down}
   */
   readonly trendingDown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#trending_up Report#trending_up}
+  * Whether to enable trending up analysis
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#trending_up Report#trending_up}
   */
   readonly trendingUp?: boolean | cdktf.IResolvable;
 }
@@ -223,14 +229,18 @@ export class ReportConfigAdvancedAnalysisOutputReference extends cdktf.ComplexOb
 }
 export interface ReportConfigDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * The field to apply to the dimension.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the dimension
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
 }
@@ -369,28 +379,30 @@ export class ReportConfigDimensionsList extends cdktf.ComplexList {
 }
 export interface ReportConfigFilters {
   /**
-  * What field we are filtering on
+  * The field to filter on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * If set, exclude the values
+  * Set to `true` to exclude the values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#inverse Report#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#inverse Report#inverse}
   */
   readonly inverse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the filter
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
-  * What values to filter on or exclude
+  * Values to filter on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#values Report#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#values Report#values}
   */
   readonly values: string[];
 }
@@ -584,11 +596,15 @@ export class ReportConfigFiltersList extends cdktf.ComplexList {
 }
 export interface ReportConfigGroupLimitMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#value Report#value}
+  * Value of the metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#value Report#value}
   */
   readonly value: string;
 }
@@ -705,15 +721,21 @@ export class ReportConfigGroupLimitMetricOutputReference extends cdktf.ComplexOb
 }
 export interface ReportConfigGroupLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#metric Report#metric}
+  * Metric to sort by
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#metric Report#metric}
   */
   readonly metric?: ReportConfigGroupLimitMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#sort Report#sort}
+  * Sort order
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#sort Report#sort}
   */
   readonly sort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#value Report#value}
+  * The number of items to show
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#value Report#value}
   */
   readonly value?: number;
 }
@@ -865,18 +887,24 @@ export class ReportConfigGroupLimitOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * Dimension ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#limit Report#limit}
+  * Limit the number of rows
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#limit Report#limit}
   */
   readonly limit?: ReportConfigGroupLimit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the dimension
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
 }
@@ -1044,14 +1072,16 @@ export class ReportConfigGroupList extends cdktf.ComplexList {
 }
 export interface ReportConfigMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
   * For basic metrics the value can be one of: ["cost", "usage", "savings" 
   * If using custom metrics, the value must refer to an existing custom or calculated metric id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#value Report#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#value Report#value}
   */
   readonly value: string;
 }
@@ -1168,11 +1198,15 @@ export class ReportConfigMetricOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigMetricFilterMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Type of the metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#value Report#value}
+  * Value of the metric
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#value Report#value}
   */
   readonly value: string;
 }
@@ -1289,15 +1323,21 @@ export class ReportConfigMetricFilterMetricOutputReference extends cdktf.Complex
 }
 export interface ReportConfigMetricFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#metric Report#metric}
+  * The metric to apply
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#metric Report#metric}
   */
   readonly metric: ReportConfigMetricFilterMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#operator Report#operator}
+  * Operator to apply
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#operator Report#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#values Report#values}
+  * Values to filter on
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#values Report#values}
   */
   readonly values: number[];
 }
@@ -1440,14 +1480,18 @@ export class ReportConfigMetricFilterOutputReference extends cdktf.ComplexObject
 }
 export interface ReportConfigSplitsOrigin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * Origin ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Origin Type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
 }
@@ -1564,20 +1608,24 @@ export class ReportConfigSplitsOriginOutputReference extends cdktf.ComplexObject
 }
 export interface ReportConfigSplitsTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * Target ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Target Type
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
   /**
   * Percent of the target, represented in float format. E.g. 30% is 0.3. Must be set only if Split Mode is custom
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#value Report#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#value Report#value}
   */
   readonly value?: number;
 }
@@ -1745,32 +1793,42 @@ export class ReportConfigSplitsTargetsList extends cdktf.ComplexList {
 }
 export interface ReportConfigSplits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#id Report#id}
+  * ID of the field to split
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#id Report#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#include_origin Report#include_origin}
+  * If set, include the origin
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#include_origin Report#include_origin}
   */
   readonly includeOrigin: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#mode Report#mode}
+  * Mode of the split
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#mode Report#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#origin Report#origin}
+  * Origin of the split
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#origin Report#origin}
   */
   readonly origin?: ReportConfigSplitsOrigin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#targets Report#targets}
+  * Targets for the split
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#targets Report#targets}
   */
   readonly targets: ReportConfigSplitsTargets[] | cdktf.IResolvable;
   /**
   * Type of the split.The only supported value at the moment: "attribution_group"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#type Report#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#type Report#type}
   */
   readonly type: string;
 }
@@ -2016,19 +2074,27 @@ export class ReportConfigSplitsList extends cdktf.ComplexList {
 }
 export interface ReportConfigTimeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#amount Report#amount}
+  * Amount of time units
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#amount Report#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#include_current Report#include_current}
+  * Whether to include current time unit
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#include_current Report#include_current}
   */
   readonly includeCurrent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#mode Report#mode}
+  * Time range mode. Possible values: 'last', 'current', 'custom'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#mode Report#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#unit Report#unit}
+  * Time unit. Possible values: 'day', 'week'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#unit Report#unit}
   */
   readonly unit?: string;
 }
@@ -2206,79 +2272,99 @@ export class ReportConfigTimeRangeOutputReference extends cdktf.ComplexObject {
 }
 export interface ReportConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#advanced_analysis Report#advanced_analysis}
+  * Advanced analysis options. Each of these can be set independently
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#advanced_analysis Report#advanced_analysis}
   */
   readonly advancedAnalysis?: ReportConfigAdvancedAnalysis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#aggregation Report#aggregation}
+  * The aggregation to apply to the report. Possible values: 'total', 'percent_total', 'percent_col', 'percent_row'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#aggregation Report#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#currency Report#currency}
+  * The currency to use for the report.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#currency Report#currency}
   */
   readonly currency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#dimensions Report#dimensions}
+  * See [Dimensions](https://help.doit.com/docs/cloud-analytics/reports/editing-your-cloud-report#dimensions).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#dimensions Report#dimensions}
   */
   readonly dimensions?: ReportConfigDimensions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#display_values Report#display_values}
+  * See [View data as (Comparative report)](https://help.doit.com/docs/cloud-analytics/reports/editing-your-cloud-report#view-as). Possible values: 'actuals_only', 'absolute_change', 'percentage_change', 'absolute_and_percentage'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#display_values Report#display_values}
   */
   readonly displayValues?: string;
   /**
   * The filters to use in this report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#filters Report#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#filters Report#filters}
   */
   readonly filters?: ReportConfigFilters[] | cdktf.IResolvable;
   /**
-  * The groups to use in the report.
+  * The rows that appear in the tabular format of the report. See [Group by](https://help.doit.com/docs/cloud-analytics/reports/editing-your-cloud-report#group-by).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#group Report#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#group Report#group}
   */
   readonly group?: ReportConfigGroup[] | cdktf.IResolvable;
   /**
-  * Whether to include credits or not. If set, the report must use time interval “month”/”quarter”/”year”
+  * Whether to include [promotional credits](https://help.doit.com/docs/cloud-analytics/reports/editing-your-cloud-report#promotional-credits). If set to **true**, the report must use time interval `month`, `quarter`, or `year`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#include_promotional_credits Report#include_promotional_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#include_promotional_credits Report#include_promotional_credits}
   */
   readonly includePromotionalCredits?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#layout Report#layout}
+  * The visualization of the report. Possible values: 'column_chart', 'stacked_column_chart', 'bar_chart', 'stacked_bar_chart', 'line_chart', 'spline_chart'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#layout Report#layout}
   */
   readonly layout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#metric Report#metric}
+  * The metric to apply.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#metric Report#metric}
   */
   readonly metric?: ReportConfigMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#metric_filter Report#metric_filter}
+  * The metric filter to limit the report results by value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#metric_filter Report#metric_filter}
   */
   readonly metricFilter?: ReportConfigMetricFilter;
   /**
-  * Sort dimensions. This configuration has no impact when reading a report's data via API. Default value is "desc".
+  * Sort dimensions. This option has no impact when reading reports via API. Possible values: 'asc', 'desc', 'a_to_z'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#sort_dimensions Report#sort_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#sort_dimensions Report#sort_dimensions}
   */
   readonly sortDimensions?: string;
   /**
-  * Sort groups. This configuration has no impact when reading a report's data via API. Default value is "asc".
+  * Sort groups. This option has no impact when reading reports via API. Possible values: 'asc', 'desc', 'a_to_z'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#sort_groups Report#sort_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#sort_groups Report#sort_groups}
   */
   readonly sortGroups?: string;
   /**
   * The splits to use in the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#splits Report#splits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#splits Report#splits}
   */
   readonly splits?: ReportConfigSplits[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#time_interval Report#time_interval}
+  * Time interval. Possible values: 'hour', 'day', 'dayCumSum', 'week', 'isoweek', 'month', 'quarter', 'year', 'week_day'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#time_interval Report#time_interval}
   */
   readonly timeInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#time_range Report#time_range}
+  * Time settings for the report
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#time_range Report#time_range}
   */
   readonly timeRange?: ReportConfigTimeRange;
 }
@@ -2807,7 +2893,7 @@ export class ReportConfigAOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report doit_report}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report doit_report}
 */
 export class Report extends cdktf.TerraformResource {
 
@@ -2823,7 +2909,7 @@ export class Report extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Report resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Report to import
-  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Report that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Report to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2835,7 +2921,7 @@ export class Report extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/report doit_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/report doit_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2846,8 +2932,8 @@ export class Report extends cdktf.TerraformResource {
       terraformResourceType: 'doit_report',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

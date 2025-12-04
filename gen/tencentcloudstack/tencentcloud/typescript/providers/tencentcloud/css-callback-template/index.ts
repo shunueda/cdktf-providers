@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CssCallbackTemplateConfig extends cdktf.TerraformMetaArguments 
   /**
   * Callback Key, public callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#callback_key CssCallbackTemplate#callback_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#callback_key CssCallbackTemplate#callback_key}
   */
   readonly callbackKey?: string;
   /**
   * Description information.Maximum length: 1024 bytes.Only `Chinese`, `English`, `numbers`, `_`, `-` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#description CssCallbackTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#description CssCallbackTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#id CssCallbackTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#id CssCallbackTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface CssCallbackTemplateConfig extends cdktf.TerraformMetaArguments 
   /**
   * PornCensorship callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#porn_censorship_notify_url CssCallbackTemplate#porn_censorship_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#porn_censorship_notify_url CssCallbackTemplate#porn_censorship_notify_url}
   */
   readonly pornCensorshipNotifyUrl?: string;
   /**
   * Streaming Exception Callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#push_exception_notify_url CssCallbackTemplate#push_exception_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#push_exception_notify_url CssCallbackTemplate#push_exception_notify_url}
   */
   readonly pushExceptionNotifyUrl?: string;
   /**
   * Recording callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#record_notify_url CssCallbackTemplate#record_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#record_notify_url CssCallbackTemplate#record_notify_url}
   */
   readonly recordNotifyUrl?: string;
   /**
   * Snapshot callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#snapshot_notify_url CssCallbackTemplate#snapshot_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#snapshot_notify_url CssCallbackTemplate#snapshot_notify_url}
   */
   readonly snapshotNotifyUrl?: string;
   /**
   * Launch callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#stream_begin_notify_url CssCallbackTemplate#stream_begin_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#stream_begin_notify_url CssCallbackTemplate#stream_begin_notify_url}
   */
   readonly streamBeginNotifyUrl?: string;
   /**
   * Cutoff callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#stream_end_notify_url CssCallbackTemplate#stream_end_notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#stream_end_notify_url CssCallbackTemplate#stream_end_notify_url}
   */
   readonly streamEndNotifyUrl?: string;
   /**
   * Template name.Maximum length: 255 bytes. Only `Chinese`, `English`, `numbers`, `_`, `-` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#template_name CssCallbackTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#template_name CssCallbackTemplate#template_name}
   */
   readonly templateName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template tencentcloud_css_callback_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template tencentcloud_css_callback_template}
 */
 export class CssCallbackTemplate extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class CssCallbackTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssCallbackTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssCallbackTemplate to import
-  * @param importFromId The id of the existing CssCallbackTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssCallbackTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssCallbackTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class CssCallbackTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/css_callback_template tencentcloud_css_callback_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/css_callback_template tencentcloud_css_callback_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class CssCallbackTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_callback_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

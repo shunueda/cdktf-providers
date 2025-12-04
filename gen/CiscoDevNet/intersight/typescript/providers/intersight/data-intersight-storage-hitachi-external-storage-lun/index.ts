@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageHitachiExternalStorageLunConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#account_moid DataIntersightStorageHitachiExternalStorageLun#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#account_moid DataIntersightStorageHitachiExternalStorageLun#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,53 +22,53 @@ export interface DataIntersightStorageHitachiExternalStorageLunConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#create_time DataIntersightStorageHitachiExternalStorageLun#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#create_time DataIntersightStorageHitachiExternalStorageLun#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#domain_group_moid DataIntersightStorageHitachiExternalStorageLun#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#domain_group_moid DataIntersightStorageHitachiExternalStorageLun#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * LUN that can be referenced from the port on the external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_lun DataIntersightStorageHitachiExternalStorageLun#external_lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_lun DataIntersightStorageHitachiExternalStorageLun#external_lun}
   */
   readonly externalLun?: number;
   /**
   * Object ID of ports on an external storage system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_port_id DataIntersightStorageHitachiExternalStorageLun#external_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_port_id DataIntersightStorageHitachiExternalStorageLun#external_port_id}
   */
   readonly externalPortId?: string;
   /**
   * Capacity of the external volume on the external storage system (1 block = 512 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_volume_capacity DataIntersightStorageHitachiExternalStorageLun#external_volume_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_volume_capacity DataIntersightStorageHitachiExternalStorageLun#external_volume_capacity}
   */
   readonly externalVolumeCapacity?: number;
   /**
   * The product ID and the device identification (output in ASCII format) in the SCSI information for the external volume on the external storage system. This information is obtained in a format in which the product ID and the device identification are concatenated by a space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_volume_info DataIntersightStorageHitachiExternalStorageLun#external_volume_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_volume_info DataIntersightStorageHitachiExternalStorageLun#external_volume_info}
   */
   readonly externalVolumeInfo?: string;
   /**
   * WWN of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_wwn DataIntersightStorageHitachiExternalStorageLun#external_wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_wwn DataIntersightStorageHitachiExternalStorageLun#external_wwn}
   */
   readonly externalWwn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#id DataIntersightStorageHitachiExternalStorageLun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#id DataIntersightStorageHitachiExternalStorageLun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,103 +77,103 @@ export interface DataIntersightStorageHitachiExternalStorageLunConfig extends cd
   /**
   * The iSCSI IP Address of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#iscsi_ip_address DataIntersightStorageHitachiExternalStorageLun#iscsi_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#iscsi_ip_address DataIntersightStorageHitachiExternalStorageLun#iscsi_ip_address}
   */
   readonly iscsiIpAddress?: string;
   /**
   * The iSCSI Name of the external storage port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#iscsi_name DataIntersightStorageHitachiExternalStorageLun#iscsi_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#iscsi_name DataIntersightStorageHitachiExternalStorageLun#iscsi_name}
   */
   readonly iscsiName?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#mod_time DataIntersightStorageHitachiExternalStorageLun#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#mod_time DataIntersightStorageHitachiExternalStorageLun#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#owners DataIntersightStorageHitachiExternalStorageLun#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#owners DataIntersightStorageHitachiExternalStorageLun#owners}
   */
   readonly owners?: string[];
   /**
   * Port ID of the local storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#port_id DataIntersightStorageHitachiExternalStorageLun#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#port_id DataIntersightStorageHitachiExternalStorageLun#port_id}
   */
   readonly portId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#shared_scope DataIntersightStorageHitachiExternalStorageLun#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#shared_scope DataIntersightStorageHitachiExternalStorageLun#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Virtual port ID. This attribute is displayed when an iSCSI port is used and virtual port mode is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#virtual_port_id DataIntersightStorageHitachiExternalStorageLun#virtual_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#virtual_port_id DataIntersightStorageHitachiExternalStorageLun#virtual_port_id}
   */
   readonly virtualPortId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#ancestors DataIntersightStorageHitachiExternalStorageLun#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#ancestors DataIntersightStorageHitachiExternalStorageLun#ancestors}
   */
   readonly ancestors?: DataIntersightStorageHitachiExternalStorageLunAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#array DataIntersightStorageHitachiExternalStorageLun#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#array DataIntersightStorageHitachiExternalStorageLun#array}
   */
   readonly array?: DataIntersightStorageHitachiExternalStorageLunArray;
   /**
   * external_storage_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#external_storage_port DataIntersightStorageHitachiExternalStorageLun#external_storage_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#external_storage_port DataIntersightStorageHitachiExternalStorageLun#external_storage_port}
   */
   readonly externalStoragePort?: DataIntersightStorageHitachiExternalStorageLunExternalStoragePort;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#parent DataIntersightStorageHitachiExternalStorageLun#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#parent DataIntersightStorageHitachiExternalStorageLun#parent}
   */
   readonly parent?: DataIntersightStorageHitachiExternalStorageLunParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#permission_resources DataIntersightStorageHitachiExternalStorageLun#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#permission_resources DataIntersightStorageHitachiExternalStorageLun#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageHitachiExternalStorageLunPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#registered_device DataIntersightStorageHitachiExternalStorageLun#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#registered_device DataIntersightStorageHitachiExternalStorageLun#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageHitachiExternalStorageLunRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#tags DataIntersightStorageHitachiExternalStorageLun#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#tags DataIntersightStorageHitachiExternalStorageLun#tags}
   */
   readonly tags?: DataIntersightStorageHitachiExternalStorageLunTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#version_context DataIntersightStorageHitachiExternalStorageLun#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#version_context DataIntersightStorageHitachiExternalStorageLun#version_context}
   */
   readonly versionContext?: DataIntersightStorageHitachiExternalStorageLunVersionContext;
 }
@@ -1571,7 +1571,7 @@ export class DataIntersightStorageHitachiExternalStorageLunResultsList extends c
 }
 export interface DataIntersightStorageHitachiExternalStorageLunAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1579,19 +1579,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1604,7 +1604,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -1836,7 +1836,7 @@ export class DataIntersightStorageHitachiExternalStorageLunAncestorsList extends
 }
 export interface DataIntersightStorageHitachiExternalStorageLunArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1844,19 +1844,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1869,7 +1869,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -2069,7 +2069,7 @@ export class DataIntersightStorageHitachiExternalStorageLunArrayOutputReference 
 }
 export interface DataIntersightStorageHitachiExternalStorageLunExternalStoragePort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2077,19 +2077,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunExternalStoragePo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2102,7 +2102,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunExternalStoragePo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -2302,7 +2302,7 @@ export class DataIntersightStorageHitachiExternalStorageLunExternalStoragePortOu
 }
 export interface DataIntersightStorageHitachiExternalStorageLunParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2310,19 +2310,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2335,7 +2335,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -2535,7 +2535,7 @@ export class DataIntersightStorageHitachiExternalStorageLunParentOutputReference
 }
 export interface DataIntersightStorageHitachiExternalStorageLunPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2543,19 +2543,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunPermissionResourc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2568,7 +2568,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunPermissionResourc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -2800,7 +2800,7 @@ export class DataIntersightStorageHitachiExternalStorageLunPermissionResourcesLi
 }
 export interface DataIntersightStorageHitachiExternalStorageLunRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2808,19 +2808,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunRegisteredDevice 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2833,7 +2833,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunRegisteredDevice 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -3033,7 +3033,7 @@ export class DataIntersightStorageHitachiExternalStorageLunRegisteredDeviceOutpu
 }
 export interface DataIntersightStorageHitachiExternalStorageLunTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3041,19 +3041,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunTagsAncestorDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3066,7 +3066,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunTagsAncestorDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -3298,7 +3298,7 @@ export class DataIntersightStorageHitachiExternalStorageLunTagsAncestorDefinitio
 }
 export interface DataIntersightStorageHitachiExternalStorageLunTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3306,19 +3306,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3331,7 +3331,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -3531,25 +3531,25 @@ export class DataIntersightStorageHitachiExternalStorageLunTagsDefinitionOutputR
 }
 export interface DataIntersightStorageHitachiExternalStorageLunTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#key DataIntersightStorageHitachiExternalStorageLun#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#key DataIntersightStorageHitachiExternalStorageLun#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#propagated DataIntersightStorageHitachiExternalStorageLun#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#propagated DataIntersightStorageHitachiExternalStorageLun#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#sys_tag DataIntersightStorageHitachiExternalStorageLun#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#sys_tag DataIntersightStorageHitachiExternalStorageLun#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3557,25 +3557,25 @@ export interface DataIntersightStorageHitachiExternalStorageLunTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#type DataIntersightStorageHitachiExternalStorageLun#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#type DataIntersightStorageHitachiExternalStorageLun#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#value DataIntersightStorageHitachiExternalStorageLun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#value DataIntersightStorageHitachiExternalStorageLun#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#ancestor_definitions DataIntersightStorageHitachiExternalStorageLun#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#ancestor_definitions DataIntersightStorageHitachiExternalStorageLun#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageHitachiExternalStorageLunTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#definition DataIntersightStorageHitachiExternalStorageLun#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#definition DataIntersightStorageHitachiExternalStorageLun#definition}
   */
   readonly definition?: DataIntersightStorageHitachiExternalStorageLunTagsDefinition;
 }
@@ -3894,7 +3894,7 @@ export class DataIntersightStorageHitachiExternalStorageLunTagsList extends cdkt
 }
 export interface DataIntersightStorageHitachiExternalStorageLunVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3902,19 +3902,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContextInt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3927,7 +3927,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContextInt
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -4159,7 +4159,7 @@ export class DataIntersightStorageHitachiExternalStorageLunVersionContextInteres
 }
 export interface DataIntersightStorageHitachiExternalStorageLunVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4167,19 +4167,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContextRef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#moid DataIntersightStorageHitachiExternalStorageLun#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4192,7 +4192,7 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContextRef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#selector DataIntersightStorageHitachiExternalStorageLun#selector}
   */
   readonly selector?: string;
 }
@@ -4392,7 +4392,7 @@ export class DataIntersightStorageHitachiExternalStorageLunVersionContextRefMoOu
 }
 export interface DataIntersightStorageHitachiExternalStorageLunVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#additional_properties DataIntersightStorageHitachiExternalStorageLun#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4400,32 +4400,32 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#class_id DataIntersightStorageHitachiExternalStorageLun#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#marked_for_deletion DataIntersightStorageHitachiExternalStorageLun#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#marked_for_deletion DataIntersightStorageHitachiExternalStorageLun#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#nr_version DataIntersightStorageHitachiExternalStorageLun#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#nr_version DataIntersightStorageHitachiExternalStorageLun#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#object_type DataIntersightStorageHitachiExternalStorageLun#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#timestamp DataIntersightStorageHitachiExternalStorageLun#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#timestamp DataIntersightStorageHitachiExternalStorageLun#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4436,19 +4436,19 @@ export interface DataIntersightStorageHitachiExternalStorageLunVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#version_type DataIntersightStorageHitachiExternalStorageLun#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#version_type DataIntersightStorageHitachiExternalStorageLun#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#interested_mos DataIntersightStorageHitachiExternalStorageLun#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#interested_mos DataIntersightStorageHitachiExternalStorageLun#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageHitachiExternalStorageLunVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#ref_mo DataIntersightStorageHitachiExternalStorageLun#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#ref_mo DataIntersightStorageHitachiExternalStorageLun#ref_mo}
   */
   readonly refMo?: DataIntersightStorageHitachiExternalStorageLunVersionContextRefMo;
 }
@@ -4764,7 +4764,7 @@ export class DataIntersightStorageHitachiExternalStorageLunVersionContextOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun intersight_storage_hitachi_external_storage_lun}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun intersight_storage_hitachi_external_storage_lun}
 */
 export class DataIntersightStorageHitachiExternalStorageLun extends cdktf.TerraformDataSource {
 
@@ -4780,7 +4780,7 @@ export class DataIntersightStorageHitachiExternalStorageLun extends cdktf.Terraf
   * Generates CDKTF code for importing a DataIntersightStorageHitachiExternalStorageLun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageHitachiExternalStorageLun to import
-  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalStorageLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageHitachiExternalStorageLun that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageHitachiExternalStorageLun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4792,7 +4792,7 @@ export class DataIntersightStorageHitachiExternalStorageLun extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_hitachi_external_storage_lun intersight_storage_hitachi_external_storage_lun} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_hitachi_external_storage_lun intersight_storage_hitachi_external_storage_lun} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4803,8 +4803,8 @@ export class DataIntersightStorageHitachiExternalStorageLun extends cdktf.Terraf
       terraformResourceType: 'intersight_storage_hitachi_external_storage_lun',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

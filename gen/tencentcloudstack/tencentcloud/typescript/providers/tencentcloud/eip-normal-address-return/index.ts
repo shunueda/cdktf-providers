@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface EipNormalAddressReturnConfig extends cdktf.TerraformMetaArgumen
   /**
   * The IP address of the EIP, example: 101.35.139.183.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return#address_ips EipNormalAddressReturn#address_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return#address_ips EipNormalAddressReturn#address_ips}
   */
   readonly addressIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return#id EipNormalAddressReturn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return#id EipNormalAddressReturn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface EipNormalAddressReturnConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return tencentcloud_eip_normal_address_return}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return tencentcloud_eip_normal_address_return}
 */
 export class EipNormalAddressReturn extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class EipNormalAddressReturn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EipNormalAddressReturn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EipNormalAddressReturn to import
-  * @param importFromId The id of the existing EipNormalAddressReturn that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EipNormalAddressReturn that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EipNormalAddressReturn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class EipNormalAddressReturn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/eip_normal_address_return tencentcloud_eip_normal_address_return} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/eip_normal_address_return tencentcloud_eip_normal_address_return} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class EipNormalAddressReturn extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eip_normal_address_return',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

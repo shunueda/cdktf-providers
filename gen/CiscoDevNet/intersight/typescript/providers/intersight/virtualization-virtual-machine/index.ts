@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#account_moid VirtualizationVirtualMachine#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#account_moid VirtualizationVirtualMachine#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -22,31 +22,31 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * * `Delete` - The virtual machine will be deleted from the specified hypervisor. User can either set this action or can do a DELETE operation on the VirtualMachine managed object.
   * * `Resize` - The virtual machine will be resized to the specified instance type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#action VirtualizationVirtualMachine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#action VirtualizationVirtualMachine#action}
   */
   readonly action?: string;
   /**
   * Details of an action performed on the virtual machine. Contains name of the action performed, status, failure reason message etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#action_info VirtualizationVirtualMachine#action_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#action_info VirtualizationVirtualMachine#action_info}
   */
   readonly actionInfo?: VirtualizationVirtualMachineActionInfo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#affinity_selectors VirtualizationVirtualMachine#affinity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#affinity_selectors VirtualizationVirtualMachine#affinity_selectors}
   */
   readonly affinitySelectors?: VirtualizationVirtualMachineAffinitySelectors[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#ancestors VirtualizationVirtualMachine#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#ancestors VirtualizationVirtualMachine#ancestors}
   */
   readonly ancestors?: VirtualizationVirtualMachineAncestors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#anti_affinity_selectors VirtualizationVirtualMachine#anti_affinity_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#anti_affinity_selectors VirtualizationVirtualMachine#anti_affinity_selectors}
   */
   readonly antiAffinitySelectors?: VirtualizationVirtualMachineAntiAffinitySelectors[] | cdktf.IResolvable;
   /**
@@ -54,64 +54,64 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
   * Cloud init configuration data for virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#cloud_init_config VirtualizationVirtualMachine#cloud_init_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#cloud_init_config VirtualizationVirtualMachine#cloud_init_config}
   */
   readonly cloudInitConfig?: VirtualizationVirtualMachineCloudInitConfig[] | cdktf.IResolvable;
   /**
   * A reference to a virtualizationBaseCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#cluster VirtualizationVirtualMachine#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#cluster VirtualizationVirtualMachine#cluster}
   */
   readonly cluster?: VirtualizationVirtualMachineCluster[] | cdktf.IResolvable;
   /**
   * Cluster where virtual machine is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#cluster_esxi VirtualizationVirtualMachine#cluster_esxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#cluster_esxi VirtualizationVirtualMachine#cluster_esxi}
   */
   readonly clusterEsxi?: string;
   /**
   * Number of vCPUs to be allocated to virtual machine. The upper limit depends on the hypervisor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#cpu VirtualizationVirtualMachine#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#cpu VirtualizationVirtualMachine#cpu}
   */
   readonly cpu?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#create_time VirtualizationVirtualMachine#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#create_time VirtualizationVirtualMachine#create_time}
   */
   readonly createTime?: string;
   /**
   * Flag to indicate whether the configuration is created from inventory object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#discovered VirtualizationVirtualMachine#discovered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#discovered VirtualizationVirtualMachine#discovered}
   */
   readonly discovered?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#disk VirtualizationVirtualMachine#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#disk VirtualizationVirtualMachine#disk}
   */
   readonly disk?: VirtualizationVirtualMachineDisk[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#domain_group_moid VirtualizationVirtualMachine#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#domain_group_moid VirtualizationVirtualMachine#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Normally any virtual machine that is still powered on cannot be deleted. The expected sequence from a user is to first power off the virtual machine and then invoke the delete operation. However, in special circumstances, the owner of the virtual machine may know very well that the virtual machine is no longer needed and just wants to dispose it off. In such situations a delete operation of a virtual machine object is accepted only when this forceDelete attribute is set to true. Under normal circumstances (forceDelete is false), delete operation first confirms that the virtual machine is powered off and then proceeds to delete the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#force_delete VirtualizationVirtualMachine#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#force_delete VirtualizationVirtualMachine#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#gpu_configs VirtualizationVirtualMachine#gpu_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#gpu_configs VirtualizationVirtualMachine#gpu_configs}
   */
   readonly gpuConfigs?: VirtualizationVirtualMachineGpuConfigs[] | cdktf.IResolvable;
   /**
@@ -119,20 +119,20 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * * `linux` - A Linux operating system.
   * * `windows` - A Windows operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#guest_os VirtualizationVirtualMachine#guest_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#guest_os VirtualizationVirtualMachine#guest_os}
   */
   readonly guestOs?: string;
   /**
   * A reference to a virtualizationBaseHost resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#host VirtualizationVirtualMachine#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#host VirtualizationVirtualMachine#host}
   */
   readonly host?: VirtualizationVirtualMachineHost[] | cdktf.IResolvable;
   /**
   * Host where virtual machine is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#host_esxi VirtualizationVirtualMachine#host_esxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#host_esxi VirtualizationVirtualMachine#host_esxi}
   */
   readonly hostEsxi?: string;
   /**
@@ -141,77 +141,77 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#hypervisor_type VirtualizationVirtualMachine#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#hypervisor_type VirtualizationVirtualMachine#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#id VirtualizationVirtualMachine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#id VirtualizationVirtualMachine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#interfaces VirtualizationVirtualMachine#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#interfaces VirtualizationVirtualMachine#interfaces}
   */
   readonly interfaces?: VirtualizationVirtualMachineInterfaces[] | cdktf.IResolvable;
   /**
   * A reference to a virtualizationBaseVirtualMachine resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#inventory VirtualizationVirtualMachine#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#inventory VirtualizationVirtualMachine#inventory}
   */
   readonly inventory?: VirtualizationVirtualMachineInventory[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#labels VirtualizationVirtualMachine#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#labels VirtualizationVirtualMachine#labels}
   */
   readonly labels?: VirtualizationVirtualMachineLabels[] | cdktf.IResolvable;
   /**
   * Virtual machine memory in mebi bytes (one mebibyte, 1MiB, is 1048576 bytes, and 1KiB is 1024 bytes). Input must be a whole number and scientific notation is not acceptable. For example, enter 1730 and not 1.73e03. No upper limit is enforced because hypervisors increase the limit in every release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#memory VirtualizationVirtualMachine#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#memory VirtualizationVirtualMachine#memory}
   */
   readonly memory?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#mod_time VirtualizationVirtualMachine#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#mod_time VirtualizationVirtualMachine#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
   * Virtual machine name that is unique. Hypervisors enforce platform specific limits and character sets. The name length limit, both min and max, vary among hypervisors. Therefore, the basic limits are set here and proper enforcement is done elsewhere.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#owners VirtualizationVirtualMachine#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#owners VirtualizationVirtualMachine#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#parent VirtualizationVirtualMachine#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#parent VirtualizationVirtualMachine#parent}
   */
   readonly parent?: VirtualizationVirtualMachineParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#permission_resources VirtualizationVirtualMachine#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#permission_resources VirtualizationVirtualMachine#permission_resources}
   */
   readonly permissionResources?: VirtualizationVirtualMachinePermissionResources[] | cdktf.IResolvable;
   /**
@@ -225,7 +225,7 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * * `Restart` - The virtual machine will be restarted only if it is in powered on state. If it is powered off, it will not be started up.
   * * `Unknown` - Power state of the entity is unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#power_state VirtualizationVirtualMachine#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#power_state VirtualizationVirtualMachine#power_state}
   */
   readonly powerState?: string;
   /**
@@ -234,76 +234,76 @@ export interface VirtualizationVirtualMachineConfig extends cdktf.TerraformMetaA
   * * `Template` - Provision virtual machine using a template file.
   * * `Discovered` - A virtual machine was 'discovered' and not created from Intersight. No provisioning information is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#provision_type VirtualizationVirtualMachine#provision_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#provision_type VirtualizationVirtualMachine#provision_type}
   */
   readonly provisionType?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#registered_device VirtualizationVirtualMachine#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#registered_device VirtualizationVirtualMachine#registered_device}
   */
   readonly registeredDevice?: VirtualizationVirtualMachineRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#shared_scope VirtualizationVirtualMachine#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#shared_scope VirtualizationVirtualMachine#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#tags VirtualizationVirtualMachine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#tags VirtualizationVirtualMachine#tags}
   */
   readonly tags?: VirtualizationVirtualMachineTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#version_context VirtualizationVirtualMachine#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#version_context VirtualizationVirtualMachine#version_context}
   */
   readonly versionContext?: VirtualizationVirtualMachineVersionContext[] | cdktf.IResolvable;
   /**
   * Virtual machine configuration to provision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#vm_config VirtualizationVirtualMachine#vm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#vm_config VirtualizationVirtualMachine#vm_config}
   */
   readonly vmConfig?: VirtualizationVirtualMachineVmConfig[] | cdktf.IResolvable;
   /**
   * This model object can trigger workflows. Use this option to wait for all running workflows to reach a complete state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#wait_for_completion VirtualizationVirtualMachine#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#wait_for_completion VirtualizationVirtualMachine#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * A reference to a workflowWorkflowInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#workflow_info VirtualizationVirtualMachine#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#workflow_info VirtualizationVirtualMachine#workflow_info}
   */
   readonly workflowInfo?: VirtualizationVirtualMachineWorkflowInfo[] | cdktf.IResolvable;
 }
 export interface VirtualizationVirtualMachineActionInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#failure_reason VirtualizationVirtualMachine#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#failure_reason VirtualizationVirtualMachine#failure_reason}
   */
   readonly failureReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#status VirtualizationVirtualMachine#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#status VirtualizationVirtualMachine#status}
   */
   readonly status?: string;
 }
@@ -564,23 +564,23 @@ export class VirtualizationVirtualMachineActionInfoList extends cdktf.ComplexLis
 }
 export interface VirtualizationVirtualMachineAffinitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -812,23 +812,23 @@ export class VirtualizationVirtualMachineAffinitySelectorsList extends cdktf.Com
 }
 export interface VirtualizationVirtualMachineAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -1060,23 +1060,23 @@ export class VirtualizationVirtualMachineAncestorsList extends cdktf.ComplexList
 }
 export interface VirtualizationVirtualMachineAntiAffinitySelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -1308,35 +1308,35 @@ export class VirtualizationVirtualMachineAntiAffinitySelectorsList extends cdktf
 }
 export interface VirtualizationVirtualMachineCloudInitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#config_type VirtualizationVirtualMachine#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#config_type VirtualizationVirtualMachine#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#network_data VirtualizationVirtualMachine#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#network_data VirtualizationVirtualMachine#network_data}
   */
   readonly networkData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#network_data_base64_encoded VirtualizationVirtualMachine#network_data_base64_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#network_data_base64_encoded VirtualizationVirtualMachine#network_data_base64_encoded}
   */
   readonly networkDataBase64Encoded?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#user_data VirtualizationVirtualMachine#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#user_data VirtualizationVirtualMachine#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#user_data_base64_encoded VirtualizationVirtualMachine#user_data_base64_encoded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#user_data_base64_encoded VirtualizationVirtualMachine#user_data_base64_encoded}
   */
   readonly userDataBase64Encoded?: boolean | cdktf.IResolvable;
 }
@@ -1655,23 +1655,23 @@ export class VirtualizationVirtualMachineCloudInitConfigList extends cdktf.Compl
 }
 export interface VirtualizationVirtualMachineCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -1903,35 +1903,35 @@ export class VirtualizationVirtualMachineClusterList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachineDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#bus VirtualizationVirtualMachine#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#bus VirtualizationVirtualMachine#bus}
   */
   readonly bus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#order VirtualizationVirtualMachine#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#order VirtualizationVirtualMachine#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#type VirtualizationVirtualMachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#type VirtualizationVirtualMachine#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#virtual_disk_reference VirtualizationVirtualMachine#virtual_disk_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#virtual_disk_reference VirtualizationVirtualMachine#virtual_disk_reference}
   */
   readonly virtualDiskReference?: string;
 }
@@ -2250,27 +2250,27 @@ export class VirtualizationVirtualMachineDiskList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachineGpuConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#device_id VirtualizationVirtualMachine#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#device_id VirtualizationVirtualMachine#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#memory_size VirtualizationVirtualMachine#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#memory_size VirtualizationVirtualMachine#memory_size}
   */
   readonly memorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#vendor_id VirtualizationVirtualMachine#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#vendor_id VirtualizationVirtualMachine#vendor_id}
   */
   readonly vendorId?: number;
 }
@@ -2531,23 +2531,23 @@ export class VirtualizationVirtualMachineGpuConfigsList extends cdktf.ComplexLis
 }
 export interface VirtualizationVirtualMachineHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -2779,39 +2779,39 @@ export class VirtualizationVirtualMachineHostList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachineInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#adaptor_type VirtualizationVirtualMachine#adaptor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#adaptor_type VirtualizationVirtualMachine#adaptor_type}
   */
   readonly adaptorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#bridge VirtualizationVirtualMachine#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#bridge VirtualizationVirtualMachine#bridge}
   */
   readonly bridge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#connect_at_power_on VirtualizationVirtualMachine#connect_at_power_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#connect_at_power_on VirtualizationVirtualMachine#connect_at_power_on}
   */
   readonly connectAtPowerOn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#direct_path_io VirtualizationVirtualMachine#direct_path_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#direct_path_io VirtualizationVirtualMachine#direct_path_io}
   */
   readonly directPathIo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#mac_address VirtualizationVirtualMachine#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#mac_address VirtualizationVirtualMachine#mac_address}
   */
   readonly macAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
 }
@@ -3159,23 +3159,23 @@ export class VirtualizationVirtualMachineInterfacesList extends cdktf.ComplexLis
 }
 export interface VirtualizationVirtualMachineInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -3407,23 +3407,23 @@ export class VirtualizationVirtualMachineInventoryList extends cdktf.ComplexList
 }
 export interface VirtualizationVirtualMachineLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#name VirtualizationVirtualMachine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -3655,23 +3655,23 @@ export class VirtualizationVirtualMachineLabelsList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachineParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -3903,23 +3903,23 @@ export class VirtualizationVirtualMachineParentList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachinePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -4151,23 +4151,23 @@ export class VirtualizationVirtualMachinePermissionResourcesList extends cdktf.C
 }
 export interface VirtualizationVirtualMachineRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -4399,23 +4399,23 @@ export class VirtualizationVirtualMachineRegisteredDeviceList extends cdktf.Comp
 }
 export interface VirtualizationVirtualMachineTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -4647,23 +4647,23 @@ export class VirtualizationVirtualMachineTagsAncestorDefinitionsList extends cdk
 }
 export interface VirtualizationVirtualMachineTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -4895,35 +4895,35 @@ export class VirtualizationVirtualMachineTagsDefinitionList extends cdktf.Comple
 }
 export interface VirtualizationVirtualMachineTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#ancestor_definitions VirtualizationVirtualMachine#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#ancestor_definitions VirtualizationVirtualMachine#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VirtualizationVirtualMachineTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#definition VirtualizationVirtualMachine#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#definition VirtualizationVirtualMachine#definition}
   */
   readonly definition?: VirtualizationVirtualMachineTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#key VirtualizationVirtualMachine#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#key VirtualizationVirtualMachine#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#propagated VirtualizationVirtualMachine#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#propagated VirtualizationVirtualMachine#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#sys_tag VirtualizationVirtualMachine#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#sys_tag VirtualizationVirtualMachine#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#type VirtualizationVirtualMachine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#type VirtualizationVirtualMachine#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#value VirtualizationVirtualMachine#value}
   */
   readonly value?: string;
 }
@@ -5242,23 +5242,23 @@ export class VirtualizationVirtualMachineTagsList extends cdktf.ComplexList {
 }
 export interface VirtualizationVirtualMachineVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -5490,23 +5490,23 @@ export class VirtualizationVirtualMachineVersionContextInterestedMosList extends
 }
 export interface VirtualizationVirtualMachineVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -5738,39 +5738,39 @@ export class VirtualizationVirtualMachineVersionContextRefMoList extends cdktf.C
 }
 export interface VirtualizationVirtualMachineVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#interested_mos VirtualizationVirtualMachine#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#interested_mos VirtualizationVirtualMachine#interested_mos}
   */
   readonly interestedMos?: VirtualizationVirtualMachineVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#marked_for_deletion VirtualizationVirtualMachine#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#marked_for_deletion VirtualizationVirtualMachine#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#nr_version VirtualizationVirtualMachine#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#nr_version VirtualizationVirtualMachine#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#ref_mo VirtualizationVirtualMachine#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#ref_mo VirtualizationVirtualMachine#ref_mo}
   */
   readonly refMo?: VirtualizationVirtualMachineVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#timestamp VirtualizationVirtualMachine#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#timestamp VirtualizationVirtualMachine#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#version_type VirtualizationVirtualMachine#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#version_type VirtualizationVirtualMachine#version_type}
   */
   readonly versionType?: string;
 }
@@ -6118,15 +6118,15 @@ export class VirtualizationVirtualMachineVersionContextList extends cdktf.Comple
 }
 export interface VirtualizationVirtualMachineVmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
 }
@@ -6300,23 +6300,23 @@ export class VirtualizationVirtualMachineVmConfigList extends cdktf.ComplexList 
 }
 export interface VirtualizationVirtualMachineWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#additional_properties VirtualizationVirtualMachine#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#class_id VirtualizationVirtualMachine#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#moid VirtualizationVirtualMachine#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#object_type VirtualizationVirtualMachine#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#selector VirtualizationVirtualMachine#selector}
   */
   readonly selector?: string;
 }
@@ -6548,7 +6548,7 @@ export class VirtualizationVirtualMachineWorkflowInfoList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine intersight_virtualization_virtual_machine}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine intersight_virtualization_virtual_machine}
 */
 export class VirtualizationVirtualMachine extends cdktf.TerraformResource {
 
@@ -6564,7 +6564,7 @@ export class VirtualizationVirtualMachine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualizationVirtualMachine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualizationVirtualMachine to import
-  * @param importFromId The id of the existing VirtualizationVirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualizationVirtualMachine that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualizationVirtualMachine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6576,7 +6576,7 @@ export class VirtualizationVirtualMachine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_virtual_machine intersight_virtualization_virtual_machine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_virtual_machine intersight_virtualization_virtual_machine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6587,8 +6587,8 @@ export class VirtualizationVirtualMachine extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_virtualization_virtual_machine',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

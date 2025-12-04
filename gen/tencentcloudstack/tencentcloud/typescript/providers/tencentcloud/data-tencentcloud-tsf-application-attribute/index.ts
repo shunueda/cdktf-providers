@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudTsfApplicationAttributeConfig extends cdktf.Ter
   /**
   * application Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute#application_id DataTencentcloudTsfApplicationAttribute#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute#application_id DataTencentcloudTsfApplicationAttribute#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute#id DataTencentcloudTsfApplicationAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute#id DataTencentcloudTsfApplicationAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudTsfApplicationAttributeConfig extends cdktf.Ter
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute#result_output_file DataTencentcloudTsfApplicationAttribute#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute#result_output_file DataTencentcloudTsfApplicationAttribute#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -114,7 +114,7 @@ export class DataTencentcloudTsfApplicationAttributeResultList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute tencentcloud_tsf_application_attribute}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute tencentcloud_tsf_application_attribute}
 */
 export class DataTencentcloudTsfApplicationAttribute extends cdktf.TerraformDataSource {
 
@@ -130,7 +130,7 @@ export class DataTencentcloudTsfApplicationAttribute extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudTsfApplicationAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfApplicationAttribute to import
-  * @param importFromId The id of the existing DataTencentcloudTsfApplicationAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfApplicationAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfApplicationAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class DataTencentcloudTsfApplicationAttribute extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_attribute tencentcloud_tsf_application_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_attribute tencentcloud_tsf_application_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class DataTencentcloudTsfApplicationAttribute extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_tsf_application_attribute',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

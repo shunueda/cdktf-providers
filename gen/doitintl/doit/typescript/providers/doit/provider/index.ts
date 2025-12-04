@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DoitProviderConfig {
   /**
   * API Token to access DoiT API. May also be provided by DOIT_API_TOKEN environment variable. Refer to https://developer.doit.com/docs/start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs#api_token DoitProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs#api_token DoitProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Customer context. May also be provided by DOIT_CUSTOMER_CONTEXT environment variable. This field is requiered just for DoiT employees 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs#customer_context DoitProvider#customer_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs#customer_context DoitProvider#customer_context}
   */
   readonly customerContext?: string;
   /**
   * URI for DoiT API. May also be provided via DOIT_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs#host DoitProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs#host DoitProvider#host}
   */
   readonly host?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs#alias DoitProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs#alias DoitProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs doit}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs doit}
 */
 export class DoitProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class DoitProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DoitProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DoitProvider to import
-  * @param importFromId The id of the existing DoitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DoitProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DoitProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DoitProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs doit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs doit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DoitProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'doit',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       terraformProviderSource: 'doitintl/doit'
     });

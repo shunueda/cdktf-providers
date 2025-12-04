@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryHealthInsightsDataConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#account_moid DataIntersightNiatelemetryHealthInsightsData#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#account_moid DataIntersightNiatelemetryHealthInsightsData#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightNiatelemetryHealthInsightsDataConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#create_time DataIntersightNiatelemetryHealthInsightsData#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#create_time DataIntersightNiatelemetryHealthInsightsData#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#domain_group_moid DataIntersightNiatelemetryHealthInsightsData#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#domain_group_moid DataIntersightNiatelemetryHealthInsightsData#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Flt eqpt flash minor alarm fault count for the APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#flt_eqpt_flash_minor_alarm_fault_count DataIntersightNiatelemetryHealthInsightsData#flt_eqpt_flash_minor_alarm_fault_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#flt_eqpt_flash_minor_alarm_fault_count DataIntersightNiatelemetryHealthInsightsData#flt_eqpt_flash_minor_alarm_fault_count}
   */
   readonly fltEqptFlashMinorAlarmFaultCount?: number;
   /**
   * Flt eqpt flash worn out fault count for the APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#flt_eqpt_flash_worn_out_fault_count DataIntersightNiatelemetryHealthInsightsData#flt_eqpt_flash_worn_out_fault_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#flt_eqpt_flash_worn_out_fault_count DataIntersightNiatelemetryHealthInsightsData#flt_eqpt_flash_worn_out_fault_count}
   */
   readonly fltEqptFlashWornOutFaultCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#id DataIntersightNiatelemetryHealthInsightsData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#id DataIntersightNiatelemetryHealthInsightsData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightNiatelemetryHealthInsightsDataConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#mod_time DataIntersightNiatelemetryHealthInsightsData#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#mod_time DataIntersightNiatelemetryHealthInsightsData#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#owners DataIntersightNiatelemetryHealthInsightsData#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#owners DataIntersightNiatelemetryHealthInsightsData#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#record_type DataIntersightNiatelemetryHealthInsightsData#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#record_type DataIntersightNiatelemetryHealthInsightsData#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#record_version DataIntersightNiatelemetryHealthInsightsData#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#record_version DataIntersightNiatelemetryHealthInsightsData#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#shared_scope DataIntersightNiatelemetryHealthInsightsData#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#shared_scope DataIntersightNiatelemetryHealthInsightsData#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#site_name DataIntersightNiatelemetryHealthInsightsData#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#site_name DataIntersightNiatelemetryHealthInsightsData#site_name}
   */
   readonly siteName?: string;
   /**
   * Ssd fault monitoring count for the APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#ssd_monitoring_fault_count DataIntersightNiatelemetryHealthInsightsData#ssd_monitoring_fault_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#ssd_monitoring_fault_count DataIntersightNiatelemetryHealthInsightsData#ssd_monitoring_fault_count}
   */
   readonly ssdMonitoringFaultCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#ancestors DataIntersightNiatelemetryHealthInsightsData#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#ancestors DataIntersightNiatelemetryHealthInsightsData#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryHealthInsightsDataAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#parent DataIntersightNiatelemetryHealthInsightsData#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#parent DataIntersightNiatelemetryHealthInsightsData#parent}
   */
   readonly parent?: DataIntersightNiatelemetryHealthInsightsDataParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#permission_resources DataIntersightNiatelemetryHealthInsightsData#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#permission_resources DataIntersightNiatelemetryHealthInsightsData#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryHealthInsightsDataPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#registered_device DataIntersightNiatelemetryHealthInsightsData#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#registered_device DataIntersightNiatelemetryHealthInsightsData#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryHealthInsightsDataRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#tags DataIntersightNiatelemetryHealthInsightsData#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#tags DataIntersightNiatelemetryHealthInsightsData#tags}
   */
   readonly tags?: DataIntersightNiatelemetryHealthInsightsDataTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#version_context DataIntersightNiatelemetryHealthInsightsData#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#version_context DataIntersightNiatelemetryHealthInsightsData#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryHealthInsightsDataVersionContext;
 }
@@ -1324,7 +1324,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataResultsList extends cdk
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1332,19 +1332,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1357,7 +1357,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -1589,7 +1589,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataAncestorsList extends c
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1597,19 +1597,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1622,7 +1622,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -1822,7 +1822,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataParentOutputReference e
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1830,19 +1830,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1855,7 +1855,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -2087,7 +2087,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataPermissionResourcesList
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2095,19 +2095,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2120,7 +2120,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -2320,7 +2320,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataRegisteredDeviceOutputR
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2328,19 +2328,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2353,7 +2353,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -2585,7 +2585,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataTagsAncestorDefinitions
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2593,19 +2593,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2618,7 +2618,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -2818,25 +2818,25 @@ export class DataIntersightNiatelemetryHealthInsightsDataTagsDefinitionOutputRef
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#key DataIntersightNiatelemetryHealthInsightsData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#key DataIntersightNiatelemetryHealthInsightsData#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#propagated DataIntersightNiatelemetryHealthInsightsData#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#propagated DataIntersightNiatelemetryHealthInsightsData#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#sys_tag DataIntersightNiatelemetryHealthInsightsData#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#sys_tag DataIntersightNiatelemetryHealthInsightsData#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2844,25 +2844,25 @@ export interface DataIntersightNiatelemetryHealthInsightsDataTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#type DataIntersightNiatelemetryHealthInsightsData#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#type DataIntersightNiatelemetryHealthInsightsData#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#value DataIntersightNiatelemetryHealthInsightsData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#value DataIntersightNiatelemetryHealthInsightsData#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#ancestor_definitions DataIntersightNiatelemetryHealthInsightsData#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#ancestor_definitions DataIntersightNiatelemetryHealthInsightsData#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryHealthInsightsDataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#definition DataIntersightNiatelemetryHealthInsightsData#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#definition DataIntersightNiatelemetryHealthInsightsData#definition}
   */
   readonly definition?: DataIntersightNiatelemetryHealthInsightsDataTagsDefinition;
 }
@@ -3181,7 +3181,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataTagsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3189,19 +3189,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3214,7 +3214,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -3446,7 +3446,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataVersionContextIntereste
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3454,19 +3454,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#moid DataIntersightNiatelemetryHealthInsightsData#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3479,7 +3479,7 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#selector DataIntersightNiatelemetryHealthInsightsData#selector}
   */
   readonly selector?: string;
 }
@@ -3679,7 +3679,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataVersionContextRefMoOutp
 }
 export interface DataIntersightNiatelemetryHealthInsightsDataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#additional_properties DataIntersightNiatelemetryHealthInsightsData#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3687,32 +3687,32 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#class_id DataIntersightNiatelemetryHealthInsightsData#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#marked_for_deletion DataIntersightNiatelemetryHealthInsightsData#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#marked_for_deletion DataIntersightNiatelemetryHealthInsightsData#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#nr_version DataIntersightNiatelemetryHealthInsightsData#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#nr_version DataIntersightNiatelemetryHealthInsightsData#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#object_type DataIntersightNiatelemetryHealthInsightsData#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#timestamp DataIntersightNiatelemetryHealthInsightsData#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#timestamp DataIntersightNiatelemetryHealthInsightsData#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3723,19 +3723,19 @@ export interface DataIntersightNiatelemetryHealthInsightsDataVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#version_type DataIntersightNiatelemetryHealthInsightsData#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#version_type DataIntersightNiatelemetryHealthInsightsData#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#interested_mos DataIntersightNiatelemetryHealthInsightsData#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#interested_mos DataIntersightNiatelemetryHealthInsightsData#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryHealthInsightsDataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#ref_mo DataIntersightNiatelemetryHealthInsightsData#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#ref_mo DataIntersightNiatelemetryHealthInsightsData#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryHealthInsightsDataVersionContextRefMo;
 }
@@ -4051,7 +4051,7 @@ export class DataIntersightNiatelemetryHealthInsightsDataVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data intersight_niatelemetry_health_insights_data}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data intersight_niatelemetry_health_insights_data}
 */
 export class DataIntersightNiatelemetryHealthInsightsData extends cdktf.TerraformDataSource {
 
@@ -4067,7 +4067,7 @@ export class DataIntersightNiatelemetryHealthInsightsData extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightNiatelemetryHealthInsightsData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryHealthInsightsData to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryHealthInsightsData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryHealthInsightsData that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryHealthInsightsData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4079,7 +4079,7 @@ export class DataIntersightNiatelemetryHealthInsightsData extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_health_insights_data intersight_niatelemetry_health_insights_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_health_insights_data intersight_niatelemetry_health_insights_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4090,8 +4090,8 @@ export class DataIntersightNiatelemetryHealthInsightsData extends cdktf.Terrafor
       terraformResourceType: 'intersight_niatelemetry_health_insights_data',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

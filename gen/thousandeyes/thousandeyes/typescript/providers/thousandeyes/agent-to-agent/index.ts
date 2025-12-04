@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface AgentToAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#agents AgentToAgent#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#agents AgentToAgent#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#alert_rules AgentToAgent#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#alert_rules AgentToAgent#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#alerts_enabled AgentToAgent#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#alerts_enabled AgentToAgent#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#bgp_measurements AgentToAgent#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#bgp_measurements AgentToAgent#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#description AgentToAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#description AgentToAgent#description}
   */
   readonly description?: string;
   /**
   * [to-target, from-target, bidirectional] The direction of the test (affects how results are shown).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#direction AgentToAgent#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#direction AgentToAgent#direction}
   */
   readonly direction: string;
   /**
   * The DSCP ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#dscp_id AgentToAgent#dscp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#dscp_id AgentToAgent#dscp_id}
   */
   readonly dscpId?: string;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#enabled AgentToAgent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#enabled AgentToAgent#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sets packets rate sent to measure the network in packets per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#fixed_packet_rate AgentToAgent#fixed_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#fixed_packet_rate AgentToAgent#fixed_packet_rate}
   */
   readonly fixedPacketRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#id AgentToAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#id AgentToAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface AgentToAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#interval AgentToAgent#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#interval AgentToAgent#interval}
   */
   readonly interval: number;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#monitors AgentToAgent#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#monitors AgentToAgent#monitors}
   */
   readonly monitors?: string[];
   /**
   * The maximum segment size, in bytes. Value can be from 30 to 1400.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#mss AgentToAgent#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#mss AgentToAgent#mss}
   */
   readonly mss?: number;
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#num_path_traces AgentToAgent#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#num_path_traces AgentToAgent#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * [classic or in-session] Choose 'inSession' to perform the path trace within a TCP session. Default value is 'classic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#path_trace_mode AgentToAgent#path_trace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#path_trace_mode AgentToAgent#path_trace_mode}
   */
   readonly pathTraceMode?: string;
   /**
   * The target port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#port AgentToAgent#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#port AgentToAgent#port}
   */
   readonly port?: number;
   /**
   * [tcp or udp] The protocol for agent to agent tests. Defaults to 'tcp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#protocol AgentToAgent#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#protocol AgentToAgent#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#randomized_start_time AgentToAgent#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#randomized_start_time AgentToAgent#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#shared_with_accounts AgentToAgent#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#shared_with_accounts AgentToAgent#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * The target agent's unique ID. Pulled from the /agents endpoint. Both the 'agents': [] and the targetAgentID cannot be Cloud Agents. Can be Enterprise Agent -> Cloud, Cloud -> Enterprise Agent, or Enterprise Agent -> Enterprise Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#target_agent_id AgentToAgent#target_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#target_agent_id AgentToAgent#target_agent_id}
   */
   readonly targetAgentId: string;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#test_name AgentToAgent#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#test_name AgentToAgent#test_name}
   */
   readonly testName?: string;
   /**
   * The throughput duration in milliseconds. The default value is 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#throughput_duration AgentToAgent#throughput_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#throughput_duration AgentToAgent#throughput_duration}
   */
   readonly throughputDuration?: number;
   /**
   * Enables or disables throughput measurements. This is not allowed when the source or target of the test is a Cloud Agent. Defaults to disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#throughput_measurements AgentToAgent#throughput_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#throughput_measurements AgentToAgent#throughput_measurements}
   */
   readonly throughputMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Defines the throughput rate. Fo UDP tests only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#throughput_rate AgentToAgent#throughput_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#throughput_rate AgentToAgent#throughput_rate}
   */
   readonly throughputRate?: number;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#use_public_bgp AgentToAgent#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#use_public_bgp AgentToAgent#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent thousandeyes_agent_to_agent}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent thousandeyes_agent_to_agent}
 */
 export class AgentToAgent extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class AgentToAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AgentToAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AgentToAgent to import
-  * @param importFromId The id of the existing AgentToAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AgentToAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AgentToAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class AgentToAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/agent_to_agent thousandeyes_agent_to_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/agent_to_agent thousandeyes_agent_to_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class AgentToAgent extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_agent_to_agent',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FabricFcoeUplinkPcRoleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#account_moid FabricFcoeUplinkPcRole#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#account_moid FabricFcoeUplinkPcRole#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -29,13 +29,13 @@ export interface FabricFcoeUplinkPcRoleConfig extends cdktf.TerraformMetaArgumen
   * * `400Gbps` - Admin configurable speed 400Gbps.
   * * `NegAuto25Gbps` - Admin configurable 25Gbps auto negotiation for ports and port-channels.Speed is applicable on Ethernet Uplink, Ethernet Appliance and FCoE Uplink port and port-channel roles.This speed config is only applicable to non-breakout ports on UCS-FI-6454 and UCS-FI-64108.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#admin_speed FabricFcoeUplinkPcRole#admin_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#admin_speed FabricFcoeUplinkPcRole#admin_speed}
   */
   readonly adminSpeed?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#ancestors FabricFcoeUplinkPcRole#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#ancestors FabricFcoeUplinkPcRole#ancestors}
   */
   readonly ancestors?: FabricFcoeUplinkPcRoleAncestors[] | cdktf.IResolvable;
   /**
@@ -43,19 +43,19 @@ export interface FabricFcoeUplinkPcRoleConfig extends cdktf.TerraformMetaArgumen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#create_time FabricFcoeUplinkPcRole#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#create_time FabricFcoeUplinkPcRole#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#domain_group_moid FabricFcoeUplinkPcRole#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#domain_group_moid FabricFcoeUplinkPcRole#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -67,11 +67,11 @@ export interface FabricFcoeUplinkPcRoleConfig extends cdktf.TerraformMetaArgumen
   * * `rs-ieee` - Forward error correction option "rs-ieee". Supported speeds are 25Gbps.
   * * `Off` - Turn off forward error correction. Supported speeds are 25Gbps and 100 Gbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#fec FabricFcoeUplinkPcRole#fec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#fec FabricFcoeUplinkPcRole#fec}
   */
   readonly fec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#id FabricFcoeUplinkPcRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#id FabricFcoeUplinkPcRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,112 +81,112 @@ export interface FabricFcoeUplinkPcRoleConfig extends cdktf.TerraformMetaArgumen
   * A reference to a fabricLinkAggregationPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#link_aggregation_policy FabricFcoeUplinkPcRole#link_aggregation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#link_aggregation_policy FabricFcoeUplinkPcRole#link_aggregation_policy}
   */
   readonly linkAggregationPolicy?: FabricFcoeUplinkPcRoleLinkAggregationPolicy[] | cdktf.IResolvable;
   /**
   * A reference to a fabricLinkControlPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#link_control_policy FabricFcoeUplinkPcRole#link_control_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#link_control_policy FabricFcoeUplinkPcRole#link_control_policy}
   */
   readonly linkControlPolicy?: FabricFcoeUplinkPcRoleLinkControlPolicy[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#mod_time FabricFcoeUplinkPcRole#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#mod_time FabricFcoeUplinkPcRole#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#owners FabricFcoeUplinkPcRole#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#owners FabricFcoeUplinkPcRole#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#parent FabricFcoeUplinkPcRole#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#parent FabricFcoeUplinkPcRole#parent}
   */
   readonly parent?: FabricFcoeUplinkPcRoleParent[] | cdktf.IResolvable;
   /**
   * Unique Identifier of the port-channel, local to this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#pc_id FabricFcoeUplinkPcRole#pc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#pc_id FabricFcoeUplinkPcRole#pc_id}
   */
   readonly pcId?: number;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#permission_resources FabricFcoeUplinkPcRole#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#permission_resources FabricFcoeUplinkPcRole#permission_resources}
   */
   readonly permissionResources?: FabricFcoeUplinkPcRolePermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a fabricPortPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#port_policy FabricFcoeUplinkPcRole#port_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#port_policy FabricFcoeUplinkPcRole#port_policy}
   */
   readonly portPolicy?: FabricFcoeUplinkPcRolePortPolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#ports FabricFcoeUplinkPcRole#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#ports FabricFcoeUplinkPcRole#ports}
   */
   readonly ports?: FabricFcoeUplinkPcRolePorts[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#shared_scope FabricFcoeUplinkPcRole#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#shared_scope FabricFcoeUplinkPcRole#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#tags FabricFcoeUplinkPcRole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#tags FabricFcoeUplinkPcRole#tags}
   */
   readonly tags?: FabricFcoeUplinkPcRoleTags[] | cdktf.IResolvable;
   /**
   * The user defined label assigned to the a Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#user_label FabricFcoeUplinkPcRole#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#user_label FabricFcoeUplinkPcRole#user_label}
   */
   readonly userLabel?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#version_context FabricFcoeUplinkPcRole#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#version_context FabricFcoeUplinkPcRole#version_context}
   */
   readonly versionContext?: FabricFcoeUplinkPcRoleVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricFcoeUplinkPcRoleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -418,23 +418,23 @@ export class FabricFcoeUplinkPcRoleAncestorsList extends cdktf.ComplexList {
 }
 export interface FabricFcoeUplinkPcRoleLinkAggregationPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -666,23 +666,23 @@ export class FabricFcoeUplinkPcRoleLinkAggregationPolicyList extends cdktf.Compl
 }
 export interface FabricFcoeUplinkPcRoleLinkControlPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -914,23 +914,23 @@ export class FabricFcoeUplinkPcRoleLinkControlPolicyList extends cdktf.ComplexLi
 }
 export interface FabricFcoeUplinkPcRoleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -1162,23 +1162,23 @@ export class FabricFcoeUplinkPcRoleParentList extends cdktf.ComplexList {
 }
 export interface FabricFcoeUplinkPcRolePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -1410,23 +1410,23 @@ export class FabricFcoeUplinkPcRolePermissionResourcesList extends cdktf.Complex
 }
 export interface FabricFcoeUplinkPcRolePortPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -1658,27 +1658,27 @@ export class FabricFcoeUplinkPcRolePortPolicyList extends cdktf.ComplexList {
 }
 export interface FabricFcoeUplinkPcRolePorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#aggregate_port_id FabricFcoeUplinkPcRole#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#aggregate_port_id FabricFcoeUplinkPcRole#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#port_id FabricFcoeUplinkPcRole#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#port_id FabricFcoeUplinkPcRole#port_id}
   */
   readonly portId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#slot_id FabricFcoeUplinkPcRole#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#slot_id FabricFcoeUplinkPcRole#slot_id}
   */
   readonly slotId?: number;
 }
@@ -1939,23 +1939,23 @@ export class FabricFcoeUplinkPcRolePortsList extends cdktf.ComplexList {
 }
 export interface FabricFcoeUplinkPcRoleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -2187,23 +2187,23 @@ export class FabricFcoeUplinkPcRoleTagsAncestorDefinitionsList extends cdktf.Com
 }
 export interface FabricFcoeUplinkPcRoleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -2435,35 +2435,35 @@ export class FabricFcoeUplinkPcRoleTagsDefinitionList extends cdktf.ComplexList 
 }
 export interface FabricFcoeUplinkPcRoleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#ancestor_definitions FabricFcoeUplinkPcRole#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#ancestor_definitions FabricFcoeUplinkPcRole#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricFcoeUplinkPcRoleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#definition FabricFcoeUplinkPcRole#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#definition FabricFcoeUplinkPcRole#definition}
   */
   readonly definition?: FabricFcoeUplinkPcRoleTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#key FabricFcoeUplinkPcRole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#key FabricFcoeUplinkPcRole#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#propagated FabricFcoeUplinkPcRole#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#propagated FabricFcoeUplinkPcRole#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#sys_tag FabricFcoeUplinkPcRole#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#sys_tag FabricFcoeUplinkPcRole#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#type FabricFcoeUplinkPcRole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#type FabricFcoeUplinkPcRole#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#value FabricFcoeUplinkPcRole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#value FabricFcoeUplinkPcRole#value}
   */
   readonly value?: string;
 }
@@ -2782,23 +2782,23 @@ export class FabricFcoeUplinkPcRoleTagsList extends cdktf.ComplexList {
 }
 export interface FabricFcoeUplinkPcRoleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -3030,23 +3030,23 @@ export class FabricFcoeUplinkPcRoleVersionContextInterestedMosList extends cdktf
 }
 export interface FabricFcoeUplinkPcRoleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#moid FabricFcoeUplinkPcRole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#selector FabricFcoeUplinkPcRole#selector}
   */
   readonly selector?: string;
 }
@@ -3278,39 +3278,39 @@ export class FabricFcoeUplinkPcRoleVersionContextRefMoList extends cdktf.Complex
 }
 export interface FabricFcoeUplinkPcRoleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#additional_properties FabricFcoeUplinkPcRole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#class_id FabricFcoeUplinkPcRole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#interested_mos FabricFcoeUplinkPcRole#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#interested_mos FabricFcoeUplinkPcRole#interested_mos}
   */
   readonly interestedMos?: FabricFcoeUplinkPcRoleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#marked_for_deletion FabricFcoeUplinkPcRole#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#marked_for_deletion FabricFcoeUplinkPcRole#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#nr_version FabricFcoeUplinkPcRole#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#nr_version FabricFcoeUplinkPcRole#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#object_type FabricFcoeUplinkPcRole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#ref_mo FabricFcoeUplinkPcRole#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#ref_mo FabricFcoeUplinkPcRole#ref_mo}
   */
   readonly refMo?: FabricFcoeUplinkPcRoleVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#timestamp FabricFcoeUplinkPcRole#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#timestamp FabricFcoeUplinkPcRole#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#version_type FabricFcoeUplinkPcRole#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#version_type FabricFcoeUplinkPcRole#version_type}
   */
   readonly versionType?: string;
 }
@@ -3658,7 +3658,7 @@ export class FabricFcoeUplinkPcRoleVersionContextList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role intersight_fabric_fcoe_uplink_pc_role}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role intersight_fabric_fcoe_uplink_pc_role}
 */
 export class FabricFcoeUplinkPcRole extends cdktf.TerraformResource {
 
@@ -3674,7 +3674,7 @@ export class FabricFcoeUplinkPcRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricFcoeUplinkPcRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricFcoeUplinkPcRole to import
-  * @param importFromId The id of the existing FabricFcoeUplinkPcRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricFcoeUplinkPcRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricFcoeUplinkPcRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3686,7 +3686,7 @@ export class FabricFcoeUplinkPcRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_fcoe_uplink_pc_role intersight_fabric_fcoe_uplink_pc_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_fcoe_uplink_pc_role intersight_fabric_fcoe_uplink_pc_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3697,8 +3697,8 @@ export class FabricFcoeUplinkPcRole extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_fcoe_uplink_pc_role',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

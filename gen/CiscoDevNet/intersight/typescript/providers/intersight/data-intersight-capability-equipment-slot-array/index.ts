@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityEquipmentSlotArrayConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#account_moid DataIntersightCapabilityEquipmentSlotArray#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#account_moid DataIntersightCapabilityEquipmentSlotArray#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightCapabilityEquipmentSlotArrayConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#create_time DataIntersightCapabilityEquipmentSlotArray#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#create_time DataIntersightCapabilityEquipmentSlotArray#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#domain_group_moid DataIntersightCapabilityEquipmentSlotArray#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#domain_group_moid DataIntersightCapabilityEquipmentSlotArray#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * First Index information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#first_index DataIntersightCapabilityEquipmentSlotArray#first_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#first_index DataIntersightCapabilityEquipmentSlotArray#first_index}
   */
   readonly firstIndex?: number;
   /**
   * Height information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#height DataIntersightCapabilityEquipmentSlotArray#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#height DataIntersightCapabilityEquipmentSlotArray#height}
   */
   readonly height?: number;
   /**
   * Horizontal Start Offset information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#horizontal_start_offset DataIntersightCapabilityEquipmentSlotArray#horizontal_start_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#horizontal_start_offset DataIntersightCapabilityEquipmentSlotArray#horizontal_start_offset}
   */
   readonly horizontalStartOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#id DataIntersightCapabilityEquipmentSlotArray#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#id DataIntersightCapabilityEquipmentSlotArray#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,66 +65,66 @@ export interface DataIntersightCapabilityEquipmentSlotArrayConfig extends cdktf.
   /**
   * Inline Group Separation information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#inline_group_separation DataIntersightCapabilityEquipmentSlotArray#inline_group_separation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#inline_group_separation DataIntersightCapabilityEquipmentSlotArray#inline_group_separation}
   */
   readonly inlineGroupSeparation?: number;
   /**
   * Inline Group Size information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#inline_group_size DataIntersightCapabilityEquipmentSlotArray#inline_group_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#inline_group_size DataIntersightCapabilityEquipmentSlotArray#inline_group_size}
   */
   readonly inlineGroupSize?: number;
   /**
   * Inline Offset information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#inline_offset DataIntersightCapabilityEquipmentSlotArray#inline_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#inline_offset DataIntersightCapabilityEquipmentSlotArray#inline_offset}
   */
   readonly inlineOffset?: number;
   /**
   * Location information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#location DataIntersightCapabilityEquipmentSlotArray#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#location DataIntersightCapabilityEquipmentSlotArray#location}
   */
   readonly location?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#mod_time DataIntersightCapabilityEquipmentSlotArray#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#mod_time DataIntersightCapabilityEquipmentSlotArray#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#name DataIntersightCapabilityEquipmentSlotArray#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#name DataIntersightCapabilityEquipmentSlotArray#name}
   */
   readonly name?: string;
   /**
   * Number of Slots information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#number_of_slots DataIntersightCapabilityEquipmentSlotArray#number_of_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#number_of_slots DataIntersightCapabilityEquipmentSlotArray#number_of_slots}
   */
   readonly numberOfSlots?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
   * Orientation information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#orientation DataIntersightCapabilityEquipmentSlotArray#orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#orientation DataIntersightCapabilityEquipmentSlotArray#orientation}
   */
   readonly orientation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#owners DataIntersightCapabilityEquipmentSlotArray#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#owners DataIntersightCapabilityEquipmentSlotArray#owners}
   */
   readonly owners?: string[];
   /**
@@ -134,103 +134,103 @@ export interface DataIntersightCapabilityEquipmentSlotArrayConfig extends cdktf.
   * * `UCS-FI-6536` - The standard 5th generation UCS Fabric Interconnect with 36 ports.
   * * `UCSX-S9108-100G` - Cisco UCS Fabric Interconnect 9108 100G with 8 ports.
   * * `UCS-FI-6664` - The standard 6th generation UCS Fabric Interconnect with 64 ports.
-  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect.
+  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect with 52 ports.
   * * `UCSXE-ECMC-10G` - Cisco UCS XE ECMC 10G with 2 ports.
   * * `UCSXE-ECMC-G1` - Cisco UCS XE ECMC G1 with 2 ports.
   * * `unknown` - Unknown device type, usage is TBD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#pid DataIntersightCapabilityEquipmentSlotArray#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#pid DataIntersightCapabilityEquipmentSlotArray#pid}
   */
   readonly pid?: string;
   /**
   * Selector information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#shared_scope DataIntersightCapabilityEquipmentSlotArray#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#shared_scope DataIntersightCapabilityEquipmentSlotArray#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#sku DataIntersightCapabilityEquipmentSlotArray#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#sku DataIntersightCapabilityEquipmentSlotArray#sku}
   */
   readonly sku?: string;
   /**
   * Slots per line information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#slots_per_line DataIntersightCapabilityEquipmentSlotArray#slots_per_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#slots_per_line DataIntersightCapabilityEquipmentSlotArray#slots_per_line}
   */
   readonly slotsPerLine?: number;
   /**
   * Transverse Group Separation information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#transverse_group_separation DataIntersightCapabilityEquipmentSlotArray#transverse_group_separation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#transverse_group_separation DataIntersightCapabilityEquipmentSlotArray#transverse_group_separation}
   */
   readonly transverseGroupSeparation?: number;
   /**
   * Transverse Group Size information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#transverse_group_size DataIntersightCapabilityEquipmentSlotArray#transverse_group_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#transverse_group_size DataIntersightCapabilityEquipmentSlotArray#transverse_group_size}
   */
   readonly transverseGroupSize?: number;
   /**
   * Transverse Offset information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#transverse_offset DataIntersightCapabilityEquipmentSlotArray#transverse_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#transverse_offset DataIntersightCapabilityEquipmentSlotArray#transverse_offset}
   */
   readonly transverseOffset?: number;
   /**
   * Vertical Start Offset information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#vertical_start_offset DataIntersightCapabilityEquipmentSlotArray#vertical_start_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#vertical_start_offset DataIntersightCapabilityEquipmentSlotArray#vertical_start_offset}
   */
   readonly verticalStartOffset?: number;
   /**
   * VID information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#vid DataIntersightCapabilityEquipmentSlotArray#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#vid DataIntersightCapabilityEquipmentSlotArray#vid}
   */
   readonly vid?: string;
   /**
   * Width information for a Switch/Fabric-Interconnect hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#width DataIntersightCapabilityEquipmentSlotArray#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#width DataIntersightCapabilityEquipmentSlotArray#width}
   */
   readonly width?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#ancestors DataIntersightCapabilityEquipmentSlotArray#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#ancestors DataIntersightCapabilityEquipmentSlotArray#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityEquipmentSlotArrayAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#parent DataIntersightCapabilityEquipmentSlotArray#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#parent DataIntersightCapabilityEquipmentSlotArray#parent}
   */
   readonly parent?: DataIntersightCapabilityEquipmentSlotArrayParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#permission_resources DataIntersightCapabilityEquipmentSlotArray#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#permission_resources DataIntersightCapabilityEquipmentSlotArray#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityEquipmentSlotArrayPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#tags DataIntersightCapabilityEquipmentSlotArray#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#tags DataIntersightCapabilityEquipmentSlotArray#tags}
   */
   readonly tags?: DataIntersightCapabilityEquipmentSlotArrayTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#version_context DataIntersightCapabilityEquipmentSlotArray#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#version_context DataIntersightCapabilityEquipmentSlotArray#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityEquipmentSlotArrayVersionContext;
 }
@@ -1380,7 +1380,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayResultsList extends cdktf
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1388,19 +1388,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1413,7 +1413,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -1645,7 +1645,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayAncestorsList extends cdk
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1653,19 +1653,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1678,7 +1678,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -1878,7 +1878,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayParentOutputReference ext
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1886,19 +1886,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1911,7 +1911,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -2143,7 +2143,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayPermissionResourcesList e
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2151,19 +2151,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2176,7 +2176,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -2408,7 +2408,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayTagsAncestorDefinitionsLi
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2416,19 +2416,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2441,7 +2441,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -2641,25 +2641,25 @@ export class DataIntersightCapabilityEquipmentSlotArrayTagsDefinitionOutputRefer
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#key DataIntersightCapabilityEquipmentSlotArray#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#key DataIntersightCapabilityEquipmentSlotArray#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#propagated DataIntersightCapabilityEquipmentSlotArray#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#propagated DataIntersightCapabilityEquipmentSlotArray#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#sys_tag DataIntersightCapabilityEquipmentSlotArray#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#sys_tag DataIntersightCapabilityEquipmentSlotArray#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2667,25 +2667,25 @@ export interface DataIntersightCapabilityEquipmentSlotArrayTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#type DataIntersightCapabilityEquipmentSlotArray#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#type DataIntersightCapabilityEquipmentSlotArray#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#value DataIntersightCapabilityEquipmentSlotArray#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#value DataIntersightCapabilityEquipmentSlotArray#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#ancestor_definitions DataIntersightCapabilityEquipmentSlotArray#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#ancestor_definitions DataIntersightCapabilityEquipmentSlotArray#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityEquipmentSlotArrayTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#definition DataIntersightCapabilityEquipmentSlotArray#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#definition DataIntersightCapabilityEquipmentSlotArray#definition}
   */
   readonly definition?: DataIntersightCapabilityEquipmentSlotArrayTagsDefinition;
 }
@@ -3004,7 +3004,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayTagsList extends cdktf.Co
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3012,19 +3012,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3037,7 +3037,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -3269,7 +3269,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayVersionContextInterestedM
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3277,19 +3277,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#moid DataIntersightCapabilityEquipmentSlotArray#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3302,7 +3302,7 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#selector DataIntersightCapabilityEquipmentSlotArray#selector}
   */
   readonly selector?: string;
 }
@@ -3502,7 +3502,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayVersionContextRefMoOutput
 }
 export interface DataIntersightCapabilityEquipmentSlotArrayVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#additional_properties DataIntersightCapabilityEquipmentSlotArray#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3510,32 +3510,32 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#class_id DataIntersightCapabilityEquipmentSlotArray#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#marked_for_deletion DataIntersightCapabilityEquipmentSlotArray#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#marked_for_deletion DataIntersightCapabilityEquipmentSlotArray#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#nr_version DataIntersightCapabilityEquipmentSlotArray#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#nr_version DataIntersightCapabilityEquipmentSlotArray#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#object_type DataIntersightCapabilityEquipmentSlotArray#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#timestamp DataIntersightCapabilityEquipmentSlotArray#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#timestamp DataIntersightCapabilityEquipmentSlotArray#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3546,19 +3546,19 @@ export interface DataIntersightCapabilityEquipmentSlotArrayVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#version_type DataIntersightCapabilityEquipmentSlotArray#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#version_type DataIntersightCapabilityEquipmentSlotArray#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#interested_mos DataIntersightCapabilityEquipmentSlotArray#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#interested_mos DataIntersightCapabilityEquipmentSlotArray#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityEquipmentSlotArrayVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#ref_mo DataIntersightCapabilityEquipmentSlotArray#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#ref_mo DataIntersightCapabilityEquipmentSlotArray#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityEquipmentSlotArrayVersionContextRefMo;
 }
@@ -3874,7 +3874,7 @@ export class DataIntersightCapabilityEquipmentSlotArrayVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array intersight_capability_equipment_slot_array}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array intersight_capability_equipment_slot_array}
 */
 export class DataIntersightCapabilityEquipmentSlotArray extends cdktf.TerraformDataSource {
 
@@ -3890,7 +3890,7 @@ export class DataIntersightCapabilityEquipmentSlotArray extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightCapabilityEquipmentSlotArray resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityEquipmentSlotArray to import
-  * @param importFromId The id of the existing DataIntersightCapabilityEquipmentSlotArray that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityEquipmentSlotArray that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityEquipmentSlotArray to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3902,7 +3902,7 @@ export class DataIntersightCapabilityEquipmentSlotArray extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_equipment_slot_array intersight_capability_equipment_slot_array} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_equipment_slot_array intersight_capability_equipment_slot_array} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3913,8 +3913,8 @@ export class DataIntersightCapabilityEquipmentSlotArray extends cdktf.TerraformD
       terraformResourceType: 'intersight_capability_equipment_slot_array',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

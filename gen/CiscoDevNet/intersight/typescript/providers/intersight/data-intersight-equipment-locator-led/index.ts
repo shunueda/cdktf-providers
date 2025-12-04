@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentLocatorLedConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#account_moid DataIntersightEquipmentLocatorLed#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#account_moid DataIntersightEquipmentLocatorLed#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightEquipmentLocatorLedConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * Color of the locatorled available on an equipment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#color DataIntersightEquipmentLocatorLed#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#color DataIntersightEquipmentLocatorLed#color}
   */
   readonly color?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#create_time DataIntersightEquipmentLocatorLed#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#create_time DataIntersightEquipmentLocatorLed#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#device_mo_id DataIntersightEquipmentLocatorLed#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#device_mo_id DataIntersightEquipmentLocatorLed#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#dn DataIntersightEquipmentLocatorLed#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#dn DataIntersightEquipmentLocatorLed#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#domain_group_moid DataIntersightEquipmentLocatorLed#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#domain_group_moid DataIntersightEquipmentLocatorLed#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#id DataIntersightEquipmentLocatorLed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#id DataIntersightEquipmentLocatorLed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,127 +65,127 @@ export interface DataIntersightEquipmentLocatorLedConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#mod_time DataIntersightEquipmentLocatorLed#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#mod_time DataIntersightEquipmentLocatorLed#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
   * Identifies the operational state of locatorled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#oper_state DataIntersightEquipmentLocatorLed#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#oper_state DataIntersightEquipmentLocatorLed#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#owners DataIntersightEquipmentLocatorLed#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#owners DataIntersightEquipmentLocatorLed#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#rn DataIntersightEquipmentLocatorLed#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#rn DataIntersightEquipmentLocatorLed#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#shared_scope DataIntersightEquipmentLocatorLed#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#shared_scope DataIntersightEquipmentLocatorLed#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#ancestors DataIntersightEquipmentLocatorLed#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#ancestors DataIntersightEquipmentLocatorLed#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentLocatorLedAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#compute_blade DataIntersightEquipmentLocatorLed#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#compute_blade DataIntersightEquipmentLocatorLed#compute_blade}
   */
   readonly computeBlade?: DataIntersightEquipmentLocatorLedComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#compute_rack_unit DataIntersightEquipmentLocatorLed#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#compute_rack_unit DataIntersightEquipmentLocatorLed#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightEquipmentLocatorLedComputeRackUnit;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#equipment_chassis DataIntersightEquipmentLocatorLed#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#equipment_chassis DataIntersightEquipmentLocatorLed#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightEquipmentLocatorLedEquipmentChassis;
   /**
   * equipment_fex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#equipment_fex DataIntersightEquipmentLocatorLed#equipment_fex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#equipment_fex DataIntersightEquipmentLocatorLed#equipment_fex}
   */
   readonly equipmentFex?: DataIntersightEquipmentLocatorLedEquipmentFex;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#inventory_device_info DataIntersightEquipmentLocatorLed#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#inventory_device_info DataIntersightEquipmentLocatorLed#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightEquipmentLocatorLedInventoryDeviceInfo;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#network_element DataIntersightEquipmentLocatorLed#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#network_element DataIntersightEquipmentLocatorLed#network_element}
   */
   readonly networkElement?: DataIntersightEquipmentLocatorLedNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#parent DataIntersightEquipmentLocatorLed#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#parent DataIntersightEquipmentLocatorLed#parent}
   */
   readonly parent?: DataIntersightEquipmentLocatorLedParent;
   /**
   * pci_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#pci_node DataIntersightEquipmentLocatorLed#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#pci_node DataIntersightEquipmentLocatorLed#pci_node}
   */
   readonly pciNode?: DataIntersightEquipmentLocatorLedPciNode;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#permission_resources DataIntersightEquipmentLocatorLed#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#permission_resources DataIntersightEquipmentLocatorLed#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentLocatorLedPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#registered_device DataIntersightEquipmentLocatorLed#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#registered_device DataIntersightEquipmentLocatorLed#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentLocatorLedRegisteredDevice;
   /**
   * storage_physical_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#storage_physical_disk DataIntersightEquipmentLocatorLed#storage_physical_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#storage_physical_disk DataIntersightEquipmentLocatorLed#storage_physical_disk}
   */
   readonly storagePhysicalDisk?: DataIntersightEquipmentLocatorLedStoragePhysicalDisk;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#tags DataIntersightEquipmentLocatorLed#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#tags DataIntersightEquipmentLocatorLed#tags}
   */
   readonly tags?: DataIntersightEquipmentLocatorLedTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#version_context DataIntersightEquipmentLocatorLed#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#version_context DataIntersightEquipmentLocatorLed#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentLocatorLedVersionContext;
 }
@@ -2169,7 +2169,7 @@ export class DataIntersightEquipmentLocatorLedResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightEquipmentLocatorLedAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2177,19 +2177,19 @@ export interface DataIntersightEquipmentLocatorLedAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2202,7 +2202,7 @@ export interface DataIntersightEquipmentLocatorLedAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -2434,7 +2434,7 @@ export class DataIntersightEquipmentLocatorLedAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightEquipmentLocatorLedComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2442,19 +2442,19 @@ export interface DataIntersightEquipmentLocatorLedComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2467,7 +2467,7 @@ export interface DataIntersightEquipmentLocatorLedComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -2667,7 +2667,7 @@ export class DataIntersightEquipmentLocatorLedComputeBladeOutputReference extend
 }
 export interface DataIntersightEquipmentLocatorLedComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2675,19 +2675,19 @@ export interface DataIntersightEquipmentLocatorLedComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2700,7 +2700,7 @@ export interface DataIntersightEquipmentLocatorLedComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -2900,7 +2900,7 @@ export class DataIntersightEquipmentLocatorLedComputeRackUnitOutputReference ext
 }
 export interface DataIntersightEquipmentLocatorLedEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2908,19 +2908,19 @@ export interface DataIntersightEquipmentLocatorLedEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2933,7 +2933,7 @@ export interface DataIntersightEquipmentLocatorLedEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -3133,7 +3133,7 @@ export class DataIntersightEquipmentLocatorLedEquipmentChassisOutputReference ex
 }
 export interface DataIntersightEquipmentLocatorLedEquipmentFex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3141,19 +3141,19 @@ export interface DataIntersightEquipmentLocatorLedEquipmentFex {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3166,7 +3166,7 @@ export interface DataIntersightEquipmentLocatorLedEquipmentFex {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -3366,7 +3366,7 @@ export class DataIntersightEquipmentLocatorLedEquipmentFexOutputReference extend
 }
 export interface DataIntersightEquipmentLocatorLedInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3374,19 +3374,19 @@ export interface DataIntersightEquipmentLocatorLedInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3399,7 +3399,7 @@ export interface DataIntersightEquipmentLocatorLedInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -3599,7 +3599,7 @@ export class DataIntersightEquipmentLocatorLedInventoryDeviceInfoOutputReference
 }
 export interface DataIntersightEquipmentLocatorLedNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3607,19 +3607,19 @@ export interface DataIntersightEquipmentLocatorLedNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3632,7 +3632,7 @@ export interface DataIntersightEquipmentLocatorLedNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -3832,7 +3832,7 @@ export class DataIntersightEquipmentLocatorLedNetworkElementOutputReference exte
 }
 export interface DataIntersightEquipmentLocatorLedParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3840,19 +3840,19 @@ export interface DataIntersightEquipmentLocatorLedParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3865,7 +3865,7 @@ export interface DataIntersightEquipmentLocatorLedParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -4065,7 +4065,7 @@ export class DataIntersightEquipmentLocatorLedParentOutputReference extends cdkt
 }
 export interface DataIntersightEquipmentLocatorLedPciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4073,19 +4073,19 @@ export interface DataIntersightEquipmentLocatorLedPciNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4098,7 +4098,7 @@ export interface DataIntersightEquipmentLocatorLedPciNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -4298,7 +4298,7 @@ export class DataIntersightEquipmentLocatorLedPciNodeOutputReference extends cdk
 }
 export interface DataIntersightEquipmentLocatorLedPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4306,19 +4306,19 @@ export interface DataIntersightEquipmentLocatorLedPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4331,7 +4331,7 @@ export interface DataIntersightEquipmentLocatorLedPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -4563,7 +4563,7 @@ export class DataIntersightEquipmentLocatorLedPermissionResourcesList extends cd
 }
 export interface DataIntersightEquipmentLocatorLedRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4571,19 +4571,19 @@ export interface DataIntersightEquipmentLocatorLedRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4596,7 +4596,7 @@ export interface DataIntersightEquipmentLocatorLedRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -4796,7 +4796,7 @@ export class DataIntersightEquipmentLocatorLedRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightEquipmentLocatorLedStoragePhysicalDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4804,19 +4804,19 @@ export interface DataIntersightEquipmentLocatorLedStoragePhysicalDisk {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4829,7 +4829,7 @@ export interface DataIntersightEquipmentLocatorLedStoragePhysicalDisk {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -5029,7 +5029,7 @@ export class DataIntersightEquipmentLocatorLedStoragePhysicalDiskOutputReference
 }
 export interface DataIntersightEquipmentLocatorLedTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5037,19 +5037,19 @@ export interface DataIntersightEquipmentLocatorLedTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5062,7 +5062,7 @@ export interface DataIntersightEquipmentLocatorLedTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -5294,7 +5294,7 @@ export class DataIntersightEquipmentLocatorLedTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightEquipmentLocatorLedTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5302,19 +5302,19 @@ export interface DataIntersightEquipmentLocatorLedTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5327,7 +5327,7 @@ export interface DataIntersightEquipmentLocatorLedTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -5527,25 +5527,25 @@ export class DataIntersightEquipmentLocatorLedTagsDefinitionOutputReference exte
 }
 export interface DataIntersightEquipmentLocatorLedTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#key DataIntersightEquipmentLocatorLed#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#key DataIntersightEquipmentLocatorLed#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#propagated DataIntersightEquipmentLocatorLed#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#propagated DataIntersightEquipmentLocatorLed#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#sys_tag DataIntersightEquipmentLocatorLed#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#sys_tag DataIntersightEquipmentLocatorLed#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -5553,25 +5553,25 @@ export interface DataIntersightEquipmentLocatorLedTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#type DataIntersightEquipmentLocatorLed#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#type DataIntersightEquipmentLocatorLed#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#value DataIntersightEquipmentLocatorLed#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#value DataIntersightEquipmentLocatorLed#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#ancestor_definitions DataIntersightEquipmentLocatorLed#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#ancestor_definitions DataIntersightEquipmentLocatorLed#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentLocatorLedTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#definition DataIntersightEquipmentLocatorLed#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#definition DataIntersightEquipmentLocatorLed#definition}
   */
   readonly definition?: DataIntersightEquipmentLocatorLedTagsDefinition;
 }
@@ -5890,7 +5890,7 @@ export class DataIntersightEquipmentLocatorLedTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightEquipmentLocatorLedVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5898,19 +5898,19 @@ export interface DataIntersightEquipmentLocatorLedVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5923,7 +5923,7 @@ export interface DataIntersightEquipmentLocatorLedVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -6155,7 +6155,7 @@ export class DataIntersightEquipmentLocatorLedVersionContextInterestedMosList ex
 }
 export interface DataIntersightEquipmentLocatorLedVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6163,19 +6163,19 @@ export interface DataIntersightEquipmentLocatorLedVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#moid DataIntersightEquipmentLocatorLed#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6188,7 +6188,7 @@ export interface DataIntersightEquipmentLocatorLedVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#selector DataIntersightEquipmentLocatorLed#selector}
   */
   readonly selector?: string;
 }
@@ -6388,7 +6388,7 @@ export class DataIntersightEquipmentLocatorLedVersionContextRefMoOutputReference
 }
 export interface DataIntersightEquipmentLocatorLedVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#additional_properties DataIntersightEquipmentLocatorLed#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6396,32 +6396,32 @@ export interface DataIntersightEquipmentLocatorLedVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#class_id DataIntersightEquipmentLocatorLed#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#marked_for_deletion DataIntersightEquipmentLocatorLed#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#marked_for_deletion DataIntersightEquipmentLocatorLed#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#nr_version DataIntersightEquipmentLocatorLed#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#nr_version DataIntersightEquipmentLocatorLed#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#object_type DataIntersightEquipmentLocatorLed#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#timestamp DataIntersightEquipmentLocatorLed#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#timestamp DataIntersightEquipmentLocatorLed#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6432,19 +6432,19 @@ export interface DataIntersightEquipmentLocatorLedVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#version_type DataIntersightEquipmentLocatorLed#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#version_type DataIntersightEquipmentLocatorLed#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#interested_mos DataIntersightEquipmentLocatorLed#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#interested_mos DataIntersightEquipmentLocatorLed#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentLocatorLedVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#ref_mo DataIntersightEquipmentLocatorLed#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#ref_mo DataIntersightEquipmentLocatorLed#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentLocatorLedVersionContextRefMo;
 }
@@ -6760,7 +6760,7 @@ export class DataIntersightEquipmentLocatorLedVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led intersight_equipment_locator_led}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led intersight_equipment_locator_led}
 */
 export class DataIntersightEquipmentLocatorLed extends cdktf.TerraformDataSource {
 
@@ -6776,7 +6776,7 @@ export class DataIntersightEquipmentLocatorLed extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightEquipmentLocatorLed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentLocatorLed to import
-  * @param importFromId The id of the existing DataIntersightEquipmentLocatorLed that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentLocatorLed that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentLocatorLed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6788,7 +6788,7 @@ export class DataIntersightEquipmentLocatorLed extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_locator_led intersight_equipment_locator_led} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_locator_led intersight_equipment_locator_led} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6799,8 +6799,8 @@ export class DataIntersightEquipmentLocatorLed extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_equipment_locator_led',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface AttributionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * List of Attributions filters
+  * List of Attribution filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#components Attribution#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#components Attribution#components}
   */
   readonly components: AttributionComponents[] | cdktf.IResolvable;
   /**
-  * Description of the attribution
+  * Attribution description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#description Attribution#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#description Attribution#description}
   */
   readonly description?: string;
   /**
   * Attribution formula (A is first component, B is second component, C is third component, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#formula Attribution#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#formula Attribution#formula}
   */
   readonly formula?: string;
   /**
-  * Name of the attribution
+  * Attribution Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#name Attribution#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#name Attribution#name}
   */
   readonly name: string;
 }
 export interface AttributionComponents {
   /**
-  * Key of the type to validate
+  * Key of a dimension. Examples: "service_id", "cloud_provider", "sku_description"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#key Attribution#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#key Attribution#key}
   */
   readonly key: string;
   /**
-  * Type of the component (Standard, Labels, Google Kubernetes Engin, Tags etc. )
+  * Type of the component. Possible values are:
+  * 'datetime'
+  * 'fixed' (Used for AWS account IDs and Google project IDs)
+  * 'optional'
+  * 'label'
+  * 'tag'
+  * 'project_label'
+  * 'system_label'
+  * 'attribution'
+  * 'attribution_group'
+  * 'gke'
+  * 'gke_label'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#type Attribution#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#type Attribution#type}
   */
   readonly type: string;
   /**
-  * Value of the key to validate
+  * Value of the dimension. Examples: "152E-C115-5142", "google-cloud", "team-a"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#values Attribution#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#values Attribution#values}
   */
   readonly values: string[];
 }
@@ -213,7 +224,7 @@ export class AttributionComponentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution doit_attribution}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution doit_attribution}
 */
 export class Attribution extends cdktf.TerraformResource {
 
@@ -229,7 +240,7 @@ export class Attribution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Attribution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Attribution to import
-  * @param importFromId The id of the existing Attribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Attribution that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Attribution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +252,7 @@ export class Attribution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution doit_attribution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution doit_attribution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +263,8 @@ export class Attribution extends cdktf.TerraformResource {
       terraformResourceType: 'doit_attribution',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

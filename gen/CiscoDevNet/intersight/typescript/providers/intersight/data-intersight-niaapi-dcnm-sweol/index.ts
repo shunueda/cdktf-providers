@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataIntersightNiaapiDcnmSweolConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#account_moid DataIntersightNiaapiDcnmSweol#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#account_moid DataIntersightNiaapiDcnmSweol#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * String contains the Release versions affected by this notice, seperated by comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#affected_versions DataIntersightNiaapiDcnmSweol#affected_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#affected_versions DataIntersightNiaapiDcnmSweol#affected_versions}
   */
   readonly affectedVersions?: string;
   /**
   * Date time of this notice Announced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#announcement_date DataIntersightNiaapiDcnmSweol#announcement_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#announcement_date DataIntersightNiaapiDcnmSweol#announcement_date}
   */
   readonly announcementDate?: string;
   /**
   * Epoch time of this notice Announced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#announcement_date_epoch DataIntersightNiaapiDcnmSweol#announcement_date_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#announcement_date_epoch DataIntersightNiaapiDcnmSweol#announcement_date_epoch}
   */
   readonly announcementDateEpoch?: number;
   /**
   * The bulletinno of this software release end of life notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#bulletin_no DataIntersightNiaapiDcnmSweol#bulletin_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#bulletin_no DataIntersightNiaapiDcnmSweol#bulletin_no}
   */
   readonly bulletinNo?: string;
   /**
@@ -47,71 +47,71 @@ export interface DataIntersightNiaapiDcnmSweolConfig extends cdktf.TerraformMeta
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#create_time DataIntersightNiaapiDcnmSweol#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#create_time DataIntersightNiaapiDcnmSweol#create_time}
   */
   readonly createTime?: string;
   /**
   * The description of this software release end of life notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#description DataIntersightNiaapiDcnmSweol#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#description DataIntersightNiaapiDcnmSweol#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#domain_group_moid DataIntersightNiaapiDcnmSweol#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#domain_group_moid DataIntersightNiaapiDcnmSweol#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Date time of End of New service attachment .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_new_service_attachment_date DataIntersightNiaapiDcnmSweol#endof_new_service_attachment_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_new_service_attachment_date DataIntersightNiaapiDcnmSweol#endof_new_service_attachment_date}
   */
   readonly endofNewServiceAttachmentDate?: string;
   /**
   * Epoch time of End of New service attachment .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_new_service_attachment_date_epoch DataIntersightNiaapiDcnmSweol#endof_new_service_attachment_date_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_new_service_attachment_date_epoch DataIntersightNiaapiDcnmSweol#endof_new_service_attachment_date_epoch}
   */
   readonly endofNewServiceAttachmentDateEpoch?: number;
   /**
   * Date time of End of Renewal of service contract .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_service_contract_renewal_date DataIntersightNiaapiDcnmSweol#endof_service_contract_renewal_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_service_contract_renewal_date DataIntersightNiaapiDcnmSweol#endof_service_contract_renewal_date}
   */
   readonly endofServiceContractRenewalDate?: string;
   /**
   * Epoch time of End of Renewal of service contract .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_service_contract_renewal_date_epoch DataIntersightNiaapiDcnmSweol#endof_service_contract_renewal_date_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_service_contract_renewal_date_epoch DataIntersightNiaapiDcnmSweol#endof_service_contract_renewal_date_epoch}
   */
   readonly endofServiceContractRenewalDateEpoch?: number;
   /**
   * Date time of End of Maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_sw_maintenance_date DataIntersightNiaapiDcnmSweol#endof_sw_maintenance_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_sw_maintenance_date DataIntersightNiaapiDcnmSweol#endof_sw_maintenance_date}
   */
   readonly endofSwMaintenanceDate?: string;
   /**
   * Epoch time of End of Maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#endof_sw_maintenance_date_epoch DataIntersightNiaapiDcnmSweol#endof_sw_maintenance_date_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#endof_sw_maintenance_date_epoch DataIntersightNiaapiDcnmSweol#endof_sw_maintenance_date_epoch}
   */
   readonly endofSwMaintenanceDateEpoch?: number;
   /**
   * The title of this software release end of life notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#headline DataIntersightNiaapiDcnmSweol#headline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#headline DataIntersightNiaapiDcnmSweol#headline}
   */
   readonly headline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#id DataIntersightNiaapiDcnmSweol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#id DataIntersightNiaapiDcnmSweol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,43 +120,43 @@ export interface DataIntersightNiaapiDcnmSweolConfig extends cdktf.TerraformMeta
   /**
   * Date time of Last day of Support .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#last_dateof_support DataIntersightNiaapiDcnmSweol#last_dateof_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#last_dateof_support DataIntersightNiaapiDcnmSweol#last_dateof_support}
   */
   readonly lastDateofSupport?: string;
   /**
   * Epoch time of Last day of Support .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#last_dateof_support_epoch DataIntersightNiaapiDcnmSweol#last_dateof_support_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#last_dateof_support_epoch DataIntersightNiaapiDcnmSweol#last_dateof_support_epoch}
   */
   readonly lastDateofSupportEpoch?: number;
   /**
   * Date time of Lastship Date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#last_ship_date DataIntersightNiaapiDcnmSweol#last_ship_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#last_ship_date DataIntersightNiaapiDcnmSweol#last_ship_date}
   */
   readonly lastShipDate?: string;
   /**
   * Epoch time of Lastship Date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#last_ship_date_epoch DataIntersightNiaapiDcnmSweol#last_ship_date_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#last_ship_date_epoch DataIntersightNiaapiDcnmSweol#last_ship_date_epoch}
   */
   readonly lastShipDateEpoch?: number;
   /**
   * The URL of this migration notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#migration_url DataIntersightNiaapiDcnmSweol#migration_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#migration_url DataIntersightNiaapiDcnmSweol#migration_url}
   */
   readonly migrationUrl?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#mod_time DataIntersightNiaapiDcnmSweol#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#mod_time DataIntersightNiaapiDcnmSweol#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
@@ -164,54 +164,54 @@ export interface DataIntersightNiaapiDcnmSweolConfig extends cdktf.TerraformMeta
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#owners DataIntersightNiaapiDcnmSweol#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#owners DataIntersightNiaapiDcnmSweol#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#shared_scope DataIntersightNiaapiDcnmSweol#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#shared_scope DataIntersightNiaapiDcnmSweol#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Software end of life notice URL link to the notice webpage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#software_eol_url DataIntersightNiaapiDcnmSweol#software_eol_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#software_eol_url DataIntersightNiaapiDcnmSweol#software_eol_url}
   */
   readonly softwareEolUrl?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#ancestors DataIntersightNiaapiDcnmSweol#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#ancestors DataIntersightNiaapiDcnmSweol#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiDcnmSweolAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#parent DataIntersightNiaapiDcnmSweol#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#parent DataIntersightNiaapiDcnmSweol#parent}
   */
   readonly parent?: DataIntersightNiaapiDcnmSweolParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#permission_resources DataIntersightNiaapiDcnmSweol#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#permission_resources DataIntersightNiaapiDcnmSweol#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiDcnmSweolPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#tags DataIntersightNiaapiDcnmSweol#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#tags DataIntersightNiaapiDcnmSweol#tags}
   */
   readonly tags?: DataIntersightNiaapiDcnmSweolTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#version_context DataIntersightNiaapiDcnmSweol#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#version_context DataIntersightNiaapiDcnmSweol#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiDcnmSweolVersionContext;
 }
@@ -1351,7 +1351,7 @@ export class DataIntersightNiaapiDcnmSweolResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightNiaapiDcnmSweolAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1359,19 +1359,19 @@ export interface DataIntersightNiaapiDcnmSweolAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1384,7 +1384,7 @@ export interface DataIntersightNiaapiDcnmSweolAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -1616,7 +1616,7 @@ export class DataIntersightNiaapiDcnmSweolAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightNiaapiDcnmSweolParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1624,19 +1624,19 @@ export interface DataIntersightNiaapiDcnmSweolParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1649,7 +1649,7 @@ export interface DataIntersightNiaapiDcnmSweolParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -1849,7 +1849,7 @@ export class DataIntersightNiaapiDcnmSweolParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightNiaapiDcnmSweolPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1857,19 +1857,19 @@ export interface DataIntersightNiaapiDcnmSweolPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1882,7 +1882,7 @@ export interface DataIntersightNiaapiDcnmSweolPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -2114,7 +2114,7 @@ export class DataIntersightNiaapiDcnmSweolPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightNiaapiDcnmSweolTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2122,19 +2122,19 @@ export interface DataIntersightNiaapiDcnmSweolTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2147,7 +2147,7 @@ export interface DataIntersightNiaapiDcnmSweolTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -2379,7 +2379,7 @@ export class DataIntersightNiaapiDcnmSweolTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightNiaapiDcnmSweolTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2387,19 +2387,19 @@ export interface DataIntersightNiaapiDcnmSweolTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2412,7 +2412,7 @@ export interface DataIntersightNiaapiDcnmSweolTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -2612,25 +2612,25 @@ export class DataIntersightNiaapiDcnmSweolTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightNiaapiDcnmSweolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#key DataIntersightNiaapiDcnmSweol#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#key DataIntersightNiaapiDcnmSweol#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#propagated DataIntersightNiaapiDcnmSweol#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#propagated DataIntersightNiaapiDcnmSweol#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#sys_tag DataIntersightNiaapiDcnmSweol#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#sys_tag DataIntersightNiaapiDcnmSweol#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2638,25 +2638,25 @@ export interface DataIntersightNiaapiDcnmSweolTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#type DataIntersightNiaapiDcnmSweol#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#type DataIntersightNiaapiDcnmSweol#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#value DataIntersightNiaapiDcnmSweol#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#value DataIntersightNiaapiDcnmSweol#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#ancestor_definitions DataIntersightNiaapiDcnmSweol#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#ancestor_definitions DataIntersightNiaapiDcnmSweol#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiDcnmSweolTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#definition DataIntersightNiaapiDcnmSweol#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#definition DataIntersightNiaapiDcnmSweol#definition}
   */
   readonly definition?: DataIntersightNiaapiDcnmSweolTagsDefinition;
 }
@@ -2975,7 +2975,7 @@ export class DataIntersightNiaapiDcnmSweolTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightNiaapiDcnmSweolVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2983,19 +2983,19 @@ export interface DataIntersightNiaapiDcnmSweolVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3008,7 +3008,7 @@ export interface DataIntersightNiaapiDcnmSweolVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -3240,7 +3240,7 @@ export class DataIntersightNiaapiDcnmSweolVersionContextInterestedMosList extend
 }
 export interface DataIntersightNiaapiDcnmSweolVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3248,19 +3248,19 @@ export interface DataIntersightNiaapiDcnmSweolVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#moid DataIntersightNiaapiDcnmSweol#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3273,7 +3273,7 @@ export interface DataIntersightNiaapiDcnmSweolVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#selector DataIntersightNiaapiDcnmSweol#selector}
   */
   readonly selector?: string;
 }
@@ -3473,7 +3473,7 @@ export class DataIntersightNiaapiDcnmSweolVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightNiaapiDcnmSweolVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#additional_properties DataIntersightNiaapiDcnmSweol#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3481,32 +3481,32 @@ export interface DataIntersightNiaapiDcnmSweolVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#class_id DataIntersightNiaapiDcnmSweol#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#marked_for_deletion DataIntersightNiaapiDcnmSweol#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#marked_for_deletion DataIntersightNiaapiDcnmSweol#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#nr_version DataIntersightNiaapiDcnmSweol#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#nr_version DataIntersightNiaapiDcnmSweol#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#object_type DataIntersightNiaapiDcnmSweol#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#timestamp DataIntersightNiaapiDcnmSweol#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#timestamp DataIntersightNiaapiDcnmSweol#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3517,19 +3517,19 @@ export interface DataIntersightNiaapiDcnmSweolVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#version_type DataIntersightNiaapiDcnmSweol#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#version_type DataIntersightNiaapiDcnmSweol#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#interested_mos DataIntersightNiaapiDcnmSweol#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#interested_mos DataIntersightNiaapiDcnmSweol#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiDcnmSweolVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#ref_mo DataIntersightNiaapiDcnmSweol#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#ref_mo DataIntersightNiaapiDcnmSweol#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiDcnmSweolVersionContextRefMo;
 }
@@ -3845,7 +3845,7 @@ export class DataIntersightNiaapiDcnmSweolVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol intersight_niaapi_dcnm_sweol}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol intersight_niaapi_dcnm_sweol}
 */
 export class DataIntersightNiaapiDcnmSweol extends cdktf.TerraformDataSource {
 
@@ -3861,7 +3861,7 @@ export class DataIntersightNiaapiDcnmSweol extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightNiaapiDcnmSweol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiDcnmSweol to import
-  * @param importFromId The id of the existing DataIntersightNiaapiDcnmSweol that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiDcnmSweol that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiDcnmSweol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3873,7 +3873,7 @@ export class DataIntersightNiaapiDcnmSweol extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_dcnm_sweol intersight_niaapi_dcnm_sweol} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_dcnm_sweol intersight_niaapi_dcnm_sweol} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3884,8 +3884,8 @@ export class DataIntersightNiaapiDcnmSweol extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_niaapi_dcnm_sweol',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

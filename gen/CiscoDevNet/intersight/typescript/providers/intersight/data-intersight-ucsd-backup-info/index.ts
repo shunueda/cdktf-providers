@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataIntersightUcsdBackupInfoConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#account_moid DataIntersightUcsdBackupInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#account_moid DataIntersightUcsdBackupInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Auto generated backup file name with user defined prefix and timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#backup_file_name DataIntersightUcsdBackupInfo#backup_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#backup_file_name DataIntersightUcsdBackupInfo#backup_file_name}
   */
   readonly backupFileName?: string;
   /**
   * Backup location for restore operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#backup_location DataIntersightUcsdBackupInfo#backup_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#backup_location DataIntersightUcsdBackupInfo#backup_location}
   */
   readonly backupLocation?: string;
   /**
   * Backup server for storing backup images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#backup_server_ip DataIntersightUcsdBackupInfo#backup_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#backup_server_ip DataIntersightUcsdBackupInfo#backup_server_ip}
   */
   readonly backupServerIp?: string;
   /**
   * Backup image size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#backup_size DataIntersightUcsdBackupInfo#backup_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#backup_size DataIntersightUcsdBackupInfo#backup_size}
   */
   readonly backupSize?: number;
   /**
@@ -46,41 +46,41 @@ export interface DataIntersightUcsdBackupInfoConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#create_time DataIntersightUcsdBackupInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#create_time DataIntersightUcsdBackupInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#domain_group_moid DataIntersightUcsdBackupInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#domain_group_moid DataIntersightUcsdBackupInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Time taken to complete the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#duration DataIntersightUcsdBackupInfo#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#duration DataIntersightUcsdBackupInfo#duration}
   */
   readonly duration?: number;
   /**
   * Encryption key for backup file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#encryption_key DataIntersightUcsdBackupInfo#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#encryption_key DataIntersightUcsdBackupInfo#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * The cause of the backup failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#failure_reason DataIntersightUcsdBackupInfo#failure_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#failure_reason DataIntersightUcsdBackupInfo#failure_reason}
   */
   readonly failureReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#id DataIntersightUcsdBackupInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#id DataIntersightUcsdBackupInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,121 +89,121 @@ export interface DataIntersightUcsdBackupInfoConfig extends cdktf.TerraformMetaA
   /**
   * Backup image purge status based on retention policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#is_purged DataIntersightUcsdBackupInfo#is_purged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#is_purged DataIntersightUcsdBackupInfo#is_purged}
   */
   readonly isPurged?: boolean | cdktf.IResolvable;
   /**
   * Backup record last modified time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#last_modified DataIntersightUcsdBackupInfo#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#last_modified DataIntersightUcsdBackupInfo#last_modified}
   */
   readonly lastModified?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#mod_time DataIntersightUcsdBackupInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#mod_time DataIntersightUcsdBackupInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#owners DataIntersightUcsdBackupInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#owners DataIntersightUcsdBackupInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Backup completion percentage status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#percentage_completion DataIntersightUcsdBackupInfo#percentage_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#percentage_completion DataIntersightUcsdBackupInfo#percentage_completion}
   */
   readonly percentageCompletion?: number;
   /**
   * End device product version at the backup time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#product_version DataIntersightUcsdBackupInfo#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#product_version DataIntersightUcsdBackupInfo#product_version}
   */
   readonly productVersion?: string;
   /**
   * Supported remote backup protocol (FTP, SCP and SFTP); not applicable for localhost (127.0.0.1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#protocol DataIntersightUcsdBackupInfo#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#protocol DataIntersightUcsdBackupInfo#protocol}
   */
   readonly protocol?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#shared_scope DataIntersightUcsdBackupInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#shared_scope DataIntersightUcsdBackupInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Backup status stage information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#stage_completion DataIntersightUcsdBackupInfo#stage_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#stage_completion DataIntersightUcsdBackupInfo#stage_completion}
   */
   readonly stageCompletion?: string;
   /**
   * Backup initiation start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#start_time DataIntersightUcsdBackupInfo#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#start_time DataIntersightUcsdBackupInfo#start_time}
   */
   readonly startTime?: string;
   /**
   * The current backup status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#status DataIntersightUcsdBackupInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#status DataIntersightUcsdBackupInfo#status}
   */
   readonly status?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#ancestors DataIntersightUcsdBackupInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#ancestors DataIntersightUcsdBackupInfo#ancestors}
   */
   readonly ancestors?: DataIntersightUcsdBackupInfoAncestors[] | cdktf.IResolvable;
   /**
   * connectors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#connectors DataIntersightUcsdBackupInfo#connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#connectors DataIntersightUcsdBackupInfo#connectors}
   */
   readonly connectors?: DataIntersightUcsdBackupInfoConnectors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#parent DataIntersightUcsdBackupInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#parent DataIntersightUcsdBackupInfo#parent}
   */
   readonly parent?: DataIntersightUcsdBackupInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#permission_resources DataIntersightUcsdBackupInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#permission_resources DataIntersightUcsdBackupInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightUcsdBackupInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#registered_device DataIntersightUcsdBackupInfo#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#registered_device DataIntersightUcsdBackupInfo#registered_device}
   */
   readonly registeredDevice?: DataIntersightUcsdBackupInfoRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#tags DataIntersightUcsdBackupInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#tags DataIntersightUcsdBackupInfo#tags}
   */
   readonly tags?: DataIntersightUcsdBackupInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#version_context DataIntersightUcsdBackupInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#version_context DataIntersightUcsdBackupInfo#version_context}
   */
   readonly versionContext?: DataIntersightUcsdBackupInfoVersionContext;
 }
@@ -1555,7 +1555,7 @@ export class DataIntersightUcsdBackupInfoResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightUcsdBackupInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1563,19 +1563,19 @@ export interface DataIntersightUcsdBackupInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1588,7 +1588,7 @@ export interface DataIntersightUcsdBackupInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1820,7 +1820,7 @@ export class DataIntersightUcsdBackupInfoAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightUcsdBackupInfoConnectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1828,52 +1828,52 @@ export interface DataIntersightUcsdBackupInfoConnectors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * State of connector pack (enabled/ disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#connector_feature DataIntersightUcsdBackupInfo#connector_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#connector_feature DataIntersightUcsdBackupInfo#connector_feature}
   */
   readonly connectorFeature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#dependency_names DataIntersightUcsdBackupInfo#dependency_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#dependency_names DataIntersightUcsdBackupInfo#dependency_names}
   */
   readonly dependencyNames?: string[];
   /**
   * Last successfully downloaded connector pack version successfully for UCS Director.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#downloaded_version DataIntersightUcsdBackupInfo#downloaded_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#downloaded_version DataIntersightUcsdBackupInfo#downloaded_version}
   */
   readonly downloadedVersion?: string;
   /**
   * UCS Director connector pack name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#name DataIntersightUcsdBackupInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#name DataIntersightUcsdBackupInfo#name}
   */
   readonly name?: string;
   /**
   * The connector pack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#nr_version DataIntersightUcsdBackupInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#nr_version DataIntersightUcsdBackupInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#services DataIntersightUcsdBackupInfo#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#services DataIntersightUcsdBackupInfo#services}
   */
   readonly services?: string[];
   /**
   * Connector pack state (enabled/disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#state DataIntersightUcsdBackupInfo#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#state DataIntersightUcsdBackupInfo#state}
   */
   readonly state?: string;
 }
@@ -2250,7 +2250,7 @@ export class DataIntersightUcsdBackupInfoConnectorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightUcsdBackupInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2258,19 +2258,19 @@ export interface DataIntersightUcsdBackupInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2283,7 +2283,7 @@ export interface DataIntersightUcsdBackupInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2483,7 +2483,7 @@ export class DataIntersightUcsdBackupInfoParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightUcsdBackupInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2491,19 +2491,19 @@ export interface DataIntersightUcsdBackupInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2516,7 +2516,7 @@ export interface DataIntersightUcsdBackupInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2748,7 +2748,7 @@ export class DataIntersightUcsdBackupInfoPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightUcsdBackupInfoRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2756,19 +2756,19 @@ export interface DataIntersightUcsdBackupInfoRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2781,7 +2781,7 @@ export interface DataIntersightUcsdBackupInfoRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2981,7 +2981,7 @@ export class DataIntersightUcsdBackupInfoRegisteredDeviceOutputReference extends
 }
 export interface DataIntersightUcsdBackupInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2989,19 +2989,19 @@ export interface DataIntersightUcsdBackupInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3014,7 +3014,7 @@ export interface DataIntersightUcsdBackupInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3246,7 +3246,7 @@ export class DataIntersightUcsdBackupInfoTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightUcsdBackupInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3254,19 +3254,19 @@ export interface DataIntersightUcsdBackupInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3279,7 +3279,7 @@ export interface DataIntersightUcsdBackupInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3479,25 +3479,25 @@ export class DataIntersightUcsdBackupInfoTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightUcsdBackupInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#key DataIntersightUcsdBackupInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#key DataIntersightUcsdBackupInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#propagated DataIntersightUcsdBackupInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#propagated DataIntersightUcsdBackupInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#sys_tag DataIntersightUcsdBackupInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#sys_tag DataIntersightUcsdBackupInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3505,25 +3505,25 @@ export interface DataIntersightUcsdBackupInfoTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#type DataIntersightUcsdBackupInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#type DataIntersightUcsdBackupInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#value DataIntersightUcsdBackupInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#value DataIntersightUcsdBackupInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#ancestor_definitions DataIntersightUcsdBackupInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#ancestor_definitions DataIntersightUcsdBackupInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightUcsdBackupInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#definition DataIntersightUcsdBackupInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#definition DataIntersightUcsdBackupInfo#definition}
   */
   readonly definition?: DataIntersightUcsdBackupInfoTagsDefinition;
 }
@@ -3842,7 +3842,7 @@ export class DataIntersightUcsdBackupInfoTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightUcsdBackupInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3850,19 +3850,19 @@ export interface DataIntersightUcsdBackupInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3875,7 +3875,7 @@ export interface DataIntersightUcsdBackupInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4107,7 +4107,7 @@ export class DataIntersightUcsdBackupInfoVersionContextInterestedMosList extends
 }
 export interface DataIntersightUcsdBackupInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4115,19 +4115,19 @@ export interface DataIntersightUcsdBackupInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#moid DataIntersightUcsdBackupInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4140,7 +4140,7 @@ export interface DataIntersightUcsdBackupInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#selector DataIntersightUcsdBackupInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4340,7 +4340,7 @@ export class DataIntersightUcsdBackupInfoVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightUcsdBackupInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#additional_properties DataIntersightUcsdBackupInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4348,32 +4348,32 @@ export interface DataIntersightUcsdBackupInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#class_id DataIntersightUcsdBackupInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#marked_for_deletion DataIntersightUcsdBackupInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#marked_for_deletion DataIntersightUcsdBackupInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#nr_version DataIntersightUcsdBackupInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#nr_version DataIntersightUcsdBackupInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#object_type DataIntersightUcsdBackupInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#timestamp DataIntersightUcsdBackupInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#timestamp DataIntersightUcsdBackupInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4384,19 +4384,19 @@ export interface DataIntersightUcsdBackupInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#version_type DataIntersightUcsdBackupInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#version_type DataIntersightUcsdBackupInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#interested_mos DataIntersightUcsdBackupInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#interested_mos DataIntersightUcsdBackupInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightUcsdBackupInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#ref_mo DataIntersightUcsdBackupInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#ref_mo DataIntersightUcsdBackupInfo#ref_mo}
   */
   readonly refMo?: DataIntersightUcsdBackupInfoVersionContextRefMo;
 }
@@ -4712,7 +4712,7 @@ export class DataIntersightUcsdBackupInfoVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info intersight_ucsd_backup_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info intersight_ucsd_backup_info}
 */
 export class DataIntersightUcsdBackupInfo extends cdktf.TerraformDataSource {
 
@@ -4728,7 +4728,7 @@ export class DataIntersightUcsdBackupInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightUcsdBackupInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightUcsdBackupInfo to import
-  * @param importFromId The id of the existing DataIntersightUcsdBackupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightUcsdBackupInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightUcsdBackupInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4740,7 +4740,7 @@ export class DataIntersightUcsdBackupInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ucsd_backup_info intersight_ucsd_backup_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ucsd_backup_info intersight_ucsd_backup_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4751,8 +4751,8 @@ export class DataIntersightUcsdBackupInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ucsd_backup_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

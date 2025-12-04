@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKvmSessionConfig extends cdktf.TerraformMetaArgum
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#account_moid DataIntersightKvmSession#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#account_moid DataIntersightKvmSession#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightKvmSessionConfig extends cdktf.TerraformMetaArgum
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The user agent IP address from which the session is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#client_ip_address DataIntersightKvmSession#client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#client_ip_address DataIntersightKvmSession#client_ip_address}
   */
   readonly clientIpAddress?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#create_time DataIntersightKvmSession#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#create_time DataIntersightKvmSession#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#domain_group_moid DataIntersightKvmSession#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#domain_group_moid DataIntersightKvmSession#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time at which the session ended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#end_time DataIntersightKvmSession#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#end_time DataIntersightKvmSession#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#id DataIntersightKvmSession#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#id DataIntersightKvmSession#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,61 +59,61 @@ export interface DataIntersightKvmSessionConfig extends cdktf.TerraformMetaArgum
   /**
   * One time URL that is used to launch the vKVM console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#kvm_launch_url_path DataIntersightKvmSession#kvm_launch_url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#kvm_launch_url_path DataIntersightKvmSession#kvm_launch_url_path}
   */
   readonly kvmLaunchUrlPath?: string;
   /**
   * Unique ID of the KVM Session URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#kvm_session_id DataIntersightKvmSession#kvm_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#kvm_session_id DataIntersightKvmSession#kvm_session_id}
   */
   readonly kvmSessionId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#mod_time DataIntersightKvmSession#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#mod_time DataIntersightKvmSession#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
   * Temporary one-time password for vKVM access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#one_time_password DataIntersightKvmSession#one_time_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#one_time_password DataIntersightKvmSession#one_time_password}
   */
   readonly oneTimePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#owners DataIntersightKvmSession#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#owners DataIntersightKvmSession#owners}
   */
   readonly owners?: string[];
   /**
   * Role of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#role DataIntersightKvmSession#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#role DataIntersightKvmSession#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#shared_scope DataIntersightKvmSession#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#shared_scope DataIntersightKvmSession#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Indicates if vKVM SSO is supported on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#sso_supported DataIntersightKvmSession#sso_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#sso_supported DataIntersightKvmSession#sso_supported}
   */
   readonly ssoSupported?: boolean | cdktf.IResolvable;
   /**
@@ -122,91 +122,91 @@ export interface DataIntersightKvmSessionConfig extends cdktf.TerraformMetaArgum
   * * `Ended` - The session has ended normally.
   * * `Terminated` - The session was terminated by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#status DataIntersightKvmSession#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#status DataIntersightKvmSession#status}
   */
   readonly status?: string;
   /**
   * Name of target on which session is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#target_name DataIntersightKvmSession#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#target_name DataIntersightKvmSession#target_name}
   */
   readonly targetName?: string;
   /**
   * User ID or E-mail Address of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#user_id_or_email DataIntersightKvmSession#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#user_id_or_email DataIntersightKvmSession#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * Username used for vKVM access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#username DataIntersightKvmSession#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#username DataIntersightKvmSession#username}
   */
   readonly username?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#ancestors DataIntersightKvmSession#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#ancestors DataIntersightKvmSession#ancestors}
   */
   readonly ancestors?: DataIntersightKvmSessionAncestors[] | cdktf.IResolvable;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#device DataIntersightKvmSession#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#device DataIntersightKvmSession#device}
   */
   readonly device?: DataIntersightKvmSessionDevice;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#parent DataIntersightKvmSession#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#parent DataIntersightKvmSession#parent}
   */
   readonly parent?: DataIntersightKvmSessionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#permission_resources DataIntersightKvmSession#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#permission_resources DataIntersightKvmSession#permission_resources}
   */
   readonly permissionResources?: DataIntersightKvmSessionPermissionResources[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#server DataIntersightKvmSession#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#server DataIntersightKvmSession#server}
   */
   readonly server?: DataIntersightKvmSessionServer;
   /**
   * session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#session DataIntersightKvmSession#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#session DataIntersightKvmSession#session}
   */
   readonly session?: DataIntersightKvmSessionSession;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#tags DataIntersightKvmSession#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#tags DataIntersightKvmSession#tags}
   */
   readonly tags?: DataIntersightKvmSessionTags[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#target DataIntersightKvmSession#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#target DataIntersightKvmSession#target}
   */
   readonly target?: DataIntersightKvmSessionTarget;
   /**
   * tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#tunnel DataIntersightKvmSession#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#tunnel DataIntersightKvmSession#tunnel}
   */
   readonly tunnel?: DataIntersightKvmSessionTunnel;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#user DataIntersightKvmSession#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#user DataIntersightKvmSession#user}
   */
   readonly user?: DataIntersightKvmSessionUser;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#version_context DataIntersightKvmSession#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#version_context DataIntersightKvmSession#version_context}
   */
   readonly versionContext?: DataIntersightKvmSessionVersionContext;
 }
@@ -1917,7 +1917,7 @@ export class DataIntersightKvmSessionResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmSessionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1925,19 +1925,19 @@ export interface DataIntersightKvmSessionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1950,7 +1950,7 @@ export interface DataIntersightKvmSessionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -2182,7 +2182,7 @@ export class DataIntersightKvmSessionAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmSessionDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2190,19 +2190,19 @@ export interface DataIntersightKvmSessionDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2215,7 +2215,7 @@ export interface DataIntersightKvmSessionDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -2415,7 +2415,7 @@ export class DataIntersightKvmSessionDeviceOutputReference extends cdktf.Complex
 }
 export interface DataIntersightKvmSessionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2423,19 +2423,19 @@ export interface DataIntersightKvmSessionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2448,7 +2448,7 @@ export interface DataIntersightKvmSessionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -2648,7 +2648,7 @@ export class DataIntersightKvmSessionParentOutputReference extends cdktf.Complex
 }
 export interface DataIntersightKvmSessionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2656,19 +2656,19 @@ export interface DataIntersightKvmSessionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2681,7 +2681,7 @@ export interface DataIntersightKvmSessionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -2913,7 +2913,7 @@ export class DataIntersightKvmSessionPermissionResourcesList extends cdktf.Compl
 }
 export interface DataIntersightKvmSessionServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2921,19 +2921,19 @@ export interface DataIntersightKvmSessionServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2946,7 +2946,7 @@ export interface DataIntersightKvmSessionServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -3146,7 +3146,7 @@ export class DataIntersightKvmSessionServerOutputReference extends cdktf.Complex
 }
 export interface DataIntersightKvmSessionSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3154,19 +3154,19 @@ export interface DataIntersightKvmSessionSession {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3179,7 +3179,7 @@ export interface DataIntersightKvmSessionSession {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -3379,7 +3379,7 @@ export class DataIntersightKvmSessionSessionOutputReference extends cdktf.Comple
 }
 export interface DataIntersightKvmSessionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3387,19 +3387,19 @@ export interface DataIntersightKvmSessionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3412,7 +3412,7 @@ export interface DataIntersightKvmSessionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -3644,7 +3644,7 @@ export class DataIntersightKvmSessionTagsAncestorDefinitionsList extends cdktf.C
 }
 export interface DataIntersightKvmSessionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3652,19 +3652,19 @@ export interface DataIntersightKvmSessionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3677,7 +3677,7 @@ export interface DataIntersightKvmSessionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -3877,25 +3877,25 @@ export class DataIntersightKvmSessionTagsDefinitionOutputReference extends cdktf
 }
 export interface DataIntersightKvmSessionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#key DataIntersightKvmSession#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#key DataIntersightKvmSession#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#propagated DataIntersightKvmSession#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#propagated DataIntersightKvmSession#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#sys_tag DataIntersightKvmSession#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#sys_tag DataIntersightKvmSession#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3903,25 +3903,25 @@ export interface DataIntersightKvmSessionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#type DataIntersightKvmSession#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#type DataIntersightKvmSession#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#value DataIntersightKvmSession#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#value DataIntersightKvmSession#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#ancestor_definitions DataIntersightKvmSession#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#ancestor_definitions DataIntersightKvmSession#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKvmSessionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#definition DataIntersightKvmSession#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#definition DataIntersightKvmSession#definition}
   */
   readonly definition?: DataIntersightKvmSessionTagsDefinition;
 }
@@ -4240,7 +4240,7 @@ export class DataIntersightKvmSessionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightKvmSessionTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4248,19 +4248,19 @@ export interface DataIntersightKvmSessionTarget {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4273,7 +4273,7 @@ export interface DataIntersightKvmSessionTarget {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -4473,7 +4473,7 @@ export class DataIntersightKvmSessionTargetOutputReference extends cdktf.Complex
 }
 export interface DataIntersightKvmSessionTunnel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4481,19 +4481,19 @@ export interface DataIntersightKvmSessionTunnel {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4506,7 +4506,7 @@ export interface DataIntersightKvmSessionTunnel {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -4706,7 +4706,7 @@ export class DataIntersightKvmSessionTunnelOutputReference extends cdktf.Complex
 }
 export interface DataIntersightKvmSessionUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4714,19 +4714,19 @@ export interface DataIntersightKvmSessionUser {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4739,7 +4739,7 @@ export interface DataIntersightKvmSessionUser {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -4939,7 +4939,7 @@ export class DataIntersightKvmSessionUserOutputReference extends cdktf.ComplexOb
 }
 export interface DataIntersightKvmSessionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4947,19 +4947,19 @@ export interface DataIntersightKvmSessionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4972,7 +4972,7 @@ export interface DataIntersightKvmSessionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -5204,7 +5204,7 @@ export class DataIntersightKvmSessionVersionContextInterestedMosList extends cdk
 }
 export interface DataIntersightKvmSessionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5212,19 +5212,19 @@ export interface DataIntersightKvmSessionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#moid DataIntersightKvmSession#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5237,7 +5237,7 @@ export interface DataIntersightKvmSessionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#selector DataIntersightKvmSession#selector}
   */
   readonly selector?: string;
 }
@@ -5437,7 +5437,7 @@ export class DataIntersightKvmSessionVersionContextRefMoOutputReference extends 
 }
 export interface DataIntersightKvmSessionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#additional_properties DataIntersightKvmSession#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5445,32 +5445,32 @@ export interface DataIntersightKvmSessionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#class_id DataIntersightKvmSession#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#marked_for_deletion DataIntersightKvmSession#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#marked_for_deletion DataIntersightKvmSession#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#nr_version DataIntersightKvmSession#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#nr_version DataIntersightKvmSession#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#object_type DataIntersightKvmSession#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#timestamp DataIntersightKvmSession#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#timestamp DataIntersightKvmSession#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5481,19 +5481,19 @@ export interface DataIntersightKvmSessionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#version_type DataIntersightKvmSession#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#version_type DataIntersightKvmSession#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#interested_mos DataIntersightKvmSession#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#interested_mos DataIntersightKvmSession#interested_mos}
   */
   readonly interestedMos?: DataIntersightKvmSessionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#ref_mo DataIntersightKvmSession#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#ref_mo DataIntersightKvmSession#ref_mo}
   */
   readonly refMo?: DataIntersightKvmSessionVersionContextRefMo;
 }
@@ -5809,7 +5809,7 @@ export class DataIntersightKvmSessionVersionContextOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session intersight_kvm_session}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session intersight_kvm_session}
 */
 export class DataIntersightKvmSession extends cdktf.TerraformDataSource {
 
@@ -5825,7 +5825,7 @@ export class DataIntersightKvmSession extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightKvmSession resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKvmSession to import
-  * @param importFromId The id of the existing DataIntersightKvmSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKvmSession that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKvmSession to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5837,7 +5837,7 @@ export class DataIntersightKvmSession extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kvm_session intersight_kvm_session} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kvm_session intersight_kvm_session} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5848,8 +5848,8 @@ export class DataIntersightKvmSession extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_kvm_session',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

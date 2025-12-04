@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightStoragePhysicalDiskConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#account_moid DataIntersightStoragePhysicalDisk#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#account_moid DataIntersightStoragePhysicalDisk#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * List of background operations underway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#background_operations DataIntersightStoragePhysicalDisk#background_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#background_operations DataIntersightStoragePhysicalDisk#background_operations}
   */
   readonly backgroundOperations?: string;
   /**
   * The block size of the physical disk in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#block_size DataIntersightStoragePhysicalDisk#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#block_size DataIntersightStoragePhysicalDisk#block_size}
   */
   readonly blockSize?: string;
   /**
   * This field identifies the disk drive as bootable if set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#bootable DataIntersightStoragePhysicalDisk#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#bootable DataIntersightStoragePhysicalDisk#bootable}
   */
   readonly bootable?: string;
   /**
@@ -40,131 +40,131 @@ export interface DataIntersightStoragePhysicalDiskConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The current configuration checkpoint of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#configuration_checkpoint DataIntersightStoragePhysicalDisk#configuration_checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#configuration_checkpoint DataIntersightStoragePhysicalDisk#configuration_checkpoint}
   */
   readonly configurationCheckpoint?: string;
   /**
   * The current configuration state of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#configuration_state DataIntersightStoragePhysicalDisk#configuration_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#configuration_state DataIntersightStoragePhysicalDisk#configuration_state}
   */
   readonly configurationState?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#create_time DataIntersightStoragePhysicalDisk#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#create_time DataIntersightStoragePhysicalDisk#create_time}
   */
   readonly createTime?: string;
   /**
   * This field displays the description of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#description DataIntersightStoragePhysicalDisk#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#description DataIntersightStoragePhysicalDisk#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#device_mo_id DataIntersightStoragePhysicalDisk#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#device_mo_id DataIntersightStoragePhysicalDisk#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The physical disk is disabled for removal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#disabled_for_removal DataIntersightStoragePhysicalDisk#disabled_for_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#disabled_for_removal DataIntersightStoragePhysicalDisk#disabled_for_removal}
   */
   readonly disabledForRemoval?: boolean | cdktf.IResolvable;
   /**
   * The discovered path of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#discovered_path DataIntersightStoragePhysicalDisk#discovered_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#discovered_path DataIntersightStoragePhysicalDisk#discovered_path}
   */
   readonly discoveredPath?: string;
   /**
   * This field identifies the ID assigned to physical disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#disk_id DataIntersightStoragePhysicalDisk#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#disk_id DataIntersightStoragePhysicalDisk#disk_id}
   */
   readonly diskId?: string;
   /**
   * This field identifies the health of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#disk_state DataIntersightStoragePhysicalDisk#disk_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#disk_state DataIntersightStoragePhysicalDisk#disk_state}
   */
   readonly diskState?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#dn DataIntersightStoragePhysicalDisk#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#dn DataIntersightStoragePhysicalDisk#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#domain_group_moid DataIntersightStoragePhysicalDisk#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#domain_group_moid DataIntersightStoragePhysicalDisk#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * This field identifies the disk firmware running in the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#drive_firmware DataIntersightStoragePhysicalDisk#drive_firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#drive_firmware DataIntersightStoragePhysicalDisk#drive_firmware}
   */
   readonly driveFirmware?: string;
   /**
   * The drive state as reported by the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#drive_state DataIntersightStoragePhysicalDisk#drive_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#drive_state DataIntersightStoragePhysicalDisk#drive_state}
   */
   readonly driveState?: string;
   /**
   * Encryption status of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#encryption_status DataIntersightStoragePhysicalDisk#encryption_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#encryption_status DataIntersightStoragePhysicalDisk#encryption_status}
   */
   readonly encryptionStatus?: string;
   /**
   * Possibility of physical disk failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#failure_predicted DataIntersightStoragePhysicalDisk#failure_predicted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#failure_predicted DataIntersightStoragePhysicalDisk#failure_predicted}
   */
   readonly failurePredicted?: boolean | cdktf.IResolvable;
   /**
   * Full-Disk Encryption capability parameter of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#fde_capable DataIntersightStoragePhysicalDisk#fde_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#fde_capable DataIntersightStoragePhysicalDisk#fde_capable}
   */
   readonly fdeCapable?: string;
   /**
   * This field displays the health of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#health DataIntersightStoragePhysicalDisk#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#health DataIntersightStoragePhysicalDisk#health}
   */
   readonly health?: string;
   /**
   * This field displays the message in relation to physical disk health.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#health_message DataIntersightStoragePhysicalDisk#health_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#health_message DataIntersightStoragePhysicalDisk#health_message}
   */
   readonly healthMessage?: string;
   /**
   * This field displays the recommended action to take regarding the physical disk based on its health status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#health_resolution DataIntersightStoragePhysicalDisk#health_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#health_resolution DataIntersightStoragePhysicalDisk#health_resolution}
   */
   readonly healthResolution?: string;
   /**
   * Type of hotspare configured on the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#hot_spare_type DataIntersightStoragePhysicalDisk#hot_spare_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#hot_spare_type DataIntersightStoragePhysicalDisk#hot_spare_type}
   */
   readonly hotSpareType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#id DataIntersightStoragePhysicalDisk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#id DataIntersightStoragePhysicalDisk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,383 +173,383 @@ export interface DataIntersightStoragePhysicalDiskConfig extends cdktf.Terraform
   /**
   * Status of the locator LED corresponding to the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#indicator_led DataIntersightStoragePhysicalDisk#indicator_led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#indicator_led DataIntersightStoragePhysicalDisk#indicator_led}
   */
   readonly indicatorLed?: string;
   /**
   * This field indicates whether the physical disk is supported on the server or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#is_platform_supported DataIntersightStoragePhysicalDisk#is_platform_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#is_platform_supported DataIntersightStoragePhysicalDisk#is_platform_supported}
   */
   readonly isPlatformSupported?: boolean | cdktf.IResolvable;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#is_upgraded DataIntersightStoragePhysicalDisk#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#is_upgraded DataIntersightStoragePhysicalDisk#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The speed of the link between the drive and the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#link_speed DataIntersightStoragePhysicalDisk#link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#link_speed DataIntersightStoragePhysicalDisk#link_speed}
   */
   readonly linkSpeed?: string;
   /**
   * The current link state of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#link_state DataIntersightStoragePhysicalDisk#link_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#link_state DataIntersightStoragePhysicalDisk#link_state}
   */
   readonly linkState?: string;
   /**
   * Maximum operating temperature of drive in Celsius.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#maximum_operating_temperature DataIntersightStoragePhysicalDisk#maximum_operating_temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#maximum_operating_temperature DataIntersightStoragePhysicalDisk#maximum_operating_temperature}
   */
   readonly maximumOperatingTemperature?: number;
   /**
   * Media error count on the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#media_error_count DataIntersightStoragePhysicalDisk#media_error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#media_error_count DataIntersightStoragePhysicalDisk#media_error_count}
   */
   readonly mediaErrorCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#mod_time DataIntersightStoragePhysicalDisk#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#mod_time DataIntersightStoragePhysicalDisk#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#model DataIntersightStoragePhysicalDisk#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#model DataIntersightStoragePhysicalDisk#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * Detailed name of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#name DataIntersightStoragePhysicalDisk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#name DataIntersightStoragePhysicalDisk#name}
   */
   readonly name?: string;
   /**
   * Physical disk non-coerced size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#non_coerced_size_bytes DataIntersightStoragePhysicalDisk#non_coerced_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#non_coerced_size_bytes DataIntersightStoragePhysicalDisk#non_coerced_size_bytes}
   */
   readonly nonCoercedSizeBytes?: number;
   /**
   * The number of blocks present on the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#num_blocks DataIntersightStoragePhysicalDisk#num_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#num_blocks DataIntersightStoragePhysicalDisk#num_blocks}
   */
   readonly numBlocks?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * Operational power of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#oper_power_state DataIntersightStoragePhysicalDisk#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#oper_power_state DataIntersightStoragePhysicalDisk#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
   * For certain states, indicates the reason why the operState is in that state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#oper_qualifier_reason DataIntersightStoragePhysicalDisk#oper_qualifier_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#oper_qualifier_reason DataIntersightStoragePhysicalDisk#oper_qualifier_reason}
   */
   readonly operQualifierReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#oper_reason DataIntersightStoragePhysicalDisk#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#oper_reason DataIntersightStoragePhysicalDisk#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * This field identifies the disk operability of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#operability DataIntersightStoragePhysicalDisk#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#operability DataIntersightStoragePhysicalDisk#operability}
   */
   readonly operability?: string;
   /**
   * Operating temperature of drive in Celsius.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#operating_temperature DataIntersightStoragePhysicalDisk#operating_temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#operating_temperature DataIntersightStoragePhysicalDisk#operating_temperature}
   */
   readonly operatingTemperature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#owners DataIntersightStoragePhysicalDisk#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#owners DataIntersightStoragePhysicalDisk#owners}
   */
   readonly owners?: string[];
   /**
   * This field displays the part number of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#part_number DataIntersightStoragePhysicalDisk#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#part_number DataIntersightStoragePhysicalDisk#part_number}
   */
   readonly partNumber?: string;
   /**
   * Percentage of write cycles remaining in a solid state drive (SSD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#percent_life_left DataIntersightStoragePhysicalDisk#percent_life_left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#percent_life_left DataIntersightStoragePhysicalDisk#percent_life_left}
   */
   readonly percentLifeLeft?: number;
   /**
   * Percentage of reserve capacity consumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#percent_reserved_capacity_consumed DataIntersightStoragePhysicalDisk#percent_reserved_capacity_consumed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#percent_reserved_capacity_consumed DataIntersightStoragePhysicalDisk#percent_reserved_capacity_consumed}
   */
   readonly percentReservedCapacityConsumed?: number;
   /**
   * Performance at which the device operating expressed in percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#performance_percent DataIntersightStoragePhysicalDisk#performance_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#performance_percent DataIntersightStoragePhysicalDisk#performance_percent}
   */
   readonly performancePercent?: number;
   /**
   * The block size of the installed physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#physical_block_size DataIntersightStoragePhysicalDisk#physical_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#physical_block_size DataIntersightStoragePhysicalDisk#physical_block_size}
   */
   readonly physicalBlockSize?: string;
   /**
   * This field displays the product ID of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#pid DataIntersightStoragePhysicalDisk#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#pid DataIntersightStoragePhysicalDisk#pid}
   */
   readonly pid?: string;
   /**
   * Number of powercycles the drive has undergone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#power_cycle_count DataIntersightStoragePhysicalDisk#power_cycle_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#power_cycle_count DataIntersightStoragePhysicalDisk#power_cycle_count}
   */
   readonly powerCycleCount?: number;
   /**
   * Number of hours the drive has been powered on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#power_on_hours DataIntersightStoragePhysicalDisk#power_on_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#power_on_hours DataIntersightStoragePhysicalDisk#power_on_hours}
   */
   readonly powerOnHours?: number;
   /**
   * Percentage of life used based on five year life span of Cisco supported drives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#power_on_hours_percentage DataIntersightStoragePhysicalDisk#power_on_hours_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#power_on_hours_percentage DataIntersightStoragePhysicalDisk#power_on_hours_percentage}
   */
   readonly powerOnHoursPercentage?: number;
   /**
   * Predicted physical disk life left in percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#predicted_media_life_left_percent DataIntersightStoragePhysicalDisk#predicted_media_life_left_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#predicted_media_life_left_percent DataIntersightStoragePhysicalDisk#predicted_media_life_left_percent}
   */
   readonly predictedMediaLifeLeftPercent?: number;
   /**
   * Error count on the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#predictive_failure_count DataIntersightStoragePhysicalDisk#predictive_failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#predictive_failure_count DataIntersightStoragePhysicalDisk#predictive_failure_count}
   */
   readonly predictiveFailureCount?: number;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#presence DataIntersightStoragePhysicalDisk#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#presence DataIntersightStoragePhysicalDisk#presence}
   */
   readonly presence?: string;
   /**
   * This field identifies the disk protocol used for communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#protocol DataIntersightStoragePhysicalDisk#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#protocol DataIntersightStoragePhysicalDisk#protocol}
   */
   readonly protocol?: string;
   /**
   * The raw size of the physical disk in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#raw_size DataIntersightStoragePhysicalDisk#raw_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#raw_size DataIntersightStoragePhysicalDisk#raw_size}
   */
   readonly rawSize?: string;
   /**
   * The number of read errors that are permitted while accessing the drive/card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#read_error_count_threshold DataIntersightStoragePhysicalDisk#read_error_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#read_error_count_threshold DataIntersightStoragePhysicalDisk#read_error_count_threshold}
   */
   readonly readErrorCountThreshold?: number;
   /**
   * Number of IO Errors that occured while reading data from the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#read_io_error_count DataIntersightStoragePhysicalDisk#read_io_error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#read_io_error_count DataIntersightStoragePhysicalDisk#read_io_error_count}
   */
   readonly readIoErrorCount?: number;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#revision DataIntersightStoragePhysicalDisk#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#revision DataIntersightStoragePhysicalDisk#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#rn DataIntersightStoragePhysicalDisk#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#rn DataIntersightStoragePhysicalDisk#rn}
   */
   readonly rn?: string;
   /**
   * This field identifies whether the disk is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#secured DataIntersightStoragePhysicalDisk#secured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#secured DataIntersightStoragePhysicalDisk#secured}
   */
   readonly secured?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#serial DataIntersightStoragePhysicalDisk#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#serial DataIntersightStoragePhysicalDisk#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#shared_scope DataIntersightStoragePhysicalDisk#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#shared_scope DataIntersightStoragePhysicalDisk#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size of the physical disk in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#size DataIntersightStoragePhysicalDisk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#size DataIntersightStoragePhysicalDisk#size}
   */
   readonly size?: string;
   /**
   * Thermal state of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#thermal DataIntersightStoragePhysicalDisk#thermal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#thermal DataIntersightStoragePhysicalDisk#thermal}
   */
   readonly thermal?: string;
   /**
   * Rated threshold operating temperature in Celsius.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#threshold_operating_temperature DataIntersightStoragePhysicalDisk#threshold_operating_temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#threshold_operating_temperature DataIntersightStoragePhysicalDisk#threshold_operating_temperature}
   */
   readonly thresholdOperatingTemperature?: number;
   /**
   * This field identifies the type of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#type DataIntersightStoragePhysicalDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#type DataIntersightStoragePhysicalDisk#type}
   */
   readonly type?: string;
   /**
   * The variant type of the physical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#variant_type DataIntersightStoragePhysicalDisk#variant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#variant_type DataIntersightStoragePhysicalDisk#variant_type}
   */
   readonly variantType?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#vendor DataIntersightStoragePhysicalDisk#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#vendor DataIntersightStoragePhysicalDisk#vendor}
   */
   readonly vendor?: string;
   /**
   * The number of days an SSD has gone through with the write cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#wear_status_in_days DataIntersightStoragePhysicalDisk#wear_status_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#wear_status_in_days DataIntersightStoragePhysicalDisk#wear_status_in_days}
   */
   readonly wearStatusInDays?: number;
   /**
   * The number of write errors that are permitted while accessing the drive/card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#write_error_count_threshold DataIntersightStoragePhysicalDisk#write_error_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#write_error_count_threshold DataIntersightStoragePhysicalDisk#write_error_count_threshold}
   */
   readonly writeErrorCountThreshold?: number;
   /**
   * Number of IO Errors that occured while writing data to the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#write_io_error_count DataIntersightStoragePhysicalDisk#write_io_error_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#write_io_error_count DataIntersightStoragePhysicalDisk#write_io_error_count}
   */
   readonly writeIoErrorCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#ancestors DataIntersightStoragePhysicalDisk#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#ancestors DataIntersightStoragePhysicalDisk#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePhysicalDiskAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#inventory_device_info DataIntersightStoragePhysicalDisk#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#inventory_device_info DataIntersightStoragePhysicalDisk#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStoragePhysicalDiskInventoryDeviceInfo;
   /**
   * locator_led block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#locator_led DataIntersightStoragePhysicalDisk#locator_led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#locator_led DataIntersightStoragePhysicalDisk#locator_led}
   */
   readonly locatorLed?: DataIntersightStoragePhysicalDiskLocatorLed;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#parent DataIntersightStoragePhysicalDisk#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#parent DataIntersightStoragePhysicalDisk#parent}
   */
   readonly parent?: DataIntersightStoragePhysicalDiskParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#permission_resources DataIntersightStoragePhysicalDisk#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#permission_resources DataIntersightStoragePhysicalDisk#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePhysicalDiskPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_disk_extensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#physical_disk_extensions DataIntersightStoragePhysicalDisk#physical_disk_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#physical_disk_extensions DataIntersightStoragePhysicalDisk#physical_disk_extensions}
   */
   readonly physicalDiskExtensions?: DataIntersightStoragePhysicalDiskPhysicalDiskExtensions[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#previous_fru DataIntersightStoragePhysicalDisk#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#previous_fru DataIntersightStoragePhysicalDisk#previous_fru}
   */
   readonly previousFru?: DataIntersightStoragePhysicalDiskPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#registered_device DataIntersightStoragePhysicalDisk#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#registered_device DataIntersightStoragePhysicalDisk#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePhysicalDiskRegisteredDevice;
   /**
   * running_firmware block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#running_firmware DataIntersightStoragePhysicalDisk#running_firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#running_firmware DataIntersightStoragePhysicalDisk#running_firmware}
   */
   readonly runningFirmware?: DataIntersightStoragePhysicalDiskRunningFirmware[] | cdktf.IResolvable;
   /**
   * sas_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#sas_ports DataIntersightStoragePhysicalDisk#sas_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#sas_ports DataIntersightStoragePhysicalDisk#sas_ports}
   */
   readonly sasPorts?: DataIntersightStoragePhysicalDiskSasPorts[] | cdktf.IResolvable;
   /**
   * storage_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#storage_controller DataIntersightStoragePhysicalDisk#storage_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#storage_controller DataIntersightStoragePhysicalDisk#storage_controller}
   */
   readonly storageController?: DataIntersightStoragePhysicalDiskStorageController;
   /**
   * storage_enclosure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#storage_enclosure DataIntersightStoragePhysicalDisk#storage_enclosure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#storage_enclosure DataIntersightStoragePhysicalDisk#storage_enclosure}
   */
   readonly storageEnclosure?: DataIntersightStoragePhysicalDiskStorageEnclosure;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#tags DataIntersightStoragePhysicalDisk#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#tags DataIntersightStoragePhysicalDisk#tags}
   */
   readonly tags?: DataIntersightStoragePhysicalDiskTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#version_context DataIntersightStoragePhysicalDisk#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#version_context DataIntersightStoragePhysicalDisk#version_context}
   */
   readonly versionContext?: DataIntersightStoragePhysicalDiskVersionContext;
 }
@@ -2838,7 +2838,7 @@ export class DataIntersightStoragePhysicalDiskResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightStoragePhysicalDiskAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2846,19 +2846,19 @@ export interface DataIntersightStoragePhysicalDiskAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2871,7 +2871,7 @@ export interface DataIntersightStoragePhysicalDiskAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3103,7 +3103,7 @@ export class DataIntersightStoragePhysicalDiskAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightStoragePhysicalDiskInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3111,19 +3111,19 @@ export interface DataIntersightStoragePhysicalDiskInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3136,7 +3136,7 @@ export interface DataIntersightStoragePhysicalDiskInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3336,7 +3336,7 @@ export class DataIntersightStoragePhysicalDiskInventoryDeviceInfoOutputReference
 }
 export interface DataIntersightStoragePhysicalDiskLocatorLed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3344,19 +3344,19 @@ export interface DataIntersightStoragePhysicalDiskLocatorLed {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3369,7 +3369,7 @@ export interface DataIntersightStoragePhysicalDiskLocatorLed {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3569,7 +3569,7 @@ export class DataIntersightStoragePhysicalDiskLocatorLedOutputReference extends 
 }
 export interface DataIntersightStoragePhysicalDiskParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3577,19 +3577,19 @@ export interface DataIntersightStoragePhysicalDiskParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3602,7 +3602,7 @@ export interface DataIntersightStoragePhysicalDiskParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -3802,7 +3802,7 @@ export class DataIntersightStoragePhysicalDiskParentOutputReference extends cdkt
 }
 export interface DataIntersightStoragePhysicalDiskPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3810,19 +3810,19 @@ export interface DataIntersightStoragePhysicalDiskPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3835,7 +3835,7 @@ export interface DataIntersightStoragePhysicalDiskPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4067,7 +4067,7 @@ export class DataIntersightStoragePhysicalDiskPermissionResourcesList extends cd
 }
 export interface DataIntersightStoragePhysicalDiskPhysicalDiskExtensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4075,19 +4075,19 @@ export interface DataIntersightStoragePhysicalDiskPhysicalDiskExtensions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4100,7 +4100,7 @@ export interface DataIntersightStoragePhysicalDiskPhysicalDiskExtensions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4332,7 +4332,7 @@ export class DataIntersightStoragePhysicalDiskPhysicalDiskExtensionsList extends
 }
 export interface DataIntersightStoragePhysicalDiskPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4340,19 +4340,19 @@ export interface DataIntersightStoragePhysicalDiskPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4365,7 +4365,7 @@ export interface DataIntersightStoragePhysicalDiskPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4565,7 +4565,7 @@ export class DataIntersightStoragePhysicalDiskPreviousFruOutputReference extends
 }
 export interface DataIntersightStoragePhysicalDiskRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4573,19 +4573,19 @@ export interface DataIntersightStoragePhysicalDiskRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4598,7 +4598,7 @@ export interface DataIntersightStoragePhysicalDiskRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -4798,7 +4798,7 @@ export class DataIntersightStoragePhysicalDiskRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightStoragePhysicalDiskRunningFirmware {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4806,19 +4806,19 @@ export interface DataIntersightStoragePhysicalDiskRunningFirmware {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4831,7 +4831,7 @@ export interface DataIntersightStoragePhysicalDiskRunningFirmware {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5063,7 +5063,7 @@ export class DataIntersightStoragePhysicalDiskRunningFirmwareList extends cdktf.
 }
 export interface DataIntersightStoragePhysicalDiskSasPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5071,19 +5071,19 @@ export interface DataIntersightStoragePhysicalDiskSasPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5096,7 +5096,7 @@ export interface DataIntersightStoragePhysicalDiskSasPorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5328,7 +5328,7 @@ export class DataIntersightStoragePhysicalDiskSasPortsList extends cdktf.Complex
 }
 export interface DataIntersightStoragePhysicalDiskStorageController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5336,19 +5336,19 @@ export interface DataIntersightStoragePhysicalDiskStorageController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5361,7 +5361,7 @@ export interface DataIntersightStoragePhysicalDiskStorageController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5561,7 +5561,7 @@ export class DataIntersightStoragePhysicalDiskStorageControllerOutputReference e
 }
 export interface DataIntersightStoragePhysicalDiskStorageEnclosure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5569,19 +5569,19 @@ export interface DataIntersightStoragePhysicalDiskStorageEnclosure {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5594,7 +5594,7 @@ export interface DataIntersightStoragePhysicalDiskStorageEnclosure {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -5794,7 +5794,7 @@ export class DataIntersightStoragePhysicalDiskStorageEnclosureOutputReference ex
 }
 export interface DataIntersightStoragePhysicalDiskTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5802,19 +5802,19 @@ export interface DataIntersightStoragePhysicalDiskTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5827,7 +5827,7 @@ export interface DataIntersightStoragePhysicalDiskTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -6059,7 +6059,7 @@ export class DataIntersightStoragePhysicalDiskTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightStoragePhysicalDiskTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6067,19 +6067,19 @@ export interface DataIntersightStoragePhysicalDiskTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6092,7 +6092,7 @@ export interface DataIntersightStoragePhysicalDiskTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -6292,25 +6292,25 @@ export class DataIntersightStoragePhysicalDiskTagsDefinitionOutputReference exte
 }
 export interface DataIntersightStoragePhysicalDiskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#key DataIntersightStoragePhysicalDisk#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#key DataIntersightStoragePhysicalDisk#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#propagated DataIntersightStoragePhysicalDisk#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#propagated DataIntersightStoragePhysicalDisk#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#sys_tag DataIntersightStoragePhysicalDisk#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#sys_tag DataIntersightStoragePhysicalDisk#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -6318,25 +6318,25 @@ export interface DataIntersightStoragePhysicalDiskTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#type DataIntersightStoragePhysicalDisk#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#type DataIntersightStoragePhysicalDisk#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#value DataIntersightStoragePhysicalDisk#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#value DataIntersightStoragePhysicalDisk#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#ancestor_definitions DataIntersightStoragePhysicalDisk#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#ancestor_definitions DataIntersightStoragePhysicalDisk#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePhysicalDiskTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#definition DataIntersightStoragePhysicalDisk#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#definition DataIntersightStoragePhysicalDisk#definition}
   */
   readonly definition?: DataIntersightStoragePhysicalDiskTagsDefinition;
 }
@@ -6655,7 +6655,7 @@ export class DataIntersightStoragePhysicalDiskTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightStoragePhysicalDiskVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6663,19 +6663,19 @@ export interface DataIntersightStoragePhysicalDiskVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6688,7 +6688,7 @@ export interface DataIntersightStoragePhysicalDiskVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -6920,7 +6920,7 @@ export class DataIntersightStoragePhysicalDiskVersionContextInterestedMosList ex
 }
 export interface DataIntersightStoragePhysicalDiskVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6928,19 +6928,19 @@ export interface DataIntersightStoragePhysicalDiskVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#moid DataIntersightStoragePhysicalDisk#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6953,7 +6953,7 @@ export interface DataIntersightStoragePhysicalDiskVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#selector DataIntersightStoragePhysicalDisk#selector}
   */
   readonly selector?: string;
 }
@@ -7153,7 +7153,7 @@ export class DataIntersightStoragePhysicalDiskVersionContextRefMoOutputReference
 }
 export interface DataIntersightStoragePhysicalDiskVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#additional_properties DataIntersightStoragePhysicalDisk#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7161,32 +7161,32 @@ export interface DataIntersightStoragePhysicalDiskVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#class_id DataIntersightStoragePhysicalDisk#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#marked_for_deletion DataIntersightStoragePhysicalDisk#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#marked_for_deletion DataIntersightStoragePhysicalDisk#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#nr_version DataIntersightStoragePhysicalDisk#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#nr_version DataIntersightStoragePhysicalDisk#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#object_type DataIntersightStoragePhysicalDisk#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#timestamp DataIntersightStoragePhysicalDisk#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#timestamp DataIntersightStoragePhysicalDisk#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7197,19 +7197,19 @@ export interface DataIntersightStoragePhysicalDiskVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#version_type DataIntersightStoragePhysicalDisk#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#version_type DataIntersightStoragePhysicalDisk#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#interested_mos DataIntersightStoragePhysicalDisk#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#interested_mos DataIntersightStoragePhysicalDisk#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePhysicalDiskVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#ref_mo DataIntersightStoragePhysicalDisk#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#ref_mo DataIntersightStoragePhysicalDisk#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePhysicalDiskVersionContextRefMo;
 }
@@ -7525,7 +7525,7 @@ export class DataIntersightStoragePhysicalDiskVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk intersight_storage_physical_disk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk intersight_storage_physical_disk}
 */
 export class DataIntersightStoragePhysicalDisk extends cdktf.TerraformDataSource {
 
@@ -7541,7 +7541,7 @@ export class DataIntersightStoragePhysicalDisk extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightStoragePhysicalDisk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePhysicalDisk to import
-  * @param importFromId The id of the existing DataIntersightStoragePhysicalDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePhysicalDisk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePhysicalDisk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7553,7 +7553,7 @@ export class DataIntersightStoragePhysicalDisk extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_physical_disk intersight_storage_physical_disk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_physical_disk intersight_storage_physical_disk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7564,8 +7564,8 @@ export class DataIntersightStoragePhysicalDisk extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_storage_physical_disk',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

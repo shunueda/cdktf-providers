@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightGraphicsCardConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#account_moid DataIntersightGraphicsCard#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#account_moid DataIntersightGraphicsCard#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The id of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#card_id DataIntersightGraphicsCard#card_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#card_id DataIntersightGraphicsCard#card_id}
   */
   readonly cardId?: number;
   /**
@@ -28,65 +28,65 @@ export interface DataIntersightGraphicsCardConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#create_time DataIntersightGraphicsCard#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#create_time DataIntersightGraphicsCard#create_time}
   */
   readonly createTime?: string;
   /**
   * This field displays the description of the Graphics Processing Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#description DataIntersightGraphicsCard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#description DataIntersightGraphicsCard#description}
   */
   readonly description?: string;
   /**
   * The device id of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#device_id DataIntersightGraphicsCard#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#device_id DataIntersightGraphicsCard#device_id}
   */
   readonly deviceId?: number;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#device_mo_id DataIntersightGraphicsCard#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#device_mo_id DataIntersightGraphicsCard#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#dn DataIntersightGraphicsCard#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#dn DataIntersightGraphicsCard#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#domain_group_moid DataIntersightGraphicsCard#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#domain_group_moid DataIntersightGraphicsCard#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The expander slot information of the card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#expander_slot DataIntersightGraphicsCard#expander_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#expander_slot DataIntersightGraphicsCard#expander_slot}
   */
   readonly expanderSlot?: string;
   /**
   * The firmware version of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#firmware_version DataIntersightGraphicsCard#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#firmware_version DataIntersightGraphicsCard#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
   * The identifier of the graphics processor unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#gpu_id DataIntersightGraphicsCard#gpu_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#gpu_id DataIntersightGraphicsCard#gpu_id}
   */
   readonly gpuId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#id DataIntersightGraphicsCard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#id DataIntersightGraphicsCard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,257 +95,257 @@ export interface DataIntersightGraphicsCardConfig extends cdktf.TerraformMetaArg
   /**
   * This field indicates whether the Graphics Processing Unit is supported on the server or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#is_platform_supported DataIntersightGraphicsCard#is_platform_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#is_platform_supported DataIntersightGraphicsCard#is_platform_supported}
   */
   readonly isPlatformSupported?: boolean | cdktf.IResolvable;
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#is_upgraded DataIntersightGraphicsCard#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#is_upgraded DataIntersightGraphicsCard#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#mod_time DataIntersightGraphicsCard#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#mod_time DataIntersightGraphicsCard#mod_time}
   */
   readonly modTime?: string;
   /**
   * The current mode of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#mode DataIntersightGraphicsCard#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#mode DataIntersightGraphicsCard#mode}
   */
   readonly mode?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#model DataIntersightGraphicsCard#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#model DataIntersightGraphicsCard#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The number of controllers under each card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#num_gpus DataIntersightGraphicsCard#num_gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#num_gpus DataIntersightGraphicsCard#num_gpus}
   */
   readonly numGpus?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#oper_reason DataIntersightGraphicsCard#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#oper_reason DataIntersightGraphicsCard#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * The current operational state of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#oper_state DataIntersightGraphicsCard#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#oper_state DataIntersightGraphicsCard#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#owners DataIntersightGraphicsCard#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#owners DataIntersightGraphicsCard#owners}
   */
   readonly owners?: string[];
   /**
   * This field displays the part number of the Graphics Processing Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#part_number DataIntersightGraphicsCard#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#part_number DataIntersightGraphicsCard#part_number}
   */
   readonly partNumber?: string;
   /**
   * The PCI address of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pci_address DataIntersightGraphicsCard#pci_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pci_address DataIntersightGraphicsCard#pci_address}
   */
   readonly pciAddress?: string;
   /**
   * This list contains the PCI address of all controllers for corresponding card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pci_address_list DataIntersightGraphicsCard#pci_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pci_address_list DataIntersightGraphicsCard#pci_address_list}
   */
   readonly pciAddressList?: string;
   /**
   * The PCI slot name of the graphics card.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pci_slot DataIntersightGraphicsCard#pci_slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pci_slot DataIntersightGraphicsCard#pci_slot}
   */
   readonly pciSlot?: string;
   /**
   * This field displays the product ID of the Graphics Processing Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pid DataIntersightGraphicsCard#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pid DataIntersightGraphicsCard#pid}
   */
   readonly pid?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#presence DataIntersightGraphicsCard#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#presence DataIntersightGraphicsCard#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#revision DataIntersightGraphicsCard#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#revision DataIntersightGraphicsCard#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#rn DataIntersightGraphicsCard#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#rn DataIntersightGraphicsCard#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#serial DataIntersightGraphicsCard#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#serial DataIntersightGraphicsCard#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#shared_scope DataIntersightGraphicsCard#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#shared_scope DataIntersightGraphicsCard#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The sub device id of the graphics processor unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#sub_device_id DataIntersightGraphicsCard#sub_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#sub_device_id DataIntersightGraphicsCard#sub_device_id}
   */
   readonly subDeviceId?: number;
   /**
   * The sub vendor id of the graphics processor unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#sub_vendor_id DataIntersightGraphicsCard#sub_vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#sub_vendor_id DataIntersightGraphicsCard#sub_vendor_id}
   */
   readonly subVendorId?: number;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#vendor DataIntersightGraphicsCard#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#vendor DataIntersightGraphicsCard#vendor}
   */
   readonly vendor?: string;
   /**
   * The vendor id of the graphics processor unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#vendor_id DataIntersightGraphicsCard#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#vendor_id DataIntersightGraphicsCard#vendor_id}
   */
   readonly vendorId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#ancestors DataIntersightGraphicsCard#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#ancestors DataIntersightGraphicsCard#ancestors}
   */
   readonly ancestors?: DataIntersightGraphicsCardAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#compute_blade DataIntersightGraphicsCard#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#compute_blade DataIntersightGraphicsCard#compute_blade}
   */
   readonly computeBlade?: DataIntersightGraphicsCardComputeBlade;
   /**
   * compute_board block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#compute_board DataIntersightGraphicsCard#compute_board}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#compute_board DataIntersightGraphicsCard#compute_board}
   */
   readonly computeBoard?: DataIntersightGraphicsCardComputeBoard;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#compute_rack_unit DataIntersightGraphicsCard#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#compute_rack_unit DataIntersightGraphicsCard#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightGraphicsCardComputeRackUnit;
   /**
   * equipment_enclosure_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#equipment_enclosure_element DataIntersightGraphicsCard#equipment_enclosure_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#equipment_enclosure_element DataIntersightGraphicsCard#equipment_enclosure_element}
   */
   readonly equipmentEnclosureElement?: DataIntersightGraphicsCardEquipmentEnclosureElement;
   /**
   * equipment_interconnect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#equipment_interconnect DataIntersightGraphicsCard#equipment_interconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#equipment_interconnect DataIntersightGraphicsCard#equipment_interconnect}
   */
   readonly equipmentInterconnect?: DataIntersightGraphicsCardEquipmentInterconnect;
   /**
   * equipment_shared_graphics_card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#equipment_shared_graphics_card DataIntersightGraphicsCard#equipment_shared_graphics_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#equipment_shared_graphics_card DataIntersightGraphicsCard#equipment_shared_graphics_card}
   */
   readonly equipmentSharedGraphicsCard?: DataIntersightGraphicsCardEquipmentSharedGraphicsCard;
   /**
   * graphics_controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#graphics_controllers DataIntersightGraphicsCard#graphics_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#graphics_controllers DataIntersightGraphicsCard#graphics_controllers}
   */
   readonly graphicsControllers?: DataIntersightGraphicsCardGraphicsControllers[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#inventory_device_info DataIntersightGraphicsCard#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#inventory_device_info DataIntersightGraphicsCard#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightGraphicsCardInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#parent DataIntersightGraphicsCard#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#parent DataIntersightGraphicsCard#parent}
   */
   readonly parent?: DataIntersightGraphicsCardParent;
   /**
   * pci_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pci_device DataIntersightGraphicsCard#pci_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pci_device DataIntersightGraphicsCard#pci_device}
   */
   readonly pciDevice?: DataIntersightGraphicsCardPciDevice;
   /**
   * pci_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#pci_node DataIntersightGraphicsCard#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#pci_node DataIntersightGraphicsCard#pci_node}
   */
   readonly pciNode?: DataIntersightGraphicsCardPciNode;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#permission_resources DataIntersightGraphicsCard#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#permission_resources DataIntersightGraphicsCard#permission_resources}
   */
   readonly permissionResources?: DataIntersightGraphicsCardPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#previous_fru DataIntersightGraphicsCard#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#previous_fru DataIntersightGraphicsCard#previous_fru}
   */
   readonly previousFru?: DataIntersightGraphicsCardPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#registered_device DataIntersightGraphicsCard#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#registered_device DataIntersightGraphicsCard#registered_device}
   */
   readonly registeredDevice?: DataIntersightGraphicsCardRegisteredDevice;
   /**
   * running_firmware block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#running_firmware DataIntersightGraphicsCard#running_firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#running_firmware DataIntersightGraphicsCard#running_firmware}
   */
   readonly runningFirmware?: DataIntersightGraphicsCardRunningFirmware[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#tags DataIntersightGraphicsCard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#tags DataIntersightGraphicsCard#tags}
   */
   readonly tags?: DataIntersightGraphicsCardTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#version_context DataIntersightGraphicsCard#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#version_context DataIntersightGraphicsCard#version_context}
   */
   readonly versionContext?: DataIntersightGraphicsCardVersionContext;
 }
@@ -2848,7 +2848,7 @@ export class DataIntersightGraphicsCardResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightGraphicsCardAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2856,19 +2856,19 @@ export interface DataIntersightGraphicsCardAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2881,7 +2881,7 @@ export interface DataIntersightGraphicsCardAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -3113,7 +3113,7 @@ export class DataIntersightGraphicsCardAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightGraphicsCardComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3121,19 +3121,19 @@ export interface DataIntersightGraphicsCardComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3146,7 +3146,7 @@ export interface DataIntersightGraphicsCardComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -3346,7 +3346,7 @@ export class DataIntersightGraphicsCardComputeBladeOutputReference extends cdktf
 }
 export interface DataIntersightGraphicsCardComputeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3354,19 +3354,19 @@ export interface DataIntersightGraphicsCardComputeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3379,7 +3379,7 @@ export interface DataIntersightGraphicsCardComputeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -3579,7 +3579,7 @@ export class DataIntersightGraphicsCardComputeBoardOutputReference extends cdktf
 }
 export interface DataIntersightGraphicsCardComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3587,19 +3587,19 @@ export interface DataIntersightGraphicsCardComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3612,7 +3612,7 @@ export interface DataIntersightGraphicsCardComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -3812,7 +3812,7 @@ export class DataIntersightGraphicsCardComputeRackUnitOutputReference extends cd
 }
 export interface DataIntersightGraphicsCardEquipmentEnclosureElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3820,19 +3820,19 @@ export interface DataIntersightGraphicsCardEquipmentEnclosureElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3845,7 +3845,7 @@ export interface DataIntersightGraphicsCardEquipmentEnclosureElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -4045,7 +4045,7 @@ export class DataIntersightGraphicsCardEquipmentEnclosureElementOutputReference 
 }
 export interface DataIntersightGraphicsCardEquipmentInterconnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4053,19 +4053,19 @@ export interface DataIntersightGraphicsCardEquipmentInterconnect {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4078,7 +4078,7 @@ export interface DataIntersightGraphicsCardEquipmentInterconnect {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -4278,7 +4278,7 @@ export class DataIntersightGraphicsCardEquipmentInterconnectOutputReference exte
 }
 export interface DataIntersightGraphicsCardEquipmentSharedGraphicsCard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4286,19 +4286,19 @@ export interface DataIntersightGraphicsCardEquipmentSharedGraphicsCard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4311,7 +4311,7 @@ export interface DataIntersightGraphicsCardEquipmentSharedGraphicsCard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -4511,7 +4511,7 @@ export class DataIntersightGraphicsCardEquipmentSharedGraphicsCardOutputReferenc
 }
 export interface DataIntersightGraphicsCardGraphicsControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4519,19 +4519,19 @@ export interface DataIntersightGraphicsCardGraphicsControllers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4544,7 +4544,7 @@ export interface DataIntersightGraphicsCardGraphicsControllers {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -4776,7 +4776,7 @@ export class DataIntersightGraphicsCardGraphicsControllersList extends cdktf.Com
 }
 export interface DataIntersightGraphicsCardInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4784,19 +4784,19 @@ export interface DataIntersightGraphicsCardInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4809,7 +4809,7 @@ export interface DataIntersightGraphicsCardInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -5009,7 +5009,7 @@ export class DataIntersightGraphicsCardInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightGraphicsCardParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5017,19 +5017,19 @@ export interface DataIntersightGraphicsCardParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5042,7 +5042,7 @@ export interface DataIntersightGraphicsCardParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -5242,7 +5242,7 @@ export class DataIntersightGraphicsCardParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightGraphicsCardPciDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5250,19 +5250,19 @@ export interface DataIntersightGraphicsCardPciDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5275,7 +5275,7 @@ export interface DataIntersightGraphicsCardPciDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -5475,7 +5475,7 @@ export class DataIntersightGraphicsCardPciDeviceOutputReference extends cdktf.Co
 }
 export interface DataIntersightGraphicsCardPciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5483,19 +5483,19 @@ export interface DataIntersightGraphicsCardPciNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5508,7 +5508,7 @@ export interface DataIntersightGraphicsCardPciNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -5708,7 +5708,7 @@ export class DataIntersightGraphicsCardPciNodeOutputReference extends cdktf.Comp
 }
 export interface DataIntersightGraphicsCardPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5716,19 +5716,19 @@ export interface DataIntersightGraphicsCardPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5741,7 +5741,7 @@ export interface DataIntersightGraphicsCardPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -5973,7 +5973,7 @@ export class DataIntersightGraphicsCardPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightGraphicsCardPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5981,19 +5981,19 @@ export interface DataIntersightGraphicsCardPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6006,7 +6006,7 @@ export interface DataIntersightGraphicsCardPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -6206,7 +6206,7 @@ export class DataIntersightGraphicsCardPreviousFruOutputReference extends cdktf.
 }
 export interface DataIntersightGraphicsCardRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6214,19 +6214,19 @@ export interface DataIntersightGraphicsCardRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6239,7 +6239,7 @@ export interface DataIntersightGraphicsCardRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -6439,7 +6439,7 @@ export class DataIntersightGraphicsCardRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightGraphicsCardRunningFirmware {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6447,19 +6447,19 @@ export interface DataIntersightGraphicsCardRunningFirmware {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6472,7 +6472,7 @@ export interface DataIntersightGraphicsCardRunningFirmware {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -6704,7 +6704,7 @@ export class DataIntersightGraphicsCardRunningFirmwareList extends cdktf.Complex
 }
 export interface DataIntersightGraphicsCardTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6712,19 +6712,19 @@ export interface DataIntersightGraphicsCardTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6737,7 +6737,7 @@ export interface DataIntersightGraphicsCardTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -6969,7 +6969,7 @@ export class DataIntersightGraphicsCardTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightGraphicsCardTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6977,19 +6977,19 @@ export interface DataIntersightGraphicsCardTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7002,7 +7002,7 @@ export interface DataIntersightGraphicsCardTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -7202,25 +7202,25 @@ export class DataIntersightGraphicsCardTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightGraphicsCardTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#key DataIntersightGraphicsCard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#key DataIntersightGraphicsCard#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#propagated DataIntersightGraphicsCard#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#propagated DataIntersightGraphicsCard#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#sys_tag DataIntersightGraphicsCard#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#sys_tag DataIntersightGraphicsCard#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -7228,25 +7228,25 @@ export interface DataIntersightGraphicsCardTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#type DataIntersightGraphicsCard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#type DataIntersightGraphicsCard#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#value DataIntersightGraphicsCard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#value DataIntersightGraphicsCard#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#ancestor_definitions DataIntersightGraphicsCard#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#ancestor_definitions DataIntersightGraphicsCard#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightGraphicsCardTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#definition DataIntersightGraphicsCard#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#definition DataIntersightGraphicsCard#definition}
   */
   readonly definition?: DataIntersightGraphicsCardTagsDefinition;
 }
@@ -7565,7 +7565,7 @@ export class DataIntersightGraphicsCardTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightGraphicsCardVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7573,19 +7573,19 @@ export interface DataIntersightGraphicsCardVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7598,7 +7598,7 @@ export interface DataIntersightGraphicsCardVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -7830,7 +7830,7 @@ export class DataIntersightGraphicsCardVersionContextInterestedMosList extends c
 }
 export interface DataIntersightGraphicsCardVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7838,19 +7838,19 @@ export interface DataIntersightGraphicsCardVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#moid DataIntersightGraphicsCard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7863,7 +7863,7 @@ export interface DataIntersightGraphicsCardVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#selector DataIntersightGraphicsCard#selector}
   */
   readonly selector?: string;
 }
@@ -8063,7 +8063,7 @@ export class DataIntersightGraphicsCardVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightGraphicsCardVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#additional_properties DataIntersightGraphicsCard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8071,32 +8071,32 @@ export interface DataIntersightGraphicsCardVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#class_id DataIntersightGraphicsCard#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#marked_for_deletion DataIntersightGraphicsCard#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#marked_for_deletion DataIntersightGraphicsCard#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#nr_version DataIntersightGraphicsCard#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#nr_version DataIntersightGraphicsCard#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#object_type DataIntersightGraphicsCard#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#timestamp DataIntersightGraphicsCard#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#timestamp DataIntersightGraphicsCard#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8107,19 +8107,19 @@ export interface DataIntersightGraphicsCardVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#version_type DataIntersightGraphicsCard#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#version_type DataIntersightGraphicsCard#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#interested_mos DataIntersightGraphicsCard#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#interested_mos DataIntersightGraphicsCard#interested_mos}
   */
   readonly interestedMos?: DataIntersightGraphicsCardVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#ref_mo DataIntersightGraphicsCard#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#ref_mo DataIntersightGraphicsCard#ref_mo}
   */
   readonly refMo?: DataIntersightGraphicsCardVersionContextRefMo;
 }
@@ -8435,7 +8435,7 @@ export class DataIntersightGraphicsCardVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card intersight_graphics_card}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card intersight_graphics_card}
 */
 export class DataIntersightGraphicsCard extends cdktf.TerraformDataSource {
 
@@ -8451,7 +8451,7 @@ export class DataIntersightGraphicsCard extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightGraphicsCard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightGraphicsCard to import
-  * @param importFromId The id of the existing DataIntersightGraphicsCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightGraphicsCard that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightGraphicsCard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8463,7 +8463,7 @@ export class DataIntersightGraphicsCard extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/graphics_card intersight_graphics_card} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/graphics_card intersight_graphics_card} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8474,8 +8474,8 @@ export class DataIntersightGraphicsCard extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_graphics_card',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

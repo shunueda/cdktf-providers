@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThousandeyesPermissionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission#id DataThousandeyesPermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission#id DataThousandeyesPermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThousandeyesPermissionConfig extends cdktf.TerraformMetaArg
   /**
   * Permission name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission#permission_name DataThousandeyesPermission#permission_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission#permission_name DataThousandeyesPermission#permission_name}
   */
   readonly permissionName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission thousandeyes_permission}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission thousandeyes_permission}
 */
 export class DataThousandeyesPermission extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataThousandeyesPermission extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThousandeyesPermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThousandeyesPermission to import
-  * @param importFromId The id of the existing DataThousandeyesPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThousandeyesPermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThousandeyesPermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataThousandeyesPermission extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/data-sources/permission thousandeyes_permission} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/data-sources/permission thousandeyes_permission} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataThousandeyesPermission extends cdktf.TerraformDataSource {
       terraformResourceType: 'thousandeyes_permission',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

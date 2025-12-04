@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface IamWorkloadIdentityOidcFederationConfig extends cdktf.Terraform
   /**
   * List of trusted values for aud claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#audiences IamWorkloadIdentityOidcFederation#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#audiences IamWorkloadIdentityOidcFederation#audiences}
   */
   readonly audiences?: string[];
   /**
   * Description of the service account. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#description IamWorkloadIdentityOidcFederation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#description IamWorkloadIdentityOidcFederation#description}
   */
   readonly description?: string;
   /**
   * True - the OIDC workload identity federation is disabled and cannot be used for authentication.
   *  False - the OIDC workload identity federation is enabled and can be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#disabled IamWorkloadIdentityOidcFederation#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#disabled IamWorkloadIdentityOidcFederation#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * ID of the OIDC workload identity federation to return.
   *  To get the OIDC workload identity federation ID, make a [FederationService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#federation_id IamWorkloadIdentityOidcFederation#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#federation_id IamWorkloadIdentityOidcFederation#federation_id}
   */
   readonly federationId?: string;
   /**
   * ID of the folder that the OIDC workload identity federation belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#folder_id IamWorkloadIdentityOidcFederation#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#folder_id IamWorkloadIdentityOidcFederation#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the OIDC workload identity federation to return.
   *  To get the OIDC workload identity federation ID, make a [FederationService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#id IamWorkloadIdentityOidcFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#id IamWorkloadIdentityOidcFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,32 +52,32 @@ export interface IamWorkloadIdentityOidcFederationConfig extends cdktf.Terraform
   /**
   * URL of the external IdP server to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#issuer IamWorkloadIdentityOidcFederation#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#issuer IamWorkloadIdentityOidcFederation#issuer}
   */
   readonly issuer: string;
   /**
   * URL reference to trusted keys in format of JSON Web Key Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#jwks_url IamWorkloadIdentityOidcFederation#jwks_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#jwks_url IamWorkloadIdentityOidcFederation#jwks_url}
   */
   readonly jwksUrl: string;
   /**
   * Resource labels as `` key:value `` pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#labels IamWorkloadIdentityOidcFederation#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#labels IamWorkloadIdentityOidcFederation#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the OIDC workload identity federation
   *  The name is unique within the folder. 3-63 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#name IamWorkloadIdentityOidcFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#name IamWorkloadIdentityOidcFederation#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#timeouts IamWorkloadIdentityOidcFederation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#timeouts IamWorkloadIdentityOidcFederation#timeouts}
   */
   readonly timeouts?: IamWorkloadIdentityOidcFederationTimeouts;
 }
@@ -85,25 +85,25 @@ export interface IamWorkloadIdentityOidcFederationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#create IamWorkloadIdentityOidcFederation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#create IamWorkloadIdentityOidcFederation#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#delete IamWorkloadIdentityOidcFederation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#delete IamWorkloadIdentityOidcFederation#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#read IamWorkloadIdentityOidcFederation#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#read IamWorkloadIdentityOidcFederation#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#update IamWorkloadIdentityOidcFederation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#update IamWorkloadIdentityOidcFederation#update}
   */
   readonly update?: string;
 }
@@ -284,7 +284,7 @@ export class IamWorkloadIdentityOidcFederationTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation yandex_iam_workload_identity_oidc_federation}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation yandex_iam_workload_identity_oidc_federation}
 */
 export class IamWorkloadIdentityOidcFederation extends cdktf.TerraformResource {
 
@@ -300,7 +300,7 @@ export class IamWorkloadIdentityOidcFederation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamWorkloadIdentityOidcFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamWorkloadIdentityOidcFederation to import
-  * @param importFromId The id of the existing IamWorkloadIdentityOidcFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamWorkloadIdentityOidcFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamWorkloadIdentityOidcFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class IamWorkloadIdentityOidcFederation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/iam_workload_identity_oidc_federation yandex_iam_workload_identity_oidc_federation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/iam_workload_identity_oidc_federation yandex_iam_workload_identity_oidc_federation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class IamWorkloadIdentityOidcFederation extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_workload_identity_oidc_federation',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

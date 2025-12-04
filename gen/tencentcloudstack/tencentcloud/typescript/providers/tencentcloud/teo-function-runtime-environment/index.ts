@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoFunctionRuntimeEnvironmentConfig extends cdktf.TerraformMeta
   /**
   * ID of the Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#function_id TeoFunctionRuntimeEnvironment#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#function_id TeoFunctionRuntimeEnvironment#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#id TeoFunctionRuntimeEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#id TeoFunctionRuntimeEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface TeoFunctionRuntimeEnvironmentConfig extends cdktf.TerraformMeta
   /**
   * ID of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#zone_id TeoFunctionRuntimeEnvironment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#zone_id TeoFunctionRuntimeEnvironment#zone_id}
   */
   readonly zoneId: string;
   /**
   * environment_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#environment_variables TeoFunctionRuntimeEnvironment#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#environment_variables TeoFunctionRuntimeEnvironment#environment_variables}
   */
   readonly environmentVariables: TeoFunctionRuntimeEnvironmentEnvironmentVariables[] | cdktf.IResolvable;
 }
@@ -37,19 +37,19 @@ export interface TeoFunctionRuntimeEnvironmentEnvironmentVariables {
   /**
   * The name of the variable, which is limited to alphanumeric characters and the special characters `@`, `.`, `-`, and `_`. It can have a maximum of 64 bytes and should not be duplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#key TeoFunctionRuntimeEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#key TeoFunctionRuntimeEnvironment#key}
   */
   readonly key: string;
   /**
   * The type of the variable can have the following values:  - `string`: Represents a string type.  - `json`: Represents a JSON object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#type TeoFunctionRuntimeEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#type TeoFunctionRuntimeEnvironment#type}
   */
   readonly type: string;
   /**
   * The value of the variable, which is limited to a maximum of 5000 bytes. The default value is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#value TeoFunctionRuntimeEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#value TeoFunctionRuntimeEnvironment#value}
   */
   readonly value: string;
 }
@@ -214,7 +214,7 @@ export class TeoFunctionRuntimeEnvironmentEnvironmentVariablesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment tencentcloud_teo_function_runtime_environment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment tencentcloud_teo_function_runtime_environment}
 */
 export class TeoFunctionRuntimeEnvironment extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class TeoFunctionRuntimeEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoFunctionRuntimeEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoFunctionRuntimeEnvironment to import
-  * @param importFromId The id of the existing TeoFunctionRuntimeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoFunctionRuntimeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoFunctionRuntimeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class TeoFunctionRuntimeEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_function_runtime_environment tencentcloud_teo_function_runtime_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_function_runtime_environment tencentcloud_teo_function_runtime_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class TeoFunctionRuntimeEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_function_runtime_environment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

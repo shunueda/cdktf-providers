@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#account_moid DataIntersightNiatelemetryApicDbgexpRsExportDest#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#account_moid DataIntersightNiatelemetryApicDbgexpRsExportDest#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#create_time DataIntersightNiatelemetryApicDbgexpRsExportDest#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#create_time DataIntersightNiatelemetryApicDbgexpRsExportDest#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the Rs export dest in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#dn DataIntersightNiatelemetryApicDbgexpRsExportDest#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#dn DataIntersightNiatelemetryApicDbgexpRsExportDest#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#domain_group_moid DataIntersightNiatelemetryApicDbgexpRsExportDest#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#domain_group_moid DataIntersightNiatelemetryApicDbgexpRsExportDest#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#id DataIntersightNiatelemetryApicDbgexpRsExportDest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#id DataIntersightNiatelemetryApicDbgexpRsExportDest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestConfig extends 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#mod_time DataIntersightNiatelemetryApicDbgexpRsExportDest#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#mod_time DataIntersightNiatelemetryApicDbgexpRsExportDest#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#owners DataIntersightNiatelemetryApicDbgexpRsExportDest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#owners DataIntersightNiatelemetryApicDbgexpRsExportDest#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#record_type DataIntersightNiatelemetryApicDbgexpRsExportDest#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#record_type DataIntersightNiatelemetryApicDbgexpRsExportDest#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#record_version DataIntersightNiatelemetryApicDbgexpRsExportDest#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#record_version DataIntersightNiatelemetryApicDbgexpRsExportDest#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#shared_scope DataIntersightNiatelemetryApicDbgexpRsExportDest#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#shared_scope DataIntersightNiatelemetryApicDbgexpRsExportDest#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#site_name DataIntersightNiatelemetryApicDbgexpRsExportDest#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#site_name DataIntersightNiatelemetryApicDbgexpRsExportDest#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ancestors DataIntersightNiatelemetryApicDbgexpRsExportDest#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ancestors DataIntersightNiatelemetryApicDbgexpRsExportDest#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryApicDbgexpRsExportDestAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#parent DataIntersightNiatelemetryApicDbgexpRsExportDest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#parent DataIntersightNiatelemetryApicDbgexpRsExportDest#parent}
   */
   readonly parent?: DataIntersightNiatelemetryApicDbgexpRsExportDestParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#permission_resources DataIntersightNiatelemetryApicDbgexpRsExportDest#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#permission_resources DataIntersightNiatelemetryApicDbgexpRsExportDest#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryApicDbgexpRsExportDestPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#registered_device DataIntersightNiatelemetryApicDbgexpRsExportDest#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#registered_device DataIntersightNiatelemetryApicDbgexpRsExportDest#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryApicDbgexpRsExportDestRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#tags DataIntersightNiatelemetryApicDbgexpRsExportDest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#tags DataIntersightNiatelemetryApicDbgexpRsExportDest#tags}
   */
   readonly tags?: DataIntersightNiatelemetryApicDbgexpRsExportDestTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#version_context DataIntersightNiatelemetryApicDbgexpRsExportDest#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#version_context DataIntersightNiatelemetryApicDbgexpRsExportDest#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContext;
 }
@@ -1302,7 +1302,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestResultsList extends
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1310,19 +1310,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1335,7 +1335,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -1567,7 +1567,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestAncestorsList exten
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1575,19 +1575,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1600,7 +1600,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -1800,7 +1800,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestParentOutputReferen
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1808,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1833,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -2065,7 +2065,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestPermissionResources
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2073,19 +2073,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestRegisteredDevic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2098,7 +2098,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestRegisteredDevic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2298,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestRegisteredDeviceOut
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2306,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2331,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -2563,7 +2563,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestTagsAncestorDefinit
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2571,19 +2571,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2596,7 +2596,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -2796,25 +2796,25 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestTagsDefinitionOutpu
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#key DataIntersightNiatelemetryApicDbgexpRsExportDest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#key DataIntersightNiatelemetryApicDbgexpRsExportDest#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#propagated DataIntersightNiatelemetryApicDbgexpRsExportDest#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#propagated DataIntersightNiatelemetryApicDbgexpRsExportDest#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#sys_tag DataIntersightNiatelemetryApicDbgexpRsExportDest#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#sys_tag DataIntersightNiatelemetryApicDbgexpRsExportDest#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2822,25 +2822,25 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#type DataIntersightNiatelemetryApicDbgexpRsExportDest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#type DataIntersightNiatelemetryApicDbgexpRsExportDest#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#value DataIntersightNiatelemetryApicDbgexpRsExportDest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#value DataIntersightNiatelemetryApicDbgexpRsExportDest#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ancestor_definitions DataIntersightNiatelemetryApicDbgexpRsExportDest#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ancestor_definitions DataIntersightNiatelemetryApicDbgexpRsExportDest#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryApicDbgexpRsExportDestTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#definition DataIntersightNiatelemetryApicDbgexpRsExportDest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#definition DataIntersightNiatelemetryApicDbgexpRsExportDest#definition}
   */
   readonly definition?: DataIntersightNiatelemetryApicDbgexpRsExportDestTagsDefinition;
 }
@@ -3159,7 +3159,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestTagsList extends cd
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3167,19 +3167,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3192,7 +3192,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -3424,7 +3424,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextInter
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3432,19 +3432,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#moid DataIntersightNiatelemetryApicDbgexpRsExportDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3457,7 +3457,7 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#selector DataIntersightNiatelemetryApicDbgexpRsExportDest#selector}
   */
   readonly selector?: string;
 }
@@ -3657,7 +3657,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextRefMo
 }
 export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#additional_properties DataIntersightNiatelemetryApicDbgexpRsExportDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3665,32 +3665,32 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#class_id DataIntersightNiatelemetryApicDbgexpRsExportDest#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#marked_for_deletion DataIntersightNiatelemetryApicDbgexpRsExportDest#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#marked_for_deletion DataIntersightNiatelemetryApicDbgexpRsExportDest#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#nr_version DataIntersightNiatelemetryApicDbgexpRsExportDest#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#nr_version DataIntersightNiatelemetryApicDbgexpRsExportDest#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#object_type DataIntersightNiatelemetryApicDbgexpRsExportDest#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#timestamp DataIntersightNiatelemetryApicDbgexpRsExportDest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#timestamp DataIntersightNiatelemetryApicDbgexpRsExportDest#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3701,19 +3701,19 @@ export interface DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#version_type DataIntersightNiatelemetryApicDbgexpRsExportDest#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#version_type DataIntersightNiatelemetryApicDbgexpRsExportDest#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#interested_mos DataIntersightNiatelemetryApicDbgexpRsExportDest#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#interested_mos DataIntersightNiatelemetryApicDbgexpRsExportDest#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ref_mo DataIntersightNiatelemetryApicDbgexpRsExportDest#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#ref_mo DataIntersightNiatelemetryApicDbgexpRsExportDest#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextRefMo;
 }
@@ -4029,7 +4029,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDestVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest intersight_niatelemetry_apic_dbgexp_rs_export_dest}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest intersight_niatelemetry_apic_dbgexp_rs_export_dest}
 */
 export class DataIntersightNiatelemetryApicDbgexpRsExportDest extends cdktf.TerraformDataSource {
 
@@ -4045,7 +4045,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDest extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightNiatelemetryApicDbgexpRsExportDest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryApicDbgexpRsExportDest to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryApicDbgexpRsExportDest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryApicDbgexpRsExportDest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryApicDbgexpRsExportDest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4057,7 +4057,7 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest intersight_niatelemetry_apic_dbgexp_rs_export_dest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_dbgexp_rs_export_dest intersight_niatelemetry_apic_dbgexp_rs_export_dest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4068,8 +4068,8 @@ export class DataIntersightNiatelemetryApicDbgexpRsExportDest extends cdktf.Terr
       terraformResourceType: 'intersight_niatelemetry_apic_dbgexp_rs_export_dest',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

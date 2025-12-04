@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,34 +10,34 @@ export interface HyperflexNodeProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#account_moid HyperflexNodeProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#account_moid HyperflexNodeProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#action HyperflexNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#action HyperflexNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#action_params HyperflexNodeProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#action_params HyperflexNodeProfile#action_params}
   */
   readonly actionParams?: HyperflexNodeProfileActionParams[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#ancestors HyperflexNodeProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#ancestors HyperflexNodeProfile#ancestors}
   */
   readonly ancestors?: HyperflexNodeProfileAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a computePhysical resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#assigned_server HyperflexNodeProfile#assigned_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#assigned_server HyperflexNodeProfile#assigned_server}
   */
   readonly assignedServer?: HyperflexNodeProfileAssignedServer[] | cdktf.IResolvable;
   /**
@@ -45,82 +45,82 @@ export interface HyperflexNodeProfileConfig extends cdktf.TerraformMetaArguments
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a hyperflexClusterProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#cluster_profile HyperflexNodeProfile#cluster_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#cluster_profile HyperflexNodeProfile#cluster_profile}
   */
   readonly clusterProfile?: HyperflexNodeProfileClusterProfile[] | cdktf.IResolvable;
   /**
   * The configuration state and results of the last configuration operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#config_context HyperflexNodeProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_context HyperflexNodeProfile#config_context}
   */
   readonly configContext?: HyperflexNodeProfileConfigContext[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#create_time HyperflexNodeProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#create_time HyperflexNodeProfile#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#deployed_policies HyperflexNodeProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#deployed_policies HyperflexNodeProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#description HyperflexNodeProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#description HyperflexNodeProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#domain_group_moid HyperflexNodeProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#domain_group_moid HyperflexNodeProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * IP address for storage data network (Controller VM interface).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hxdp_data_ip HyperflexNodeProfile#hxdp_data_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hxdp_data_ip HyperflexNodeProfile#hxdp_data_ip}
   */
   readonly hxdpDataIp?: string;
   /**
   * IP address for HyperFlex management network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hxdp_mgmt_ip HyperflexNodeProfile#hxdp_mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hxdp_mgmt_ip HyperflexNodeProfile#hxdp_mgmt_ip}
   */
   readonly hxdpMgmtIp?: string;
   /**
   * IP address for storage client network (Controller VM interface).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hxdp_storage_client_ip HyperflexNodeProfile#hxdp_storage_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hxdp_storage_client_ip HyperflexNodeProfile#hxdp_storage_client_ip}
   */
   readonly hxdpStorageClientIp?: string;
   /**
   * IP address for hypervisor control such as VM migration or pod management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hypervisor_control_ip HyperflexNodeProfile#hypervisor_control_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hypervisor_control_ip HyperflexNodeProfile#hypervisor_control_ip}
   */
   readonly hypervisorControlIp?: string;
   /**
   * IP address for storage data network (Hypervisor interface).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hypervisor_data_ip HyperflexNodeProfile#hypervisor_data_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hypervisor_data_ip HyperflexNodeProfile#hypervisor_data_ip}
   */
   readonly hypervisorDataIp?: string;
   /**
   * IP address for Hypervisor management network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#hypervisor_mgmt_ip HyperflexNodeProfile#hypervisor_mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#hypervisor_mgmt_ip HyperflexNodeProfile#hypervisor_mgmt_ip}
   */
   readonly hypervisorMgmtIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#id HyperflexNodeProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#id HyperflexNodeProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,26 +129,26 @@ export interface HyperflexNodeProfileConfig extends cdktf.TerraformMetaArguments
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#mod_time HyperflexNodeProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#mod_time HyperflexNodeProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#name HyperflexNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#name HyperflexNodeProfile#name}
   */
   readonly name?: string;
   /**
   * A reference to a hyperflexNode resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#node HyperflexNodeProfile#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#node HyperflexNodeProfile#node}
   */
   readonly nodeAttribute?: HyperflexNodeProfileNode[] | cdktf.IResolvable;
   /**
@@ -157,98 +157,106 @@ export interface HyperflexNodeProfileConfig extends cdktf.TerraformMetaArguments
   * * `Storage` - The node persists data and contributes to the storage capacity of a cluster.
   * * `Compute` - The node contributes to the compute capacity of a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#node_role HyperflexNodeProfile#node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#node_role HyperflexNodeProfile#node_role}
   */
   readonly nodeRole?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#owners HyperflexNodeProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#owners HyperflexNodeProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#parent HyperflexNodeProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#parent HyperflexNodeProfile#parent}
   */
   readonly parent?: HyperflexNodeProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#permission_resources HyperflexNodeProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#permission_resources HyperflexNodeProfile#permission_resources}
   */
   readonly permissionResources?: HyperflexNodeProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#policy_bucket HyperflexNodeProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#policy_bucket HyperflexNodeProfile#policy_bucket}
   */
   readonly policyBucket?: HyperflexNodeProfilePolicyBucket[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#removed_policies HyperflexNodeProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#policy_change_details HyperflexNodeProfile#policy_change_details}
+  */
+  readonly policyChangeDetails?: HyperflexNodeProfilePolicyChangeDetails[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#removed_policies HyperflexNodeProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#scheduled_actions HyperflexNodeProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#reported_policy_changes HyperflexNodeProfile#reported_policy_changes}
+  */
+  readonly reportedPolicyChanges?: HyperflexNodeProfileReportedPolicyChanges[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#scheduled_actions HyperflexNodeProfile#scheduled_actions}
   */
   readonly scheduledActions?: HyperflexNodeProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#shared_scope HyperflexNodeProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#shared_scope HyperflexNodeProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#src_template HyperflexNodeProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#src_template HyperflexNodeProfile#src_template}
   */
   readonly srcTemplate?: HyperflexNodeProfileSrcTemplate[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#tags HyperflexNodeProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#tags HyperflexNodeProfile#tags}
   */
   readonly tags?: HyperflexNodeProfileTags[] | cdktf.IResolvable;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#type HyperflexNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#type HyperflexNodeProfile#type}
   */
   readonly type?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#version_context HyperflexNodeProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#version_context HyperflexNodeProfile#version_context}
   */
   readonly versionContext?: HyperflexNodeProfileVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexNodeProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#name HyperflexNodeProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#name HyperflexNodeProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#value HyperflexNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#value HyperflexNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -480,23 +488,23 @@ export class HyperflexNodeProfileActionParamsList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -728,23 +736,23 @@ export class HyperflexNodeProfileAncestorsList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileAssignedServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -976,23 +984,23 @@ export class HyperflexNodeProfileAssignedServerList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileClusterProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1224,43 +1232,43 @@ export class HyperflexNodeProfileClusterProfileList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#config_state HyperflexNodeProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_state HyperflexNodeProfile#config_state}
   */
   readonly configState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#config_state_summary HyperflexNodeProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_state_summary HyperflexNodeProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#config_type HyperflexNodeProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_type HyperflexNodeProfile#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#control_action HyperflexNodeProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#control_action HyperflexNodeProfile#control_action}
   */
   readonly controlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#error_state HyperflexNodeProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#error_state HyperflexNodeProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#inconsistency_reason HyperflexNodeProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#inconsistency_reason HyperflexNodeProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#oper_state HyperflexNodeProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#oper_state HyperflexNodeProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -1637,23 +1645,23 @@ export class HyperflexNodeProfileConfigContextList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1885,23 +1893,23 @@ export class HyperflexNodeProfileNodeList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2133,23 +2141,23 @@ export class HyperflexNodeProfileParentList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2381,23 +2389,23 @@ export class HyperflexNodeProfilePermissionResourcesList extends cdktf.ComplexLi
 }
 export interface HyperflexNodeProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2627,17 +2635,1124 @@ export class HyperflexNodeProfilePolicyBucketList extends cdktf.ComplexList {
     return new HyperflexNodeProfilePolicyBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface HyperflexNodeProfileScheduledActionsActionQualifier {
+export interface HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#dependent_policy_list HyperflexNodeProfile#dependent_policy_list}
+  */
+  readonly dependentPolicyList?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#entity_data HyperflexNodeProfile#entity_data}
+  */
+  readonly entityData?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#entity_moid HyperflexNodeProfile#entity_moid}
+  */
+  readonly entityMoid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#entity_name HyperflexNodeProfile#entity_name}
+  */
+  readonly entityName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#entity_type HyperflexNodeProfile#entity_type}
+  */
+  readonly entityType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#parent_moid HyperflexNodeProfile#parent_moid}
+  */
+  readonly parentMoid?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#parent_policy_object_type HyperflexNodeProfile#parent_policy_object_type}
+  */
+  readonly parentPolicyObjectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#parent_type HyperflexNodeProfile#parent_type}
+  */
+  readonly parentType?: string;
+}
+
+export function hyperflexNodeProfilePolicyChangeDetailsConfigChangeContextToTerraform(struct?: HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    dependent_policy_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dependentPolicyList),
+    entity_data: cdktf.stringToTerraform(struct!.entityData),
+    entity_moid: cdktf.stringToTerraform(struct!.entityMoid),
+    entity_name: cdktf.stringToTerraform(struct!.entityName),
+    entity_type: cdktf.stringToTerraform(struct!.entityType),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    parent_moid: cdktf.stringToTerraform(struct!.parentMoid),
+    parent_policy_object_type: cdktf.stringToTerraform(struct!.parentPolicyObjectType),
+    parent_type: cdktf.stringToTerraform(struct!.parentType),
+  }
+}
+
+
+export function hyperflexNodeProfilePolicyChangeDetailsConfigChangeContextToHclTerraform(struct?: HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dependent_policy_list: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dependentPolicyList),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    entity_data: {
+      value: cdktf.stringToHclTerraform(struct!.entityData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_moid: {
+      value: cdktf.stringToHclTerraform(struct!.entityMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_name: {
+      value: cdktf.stringToHclTerraform(struct!.entityName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_type: {
+      value: cdktf.stringToHclTerraform(struct!.entityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_moid: {
+      value: cdktf.stringToHclTerraform(struct!.parentMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_policy_object_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentPolicyObjectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._dependentPolicyList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dependentPolicyList = this._dependentPolicyList;
+    }
+    if (this._entityData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityData = this._entityData;
+    }
+    if (this._entityMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityMoid = this._entityMoid;
+    }
+    if (this._entityName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityName = this._entityName;
+    }
+    if (this._entityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityType = this._entityType;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._parentMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentMoid = this._parentMoid;
+    }
+    if (this._parentPolicyObjectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentPolicyObjectType = this._parentPolicyObjectType;
+    }
+    if (this._parentType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentType = this._parentType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._dependentPolicyList = undefined;
+      this._entityData = undefined;
+      this._entityMoid = undefined;
+      this._entityName = undefined;
+      this._entityType = undefined;
+      this._objectType = undefined;
+      this._parentMoid = undefined;
+      this._parentPolicyObjectType = undefined;
+      this._parentType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._dependentPolicyList = value.dependentPolicyList;
+      this._entityData = value.entityData;
+      this._entityMoid = value.entityMoid;
+      this._entityName = value.entityName;
+      this._entityType = value.entityType;
+      this._objectType = value.objectType;
+      this._parentMoid = value.parentMoid;
+      this._parentPolicyObjectType = value.parentPolicyObjectType;
+      this._parentType = value.parentType;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // dependent_policy_list - computed: true, optional: true, required: false
+  private _dependentPolicyList?: string[]; 
+  public get dependentPolicyList() {
+    return this.getListAttribute('dependent_policy_list');
+  }
+  public set dependentPolicyList(value: string[]) {
+    this._dependentPolicyList = value;
+  }
+  public resetDependentPolicyList() {
+    this._dependentPolicyList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dependentPolicyListInput() {
+    return this._dependentPolicyList;
+  }
+
+  // entity_data - computed: true, optional: true, required: false
+  private _entityData?: string; 
+  public get entityData() {
+    return this.getStringAttribute('entity_data');
+  }
+  public set entityData(value: string) {
+    this._entityData = value;
+  }
+  public resetEntityData() {
+    this._entityData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityDataInput() {
+    return this._entityData;
+  }
+
+  // entity_moid - computed: true, optional: true, required: false
+  private _entityMoid?: string; 
+  public get entityMoid() {
+    return this.getStringAttribute('entity_moid');
+  }
+  public set entityMoid(value: string) {
+    this._entityMoid = value;
+  }
+  public resetEntityMoid() {
+    this._entityMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityMoidInput() {
+    return this._entityMoid;
+  }
+
+  // entity_name - computed: true, optional: true, required: false
+  private _entityName?: string; 
+  public get entityName() {
+    return this.getStringAttribute('entity_name');
+  }
+  public set entityName(value: string) {
+    this._entityName = value;
+  }
+  public resetEntityName() {
+    this._entityName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityNameInput() {
+    return this._entityName;
+  }
+
+  // entity_type - computed: true, optional: true, required: false
+  private _entityType?: string; 
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+  public set entityType(value: string) {
+    this._entityType = value;
+  }
+  public resetEntityType() {
+    this._entityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityTypeInput() {
+    return this._entityType;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // parent_moid - computed: true, optional: true, required: false
+  private _parentMoid?: string; 
+  public get parentMoid() {
+    return this.getStringAttribute('parent_moid');
+  }
+  public set parentMoid(value: string) {
+    this._parentMoid = value;
+  }
+  public resetParentMoid() {
+    this._parentMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentMoidInput() {
+    return this._parentMoid;
+  }
+
+  // parent_policy_object_type - computed: true, optional: true, required: false
+  private _parentPolicyObjectType?: string; 
+  public get parentPolicyObjectType() {
+    return this.getStringAttribute('parent_policy_object_type');
+  }
+  public set parentPolicyObjectType(value: string) {
+    this._parentPolicyObjectType = value;
+  }
+  public resetParentPolicyObjectType() {
+    this._parentPolicyObjectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentPolicyObjectTypeInput() {
+    return this._parentPolicyObjectType;
+  }
+
+  // parent_type - computed: true, optional: true, required: false
+  private _parentType?: string; 
+  public get parentType() {
+    return this.getStringAttribute('parent_type');
+  }
+  public set parentType(value: string) {
+    this._parentType = value;
+  }
+  public resetParentType() {
+    this._parentType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentTypeInput() {
+    return this._parentType;
+  }
+}
+
+export class HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextList extends cdktf.ComplexList {
+  public internalValue? : HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextOutputReference {
+    return new HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface HyperflexNodeProfilePolicyChangeDetails {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#changes HyperflexNodeProfile#changes}
+  */
+  readonly changes?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_change_context HyperflexNodeProfile#config_change_context}
+  */
+  readonly configChangeContext?: HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#config_change_flag HyperflexNodeProfile#config_change_flag}
+  */
+  readonly configChangeFlag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#disruptions HyperflexNodeProfile#disruptions}
+  */
+  readonly disruptions?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#message HyperflexNodeProfile#message}
+  */
+  readonly message?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#mod_status HyperflexNodeProfile#mod_status}
+  */
+  readonly modStatus?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  */
+  readonly objectType?: string;
+}
+
+export function hyperflexNodeProfilePolicyChangeDetailsToTerraform(struct?: HyperflexNodeProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    changes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.changes),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    config_change_context: cdktf.listMapper(hyperflexNodeProfilePolicyChangeDetailsConfigChangeContextToTerraform, false)(struct!.configChangeContext),
+    config_change_flag: cdktf.stringToTerraform(struct!.configChangeFlag),
+    disruptions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.disruptions),
+    message: cdktf.stringToTerraform(struct!.message),
+    mod_status: cdktf.stringToTerraform(struct!.modStatus),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+  }
+}
+
+
+export function hyperflexNodeProfilePolicyChangeDetailsToHclTerraform(struct?: HyperflexNodeProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    changes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.changes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config_change_context: {
+      value: cdktf.listMapperHcl(hyperflexNodeProfilePolicyChangeDetailsConfigChangeContextToHclTerraform, false)(struct!.configChangeContext),
+      isBlock: true,
+      type: "list",
+      storageClassType: "HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextList",
+    },
+    config_change_flag: {
+      value: cdktf.stringToHclTerraform(struct!.configChangeFlag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disruptions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.disruptions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    message: {
+      value: cdktf.stringToHclTerraform(struct!.message),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mod_status: {
+      value: cdktf.stringToHclTerraform(struct!.modStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class HyperflexNodeProfilePolicyChangeDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): HyperflexNodeProfilePolicyChangeDetails | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changes = this._changes;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._configChangeContext?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeContext = this._configChangeContext?.internalValue;
+    }
+    if (this._configChangeFlag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeFlag = this._configChangeFlag;
+    }
+    if (this._disruptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disruptions = this._disruptions;
+    }
+    if (this._message !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.message = this._message;
+    }
+    if (this._modStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.modStatus = this._modStatus;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: HyperflexNodeProfilePolicyChangeDetails | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changes = undefined;
+      this._classId = undefined;
+      this._configChangeContext.internalValue = undefined;
+      this._configChangeFlag = undefined;
+      this._disruptions = undefined;
+      this._message = undefined;
+      this._modStatus = undefined;
+      this._objectType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changes = value.changes;
+      this._classId = value.classId;
+      this._configChangeContext.internalValue = value.configChangeContext;
+      this._configChangeFlag = value.configChangeFlag;
+      this._disruptions = value.disruptions;
+      this._message = value.message;
+      this._modStatus = value.modStatus;
+      this._objectType = value.objectType;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // changes - computed: true, optional: true, required: false
+  private _changes?: string[]; 
+  public get changes() {
+    return this.getListAttribute('changes');
+  }
+  public set changes(value: string[]) {
+    this._changes = value;
+  }
+  public resetChanges() {
+    this._changes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changesInput() {
+    return this._changes;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // config_change_context - computed: true, optional: true, required: false
+  private _configChangeContext = new HyperflexNodeProfilePolicyChangeDetailsConfigChangeContextList(this, "config_change_context", false);
+  public get configChangeContext() {
+    return this._configChangeContext;
+  }
+  public putConfigChangeContext(value: HyperflexNodeProfilePolicyChangeDetailsConfigChangeContext[] | cdktf.IResolvable) {
+    this._configChangeContext.internalValue = value;
+  }
+  public resetConfigChangeContext() {
+    this._configChangeContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeContextInput() {
+    return this._configChangeContext.internalValue;
+  }
+
+  // config_change_flag - computed: true, optional: true, required: false
+  private _configChangeFlag?: string; 
+  public get configChangeFlag() {
+    return this.getStringAttribute('config_change_flag');
+  }
+  public set configChangeFlag(value: string) {
+    this._configChangeFlag = value;
+  }
+  public resetConfigChangeFlag() {
+    this._configChangeFlag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeFlagInput() {
+    return this._configChangeFlag;
+  }
+
+  // disruptions - computed: true, optional: true, required: false
+  private _disruptions?: string[]; 
+  public get disruptions() {
+    return this.getListAttribute('disruptions');
+  }
+  public set disruptions(value: string[]) {
+    this._disruptions = value;
+  }
+  public resetDisruptions() {
+    this._disruptions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disruptionsInput() {
+    return this._disruptions;
+  }
+
+  // message - computed: true, optional: true, required: false
+  private _message?: string; 
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+  public set message(value: string) {
+    this._message = value;
+  }
+  public resetMessage() {
+    this._message = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageInput() {
+    return this._message;
+  }
+
+  // mod_status - computed: true, optional: true, required: false
+  private _modStatus?: string; 
+  public get modStatus() {
+    return this.getStringAttribute('mod_status');
+  }
+  public set modStatus(value: string) {
+    this._modStatus = value;
+  }
+  public resetModStatus() {
+    this._modStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modStatusInput() {
+    return this._modStatus;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+}
+
+export class HyperflexNodeProfilePolicyChangeDetailsList extends cdktf.ComplexList {
+  public internalValue? : HyperflexNodeProfilePolicyChangeDetails[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): HyperflexNodeProfilePolicyChangeDetailsOutputReference {
+    return new HyperflexNodeProfilePolicyChangeDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface HyperflexNodeProfileReportedPolicyChanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#change_id HyperflexNodeProfile#change_id}
+  */
+  readonly changeId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#change_status HyperflexNodeProfile#change_status}
+  */
+  readonly changeStatus?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#policy_type HyperflexNodeProfile#policy_type}
+  */
+  readonly policyType?: string;
+}
+
+export function hyperflexNodeProfileReportedPolicyChangesToTerraform(struct?: HyperflexNodeProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    change_id: cdktf.stringToTerraform(struct!.changeId),
+    change_status: cdktf.stringToTerraform(struct!.changeStatus),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    policy_type: cdktf.stringToTerraform(struct!.policyType),
+  }
+}
+
+
+export function hyperflexNodeProfileReportedPolicyChangesToHclTerraform(struct?: HyperflexNodeProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_id: {
+      value: cdktf.stringToHclTerraform(struct!.changeId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_status: {
+      value: cdktf.stringToHclTerraform(struct!.changeStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    policy_type: {
+      value: cdktf.stringToHclTerraform(struct!.policyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class HyperflexNodeProfileReportedPolicyChangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): HyperflexNodeProfileReportedPolicyChanges | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changeId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeId = this._changeId;
+    }
+    if (this._changeStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeStatus = this._changeStatus;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._policyType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyType = this._policyType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: HyperflexNodeProfileReportedPolicyChanges | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changeId = undefined;
+      this._changeStatus = undefined;
+      this._classId = undefined;
+      this._objectType = undefined;
+      this._policyType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changeId = value.changeId;
+      this._changeStatus = value.changeStatus;
+      this._classId = value.classId;
+      this._objectType = value.objectType;
+      this._policyType = value.policyType;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // change_id - computed: true, optional: true, required: false
+  private _changeId?: string; 
+  public get changeId() {
+    return this.getStringAttribute('change_id');
+  }
+  public set changeId(value: string) {
+    this._changeId = value;
+  }
+  public resetChangeId() {
+    this._changeId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeIdInput() {
+    return this._changeId;
+  }
+
+  // change_status - computed: true, optional: true, required: false
+  private _changeStatus?: string; 
+  public get changeStatus() {
+    return this.getStringAttribute('change_status');
+  }
+  public set changeStatus(value: string) {
+    this._changeStatus = value;
+  }
+  public resetChangeStatus() {
+    this._changeStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeStatusInput() {
+    return this._changeStatus;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // policy_type - computed: true, optional: true, required: false
+  private _policyType?: string; 
+  public get policyType() {
+    return this.getStringAttribute('policy_type');
+  }
+  public set policyType(value: string) {
+    this._policyType = value;
+  }
+  public resetPolicyType() {
+    this._policyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyTypeInput() {
+    return this._policyType;
+  }
+}
+
+export class HyperflexNodeProfileReportedPolicyChangesList extends cdktf.ComplexList {
+  public internalValue? : HyperflexNodeProfileReportedPolicyChanges[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): HyperflexNodeProfileReportedPolicyChangesOutputReference {
+    return new HyperflexNodeProfileReportedPolicyChangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface HyperflexNodeProfileScheduledActionsActionQualifier {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -2811,27 +3926,27 @@ export class HyperflexNodeProfileScheduledActionsActionQualifierList extends cdk
 }
 export interface HyperflexNodeProfileScheduledActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#action HyperflexNodeProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#action HyperflexNodeProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#action_qualifier HyperflexNodeProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#action_qualifier HyperflexNodeProfile#action_qualifier}
   */
   readonly actionQualifier?: HyperflexNodeProfileScheduledActionsActionQualifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#proceed_on_reboot HyperflexNodeProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#proceed_on_reboot HyperflexNodeProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
 }
@@ -3092,23 +4207,23 @@ export class HyperflexNodeProfileScheduledActionsList extends cdktf.ComplexList 
 }
 export interface HyperflexNodeProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3340,23 +4455,23 @@ export class HyperflexNodeProfileSrcTemplateList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3588,23 +4703,23 @@ export class HyperflexNodeProfileTagsAncestorDefinitionsList extends cdktf.Compl
 }
 export interface HyperflexNodeProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3836,35 +4951,35 @@ export class HyperflexNodeProfileTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#ancestor_definitions HyperflexNodeProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#ancestor_definitions HyperflexNodeProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexNodeProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#definition HyperflexNodeProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#definition HyperflexNodeProfile#definition}
   */
   readonly definition?: HyperflexNodeProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#key HyperflexNodeProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#key HyperflexNodeProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#propagated HyperflexNodeProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#propagated HyperflexNodeProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#sys_tag HyperflexNodeProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#sys_tag HyperflexNodeProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#type HyperflexNodeProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#type HyperflexNodeProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#value HyperflexNodeProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#value HyperflexNodeProfile#value}
   */
   readonly value?: string;
 }
@@ -4183,23 +5298,23 @@ export class HyperflexNodeProfileTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexNodeProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4431,23 +5546,23 @@ export class HyperflexNodeProfileVersionContextInterestedMosList extends cdktf.C
 }
 export interface HyperflexNodeProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#moid HyperflexNodeProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#selector HyperflexNodeProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4679,39 +5794,39 @@ export class HyperflexNodeProfileVersionContextRefMoList extends cdktf.ComplexLi
 }
 export interface HyperflexNodeProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#additional_properties HyperflexNodeProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#class_id HyperflexNodeProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#interested_mos HyperflexNodeProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#interested_mos HyperflexNodeProfile#interested_mos}
   */
   readonly interestedMos?: HyperflexNodeProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#marked_for_deletion HyperflexNodeProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#marked_for_deletion HyperflexNodeProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#nr_version HyperflexNodeProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#nr_version HyperflexNodeProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#object_type HyperflexNodeProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#ref_mo HyperflexNodeProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#ref_mo HyperflexNodeProfile#ref_mo}
   */
   readonly refMo?: HyperflexNodeProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#timestamp HyperflexNodeProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#timestamp HyperflexNodeProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#version_type HyperflexNodeProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#version_type HyperflexNodeProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -5059,7 +6174,7 @@ export class HyperflexNodeProfileVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile intersight_hyperflex_node_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile intersight_hyperflex_node_profile}
 */
 export class HyperflexNodeProfile extends cdktf.TerraformResource {
 
@@ -5075,7 +6190,7 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexNodeProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexNodeProfile to import
-  * @param importFromId The id of the existing HyperflexNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexNodeProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexNodeProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5087,7 +6202,7 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_node_profile intersight_hyperflex_node_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_node_profile intersight_hyperflex_node_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5098,8 +6213,8 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_node_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5139,7 +6254,9 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
     this._parent.internalValue = config.parent;
     this._permissionResources.internalValue = config.permissionResources;
     this._policyBucket.internalValue = config.policyBucket;
+    this._policyChangeDetails.internalValue = config.policyChangeDetails;
     this._removedPolicies = config.removedPolicies;
+    this._reportedPolicyChanges.internalValue = config.reportedPolicyChanges;
     this._scheduledActions.internalValue = config.scheduledActions;
     this._sharedScope = config.sharedScope;
     this._srcTemplate.internalValue = config.srcTemplate;
@@ -5632,6 +6749,22 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
     return this._policyBucket.internalValue;
   }
 
+  // policy_change_details - computed: true, optional: true, required: false
+  private _policyChangeDetails = new HyperflexNodeProfilePolicyChangeDetailsList(this, "policy_change_details", false);
+  public get policyChangeDetails() {
+    return this._policyChangeDetails;
+  }
+  public putPolicyChangeDetails(value: HyperflexNodeProfilePolicyChangeDetails[] | cdktf.IResolvable) {
+    this._policyChangeDetails.internalValue = value;
+  }
+  public resetPolicyChangeDetails() {
+    this._policyChangeDetails.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyChangeDetailsInput() {
+    return this._policyChangeDetails.internalValue;
+  }
+
   // removed_policies - computed: true, optional: true, required: false
   private _removedPolicies?: string[]; 
   public get removedPolicies() {
@@ -5646,6 +6779,22 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get removedPoliciesInput() {
     return this._removedPolicies;
+  }
+
+  // reported_policy_changes - computed: true, optional: true, required: false
+  private _reportedPolicyChanges = new HyperflexNodeProfileReportedPolicyChangesList(this, "reported_policy_changes", false);
+  public get reportedPolicyChanges() {
+    return this._reportedPolicyChanges;
+  }
+  public putReportedPolicyChanges(value: HyperflexNodeProfileReportedPolicyChanges[] | cdktf.IResolvable) {
+    this._reportedPolicyChanges.internalValue = value;
+  }
+  public resetReportedPolicyChanges() {
+    this._reportedPolicyChanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reportedPolicyChangesInput() {
+    return this._reportedPolicyChanges.internalValue;
   }
 
   // scheduled_actions - computed: true, optional: true, required: false
@@ -5780,7 +6929,9 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
       parent: cdktf.listMapper(hyperflexNodeProfileParentToTerraform, false)(this._parent.internalValue),
       permission_resources: cdktf.listMapper(hyperflexNodeProfilePermissionResourcesToTerraform, false)(this._permissionResources.internalValue),
       policy_bucket: cdktf.listMapper(hyperflexNodeProfilePolicyBucketToTerraform, false)(this._policyBucket.internalValue),
+      policy_change_details: cdktf.listMapper(hyperflexNodeProfilePolicyChangeDetailsToTerraform, false)(this._policyChangeDetails.internalValue),
       removed_policies: cdktf.listMapper(cdktf.stringToTerraform, false)(this._removedPolicies),
+      reported_policy_changes: cdktf.listMapper(hyperflexNodeProfileReportedPolicyChangesToTerraform, false)(this._reportedPolicyChanges.internalValue),
       scheduled_actions: cdktf.listMapper(hyperflexNodeProfileScheduledActionsToTerraform, false)(this._scheduledActions.internalValue),
       shared_scope: cdktf.stringToTerraform(this._sharedScope),
       src_template: cdktf.listMapper(hyperflexNodeProfileSrcTemplateToTerraform, false)(this._srcTemplate.internalValue),
@@ -5972,11 +7123,23 @@ export class HyperflexNodeProfile extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "HyperflexNodeProfilePolicyBucketList",
       },
+      policy_change_details: {
+        value: cdktf.listMapperHcl(hyperflexNodeProfilePolicyChangeDetailsToHclTerraform, false)(this._policyChangeDetails.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "HyperflexNodeProfilePolicyChangeDetailsList",
+      },
       removed_policies: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._removedPolicies),
         isBlock: false,
         type: "list",
         storageClassType: "stringList",
+      },
+      reported_policy_changes: {
+        value: cdktf.listMapperHcl(hyperflexNodeProfileReportedPolicyChangesToHclTerraform, false)(this._reportedPolicyChanges.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "HyperflexNodeProfileReportedPolicyChangesList",
       },
       scheduled_actions: {
         value: cdktf.listMapperHcl(hyperflexNodeProfileScheduledActionsToHclTerraform, false)(this._scheduledActions.internalValue),

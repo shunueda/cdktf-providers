@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareDistributableMetaConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#account_moid DataIntersightFirmwareDistributableMeta#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#account_moid DataIntersightFirmwareDistributableMeta#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The S3 bucket name where the images are present, if source is external cloud store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#bucket_name DataIntersightFirmwareDistributableMeta#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#bucket_name DataIntersightFirmwareDistributableMeta#bucket_name}
   */
   readonly bucketName?: string;
   /**
@@ -28,19 +28,19 @@ export interface DataIntersightFirmwareDistributableMetaConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#create_time DataIntersightFirmwareDistributableMeta#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#create_time DataIntersightFirmwareDistributableMeta#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#domain_group_moid DataIntersightFirmwareDistributableMeta#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#domain_group_moid DataIntersightFirmwareDistributableMeta#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -52,17 +52,17 @@ export interface DataIntersightFirmwareDistributableMetaConfig extends cdktf.Ter
   * * `HyperflexDistributable` - It stores HyperFlex images.
   * * `HciDistributable` - It stores HCI images, such as bootstrap iso images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#file_type DataIntersightFirmwareDistributableMeta#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#file_type DataIntersightFirmwareDistributableMeta#file_type}
   */
   readonly fileType?: string;
   /**
   * The version from which user can download images from amazon store, if source is external cloud store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#from_version DataIntersightFirmwareDistributableMeta#from_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#from_version DataIntersightFirmwareDistributableMeta#from_version}
   */
   readonly fromVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#id DataIntersightFirmwareDistributableMeta#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#id DataIntersightFirmwareDistributableMeta#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,19 +71,19 @@ export interface DataIntersightFirmwareDistributableMetaConfig extends cdktf.Ter
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#mdfid DataIntersightFirmwareDistributableMeta#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#mdfid DataIntersightFirmwareDistributableMeta#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#mod_time DataIntersightFirmwareDistributableMeta#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#mod_time DataIntersightFirmwareDistributableMeta#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
@@ -93,71 +93,71 @@ export interface DataIntersightFirmwareDistributableMetaConfig extends cdktf.Ter
   * * `LocalMachine` - The file is available on the local client machine. Used as an upload source type.
   * * `NetworkShare` - External repository in the customer datacenter. This will typically be a file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#nr_source DataIntersightFirmwareDistributableMeta#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#nr_source DataIntersightFirmwareDistributableMeta#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#owners DataIntersightFirmwareDistributableMeta#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#owners DataIntersightFirmwareDistributableMeta#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#shared_scope DataIntersightFirmwareDistributableMeta#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#shared_scope DataIntersightFirmwareDistributableMeta#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#software_type_id DataIntersightFirmwareDistributableMeta#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#software_type_id DataIntersightFirmwareDistributableMeta#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#supported_models DataIntersightFirmwareDistributableMeta#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#supported_models DataIntersightFirmwareDistributableMeta#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The version till which user can download images from amazon store, if source is external cloud store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#to_version DataIntersightFirmwareDistributableMeta#to_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#to_version DataIntersightFirmwareDistributableMeta#to_version}
   */
   readonly toVersion?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#ancestors DataIntersightFirmwareDistributableMeta#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#ancestors DataIntersightFirmwareDistributableMeta#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareDistributableMetaAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#parent DataIntersightFirmwareDistributableMeta#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#parent DataIntersightFirmwareDistributableMeta#parent}
   */
   readonly parent?: DataIntersightFirmwareDistributableMetaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#permission_resources DataIntersightFirmwareDistributableMeta#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#permission_resources DataIntersightFirmwareDistributableMeta#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareDistributableMetaPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#tags DataIntersightFirmwareDistributableMeta#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#tags DataIntersightFirmwareDistributableMeta#tags}
   */
   readonly tags?: DataIntersightFirmwareDistributableMetaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#version_context DataIntersightFirmwareDistributableMeta#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#version_context DataIntersightFirmwareDistributableMeta#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareDistributableMetaVersionContext;
 }
@@ -1247,7 +1247,7 @@ export class DataIntersightFirmwareDistributableMetaResultsList extends cdktf.Co
 }
 export interface DataIntersightFirmwareDistributableMetaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1255,19 +1255,19 @@ export interface DataIntersightFirmwareDistributableMetaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1280,7 +1280,7 @@ export interface DataIntersightFirmwareDistributableMetaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1512,7 +1512,7 @@ export class DataIntersightFirmwareDistributableMetaAncestorsList extends cdktf.
 }
 export interface DataIntersightFirmwareDistributableMetaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1520,19 +1520,19 @@ export interface DataIntersightFirmwareDistributableMetaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1545,7 +1545,7 @@ export interface DataIntersightFirmwareDistributableMetaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -1745,7 +1745,7 @@ export class DataIntersightFirmwareDistributableMetaParentOutputReference extend
 }
 export interface DataIntersightFirmwareDistributableMetaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1753,19 +1753,19 @@ export interface DataIntersightFirmwareDistributableMetaPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1778,7 +1778,7 @@ export interface DataIntersightFirmwareDistributableMetaPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2010,7 +2010,7 @@ export class DataIntersightFirmwareDistributableMetaPermissionResourcesList exte
 }
 export interface DataIntersightFirmwareDistributableMetaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2018,19 +2018,19 @@ export interface DataIntersightFirmwareDistributableMetaTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2043,7 +2043,7 @@ export interface DataIntersightFirmwareDistributableMetaTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2275,7 +2275,7 @@ export class DataIntersightFirmwareDistributableMetaTagsAncestorDefinitionsList 
 }
 export interface DataIntersightFirmwareDistributableMetaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2283,19 +2283,19 @@ export interface DataIntersightFirmwareDistributableMetaTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2308,7 +2308,7 @@ export interface DataIntersightFirmwareDistributableMetaTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -2508,25 +2508,25 @@ export class DataIntersightFirmwareDistributableMetaTagsDefinitionOutputReferenc
 }
 export interface DataIntersightFirmwareDistributableMetaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#key DataIntersightFirmwareDistributableMeta#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#key DataIntersightFirmwareDistributableMeta#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#propagated DataIntersightFirmwareDistributableMeta#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#propagated DataIntersightFirmwareDistributableMeta#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#sys_tag DataIntersightFirmwareDistributableMeta#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#sys_tag DataIntersightFirmwareDistributableMeta#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2534,25 +2534,25 @@ export interface DataIntersightFirmwareDistributableMetaTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#type DataIntersightFirmwareDistributableMeta#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#type DataIntersightFirmwareDistributableMeta#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#value DataIntersightFirmwareDistributableMeta#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#value DataIntersightFirmwareDistributableMeta#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#ancestor_definitions DataIntersightFirmwareDistributableMeta#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#ancestor_definitions DataIntersightFirmwareDistributableMeta#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareDistributableMetaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#definition DataIntersightFirmwareDistributableMeta#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#definition DataIntersightFirmwareDistributableMeta#definition}
   */
   readonly definition?: DataIntersightFirmwareDistributableMetaTagsDefinition;
 }
@@ -2871,7 +2871,7 @@ export class DataIntersightFirmwareDistributableMetaTagsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwareDistributableMetaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2879,19 +2879,19 @@ export interface DataIntersightFirmwareDistributableMetaVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2904,7 +2904,7 @@ export interface DataIntersightFirmwareDistributableMetaVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3136,7 +3136,7 @@ export class DataIntersightFirmwareDistributableMetaVersionContextInterestedMosL
 }
 export interface DataIntersightFirmwareDistributableMetaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3144,19 +3144,19 @@ export interface DataIntersightFirmwareDistributableMetaVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#moid DataIntersightFirmwareDistributableMeta#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3169,7 +3169,7 @@ export interface DataIntersightFirmwareDistributableMetaVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#selector DataIntersightFirmwareDistributableMeta#selector}
   */
   readonly selector?: string;
 }
@@ -3369,7 +3369,7 @@ export class DataIntersightFirmwareDistributableMetaVersionContextRefMoOutputRef
 }
 export interface DataIntersightFirmwareDistributableMetaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#additional_properties DataIntersightFirmwareDistributableMeta#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3377,32 +3377,32 @@ export interface DataIntersightFirmwareDistributableMetaVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#class_id DataIntersightFirmwareDistributableMeta#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#marked_for_deletion DataIntersightFirmwareDistributableMeta#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#marked_for_deletion DataIntersightFirmwareDistributableMeta#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#nr_version DataIntersightFirmwareDistributableMeta#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#nr_version DataIntersightFirmwareDistributableMeta#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#object_type DataIntersightFirmwareDistributableMeta#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#timestamp DataIntersightFirmwareDistributableMeta#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#timestamp DataIntersightFirmwareDistributableMeta#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3413,19 +3413,19 @@ export interface DataIntersightFirmwareDistributableMetaVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#version_type DataIntersightFirmwareDistributableMeta#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#version_type DataIntersightFirmwareDistributableMeta#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#interested_mos DataIntersightFirmwareDistributableMeta#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#interested_mos DataIntersightFirmwareDistributableMeta#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareDistributableMetaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#ref_mo DataIntersightFirmwareDistributableMeta#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#ref_mo DataIntersightFirmwareDistributableMeta#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareDistributableMetaVersionContextRefMo;
 }
@@ -3741,7 +3741,7 @@ export class DataIntersightFirmwareDistributableMetaVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta intersight_firmware_distributable_meta}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta intersight_firmware_distributable_meta}
 */
 export class DataIntersightFirmwareDistributableMeta extends cdktf.TerraformDataSource {
 
@@ -3757,7 +3757,7 @@ export class DataIntersightFirmwareDistributableMeta extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightFirmwareDistributableMeta resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareDistributableMeta to import
-  * @param importFromId The id of the existing DataIntersightFirmwareDistributableMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareDistributableMeta that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareDistributableMeta to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3769,7 +3769,7 @@ export class DataIntersightFirmwareDistributableMeta extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_distributable_meta intersight_firmware_distributable_meta} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_distributable_meta intersight_firmware_distributable_meta} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3780,8 +3780,8 @@ export class DataIntersightFirmwareDistributableMeta extends cdktf.TerraformData
       terraformResourceType: 'intersight_firmware_distributable_meta',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

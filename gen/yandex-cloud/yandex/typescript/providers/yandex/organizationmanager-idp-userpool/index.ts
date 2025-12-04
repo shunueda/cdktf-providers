@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface OrganizationmanagerIdpUserpoolConfig extends cdktf.TerraformMet
   /**
   * Bruteforce protection policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#bruteforce_protection_policy OrganizationmanagerIdpUserpool#bruteforce_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#bruteforce_protection_policy OrganizationmanagerIdpUserpool#bruteforce_protection_policy}
   */
   readonly bruteforceProtectionPolicy?: OrganizationmanagerIdpUserpoolBruteforceProtectionPolicy;
   /**
   * Default subdomain for the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#default_subdomain OrganizationmanagerIdpUserpool#default_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#default_subdomain OrganizationmanagerIdpUserpool#default_subdomain}
   */
   readonly defaultSubdomain: string;
   /**
   * Description of the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#description OrganizationmanagerIdpUserpool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#description OrganizationmanagerIdpUserpool#description}
   */
   readonly description?: string;
   /**
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#id OrganizationmanagerIdpUserpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#id OrganizationmanagerIdpUserpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,48 +38,48 @@ export interface OrganizationmanagerIdpUserpoolConfig extends cdktf.TerraformMet
   /**
   * Resource labels as key:value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#labels OrganizationmanagerIdpUserpool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#labels OrganizationmanagerIdpUserpool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#name OrganizationmanagerIdpUserpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#name OrganizationmanagerIdpUserpool#name}
   */
   readonly name: string;
   /**
   * ID of the organization this userpool belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#organization_id OrganizationmanagerIdpUserpool#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#organization_id OrganizationmanagerIdpUserpool#organization_id}
   */
   readonly organizationId: string;
   /**
   * Password lifetime policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#password_lifetime_policy OrganizationmanagerIdpUserpool#password_lifetime_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#password_lifetime_policy OrganizationmanagerIdpUserpool#password_lifetime_policy}
   */
   readonly passwordLifetimePolicy?: OrganizationmanagerIdpUserpoolPasswordLifetimePolicy;
   /**
   * Password quality policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#password_quality_policy OrganizationmanagerIdpUserpool#password_quality_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#password_quality_policy OrganizationmanagerIdpUserpool#password_quality_policy}
   */
   readonly passwordQualityPolicy?: OrganizationmanagerIdpUserpoolPasswordQualityPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#timeouts OrganizationmanagerIdpUserpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#timeouts OrganizationmanagerIdpUserpool#timeouts}
   */
   readonly timeouts?: OrganizationmanagerIdpUserpoolTimeouts;
   /**
   * User settings for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#user_settings OrganizationmanagerIdpUserpool#user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#user_settings OrganizationmanagerIdpUserpool#user_settings}
   */
   readonly userSettings?: OrganizationmanagerIdpUserpoolUserSettings;
   /**
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#userpool_id OrganizationmanagerIdpUserpool#userpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#userpool_id OrganizationmanagerIdpUserpool#userpool_id}
   */
   readonly userpoolId?: string;
 }
@@ -87,19 +87,19 @@ export interface OrganizationmanagerIdpUserpoolBruteforceProtectionPolicy {
   /**
   * Number of failed attempts allowed within the window before blocking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#attempts OrganizationmanagerIdpUserpool#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#attempts OrganizationmanagerIdpUserpool#attempts}
   */
   readonly attempts?: number;
   /**
   * Duration of the block after too many failed attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#block OrganizationmanagerIdpUserpool#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#block OrganizationmanagerIdpUserpool#block}
   */
   readonly block?: string;
   /**
   * Time window for counting failed authentication attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#window OrganizationmanagerIdpUserpool#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#window OrganizationmanagerIdpUserpool#window}
   */
   readonly window?: string;
 }
@@ -254,13 +254,13 @@ export interface OrganizationmanagerIdpUserpoolPasswordLifetimePolicy {
   * Maximum number of days a password remains valid.
   *  Zero means passwords never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#max_days_count OrganizationmanagerIdpUserpool#max_days_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#max_days_count OrganizationmanagerIdpUserpool#max_days_count}
   */
   readonly maxDaysCount?: number;
   /**
   * Minimum number of days before a password can be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#min_days_count OrganizationmanagerIdpUserpool#min_days_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#min_days_count OrganizationmanagerIdpUserpool#min_days_count}
   */
   readonly minDaysCount?: number;
 }
@@ -381,63 +381,89 @@ export class OrganizationmanagerIdpUserpoolPasswordLifetimePolicyOutputReference
     return this._minDaysCount;
   }
 }
-export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings {
+export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed {
   /**
-  * Minimum length for passwords with one character class.
+  * Whether digits are required in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#one OrganizationmanagerIdpUserpool#one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#digits_required OrganizationmanagerIdpUserpool#digits_required}
   */
-  readonly one?: number;
+  readonly digitsRequired?: boolean | cdktf.IResolvable;
   /**
-  * Minimum length for passwords with three character classes.
+  * Whether lowercase letters are required in the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#three OrganizationmanagerIdpUserpool#three}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#lowers_required OrganizationmanagerIdpUserpool#lowers_required}
   */
-  readonly three?: number;
+  readonly lowersRequired?: boolean | cdktf.IResolvable;
   /**
-  * Minimum length for passwords with two character classes.
+  * Minimum length required for all passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#two OrganizationmanagerIdpUserpool#two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#min_length OrganizationmanagerIdpUserpool#min_length}
   */
-  readonly two?: number;
+  readonly minLength?: number;
+  /**
+  * Whether special characters are required in the password.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#specials_required OrganizationmanagerIdpUserpool#specials_required}
+  */
+  readonly specialsRequired?: boolean | cdktf.IResolvable;
+  /**
+  * Whether uppercase letters are required in the password.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#uppers_required OrganizationmanagerIdpUserpool#uppers_required}
+  */
+  readonly uppersRequired?: boolean | cdktf.IResolvable;
 }
 
-export function organizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | cdktf.IResolvable): any {
+export function organizationmanagerIdpUserpoolPasswordQualityPolicyFixedToTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    one: cdktf.numberToTerraform(struct!.one),
-    three: cdktf.numberToTerraform(struct!.three),
-    two: cdktf.numberToTerraform(struct!.two),
+    digits_required: cdktf.booleanToTerraform(struct!.digitsRequired),
+    lowers_required: cdktf.booleanToTerraform(struct!.lowersRequired),
+    min_length: cdktf.numberToTerraform(struct!.minLength),
+    specials_required: cdktf.booleanToTerraform(struct!.specialsRequired),
+    uppers_required: cdktf.booleanToTerraform(struct!.uppersRequired),
   }
 }
 
 
-export function organizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToHclTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | cdktf.IResolvable): any {
+export function organizationmanagerIdpUserpoolPasswordQualityPolicyFixedToHclTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    one: {
-      value: cdktf.numberToHclTerraform(struct!.one),
+    digits_required: {
+      value: cdktf.booleanToHclTerraform(struct!.digitsRequired),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    lowers_required: {
+      value: cdktf.booleanToHclTerraform(struct!.lowersRequired),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    min_length: {
+      value: cdktf.numberToHclTerraform(struct!.minLength),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
     },
-    three: {
-      value: cdktf.numberToHclTerraform(struct!.three),
+    specials_required: {
+      value: cdktf.booleanToHclTerraform(struct!.specialsRequired),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
+      storageClassType: "boolean",
     },
-    two: {
-      value: cdktf.numberToHclTerraform(struct!.two),
+    uppers_required: {
+      value: cdktf.booleanToHclTerraform(struct!.uppersRequired),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
+      storageClassType: "boolean",
     },
   };
 
@@ -445,7 +471,7 @@ export function organizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByCl
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsOutputReference extends cdktf.ComplexObject {
+export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -457,34 +483,44 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClass
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | cdktf.IResolvable | undefined {
+  public get internalValue(): OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._one !== undefined) {
+    if (this._digitsRequired !== undefined) {
       hasAnyValues = true;
-      internalValueResult.one = this._one;
+      internalValueResult.digitsRequired = this._digitsRequired;
     }
-    if (this._three !== undefined) {
+    if (this._lowersRequired !== undefined) {
       hasAnyValues = true;
-      internalValueResult.three = this._three;
+      internalValueResult.lowersRequired = this._lowersRequired;
     }
-    if (this._two !== undefined) {
+    if (this._minLength !== undefined) {
       hasAnyValues = true;
-      internalValueResult.two = this._two;
+      internalValueResult.minLength = this._minLength;
+    }
+    if (this._specialsRequired !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.specialsRequired = this._specialsRequired;
+    }
+    if (this._uppersRequired !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uppersRequired = this._uppersRequired;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | cdktf.IResolvable | undefined) {
+  public set internalValue(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._one = undefined;
-      this._three = undefined;
-      this._two = undefined;
+      this._digitsRequired = undefined;
+      this._lowersRequired = undefined;
+      this._minLength = undefined;
+      this._specialsRequired = undefined;
+      this._uppersRequired = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -493,130 +529,164 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClass
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._one = value.one;
-      this._three = value.three;
-      this._two = value.two;
+      this._digitsRequired = value.digitsRequired;
+      this._lowersRequired = value.lowersRequired;
+      this._minLength = value.minLength;
+      this._specialsRequired = value.specialsRequired;
+      this._uppersRequired = value.uppersRequired;
     }
   }
 
-  // one - computed: true, optional: true, required: false
-  private _one?: number; 
-  public get one() {
-    return this.getNumberAttribute('one');
+  // digits_required - computed: true, optional: true, required: false
+  private _digitsRequired?: boolean | cdktf.IResolvable; 
+  public get digitsRequired() {
+    return this.getBooleanAttribute('digits_required');
   }
-  public set one(value: number) {
-    this._one = value;
+  public set digitsRequired(value: boolean | cdktf.IResolvable) {
+    this._digitsRequired = value;
   }
-  public resetOne() {
-    this._one = undefined;
+  public resetDigitsRequired() {
+    this._digitsRequired = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get oneInput() {
-    return this._one;
+  public get digitsRequiredInput() {
+    return this._digitsRequired;
   }
 
-  // three - computed: true, optional: true, required: false
-  private _three?: number; 
-  public get three() {
-    return this.getNumberAttribute('three');
+  // lowers_required - computed: true, optional: true, required: false
+  private _lowersRequired?: boolean | cdktf.IResolvable; 
+  public get lowersRequired() {
+    return this.getBooleanAttribute('lowers_required');
   }
-  public set three(value: number) {
-    this._three = value;
+  public set lowersRequired(value: boolean | cdktf.IResolvable) {
+    this._lowersRequired = value;
   }
-  public resetThree() {
-    this._three = undefined;
+  public resetLowersRequired() {
+    this._lowersRequired = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get threeInput() {
-    return this._three;
+  public get lowersRequiredInput() {
+    return this._lowersRequired;
   }
 
-  // two - computed: true, optional: true, required: false
-  private _two?: number; 
-  public get two() {
-    return this.getNumberAttribute('two');
+  // min_length - computed: true, optional: true, required: false
+  private _minLength?: number; 
+  public get minLength() {
+    return this.getNumberAttribute('min_length');
   }
-  public set two(value: number) {
-    this._two = value;
+  public set minLength(value: number) {
+    this._minLength = value;
   }
-  public resetTwo() {
-    this._two = undefined;
+  public resetMinLength() {
+    this._minLength = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get twoInput() {
-    return this._two;
+  public get minLengthInput() {
+    return this._minLength;
+  }
+
+  // specials_required - computed: true, optional: true, required: false
+  private _specialsRequired?: boolean | cdktf.IResolvable; 
+  public get specialsRequired() {
+    return this.getBooleanAttribute('specials_required');
+  }
+  public set specialsRequired(value: boolean | cdktf.IResolvable) {
+    this._specialsRequired = value;
+  }
+  public resetSpecialsRequired() {
+    this._specialsRequired = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specialsRequiredInput() {
+    return this._specialsRequired;
+  }
+
+  // uppers_required - computed: true, optional: true, required: false
+  private _uppersRequired?: boolean | cdktf.IResolvable; 
+  public get uppersRequired() {
+    return this.getBooleanAttribute('uppers_required');
+  }
+  public set uppersRequired(value: boolean | cdktf.IResolvable) {
+    this._uppersRequired = value;
+  }
+  public resetUppersRequired() {
+    this._uppersRequired = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uppersRequiredInput() {
+    return this._uppersRequired;
   }
 }
-export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses {
+export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart {
   /**
-  * Whether digits are required.
+  * For passwords with all four classes of characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#digits OrganizationmanagerIdpUserpool#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#four_classes OrganizationmanagerIdpUserpool#four_classes}
   */
-  readonly digits?: boolean | cdktf.IResolvable;
+  readonly fourClasses?: number;
   /**
-  * Whether lowercase letters are required.
+  * For passwords with one class of characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#lowers OrganizationmanagerIdpUserpool#lowers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#one_class OrganizationmanagerIdpUserpool#one_class}
   */
-  readonly lowers?: boolean | cdktf.IResolvable;
+  readonly oneClass?: number;
   /**
-  * Whether special characters are required.
+  * For passwords with three classes of characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#specials OrganizationmanagerIdpUserpool#specials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#three_classes OrganizationmanagerIdpUserpool#three_classes}
   */
-  readonly specials?: boolean | cdktf.IResolvable;
+  readonly threeClasses?: number;
   /**
-  * Whether uppercase letters are required.
+  * For passwords with two classes of characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#uppers OrganizationmanagerIdpUserpool#uppers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#two_classes OrganizationmanagerIdpUserpool#two_classes}
   */
-  readonly uppers?: boolean | cdktf.IResolvable;
+  readonly twoClasses?: number;
 }
 
-export function organizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | cdktf.IResolvable): any {
+export function organizationmanagerIdpUserpoolPasswordQualityPolicySmartToTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    digits: cdktf.booleanToTerraform(struct!.digits),
-    lowers: cdktf.booleanToTerraform(struct!.lowers),
-    specials: cdktf.booleanToTerraform(struct!.specials),
-    uppers: cdktf.booleanToTerraform(struct!.uppers),
+    four_classes: cdktf.numberToTerraform(struct!.fourClasses),
+    one_class: cdktf.numberToTerraform(struct!.oneClass),
+    three_classes: cdktf.numberToTerraform(struct!.threeClasses),
+    two_classes: cdktf.numberToTerraform(struct!.twoClasses),
   }
 }
 
 
-export function organizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToHclTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | cdktf.IResolvable): any {
+export function organizationmanagerIdpUserpoolPasswordQualityPolicySmartToHclTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    digits: {
-      value: cdktf.booleanToHclTerraform(struct!.digits),
+    four_classes: {
+      value: cdktf.numberToHclTerraform(struct!.fourClasses),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "number",
     },
-    lowers: {
-      value: cdktf.booleanToHclTerraform(struct!.lowers),
+    one_class: {
+      value: cdktf.numberToHclTerraform(struct!.oneClass),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "number",
     },
-    specials: {
-      value: cdktf.booleanToHclTerraform(struct!.specials),
+    three_classes: {
+      value: cdktf.numberToHclTerraform(struct!.threeClasses),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "number",
     },
-    uppers: {
-      value: cdktf.booleanToHclTerraform(struct!.uppers),
+    two_classes: {
+      value: cdktf.numberToHclTerraform(struct!.twoClasses),
       isBlock: false,
       type: "simple",
-      storageClassType: "boolean",
+      storageClassType: "number",
     },
   };
 
@@ -624,7 +694,7 @@ export function organizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClass
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesOutputReference extends cdktf.ComplexObject {
+export class OrganizationmanagerIdpUserpoolPasswordQualityPolicySmartOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
 
@@ -636,39 +706,39 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesO
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | cdktf.IResolvable | undefined {
+  public get internalValue(): OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | cdktf.IResolvable | undefined {
     if (this.resolvableValue) {
       return this.resolvableValue;
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._digits !== undefined) {
+    if (this._fourClasses !== undefined) {
       hasAnyValues = true;
-      internalValueResult.digits = this._digits;
+      internalValueResult.fourClasses = this._fourClasses;
     }
-    if (this._lowers !== undefined) {
+    if (this._oneClass !== undefined) {
       hasAnyValues = true;
-      internalValueResult.lowers = this._lowers;
+      internalValueResult.oneClass = this._oneClass;
     }
-    if (this._specials !== undefined) {
+    if (this._threeClasses !== undefined) {
       hasAnyValues = true;
-      internalValueResult.specials = this._specials;
+      internalValueResult.threeClasses = this._threeClasses;
     }
-    if (this._uppers !== undefined) {
+    if (this._twoClasses !== undefined) {
       hasAnyValues = true;
-      internalValueResult.uppers = this._uppers;
+      internalValueResult.twoClasses = this._twoClasses;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | cdktf.IResolvable | undefined) {
+  public set internalValue(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
-      this._digits = undefined;
-      this._lowers = undefined;
-      this._specials = undefined;
-      this._uppers = undefined;
+      this._fourClasses = undefined;
+      this._oneClass = undefined;
+      this._threeClasses = undefined;
+      this._twoClasses = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -677,115 +747,108 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
-      this._digits = value.digits;
-      this._lowers = value.lowers;
-      this._specials = value.specials;
-      this._uppers = value.uppers;
+      this._fourClasses = value.fourClasses;
+      this._oneClass = value.oneClass;
+      this._threeClasses = value.threeClasses;
+      this._twoClasses = value.twoClasses;
     }
   }
 
-  // digits - computed: true, optional: true, required: false
-  private _digits?: boolean | cdktf.IResolvable; 
-  public get digits() {
-    return this.getBooleanAttribute('digits');
+  // four_classes - computed: true, optional: true, required: false
+  private _fourClasses?: number; 
+  public get fourClasses() {
+    return this.getNumberAttribute('four_classes');
   }
-  public set digits(value: boolean | cdktf.IResolvable) {
-    this._digits = value;
+  public set fourClasses(value: number) {
+    this._fourClasses = value;
   }
-  public resetDigits() {
-    this._digits = undefined;
+  public resetFourClasses() {
+    this._fourClasses = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get digitsInput() {
-    return this._digits;
+  public get fourClassesInput() {
+    return this._fourClasses;
   }
 
-  // lowers - computed: true, optional: true, required: false
-  private _lowers?: boolean | cdktf.IResolvable; 
-  public get lowers() {
-    return this.getBooleanAttribute('lowers');
+  // one_class - computed: true, optional: true, required: false
+  private _oneClass?: number; 
+  public get oneClass() {
+    return this.getNumberAttribute('one_class');
   }
-  public set lowers(value: boolean | cdktf.IResolvable) {
-    this._lowers = value;
+  public set oneClass(value: number) {
+    this._oneClass = value;
   }
-  public resetLowers() {
-    this._lowers = undefined;
+  public resetOneClass() {
+    this._oneClass = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get lowersInput() {
-    return this._lowers;
+  public get oneClassInput() {
+    return this._oneClass;
   }
 
-  // specials - computed: true, optional: true, required: false
-  private _specials?: boolean | cdktf.IResolvable; 
-  public get specials() {
-    return this.getBooleanAttribute('specials');
+  // three_classes - computed: true, optional: true, required: false
+  private _threeClasses?: number; 
+  public get threeClasses() {
+    return this.getNumberAttribute('three_classes');
   }
-  public set specials(value: boolean | cdktf.IResolvable) {
-    this._specials = value;
+  public set threeClasses(value: number) {
+    this._threeClasses = value;
   }
-  public resetSpecials() {
-    this._specials = undefined;
+  public resetThreeClasses() {
+    this._threeClasses = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get specialsInput() {
-    return this._specials;
+  public get threeClassesInput() {
+    return this._threeClasses;
   }
 
-  // uppers - computed: true, optional: true, required: false
-  private _uppers?: boolean | cdktf.IResolvable; 
-  public get uppers() {
-    return this.getBooleanAttribute('uppers');
+  // two_classes - computed: true, optional: true, required: false
+  private _twoClasses?: number; 
+  public get twoClasses() {
+    return this.getNumberAttribute('two_classes');
   }
-  public set uppers(value: boolean | cdktf.IResolvable) {
-    this._uppers = value;
+  public set twoClasses(value: number) {
+    this._twoClasses = value;
   }
-  public resetUppers() {
-    this._uppers = undefined;
+  public resetTwoClasses() {
+    this._twoClasses = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get uppersInput() {
-    return this._uppers;
+  public get twoClassesInput() {
+    return this._twoClasses;
   }
 }
 export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicy {
   /**
   * Whether passwords similar to previous ones are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#allow_similar OrganizationmanagerIdpUserpool#allow_similar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#allow_similar OrganizationmanagerIdpUserpool#allow_similar}
   */
   readonly allowSimilar?: boolean | cdktf.IResolvable;
   /**
+  * Fixed complexity requirements. Exactly one of complexity requirements must be specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#fixed OrganizationmanagerIdpUserpool#fixed}
+  */
+  readonly fixed?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed;
+  /**
   * Minimum length of substrings to check for similarity to vulnerable sequences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#match_length OrganizationmanagerIdpUserpool#match_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#match_length OrganizationmanagerIdpUserpool#match_length}
   */
   readonly matchLength?: number;
   /**
   * Maximum password length. Zero means no maximum length is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#max_length OrganizationmanagerIdpUserpool#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#max_length OrganizationmanagerIdpUserpool#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Minimum password length.
+  * Smart complexity requirements. Exactly one of complexity requirements must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#min_length OrganizationmanagerIdpUserpool#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#smart OrganizationmanagerIdpUserpool#smart}
   */
-  readonly minLength?: number;
-  /**
-  * Minimum length requirements based on character class diversity.
-  *  If not specified, these checks are disabled.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#min_length_by_class_settings OrganizationmanagerIdpUserpool#min_length_by_class_settings}
-  */
-  readonly minLengthByClassSettings?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings;
-  /**
-  * Character classes required in passwords.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#required_classes OrganizationmanagerIdpUserpool#required_classes}
-  */
-  readonly requiredClasses?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses;
+  readonly smart?: OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart;
 }
 
 export function organizationmanagerIdpUserpoolPasswordQualityPolicyToTerraform(struct?: OrganizationmanagerIdpUserpoolPasswordQualityPolicy | cdktf.IResolvable): any {
@@ -795,11 +858,10 @@ export function organizationmanagerIdpUserpoolPasswordQualityPolicyToTerraform(s
   }
   return {
     allow_similar: cdktf.booleanToTerraform(struct!.allowSimilar),
+    fixed: organizationmanagerIdpUserpoolPasswordQualityPolicyFixedToTerraform(struct!.fixed),
     match_length: cdktf.numberToTerraform(struct!.matchLength),
     max_length: cdktf.numberToTerraform(struct!.maxLength),
-    min_length: cdktf.numberToTerraform(struct!.minLength),
-    min_length_by_class_settings: organizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToTerraform(struct!.minLengthByClassSettings),
-    required_classes: organizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToTerraform(struct!.requiredClasses),
+    smart: organizationmanagerIdpUserpoolPasswordQualityPolicySmartToTerraform(struct!.smart),
   }
 }
 
@@ -816,6 +878,12 @@ export function organizationmanagerIdpUserpoolPasswordQualityPolicyToHclTerrafor
       type: "simple",
       storageClassType: "boolean",
     },
+    fixed: {
+      value: organizationmanagerIdpUserpoolPasswordQualityPolicyFixedToHclTerraform(struct!.fixed),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed",
+    },
     match_length: {
       value: cdktf.numberToHclTerraform(struct!.matchLength),
       isBlock: false,
@@ -828,23 +896,11 @@ export function organizationmanagerIdpUserpoolPasswordQualityPolicyToHclTerrafor
       type: "simple",
       storageClassType: "number",
     },
-    min_length: {
-      value: cdktf.numberToHclTerraform(struct!.minLength),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    min_length_by_class_settings: {
-      value: organizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToHclTerraform(struct!.minLengthByClassSettings),
+    smart: {
+      value: organizationmanagerIdpUserpoolPasswordQualityPolicySmartToHclTerraform(struct!.smart),
       isBlock: true,
       type: "struct",
-      storageClassType: "OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings",
-    },
-    required_classes: {
-      value: organizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToHclTerraform(struct!.requiredClasses),
-      isBlock: true,
-      type: "struct",
-      storageClassType: "OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses",
+      storageClassType: "OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart",
     },
   };
 
@@ -874,6 +930,10 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
       hasAnyValues = true;
       internalValueResult.allowSimilar = this._allowSimilar;
     }
+    if (this._fixed?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixed = this._fixed?.internalValue;
+    }
     if (this._matchLength !== undefined) {
       hasAnyValues = true;
       internalValueResult.matchLength = this._matchLength;
@@ -882,17 +942,9 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
       hasAnyValues = true;
       internalValueResult.maxLength = this._maxLength;
     }
-    if (this._minLength !== undefined) {
+    if (this._smart?.internalValue !== undefined) {
       hasAnyValues = true;
-      internalValueResult.minLength = this._minLength;
-    }
-    if (this._minLengthByClassSettings?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.minLengthByClassSettings = this._minLengthByClassSettings?.internalValue;
-    }
-    if (this._requiredClasses?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.requiredClasses = this._requiredClasses?.internalValue;
+      internalValueResult.smart = this._smart?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -902,11 +954,10 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._allowSimilar = undefined;
+      this._fixed.internalValue = undefined;
       this._matchLength = undefined;
       this._maxLength = undefined;
-      this._minLength = undefined;
-      this._minLengthByClassSettings.internalValue = undefined;
-      this._requiredClasses.internalValue = undefined;
+      this._smart.internalValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -916,11 +967,10 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._allowSimilar = value.allowSimilar;
+      this._fixed.internalValue = value.fixed;
       this._matchLength = value.matchLength;
       this._maxLength = value.maxLength;
-      this._minLength = value.minLength;
-      this._minLengthByClassSettings.internalValue = value.minLengthByClassSettings;
-      this._requiredClasses.internalValue = value.requiredClasses;
+      this._smart.internalValue = value.smart;
     }
   }
 
@@ -938,6 +988,22 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
   // Temporarily expose input value. Use with caution.
   public get allowSimilarInput() {
     return this._allowSimilar;
+  }
+
+  // fixed - computed: true, optional: true, required: false
+  private _fixed = new OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedOutputReference(this, "fixed");
+  public get fixed() {
+    return this._fixed;
+  }
+  public putFixed(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed) {
+    this._fixed.internalValue = value;
+  }
+  public resetFixed() {
+    this._fixed.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedInput() {
+    return this._fixed.internalValue;
   }
 
   // match_length - computed: true, optional: true, required: false
@@ -972,77 +1038,45 @@ export class OrganizationmanagerIdpUserpoolPasswordQualityPolicyOutputReference 
     return this._maxLength;
   }
 
-  // min_length - computed: true, optional: true, required: false
-  private _minLength?: number; 
-  public get minLength() {
-    return this.getNumberAttribute('min_length');
+  // smart - computed: true, optional: true, required: false
+  private _smart = new OrganizationmanagerIdpUserpoolPasswordQualityPolicySmartOutputReference(this, "smart");
+  public get smart() {
+    return this._smart;
   }
-  public set minLength(value: number) {
-    this._minLength = value;
+  public putSmart(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicySmart) {
+    this._smart.internalValue = value;
   }
-  public resetMinLength() {
-    this._minLength = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get minLengthInput() {
-    return this._minLength;
-  }
-
-  // min_length_by_class_settings - computed: true, optional: true, required: false
-  private _minLengthByClassSettings = new OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsOutputReference(this, "min_length_by_class_settings");
-  public get minLengthByClassSettings() {
-    return this._minLengthByClassSettings;
-  }
-  public putMinLengthByClassSettings(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings) {
-    this._minLengthByClassSettings.internalValue = value;
-  }
-  public resetMinLengthByClassSettings() {
-    this._minLengthByClassSettings.internalValue = undefined;
+  public resetSmart() {
+    this._smart.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get minLengthByClassSettingsInput() {
-    return this._minLengthByClassSettings.internalValue;
-  }
-
-  // required_classes - computed: true, optional: true, required: false
-  private _requiredClasses = new OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesOutputReference(this, "required_classes");
-  public get requiredClasses() {
-    return this._requiredClasses;
-  }
-  public putRequiredClasses(value: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses) {
-    this._requiredClasses.internalValue = value;
-  }
-  public resetRequiredClasses() {
-    this._requiredClasses.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get requiredClassesInput() {
-    return this._requiredClasses.internalValue;
+  public get smartInput() {
+    return this._smart.internalValue;
   }
 }
 export interface OrganizationmanagerIdpUserpoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#create OrganizationmanagerIdpUserpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#create OrganizationmanagerIdpUserpool#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#delete OrganizationmanagerIdpUserpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#delete OrganizationmanagerIdpUserpool#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#read OrganizationmanagerIdpUserpool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#read OrganizationmanagerIdpUserpool#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#update OrganizationmanagerIdpUserpool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#update OrganizationmanagerIdpUserpool#update}
   */
   readonly update?: string;
 }
@@ -1225,25 +1259,25 @@ export interface OrganizationmanagerIdpUserpoolUserSettings {
   /**
   * Whether users can edit their own contact information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_contacts OrganizationmanagerIdpUserpool#allow_edit_self_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_contacts OrganizationmanagerIdpUserpool#allow_edit_self_contacts}
   */
   readonly allowEditSelfContacts?: boolean | cdktf.IResolvable;
   /**
   * Whether users can edit their own profile information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_info OrganizationmanagerIdpUserpool#allow_edit_self_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_info OrganizationmanagerIdpUserpool#allow_edit_self_info}
   */
   readonly allowEditSelfInfo?: boolean | cdktf.IResolvable;
   /**
   * Whether users can edit their own login information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_login OrganizationmanagerIdpUserpool#allow_edit_self_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_login OrganizationmanagerIdpUserpool#allow_edit_self_login}
   */
   readonly allowEditSelfLogin?: boolean | cdktf.IResolvable;
   /**
   * Whether users can change their own passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_password OrganizationmanagerIdpUserpool#allow_edit_self_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_password OrganizationmanagerIdpUserpool#allow_edit_self_password}
   */
   readonly allowEditSelfPassword?: boolean | cdktf.IResolvable;
 }
@@ -1424,7 +1458,7 @@ export class OrganizationmanagerIdpUserpoolUserSettingsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
 */
 export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
 
@@ -1440,7 +1474,7 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerIdpUserpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerIdpUserpool to import
-  * @param importFromId The id of the existing OrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerIdpUserpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1452,7 +1486,7 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1463,8 +1497,8 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_idp_userpool',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

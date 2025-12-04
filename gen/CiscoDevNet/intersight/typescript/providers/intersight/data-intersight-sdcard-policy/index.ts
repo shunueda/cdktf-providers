@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightSdcardPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#account_moid DataIntersightSdcardPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#account_moid DataIntersightSdcardPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightSdcardPolicyConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#create_time DataIntersightSdcardPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#create_time DataIntersightSdcardPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#description DataIntersightSdcardPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#description DataIntersightSdcardPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#domain_group_moid DataIntersightSdcardPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#domain_group_moid DataIntersightSdcardPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#id DataIntersightSdcardPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#id DataIntersightSdcardPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface DataIntersightSdcardPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#mod_time DataIntersightSdcardPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#mod_time DataIntersightSdcardPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#name DataIntersightSdcardPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#name DataIntersightSdcardPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#owners DataIntersightSdcardPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#owners DataIntersightSdcardPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#shared_scope DataIntersightSdcardPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#shared_scope DataIntersightSdcardPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#ancestors DataIntersightSdcardPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#ancestors DataIntersightSdcardPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightSdcardPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#organization DataIntersightSdcardPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#organization DataIntersightSdcardPolicy#organization}
   */
   readonly organization?: DataIntersightSdcardPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#parent DataIntersightSdcardPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#parent DataIntersightSdcardPolicy#parent}
   */
   readonly parent?: DataIntersightSdcardPolicyParent;
   /**
   * partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#partitions DataIntersightSdcardPolicy#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#partitions DataIntersightSdcardPolicy#partitions}
   */
   readonly partitions?: DataIntersightSdcardPolicyPartitions[] | cdktf.IResolvable;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#permission_resources DataIntersightSdcardPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#permission_resources DataIntersightSdcardPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightSdcardPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#profiles DataIntersightSdcardPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#profiles DataIntersightSdcardPolicy#profiles}
   */
   readonly profiles?: DataIntersightSdcardPolicyProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#tags DataIntersightSdcardPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#tags DataIntersightSdcardPolicy#tags}
   */
   readonly tags?: DataIntersightSdcardPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#version_context DataIntersightSdcardPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#version_context DataIntersightSdcardPolicy#version_context}
   */
   readonly versionContext?: DataIntersightSdcardPolicyVersionContext;
 }
@@ -1585,7 +1585,7 @@ export class DataIntersightSdcardPolicyResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSdcardPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1593,19 +1593,19 @@ export interface DataIntersightSdcardPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1618,7 +1618,7 @@ export interface DataIntersightSdcardPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1850,7 +1850,7 @@ export class DataIntersightSdcardPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSdcardPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1858,19 +1858,19 @@ export interface DataIntersightSdcardPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1883,7 +1883,7 @@ export interface DataIntersightSdcardPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2083,7 +2083,7 @@ export class DataIntersightSdcardPolicyOrganizationOutputReference extends cdktf
 }
 export interface DataIntersightSdcardPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2091,19 +2091,19 @@ export interface DataIntersightSdcardPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2116,7 +2116,7 @@ export interface DataIntersightSdcardPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2316,7 +2316,7 @@ export class DataIntersightSdcardPolicyParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightSdcardPolicyPartitionsVirtualDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2325,13 +2325,13 @@ export interface DataIntersightSdcardPolicyPartitionsVirtualDrives {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * Enable the respective virtual drive to be available to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#enable DataIntersightSdcardPolicy#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#enable DataIntersightSdcardPolicy#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
@@ -2339,7 +2339,7 @@ export interface DataIntersightSdcardPolicyPartitionsVirtualDrives {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -2542,7 +2542,7 @@ export class DataIntersightSdcardPolicyPartitionsVirtualDrivesList extends cdktf
 }
 export interface DataIntersightSdcardPolicyPartitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2550,14 +2550,14 @@ export interface DataIntersightSdcardPolicyPartitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2565,13 +2565,13 @@ export interface DataIntersightSdcardPolicyPartitions {
   * * `OS` - This partition contains virtual drives where user can install operating system.
   * * `Utility` - This partition contains virtual drives for utilities such as SCU, HUU, Drivers and Diagnostics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#type DataIntersightSdcardPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#type DataIntersightSdcardPolicy#type}
   */
   readonly type?: string;
   /**
   * virtual_drives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#virtual_drives DataIntersightSdcardPolicy#virtual_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#virtual_drives DataIntersightSdcardPolicy#virtual_drives}
   */
   readonly virtualDrives?: DataIntersightSdcardPolicyPartitionsVirtualDrives[] | cdktf.IResolvable;
 }
@@ -2803,7 +2803,7 @@ export class DataIntersightSdcardPolicyPartitionsList extends cdktf.ComplexList 
 }
 export interface DataIntersightSdcardPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2811,19 +2811,19 @@ export interface DataIntersightSdcardPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2836,7 +2836,7 @@ export interface DataIntersightSdcardPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3068,7 +3068,7 @@ export class DataIntersightSdcardPolicyPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightSdcardPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3076,19 +3076,19 @@ export interface DataIntersightSdcardPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3101,7 +3101,7 @@ export interface DataIntersightSdcardPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3333,7 +3333,7 @@ export class DataIntersightSdcardPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface DataIntersightSdcardPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3341,19 +3341,19 @@ export interface DataIntersightSdcardPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3366,7 +3366,7 @@ export interface DataIntersightSdcardPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3598,7 +3598,7 @@ export class DataIntersightSdcardPolicyTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightSdcardPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3606,19 +3606,19 @@ export interface DataIntersightSdcardPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3631,7 +3631,7 @@ export interface DataIntersightSdcardPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3831,25 +3831,25 @@ export class DataIntersightSdcardPolicyTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightSdcardPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#key DataIntersightSdcardPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#key DataIntersightSdcardPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#propagated DataIntersightSdcardPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#propagated DataIntersightSdcardPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#sys_tag DataIntersightSdcardPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#sys_tag DataIntersightSdcardPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3857,25 +3857,25 @@ export interface DataIntersightSdcardPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#type DataIntersightSdcardPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#type DataIntersightSdcardPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#value DataIntersightSdcardPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#value DataIntersightSdcardPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#ancestor_definitions DataIntersightSdcardPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#ancestor_definitions DataIntersightSdcardPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSdcardPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#definition DataIntersightSdcardPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#definition DataIntersightSdcardPolicy#definition}
   */
   readonly definition?: DataIntersightSdcardPolicyTagsDefinition;
 }
@@ -4194,7 +4194,7 @@ export class DataIntersightSdcardPolicyTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightSdcardPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4202,19 +4202,19 @@ export interface DataIntersightSdcardPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4227,7 +4227,7 @@ export interface DataIntersightSdcardPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4459,7 +4459,7 @@ export class DataIntersightSdcardPolicyVersionContextInterestedMosList extends c
 }
 export interface DataIntersightSdcardPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4467,19 +4467,19 @@ export interface DataIntersightSdcardPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#moid DataIntersightSdcardPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4492,7 +4492,7 @@ export interface DataIntersightSdcardPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#selector DataIntersightSdcardPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4692,7 +4692,7 @@ export class DataIntersightSdcardPolicyVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightSdcardPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#additional_properties DataIntersightSdcardPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4700,32 +4700,32 @@ export interface DataIntersightSdcardPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#class_id DataIntersightSdcardPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#marked_for_deletion DataIntersightSdcardPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#marked_for_deletion DataIntersightSdcardPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#nr_version DataIntersightSdcardPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#nr_version DataIntersightSdcardPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#object_type DataIntersightSdcardPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#timestamp DataIntersightSdcardPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#timestamp DataIntersightSdcardPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4736,19 +4736,19 @@ export interface DataIntersightSdcardPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#version_type DataIntersightSdcardPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#version_type DataIntersightSdcardPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#interested_mos DataIntersightSdcardPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#interested_mos DataIntersightSdcardPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightSdcardPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#ref_mo DataIntersightSdcardPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#ref_mo DataIntersightSdcardPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightSdcardPolicyVersionContextRefMo;
 }
@@ -5064,7 +5064,7 @@ export class DataIntersightSdcardPolicyVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy intersight_sdcard_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy intersight_sdcard_policy}
 */
 export class DataIntersightSdcardPolicy extends cdktf.TerraformDataSource {
 
@@ -5080,7 +5080,7 @@ export class DataIntersightSdcardPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightSdcardPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSdcardPolicy to import
-  * @param importFromId The id of the existing DataIntersightSdcardPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSdcardPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSdcardPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5092,7 +5092,7 @@ export class DataIntersightSdcardPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/sdcard_policy intersight_sdcard_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/sdcard_policy intersight_sdcard_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5103,8 +5103,8 @@ export class DataIntersightSdcardPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_sdcard_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

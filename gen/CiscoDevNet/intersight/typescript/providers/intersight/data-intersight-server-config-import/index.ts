@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightServerConfigImportConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#account_moid DataIntersightServerConfigImport#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#account_moid DataIntersightServerConfigImport#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightServerConfigImportConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#create_time DataIntersightServerConfigImport#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#create_time DataIntersightServerConfigImport#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the imported profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#description DataIntersightServerConfigImport#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#description DataIntersightServerConfigImport#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#domain_group_moid DataIntersightServerConfigImport#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#domain_group_moid DataIntersightServerConfigImport#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#id DataIntersightServerConfigImport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#id DataIntersightServerConfigImport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,95 +53,95 @@ export interface DataIntersightServerConfigImportConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#mod_time DataIntersightServerConfigImport#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#mod_time DataIntersightServerConfigImport#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#owners DataIntersightServerConfigImport#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#owners DataIntersightServerConfigImport#owners}
   */
   readonly owners?: string[];
   /**
   * Policy prefix for the policies of the imported server profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#policy_prefix DataIntersightServerConfigImport#policy_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#policy_prefix DataIntersightServerConfigImport#policy_prefix}
   */
   readonly policyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#policy_types DataIntersightServerConfigImport#policy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#policy_types DataIntersightServerConfigImport#policy_types}
   */
   readonly policyTypes?: string[];
   /**
   * Profile name for the imported server profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#profile_name DataIntersightServerConfigImport#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#profile_name DataIntersightServerConfigImport#profile_name}
   */
   readonly profileName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#shared_scope DataIntersightServerConfigImport#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#shared_scope DataIntersightServerConfigImport#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#ancestors DataIntersightServerConfigImport#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#ancestors DataIntersightServerConfigImport#ancestors}
   */
   readonly ancestors?: DataIntersightServerConfigImportAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#organization DataIntersightServerConfigImport#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#organization DataIntersightServerConfigImport#organization}
   */
   readonly organization?: DataIntersightServerConfigImportOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#parent DataIntersightServerConfigImport#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#parent DataIntersightServerConfigImport#parent}
   */
   readonly parent?: DataIntersightServerConfigImportParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#permission_resources DataIntersightServerConfigImport#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#permission_resources DataIntersightServerConfigImport#permission_resources}
   */
   readonly permissionResources?: DataIntersightServerConfigImportPermissionResources[] | cdktf.IResolvable;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#server DataIntersightServerConfigImport#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#server DataIntersightServerConfigImport#server}
   */
   readonly server?: DataIntersightServerConfigImportServer;
   /**
   * server_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#server_profile DataIntersightServerConfigImport#server_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#server_profile DataIntersightServerConfigImport#server_profile}
   */
   readonly serverProfile?: DataIntersightServerConfigImportServerProfile;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#tags DataIntersightServerConfigImport#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#tags DataIntersightServerConfigImport#tags}
   */
   readonly tags?: DataIntersightServerConfigImportTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#version_context DataIntersightServerConfigImport#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#version_context DataIntersightServerConfigImport#version_context}
   */
   readonly versionContext?: DataIntersightServerConfigImportVersionContext;
 }
@@ -1514,7 +1514,7 @@ export class DataIntersightServerConfigImportResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightServerConfigImportAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1522,19 +1522,19 @@ export interface DataIntersightServerConfigImportAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1547,7 +1547,7 @@ export interface DataIntersightServerConfigImportAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -1779,7 +1779,7 @@ export class DataIntersightServerConfigImportAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightServerConfigImportOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1787,19 +1787,19 @@ export interface DataIntersightServerConfigImportOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1812,7 +1812,7 @@ export interface DataIntersightServerConfigImportOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -2012,7 +2012,7 @@ export class DataIntersightServerConfigImportOrganizationOutputReference extends
 }
 export interface DataIntersightServerConfigImportParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2020,19 +2020,19 @@ export interface DataIntersightServerConfigImportParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2045,7 +2045,7 @@ export interface DataIntersightServerConfigImportParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -2245,7 +2245,7 @@ export class DataIntersightServerConfigImportParentOutputReference extends cdktf
 }
 export interface DataIntersightServerConfigImportPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2253,19 +2253,19 @@ export interface DataIntersightServerConfigImportPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2278,7 +2278,7 @@ export interface DataIntersightServerConfigImportPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -2510,7 +2510,7 @@ export class DataIntersightServerConfigImportPermissionResourcesList extends cdk
 }
 export interface DataIntersightServerConfigImportServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2518,19 +2518,19 @@ export interface DataIntersightServerConfigImportServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2543,7 +2543,7 @@ export interface DataIntersightServerConfigImportServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -2743,7 +2743,7 @@ export class DataIntersightServerConfigImportServerOutputReference extends cdktf
 }
 export interface DataIntersightServerConfigImportServerProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2751,19 +2751,19 @@ export interface DataIntersightServerConfigImportServerProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2776,7 +2776,7 @@ export interface DataIntersightServerConfigImportServerProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -2976,7 +2976,7 @@ export class DataIntersightServerConfigImportServerProfileOutputReference extend
 }
 export interface DataIntersightServerConfigImportTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2984,19 +2984,19 @@ export interface DataIntersightServerConfigImportTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3009,7 +3009,7 @@ export interface DataIntersightServerConfigImportTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -3241,7 +3241,7 @@ export class DataIntersightServerConfigImportTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightServerConfigImportTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3249,19 +3249,19 @@ export interface DataIntersightServerConfigImportTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3274,7 +3274,7 @@ export interface DataIntersightServerConfigImportTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -3474,25 +3474,25 @@ export class DataIntersightServerConfigImportTagsDefinitionOutputReference exten
 }
 export interface DataIntersightServerConfigImportTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#key DataIntersightServerConfigImport#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#key DataIntersightServerConfigImport#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#propagated DataIntersightServerConfigImport#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#propagated DataIntersightServerConfigImport#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#sys_tag DataIntersightServerConfigImport#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#sys_tag DataIntersightServerConfigImport#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3500,25 +3500,25 @@ export interface DataIntersightServerConfigImportTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#type DataIntersightServerConfigImport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#type DataIntersightServerConfigImport#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#value DataIntersightServerConfigImport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#value DataIntersightServerConfigImport#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#ancestor_definitions DataIntersightServerConfigImport#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#ancestor_definitions DataIntersightServerConfigImport#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightServerConfigImportTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#definition DataIntersightServerConfigImport#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#definition DataIntersightServerConfigImport#definition}
   */
   readonly definition?: DataIntersightServerConfigImportTagsDefinition;
 }
@@ -3837,7 +3837,7 @@ export class DataIntersightServerConfigImportTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightServerConfigImportVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3845,19 +3845,19 @@ export interface DataIntersightServerConfigImportVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3870,7 +3870,7 @@ export interface DataIntersightServerConfigImportVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -4102,7 +4102,7 @@ export class DataIntersightServerConfigImportVersionContextInterestedMosList ext
 }
 export interface DataIntersightServerConfigImportVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4110,19 +4110,19 @@ export interface DataIntersightServerConfigImportVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#moid DataIntersightServerConfigImport#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4135,7 +4135,7 @@ export interface DataIntersightServerConfigImportVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#selector DataIntersightServerConfigImport#selector}
   */
   readonly selector?: string;
 }
@@ -4335,7 +4335,7 @@ export class DataIntersightServerConfigImportVersionContextRefMoOutputReference 
 }
 export interface DataIntersightServerConfigImportVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#additional_properties DataIntersightServerConfigImport#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4343,32 +4343,32 @@ export interface DataIntersightServerConfigImportVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#class_id DataIntersightServerConfigImport#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#marked_for_deletion DataIntersightServerConfigImport#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#marked_for_deletion DataIntersightServerConfigImport#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#nr_version DataIntersightServerConfigImport#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#nr_version DataIntersightServerConfigImport#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#object_type DataIntersightServerConfigImport#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#timestamp DataIntersightServerConfigImport#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#timestamp DataIntersightServerConfigImport#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4379,19 +4379,19 @@ export interface DataIntersightServerConfigImportVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#version_type DataIntersightServerConfigImport#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#version_type DataIntersightServerConfigImport#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#interested_mos DataIntersightServerConfigImport#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#interested_mos DataIntersightServerConfigImport#interested_mos}
   */
   readonly interestedMos?: DataIntersightServerConfigImportVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#ref_mo DataIntersightServerConfigImport#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#ref_mo DataIntersightServerConfigImport#ref_mo}
   */
   readonly refMo?: DataIntersightServerConfigImportVersionContextRefMo;
 }
@@ -4707,7 +4707,7 @@ export class DataIntersightServerConfigImportVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import intersight_server_config_import}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import intersight_server_config_import}
 */
 export class DataIntersightServerConfigImport extends cdktf.TerraformDataSource {
 
@@ -4723,7 +4723,7 @@ export class DataIntersightServerConfigImport extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightServerConfigImport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightServerConfigImport to import
-  * @param importFromId The id of the existing DataIntersightServerConfigImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightServerConfigImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightServerConfigImport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4735,7 +4735,7 @@ export class DataIntersightServerConfigImport extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_import intersight_server_config_import} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_import intersight_server_config_import} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4746,8 +4746,8 @@ export class DataIntersightServerConfigImport extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_server_config_import',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

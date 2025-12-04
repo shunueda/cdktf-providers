@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightVirtualizationVmwareHostGpuConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#account_moid DataIntersightVirtualizationVmwareHostGpu#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#account_moid DataIntersightVirtualizationVmwareHostGpu#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The bus ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#bus DataIntersightVirtualizationVmwareHostGpu#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#bus DataIntersightVirtualizationVmwareHostGpu#bus}
   */
   readonly bus?: number;
   /**
@@ -29,41 +29,41 @@ export interface DataIntersightVirtualizationVmwareHostGpuConfig extends cdktf.T
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#create_time DataIntersightVirtualizationVmwareHostGpu#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#create_time DataIntersightVirtualizationVmwareHostGpu#create_time}
   */
   readonly createTime?: string;
   /**
   * The device ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#device_id DataIntersightVirtualizationVmwareHostGpu#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#device_id DataIntersightVirtualizationVmwareHostGpu#device_id}
   */
   readonly deviceId?: number;
   /**
   * The device name of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#device_name DataIntersightVirtualizationVmwareHostGpu#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#device_name DataIntersightVirtualizationVmwareHostGpu#device_name}
   */
   readonly deviceName?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#domain_group_moid DataIntersightVirtualizationVmwareHostGpu#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#domain_group_moid DataIntersightVirtualizationVmwareHostGpu#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The function ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#function DataIntersightVirtualizationVmwareHostGpu#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#function DataIntersightVirtualizationVmwareHostGpu#function}
   */
   readonly function?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#id DataIntersightVirtualizationVmwareHostGpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#id DataIntersightVirtualizationVmwareHostGpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,19 +72,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuConfig extends cdktf.T
   /**
   * The internally generated identity of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#identity DataIntersightVirtualizationVmwareHostGpu#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#identity DataIntersightVirtualizationVmwareHostGpu#identity}
   */
   readonly identity?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#mod_time DataIntersightVirtualizationVmwareHostGpu#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#mod_time DataIntersightVirtualizationVmwareHostGpu#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
@@ -92,17 +92,17 @@ export interface DataIntersightVirtualizationVmwareHostGpuConfig extends cdktf.T
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#owners DataIntersightVirtualizationVmwareHostGpu#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#owners DataIntersightVirtualizationVmwareHostGpu#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates if passthrough is active for this PCI device (meaning enabled + rebooted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#passthrough_active DataIntersightVirtualizationVmwareHostGpu#passthrough_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#passthrough_active DataIntersightVirtualizationVmwareHostGpu#passthrough_active}
   */
   readonly passthroughActive?: boolean | cdktf.IResolvable;
   /**
@@ -110,104 +110,104 @@ export interface DataIntersightVirtualizationVmwareHostGpuConfig extends cdktf.T
   * PCI passthrough feature enables you to access and manage hardware devices from a virtual machine.
   * When PCI passthrough is configured, the PCI devices function as if they were physically attached to the guest operating system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#passthrough_enabled DataIntersightVirtualizationVmwareHostGpu#passthrough_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#passthrough_enabled DataIntersightVirtualizationVmwareHostGpu#passthrough_enabled}
   */
   readonly passthroughEnabled?: boolean | cdktf.IResolvable;
   /**
   * The class ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#pci_class_id DataIntersightVirtualizationVmwareHostGpu#pci_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#pci_class_id DataIntersightVirtualizationVmwareHostGpu#pci_class_id}
   */
   readonly pciClassId?: number;
   /**
   * The ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#pci_id DataIntersightVirtualizationVmwareHostGpu#pci_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#pci_id DataIntersightVirtualizationVmwareHostGpu#pci_id}
   */
   readonly pciId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#shared_scope DataIntersightVirtualizationVmwareHostGpu#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#shared_scope DataIntersightVirtualizationVmwareHostGpu#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The slot ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#slot DataIntersightVirtualizationVmwareHostGpu#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#slot DataIntersightVirtualizationVmwareHostGpu#slot}
   */
   readonly slot?: number;
   /**
   * The sub device ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#sub_device_id DataIntersightVirtualizationVmwareHostGpu#sub_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#sub_device_id DataIntersightVirtualizationVmwareHostGpu#sub_device_id}
   */
   readonly subDeviceId?: number;
   /**
   * The sub vendor ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#sub_vendor_id DataIntersightVirtualizationVmwareHostGpu#sub_vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#sub_vendor_id DataIntersightVirtualizationVmwareHostGpu#sub_vendor_id}
   */
   readonly subVendorId?: number;
   /**
   * The vendor ID of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#vendor_id DataIntersightVirtualizationVmwareHostGpu#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#vendor_id DataIntersightVirtualizationVmwareHostGpu#vendor_id}
   */
   readonly vendorId?: number;
   /**
   * The vendor name of this PCI device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#vendor_name DataIntersightVirtualizationVmwareHostGpu#vendor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#vendor_name DataIntersightVirtualizationVmwareHostGpu#vendor_name}
   */
   readonly vendorName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#ancestors DataIntersightVirtualizationVmwareHostGpu#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#ancestors DataIntersightVirtualizationVmwareHostGpu#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareHostGpuAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#cluster DataIntersightVirtualizationVmwareHostGpu#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#cluster DataIntersightVirtualizationVmwareHostGpu#cluster}
   */
   readonly cluster?: DataIntersightVirtualizationVmwareHostGpuCluster;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#host DataIntersightVirtualizationVmwareHostGpu#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#host DataIntersightVirtualizationVmwareHostGpu#host}
   */
   readonly host?: DataIntersightVirtualizationVmwareHostGpuHost;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#parent DataIntersightVirtualizationVmwareHostGpu#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#parent DataIntersightVirtualizationVmwareHostGpu#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareHostGpuParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#permission_resources DataIntersightVirtualizationVmwareHostGpu#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#permission_resources DataIntersightVirtualizationVmwareHostGpu#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareHostGpuPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#registered_device DataIntersightVirtualizationVmwareHostGpu#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#registered_device DataIntersightVirtualizationVmwareHostGpu#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareHostGpuRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#tags DataIntersightVirtualizationVmwareHostGpu#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#tags DataIntersightVirtualizationVmwareHostGpu#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareHostGpuTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#version_context DataIntersightVirtualizationVmwareHostGpu#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#version_context DataIntersightVirtualizationVmwareHostGpu#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareHostGpuVersionContext;
 }
@@ -1630,7 +1630,7 @@ export class DataIntersightVirtualizationVmwareHostGpuResultsList extends cdktf.
 }
 export interface DataIntersightVirtualizationVmwareHostGpuAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1638,19 +1638,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1663,7 +1663,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -1895,7 +1895,7 @@ export class DataIntersightVirtualizationVmwareHostGpuAncestorsList extends cdkt
 }
 export interface DataIntersightVirtualizationVmwareHostGpuCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1903,19 +1903,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1928,7 +1928,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2128,7 +2128,7 @@ export class DataIntersightVirtualizationVmwareHostGpuClusterOutputReference ext
 }
 export interface DataIntersightVirtualizationVmwareHostGpuHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2136,19 +2136,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuHost {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2161,7 +2161,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuHost {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2361,7 +2361,7 @@ export class DataIntersightVirtualizationVmwareHostGpuHostOutputReference extend
 }
 export interface DataIntersightVirtualizationVmwareHostGpuParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2369,19 +2369,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2394,7 +2394,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2594,7 +2594,7 @@ export class DataIntersightVirtualizationVmwareHostGpuParentOutputReference exte
 }
 export interface DataIntersightVirtualizationVmwareHostGpuPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2602,19 +2602,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2627,7 +2627,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -2859,7 +2859,7 @@ export class DataIntersightVirtualizationVmwareHostGpuPermissionResourcesList ex
 }
 export interface DataIntersightVirtualizationVmwareHostGpuRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2867,19 +2867,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2892,7 +2892,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3092,7 +3092,7 @@ export class DataIntersightVirtualizationVmwareHostGpuRegisteredDeviceOutputRefe
 }
 export interface DataIntersightVirtualizationVmwareHostGpuTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3100,19 +3100,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3125,7 +3125,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3357,7 +3357,7 @@ export class DataIntersightVirtualizationVmwareHostGpuTagsAncestorDefinitionsLis
 }
 export interface DataIntersightVirtualizationVmwareHostGpuTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3365,19 +3365,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3390,7 +3390,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -3590,25 +3590,25 @@ export class DataIntersightVirtualizationVmwareHostGpuTagsDefinitionOutputRefere
 }
 export interface DataIntersightVirtualizationVmwareHostGpuTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#key DataIntersightVirtualizationVmwareHostGpu#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#key DataIntersightVirtualizationVmwareHostGpu#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#propagated DataIntersightVirtualizationVmwareHostGpu#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#propagated DataIntersightVirtualizationVmwareHostGpu#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#sys_tag DataIntersightVirtualizationVmwareHostGpu#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#sys_tag DataIntersightVirtualizationVmwareHostGpu#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3616,25 +3616,25 @@ export interface DataIntersightVirtualizationVmwareHostGpuTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#type DataIntersightVirtualizationVmwareHostGpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#type DataIntersightVirtualizationVmwareHostGpu#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#value DataIntersightVirtualizationVmwareHostGpu#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#value DataIntersightVirtualizationVmwareHostGpu#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#ancestor_definitions DataIntersightVirtualizationVmwareHostGpu#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#ancestor_definitions DataIntersightVirtualizationVmwareHostGpu#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareHostGpuTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#definition DataIntersightVirtualizationVmwareHostGpu#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#definition DataIntersightVirtualizationVmwareHostGpu#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareHostGpuTagsDefinition;
 }
@@ -3953,7 +3953,7 @@ export class DataIntersightVirtualizationVmwareHostGpuTagsList extends cdktf.Com
 }
 export interface DataIntersightVirtualizationVmwareHostGpuVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3961,19 +3961,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3986,7 +3986,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -4218,7 +4218,7 @@ export class DataIntersightVirtualizationVmwareHostGpuVersionContextInterestedMo
 }
 export interface DataIntersightVirtualizationVmwareHostGpuVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4226,19 +4226,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#moid DataIntersightVirtualizationVmwareHostGpu#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4251,7 +4251,7 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#selector DataIntersightVirtualizationVmwareHostGpu#selector}
   */
   readonly selector?: string;
 }
@@ -4451,7 +4451,7 @@ export class DataIntersightVirtualizationVmwareHostGpuVersionContextRefMoOutputR
 }
 export interface DataIntersightVirtualizationVmwareHostGpuVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#additional_properties DataIntersightVirtualizationVmwareHostGpu#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4459,32 +4459,32 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#class_id DataIntersightVirtualizationVmwareHostGpu#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#marked_for_deletion DataIntersightVirtualizationVmwareHostGpu#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#marked_for_deletion DataIntersightVirtualizationVmwareHostGpu#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#nr_version DataIntersightVirtualizationVmwareHostGpu#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#nr_version DataIntersightVirtualizationVmwareHostGpu#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#object_type DataIntersightVirtualizationVmwareHostGpu#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#timestamp DataIntersightVirtualizationVmwareHostGpu#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#timestamp DataIntersightVirtualizationVmwareHostGpu#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4495,19 +4495,19 @@ export interface DataIntersightVirtualizationVmwareHostGpuVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#version_type DataIntersightVirtualizationVmwareHostGpu#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#version_type DataIntersightVirtualizationVmwareHostGpu#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#interested_mos DataIntersightVirtualizationVmwareHostGpu#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#interested_mos DataIntersightVirtualizationVmwareHostGpu#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareHostGpuVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#ref_mo DataIntersightVirtualizationVmwareHostGpu#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#ref_mo DataIntersightVirtualizationVmwareHostGpu#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareHostGpuVersionContextRefMo;
 }
@@ -4823,7 +4823,7 @@ export class DataIntersightVirtualizationVmwareHostGpuVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu intersight_virtualization_vmware_host_gpu}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu intersight_virtualization_vmware_host_gpu}
 */
 export class DataIntersightVirtualizationVmwareHostGpu extends cdktf.TerraformDataSource {
 
@@ -4839,7 +4839,7 @@ export class DataIntersightVirtualizationVmwareHostGpu extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareHostGpu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareHostGpu to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareHostGpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareHostGpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareHostGpu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4851,7 +4851,7 @@ export class DataIntersightVirtualizationVmwareHostGpu extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_host_gpu intersight_virtualization_vmware_host_gpu} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_host_gpu intersight_virtualization_vmware_host_gpu} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4862,8 +4862,8 @@ export class DataIntersightVirtualizationVmwareHostGpu extends cdktf.TerraformDa
       terraformResourceType: 'intersight_virtualization_vmware_host_gpu',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

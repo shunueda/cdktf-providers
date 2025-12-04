@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightIamUserPreferenceConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#account_moid DataIntersightIamUserPreference#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#account_moid DataIntersightIamUserPreference#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightIamUserPreferenceConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#create_time DataIntersightIamUserPreference#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#create_time DataIntersightIamUserPreference#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#domain_group_moid DataIntersightIamUserPreference#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#domain_group_moid DataIntersightIamUserPreference#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#id DataIntersightIamUserPreference#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#id DataIntersightIamUserPreference#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightIamUserPreferenceConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#mod_time DataIntersightIamUserPreference#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#mod_time DataIntersightIamUserPreference#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#owners DataIntersightIamUserPreference#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#owners DataIntersightIamUserPreference#owners}
   */
   readonly owners?: string[];
   /**
   * UI preferences of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#preference DataIntersightIamUserPreference#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#preference DataIntersightIamUserPreference#preference}
   */
   readonly preference?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#shared_scope DataIntersightIamUserPreference#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#shared_scope DataIntersightIamUserPreference#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Unique id of the user used by the identity provider to store the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#user_unique_identifier DataIntersightIamUserPreference#user_unique_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#user_unique_identifier DataIntersightIamUserPreference#user_unique_identifier}
   */
   readonly userUniqueIdentifier?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#ancestors DataIntersightIamUserPreference#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#ancestors DataIntersightIamUserPreference#ancestors}
   */
   readonly ancestors?: DataIntersightIamUserPreferenceAncestors[] | cdktf.IResolvable;
   /**
   * idp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#idp DataIntersightIamUserPreference#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#idp DataIntersightIamUserPreference#idp}
   */
   readonly idp?: DataIntersightIamUserPreferenceIdp;
   /**
   * idp_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#idp_reference DataIntersightIamUserPreference#idp_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#idp_reference DataIntersightIamUserPreference#idp_reference}
   */
   readonly idpReference?: DataIntersightIamUserPreferenceIdpReference;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#parent DataIntersightIamUserPreference#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#parent DataIntersightIamUserPreference#parent}
   */
   readonly parent?: DataIntersightIamUserPreferenceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#permission_resources DataIntersightIamUserPreference#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#permission_resources DataIntersightIamUserPreference#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamUserPreferencePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#tags DataIntersightIamUserPreference#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#tags DataIntersightIamUserPreference#tags}
   */
   readonly tags?: DataIntersightIamUserPreferenceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#version_context DataIntersightIamUserPreference#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#version_context DataIntersightIamUserPreference#version_context}
   */
   readonly versionContext?: DataIntersightIamUserPreferenceVersionContext;
 }
@@ -1387,7 +1387,7 @@ export class DataIntersightIamUserPreferenceResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIamUserPreferenceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1395,19 +1395,19 @@ export interface DataIntersightIamUserPreferenceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1420,7 +1420,7 @@ export interface DataIntersightIamUserPreferenceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -1652,7 +1652,7 @@ export class DataIntersightIamUserPreferenceAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightIamUserPreferenceIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1660,19 +1660,19 @@ export interface DataIntersightIamUserPreferenceIdp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1685,7 +1685,7 @@ export interface DataIntersightIamUserPreferenceIdp {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -1885,7 +1885,7 @@ export class DataIntersightIamUserPreferenceIdpOutputReference extends cdktf.Com
 }
 export interface DataIntersightIamUserPreferenceIdpReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1893,19 +1893,19 @@ export interface DataIntersightIamUserPreferenceIdpReference {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1918,7 +1918,7 @@ export interface DataIntersightIamUserPreferenceIdpReference {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -2118,7 +2118,7 @@ export class DataIntersightIamUserPreferenceIdpReferenceOutputReference extends 
 }
 export interface DataIntersightIamUserPreferenceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2126,19 +2126,19 @@ export interface DataIntersightIamUserPreferenceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2151,7 +2151,7 @@ export interface DataIntersightIamUserPreferenceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -2351,7 +2351,7 @@ export class DataIntersightIamUserPreferenceParentOutputReference extends cdktf.
 }
 export interface DataIntersightIamUserPreferencePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2359,19 +2359,19 @@ export interface DataIntersightIamUserPreferencePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2384,7 +2384,7 @@ export interface DataIntersightIamUserPreferencePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -2616,7 +2616,7 @@ export class DataIntersightIamUserPreferencePermissionResourcesList extends cdkt
 }
 export interface DataIntersightIamUserPreferenceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2624,19 +2624,19 @@ export interface DataIntersightIamUserPreferenceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2649,7 +2649,7 @@ export interface DataIntersightIamUserPreferenceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -2881,7 +2881,7 @@ export class DataIntersightIamUserPreferenceTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightIamUserPreferenceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2889,19 +2889,19 @@ export interface DataIntersightIamUserPreferenceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2914,7 +2914,7 @@ export interface DataIntersightIamUserPreferenceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -3114,25 +3114,25 @@ export class DataIntersightIamUserPreferenceTagsDefinitionOutputReference extend
 }
 export interface DataIntersightIamUserPreferenceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#key DataIntersightIamUserPreference#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#key DataIntersightIamUserPreference#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#propagated DataIntersightIamUserPreference#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#propagated DataIntersightIamUserPreference#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#sys_tag DataIntersightIamUserPreference#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#sys_tag DataIntersightIamUserPreference#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3140,25 +3140,25 @@ export interface DataIntersightIamUserPreferenceTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#type DataIntersightIamUserPreference#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#type DataIntersightIamUserPreference#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#value DataIntersightIamUserPreference#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#value DataIntersightIamUserPreference#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#ancestor_definitions DataIntersightIamUserPreference#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#ancestor_definitions DataIntersightIamUserPreference#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamUserPreferenceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#definition DataIntersightIamUserPreference#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#definition DataIntersightIamUserPreference#definition}
   */
   readonly definition?: DataIntersightIamUserPreferenceTagsDefinition;
 }
@@ -3477,7 +3477,7 @@ export class DataIntersightIamUserPreferenceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamUserPreferenceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3485,19 +3485,19 @@ export interface DataIntersightIamUserPreferenceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3510,7 +3510,7 @@ export interface DataIntersightIamUserPreferenceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -3742,7 +3742,7 @@ export class DataIntersightIamUserPreferenceVersionContextInterestedMosList exte
 }
 export interface DataIntersightIamUserPreferenceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3750,19 +3750,19 @@ export interface DataIntersightIamUserPreferenceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#moid DataIntersightIamUserPreference#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3775,7 +3775,7 @@ export interface DataIntersightIamUserPreferenceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#selector DataIntersightIamUserPreference#selector}
   */
   readonly selector?: string;
 }
@@ -3975,7 +3975,7 @@ export class DataIntersightIamUserPreferenceVersionContextRefMoOutputReference e
 }
 export interface DataIntersightIamUserPreferenceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#additional_properties DataIntersightIamUserPreference#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3983,32 +3983,32 @@ export interface DataIntersightIamUserPreferenceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#class_id DataIntersightIamUserPreference#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#marked_for_deletion DataIntersightIamUserPreference#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#marked_for_deletion DataIntersightIamUserPreference#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#nr_version DataIntersightIamUserPreference#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#nr_version DataIntersightIamUserPreference#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#object_type DataIntersightIamUserPreference#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#timestamp DataIntersightIamUserPreference#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#timestamp DataIntersightIamUserPreference#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4019,19 +4019,19 @@ export interface DataIntersightIamUserPreferenceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#version_type DataIntersightIamUserPreference#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#version_type DataIntersightIamUserPreference#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#interested_mos DataIntersightIamUserPreference#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#interested_mos DataIntersightIamUserPreference#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamUserPreferenceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#ref_mo DataIntersightIamUserPreference#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#ref_mo DataIntersightIamUserPreference#ref_mo}
   */
   readonly refMo?: DataIntersightIamUserPreferenceVersionContextRefMo;
 }
@@ -4347,7 +4347,7 @@ export class DataIntersightIamUserPreferenceVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference intersight_iam_user_preference}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference intersight_iam_user_preference}
 */
 export class DataIntersightIamUserPreference extends cdktf.TerraformDataSource {
 
@@ -4363,7 +4363,7 @@ export class DataIntersightIamUserPreference extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamUserPreference resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamUserPreference to import
-  * @param importFromId The id of the existing DataIntersightIamUserPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamUserPreference that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamUserPreference to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4375,7 +4375,7 @@ export class DataIntersightIamUserPreference extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_user_preference intersight_iam_user_preference} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_user_preference intersight_iam_user_preference} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4386,8 +4386,8 @@ export class DataIntersightIamUserPreference extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_user_preference',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

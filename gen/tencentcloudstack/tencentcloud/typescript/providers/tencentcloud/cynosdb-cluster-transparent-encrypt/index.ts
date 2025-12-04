@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbClusterTransparentEncryptConfig extends cdktf.TerraformM
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#cluster_id CynosdbClusterTransparentEncrypt#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#cluster_id CynosdbClusterTransparentEncrypt#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#id CynosdbClusterTransparentEncrypt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#id CynosdbClusterTransparentEncrypt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface CynosdbClusterTransparentEncryptConfig extends cdktf.TerraformM
   /**
   * Whether to enable global encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#is_open_global_encryption CynosdbClusterTransparentEncrypt#is_open_global_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#is_open_global_encryption CynosdbClusterTransparentEncrypt#is_open_global_encryption}
   */
   readonly isOpenGlobalEncryption?: boolean | cdktf.IResolvable;
   /**
   * Key Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#key_id CynosdbClusterTransparentEncrypt#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#key_id CynosdbClusterTransparentEncrypt#key_id}
   */
   readonly keyId?: string;
   /**
   * Key region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#key_region CynosdbClusterTransparentEncrypt#key_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#key_region CynosdbClusterTransparentEncrypt#key_region}
   */
   readonly keyRegion?: string;
   /**
   * Key type (cloud, custom).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#key_type CynosdbClusterTransparentEncrypt#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#key_type CynosdbClusterTransparentEncrypt#key_type}
   */
   readonly keyType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt tencentcloud_cynosdb_cluster_transparent_encrypt}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt tencentcloud_cynosdb_cluster_transparent_encrypt}
 */
 export class CynosdbClusterTransparentEncrypt extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CynosdbClusterTransparentEncrypt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbClusterTransparentEncrypt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbClusterTransparentEncrypt to import
-  * @param importFromId The id of the existing CynosdbClusterTransparentEncrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbClusterTransparentEncrypt that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbClusterTransparentEncrypt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CynosdbClusterTransparentEncrypt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_transparent_encrypt tencentcloud_cynosdb_cluster_transparent_encrypt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_transparent_encrypt tencentcloud_cynosdb_cluster_transparent_encrypt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CynosdbClusterTransparentEncrypt extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster_transparent_encrypt',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

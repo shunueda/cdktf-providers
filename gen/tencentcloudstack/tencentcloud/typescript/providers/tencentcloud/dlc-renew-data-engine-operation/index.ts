@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DlcRenewDataEngineOperationConfig extends cdktf.TerraformMetaAr
   /**
   * CU queue name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#data_engine_name DlcRenewDataEngineOperation#data_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#data_engine_name DlcRenewDataEngineOperation#data_engine_name}
   */
   readonly dataEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#id DlcRenewDataEngineOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#id DlcRenewDataEngineOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DlcRenewDataEngineOperationConfig extends cdktf.TerraformMetaAr
   /**
   * Payment type. It is 1 by default and is prepaid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#pay_mode DlcRenewDataEngineOperation#pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#pay_mode DlcRenewDataEngineOperation#pay_mode}
   */
   readonly payMode?: number;
   /**
   * Auto-renewal flag: 0 means the initial status, and there is no automatic renewal by default. If the user has the privilege to retain services with prepayment, there will be an automatic renewal. 1 means that there is an automatic renewal. 2 means that there is surely no automatic renewal. If it is not specified, the parameter is 0 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#renew_flag DlcRenewDataEngineOperation#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#renew_flag DlcRenewDataEngineOperation#renew_flag}
   */
   readonly renewFlag?: number;
   /**
   * Renewal period in months, which is at least one month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#time_span DlcRenewDataEngineOperation#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#time_span DlcRenewDataEngineOperation#time_span}
   */
   readonly timeSpan: number;
   /**
   * Unit. It is m by default, and only m can be filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#time_unit DlcRenewDataEngineOperation#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#time_unit DlcRenewDataEngineOperation#time_unit}
   */
   readonly timeUnit?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation tencentcloud_dlc_renew_data_engine_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation tencentcloud_dlc_renew_data_engine_operation}
 */
 export class DlcRenewDataEngineOperation extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DlcRenewDataEngineOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DlcRenewDataEngineOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DlcRenewDataEngineOperation to import
-  * @param importFromId The id of the existing DlcRenewDataEngineOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DlcRenewDataEngineOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DlcRenewDataEngineOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DlcRenewDataEngineOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/dlc_renew_data_engine_operation tencentcloud_dlc_renew_data_engine_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/dlc_renew_data_engine_operation tencentcloud_dlc_renew_data_engine_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DlcRenewDataEngineOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dlc_renew_data_engine_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

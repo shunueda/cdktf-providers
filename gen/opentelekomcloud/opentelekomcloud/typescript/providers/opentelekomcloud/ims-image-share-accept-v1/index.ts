@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1
+// https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface ImsImageShareAcceptV1Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#id ImsImageShareAcceptV1#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#id ImsImageShareAcceptV1#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#image_id ImsImageShareAcceptV1#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#image_id ImsImageShareAcceptV1#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#vault_id ImsImageShareAcceptV1#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#vault_id ImsImageShareAcceptV1#vault_id}
   */
   readonly vaultId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#timeouts ImsImageShareAcceptV1#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#timeouts ImsImageShareAcceptV1#timeouts}
   */
   readonly timeouts?: ImsImageShareAcceptV1Timeouts;
 }
 export interface ImsImageShareAcceptV1Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#create ImsImageShareAcceptV1#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#create ImsImageShareAcceptV1#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#delete ImsImageShareAcceptV1#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#delete ImsImageShareAcceptV1#delete}
   */
   readonly delete?: string;
 }
@@ -158,7 +158,7 @@ export class ImsImageShareAcceptV1TimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1 opentelekomcloud_ims_image_share_accept_v1}
+* Represents a {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1 opentelekomcloud_ims_image_share_accept_v1}
 */
 export class ImsImageShareAcceptV1 extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class ImsImageShareAcceptV1 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImsImageShareAcceptV1 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImsImageShareAcceptV1 to import
-  * @param importFromId The id of the existing ImsImageShareAcceptV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImsImageShareAcceptV1 that should be imported. Refer to the {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImsImageShareAcceptV1 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class ImsImageShareAcceptV1 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.53/docs/resources/ims_image_share_accept_v1 opentelekomcloud_ims_image_share_accept_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/1.36.54/docs/resources/ims_image_share_accept_v1 opentelekomcloud_ims_image_share_accept_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class ImsImageShareAcceptV1 extends cdktf.TerraformResource {
       terraformResourceType: 'opentelekomcloud_ims_image_share_accept_v1',
       terraformGeneratorMetadata: {
         providerName: 'opentelekomcloud',
-        providerVersion: '1.36.53',
-        providerVersionConstraint: '1.36.53'
+        providerVersion: '1.36.54',
+        providerVersionConstraint: '1.36.54'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

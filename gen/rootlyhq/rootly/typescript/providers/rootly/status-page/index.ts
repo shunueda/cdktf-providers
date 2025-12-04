@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,75 +10,75 @@ export interface StatusPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow search engines to include your public status page in search results. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#allow_search_engine_index StatusPage#allow_search_engine_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#allow_search_engine_index StatusPage#allow_search_engine_index}
   */
   readonly allowSearchEngineIndex?: boolean | cdktf.IResolvable;
   /**
   * Enable authentication (deprecated - use authentication_method instead). Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#authentication_enabled StatusPage#authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#authentication_enabled StatusPage#authentication_enabled}
   */
   readonly authenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Authentication method. Value must be one of `none`, `password`, `saml`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#authentication_method StatusPage#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#authentication_method StatusPage#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Authentication password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#authentication_password StatusPage#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#authentication_password StatusPage#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * The description of the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#description StatusPage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#description StatusPage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#enabled StatusPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#enabled StatusPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * External domain names attached to the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#external_domain_names StatusPage#external_domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#external_domain_names StatusPage#external_domain_names}
   */
   readonly externalDomainNames?: string[];
   /**
   * Message showing when at least one component is not operational
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#failure_message StatusPage#failure_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#failure_message StatusPage#failure_message}
   */
   readonly failureMessage?: string;
   /**
   * The color of the footer. Eg. "#1F2F41"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#footer_color StatusPage#footer_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#footer_color StatusPage#footer_color}
   */
   readonly footerColor?: string;
   /**
   * Functionalities attached to the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#functionality_ids StatusPage#functionality_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#functionality_ids StatusPage#functionality_ids}
   */
   readonly functionalityIds?: string[];
   /**
   * Google Analytics tracking ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#ga_tracking_id StatusPage#ga_tracking_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#ga_tracking_id StatusPage#ga_tracking_id}
   */
   readonly gaTrackingId?: string;
   /**
   * The color of the header. Eg. "#0061F2"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#header_color StatusPage#header_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#header_color StatusPage#header_color}
   */
   readonly headerColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#id StatusPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#id StatusPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,115 +87,115 @@ export interface StatusPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Make the status page accessible to the public. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#public StatusPage#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#public StatusPage#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The public description of the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#public_description StatusPage#public_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#public_description StatusPage#public_description}
   */
   readonly publicDescription?: string;
   /**
   * The public title of the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#public_title StatusPage#public_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#public_title StatusPage#public_title}
   */
   readonly publicTitle?: string;
   /**
   * SAML IdP certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#saml_idp_cert StatusPage#saml_idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#saml_idp_cert StatusPage#saml_idp_cert}
   */
   readonly samlIdpCert?: string;
   /**
   * SAML IdP certificate fingerprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#saml_idp_cert_fingerprint StatusPage#saml_idp_cert_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#saml_idp_cert_fingerprint StatusPage#saml_idp_cert_fingerprint}
   */
   readonly samlIdpCertFingerprint?: string;
   /**
   * SAML IdP SLO service URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#saml_idp_slo_service_url StatusPage#saml_idp_slo_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#saml_idp_slo_service_url StatusPage#saml_idp_slo_service_url}
   */
   readonly samlIdpSloServiceUrl?: string;
   /**
   * SAML IdP SSO service URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#saml_idp_sso_service_url StatusPage#saml_idp_sso_service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#saml_idp_sso_service_url StatusPage#saml_idp_sso_service_url}
   */
   readonly samlIdpSsoServiceUrl?: string;
   /**
   * SAML name identifier format. Value must be one of `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`, `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent`, `urn:oasis:names:tc:SAML:2.0:nameid-format:transient`, `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#saml_name_identifier_format StatusPage#saml_name_identifier_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#saml_name_identifier_format StatusPage#saml_name_identifier_format}
   */
   readonly samlNameIdentifierFormat?: string;
   /**
   * Services attached to the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#service_ids StatusPage#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#service_ids StatusPage#service_ids}
   */
   readonly serviceIds?: string[];
   /**
   * Show uptime. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#show_uptime StatusPage#show_uptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#show_uptime StatusPage#show_uptime}
   */
   readonly showUptime?: boolean | cdktf.IResolvable;
   /**
   * Show uptime over x days. Value must be one of `30`, `60`, `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#show_uptime_last_days StatusPage#show_uptime_last_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#show_uptime_last_days StatusPage#show_uptime_last_days}
   */
   readonly showUptimeLastDays?: number;
   /**
   * The slug of the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#slug StatusPage#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#slug StatusPage#slug}
   */
   readonly slug?: string;
   /**
   * Message showing when all components are operational
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#success_message StatusPage#success_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#success_message StatusPage#success_message}
   */
   readonly successMessage?: string;
   /**
   * A valid IANA time zone name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#time_zone StatusPage#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#time_zone StatusPage#time_zone}
   */
   readonly timeZone?: string;
   /**
   * The title of the status page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#title StatusPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#title StatusPage#title}
   */
   readonly title: string;
   /**
   * Website Privacy URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#website_privacy_url StatusPage#website_privacy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#website_privacy_url StatusPage#website_privacy_url}
   */
   readonly websitePrivacyUrl?: string;
   /**
   * Website Support URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#website_support_url StatusPage#website_support_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#website_support_url StatusPage#website_support_url}
   */
   readonly websiteSupportUrl?: string;
   /**
   * Website URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#website_url StatusPage#website_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#website_url StatusPage#website_url}
   */
   readonly websiteUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page rootly_status_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page rootly_status_page}
 */
 export class StatusPage extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class StatusPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatusPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatusPage to import
-  * @param importFromId The id of the existing StatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatusPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatusPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class StatusPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/status_page rootly_status_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/status_page rootly_status_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class StatusPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_status_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `tencentcloud_mysql_switch_master_slave_operation`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_mysql_switch_master_slave_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_switch_master_slave_operation).
+Refer to the Terraform Registry for docs: [`tencentcloud_mysql_switch_master_slave_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_switch_master_slave_operation).

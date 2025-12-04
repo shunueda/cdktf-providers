@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMonitorAlarmConditionsTemplateConfig extends cd
   /**
   * Filter queries based on trigger condition template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#group_id DataTencentcloudMonitorAlarmConditionsTemplate#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#group_id DataTencentcloudMonitorAlarmConditionsTemplate#group_id}
   */
   readonly groupId?: string;
   /**
   * Filter queries based on trigger condition template names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#group_name DataTencentcloudMonitorAlarmConditionsTemplate#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#group_name DataTencentcloudMonitorAlarmConditionsTemplate#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#id DataTencentcloudMonitorAlarmConditionsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#id DataTencentcloudMonitorAlarmConditionsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataTencentcloudMonitorAlarmConditionsTemplateConfig extends cd
   /**
   * Fixed value, as&amp;amp;#39; monitor &amp;amp;#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#module DataTencentcloudMonitorAlarmConditionsTemplate#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#module DataTencentcloudMonitorAlarmConditionsTemplate#module}
   */
   readonly module: string;
   /**
   * Specify the sorting method based on the number of binding policies, asc=ascending, desc=descending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#policy_count_order DataTencentcloudMonitorAlarmConditionsTemplate#policy_count_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#policy_count_order DataTencentcloudMonitorAlarmConditionsTemplate#policy_count_order}
   */
   readonly policyCountOrder?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#result_output_file DataTencentcloudMonitorAlarmConditionsTemplate#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#result_output_file DataTencentcloudMonitorAlarmConditionsTemplate#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Specify the sorting method by update time, asc=ascending, desc=descending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#update_time_order DataTencentcloudMonitorAlarmConditionsTemplate#update_time_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#update_time_order DataTencentcloudMonitorAlarmConditionsTemplate#update_time_order}
   */
   readonly updateTimeOrder?: string;
   /**
   * View name, composed of [DescribeAllNamespaces]( https://cloud.tencent.com/document/product/248/48683 )Obtain. For cloud product monitoring, retrieve the QceNamespacesNew. N.ID parameter from the interface, such as cvm_ Device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#view_name DataTencentcloudMonitorAlarmConditionsTemplate#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#view_name DataTencentcloudMonitorAlarmConditionsTemplate#view_name}
   */
   readonly viewName?: string;
 }
@@ -703,7 +703,7 @@ export class DataTencentcloudMonitorAlarmConditionsTemplateTemplateGroupListStru
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template tencentcloud_monitor_alarm_conditions_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template tencentcloud_monitor_alarm_conditions_template}
 */
 export class DataTencentcloudMonitorAlarmConditionsTemplate extends cdktf.TerraformDataSource {
 
@@ -719,7 +719,7 @@ export class DataTencentcloudMonitorAlarmConditionsTemplate extends cdktf.Terraf
   * Generates CDKTF code for importing a DataTencentcloudMonitorAlarmConditionsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorAlarmConditionsTemplate to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmConditionsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmConditionsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorAlarmConditionsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -731,7 +731,7 @@ export class DataTencentcloudMonitorAlarmConditionsTemplate extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/monitor_alarm_conditions_template tencentcloud_monitor_alarm_conditions_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/monitor_alarm_conditions_template tencentcloud_monitor_alarm_conditions_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -742,8 +742,8 @@ export class DataTencentcloudMonitorAlarmConditionsTemplate extends cdktf.Terraf
       terraformResourceType: 'tencentcloud_monitor_alarm_conditions_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

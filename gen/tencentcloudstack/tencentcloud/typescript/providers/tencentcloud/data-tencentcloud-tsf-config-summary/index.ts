@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudTsfConfigSummaryConfig extends cdktf.TerraformM
   /**
   * Application ID. If not passed, the query will be for all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#application_id DataTencentcloudTsfConfigSummary#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#application_id DataTencentcloudTsfConfigSummary#application_id}
   */
   readonly applicationId?: string;
   /**
   * Config Id List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#config_id_list DataTencentcloudTsfConfigSummary#config_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#config_id_list DataTencentcloudTsfConfigSummary#config_id_list}
   */
   readonly configIdList?: string[];
   /**
   * config tag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#config_tag_list DataTencentcloudTsfConfigSummary#config_tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#config_tag_list DataTencentcloudTsfConfigSummary#config_tag_list}
   */
   readonly configTagList?: string[];
   /**
   * Whether to disable dataset authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#disable_program_auth_check DataTencentcloudTsfConfigSummary#disable_program_auth_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#disable_program_auth_check DataTencentcloudTsfConfigSummary#disable_program_auth_check}
   */
   readonly disableProgramAuthCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#id DataTencentcloudTsfConfigSummary#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#id DataTencentcloudTsfConfigSummary#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DataTencentcloudTsfConfigSummaryConfig extends cdktf.TerraformM
   /**
   * Order term. support Sort by time: creation_time; or Sort by name: config_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#order_by DataTencentcloudTsfConfigSummary#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#order_by DataTencentcloudTsfConfigSummary#order_by}
   */
   readonly orderBy?: string;
   /**
   * Pass 0 for ascending order and 1 for descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#order_type DataTencentcloudTsfConfigSummary#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#order_type DataTencentcloudTsfConfigSummary#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#result_output_file DataTencentcloudTsfConfigSummary#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#result_output_file DataTencentcloudTsfConfigSummary#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Query keyword, fuzzy query: application name, configuration item name. If not passed, the query will be for all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#search_word DataTencentcloudTsfConfigSummary#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#search_word DataTencentcloudTsfConfigSummary#search_word}
   */
   readonly searchWord?: string;
 }
@@ -276,7 +276,7 @@ export class DataTencentcloudTsfConfigSummaryResultList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary tencentcloud_tsf_config_summary}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary tencentcloud_tsf_config_summary}
 */
 export class DataTencentcloudTsfConfigSummary extends cdktf.TerraformDataSource {
 
@@ -292,7 +292,7 @@ export class DataTencentcloudTsfConfigSummary extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudTsfConfigSummary resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfConfigSummary to import
-  * @param importFromId The id of the existing DataTencentcloudTsfConfigSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfConfigSummary that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfConfigSummary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -304,7 +304,7 @@ export class DataTencentcloudTsfConfigSummary extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_config_summary tencentcloud_tsf_config_summary} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_config_summary tencentcloud_tsf_config_summary} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,8 +315,8 @@ export class DataTencentcloudTsfConfigSummary extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_tsf_config_summary',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

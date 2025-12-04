@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApplianceRestoreConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#account_moid DataIntersightApplianceRestore#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#account_moid DataIntersightApplianceRestore#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightApplianceRestoreConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#create_time DataIntersightApplianceRestore#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#create_time DataIntersightApplianceRestore#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#domain_group_moid DataIntersightApplianceRestore#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#domain_group_moid DataIntersightApplianceRestore#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Elapsed time in seconds since the restore process has started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#elapsed_time DataIntersightApplianceRestore#elapsed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#elapsed_time DataIntersightApplianceRestore#elapsed_time}
   */
   readonly elapsedTime?: number;
   /**
   * End date and time of the restore process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#end_time DataIntersightApplianceRestore#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#end_time DataIntersightApplianceRestore#end_time}
   */
   readonly endTime?: string;
   /**
   * Backup filename to backup or restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#filename DataIntersightApplianceRestore#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#filename DataIntersightApplianceRestore#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#id DataIntersightApplianceRestore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#id DataIntersightApplianceRestore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,40 +65,40 @@ export interface DataIntersightApplianceRestoreConfig extends cdktf.TerraformMet
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#is_password_set DataIntersightApplianceRestore#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#is_password_set DataIntersightApplianceRestore#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#messages DataIntersightApplianceRestore#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#messages DataIntersightApplianceRestore#messages}
   */
   readonly messages?: string[];
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#mod_time DataIntersightApplianceRestore#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#mod_time DataIntersightApplianceRestore#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#owners DataIntersightApplianceRestore#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#owners DataIntersightApplianceRestore#owners}
   */
   readonly owners?: string[];
   /**
   * Password for authenticating with the file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#password DataIntersightApplianceRestore#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#password DataIntersightApplianceRestore#password}
   */
   readonly password?: string;
   /**
@@ -107,38 +107,38 @@ export interface DataIntersightApplianceRestoreConfig extends cdktf.TerraformMet
   * * `sftp` - SSH File Transfer Protocol (SFTP) to access file server.
   * * `cifs` - Common Internet File System (CIFS) Protocol to access file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#protocol DataIntersightApplianceRestore#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#protocol DataIntersightApplianceRestore#protocol}
   */
   readonly protocol?: string;
   /**
   * Hostname of the remote file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#remote_host DataIntersightApplianceRestore#remote_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#remote_host DataIntersightApplianceRestore#remote_host}
   */
   readonly remoteHost?: string;
   /**
   * File server directory or share name to copy the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#remote_path DataIntersightApplianceRestore#remote_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#remote_path DataIntersightApplianceRestore#remote_path}
   */
   readonly remotePath?: string;
   /**
   * Remote TCP port on the file server (e.g. 22 for scp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#remote_port DataIntersightApplianceRestore#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#remote_port DataIntersightApplianceRestore#remote_port}
   */
   readonly remotePort?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#shared_scope DataIntersightApplianceRestore#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#shared_scope DataIntersightApplianceRestore#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start date and time of the restore process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#start_time DataIntersightApplianceRestore#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#start_time DataIntersightApplianceRestore#start_time}
   */
   readonly startTime?: string;
   /**
@@ -150,49 +150,49 @@ export interface DataIntersightApplianceRestoreConfig extends cdktf.TerraformMet
   * * `Copied` - Backup file has been copied.
   * * `Cleanup Failed` - Cleanup of the old backup has failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#status DataIntersightApplianceRestore#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#status DataIntersightApplianceRestore#status}
   */
   readonly status?: string;
   /**
   * Username to authenticate the fileserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#username DataIntersightApplianceRestore#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#username DataIntersightApplianceRestore#username}
   */
   readonly username?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#account DataIntersightApplianceRestore#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#account DataIntersightApplianceRestore#account}
   */
   readonly account?: DataIntersightApplianceRestoreAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#ancestors DataIntersightApplianceRestore#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#ancestors DataIntersightApplianceRestore#ancestors}
   */
   readonly ancestors?: DataIntersightApplianceRestoreAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#parent DataIntersightApplianceRestore#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#parent DataIntersightApplianceRestore#parent}
   */
   readonly parent?: DataIntersightApplianceRestoreParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#permission_resources DataIntersightApplianceRestore#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#permission_resources DataIntersightApplianceRestore#permission_resources}
   */
   readonly permissionResources?: DataIntersightApplianceRestorePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#tags DataIntersightApplianceRestore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#tags DataIntersightApplianceRestore#tags}
   */
   readonly tags?: DataIntersightApplianceRestoreTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#version_context DataIntersightApplianceRestore#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#version_context DataIntersightApplianceRestore#version_context}
   */
   readonly versionContext?: DataIntersightApplianceRestoreVersionContext;
 }
@@ -1408,7 +1408,7 @@ export class DataIntersightApplianceRestoreResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightApplianceRestoreAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1416,19 +1416,19 @@ export interface DataIntersightApplianceRestoreAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1441,7 +1441,7 @@ export interface DataIntersightApplianceRestoreAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -1641,7 +1641,7 @@ export class DataIntersightApplianceRestoreAccountOutputReference extends cdktf.
 }
 export interface DataIntersightApplianceRestoreAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1649,19 +1649,19 @@ export interface DataIntersightApplianceRestoreAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1674,7 +1674,7 @@ export interface DataIntersightApplianceRestoreAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -1906,7 +1906,7 @@ export class DataIntersightApplianceRestoreAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightApplianceRestoreParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1914,19 +1914,19 @@ export interface DataIntersightApplianceRestoreParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1939,7 +1939,7 @@ export interface DataIntersightApplianceRestoreParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -2139,7 +2139,7 @@ export class DataIntersightApplianceRestoreParentOutputReference extends cdktf.C
 }
 export interface DataIntersightApplianceRestorePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2147,19 +2147,19 @@ export interface DataIntersightApplianceRestorePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2172,7 +2172,7 @@ export interface DataIntersightApplianceRestorePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -2404,7 +2404,7 @@ export class DataIntersightApplianceRestorePermissionResourcesList extends cdktf
 }
 export interface DataIntersightApplianceRestoreTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2412,19 +2412,19 @@ export interface DataIntersightApplianceRestoreTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2437,7 +2437,7 @@ export interface DataIntersightApplianceRestoreTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -2669,7 +2669,7 @@ export class DataIntersightApplianceRestoreTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightApplianceRestoreTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2677,19 +2677,19 @@ export interface DataIntersightApplianceRestoreTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2702,7 +2702,7 @@ export interface DataIntersightApplianceRestoreTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -2902,25 +2902,25 @@ export class DataIntersightApplianceRestoreTagsDefinitionOutputReference extends
 }
 export interface DataIntersightApplianceRestoreTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#key DataIntersightApplianceRestore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#key DataIntersightApplianceRestore#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#propagated DataIntersightApplianceRestore#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#propagated DataIntersightApplianceRestore#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#sys_tag DataIntersightApplianceRestore#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#sys_tag DataIntersightApplianceRestore#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2928,25 +2928,25 @@ export interface DataIntersightApplianceRestoreTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#type DataIntersightApplianceRestore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#type DataIntersightApplianceRestore#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#value DataIntersightApplianceRestore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#value DataIntersightApplianceRestore#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#ancestor_definitions DataIntersightApplianceRestore#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#ancestor_definitions DataIntersightApplianceRestore#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApplianceRestoreTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#definition DataIntersightApplianceRestore#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#definition DataIntersightApplianceRestore#definition}
   */
   readonly definition?: DataIntersightApplianceRestoreTagsDefinition;
 }
@@ -3265,7 +3265,7 @@ export class DataIntersightApplianceRestoreTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApplianceRestoreVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3273,19 +3273,19 @@ export interface DataIntersightApplianceRestoreVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3298,7 +3298,7 @@ export interface DataIntersightApplianceRestoreVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -3530,7 +3530,7 @@ export class DataIntersightApplianceRestoreVersionContextInterestedMosList exten
 }
 export interface DataIntersightApplianceRestoreVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3538,19 +3538,19 @@ export interface DataIntersightApplianceRestoreVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#moid DataIntersightApplianceRestore#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3563,7 +3563,7 @@ export interface DataIntersightApplianceRestoreVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#selector DataIntersightApplianceRestore#selector}
   */
   readonly selector?: string;
 }
@@ -3763,7 +3763,7 @@ export class DataIntersightApplianceRestoreVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightApplianceRestoreVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#additional_properties DataIntersightApplianceRestore#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3771,32 +3771,32 @@ export interface DataIntersightApplianceRestoreVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#class_id DataIntersightApplianceRestore#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#marked_for_deletion DataIntersightApplianceRestore#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#marked_for_deletion DataIntersightApplianceRestore#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#nr_version DataIntersightApplianceRestore#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#nr_version DataIntersightApplianceRestore#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#object_type DataIntersightApplianceRestore#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#timestamp DataIntersightApplianceRestore#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#timestamp DataIntersightApplianceRestore#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3807,19 +3807,19 @@ export interface DataIntersightApplianceRestoreVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#version_type DataIntersightApplianceRestore#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#version_type DataIntersightApplianceRestore#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#interested_mos DataIntersightApplianceRestore#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#interested_mos DataIntersightApplianceRestore#interested_mos}
   */
   readonly interestedMos?: DataIntersightApplianceRestoreVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#ref_mo DataIntersightApplianceRestore#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#ref_mo DataIntersightApplianceRestore#ref_mo}
   */
   readonly refMo?: DataIntersightApplianceRestoreVersionContextRefMo;
 }
@@ -4135,7 +4135,7 @@ export class DataIntersightApplianceRestoreVersionContextOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore intersight_appliance_restore}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore intersight_appliance_restore}
 */
 export class DataIntersightApplianceRestore extends cdktf.TerraformDataSource {
 
@@ -4151,7 +4151,7 @@ export class DataIntersightApplianceRestore extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightApplianceRestore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApplianceRestore to import
-  * @param importFromId The id of the existing DataIntersightApplianceRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApplianceRestore that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApplianceRestore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4163,7 +4163,7 @@ export class DataIntersightApplianceRestore extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/appliance_restore intersight_appliance_restore} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/appliance_restore intersight_appliance_restore} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4174,8 +4174,8 @@ export class DataIntersightApplianceRestore extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_appliance_restore',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

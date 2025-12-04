@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightInventoryDeviceInfoConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#account_moid DataIntersightInventoryDeviceInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#account_moid DataIntersightInventoryDeviceInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightInventoryDeviceInfoConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#create_time DataIntersightInventoryDeviceInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#create_time DataIntersightInventoryDeviceInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * Subscribe/Unsubscribe events for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#disable_events DataIntersightInventoryDeviceInfo#disable_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#disable_events DataIntersightInventoryDeviceInfo#disable_events}
   */
   readonly disableEvents?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#domain_group_moid DataIntersightInventoryDeviceInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#domain_group_moid DataIntersightInventoryDeviceInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Information regarding the number of events recorded for this device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#event_counter DataIntersightInventoryDeviceInfo#event_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#event_counter DataIntersightInventoryDeviceInfo#event_counter}
   */
   readonly eventCounter?: number;
   /**
   * Indicates whether the event counter enabled for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#event_counter_enabled DataIntersightInventoryDeviceInfo#event_counter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#event_counter_enabled DataIntersightInventoryDeviceInfo#event_counter_enabled}
   */
   readonly eventCounterEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#id DataIntersightInventoryDeviceInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#id DataIntersightInventoryDeviceInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface DataIntersightInventoryDeviceInfoConfig extends cdktf.Terraform
   /**
   * The time interval (in hours) between job runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#interval DataIntersightInventoryDeviceInfo#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#interval DataIntersightInventoryDeviceInfo#interval}
   */
   readonly interval?: number;
   /**
   * Last Reinventory time of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#last_re_inventory_time DataIntersightInventoryDeviceInfo#last_re_inventory_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#last_re_inventory_time DataIntersightInventoryDeviceInfo#last_re_inventory_time}
   */
   readonly lastReInventoryTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#mod_time DataIntersightInventoryDeviceInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#mod_time DataIntersightInventoryDeviceInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#owners DataIntersightInventoryDeviceInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#owners DataIntersightInventoryDeviceInfo#owners}
   */
   readonly owners?: string[];
   /**
   * Number of full inventory within the given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#re_inventory_count DataIntersightInventoryDeviceInfo#re_inventory_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#re_inventory_count DataIntersightInventoryDeviceInfo#re_inventory_count}
   */
   readonly reInventoryCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#shared_scope DataIntersightInventoryDeviceInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#shared_scope DataIntersightInventoryDeviceInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#ancestors DataIntersightInventoryDeviceInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#ancestors DataIntersightInventoryDeviceInfo#ancestors}
   */
   readonly ancestors?: DataIntersightInventoryDeviceInfoAncestors[] | cdktf.IResolvable;
   /**
   * cluster_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#cluster_member DataIntersightInventoryDeviceInfo#cluster_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#cluster_member DataIntersightInventoryDeviceInfo#cluster_member}
   */
   readonly clusterMember?: DataIntersightInventoryDeviceInfoClusterMember;
   /**
   * job_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#job_info DataIntersightInventoryDeviceInfo#job_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#job_info DataIntersightInventoryDeviceInfo#job_info}
   */
   readonly jobInfo?: DataIntersightInventoryDeviceInfoJobInfo[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#parent DataIntersightInventoryDeviceInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#parent DataIntersightInventoryDeviceInfo#parent}
   */
   readonly parent?: DataIntersightInventoryDeviceInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#permission_resources DataIntersightInventoryDeviceInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#permission_resources DataIntersightInventoryDeviceInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightInventoryDeviceInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#registered_device DataIntersightInventoryDeviceInfo#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#registered_device DataIntersightInventoryDeviceInfo#registered_device}
   */
   readonly registeredDevice?: DataIntersightInventoryDeviceInfoRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#tags DataIntersightInventoryDeviceInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#tags DataIntersightInventoryDeviceInfo#tags}
   */
   readonly tags?: DataIntersightInventoryDeviceInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#version_context DataIntersightInventoryDeviceInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#version_context DataIntersightInventoryDeviceInfo#version_context}
   */
   readonly versionContext?: DataIntersightInventoryDeviceInfoVersionContext;
 }
@@ -1558,7 +1558,7 @@ export class DataIntersightInventoryDeviceInfoResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightInventoryDeviceInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1566,19 +1566,19 @@ export interface DataIntersightInventoryDeviceInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1591,7 +1591,7 @@ export interface DataIntersightInventoryDeviceInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1823,7 +1823,7 @@ export class DataIntersightInventoryDeviceInfoAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightInventoryDeviceInfoClusterMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1831,19 +1831,19 @@ export interface DataIntersightInventoryDeviceInfoClusterMember {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1856,7 +1856,7 @@ export interface DataIntersightInventoryDeviceInfoClusterMember {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2056,7 +2056,7 @@ export class DataIntersightInventoryDeviceInfoClusterMemberOutputReference exten
 }
 export interface DataIntersightInventoryDeviceInfoJobInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2064,7 +2064,7 @@ export interface DataIntersightInventoryDeviceInfoJobInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
@@ -2074,40 +2074,40 @@ export interface DataIntersightInventoryDeviceInfoJobInfo {
   * * `Completed` - Job on a managed device is completed.
   * * `Error` - Job on a managed device is errored out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#execution_status DataIntersightInventoryDeviceInfo#execution_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#execution_status DataIntersightInventoryDeviceInfo#execution_status}
   */
   readonly executionStatus?: string;
   /**
   * The name of the job scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#job_name DataIntersightInventoryDeviceInfo#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#job_name DataIntersightInventoryDeviceInfo#job_name}
   */
   readonly jobName?: string;
   /**
   * Timestamp to indicate the last processed time for this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#last_processed_time DataIntersightInventoryDeviceInfo#last_processed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#last_processed_time DataIntersightInventoryDeviceInfo#last_processed_time}
   */
   readonly lastProcessedTime?: string;
   /**
   * Last timestamp when this inventory was scheduled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#last_scheduled_time DataIntersightInventoryDeviceInfo#last_scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#last_scheduled_time DataIntersightInventoryDeviceInfo#last_scheduled_time}
   */
   readonly lastScheduledTime?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#properties DataIntersightInventoryDeviceInfo#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#properties DataIntersightInventoryDeviceInfo#properties}
   */
   readonly properties?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#regex DataIntersightInventoryDeviceInfo#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#regex DataIntersightInventoryDeviceInfo#regex}
   */
   readonly regex?: string[];
 }
@@ -2455,7 +2455,7 @@ export class DataIntersightInventoryDeviceInfoJobInfoList extends cdktf.ComplexL
 }
 export interface DataIntersightInventoryDeviceInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2463,19 +2463,19 @@ export interface DataIntersightInventoryDeviceInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2488,7 +2488,7 @@ export interface DataIntersightInventoryDeviceInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2688,7 +2688,7 @@ export class DataIntersightInventoryDeviceInfoParentOutputReference extends cdkt
 }
 export interface DataIntersightInventoryDeviceInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2696,19 +2696,19 @@ export interface DataIntersightInventoryDeviceInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2721,7 +2721,7 @@ export interface DataIntersightInventoryDeviceInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2953,7 +2953,7 @@ export class DataIntersightInventoryDeviceInfoPermissionResourcesList extends cd
 }
 export interface DataIntersightInventoryDeviceInfoRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2961,19 +2961,19 @@ export interface DataIntersightInventoryDeviceInfoRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2986,7 +2986,7 @@ export interface DataIntersightInventoryDeviceInfoRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3186,7 +3186,7 @@ export class DataIntersightInventoryDeviceInfoRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightInventoryDeviceInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3194,19 +3194,19 @@ export interface DataIntersightInventoryDeviceInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3219,7 +3219,7 @@ export interface DataIntersightInventoryDeviceInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3451,7 +3451,7 @@ export class DataIntersightInventoryDeviceInfoTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightInventoryDeviceInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3459,19 +3459,19 @@ export interface DataIntersightInventoryDeviceInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3484,7 +3484,7 @@ export interface DataIntersightInventoryDeviceInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3684,25 +3684,25 @@ export class DataIntersightInventoryDeviceInfoTagsDefinitionOutputReference exte
 }
 export interface DataIntersightInventoryDeviceInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#key DataIntersightInventoryDeviceInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#key DataIntersightInventoryDeviceInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#propagated DataIntersightInventoryDeviceInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#propagated DataIntersightInventoryDeviceInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#sys_tag DataIntersightInventoryDeviceInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#sys_tag DataIntersightInventoryDeviceInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3710,25 +3710,25 @@ export interface DataIntersightInventoryDeviceInfoTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#type DataIntersightInventoryDeviceInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#type DataIntersightInventoryDeviceInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#value DataIntersightInventoryDeviceInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#value DataIntersightInventoryDeviceInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#ancestor_definitions DataIntersightInventoryDeviceInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#ancestor_definitions DataIntersightInventoryDeviceInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightInventoryDeviceInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#definition DataIntersightInventoryDeviceInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#definition DataIntersightInventoryDeviceInfo#definition}
   */
   readonly definition?: DataIntersightInventoryDeviceInfoTagsDefinition;
 }
@@ -4047,7 +4047,7 @@ export class DataIntersightInventoryDeviceInfoTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightInventoryDeviceInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4055,19 +4055,19 @@ export interface DataIntersightInventoryDeviceInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4080,7 +4080,7 @@ export interface DataIntersightInventoryDeviceInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4312,7 +4312,7 @@ export class DataIntersightInventoryDeviceInfoVersionContextInterestedMosList ex
 }
 export interface DataIntersightInventoryDeviceInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4320,19 +4320,19 @@ export interface DataIntersightInventoryDeviceInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#moid DataIntersightInventoryDeviceInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4345,7 +4345,7 @@ export interface DataIntersightInventoryDeviceInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#selector DataIntersightInventoryDeviceInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4545,7 +4545,7 @@ export class DataIntersightInventoryDeviceInfoVersionContextRefMoOutputReference
 }
 export interface DataIntersightInventoryDeviceInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#additional_properties DataIntersightInventoryDeviceInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4553,32 +4553,32 @@ export interface DataIntersightInventoryDeviceInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#class_id DataIntersightInventoryDeviceInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#marked_for_deletion DataIntersightInventoryDeviceInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#marked_for_deletion DataIntersightInventoryDeviceInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#nr_version DataIntersightInventoryDeviceInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#nr_version DataIntersightInventoryDeviceInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#object_type DataIntersightInventoryDeviceInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#timestamp DataIntersightInventoryDeviceInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#timestamp DataIntersightInventoryDeviceInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4589,19 +4589,19 @@ export interface DataIntersightInventoryDeviceInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#version_type DataIntersightInventoryDeviceInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#version_type DataIntersightInventoryDeviceInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#interested_mos DataIntersightInventoryDeviceInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#interested_mos DataIntersightInventoryDeviceInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightInventoryDeviceInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#ref_mo DataIntersightInventoryDeviceInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#ref_mo DataIntersightInventoryDeviceInfo#ref_mo}
   */
   readonly refMo?: DataIntersightInventoryDeviceInfoVersionContextRefMo;
 }
@@ -4917,7 +4917,7 @@ export class DataIntersightInventoryDeviceInfoVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info intersight_inventory_device_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info intersight_inventory_device_info}
 */
 export class DataIntersightInventoryDeviceInfo extends cdktf.TerraformDataSource {
 
@@ -4933,7 +4933,7 @@ export class DataIntersightInventoryDeviceInfo extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightInventoryDeviceInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightInventoryDeviceInfo to import
-  * @param importFromId The id of the existing DataIntersightInventoryDeviceInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightInventoryDeviceInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightInventoryDeviceInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4945,7 +4945,7 @@ export class DataIntersightInventoryDeviceInfo extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_device_info intersight_inventory_device_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_device_info intersight_inventory_device_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4956,8 +4956,8 @@ export class DataIntersightInventoryDeviceInfo extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_inventory_device_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

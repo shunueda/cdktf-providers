@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudIgtmMonitorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#id DataTencentcloudIgtmMonitors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#id DataTencentcloudIgtmMonitors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudIgtmMonitorsConfig extends cdktf.TerraformMetaA
   /**
   * Whether to query detection count, 0 for no, 1 for yes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#is_detect_num DataTencentcloudIgtmMonitors#is_detect_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#is_detect_num DataTencentcloudIgtmMonitors#is_detect_num}
   */
   readonly isDetectNum?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#result_output_file DataTencentcloudIgtmMonitors#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#result_output_file DataTencentcloudIgtmMonitors#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#filters DataTencentcloudIgtmMonitors#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#filters DataTencentcloudIgtmMonitors#filters}
   */
   readonly filters?: DataTencentcloudIgtmMonitorsFilters[] | cdktf.IResolvable;
 }
@@ -218,19 +218,19 @@ export interface DataTencentcloudIgtmMonitorsFilters {
   * Whether to enable fuzzy query, only supports filter field name as domain.
   * When fuzzy query is enabled, Value maximum length is 1, otherwise Value maximum length is 5. (Reserved field, currently unused).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#fuzzy DataTencentcloudIgtmMonitors#fuzzy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#fuzzy DataTencentcloudIgtmMonitors#fuzzy}
   */
   readonly fuzzy?: boolean | cdktf.IResolvable;
   /**
   * Filter field name, supported MonitorName: monitor name; MonitorId: monitor ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#name DataTencentcloudIgtmMonitors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#name DataTencentcloudIgtmMonitors#name}
   */
   readonly name: string;
   /**
   * Filter field values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#value DataTencentcloudIgtmMonitors#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#value DataTencentcloudIgtmMonitors#value}
   */
   readonly value: string[];
 }
@@ -398,7 +398,7 @@ export class DataTencentcloudIgtmMonitorsFiltersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors tencentcloud_igtm_monitors}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors tencentcloud_igtm_monitors}
 */
 export class DataTencentcloudIgtmMonitors extends cdktf.TerraformDataSource {
 
@@ -414,7 +414,7 @@ export class DataTencentcloudIgtmMonitors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudIgtmMonitors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIgtmMonitors to import
-  * @param importFromId The id of the existing DataTencentcloudIgtmMonitors that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIgtmMonitors that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIgtmMonitors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class DataTencentcloudIgtmMonitors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_monitors tencentcloud_igtm_monitors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_monitors tencentcloud_igtm_monitors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,8 +437,8 @@ export class DataTencentcloudIgtmMonitors extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_igtm_monitors',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

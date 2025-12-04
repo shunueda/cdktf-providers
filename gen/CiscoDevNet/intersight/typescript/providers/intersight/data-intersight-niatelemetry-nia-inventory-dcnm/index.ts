@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#account_moid DataIntersightNiatelemetryNiaInventoryDcnm#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#account_moid DataIntersightNiatelemetryNiaInventoryDcnm#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,53 +22,53 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Health of controller on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#controller_health DataIntersightNiatelemetryNiaInventoryDcnm#controller_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#controller_health DataIntersightNiatelemetryNiaInventoryDcnm#controller_health}
   */
   readonly controllerHealth?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#create_time DataIntersightNiatelemetryNiaInventoryDcnm#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#create_time DataIntersightNiatelemetryNiaInventoryDcnm#create_time}
   */
   readonly createTime?: string;
   /**
   * Returns the value of the dev Field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#dev DataIntersightNiatelemetryNiaInventoryDcnm#dev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#dev DataIntersightNiatelemetryNiaInventoryDcnm#dev}
   */
   readonly dev?: boolean | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#domain_group_moid DataIntersightNiatelemetryNiaInventoryDcnm#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#domain_group_moid DataIntersightNiatelemetryNiaInventoryDcnm#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Number of EPLD images uploaded to DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#epld_image_count DataIntersightNiatelemetryNiaInventoryDcnm#epld_image_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#epld_image_count DataIntersightNiatelemetryNiaInventoryDcnm#epld_image_count}
   */
   readonly epldImageCount?: number;
   /**
   * Returns the value of the haEnabled field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ha_enabled DataIntersightNiatelemetryNiaInventoryDcnm#ha_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ha_enabled DataIntersightNiatelemetryNiaInventoryDcnm#ha_enabled}
   */
   readonly haEnabled?: boolean | cdktf.IResolvable;
   /**
   * Returns the value of the haReplicationStatus field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ha_replication_status DataIntersightNiatelemetryNiaInventoryDcnm#ha_replication_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ha_replication_status DataIntersightNiatelemetryNiaInventoryDcnm#ha_replication_status}
   */
   readonly haReplicationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#id DataIntersightNiatelemetryNiaInventoryDcnm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#id DataIntersightNiatelemetryNiaInventoryDcnm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,247 +77,247 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmConfig extends cdktf.
   /**
   * Returns the value of the install field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#install DataIntersightNiatelemetryNiaInventoryDcnm#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#install DataIntersightNiatelemetryNiaInventoryDcnm#install}
   */
   readonly install?: string;
   /**
   * Installation type of controller on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#installation_type DataIntersightNiatelemetryNiaInventoryDcnm#installation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#installation_type DataIntersightNiatelemetryNiaInventoryDcnm#installation_type}
   */
   readonly installationType?: string;
   /**
   * Installation type description of controller on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#installation_type_description DataIntersightNiatelemetryNiaInventoryDcnm#installation_type_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#installation_type_description DataIntersightNiatelemetryNiaInventoryDcnm#installation_type_description}
   */
   readonly installationTypeDescription?: string;
   /**
   * Returns true if ISN is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_isn_configured DataIntersightNiatelemetryNiaInventoryDcnm#is_isn_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_isn_configured DataIntersightNiatelemetryNiaInventoryDcnm#is_isn_configured}
   */
   readonly isIsnConfigured?: boolean | cdktf.IResolvable;
   /**
   * Returns the value of the isMediaController field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_media_controller DataIntersightNiatelemetryNiaInventoryDcnm#is_media_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_media_controller DataIntersightNiatelemetryNiaInventoryDcnm#is_media_controller}
   */
   readonly isMediaController?: boolean | cdktf.IResolvable;
   /**
   * Returns true if the Smart license is enabled and is in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_smart_license_enabled DataIntersightNiatelemetryNiaInventoryDcnm#is_smart_license_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#is_smart_license_enabled DataIntersightNiatelemetryNiaInventoryDcnm#is_smart_license_enabled}
   */
   readonly isSmartLicenseEnabled?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#mod_time DataIntersightNiatelemetryNiaInventoryDcnm#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#mod_time DataIntersightNiatelemetryNiaInventoryDcnm#mod_time}
   */
   readonly modTime?: string;
   /**
   * Mode of controller on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#mode DataIntersightNiatelemetryNiaInventoryDcnm#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#mode DataIntersightNiatelemetryNiaInventoryDcnm#mode}
   */
   readonly mode?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * NDFC name information of the setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ndfc_fabric_name DataIntersightNiatelemetryNiaInventoryDcnm#ndfc_fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ndfc_fabric_name DataIntersightNiatelemetryNiaInventoryDcnm#ndfc_fabric_name}
   */
   readonly ndfcFabricName?: string;
   /**
   * NDFC status information for the setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ndfc_oper_state DataIntersightNiatelemetryNiaInventoryDcnm#ndfc_oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ndfc_oper_state DataIntersightNiatelemetryNiaInventoryDcnm#ndfc_oper_state}
   */
   readonly ndfcOperState?: string;
   /**
   * Returns the value of the version field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * Returns the number of DCNM site fabrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_dcnm_site DataIntersightNiatelemetryNiaInventoryDcnm#num_dcnm_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_dcnm_site DataIntersightNiatelemetryNiaInventoryDcnm#num_dcnm_site}
   */
   readonly numDcnmSite?: number;
   /**
   * Returns total number of fabrics in DCNM set-up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_fabrics DataIntersightNiatelemetryNiaInventoryDcnm#num_fabrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_fabrics DataIntersightNiatelemetryNiaInventoryDcnm#num_fabrics}
   */
   readonly numFabrics?: number;
   /**
   * Returns the number of fabrics in msd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_fabrics_in_msd DataIntersightNiatelemetryNiaInventoryDcnm#num_fabrics_in_msd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_fabrics_in_msd DataIntersightNiatelemetryNiaInventoryDcnm#num_fabrics_in_msd}
   */
   readonly numFabricsInMsd?: number;
   /**
   * Returns the number of fabrics that have ingress replication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_ingress_replication_fabrics DataIntersightNiatelemetryNiaInventoryDcnm#num_ingress_replication_fabrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_ingress_replication_fabrics DataIntersightNiatelemetryNiaInventoryDcnm#num_ingress_replication_fabrics}
   */
   readonly numIngressReplicationFabrics?: number;
   /**
   * Returns the number of local users other than admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_local_users DataIntersightNiatelemetryNiaInventoryDcnm#num_local_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_local_users DataIntersightNiatelemetryNiaInventoryDcnm#num_local_users}
   */
   readonly numLocalUsers?: number;
   /**
   * Returns the number of MSD fabrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_msd DataIntersightNiatelemetryNiaInventoryDcnm#num_msd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_msd DataIntersightNiatelemetryNiaInventoryDcnm#num_msd}
   */
   readonly numMsd?: number;
   /**
   * Returns the number of svi interfaces configured for VRF vlans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_svi_vrf_count DataIntersightNiatelemetryNiaInventoryDcnm#num_svi_vrf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_svi_vrf_count DataIntersightNiatelemetryNiaInventoryDcnm#num_svi_vrf_count}
   */
   readonly numSviVrfCount?: number;
   /**
   * Returns the number of links where TRM is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_trm_enabled_count DataIntersightNiatelemetryNiaInventoryDcnm#num_trm_enabled_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_trm_enabled_count DataIntersightNiatelemetryNiaInventoryDcnm#num_trm_enabled_count}
   */
   readonly numTrmEnabledCount?: number;
   /**
   * Number of users who have upgrade privileges excluding the admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_upg_users DataIntersightNiatelemetryNiaInventoryDcnm#num_upg_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#num_upg_users DataIntersightNiatelemetryNiaInventoryDcnm#num_upg_users}
   */
   readonly numUpgUsers?: number;
   /**
   * Number of NXOS images uploaded to DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#nxos_image_count DataIntersightNiatelemetryNiaInventoryDcnm#nxos_image_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#nxos_image_count DataIntersightNiatelemetryNiaInventoryDcnm#nxos_image_count}
   */
   readonly nxosImageCount?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * Out of band IP of controller on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
   */
   readonly outofbandIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#owners DataIntersightNiatelemetryNiaInventoryDcnm#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#owners DataIntersightNiatelemetryNiaInventoryDcnm#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#record_type DataIntersightNiatelemetryNiaInventoryDcnm#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#record_type DataIntersightNiatelemetryNiaInventoryDcnm#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#record_version DataIntersightNiatelemetryNiaInventoryDcnm#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#record_version DataIntersightNiatelemetryNiaInventoryDcnm#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Serial number of device being inventoried. The serial number is unique per device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#serial DataIntersightNiatelemetryNiaInventoryDcnm#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#serial DataIntersightNiatelemetryNiaInventoryDcnm#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#shared_scope DataIntersightNiatelemetryNiaInventoryDcnm#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#shared_scope DataIntersightNiatelemetryNiaInventoryDcnm#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of fabric domain of the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#site_name DataIntersightNiatelemetryNiaInventoryDcnm#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#site_name DataIntersightNiatelemetryNiaInventoryDcnm#site_name}
   */
   readonly siteName?: string;
   /**
   * Returns the number of underlay peering active links.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#underlay_peering_active_links_count DataIntersightNiatelemetryNiaInventoryDcnm#underlay_peering_active_links_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#underlay_peering_active_links_count DataIntersightNiatelemetryNiaInventoryDcnm#underlay_peering_active_links_count}
   */
   readonly underlayPeeringActiveLinksCount?: number;
   /**
   * Number of upgrade jobs configured on DCNM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_job_count DataIntersightNiatelemetryNiaInventoryDcnm#upg_job_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_job_count DataIntersightNiatelemetryNiaInventoryDcnm#upg_job_count}
   */
   readonly upgJobCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ancestors DataIntersightNiatelemetryNiaInventoryDcnm#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ancestors DataIntersightNiatelemetryNiaInventoryDcnm#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryNiaInventoryDcnmAncestors[] | cdktf.IResolvable;
   /**
   * golden_image_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#golden_image_details DataIntersightNiatelemetryNiaInventoryDcnm#golden_image_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#golden_image_details DataIntersightNiatelemetryNiaInventoryDcnm#golden_image_details}
   */
   readonly goldenImageDetails?: DataIntersightNiatelemetryNiaInventoryDcnmGoldenImageDetails[] | cdktf.IResolvable;
   /**
   * network_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#network_info DataIntersightNiatelemetryNiaInventoryDcnm#network_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#network_info DataIntersightNiatelemetryNiaInventoryDcnm#network_info}
   */
   readonly networkInfo?: DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#parent DataIntersightNiatelemetryNiaInventoryDcnm#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#parent DataIntersightNiatelemetryNiaInventoryDcnm#parent}
   */
   readonly parent?: DataIntersightNiatelemetryNiaInventoryDcnmParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#permission_resources DataIntersightNiatelemetryNiaInventoryDcnm#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#permission_resources DataIntersightNiatelemetryNiaInventoryDcnm#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryNiaInventoryDcnmPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#registered_device DataIntersightNiatelemetryNiaInventoryDcnm#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#registered_device DataIntersightNiatelemetryNiaInventoryDcnm#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryNiaInventoryDcnmRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#tags DataIntersightNiatelemetryNiaInventoryDcnm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#tags DataIntersightNiatelemetryNiaInventoryDcnm#tags}
   */
   readonly tags?: DataIntersightNiatelemetryNiaInventoryDcnmTags[] | cdktf.IResolvable;
   /**
   * upg_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_status DataIntersightNiatelemetryNiaInventoryDcnm#upg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_status DataIntersightNiatelemetryNiaInventoryDcnm#upg_status}
   */
   readonly upgStatus?: DataIntersightNiatelemetryNiaInventoryDcnmUpgStatus[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#version_context DataIntersightNiatelemetryNiaInventoryDcnm#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#version_context DataIntersightNiatelemetryNiaInventoryDcnm#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryNiaInventoryDcnmVersionContext;
 }
@@ -2153,7 +2153,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmResultsList extends cdktf
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2161,19 +2161,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2186,7 +2186,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -2418,7 +2418,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmAncestorsList extends cdk
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmGoldenImageDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2426,32 +2426,32 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmGoldenImageDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Returns name of the image on controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#image_name DataIntersightNiatelemetryNiaInventoryDcnm#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#image_name DataIntersightNiatelemetryNiaInventoryDcnm#image_name}
   */
   readonly imageName?: string;
   /**
   * Returns name of the image on controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#name DataIntersightNiatelemetryNiaInventoryDcnm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#name DataIntersightNiatelemetryNiaInventoryDcnm#name}
   */
   readonly name?: string;
   /**
   * Returns version of the image on controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
 }
@@ -2712,7 +2712,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmGoldenImageDetailsList ex
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoActiveNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2720,32 +2720,32 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoActiveNode
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Returns hostname of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
   */
   readonly hostname?: string;
   /**
   * Returns management IP of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
   */
   readonly managementtIp?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * Returns out of band IP of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
   */
   readonly outofbandIp?: string;
 }
@@ -2974,7 +2974,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoActiveNodeOutp
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoStandbyNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2982,32 +2982,32 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoStandbyNod
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Returns hostname of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
   */
   readonly hostname?: string;
   /**
   * Returns management IP of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
   */
   readonly managementtIp?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * Returns out of band IP of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
   */
   readonly outofbandIp?: string;
 }
@@ -3236,7 +3236,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoStandbyNodeOut
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3244,44 +3244,44 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Returns hostname of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#hostname DataIntersightNiatelemetryNiaInventoryDcnm#hostname}
   */
   readonly hostname?: string;
   /**
   * Returns management IP of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#managementt_ip DataIntersightNiatelemetryNiaInventoryDcnm#managementt_ip}
   */
   readonly managementtIp?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * Returns out of band IP of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#outofband_ip DataIntersightNiatelemetryNiaInventoryDcnm#outofband_ip}
   */
   readonly outofbandIp?: string;
   /**
   * active_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#active_node DataIntersightNiatelemetryNiaInventoryDcnm#active_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#active_node DataIntersightNiatelemetryNiaInventoryDcnm#active_node}
   */
   readonly activeNode?: DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoActiveNode;
   /**
   * standby_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#standby_node DataIntersightNiatelemetryNiaInventoryDcnm#standby_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#standby_node DataIntersightNiatelemetryNiaInventoryDcnm#standby_node}
   */
   readonly standbyNode?: DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoStandbyNode;
 }
@@ -3568,7 +3568,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmNetworkInfoOutputReferenc
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3576,19 +3576,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3601,7 +3601,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -3801,7 +3801,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmParentOutputReference ext
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3809,19 +3809,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3834,7 +3834,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -4066,7 +4066,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmPermissionResourcesList e
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4074,19 +4074,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4099,7 +4099,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -4299,7 +4299,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmRegisteredDeviceOutputRef
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4307,19 +4307,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4332,7 +4332,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -4564,7 +4564,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmTagsAncestorDefinitionsLi
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4572,19 +4572,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4597,7 +4597,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -4797,25 +4797,25 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmTagsDefinitionOutputRefer
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#key DataIntersightNiatelemetryNiaInventoryDcnm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#key DataIntersightNiatelemetryNiaInventoryDcnm#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#propagated DataIntersightNiatelemetryNiaInventoryDcnm#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#propagated DataIntersightNiatelemetryNiaInventoryDcnm#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#sys_tag DataIntersightNiatelemetryNiaInventoryDcnm#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#sys_tag DataIntersightNiatelemetryNiaInventoryDcnm#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4823,25 +4823,25 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#type DataIntersightNiatelemetryNiaInventoryDcnm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#type DataIntersightNiatelemetryNiaInventoryDcnm#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#value DataIntersightNiatelemetryNiaInventoryDcnm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#value DataIntersightNiatelemetryNiaInventoryDcnm#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ancestor_definitions DataIntersightNiatelemetryNiaInventoryDcnm#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ancestor_definitions DataIntersightNiatelemetryNiaInventoryDcnm#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryNiaInventoryDcnmTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#definition DataIntersightNiatelemetryNiaInventoryDcnm#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#definition DataIntersightNiatelemetryNiaInventoryDcnm#definition}
   */
   readonly definition?: DataIntersightNiatelemetryNiaInventoryDcnmTagsDefinition;
 }
@@ -5160,7 +5160,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmTagsList extends cdktf.Co
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmUpgStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5168,26 +5168,26 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmUpgStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * Returns the id of the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#job_id DataIntersightNiatelemetryNiaInventoryDcnm#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#job_id DataIntersightNiatelemetryNiaInventoryDcnm#job_id}
   */
   readonly jobId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * Returns the status of the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_status DataIntersightNiatelemetryNiaInventoryDcnm#upg_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#upg_status DataIntersightNiatelemetryNiaInventoryDcnm#upg_status}
   */
   readonly upgStatus?: string;
 }
@@ -5419,7 +5419,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmUpgStatusList extends cdk
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5427,19 +5427,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5452,7 +5452,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -5684,7 +5684,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmVersionContextInterestedM
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5692,19 +5692,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#moid DataIntersightNiatelemetryNiaInventoryDcnm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5717,7 +5717,7 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#selector DataIntersightNiatelemetryNiaInventoryDcnm#selector}
   */
   readonly selector?: string;
 }
@@ -5917,7 +5917,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmVersionContextRefMoOutput
 }
 export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#additional_properties DataIntersightNiatelemetryNiaInventoryDcnm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5925,32 +5925,32 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#class_id DataIntersightNiatelemetryNiaInventoryDcnm#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#marked_for_deletion DataIntersightNiatelemetryNiaInventoryDcnm#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#marked_for_deletion DataIntersightNiatelemetryNiaInventoryDcnm#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#nr_version DataIntersightNiatelemetryNiaInventoryDcnm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#object_type DataIntersightNiatelemetryNiaInventoryDcnm#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#timestamp DataIntersightNiatelemetryNiaInventoryDcnm#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#timestamp DataIntersightNiatelemetryNiaInventoryDcnm#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5961,19 +5961,19 @@ export interface DataIntersightNiatelemetryNiaInventoryDcnmVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#version_type DataIntersightNiatelemetryNiaInventoryDcnm#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#version_type DataIntersightNiatelemetryNiaInventoryDcnm#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#interested_mos DataIntersightNiatelemetryNiaInventoryDcnm#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#interested_mos DataIntersightNiatelemetryNiaInventoryDcnm#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryNiaInventoryDcnmVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#ref_mo DataIntersightNiatelemetryNiaInventoryDcnm#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#ref_mo DataIntersightNiatelemetryNiaInventoryDcnm#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryNiaInventoryDcnmVersionContextRefMo;
 }
@@ -6289,7 +6289,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnmVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm intersight_niatelemetry_nia_inventory_dcnm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm intersight_niatelemetry_nia_inventory_dcnm}
 */
 export class DataIntersightNiatelemetryNiaInventoryDcnm extends cdktf.TerraformDataSource {
 
@@ -6305,7 +6305,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnm extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightNiatelemetryNiaInventoryDcnm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryNiaInventoryDcnm to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaInventoryDcnm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaInventoryDcnm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryNiaInventoryDcnm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6317,7 +6317,7 @@ export class DataIntersightNiatelemetryNiaInventoryDcnm extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_inventory_dcnm intersight_niatelemetry_nia_inventory_dcnm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_inventory_dcnm intersight_niatelemetry_nia_inventory_dcnm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6328,8 +6328,8 @@ export class DataIntersightNiatelemetryNiaInventoryDcnm extends cdktf.TerraformD
       terraformResourceType: 'intersight_niatelemetry_nia_inventory_dcnm',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

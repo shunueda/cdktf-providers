@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiaapiVersionRegexConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#account_moid DataIntersightNiaapiVersionRegex#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#account_moid DataIntersightNiaapiVersionRegex#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightNiaapiVersionRegexConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#create_time DataIntersightNiaapiVersionRegex#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#create_time DataIntersightNiaapiVersionRegex#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#domain_group_moid DataIntersightNiaapiVersionRegex#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#domain_group_moid DataIntersightNiaapiVersionRegex#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#id DataIntersightNiaapiVersionRegex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#id DataIntersightNiaapiVersionRegex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightNiaapiVersionRegexConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#mod_time DataIntersightNiaapiVersionRegex#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#mod_time DataIntersightNiaapiVersionRegex#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * Version number for the Version Regex data, also used as identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#nr_version DataIntersightNiaapiVersionRegex#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#nr_version DataIntersightNiaapiVersionRegex#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#owners DataIntersightNiaapiVersionRegex#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#owners DataIntersightNiaapiVersionRegex#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#shared_scope DataIntersightNiaapiVersionRegex#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#shared_scope DataIntersightNiaapiVersionRegex#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#ancestors DataIntersightNiaapiVersionRegex#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#ancestors DataIntersightNiaapiVersionRegex#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiVersionRegexAncestors[] | cdktf.IResolvable;
   /**
   * apic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#apic DataIntersightNiaapiVersionRegex#apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#apic DataIntersightNiaapiVersionRegex#apic}
   */
   readonly apic?: DataIntersightNiaapiVersionRegexApic;
   /**
   * dcnm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#dcnm DataIntersightNiaapiVersionRegex#dcnm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#dcnm DataIntersightNiaapiVersionRegex#dcnm}
   */
   readonly dcnm?: DataIntersightNiaapiVersionRegexDcnm;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#parent DataIntersightNiaapiVersionRegex#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#parent DataIntersightNiaapiVersionRegex#parent}
   */
   readonly parent?: DataIntersightNiaapiVersionRegexParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#permission_resources DataIntersightNiaapiVersionRegex#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#permission_resources DataIntersightNiaapiVersionRegex#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiVersionRegexPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#tags DataIntersightNiaapiVersionRegex#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#tags DataIntersightNiaapiVersionRegex#tags}
   */
   readonly tags?: DataIntersightNiaapiVersionRegexTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#version_context DataIntersightNiaapiVersionRegex#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#version_context DataIntersightNiaapiVersionRegex#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiVersionRegexVersionContext;
 }
@@ -2174,7 +2174,7 @@ export class DataIntersightNiaapiVersionRegexResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightNiaapiVersionRegexAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2182,19 +2182,19 @@ export interface DataIntersightNiaapiVersionRegexAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2207,7 +2207,7 @@ export interface DataIntersightNiaapiVersionRegexAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -2439,7 +2439,7 @@ export class DataIntersightNiaapiVersionRegexAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightNiaapiVersionRegexApicCurrentlltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2447,26 +2447,26 @@ export interface DataIntersightNiaapiVersionRegexApicCurrentlltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -2666,7 +2666,7 @@ export class DataIntersightNiaapiVersionRegexApicCurrentlltrainOutputReference e
 }
 export interface DataIntersightNiaapiVersionRegexApicLatestsltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2674,26 +2674,26 @@ export interface DataIntersightNiaapiVersionRegexApicLatestsltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -2893,7 +2893,7 @@ export class DataIntersightNiaapiVersionRegexApicLatestsltrainOutputReference ex
 }
 export interface DataIntersightNiaapiVersionRegexApicSltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2901,26 +2901,26 @@ export interface DataIntersightNiaapiVersionRegexApicSltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -3152,7 +3152,7 @@ export class DataIntersightNiaapiVersionRegexApicSltrainList extends cdktf.Compl
 }
 export interface DataIntersightNiaapiVersionRegexApicUpcominglltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3160,26 +3160,26 @@ export interface DataIntersightNiaapiVersionRegexApicUpcominglltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -3379,13 +3379,13 @@ export class DataIntersightNiaapiVersionRegexApicUpcominglltrainOutputReference 
 }
 export interface DataIntersightNiaapiVersionRegexApic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * All long live version Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#anyllregex DataIntersightNiaapiVersionRegex#anyllregex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#anyllregex DataIntersightNiaapiVersionRegex#anyllregex}
   */
   readonly anyllregex?: string;
   /**
@@ -3393,38 +3393,38 @@ export interface DataIntersightNiaapiVersionRegexApic {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * currentlltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#currentlltrain DataIntersightNiaapiVersionRegex#currentlltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#currentlltrain DataIntersightNiaapiVersionRegex#currentlltrain}
   */
   readonly currentlltrain?: DataIntersightNiaapiVersionRegexApicCurrentlltrain;
   /**
   * latestsltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#latestsltrain DataIntersightNiaapiVersionRegex#latestsltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#latestsltrain DataIntersightNiaapiVersionRegex#latestsltrain}
   */
   readonly latestsltrain?: DataIntersightNiaapiVersionRegexApicLatestsltrain;
   /**
   * sltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#sltrain DataIntersightNiaapiVersionRegex#sltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#sltrain DataIntersightNiaapiVersionRegex#sltrain}
   */
   readonly sltrain?: DataIntersightNiaapiVersionRegexApicSltrain[] | cdktf.IResolvable;
   /**
   * upcominglltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#upcominglltrain DataIntersightNiaapiVersionRegex#upcominglltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#upcominglltrain DataIntersightNiaapiVersionRegex#upcominglltrain}
   */
   readonly upcominglltrain?: DataIntersightNiaapiVersionRegexApicUpcominglltrain;
 }
@@ -3711,7 +3711,7 @@ export class DataIntersightNiaapiVersionRegexApicOutputReference extends cdktf.C
 }
 export interface DataIntersightNiaapiVersionRegexDcnmCurrentlltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3719,26 +3719,26 @@ export interface DataIntersightNiaapiVersionRegexDcnmCurrentlltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -3938,7 +3938,7 @@ export class DataIntersightNiaapiVersionRegexDcnmCurrentlltrainOutputReference e
 }
 export interface DataIntersightNiaapiVersionRegexDcnmLatestsltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3946,26 +3946,26 @@ export interface DataIntersightNiaapiVersionRegexDcnmLatestsltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -4165,7 +4165,7 @@ export class DataIntersightNiaapiVersionRegexDcnmLatestsltrainOutputReference ex
 }
 export interface DataIntersightNiaapiVersionRegexDcnmSltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4173,26 +4173,26 @@ export interface DataIntersightNiaapiVersionRegexDcnmSltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -4424,7 +4424,7 @@ export class DataIntersightNiaapiVersionRegexDcnmSltrainList extends cdktf.Compl
 }
 export interface DataIntersightNiaapiVersionRegexDcnmUpcominglltrain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4432,26 +4432,26 @@ export interface DataIntersightNiaapiVersionRegexDcnmUpcominglltrain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * Regular Expression pattern used to reconginze the version string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#regex DataIntersightNiaapiVersionRegex#regex}
   */
   readonly regex?: string;
   /**
   * Software release. A set of Software releases seperated by comma which can be recongized by according Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#software_version DataIntersightNiaapiVersionRegex#software_version}
   */
   readonly softwareVersion?: string;
 }
@@ -4651,13 +4651,13 @@ export class DataIntersightNiaapiVersionRegexDcnmUpcominglltrainOutputReference 
 }
 export interface DataIntersightNiaapiVersionRegexDcnm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * All long live version Regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#anyllregex DataIntersightNiaapiVersionRegex#anyllregex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#anyllregex DataIntersightNiaapiVersionRegex#anyllregex}
   */
   readonly anyllregex?: string;
   /**
@@ -4665,38 +4665,38 @@ export interface DataIntersightNiaapiVersionRegexDcnm {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * currentlltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#currentlltrain DataIntersightNiaapiVersionRegex#currentlltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#currentlltrain DataIntersightNiaapiVersionRegex#currentlltrain}
   */
   readonly currentlltrain?: DataIntersightNiaapiVersionRegexDcnmCurrentlltrain;
   /**
   * latestsltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#latestsltrain DataIntersightNiaapiVersionRegex#latestsltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#latestsltrain DataIntersightNiaapiVersionRegex#latestsltrain}
   */
   readonly latestsltrain?: DataIntersightNiaapiVersionRegexDcnmLatestsltrain;
   /**
   * sltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#sltrain DataIntersightNiaapiVersionRegex#sltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#sltrain DataIntersightNiaapiVersionRegex#sltrain}
   */
   readonly sltrain?: DataIntersightNiaapiVersionRegexDcnmSltrain[] | cdktf.IResolvable;
   /**
   * upcominglltrain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#upcominglltrain DataIntersightNiaapiVersionRegex#upcominglltrain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#upcominglltrain DataIntersightNiaapiVersionRegex#upcominglltrain}
   */
   readonly upcominglltrain?: DataIntersightNiaapiVersionRegexDcnmUpcominglltrain;
 }
@@ -4983,7 +4983,7 @@ export class DataIntersightNiaapiVersionRegexDcnmOutputReference extends cdktf.C
 }
 export interface DataIntersightNiaapiVersionRegexParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4991,19 +4991,19 @@ export interface DataIntersightNiaapiVersionRegexParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5016,7 +5016,7 @@ export interface DataIntersightNiaapiVersionRegexParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -5216,7 +5216,7 @@ export class DataIntersightNiaapiVersionRegexParentOutputReference extends cdktf
 }
 export interface DataIntersightNiaapiVersionRegexPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5224,19 +5224,19 @@ export interface DataIntersightNiaapiVersionRegexPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5249,7 +5249,7 @@ export interface DataIntersightNiaapiVersionRegexPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -5481,7 +5481,7 @@ export class DataIntersightNiaapiVersionRegexPermissionResourcesList extends cdk
 }
 export interface DataIntersightNiaapiVersionRegexTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5489,19 +5489,19 @@ export interface DataIntersightNiaapiVersionRegexTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5514,7 +5514,7 @@ export interface DataIntersightNiaapiVersionRegexTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -5746,7 +5746,7 @@ export class DataIntersightNiaapiVersionRegexTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightNiaapiVersionRegexTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5754,19 +5754,19 @@ export interface DataIntersightNiaapiVersionRegexTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5779,7 +5779,7 @@ export interface DataIntersightNiaapiVersionRegexTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -5979,25 +5979,25 @@ export class DataIntersightNiaapiVersionRegexTagsDefinitionOutputReference exten
 }
 export interface DataIntersightNiaapiVersionRegexTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#key DataIntersightNiaapiVersionRegex#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#key DataIntersightNiaapiVersionRegex#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#propagated DataIntersightNiaapiVersionRegex#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#propagated DataIntersightNiaapiVersionRegex#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#sys_tag DataIntersightNiaapiVersionRegex#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#sys_tag DataIntersightNiaapiVersionRegex#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -6005,25 +6005,25 @@ export interface DataIntersightNiaapiVersionRegexTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#type DataIntersightNiaapiVersionRegex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#type DataIntersightNiaapiVersionRegex#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#value DataIntersightNiaapiVersionRegex#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#value DataIntersightNiaapiVersionRegex#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#ancestor_definitions DataIntersightNiaapiVersionRegex#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#ancestor_definitions DataIntersightNiaapiVersionRegex#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiVersionRegexTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#definition DataIntersightNiaapiVersionRegex#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#definition DataIntersightNiaapiVersionRegex#definition}
   */
   readonly definition?: DataIntersightNiaapiVersionRegexTagsDefinition;
 }
@@ -6342,7 +6342,7 @@ export class DataIntersightNiaapiVersionRegexTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightNiaapiVersionRegexVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6350,19 +6350,19 @@ export interface DataIntersightNiaapiVersionRegexVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6375,7 +6375,7 @@ export interface DataIntersightNiaapiVersionRegexVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -6607,7 +6607,7 @@ export class DataIntersightNiaapiVersionRegexVersionContextInterestedMosList ext
 }
 export interface DataIntersightNiaapiVersionRegexVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6615,19 +6615,19 @@ export interface DataIntersightNiaapiVersionRegexVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#moid DataIntersightNiaapiVersionRegex#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6640,7 +6640,7 @@ export interface DataIntersightNiaapiVersionRegexVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#selector DataIntersightNiaapiVersionRegex#selector}
   */
   readonly selector?: string;
 }
@@ -6840,7 +6840,7 @@ export class DataIntersightNiaapiVersionRegexVersionContextRefMoOutputReference 
 }
 export interface DataIntersightNiaapiVersionRegexVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#additional_properties DataIntersightNiaapiVersionRegex#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6848,32 +6848,32 @@ export interface DataIntersightNiaapiVersionRegexVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#class_id DataIntersightNiaapiVersionRegex#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#marked_for_deletion DataIntersightNiaapiVersionRegex#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#marked_for_deletion DataIntersightNiaapiVersionRegex#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#nr_version DataIntersightNiaapiVersionRegex#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#nr_version DataIntersightNiaapiVersionRegex#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#object_type DataIntersightNiaapiVersionRegex#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#timestamp DataIntersightNiaapiVersionRegex#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#timestamp DataIntersightNiaapiVersionRegex#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6884,19 +6884,19 @@ export interface DataIntersightNiaapiVersionRegexVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#version_type DataIntersightNiaapiVersionRegex#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#version_type DataIntersightNiaapiVersionRegex#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#interested_mos DataIntersightNiaapiVersionRegex#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#interested_mos DataIntersightNiaapiVersionRegex#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiVersionRegexVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#ref_mo DataIntersightNiaapiVersionRegex#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#ref_mo DataIntersightNiaapiVersionRegex#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiVersionRegexVersionContextRefMo;
 }
@@ -7212,7 +7212,7 @@ export class DataIntersightNiaapiVersionRegexVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex intersight_niaapi_version_regex}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex intersight_niaapi_version_regex}
 */
 export class DataIntersightNiaapiVersionRegex extends cdktf.TerraformDataSource {
 
@@ -7228,7 +7228,7 @@ export class DataIntersightNiaapiVersionRegex extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightNiaapiVersionRegex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiVersionRegex to import
-  * @param importFromId The id of the existing DataIntersightNiaapiVersionRegex that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiVersionRegex that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiVersionRegex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7240,7 +7240,7 @@ export class DataIntersightNiaapiVersionRegex extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_version_regex intersight_niaapi_version_regex} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_version_regex intersight_niaapi_version_regex} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7251,8 +7251,8 @@ export class DataIntersightNiaapiVersionRegex extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_niaapi_version_regex',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

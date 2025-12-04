@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#account_moid DataIntersightCapabilitySiocModuleManufacturingDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#account_moid DataIntersightCapabilitySiocModuleManufacturingDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Caption for a chassis SIOC module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#caption DataIntersightCapabilitySiocModuleManufacturingDef#caption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#caption DataIntersightCapabilitySiocModuleManufacturingDef#caption}
   */
   readonly caption?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#create_time DataIntersightCapabilitySiocModuleManufacturingDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#create_time DataIntersightCapabilitySiocModuleManufacturingDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for a chassis SIOC module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#description DataIntersightCapabilitySiocModuleManufacturingDef#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#description DataIntersightCapabilitySiocModuleManufacturingDef#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#domain_group_moid DataIntersightCapabilitySiocModuleManufacturingDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#domain_group_moid DataIntersightCapabilitySiocModuleManufacturingDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#id DataIntersightCapabilitySiocModuleManufacturingDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#id DataIntersightCapabilitySiocModuleManufacturingDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#mod_time DataIntersightCapabilitySiocModuleManufacturingDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#mod_time DataIntersightCapabilitySiocModuleManufacturingDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#name DataIntersightCapabilitySiocModuleManufacturingDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#name DataIntersightCapabilitySiocModuleManufacturingDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#owners DataIntersightCapabilitySiocModuleManufacturingDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#owners DataIntersightCapabilitySiocModuleManufacturingDef#owners}
   */
   readonly owners?: string[];
   /**
   * Product Identifier for a chassis SIOC module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#pid DataIntersightCapabilitySiocModuleManufacturingDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#pid DataIntersightCapabilitySiocModuleManufacturingDef#pid}
   */
   readonly pid?: string;
   /**
   * Product Name for SIOC Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#product_name DataIntersightCapabilitySiocModuleManufacturingDef#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#product_name DataIntersightCapabilitySiocModuleManufacturingDef#product_name}
   */
   readonly productName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#shared_scope DataIntersightCapabilitySiocModuleManufacturingDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#shared_scope DataIntersightCapabilitySiocModuleManufacturingDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for a chassis SIOC module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#sku DataIntersightCapabilitySiocModuleManufacturingDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#sku DataIntersightCapabilitySiocModuleManufacturingDef#sku}
   */
   readonly sku?: string;
   /**
   * VID information for a chassis SIOC module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#vid DataIntersightCapabilitySiocModuleManufacturingDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#vid DataIntersightCapabilitySiocModuleManufacturingDef#vid}
   */
   readonly vid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#ancestors DataIntersightCapabilitySiocModuleManufacturingDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#ancestors DataIntersightCapabilitySiocModuleManufacturingDef#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilitySiocModuleManufacturingDefAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#parent DataIntersightCapabilitySiocModuleManufacturingDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#parent DataIntersightCapabilitySiocModuleManufacturingDef#parent}
   */
   readonly parent?: DataIntersightCapabilitySiocModuleManufacturingDefParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#permission_resources DataIntersightCapabilitySiocModuleManufacturingDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#permission_resources DataIntersightCapabilitySiocModuleManufacturingDef#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilitySiocModuleManufacturingDefPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#tags DataIntersightCapabilitySiocModuleManufacturingDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#tags DataIntersightCapabilitySiocModuleManufacturingDef#tags}
   */
   readonly tags?: DataIntersightCapabilitySiocModuleManufacturingDefTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#version_context DataIntersightCapabilitySiocModuleManufacturingDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#version_context DataIntersightCapabilitySiocModuleManufacturingDef#version_context}
   */
   readonly versionContext?: DataIntersightCapabilitySiocModuleManufacturingDefVersionContext;
 }
@@ -1228,7 +1228,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefResultsList exten
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1236,19 +1236,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1261,7 +1261,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1493,7 +1493,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefAncestorsList ext
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1501,19 +1501,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1526,7 +1526,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1726,7 +1726,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefParentOutputRefer
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1734,19 +1734,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1759,7 +1759,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1991,7 +1991,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefPermissionResourc
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1999,19 +1999,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2024,7 +2024,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2256,7 +2256,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefTagsAncestorDefin
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2264,19 +2264,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2289,7 +2289,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2489,25 +2489,25 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefTagsDefinitionOut
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#key DataIntersightCapabilitySiocModuleManufacturingDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#key DataIntersightCapabilitySiocModuleManufacturingDef#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#propagated DataIntersightCapabilitySiocModuleManufacturingDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#propagated DataIntersightCapabilitySiocModuleManufacturingDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#sys_tag DataIntersightCapabilitySiocModuleManufacturingDef#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#sys_tag DataIntersightCapabilitySiocModuleManufacturingDef#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2515,25 +2515,25 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#type DataIntersightCapabilitySiocModuleManufacturingDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#type DataIntersightCapabilitySiocModuleManufacturingDef#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#value DataIntersightCapabilitySiocModuleManufacturingDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#value DataIntersightCapabilitySiocModuleManufacturingDef#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#ancestor_definitions DataIntersightCapabilitySiocModuleManufacturingDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#ancestor_definitions DataIntersightCapabilitySiocModuleManufacturingDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilitySiocModuleManufacturingDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#definition DataIntersightCapabilitySiocModuleManufacturingDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#definition DataIntersightCapabilitySiocModuleManufacturingDef#definition}
   */
   readonly definition?: DataIntersightCapabilitySiocModuleManufacturingDefTagsDefinition;
 }
@@ -2852,7 +2852,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefTagsList extends 
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2860,19 +2860,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2885,7 +2885,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -3117,7 +3117,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefVersionContextInt
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3125,19 +3125,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#moid DataIntersightCapabilitySiocModuleManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3150,7 +3150,7 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#selector DataIntersightCapabilitySiocModuleManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -3350,7 +3350,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefVersionContextRef
 }
 export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#additional_properties DataIntersightCapabilitySiocModuleManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3358,32 +3358,32 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#class_id DataIntersightCapabilitySiocModuleManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#marked_for_deletion DataIntersightCapabilitySiocModuleManufacturingDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#marked_for_deletion DataIntersightCapabilitySiocModuleManufacturingDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#nr_version DataIntersightCapabilitySiocModuleManufacturingDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#nr_version DataIntersightCapabilitySiocModuleManufacturingDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#object_type DataIntersightCapabilitySiocModuleManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#timestamp DataIntersightCapabilitySiocModuleManufacturingDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#timestamp DataIntersightCapabilitySiocModuleManufacturingDef#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3394,19 +3394,19 @@ export interface DataIntersightCapabilitySiocModuleManufacturingDefVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#version_type DataIntersightCapabilitySiocModuleManufacturingDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#version_type DataIntersightCapabilitySiocModuleManufacturingDef#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#interested_mos DataIntersightCapabilitySiocModuleManufacturingDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#interested_mos DataIntersightCapabilitySiocModuleManufacturingDef#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilitySiocModuleManufacturingDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#ref_mo DataIntersightCapabilitySiocModuleManufacturingDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#ref_mo DataIntersightCapabilitySiocModuleManufacturingDef#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilitySiocModuleManufacturingDefVersionContextRefMo;
 }
@@ -3722,7 +3722,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDefVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def intersight_capability_sioc_module_manufacturing_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def intersight_capability_sioc_module_manufacturing_def}
 */
 export class DataIntersightCapabilitySiocModuleManufacturingDef extends cdktf.TerraformDataSource {
 
@@ -3738,7 +3738,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDef extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightCapabilitySiocModuleManufacturingDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilitySiocModuleManufacturingDef to import
-  * @param importFromId The id of the existing DataIntersightCapabilitySiocModuleManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilitySiocModuleManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilitySiocModuleManufacturingDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3750,7 +3750,7 @@ export class DataIntersightCapabilitySiocModuleManufacturingDef extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_sioc_module_manufacturing_def intersight_capability_sioc_module_manufacturing_def} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_sioc_module_manufacturing_def intersight_capability_sioc_module_manufacturing_def} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3761,8 +3761,8 @@ export class DataIntersightCapabilitySiocModuleManufacturingDef extends cdktf.Te
       terraformResourceType: 'intersight_capability_sioc_module_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

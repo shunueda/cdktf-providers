@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#account_moid WorkflowServiceItemInstance#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#account_moid WorkflowServiceItemInstance#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#ancestors WorkflowServiceItemInstance#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#ancestors WorkflowServiceItemInstance#ancestors}
   */
   readonly ancestors?: WorkflowServiceItemInstanceAncestors[] | cdktf.IResolvable;
   /**
   * An array of relationships to workflowCatalogServiceRequest resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#catalog_service_request WorkflowServiceItemInstance#catalog_service_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#catalog_service_request WorkflowServiceItemInstance#catalog_service_request}
   */
   readonly catalogServiceRequest?: WorkflowServiceItemInstanceCatalogServiceRequest[] | cdktf.IResolvable;
   /**
@@ -34,29 +34,29 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#create_time WorkflowServiceItemInstance#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#create_time WorkflowServiceItemInstance#create_time}
   */
   readonly createTime?: string;
   /**
   * The description for this service item instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#description WorkflowServiceItemInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#description WorkflowServiceItemInstance#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#domain_group_moid WorkflowServiceItemInstance#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#domain_group_moid WorkflowServiceItemInstance#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#id WorkflowServiceItemInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#id WorkflowServiceItemInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,20 +66,20 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   * A reference to a iamIdp resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#idp WorkflowServiceItemInstance#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#idp WorkflowServiceItemInstance#idp}
   */
   readonly idp?: WorkflowServiceItemInstanceIdp[] | cdktf.IResolvable;
   /**
   * A reference to a iamIdpReference resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#idp_reference WorkflowServiceItemInstance#idp_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#idp_reference WorkflowServiceItemInstance#idp_reference}
   */
   readonly idpReference?: WorkflowServiceItemInstanceIdpReference[] | cdktf.IResolvable;
   /**
   * A user friendly short name to identify the resource. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.), colon (:), space ( ) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#label WorkflowServiceItemInstance#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#label WorkflowServiceItemInstance#label}
   */
   readonly label?: string;
   /**
@@ -90,60 +90,60 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   * * `Okay` - The last action on the service item instance completed and the service item instance is in Okay state.
   * * `Decommissioned` - The service item is decommissioned and can be safely deleted. A service item instance in any other state after it has been created cannot be deleted until it has been decommissioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#last_status WorkflowServiceItemInstance#last_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#last_status WorkflowServiceItemInstance#last_status}
   */
   readonly lastStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#migration_history WorkflowServiceItemInstance#migration_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#migration_history WorkflowServiceItemInstance#migration_history}
   */
   readonly migrationHistory?: WorkflowServiceItemInstanceMigrationHistory[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#mod_time WorkflowServiceItemInstance#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#mod_time WorkflowServiceItemInstance#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
   * A name of the service item instance. Name can only contain letters (a-z, A-Z), numbers (0-9), hyphen (-), period (.) or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#name WorkflowServiceItemInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#name WorkflowServiceItemInstance#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#organization WorkflowServiceItemInstance#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#organization WorkflowServiceItemInstance#organization}
   */
   readonly organization?: WorkflowServiceItemInstanceOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#owners WorkflowServiceItemInstance#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#owners WorkflowServiceItemInstance#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#parent WorkflowServiceItemInstance#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#parent WorkflowServiceItemInstance#parent}
   */
   readonly parent?: WorkflowServiceItemInstanceParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#permission_resources WorkflowServiceItemInstance#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#permission_resources WorkflowServiceItemInstance#permission_resources}
   */
   readonly permissionResources?: WorkflowServiceItemInstancePermissionResources[] | cdktf.IResolvable;
   /**
@@ -156,21 +156,21 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   * * `Deleted` - The service item is deleted.
   * * `Failed` - The service item action is failed to perform the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#resourcelifecycle_status WorkflowServiceItemInstance#resourcelifecycle_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#resourcelifecycle_status WorkflowServiceItemInstance#resourcelifecycle_status}
   */
   readonly resourcelifecycleStatus?: string;
   /**
   * A reference to a workflowServiceItemDefinition resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#service_item_definition WorkflowServiceItemInstance#service_item_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#service_item_definition WorkflowServiceItemInstance#service_item_definition}
   */
   readonly serviceItemDefinition?: WorkflowServiceItemInstanceServiceItemDefinition[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#shared_scope WorkflowServiceItemInstance#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#shared_scope WorkflowServiceItemInstance#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -181,52 +181,52 @@ export interface WorkflowServiceItemInstanceConfig extends cdktf.TerraformMetaAr
   * * `Okay` - The last action on the service item instance completed and the service item instance is in Okay state.
   * * `Decommissioned` - The service item is decommissioned and can be safely deleted. A service item instance in any other state after it has been created cannot be deleted until it has been decommissioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#status WorkflowServiceItemInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#status WorkflowServiceItemInstance#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#tags WorkflowServiceItemInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#tags WorkflowServiceItemInstance#tags}
   */
   readonly tags?: WorkflowServiceItemInstanceTags[] | cdktf.IResolvable;
   /**
   * A reference to a iamUser resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#user WorkflowServiceItemInstance#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#user WorkflowServiceItemInstance#user}
   */
   readonly user?: WorkflowServiceItemInstanceUser[] | cdktf.IResolvable;
   /**
   * The user identifier which indicates the user that started this workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#user_id_or_email WorkflowServiceItemInstance#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#user_id_or_email WorkflowServiceItemInstance#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#version_context WorkflowServiceItemInstance#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#version_context WorkflowServiceItemInstance#version_context}
   */
   readonly versionContext?: WorkflowServiceItemInstanceVersionContext[] | cdktf.IResolvable;
 }
 export interface WorkflowServiceItemInstanceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -458,23 +458,23 @@ export class WorkflowServiceItemInstanceAncestorsList extends cdktf.ComplexList 
 }
 export interface WorkflowServiceItemInstanceCatalogServiceRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -706,23 +706,23 @@ export class WorkflowServiceItemInstanceCatalogServiceRequestList extends cdktf.
 }
 export interface WorkflowServiceItemInstanceIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -954,23 +954,23 @@ export class WorkflowServiceItemInstanceIdpList extends cdktf.ComplexList {
 }
 export interface WorkflowServiceItemInstanceIdpReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -1202,23 +1202,23 @@ export class WorkflowServiceItemInstanceIdpReferenceList extends cdktf.ComplexLi
 }
 export interface WorkflowServiceItemInstanceMigrationHistoryDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -1450,23 +1450,23 @@ export class WorkflowServiceItemInstanceMigrationHistoryDestinationList extends 
 }
 export interface WorkflowServiceItemInstanceMigrationHistoryMigrationActionInstance {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -1698,23 +1698,23 @@ export class WorkflowServiceItemInstanceMigrationHistoryMigrationActionInstanceL
 }
 export interface WorkflowServiceItemInstanceMigrationHistoryNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -1946,31 +1946,31 @@ export class WorkflowServiceItemInstanceMigrationHistoryNrSourceList extends cdk
 }
 export interface WorkflowServiceItemInstanceMigrationHistory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#destination WorkflowServiceItemInstance#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#destination WorkflowServiceItemInstance#destination}
   */
   readonly destination?: WorkflowServiceItemInstanceMigrationHistoryDestination[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#migration_action_instance WorkflowServiceItemInstance#migration_action_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#migration_action_instance WorkflowServiceItemInstance#migration_action_instance}
   */
   readonly migrationActionInstance?: WorkflowServiceItemInstanceMigrationHistoryMigrationActionInstance[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#nr_source WorkflowServiceItemInstance#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#nr_source WorkflowServiceItemInstance#nr_source}
   */
   readonly nrSource?: WorkflowServiceItemInstanceMigrationHistoryNrSource[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#timestamp WorkflowServiceItemInstance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#timestamp WorkflowServiceItemInstance#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -2260,23 +2260,23 @@ export class WorkflowServiceItemInstanceMigrationHistoryList extends cdktf.Compl
 }
 export interface WorkflowServiceItemInstanceOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2508,23 +2508,23 @@ export class WorkflowServiceItemInstanceOrganizationList extends cdktf.ComplexLi
 }
 export interface WorkflowServiceItemInstanceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -2756,23 +2756,23 @@ export class WorkflowServiceItemInstanceParentList extends cdktf.ComplexList {
 }
 export interface WorkflowServiceItemInstancePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3004,23 +3004,23 @@ export class WorkflowServiceItemInstancePermissionResourcesList extends cdktf.Co
 }
 export interface WorkflowServiceItemInstanceServiceItemDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3252,23 +3252,23 @@ export class WorkflowServiceItemInstanceServiceItemDefinitionList extends cdktf.
 }
 export interface WorkflowServiceItemInstanceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3500,23 +3500,23 @@ export class WorkflowServiceItemInstanceTagsAncestorDefinitionsList extends cdkt
 }
 export interface WorkflowServiceItemInstanceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -3748,35 +3748,35 @@ export class WorkflowServiceItemInstanceTagsDefinitionList extends cdktf.Complex
 }
 export interface WorkflowServiceItemInstanceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#ancestor_definitions WorkflowServiceItemInstance#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#ancestor_definitions WorkflowServiceItemInstance#ancestor_definitions}
   */
   readonly ancestorDefinitions?: WorkflowServiceItemInstanceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#definition WorkflowServiceItemInstance#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#definition WorkflowServiceItemInstance#definition}
   */
   readonly definition?: WorkflowServiceItemInstanceTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#key WorkflowServiceItemInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#key WorkflowServiceItemInstance#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#propagated WorkflowServiceItemInstance#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#propagated WorkflowServiceItemInstance#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#sys_tag WorkflowServiceItemInstance#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#sys_tag WorkflowServiceItemInstance#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#type WorkflowServiceItemInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#type WorkflowServiceItemInstance#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#value WorkflowServiceItemInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#value WorkflowServiceItemInstance#value}
   */
   readonly value?: string;
 }
@@ -4095,23 +4095,23 @@ export class WorkflowServiceItemInstanceTagsList extends cdktf.ComplexList {
 }
 export interface WorkflowServiceItemInstanceUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4343,23 +4343,23 @@ export class WorkflowServiceItemInstanceUserList extends cdktf.ComplexList {
 }
 export interface WorkflowServiceItemInstanceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4591,23 +4591,23 @@ export class WorkflowServiceItemInstanceVersionContextInterestedMosList extends 
 }
 export interface WorkflowServiceItemInstanceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#moid WorkflowServiceItemInstance#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#selector WorkflowServiceItemInstance#selector}
   */
   readonly selector?: string;
 }
@@ -4839,39 +4839,39 @@ export class WorkflowServiceItemInstanceVersionContextRefMoList extends cdktf.Co
 }
 export interface WorkflowServiceItemInstanceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#additional_properties WorkflowServiceItemInstance#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#class_id WorkflowServiceItemInstance#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#interested_mos WorkflowServiceItemInstance#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#interested_mos WorkflowServiceItemInstance#interested_mos}
   */
   readonly interestedMos?: WorkflowServiceItemInstanceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#marked_for_deletion WorkflowServiceItemInstance#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#marked_for_deletion WorkflowServiceItemInstance#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#nr_version WorkflowServiceItemInstance#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#nr_version WorkflowServiceItemInstance#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#object_type WorkflowServiceItemInstance#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#ref_mo WorkflowServiceItemInstance#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#ref_mo WorkflowServiceItemInstance#ref_mo}
   */
   readonly refMo?: WorkflowServiceItemInstanceVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#timestamp WorkflowServiceItemInstance#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#timestamp WorkflowServiceItemInstance#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#version_type WorkflowServiceItemInstance#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#version_type WorkflowServiceItemInstance#version_type}
   */
   readonly versionType?: string;
 }
@@ -5219,7 +5219,7 @@ export class WorkflowServiceItemInstanceVersionContextList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance intersight_workflow_service_item_instance}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance intersight_workflow_service_item_instance}
 */
 export class WorkflowServiceItemInstance extends cdktf.TerraformResource {
 
@@ -5235,7 +5235,7 @@ export class WorkflowServiceItemInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowServiceItemInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowServiceItemInstance to import
-  * @param importFromId The id of the existing WorkflowServiceItemInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowServiceItemInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowServiceItemInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5247,7 +5247,7 @@ export class WorkflowServiceItemInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workflow_service_item_instance intersight_workflow_service_item_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workflow_service_item_instance intersight_workflow_service_item_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5258,8 +5258,8 @@ export class WorkflowServiceItemInstance extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_workflow_service_item_instance',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

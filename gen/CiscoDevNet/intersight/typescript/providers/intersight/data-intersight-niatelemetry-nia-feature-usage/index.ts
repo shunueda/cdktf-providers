@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageConfig extends cdktf.T
   /**
   * Returns the total number of AAA Ldap Providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#aaa_ldap_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_ldap_provider_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#aaa_ldap_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_ldap_provider_count}
   */
   readonly aaaLdapProviderCount?: number;
   /**
   * Returns the total number of AAA Radius Providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#aaa_radius_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_radius_provider_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#aaa_radius_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_radius_provider_count}
   */
   readonly aaaRadiusProviderCount?: number;
   /**
   * Returns the total number of AAA Tacacs Providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#aaa_tacacs_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_tacacs_provider_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#aaa_tacacs_provider_count DataIntersightNiatelemetryNiaFeatureUsage#aaa_tacacs_provider_count}
   */
   readonly aaaTacacsProviderCount?: number;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#account_moid DataIntersightNiatelemetryNiaFeatureUsage#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#account_moid DataIntersightNiatelemetryNiaFeatureUsage#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Cluster health for the APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_cluster_health DataIntersightNiatelemetryNiaFeatureUsage#apic_cluster_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_cluster_health DataIntersightNiatelemetryNiaFeatureUsage#apic_cluster_health}
   */
   readonly apicClusterHealth?: string;
   /**
   * Number of APIC controllers. This determines the value of controllers for the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_count DataIntersightNiatelemetryNiaFeatureUsage#apic_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_count DataIntersightNiatelemetryNiaFeatureUsage#apic_count}
   */
   readonly apicCount?: number;
   /**
   * Returns if telnet is enabled on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_is_telnet_enabled DataIntersightNiatelemetryNiaFeatureUsage#apic_is_telnet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_is_telnet_enabled DataIntersightNiatelemetryNiaFeatureUsage#apic_is_telnet_enabled}
   */
   readonly apicIsTelnetEnabled?: boolean | cdktf.IResolvable;
   /**
   * Count of NTP servers configured on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_ntp_count DataIntersightNiatelemetryNiaFeatureUsage#apic_ntp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_ntp_count DataIntersightNiatelemetryNiaFeatureUsage#apic_ntp_count}
   */
   readonly apicNtpCount?: number;
   /**
   * Number of SNMP communities configured on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_snmp_community_count DataIntersightNiatelemetryNiaFeatureUsage#apic_snmp_community_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_snmp_community_count DataIntersightNiatelemetryNiaFeatureUsage#apic_snmp_community_count}
   */
   readonly apicSnmpCommunityCount?: number;
   /**
   * Number of logging groups configured on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_sys_log_grp_count DataIntersightNiatelemetryNiaFeatureUsage#apic_sys_log_grp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_sys_log_grp_count DataIntersightNiatelemetryNiaFeatureUsage#apic_sys_log_grp_count}
   */
   readonly apicSysLogGrpCount?: number;
   /**
   * Number of logging sources configured on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#apic_sys_log_src_count DataIntersightNiatelemetryNiaFeatureUsage#apic_sys_log_src_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#apic_sys_log_src_count DataIntersightNiatelemetryNiaFeatureUsage#apic_sys_log_src_count}
   */
   readonly apicSysLogSrcCount?: number;
   /**
   * ACI APPs feature usage scale.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#app_center_count DataIntersightNiatelemetryNiaFeatureUsage#app_center_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#app_center_count DataIntersightNiatelemetryNiaFeatureUsage#app_center_count}
   */
   readonly appCenterCount?: number;
   /**
   * AVE feature usage. This determines if ACI virtual edge feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ave DataIntersightNiatelemetryNiaFeatureUsage#ave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ave DataIntersightNiatelemetryNiaFeatureUsage#ave}
   */
   readonly ave?: string;
   /**
   * Number of BDs. This determines the total number of Broadcast Domains across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#bd_count DataIntersightNiatelemetryNiaFeatureUsage#bd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#bd_count DataIntersightNiatelemetryNiaFeatureUsage#bd_count}
   */
   readonly bdCount?: number;
   /**
   * Number of call home smart monitoring policies on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#callhome_smart_group_count DataIntersightNiatelemetryNiaFeatureUsage#callhome_smart_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#callhome_smart_group_count DataIntersightNiatelemetryNiaFeatureUsage#callhome_smart_group_count}
   */
   readonly callhomeSmartGroupCount?: number;
   /**
@@ -106,137 +106,137 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * Number of Cloudsec SA peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#cloud_sec_peer_count DataIntersightNiatelemetryNiaFeatureUsage#cloud_sec_peer_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#cloud_sec_peer_count DataIntersightNiatelemetryNiaFeatureUsage#cloud_sec_peer_count}
   */
   readonly cloudSecPeerCount?: number;
   /**
   * Returns the total number of tenants deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#cloud_tenant_count DataIntersightNiatelemetryNiaFeatureUsage#cloud_tenant_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#cloud_tenant_count DataIntersightNiatelemetryNiaFeatureUsage#cloud_tenant_count}
   */
   readonly cloudTenantCount?: number;
   /**
   * Number of compute hypervisors on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#comp_hv_count DataIntersightNiatelemetryNiaFeatureUsage#comp_hv_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#comp_hv_count DataIntersightNiatelemetryNiaFeatureUsage#comp_hv_count}
   */
   readonly compHvCount?: number;
   /**
   * Number of system backup configure export policies on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#config_exportp_count DataIntersightNiatelemetryNiaFeatureUsage#config_exportp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#config_exportp_count DataIntersightNiatelemetryNiaFeatureUsage#config_exportp_count}
   */
   readonly configExportpCount?: number;
   /**
   * Number of system backup configure jobs on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#config_job_count DataIntersightNiatelemetryNiaFeatureUsage#config_job_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#config_job_count DataIntersightNiatelemetryNiaFeatureUsage#config_job_count}
   */
   readonly configJobCount?: number;
   /**
   * Consistency checker application usage. This determines if the fabric has Consistency checker application installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#consistency_checker_app DataIntersightNiatelemetryNiaFeatureUsage#consistency_checker_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#consistency_checker_app DataIntersightNiatelemetryNiaFeatureUsage#consistency_checker_app}
   */
   readonly consistencyCheckerApp?: string;
   /**
   * Number of contracts. This determines the total number of Contracts configured across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#contract_count DataIntersightNiatelemetryNiaFeatureUsage#contract_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#contract_count DataIntersightNiatelemetryNiaFeatureUsage#contract_count}
   */
   readonly contractCount?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#create_time DataIntersightNiatelemetryNiaFeatureUsage#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#create_time DataIntersightNiatelemetryNiaFeatureUsage#create_time}
   */
   readonly createTime?: string;
   /**
   * DNS feature usage. This determines the total number of DNS configurations across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#dns_count DataIntersightNiatelemetryNiaFeatureUsage#dns_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#dns_count DataIntersightNiatelemetryNiaFeatureUsage#dns_count}
   */
   readonly dnsCount?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#domain_group_moid DataIntersightNiatelemetryNiaFeatureUsage#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#domain_group_moid DataIntersightNiatelemetryNiaFeatureUsage#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Eigrp feature usage. This determines the total number of EIGRP sessions across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#eigrp_count DataIntersightNiatelemetryNiaFeatureUsage#eigrp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#eigrp_count DataIntersightNiatelemetryNiaFeatureUsage#eigrp_count}
   */
   readonly eigrpCount?: number;
   /**
   * Number of End Point Groups. This determines the total number of End Point Groups across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#epg_count DataIntersightNiatelemetryNiaFeatureUsage#epg_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#epg_count DataIntersightNiatelemetryNiaFeatureUsage#epg_count}
   */
   readonly epgCount?: number;
   /**
   * Returns the total number of fabric module slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fabric_module_count DataIntersightNiatelemetryNiaFeatureUsage#fabric_module_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fabric_module_count DataIntersightNiatelemetryNiaFeatureUsage#fabric_module_count}
   */
   readonly fabricModuleCount?: number;
   /**
   * Number of Multi-Pods per fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fabric_setupp_count DataIntersightNiatelemetryNiaFeatureUsage#fabric_setupp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fabric_setupp_count DataIntersightNiatelemetryNiaFeatureUsage#fabric_setupp_count}
   */
   readonly fabricSetuppCount?: number;
   /**
   * Total number of FCoE N-Port for DOM, VSAn, and VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_count}
   */
   readonly fcoeNportCount?: number;
   /**
   * Number of FCoE N-Port DOM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_dom_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_dom_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_dom_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_dom_count}
   */
   readonly fcoeNportDomCount?: number;
   /**
   * Number of FCoE N-Port VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_vlan_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_vlan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_vlan_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_vlan_count}
   */
   readonly fcoeNportVlanCount?: number;
   /**
   * Number of FCoE N-Port VSAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_vsan_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_vsan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fcoe_nport_vsan_count DataIntersightNiatelemetryNiaFeatureUsage#fcoe_nport_vsan_count}
   */
   readonly fcoeNportVsanCount?: number;
   /**
   * Number of Internet Protocol Service Level Agreements Monitoring policy objects for object tracking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#fv_sla_def_count DataIntersightNiatelemetryNiaFeatureUsage#fv_sla_def_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#fv_sla_def_count DataIntersightNiatelemetryNiaFeatureUsage#fv_sla_def_count}
   */
   readonly fvSlaDefCount?: number;
   /**
   * Hsrp feature usage. This determines the total number of HSRP sessions across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#hsrp_count DataIntersightNiatelemetryNiaFeatureUsage#hsrp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#hsrp_count DataIntersightNiatelemetryNiaFeatureUsage#hsrp_count}
   */
   readonly hsrpCount?: number;
   /**
   * Ibgp feature usage. This determines the total number of BGP sessions across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ibgp_count DataIntersightNiatelemetryNiaFeatureUsage#ibgp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ibgp_count DataIntersightNiatelemetryNiaFeatureUsage#ibgp_count}
   */
   readonly ibgpCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#id DataIntersightNiatelemetryNiaFeatureUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#id DataIntersightNiatelemetryNiaFeatureUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -245,541 +245,541 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageConfig extends cdktf.T
   /**
   * IGMP Access List feature usage. This determines the total number of IGMP access lists configured across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#igmp_access_list_count DataIntersightNiatelemetryNiaFeatureUsage#igmp_access_list_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#igmp_access_list_count DataIntersightNiatelemetryNiaFeatureUsage#igmp_access_list_count}
   */
   readonly igmpAccessListCount?: number;
   /**
   * IGMP Snooping feature usage. This determines if this feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#igmp_snoop DataIntersightNiatelemetryNiaFeatureUsage#igmp_snoop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#igmp_snoop DataIntersightNiatelemetryNiaFeatureUsage#igmp_snoop}
   */
   readonly igmpSnoop?: string;
   /**
   * Number of IP based End Point Groups. This determines the total number of IP End Point Groups across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ip_epg_count DataIntersightNiatelemetryNiaFeatureUsage#ip_epg_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ip_epg_count DataIntersightNiatelemetryNiaFeatureUsage#ip_epg_count}
   */
   readonly ipEpgCount?: number;
   /**
   * BGP route reflector usage on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_bgp_route_reflectors_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_bgp_route_reflectors_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_bgp_route_reflectors_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_bgp_route_reflectors_feature_used}
   */
   readonly isBgpRouteReflectorsFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Brodge domains feature usage on APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_bridge_domains_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_bridge_domains_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_bridge_domains_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_bridge_domains_feature_used}
   */
   readonly isBridgeDomainsFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Returns value of isCommonLocalUserName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_common_local_user_name DataIntersightNiatelemetryNiaFeatureUsage#is_common_local_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_common_local_user_name DataIntersightNiatelemetryNiaFeatureUsage#is_common_local_user_name}
   */
   readonly isCommonLocalUserName?: boolean | cdktf.IResolvable;
   /**
   * Contracts feature usage on APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_contracts_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_contracts_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_contracts_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_contracts_feature_used}
   */
   readonly isContractsFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * EPG feature usage on APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_epg_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_epg_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_epg_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_epg_feature_used}
   */
   readonly isEpgFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Filters feature usage on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_filters_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_filters_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_filters_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_filters_feature_used}
   */
   readonly isFiltersFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Returns if HTTP is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_http_configured DataIntersightNiatelemetryNiaFeatureUsage#is_http_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_http_configured DataIntersightNiatelemetryNiaFeatureUsage#is_http_configured}
   */
   readonly isHttpConfigured?: boolean | cdktf.IResolvable;
   /**
   * Returns if HTTPS is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_https_configured DataIntersightNiatelemetryNiaFeatureUsage#is_https_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_https_configured DataIntersightNiatelemetryNiaFeatureUsage#is_https_configured}
   */
   readonly isHttpsConfigured?: boolean | cdktf.IResolvable;
   /**
   * NTP feature usage on APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_ntp_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_ntp_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_ntp_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_ntp_feature_used}
   */
   readonly isNtpFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Ptp feature usage on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_ptp_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_ptp_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_ptp_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_ptp_feature_used}
   */
   readonly isPtpFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Synce feature usage on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_synce_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_synce_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_synce_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_synce_feature_used}
   */
   readonly isSynceFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Status of techsupport collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_tech_support_collected DataIntersightNiatelemetryNiaFeatureUsage#is_tech_support_collected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_tech_support_collected DataIntersightNiatelemetryNiaFeatureUsage#is_tech_support_collected}
   */
   readonly isTechSupportCollected?: string;
   /**
   * Tenants feature usage on APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_tenants_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_tenants_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_tenants_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_tenants_feature_used}
   */
   readonly isTenantsFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * VRF feature usage on APIC controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#is_vrfs_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_vrfs_feature_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#is_vrfs_feature_used DataIntersightNiatelemetryNiaFeatureUsage#is_vrfs_feature_used}
   */
   readonly isVrfsFeatureUsed?: boolean | cdktf.IResolvable;
   /**
   * Isis feature usage. This determines the total number of ISIS sessions across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#isis_count DataIntersightNiatelemetryNiaFeatureUsage#isis_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#isis_count DataIntersightNiatelemetryNiaFeatureUsage#isis_count}
   */
   readonly isisCount?: number;
   /**
   * L2Multicast feature usage. This determines if this Layer 2 Multicast feature is being enabled / disabled on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#l2_multicast DataIntersightNiatelemetryNiaFeatureUsage#l2_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#l2_multicast DataIntersightNiatelemetryNiaFeatureUsage#l2_multicast}
   */
   readonly l2Multicast?: string;
   /**
   * Returns the Latency ptp mode for the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#latency_ptp_mode DataIntersightNiatelemetryNiaFeatureUsage#latency_ptp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#latency_ptp_mode DataIntersightNiatelemetryNiaFeatureUsage#latency_ptp_mode}
   */
   readonly latencyPtpMode?: string;
   /**
   * Number of Leafs. This determines the total number of Leaf switches in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#leaf_count DataIntersightNiatelemetryNiaFeatureUsage#leaf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#leaf_count DataIntersightNiatelemetryNiaFeatureUsage#leaf_count}
   */
   readonly leafCount?: number;
   /**
   * Returns count of local users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#local_username_count DataIntersightNiatelemetryNiaFeatureUsage#local_username_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#local_username_count DataIntersightNiatelemetryNiaFeatureUsage#local_username_count}
   */
   readonly localUsernameCount?: number;
   /**
   * Returns login block duration value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#login_block_duration DataIntersightNiatelemetryNiaFeatureUsage#login_block_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#login_block_duration DataIntersightNiatelemetryNiaFeatureUsage#login_block_duration}
   */
   readonly loginBlockDuration?: number;
   /**
   * Returns the maximum failed attempts on login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#login_max_failed_attempts DataIntersightNiatelemetryNiaFeatureUsage#login_max_failed_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#login_max_failed_attempts DataIntersightNiatelemetryNiaFeatureUsage#login_max_failed_attempts}
   */
   readonly loginMaxFailedAttempts?: number;
   /**
   * Returns the maximum failed attempt windows on login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#login_max_failed_attempts_window DataIntersightNiatelemetryNiaFeatureUsage#login_max_failed_attempts_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#login_max_failed_attempts_window DataIntersightNiatelemetryNiaFeatureUsage#login_max_failed_attempts_window}
   */
   readonly loginMaxFailedAttemptsWindow?: number;
   /**
   * Maintenance Mode feature usage. This determines the number of switches that are currently in maintenance mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#maintenance_mode_count DataIntersightNiatelemetryNiaFeatureUsage#maintenance_mode_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#maintenance_mode_count DataIntersightNiatelemetryNiaFeatureUsage#maintenance_mode_count}
   */
   readonly maintenanceModeCount?: number;
   /**
   * Management over IPv6 feature usage. This determines the total number of IPv6 configurtaions in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#management_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#management_over_v6_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#management_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#management_over_v6_count}
   */
   readonly managementOverV6Count?: number;
   /**
   * Number of Microsoft microsegmentation VmmEpPD objects. Ensures that Microsoft was configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#microsoft_useg_vmm_ep_pd_count DataIntersightNiatelemetryNiaFeatureUsage#microsoft_useg_vmm_ep_pd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#microsoft_useg_vmm_ep_pd_count DataIntersightNiatelemetryNiaFeatureUsage#microsoft_useg_vmm_ep_pd_count}
   */
   readonly microsoftUsegVmmEpPdCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#mod_time DataIntersightNiatelemetryNiaFeatureUsage#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#mod_time DataIntersightNiatelemetryNiaFeatureUsage#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * Number of Netflow monitor policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#net_flow_count DataIntersightNiatelemetryNiaFeatureUsage#net_flow_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#net_flow_count DataIntersightNiatelemetryNiaFeatureUsage#net_flow_count}
   */
   readonly netFlowCount?: number;
   /**
   * NIR application usage. This determines if the fabric has NIR application installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#nir DataIntersightNiatelemetryNiaFeatureUsage#nir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#nir DataIntersightNiatelemetryNiaFeatureUsage#nir}
   */
   readonly nir?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
   * Open stack feature usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#open_stack DataIntersightNiatelemetryNiaFeatureUsage#open_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#open_stack DataIntersightNiatelemetryNiaFeatureUsage#open_stack}
   */
   readonly openStack?: string;
   /**
   * Opflex for Kubernetes feature usage. This determines the total number of VMM sessions of type kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#opflex_kubernetes_count DataIntersightNiatelemetryNiaFeatureUsage#opflex_kubernetes_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#opflex_kubernetes_count DataIntersightNiatelemetryNiaFeatureUsage#opflex_kubernetes_count}
   */
   readonly opflexKubernetesCount?: number;
   /**
   * Ospf feature usage. This determines the total number of OSPF sessions across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ospf_count DataIntersightNiatelemetryNiaFeatureUsage#ospf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ospf_count DataIntersightNiatelemetryNiaFeatureUsage#ospf_count}
   */
   readonly ospfCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#owners DataIntersightNiatelemetryNiaFeatureUsage#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#owners DataIntersightNiatelemetryNiaFeatureUsage#owners}
   */
   readonly owners?: string[];
   /**
   * Returns count of passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#password_history_count DataIntersightNiatelemetryNiaFeatureUsage#password_history_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#password_history_count DataIntersightNiatelemetryNiaFeatureUsage#password_history_count}
   */
   readonly passwordHistoryCount?: number;
   /**
   * Returns if the password is strong or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#password_strength_check DataIntersightNiatelemetryNiaFeatureUsage#password_strength_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#password_strength_check DataIntersightNiatelemetryNiaFeatureUsage#password_strength_check}
   */
   readonly passwordStrengthCheck?: string;
   /**
   * Returns the number of password strength profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#password_strength_profile_count DataIntersightNiatelemetryNiaFeatureUsage#password_strength_profile_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#password_strength_profile_count DataIntersightNiatelemetryNiaFeatureUsage#password_strength_profile_count}
   */
   readonly passwordStrengthProfileCount?: number;
   /**
   * POE feature usage. This determines the total number of POE configurations across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#poe_count DataIntersightNiatelemetryNiaFeatureUsage#poe_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#poe_count DataIntersightNiatelemetryNiaFeatureUsage#poe_count}
   */
   readonly poeCount?: number;
   /**
   * Number of objects with Port Security enabled. Non-Zero value indicates the object as enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#port_security_count DataIntersightNiatelemetryNiaFeatureUsage#port_security_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#port_security_count DataIntersightNiatelemetryNiaFeatureUsage#port_security_count}
   */
   readonly portSecurityCount?: number;
   /**
   * QinVniTunnel feature usage. This determines if the qinVniTunnel feature is being used on the fabric and the scale of it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#qin_vni_tunnel_count DataIntersightNiatelemetryNiaFeatureUsage#qin_vni_tunnel_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#qin_vni_tunnel_count DataIntersightNiatelemetryNiaFeatureUsage#qin_vni_tunnel_count}
   */
   readonly qinVniTunnelCount?: number;
   /**
   * Number of Quality Of Service congestion class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#qos_cong_count DataIntersightNiatelemetryNiaFeatureUsage#qos_cong_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#qos_cong_count DataIntersightNiatelemetryNiaFeatureUsage#qos_cong_count}
   */
   readonly qosCongCount?: number;
   /**
   * Number of Quality Of Service class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#qos_pfc_pol_count DataIntersightNiatelemetryNiaFeatureUsage#qos_pfc_pol_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#qos_pfc_pol_count DataIntersightNiatelemetryNiaFeatureUsage#qos_pfc_pol_count}
   */
   readonly qosPfcPolCount?: number;
   /**
   * Returns the value of count of realms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#realm_count DataIntersightNiatelemetryNiaFeatureUsage#realm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#realm_count DataIntersightNiatelemetryNiaFeatureUsage#realm_count}
   */
   readonly realmCount?: number;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#record_type DataIntersightNiatelemetryNiaFeatureUsage#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#record_type DataIntersightNiatelemetryNiaFeatureUsage#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#record_version DataIntersightNiatelemetryNiaFeatureUsage#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#record_version DataIntersightNiatelemetryNiaFeatureUsage#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Number of remote Leafs. This determines the total number of remote leaf switches in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#remote_leaf_count DataIntersightNiatelemetryNiaFeatureUsage#remote_leaf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#remote_leaf_count DataIntersightNiatelemetryNiaFeatureUsage#remote_leaf_count}
   */
   readonly remoteLeafCount?: number;
   /**
   * SCVMM feature usage. This determines the total number of SCVMM configurations in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#scvmm_count DataIntersightNiatelemetryNiaFeatureUsage#scvmm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#scvmm_count DataIntersightNiatelemetryNiaFeatureUsage#scvmm_count}
   */
   readonly scvmmCount?: number;
   /**
   * SharedL3Out feature usage. This determines the total number of Shared L3 out configured across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#shared_l3_out_count DataIntersightNiatelemetryNiaFeatureUsage#shared_l3_out_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#shared_l3_out_count DataIntersightNiatelemetryNiaFeatureUsage#shared_l3_out_count}
   */
   readonly sharedL3OutCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#shared_scope DataIntersightNiatelemetryNiaFeatureUsage#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#shared_scope DataIntersightNiatelemetryNiaFeatureUsage#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Site name represents an APIC cluster. Service Engine can onboard multiple APIC clusters / sites. There will be a feature usage object per site in Multi site scenario. In multi-site scenario the site name is available in all the requests being made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#site_name DataIntersightNiatelemetryNiaFeatureUsage#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#site_name DataIntersightNiatelemetryNiaFeatureUsage#site_name}
   */
   readonly siteName?: string;
   /**
   * Smart callhome feature usage. This determines if this feature is being enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#smart_call_home DataIntersightNiatelemetryNiaFeatureUsage#smart_call_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#smart_call_home DataIntersightNiatelemetryNiaFeatureUsage#smart_call_home}
   */
   readonly smartCallHome?: string;
   /**
   * Returns count of snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snapshot_count DataIntersightNiatelemetryNiaFeatureUsage#snapshot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snapshot_count DataIntersightNiatelemetryNiaFeatureUsage#snapshot_count}
   */
   readonly snapshotCount?: number;
   /**
   * SNMP feature usage. This determines if this feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snmp DataIntersightNiatelemetryNiaFeatureUsage#snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snmp DataIntersightNiatelemetryNiaFeatureUsage#snmp}
   */
   readonly snmp?: string;
   /**
   * Returns count of SNMP Community Access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snmp_community_access_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_community_access_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snmp_community_access_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_community_access_count}
   */
   readonly snmpCommunityAccessCount?: number;
   /**
   * Number of SNMP monitoring policies on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snmp_group_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snmp_group_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_group_count}
   */
   readonly snmpGroupCount?: number;
   /**
   * Returns count of SNMP trap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snmp_trap_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_trap_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snmp_trap_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_trap_count}
   */
   readonly snmpTrapCount?: number;
   /**
   * Returns count of SNMP V3 on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#snmp_v3_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_v3_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#snmp_v3_count DataIntersightNiatelemetryNiaFeatureUsage#snmp_v3_count}
   */
   readonly snmpV3Count?: number;
   /**
   * Number of Span Sources and Destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#span_count DataIntersightNiatelemetryNiaFeatureUsage#span_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#span_count DataIntersightNiatelemetryNiaFeatureUsage#span_count}
   */
   readonly spanCount?: number;
   /**
   * Number of Span Destinations with valid state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#span_dst_count DataIntersightNiatelemetryNiaFeatureUsage#span_dst_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#span_dst_count DataIntersightNiatelemetryNiaFeatureUsage#span_dst_count}
   */
   readonly spanDstCount?: number;
   /**
   * Number of Span Sources with valid state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#span_src_count DataIntersightNiatelemetryNiaFeatureUsage#span_src_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#span_src_count DataIntersightNiatelemetryNiaFeatureUsage#span_src_count}
   */
   readonly spanSrcCount?: number;
   /**
   * Number of Spines. This determines the total number of spine switches in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#spine_count DataIntersightNiatelemetryNiaFeatureUsage#spine_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#spine_count DataIntersightNiatelemetryNiaFeatureUsage#spine_count}
   */
   readonly spineCount?: number;
   /**
   * Ssh over IPv6 feature usage. This determines the total number of IPv6 configurtaions in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ssh_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#ssh_over_v6_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ssh_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#ssh_over_v6_count}
   */
   readonly sshOverV6Count?: number;
   /**
   * Returns count of ssh V2 on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ssh_v2_count DataIntersightNiatelemetryNiaFeatureUsage#ssh_v2_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ssh_v2_count DataIntersightNiatelemetryNiaFeatureUsage#ssh_v2_count}
   */
   readonly sshV2Count?: number;
   /**
   * Returns the total number of supervisor module slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#supervisor_module_count DataIntersightNiatelemetryNiaFeatureUsage#supervisor_module_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#supervisor_module_count DataIntersightNiatelemetryNiaFeatureUsage#supervisor_module_count}
   */
   readonly supervisorModuleCount?: number;
   /**
   * Number of syslog monitoring policies on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#syslog_group_count DataIntersightNiatelemetryNiaFeatureUsage#syslog_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#syslog_group_count DataIntersightNiatelemetryNiaFeatureUsage#syslog_group_count}
   */
   readonly syslogGroupCount?: number;
   /**
   * Syslog over IPv6 feature usage. This determines the total number of IPv6 configurtaions in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#syslog_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#syslog_over_v6_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#syslog_over_v6_count DataIntersightNiatelemetryNiaFeatureUsage#syslog_over_v6_count}
   */
   readonly syslogOverV6Count?: number;
   /**
   * Returns the total number of system controller slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#system_controller_count DataIntersightNiatelemetryNiaFeatureUsage#system_controller_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#system_controller_count DataIntersightNiatelemetryNiaFeatureUsage#system_controller_count}
   */
   readonly systemControllerCount?: number;
   /**
   * Number of tacacs monitoring policies on the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#tacacs_group_count DataIntersightNiatelemetryNiaFeatureUsage#tacacs_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#tacacs_group_count DataIntersightNiatelemetryNiaFeatureUsage#tacacs_group_count}
   */
   readonly tacacsGroupCount?: number;
   /**
   * Number of tenants. This determines the total number of tenants configured across the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#tenant_count DataIntersightNiatelemetryNiaFeatureUsage#tenant_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#tenant_count DataIntersightNiatelemetryNiaFeatureUsage#tenant_count}
   */
   readonly tenantCount?: number;
   /**
   * Number of tier 2 Leafs. This determines the total number of tier 2 Leaf switches in the fabric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#tier_two_leaf_count DataIntersightNiatelemetryNiaFeatureUsage#tier_two_leaf_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#tier_two_leaf_count DataIntersightNiatelemetryNiaFeatureUsage#tier_two_leaf_count}
   */
   readonly tierTwoLeafCount?: number;
   /**
   * Returns the total number of critical faults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#total_critical_faults DataIntersightNiatelemetryNiaFeatureUsage#total_critical_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#total_critical_faults DataIntersightNiatelemetryNiaFeatureUsage#total_critical_faults}
   */
   readonly totalCriticalFaults?: number;
   /**
   * TWAMP feature usage. This determines if this feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#twamp DataIntersightNiatelemetryNiaFeatureUsage#twamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#twamp DataIntersightNiatelemetryNiaFeatureUsage#twamp}
   */
   readonly twamp?: string;
   /**
   * VMM uSegmentation feature usage. This determines if microsegmentation feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#useg DataIntersightNiatelemetryNiaFeatureUsage#useg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#useg DataIntersightNiatelemetryNiaFeatureUsage#useg}
   */
   readonly useg?: string;
   /**
   * Number of objects with VmWare vCenter 6.5 support. Checks the controller revision value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vm_ware_vds_count DataIntersightNiatelemetryNiaFeatureUsage#vm_ware_vds_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vm_ware_vds_count DataIntersightNiatelemetryNiaFeatureUsage#vm_ware_vds_count}
   */
   readonly vmWareVdsCount?: number;
   /**
   * Number of Virtual Machine Monitor controller policy objects for VMware vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vmm_ctrlrp_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_ctrlrp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vmm_ctrlrp_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_ctrlrp_count}
   */
   readonly vmmCtrlrpCount?: number;
   /**
   * Number of Virtual Machine Monitor domain policy model objects for VMware vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vmm_domp_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_domp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vmm_domp_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_domp_count}
   */
   readonly vmmDompCount?: number;
   /**
   * Microsegmentation Distributed Virtual Switch feature usage. Gets the number of objects associated to VMware vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vmm_ep_pd_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_ep_pd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vmm_ep_pd_count DataIntersightNiatelemetryNiaFeatureUsage#vmm_ep_pd_count}
   */
   readonly vmmEpPdCount?: number;
   /**
   * Number of objects with L4-L7 Device Package Import enabled. Checks for the vendor and the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vnsm_dev_count DataIntersightNiatelemetryNiaFeatureUsage#vnsm_dev_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vnsm_dev_count DataIntersightNiatelemetryNiaFeatureUsage#vnsm_dev_count}
   */
   readonly vnsmDevCount?: number;
   /**
   * Virtual pod feature usage. This determines the total number of virtual POD configurations in the fabrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#vpod_count DataIntersightNiatelemetryNiaFeatureUsage#vpod_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#vpod_count DataIntersightNiatelemetryNiaFeatureUsage#vpod_count}
   */
   readonly vpodCount?: number;
   /**
   * Timeout for web token in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#webtoken_timeout_seconds DataIntersightNiatelemetryNiaFeatureUsage#webtoken_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#webtoken_timeout_seconds DataIntersightNiatelemetryNiaFeatureUsage#webtoken_timeout_seconds}
   */
   readonly webtokenTimeoutSeconds?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ancestors DataIntersightNiatelemetryNiaFeatureUsage#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ancestors DataIntersightNiatelemetryNiaFeatureUsage#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryNiaFeatureUsageAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#parent DataIntersightNiatelemetryNiaFeatureUsage#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#parent DataIntersightNiatelemetryNiaFeatureUsage#parent}
   */
   readonly parent?: DataIntersightNiatelemetryNiaFeatureUsageParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#permission_resources DataIntersightNiatelemetryNiaFeatureUsage#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#permission_resources DataIntersightNiatelemetryNiaFeatureUsage#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryNiaFeatureUsagePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#registered_device DataIntersightNiatelemetryNiaFeatureUsage#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#registered_device DataIntersightNiatelemetryNiaFeatureUsage#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryNiaFeatureUsageRegisteredDevice;
   /**
   * smart_license block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#smart_license DataIntersightNiatelemetryNiaFeatureUsage#smart_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#smart_license DataIntersightNiatelemetryNiaFeatureUsage#smart_license}
   */
   readonly smartLicense?: DataIntersightNiatelemetryNiaFeatureUsageSmartLicense;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#tags DataIntersightNiatelemetryNiaFeatureUsage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#tags DataIntersightNiatelemetryNiaFeatureUsage#tags}
   */
   readonly tags?: DataIntersightNiatelemetryNiaFeatureUsageTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#version_context DataIntersightNiatelemetryNiaFeatureUsage#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#version_context DataIntersightNiatelemetryNiaFeatureUsage#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryNiaFeatureUsageVersionContext;
 }
@@ -2596,7 +2596,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageResultsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2604,19 +2604,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2629,7 +2629,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -2861,7 +2861,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageAncestorsList extends cdkt
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2869,19 +2869,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2894,7 +2894,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -3094,7 +3094,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageParentOutputReference exte
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsagePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3102,19 +3102,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsagePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3127,7 +3127,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsagePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -3359,7 +3359,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsagePermissionResourcesList ex
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3367,19 +3367,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3392,7 +3392,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -3594,17 +3594,17 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageSmartLicense {
   /**
   * Indicate the mode smart license is curerntly running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#active_mode DataIntersightNiatelemetryNiaFeatureUsage#active_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#active_mode DataIntersightNiatelemetryNiaFeatureUsage#active_mode}
   */
   readonly activeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Authorization status of the smart license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#auth_status DataIntersightNiatelemetryNiaFeatureUsage#auth_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#auth_status DataIntersightNiatelemetryNiaFeatureUsage#auth_status}
   */
   readonly authStatus?: string;
   /**
@@ -3612,26 +3612,26 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageSmartLicense {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * License Udi of the smart license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#license_udi DataIntersightNiatelemetryNiaFeatureUsage#license_udi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#license_udi DataIntersightNiatelemetryNiaFeatureUsage#license_udi}
   */
   readonly licenseUdi?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
   * Smart licensing account name in CSSM and is retrieved from CSSM after regsitration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#smart_account DataIntersightNiatelemetryNiaFeatureUsage#smart_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#smart_account DataIntersightNiatelemetryNiaFeatureUsage#smart_account}
   */
   readonly smartAccount?: string;
 }
@@ -3889,7 +3889,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageSmartLicenseOutputReferenc
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3897,19 +3897,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3922,7 +3922,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -4154,7 +4154,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageTagsAncestorDefinitionsLis
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4162,19 +4162,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4187,7 +4187,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -4387,25 +4387,25 @@ export class DataIntersightNiatelemetryNiaFeatureUsageTagsDefinitionOutputRefere
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#key DataIntersightNiatelemetryNiaFeatureUsage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#key DataIntersightNiatelemetryNiaFeatureUsage#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#propagated DataIntersightNiatelemetryNiaFeatureUsage#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#propagated DataIntersightNiatelemetryNiaFeatureUsage#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#sys_tag DataIntersightNiatelemetryNiaFeatureUsage#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#sys_tag DataIntersightNiatelemetryNiaFeatureUsage#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4413,25 +4413,25 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#type DataIntersightNiatelemetryNiaFeatureUsage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#type DataIntersightNiatelemetryNiaFeatureUsage#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#value DataIntersightNiatelemetryNiaFeatureUsage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#value DataIntersightNiatelemetryNiaFeatureUsage#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ancestor_definitions DataIntersightNiatelemetryNiaFeatureUsage#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ancestor_definitions DataIntersightNiatelemetryNiaFeatureUsage#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryNiaFeatureUsageTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#definition DataIntersightNiatelemetryNiaFeatureUsage#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#definition DataIntersightNiatelemetryNiaFeatureUsage#definition}
   */
   readonly definition?: DataIntersightNiatelemetryNiaFeatureUsageTagsDefinition;
 }
@@ -4750,7 +4750,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageTagsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4758,19 +4758,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4783,7 +4783,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -5015,7 +5015,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageVersionContextInterestedMo
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5023,19 +5023,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#moid DataIntersightNiatelemetryNiaFeatureUsage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5048,7 +5048,7 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#selector DataIntersightNiatelemetryNiaFeatureUsage#selector}
   */
   readonly selector?: string;
 }
@@ -5248,7 +5248,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageVersionContextRefMoOutputR
 }
 export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#additional_properties DataIntersightNiatelemetryNiaFeatureUsage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5256,32 +5256,32 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#class_id DataIntersightNiatelemetryNiaFeatureUsage#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#marked_for_deletion DataIntersightNiatelemetryNiaFeatureUsage#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#marked_for_deletion DataIntersightNiatelemetryNiaFeatureUsage#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#nr_version DataIntersightNiatelemetryNiaFeatureUsage#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#nr_version DataIntersightNiatelemetryNiaFeatureUsage#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#object_type DataIntersightNiatelemetryNiaFeatureUsage#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#timestamp DataIntersightNiatelemetryNiaFeatureUsage#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#timestamp DataIntersightNiatelemetryNiaFeatureUsage#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5292,19 +5292,19 @@ export interface DataIntersightNiatelemetryNiaFeatureUsageVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#version_type DataIntersightNiatelemetryNiaFeatureUsage#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#version_type DataIntersightNiatelemetryNiaFeatureUsage#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#interested_mos DataIntersightNiatelemetryNiaFeatureUsage#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#interested_mos DataIntersightNiatelemetryNiaFeatureUsage#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryNiaFeatureUsageVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#ref_mo DataIntersightNiatelemetryNiaFeatureUsage#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#ref_mo DataIntersightNiatelemetryNiaFeatureUsage#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryNiaFeatureUsageVersionContextRefMo;
 }
@@ -5620,7 +5620,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsageVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage intersight_niatelemetry_nia_feature_usage}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage intersight_niatelemetry_nia_feature_usage}
 */
 export class DataIntersightNiatelemetryNiaFeatureUsage extends cdktf.TerraformDataSource {
 
@@ -5636,7 +5636,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsage extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightNiatelemetryNiaFeatureUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryNiaFeatureUsage to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaFeatureUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaFeatureUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryNiaFeatureUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5648,7 +5648,7 @@ export class DataIntersightNiatelemetryNiaFeatureUsage extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_feature_usage intersight_niatelemetry_nia_feature_usage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_feature_usage intersight_niatelemetry_nia_feature_usage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5659,8 +5659,8 @@ export class DataIntersightNiatelemetryNiaFeatureUsage extends cdktf.TerraformDa
       terraformResourceType: 'intersight_niatelemetry_nia_feature_usage',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

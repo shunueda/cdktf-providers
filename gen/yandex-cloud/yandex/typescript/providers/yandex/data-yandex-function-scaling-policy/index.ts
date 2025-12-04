@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexFunctionScalingPolicyConfig extends cdktf.TerraformMe
   /**
   * Yandex Cloud Function id used to define function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#function_id DataYandexFunctionScalingPolicy#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#function_id DataYandexFunctionScalingPolicy#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#id DataYandexFunctionScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#id DataYandexFunctionScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,17 +23,17 @@ export interface DataYandexFunctionScalingPolicyConfig extends cdktf.TerraformMe
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#policy DataYandexFunctionScalingPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#policy DataYandexFunctionScalingPolicy#policy}
   */
   readonly policy?: DataYandexFunctionScalingPolicyPolicy[] | cdktf.IResolvable;
 }
 export interface DataYandexFunctionScalingPolicyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#zone_instances_limit DataYandexFunctionScalingPolicy#zone_instances_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#zone_instances_limit DataYandexFunctionScalingPolicy#zone_instances_limit}
   */
   readonly zoneInstancesLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#zone_requests_limit DataYandexFunctionScalingPolicy#zone_requests_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#zone_requests_limit DataYandexFunctionScalingPolicy#zone_requests_limit}
   */
   readonly zoneRequestsLimit?: number;
 }
@@ -183,7 +183,7 @@ export class DataYandexFunctionScalingPolicyPolicyList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy yandex_function_scaling_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy yandex_function_scaling_policy}
 */
 export class DataYandexFunctionScalingPolicy extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataYandexFunctionScalingPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexFunctionScalingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexFunctionScalingPolicy to import
-  * @param importFromId The id of the existing DataYandexFunctionScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexFunctionScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexFunctionScalingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataYandexFunctionScalingPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function_scaling_policy yandex_function_scaling_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function_scaling_policy yandex_function_scaling_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataYandexFunctionScalingPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_function_scaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

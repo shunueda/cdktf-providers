@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#account_moid DataIntersightHyperflexClusterProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#account_moid DataIntersightHyperflexClusterProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * User initiated action. Each profile type has its own supported actions. For HyperFlex cluster profile, the supported actions are -- Validate, Deploy, Continue, Retry, Abort, Unassign For server profile, the support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#action DataIntersightHyperflexClusterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#action DataIntersightHyperflexClusterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#create_time DataIntersightHyperflexClusterProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#create_time DataIntersightHyperflexClusterProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * The storage data IP address for the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#data_ip_address DataIntersightHyperflexClusterProfile#data_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#data_ip_address DataIntersightHyperflexClusterProfile#data_ip_address}
   */
   readonly dataIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#deployed_policies DataIntersightHyperflexClusterProfile#deployed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#deployed_policies DataIntersightHyperflexClusterProfile#deployed_policies}
   */
   readonly deployedPolicies?: string[];
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#description DataIntersightHyperflexClusterProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#description DataIntersightHyperflexClusterProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#domain_group_moid DataIntersightHyperflexClusterProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#domain_group_moid DataIntersightHyperflexClusterProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -66,13 +66,13 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   * The maximum length of a prefix is 60, must only contain alphanumeric characters or dash (-), and must
   * start with an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#host_name_prefix DataIntersightHyperflexClusterProfile#host_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#host_name_prefix DataIntersightHyperflexClusterProfile#host_name_prefix}
   */
   readonly hostNamePrefix?: string;
   /**
   * The hypervisor control virtual IP address for the HyperFlex compute cluster that is used for node/pod management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#hypervisor_control_ip_address DataIntersightHyperflexClusterProfile#hypervisor_control_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#hypervisor_control_ip_address DataIntersightHyperflexClusterProfile#hypervisor_control_ip_address}
   */
   readonly hypervisorControlIpAddress?: string;
   /**
@@ -81,11 +81,11 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#hypervisor_type DataIntersightHyperflexClusterProfile#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#hypervisor_type DataIntersightHyperflexClusterProfile#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#id DataIntersightHyperflexClusterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#id DataIntersightHyperflexClusterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,19 +94,19 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   /**
   * The NIC based setup being set/unset determined by inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#is_nic_based DataIntersightHyperflexClusterProfile#is_nic_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#is_nic_based DataIntersightHyperflexClusterProfile#is_nic_based}
   */
   readonly isNicBased?: boolean | cdktf.IResolvable;
   /**
   * The MAC address prefix in the form of 00:25:B5:XX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#mac_address_prefix DataIntersightHyperflexClusterProfile#mac_address_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#mac_address_prefix DataIntersightHyperflexClusterProfile#mac_address_prefix}
   */
   readonly macAddressPrefix?: string;
   /**
   * The management IP address for the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#mgmt_ip_address DataIntersightHyperflexClusterProfile#mgmt_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#mgmt_ip_address DataIntersightHyperflexClusterProfile#mgmt_ip_address}
   */
   readonly mgmtIpAddress?: string;
   /**
@@ -115,71 +115,71 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   * * `EDGE` - The host servers used in the cluster deployment are standalone severs.
   * * `DC-No-FI` - The host servers used in the cluster deployment are standalone servers with the DC Advantage license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#mgmt_platform DataIntersightHyperflexClusterProfile#mgmt_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#mgmt_platform DataIntersightHyperflexClusterProfile#mgmt_platform}
   */
   readonly mgmtPlatform?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#mod_time DataIntersightHyperflexClusterProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#mod_time DataIntersightHyperflexClusterProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#owners DataIntersightHyperflexClusterProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#owners DataIntersightHyperflexClusterProfile#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#removed_policies DataIntersightHyperflexClusterProfile#removed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#removed_policies DataIntersightHyperflexClusterProfile#removed_policies}
   */
   readonly removedPolicies?: string[];
   /**
   * The number of copies of each data block written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#replication DataIntersightHyperflexClusterProfile#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#replication DataIntersightHyperflexClusterProfile#replication}
   */
   readonly replication?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#shared_scope DataIntersightHyperflexClusterProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#shared_scope DataIntersightHyperflexClusterProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The storage data IP address for the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_client_ip_address DataIntersightHyperflexClusterProfile#storage_client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_client_ip_address DataIntersightHyperflexClusterProfile#storage_client_ip_address}
   */
   readonly storageClientIpAddress?: string;
   /**
   * The netmask for the Storage client network IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_client_netmask DataIntersightHyperflexClusterProfile#storage_client_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_client_netmask DataIntersightHyperflexClusterProfile#storage_client_netmask}
   */
   readonly storageClientNetmask?: string;
   /**
   * The auxiliary storage IP address for the HyperFlex cluster. For two node clusters, this is the IP address of the auxiliary ZK controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_cluster_auxiliary_ip DataIntersightHyperflexClusterProfile#storage_cluster_auxiliary_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_cluster_auxiliary_ip DataIntersightHyperflexClusterProfile#storage_cluster_auxiliary_ip}
   */
   readonly storageClusterAuxiliaryIp?: string;
   /**
@@ -187,206 +187,218 @@ export interface DataIntersightHyperflexClusterProfileConfig extends cdktf.Terra
   * * `HyperFlexDp` - The type of storage is HyperFlex Data Platform.
   * * `ThirdParty` - The type of storage is 3rd Party Storage (PureStorage, etc..).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_type DataIntersightHyperflexClusterProfile#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_type DataIntersightHyperflexClusterProfile#storage_type}
   */
   readonly storageType?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#type DataIntersightHyperflexClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#type DataIntersightHyperflexClusterProfile#type}
   */
   readonly type?: string;
   /**
   * The WWxN prefix in the form of 20:00:00:25:B5:XX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#wwxn_prefix DataIntersightHyperflexClusterProfile#wwxn_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#wwxn_prefix DataIntersightHyperflexClusterProfile#wwxn_prefix}
   */
   readonly wwxnPrefix?: string;
   /**
   * action_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#action_params DataIntersightHyperflexClusterProfile#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#action_params DataIntersightHyperflexClusterProfile#action_params}
   */
   readonly actionParams?: DataIntersightHyperflexClusterProfileActionParams[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ancestors DataIntersightHyperflexClusterProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ancestors DataIntersightHyperflexClusterProfile#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexClusterProfileAncestors[] | cdktf.IResolvable;
   /**
   * associated_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#associated_cluster DataIntersightHyperflexClusterProfile#associated_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#associated_cluster DataIntersightHyperflexClusterProfile#associated_cluster}
   */
   readonly associatedCluster?: DataIntersightHyperflexClusterProfileAssociatedCluster;
   /**
   * auto_support block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#auto_support DataIntersightHyperflexClusterProfile#auto_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#auto_support DataIntersightHyperflexClusterProfile#auto_support}
   */
   readonly autoSupport?: DataIntersightHyperflexClusterProfileAutoSupport;
   /**
   * cluster_internal_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#cluster_internal_subnet DataIntersightHyperflexClusterProfile#cluster_internal_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#cluster_internal_subnet DataIntersightHyperflexClusterProfile#cluster_internal_subnet}
   */
   readonly clusterInternalSubnet?: DataIntersightHyperflexClusterProfileClusterInternalSubnet;
   /**
   * cluster_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#cluster_network DataIntersightHyperflexClusterProfile#cluster_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#cluster_network DataIntersightHyperflexClusterProfile#cluster_network}
   */
   readonly clusterNetwork?: DataIntersightHyperflexClusterProfileClusterNetwork;
   /**
   * cluster_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#cluster_storage DataIntersightHyperflexClusterProfile#cluster_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#cluster_storage DataIntersightHyperflexClusterProfile#cluster_storage}
   */
   readonly clusterStorage?: DataIntersightHyperflexClusterProfileClusterStorage;
   /**
   * config_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#config_context DataIntersightHyperflexClusterProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_context DataIntersightHyperflexClusterProfile#config_context}
   */
   readonly configContext?: DataIntersightHyperflexClusterProfileConfigContext;
   /**
   * config_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#config_result DataIntersightHyperflexClusterProfile#config_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_result DataIntersightHyperflexClusterProfile#config_result}
   */
   readonly configResult?: DataIntersightHyperflexClusterProfileConfigResult;
   /**
   * ext_fc_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ext_fc_storage DataIntersightHyperflexClusterProfile#ext_fc_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ext_fc_storage DataIntersightHyperflexClusterProfile#ext_fc_storage}
   */
   readonly extFcStorage?: DataIntersightHyperflexClusterProfileExtFcStorage;
   /**
   * ext_iscsi_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ext_iscsi_storage DataIntersightHyperflexClusterProfile#ext_iscsi_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ext_iscsi_storage DataIntersightHyperflexClusterProfile#ext_iscsi_storage}
   */
   readonly extIscsiStorage?: DataIntersightHyperflexClusterProfileExtIscsiStorage;
   /**
   * httpproxypolicy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#httpproxypolicy DataIntersightHyperflexClusterProfile#httpproxypolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#httpproxypolicy DataIntersightHyperflexClusterProfile#httpproxypolicy}
   */
   readonly httpproxypolicy?: DataIntersightHyperflexClusterProfileHttpproxypolicy;
   /**
   * local_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#local_credential DataIntersightHyperflexClusterProfile#local_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#local_credential DataIntersightHyperflexClusterProfile#local_credential}
   */
   readonly localCredential?: DataIntersightHyperflexClusterProfileLocalCredential;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#node_config DataIntersightHyperflexClusterProfile#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#node_config DataIntersightHyperflexClusterProfile#node_config}
   */
   readonly nodeConfig?: DataIntersightHyperflexClusterProfileNodeConfig;
   /**
   * node_profile_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#node_profile_config DataIntersightHyperflexClusterProfile#node_profile_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#node_profile_config DataIntersightHyperflexClusterProfile#node_profile_config}
   */
   readonly nodeProfileConfig?: DataIntersightHyperflexClusterProfileNodeProfileConfig[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#organization DataIntersightHyperflexClusterProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#organization DataIntersightHyperflexClusterProfile#organization}
   */
   readonly organization?: DataIntersightHyperflexClusterProfileOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#parent DataIntersightHyperflexClusterProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#parent DataIntersightHyperflexClusterProfile#parent}
   */
   readonly parent?: DataIntersightHyperflexClusterProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#permission_resources DataIntersightHyperflexClusterProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#permission_resources DataIntersightHyperflexClusterProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexClusterProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * policy_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#policy_bucket DataIntersightHyperflexClusterProfile#policy_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#policy_bucket DataIntersightHyperflexClusterProfile#policy_bucket}
   */
   readonly policyBucket?: DataIntersightHyperflexClusterProfilePolicyBucket[] | cdktf.IResolvable;
   /**
+  * policy_change_details block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#policy_change_details DataIntersightHyperflexClusterProfile#policy_change_details}
+  */
+  readonly policyChangeDetails?: DataIntersightHyperflexClusterProfilePolicyChangeDetails[] | cdktf.IResolvable;
+  /**
   * proxy_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#proxy_setting DataIntersightHyperflexClusterProfile#proxy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#proxy_setting DataIntersightHyperflexClusterProfile#proxy_setting}
   */
   readonly proxySetting?: DataIntersightHyperflexClusterProfileProxySetting;
   /**
+  * reported_policy_changes block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#reported_policy_changes DataIntersightHyperflexClusterProfile#reported_policy_changes}
+  */
+  readonly reportedPolicyChanges?: DataIntersightHyperflexClusterProfileReportedPolicyChanges[] | cdktf.IResolvable;
+  /**
   * running_workflows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#running_workflows DataIntersightHyperflexClusterProfile#running_workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#running_workflows DataIntersightHyperflexClusterProfile#running_workflows}
   */
   readonly runningWorkflows?: DataIntersightHyperflexClusterProfileRunningWorkflows[] | cdktf.IResolvable;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#scheduled_actions DataIntersightHyperflexClusterProfile#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#scheduled_actions DataIntersightHyperflexClusterProfile#scheduled_actions}
   */
   readonly scheduledActions?: DataIntersightHyperflexClusterProfileScheduledActions[] | cdktf.IResolvable;
   /**
   * software_version block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#software_version DataIntersightHyperflexClusterProfile#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#software_version DataIntersightHyperflexClusterProfile#software_version}
   */
   readonly softwareVersion?: DataIntersightHyperflexClusterProfileSoftwareVersion;
   /**
   * src_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#src_template DataIntersightHyperflexClusterProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#src_template DataIntersightHyperflexClusterProfile#src_template}
   */
   readonly srcTemplate?: DataIntersightHyperflexClusterProfileSrcTemplate;
   /**
   * storage_client_vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_client_vlan DataIntersightHyperflexClusterProfile#storage_client_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_client_vlan DataIntersightHyperflexClusterProfile#storage_client_vlan}
   */
   readonly storageClientVlan?: DataIntersightHyperflexClusterProfileStorageClientVlan;
   /**
   * storage_data_vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#storage_data_vlan DataIntersightHyperflexClusterProfile#storage_data_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#storage_data_vlan DataIntersightHyperflexClusterProfile#storage_data_vlan}
   */
   readonly storageDataVlan?: DataIntersightHyperflexClusterProfileStorageDataVlan;
   /**
   * sys_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#sys_config DataIntersightHyperflexClusterProfile#sys_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#sys_config DataIntersightHyperflexClusterProfile#sys_config}
   */
   readonly sysConfig?: DataIntersightHyperflexClusterProfileSysConfig;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#tags DataIntersightHyperflexClusterProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#tags DataIntersightHyperflexClusterProfile#tags}
   */
   readonly tags?: DataIntersightHyperflexClusterProfileTags[] | cdktf.IResolvable;
   /**
   * ucsm_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ucsm_config DataIntersightHyperflexClusterProfile#ucsm_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ucsm_config DataIntersightHyperflexClusterProfile#ucsm_config}
   */
   readonly ucsmConfig?: DataIntersightHyperflexClusterProfileUcsmConfig;
   /**
   * vcenter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#vcenter_config DataIntersightHyperflexClusterProfile#vcenter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#vcenter_config DataIntersightHyperflexClusterProfile#vcenter_config}
   */
   readonly vcenterConfig?: DataIntersightHyperflexClusterProfileVcenterConfig;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#version_context DataIntersightHyperflexClusterProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#version_context DataIntersightHyperflexClusterProfile#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexClusterProfileVersionContext;
 }
@@ -2225,6 +2237,247 @@ export class DataIntersightHyperflexClusterProfileResultsPolicyBucketList extend
     return new DataIntersightHyperflexClusterProfileResultsPolicyBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContext {
+}
+
+export function dataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextToTerraform(struct?: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextToHclTerraform(struct?: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // dependent_policy_list - computed: true, optional: false, required: false
+  public get dependentPolicyList() {
+    return this.getListAttribute('dependent_policy_list');
+  }
+
+  // entity_data - computed: true, optional: false, required: false
+  public get entityData() {
+    return this.getStringAttribute('entity_data');
+  }
+
+  // entity_moid - computed: true, optional: false, required: false
+  public get entityMoid() {
+    return this.getStringAttribute('entity_moid');
+  }
+
+  // entity_name - computed: true, optional: false, required: false
+  public get entityName() {
+    return this.getStringAttribute('entity_name');
+  }
+
+  // entity_type - computed: true, optional: false, required: false
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // parent_moid - computed: true, optional: false, required: false
+  public get parentMoid() {
+    return this.getStringAttribute('parent_moid');
+  }
+
+  // parent_policy_object_type - computed: true, optional: false, required: false
+  public get parentPolicyObjectType() {
+    return this.getStringAttribute('parent_policy_object_type');
+  }
+
+  // parent_type - computed: true, optional: false, required: false
+  public get parentType() {
+    return this.getStringAttribute('parent_type');
+  }
+}
+
+export class DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference {
+    return new DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightHyperflexClusterProfileResultsPolicyChangeDetails {
+}
+
+export function dataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsToTerraform(struct?: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsToHclTerraform(struct?: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfileResultsPolicyChangeDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfileResultsPolicyChangeDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // changes - computed: true, optional: false, required: false
+  public get changes() {
+    return this.getListAttribute('changes');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // config_change_context - computed: true, optional: false, required: false
+  private _configChangeContext = new DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsConfigChangeContextList(this, "config_change_context", false);
+  public get configChangeContext() {
+    return this._configChangeContext;
+  }
+
+  // config_change_flag - computed: true, optional: false, required: false
+  public get configChangeFlag() {
+    return this.getStringAttribute('config_change_flag');
+  }
+
+  // disruptions - computed: true, optional: false, required: false
+  public get disruptions() {
+    return this.getListAttribute('disruptions');
+  }
+
+  // message - computed: true, optional: false, required: false
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+
+  // mod_status - computed: true, optional: false, required: false
+  public get modStatus() {
+    return this.getStringAttribute('mod_status');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+}
+
+export class DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsOutputReference {
+    return new DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIntersightHyperflexClusterProfileResultsProxySetting {
 }
 
@@ -2318,6 +2571,106 @@ export class DataIntersightHyperflexClusterProfileResultsProxySettingList extend
   */
   public get(index: number): DataIntersightHyperflexClusterProfileResultsProxySettingOutputReference {
     return new DataIntersightHyperflexClusterProfileResultsProxySettingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightHyperflexClusterProfileResultsReportedPolicyChanges {
+}
+
+export function dataIntersightHyperflexClusterProfileResultsReportedPolicyChangesToTerraform(struct?: DataIntersightHyperflexClusterProfileResultsReportedPolicyChanges): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfileResultsReportedPolicyChangesToHclTerraform(struct?: DataIntersightHyperflexClusterProfileResultsReportedPolicyChanges): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightHyperflexClusterProfileResultsReportedPolicyChangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfileResultsReportedPolicyChanges | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfileResultsReportedPolicyChanges | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // change_id - computed: true, optional: false, required: false
+  public get changeId() {
+    return this.getStringAttribute('change_id');
+  }
+
+  // change_status - computed: true, optional: false, required: false
+  public get changeStatus() {
+    return this.getStringAttribute('change_status');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // policy_type - computed: true, optional: false, required: false
+  public get policyType() {
+    return this.getStringAttribute('policy_type');
+  }
+}
+
+export class DataIntersightHyperflexClusterProfileResultsReportedPolicyChangesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightHyperflexClusterProfileResultsReportedPolicyChangesOutputReference {
+    return new DataIntersightHyperflexClusterProfileResultsReportedPolicyChangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataIntersightHyperflexClusterProfileResultsRunningWorkflows {
@@ -4145,6 +4498,12 @@ export class DataIntersightHyperflexClusterProfileResultsOutputReference extends
     return this._policyBucket;
   }
 
+  // policy_change_details - computed: true, optional: false, required: false
+  private _policyChangeDetails = new DataIntersightHyperflexClusterProfileResultsPolicyChangeDetailsList(this, "policy_change_details", false);
+  public get policyChangeDetails() {
+    return this._policyChangeDetails;
+  }
+
   // proxy_setting - computed: true, optional: false, required: false
   private _proxySetting = new DataIntersightHyperflexClusterProfileResultsProxySettingList(this, "proxy_setting", false);
   public get proxySetting() {
@@ -4159,6 +4518,12 @@ export class DataIntersightHyperflexClusterProfileResultsOutputReference extends
   // replication - computed: true, optional: false, required: false
   public get replication() {
     return this.getNumberAttribute('replication');
+  }
+
+  // reported_policy_changes - computed: true, optional: false, required: false
+  private _reportedPolicyChanges = new DataIntersightHyperflexClusterProfileResultsReportedPolicyChangesList(this, "reported_policy_changes", false);
+  public get reportedPolicyChanges() {
+    return this._reportedPolicyChanges;
   }
 
   // running_workflows - computed: true, optional: false, required: false
@@ -4283,7 +4648,7 @@ export class DataIntersightHyperflexClusterProfileResultsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexClusterProfileActionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4291,26 +4656,26 @@ export interface DataIntersightHyperflexClusterProfileActionParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The action parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The action parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#value DataIntersightHyperflexClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#value DataIntersightHyperflexClusterProfile#value}
   */
   readonly value?: string;
 }
@@ -4542,7 +4907,7 @@ export class DataIntersightHyperflexClusterProfileActionParamsList extends cdktf
 }
 export interface DataIntersightHyperflexClusterProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4550,19 +4915,19 @@ export interface DataIntersightHyperflexClusterProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4575,7 +4940,7 @@ export interface DataIntersightHyperflexClusterProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4807,7 +5172,7 @@ export class DataIntersightHyperflexClusterProfileAncestorsList extends cdktf.Co
 }
 export interface DataIntersightHyperflexClusterProfileAssociatedCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4815,19 +5180,19 @@ export interface DataIntersightHyperflexClusterProfileAssociatedCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4840,7 +5205,7 @@ export interface DataIntersightHyperflexClusterProfileAssociatedCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5040,7 +5405,7 @@ export class DataIntersightHyperflexClusterProfileAssociatedClusterOutputReferen
 }
 export interface DataIntersightHyperflexClusterProfileAutoSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5048,19 +5413,19 @@ export interface DataIntersightHyperflexClusterProfileAutoSupport {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5073,7 +5438,7 @@ export interface DataIntersightHyperflexClusterProfileAutoSupport {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5273,7 +5638,7 @@ export class DataIntersightHyperflexClusterProfileAutoSupportOutputReference ext
 }
 export interface DataIntersightHyperflexClusterProfileClusterInternalSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5281,32 +5646,32 @@ export interface DataIntersightHyperflexClusterProfileClusterInternalSubnet {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The IPv4 address of the default gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#gateway DataIntersightHyperflexClusterProfile#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#gateway DataIntersightHyperflexClusterProfile#gateway}
   */
   readonly gateway?: string;
   /**
   * The IPv4 Address, represented in the standard dot-decimal notation, e.g. 192.168.1.3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ip_address DataIntersightHyperflexClusterProfile#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ip_address DataIntersightHyperflexClusterProfile#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * The IPv4 Netmask, represented in the standard dot-decimal notation, e.g. 255.255.255.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#netmask DataIntersightHyperflexClusterProfile#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#netmask DataIntersightHyperflexClusterProfile#netmask}
   */
   readonly netmask?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -5535,7 +5900,7 @@ export class DataIntersightHyperflexClusterProfileClusterInternalSubnetOutputRef
 }
 export interface DataIntersightHyperflexClusterProfileClusterNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5543,19 +5908,19 @@ export interface DataIntersightHyperflexClusterProfileClusterNetwork {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5568,7 +5933,7 @@ export interface DataIntersightHyperflexClusterProfileClusterNetwork {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5768,7 +6133,7 @@ export class DataIntersightHyperflexClusterProfileClusterNetworkOutputReference 
 }
 export interface DataIntersightHyperflexClusterProfileClusterStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5776,19 +6141,19 @@ export interface DataIntersightHyperflexClusterProfileClusterStorage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5801,7 +6166,7 @@ export interface DataIntersightHyperflexClusterProfileClusterStorage {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6001,7 +6366,7 @@ export class DataIntersightHyperflexClusterProfileClusterStorageOutputReference 
 }
 export interface DataIntersightHyperflexClusterProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6009,13 +6374,13 @@ export interface DataIntersightHyperflexClusterProfileConfigContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates a profile's configuration deploying state. Values -- Assigned, Not-assigned, Associated, Pending-changes, Out-of-sync, Validating, Configuring, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#config_state DataIntersightHyperflexClusterProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_state DataIntersightHyperflexClusterProfile#config_state}
   */
   readonly configState?: string;
   /**
@@ -6025,6 +6390,7 @@ export interface DataIntersightHyperflexClusterProfileConfigContext {
   * * `Assigned` - Server is assigned to the profile and the configurations are not yet deployed.
   * * `Preparing` - Preparing to deploy the configuration.
   * * `Validating` - Profile validation in progress.
+  * * `Evaluating` - Policy edit configuration change evaluation in progress.
   * * `Configuring` - Profile deploy operation is in progress.
   * * `UnConfiguring` - Server is unassigned and config cleanup is in progress.
   * * `Analyzing` - Profile changes are being analyzed.
@@ -6036,42 +6402,42 @@ export interface DataIntersightHyperflexClusterProfileConfigContext {
   * * `Waiting-for-resource` - Waiting for the resource to be allocated for the profile.
   * * `Partially-deployed` - The profile configuration has been applied on a subset of endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#config_state_summary DataIntersightHyperflexClusterProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_state_summary DataIntersightHyperflexClusterProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
   * The type of configuration running on the profile. Since profile deployments can configure multiple different settings, configType indicates which type of configuration is currently in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#config_type DataIntersightHyperflexClusterProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_type DataIntersightHyperflexClusterProfile#config_type}
   */
   readonly configType?: string;
   /**
   * System action to trigger the appropriate workflow. Values -- No_op, ConfigChange, Deploy, Unbind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#control_action DataIntersightHyperflexClusterProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#control_action DataIntersightHyperflexClusterProfile#control_action}
   */
   readonly controlAction?: string;
   /**
   * Indicates a profile's error state. Values -- Validation-error (Static validation error), Pre-config-error (Runtime validation error), Config-error (Runtime configuration error).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#error_state DataIntersightHyperflexClusterProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#error_state DataIntersightHyperflexClusterProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#inconsistency_reason DataIntersightHyperflexClusterProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#inconsistency_reason DataIntersightHyperflexClusterProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Combined state (configState, and operational state of the associated physical resource) to indicate the current state of the profile. Values -- n/a, Power-off, Pending-changes, Configuring, Ok, Failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#oper_state DataIntersightHyperflexClusterProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#oper_state DataIntersightHyperflexClusterProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -6416,7 +6782,7 @@ export class DataIntersightHyperflexClusterProfileConfigContextOutputReference e
 }
 export interface DataIntersightHyperflexClusterProfileConfigResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6424,19 +6790,19 @@ export interface DataIntersightHyperflexClusterProfileConfigResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6449,7 +6815,7 @@ export interface DataIntersightHyperflexClusterProfileConfigResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6649,7 +7015,7 @@ export class DataIntersightHyperflexClusterProfileConfigResultOutputReference ex
 }
 export interface DataIntersightHyperflexClusterProfileExtFcStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6657,19 +7023,19 @@ export interface DataIntersightHyperflexClusterProfileExtFcStorage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6682,7 +7048,7 @@ export interface DataIntersightHyperflexClusterProfileExtFcStorage {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -6882,7 +7248,7 @@ export class DataIntersightHyperflexClusterProfileExtFcStorageOutputReference ex
 }
 export interface DataIntersightHyperflexClusterProfileExtIscsiStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6890,19 +7256,19 @@ export interface DataIntersightHyperflexClusterProfileExtIscsiStorage {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6915,7 +7281,7 @@ export interface DataIntersightHyperflexClusterProfileExtIscsiStorage {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7115,7 +7481,7 @@ export class DataIntersightHyperflexClusterProfileExtIscsiStorageOutputReference
 }
 export interface DataIntersightHyperflexClusterProfileHttpproxypolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7123,19 +7489,19 @@ export interface DataIntersightHyperflexClusterProfileHttpproxypolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7148,7 +7514,7 @@ export interface DataIntersightHyperflexClusterProfileHttpproxypolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7348,7 +7714,7 @@ export class DataIntersightHyperflexClusterProfileHttpproxypolicyOutputReference
 }
 export interface DataIntersightHyperflexClusterProfileLocalCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7356,19 +7722,19 @@ export interface DataIntersightHyperflexClusterProfileLocalCredential {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7381,7 +7747,7 @@ export interface DataIntersightHyperflexClusterProfileLocalCredential {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7581,7 +7947,7 @@ export class DataIntersightHyperflexClusterProfileLocalCredentialOutputReference
 }
 export interface DataIntersightHyperflexClusterProfileNodeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7589,19 +7955,19 @@ export interface DataIntersightHyperflexClusterProfileNodeConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7614,7 +7980,7 @@ export interface DataIntersightHyperflexClusterProfileNodeConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -7814,7 +8180,7 @@ export class DataIntersightHyperflexClusterProfileNodeConfigOutputReference exte
 }
 export interface DataIntersightHyperflexClusterProfileNodeProfileConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7822,19 +8188,19 @@ export interface DataIntersightHyperflexClusterProfileNodeProfileConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7847,7 +8213,7 @@ export interface DataIntersightHyperflexClusterProfileNodeProfileConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8079,7 +8445,7 @@ export class DataIntersightHyperflexClusterProfileNodeProfileConfigList extends 
 }
 export interface DataIntersightHyperflexClusterProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8087,19 +8453,19 @@ export interface DataIntersightHyperflexClusterProfileOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8112,7 +8478,7 @@ export interface DataIntersightHyperflexClusterProfileOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8312,7 +8678,7 @@ export class DataIntersightHyperflexClusterProfileOrganizationOutputReference ex
 }
 export interface DataIntersightHyperflexClusterProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8320,19 +8686,19 @@ export interface DataIntersightHyperflexClusterProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8345,7 +8711,7 @@ export interface DataIntersightHyperflexClusterProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8545,7 +8911,7 @@ export class DataIntersightHyperflexClusterProfileParentOutputReference extends 
 }
 export interface DataIntersightHyperflexClusterProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8553,19 +8919,19 @@ export interface DataIntersightHyperflexClusterProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8578,7 +8944,7 @@ export interface DataIntersightHyperflexClusterProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -8810,7 +9176,7 @@ export class DataIntersightHyperflexClusterProfilePermissionResourcesList extend
 }
 export interface DataIntersightHyperflexClusterProfilePolicyBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8818,19 +9184,19 @@ export interface DataIntersightHyperflexClusterProfilePolicyBucket {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8843,7 +9209,7 @@ export interface DataIntersightHyperflexClusterProfilePolicyBucket {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9073,9 +9439,9 @@ export class DataIntersightHyperflexClusterProfilePolicyBucketList extends cdktf
     return new DataIntersightHyperflexClusterProfilePolicyBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataIntersightHyperflexClusterProfileProxySetting {
+export interface DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9083,19 +9449,855 @@ export interface DataIntersightHyperflexClusterProfileProxySetting {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#dependent_policy_list DataIntersightHyperflexClusterProfile#dependent_policy_list}
+  */
+  readonly dependentPolicyList?: string[];
+  /**
+  * The data of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#entity_data DataIntersightHyperflexClusterProfile#entity_data}
+  */
+  readonly entityData?: string;
+  /**
+  * The Moid of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#entity_moid DataIntersightHyperflexClusterProfile#entity_moid}
+  */
+  readonly entityMoid?: string;
+  /**
+  * The name of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#entity_name DataIntersightHyperflexClusterProfile#entity_name}
+  */
+  readonly entityName?: string;
+  /**
+  * The type of the object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#entity_type DataIntersightHyperflexClusterProfile#entity_type}
+  */
+  readonly entityType?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * The Moid of the parent object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#parent_moid DataIntersightHyperflexClusterProfile#parent_moid}
+  */
+  readonly parentMoid?: string;
+  /**
+  * The type of the policy object associated with the profile.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#parent_policy_object_type DataIntersightHyperflexClusterProfile#parent_policy_object_type}
+  */
+  readonly parentPolicyObjectType?: string;
+  /**
+  * The type of the parent object present in config result context.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#parent_type DataIntersightHyperflexClusterProfile#parent_type}
+  */
+  readonly parentType?: string;
+}
+
+export function dataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextToTerraform(struct?: DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference | DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    dependent_policy_list: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.dependentPolicyList),
+    entity_data: cdktf.stringToTerraform(struct!.entityData),
+    entity_moid: cdktf.stringToTerraform(struct!.entityMoid),
+    entity_name: cdktf.stringToTerraform(struct!.entityName),
+    entity_type: cdktf.stringToTerraform(struct!.entityType),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    parent_moid: cdktf.stringToTerraform(struct!.parentMoid),
+    parent_policy_object_type: cdktf.stringToTerraform(struct!.parentPolicyObjectType),
+    parent_type: cdktf.stringToTerraform(struct!.parentType),
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextToHclTerraform(struct?: DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference | DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dependent_policy_list: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dependentPolicyList),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    entity_data: {
+      value: cdktf.stringToHclTerraform(struct!.entityData),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_moid: {
+      value: cdktf.stringToHclTerraform(struct!.entityMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_name: {
+      value: cdktf.stringToHclTerraform(struct!.entityName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entity_type: {
+      value: cdktf.stringToHclTerraform(struct!.entityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_moid: {
+      value: cdktf.stringToHclTerraform(struct!.parentMoid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_policy_object_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentPolicyObjectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    parent_type: {
+      value: cdktf.stringToHclTerraform(struct!.parentType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._dependentPolicyList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dependentPolicyList = this._dependentPolicyList;
+    }
+    if (this._entityData !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityData = this._entityData;
+    }
+    if (this._entityMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityMoid = this._entityMoid;
+    }
+    if (this._entityName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityName = this._entityName;
+    }
+    if (this._entityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entityType = this._entityType;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._parentMoid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentMoid = this._parentMoid;
+    }
+    if (this._parentPolicyObjectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentPolicyObjectType = this._parentPolicyObjectType;
+    }
+    if (this._parentType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.parentType = this._parentType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._dependentPolicyList = undefined;
+      this._entityData = undefined;
+      this._entityMoid = undefined;
+      this._entityName = undefined;
+      this._entityType = undefined;
+      this._objectType = undefined;
+      this._parentMoid = undefined;
+      this._parentPolicyObjectType = undefined;
+      this._parentType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._dependentPolicyList = value.dependentPolicyList;
+      this._entityData = value.entityData;
+      this._entityMoid = value.entityMoid;
+      this._entityName = value.entityName;
+      this._entityType = value.entityType;
+      this._objectType = value.objectType;
+      this._parentMoid = value.parentMoid;
+      this._parentPolicyObjectType = value.parentPolicyObjectType;
+      this._parentType = value.parentType;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // dependent_policy_list - computed: false, optional: true, required: false
+  private _dependentPolicyList?: string[]; 
+  public get dependentPolicyList() {
+    return this.getListAttribute('dependent_policy_list');
+  }
+  public set dependentPolicyList(value: string[]) {
+    this._dependentPolicyList = value;
+  }
+  public resetDependentPolicyList() {
+    this._dependentPolicyList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dependentPolicyListInput() {
+    return this._dependentPolicyList;
+  }
+
+  // entity_data - computed: false, optional: true, required: false
+  private _entityData?: string; 
+  public get entityData() {
+    return this.getStringAttribute('entity_data');
+  }
+  public set entityData(value: string) {
+    this._entityData = value;
+  }
+  public resetEntityData() {
+    this._entityData = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityDataInput() {
+    return this._entityData;
+  }
+
+  // entity_moid - computed: false, optional: true, required: false
+  private _entityMoid?: string; 
+  public get entityMoid() {
+    return this.getStringAttribute('entity_moid');
+  }
+  public set entityMoid(value: string) {
+    this._entityMoid = value;
+  }
+  public resetEntityMoid() {
+    this._entityMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityMoidInput() {
+    return this._entityMoid;
+  }
+
+  // entity_name - computed: false, optional: true, required: false
+  private _entityName?: string; 
+  public get entityName() {
+    return this.getStringAttribute('entity_name');
+  }
+  public set entityName(value: string) {
+    this._entityName = value;
+  }
+  public resetEntityName() {
+    this._entityName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityNameInput() {
+    return this._entityName;
+  }
+
+  // entity_type - computed: false, optional: true, required: false
+  private _entityType?: string; 
+  public get entityType() {
+    return this.getStringAttribute('entity_type');
+  }
+  public set entityType(value: string) {
+    this._entityType = value;
+  }
+  public resetEntityType() {
+    this._entityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entityTypeInput() {
+    return this._entityType;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // parent_moid - computed: false, optional: true, required: false
+  private _parentMoid?: string; 
+  public get parentMoid() {
+    return this.getStringAttribute('parent_moid');
+  }
+  public set parentMoid(value: string) {
+    this._parentMoid = value;
+  }
+  public resetParentMoid() {
+    this._parentMoid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentMoidInput() {
+    return this._parentMoid;
+  }
+
+  // parent_policy_object_type - computed: false, optional: true, required: false
+  private _parentPolicyObjectType?: string; 
+  public get parentPolicyObjectType() {
+    return this.getStringAttribute('parent_policy_object_type');
+  }
+  public set parentPolicyObjectType(value: string) {
+    this._parentPolicyObjectType = value;
+  }
+  public resetParentPolicyObjectType() {
+    this._parentPolicyObjectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentPolicyObjectTypeInput() {
+    return this._parentPolicyObjectType;
+  }
+
+  // parent_type - computed: false, optional: true, required: false
+  private _parentType?: string; 
+  public get parentType() {
+    return this.getStringAttribute('parent_type');
+  }
+  public set parentType(value: string) {
+    this._parentType = value;
+  }
+  public resetParentType() {
+    this._parentType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentTypeInput() {
+    return this._parentType;
+  }
+}
+export interface DataIntersightHyperflexClusterProfilePolicyChangeDetails {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#changes DataIntersightHyperflexClusterProfile#changes}
+  */
+  readonly changes?: string[];
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Config change flag to differentiate Pending-changes and Config-drift.
+  * * `Pending-changes` - Config change flag represents changes are due to not deployed changes from Intersight.
+  * * `Drift-changes` - Config change flag represents changes are due to endpoint configuration changes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_change_flag DataIntersightHyperflexClusterProfile#config_change_flag}
+  */
+  readonly configChangeFlag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#disruptions DataIntersightHyperflexClusterProfile#disruptions}
+  */
+  readonly disruptions?: string[];
+  /**
+  * Detailed description of the config change.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#message DataIntersightHyperflexClusterProfile#message}
+  */
+  readonly message?: string;
+  /**
+  * Modification status of the mo in this config change.
+  * * `None` - The 'none' operation/state.Indicates a configuration profile has been deployed, and the desired configuration matches the actual device configuration.
+  * * `Created` - The 'create' operation/state.Indicates a configuration profile has been created and associated with a device, but the configuration specified in the profilehas not been applied yet. For example, this could happen when the user creates a server profile and has not deployed the profile yet.
+  * * `Modified` - The 'update' operation/state.Indicates some of the desired configuration changes specified in a profile have not been been applied to the associated device.This happens when the user has made changes to a profile and has not deployed the changes yet, or when the workflow to applythe configuration changes has not completed successfully.
+  * * `Deleted` - The 'delete' operation/state.Indicates a configuration profile has been been disassociated from a device and the user has not undeployed these changes yet.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#mod_status DataIntersightHyperflexClusterProfile#mod_status}
+  */
+  readonly modStatus?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * config_change_context block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#config_change_context DataIntersightHyperflexClusterProfile#config_change_context}
+  */
+  readonly configChangeContext?: DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext;
+}
+
+export function dataIntersightHyperflexClusterProfilePolicyChangeDetailsToTerraform(struct?: DataIntersightHyperflexClusterProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    changes: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.changes),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    config_change_flag: cdktf.stringToTerraform(struct!.configChangeFlag),
+    disruptions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.disruptions),
+    message: cdktf.stringToTerraform(struct!.message),
+    mod_status: cdktf.stringToTerraform(struct!.modStatus),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    config_change_context: dataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextToTerraform(struct!.configChangeContext),
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfilePolicyChangeDetailsToHclTerraform(struct?: DataIntersightHyperflexClusterProfilePolicyChangeDetails | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    changes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.changes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config_change_flag: {
+      value: cdktf.stringToHclTerraform(struct!.configChangeFlag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    disruptions: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.disruptions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    message: {
+      value: cdktf.stringToHclTerraform(struct!.message),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mod_status: {
+      value: cdktf.stringToHclTerraform(struct!.modStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    config_change_context: {
+      value: dataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextToHclTerraform(struct!.configChangeContext),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightHyperflexClusterProfilePolicyChangeDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfilePolicyChangeDetails | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changes = this._changes;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._configChangeFlag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeFlag = this._configChangeFlag;
+    }
+    if (this._disruptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disruptions = this._disruptions;
+    }
+    if (this._message !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.message = this._message;
+    }
+    if (this._modStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.modStatus = this._modStatus;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._configChangeContext?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.configChangeContext = this._configChangeContext?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfilePolicyChangeDetails | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changes = undefined;
+      this._classId = undefined;
+      this._configChangeFlag = undefined;
+      this._disruptions = undefined;
+      this._message = undefined;
+      this._modStatus = undefined;
+      this._objectType = undefined;
+      this._configChangeContext.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changes = value.changes;
+      this._classId = value.classId;
+      this._configChangeFlag = value.configChangeFlag;
+      this._disruptions = value.disruptions;
+      this._message = value.message;
+      this._modStatus = value.modStatus;
+      this._objectType = value.objectType;
+      this._configChangeContext.internalValue = value.configChangeContext;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // changes - computed: false, optional: true, required: false
+  private _changes?: string[]; 
+  public get changes() {
+    return this.getListAttribute('changes');
+  }
+  public set changes(value: string[]) {
+    this._changes = value;
+  }
+  public resetChanges() {
+    this._changes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changesInput() {
+    return this._changes;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // config_change_flag - computed: false, optional: true, required: false
+  private _configChangeFlag?: string; 
+  public get configChangeFlag() {
+    return this.getStringAttribute('config_change_flag');
+  }
+  public set configChangeFlag(value: string) {
+    this._configChangeFlag = value;
+  }
+  public resetConfigChangeFlag() {
+    this._configChangeFlag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeFlagInput() {
+    return this._configChangeFlag;
+  }
+
+  // disruptions - computed: false, optional: true, required: false
+  private _disruptions?: string[]; 
+  public get disruptions() {
+    return this.getListAttribute('disruptions');
+  }
+  public set disruptions(value: string[]) {
+    this._disruptions = value;
+  }
+  public resetDisruptions() {
+    this._disruptions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disruptionsInput() {
+    return this._disruptions;
+  }
+
+  // message - computed: false, optional: true, required: false
+  private _message?: string; 
+  public get message() {
+    return this.getStringAttribute('message');
+  }
+  public set message(value: string) {
+    this._message = value;
+  }
+  public resetMessage() {
+    this._message = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageInput() {
+    return this._message;
+  }
+
+  // mod_status - computed: false, optional: true, required: false
+  private _modStatus?: string; 
+  public get modStatus() {
+    return this.getStringAttribute('mod_status');
+  }
+  public set modStatus(value: string) {
+    this._modStatus = value;
+  }
+  public resetModStatus() {
+    this._modStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modStatusInput() {
+    return this._modStatus;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // config_change_context - computed: false, optional: true, required: false
+  private _configChangeContext = new DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContextOutputReference(this, "config_change_context");
+  public get configChangeContext() {
+    return this._configChangeContext;
+  }
+  public putConfigChangeContext(value: DataIntersightHyperflexClusterProfilePolicyChangeDetailsConfigChangeContext) {
+    this._configChangeContext.internalValue = value;
+  }
+  public resetConfigChangeContext() {
+    this._configChangeContext.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get configChangeContextInput() {
+    return this._configChangeContext.internalValue;
+  }
+}
+
+export class DataIntersightHyperflexClusterProfilePolicyChangeDetailsList extends cdktf.ComplexList {
+  public internalValue? : DataIntersightHyperflexClusterProfilePolicyChangeDetails[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightHyperflexClusterProfilePolicyChangeDetailsOutputReference {
+    return new DataIntersightHyperflexClusterProfilePolicyChangeDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightHyperflexClusterProfileProxySetting {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9108,7 +10310,7 @@ export interface DataIntersightHyperflexClusterProfileProxySetting {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9306,9 +10508,305 @@ export class DataIntersightHyperflexClusterProfileProxySettingOutputReference ex
     return this._selector;
   }
 }
+export interface DataIntersightHyperflexClusterProfileReportedPolicyChanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The change evaluation identifier for which the change is reported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#change_id DataIntersightHyperflexClusterProfile#change_id}
+  */
+  readonly changeId?: string;
+  /**
+  * The status of policy change evaluation which has been reported.
+  * * `Initiated` - The status when policy change evaluation is triggered for a policy.
+  * * `Reported` - The status when policy change evaluation is reported for a policy.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#change_status DataIntersightHyperflexClusterProfile#change_status}
+  */
+  readonly changeStatus?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * The type of policy for which the change has been reported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#policy_type DataIntersightHyperflexClusterProfile#policy_type}
+  */
+  readonly policyType?: string;
+}
+
+export function dataIntersightHyperflexClusterProfileReportedPolicyChangesToTerraform(struct?: DataIntersightHyperflexClusterProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    change_id: cdktf.stringToTerraform(struct!.changeId),
+    change_status: cdktf.stringToTerraform(struct!.changeStatus),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    policy_type: cdktf.stringToTerraform(struct!.policyType),
+  }
+}
+
+
+export function dataIntersightHyperflexClusterProfileReportedPolicyChangesToHclTerraform(struct?: DataIntersightHyperflexClusterProfileReportedPolicyChanges | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_id: {
+      value: cdktf.stringToHclTerraform(struct!.changeId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    change_status: {
+      value: cdktf.stringToHclTerraform(struct!.changeStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    policy_type: {
+      value: cdktf.stringToHclTerraform(struct!.policyType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightHyperflexClusterProfileReportedPolicyChangesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightHyperflexClusterProfileReportedPolicyChanges | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._changeId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeId = this._changeId;
+    }
+    if (this._changeStatus !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.changeStatus = this._changeStatus;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._policyType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.policyType = this._policyType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightHyperflexClusterProfileReportedPolicyChanges | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._changeId = undefined;
+      this._changeStatus = undefined;
+      this._classId = undefined;
+      this._objectType = undefined;
+      this._policyType = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._changeId = value.changeId;
+      this._changeStatus = value.changeStatus;
+      this._classId = value.classId;
+      this._objectType = value.objectType;
+      this._policyType = value.policyType;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // change_id - computed: false, optional: true, required: false
+  private _changeId?: string; 
+  public get changeId() {
+    return this.getStringAttribute('change_id');
+  }
+  public set changeId(value: string) {
+    this._changeId = value;
+  }
+  public resetChangeId() {
+    this._changeId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeIdInput() {
+    return this._changeId;
+  }
+
+  // change_status - computed: false, optional: true, required: false
+  private _changeStatus?: string; 
+  public get changeStatus() {
+    return this.getStringAttribute('change_status');
+  }
+  public set changeStatus(value: string) {
+    this._changeStatus = value;
+  }
+  public resetChangeStatus() {
+    this._changeStatus = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get changeStatusInput() {
+    return this._changeStatus;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // policy_type - computed: false, optional: true, required: false
+  private _policyType?: string; 
+  public get policyType() {
+    return this.getStringAttribute('policy_type');
+  }
+  public set policyType(value: string) {
+    this._policyType = value;
+  }
+  public resetPolicyType() {
+    this._policyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyTypeInput() {
+    return this._policyType;
+  }
+}
+
+export class DataIntersightHyperflexClusterProfileReportedPolicyChangesList extends cdktf.ComplexList {
+  public internalValue? : DataIntersightHyperflexClusterProfileReportedPolicyChanges[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightHyperflexClusterProfileReportedPolicyChangesOutputReference {
+    return new DataIntersightHyperflexClusterProfileReportedPolicyChangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataIntersightHyperflexClusterProfileRunningWorkflows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9316,19 +10814,19 @@ export interface DataIntersightHyperflexClusterProfileRunningWorkflows {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9341,7 +10839,7 @@ export interface DataIntersightHyperflexClusterProfileRunningWorkflows {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -9573,7 +11071,7 @@ export class DataIntersightHyperflexClusterProfileRunningWorkflowsList extends c
 }
 export interface DataIntersightHyperflexClusterProfileScheduledActionsActionQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9582,7 +11080,7 @@ export interface DataIntersightHyperflexClusterProfileScheduledActionsActionQual
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -9590,7 +11088,7 @@ export interface DataIntersightHyperflexClusterProfileScheduledActionsActionQual
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -9734,11 +11232,11 @@ export interface DataIntersightHyperflexClusterProfileScheduledActions {
   /**
   * Name of the action to be performed on the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#action DataIntersightHyperflexClusterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#action DataIntersightHyperflexClusterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9746,26 +11244,26 @@ export interface DataIntersightHyperflexClusterProfileScheduledActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * ProceedOnReboot can be used to acknowledge server reboot while triggering deploy/activate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#proceed_on_reboot DataIntersightHyperflexClusterProfile#proceed_on_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#proceed_on_reboot DataIntersightHyperflexClusterProfile#proceed_on_reboot}
   */
   readonly proceedOnReboot?: boolean | cdktf.IResolvable;
   /**
   * action_qualifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#action_qualifier DataIntersightHyperflexClusterProfile#action_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#action_qualifier DataIntersightHyperflexClusterProfile#action_qualifier}
   */
   readonly actionQualifier?: DataIntersightHyperflexClusterProfileScheduledActionsActionQualifier;
 }
@@ -10026,7 +11524,7 @@ export class DataIntersightHyperflexClusterProfileScheduledActionsList extends c
 }
 export interface DataIntersightHyperflexClusterProfileSoftwareVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10034,19 +11532,19 @@ export interface DataIntersightHyperflexClusterProfileSoftwareVersion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10059,7 +11557,7 @@ export interface DataIntersightHyperflexClusterProfileSoftwareVersion {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10259,7 +11757,7 @@ export class DataIntersightHyperflexClusterProfileSoftwareVersionOutputReference
 }
 export interface DataIntersightHyperflexClusterProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10267,19 +11765,19 @@ export interface DataIntersightHyperflexClusterProfileSrcTemplate {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10292,7 +11790,7 @@ export interface DataIntersightHyperflexClusterProfileSrcTemplate {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -10492,7 +11990,7 @@ export class DataIntersightHyperflexClusterProfileSrcTemplateOutputReference ext
 }
 export interface DataIntersightHyperflexClusterProfileStorageClientVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10500,28 +11998,28 @@ export interface DataIntersightHyperflexClusterProfileStorageClientVlan {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the VLAN.
   * The name can be from 1 to 32 characters long and can contain a combination of alphanumeric characters, underscores, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The ID of the named VLAN. An ID of 0 means the traffic is untagged.
   * The ID can be any number between 0 and 4095, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#vlan_id DataIntersightHyperflexClusterProfile#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#vlan_id DataIntersightHyperflexClusterProfile#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -10721,7 +12219,7 @@ export class DataIntersightHyperflexClusterProfileStorageClientVlanOutputReferen
 }
 export interface DataIntersightHyperflexClusterProfileStorageDataVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10729,28 +12227,28 @@ export interface DataIntersightHyperflexClusterProfileStorageDataVlan {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the VLAN.
   * The name can be from 1 to 32 characters long and can contain a combination of alphanumeric characters, underscores, and hyphens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#name DataIntersightHyperflexClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The ID of the named VLAN. An ID of 0 means the traffic is untagged.
   * The ID can be any number between 0 and 4095, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#vlan_id DataIntersightHyperflexClusterProfile#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#vlan_id DataIntersightHyperflexClusterProfile#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -10950,7 +12448,7 @@ export class DataIntersightHyperflexClusterProfileStorageDataVlanOutputReference
 }
 export interface DataIntersightHyperflexClusterProfileSysConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10958,19 +12456,19 @@ export interface DataIntersightHyperflexClusterProfileSysConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10983,7 +12481,7 @@ export interface DataIntersightHyperflexClusterProfileSysConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11183,7 +12681,7 @@ export class DataIntersightHyperflexClusterProfileSysConfigOutputReference exten
 }
 export interface DataIntersightHyperflexClusterProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11191,19 +12689,19 @@ export interface DataIntersightHyperflexClusterProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11216,7 +12714,7 @@ export interface DataIntersightHyperflexClusterProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11448,7 +12946,7 @@ export class DataIntersightHyperflexClusterProfileTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightHyperflexClusterProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11456,19 +12954,19 @@ export interface DataIntersightHyperflexClusterProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11481,7 +12979,7 @@ export interface DataIntersightHyperflexClusterProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -11681,25 +13179,25 @@ export class DataIntersightHyperflexClusterProfileTagsDefinitionOutputReference 
 }
 export interface DataIntersightHyperflexClusterProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#key DataIntersightHyperflexClusterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#key DataIntersightHyperflexClusterProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#propagated DataIntersightHyperflexClusterProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#propagated DataIntersightHyperflexClusterProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#sys_tag DataIntersightHyperflexClusterProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#sys_tag DataIntersightHyperflexClusterProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -11707,25 +13205,25 @@ export interface DataIntersightHyperflexClusterProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#type DataIntersightHyperflexClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#type DataIntersightHyperflexClusterProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#value DataIntersightHyperflexClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#value DataIntersightHyperflexClusterProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ancestor_definitions DataIntersightHyperflexClusterProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ancestor_definitions DataIntersightHyperflexClusterProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexClusterProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#definition DataIntersightHyperflexClusterProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#definition DataIntersightHyperflexClusterProfile#definition}
   */
   readonly definition?: DataIntersightHyperflexClusterProfileTagsDefinition;
 }
@@ -12044,7 +13542,7 @@ export class DataIntersightHyperflexClusterProfileTagsList extends cdktf.Complex
 }
 export interface DataIntersightHyperflexClusterProfileUcsmConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12052,19 +13550,19 @@ export interface DataIntersightHyperflexClusterProfileUcsmConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12077,7 +13575,7 @@ export interface DataIntersightHyperflexClusterProfileUcsmConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -12277,7 +13775,7 @@ export class DataIntersightHyperflexClusterProfileUcsmConfigOutputReference exte
 }
 export interface DataIntersightHyperflexClusterProfileVcenterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12285,19 +13783,19 @@ export interface DataIntersightHyperflexClusterProfileVcenterConfig {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12310,7 +13808,7 @@ export interface DataIntersightHyperflexClusterProfileVcenterConfig {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -12510,7 +14008,7 @@ export class DataIntersightHyperflexClusterProfileVcenterConfigOutputReference e
 }
 export interface DataIntersightHyperflexClusterProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12518,19 +14016,19 @@ export interface DataIntersightHyperflexClusterProfileVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12543,7 +14041,7 @@ export interface DataIntersightHyperflexClusterProfileVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -12775,7 +14273,7 @@ export class DataIntersightHyperflexClusterProfileVersionContextInterestedMosLis
 }
 export interface DataIntersightHyperflexClusterProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12783,19 +14281,19 @@ export interface DataIntersightHyperflexClusterProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#moid DataIntersightHyperflexClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12808,7 +14306,7 @@ export interface DataIntersightHyperflexClusterProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#selector DataIntersightHyperflexClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -13008,7 +14506,7 @@ export class DataIntersightHyperflexClusterProfileVersionContextRefMoOutputRefer
 }
 export interface DataIntersightHyperflexClusterProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#additional_properties DataIntersightHyperflexClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13016,32 +14514,32 @@ export interface DataIntersightHyperflexClusterProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#class_id DataIntersightHyperflexClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#marked_for_deletion DataIntersightHyperflexClusterProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#marked_for_deletion DataIntersightHyperflexClusterProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#nr_version DataIntersightHyperflexClusterProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#nr_version DataIntersightHyperflexClusterProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#object_type DataIntersightHyperflexClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#timestamp DataIntersightHyperflexClusterProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#timestamp DataIntersightHyperflexClusterProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -13052,19 +14550,19 @@ export interface DataIntersightHyperflexClusterProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#version_type DataIntersightHyperflexClusterProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#version_type DataIntersightHyperflexClusterProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#interested_mos DataIntersightHyperflexClusterProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#interested_mos DataIntersightHyperflexClusterProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexClusterProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#ref_mo DataIntersightHyperflexClusterProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#ref_mo DataIntersightHyperflexClusterProfile#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexClusterProfileVersionContextRefMo;
 }
@@ -13380,7 +14878,7 @@ export class DataIntersightHyperflexClusterProfileVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile intersight_hyperflex_cluster_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile intersight_hyperflex_cluster_profile}
 */
 export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSource {
 
@@ -13396,7 +14894,7 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightHyperflexClusterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexClusterProfile to import
-  * @param importFromId The id of the existing DataIntersightHyperflexClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexClusterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13408,7 +14906,7 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_cluster_profile intersight_hyperflex_cluster_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_cluster_profile intersight_hyperflex_cluster_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13419,8 +14917,8 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_hyperflex_cluster_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -13480,7 +14978,9 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
     this._parent.internalValue = config.parent;
     this._permissionResources.internalValue = config.permissionResources;
     this._policyBucket.internalValue = config.policyBucket;
+    this._policyChangeDetails.internalValue = config.policyChangeDetails;
     this._proxySetting.internalValue = config.proxySetting;
+    this._reportedPolicyChanges.internalValue = config.reportedPolicyChanges;
     this._runningWorkflows.internalValue = config.runningWorkflows;
     this._scheduledActions.internalValue = config.scheduledActions;
     this._softwareVersion.internalValue = config.softwareVersion;
@@ -14304,6 +15804,22 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
     return this._policyBucket.internalValue;
   }
 
+  // policy_change_details - computed: false, optional: true, required: false
+  private _policyChangeDetails = new DataIntersightHyperflexClusterProfilePolicyChangeDetailsList(this, "policy_change_details", false);
+  public get policyChangeDetails() {
+    return this._policyChangeDetails;
+  }
+  public putPolicyChangeDetails(value: DataIntersightHyperflexClusterProfilePolicyChangeDetails[] | cdktf.IResolvable) {
+    this._policyChangeDetails.internalValue = value;
+  }
+  public resetPolicyChangeDetails() {
+    this._policyChangeDetails.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get policyChangeDetailsInput() {
+    return this._policyChangeDetails.internalValue;
+  }
+
   // proxy_setting - computed: false, optional: true, required: false
   private _proxySetting = new DataIntersightHyperflexClusterProfileProxySettingOutputReference(this, "proxy_setting");
   public get proxySetting() {
@@ -14318,6 +15834,22 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
   // Temporarily expose input value. Use with caution.
   public get proxySettingInput() {
     return this._proxySetting.internalValue;
+  }
+
+  // reported_policy_changes - computed: false, optional: true, required: false
+  private _reportedPolicyChanges = new DataIntersightHyperflexClusterProfileReportedPolicyChangesList(this, "reported_policy_changes", false);
+  public get reportedPolicyChanges() {
+    return this._reportedPolicyChanges;
+  }
+  public putReportedPolicyChanges(value: DataIntersightHyperflexClusterProfileReportedPolicyChanges[] | cdktf.IResolvable) {
+    this._reportedPolicyChanges.internalValue = value;
+  }
+  public resetReportedPolicyChanges() {
+    this._reportedPolicyChanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get reportedPolicyChangesInput() {
+    return this._reportedPolicyChanges.internalValue;
   }
 
   // running_workflows - computed: false, optional: true, required: false
@@ -14552,7 +16084,9 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
       parent: dataIntersightHyperflexClusterProfileParentToTerraform(this._parent.internalValue),
       permission_resources: cdktf.listMapper(dataIntersightHyperflexClusterProfilePermissionResourcesToTerraform, true)(this._permissionResources.internalValue),
       policy_bucket: cdktf.listMapper(dataIntersightHyperflexClusterProfilePolicyBucketToTerraform, true)(this._policyBucket.internalValue),
+      policy_change_details: cdktf.listMapper(dataIntersightHyperflexClusterProfilePolicyChangeDetailsToTerraform, true)(this._policyChangeDetails.internalValue),
       proxy_setting: dataIntersightHyperflexClusterProfileProxySettingToTerraform(this._proxySetting.internalValue),
+      reported_policy_changes: cdktf.listMapper(dataIntersightHyperflexClusterProfileReportedPolicyChangesToTerraform, true)(this._reportedPolicyChanges.internalValue),
       running_workflows: cdktf.listMapper(dataIntersightHyperflexClusterProfileRunningWorkflowsToTerraform, true)(this._runningWorkflows.internalValue),
       scheduled_actions: cdktf.listMapper(dataIntersightHyperflexClusterProfileScheduledActionsToTerraform, true)(this._scheduledActions.internalValue),
       software_version: dataIntersightHyperflexClusterProfileSoftwareVersionToTerraform(this._softwareVersion.internalValue),
@@ -14869,11 +16403,23 @@ export class DataIntersightHyperflexClusterProfile extends cdktf.TerraformDataSo
         type: "list",
         storageClassType: "DataIntersightHyperflexClusterProfilePolicyBucketList",
       },
+      policy_change_details: {
+        value: cdktf.listMapperHcl(dataIntersightHyperflexClusterProfilePolicyChangeDetailsToHclTerraform, true)(this._policyChangeDetails.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntersightHyperflexClusterProfilePolicyChangeDetailsList",
+      },
       proxy_setting: {
         value: dataIntersightHyperflexClusterProfileProxySettingToHclTerraform(this._proxySetting.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "DataIntersightHyperflexClusterProfileProxySettingList",
+      },
+      reported_policy_changes: {
+        value: cdktf.listMapperHcl(dataIntersightHyperflexClusterProfileReportedPolicyChangesToHclTerraform, true)(this._reportedPolicyChanges.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntersightHyperflexClusterProfileReportedPolicyChangesList",
       },
       running_workflows: {
         value: cdktf.listMapperHcl(dataIntersightHyperflexClusterProfileRunningWorkflowsToHclTerraform, true)(this._runningWorkflows.internalValue),

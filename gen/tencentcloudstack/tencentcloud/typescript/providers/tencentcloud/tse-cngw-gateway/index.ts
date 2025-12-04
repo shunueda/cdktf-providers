@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TseCngwGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * description information, up to 120 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#description TseCngwGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#description TseCngwGateway#description}
   */
   readonly description?: string;
   /**
   * whether to enable CLS log. Default value: fasle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#enable_cls TseCngwGateway#enable_cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#enable_cls TseCngwGateway#enable_cls}
   */
   readonly enableCls?: boolean | cdktf.IResolvable;
   /**
   * engine region of gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#engine_region TseCngwGateway#engine_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#engine_region TseCngwGateway#engine_region}
   */
   readonly engineRegion?: string;
   /**
   * product version. Reference value: `TRIAL`, `STANDARD`(default value), `PROFESSIONAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#feature_version TseCngwGateway#feature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#feature_version TseCngwGateway#feature_version}
   */
   readonly featureVersion?: string;
   /**
   * gateway vwersion. Reference value: `2.4.1`, `2.5.1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#gateway_version TseCngwGateway#gateway_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#gateway_version TseCngwGateway#gateway_version}
   */
   readonly gatewayVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#id TseCngwGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#id TseCngwGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface TseCngwGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
   * ingress class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#ingress_class_name TseCngwGateway#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#ingress_class_name TseCngwGateway#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * public network outbound traffic bandwidth,[1,2048]Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#internet_max_bandwidth_out TseCngwGateway#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#internet_max_bandwidth_out TseCngwGateway#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * gateway name, supports up to 60 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#name TseCngwGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#name TseCngwGateway#name}
   */
   readonly name: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#tags TseCngwGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#tags TseCngwGateway#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * trade type. Reference value: `0`: postpaid, `1`:Prepaid (Interface does not support the creation of prepaid instances yet).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#trade_type TseCngwGateway#trade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#trade_type TseCngwGateway#trade_type}
   */
   readonly tradeType?: number;
   /**
   * gateway type,currently only supports kong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#type TseCngwGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#type TseCngwGateway#type}
   */
   readonly type: string;
   /**
   * internet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#internet_config TseCngwGateway#internet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#internet_config TseCngwGateway#internet_config}
   */
   readonly internetConfig?: TseCngwGatewayInternetConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#node_config TseCngwGateway#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#node_config TseCngwGateway#node_config}
   */
   readonly nodeConfig: TseCngwGatewayNodeConfig;
   /**
   * vpc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#vpc_config TseCngwGateway#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#vpc_config TseCngwGateway#vpc_config}
   */
   readonly vpcConfig: TseCngwGatewayVpcConfig;
 }
@@ -193,49 +193,49 @@ export interface TseCngwGatewayInternetConfig {
   /**
   * description of clb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#description TseCngwGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#description TseCngwGateway#description}
   */
   readonly description?: string;
   /**
   * internet type. Reference value: `IPV4`(default value), `IPV6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#internet_address_version TseCngwGateway#internet_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#internet_address_version TseCngwGateway#internet_address_version}
   */
   readonly internetAddressVersion?: string;
   /**
   * public network bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#internet_max_bandwidth_out TseCngwGateway#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#internet_max_bandwidth_out TseCngwGateway#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * trade type of internet. Reference value: `BANDWIDTH`, `TRAFFIC`(default value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#internet_pay_mode TseCngwGateway#internet_pay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#internet_pay_mode TseCngwGateway#internet_pay_mode}
   */
   readonly internetPayMode?: string;
   /**
   * primary availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#master_zone_id TseCngwGateway#master_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#master_zone_id TseCngwGateway#master_zone_id}
   */
   readonly masterZoneId?: string;
   /**
   * Whether load balancing has multiple availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#multi_zone_flag TseCngwGateway#multi_zone_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#multi_zone_flag TseCngwGateway#multi_zone_flag}
   */
   readonly multiZoneFlag?: boolean | cdktf.IResolvable;
   /**
   * specification type of clb. Default shared type when this parameter is empty. Reference value:- SLA LCU-supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#sla_type TseCngwGateway#sla_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#sla_type TseCngwGateway#sla_type}
   */
   readonly slaType?: string;
   /**
   * alternate availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#slave_zone_id TseCngwGateway#slave_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#slave_zone_id TseCngwGateway#slave_zone_id}
   */
   readonly slaveZoneId?: string;
 }
@@ -524,13 +524,13 @@ export interface TseCngwGatewayNodeConfig {
   /**
   * node number, 2-50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#number TseCngwGateway#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#number TseCngwGateway#number}
   */
   readonly number: number;
   /**
   * specification, 1c2g|2c4g|4c8g|8c16g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#specification TseCngwGateway#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#specification TseCngwGateway#specification}
   */
   readonly specification: string;
 }
@@ -639,13 +639,13 @@ export interface TseCngwGatewayVpcConfig {
   /**
   * subnet ID. Assign an IP address to the engine in the VPC subnet. Reference value: subnet-ahde9me9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#subnet_id TseCngwGateway#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#subnet_id TseCngwGateway#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VPC ID. Assign an IP address to the engine in the VPC subnet. Reference value: vpc-conz6aix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#vpc_id TseCngwGateway#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#vpc_id TseCngwGateway#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -758,7 +758,7 @@ export class TseCngwGatewayVpcConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway tencentcloud_tse_cngw_gateway}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway tencentcloud_tse_cngw_gateway}
 */
 export class TseCngwGateway extends cdktf.TerraformResource {
 
@@ -774,7 +774,7 @@ export class TseCngwGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwGateway to import
-  * @param importFromId The id of the existing TseCngwGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -786,7 +786,7 @@ export class TseCngwGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_gateway tencentcloud_tse_cngw_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_gateway tencentcloud_tse_cngw_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -797,8 +797,8 @@ export class TseCngwGateway extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_gateway',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

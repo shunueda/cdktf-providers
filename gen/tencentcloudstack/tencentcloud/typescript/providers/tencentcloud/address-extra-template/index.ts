@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AddressExtraTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#id AddressExtraTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#id AddressExtraTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface AddressExtraTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * IP address template name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#name AddressExtraTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#name AddressExtraTemplate#name}
   */
   readonly name: string;
   /**
   * Tags of the Addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#tags AddressExtraTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#tags AddressExtraTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * addresses_extra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#addresses_extra AddressExtraTemplate#addresses_extra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#addresses_extra AddressExtraTemplate#addresses_extra}
   */
   readonly addressesExtra: AddressExtraTemplateAddressesExtra[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface AddressExtraTemplateAddressesExtra {
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#address AddressExtraTemplate#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#address AddressExtraTemplate#address}
   */
   readonly address: string;
   /**
   * Remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#description AddressExtraTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#description AddressExtraTemplate#description}
   */
   readonly description?: string;
 }
@@ -190,7 +190,7 @@ export class AddressExtraTemplateAddressesExtraList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template tencentcloud_address_extra_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template tencentcloud_address_extra_template}
 */
 export class AddressExtraTemplate extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class AddressExtraTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AddressExtraTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AddressExtraTemplate to import
-  * @param importFromId The id of the existing AddressExtraTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AddressExtraTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AddressExtraTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class AddressExtraTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/address_extra_template tencentcloud_address_extra_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/address_extra_template tencentcloud_address_extra_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class AddressExtraTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_address_extra_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

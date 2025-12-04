@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDbbrainHealthScoresConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#id DataTencentcloudDbbrainHealthScores#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#id DataTencentcloudDbbrainHealthScores#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudDbbrainHealthScoresConfig extends cdktf.Terrafo
   /**
   * The ID of the instance whose health score needs to be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#instance_id DataTencentcloudDbbrainHealthScores#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#instance_id DataTencentcloudDbbrainHealthScores#instance_id}
   */
   readonly instanceId: string;
   /**
   * Service product type, supported values include: mysql - cloud database MySQL, cynosdb - cloud database TDSQL-C for MySQL, the default is mysql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#product DataTencentcloudDbbrainHealthScores#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#product DataTencentcloudDbbrainHealthScores#product}
   */
   readonly product: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#result_output_file DataTencentcloudDbbrainHealthScores#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#result_output_file DataTencentcloudDbbrainHealthScores#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The time to obtain the health score, the time format is as follows: 2019-09-10 12:13:14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#time DataTencentcloudDbbrainHealthScores#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#time DataTencentcloudDbbrainHealthScores#time}
   */
   readonly time: string;
 }
@@ -333,7 +333,7 @@ export class DataTencentcloudDbbrainHealthScoresDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores tencentcloud_dbbrain_health_scores}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores tencentcloud_dbbrain_health_scores}
 */
 export class DataTencentcloudDbbrainHealthScores extends cdktf.TerraformDataSource {
 
@@ -349,7 +349,7 @@ export class DataTencentcloudDbbrainHealthScores extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudDbbrainHealthScores resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainHealthScores to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainHealthScores that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainHealthScores that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainHealthScores to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +361,7 @@ export class DataTencentcloudDbbrainHealthScores extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_health_scores tencentcloud_dbbrain_health_scores} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_health_scores tencentcloud_dbbrain_health_scores} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,8 +372,8 @@ export class DataTencentcloudDbbrainHealthScores extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_dbbrain_health_scores',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

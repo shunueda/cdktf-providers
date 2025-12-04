@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightMetricsResourceConfigurationConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#account_moid DataIntersightMetricsResourceConfiguration#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#account_moid DataIntersightMetricsResourceConfiguration#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightMetricsResourceConfigurationConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#create_time DataIntersightMetricsResourceConfiguration#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#create_time DataIntersightMetricsResourceConfiguration#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#domain_group_moid DataIntersightMetricsResourceConfiguration#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#domain_group_moid DataIntersightMetricsResourceConfiguration#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Metric collection is enabled for this resource, when enabled all available metrics are collected from the resource into Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#enabled DataIntersightMetricsResourceConfiguration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#enabled DataIntersightMetricsResourceConfiguration#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#id DataIntersightMetricsResourceConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#id DataIntersightMetricsResourceConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface DataIntersightMetricsResourceConfigurationConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#mod_time DataIntersightMetricsResourceConfiguration#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#mod_time DataIntersightMetricsResourceConfiguration#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#owners DataIntersightMetricsResourceConfiguration#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#owners DataIntersightMetricsResourceConfiguration#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#shared_scope DataIntersightMetricsResourceConfiguration#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#shared_scope DataIntersightMetricsResourceConfiguration#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#ancestors DataIntersightMetricsResourceConfiguration#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#ancestors DataIntersightMetricsResourceConfiguration#ancestors}
   */
   readonly ancestors?: DataIntersightMetricsResourceConfigurationAncestors[] | cdktf.IResolvable;
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#domain DataIntersightMetricsResourceConfiguration#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#domain DataIntersightMetricsResourceConfiguration#domain}
   */
   readonly domain?: DataIntersightMetricsResourceConfigurationDomain;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#parent DataIntersightMetricsResourceConfiguration#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#parent DataIntersightMetricsResourceConfiguration#parent}
   */
   readonly parent?: DataIntersightMetricsResourceConfigurationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#permission_resources DataIntersightMetricsResourceConfiguration#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#permission_resources DataIntersightMetricsResourceConfiguration#permission_resources}
   */
   readonly permissionResources?: DataIntersightMetricsResourceConfigurationPermissionResources[] | cdktf.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#resource DataIntersightMetricsResourceConfiguration#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#resource DataIntersightMetricsResourceConfiguration#resource}
   */
   readonly resource?: DataIntersightMetricsResourceConfigurationResource;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#tags DataIntersightMetricsResourceConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#tags DataIntersightMetricsResourceConfiguration#tags}
   */
   readonly tags?: DataIntersightMetricsResourceConfigurationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#version_context DataIntersightMetricsResourceConfiguration#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#version_context DataIntersightMetricsResourceConfiguration#version_context}
   */
   readonly versionContext?: DataIntersightMetricsResourceConfigurationVersionContext;
 }
@@ -1376,7 +1376,7 @@ export class DataIntersightMetricsResourceConfigurationResultsList extends cdktf
 }
 export interface DataIntersightMetricsResourceConfigurationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1384,19 +1384,19 @@ export interface DataIntersightMetricsResourceConfigurationAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1409,7 +1409,7 @@ export interface DataIntersightMetricsResourceConfigurationAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -1641,7 +1641,7 @@ export class DataIntersightMetricsResourceConfigurationAncestorsList extends cdk
 }
 export interface DataIntersightMetricsResourceConfigurationDomain {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1649,19 +1649,19 @@ export interface DataIntersightMetricsResourceConfigurationDomain {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1674,7 +1674,7 @@ export interface DataIntersightMetricsResourceConfigurationDomain {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -1874,7 +1874,7 @@ export class DataIntersightMetricsResourceConfigurationDomainOutputReference ext
 }
 export interface DataIntersightMetricsResourceConfigurationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1882,19 +1882,19 @@ export interface DataIntersightMetricsResourceConfigurationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1907,7 +1907,7 @@ export interface DataIntersightMetricsResourceConfigurationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2107,7 +2107,7 @@ export class DataIntersightMetricsResourceConfigurationParentOutputReference ext
 }
 export interface DataIntersightMetricsResourceConfigurationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2115,19 +2115,19 @@ export interface DataIntersightMetricsResourceConfigurationPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2140,7 +2140,7 @@ export interface DataIntersightMetricsResourceConfigurationPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2372,7 +2372,7 @@ export class DataIntersightMetricsResourceConfigurationPermissionResourcesList e
 }
 export interface DataIntersightMetricsResourceConfigurationResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2380,19 +2380,19 @@ export interface DataIntersightMetricsResourceConfigurationResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2405,7 +2405,7 @@ export interface DataIntersightMetricsResourceConfigurationResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2605,7 +2605,7 @@ export class DataIntersightMetricsResourceConfigurationResourceOutputReference e
 }
 export interface DataIntersightMetricsResourceConfigurationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2613,19 +2613,19 @@ export interface DataIntersightMetricsResourceConfigurationTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2638,7 +2638,7 @@ export interface DataIntersightMetricsResourceConfigurationTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -2870,7 +2870,7 @@ export class DataIntersightMetricsResourceConfigurationTagsAncestorDefinitionsLi
 }
 export interface DataIntersightMetricsResourceConfigurationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2878,19 +2878,19 @@ export interface DataIntersightMetricsResourceConfigurationTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2903,7 +2903,7 @@ export interface DataIntersightMetricsResourceConfigurationTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3103,25 +3103,25 @@ export class DataIntersightMetricsResourceConfigurationTagsDefinitionOutputRefer
 }
 export interface DataIntersightMetricsResourceConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#key DataIntersightMetricsResourceConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#key DataIntersightMetricsResourceConfiguration#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#propagated DataIntersightMetricsResourceConfiguration#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#propagated DataIntersightMetricsResourceConfiguration#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#sys_tag DataIntersightMetricsResourceConfiguration#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#sys_tag DataIntersightMetricsResourceConfiguration#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3129,25 +3129,25 @@ export interface DataIntersightMetricsResourceConfigurationTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#type DataIntersightMetricsResourceConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#type DataIntersightMetricsResourceConfiguration#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#value DataIntersightMetricsResourceConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#value DataIntersightMetricsResourceConfiguration#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#ancestor_definitions DataIntersightMetricsResourceConfiguration#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#ancestor_definitions DataIntersightMetricsResourceConfiguration#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMetricsResourceConfigurationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#definition DataIntersightMetricsResourceConfiguration#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#definition DataIntersightMetricsResourceConfiguration#definition}
   */
   readonly definition?: DataIntersightMetricsResourceConfigurationTagsDefinition;
 }
@@ -3466,7 +3466,7 @@ export class DataIntersightMetricsResourceConfigurationTagsList extends cdktf.Co
 }
 export interface DataIntersightMetricsResourceConfigurationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3474,19 +3474,19 @@ export interface DataIntersightMetricsResourceConfigurationVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3499,7 +3499,7 @@ export interface DataIntersightMetricsResourceConfigurationVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3731,7 +3731,7 @@ export class DataIntersightMetricsResourceConfigurationVersionContextInterestedM
 }
 export interface DataIntersightMetricsResourceConfigurationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3739,19 +3739,19 @@ export interface DataIntersightMetricsResourceConfigurationVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#moid DataIntersightMetricsResourceConfiguration#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3764,7 +3764,7 @@ export interface DataIntersightMetricsResourceConfigurationVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#selector DataIntersightMetricsResourceConfiguration#selector}
   */
   readonly selector?: string;
 }
@@ -3964,7 +3964,7 @@ export class DataIntersightMetricsResourceConfigurationVersionContextRefMoOutput
 }
 export interface DataIntersightMetricsResourceConfigurationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#additional_properties DataIntersightMetricsResourceConfiguration#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3972,32 +3972,32 @@ export interface DataIntersightMetricsResourceConfigurationVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#class_id DataIntersightMetricsResourceConfiguration#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#marked_for_deletion DataIntersightMetricsResourceConfiguration#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#marked_for_deletion DataIntersightMetricsResourceConfiguration#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#nr_version DataIntersightMetricsResourceConfiguration#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#nr_version DataIntersightMetricsResourceConfiguration#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#object_type DataIntersightMetricsResourceConfiguration#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#timestamp DataIntersightMetricsResourceConfiguration#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#timestamp DataIntersightMetricsResourceConfiguration#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4008,19 +4008,19 @@ export interface DataIntersightMetricsResourceConfigurationVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#version_type DataIntersightMetricsResourceConfiguration#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#version_type DataIntersightMetricsResourceConfiguration#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#interested_mos DataIntersightMetricsResourceConfiguration#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#interested_mos DataIntersightMetricsResourceConfiguration#interested_mos}
   */
   readonly interestedMos?: DataIntersightMetricsResourceConfigurationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#ref_mo DataIntersightMetricsResourceConfiguration#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#ref_mo DataIntersightMetricsResourceConfiguration#ref_mo}
   */
   readonly refMo?: DataIntersightMetricsResourceConfigurationVersionContextRefMo;
 }
@@ -4336,7 +4336,7 @@ export class DataIntersightMetricsResourceConfigurationVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration intersight_metrics_resource_configuration}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration intersight_metrics_resource_configuration}
 */
 export class DataIntersightMetricsResourceConfiguration extends cdktf.TerraformDataSource {
 
@@ -4352,7 +4352,7 @@ export class DataIntersightMetricsResourceConfiguration extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightMetricsResourceConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMetricsResourceConfiguration to import
-  * @param importFromId The id of the existing DataIntersightMetricsResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMetricsResourceConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMetricsResourceConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4364,7 +4364,7 @@ export class DataIntersightMetricsResourceConfiguration extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/metrics_resource_configuration intersight_metrics_resource_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/metrics_resource_configuration intersight_metrics_resource_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4375,8 +4375,8 @@ export class DataIntersightMetricsResourceConfiguration extends cdktf.TerraformD
       terraformResourceType: 'intersight_metrics_resource_configuration',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

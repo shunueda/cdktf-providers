@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface AllocationGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Allocation group description
+  * A description of the allocation group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#description AllocationGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#description AllocationGroup#description}
   */
   readonly description?: string;
   /**
-  * Allocation group name
+  * The name of the allocation group. Must be unique within the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#name AllocationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#name AllocationGroup#name}
   */
   readonly name: string;
   /**
-  * Array of allocation rules for this group
+  * The list of allocation rules that make up this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#rules AllocationGroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#rules AllocationGroup#rules}
   */
   readonly rules: AllocationGroupRules[] | cdktf.IResolvable;
   /**
-  * Custom label for any values that do not fit into attributions
+  * Custom label for any values that do not fit into attributions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#unallocated_costs AllocationGroup#unallocated_costs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#unallocated_costs AllocationGroup#unallocated_costs}
   */
   readonly unallocatedCosts?: string;
 }
@@ -36,33 +36,33 @@ export interface AllocationGroupRulesComponents {
   /**
   * Include null values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#include_null AllocationGroup#include_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#include_null AllocationGroup#include_null}
   */
   readonly includeNull?: boolean | cdktf.IResolvable;
   /**
   * If true, all selected values will be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#inverse_selection AllocationGroup#inverse_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#inverse_selection AllocationGroup#inverse_selection}
   */
   readonly inverseSelection?: boolean | cdktf.IResolvable;
   /**
-  * Key of a dimension. Examples: "billing_account_id", "country", etc.
+  * Key of a dimension. Examples: "billing_account_id", "country", etc. Dimension must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#key AllocationGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#key AllocationGroup#key}
   */
   readonly key: string;
   /**
   * Filter mode to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#mode AllocationGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#mode AllocationGroup#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#type AllocationGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#type AllocationGroup#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#values AllocationGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#values AllocationGroup#values}
   */
   readonly values: string[];
 }
@@ -237,7 +237,7 @@ export class AllocationGroupRulesComponentsOutputReference extends cdktf.Complex
     return this._inverseSelection;
   }
 
-  // key - computed: true, optional: false, required: true
+  // key - computed: false, optional: false, required: true
   private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
@@ -250,7 +250,7 @@ export class AllocationGroupRulesComponentsOutputReference extends cdktf.Complex
     return this._key;
   }
 
-  // mode - computed: true, optional: false, required: true
+  // mode - computed: false, optional: false, required: true
   private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
@@ -263,7 +263,7 @@ export class AllocationGroupRulesComponentsOutputReference extends cdktf.Complex
     return this._mode;
   }
 
-  // type - computed: true, optional: false, required: true
+  // type - computed: false, optional: false, required: true
   private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
@@ -276,7 +276,7 @@ export class AllocationGroupRulesComponentsOutputReference extends cdktf.Complex
     return this._type;
   }
 
-  // values - computed: true, optional: false, required: true
+  // values - computed: false, optional: false, required: true
   private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
@@ -313,31 +313,31 @@ export interface AllocationGroupRules {
   /**
   * Action to perform with this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#action AllocationGroup#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#action AllocationGroup#action}
   */
   readonly action: string;
   /**
   * List of allocation filter components (required for 'create' or 'update' action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#components AllocationGroup#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#components AllocationGroup#components}
   */
-  readonly components?: AllocationGroupRulesComponents[] | cdktf.IResolvable;
+  readonly components: AllocationGroupRulesComponents[] | cdktf.IResolvable;
   /**
   * Description for the allocation rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#description AllocationGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#description AllocationGroup#description}
   */
   readonly description?: string;
   /**
   * Formula for combining components (A is the first component, B is the second one, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#formula AllocationGroup#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#formula AllocationGroup#formula}
   */
-  readonly formula?: string;
+  readonly formula: string;
   /**
   * ID of existing allocation (required for 'update' or 'select' action)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#id AllocationGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#id AllocationGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -346,7 +346,7 @@ export interface AllocationGroupRules {
   /**
   * Name for the allocation rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#name AllocationGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#name AllocationGroup#name}
   */
   readonly name?: string;
 }
@@ -507,16 +507,13 @@ export class AllocationGroupRulesOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('allocation_type');
   }
 
-  // components - computed: true, optional: true, required: false
+  // components - computed: false, optional: false, required: true
   private _components = new AllocationGroupRulesComponentsList(this, "components", false);
   public get components() {
     return this._components;
   }
   public putComponents(value: AllocationGroupRulesComponents[] | cdktf.IResolvable) {
     this._components.internalValue = value;
-  }
-  public resetComponents() {
-    this._components.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get componentsInput() {
@@ -544,16 +541,13 @@ export class AllocationGroupRulesOutputReference extends cdktf.ComplexObject {
     return this._description;
   }
 
-  // formula - computed: true, optional: true, required: false
+  // formula - computed: false, optional: false, required: true
   private _formula?: string; 
   public get formula() {
     return this.getStringAttribute('formula');
   }
   public set formula(value: string) {
     this._formula = value;
-  }
-  public resetFormula() {
-    this._formula = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get formulaInput() {
@@ -634,7 +628,7 @@ export class AllocationGroupRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group doit_allocation_group}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group doit_allocation_group}
 */
 export class AllocationGroup extends cdktf.TerraformResource {
 
@@ -650,7 +644,7 @@ export class AllocationGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AllocationGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AllocationGroup to import
-  * @param importFromId The id of the existing AllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AllocationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AllocationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +656,7 @@ export class AllocationGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation_group doit_allocation_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation_group doit_allocation_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,8 +667,8 @@ export class AllocationGroup extends cdktf.TerraformResource {
       terraformResourceType: 'doit_allocation_group',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

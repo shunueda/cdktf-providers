@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudWedataOpsAlarmMessageConfig extends cdktf.Terra
   /**
   * Alarm message Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#alarm_message_id DataTencentcloudWedataOpsAlarmMessage#alarm_message_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#alarm_message_id DataTencentcloudWedataOpsAlarmMessage#alarm_message_id}
   */
   readonly alarmMessageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#id DataTencentcloudWedataOpsAlarmMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#id DataTencentcloudWedataOpsAlarmMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudWedataOpsAlarmMessageConfig extends cdktf.Terra
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#project_id DataTencentcloudWedataOpsAlarmMessage#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#project_id DataTencentcloudWedataOpsAlarmMessage#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#result_output_file DataTencentcloudWedataOpsAlarmMessage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#result_output_file DataTencentcloudWedataOpsAlarmMessage#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Specifies the time zone of the return date. default UTC+8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#time_zone DataTencentcloudWedataOpsAlarmMessage#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#time_zone DataTencentcloudWedataOpsAlarmMessage#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -161,7 +161,7 @@ export class DataTencentcloudWedataOpsAlarmMessageDataList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message tencentcloud_wedata_ops_alarm_message}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message tencentcloud_wedata_ops_alarm_message}
 */
 export class DataTencentcloudWedataOpsAlarmMessage extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTencentcloudWedataOpsAlarmMessage extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudWedataOpsAlarmMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataOpsAlarmMessage to import
-  * @param importFromId The id of the existing DataTencentcloudWedataOpsAlarmMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataOpsAlarmMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataOpsAlarmMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTencentcloudWedataOpsAlarmMessage extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_ops_alarm_message tencentcloud_wedata_ops_alarm_message} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_ops_alarm_message tencentcloud_wedata_ops_alarm_message} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTencentcloudWedataOpsAlarmMessage extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_wedata_ops_alarm_message',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

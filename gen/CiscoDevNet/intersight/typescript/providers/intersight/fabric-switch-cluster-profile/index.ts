@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#account_moid FabricSwitchClusterProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#account_moid FabricSwitchClusterProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * The support actions are -- Deploy, Unassign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#action FabricSwitchClusterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#action FabricSwitchClusterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#ancestors FabricSwitchClusterProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#ancestors FabricSwitchClusterProfile#ancestors}
   */
   readonly ancestors?: FabricSwitchClusterProfileAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#assigned_entity FabricSwitchClusterProfile#assigned_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#assigned_entity FabricSwitchClusterProfile#assigned_entity}
   */
   readonly assignedEntity?: FabricSwitchClusterProfileAssignedEntity[] | cdktf.IResolvable;
   /**
@@ -41,23 +41,23 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#cluster_assignments FabricSwitchClusterProfile#cluster_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#cluster_assignments FabricSwitchClusterProfile#cluster_assignments}
   */
   readonly clusterAssignments?: FabricSwitchClusterProfileClusterAssignments[] | cdktf.IResolvable;
   /**
   * This provides consolidated configuration context of all the switch profiles referred by Switch Cluster Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#config_context FabricSwitchClusterProfile#config_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#config_context FabricSwitchClusterProfile#config_context}
   */
   readonly configContext?: FabricSwitchClusterProfileConfigContext[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#create_time FabricSwitchClusterProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#create_time FabricSwitchClusterProfile#create_time}
   */
   readonly createTime?: string;
   /**
@@ -66,7 +66,7 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   * * `Complete` - Both switch profiles of the cluster profile are deployed.
   * * `Partial` - Only one of the switch profiles of the cluster profile is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#deploy_status FabricSwitchClusterProfile#deploy_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#deploy_status FabricSwitchClusterProfile#deploy_status}
   */
   readonly deployStatus?: string;
   /**
@@ -76,23 +76,23 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   * * `B` - Switch profiles deployed only on fabric interconnect B.
   * * `AB` - Switch profiles deployed on both fabric interconnect A and B.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#deployed_switches FabricSwitchClusterProfile#deployed_switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#deployed_switches FabricSwitchClusterProfile#deployed_switches}
   */
   readonly deployedSwitches?: string;
   /**
   * Description of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#description FabricSwitchClusterProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#description FabricSwitchClusterProfile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#domain_group_moid FabricSwitchClusterProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#domain_group_moid FabricSwitchClusterProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#id FabricSwitchClusterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#id FabricSwitchClusterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,80 +101,80 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#mod_time FabricSwitchClusterProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#mod_time FabricSwitchClusterProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the profile instance or profile template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#name FabricSwitchClusterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#name FabricSwitchClusterProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#organization FabricSwitchClusterProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#organization FabricSwitchClusterProfile#organization}
   */
   readonly organization?: FabricSwitchClusterProfileOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#owners FabricSwitchClusterProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#owners FabricSwitchClusterProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#parent FabricSwitchClusterProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#parent FabricSwitchClusterProfile#parent}
   */
   readonly parent?: FabricSwitchClusterProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#permission_resources FabricSwitchClusterProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#permission_resources FabricSwitchClusterProfile#permission_resources}
   */
   readonly permissionResources?: FabricSwitchClusterProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#shared_scope FabricSwitchClusterProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#shared_scope FabricSwitchClusterProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A reference to a policyAbstractProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#src_template FabricSwitchClusterProfile#src_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#src_template FabricSwitchClusterProfile#src_template}
   */
   readonly srcTemplate?: FabricSwitchClusterProfileSrcTemplate[] | cdktf.IResolvable;
   /**
   * An array of relationships to fabricSwitchProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#switch_profiles FabricSwitchClusterProfile#switch_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#switch_profiles FabricSwitchClusterProfile#switch_profiles}
   */
   readonly switchProfiles?: FabricSwitchClusterProfileSwitchProfiles[] | cdktf.IResolvable;
   /**
   * Number of switch profiles that are part of this cluster profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#switch_profiles_count FabricSwitchClusterProfile#switch_profiles_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#switch_profiles_count FabricSwitchClusterProfile#switch_profiles_count}
   */
   readonly switchProfilesCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#tags FabricSwitchClusterProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#tags FabricSwitchClusterProfile#tags}
   */
   readonly tags?: FabricSwitchClusterProfileTags[] | cdktf.IResolvable;
   /**
@@ -182,48 +182,48 @@ export interface FabricSwitchClusterProfileConfig extends cdktf.TerraformMetaArg
   * * `UCS Domain` - Profile/policy type for network and management configuration on UCS Fabric Interconnect.
   * * `Unified Edge` - Profile/policy type for network, management and chassis configuration on Unified Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#target_platform FabricSwitchClusterProfile#target_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#target_platform FabricSwitchClusterProfile#target_platform}
   */
   readonly targetPlatform?: string;
   /**
   * Defines the type of the profile. Accepted values are instance or template.
   * * `instance` - The profile defines the configuration for a specific instance of a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#type FabricSwitchClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#type FabricSwitchClusterProfile#type}
   */
   readonly type?: string;
   /**
   * The user defined label assigned to the switch profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#user_label FabricSwitchClusterProfile#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#user_label FabricSwitchClusterProfile#user_label}
   */
   readonly userLabel?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#version_context FabricSwitchClusterProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#version_context FabricSwitchClusterProfile#version_context}
   */
   readonly versionContext?: FabricSwitchClusterProfileVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricSwitchClusterProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -455,23 +455,23 @@ export class FabricSwitchClusterProfileAncestorsList extends cdktf.ComplexList {
 }
 export interface FabricSwitchClusterProfileAssignedEntity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -703,23 +703,23 @@ export class FabricSwitchClusterProfileAssignedEntityList extends cdktf.ComplexL
 }
 export interface FabricSwitchClusterProfileClusterAssignmentsNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -951,23 +951,23 @@ export class FabricSwitchClusterProfileClusterAssignmentsNetworkElementList exte
 }
 export interface FabricSwitchClusterProfileClusterAssignments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#network_element FabricSwitchClusterProfile#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#network_element FabricSwitchClusterProfile#network_element}
   */
   readonly networkElement?: FabricSwitchClusterProfileClusterAssignmentsNetworkElement[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#source_switch_profile_or_template_name FabricSwitchClusterProfile#source_switch_profile_or_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#source_switch_profile_or_template_name FabricSwitchClusterProfile#source_switch_profile_or_template_name}
   */
   readonly sourceSwitchProfileOrTemplateName?: string;
 }
@@ -1199,43 +1199,43 @@ export class FabricSwitchClusterProfileClusterAssignmentsList extends cdktf.Comp
 }
 export interface FabricSwitchClusterProfileConfigContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#config_state FabricSwitchClusterProfile#config_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#config_state FabricSwitchClusterProfile#config_state}
   */
   readonly configState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#config_state_summary FabricSwitchClusterProfile#config_state_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#config_state_summary FabricSwitchClusterProfile#config_state_summary}
   */
   readonly configStateSummary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#config_type FabricSwitchClusterProfile#config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#config_type FabricSwitchClusterProfile#config_type}
   */
   readonly configType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#control_action FabricSwitchClusterProfile#control_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#control_action FabricSwitchClusterProfile#control_action}
   */
   readonly controlAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#error_state FabricSwitchClusterProfile#error_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#error_state FabricSwitchClusterProfile#error_state}
   */
   readonly errorState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#inconsistency_reason FabricSwitchClusterProfile#inconsistency_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#inconsistency_reason FabricSwitchClusterProfile#inconsistency_reason}
   */
   readonly inconsistencyReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#oper_state FabricSwitchClusterProfile#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#oper_state FabricSwitchClusterProfile#oper_state}
   */
   readonly operState?: string;
 }
@@ -1612,23 +1612,23 @@ export class FabricSwitchClusterProfileConfigContextList extends cdktf.ComplexLi
 }
 export interface FabricSwitchClusterProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1860,23 +1860,23 @@ export class FabricSwitchClusterProfileOrganizationList extends cdktf.ComplexLis
 }
 export interface FabricSwitchClusterProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2108,23 +2108,23 @@ export class FabricSwitchClusterProfileParentList extends cdktf.ComplexList {
 }
 export interface FabricSwitchClusterProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2356,23 +2356,23 @@ export class FabricSwitchClusterProfilePermissionResourcesList extends cdktf.Com
 }
 export interface FabricSwitchClusterProfileSrcTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2604,23 +2604,23 @@ export class FabricSwitchClusterProfileSrcTemplateList extends cdktf.ComplexList
 }
 export interface FabricSwitchClusterProfileSwitchProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2852,23 +2852,23 @@ export class FabricSwitchClusterProfileSwitchProfilesList extends cdktf.ComplexL
 }
 export interface FabricSwitchClusterProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3100,23 +3100,23 @@ export class FabricSwitchClusterProfileTagsAncestorDefinitionsList extends cdktf
 }
 export interface FabricSwitchClusterProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3348,35 +3348,35 @@ export class FabricSwitchClusterProfileTagsDefinitionList extends cdktf.ComplexL
 }
 export interface FabricSwitchClusterProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#ancestor_definitions FabricSwitchClusterProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#ancestor_definitions FabricSwitchClusterProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricSwitchClusterProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#definition FabricSwitchClusterProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#definition FabricSwitchClusterProfile#definition}
   */
   readonly definition?: FabricSwitchClusterProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#key FabricSwitchClusterProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#key FabricSwitchClusterProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#propagated FabricSwitchClusterProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#propagated FabricSwitchClusterProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#sys_tag FabricSwitchClusterProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#sys_tag FabricSwitchClusterProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#type FabricSwitchClusterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#type FabricSwitchClusterProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#value FabricSwitchClusterProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#value FabricSwitchClusterProfile#value}
   */
   readonly value?: string;
 }
@@ -3695,23 +3695,23 @@ export class FabricSwitchClusterProfileTagsList extends cdktf.ComplexList {
 }
 export interface FabricSwitchClusterProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3943,23 +3943,23 @@ export class FabricSwitchClusterProfileVersionContextInterestedMosList extends c
 }
 export interface FabricSwitchClusterProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#moid FabricSwitchClusterProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#selector FabricSwitchClusterProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4191,39 +4191,39 @@ export class FabricSwitchClusterProfileVersionContextRefMoList extends cdktf.Com
 }
 export interface FabricSwitchClusterProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#additional_properties FabricSwitchClusterProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#class_id FabricSwitchClusterProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#interested_mos FabricSwitchClusterProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#interested_mos FabricSwitchClusterProfile#interested_mos}
   */
   readonly interestedMos?: FabricSwitchClusterProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#marked_for_deletion FabricSwitchClusterProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#marked_for_deletion FabricSwitchClusterProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#nr_version FabricSwitchClusterProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#nr_version FabricSwitchClusterProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#object_type FabricSwitchClusterProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#ref_mo FabricSwitchClusterProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#ref_mo FabricSwitchClusterProfile#ref_mo}
   */
   readonly refMo?: FabricSwitchClusterProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#timestamp FabricSwitchClusterProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#timestamp FabricSwitchClusterProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#version_type FabricSwitchClusterProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#version_type FabricSwitchClusterProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -4571,7 +4571,7 @@ export class FabricSwitchClusterProfileVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile intersight_fabric_switch_cluster_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile intersight_fabric_switch_cluster_profile}
 */
 export class FabricSwitchClusterProfile extends cdktf.TerraformResource {
 
@@ -4587,7 +4587,7 @@ export class FabricSwitchClusterProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricSwitchClusterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricSwitchClusterProfile to import
-  * @param importFromId The id of the existing FabricSwitchClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricSwitchClusterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricSwitchClusterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4599,7 +4599,7 @@ export class FabricSwitchClusterProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_switch_cluster_profile intersight_fabric_switch_cluster_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/fabric_switch_cluster_profile intersight_fabric_switch_cluster_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4610,8 +4610,8 @@ export class FabricSwitchClusterProfile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_switch_cluster_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

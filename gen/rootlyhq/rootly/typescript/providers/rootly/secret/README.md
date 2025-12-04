@@ -1,3 +1,3 @@
 # `rootly_secret`
 
-Refer to the Terraform Registry for docs: [`rootly_secret`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/secret).
+Refer to the Terraform Registry for docs: [`rootly_secret`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/secret).

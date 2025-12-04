@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TseCngwCanaryRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#gateway_id TseCngwCanaryRule#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#gateway_id TseCngwCanaryRule#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#id TseCngwCanaryRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#id TseCngwCanaryRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TseCngwCanaryRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
   */
   readonly serviceId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#tags TseCngwCanaryRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#tags TseCngwCanaryRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * canary_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#canary_rule TseCngwCanaryRule#canary_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#canary_rule TseCngwCanaryRule#canary_rule}
   */
   readonly canaryRule: TseCngwCanaryRuleCanaryRule;
 }
@@ -43,19 +43,19 @@ export interface TseCngwCanaryRuleCanaryRuleBalancedServiceListStruct {
   /**
   * percent, 10 is 10%, valid values:0 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#percent TseCngwCanaryRule#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#percent TseCngwCanaryRule#percent}
   */
   readonly percent?: number;
   /**
   * service ID, required when used as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
   */
   readonly serviceId?: string;
   /**
   * service name, meaningless when used as an input parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#service_name TseCngwCanaryRule#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#service_name TseCngwCanaryRule#service_name}
   */
   readonly serviceName?: string;
 }
@@ -236,43 +236,43 @@ export interface TseCngwCanaryRuleCanaryRuleConditionListStruct {
   /**
   * delimiter. valid when operator is in or not in, reference value:`,`, `;`,`\n`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#delimiter TseCngwCanaryRule#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#delimiter TseCngwCanaryRule#delimiter}
   */
   readonly delimiter?: string;
   /**
   * global configuration ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#global_config_id TseCngwCanaryRule#global_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#global_config_id TseCngwCanaryRule#global_config_id}
   */
   readonly globalConfigId?: string;
   /**
   * global configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#global_config_name TseCngwCanaryRule#global_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#global_config_name TseCngwCanaryRule#global_config_name}
   */
   readonly globalConfigName?: string;
   /**
   * parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#key TseCngwCanaryRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#key TseCngwCanaryRule#key}
   */
   readonly key?: string;
   /**
   * operator.Reference value:`le`,`eq`,`lt`,`ne`,`ge`,`gt`,`regex`,`exists`,`in`,`not in`,`prefix`,`exact`,`regex`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#operator TseCngwCanaryRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#operator TseCngwCanaryRule#operator}
   */
   readonly operator?: string;
   /**
   * type.Reference value:`path`,`method`,`query`,`header`,`cookie`,`body`,`system`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#type TseCngwCanaryRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#type TseCngwCanaryRule#type}
   */
   readonly type: string;
   /**
   * parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#value TseCngwCanaryRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#value TseCngwCanaryRule#value}
   */
   readonly value?: string;
 }
@@ -561,37 +561,37 @@ export interface TseCngwCanaryRuleCanaryRule {
   /**
   * the status of canary rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#enabled TseCngwCanaryRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#enabled TseCngwCanaryRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * priority. The value ranges from 0 to 100; the larger the value, the higher the priority; the priority cannot be repeated between different rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#priority TseCngwCanaryRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#priority TseCngwCanaryRule#priority}
   */
   readonly priority: number;
   /**
   * service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#service_id TseCngwCanaryRule#service_id}
   */
   readonly serviceId?: string;
   /**
   * service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#service_name TseCngwCanaryRule#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#service_name TseCngwCanaryRule#service_name}
   */
   readonly serviceName?: string;
   /**
   * balanced_service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#balanced_service_list TseCngwCanaryRule#balanced_service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#balanced_service_list TseCngwCanaryRule#balanced_service_list}
   */
   readonly balancedServiceList?: TseCngwCanaryRuleCanaryRuleBalancedServiceListStruct[] | cdktf.IResolvable;
   /**
   * condition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#condition_list TseCngwCanaryRule#condition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#condition_list TseCngwCanaryRule#condition_list}
   */
   readonly conditionList?: TseCngwCanaryRuleCanaryRuleConditionListStruct[] | cdktf.IResolvable;
 }
@@ -814,7 +814,7 @@ export class TseCngwCanaryRuleCanaryRuleOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule tencentcloud_tse_cngw_canary_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule tencentcloud_tse_cngw_canary_rule}
 */
 export class TseCngwCanaryRule extends cdktf.TerraformResource {
 
@@ -830,7 +830,7 @@ export class TseCngwCanaryRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwCanaryRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwCanaryRule to import
-  * @param importFromId The id of the existing TseCngwCanaryRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwCanaryRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwCanaryRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -842,7 +842,7 @@ export class TseCngwCanaryRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tse_cngw_canary_rule tencentcloud_tse_cngw_canary_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tse_cngw_canary_rule tencentcloud_tse_cngw_canary_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -853,8 +853,8 @@ export class TseCngwCanaryRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_canary_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

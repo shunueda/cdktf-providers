@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CouchbaseClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Version of Couchbase to run on the cluster. Available versions: <ul> <li>`7.2.3`</li> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#couchbase_version CouchbaseClusterV2#couchbase_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#couchbase_version CouchbaseClusterV2#couchbase_version}
   */
   readonly couchbaseVersion: string;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#current_cluster_operation_status CouchbaseClusterV2#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#current_cluster_operation_status CouchbaseClusterV2#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#description CouchbaseClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#description CouchbaseClusterV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface CouchbaseClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#name CouchbaseClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#name CouchbaseClusterV2#name}
   */
   readonly name: string;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#private_network_cluster CouchbaseClusterV2#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#private_network_cluster CouchbaseClusterV2#private_network_cluster}
   */
   readonly privateNetworkCluster: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#sla_tier CouchbaseClusterV2#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#sla_tier CouchbaseClusterV2#sla_tier}
   */
   readonly slaTier: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
   */
   readonly status?: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#data_centre CouchbaseClusterV2#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#data_centre CouchbaseClusterV2#data_centre}
   */
   readonly dataCentre: CouchbaseClusterV2DataCentre[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#resize_settings CouchbaseClusterV2#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#resize_settings CouchbaseClusterV2#resize_settings}
   */
   readonly resizeSettings?: CouchbaseClusterV2ResizeSettings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#timeouts CouchbaseClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#timeouts CouchbaseClusterV2#timeouts}
   */
   readonly timeouts?: CouchbaseClusterV2Timeouts;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#two_factor_delete CouchbaseClusterV2#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#two_factor_delete CouchbaseClusterV2#two_factor_delete}
   */
   readonly twoFactorDelete?: CouchbaseClusterV2TwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface CouchbaseClusterV2DataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#ebs_encryption_key CouchbaseClusterV2#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#ebs_encryption_key CouchbaseClusterV2#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -238,19 +238,19 @@ export interface CouchbaseClusterV2DataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#resource_group CouchbaseClusterV2#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#resource_group CouchbaseClusterV2#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#storage_network CouchbaseClusterV2#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#storage_network CouchbaseClusterV2#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -426,19 +426,19 @@ export interface CouchbaseClusterV2DataCentreCouchbaseNodeGroup {
   /**
   * List of node services to run in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#couchbase_service CouchbaseClusterV2#couchbase_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#couchbase_service CouchbaseClusterV2#couchbase_service}
   */
   readonly couchbaseService: string[];
   /**
   * Size of the nodes provisioned in this group. --AVAILABLE_NODE_SIZES_MARKER_V2_COUCHBASE--
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
   */
   readonly nodeSize: string;
   /**
   * Number of nodes to provision in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#number_of_nodes CouchbaseClusterV2#number_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#number_of_nodes CouchbaseClusterV2#number_of_nodes}
   */
   readonly numberOfNodes: number;
 }
@@ -605,13 +605,13 @@ export interface CouchbaseClusterV2DataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#deletion_time CouchbaseClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#deletion_time CouchbaseClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -620,43 +620,43 @@ export interface CouchbaseClusterV2DataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#node_roles CouchbaseClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#node_roles CouchbaseClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#private_address CouchbaseClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#private_address CouchbaseClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#public_address CouchbaseClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#public_address CouchbaseClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#rack CouchbaseClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#rack CouchbaseClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#start_time CouchbaseClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#start_time CouchbaseClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1015,7 +1015,7 @@ export interface CouchbaseClusterV2DataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#custom_virtual_network_id CouchbaseClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -1133,13 +1133,13 @@ export interface CouchbaseClusterV2DataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#deletion_time CouchbaseClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#deletion_time CouchbaseClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1148,49 +1148,49 @@ export interface CouchbaseClusterV2DataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#node_roles CouchbaseClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#node_roles CouchbaseClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#node_size CouchbaseClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#private_address CouchbaseClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#private_address CouchbaseClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#public_address CouchbaseClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#public_address CouchbaseClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#rack CouchbaseClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#rack CouchbaseClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * List of services running on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#services CouchbaseClusterV2#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#services CouchbaseClusterV2#services}
   */
   readonly services?: string[];
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#start_time CouchbaseClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#start_time CouchbaseClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1569,13 +1569,13 @@ export interface CouchbaseClusterV2DataCentreTag {
   /**
   * Key of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#key CouchbaseClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#key CouchbaseClusterV2#key}
   */
   readonly key: string;
   /**
   * Value of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#value CouchbaseClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#value CouchbaseClusterV2#value}
   */
   readonly value?: string;
 }
@@ -1719,13 +1719,13 @@ export interface CouchbaseClusterV2DataCentre {
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#cloud_provider CouchbaseClusterV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#cloud_provider CouchbaseClusterV2#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#id CouchbaseClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1734,79 +1734,79 @@ export interface CouchbaseClusterV2DataCentre {
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#name CouchbaseClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#name CouchbaseClusterV2#name}
   */
   readonly name: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#network CouchbaseClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#network CouchbaseClusterV2#network}
   */
   readonly network: string;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#provider_account_name CouchbaseClusterV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#provider_account_name CouchbaseClusterV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#region CouchbaseClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#region CouchbaseClusterV2#region}
   */
   readonly region: string;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#status CouchbaseClusterV2#status}
   */
   readonly status?: string;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#zero_inbound_access CouchbaseClusterV2#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#zero_inbound_access CouchbaseClusterV2#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#aws_settings CouchbaseClusterV2#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#aws_settings CouchbaseClusterV2#aws_settings}
   */
   readonly awsSettings?: CouchbaseClusterV2DataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#azure_settings CouchbaseClusterV2#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#azure_settings CouchbaseClusterV2#azure_settings}
   */
   readonly azureSettings?: CouchbaseClusterV2DataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * couchbase_node_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#couchbase_node_group CouchbaseClusterV2#couchbase_node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#couchbase_node_group CouchbaseClusterV2#couchbase_node_group}
   */
   readonly couchbaseNodeGroup?: CouchbaseClusterV2DataCentreCouchbaseNodeGroup[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#deleted_nodes CouchbaseClusterV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#deleted_nodes CouchbaseClusterV2#deleted_nodes}
   */
   readonly deletedNodes?: CouchbaseClusterV2DataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#gcp_settings CouchbaseClusterV2#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#gcp_settings CouchbaseClusterV2#gcp_settings}
   */
   readonly gcpSettings?: CouchbaseClusterV2DataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#nodes CouchbaseClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#nodes CouchbaseClusterV2#nodes}
   */
   readonly nodes?: CouchbaseClusterV2DataCentreNodes[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#tag CouchbaseClusterV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#tag CouchbaseClusterV2#tag}
   */
   readonly tag?: CouchbaseClusterV2DataCentreTag[] | cdktf.IResolvable;
 }
@@ -2318,13 +2318,13 @@ export interface CouchbaseClusterV2ResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#concurrency CouchbaseClusterV2#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#concurrency CouchbaseClusterV2#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#notify_support_contacts CouchbaseClusterV2#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#notify_support_contacts CouchbaseClusterV2#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -2469,15 +2469,15 @@ export class CouchbaseClusterV2ResizeSettingsList extends cdktf.ComplexList {
 }
 export interface CouchbaseClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#create CouchbaseClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#create CouchbaseClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#default CouchbaseClusterV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#default CouchbaseClusterV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#update CouchbaseClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#update CouchbaseClusterV2#update}
   */
   readonly update?: string;
 }
@@ -2631,13 +2631,13 @@ export interface CouchbaseClusterV2TwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#confirmation_email CouchbaseClusterV2#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#confirmation_email CouchbaseClusterV2#confirmation_email}
   */
   readonly confirmationEmail: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#confirmation_phone_number CouchbaseClusterV2#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#confirmation_phone_number CouchbaseClusterV2#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -2779,7 +2779,7 @@ export class CouchbaseClusterV2TwoFactorDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2 instaclustr_couchbase_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2 instaclustr_couchbase_cluster_v2}
 */
 export class CouchbaseClusterV2 extends cdktf.TerraformResource {
 
@@ -2795,7 +2795,7 @@ export class CouchbaseClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CouchbaseClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CouchbaseClusterV2 to import
-  * @param importFromId The id of the existing CouchbaseClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CouchbaseClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CouchbaseClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2807,7 +2807,7 @@ export class CouchbaseClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/resources/couchbase_cluster_v2 instaclustr_couchbase_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/resources/couchbase_cluster_v2 instaclustr_couchbase_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2818,8 +2818,8 @@ export class CouchbaseClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_couchbase_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.31',
-        providerVersionConstraint: '2.1.31'
+        providerVersion: '2.1.32',
+        providerVersionConstraint: '2.1.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightInventoryGenericInventoryHolderConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#account_moid DataIntersightInventoryGenericInventoryHolder#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#account_moid DataIntersightInventoryGenericInventoryHolder#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightInventoryGenericInventoryHolderConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#create_time DataIntersightInventoryGenericInventoryHolder#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#create_time DataIntersightInventoryGenericInventoryHolder#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#device_mo_id DataIntersightInventoryGenericInventoryHolder#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#device_mo_id DataIntersightInventoryGenericInventoryHolder#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#dn DataIntersightInventoryGenericInventoryHolder#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#dn DataIntersightInventoryGenericInventoryHolder#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#domain_group_moid DataIntersightInventoryGenericInventoryHolder#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#domain_group_moid DataIntersightInventoryGenericInventoryHolder#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The endpoint represented by this holder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#endpoint DataIntersightInventoryGenericInventoryHolder#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#endpoint DataIntersightInventoryGenericInventoryHolder#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#id DataIntersightInventoryGenericInventoryHolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#id DataIntersightInventoryGenericInventoryHolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,97 +65,97 @@ export interface DataIntersightInventoryGenericInventoryHolderConfig extends cdk
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#mod_time DataIntersightInventoryGenericInventoryHolder#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#mod_time DataIntersightInventoryGenericInventoryHolder#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#owners DataIntersightInventoryGenericInventoryHolder#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#owners DataIntersightInventoryGenericInventoryHolder#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#rn DataIntersightInventoryGenericInventoryHolder#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#rn DataIntersightInventoryGenericInventoryHolder#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#shared_scope DataIntersightInventoryGenericInventoryHolder#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#shared_scope DataIntersightInventoryGenericInventoryHolder#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#ancestors DataIntersightInventoryGenericInventoryHolder#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#ancestors DataIntersightInventoryGenericInventoryHolder#ancestors}
   */
   readonly ancestors?: DataIntersightInventoryGenericInventoryHolderAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#compute_blade DataIntersightInventoryGenericInventoryHolder#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#compute_blade DataIntersightInventoryGenericInventoryHolder#compute_blade}
   */
   readonly computeBlade?: DataIntersightInventoryGenericInventoryHolderComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#compute_rack_unit DataIntersightInventoryGenericInventoryHolder#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#compute_rack_unit DataIntersightInventoryGenericInventoryHolder#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightInventoryGenericInventoryHolderComputeRackUnit;
   /**
   * generic_inventory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#generic_inventory DataIntersightInventoryGenericInventoryHolder#generic_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#generic_inventory DataIntersightInventoryGenericInventoryHolder#generic_inventory}
   */
   readonly genericInventory?: DataIntersightInventoryGenericInventoryHolderGenericInventory[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#inventory_device_info DataIntersightInventoryGenericInventoryHolder#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#inventory_device_info DataIntersightInventoryGenericInventoryHolder#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightInventoryGenericInventoryHolderInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#parent DataIntersightInventoryGenericInventoryHolder#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#parent DataIntersightInventoryGenericInventoryHolder#parent}
   */
   readonly parent?: DataIntersightInventoryGenericInventoryHolderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#permission_resources DataIntersightInventoryGenericInventoryHolder#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#permission_resources DataIntersightInventoryGenericInventoryHolder#permission_resources}
   */
   readonly permissionResources?: DataIntersightInventoryGenericInventoryHolderPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#registered_device DataIntersightInventoryGenericInventoryHolder#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#registered_device DataIntersightInventoryGenericInventoryHolder#registered_device}
   */
   readonly registeredDevice?: DataIntersightInventoryGenericInventoryHolderRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#tags DataIntersightInventoryGenericInventoryHolder#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#tags DataIntersightInventoryGenericInventoryHolder#tags}
   */
   readonly tags?: DataIntersightInventoryGenericInventoryHolderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#version_context DataIntersightInventoryGenericInventoryHolder#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#version_context DataIntersightInventoryGenericInventoryHolder#version_context}
   */
   readonly versionContext?: DataIntersightInventoryGenericInventoryHolderVersionContext;
 }
@@ -1730,7 +1730,7 @@ export class DataIntersightInventoryGenericInventoryHolderResultsList extends cd
 }
 export interface DataIntersightInventoryGenericInventoryHolderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1738,19 +1738,19 @@ export interface DataIntersightInventoryGenericInventoryHolderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1763,7 +1763,7 @@ export interface DataIntersightInventoryGenericInventoryHolderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -1995,7 +1995,7 @@ export class DataIntersightInventoryGenericInventoryHolderAncestorsList extends 
 }
 export interface DataIntersightInventoryGenericInventoryHolderComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2003,19 +2003,19 @@ export interface DataIntersightInventoryGenericInventoryHolderComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2028,7 +2028,7 @@ export interface DataIntersightInventoryGenericInventoryHolderComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2228,7 +2228,7 @@ export class DataIntersightInventoryGenericInventoryHolderComputeBladeOutputRefe
 }
 export interface DataIntersightInventoryGenericInventoryHolderComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2236,19 +2236,19 @@ export interface DataIntersightInventoryGenericInventoryHolderComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2261,7 +2261,7 @@ export interface DataIntersightInventoryGenericInventoryHolderComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2461,7 +2461,7 @@ export class DataIntersightInventoryGenericInventoryHolderComputeRackUnitOutputR
 }
 export interface DataIntersightInventoryGenericInventoryHolderGenericInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2469,19 +2469,19 @@ export interface DataIntersightInventoryGenericInventoryHolderGenericInventory {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2494,7 +2494,7 @@ export interface DataIntersightInventoryGenericInventoryHolderGenericInventory {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2726,7 +2726,7 @@ export class DataIntersightInventoryGenericInventoryHolderGenericInventoryList e
 }
 export interface DataIntersightInventoryGenericInventoryHolderInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2734,19 +2734,19 @@ export interface DataIntersightInventoryGenericInventoryHolderInventoryDeviceInf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2759,7 +2759,7 @@ export interface DataIntersightInventoryGenericInventoryHolderInventoryDeviceInf
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -2959,7 +2959,7 @@ export class DataIntersightInventoryGenericInventoryHolderInventoryDeviceInfoOut
 }
 export interface DataIntersightInventoryGenericInventoryHolderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2967,19 +2967,19 @@ export interface DataIntersightInventoryGenericInventoryHolderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2992,7 +2992,7 @@ export interface DataIntersightInventoryGenericInventoryHolderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3192,7 +3192,7 @@ export class DataIntersightInventoryGenericInventoryHolderParentOutputReference 
 }
 export interface DataIntersightInventoryGenericInventoryHolderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3200,19 +3200,19 @@ export interface DataIntersightInventoryGenericInventoryHolderPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3225,7 +3225,7 @@ export interface DataIntersightInventoryGenericInventoryHolderPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3457,7 +3457,7 @@ export class DataIntersightInventoryGenericInventoryHolderPermissionResourcesLis
 }
 export interface DataIntersightInventoryGenericInventoryHolderRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3465,19 +3465,19 @@ export interface DataIntersightInventoryGenericInventoryHolderRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3490,7 +3490,7 @@ export interface DataIntersightInventoryGenericInventoryHolderRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3690,7 +3690,7 @@ export class DataIntersightInventoryGenericInventoryHolderRegisteredDeviceOutput
 }
 export interface DataIntersightInventoryGenericInventoryHolderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3698,19 +3698,19 @@ export interface DataIntersightInventoryGenericInventoryHolderTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3723,7 +3723,7 @@ export interface DataIntersightInventoryGenericInventoryHolderTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -3955,7 +3955,7 @@ export class DataIntersightInventoryGenericInventoryHolderTagsAncestorDefinition
 }
 export interface DataIntersightInventoryGenericInventoryHolderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3963,19 +3963,19 @@ export interface DataIntersightInventoryGenericInventoryHolderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3988,7 +3988,7 @@ export interface DataIntersightInventoryGenericInventoryHolderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -4188,25 +4188,25 @@ export class DataIntersightInventoryGenericInventoryHolderTagsDefinitionOutputRe
 }
 export interface DataIntersightInventoryGenericInventoryHolderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#key DataIntersightInventoryGenericInventoryHolder#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#key DataIntersightInventoryGenericInventoryHolder#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#propagated DataIntersightInventoryGenericInventoryHolder#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#propagated DataIntersightInventoryGenericInventoryHolder#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#sys_tag DataIntersightInventoryGenericInventoryHolder#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#sys_tag DataIntersightInventoryGenericInventoryHolder#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4214,25 +4214,25 @@ export interface DataIntersightInventoryGenericInventoryHolderTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#type DataIntersightInventoryGenericInventoryHolder#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#type DataIntersightInventoryGenericInventoryHolder#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#value DataIntersightInventoryGenericInventoryHolder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#value DataIntersightInventoryGenericInventoryHolder#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#ancestor_definitions DataIntersightInventoryGenericInventoryHolder#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#ancestor_definitions DataIntersightInventoryGenericInventoryHolder#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightInventoryGenericInventoryHolderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#definition DataIntersightInventoryGenericInventoryHolder#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#definition DataIntersightInventoryGenericInventoryHolder#definition}
   */
   readonly definition?: DataIntersightInventoryGenericInventoryHolderTagsDefinition;
 }
@@ -4551,7 +4551,7 @@ export class DataIntersightInventoryGenericInventoryHolderTagsList extends cdktf
 }
 export interface DataIntersightInventoryGenericInventoryHolderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4559,19 +4559,19 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4584,7 +4584,7 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -4816,7 +4816,7 @@ export class DataIntersightInventoryGenericInventoryHolderVersionContextInterest
 }
 export interface DataIntersightInventoryGenericInventoryHolderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4824,19 +4824,19 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#moid DataIntersightInventoryGenericInventoryHolder#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4849,7 +4849,7 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#selector DataIntersightInventoryGenericInventoryHolder#selector}
   */
   readonly selector?: string;
 }
@@ -5049,7 +5049,7 @@ export class DataIntersightInventoryGenericInventoryHolderVersionContextRefMoOut
 }
 export interface DataIntersightInventoryGenericInventoryHolderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#additional_properties DataIntersightInventoryGenericInventoryHolder#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5057,32 +5057,32 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#class_id DataIntersightInventoryGenericInventoryHolder#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#marked_for_deletion DataIntersightInventoryGenericInventoryHolder#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#marked_for_deletion DataIntersightInventoryGenericInventoryHolder#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#nr_version DataIntersightInventoryGenericInventoryHolder#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#nr_version DataIntersightInventoryGenericInventoryHolder#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#object_type DataIntersightInventoryGenericInventoryHolder#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#timestamp DataIntersightInventoryGenericInventoryHolder#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#timestamp DataIntersightInventoryGenericInventoryHolder#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5093,19 +5093,19 @@ export interface DataIntersightInventoryGenericInventoryHolderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#version_type DataIntersightInventoryGenericInventoryHolder#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#version_type DataIntersightInventoryGenericInventoryHolder#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#interested_mos DataIntersightInventoryGenericInventoryHolder#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#interested_mos DataIntersightInventoryGenericInventoryHolder#interested_mos}
   */
   readonly interestedMos?: DataIntersightInventoryGenericInventoryHolderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#ref_mo DataIntersightInventoryGenericInventoryHolder#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#ref_mo DataIntersightInventoryGenericInventoryHolder#ref_mo}
   */
   readonly refMo?: DataIntersightInventoryGenericInventoryHolderVersionContextRefMo;
 }
@@ -5421,7 +5421,7 @@ export class DataIntersightInventoryGenericInventoryHolderVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder intersight_inventory_generic_inventory_holder}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder intersight_inventory_generic_inventory_holder}
 */
 export class DataIntersightInventoryGenericInventoryHolder extends cdktf.TerraformDataSource {
 
@@ -5437,7 +5437,7 @@ export class DataIntersightInventoryGenericInventoryHolder extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightInventoryGenericInventoryHolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightInventoryGenericInventoryHolder to import
-  * @param importFromId The id of the existing DataIntersightInventoryGenericInventoryHolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightInventoryGenericInventoryHolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightInventoryGenericInventoryHolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5449,7 +5449,7 @@ export class DataIntersightInventoryGenericInventoryHolder extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/inventory_generic_inventory_holder intersight_inventory_generic_inventory_holder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/inventory_generic_inventory_holder intersight_inventory_generic_inventory_holder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5460,8 +5460,8 @@ export class DataIntersightInventoryGenericInventoryHolder extends cdktf.Terrafo
       terraformResourceType: 'intersight_inventory_generic_inventory_holder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

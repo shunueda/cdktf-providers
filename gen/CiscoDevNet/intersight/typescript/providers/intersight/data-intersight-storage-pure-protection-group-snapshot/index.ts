@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#account_moid DataIntersightStoragePureProtectionGroupSnapshot#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#account_moid DataIntersightStoragePureProtectionGroupSnapshot#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#create_time DataIntersightStoragePureProtectionGroupSnapshot#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#create_time DataIntersightStoragePureProtectionGroupSnapshot#create_time}
   */
   readonly createTime?: string;
   /**
   * Protection group snapshot creation time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#created_time DataIntersightStoragePureProtectionGroupSnapshot#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#created_time DataIntersightStoragePureProtectionGroupSnapshot#created_time}
   */
   readonly createdTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#domain_group_moid DataIntersightStoragePureProtectionGroupSnapshot#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#domain_group_moid DataIntersightStoragePureProtectionGroupSnapshot#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The configuration of eradication feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#eradication_config DataIntersightStoragePureProtectionGroupSnapshot#eradication_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#eradication_config DataIntersightStoragePureProtectionGroupSnapshot#eradication_config}
   */
   readonly eradicationConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#id DataIntersightStoragePureProtectionGroupSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#id DataIntersightStoragePureProtectionGroupSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,115 +59,115 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotConfig extends 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#mod_time DataIntersightStoragePureProtectionGroupSnapshot#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#mod_time DataIntersightStoragePureProtectionGroupSnapshot#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * Protection group snapshot name which represents point-in-time copy of all members in protection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#name DataIntersightStoragePureProtectionGroupSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#name DataIntersightStoragePureProtectionGroupSnapshot#name}
   */
   readonly name?: string;
   /**
   * Source protection group name on which the snapshot is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#nr_source DataIntersightStoragePureProtectionGroupSnapshot#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#nr_source DataIntersightStoragePureProtectionGroupSnapshot#nr_source}
   */
   readonly nrSource?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#owners DataIntersightStoragePureProtectionGroupSnapshot#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#owners DataIntersightStoragePureProtectionGroupSnapshot#owners}
   */
   readonly owners?: string[];
   /**
   * A pod representing a collection of protection groups and volumes is created on one array and stretched to another array, resulting in fully synchronized writes between the two arrays.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#pod DataIntersightStoragePureProtectionGroupSnapshot#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#pod DataIntersightStoragePureProtectionGroupSnapshot#pod}
   */
   readonly pod?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#shared_scope DataIntersightStoragePureProtectionGroupSnapshot#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#shared_scope DataIntersightStoragePureProtectionGroupSnapshot#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Snapshot size represented in bytes. It is a cumulative size of all snapshots in a set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#size DataIntersightStoragePureProtectionGroupSnapshot#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#size DataIntersightStoragePureProtectionGroupSnapshot#size}
   */
   readonly size?: number;
   /**
   * The size of the snapshot created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#snapshot_size DataIntersightStoragePureProtectionGroupSnapshot#snapshot_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#snapshot_size DataIntersightStoragePureProtectionGroupSnapshot#snapshot_size}
   */
   readonly snapshotSize?: number;
   /**
   * The overall size of the snapshot allocated by the storage array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#total_provisioned DataIntersightStoragePureProtectionGroupSnapshot#total_provisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#total_provisioned DataIntersightStoragePureProtectionGroupSnapshot#total_provisioned}
   */
   readonly totalProvisioned?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#ancestors DataIntersightStoragePureProtectionGroupSnapshot#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#ancestors DataIntersightStoragePureProtectionGroupSnapshot#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureProtectionGroupSnapshotAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#array DataIntersightStoragePureProtectionGroupSnapshot#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#array DataIntersightStoragePureProtectionGroupSnapshot#array}
   */
   readonly array?: DataIntersightStoragePureProtectionGroupSnapshotArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#parent DataIntersightStoragePureProtectionGroupSnapshot#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#parent DataIntersightStoragePureProtectionGroupSnapshot#parent}
   */
   readonly parent?: DataIntersightStoragePureProtectionGroupSnapshotParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#permission_resources DataIntersightStoragePureProtectionGroupSnapshot#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#permission_resources DataIntersightStoragePureProtectionGroupSnapshot#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureProtectionGroupSnapshotPermissionResources[] | cdktf.IResolvable;
   /**
   * protection_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#protection_group DataIntersightStoragePureProtectionGroupSnapshot#protection_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#protection_group DataIntersightStoragePureProtectionGroupSnapshot#protection_group}
   */
   readonly protectionGroup?: DataIntersightStoragePureProtectionGroupSnapshotProtectionGroup;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#registered_device DataIntersightStoragePureProtectionGroupSnapshot#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#registered_device DataIntersightStoragePureProtectionGroupSnapshot#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureProtectionGroupSnapshotRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#tags DataIntersightStoragePureProtectionGroupSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#tags DataIntersightStoragePureProtectionGroupSnapshot#tags}
   */
   readonly tags?: DataIntersightStoragePureProtectionGroupSnapshotTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#version_context DataIntersightStoragePureProtectionGroupSnapshot#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#version_context DataIntersightStoragePureProtectionGroupSnapshot#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureProtectionGroupSnapshotVersionContext;
 }
@@ -1560,7 +1560,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotResultsList extends
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1568,19 +1568,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1593,7 +1593,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -1825,7 +1825,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotAncestorsList exten
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1833,19 +1833,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1858,7 +1858,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2058,7 +2058,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotArrayOutputReferenc
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2066,19 +2066,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2091,7 +2091,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2291,7 +2291,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotParentOutputReferen
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2299,19 +2299,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2324,7 +2324,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2556,7 +2556,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotPermissionResources
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotProtectionGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2564,19 +2564,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotProtectionGroup
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2589,7 +2589,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotProtectionGroup
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2789,7 +2789,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotProtectionGroupOutp
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2797,19 +2797,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotRegisteredDevic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2822,7 +2822,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotRegisteredDevic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3022,7 +3022,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotRegisteredDeviceOut
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3030,19 +3030,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3055,7 +3055,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3287,7 +3287,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotTagsAncestorDefinit
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3295,19 +3295,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3320,7 +3320,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3520,25 +3520,25 @@ export class DataIntersightStoragePureProtectionGroupSnapshotTagsDefinitionOutpu
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#key DataIntersightStoragePureProtectionGroupSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#key DataIntersightStoragePureProtectionGroupSnapshot#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#propagated DataIntersightStoragePureProtectionGroupSnapshot#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#propagated DataIntersightStoragePureProtectionGroupSnapshot#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#sys_tag DataIntersightStoragePureProtectionGroupSnapshot#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#sys_tag DataIntersightStoragePureProtectionGroupSnapshot#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3546,25 +3546,25 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#type DataIntersightStoragePureProtectionGroupSnapshot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#type DataIntersightStoragePureProtectionGroupSnapshot#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#value DataIntersightStoragePureProtectionGroupSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#value DataIntersightStoragePureProtectionGroupSnapshot#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#ancestor_definitions DataIntersightStoragePureProtectionGroupSnapshot#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#ancestor_definitions DataIntersightStoragePureProtectionGroupSnapshot#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureProtectionGroupSnapshotTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#definition DataIntersightStoragePureProtectionGroupSnapshot#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#definition DataIntersightStoragePureProtectionGroupSnapshot#definition}
   */
   readonly definition?: DataIntersightStoragePureProtectionGroupSnapshotTagsDefinition;
 }
@@ -3883,7 +3883,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotTagsList extends cd
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3891,19 +3891,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3916,7 +3916,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -4148,7 +4148,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotVersionContextInter
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4156,19 +4156,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#moid DataIntersightStoragePureProtectionGroupSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4181,7 +4181,7 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#selector DataIntersightStoragePureProtectionGroupSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -4381,7 +4381,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotVersionContextRefMo
 }
 export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#additional_properties DataIntersightStoragePureProtectionGroupSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4389,32 +4389,32 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#class_id DataIntersightStoragePureProtectionGroupSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#marked_for_deletion DataIntersightStoragePureProtectionGroupSnapshot#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#marked_for_deletion DataIntersightStoragePureProtectionGroupSnapshot#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#nr_version DataIntersightStoragePureProtectionGroupSnapshot#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#nr_version DataIntersightStoragePureProtectionGroupSnapshot#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#object_type DataIntersightStoragePureProtectionGroupSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#timestamp DataIntersightStoragePureProtectionGroupSnapshot#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#timestamp DataIntersightStoragePureProtectionGroupSnapshot#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4425,19 +4425,19 @@ export interface DataIntersightStoragePureProtectionGroupSnapshotVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#version_type DataIntersightStoragePureProtectionGroupSnapshot#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#version_type DataIntersightStoragePureProtectionGroupSnapshot#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#interested_mos DataIntersightStoragePureProtectionGroupSnapshot#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#interested_mos DataIntersightStoragePureProtectionGroupSnapshot#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureProtectionGroupSnapshotVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#ref_mo DataIntersightStoragePureProtectionGroupSnapshot#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#ref_mo DataIntersightStoragePureProtectionGroupSnapshot#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureProtectionGroupSnapshotVersionContextRefMo;
 }
@@ -4753,7 +4753,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshotVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot intersight_storage_pure_protection_group_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot intersight_storage_pure_protection_group_snapshot}
 */
 export class DataIntersightStoragePureProtectionGroupSnapshot extends cdktf.TerraformDataSource {
 
@@ -4769,7 +4769,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshot extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightStoragePureProtectionGroupSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureProtectionGroupSnapshot to import
-  * @param importFromId The id of the existing DataIntersightStoragePureProtectionGroupSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureProtectionGroupSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureProtectionGroupSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4781,7 +4781,7 @@ export class DataIntersightStoragePureProtectionGroupSnapshot extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_protection_group_snapshot intersight_storage_pure_protection_group_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_protection_group_snapshot intersight_storage_pure_protection_group_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4792,8 +4792,8 @@ export class DataIntersightStoragePureProtectionGroupSnapshot extends cdktf.Terr
       terraformResourceType: 'intersight_storage_pure_protection_group_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentEnclosureElementConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#account_moid DataIntersightEquipmentEnclosureElement#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#account_moid DataIntersightEquipmentEnclosureElement#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightEquipmentEnclosureElementConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#create_time DataIntersightEquipmentEnclosureElement#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#create_time DataIntersightEquipmentEnclosureElement#create_time}
   */
   readonly createTime?: string;
   /**
   * This field is to provide description for the Enclosure module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#description DataIntersightEquipmentEnclosureElement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#description DataIntersightEquipmentEnclosureElement#description}
   */
   readonly description?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#device_mo_id DataIntersightEquipmentEnclosureElement#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#device_mo_id DataIntersightEquipmentEnclosureElement#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#dn DataIntersightEquipmentEnclosureElement#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#dn DataIntersightEquipmentEnclosureElement#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#domain_group_moid DataIntersightEquipmentEnclosureElement#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#domain_group_moid DataIntersightEquipmentEnclosureElement#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * This field acts as the identifier for this particular Enclosure Module, within the Server or Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#enclosure_id DataIntersightEquipmentEnclosureElement#enclosure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#enclosure_id DataIntersightEquipmentEnclosureElement#enclosure_id}
   */
   readonly enclosureId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#id DataIntersightEquipmentEnclosureElement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#id DataIntersightEquipmentEnclosureElement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,185 +71,185 @@ export interface DataIntersightEquipmentEnclosureElementConfig extends cdktf.Ter
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#is_upgraded DataIntersightEquipmentEnclosureElement#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#is_upgraded DataIntersightEquipmentEnclosureElement#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#mod_time DataIntersightEquipmentEnclosureElement#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#mod_time DataIntersightEquipmentEnclosureElement#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#model DataIntersightEquipmentEnclosureElement#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#model DataIntersightEquipmentEnclosureElement#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The name of the pluggable Enclosure Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#name DataIntersightEquipmentEnclosureElement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#name DataIntersightEquipmentEnclosureElement#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#oper_reason DataIntersightEquipmentEnclosureElement#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#oper_reason DataIntersightEquipmentEnclosureElement#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * This field is used to indicate this equipment enclosure's operational state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#oper_state DataIntersightEquipmentEnclosureElement#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#oper_state DataIntersightEquipmentEnclosureElement#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#owners DataIntersightEquipmentEnclosureElement#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#owners DataIntersightEquipmentEnclosureElement#owners}
   */
   readonly owners?: string[];
   /**
   * This field identifies the Part Number for this Enclosure Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#part_number DataIntersightEquipmentEnclosureElement#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#part_number DataIntersightEquipmentEnclosureElement#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field identifies the Product ID for the Enclosure module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#pid DataIntersightEquipmentEnclosureElement#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#pid DataIntersightEquipmentEnclosureElement#pid}
   */
   readonly pid?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#presence DataIntersightEquipmentEnclosureElement#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#presence DataIntersightEquipmentEnclosureElement#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#revision DataIntersightEquipmentEnclosureElement#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#revision DataIntersightEquipmentEnclosureElement#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#rn DataIntersightEquipmentEnclosureElement#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#rn DataIntersightEquipmentEnclosureElement#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#serial DataIntersightEquipmentEnclosureElement#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#serial DataIntersightEquipmentEnclosureElement#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#shared_scope DataIntersightEquipmentEnclosureElement#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#shared_scope DataIntersightEquipmentEnclosureElement#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field identifies the Stockkeeping Unit for this Enclosure Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#sku DataIntersightEquipmentEnclosureElement#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#sku DataIntersightEquipmentEnclosureElement#sku}
   */
   readonly sku?: string;
   /**
   * This field is to abstract the status of the Enclosure module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#status DataIntersightEquipmentEnclosureElement#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#status DataIntersightEquipmentEnclosureElement#status}
   */
   readonly status?: string;
   /**
   * Type of the Enclosure module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#type DataIntersightEquipmentEnclosureElement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#type DataIntersightEquipmentEnclosureElement#type}
   */
   readonly type?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#vendor DataIntersightEquipmentEnclosureElement#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#vendor DataIntersightEquipmentEnclosureElement#vendor}
   */
   readonly vendor?: string;
   /**
   * This field identifies the Vendor ID for this Enclosure Module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#vid DataIntersightEquipmentEnclosureElement#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#vid DataIntersightEquipmentEnclosureElement#vid}
   */
   readonly vid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#ancestors DataIntersightEquipmentEnclosureElement#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#ancestors DataIntersightEquipmentEnclosureElement#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentEnclosureElementAncestors[] | cdktf.IResolvable;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#compute_rack_unit DataIntersightEquipmentEnclosureElement#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#compute_rack_unit DataIntersightEquipmentEnclosureElement#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightEquipmentEnclosureElementComputeRackUnit;
   /**
   * firmware_running_firmwares block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#firmware_running_firmwares DataIntersightEquipmentEnclosureElement#firmware_running_firmwares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#firmware_running_firmwares DataIntersightEquipmentEnclosureElement#firmware_running_firmwares}
   */
   readonly firmwareRunningFirmwares?: DataIntersightEquipmentEnclosureElementFirmwareRunningFirmwares[] | cdktf.IResolvable;
   /**
   * graphics_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#graphics_cards DataIntersightEquipmentEnclosureElement#graphics_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#graphics_cards DataIntersightEquipmentEnclosureElement#graphics_cards}
   */
   readonly graphicsCards?: DataIntersightEquipmentEnclosureElementGraphicsCards[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#parent DataIntersightEquipmentEnclosureElement#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#parent DataIntersightEquipmentEnclosureElement#parent}
   */
   readonly parent?: DataIntersightEquipmentEnclosureElementParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#permission_resources DataIntersightEquipmentEnclosureElement#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#permission_resources DataIntersightEquipmentEnclosureElement#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentEnclosureElementPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#previous_fru DataIntersightEquipmentEnclosureElement#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#previous_fru DataIntersightEquipmentEnclosureElement#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentEnclosureElementPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#registered_device DataIntersightEquipmentEnclosureElement#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#registered_device DataIntersightEquipmentEnclosureElement#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentEnclosureElementRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#tags DataIntersightEquipmentEnclosureElement#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#tags DataIntersightEquipmentEnclosureElement#tags}
   */
   readonly tags?: DataIntersightEquipmentEnclosureElementTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#version_context DataIntersightEquipmentEnclosureElement#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#version_context DataIntersightEquipmentEnclosureElement#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentEnclosureElementVersionContext;
 }
@@ -1904,7 +1904,7 @@ export class DataIntersightEquipmentEnclosureElementResultsList extends cdktf.Co
 }
 export interface DataIntersightEquipmentEnclosureElementAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1912,19 +1912,19 @@ export interface DataIntersightEquipmentEnclosureElementAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1937,7 +1937,7 @@ export interface DataIntersightEquipmentEnclosureElementAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -2169,7 +2169,7 @@ export class DataIntersightEquipmentEnclosureElementAncestorsList extends cdktf.
 }
 export interface DataIntersightEquipmentEnclosureElementComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2177,19 +2177,19 @@ export interface DataIntersightEquipmentEnclosureElementComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2202,7 +2202,7 @@ export interface DataIntersightEquipmentEnclosureElementComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -2402,7 +2402,7 @@ export class DataIntersightEquipmentEnclosureElementComputeRackUnitOutputReferen
 }
 export interface DataIntersightEquipmentEnclosureElementFirmwareRunningFirmwares {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2410,19 +2410,19 @@ export interface DataIntersightEquipmentEnclosureElementFirmwareRunningFirmwares
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2435,7 +2435,7 @@ export interface DataIntersightEquipmentEnclosureElementFirmwareRunningFirmwares
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -2667,7 +2667,7 @@ export class DataIntersightEquipmentEnclosureElementFirmwareRunningFirmwaresList
 }
 export interface DataIntersightEquipmentEnclosureElementGraphicsCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2675,19 +2675,19 @@ export interface DataIntersightEquipmentEnclosureElementGraphicsCards {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2700,7 +2700,7 @@ export interface DataIntersightEquipmentEnclosureElementGraphicsCards {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -2932,7 +2932,7 @@ export class DataIntersightEquipmentEnclosureElementGraphicsCardsList extends cd
 }
 export interface DataIntersightEquipmentEnclosureElementParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2940,19 +2940,19 @@ export interface DataIntersightEquipmentEnclosureElementParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2965,7 +2965,7 @@ export interface DataIntersightEquipmentEnclosureElementParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -3165,7 +3165,7 @@ export class DataIntersightEquipmentEnclosureElementParentOutputReference extend
 }
 export interface DataIntersightEquipmentEnclosureElementPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3173,19 +3173,19 @@ export interface DataIntersightEquipmentEnclosureElementPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3198,7 +3198,7 @@ export interface DataIntersightEquipmentEnclosureElementPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -3430,7 +3430,7 @@ export class DataIntersightEquipmentEnclosureElementPermissionResourcesList exte
 }
 export interface DataIntersightEquipmentEnclosureElementPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3438,19 +3438,19 @@ export interface DataIntersightEquipmentEnclosureElementPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3463,7 +3463,7 @@ export interface DataIntersightEquipmentEnclosureElementPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -3663,7 +3663,7 @@ export class DataIntersightEquipmentEnclosureElementPreviousFruOutputReference e
 }
 export interface DataIntersightEquipmentEnclosureElementRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3671,19 +3671,19 @@ export interface DataIntersightEquipmentEnclosureElementRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3696,7 +3696,7 @@ export interface DataIntersightEquipmentEnclosureElementRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -3896,7 +3896,7 @@ export class DataIntersightEquipmentEnclosureElementRegisteredDeviceOutputRefere
 }
 export interface DataIntersightEquipmentEnclosureElementTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3904,19 +3904,19 @@ export interface DataIntersightEquipmentEnclosureElementTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3929,7 +3929,7 @@ export interface DataIntersightEquipmentEnclosureElementTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -4161,7 +4161,7 @@ export class DataIntersightEquipmentEnclosureElementTagsAncestorDefinitionsList 
 }
 export interface DataIntersightEquipmentEnclosureElementTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4169,19 +4169,19 @@ export interface DataIntersightEquipmentEnclosureElementTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4194,7 +4194,7 @@ export interface DataIntersightEquipmentEnclosureElementTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -4394,25 +4394,25 @@ export class DataIntersightEquipmentEnclosureElementTagsDefinitionOutputReferenc
 }
 export interface DataIntersightEquipmentEnclosureElementTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#key DataIntersightEquipmentEnclosureElement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#key DataIntersightEquipmentEnclosureElement#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#propagated DataIntersightEquipmentEnclosureElement#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#propagated DataIntersightEquipmentEnclosureElement#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#sys_tag DataIntersightEquipmentEnclosureElement#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#sys_tag DataIntersightEquipmentEnclosureElement#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4420,25 +4420,25 @@ export interface DataIntersightEquipmentEnclosureElementTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#type DataIntersightEquipmentEnclosureElement#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#type DataIntersightEquipmentEnclosureElement#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#value DataIntersightEquipmentEnclosureElement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#value DataIntersightEquipmentEnclosureElement#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#ancestor_definitions DataIntersightEquipmentEnclosureElement#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#ancestor_definitions DataIntersightEquipmentEnclosureElement#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentEnclosureElementTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#definition DataIntersightEquipmentEnclosureElement#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#definition DataIntersightEquipmentEnclosureElement#definition}
   */
   readonly definition?: DataIntersightEquipmentEnclosureElementTagsDefinition;
 }
@@ -4757,7 +4757,7 @@ export class DataIntersightEquipmentEnclosureElementTagsList extends cdktf.Compl
 }
 export interface DataIntersightEquipmentEnclosureElementVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4765,19 +4765,19 @@ export interface DataIntersightEquipmentEnclosureElementVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4790,7 +4790,7 @@ export interface DataIntersightEquipmentEnclosureElementVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -5022,7 +5022,7 @@ export class DataIntersightEquipmentEnclosureElementVersionContextInterestedMosL
 }
 export interface DataIntersightEquipmentEnclosureElementVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5030,19 +5030,19 @@ export interface DataIntersightEquipmentEnclosureElementVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#moid DataIntersightEquipmentEnclosureElement#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5055,7 +5055,7 @@ export interface DataIntersightEquipmentEnclosureElementVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#selector DataIntersightEquipmentEnclosureElement#selector}
   */
   readonly selector?: string;
 }
@@ -5255,7 +5255,7 @@ export class DataIntersightEquipmentEnclosureElementVersionContextRefMoOutputRef
 }
 export interface DataIntersightEquipmentEnclosureElementVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#additional_properties DataIntersightEquipmentEnclosureElement#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5263,32 +5263,32 @@ export interface DataIntersightEquipmentEnclosureElementVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#class_id DataIntersightEquipmentEnclosureElement#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#marked_for_deletion DataIntersightEquipmentEnclosureElement#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#marked_for_deletion DataIntersightEquipmentEnclosureElement#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#nr_version DataIntersightEquipmentEnclosureElement#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#nr_version DataIntersightEquipmentEnclosureElement#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#object_type DataIntersightEquipmentEnclosureElement#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#timestamp DataIntersightEquipmentEnclosureElement#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#timestamp DataIntersightEquipmentEnclosureElement#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5299,19 +5299,19 @@ export interface DataIntersightEquipmentEnclosureElementVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#version_type DataIntersightEquipmentEnclosureElement#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#version_type DataIntersightEquipmentEnclosureElement#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#interested_mos DataIntersightEquipmentEnclosureElement#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#interested_mos DataIntersightEquipmentEnclosureElement#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentEnclosureElementVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#ref_mo DataIntersightEquipmentEnclosureElement#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#ref_mo DataIntersightEquipmentEnclosureElement#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentEnclosureElementVersionContextRefMo;
 }
@@ -5627,7 +5627,7 @@ export class DataIntersightEquipmentEnclosureElementVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element intersight_equipment_enclosure_element}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element intersight_equipment_enclosure_element}
 */
 export class DataIntersightEquipmentEnclosureElement extends cdktf.TerraformDataSource {
 
@@ -5643,7 +5643,7 @@ export class DataIntersightEquipmentEnclosureElement extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightEquipmentEnclosureElement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentEnclosureElement to import
-  * @param importFromId The id of the existing DataIntersightEquipmentEnclosureElement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentEnclosureElement that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentEnclosureElement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5655,7 +5655,7 @@ export class DataIntersightEquipmentEnclosureElement extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_enclosure_element intersight_equipment_enclosure_element} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_enclosure_element intersight_equipment_enclosure_element} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5666,8 +5666,8 @@ export class DataIntersightEquipmentEnclosureElement extends cdktf.TerraformData
       terraformResourceType: 'intersight_equipment_enclosure_element',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

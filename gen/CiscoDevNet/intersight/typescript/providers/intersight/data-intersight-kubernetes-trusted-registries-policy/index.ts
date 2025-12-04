@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#account_moid DataIntersightKubernetesTrustedRegistriesPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#account_moid DataIntersightKubernetesTrustedRegistriesPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#create_time DataIntersightKubernetesTrustedRegistriesPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#create_time DataIntersightKubernetesTrustedRegistriesPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#description DataIntersightKubernetesTrustedRegistriesPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#description DataIntersightKubernetesTrustedRegistriesPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#domain_group_moid DataIntersightKubernetesTrustedRegistriesPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#domain_group_moid DataIntersightKubernetesTrustedRegistriesPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#id DataIntersightKubernetesTrustedRegistriesPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#id DataIntersightKubernetesTrustedRegistriesPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,87 +53,87 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#mod_time DataIntersightKubernetesTrustedRegistriesPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#mod_time DataIntersightKubernetesTrustedRegistriesPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#name DataIntersightKubernetesTrustedRegistriesPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#name DataIntersightKubernetesTrustedRegistriesPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#owners DataIntersightKubernetesTrustedRegistriesPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#owners DataIntersightKubernetesTrustedRegistriesPolicy#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#root_ca_registries DataIntersightKubernetesTrustedRegistriesPolicy#root_ca_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#root_ca_registries DataIntersightKubernetesTrustedRegistriesPolicy#root_ca_registries}
   */
   readonly rootCaRegistries?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#shared_scope DataIntersightKubernetesTrustedRegistriesPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#shared_scope DataIntersightKubernetesTrustedRegistriesPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#unsigned_registries DataIntersightKubernetesTrustedRegistriesPolicy#unsigned_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#unsigned_registries DataIntersightKubernetesTrustedRegistriesPolicy#unsigned_registries}
   */
   readonly unsignedRegistries?: string[];
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#ancestors DataIntersightKubernetesTrustedRegistriesPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#ancestors DataIntersightKubernetesTrustedRegistriesPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesTrustedRegistriesPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#cluster_profiles DataIntersightKubernetesTrustedRegistriesPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#cluster_profiles DataIntersightKubernetesTrustedRegistriesPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightKubernetesTrustedRegistriesPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#organization DataIntersightKubernetesTrustedRegistriesPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#organization DataIntersightKubernetesTrustedRegistriesPolicy#organization}
   */
   readonly organization?: DataIntersightKubernetesTrustedRegistriesPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#parent DataIntersightKubernetesTrustedRegistriesPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#parent DataIntersightKubernetesTrustedRegistriesPolicy#parent}
   */
   readonly parent?: DataIntersightKubernetesTrustedRegistriesPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#permission_resources DataIntersightKubernetesTrustedRegistriesPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#permission_resources DataIntersightKubernetesTrustedRegistriesPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesTrustedRegistriesPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#tags DataIntersightKubernetesTrustedRegistriesPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#tags DataIntersightKubernetesTrustedRegistriesPolicy#tags}
   */
   readonly tags?: DataIntersightKubernetesTrustedRegistriesPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#version_context DataIntersightKubernetesTrustedRegistriesPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#version_context DataIntersightKubernetesTrustedRegistriesPolicy#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesTrustedRegistriesPolicyVersionContext;
 }
@@ -1405,7 +1405,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyResultsList extends 
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1413,19 +1413,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1438,7 +1438,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1670,7 +1670,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyAncestorsList extend
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1678,19 +1678,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyClusterProfiles 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1703,7 +1703,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyClusterProfiles 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1935,7 +1935,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyClusterProfilesList 
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1943,19 +1943,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1968,7 +1968,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2168,7 +2168,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyOrganizationOutputRe
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2176,19 +2176,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2201,7 +2201,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2401,7 +2401,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyParentOutputReferenc
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2409,19 +2409,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2434,7 +2434,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2666,7 +2666,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyPermissionResourcesL
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2674,19 +2674,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2699,7 +2699,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2931,7 +2931,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyTagsAncestorDefiniti
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2939,19 +2939,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2964,7 +2964,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3164,25 +3164,25 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyTagsDefinitionOutput
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#key DataIntersightKubernetesTrustedRegistriesPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#key DataIntersightKubernetesTrustedRegistriesPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#propagated DataIntersightKubernetesTrustedRegistriesPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#propagated DataIntersightKubernetesTrustedRegistriesPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#sys_tag DataIntersightKubernetesTrustedRegistriesPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#sys_tag DataIntersightKubernetesTrustedRegistriesPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3190,25 +3190,25 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#type DataIntersightKubernetesTrustedRegistriesPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#type DataIntersightKubernetesTrustedRegistriesPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#value DataIntersightKubernetesTrustedRegistriesPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#value DataIntersightKubernetesTrustedRegistriesPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#ancestor_definitions DataIntersightKubernetesTrustedRegistriesPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#ancestor_definitions DataIntersightKubernetesTrustedRegistriesPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesTrustedRegistriesPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#definition DataIntersightKubernetesTrustedRegistriesPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#definition DataIntersightKubernetesTrustedRegistriesPolicy#definition}
   */
   readonly definition?: DataIntersightKubernetesTrustedRegistriesPolicyTagsDefinition;
 }
@@ -3527,7 +3527,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyTagsList extends cdk
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3535,19 +3535,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3560,7 +3560,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3792,7 +3792,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyVersionContextIntere
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3800,19 +3800,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#moid DataIntersightKubernetesTrustedRegistriesPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3825,7 +3825,7 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#selector DataIntersightKubernetesTrustedRegistriesPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4025,7 +4025,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyVersionContextRefMoO
 }
 export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#additional_properties DataIntersightKubernetesTrustedRegistriesPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4033,32 +4033,32 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#class_id DataIntersightKubernetesTrustedRegistriesPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#marked_for_deletion DataIntersightKubernetesTrustedRegistriesPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#marked_for_deletion DataIntersightKubernetesTrustedRegistriesPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#nr_version DataIntersightKubernetesTrustedRegistriesPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#nr_version DataIntersightKubernetesTrustedRegistriesPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#object_type DataIntersightKubernetesTrustedRegistriesPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#timestamp DataIntersightKubernetesTrustedRegistriesPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#timestamp DataIntersightKubernetesTrustedRegistriesPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4069,19 +4069,19 @@ export interface DataIntersightKubernetesTrustedRegistriesPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#version_type DataIntersightKubernetesTrustedRegistriesPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#version_type DataIntersightKubernetesTrustedRegistriesPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#interested_mos DataIntersightKubernetesTrustedRegistriesPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#interested_mos DataIntersightKubernetesTrustedRegistriesPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesTrustedRegistriesPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#ref_mo DataIntersightKubernetesTrustedRegistriesPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#ref_mo DataIntersightKubernetesTrustedRegistriesPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesTrustedRegistriesPolicyVersionContextRefMo;
 }
@@ -4397,7 +4397,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicyVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy}
 */
 export class DataIntersightKubernetesTrustedRegistriesPolicy extends cdktf.TerraformDataSource {
 
@@ -4413,7 +4413,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicy extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightKubernetesTrustedRegistriesPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesTrustedRegistriesPolicy to import
-  * @param importFromId The id of the existing DataIntersightKubernetesTrustedRegistriesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesTrustedRegistriesPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesTrustedRegistriesPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4425,7 +4425,7 @@ export class DataIntersightKubernetesTrustedRegistriesPolicy extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_trusted_registries_policy intersight_kubernetes_trusted_registries_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4436,8 +4436,8 @@ export class DataIntersightKubernetesTrustedRegistriesPolicy extends cdktf.Terra
       terraformResourceType: 'intersight_kubernetes_trusted_registries_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

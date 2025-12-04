@@ -62,7 +62,6 @@ export * as capabilitySwitchEquipmentInfo from './capability-switch-equipment-in
 export * as capabilitySwitchManufacturingDef from './capability-switch-manufacturing-def';
 export * as capabilityVicDescriptor from './capability-vic-descriptor';
 export * as certificatemanagementPolicy from './certificatemanagement-policy';
-export * as changelogItem from './changelog-item';
 export * as chassisConfigImport from './chassis-config-import';
 export * as chassisProfile from './chassis-profile';
 export * as chassisProfileTemplate from './chassis-profile-template';
@@ -210,6 +209,8 @@ export * as iamLdapProvider from './iam-ldap-provider';
 export * as iamLocalUserPassword from './iam-local-user-password';
 export * as iamPermission from './iam-permission';
 export * as iamPrivateKeySpec from './iam-private-key-spec';
+export * as iamPrivilegeSet from './iam-privilege-set';
+export * as iamPrivilegeSetMetaInfo from './iam-privilege-set-meta-info';
 export * as iamQualifier from './iam-qualifier';
 export * as iamResourceRoles from './iam-resource-roles';
 export * as iamSessionLimits from './iam-session-limits';
@@ -367,7 +368,6 @@ export * as taskNexusSystemScopedInventory from './task-nexus-system-scoped-inve
 export * as taskNexusVlanScopedInventory from './task-nexus-vlan-scoped-inventory';
 export * as taskPureScopedInventory from './task-pure-scoped-inventory';
 export * as taskServerScopedInventory from './task-server-scoped-inventory';
-export * as taskWorkflowAction from './task-workflow-action';
 export * as techsupportmanagementCollectionControlPolicy from './techsupportmanagement-collection-control-policy';
 export * as techsupportmanagementTechSupportBundle from './techsupportmanagement-tech-support-bundle';
 export * as thermalPolicy from './thermal-policy';
@@ -475,6 +475,7 @@ export * as dataIntersightApplianceGroupStatus from './data-intersight-appliance
 export * as dataIntersightApplianceImageBundle from './data-intersight-appliance-image-bundle';
 export * as dataIntersightApplianceMetaManifest from './data-intersight-appliance-meta-manifest';
 export * as dataIntersightApplianceMetricsConfig from './data-intersight-appliance-metrics-config';
+export * as dataIntersightApplianceMetricsIngestionUtilization from './data-intersight-appliance-metrics-ingestion-utilization';
 export * as dataIntersightApplianceNetworkLinkStatus from './data-intersight-appliance-network-link-status';
 export * as dataIntersightApplianceNodeInfo from './data-intersight-appliance-node-info';
 export * as dataIntersightApplianceNodeOpStatus from './data-intersight-appliance-node-op-status';
@@ -589,7 +590,6 @@ export * as dataIntersightCatalystsdwanPolicyGroup from './data-intersight-catal
 export * as dataIntersightCatalystsdwanVedgeDevice from './data-intersight-catalystsdwan-vedge-device';
 export * as dataIntersightCertificatemanagementPolicy from './data-intersight-certificatemanagement-policy';
 export * as dataIntersightCertificatemanagementPolicyInventory from './data-intersight-certificatemanagement-policy-inventory';
-export * as dataIntersightChangelogItem from './data-intersight-changelog-item';
 export * as dataIntersightChassisConfigChangeDetail from './data-intersight-chassis-config-change-detail';
 export * as dataIntersightChassisConfigImport from './data-intersight-chassis-config-import';
 export * as dataIntersightChassisConfigResult from './data-intersight-chassis-config-result';
@@ -935,6 +935,7 @@ export * as dataIntersightIamPermission from './data-intersight-iam-permission';
 export * as dataIntersightIamPrivateKeySpec from './data-intersight-iam-private-key-spec';
 export * as dataIntersightIamPrivilege from './data-intersight-iam-privilege';
 export * as dataIntersightIamPrivilegeSet from './data-intersight-iam-privilege-set';
+export * as dataIntersightIamPrivilegeSetMetaInfo from './data-intersight-iam-privilege-set-meta-info';
 export * as dataIntersightIamQualifier from './data-intersight-iam-qualifier';
 export * as dataIntersightIamResourceLimits from './data-intersight-iam-resource-limits';
 export * as dataIntersightIamResourcePermission from './data-intersight-iam-resource-permission';
@@ -1095,8 +1096,6 @@ export * as dataIntersightNiaapiDcnmLatestMaintainedRelease from './data-intersi
 export * as dataIntersightNiaapiDcnmReleaseRecommend from './data-intersight-niaapi-dcnm-release-recommend';
 export * as dataIntersightNiaapiDcnmSweol from './data-intersight-niaapi-dcnm-sweol';
 export * as dataIntersightNiaapiFileDownloader from './data-intersight-niaapi-file-downloader';
-export * as dataIntersightNiaapiNdMetadata from './data-intersight-niaapi-nd-metadata';
-export * as dataIntersightNiaapiNdMetadataFileDownloader from './data-intersight-niaapi-nd-metadata-file-downloader';
 export * as dataIntersightNiaapiNiaMetadata from './data-intersight-niaapi-nia-metadata';
 export * as dataIntersightNiaapiNibFileDownloader from './data-intersight-niaapi-nib-file-downloader';
 export * as dataIntersightNiaapiNibMetadata from './data-intersight-niaapi-nib-metadata';
@@ -1451,7 +1450,6 @@ export * as dataIntersightTamAdvisoryDefinition from './data-intersight-tam-advi
 export * as dataIntersightTamAdvisoryInfo from './data-intersight-tam-advisory-info';
 export * as dataIntersightTamAdvisoryInstance from './data-intersight-tam-advisory-instance';
 export * as dataIntersightTamSecurityAdvisory from './data-intersight-tam-security-advisory';
-export * as dataIntersightTaskWorkflowAction from './data-intersight-task-workflow-action';
 export * as dataIntersightTechsupportmanagementCollectionControlPolicy from './data-intersight-techsupportmanagement-collection-control-policy';
 export * as dataIntersightTechsupportmanagementDownload from './data-intersight-techsupportmanagement-download';
 export * as dataIntersightTechsupportmanagementEndPoint from './data-intersight-techsupportmanagement-end-point';

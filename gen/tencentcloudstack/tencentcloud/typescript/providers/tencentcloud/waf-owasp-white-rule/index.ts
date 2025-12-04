@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WafOwaspWhiteRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#domain WafOwaspWhiteRule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#domain WafOwaspWhiteRule#domain}
   */
   readonly domain: string;
   /**
   * If the JobDateTime field is not set, this field is used. 0 means permanent, other values indicate the cutoff time for scheduled effect (unit: seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#expire_time WafOwaspWhiteRule#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#expire_time WafOwaspWhiteRule#expire_time}
   */
   readonly expireTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#id WafOwaspWhiteRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#id WafOwaspWhiteRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface WafOwaspWhiteRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID list of allowlisted rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#ids WafOwaspWhiteRule#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#ids WafOwaspWhiteRule#ids}
   */
   readonly ids: number[];
   /**
   * Rule execution mode: TimedJob indicates scheduled execution. CronJob indicates periodic execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#job_type WafOwaspWhiteRule#job_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#job_type WafOwaspWhiteRule#job_type}
   */
   readonly jobType: string;
   /**
   * Rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#name WafOwaspWhiteRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#name WafOwaspWhiteRule#name}
   */
   readonly name: string;
   /**
   * Rule status. valid values: 0 (disabled), 1 (enabled). enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#status WafOwaspWhiteRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#status WafOwaspWhiteRule#status}
   */
   readonly status?: number;
   /**
   * Allowlist type. valid values: 0 (allowlisting by specific rule ID), 1 (allowlisting by rule type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#type WafOwaspWhiteRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#type WafOwaspWhiteRule#type}
   */
   readonly type: number;
   /**
   * job_date_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#job_date_time WafOwaspWhiteRule#job_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#job_date_time WafOwaspWhiteRule#job_date_time}
   */
   readonly jobDateTime: WafOwaspWhiteRuleJobDateTime;
   /**
   * strategies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#strategies WafOwaspWhiteRule#strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#strategies WafOwaspWhiteRule#strategies}
   */
   readonly strategies: WafOwaspWhiteRuleStrategies[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface WafOwaspWhiteRuleJobDateTimeCron {
   /**
   * Execution day of each month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#days WafOwaspWhiteRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#days WafOwaspWhiteRule#days}
   */
   readonly days?: number[];
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#end_time WafOwaspWhiteRule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#end_time WafOwaspWhiteRule#end_time}
   */
   readonly endTime?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#start_time WafOwaspWhiteRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#start_time WafOwaspWhiteRule#start_time}
   */
   readonly startTime?: string;
   /**
   * Execution day of each week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#w_days WafOwaspWhiteRule#w_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#w_days WafOwaspWhiteRule#w_days}
   */
   readonly wDays?: number[];
 }
@@ -296,13 +296,13 @@ export interface WafOwaspWhiteRuleJobDateTimeTimed {
   /**
   * End timestamp, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#end_date_time WafOwaspWhiteRule#end_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#end_date_time WafOwaspWhiteRule#end_date_time}
   */
   readonly endDateTime?: number;
   /**
   * Start timestamp, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#start_date_time WafOwaspWhiteRule#start_date_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#start_date_time WafOwaspWhiteRule#start_date_time}
   */
   readonly startDateTime?: number;
 }
@@ -449,19 +449,19 @@ export interface WafOwaspWhiteRuleJobDateTime {
   /**
   * Specifies the time zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#time_t_zone WafOwaspWhiteRule#time_t_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#time_t_zone WafOwaspWhiteRule#time_t_zone}
   */
   readonly timeTZone?: string;
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#cron WafOwaspWhiteRule#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#cron WafOwaspWhiteRule#cron}
   */
   readonly cron?: WafOwaspWhiteRuleJobDateTimeCron[] | cdktf.IResolvable;
   /**
   * timed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#timed WafOwaspWhiteRule#timed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#timed WafOwaspWhiteRule#timed}
   */
   readonly timed?: WafOwaspWhiteRuleJobDateTimeTimed[] | cdktf.IResolvable;
 }
@@ -612,14 +612,14 @@ export interface WafOwaspWhiteRuleStrategies {
   * ARGS_COOKIE (COOKIE parameter value).		
   * ARGS_HEADER (HEADER parameter value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#arg WafOwaspWhiteRule#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#arg WafOwaspWhiteRule#arg}
   */
   readonly arg: string;
   /**
   * Case-Sensitive.
   * Case-Insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#case_not_sensitive WafOwaspWhiteRule#case_not_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#case_not_sensitive WafOwaspWhiteRule#case_not_sensitive}
   */
   readonly caseNotSensitive?: number;
   /**
@@ -649,7 +649,7 @@ export interface WafOwaspWhiteRuleStrategies {
   * geo_not_in (IP geographic not_in).
   * Specifies different logical operators for matching fields. for details, see the matching field table above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#compare_func WafOwaspWhiteRule#compare_func}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#compare_func WafOwaspWhiteRule#compare_func}
   */
   readonly compareFunc: string;
   /**
@@ -657,7 +657,7 @@ export interface WafOwaspWhiteRuleStrategies {
   * 
   * Currently, when the match field is COOKIE (COOKIE), match content is not required. all others are needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#content WafOwaspWhiteRule#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#content WafOwaspWhiteRule#content}
   */
   readonly content: string;
   /**
@@ -668,7 +668,7 @@ export interface WafOwaspWhiteRuleStrategies {
   *  less than)<br/>strprefix (prefix matching)<br/>strsuffix (suffix matching)<br/>rematch (regular expression matching)</td> <td>Enter the content starting with /, with a maximum of 512 characters.</td></tr> <tr><td>UserAgent (UserAgent)</td> <td>Parameters are not supported.</td><td>Same logical symbols as the matching field <font color="Red">Referer</font></td> <td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>HTTP_METHOD (HTTP request method)</td> <td>Parameters are not supported.</td> <td>eq (equal to)<br/>neq (not equal to)</td> <td>Enter the method name. The uppercase is recommended.</td></tr> <tr><td>QUERY_STRING (request string)</td> <td>Parameters are not supported.</td> <td>Same logical symbol as the matching field <font color="Red">Request Path</font></td><td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>GET (GET parameter value)</td> <td>Parameter entry is supported.</td> <td>contains (contain)<br/>ncontains (do not contain)<br/>len_eq (length equals to)<br/>len_gt (length is greater than)<br/>len_lt (length is less than)<br/>strprefix (prefix matching)<br/>strsuffix (suffix matching)</td> <td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>GET_PARAMS_NAMES (GET parameter name)</td> <td>Parameters are not supported.</td> <td>exist (Parameter exists.)<br/>nexist (Parameter does not exist.)<br/>len_eq (length equals to)<br/>len_gt (length is greater than)<br/>len_lt (length is less than)<br/>strprefix (prefix matching)<br/>strsuffix (suffix matching)</td><td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>POST (POST parameter value)</td> <td>Parameter entry is supported.</td> <td>Same logical symbol as the matching field <font color="Red">GET Parameter Value</font></td> <td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>GET_POST_NAMES (POST parameter name)</td> <td>Parameters are not supported.</td> <td>Same logical symbol as the matching field <font color="Red">GET Parameter Name</font></td> <td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>POST_BODY (complete body)</td> <td>Parameters are not supported.</td> <td>Same logical symbol as the matching field <font color="Red">Request Path</font></td><td>Enter the body content with a maximum of 512 characters.</td></tr> <tr><td>COOKIE (cookie)</td> <td>Parameters are not supported.</td> <td>empty (Content is empty.)<br/>null (do not exist)<br/>rematch (regular expression matching)</td> <td><font color="Red">Unsupported currently</font></td></tr> <tr><td>GET_COOKIES_NAMES (cookie parameter name)</td> <td>Parameters are not supported.</td> <td>Same logical symbol as the matching field <font color="Red">GET Parameter Name</font></td> <td>Enter the content with a maximum of 512 characters.</td></tr> <tr><td>ARGS_COOKIE (cookie parameter value)</td> <td>Parameter entry is supported.</td> <td>Same logical symbol as the matching field <font color="Red">GET Parameter Value</font></td> <td>Enter the content512 characters limit</td></tr><tr><td>GET_HEADERS_NAMES (Header parameter name)</td><td>parameter not supported</td><td>exsit (parameter exists)<br/>nexsit (parameter does not exist)<br/>len_eq (LENGTH equal)<br/>len_gt (LENGTH greater than)<br/>len_lt (LENGTH less than)<br/>strprefix (prefix match)<br/>strsuffix (suffix matching)<br/>rematch (regular expression matching)</td><td>enter CONTENT, lowercase is recommended, up to 512 characters</td></tr><tr><td>ARGS_Header (Header parameter value)</td><td>support parameter entry</td><td>contains (include)<br/>ncontains (does not include)<br/>len_eq (LENGTH equal)<br/>len_gt (LENGTH greater than)<br/>len_lt (LENGTH less than)<br/>strprefix (prefix match)<br/>strsuffix (suffix matching)<br/>rematch (regular expression matching)</td><td>enter CONTENT, up to 512 characters</td></tr><tr><td>CONTENT_LENGTH (CONTENT-LENGTH)</td><td>support parameter entry</td><td>numgt (value greater than)<br/>numlt (value smaller than)<br/>numeq (value equal to)<br/></td><td>enter an integer between 0-9999999999999</td></tr><tr><td>IP_GEO (source IP geolocation)</td><td>support parameter entry</td><td>GEO_in (belong)<br/>GEO_not_in (not_in)<br/></td><td>enter CONTENT, up to 10240 characters, format: serialized JSON, format: [{"Country":"china","Region":"guangdong","City":"shenzhen"}]</td></tr><tr><td>CAPTCHA_RISK (CAPTCHA RISK)</td><td>parameter not supported</td><td>eq (equal)<br/>neq (not equal to)<br/>belong (belong)<br/>not_belong (not belong to)<br/>null (nonexistent)<br/>exist (exist)</td><td>enter RISK level value, value range 0-255</td></tr><tr><td>CAPTCHA_DEVICE_RISK (CAPTCHA DEVICE RISK)</td><td>parameter not supported</td><td>eq (equal)<br/>neq (not equal to)<br/>belong (belong)<br/>not_belong (not belong to)<br/>null (nonexistent)<br/>exist (exist)</td><td>enter DEVICE RISK code, valid values: 101, 201, 301, 401, 501, 601, 701</td></tr><tr><td>CAPTCHAR_SCORE (CAPTCHA RISK assessment SCORE)</td><td>parameter not supported</td><td>numeq (value equal to)<br/>numgt (value greater than)<br/>numlt (value smaller than)<br/>numle (less than or equal to)<br/>numge (value is greater than or equal to)<br/>null (nonexistent)<br/>exist (exist)</td><td>enter assessment SCORE, value range 0-100</td></tr>.
   * </tbody></table>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#field WafOwaspWhiteRule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#field WafOwaspWhiteRule#field}
   */
   readonly field: string;
 }
@@ -888,7 +888,7 @@ export class WafOwaspWhiteRuleStrategiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule tencentcloud_waf_owasp_white_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule tencentcloud_waf_owasp_white_rule}
 */
 export class WafOwaspWhiteRule extends cdktf.TerraformResource {
 
@@ -904,7 +904,7 @@ export class WafOwaspWhiteRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafOwaspWhiteRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafOwaspWhiteRule to import
-  * @param importFromId The id of the existing WafOwaspWhiteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafOwaspWhiteRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafOwaspWhiteRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -916,7 +916,7 @@ export class WafOwaspWhiteRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_white_rule tencentcloud_waf_owasp_white_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_white_rule tencentcloud_waf_owasp_white_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -927,8 +927,8 @@ export class WafOwaspWhiteRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_owasp_white_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

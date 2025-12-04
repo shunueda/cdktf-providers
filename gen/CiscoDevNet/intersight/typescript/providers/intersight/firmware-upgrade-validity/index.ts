@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FirmwareUpgradeValidityConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#account_moid FirmwareUpgradeValidity#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#account_moid FirmwareUpgradeValidity#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#ancestors FirmwareUpgradeValidity#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#ancestors FirmwareUpgradeValidity#ancestors}
   */
   readonly ancestors?: FirmwareUpgradeValidityAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface FirmwareUpgradeValidityConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#create_time FirmwareUpgradeValidity#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#create_time FirmwareUpgradeValidity#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#domain_group_moid FirmwareUpgradeValidity#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#domain_group_moid FirmwareUpgradeValidity#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The error string returned while checking for a target device's validity for firmware upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#error_message FirmwareUpgradeValidity#error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#error_message FirmwareUpgradeValidity#error_message}
   */
   readonly errorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#id FirmwareUpgradeValidity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#id FirmwareUpgradeValidity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,89 +59,89 @@ export interface FirmwareUpgradeValidityConfig extends cdktf.TerraformMetaArgume
   /**
   * This flag denotes whether the target device is a valid target for firmware upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#is_valid FirmwareUpgradeValidity#is_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#is_valid FirmwareUpgradeValidity#is_valid}
   */
   readonly isValid?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#mod_time FirmwareUpgradeValidity#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#mod_time FirmwareUpgradeValidity#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#owners FirmwareUpgradeValidity#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#owners FirmwareUpgradeValidity#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#parent FirmwareUpgradeValidity#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#parent FirmwareUpgradeValidity#parent}
   */
   readonly parent?: FirmwareUpgradeValidityParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#permission_resources FirmwareUpgradeValidity#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#permission_resources FirmwareUpgradeValidity#permission_resources}
   */
   readonly permissionResources?: FirmwareUpgradeValidityPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a computePhysical resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#server FirmwareUpgradeValidity#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#server FirmwareUpgradeValidity#server}
   */
   readonly server?: FirmwareUpgradeValidityServer[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#shared_scope FirmwareUpgradeValidity#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#shared_scope FirmwareUpgradeValidity#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#tags FirmwareUpgradeValidity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#tags FirmwareUpgradeValidity#tags}
   */
   readonly tags?: FirmwareUpgradeValidityTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#version_context FirmwareUpgradeValidity#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#version_context FirmwareUpgradeValidity#version_context}
   */
   readonly versionContext?: FirmwareUpgradeValidityVersionContext[] | cdktf.IResolvable;
 }
 export interface FirmwareUpgradeValidityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -373,23 +373,23 @@ export class FirmwareUpgradeValidityAncestorsList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeValidityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -621,23 +621,23 @@ export class FirmwareUpgradeValidityParentList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeValidityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -869,23 +869,23 @@ export class FirmwareUpgradeValidityPermissionResourcesList extends cdktf.Comple
 }
 export interface FirmwareUpgradeValidityServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -1117,23 +1117,23 @@ export class FirmwareUpgradeValidityServerList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeValidityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -1365,23 +1365,23 @@ export class FirmwareUpgradeValidityTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface FirmwareUpgradeValidityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -1613,35 +1613,35 @@ export class FirmwareUpgradeValidityTagsDefinitionList extends cdktf.ComplexList
 }
 export interface FirmwareUpgradeValidityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#ancestor_definitions FirmwareUpgradeValidity#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#ancestor_definitions FirmwareUpgradeValidity#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FirmwareUpgradeValidityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#definition FirmwareUpgradeValidity#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#definition FirmwareUpgradeValidity#definition}
   */
   readonly definition?: FirmwareUpgradeValidityTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#key FirmwareUpgradeValidity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#key FirmwareUpgradeValidity#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#propagated FirmwareUpgradeValidity#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#propagated FirmwareUpgradeValidity#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#sys_tag FirmwareUpgradeValidity#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#sys_tag FirmwareUpgradeValidity#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#type FirmwareUpgradeValidity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#type FirmwareUpgradeValidity#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#value FirmwareUpgradeValidity#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#value FirmwareUpgradeValidity#value}
   */
   readonly value?: string;
 }
@@ -1960,23 +1960,23 @@ export class FirmwareUpgradeValidityTagsList extends cdktf.ComplexList {
 }
 export interface FirmwareUpgradeValidityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -2208,23 +2208,23 @@ export class FirmwareUpgradeValidityVersionContextInterestedMosList extends cdkt
 }
 export interface FirmwareUpgradeValidityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#moid FirmwareUpgradeValidity#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#selector FirmwareUpgradeValidity#selector}
   */
   readonly selector?: string;
 }
@@ -2456,39 +2456,39 @@ export class FirmwareUpgradeValidityVersionContextRefMoList extends cdktf.Comple
 }
 export interface FirmwareUpgradeValidityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#additional_properties FirmwareUpgradeValidity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#class_id FirmwareUpgradeValidity#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#interested_mos FirmwareUpgradeValidity#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#interested_mos FirmwareUpgradeValidity#interested_mos}
   */
   readonly interestedMos?: FirmwareUpgradeValidityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#marked_for_deletion FirmwareUpgradeValidity#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#marked_for_deletion FirmwareUpgradeValidity#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#nr_version FirmwareUpgradeValidity#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#nr_version FirmwareUpgradeValidity#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#object_type FirmwareUpgradeValidity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#ref_mo FirmwareUpgradeValidity#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#ref_mo FirmwareUpgradeValidity#ref_mo}
   */
   readonly refMo?: FirmwareUpgradeValidityVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#timestamp FirmwareUpgradeValidity#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#timestamp FirmwareUpgradeValidity#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#version_type FirmwareUpgradeValidity#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#version_type FirmwareUpgradeValidity#version_type}
   */
   readonly versionType?: string;
 }
@@ -2836,7 +2836,7 @@ export class FirmwareUpgradeValidityVersionContextList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity intersight_firmware_upgrade_validity}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity intersight_firmware_upgrade_validity}
 */
 export class FirmwareUpgradeValidity extends cdktf.TerraformResource {
 
@@ -2852,7 +2852,7 @@ export class FirmwareUpgradeValidity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirmwareUpgradeValidity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirmwareUpgradeValidity to import
-  * @param importFromId The id of the existing FirmwareUpgradeValidity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirmwareUpgradeValidity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirmwareUpgradeValidity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2864,7 +2864,7 @@ export class FirmwareUpgradeValidity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/firmware_upgrade_validity intersight_firmware_upgrade_validity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/firmware_upgrade_validity intersight_firmware_upgrade_validity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2875,8 +2875,8 @@ export class FirmwareUpgradeValidity extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_firmware_upgrade_validity',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

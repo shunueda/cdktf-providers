@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WedataSqlScriptConfig extends cdktf.TerraformMetaArguments {
   /**
   * Permission scope: SHARED, PRIVATE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#access_scope WedataSqlScript#access_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#access_scope WedataSqlScript#access_scope}
   */
   readonly accessScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#id WedataSqlScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#id WedataSqlScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WedataSqlScriptConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parent folder path, /aaa/bbb/ccc, root directory is empty string or /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#parent_folder_path WedataSqlScript#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#parent_folder_path WedataSqlScript#parent_folder_path}
   */
   readonly parentFolderPath?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#project_id WedataSqlScript#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#project_id WedataSqlScript#project_id}
   */
   readonly projectId: string;
   /**
   * Script content, if there is a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#script_content WedataSqlScript#script_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#script_content WedataSqlScript#script_content}
   */
   readonly scriptContent?: string;
   /**
   * Script name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#script_name WedataSqlScript#script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#script_name WedataSqlScript#script_name}
   */
   readonly scriptName: string;
   /**
   * script_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#script_config WedataSqlScript#script_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#script_config WedataSqlScript#script_config}
   */
   readonly scriptConfig?: WedataSqlScriptScriptConfig;
 }
@@ -55,37 +55,37 @@ export interface WedataSqlScriptScriptConfig {
   /**
   * Advanced settings, execution configuration parameters, map-json String,String. Encoded in Base64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#advance_config WedataSqlScript#advance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#advance_config WedataSqlScript#advance_config}
   */
   readonly advanceConfig?: string;
   /**
   * Computing resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#compute_resource WedataSqlScript#compute_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#compute_resource WedataSqlScript#compute_resource}
   */
   readonly computeResource?: string;
   /**
   * Data source environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#datasource_env WedataSqlScript#datasource_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#datasource_env WedataSqlScript#datasource_env}
   */
   readonly datasourceEnv?: string;
   /**
   * Data source ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#datasource_id WedataSqlScript#datasource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#datasource_id WedataSqlScript#datasource_id}
   */
   readonly datasourceId?: string;
   /**
   * Execution resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#executor_group_id WedataSqlScript#executor_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#executor_group_id WedataSqlScript#executor_group_id}
   */
   readonly executorGroupId?: string;
   /**
   * Advanced runtime parameters, variable substitution, map-json String,String.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#params WedataSqlScript#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#params WedataSqlScript#params}
   */
   readonly params?: string;
 }
@@ -314,7 +314,7 @@ export class WedataSqlScriptScriptConfigOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script tencentcloud_wedata_sql_script}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script tencentcloud_wedata_sql_script}
 */
 export class WedataSqlScript extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class WedataSqlScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WedataSqlScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WedataSqlScript to import
-  * @param importFromId The id of the existing WedataSqlScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WedataSqlScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WedataSqlScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class WedataSqlScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/wedata_sql_script tencentcloud_wedata_sql_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/wedata_sql_script tencentcloud_wedata_sql_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class WedataSqlScript extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_wedata_sql_script',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

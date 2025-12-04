@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateZendeskJiraLinkConfig extends cdktf.Terraform
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#enabled WorkflowTaskCreateZendeskJiraLink#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#enabled WorkflowTaskCreateZendeskJiraLink#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#id WorkflowTaskCreateZendeskJiraLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#id WorkflowTaskCreateZendeskJiraLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateZendeskJiraLinkConfig extends cdktf.Terraform
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#name WorkflowTaskCreateZendeskJiraLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#name WorkflowTaskCreateZendeskJiraLink#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#position WorkflowTaskCreateZendeskJiraLink#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#position WorkflowTaskCreateZendeskJiraLink#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#skip_on_failure WorkflowTaskCreateZendeskJiraLink#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#skip_on_failure WorkflowTaskCreateZendeskJiraLink#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#workflow_id WorkflowTaskCreateZendeskJiraLink#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#workflow_id WorkflowTaskCreateZendeskJiraLink#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#task_params WorkflowTaskCreateZendeskJiraLink#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#task_params WorkflowTaskCreateZendeskJiraLink#task_params}
   */
   readonly taskParams: WorkflowTaskCreateZendeskJiraLinkTaskParams;
 }
@@ -55,23 +55,23 @@ export interface WorkflowTaskCreateZendeskJiraLinkTaskParams {
   /**
   * Jira Issue Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#jira_issue_id WorkflowTaskCreateZendeskJiraLink#jira_issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#jira_issue_id WorkflowTaskCreateZendeskJiraLink#jira_issue_id}
   */
   readonly jiraIssueId: string;
   /**
   * Jira Issue Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#jira_issue_key WorkflowTaskCreateZendeskJiraLink#jira_issue_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#jira_issue_key WorkflowTaskCreateZendeskJiraLink#jira_issue_key}
   */
   readonly jiraIssueKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#task_type WorkflowTaskCreateZendeskJiraLink#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#task_type WorkflowTaskCreateZendeskJiraLink#task_type}
   */
   readonly taskType?: string;
   /**
   * Zendesk Ticket Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#zendesk_ticket_id WorkflowTaskCreateZendeskJiraLink#zendesk_ticket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#zendesk_ticket_id WorkflowTaskCreateZendeskJiraLink#zendesk_ticket_id}
   */
   readonly zendeskTicketId: string;
 }
@@ -233,7 +233,7 @@ export class WorkflowTaskCreateZendeskJiraLinkTaskParamsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link rootly_workflow_task_create_zendesk_jira_link}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link rootly_workflow_task_create_zendesk_jira_link}
 */
 export class WorkflowTaskCreateZendeskJiraLink extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class WorkflowTaskCreateZendeskJiraLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateZendeskJiraLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateZendeskJiraLink to import
-  * @param importFromId The id of the existing WorkflowTaskCreateZendeskJiraLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateZendeskJiraLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateZendeskJiraLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class WorkflowTaskCreateZendeskJiraLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/workflow_task_create_zendesk_jira_link rootly_workflow_task_create_zendesk_jira_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/workflow_task_create_zendesk_jira_link rootly_workflow_task_create_zendesk_jira_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class WorkflowTaskCreateZendeskJiraLink extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_zendesk_jira_link',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/azure/azapi/2.7.0/docs
+// https://registry.terraform.io/providers/azure/azapi/2.8.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,211 +10,211 @@ export interface AzapiProviderConfig {
   /**
   * List of auxiliary Tenant IDs required for multi-tenancy and cross-tenant scenarios. This can also be sourced from the `ARM_AUXILIARY_TENANT_IDS` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#auxiliary_tenant_ids AzapiProvider#auxiliary_tenant_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#auxiliary_tenant_ids AzapiProvider#auxiliary_tenant_ids}
   */
   readonly auxiliaryTenantIds?: string[];
   /**
   * A base64-encoded PKCS#12 bundle to be used as the client certificate for authentication. This can also be sourced from the `ARM_CLIENT_CERTIFICATE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_certificate AzapiProvider#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_certificate AzapiProvider#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The password associated with the Client Certificate. This can also be sourced from the `ARM_CLIENT_CERTIFICATE_PASSWORD` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_certificate_password AzapiProvider#client_certificate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_certificate_password AzapiProvider#client_certificate_password}
   */
   readonly clientCertificatePassword?: string;
   /**
   * The path to the Client Certificate associated with the Service Principal which should be used. This can also be sourced from the `ARM_CLIENT_CERTIFICATE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_certificate_path AzapiProvider#client_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_certificate_path AzapiProvider#client_certificate_path}
   */
   readonly clientCertificatePath?: string;
   /**
   * The Client ID which should be used. This can also be sourced from the `ARM_CLIENT_ID`, `AZURE_CLIENT_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_id AzapiProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_id AzapiProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The path to a file containing the Client ID which should be used. This can also be sourced from the `ARM_CLIENT_ID_FILE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_id_file_path AzapiProvider#client_id_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_id_file_path AzapiProvider#client_id_file_path}
   */
   readonly clientIdFilePath?: string;
   /**
   * The Client Secret which should be used. This can also be sourced from the `ARM_CLIENT_SECRET` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_secret AzapiProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_secret AzapiProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The path to a file containing the Client Secret which should be used. For use When authenticating as a Service Principal using a Client Secret. This can also be sourced from the `ARM_CLIENT_SECRET_FILE_PATH` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#client_secret_file_path AzapiProvider#client_secret_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#client_secret_file_path AzapiProvider#client_secret_file_path}
   */
   readonly clientSecretFilePath?: string;
   /**
   * The value of the `x-ms-correlation-request-id` header, otherwise an auto-generated UUID will be used. This can also be sourced from the `ARM_CORRELATION_REQUEST_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#custom_correlation_request_id AzapiProvider#custom_correlation_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#custom_correlation_request_id AzapiProvider#custom_correlation_request_id}
   */
   readonly customCorrelationRequestId?: string;
   /**
   *  The default Azure Region where the azure resource should exist. The `location` in each resource block can override the `default_location`. Changing this forces new resources to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#default_location AzapiProvider#default_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#default_location AzapiProvider#default_location}
   */
   readonly defaultLocation?: string;
   /**
   * The default name to create the azure resource. The `name` in each resource block can override the `default_name`. Changing this forces new resources to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#default_name AzapiProvider#default_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#default_name AzapiProvider#default_name}
   */
   readonly defaultName?: string;
   /**
   * A mapping of tags which should be assigned to the azure resource as default tags. The`tags` in each resource block can override the `default_tags`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#default_tags AzapiProvider#default_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#default_tags AzapiProvider#default_tags}
   */
   readonly defaultTags?: { [key: string]: string };
   /**
   * This will disable the x-ms-correlation-request-id header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#disable_correlation_request_id AzapiProvider#disable_correlation_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#disable_correlation_request_id AzapiProvider#disable_correlation_request_id}
   */
   readonly disableCorrelationRequestId?: boolean | cdktf.IResolvable;
   /**
   * Disable default output. The default is false. When set to false, the provider will output the read-only properties if `response_export_values` is not specified in the resource block. When set to true, the provider will disable this output. This can also be sourced from the `ARM_DISABLE_DEFAULT_OUTPUT` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#disable_default_output AzapiProvider#disable_default_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#disable_default_output AzapiProvider#disable_default_output}
   */
   readonly disableDefaultOutput?: boolean | cdktf.IResolvable;
   /**
   * Disables Instance Discovery, which validates that the Authority is valid and known by the Microsoft Entra instance metadata service at `https://login.microsoft.com` before authenticating. This should only be enabled when the configured authority is known to be valid and trustworthy - such as when running against Azure Stack or when `environment` is set to `custom`. This can also be specified via the `ARM_DISABLE_INSTANCE_DISCOVERY` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#disable_instance_discovery AzapiProvider#disable_instance_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#disable_instance_discovery AzapiProvider#disable_instance_discovery}
   */
   readonly disableInstanceDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Disable sending the Terraform Partner ID if a custom `partner_id` isn't specified, which allows Microsoft to better understand the usage of Terraform. The Partner ID does not give HashiCorp any direct access to usage information. This can also be sourced from the `ARM_DISABLE_TERRAFORM_PARTNER_ID` environment variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#disable_terraform_partner_id AzapiProvider#disable_terraform_partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#disable_terraform_partner_id AzapiProvider#disable_terraform_partner_id}
   */
   readonly disableTerraformPartnerId?: boolean | cdktf.IResolvable;
   /**
   * Enable Preflight Validation. The default is false. When set to true, the provider will use Preflight to do static validation before really deploying a new resource. When set to false, the provider will disable this validation. This can also be sourced from the `ARM_ENABLE_PREFLIGHT` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#enable_preflight AzapiProvider#enable_preflight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#enable_preflight AzapiProvider#enable_preflight}
   */
   readonly enablePreflight?: boolean | cdktf.IResolvable;
   /**
   * The Azure API Endpoint Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#endpoint AzapiProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#endpoint AzapiProvider#endpoint}
   */
   readonly endpoint?: AzapiProviderEndpoint[] | cdktf.IResolvable;
   /**
   * The Cloud Environment which should be used. Possible values are `public`, `usgovernment`, `china` and `custom`. Defaults to `public`. This can also be sourced from the `ARM_ENVIRONMENT` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#environment AzapiProvider#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#environment AzapiProvider#environment}
   */
   readonly environment?: string;
   /**
   * Ignore no-op changes for `azapi_resource`. The default is true. When set to true, the provider will suppress changes in the `azapi_resource` if the `body` in the new API version still matches the remote state. When set to false, the provider will not suppress these changes. This can also be sourced from the `ARM_IGNORE_NO_OP_CHANGES` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#ignore_no_op_changes AzapiProvider#ignore_no_op_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#ignore_no_op_changes AzapiProvider#ignore_no_op_changes}
   */
   readonly ignoreNoOpChanges?: boolean | cdktf.IResolvable;
   /**
   * DEPRECATED - The maximum number of retries to attempt if the Azure API returns an HTTP 408, 429, 500, 502, 503, or 504 response. The default is `32767`, this allows the provider to rely on the resource timeout values rather than a maximum retry count. The resource-specific retry configuration may additionally be used to retry on other errors and conditions. This property will be removed in a future version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#maximum_busy_retry_attempts AzapiProvider#maximum_busy_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#maximum_busy_retry_attempts AzapiProvider#maximum_busy_retry_attempts}
   */
   readonly maximumBusyRetryAttempts?: number;
   /**
   * The Azure Pipelines Service Connection ID to use for authentication. This can also be sourced from the `ARM_ADO_PIPELINE_SERVICE_CONNECTION_ID`, `ARM_OIDC_AZURE_SERVICE_CONNECTION_ID`, or `AZURESUBSCRIPTION_SERVICE_CONNECTION_ID` Environment Variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#oidc_azure_service_connection_id AzapiProvider#oidc_azure_service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#oidc_azure_service_connection_id AzapiProvider#oidc_azure_service_connection_id}
   */
   readonly oidcAzureServiceConnectionId?: string;
   /**
   * The bearer token for the request to the OIDC provider. This can also be sourced from the `ARM_OIDC_REQUEST_TOKEN`, `ACTIONS_ID_TOKEN_REQUEST_TOKEN`, or `SYSTEM_ACCESSTOKEN` Environment Variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#oidc_request_token AzapiProvider#oidc_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#oidc_request_token AzapiProvider#oidc_request_token}
   */
   readonly oidcRequestToken?: string;
   /**
   * The URL for the OIDC provider from which to request an ID token. This can also be sourced from the `ARM_OIDC_REQUEST_URL`, `ACTIONS_ID_TOKEN_REQUEST_URL`, or `SYSTEM_OIDCREQUESTURI` Environment Variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#oidc_request_url AzapiProvider#oidc_request_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#oidc_request_url AzapiProvider#oidc_request_url}
   */
   readonly oidcRequestUrl?: string;
   /**
   * The ID token when authenticating using OpenID Connect (OIDC). This can also be sourced from the `ARM_OIDC_TOKEN` environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#oidc_token AzapiProvider#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#oidc_token AzapiProvider#oidc_token}
   */
   readonly oidcToken?: string;
   /**
   * The path to a file containing an ID token when authenticating using OpenID Connect (OIDC). This can also be sourced from the `ARM_OIDC_TOKEN_FILE_PATH`, `AZURE_FEDERATED_TOKEN_FILE` environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#oidc_token_file_path AzapiProvider#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#oidc_token_file_path AzapiProvider#oidc_token_file_path}
   */
   readonly oidcTokenFilePath?: string;
   /**
   * A GUID/UUID that is [registered](https://docs.microsoft.com/azure/marketplace/azure-partner-customer-usage-attribution#register-guids-and-offers) with Microsoft to facilitate partner resource usage attribution. This can also be sourced from the `ARM_PARTNER_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#partner_id AzapiProvider#partner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#partner_id AzapiProvider#partner_id}
   */
   readonly partnerId?: string;
   /**
   * Should the Provider skip registering the Resource Providers it supports? This can also be sourced from the `ARM_SKIP_PROVIDER_REGISTRATION` Environment Variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#skip_provider_registration AzapiProvider#skip_provider_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#skip_provider_registration AzapiProvider#skip_provider_registration}
   */
   readonly skipProviderRegistration?: boolean | cdktf.IResolvable;
   /**
   * The Subscription ID which should be used. This can also be sourced from the `ARM_SUBSCRIPTION_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#subscription_id AzapiProvider#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#subscription_id AzapiProvider#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * The Tenant ID should be used. This can also be sourced from the `ARM_TENANT_ID` Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#tenant_id AzapiProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#tenant_id AzapiProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Should AKS Workload Identity be used for Authentication? This can also be sourced from the `ARM_USE_AKS_WORKLOAD_IDENTITY` Environment Variable. Defaults to `false`. When set, `client_id`, `tenant_id` and `oidc_token_file_path` will be detected from the environment and do not need to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#use_aks_workload_identity AzapiProvider#use_aks_workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#use_aks_workload_identity AzapiProvider#use_aks_workload_identity}
   */
   readonly useAksWorkloadIdentity?: boolean | cdktf.IResolvable;
   /**
   * Should Azure CLI be used for authentication? This can also be sourced from the `ARM_USE_CLI` environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#use_cli AzapiProvider#use_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#use_cli AzapiProvider#use_cli}
   */
   readonly useCli?: boolean | cdktf.IResolvable;
   /**
   * Should Managed Identity be used for Authentication? This can also be sourced from the `ARM_USE_MSI` Environment Variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#use_msi AzapiProvider#use_msi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#use_msi AzapiProvider#use_msi}
   */
   readonly useMsi?: boolean | cdktf.IResolvable;
   /**
   * Should OIDC be used for Authentication? This can also be sourced from the `ARM_USE_OIDC` Environment Variable. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#use_oidc AzapiProvider#use_oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#use_oidc AzapiProvider#use_oidc}
   */
   readonly useOidc?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#alias AzapiProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#alias AzapiProvider#alias}
   */
   readonly alias?: string;
 }
@@ -222,19 +222,19 @@ export interface AzapiProviderEndpoint {
   /**
   * The Azure Active Directory login endpoint to use. This can also be sourced from the `ARM_ACTIVE_DIRECTORY_AUTHORITY_HOST` Environment Variable. Defaults to `https://login.microsoftonline.com/` for public cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#active_directory_authority_host AzapiProvider#active_directory_authority_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#active_directory_authority_host AzapiProvider#active_directory_authority_host}
   */
   readonly activeDirectoryAuthorityHost?: string;
   /**
   * The resource ID to obtain AD tokens for. This can also be sourced from the `ARM_RESOURCE_MANAGER_AUDIENCE` Environment Variable. Defaults to `https://management.core.windows.net/` for public cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#resource_manager_audience AzapiProvider#resource_manager_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#resource_manager_audience AzapiProvider#resource_manager_audience}
   */
   readonly resourceManagerAudience?: string;
   /**
   * The Azure Resource Manager endpoint to use. This can also be sourced from the `ARM_RESOURCE_MANAGER_ENDPOINT` Environment Variable. Defaults to `https://management.azure.com/` for public cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#resource_manager_endpoint AzapiProvider#resource_manager_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#resource_manager_endpoint AzapiProvider#resource_manager_endpoint}
   */
   readonly resourceManagerEndpoint?: string;
 }
@@ -284,7 +284,7 @@ export function azapiProviderEndpointToHclTerraform(struct?: AzapiProviderEndpoi
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs azapi}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs azapi}
 */
 export class AzapiProvider extends cdktf.TerraformProvider {
 
@@ -300,7 +300,7 @@ export class AzapiProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AzapiProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzapiProvider to import
-  * @param importFromId The id of the existing AzapiProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzapiProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzapiProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class AzapiProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs azapi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs azapi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class AzapiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'azapi',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.7.0',
-        providerVersionConstraint: '2.7.0'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       terraformProviderSource: 'Azure/azapi'
     });

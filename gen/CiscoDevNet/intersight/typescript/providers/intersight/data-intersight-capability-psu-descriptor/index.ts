@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityPsuDescriptorConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#account_moid DataIntersightCapabilityPsuDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#account_moid DataIntersightCapabilityPsuDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilityPsuDescriptorConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#create_time DataIntersightCapabilityPsuDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#create_time DataIntersightCapabilityPsuDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#description DataIntersightCapabilityPsuDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#description DataIntersightCapabilityPsuDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#domain_group_moid DataIntersightCapabilityPsuDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#domain_group_moid DataIntersightCapabilityPsuDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#id DataIntersightCapabilityPsuDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#id DataIntersightCapabilityPsuDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface DataIntersightCapabilityPsuDescriptorConfig extends cdktf.Terra
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#mod_time DataIntersightCapabilityPsuDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#mod_time DataIntersightCapabilityPsuDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#model DataIntersightCapabilityPsuDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#model DataIntersightCapabilityPsuDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#nr_version DataIntersightCapabilityPsuDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#nr_version DataIntersightCapabilityPsuDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#owners DataIntersightCapabilityPsuDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#owners DataIntersightCapabilityPsuDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * Revision for the power supply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#revision DataIntersightCapabilityPsuDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#revision DataIntersightCapabilityPsuDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#shared_scope DataIntersightCapabilityPsuDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#shared_scope DataIntersightCapabilityPsuDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#vendor DataIntersightCapabilityPsuDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#vendor DataIntersightCapabilityPsuDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#ancestors DataIntersightCapabilityPsuDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#ancestors DataIntersightCapabilityPsuDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityPsuDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#capabilities DataIntersightCapabilityPsuDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#capabilities DataIntersightCapabilityPsuDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightCapabilityPsuDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#parent DataIntersightCapabilityPsuDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#parent DataIntersightCapabilityPsuDescriptor#parent}
   */
   readonly parent?: DataIntersightCapabilityPsuDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#permission_resources DataIntersightCapabilityPsuDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#permission_resources DataIntersightCapabilityPsuDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityPsuDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#tags DataIntersightCapabilityPsuDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#tags DataIntersightCapabilityPsuDescriptor#tags}
   */
   readonly tags?: DataIntersightCapabilityPsuDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#version_context DataIntersightCapabilityPsuDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#version_context DataIntersightCapabilityPsuDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityPsuDescriptorVersionContext;
 }
@@ -1313,7 +1313,7 @@ export class DataIntersightCapabilityPsuDescriptorResultsList extends cdktf.Comp
 }
 export interface DataIntersightCapabilityPsuDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1321,19 +1321,19 @@ export interface DataIntersightCapabilityPsuDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1346,7 +1346,7 @@ export interface DataIntersightCapabilityPsuDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1578,7 +1578,7 @@ export class DataIntersightCapabilityPsuDescriptorAncestorsList extends cdktf.Co
 }
 export interface DataIntersightCapabilityPsuDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1586,19 +1586,19 @@ export interface DataIntersightCapabilityPsuDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1611,7 +1611,7 @@ export interface DataIntersightCapabilityPsuDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1843,7 +1843,7 @@ export class DataIntersightCapabilityPsuDescriptorCapabilitiesList extends cdktf
 }
 export interface DataIntersightCapabilityPsuDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1851,19 +1851,19 @@ export interface DataIntersightCapabilityPsuDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1876,7 +1876,7 @@ export interface DataIntersightCapabilityPsuDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2076,7 +2076,7 @@ export class DataIntersightCapabilityPsuDescriptorParentOutputReference extends 
 }
 export interface DataIntersightCapabilityPsuDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2084,19 +2084,19 @@ export interface DataIntersightCapabilityPsuDescriptorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2109,7 +2109,7 @@ export interface DataIntersightCapabilityPsuDescriptorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2341,7 +2341,7 @@ export class DataIntersightCapabilityPsuDescriptorPermissionResourcesList extend
 }
 export interface DataIntersightCapabilityPsuDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2349,19 +2349,19 @@ export interface DataIntersightCapabilityPsuDescriptorTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2374,7 +2374,7 @@ export interface DataIntersightCapabilityPsuDescriptorTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2606,7 +2606,7 @@ export class DataIntersightCapabilityPsuDescriptorTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightCapabilityPsuDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2614,19 +2614,19 @@ export interface DataIntersightCapabilityPsuDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2639,7 +2639,7 @@ export interface DataIntersightCapabilityPsuDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2839,25 +2839,25 @@ export class DataIntersightCapabilityPsuDescriptorTagsDefinitionOutputReference 
 }
 export interface DataIntersightCapabilityPsuDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#key DataIntersightCapabilityPsuDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#key DataIntersightCapabilityPsuDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#propagated DataIntersightCapabilityPsuDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#propagated DataIntersightCapabilityPsuDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#sys_tag DataIntersightCapabilityPsuDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#sys_tag DataIntersightCapabilityPsuDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2865,25 +2865,25 @@ export interface DataIntersightCapabilityPsuDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#type DataIntersightCapabilityPsuDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#type DataIntersightCapabilityPsuDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#value DataIntersightCapabilityPsuDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#value DataIntersightCapabilityPsuDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#ancestor_definitions DataIntersightCapabilityPsuDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#ancestor_definitions DataIntersightCapabilityPsuDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityPsuDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#definition DataIntersightCapabilityPsuDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#definition DataIntersightCapabilityPsuDescriptor#definition}
   */
   readonly definition?: DataIntersightCapabilityPsuDescriptorTagsDefinition;
 }
@@ -3202,7 +3202,7 @@ export class DataIntersightCapabilityPsuDescriptorTagsList extends cdktf.Complex
 }
 export interface DataIntersightCapabilityPsuDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3210,19 +3210,19 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3235,7 +3235,7 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3467,7 +3467,7 @@ export class DataIntersightCapabilityPsuDescriptorVersionContextInterestedMosLis
 }
 export interface DataIntersightCapabilityPsuDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3475,19 +3475,19 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#moid DataIntersightCapabilityPsuDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3500,7 +3500,7 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#selector DataIntersightCapabilityPsuDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3700,7 +3700,7 @@ export class DataIntersightCapabilityPsuDescriptorVersionContextRefMoOutputRefer
 }
 export interface DataIntersightCapabilityPsuDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#additional_properties DataIntersightCapabilityPsuDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3708,32 +3708,32 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#class_id DataIntersightCapabilityPsuDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#marked_for_deletion DataIntersightCapabilityPsuDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#marked_for_deletion DataIntersightCapabilityPsuDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#nr_version DataIntersightCapabilityPsuDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#nr_version DataIntersightCapabilityPsuDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#object_type DataIntersightCapabilityPsuDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#timestamp DataIntersightCapabilityPsuDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#timestamp DataIntersightCapabilityPsuDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3744,19 +3744,19 @@ export interface DataIntersightCapabilityPsuDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#version_type DataIntersightCapabilityPsuDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#version_type DataIntersightCapabilityPsuDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#interested_mos DataIntersightCapabilityPsuDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#interested_mos DataIntersightCapabilityPsuDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityPsuDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#ref_mo DataIntersightCapabilityPsuDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#ref_mo DataIntersightCapabilityPsuDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityPsuDescriptorVersionContextRefMo;
 }
@@ -4072,7 +4072,7 @@ export class DataIntersightCapabilityPsuDescriptorVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor intersight_capability_psu_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor intersight_capability_psu_descriptor}
 */
 export class DataIntersightCapabilityPsuDescriptor extends cdktf.TerraformDataSource {
 
@@ -4088,7 +4088,7 @@ export class DataIntersightCapabilityPsuDescriptor extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightCapabilityPsuDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityPsuDescriptor to import
-  * @param importFromId The id of the existing DataIntersightCapabilityPsuDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityPsuDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityPsuDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4100,7 +4100,7 @@ export class DataIntersightCapabilityPsuDescriptor extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_descriptor intersight_capability_psu_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_descriptor intersight_capability_psu_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4111,8 +4111,8 @@ export class DataIntersightCapabilityPsuDescriptor extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_capability_psu_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightPortSubGroupConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#account_moid DataIntersightPortSubGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#account_moid DataIntersightPortSubGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Breakout port member in the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#aggregate_port_id DataIntersightPortSubGroup#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#aggregate_port_id DataIntersightPortSubGroup#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightPortSubGroupConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#create_time DataIntersightPortSubGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#create_time DataIntersightPortSubGroup#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#device_mo_id DataIntersightPortSubGroup#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#device_mo_id DataIntersightPortSubGroup#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#dn DataIntersightPortSubGroup#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#dn DataIntersightPortSubGroup#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#domain_group_moid DataIntersightPortSubGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#domain_group_moid DataIntersightPortSubGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#id DataIntersightPortSubGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#id DataIntersightPortSubGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,121 +65,121 @@ export interface DataIntersightPortSubGroupConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#mod_time DataIntersightPortSubGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#mod_time DataIntersightPortSubGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#owners DataIntersightPortSubGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#owners DataIntersightPortSubGroup#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#rn DataIntersightPortSubGroup#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#rn DataIntersightPortSubGroup#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#shared_scope DataIntersightPortSubGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#shared_scope DataIntersightPortSubGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Switch expansion slot module identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#slot_id DataIntersightPortSubGroup#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#slot_id DataIntersightPortSubGroup#slot_id}
   */
   readonly slotId?: number;
   /**
   * Type of port sub-group. Values are Eth or Fc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#transport DataIntersightPortSubGroup#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#transport DataIntersightPortSubGroup#transport}
   */
   readonly transport?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#ancestors DataIntersightPortSubGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#ancestors DataIntersightPortSubGroup#ancestors}
   */
   readonly ancestors?: DataIntersightPortSubGroupAncestors[] | cdktf.IResolvable;
   /**
   * equipment_io_card_base block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#equipment_io_card_base DataIntersightPortSubGroup#equipment_io_card_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#equipment_io_card_base DataIntersightPortSubGroup#equipment_io_card_base}
   */
   readonly equipmentIoCardBase?: DataIntersightPortSubGroupEquipmentIoCardBase;
   /**
   * ether_host_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#ether_host_ports DataIntersightPortSubGroup#ether_host_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#ether_host_ports DataIntersightPortSubGroup#ether_host_ports}
   */
   readonly etherHostPorts?: DataIntersightPortSubGroupEtherHostPorts[] | cdktf.IResolvable;
   /**
   * ethernet_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#ethernet_ports DataIntersightPortSubGroup#ethernet_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#ethernet_ports DataIntersightPortSubGroup#ethernet_ports}
   */
   readonly ethernetPorts?: DataIntersightPortSubGroupEthernetPorts[] | cdktf.IResolvable;
   /**
   * fc_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#fc_ports DataIntersightPortSubGroup#fc_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#fc_ports DataIntersightPortSubGroup#fc_ports}
   */
   readonly fcPorts?: DataIntersightPortSubGroupFcPorts[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#inventory_device_info DataIntersightPortSubGroup#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#inventory_device_info DataIntersightPortSubGroup#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightPortSubGroupInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#parent DataIntersightPortSubGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#parent DataIntersightPortSubGroup#parent}
   */
   readonly parent?: DataIntersightPortSubGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#permission_resources DataIntersightPortSubGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#permission_resources DataIntersightPortSubGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightPortSubGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * port_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#port_group DataIntersightPortSubGroup#port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#port_group DataIntersightPortSubGroup#port_group}
   */
   readonly portGroup?: DataIntersightPortSubGroupPortGroup;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#registered_device DataIntersightPortSubGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#registered_device DataIntersightPortSubGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightPortSubGroupRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#tags DataIntersightPortSubGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#tags DataIntersightPortSubGroup#tags}
   */
   readonly tags?: DataIntersightPortSubGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#version_context DataIntersightPortSubGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#version_context DataIntersightPortSubGroup#version_context}
   */
   readonly versionContext?: DataIntersightPortSubGroupVersionContext;
 }
@@ -1966,7 +1966,7 @@ export class DataIntersightPortSubGroupResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortSubGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1974,19 +1974,19 @@ export interface DataIntersightPortSubGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1999,7 +1999,7 @@ export interface DataIntersightPortSubGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2231,7 +2231,7 @@ export class DataIntersightPortSubGroupAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortSubGroupEquipmentIoCardBase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2239,19 +2239,19 @@ export interface DataIntersightPortSubGroupEquipmentIoCardBase {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2264,7 +2264,7 @@ export interface DataIntersightPortSubGroupEquipmentIoCardBase {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2464,7 +2464,7 @@ export class DataIntersightPortSubGroupEquipmentIoCardBaseOutputReference extend
 }
 export interface DataIntersightPortSubGroupEtherHostPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2472,19 +2472,19 @@ export interface DataIntersightPortSubGroupEtherHostPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2497,7 +2497,7 @@ export interface DataIntersightPortSubGroupEtherHostPorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2729,7 +2729,7 @@ export class DataIntersightPortSubGroupEtherHostPortsList extends cdktf.ComplexL
 }
 export interface DataIntersightPortSubGroupEthernetPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2737,19 +2737,19 @@ export interface DataIntersightPortSubGroupEthernetPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2762,7 +2762,7 @@ export interface DataIntersightPortSubGroupEthernetPorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2994,7 +2994,7 @@ export class DataIntersightPortSubGroupEthernetPortsList extends cdktf.ComplexLi
 }
 export interface DataIntersightPortSubGroupFcPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3002,19 +3002,19 @@ export interface DataIntersightPortSubGroupFcPorts {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3027,7 +3027,7 @@ export interface DataIntersightPortSubGroupFcPorts {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3259,7 +3259,7 @@ export class DataIntersightPortSubGroupFcPortsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortSubGroupInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3267,19 +3267,19 @@ export interface DataIntersightPortSubGroupInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3292,7 +3292,7 @@ export interface DataIntersightPortSubGroupInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3492,7 +3492,7 @@ export class DataIntersightPortSubGroupInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightPortSubGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3500,19 +3500,19 @@ export interface DataIntersightPortSubGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3525,7 +3525,7 @@ export interface DataIntersightPortSubGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3725,7 +3725,7 @@ export class DataIntersightPortSubGroupParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightPortSubGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3733,19 +3733,19 @@ export interface DataIntersightPortSubGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3758,7 +3758,7 @@ export interface DataIntersightPortSubGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3990,7 +3990,7 @@ export class DataIntersightPortSubGroupPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightPortSubGroupPortGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3998,19 +3998,19 @@ export interface DataIntersightPortSubGroupPortGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4023,7 +4023,7 @@ export interface DataIntersightPortSubGroupPortGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4223,7 +4223,7 @@ export class DataIntersightPortSubGroupPortGroupOutputReference extends cdktf.Co
 }
 export interface DataIntersightPortSubGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4231,19 +4231,19 @@ export interface DataIntersightPortSubGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4256,7 +4256,7 @@ export interface DataIntersightPortSubGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4456,7 +4456,7 @@ export class DataIntersightPortSubGroupRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightPortSubGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4464,19 +4464,19 @@ export interface DataIntersightPortSubGroupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4489,7 +4489,7 @@ export interface DataIntersightPortSubGroupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4721,7 +4721,7 @@ export class DataIntersightPortSubGroupTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightPortSubGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4729,19 +4729,19 @@ export interface DataIntersightPortSubGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4754,7 +4754,7 @@ export interface DataIntersightPortSubGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -4954,25 +4954,25 @@ export class DataIntersightPortSubGroupTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightPortSubGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#key DataIntersightPortSubGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#key DataIntersightPortSubGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#propagated DataIntersightPortSubGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#propagated DataIntersightPortSubGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#sys_tag DataIntersightPortSubGroup#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#sys_tag DataIntersightPortSubGroup#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4980,25 +4980,25 @@ export interface DataIntersightPortSubGroupTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#type DataIntersightPortSubGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#type DataIntersightPortSubGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#value DataIntersightPortSubGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#value DataIntersightPortSubGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#ancestor_definitions DataIntersightPortSubGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#ancestor_definitions DataIntersightPortSubGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPortSubGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#definition DataIntersightPortSubGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#definition DataIntersightPortSubGroup#definition}
   */
   readonly definition?: DataIntersightPortSubGroupTagsDefinition;
 }
@@ -5317,7 +5317,7 @@ export class DataIntersightPortSubGroupTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPortSubGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5325,19 +5325,19 @@ export interface DataIntersightPortSubGroupVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5350,7 +5350,7 @@ export interface DataIntersightPortSubGroupVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -5582,7 +5582,7 @@ export class DataIntersightPortSubGroupVersionContextInterestedMosList extends c
 }
 export interface DataIntersightPortSubGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5590,19 +5590,19 @@ export interface DataIntersightPortSubGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#moid DataIntersightPortSubGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5615,7 +5615,7 @@ export interface DataIntersightPortSubGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#selector DataIntersightPortSubGroup#selector}
   */
   readonly selector?: string;
 }
@@ -5815,7 +5815,7 @@ export class DataIntersightPortSubGroupVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightPortSubGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#additional_properties DataIntersightPortSubGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5823,32 +5823,32 @@ export interface DataIntersightPortSubGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#class_id DataIntersightPortSubGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#marked_for_deletion DataIntersightPortSubGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#marked_for_deletion DataIntersightPortSubGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#nr_version DataIntersightPortSubGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#nr_version DataIntersightPortSubGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#object_type DataIntersightPortSubGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#timestamp DataIntersightPortSubGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#timestamp DataIntersightPortSubGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5859,19 +5859,19 @@ export interface DataIntersightPortSubGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#version_type DataIntersightPortSubGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#version_type DataIntersightPortSubGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#interested_mos DataIntersightPortSubGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#interested_mos DataIntersightPortSubGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightPortSubGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#ref_mo DataIntersightPortSubGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#ref_mo DataIntersightPortSubGroup#ref_mo}
   */
   readonly refMo?: DataIntersightPortSubGroupVersionContextRefMo;
 }
@@ -6187,7 +6187,7 @@ export class DataIntersightPortSubGroupVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group intersight_port_sub_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group intersight_port_sub_group}
 */
 export class DataIntersightPortSubGroup extends cdktf.TerraformDataSource {
 
@@ -6203,7 +6203,7 @@ export class DataIntersightPortSubGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightPortSubGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPortSubGroup to import
-  * @param importFromId The id of the existing DataIntersightPortSubGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPortSubGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPortSubGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6215,7 +6215,7 @@ export class DataIntersightPortSubGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/port_sub_group intersight_port_sub_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/port_sub_group intersight_port_sub_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6226,8 +6226,8 @@ export class DataIntersightPortSubGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_port_sub_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,23 +11,23 @@ export interface ApplianceFqdnUpdateConfig extends cdktf.TerraformMetaArguments 
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#account ApplianceFqdnUpdate#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#account ApplianceFqdnUpdate#account}
   */
   readonly account?: ApplianceFqdnUpdateAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#account_moid ApplianceFqdnUpdate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#account_moid ApplianceFqdnUpdate#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#ancestors ApplianceFqdnUpdate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#ancestors ApplianceFqdnUpdate#ancestors}
   */
   readonly ancestors?: ApplianceFqdnUpdateAncestors[] | cdktf.IResolvable;
   /**
@@ -35,35 +35,35 @@ export interface ApplianceFqdnUpdateConfig extends cdktf.TerraformMetaArguments 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#create_time ApplianceFqdnUpdate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#create_time ApplianceFqdnUpdate#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#domain_group_moid ApplianceFqdnUpdate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#domain_group_moid ApplianceFqdnUpdate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * End date of the appliance FQDN change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#end_time ApplianceFqdnUpdate#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#end_time ApplianceFqdnUpdate#end_time}
   */
   readonly endTime?: string;
   /**
   * The FQDN (fully qualified domain name) of the destination appliance for target migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#fqdn ApplianceFqdnUpdate#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#fqdn ApplianceFqdnUpdate#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#id ApplianceFqdnUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#id ApplianceFqdnUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,50 +72,50 @@ export interface ApplianceFqdnUpdateConfig extends cdktf.TerraformMetaArguments 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#mod_time ApplianceFqdnUpdate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#mod_time ApplianceFqdnUpdate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#owners ApplianceFqdnUpdate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#owners ApplianceFqdnUpdate#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#parent ApplianceFqdnUpdate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#parent ApplianceFqdnUpdate#parent}
   */
   readonly parent?: ApplianceFqdnUpdateParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#permission_resources ApplianceFqdnUpdate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#permission_resources ApplianceFqdnUpdate#permission_resources}
   */
   readonly permissionResources?: ApplianceFqdnUpdatePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#shared_scope ApplianceFqdnUpdate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#shared_scope ApplianceFqdnUpdate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Start date of the appliance FQDN change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#start_time ApplianceFqdnUpdate#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#start_time ApplianceFqdnUpdate#start_time}
   */
   readonly startTime?: string;
   /**
@@ -125,39 +125,39 @@ export interface ApplianceFqdnUpdateConfig extends cdktf.TerraformMetaArguments 
   * * `Failed` - Appliance FQDN update operation has failed.
   * * `Completed` - Appliance FQDN update operation has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#status ApplianceFqdnUpdate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#status ApplianceFqdnUpdate#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#tags ApplianceFqdnUpdate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#tags ApplianceFqdnUpdate#tags}
   */
   readonly tags?: ApplianceFqdnUpdateTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#version_context ApplianceFqdnUpdate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#version_context ApplianceFqdnUpdate#version_context}
   */
   readonly versionContext?: ApplianceFqdnUpdateVersionContext[] | cdktf.IResolvable;
 }
 export interface ApplianceFqdnUpdateAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class ApplianceFqdnUpdateAccountList extends cdktf.ComplexList {
 }
 export interface ApplianceFqdnUpdateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class ApplianceFqdnUpdateAncestorsList extends cdktf.ComplexList {
 }
 export interface ApplianceFqdnUpdateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class ApplianceFqdnUpdateParentList extends cdktf.ComplexList {
 }
 export interface ApplianceFqdnUpdatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class ApplianceFqdnUpdatePermissionResourcesList extends cdktf.ComplexLis
 }
 export interface ApplianceFqdnUpdateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class ApplianceFqdnUpdateTagsAncestorDefinitionsList extends cdktf.Comple
 }
 export interface ApplianceFqdnUpdateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -1629,35 +1629,35 @@ export class ApplianceFqdnUpdateTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface ApplianceFqdnUpdateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#ancestor_definitions ApplianceFqdnUpdate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#ancestor_definitions ApplianceFqdnUpdate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: ApplianceFqdnUpdateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#definition ApplianceFqdnUpdate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#definition ApplianceFqdnUpdate#definition}
   */
   readonly definition?: ApplianceFqdnUpdateTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#key ApplianceFqdnUpdate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#key ApplianceFqdnUpdate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#propagated ApplianceFqdnUpdate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#propagated ApplianceFqdnUpdate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#sys_tag ApplianceFqdnUpdate#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#sys_tag ApplianceFqdnUpdate#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#type ApplianceFqdnUpdate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#type ApplianceFqdnUpdate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#value ApplianceFqdnUpdate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#value ApplianceFqdnUpdate#value}
   */
   readonly value?: string;
 }
@@ -1976,23 +1976,23 @@ export class ApplianceFqdnUpdateTagsList extends cdktf.ComplexList {
 }
 export interface ApplianceFqdnUpdateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2224,23 +2224,23 @@ export class ApplianceFqdnUpdateVersionContextInterestedMosList extends cdktf.Co
 }
 export interface ApplianceFqdnUpdateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#moid ApplianceFqdnUpdate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#selector ApplianceFqdnUpdate#selector}
   */
   readonly selector?: string;
 }
@@ -2472,39 +2472,39 @@ export class ApplianceFqdnUpdateVersionContextRefMoList extends cdktf.ComplexLis
 }
 export interface ApplianceFqdnUpdateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#additional_properties ApplianceFqdnUpdate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#class_id ApplianceFqdnUpdate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#interested_mos ApplianceFqdnUpdate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#interested_mos ApplianceFqdnUpdate#interested_mos}
   */
   readonly interestedMos?: ApplianceFqdnUpdateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#marked_for_deletion ApplianceFqdnUpdate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#marked_for_deletion ApplianceFqdnUpdate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#nr_version ApplianceFqdnUpdate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#nr_version ApplianceFqdnUpdate#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#object_type ApplianceFqdnUpdate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#ref_mo ApplianceFqdnUpdate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#ref_mo ApplianceFqdnUpdate#ref_mo}
   */
   readonly refMo?: ApplianceFqdnUpdateVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#timestamp ApplianceFqdnUpdate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#timestamp ApplianceFqdnUpdate#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#version_type ApplianceFqdnUpdate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#version_type ApplianceFqdnUpdate#version_type}
   */
   readonly versionType?: string;
 }
@@ -2852,7 +2852,7 @@ export class ApplianceFqdnUpdateVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update intersight_appliance_fqdn_update}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update intersight_appliance_fqdn_update}
 */
 export class ApplianceFqdnUpdate extends cdktf.TerraformResource {
 
@@ -2868,7 +2868,7 @@ export class ApplianceFqdnUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceFqdnUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceFqdnUpdate to import
-  * @param importFromId The id of the existing ApplianceFqdnUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceFqdnUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceFqdnUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2880,7 +2880,7 @@ export class ApplianceFqdnUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/appliance_fqdn_update intersight_appliance_fqdn_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/appliance_fqdn_update intersight_appliance_fqdn_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2891,8 +2891,8 @@ export class ApplianceFqdnUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_appliance_fqdn_update',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface TsfDeployVmGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ratio of instances participating in each batch during rolling release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#deploy_batch TsfDeployVmGroup#deploy_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#deploy_batch TsfDeployVmGroup#deploy_batch}
   */
   readonly deployBatch?: number[];
   /**
   * Whether to enable beta batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#deploy_beta_enable TsfDeployVmGroup#deploy_beta_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#deploy_beta_enable TsfDeployVmGroup#deploy_beta_enable}
   */
   readonly deployBetaEnable?: boolean | cdktf.IResolvable;
   /**
   * group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#deploy_desc TsfDeployVmGroup#deploy_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#deploy_desc TsfDeployVmGroup#deploy_desc}
   */
   readonly deployDesc?: string;
   /**
   * The execution method of rolling release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#deploy_exe_mode TsfDeployVmGroup#deploy_exe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#deploy_exe_mode TsfDeployVmGroup#deploy_exe_mode}
   */
   readonly deployExeMode?: string;
   /**
   * The time interval for each batch during rolling release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#deploy_wait_time TsfDeployVmGroup#deploy_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#deploy_wait_time TsfDeployVmGroup#deploy_wait_time}
   */
   readonly deployWaitTime?: number;
   /**
   * Whether to enable health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#enable_health_check TsfDeployVmGroup#enable_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#enable_health_check TsfDeployVmGroup#enable_health_check}
   */
   readonly enableHealthCheck?: boolean | cdktf.IResolvable;
   /**
   * Whether to allow forced start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#force_start TsfDeployVmGroup#force_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#force_start TsfDeployVmGroup#force_start}
   */
   readonly forceStart?: boolean | cdktf.IResolvable;
   /**
   * group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#group_id TsfDeployVmGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#group_id TsfDeployVmGroup#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#id TsfDeployVmGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#id TsfDeployVmGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,67 +65,67 @@ export interface TsfDeployVmGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to perform incremental deployment. The default value is false, which means full update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#incremental_deployment TsfDeployVmGroup#incremental_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#incremental_deployment TsfDeployVmGroup#incremental_deployment}
   */
   readonly incrementalDeployment?: boolean | cdktf.IResolvable;
   /**
   * JDK name: konaJDK or openJDK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#jdk_name TsfDeployVmGroup#jdk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#jdk_name TsfDeployVmGroup#jdk_name}
   */
   readonly jdkName?: string;
   /**
   * JDK version: 8 or 11(openJDK only support 8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#jdk_version TsfDeployVmGroup#jdk_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#jdk_version TsfDeployVmGroup#jdk_version}
   */
   readonly jdkVersion?: string;
   /**
   * program package ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#pkg_id TsfDeployVmGroup#pkg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#pkg_id TsfDeployVmGroup#pkg_id}
   */
   readonly pkgId: string;
   /**
   * The base64-encoded startup script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#start_script TsfDeployVmGroup#start_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#start_script TsfDeployVmGroup#start_script}
   */
   readonly startScript?: string;
   /**
   * start args of group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#startup_parameters TsfDeployVmGroup#startup_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#startup_parameters TsfDeployVmGroup#startup_parameters}
   */
   readonly startupParameters?: string;
   /**
   * The base64-encoded stop script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#stop_script TsfDeployVmGroup#stop_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#stop_script TsfDeployVmGroup#stop_script}
   */
   readonly stopScript?: string;
   /**
   * Update method: 0 for fast update, 1 for rolling update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#update_type TsfDeployVmGroup#update_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#update_type TsfDeployVmGroup#update_type}
   */
   readonly updateType?: number;
   /**
   * agent_profile_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#agent_profile_list TsfDeployVmGroup#agent_profile_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#agent_profile_list TsfDeployVmGroup#agent_profile_list}
   */
   readonly agentProfileList?: TsfDeployVmGroupAgentProfileListStruct[] | cdktf.IResolvable;
   /**
   * health_check_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#health_check_settings TsfDeployVmGroup#health_check_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#health_check_settings TsfDeployVmGroup#health_check_settings}
   */
   readonly healthCheckSettings?: TsfDeployVmGroupHealthCheckSettings;
   /**
   * warmup_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#warmup_setting TsfDeployVmGroup#warmup_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#warmup_setting TsfDeployVmGroup#warmup_setting}
   */
   readonly warmupSetting?: TsfDeployVmGroupWarmupSetting;
 }
@@ -133,13 +133,13 @@ export interface TsfDeployVmGroupAgentProfileListStruct {
   /**
   * Agent type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#agent_type TsfDeployVmGroup#agent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#agent_type TsfDeployVmGroup#agent_type}
   */
   readonly agentType?: string;
   /**
   * Agent version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#agent_version TsfDeployVmGroup#agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#agent_version TsfDeployVmGroup#agent_version}
   */
   readonly agentVersion?: string;
 }
@@ -286,67 +286,67 @@ export interface TsfDeployVmGroupHealthCheckSettingsLivenessProbe {
   /**
   * Health check method. HTTP: check through HTTP interface; CMD: check through executing command; TCP: check through establishing TCP connection. Note: This field may return null, indicating that no valid value was found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#action_type TsfDeployVmGroup#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#action_type TsfDeployVmGroup#action_type}
   */
   readonly actionType: string;
   /**
   * The command to be executed for command health checks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#command TsfDeployVmGroup#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#command TsfDeployVmGroup#command}
   */
   readonly command?: string[];
   /**
   * The number of consecutive successful health checks required for the backend container to transition from success to failure. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#failure_threshold TsfDeployVmGroup#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#failure_threshold TsfDeployVmGroup#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The time delay for the container to start the health check. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#initial_delay_seconds TsfDeployVmGroup#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#initial_delay_seconds TsfDeployVmGroup#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * The request path for HTTP health checks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#path TsfDeployVmGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#path TsfDeployVmGroup#path}
   */
   readonly path?: string;
   /**
   * The time interval for performing health checks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#period_seconds TsfDeployVmGroup#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#period_seconds TsfDeployVmGroup#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * The port used for health checks, ranging from 1 to 65535. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#port TsfDeployVmGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#port TsfDeployVmGroup#port}
   */
   readonly port?: number;
   /**
   * The protocol used for HTTP health checks. HTTP and HTTPS are supported. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#scheme TsfDeployVmGroup#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#scheme TsfDeployVmGroup#scheme}
   */
   readonly scheme?: string;
   /**
   * The number of consecutive successful health checks required for the backend container to transition from failure to success. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#success_threshold TsfDeployVmGroup#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#success_threshold TsfDeployVmGroup#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The maximum timeout period for each health check response. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#timeout_seconds TsfDeployVmGroup#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#timeout_seconds TsfDeployVmGroup#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The type of readiness probe. TSF_DEFAULT represents the default readiness probe of TSF, while K8S_NATIVE represents the native readiness probe of Kubernetes. If this field is not specified, the native readiness probe of Kubernetes is used by default. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#type TsfDeployVmGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#type TsfDeployVmGroup#type}
   */
   readonly type?: string;
 }
@@ -719,67 +719,67 @@ export interface TsfDeployVmGroupHealthCheckSettingsReadinessProbe {
   /**
   * The health check method. HTTP indicates checking through an HTTP interface, CMD indicates checking through executing a command, and TCP indicates checking through establishing a TCP connection. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#action_type TsfDeployVmGroup#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#action_type TsfDeployVmGroup#action_type}
   */
   readonly actionType: string;
   /**
   * The command to be executed for command check. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#command TsfDeployVmGroup#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#command TsfDeployVmGroup#command}
   */
   readonly command?: string[];
   /**
   * The number of consecutive successful health checks required for the backend container to transition from success to failure. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#failure_threshold TsfDeployVmGroup#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#failure_threshold TsfDeployVmGroup#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * The time to delay the start of the container health check. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#initial_delay_seconds TsfDeployVmGroup#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#initial_delay_seconds TsfDeployVmGroup#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * The request path for HTTP health checks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#path TsfDeployVmGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#path TsfDeployVmGroup#path}
   */
   readonly path?: string;
   /**
   * The time interval for performing health checks. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#period_seconds TsfDeployVmGroup#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#period_seconds TsfDeployVmGroup#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * The port used for health checks, ranging from 1 to 65535. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#port TsfDeployVmGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#port TsfDeployVmGroup#port}
   */
   readonly port?: number;
   /**
   * The protocol used for HTTP health checks. HTTP and HTTPS are supported. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#scheme TsfDeployVmGroup#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#scheme TsfDeployVmGroup#scheme}
   */
   readonly scheme?: string;
   /**
   * The number of consecutive successful health checks required for the backend container to transition from failure to success. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#success_threshold TsfDeployVmGroup#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#success_threshold TsfDeployVmGroup#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * The maximum timeout period for each health check response. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#timeout_seconds TsfDeployVmGroup#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#timeout_seconds TsfDeployVmGroup#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * The type of readiness probe. TSF_DEFAULT represents the default readiness probe of TSF, while K8S_NATIVE represents the native readiness probe of Kubernetes. If this field is not specified, the native readiness probe of Kubernetes is used by default. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#type TsfDeployVmGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#type TsfDeployVmGroup#type}
   */
   readonly type?: string;
 }
@@ -1152,13 +1152,13 @@ export interface TsfDeployVmGroupHealthCheckSettings {
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#liveness_probe TsfDeployVmGroup#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#liveness_probe TsfDeployVmGroup#liveness_probe}
   */
   readonly livenessProbe?: TsfDeployVmGroupHealthCheckSettingsLivenessProbe;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#readiness_probe TsfDeployVmGroup#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#readiness_probe TsfDeployVmGroup#readiness_probe}
   */
   readonly readinessProbe?: TsfDeployVmGroupHealthCheckSettingsReadinessProbe;
 }
@@ -1273,25 +1273,25 @@ export interface TsfDeployVmGroupWarmupSetting {
   /**
   * Preheating curvature, with a value between 1 and 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#curvature TsfDeployVmGroup#curvature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#curvature TsfDeployVmGroup#curvature}
   */
   readonly curvature?: number;
   /**
   * Whether to enable preheating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#enabled TsfDeployVmGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#enabled TsfDeployVmGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable preheating protection. If protection is enabled and more than 50% of nodes are in preheating state, preheating will be aborted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#enabled_protection TsfDeployVmGroup#enabled_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#enabled_protection TsfDeployVmGroup#enabled_protection}
   */
   readonly enabledProtection?: boolean | cdktf.IResolvable;
   /**
   * warmup time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#warmup_time TsfDeployVmGroup#warmup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#warmup_time TsfDeployVmGroup#warmup_time}
   */
   readonly warmupTime?: number;
 }
@@ -1462,7 +1462,7 @@ export class TsfDeployVmGroupWarmupSettingOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group tencentcloud_tsf_deploy_vm_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group tencentcloud_tsf_deploy_vm_group}
 */
 export class TsfDeployVmGroup extends cdktf.TerraformResource {
 
@@ -1478,7 +1478,7 @@ export class TsfDeployVmGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfDeployVmGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfDeployVmGroup to import
-  * @param importFromId The id of the existing TsfDeployVmGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfDeployVmGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfDeployVmGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1490,7 +1490,7 @@ export class TsfDeployVmGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_deploy_vm_group tencentcloud_tsf_deploy_vm_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_deploy_vm_group tencentcloud_tsf_deploy_vm_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1501,8 +1501,8 @@ export class TsfDeployVmGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_deploy_vm_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

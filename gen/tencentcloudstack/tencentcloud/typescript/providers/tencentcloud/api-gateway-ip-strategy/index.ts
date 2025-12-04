@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayIpStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#id ApiGatewayIpStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#id ApiGatewayIpStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ApiGatewayIpStrategyConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the API gateway service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#service_id ApiGatewayIpStrategy#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#service_id ApiGatewayIpStrategy#service_id}
   */
   readonly serviceId: string;
   /**
   * IP address data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#strategy_data ApiGatewayIpStrategy#strategy_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#strategy_data ApiGatewayIpStrategy#strategy_data}
   */
   readonly strategyData: string;
   /**
   * User defined strategy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#strategy_name ApiGatewayIpStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#strategy_name ApiGatewayIpStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * Blacklist or whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#strategy_type ApiGatewayIpStrategy#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#strategy_type ApiGatewayIpStrategy#strategy_type}
   */
   readonly strategyType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy tencentcloud_api_gateway_ip_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy tencentcloud_api_gateway_ip_strategy}
 */
 export class ApiGatewayIpStrategy extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApiGatewayIpStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayIpStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayIpStrategy to import
-  * @param importFromId The id of the existing ApiGatewayIpStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayIpStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayIpStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApiGatewayIpStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/api_gateway_ip_strategy tencentcloud_api_gateway_ip_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/api_gateway_ip_strategy tencentcloud_api_gateway_ip_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApiGatewayIpStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_ip_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

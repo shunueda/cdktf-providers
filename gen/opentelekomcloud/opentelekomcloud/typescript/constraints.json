@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "opentelekomcloud": "1.36.53"
+    "opentelekomcloud": "1.36.54"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouteTableEntryConfigAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether the entry is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config#disabled RouteTableEntryConfigA#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config#disabled RouteTableEntryConfigA#disabled}
   */
   readonly disabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config#id RouteTableEntryConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config#id RouteTableEntryConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface RouteTableEntryConfigAConfig extends cdktf.TerraformMetaArgumen
   /**
   * ID of route table entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config#route_item_id RouteTableEntryConfigA#route_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config#route_item_id RouteTableEntryConfigA#route_item_id}
   */
   readonly routeItemId: string;
   /**
   * Route table ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config#route_table_id RouteTableEntryConfigA#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config#route_table_id RouteTableEntryConfigA#route_table_id}
   */
   readonly routeTableId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config tencentcloud_route_table_entry_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config tencentcloud_route_table_entry_config}
 */
 export class RouteTableEntryConfigA extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class RouteTableEntryConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouteTableEntryConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouteTableEntryConfigA to import
-  * @param importFromId The id of the existing RouteTableEntryConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouteTableEntryConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouteTableEntryConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class RouteTableEntryConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/route_table_entry_config tencentcloud_route_table_entry_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/route_table_entry_config tencentcloud_route_table_entry_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class RouteTableEntryConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_route_table_entry_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

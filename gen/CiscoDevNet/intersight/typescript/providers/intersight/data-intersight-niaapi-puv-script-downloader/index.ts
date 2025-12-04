@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiaapiPuvScriptDownloaderConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#account_moid DataIntersightNiaapiPuvScriptDownloader#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#account_moid DataIntersightNiaapiPuvScriptDownloader#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiaapiPuvScriptDownloaderConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#create_time DataIntersightNiaapiPuvScriptDownloader#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#create_time DataIntersightNiaapiPuvScriptDownloader#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#domain_group_moid DataIntersightNiaapiPuvScriptDownloader#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#domain_group_moid DataIntersightNiaapiPuvScriptDownloader#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Filename of this Metadata script file, folder will be handled by api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#file_name DataIntersightNiaapiPuvScriptDownloader#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#file_name DataIntersightNiaapiPuvScriptDownloader#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#id DataIntersightNiaapiPuvScriptDownloader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#id DataIntersightNiaapiPuvScriptDownloader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightNiaapiPuvScriptDownloaderConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#mod_time DataIntersightNiaapiPuvScriptDownloader#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#mod_time DataIntersightNiaapiPuvScriptDownloader#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#owners DataIntersightNiaapiPuvScriptDownloader#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#owners DataIntersightNiaapiPuvScriptDownloader#owners}
   */
   readonly owners?: string[];
   /**
   * The presigned URL from server to download this script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#presigned_url DataIntersightNiaapiPuvScriptDownloader#presigned_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#presigned_url DataIntersightNiaapiPuvScriptDownloader#presigned_url}
   */
   readonly presignedUrl?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#shared_scope DataIntersightNiaapiPuvScriptDownloader#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#shared_scope DataIntersightNiaapiPuvScriptDownloader#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#ancestors DataIntersightNiaapiPuvScriptDownloader#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#ancestors DataIntersightNiaapiPuvScriptDownloader#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiPuvScriptDownloaderAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#parent DataIntersightNiaapiPuvScriptDownloader#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#parent DataIntersightNiaapiPuvScriptDownloader#parent}
   */
   readonly parent?: DataIntersightNiaapiPuvScriptDownloaderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#permission_resources DataIntersightNiaapiPuvScriptDownloader#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#permission_resources DataIntersightNiaapiPuvScriptDownloader#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiPuvScriptDownloaderPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#tags DataIntersightNiaapiPuvScriptDownloader#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#tags DataIntersightNiaapiPuvScriptDownloader#tags}
   */
   readonly tags?: DataIntersightNiaapiPuvScriptDownloaderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#version_context DataIntersightNiaapiPuvScriptDownloader#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#version_context DataIntersightNiaapiPuvScriptDownloader#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiPuvScriptDownloaderVersionContext;
 }
@@ -1173,7 +1173,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderResultsList extends cdktf.Co
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1181,19 +1181,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1206,7 +1206,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1438,7 +1438,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderAncestorsList extends cdktf.
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1446,19 +1446,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1471,7 +1471,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1671,7 +1671,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderParentOutputReference extend
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1679,19 +1679,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1704,7 +1704,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1936,7 +1936,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderPermissionResourcesList exte
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1944,19 +1944,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1969,7 +1969,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -2201,7 +2201,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderTagsAncestorDefinitionsList 
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2209,19 +2209,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2234,7 +2234,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -2434,25 +2434,25 @@ export class DataIntersightNiaapiPuvScriptDownloaderTagsDefinitionOutputReferenc
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#key DataIntersightNiaapiPuvScriptDownloader#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#key DataIntersightNiaapiPuvScriptDownloader#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#propagated DataIntersightNiaapiPuvScriptDownloader#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#propagated DataIntersightNiaapiPuvScriptDownloader#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#sys_tag DataIntersightNiaapiPuvScriptDownloader#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#sys_tag DataIntersightNiaapiPuvScriptDownloader#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2460,25 +2460,25 @@ export interface DataIntersightNiaapiPuvScriptDownloaderTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#type DataIntersightNiaapiPuvScriptDownloader#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#type DataIntersightNiaapiPuvScriptDownloader#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#value DataIntersightNiaapiPuvScriptDownloader#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#value DataIntersightNiaapiPuvScriptDownloader#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#ancestor_definitions DataIntersightNiaapiPuvScriptDownloader#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#ancestor_definitions DataIntersightNiaapiPuvScriptDownloader#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiPuvScriptDownloaderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#definition DataIntersightNiaapiPuvScriptDownloader#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#definition DataIntersightNiaapiPuvScriptDownloader#definition}
   */
   readonly definition?: DataIntersightNiaapiPuvScriptDownloaderTagsDefinition;
 }
@@ -2797,7 +2797,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderTagsList extends cdktf.Compl
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2805,19 +2805,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2830,7 +2830,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -3062,7 +3062,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderVersionContextInterestedMosL
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3070,19 +3070,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#moid DataIntersightNiaapiPuvScriptDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3095,7 +3095,7 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#selector DataIntersightNiaapiPuvScriptDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -3295,7 +3295,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderVersionContextRefMoOutputRef
 }
 export interface DataIntersightNiaapiPuvScriptDownloaderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#additional_properties DataIntersightNiaapiPuvScriptDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3303,32 +3303,32 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#class_id DataIntersightNiaapiPuvScriptDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#marked_for_deletion DataIntersightNiaapiPuvScriptDownloader#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#marked_for_deletion DataIntersightNiaapiPuvScriptDownloader#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#nr_version DataIntersightNiaapiPuvScriptDownloader#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#nr_version DataIntersightNiaapiPuvScriptDownloader#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#object_type DataIntersightNiaapiPuvScriptDownloader#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#timestamp DataIntersightNiaapiPuvScriptDownloader#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#timestamp DataIntersightNiaapiPuvScriptDownloader#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3339,19 +3339,19 @@ export interface DataIntersightNiaapiPuvScriptDownloaderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#version_type DataIntersightNiaapiPuvScriptDownloader#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#version_type DataIntersightNiaapiPuvScriptDownloader#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#interested_mos DataIntersightNiaapiPuvScriptDownloader#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#interested_mos DataIntersightNiaapiPuvScriptDownloader#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiPuvScriptDownloaderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#ref_mo DataIntersightNiaapiPuvScriptDownloader#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#ref_mo DataIntersightNiaapiPuvScriptDownloader#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiPuvScriptDownloaderVersionContextRefMo;
 }
@@ -3667,7 +3667,7 @@ export class DataIntersightNiaapiPuvScriptDownloaderVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader intersight_niaapi_puv_script_downloader}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader intersight_niaapi_puv_script_downloader}
 */
 export class DataIntersightNiaapiPuvScriptDownloader extends cdktf.TerraformDataSource {
 
@@ -3683,7 +3683,7 @@ export class DataIntersightNiaapiPuvScriptDownloader extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightNiaapiPuvScriptDownloader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiPuvScriptDownloader to import
-  * @param importFromId The id of the existing DataIntersightNiaapiPuvScriptDownloader that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiPuvScriptDownloader that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiPuvScriptDownloader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3695,7 +3695,7 @@ export class DataIntersightNiaapiPuvScriptDownloader extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_puv_script_downloader intersight_niaapi_puv_script_downloader} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_puv_script_downloader intersight_niaapi_puv_script_downloader} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3706,8 +3706,8 @@ export class DataIntersightNiaapiPuvScriptDownloader extends cdktf.TerraformData
       terraformResourceType: 'intersight_niaapi_puv_script_downloader',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

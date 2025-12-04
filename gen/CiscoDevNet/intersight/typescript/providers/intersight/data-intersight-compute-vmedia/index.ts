@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputeVmediaConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#account_moid DataIntersightComputeVmedia#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#account_moid DataIntersightComputeVmedia#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightComputeVmediaConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#create_time DataIntersightComputeVmedia#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#create_time DataIntersightComputeVmedia#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#device_mo_id DataIntersightComputeVmedia#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#device_mo_id DataIntersightComputeVmedia#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#dn DataIntersightComputeVmedia#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#dn DataIntersightComputeVmedia#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#domain_group_moid DataIntersightComputeVmedia#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#domain_group_moid DataIntersightComputeVmedia#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * State of the Virtual Media service on the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#enabled DataIntersightComputeVmedia#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#enabled DataIntersightComputeVmedia#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If enabled, allows encryption of all Virtual Media communications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#encryption DataIntersightComputeVmedia#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#encryption DataIntersightComputeVmedia#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#id DataIntersightComputeVmedia#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#id DataIntersightComputeVmedia#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface DataIntersightComputeVmediaConfig extends cdktf.TerraformMetaAr
   /**
   * If enabled, the virtual drives appear on the boot selection menu after mapping the image and rebooting the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#low_power_usb DataIntersightComputeVmedia#low_power_usb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#low_power_usb DataIntersightComputeVmedia#low_power_usb}
   */
   readonly lowPowerUsb?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#mod_time DataIntersightComputeVmedia#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#mod_time DataIntersightComputeVmedia#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#owners DataIntersightComputeVmedia#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#owners DataIntersightComputeVmedia#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#rn DataIntersightComputeVmedia#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#rn DataIntersightComputeVmedia#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#shared_scope DataIntersightComputeVmedia#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#shared_scope DataIntersightComputeVmedia#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#ancestors DataIntersightComputeVmedia#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#ancestors DataIntersightComputeVmedia#ancestors}
   */
   readonly ancestors?: DataIntersightComputeVmediaAncestors[] | cdktf.IResolvable;
   /**
   * compute_physical_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#compute_physical_unit DataIntersightComputeVmedia#compute_physical_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#compute_physical_unit DataIntersightComputeVmedia#compute_physical_unit}
   */
   readonly computePhysicalUnit?: DataIntersightComputeVmediaComputePhysicalUnit;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#inventory_device_info DataIntersightComputeVmedia#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#inventory_device_info DataIntersightComputeVmedia#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightComputeVmediaInventoryDeviceInfo;
   /**
   * mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#mappings DataIntersightComputeVmedia#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#mappings DataIntersightComputeVmedia#mappings}
   */
   readonly mappings?: DataIntersightComputeVmediaMappings[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#parent DataIntersightComputeVmedia#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#parent DataIntersightComputeVmedia#parent}
   */
   readonly parent?: DataIntersightComputeVmediaParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#permission_resources DataIntersightComputeVmedia#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#permission_resources DataIntersightComputeVmedia#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeVmediaPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#registered_device DataIntersightComputeVmedia#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#registered_device DataIntersightComputeVmedia#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeVmediaRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#tags DataIntersightComputeVmedia#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#tags DataIntersightComputeVmedia#tags}
   */
   readonly tags?: DataIntersightComputeVmediaTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#version_context DataIntersightComputeVmedia#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#version_context DataIntersightComputeVmedia#version_context}
   */
   readonly versionContext?: DataIntersightComputeVmediaVersionContext;
 }
@@ -1645,7 +1645,7 @@ export class DataIntersightComputeVmediaResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeVmediaAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1653,19 +1653,19 @@ export interface DataIntersightComputeVmediaAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1678,7 +1678,7 @@ export interface DataIntersightComputeVmediaAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -1910,7 +1910,7 @@ export class DataIntersightComputeVmediaAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightComputeVmediaComputePhysicalUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1918,19 +1918,19 @@ export interface DataIntersightComputeVmediaComputePhysicalUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1943,7 +1943,7 @@ export interface DataIntersightComputeVmediaComputePhysicalUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -2143,7 +2143,7 @@ export class DataIntersightComputeVmediaComputePhysicalUnitOutputReference exten
 }
 export interface DataIntersightComputeVmediaInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2151,19 +2151,19 @@ export interface DataIntersightComputeVmediaInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2176,7 +2176,7 @@ export interface DataIntersightComputeVmediaInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -2376,7 +2376,7 @@ export class DataIntersightComputeVmediaInventoryDeviceInfoOutputReference exten
 }
 export interface DataIntersightComputeVmediaMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2384,19 +2384,19 @@ export interface DataIntersightComputeVmediaMappings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2409,7 +2409,7 @@ export interface DataIntersightComputeVmediaMappings {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -2641,7 +2641,7 @@ export class DataIntersightComputeVmediaMappingsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeVmediaParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2649,19 +2649,19 @@ export interface DataIntersightComputeVmediaParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2674,7 +2674,7 @@ export interface DataIntersightComputeVmediaParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -2874,7 +2874,7 @@ export class DataIntersightComputeVmediaParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightComputeVmediaPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2882,19 +2882,19 @@ export interface DataIntersightComputeVmediaPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2907,7 +2907,7 @@ export interface DataIntersightComputeVmediaPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -3139,7 +3139,7 @@ export class DataIntersightComputeVmediaPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightComputeVmediaRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3147,19 +3147,19 @@ export interface DataIntersightComputeVmediaRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3172,7 +3172,7 @@ export interface DataIntersightComputeVmediaRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -3372,7 +3372,7 @@ export class DataIntersightComputeVmediaRegisteredDeviceOutputReference extends 
 }
 export interface DataIntersightComputeVmediaTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3380,19 +3380,19 @@ export interface DataIntersightComputeVmediaTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3405,7 +3405,7 @@ export interface DataIntersightComputeVmediaTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -3637,7 +3637,7 @@ export class DataIntersightComputeVmediaTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightComputeVmediaTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3645,19 +3645,19 @@ export interface DataIntersightComputeVmediaTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3670,7 +3670,7 @@ export interface DataIntersightComputeVmediaTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -3870,25 +3870,25 @@ export class DataIntersightComputeVmediaTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightComputeVmediaTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#key DataIntersightComputeVmedia#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#key DataIntersightComputeVmedia#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#propagated DataIntersightComputeVmedia#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#propagated DataIntersightComputeVmedia#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#sys_tag DataIntersightComputeVmedia#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#sys_tag DataIntersightComputeVmedia#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3896,25 +3896,25 @@ export interface DataIntersightComputeVmediaTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#type DataIntersightComputeVmedia#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#type DataIntersightComputeVmedia#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#value DataIntersightComputeVmedia#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#value DataIntersightComputeVmedia#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#ancestor_definitions DataIntersightComputeVmedia#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#ancestor_definitions DataIntersightComputeVmedia#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeVmediaTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#definition DataIntersightComputeVmedia#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#definition DataIntersightComputeVmedia#definition}
   */
   readonly definition?: DataIntersightComputeVmediaTagsDefinition;
 }
@@ -4233,7 +4233,7 @@ export class DataIntersightComputeVmediaTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeVmediaVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4241,19 +4241,19 @@ export interface DataIntersightComputeVmediaVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4266,7 +4266,7 @@ export interface DataIntersightComputeVmediaVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -4498,7 +4498,7 @@ export class DataIntersightComputeVmediaVersionContextInterestedMosList extends 
 }
 export interface DataIntersightComputeVmediaVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4506,19 +4506,19 @@ export interface DataIntersightComputeVmediaVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#moid DataIntersightComputeVmedia#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4531,7 +4531,7 @@ export interface DataIntersightComputeVmediaVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#selector DataIntersightComputeVmedia#selector}
   */
   readonly selector?: string;
 }
@@ -4731,7 +4731,7 @@ export class DataIntersightComputeVmediaVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightComputeVmediaVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#additional_properties DataIntersightComputeVmedia#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4739,32 +4739,32 @@ export interface DataIntersightComputeVmediaVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#class_id DataIntersightComputeVmedia#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#marked_for_deletion DataIntersightComputeVmedia#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#marked_for_deletion DataIntersightComputeVmedia#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#nr_version DataIntersightComputeVmedia#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#nr_version DataIntersightComputeVmedia#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#object_type DataIntersightComputeVmedia#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#timestamp DataIntersightComputeVmedia#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#timestamp DataIntersightComputeVmedia#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4775,19 +4775,19 @@ export interface DataIntersightComputeVmediaVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#version_type DataIntersightComputeVmedia#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#version_type DataIntersightComputeVmedia#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#interested_mos DataIntersightComputeVmedia#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#interested_mos DataIntersightComputeVmedia#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeVmediaVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#ref_mo DataIntersightComputeVmedia#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#ref_mo DataIntersightComputeVmedia#ref_mo}
   */
   readonly refMo?: DataIntersightComputeVmediaVersionContextRefMo;
 }
@@ -5103,7 +5103,7 @@ export class DataIntersightComputeVmediaVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia intersight_compute_vmedia}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia intersight_compute_vmedia}
 */
 export class DataIntersightComputeVmedia extends cdktf.TerraformDataSource {
 
@@ -5119,7 +5119,7 @@ export class DataIntersightComputeVmedia extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightComputeVmedia resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeVmedia to import
-  * @param importFromId The id of the existing DataIntersightComputeVmedia that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeVmedia that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeVmedia to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5131,7 +5131,7 @@ export class DataIntersightComputeVmedia extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_vmedia intersight_compute_vmedia} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_vmedia intersight_compute_vmedia} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5142,8 +5142,8 @@ export class DataIntersightComputeVmedia extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_compute_vmedia',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

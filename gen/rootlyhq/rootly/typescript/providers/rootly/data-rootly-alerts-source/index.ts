@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataRootlyAlertsSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source#source_type DataRootlyAlertsSource#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source#source_type DataRootlyAlertsSource#source_type}
   */
   readonly sourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source#status DataRootlyAlertsSource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source#status DataRootlyAlertsSource#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source rootly_alerts_source}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source rootly_alerts_source}
 */
 export class DataRootlyAlertsSource extends cdktf.TerraformDataSource {
 
@@ -34,7 +34,7 @@ export class DataRootlyAlertsSource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyAlertsSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyAlertsSource to import
-  * @param importFromId The id of the existing DataRootlyAlertsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyAlertsSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyAlertsSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -46,7 +46,7 @@ export class DataRootlyAlertsSource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/data-sources/alerts_source rootly_alerts_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/data-sources/alerts_source rootly_alerts_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,8 +57,8 @@ export class DataRootlyAlertsSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_alerts_source',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

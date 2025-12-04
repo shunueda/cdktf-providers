@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFirmwarePciNodeUpgradeConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#account_moid DataIntersightFirmwarePciNodeUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#account_moid DataIntersightFirmwarePciNodeUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightFirmwarePciNodeUpgradeConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#create_time DataIntersightFirmwarePciNodeUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#create_time DataIntersightFirmwarePciNodeUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#domain_group_moid DataIntersightFirmwarePciNodeUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#domain_group_moid DataIntersightFirmwarePciNodeUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#id DataIntersightFirmwarePciNodeUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#id DataIntersightFirmwarePciNodeUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataIntersightFirmwarePciNodeUpgradeConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#mod_time DataIntersightFirmwarePciNodeUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#mod_time DataIntersightFirmwarePciNodeUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#owners DataIntersightFirmwarePciNodeUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#owners DataIntersightFirmwarePciNodeUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#shared_scope DataIntersightFirmwarePciNodeUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#shared_scope DataIntersightFirmwarePciNodeUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User has the option to skip the estimate impact calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#skip_estimate_impact DataIntersightFirmwarePciNodeUpgrade#skip_estimate_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#skip_estimate_impact DataIntersightFirmwarePciNodeUpgrade#skip_estimate_impact}
   */
   readonly skipEstimateImpact?: boolean | cdktf.IResolvable;
   /**
@@ -88,7 +88,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeConfig extends cdktf.Terraf
   * * `FAILED` - The upgrade shows failed status.
   * * `TERMINATED` - The upgrade has been terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#status DataIntersightFirmwarePciNodeUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#status DataIntersightFirmwarePciNodeUpgrade#status}
   */
   readonly status?: string;
   /**
@@ -96,91 +96,91 @@ export interface DataIntersightFirmwarePciNodeUpgradeConfig extends cdktf.Terraf
   * * `direct_upgrade` - Upgrade mode is direct download.
   * * `network_upgrade` - Upgrade mode is network upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#upgrade_type DataIntersightFirmwarePciNodeUpgrade#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#upgrade_type DataIntersightFirmwarePciNodeUpgrade#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#ancestors DataIntersightFirmwarePciNodeUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#ancestors DataIntersightFirmwarePciNodeUpgrade#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwarePciNodeUpgradeAncestors[] | cdktf.IResolvable;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#device DataIntersightFirmwarePciNodeUpgrade#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#device DataIntersightFirmwarePciNodeUpgrade#device}
   */
   readonly device?: DataIntersightFirmwarePciNodeUpgradeDevice;
   /**
   * direct_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#direct_download DataIntersightFirmwarePciNodeUpgrade#direct_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#direct_download DataIntersightFirmwarePciNodeUpgrade#direct_download}
   */
   readonly directDownload?: DataIntersightFirmwarePciNodeUpgradeDirectDownload;
   /**
   * distributable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#distributable DataIntersightFirmwarePciNodeUpgrade#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#distributable DataIntersightFirmwarePciNodeUpgrade#distributable}
   */
   readonly distributable?: DataIntersightFirmwarePciNodeUpgradeDistributable;
   /**
   * file_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#file_server DataIntersightFirmwarePciNodeUpgrade#file_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#file_server DataIntersightFirmwarePciNodeUpgrade#file_server}
   */
   readonly fileServer?: DataIntersightFirmwarePciNodeUpgradeFileServer;
   /**
   * network_share block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#network_share DataIntersightFirmwarePciNodeUpgrade#network_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#network_share DataIntersightFirmwarePciNodeUpgrade#network_share}
   */
   readonly networkShare?: DataIntersightFirmwarePciNodeUpgradeNetworkShare;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#parent DataIntersightFirmwarePciNodeUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#parent DataIntersightFirmwarePciNodeUpgrade#parent}
   */
   readonly parent?: DataIntersightFirmwarePciNodeUpgradeParent;
   /**
   * pci_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#pci_node DataIntersightFirmwarePciNodeUpgrade#pci_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#pci_node DataIntersightFirmwarePciNodeUpgrade#pci_node}
   */
   readonly pciNode?: DataIntersightFirmwarePciNodeUpgradePciNode;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#permission_resources DataIntersightFirmwarePciNodeUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#permission_resources DataIntersightFirmwarePciNodeUpgrade#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwarePciNodeUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#release DataIntersightFirmwarePciNodeUpgrade#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#release DataIntersightFirmwarePciNodeUpgrade#release}
   */
   readonly release?: DataIntersightFirmwarePciNodeUpgradeRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#tags DataIntersightFirmwarePciNodeUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#tags DataIntersightFirmwarePciNodeUpgrade#tags}
   */
   readonly tags?: DataIntersightFirmwarePciNodeUpgradeTags[] | cdktf.IResolvable;
   /**
   * upgrade_impact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#upgrade_impact DataIntersightFirmwarePciNodeUpgrade#upgrade_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#upgrade_impact DataIntersightFirmwarePciNodeUpgrade#upgrade_impact}
   */
   readonly upgradeImpact?: DataIntersightFirmwarePciNodeUpgradeUpgradeImpact;
   /**
   * upgrade_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#upgrade_status DataIntersightFirmwarePciNodeUpgrade#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#upgrade_status DataIntersightFirmwarePciNodeUpgrade#upgrade_status}
   */
   readonly upgradeStatus?: DataIntersightFirmwarePciNodeUpgradeUpgradeStatus;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#version_context DataIntersightFirmwarePciNodeUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#version_context DataIntersightFirmwarePciNodeUpgrade#version_context}
   */
   readonly versionContext?: DataIntersightFirmwarePciNodeUpgradeVersionContext;
 }
@@ -2608,7 +2608,7 @@ export class DataIntersightFirmwarePciNodeUpgradeResultsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwarePciNodeUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2616,19 +2616,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2641,7 +2641,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2873,7 +2873,7 @@ export class DataIntersightFirmwarePciNodeUpgradeAncestorsList extends cdktf.Com
 }
 export interface DataIntersightFirmwarePciNodeUpgradeDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2881,19 +2881,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2906,7 +2906,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3106,7 +3106,7 @@ export class DataIntersightFirmwarePciNodeUpgradeDeviceOutputReference extends c
 }
 export interface DataIntersightFirmwarePciNodeUpgradeDirectDownloadHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3114,26 +3114,26 @@ export interface DataIntersightFirmwarePciNodeUpgradeDirectDownloadHttpServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS link to the image. Accepted formats HTTP[s]://server-hostname/share/image or HTTP[s]://serverip/share/image. For a successful upgrade, the remote share server must have network connectivity with the CIMC of the selected devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#location_link DataIntersightFirmwarePciNodeUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#location_link DataIntersightFirmwarePciNodeUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
   * Mount option as configured on the HTTP server. Empty if nothing is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -3333,7 +3333,7 @@ export class DataIntersightFirmwarePciNodeUpgradeDirectDownloadHttpServerOutputR
 }
 export interface DataIntersightFirmwarePciNodeUpgradeDirectDownload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3341,7 +3341,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeDirectDownload {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -3349,26 +3349,26 @@ export interface DataIntersightFirmwarePciNodeUpgradeDirectDownload {
   * * `cisco` - Image to be downloaded from Cisco software repository.
   * * `localHttp` - Image to be downloaded from a https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#image_source DataIntersightFirmwarePciNodeUpgrade#image_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#image_source DataIntersightFirmwarePciNodeUpgrade#image_source}
   */
   readonly imageSource?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#is_password_set DataIntersightFirmwarePciNodeUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#is_password_set DataIntersightFirmwarePciNodeUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Password as configured on the local https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#password DataIntersightFirmwarePciNodeUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#password DataIntersightFirmwarePciNodeUpgrade#password}
   */
   readonly password?: string;
   /**
@@ -3385,19 +3385,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeDirectDownload {
   * * `validate_only` - Validate whether a component is ready for ugprade.
   * * `cancel_only` - Cancel pending upgrade only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#upgradeoption DataIntersightFirmwarePciNodeUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#upgradeoption DataIntersightFirmwarePciNodeUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
   * Username as configured on the local https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#username DataIntersightFirmwarePciNodeUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#username DataIntersightFirmwarePciNodeUpgrade#username}
   */
   readonly username?: string;
   /**
   * http_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#http_server DataIntersightFirmwarePciNodeUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#http_server DataIntersightFirmwarePciNodeUpgrade#http_server}
   */
   readonly httpServer?: DataIntersightFirmwarePciNodeUpgradeDirectDownloadHttpServer;
 }
@@ -3713,7 +3713,7 @@ export class DataIntersightFirmwarePciNodeUpgradeDirectDownloadOutputReference e
 }
 export interface DataIntersightFirmwarePciNodeUpgradeDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3721,19 +3721,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeDistributable {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3746,7 +3746,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeDistributable {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3946,7 +3946,7 @@ export class DataIntersightFirmwarePciNodeUpgradeDistributableOutputReference ex
 }
 export interface DataIntersightFirmwarePciNodeUpgradeFileServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3955,7 +3955,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeFileServer {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -3963,7 +3963,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeFileServer {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -4105,7 +4105,7 @@ export class DataIntersightFirmwarePciNodeUpgradeFileServerOutputReference exten
 }
 export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareCifsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4113,13 +4113,13 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareCifsServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The location to the image file. The accepted format is IP-or-hostname/folder1/folder2/.../imageFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#file_location DataIntersightFirmwarePciNodeUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#file_location DataIntersightFirmwarePciNodeUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
@@ -4132,32 +4132,32 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareCifsServer {
   * * `ntlmssp` - Mount options of CIFS file server is ntlmssp.
   * * `ntlmsspi` - Mount options of CIFS file server is ntlmsspi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Filename of the image in the remote share location. Example:ucs-c220m5-huu-3.1.2c.iso.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_file DataIntersightFirmwarePciNodeUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_file DataIntersightFirmwarePciNodeUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * CIFS Server Hostname or IP Address. For example:CIFS-server-hostname or 10.10.8.7. The remote share server should have network connectivity with the CIMC of the selected devices for a successful upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_ip DataIntersightFirmwarePciNodeUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_ip DataIntersightFirmwarePciNodeUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Directory where the image is stored. Example:share/subfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_share DataIntersightFirmwarePciNodeUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_share DataIntersightFirmwarePciNodeUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -4444,7 +4444,7 @@ export class DataIntersightFirmwarePciNodeUpgradeNetworkShareCifsServerOutputRef
 }
 export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4452,26 +4452,26 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareHttpServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS link to the image. Accepted formats HTTP[s]://server-hostname/share/image or HTTP[s]://serverip/share/image. For a successful upgrade, the remote share server must have network connectivity with the CIMC of the selected devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#location_link DataIntersightFirmwarePciNodeUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#location_link DataIntersightFirmwarePciNodeUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
   * Mount option as configured on the HTTP server. Empty if nothing is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -4671,7 +4671,7 @@ export class DataIntersightFirmwarePciNodeUpgradeNetworkShareHttpServerOutputRef
 }
 export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareNfsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4679,44 +4679,44 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShareNfsServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The location to the image file. The accepted format is IP-or-hostname/folder1/folder2/.../imageFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#file_location DataIntersightFirmwarePciNodeUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#file_location DataIntersightFirmwarePciNodeUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
   * Mount option as configured on the NFS Server. For example:nolock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#mount_options DataIntersightFirmwarePciNodeUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Filename of the image in the remote share location. For example:ucs-c220m5-huu-3.1.2c.iso.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_file DataIntersightFirmwarePciNodeUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_file DataIntersightFirmwarePciNodeUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * NFS Server Hostname or IP Address. For example:NFS-server-hostname or 10.10.8.7. The remote share server should have network connectivity with the CIMC of the selected devices for a successful upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_ip DataIntersightFirmwarePciNodeUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_ip DataIntersightFirmwarePciNodeUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Directory where the image is stored. For example:/share/subfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#remote_share DataIntersightFirmwarePciNodeUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#remote_share DataIntersightFirmwarePciNodeUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -5003,7 +5003,7 @@ export class DataIntersightFirmwarePciNodeUpgradeNetworkShareNfsServerOutputRefe
 }
 export interface DataIntersightFirmwarePciNodeUpgradeNetworkShare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5011,13 +5011,13 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShare {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#is_password_set DataIntersightFirmwarePciNodeUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#is_password_set DataIntersightFirmwarePciNodeUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
@@ -5026,20 +5026,20 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShare {
   * * `cifs` - File server protocol used is CIFS.
   * * `www` - File server protocol used is WWW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#map_type DataIntersightFirmwarePciNodeUpgrade#map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#map_type DataIntersightFirmwarePciNodeUpgrade#map_type}
   */
   readonly mapType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Password as configured on the file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#password DataIntersightFirmwarePciNodeUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#password DataIntersightFirmwarePciNodeUpgrade#password}
   */
   readonly password?: string;
   /**
@@ -5047,31 +5047,31 @@ export interface DataIntersightFirmwarePciNodeUpgradeNetworkShare {
   * * `nw_upgrade_full` - Network upgrade option for full upgrade.
   * * `nw_upgrade_mount_only` - Network upgrade mount only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#upgradeoption DataIntersightFirmwarePciNodeUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#upgradeoption DataIntersightFirmwarePciNodeUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
   * Username as configured on the file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#username DataIntersightFirmwarePciNodeUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#username DataIntersightFirmwarePciNodeUpgrade#username}
   */
   readonly username?: string;
   /**
   * cifs_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#cifs_server DataIntersightFirmwarePciNodeUpgrade#cifs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#cifs_server DataIntersightFirmwarePciNodeUpgrade#cifs_server}
   */
   readonly cifsServer?: DataIntersightFirmwarePciNodeUpgradeNetworkShareCifsServer;
   /**
   * http_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#http_server DataIntersightFirmwarePciNodeUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#http_server DataIntersightFirmwarePciNodeUpgrade#http_server}
   */
   readonly httpServer?: DataIntersightFirmwarePciNodeUpgradeNetworkShareHttpServer;
   /**
   * nfs_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#nfs_server DataIntersightFirmwarePciNodeUpgrade#nfs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#nfs_server DataIntersightFirmwarePciNodeUpgrade#nfs_server}
   */
   readonly nfsServer?: DataIntersightFirmwarePciNodeUpgradeNetworkShareNfsServer;
 }
@@ -5445,7 +5445,7 @@ export class DataIntersightFirmwarePciNodeUpgradeNetworkShareOutputReference ext
 }
 export interface DataIntersightFirmwarePciNodeUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5453,19 +5453,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5478,7 +5478,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5678,7 +5678,7 @@ export class DataIntersightFirmwarePciNodeUpgradeParentOutputReference extends c
 }
 export interface DataIntersightFirmwarePciNodeUpgradePciNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5686,19 +5686,19 @@ export interface DataIntersightFirmwarePciNodeUpgradePciNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5711,7 +5711,7 @@ export interface DataIntersightFirmwarePciNodeUpgradePciNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5911,7 +5911,7 @@ export class DataIntersightFirmwarePciNodeUpgradePciNodeOutputReference extends 
 }
 export interface DataIntersightFirmwarePciNodeUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5919,19 +5919,19 @@ export interface DataIntersightFirmwarePciNodeUpgradePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5944,7 +5944,7 @@ export interface DataIntersightFirmwarePciNodeUpgradePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6176,7 +6176,7 @@ export class DataIntersightFirmwarePciNodeUpgradePermissionResourcesList extends
 }
 export interface DataIntersightFirmwarePciNodeUpgradeRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6184,19 +6184,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6209,7 +6209,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6409,7 +6409,7 @@ export class DataIntersightFirmwarePciNodeUpgradeReleaseOutputReference extends 
 }
 export interface DataIntersightFirmwarePciNodeUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6417,19 +6417,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6442,7 +6442,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6674,7 +6674,7 @@ export class DataIntersightFirmwarePciNodeUpgradeTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightFirmwarePciNodeUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6682,19 +6682,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6707,7 +6707,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6907,25 +6907,25 @@ export class DataIntersightFirmwarePciNodeUpgradeTagsDefinitionOutputReference e
 }
 export interface DataIntersightFirmwarePciNodeUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#key DataIntersightFirmwarePciNodeUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#key DataIntersightFirmwarePciNodeUpgrade#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#propagated DataIntersightFirmwarePciNodeUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#propagated DataIntersightFirmwarePciNodeUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#sys_tag DataIntersightFirmwarePciNodeUpgrade#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#sys_tag DataIntersightFirmwarePciNodeUpgrade#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -6933,25 +6933,25 @@ export interface DataIntersightFirmwarePciNodeUpgradeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#type DataIntersightFirmwarePciNodeUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#type DataIntersightFirmwarePciNodeUpgrade#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#value DataIntersightFirmwarePciNodeUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#value DataIntersightFirmwarePciNodeUpgrade#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#ancestor_definitions DataIntersightFirmwarePciNodeUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#ancestor_definitions DataIntersightFirmwarePciNodeUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwarePciNodeUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#definition DataIntersightFirmwarePciNodeUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#definition DataIntersightFirmwarePciNodeUpgrade#definition}
   */
   readonly definition?: DataIntersightFirmwarePciNodeUpgradeTagsDefinition;
 }
@@ -7270,7 +7270,7 @@ export class DataIntersightFirmwarePciNodeUpgradeTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightFirmwarePciNodeUpgradeUpgradeImpact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7278,19 +7278,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeUpgradeImpact {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7303,7 +7303,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeUpgradeImpact {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -7503,7 +7503,7 @@ export class DataIntersightFirmwarePciNodeUpgradeUpgradeImpactOutputReference ex
 }
 export interface DataIntersightFirmwarePciNodeUpgradeUpgradeStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7511,19 +7511,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeUpgradeStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7536,7 +7536,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeUpgradeStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -7736,7 +7736,7 @@ export class DataIntersightFirmwarePciNodeUpgradeUpgradeStatusOutputReference ex
 }
 export interface DataIntersightFirmwarePciNodeUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7744,19 +7744,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7769,7 +7769,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -8001,7 +8001,7 @@ export class DataIntersightFirmwarePciNodeUpgradeVersionContextInterestedMosList
 }
 export interface DataIntersightFirmwarePciNodeUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8009,19 +8009,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#moid DataIntersightFirmwarePciNodeUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8034,7 +8034,7 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#selector DataIntersightFirmwarePciNodeUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -8234,7 +8234,7 @@ export class DataIntersightFirmwarePciNodeUpgradeVersionContextRefMoOutputRefere
 }
 export interface DataIntersightFirmwarePciNodeUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#additional_properties DataIntersightFirmwarePciNodeUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8242,32 +8242,32 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#class_id DataIntersightFirmwarePciNodeUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#marked_for_deletion DataIntersightFirmwarePciNodeUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#marked_for_deletion DataIntersightFirmwarePciNodeUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#nr_version DataIntersightFirmwarePciNodeUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#nr_version DataIntersightFirmwarePciNodeUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#object_type DataIntersightFirmwarePciNodeUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#timestamp DataIntersightFirmwarePciNodeUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#timestamp DataIntersightFirmwarePciNodeUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8278,19 +8278,19 @@ export interface DataIntersightFirmwarePciNodeUpgradeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#version_type DataIntersightFirmwarePciNodeUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#version_type DataIntersightFirmwarePciNodeUpgrade#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#interested_mos DataIntersightFirmwarePciNodeUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#interested_mos DataIntersightFirmwarePciNodeUpgrade#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwarePciNodeUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#ref_mo DataIntersightFirmwarePciNodeUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#ref_mo DataIntersightFirmwarePciNodeUpgrade#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwarePciNodeUpgradeVersionContextRefMo;
 }
@@ -8606,7 +8606,7 @@ export class DataIntersightFirmwarePciNodeUpgradeVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade}
 */
 export class DataIntersightFirmwarePciNodeUpgrade extends cdktf.TerraformDataSource {
 
@@ -8622,7 +8622,7 @@ export class DataIntersightFirmwarePciNodeUpgrade extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightFirmwarePciNodeUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwarePciNodeUpgrade to import
-  * @param importFromId The id of the existing DataIntersightFirmwarePciNodeUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwarePciNodeUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwarePciNodeUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8634,7 +8634,7 @@ export class DataIntersightFirmwarePciNodeUpgrade extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_pci_node_upgrade intersight_firmware_pci_node_upgrade} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8645,8 +8645,8 @@ export class DataIntersightFirmwarePciNodeUpgrade extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_firmware_pci_node_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

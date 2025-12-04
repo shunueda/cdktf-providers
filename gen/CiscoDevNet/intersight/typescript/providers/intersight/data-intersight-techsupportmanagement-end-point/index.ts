@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightTechsupportmanagementEndPointConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#account_moid DataIntersightTechsupportmanagementEndPoint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#account_moid DataIntersightTechsupportmanagementEndPoint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightTechsupportmanagementEndPointConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#create_time DataIntersightTechsupportmanagementEndPoint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#create_time DataIntersightTechsupportmanagementEndPoint#create_time}
   */
   readonly createTime?: string;
   /**
   * The device registration moid of the endpoint device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#device_moid DataIntersightTechsupportmanagementEndPoint#device_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#device_moid DataIntersightTechsupportmanagementEndPoint#device_moid}
   */
   readonly deviceMoid?: string;
   /**
   * The device object type for the managed end point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#device_type DataIntersightTechsupportmanagementEndPoint#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#device_type DataIntersightTechsupportmanagementEndPoint#device_type}
   */
   readonly deviceType?: string;
   /**
   * The distinguished name, if any, for the managed end point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#dn DataIntersightTechsupportmanagementEndPoint#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#dn DataIntersightTechsupportmanagementEndPoint#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#domain_group_moid DataIntersightTechsupportmanagementEndPoint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#domain_group_moid DataIntersightTechsupportmanagementEndPoint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#id DataIntersightTechsupportmanagementEndPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#id DataIntersightTechsupportmanagementEndPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,30 +65,30 @@ export interface DataIntersightTechsupportmanagementEndPointConfig extends cdktf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#mod_time DataIntersightTechsupportmanagementEndPoint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#mod_time DataIntersightTechsupportmanagementEndPoint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#owners DataIntersightTechsupportmanagementEndPoint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#owners DataIntersightTechsupportmanagementEndPoint#owners}
   */
   readonly owners?: string[];
   /**
   * The product identifier of the managed end point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#pid DataIntersightTechsupportmanagementEndPoint#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#pid DataIntersightTechsupportmanagementEndPoint#pid}
   */
   readonly pid?: string;
   /**
@@ -177,68 +177,68 @@ export interface DataIntersightTechsupportmanagementEndPointConfig extends cdktf
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#platform_type DataIntersightTechsupportmanagementEndPoint#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#platform_type DataIntersightTechsupportmanagementEndPoint#platform_type}
   */
   readonly platformType?: string;
   /**
   * The serial identifier for the managed end point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#serial DataIntersightTechsupportmanagementEndPoint#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#serial DataIntersightTechsupportmanagementEndPoint#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#shared_scope DataIntersightTechsupportmanagementEndPoint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#shared_scope DataIntersightTechsupportmanagementEndPoint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#ancestors DataIntersightTechsupportmanagementEndPoint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#ancestors DataIntersightTechsupportmanagementEndPoint#ancestors}
   */
   readonly ancestors?: DataIntersightTechsupportmanagementEndPointAncestors[] | cdktf.IResolvable;
   /**
   * cluster_member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#cluster_member DataIntersightTechsupportmanagementEndPoint#cluster_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#cluster_member DataIntersightTechsupportmanagementEndPoint#cluster_member}
   */
   readonly clusterMember?: DataIntersightTechsupportmanagementEndPointClusterMember;
   /**
   * device_registration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#device_registration DataIntersightTechsupportmanagementEndPoint#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#device_registration DataIntersightTechsupportmanagementEndPoint#device_registration}
   */
   readonly deviceRegistration?: DataIntersightTechsupportmanagementEndPointDeviceRegistration;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#parent DataIntersightTechsupportmanagementEndPoint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#parent DataIntersightTechsupportmanagementEndPoint#parent}
   */
   readonly parent?: DataIntersightTechsupportmanagementEndPointParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#permission_resources DataIntersightTechsupportmanagementEndPoint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#permission_resources DataIntersightTechsupportmanagementEndPoint#permission_resources}
   */
   readonly permissionResources?: DataIntersightTechsupportmanagementEndPointPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#tags DataIntersightTechsupportmanagementEndPoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#tags DataIntersightTechsupportmanagementEndPoint#tags}
   */
   readonly tags?: DataIntersightTechsupportmanagementEndPointTags[] | cdktf.IResolvable;
   /**
   * target_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#target_resource DataIntersightTechsupportmanagementEndPoint#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#target_resource DataIntersightTechsupportmanagementEndPoint#target_resource}
   */
   readonly targetResource?: DataIntersightTechsupportmanagementEndPointTargetResource;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#version_context DataIntersightTechsupportmanagementEndPoint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#version_context DataIntersightTechsupportmanagementEndPoint#version_context}
   */
   readonly versionContext?: DataIntersightTechsupportmanagementEndPointVersionContext;
 }
@@ -1621,7 +1621,7 @@ export class DataIntersightTechsupportmanagementEndPointResultsList extends cdkt
 }
 export interface DataIntersightTechsupportmanagementEndPointAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1629,19 +1629,19 @@ export interface DataIntersightTechsupportmanagementEndPointAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1654,7 +1654,7 @@ export interface DataIntersightTechsupportmanagementEndPointAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -1886,7 +1886,7 @@ export class DataIntersightTechsupportmanagementEndPointAncestorsList extends cd
 }
 export interface DataIntersightTechsupportmanagementEndPointClusterMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1894,19 +1894,19 @@ export interface DataIntersightTechsupportmanagementEndPointClusterMember {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1919,7 +1919,7 @@ export interface DataIntersightTechsupportmanagementEndPointClusterMember {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -2119,7 +2119,7 @@ export class DataIntersightTechsupportmanagementEndPointClusterMemberOutputRefer
 }
 export interface DataIntersightTechsupportmanagementEndPointDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2127,19 +2127,19 @@ export interface DataIntersightTechsupportmanagementEndPointDeviceRegistration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2152,7 +2152,7 @@ export interface DataIntersightTechsupportmanagementEndPointDeviceRegistration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -2352,7 +2352,7 @@ export class DataIntersightTechsupportmanagementEndPointDeviceRegistrationOutput
 }
 export interface DataIntersightTechsupportmanagementEndPointParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2360,19 +2360,19 @@ export interface DataIntersightTechsupportmanagementEndPointParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2385,7 +2385,7 @@ export interface DataIntersightTechsupportmanagementEndPointParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -2585,7 +2585,7 @@ export class DataIntersightTechsupportmanagementEndPointParentOutputReference ex
 }
 export interface DataIntersightTechsupportmanagementEndPointPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2593,19 +2593,19 @@ export interface DataIntersightTechsupportmanagementEndPointPermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2618,7 +2618,7 @@ export interface DataIntersightTechsupportmanagementEndPointPermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -2850,7 +2850,7 @@ export class DataIntersightTechsupportmanagementEndPointPermissionResourcesList 
 }
 export interface DataIntersightTechsupportmanagementEndPointTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2858,19 +2858,19 @@ export interface DataIntersightTechsupportmanagementEndPointTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2883,7 +2883,7 @@ export interface DataIntersightTechsupportmanagementEndPointTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -3115,7 +3115,7 @@ export class DataIntersightTechsupportmanagementEndPointTagsAncestorDefinitionsL
 }
 export interface DataIntersightTechsupportmanagementEndPointTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3123,19 +3123,19 @@ export interface DataIntersightTechsupportmanagementEndPointTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3148,7 +3148,7 @@ export interface DataIntersightTechsupportmanagementEndPointTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -3348,25 +3348,25 @@ export class DataIntersightTechsupportmanagementEndPointTagsDefinitionOutputRefe
 }
 export interface DataIntersightTechsupportmanagementEndPointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#key DataIntersightTechsupportmanagementEndPoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#key DataIntersightTechsupportmanagementEndPoint#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#propagated DataIntersightTechsupportmanagementEndPoint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#propagated DataIntersightTechsupportmanagementEndPoint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#sys_tag DataIntersightTechsupportmanagementEndPoint#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#sys_tag DataIntersightTechsupportmanagementEndPoint#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3374,25 +3374,25 @@ export interface DataIntersightTechsupportmanagementEndPointTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#type DataIntersightTechsupportmanagementEndPoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#type DataIntersightTechsupportmanagementEndPoint#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#value DataIntersightTechsupportmanagementEndPoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#value DataIntersightTechsupportmanagementEndPoint#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#ancestor_definitions DataIntersightTechsupportmanagementEndPoint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#ancestor_definitions DataIntersightTechsupportmanagementEndPoint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightTechsupportmanagementEndPointTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#definition DataIntersightTechsupportmanagementEndPoint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#definition DataIntersightTechsupportmanagementEndPoint#definition}
   */
   readonly definition?: DataIntersightTechsupportmanagementEndPointTagsDefinition;
 }
@@ -3711,7 +3711,7 @@ export class DataIntersightTechsupportmanagementEndPointTagsList extends cdktf.C
 }
 export interface DataIntersightTechsupportmanagementEndPointTargetResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3719,19 +3719,19 @@ export interface DataIntersightTechsupportmanagementEndPointTargetResource {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3744,7 +3744,7 @@ export interface DataIntersightTechsupportmanagementEndPointTargetResource {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -3944,7 +3944,7 @@ export class DataIntersightTechsupportmanagementEndPointTargetResourceOutputRefe
 }
 export interface DataIntersightTechsupportmanagementEndPointVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3952,19 +3952,19 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3977,7 +3977,7 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -4209,7 +4209,7 @@ export class DataIntersightTechsupportmanagementEndPointVersionContextInterested
 }
 export interface DataIntersightTechsupportmanagementEndPointVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4217,19 +4217,19 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#moid DataIntersightTechsupportmanagementEndPoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4242,7 +4242,7 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#selector DataIntersightTechsupportmanagementEndPoint#selector}
   */
   readonly selector?: string;
 }
@@ -4442,7 +4442,7 @@ export class DataIntersightTechsupportmanagementEndPointVersionContextRefMoOutpu
 }
 export interface DataIntersightTechsupportmanagementEndPointVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#additional_properties DataIntersightTechsupportmanagementEndPoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4450,32 +4450,32 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#class_id DataIntersightTechsupportmanagementEndPoint#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#marked_for_deletion DataIntersightTechsupportmanagementEndPoint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#marked_for_deletion DataIntersightTechsupportmanagementEndPoint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#nr_version DataIntersightTechsupportmanagementEndPoint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#nr_version DataIntersightTechsupportmanagementEndPoint#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#object_type DataIntersightTechsupportmanagementEndPoint#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#timestamp DataIntersightTechsupportmanagementEndPoint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#timestamp DataIntersightTechsupportmanagementEndPoint#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4486,19 +4486,19 @@ export interface DataIntersightTechsupportmanagementEndPointVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#version_type DataIntersightTechsupportmanagementEndPoint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#version_type DataIntersightTechsupportmanagementEndPoint#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#interested_mos DataIntersightTechsupportmanagementEndPoint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#interested_mos DataIntersightTechsupportmanagementEndPoint#interested_mos}
   */
   readonly interestedMos?: DataIntersightTechsupportmanagementEndPointVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#ref_mo DataIntersightTechsupportmanagementEndPoint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#ref_mo DataIntersightTechsupportmanagementEndPoint#ref_mo}
   */
   readonly refMo?: DataIntersightTechsupportmanagementEndPointVersionContextRefMo;
 }
@@ -4814,7 +4814,7 @@ export class DataIntersightTechsupportmanagementEndPointVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point intersight_techsupportmanagement_end_point}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point intersight_techsupportmanagement_end_point}
 */
 export class DataIntersightTechsupportmanagementEndPoint extends cdktf.TerraformDataSource {
 
@@ -4830,7 +4830,7 @@ export class DataIntersightTechsupportmanagementEndPoint extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightTechsupportmanagementEndPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightTechsupportmanagementEndPoint to import
-  * @param importFromId The id of the existing DataIntersightTechsupportmanagementEndPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightTechsupportmanagementEndPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightTechsupportmanagementEndPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4842,7 +4842,7 @@ export class DataIntersightTechsupportmanagementEndPoint extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/techsupportmanagement_end_point intersight_techsupportmanagement_end_point} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/techsupportmanagement_end_point intersight_techsupportmanagement_end_point} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4853,8 +4853,8 @@ export class DataIntersightTechsupportmanagementEndPoint extends cdktf.Terraform
       terraformResourceType: 'intersight_techsupportmanagement_end_point',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

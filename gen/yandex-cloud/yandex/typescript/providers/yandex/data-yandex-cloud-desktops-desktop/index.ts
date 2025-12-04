@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataYandexCloudDesktopsDesktopConfig extends cdktf.TerraformMet
   /**
   * The id of the Desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop#desktop_id DataYandexCloudDesktopsDesktop#desktop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop#desktop_id DataYandexCloudDesktopsDesktop#desktop_id}
   */
   readonly desktopId?: string;
   /**
   * The folder containing the Desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop#folder_id DataYandexCloudDesktopsDesktop#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop#folder_id DataYandexCloudDesktopsDesktop#folder_id}
   */
   readonly folderId?: string;
   /**
   * The name of the Desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop#name DataYandexCloudDesktopsDesktop#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop#name DataYandexCloudDesktopsDesktop#name}
   */
   readonly name?: string;
 }
@@ -108,7 +108,7 @@ export class DataYandexCloudDesktopsDesktopMembersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop yandex_cloud_desktops_desktop}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop yandex_cloud_desktops_desktop}
 */
 export class DataYandexCloudDesktopsDesktop extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataYandexCloudDesktopsDesktop extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexCloudDesktopsDesktop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexCloudDesktopsDesktop to import
-  * @param importFromId The id of the existing DataYandexCloudDesktopsDesktop that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexCloudDesktopsDesktop that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexCloudDesktopsDesktop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataYandexCloudDesktopsDesktop extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_desktop yandex_cloud_desktops_desktop} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_desktop yandex_cloud_desktops_desktop} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataYandexCloudDesktopsDesktop extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_cloud_desktops_desktop',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

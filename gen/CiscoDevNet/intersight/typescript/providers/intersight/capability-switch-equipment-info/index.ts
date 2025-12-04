@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilitySwitchEquipmentInfoConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#account_moid CapabilitySwitchEquipmentInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#account_moid CapabilitySwitchEquipmentInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#ancestors CapabilitySwitchEquipmentInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#ancestors CapabilitySwitchEquipmentInfo#ancestors}
   */
   readonly ancestors?: CapabilitySwitchEquipmentInfoAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface CapabilitySwitchEquipmentInfoConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#create_time CapabilitySwitchEquipmentInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#create_time CapabilitySwitchEquipmentInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#domain_group_moid CapabilitySwitchEquipmentInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#domain_group_moid CapabilitySwitchEquipmentInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#id CapabilitySwitchEquipmentInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#id CapabilitySwitchEquipmentInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,112 +53,112 @@ export interface CapabilitySwitchEquipmentInfoConfig extends cdktf.TerraformMeta
   /**
   * Maximum number of fan modules/trays present on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#max_fan_modules CapabilitySwitchEquipmentInfo#max_fan_modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#max_fan_modules CapabilitySwitchEquipmentInfo#max_fan_modules}
   */
   readonly maxFanModules?: number;
   /**
   * Maximum number of fans present in a fan module/tray on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#max_fans_in_fan_module CapabilitySwitchEquipmentInfo#max_fans_in_fan_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#max_fans_in_fan_module CapabilitySwitchEquipmentInfo#max_fans_in_fan_module}
   */
   readonly maxFansInFanModule?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#mod_time CapabilitySwitchEquipmentInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#mod_time CapabilitySwitchEquipmentInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#name CapabilitySwitchEquipmentInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#name CapabilitySwitchEquipmentInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#owners CapabilitySwitchEquipmentInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#owners CapabilitySwitchEquipmentInfo#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#parent CapabilitySwitchEquipmentInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#parent CapabilitySwitchEquipmentInfo#parent}
   */
   readonly parent?: CapabilitySwitchEquipmentInfoParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#permission_resources CapabilitySwitchEquipmentInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#permission_resources CapabilitySwitchEquipmentInfo#permission_resources}
   */
   readonly permissionResources?: CapabilitySwitchEquipmentInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * Product Identifier for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#pid CapabilitySwitchEquipmentInfo#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#pid CapabilitySwitchEquipmentInfo#pid}
   */
   readonly pid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#shared_scope CapabilitySwitchEquipmentInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#shared_scope CapabilitySwitchEquipmentInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#sku CapabilitySwitchEquipmentInfo#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#sku CapabilitySwitchEquipmentInfo#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#tags CapabilitySwitchEquipmentInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#tags CapabilitySwitchEquipmentInfo#tags}
   */
   readonly tags?: CapabilitySwitchEquipmentInfoTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#version_context CapabilitySwitchEquipmentInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#version_context CapabilitySwitchEquipmentInfo#version_context}
   */
   readonly versionContext?: CapabilitySwitchEquipmentInfoVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#vid CapabilitySwitchEquipmentInfo#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#vid CapabilitySwitchEquipmentInfo#vid}
   */
   readonly vid?: string;
 }
 export interface CapabilitySwitchEquipmentInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -390,23 +390,23 @@ export class CapabilitySwitchEquipmentInfoAncestorsList extends cdktf.ComplexLis
 }
 export interface CapabilitySwitchEquipmentInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -638,23 +638,23 @@ export class CapabilitySwitchEquipmentInfoParentList extends cdktf.ComplexList {
 }
 export interface CapabilitySwitchEquipmentInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -886,23 +886,23 @@ export class CapabilitySwitchEquipmentInfoPermissionResourcesList extends cdktf.
 }
 export interface CapabilitySwitchEquipmentInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1134,23 +1134,23 @@ export class CapabilitySwitchEquipmentInfoTagsAncestorDefinitionsList extends cd
 }
 export interface CapabilitySwitchEquipmentInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1382,35 +1382,35 @@ export class CapabilitySwitchEquipmentInfoTagsDefinitionList extends cdktf.Compl
 }
 export interface CapabilitySwitchEquipmentInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#ancestor_definitions CapabilitySwitchEquipmentInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#ancestor_definitions CapabilitySwitchEquipmentInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilitySwitchEquipmentInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#definition CapabilitySwitchEquipmentInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#definition CapabilitySwitchEquipmentInfo#definition}
   */
   readonly definition?: CapabilitySwitchEquipmentInfoTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#key CapabilitySwitchEquipmentInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#key CapabilitySwitchEquipmentInfo#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#propagated CapabilitySwitchEquipmentInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#propagated CapabilitySwitchEquipmentInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#sys_tag CapabilitySwitchEquipmentInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#sys_tag CapabilitySwitchEquipmentInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#type CapabilitySwitchEquipmentInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#type CapabilitySwitchEquipmentInfo#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#value CapabilitySwitchEquipmentInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#value CapabilitySwitchEquipmentInfo#value}
   */
   readonly value?: string;
 }
@@ -1729,23 +1729,23 @@ export class CapabilitySwitchEquipmentInfoTagsList extends cdktf.ComplexList {
 }
 export interface CapabilitySwitchEquipmentInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1977,23 +1977,23 @@ export class CapabilitySwitchEquipmentInfoVersionContextInterestedMosList extend
 }
 export interface CapabilitySwitchEquipmentInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#moid CapabilitySwitchEquipmentInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#selector CapabilitySwitchEquipmentInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2225,39 +2225,39 @@ export class CapabilitySwitchEquipmentInfoVersionContextRefMoList extends cdktf.
 }
 export interface CapabilitySwitchEquipmentInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#additional_properties CapabilitySwitchEquipmentInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#class_id CapabilitySwitchEquipmentInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#interested_mos CapabilitySwitchEquipmentInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#interested_mos CapabilitySwitchEquipmentInfo#interested_mos}
   */
   readonly interestedMos?: CapabilitySwitchEquipmentInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#marked_for_deletion CapabilitySwitchEquipmentInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#marked_for_deletion CapabilitySwitchEquipmentInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#nr_version CapabilitySwitchEquipmentInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#nr_version CapabilitySwitchEquipmentInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#object_type CapabilitySwitchEquipmentInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#ref_mo CapabilitySwitchEquipmentInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#ref_mo CapabilitySwitchEquipmentInfo#ref_mo}
   */
   readonly refMo?: CapabilitySwitchEquipmentInfoVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#timestamp CapabilitySwitchEquipmentInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#timestamp CapabilitySwitchEquipmentInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#version_type CapabilitySwitchEquipmentInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#version_type CapabilitySwitchEquipmentInfo#version_type}
   */
   readonly versionType?: string;
 }
@@ -2605,7 +2605,7 @@ export class CapabilitySwitchEquipmentInfoVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info intersight_capability_switch_equipment_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info intersight_capability_switch_equipment_info}
 */
 export class CapabilitySwitchEquipmentInfo extends cdktf.TerraformResource {
 
@@ -2621,7 +2621,7 @@ export class CapabilitySwitchEquipmentInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilitySwitchEquipmentInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilitySwitchEquipmentInfo to import
-  * @param importFromId The id of the existing CapabilitySwitchEquipmentInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilitySwitchEquipmentInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilitySwitchEquipmentInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2633,7 +2633,7 @@ export class CapabilitySwitchEquipmentInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_equipment_info intersight_capability_switch_equipment_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_equipment_info intersight_capability_switch_equipment_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2644,8 +2644,8 @@ export class CapabilitySwitchEquipmentInfo extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_switch_equipment_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

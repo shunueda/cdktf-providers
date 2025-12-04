@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#account_moid DataIntersightCapabilityCimcFirmwareDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#account_moid DataIntersightCapabilityCimcFirmwareDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * Indicates whether the server uses ep proxy to communicate with the adapter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#adapter_ep_proxy_enabled DataIntersightCapabilityCimcFirmwareDescriptor#adapter_ep_proxy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#adapter_ep_proxy_enabled DataIntersightCapabilityCimcFirmwareDescriptor#adapter_ep_proxy_enabled}
   */
   readonly adapterEpProxyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#create_time DataIntersightCapabilityCimcFirmwareDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#create_time DataIntersightCapabilityCimcFirmwareDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#description DataIntersightCapabilityCimcFirmwareDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#description DataIntersightCapabilityCimcFirmwareDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#domain_group_moid DataIntersightCapabilityCimcFirmwareDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#domain_group_moid DataIntersightCapabilityCimcFirmwareDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#id DataIntersightCapabilityCimcFirmwareDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#id DataIntersightCapabilityCimcFirmwareDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,103 +59,103 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorConfig extends cd
   /**
   * Minimum server firmware version for local users password properties feature support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#local_user_pswd_supported_ver DataIntersightCapabilityCimcFirmwareDescriptor#local_user_pswd_supported_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#local_user_pswd_supported_ver DataIntersightCapabilityCimcFirmwareDescriptor#local_user_pswd_supported_ver}
   */
   readonly localUserPswdSupportedVer?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#mod_time DataIntersightCapabilityCimcFirmwareDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#mod_time DataIntersightCapabilityCimcFirmwareDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#model DataIntersightCapabilityCimcFirmwareDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#model DataIntersightCapabilityCimcFirmwareDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#nr_version DataIntersightCapabilityCimcFirmwareDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#nr_version DataIntersightCapabilityCimcFirmwareDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#owners DataIntersightCapabilityCimcFirmwareDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#owners DataIntersightCapabilityCimcFirmwareDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * Revision information for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#revision DataIntersightCapabilityCimcFirmwareDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#revision DataIntersightCapabilityCimcFirmwareDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#shared_scope DataIntersightCapabilityCimcFirmwareDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#shared_scope DataIntersightCapabilityCimcFirmwareDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Minimum server firmware version for UUID feature support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#uuid_supported_ver DataIntersightCapabilityCimcFirmwareDescriptor#uuid_supported_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#uuid_supported_ver DataIntersightCapabilityCimcFirmwareDescriptor#uuid_supported_ver}
   */
   readonly uuidSupportedVer?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#vendor DataIntersightCapabilityCimcFirmwareDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#vendor DataIntersightCapabilityCimcFirmwareDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#ancestors DataIntersightCapabilityCimcFirmwareDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#ancestors DataIntersightCapabilityCimcFirmwareDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityCimcFirmwareDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#capabilities DataIntersightCapabilityCimcFirmwareDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#capabilities DataIntersightCapabilityCimcFirmwareDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightCapabilityCimcFirmwareDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#parent DataIntersightCapabilityCimcFirmwareDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#parent DataIntersightCapabilityCimcFirmwareDescriptor#parent}
   */
   readonly parent?: DataIntersightCapabilityCimcFirmwareDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#permission_resources DataIntersightCapabilityCimcFirmwareDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#permission_resources DataIntersightCapabilityCimcFirmwareDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityCimcFirmwareDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#tags DataIntersightCapabilityCimcFirmwareDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#tags DataIntersightCapabilityCimcFirmwareDescriptor#tags}
   */
   readonly tags?: DataIntersightCapabilityCimcFirmwareDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#version_context DataIntersightCapabilityCimcFirmwareDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#version_context DataIntersightCapabilityCimcFirmwareDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityCimcFirmwareDescriptorVersionContext;
 }
@@ -1346,7 +1346,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorResultsList extends c
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1354,19 +1354,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1379,7 +1379,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1611,7 +1611,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorAncestorsList extends
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1619,19 +1619,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1644,7 +1644,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1876,7 +1876,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorCapabilitiesList exte
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1884,19 +1884,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1909,7 +1909,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2109,7 +2109,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorParentOutputReference
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2117,19 +2117,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorPermissionResourc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2142,7 +2142,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorPermissionResourc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2374,7 +2374,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorPermissionResourcesLi
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2382,19 +2382,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsAncestorDefin
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2407,7 +2407,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsAncestorDefin
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2639,7 +2639,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorTagsAncestorDefinitio
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2647,19 +2647,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2672,7 +2672,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2872,25 +2872,25 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorTagsDefinitionOutputR
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#key DataIntersightCapabilityCimcFirmwareDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#key DataIntersightCapabilityCimcFirmwareDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#propagated DataIntersightCapabilityCimcFirmwareDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#propagated DataIntersightCapabilityCimcFirmwareDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#sys_tag DataIntersightCapabilityCimcFirmwareDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#sys_tag DataIntersightCapabilityCimcFirmwareDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2898,25 +2898,25 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#type DataIntersightCapabilityCimcFirmwareDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#type DataIntersightCapabilityCimcFirmwareDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#value DataIntersightCapabilityCimcFirmwareDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#value DataIntersightCapabilityCimcFirmwareDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#ancestor_definitions DataIntersightCapabilityCimcFirmwareDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#ancestor_definitions DataIntersightCapabilityCimcFirmwareDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityCimcFirmwareDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#definition DataIntersightCapabilityCimcFirmwareDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#definition DataIntersightCapabilityCimcFirmwareDescriptor#definition}
   */
   readonly definition?: DataIntersightCapabilityCimcFirmwareDescriptorTagsDefinition;
 }
@@ -3235,7 +3235,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorTagsList extends cdkt
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3243,19 +3243,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextInt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3268,7 +3268,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextInt
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3500,7 +3500,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorVersionContextInteres
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3508,19 +3508,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextRef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#moid DataIntersightCapabilityCimcFirmwareDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3533,7 +3533,7 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContextRef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#selector DataIntersightCapabilityCimcFirmwareDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3733,7 +3733,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorVersionContextRefMoOu
 }
 export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#additional_properties DataIntersightCapabilityCimcFirmwareDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3741,32 +3741,32 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#class_id DataIntersightCapabilityCimcFirmwareDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#marked_for_deletion DataIntersightCapabilityCimcFirmwareDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#marked_for_deletion DataIntersightCapabilityCimcFirmwareDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#nr_version DataIntersightCapabilityCimcFirmwareDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#nr_version DataIntersightCapabilityCimcFirmwareDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#object_type DataIntersightCapabilityCimcFirmwareDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#timestamp DataIntersightCapabilityCimcFirmwareDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#timestamp DataIntersightCapabilityCimcFirmwareDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3777,19 +3777,19 @@ export interface DataIntersightCapabilityCimcFirmwareDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#version_type DataIntersightCapabilityCimcFirmwareDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#version_type DataIntersightCapabilityCimcFirmwareDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#interested_mos DataIntersightCapabilityCimcFirmwareDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#interested_mos DataIntersightCapabilityCimcFirmwareDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityCimcFirmwareDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#ref_mo DataIntersightCapabilityCimcFirmwareDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#ref_mo DataIntersightCapabilityCimcFirmwareDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityCimcFirmwareDescriptorVersionContextRefMo;
 }
@@ -4105,7 +4105,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptorVersionContextOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor intersight_capability_cimc_firmware_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor intersight_capability_cimc_firmware_descriptor}
 */
 export class DataIntersightCapabilityCimcFirmwareDescriptor extends cdktf.TerraformDataSource {
 
@@ -4121,7 +4121,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptor extends cdktf.Terraf
   * Generates CDKTF code for importing a DataIntersightCapabilityCimcFirmwareDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityCimcFirmwareDescriptor to import
-  * @param importFromId The id of the existing DataIntersightCapabilityCimcFirmwareDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityCimcFirmwareDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityCimcFirmwareDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4133,7 +4133,7 @@ export class DataIntersightCapabilityCimcFirmwareDescriptor extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cimc_firmware_descriptor intersight_capability_cimc_firmware_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cimc_firmware_descriptor intersight_capability_cimc_firmware_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4144,8 +4144,8 @@ export class DataIntersightCapabilityCimcFirmwareDescriptor extends cdktf.Terraf
       terraformResourceType: 'intersight_capability_cimc_firmware_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

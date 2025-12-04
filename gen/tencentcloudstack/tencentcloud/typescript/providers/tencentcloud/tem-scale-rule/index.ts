@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TemScaleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#application_id TemScaleRule#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#application_id TemScaleRule#application_id}
   */
   readonly applicationId: string;
   /**
   * environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#environment_id TemScaleRule#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#environment_id TemScaleRule#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#id TemScaleRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#id TemScaleRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface TemScaleRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * application ID, which is combined by environment ID and application ID, like `en-o5edaepv#app-3j29aa2p`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#workload_id TemScaleRule#workload_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#workload_id TemScaleRule#workload_id}
   */
   readonly workloadId: string;
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#autoscaler TemScaleRule#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#autoscaler TemScaleRule#autoscaler}
   */
   readonly autoscaler: TemScaleRuleAutoscaler;
 }
@@ -43,13 +43,13 @@ export interface TemScaleRuleAutoscalerCronHorizontalAutoscalerSchedules {
   /**
   * start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#start_at TemScaleRule#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#start_at TemScaleRule#start_at}
   */
   readonly startAt: string;
   /**
   * target replica number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#target_replicas TemScaleRule#target_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#target_replicas TemScaleRule#target_replicas}
   */
   readonly targetReplicas: number;
 }
@@ -190,31 +190,31 @@ export interface TemScaleRuleAutoscalerCronHorizontalAutoscaler {
   /**
   * enable scaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#name TemScaleRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#name TemScaleRule#name}
   */
   readonly name: string;
   /**
   * period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#period TemScaleRule#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#period TemScaleRule#period}
   */
   readonly period: string;
   /**
   * priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#priority TemScaleRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#priority TemScaleRule#priority}
   */
   readonly priority: number;
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#schedules TemScaleRule#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#schedules TemScaleRule#schedules}
   */
   readonly schedules: TemScaleRuleAutoscalerCronHorizontalAutoscalerSchedules[] | cdktf.IResolvable;
 }
@@ -433,31 +433,31 @@ export interface TemScaleRuleAutoscalerHorizontalAutoscaler {
   /**
   * enable scaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * maximal replica number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#max_replicas TemScaleRule#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#max_replicas TemScaleRule#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * metric name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#metrics TemScaleRule#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#metrics TemScaleRule#metrics}
   */
   readonly metrics: string;
   /**
   * minimal replica number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#min_replicas TemScaleRule#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#min_replicas TemScaleRule#min_replicas}
   */
   readonly minReplicas: number;
   /**
   * metric threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#threshold TemScaleRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#threshold TemScaleRule#threshold}
   */
   readonly threshold: number;
 }
@@ -676,43 +676,43 @@ export interface TemScaleRuleAutoscaler {
   /**
   * name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#autoscaler_name TemScaleRule#autoscaler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#autoscaler_name TemScaleRule#autoscaler_name}
   */
   readonly autoscalerName: string;
   /**
   * description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#description TemScaleRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#description TemScaleRule#description}
   */
   readonly description?: string;
   /**
   * enable AutoScaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#enabled TemScaleRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * maximal replica number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#max_replicas TemScaleRule#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#max_replicas TemScaleRule#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * minimal replica number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#min_replicas TemScaleRule#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#min_replicas TemScaleRule#min_replicas}
   */
   readonly minReplicas: number;
   /**
   * cron_horizontal_autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#cron_horizontal_autoscaler TemScaleRule#cron_horizontal_autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#cron_horizontal_autoscaler TemScaleRule#cron_horizontal_autoscaler}
   */
   readonly cronHorizontalAutoscaler?: TemScaleRuleAutoscalerCronHorizontalAutoscaler[] | cdktf.IResolvable;
   /**
   * horizontal_autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#horizontal_autoscaler TemScaleRule#horizontal_autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#horizontal_autoscaler TemScaleRule#horizontal_autoscaler}
   */
   readonly horizontalAutoscaler?: TemScaleRuleAutoscalerHorizontalAutoscaler[] | cdktf.IResolvable;
 }
@@ -958,7 +958,7 @@ export class TemScaleRuleAutoscalerOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule tencentcloud_tem_scale_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule tencentcloud_tem_scale_rule}
 */
 export class TemScaleRule extends cdktf.TerraformResource {
 
@@ -974,7 +974,7 @@ export class TemScaleRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemScaleRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemScaleRule to import
-  * @param importFromId The id of the existing TemScaleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemScaleRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemScaleRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -986,7 +986,7 @@ export class TemScaleRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tem_scale_rule tencentcloud_tem_scale_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tem_scale_rule tencentcloud_tem_scale_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -997,8 +997,8 @@ export class TemScaleRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_scale_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

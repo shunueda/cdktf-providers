@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryApicFanDetailsConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#account_moid DataIntersightNiatelemetryApicFanDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#account_moid DataIntersightNiatelemetryApicFanDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryApicFanDetailsConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#create_time DataIntersightNiatelemetryApicFanDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#create_time DataIntersightNiatelemetryApicFanDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn for the fan in the inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#dn DataIntersightNiatelemetryApicFanDetails#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#dn DataIntersightNiatelemetryApicFanDetails#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#domain_group_moid DataIntersightNiatelemetryApicFanDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#domain_group_moid DataIntersightNiatelemetryApicFanDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#id DataIntersightNiatelemetryApicFanDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#id DataIntersightNiatelemetryApicFanDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,115 +53,115 @@ export interface DataIntersightNiatelemetryApicFanDetailsConfig extends cdktf.Te
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#mod_time DataIntersightNiatelemetryApicFanDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#mod_time DataIntersightNiatelemetryApicFanDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * Model number of the fan in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#model_number DataIntersightNiatelemetryApicFanDetails#model_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#model_number DataIntersightNiatelemetryApicFanDetails#model_number}
   */
   readonly modelNumber?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * Node id for the fan in the inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#node_id DataIntersightNiatelemetryApicFanDetails#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#node_id DataIntersightNiatelemetryApicFanDetails#node_id}
   */
   readonly nodeId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#owners DataIntersightNiatelemetryApicFanDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#owners DataIntersightNiatelemetryApicFanDetails#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#record_type DataIntersightNiatelemetryApicFanDetails#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#record_type DataIntersightNiatelemetryApicFanDetails#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#record_version DataIntersightNiatelemetryApicFanDetails#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#record_version DataIntersightNiatelemetryApicFanDetails#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Serial number of the fan in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#serial_number DataIntersightNiatelemetryApicFanDetails#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#serial_number DataIntersightNiatelemetryApicFanDetails#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#shared_scope DataIntersightNiatelemetryApicFanDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#shared_scope DataIntersightNiatelemetryApicFanDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#site_name DataIntersightNiatelemetryApicFanDetails#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#site_name DataIntersightNiatelemetryApicFanDetails#site_name}
   */
   readonly siteName?: string;
   /**
   * Vendor name of the fan in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#vendor_name DataIntersightNiatelemetryApicFanDetails#vendor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#vendor_name DataIntersightNiatelemetryApicFanDetails#vendor_name}
   */
   readonly vendorName?: string;
   /**
   * VID for the fan in the inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#vid DataIntersightNiatelemetryApicFanDetails#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#vid DataIntersightNiatelemetryApicFanDetails#vid}
   */
   readonly vid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#ancestors DataIntersightNiatelemetryApicFanDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#ancestors DataIntersightNiatelemetryApicFanDetails#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryApicFanDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#parent DataIntersightNiatelemetryApicFanDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#parent DataIntersightNiatelemetryApicFanDetails#parent}
   */
   readonly parent?: DataIntersightNiatelemetryApicFanDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#permission_resources DataIntersightNiatelemetryApicFanDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#permission_resources DataIntersightNiatelemetryApicFanDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryApicFanDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#registered_device DataIntersightNiatelemetryApicFanDetails#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#registered_device DataIntersightNiatelemetryApicFanDetails#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryApicFanDetailsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#tags DataIntersightNiatelemetryApicFanDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#tags DataIntersightNiatelemetryApicFanDetails#tags}
   */
   readonly tags?: DataIntersightNiatelemetryApicFanDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#version_context DataIntersightNiatelemetryApicFanDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#version_context DataIntersightNiatelemetryApicFanDetails#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryApicFanDetailsVersionContext;
 }
@@ -1357,7 +1357,7 @@ export class DataIntersightNiatelemetryApicFanDetailsResultsList extends cdktf.C
 }
 export interface DataIntersightNiatelemetryApicFanDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1365,19 +1365,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1390,7 +1390,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1622,7 +1622,7 @@ export class DataIntersightNiatelemetryApicFanDetailsAncestorsList extends cdktf
 }
 export interface DataIntersightNiatelemetryApicFanDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1630,19 +1630,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1655,7 +1655,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1855,7 +1855,7 @@ export class DataIntersightNiatelemetryApicFanDetailsParentOutputReference exten
 }
 export interface DataIntersightNiatelemetryApicFanDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1863,19 +1863,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1888,7 +1888,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2120,7 +2120,7 @@ export class DataIntersightNiatelemetryApicFanDetailsPermissionResourcesList ext
 }
 export interface DataIntersightNiatelemetryApicFanDetailsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2128,19 +2128,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2153,7 +2153,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2353,7 +2353,7 @@ export class DataIntersightNiatelemetryApicFanDetailsRegisteredDeviceOutputRefer
 }
 export interface DataIntersightNiatelemetryApicFanDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2361,19 +2361,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2386,7 +2386,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2618,7 +2618,7 @@ export class DataIntersightNiatelemetryApicFanDetailsTagsAncestorDefinitionsList
 }
 export interface DataIntersightNiatelemetryApicFanDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2626,19 +2626,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2651,7 +2651,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2851,25 +2851,25 @@ export class DataIntersightNiatelemetryApicFanDetailsTagsDefinitionOutputReferen
 }
 export interface DataIntersightNiatelemetryApicFanDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#key DataIntersightNiatelemetryApicFanDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#key DataIntersightNiatelemetryApicFanDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#propagated DataIntersightNiatelemetryApicFanDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#propagated DataIntersightNiatelemetryApicFanDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#sys_tag DataIntersightNiatelemetryApicFanDetails#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#sys_tag DataIntersightNiatelemetryApicFanDetails#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2877,25 +2877,25 @@ export interface DataIntersightNiatelemetryApicFanDetailsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#type DataIntersightNiatelemetryApicFanDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#type DataIntersightNiatelemetryApicFanDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#value DataIntersightNiatelemetryApicFanDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#value DataIntersightNiatelemetryApicFanDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#ancestor_definitions DataIntersightNiatelemetryApicFanDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#ancestor_definitions DataIntersightNiatelemetryApicFanDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryApicFanDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#definition DataIntersightNiatelemetryApicFanDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#definition DataIntersightNiatelemetryApicFanDetails#definition}
   */
   readonly definition?: DataIntersightNiatelemetryApicFanDetailsTagsDefinition;
 }
@@ -3214,7 +3214,7 @@ export class DataIntersightNiatelemetryApicFanDetailsTagsList extends cdktf.Comp
 }
 export interface DataIntersightNiatelemetryApicFanDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3222,19 +3222,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3247,7 +3247,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3479,7 +3479,7 @@ export class DataIntersightNiatelemetryApicFanDetailsVersionContextInterestedMos
 }
 export interface DataIntersightNiatelemetryApicFanDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3487,19 +3487,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#moid DataIntersightNiatelemetryApicFanDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3512,7 +3512,7 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#selector DataIntersightNiatelemetryApicFanDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3712,7 +3712,7 @@ export class DataIntersightNiatelemetryApicFanDetailsVersionContextRefMoOutputRe
 }
 export interface DataIntersightNiatelemetryApicFanDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#additional_properties DataIntersightNiatelemetryApicFanDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3720,32 +3720,32 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#class_id DataIntersightNiatelemetryApicFanDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#marked_for_deletion DataIntersightNiatelemetryApicFanDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#marked_for_deletion DataIntersightNiatelemetryApicFanDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#nr_version DataIntersightNiatelemetryApicFanDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#nr_version DataIntersightNiatelemetryApicFanDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#object_type DataIntersightNiatelemetryApicFanDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#timestamp DataIntersightNiatelemetryApicFanDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#timestamp DataIntersightNiatelemetryApicFanDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3756,19 +3756,19 @@ export interface DataIntersightNiatelemetryApicFanDetailsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#version_type DataIntersightNiatelemetryApicFanDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#version_type DataIntersightNiatelemetryApicFanDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#interested_mos DataIntersightNiatelemetryApicFanDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#interested_mos DataIntersightNiatelemetryApicFanDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryApicFanDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#ref_mo DataIntersightNiatelemetryApicFanDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#ref_mo DataIntersightNiatelemetryApicFanDetails#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryApicFanDetailsVersionContextRefMo;
 }
@@ -4084,7 +4084,7 @@ export class DataIntersightNiatelemetryApicFanDetailsVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details intersight_niatelemetry_apic_fan_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details intersight_niatelemetry_apic_fan_details}
 */
 export class DataIntersightNiatelemetryApicFanDetails extends cdktf.TerraformDataSource {
 
@@ -4100,7 +4100,7 @@ export class DataIntersightNiatelemetryApicFanDetails extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightNiatelemetryApicFanDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryApicFanDetails to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryApicFanDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryApicFanDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryApicFanDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4112,7 +4112,7 @@ export class DataIntersightNiatelemetryApicFanDetails extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_fan_details intersight_niatelemetry_apic_fan_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_fan_details intersight_niatelemetry_apic_fan_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4123,8 +4123,8 @@ export class DataIntersightNiatelemetryApicFanDetails extends cdktf.TerraformDat
       terraformResourceType: 'intersight_niatelemetry_apic_fan_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

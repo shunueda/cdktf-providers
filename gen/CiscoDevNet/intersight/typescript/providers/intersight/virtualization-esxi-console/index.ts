@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VirtualizationEsxiConsoleConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#account_moid VirtualizationEsxiConsole#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#account_moid VirtualizationEsxiConsole#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#ancestors VirtualizationEsxiConsole#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#ancestors VirtualizationEsxiConsole#ancestors}
   */
   readonly ancestors?: VirtualizationEsxiConsoleAncestors[] | cdktf.IResolvable;
   /**
@@ -28,49 +28,49 @@ export interface VirtualizationEsxiConsoleConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
   * The user agent IP address from which the session is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#client_ip_address VirtualizationEsxiConsole#client_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#client_ip_address VirtualizationEsxiConsole#client_ip_address}
   */
   readonly clientIpAddress?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#create_time VirtualizationEsxiConsole#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#create_time VirtualizationEsxiConsole#create_time}
   */
   readonly createTime?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#device_registration VirtualizationEsxiConsole#device_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#device_registration VirtualizationEsxiConsole#device_registration}
   */
   readonly deviceRegistration?: VirtualizationEsxiConsoleDeviceRegistration[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#domain_group_moid VirtualizationEsxiConsole#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#domain_group_moid VirtualizationEsxiConsole#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time at which the session ended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#end_time VirtualizationEsxiConsole#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#end_time VirtualizationEsxiConsole#end_time}
   */
   readonly endTime?: string;
   /**
   * A reference to a virtualizationVmwareHost resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#host VirtualizationEsxiConsole#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#host VirtualizationEsxiConsole#host}
   */
   readonly host?: VirtualizationEsxiConsoleHost[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#id VirtualizationEsxiConsole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#id VirtualizationEsxiConsole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,57 +79,57 @@ export interface VirtualizationEsxiConsoleConfig extends cdktf.TerraformMetaArgu
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#mod_time VirtualizationEsxiConsole#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#mod_time VirtualizationEsxiConsole#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#owners VirtualizationEsxiConsole#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#owners VirtualizationEsxiConsole#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#parent VirtualizationEsxiConsole#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#parent VirtualizationEsxiConsole#parent}
   */
   readonly parent?: VirtualizationEsxiConsoleParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#permission_resources VirtualizationEsxiConsole#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#permission_resources VirtualizationEsxiConsole#permission_resources}
   */
   readonly permissionResources?: VirtualizationEsxiConsolePermissionResources[] | cdktf.IResolvable;
   /**
   * Role of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#role VirtualizationEsxiConsole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#role VirtualizationEsxiConsole#role}
   */
   readonly role?: string;
   /**
   * A reference to a sessionAbstractSession resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#session VirtualizationEsxiConsole#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#session VirtualizationEsxiConsole#session}
   */
   readonly session?: VirtualizationEsxiConsoleSession[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#shared_scope VirtualizationEsxiConsole#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#shared_scope VirtualizationEsxiConsole#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -138,71 +138,71 @@ export interface VirtualizationEsxiConsoleConfig extends cdktf.TerraformMetaArgu
   * * `Ended` - The session has ended normally.
   * * `Terminated` - The session was terminated by an admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#status VirtualizationEsxiConsole#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#status VirtualizationEsxiConsole#status}
   */
   readonly status?: string;
   /**
   * The stream ID of the host console session opened.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#stream_id VirtualizationEsxiConsole#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#stream_id VirtualizationEsxiConsole#stream_id}
   */
   readonly streamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#tags VirtualizationEsxiConsole#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#tags VirtualizationEsxiConsole#tags}
   */
   readonly tags?: VirtualizationEsxiConsoleTags[] | cdktf.IResolvable;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#target VirtualizationEsxiConsole#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#target VirtualizationEsxiConsole#target}
   */
   readonly target?: VirtualizationEsxiConsoleTarget[] | cdktf.IResolvable;
   /**
   * Name of target on which session is initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#target_name VirtualizationEsxiConsole#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#target_name VirtualizationEsxiConsole#target_name}
   */
   readonly targetName?: string;
   /**
   * A reference to a iamUser resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#user VirtualizationEsxiConsole#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#user VirtualizationEsxiConsole#user}
   */
   readonly user?: VirtualizationEsxiConsoleUser[] | cdktf.IResolvable;
   /**
   * User ID or E-mail Address of the user who launched the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#user_id_or_email VirtualizationEsxiConsole#user_id_or_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#user_id_or_email VirtualizationEsxiConsole#user_id_or_email}
   */
   readonly userIdOrEmail?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#version_context VirtualizationEsxiConsole#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#version_context VirtualizationEsxiConsole#version_context}
   */
   readonly versionContext?: VirtualizationEsxiConsoleVersionContext[] | cdktf.IResolvable;
 }
 export interface VirtualizationEsxiConsoleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -434,23 +434,23 @@ export class VirtualizationEsxiConsoleAncestorsList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleDeviceRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -682,23 +682,23 @@ export class VirtualizationEsxiConsoleDeviceRegistrationList extends cdktf.Compl
 }
 export interface VirtualizationEsxiConsoleHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -930,23 +930,23 @@ export class VirtualizationEsxiConsoleHostList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -1178,23 +1178,23 @@ export class VirtualizationEsxiConsoleParentList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsolePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -1426,23 +1426,23 @@ export class VirtualizationEsxiConsolePermissionResourcesList extends cdktf.Comp
 }
 export interface VirtualizationEsxiConsoleSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -1674,23 +1674,23 @@ export class VirtualizationEsxiConsoleSessionList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -1922,23 +1922,23 @@ export class VirtualizationEsxiConsoleTagsAncestorDefinitionsList extends cdktf.
 }
 export interface VirtualizationEsxiConsoleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2170,35 +2170,35 @@ export class VirtualizationEsxiConsoleTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface VirtualizationEsxiConsoleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#ancestor_definitions VirtualizationEsxiConsole#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#ancestor_definitions VirtualizationEsxiConsole#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VirtualizationEsxiConsoleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#definition VirtualizationEsxiConsole#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#definition VirtualizationEsxiConsole#definition}
   */
   readonly definition?: VirtualizationEsxiConsoleTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#key VirtualizationEsxiConsole#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#key VirtualizationEsxiConsole#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#propagated VirtualizationEsxiConsole#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#propagated VirtualizationEsxiConsole#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#sys_tag VirtualizationEsxiConsole#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#sys_tag VirtualizationEsxiConsole#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#type VirtualizationEsxiConsole#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#type VirtualizationEsxiConsole#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#value VirtualizationEsxiConsole#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#value VirtualizationEsxiConsole#value}
   */
   readonly value?: string;
 }
@@ -2517,23 +2517,23 @@ export class VirtualizationEsxiConsoleTagsList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -2765,23 +2765,23 @@ export class VirtualizationEsxiConsoleTargetList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3013,23 +3013,23 @@ export class VirtualizationEsxiConsoleUserList extends cdktf.ComplexList {
 }
 export interface VirtualizationEsxiConsoleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3261,23 +3261,23 @@ export class VirtualizationEsxiConsoleVersionContextInterestedMosList extends cd
 }
 export interface VirtualizationEsxiConsoleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#moid VirtualizationEsxiConsole#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#selector VirtualizationEsxiConsole#selector}
   */
   readonly selector?: string;
 }
@@ -3509,39 +3509,39 @@ export class VirtualizationEsxiConsoleVersionContextRefMoList extends cdktf.Comp
 }
 export interface VirtualizationEsxiConsoleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#additional_properties VirtualizationEsxiConsole#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#class_id VirtualizationEsxiConsole#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#interested_mos VirtualizationEsxiConsole#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#interested_mos VirtualizationEsxiConsole#interested_mos}
   */
   readonly interestedMos?: VirtualizationEsxiConsoleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#marked_for_deletion VirtualizationEsxiConsole#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#marked_for_deletion VirtualizationEsxiConsole#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#nr_version VirtualizationEsxiConsole#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#nr_version VirtualizationEsxiConsole#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#object_type VirtualizationEsxiConsole#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#ref_mo VirtualizationEsxiConsole#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#ref_mo VirtualizationEsxiConsole#ref_mo}
   */
   readonly refMo?: VirtualizationEsxiConsoleVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#timestamp VirtualizationEsxiConsole#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#timestamp VirtualizationEsxiConsole#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#version_type VirtualizationEsxiConsole#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#version_type VirtualizationEsxiConsole#version_type}
   */
   readonly versionType?: string;
 }
@@ -3889,7 +3889,7 @@ export class VirtualizationEsxiConsoleVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console intersight_virtualization_esxi_console}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console intersight_virtualization_esxi_console}
 */
 export class VirtualizationEsxiConsole extends cdktf.TerraformResource {
 
@@ -3905,7 +3905,7 @@ export class VirtualizationEsxiConsole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualizationEsxiConsole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualizationEsxiConsole to import
-  * @param importFromId The id of the existing VirtualizationEsxiConsole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualizationEsxiConsole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualizationEsxiConsole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3917,7 +3917,7 @@ export class VirtualizationEsxiConsole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/virtualization_esxi_console intersight_virtualization_esxi_console} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/virtualization_esxi_console intersight_virtualization_esxi_console} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3928,8 +3928,8 @@ export class VirtualizationEsxiConsole extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_virtualization_esxi_console',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

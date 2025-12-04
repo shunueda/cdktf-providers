@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TaskNexusVlanScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#account_moid TaskNexusVlanScopedInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#account_moid TaskNexusVlanScopedInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#ancestors TaskNexusVlanScopedInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#ancestors TaskNexusVlanScopedInventory#ancestors}
   */
   readonly ancestors?: TaskNexusVlanScopedInventoryAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface TaskNexusVlanScopedInventoryConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#create_time TaskNexusVlanScopedInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#create_time TaskNexusVlanScopedInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#domain_group_moid TaskNexusVlanScopedInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#domain_group_moid TaskNexusVlanScopedInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#id TaskNexusVlanScopedInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#id TaskNexusVlanScopedInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,111 +53,111 @@ export interface TaskNexusVlanScopedInventoryConfig extends cdktf.TerraformMetaA
   /**
   * Device will immediately collect the objects from the platform. If false, the device will wait for any in flight scheduled collections to complete first. Used to ensure that any long running collections do not delay the scoped collection result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#immediate TaskNexusVlanScopedInventory#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#immediate TaskNexusVlanScopedInventory#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#mod_time TaskNexusVlanScopedInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#mod_time TaskNexusVlanScopedInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
   * A property that uniquely identifies the object to be inventoried as a part of the scoped inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#naming_property TaskNexusVlanScopedInventory#naming_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#naming_property TaskNexusVlanScopedInventory#naming_property}
   */
   readonly namingProperty?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#owners TaskNexusVlanScopedInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#owners TaskNexusVlanScopedInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#parent TaskNexusVlanScopedInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#parent TaskNexusVlanScopedInventory#parent}
   */
   readonly parent?: TaskNexusVlanScopedInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#permission_resources TaskNexusVlanScopedInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#permission_resources TaskNexusVlanScopedInventory#permission_resources}
   */
   readonly permissionResources?: TaskNexusVlanScopedInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Set of queries to identify objects to be inventoried as part of this scoped inventory action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#queries TaskNexusVlanScopedInventory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#queries TaskNexusVlanScopedInventory#queries}
   */
   readonly queries?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#registered_device TaskNexusVlanScopedInventory#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#registered_device TaskNexusVlanScopedInventory#registered_device}
   */
   readonly registeredDevice?: TaskNexusVlanScopedInventoryRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#shared_scope TaskNexusVlanScopedInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#shared_scope TaskNexusVlanScopedInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#tags TaskNexusVlanScopedInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#tags TaskNexusVlanScopedInventory#tags}
   */
   readonly tags?: TaskNexusVlanScopedInventoryTags[] | cdktf.IResolvable;
   /**
   * Type of the object for which scoped inventory needs to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#type TaskNexusVlanScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#type TaskNexusVlanScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#values TaskNexusVlanScopedInventory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#values TaskNexusVlanScopedInventory#values}
   */
   readonly values?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#version_context TaskNexusVlanScopedInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#version_context TaskNexusVlanScopedInventory#version_context}
   */
   readonly versionContext?: TaskNexusVlanScopedInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface TaskNexusVlanScopedInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class TaskNexusVlanScopedInventoryAncestorsList extends cdktf.ComplexList
 }
 export interface TaskNexusVlanScopedInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class TaskNexusVlanScopedInventoryParentList extends cdktf.ComplexList {
 }
 export interface TaskNexusVlanScopedInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class TaskNexusVlanScopedInventoryPermissionResourcesList extends cdktf.C
 }
 export interface TaskNexusVlanScopedInventoryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class TaskNexusVlanScopedInventoryRegisteredDeviceList extends cdktf.Comp
 }
 export interface TaskNexusVlanScopedInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class TaskNexusVlanScopedInventoryTagsAncestorDefinitionsList extends cdk
 }
 export interface TaskNexusVlanScopedInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1629,35 +1629,35 @@ export class TaskNexusVlanScopedInventoryTagsDefinitionList extends cdktf.Comple
 }
 export interface TaskNexusVlanScopedInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#ancestor_definitions TaskNexusVlanScopedInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#ancestor_definitions TaskNexusVlanScopedInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TaskNexusVlanScopedInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#definition TaskNexusVlanScopedInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#definition TaskNexusVlanScopedInventory#definition}
   */
   readonly definition?: TaskNexusVlanScopedInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#key TaskNexusVlanScopedInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#key TaskNexusVlanScopedInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#propagated TaskNexusVlanScopedInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#propagated TaskNexusVlanScopedInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#sys_tag TaskNexusVlanScopedInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#sys_tag TaskNexusVlanScopedInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#type TaskNexusVlanScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#type TaskNexusVlanScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#value TaskNexusVlanScopedInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#value TaskNexusVlanScopedInventory#value}
   */
   readonly value?: string;
 }
@@ -1976,23 +1976,23 @@ export class TaskNexusVlanScopedInventoryTagsList extends cdktf.ComplexList {
 }
 export interface TaskNexusVlanScopedInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2224,23 +2224,23 @@ export class TaskNexusVlanScopedInventoryVersionContextInterestedMosList extends
 }
 export interface TaskNexusVlanScopedInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#moid TaskNexusVlanScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#selector TaskNexusVlanScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2472,39 +2472,39 @@ export class TaskNexusVlanScopedInventoryVersionContextRefMoList extends cdktf.C
 }
 export interface TaskNexusVlanScopedInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#additional_properties TaskNexusVlanScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#class_id TaskNexusVlanScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#interested_mos TaskNexusVlanScopedInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#interested_mos TaskNexusVlanScopedInventory#interested_mos}
   */
   readonly interestedMos?: TaskNexusVlanScopedInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#marked_for_deletion TaskNexusVlanScopedInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#marked_for_deletion TaskNexusVlanScopedInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#nr_version TaskNexusVlanScopedInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#nr_version TaskNexusVlanScopedInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#object_type TaskNexusVlanScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#ref_mo TaskNexusVlanScopedInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#ref_mo TaskNexusVlanScopedInventory#ref_mo}
   */
   readonly refMo?: TaskNexusVlanScopedInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#timestamp TaskNexusVlanScopedInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#timestamp TaskNexusVlanScopedInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#version_type TaskNexusVlanScopedInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#version_type TaskNexusVlanScopedInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -2852,7 +2852,7 @@ export class TaskNexusVlanScopedInventoryVersionContextList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory intersight_task_nexus_vlan_scoped_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory intersight_task_nexus_vlan_scoped_inventory}
 */
 export class TaskNexusVlanScopedInventory extends cdktf.TerraformResource {
 
@@ -2868,7 +2868,7 @@ export class TaskNexusVlanScopedInventory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TaskNexusVlanScopedInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskNexusVlanScopedInventory to import
-  * @param importFromId The id of the existing TaskNexusVlanScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskNexusVlanScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskNexusVlanScopedInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2880,7 +2880,7 @@ export class TaskNexusVlanScopedInventory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_nexus_vlan_scoped_inventory intersight_task_nexus_vlan_scoped_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_nexus_vlan_scoped_inventory intersight_task_nexus_vlan_scoped_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2891,8 +2891,8 @@ export class TaskNexusVlanScopedInventory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_task_nexus_vlan_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudAvailabilityZonesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones#id DataTencentcloudAvailabilityZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones#id DataTencentcloudAvailabilityZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudAvailabilityZonesConfig extends cdktf.Terraform
   /**
   * A bool variable indicates that the query will include `UNAVAILABLE` zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones#include_unavailable DataTencentcloudAvailabilityZones#include_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones#include_unavailable DataTencentcloudAvailabilityZones#include_unavailable}
   */
   readonly includeUnavailable?: boolean | cdktf.IResolvable;
   /**
   * When specified, only the zone with the exactly name match will be returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones#name DataTencentcloudAvailabilityZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones#name DataTencentcloudAvailabilityZones#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones#result_output_file DataTencentcloudAvailabilityZones#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones#result_output_file DataTencentcloudAvailabilityZones#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -125,7 +125,7 @@ export class DataTencentcloudAvailabilityZonesZonesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones tencentcloud_availability_zones}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones tencentcloud_availability_zones}
 */
 export class DataTencentcloudAvailabilityZones extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataTencentcloudAvailabilityZones extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudAvailabilityZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAvailabilityZones to import
-  * @param importFromId The id of the existing DataTencentcloudAvailabilityZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAvailabilityZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAvailabilityZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataTencentcloudAvailabilityZones extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/availability_zones tencentcloud_availability_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/availability_zones tencentcloud_availability_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataTencentcloudAvailabilityZones extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_availability_zones',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

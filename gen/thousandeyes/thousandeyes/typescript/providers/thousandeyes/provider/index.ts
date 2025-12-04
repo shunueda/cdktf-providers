@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ThousandeyesProviderConfig {
   /**
   * The ThousandEyes account group's unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#account_group_id ThousandeyesProvider#account_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#account_group_id ThousandeyesProvider#account_group_id}
   */
   readonly accountGroupId?: string;
   /**
   * The ThousandEyes API Endpoint's URL. Defaults to: https://api.thousandeyes.com/v7 . This is the only API version supported by this provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#api_endpoint ThousandeyesProvider#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#api_endpoint ThousandeyesProvider#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * Enable the API SDK logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#api_sdk_logs_enabled ThousandeyesProvider#api_sdk_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#api_sdk_logs_enabled ThousandeyesProvider#api_sdk_logs_enabled}
   */
   readonly apiSdkLogsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The timeout value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#timeout ThousandeyesProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#timeout ThousandeyesProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * The ThousandEyes organization's authentication token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#token ThousandeyesProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#token ThousandeyesProvider#token}
   */
   readonly token: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#alias ThousandeyesProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#alias ThousandeyesProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs thousandeyes}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs thousandeyes}
 */
 export class ThousandeyesProvider extends cdktf.TerraformProvider {
 
@@ -62,7 +62,7 @@ export class ThousandeyesProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ThousandeyesProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThousandeyesProvider to import
-  * @param importFromId The id of the existing ThousandeyesProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThousandeyesProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThousandeyesProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ThousandeyesProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs thousandeyes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs thousandeyes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ThousandeyesProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'thousandeyes',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       terraformProviderSource: 'thousandeyes/thousandeyes'
     });

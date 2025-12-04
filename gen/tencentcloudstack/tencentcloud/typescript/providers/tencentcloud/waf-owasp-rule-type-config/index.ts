@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WafOwaspRuleTypeConfigConfig extends cdktf.TerraformMetaArgumen
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#domain WafOwaspRuleTypeConfig#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#domain WafOwaspRuleTypeConfig#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#id WafOwaspRuleTypeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#id WafOwaspRuleTypeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WafOwaspRuleTypeConfigConfig extends cdktf.TerraformMetaArgumen
   /**
   * Protection mode of the rule type. valid values: 0 (observation), 1 (intercept).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#rule_type_action WafOwaspRuleTypeConfig#rule_type_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#rule_type_action WafOwaspRuleTypeConfig#rule_type_action}
   */
   readonly ruleTypeAction?: number;
   /**
   * Protection level of the rule. valid values: 100 (loose), 200 (normal), 300 (strict), 400 (ultra-strict).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#rule_type_level WafOwaspRuleTypeConfig#rule_type_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#rule_type_level WafOwaspRuleTypeConfig#rule_type_level}
   */
   readonly ruleTypeLevel?: number;
   /**
   * The switch status of the rule type. valid values: 0 (disabled), 1 (enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#rule_type_status WafOwaspRuleTypeConfig#rule_type_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#rule_type_status WafOwaspRuleTypeConfig#rule_type_status}
   */
   readonly ruleTypeStatus?: number;
   /**
   * Rule type ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#type_id WafOwaspRuleTypeConfig#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#type_id WafOwaspRuleTypeConfig#type_id}
   */
   readonly typeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config tencentcloud_waf_owasp_rule_type_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config tencentcloud_waf_owasp_rule_type_config}
 */
 export class WafOwaspRuleTypeConfig extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class WafOwaspRuleTypeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafOwaspRuleTypeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafOwaspRuleTypeConfig to import
-  * @param importFromId The id of the existing WafOwaspRuleTypeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafOwaspRuleTypeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafOwaspRuleTypeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class WafOwaspRuleTypeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_owasp_rule_type_config tencentcloud_waf_owasp_rule_type_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_owasp_rule_type_config tencentcloud_waf_owasp_rule_type_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class WafOwaspRuleTypeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_owasp_rule_type_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

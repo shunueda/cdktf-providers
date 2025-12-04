@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightConsoleConsoleConfigConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#account_moid DataIntersightConsoleConsoleConfig#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#account_moid DataIntersightConsoleConsoleConfig#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightConsoleConsoleConfigConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#create_time DataIntersightConsoleConsoleConfig#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#create_time DataIntersightConsoleConsoleConfig#create_time}
   */
   readonly createTime?: string;
   /**
   * The databits numbers in console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#data_bits DataIntersightConsoleConsoleConfig#data_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#data_bits DataIntersightConsoleConsoleConfig#data_bits}
   */
   readonly dataBits?: number;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#device_mo_id DataIntersightConsoleConsoleConfig#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#device_mo_id DataIntersightConsoleConsoleConfig#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#dn DataIntersightConsoleConsoleConfig#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#dn DataIntersightConsoleConsoleConfig#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#domain_group_moid DataIntersightConsoleConsoleConfig#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#domain_group_moid DataIntersightConsoleConsoleConfig#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#id DataIntersightConsoleConsoleConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#id DataIntersightConsoleConsoleConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,24 +65,24 @@ export interface DataIntersightConsoleConsoleConfigConfig extends cdktf.Terrafor
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#mod_time DataIntersightConsoleConsoleConfig#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#mod_time DataIntersightConsoleConsoleConfig#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#owners DataIntersightConsoleConsoleConfig#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#owners DataIntersightConsoleConsoleConfig#owners}
   */
   readonly owners?: string[];
   /**
@@ -93,74 +93,74 @@ export interface DataIntersightConsoleConsoleConfigConfig extends cdktf.Terrafor
   * * `mark` - If Parity is mark, the parity bit is asserted.
   * * `space` - If Parity is space, the parity bit is unasserted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#parity DataIntersightConsoleConsoleConfig#parity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#parity DataIntersightConsoleConsoleConfig#parity}
   */
   readonly parity?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#rn DataIntersightConsoleConsoleConfig#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#rn DataIntersightConsoleConsoleConfig#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#shared_scope DataIntersightConsoleConsoleConfig#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#shared_scope DataIntersightConsoleConsoleConfig#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The speed of the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#speed DataIntersightConsoleConsoleConfig#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#speed DataIntersightConsoleConsoleConfig#speed}
   */
   readonly speed?: number;
   /**
   * The stopbits of async line in console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#stop_bits DataIntersightConsoleConsoleConfig#stop_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#stop_bits DataIntersightConsoleConsoleConfig#stop_bits}
   */
   readonly stopBits?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#ancestors DataIntersightConsoleConsoleConfig#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#ancestors DataIntersightConsoleConsoleConfig#ancestors}
   */
   readonly ancestors?: DataIntersightConsoleConsoleConfigAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#network_element DataIntersightConsoleConsoleConfig#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#network_element DataIntersightConsoleConsoleConfig#network_element}
   */
   readonly networkElement?: DataIntersightConsoleConsoleConfigNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#parent DataIntersightConsoleConsoleConfig#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#parent DataIntersightConsoleConsoleConfig#parent}
   */
   readonly parent?: DataIntersightConsoleConsoleConfigParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#permission_resources DataIntersightConsoleConsoleConfig#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#permission_resources DataIntersightConsoleConsoleConfig#permission_resources}
   */
   readonly permissionResources?: DataIntersightConsoleConsoleConfigPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#registered_device DataIntersightConsoleConsoleConfig#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#registered_device DataIntersightConsoleConsoleConfig#registered_device}
   */
   readonly registeredDevice?: DataIntersightConsoleConsoleConfigRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#tags DataIntersightConsoleConsoleConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#tags DataIntersightConsoleConsoleConfig#tags}
   */
   readonly tags?: DataIntersightConsoleConsoleConfigTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#version_context DataIntersightConsoleConsoleConfig#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#version_context DataIntersightConsoleConsoleConfig#version_context}
   */
   readonly versionContext?: DataIntersightConsoleConsoleConfigVersionContext;
 }
@@ -1447,7 +1447,7 @@ export class DataIntersightConsoleConsoleConfigResultsList extends cdktf.Complex
 }
 export interface DataIntersightConsoleConsoleConfigAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1455,19 +1455,19 @@ export interface DataIntersightConsoleConsoleConfigAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1480,7 +1480,7 @@ export interface DataIntersightConsoleConsoleConfigAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -1712,7 +1712,7 @@ export class DataIntersightConsoleConsoleConfigAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightConsoleConsoleConfigNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1720,19 +1720,19 @@ export interface DataIntersightConsoleConsoleConfigNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1745,7 +1745,7 @@ export interface DataIntersightConsoleConsoleConfigNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -1945,7 +1945,7 @@ export class DataIntersightConsoleConsoleConfigNetworkElementOutputReference ext
 }
 export interface DataIntersightConsoleConsoleConfigParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1953,19 +1953,19 @@ export interface DataIntersightConsoleConsoleConfigParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1978,7 +1978,7 @@ export interface DataIntersightConsoleConsoleConfigParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -2178,7 +2178,7 @@ export class DataIntersightConsoleConsoleConfigParentOutputReference extends cdk
 }
 export interface DataIntersightConsoleConsoleConfigPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2186,19 +2186,19 @@ export interface DataIntersightConsoleConsoleConfigPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2211,7 +2211,7 @@ export interface DataIntersightConsoleConsoleConfigPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -2443,7 +2443,7 @@ export class DataIntersightConsoleConsoleConfigPermissionResourcesList extends c
 }
 export interface DataIntersightConsoleConsoleConfigRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2451,19 +2451,19 @@ export interface DataIntersightConsoleConsoleConfigRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2476,7 +2476,7 @@ export interface DataIntersightConsoleConsoleConfigRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -2676,7 +2676,7 @@ export class DataIntersightConsoleConsoleConfigRegisteredDeviceOutputReference e
 }
 export interface DataIntersightConsoleConsoleConfigTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2684,19 +2684,19 @@ export interface DataIntersightConsoleConsoleConfigTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2709,7 +2709,7 @@ export interface DataIntersightConsoleConsoleConfigTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -2941,7 +2941,7 @@ export class DataIntersightConsoleConsoleConfigTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightConsoleConsoleConfigTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2949,19 +2949,19 @@ export interface DataIntersightConsoleConsoleConfigTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2974,7 +2974,7 @@ export interface DataIntersightConsoleConsoleConfigTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -3174,25 +3174,25 @@ export class DataIntersightConsoleConsoleConfigTagsDefinitionOutputReference ext
 }
 export interface DataIntersightConsoleConsoleConfigTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#key DataIntersightConsoleConsoleConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#key DataIntersightConsoleConsoleConfig#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#propagated DataIntersightConsoleConsoleConfig#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#propagated DataIntersightConsoleConsoleConfig#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#sys_tag DataIntersightConsoleConsoleConfig#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#sys_tag DataIntersightConsoleConsoleConfig#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3200,25 +3200,25 @@ export interface DataIntersightConsoleConsoleConfigTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#type DataIntersightConsoleConsoleConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#type DataIntersightConsoleConsoleConfig#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#value DataIntersightConsoleConsoleConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#value DataIntersightConsoleConsoleConfig#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#ancestor_definitions DataIntersightConsoleConsoleConfig#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#ancestor_definitions DataIntersightConsoleConsoleConfig#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightConsoleConsoleConfigTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#definition DataIntersightConsoleConsoleConfig#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#definition DataIntersightConsoleConsoleConfig#definition}
   */
   readonly definition?: DataIntersightConsoleConsoleConfigTagsDefinition;
 }
@@ -3537,7 +3537,7 @@ export class DataIntersightConsoleConsoleConfigTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightConsoleConsoleConfigVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3545,19 +3545,19 @@ export interface DataIntersightConsoleConsoleConfigVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3570,7 +3570,7 @@ export interface DataIntersightConsoleConsoleConfigVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -3802,7 +3802,7 @@ export class DataIntersightConsoleConsoleConfigVersionContextInterestedMosList e
 }
 export interface DataIntersightConsoleConsoleConfigVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3810,19 +3810,19 @@ export interface DataIntersightConsoleConsoleConfigVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#moid DataIntersightConsoleConsoleConfig#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3835,7 +3835,7 @@ export interface DataIntersightConsoleConsoleConfigVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#selector DataIntersightConsoleConsoleConfig#selector}
   */
   readonly selector?: string;
 }
@@ -4035,7 +4035,7 @@ export class DataIntersightConsoleConsoleConfigVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightConsoleConsoleConfigVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#additional_properties DataIntersightConsoleConsoleConfig#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4043,32 +4043,32 @@ export interface DataIntersightConsoleConsoleConfigVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#class_id DataIntersightConsoleConsoleConfig#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#marked_for_deletion DataIntersightConsoleConsoleConfig#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#marked_for_deletion DataIntersightConsoleConsoleConfig#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#nr_version DataIntersightConsoleConsoleConfig#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#nr_version DataIntersightConsoleConsoleConfig#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#object_type DataIntersightConsoleConsoleConfig#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#timestamp DataIntersightConsoleConsoleConfig#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#timestamp DataIntersightConsoleConsoleConfig#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4079,19 +4079,19 @@ export interface DataIntersightConsoleConsoleConfigVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#version_type DataIntersightConsoleConsoleConfig#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#version_type DataIntersightConsoleConsoleConfig#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#interested_mos DataIntersightConsoleConsoleConfig#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#interested_mos DataIntersightConsoleConsoleConfig#interested_mos}
   */
   readonly interestedMos?: DataIntersightConsoleConsoleConfigVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#ref_mo DataIntersightConsoleConsoleConfig#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#ref_mo DataIntersightConsoleConsoleConfig#ref_mo}
   */
   readonly refMo?: DataIntersightConsoleConsoleConfigVersionContextRefMo;
 }
@@ -4407,7 +4407,7 @@ export class DataIntersightConsoleConsoleConfigVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config intersight_console_console_config}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config intersight_console_console_config}
 */
 export class DataIntersightConsoleConsoleConfig extends cdktf.TerraformDataSource {
 
@@ -4423,7 +4423,7 @@ export class DataIntersightConsoleConsoleConfig extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightConsoleConsoleConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightConsoleConsoleConfig to import
-  * @param importFromId The id of the existing DataIntersightConsoleConsoleConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightConsoleConsoleConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightConsoleConsoleConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4435,7 +4435,7 @@ export class DataIntersightConsoleConsoleConfig extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/console_console_config intersight_console_console_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/console_console_config intersight_console_console_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4446,8 +4446,8 @@ export class DataIntersightConsoleConsoleConfig extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_console_console_config',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

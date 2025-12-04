@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MysqlClsLogAttachmentConfig extends cdktf.TerraformMetaArgument
   /**
   * Cls region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#cls_region MysqlClsLogAttachment#cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#cls_region MysqlClsLogAttachment#cls_region}
   */
   readonly clsRegion?: string;
   /**
   * Whether to create index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#create_index MysqlClsLogAttachment#create_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#create_index MysqlClsLogAttachment#create_index}
   */
   readonly createIndex?: boolean | cdktf.IResolvable;
   /**
   * Whether to create log set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#create_log_set MysqlClsLogAttachment#create_log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#create_log_set MysqlClsLogAttachment#create_log_set}
   */
   readonly createLogSet?: boolean | cdktf.IResolvable;
   /**
   * Whether to create log topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#create_log_topic MysqlClsLogAttachment#create_log_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#create_log_topic MysqlClsLogAttachment#create_log_topic}
   */
   readonly createLogTopic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#id MysqlClsLogAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#id MysqlClsLogAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface MysqlClsLogAttachmentConfig extends cdktf.TerraformMetaArgument
   /**
   * The id of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#instance_id MysqlClsLogAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#instance_id MysqlClsLogAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * If `create_log_set` is `true`, use log set name, Else use log set Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#log_set MysqlClsLogAttachment#log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#log_set MysqlClsLogAttachment#log_set}
   */
   readonly logSet: string;
   /**
   * If `create_log_topic` is `true`, use log topic name, Else use log topic Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#log_topic MysqlClsLogAttachment#log_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#log_topic MysqlClsLogAttachment#log_topic}
   */
   readonly logTopic: string;
   /**
   * Log type. Support `error` or `slowlog`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#log_type MysqlClsLogAttachment#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#log_type MysqlClsLogAttachment#log_type}
   */
   readonly logType: string;
   /**
   * The validity period of the log theme is 30 days by default when not filled in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#period MysqlClsLogAttachment#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#period MysqlClsLogAttachment#period}
   */
   readonly period?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment tencentcloud_mysql_cls_log_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment tencentcloud_mysql_cls_log_attachment}
 */
 export class MysqlClsLogAttachment extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class MysqlClsLogAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlClsLogAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlClsLogAttachment to import
-  * @param importFromId The id of the existing MysqlClsLogAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlClsLogAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlClsLogAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class MysqlClsLogAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mysql_cls_log_attachment tencentcloud_mysql_cls_log_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mysql_cls_log_attachment tencentcloud_mysql_cls_log_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class MysqlClsLogAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_cls_log_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

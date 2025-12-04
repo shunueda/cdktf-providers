@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBootSdDeviceConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#account_moid DataIntersightBootSdDevice#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#account_moid DataIntersightBootSdDevice#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBootSdDeviceConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#create_time DataIntersightBootSdDevice#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#create_time DataIntersightBootSdDevice#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#device_mo_id DataIntersightBootSdDevice#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#device_mo_id DataIntersightBootSdDevice#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#dn DataIntersightBootSdDevice#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#dn DataIntersightBootSdDevice#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#domain_group_moid DataIntersightBootSdDevice#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#domain_group_moid DataIntersightBootSdDevice#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#id DataIntersightBootSdDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#id DataIntersightBootSdDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,151 +59,151 @@ export interface DataIntersightBootSdDeviceConfig extends cdktf.TerraformMetaArg
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#is_upgraded DataIntersightBootSdDevice#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#is_upgraded DataIntersightBootSdDevice#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#mod_time DataIntersightBootSdDevice#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#mod_time DataIntersightBootSdDevice#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#model DataIntersightBootSdDevice#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#model DataIntersightBootSdDevice#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The name of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#name DataIntersightBootSdDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#name DataIntersightBootSdDevice#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The order of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#order DataIntersightBootSdDevice#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#order DataIntersightBootSdDevice#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#owners DataIntersightBootSdDevice#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#owners DataIntersightBootSdDevice#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#presence DataIntersightBootSdDevice#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#presence DataIntersightBootSdDevice#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#revision DataIntersightBootSdDevice#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#revision DataIntersightBootSdDevice#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#rn DataIntersightBootSdDevice#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#rn DataIntersightBootSdDevice#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#serial DataIntersightBootSdDevice#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#serial DataIntersightBootSdDevice#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#shared_scope DataIntersightBootSdDevice#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#shared_scope DataIntersightBootSdDevice#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The state of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#state DataIntersightBootSdDevice#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#state DataIntersightBootSdDevice#state}
   */
   readonly state?: string;
   /**
   * The type of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#type DataIntersightBootSdDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#type DataIntersightBootSdDevice#type}
   */
   readonly type?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#vendor DataIntersightBootSdDevice#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#vendor DataIntersightBootSdDevice#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#ancestors DataIntersightBootSdDevice#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#ancestors DataIntersightBootSdDevice#ancestors}
   */
   readonly ancestors?: DataIntersightBootSdDeviceAncestors[] | cdktf.IResolvable;
   /**
   * compute_physical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#compute_physical DataIntersightBootSdDevice#compute_physical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#compute_physical DataIntersightBootSdDevice#compute_physical}
   */
   readonly computePhysical?: DataIntersightBootSdDeviceComputePhysical;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#inventory_device_info DataIntersightBootSdDevice#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#inventory_device_info DataIntersightBootSdDevice#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBootSdDeviceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#parent DataIntersightBootSdDevice#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#parent DataIntersightBootSdDevice#parent}
   */
   readonly parent?: DataIntersightBootSdDeviceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#permission_resources DataIntersightBootSdDevice#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#permission_resources DataIntersightBootSdDevice#permission_resources}
   */
   readonly permissionResources?: DataIntersightBootSdDevicePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#previous_fru DataIntersightBootSdDevice#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#previous_fru DataIntersightBootSdDevice#previous_fru}
   */
   readonly previousFru?: DataIntersightBootSdDevicePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#registered_device DataIntersightBootSdDevice#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#registered_device DataIntersightBootSdDevice#registered_device}
   */
   readonly registeredDevice?: DataIntersightBootSdDeviceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#tags DataIntersightBootSdDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#tags DataIntersightBootSdDevice#tags}
   */
   readonly tags?: DataIntersightBootSdDeviceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#version_context DataIntersightBootSdDevice#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#version_context DataIntersightBootSdDevice#version_context}
   */
   readonly versionContext?: DataIntersightBootSdDeviceVersionContext;
 }
@@ -1722,7 +1722,7 @@ export class DataIntersightBootSdDeviceResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBootSdDeviceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1730,19 +1730,19 @@ export interface DataIntersightBootSdDeviceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1755,7 +1755,7 @@ export interface DataIntersightBootSdDeviceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -1987,7 +1987,7 @@ export class DataIntersightBootSdDeviceAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBootSdDeviceComputePhysical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1995,19 +1995,19 @@ export interface DataIntersightBootSdDeviceComputePhysical {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2020,7 +2020,7 @@ export interface DataIntersightBootSdDeviceComputePhysical {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2220,7 +2220,7 @@ export class DataIntersightBootSdDeviceComputePhysicalOutputReference extends cd
 }
 export interface DataIntersightBootSdDeviceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2228,19 +2228,19 @@ export interface DataIntersightBootSdDeviceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2253,7 +2253,7 @@ export interface DataIntersightBootSdDeviceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2453,7 +2453,7 @@ export class DataIntersightBootSdDeviceInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightBootSdDeviceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2461,19 +2461,19 @@ export interface DataIntersightBootSdDeviceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2486,7 +2486,7 @@ export interface DataIntersightBootSdDeviceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2686,7 +2686,7 @@ export class DataIntersightBootSdDeviceParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBootSdDevicePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2694,19 +2694,19 @@ export interface DataIntersightBootSdDevicePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2719,7 +2719,7 @@ export interface DataIntersightBootSdDevicePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2951,7 +2951,7 @@ export class DataIntersightBootSdDevicePermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightBootSdDevicePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2959,19 +2959,19 @@ export interface DataIntersightBootSdDevicePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2984,7 +2984,7 @@ export interface DataIntersightBootSdDevicePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3184,7 +3184,7 @@ export class DataIntersightBootSdDevicePreviousFruOutputReference extends cdktf.
 }
 export interface DataIntersightBootSdDeviceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3192,19 +3192,19 @@ export interface DataIntersightBootSdDeviceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3217,7 +3217,7 @@ export interface DataIntersightBootSdDeviceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3417,7 +3417,7 @@ export class DataIntersightBootSdDeviceRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightBootSdDeviceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3425,19 +3425,19 @@ export interface DataIntersightBootSdDeviceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3450,7 +3450,7 @@ export interface DataIntersightBootSdDeviceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3682,7 +3682,7 @@ export class DataIntersightBootSdDeviceTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightBootSdDeviceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3690,19 +3690,19 @@ export interface DataIntersightBootSdDeviceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3715,7 +3715,7 @@ export interface DataIntersightBootSdDeviceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3915,25 +3915,25 @@ export class DataIntersightBootSdDeviceTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightBootSdDeviceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#key DataIntersightBootSdDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#key DataIntersightBootSdDevice#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#propagated DataIntersightBootSdDevice#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#propagated DataIntersightBootSdDevice#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#sys_tag DataIntersightBootSdDevice#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#sys_tag DataIntersightBootSdDevice#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3941,25 +3941,25 @@ export interface DataIntersightBootSdDeviceTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#type DataIntersightBootSdDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#type DataIntersightBootSdDevice#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#value DataIntersightBootSdDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#value DataIntersightBootSdDevice#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#ancestor_definitions DataIntersightBootSdDevice#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#ancestor_definitions DataIntersightBootSdDevice#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBootSdDeviceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#definition DataIntersightBootSdDevice#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#definition DataIntersightBootSdDevice#definition}
   */
   readonly definition?: DataIntersightBootSdDeviceTagsDefinition;
 }
@@ -4278,7 +4278,7 @@ export class DataIntersightBootSdDeviceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBootSdDeviceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4286,19 +4286,19 @@ export interface DataIntersightBootSdDeviceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4311,7 +4311,7 @@ export interface DataIntersightBootSdDeviceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4543,7 +4543,7 @@ export class DataIntersightBootSdDeviceVersionContextInterestedMosList extends c
 }
 export interface DataIntersightBootSdDeviceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4551,19 +4551,19 @@ export interface DataIntersightBootSdDeviceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#moid DataIntersightBootSdDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4576,7 +4576,7 @@ export interface DataIntersightBootSdDeviceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#selector DataIntersightBootSdDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4776,7 +4776,7 @@ export class DataIntersightBootSdDeviceVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightBootSdDeviceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#additional_properties DataIntersightBootSdDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4784,32 +4784,32 @@ export interface DataIntersightBootSdDeviceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#class_id DataIntersightBootSdDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#marked_for_deletion DataIntersightBootSdDevice#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#marked_for_deletion DataIntersightBootSdDevice#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#nr_version DataIntersightBootSdDevice#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#nr_version DataIntersightBootSdDevice#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#object_type DataIntersightBootSdDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#timestamp DataIntersightBootSdDevice#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#timestamp DataIntersightBootSdDevice#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4820,19 +4820,19 @@ export interface DataIntersightBootSdDeviceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#version_type DataIntersightBootSdDevice#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#version_type DataIntersightBootSdDevice#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#interested_mos DataIntersightBootSdDevice#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#interested_mos DataIntersightBootSdDevice#interested_mos}
   */
   readonly interestedMos?: DataIntersightBootSdDeviceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#ref_mo DataIntersightBootSdDevice#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#ref_mo DataIntersightBootSdDevice#ref_mo}
   */
   readonly refMo?: DataIntersightBootSdDeviceVersionContextRefMo;
 }
@@ -5148,7 +5148,7 @@ export class DataIntersightBootSdDeviceVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device intersight_boot_sd_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device intersight_boot_sd_device}
 */
 export class DataIntersightBootSdDevice extends cdktf.TerraformDataSource {
 
@@ -5164,7 +5164,7 @@ export class DataIntersightBootSdDevice extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBootSdDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBootSdDevice to import
-  * @param importFromId The id of the existing DataIntersightBootSdDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBootSdDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBootSdDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5176,7 +5176,7 @@ export class DataIntersightBootSdDevice extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_sd_device intersight_boot_sd_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_sd_device intersight_boot_sd_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5187,8 +5187,8 @@ export class DataIntersightBootSdDevice extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_boot_sd_device',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryNexusDashboardsConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#account_moid DataIntersightNiatelemetryNexusDashboards#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#account_moid DataIntersightNiatelemetryNexusDashboards#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightNiatelemetryNexusDashboardsConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * Nexus Dashboard can onboard multiple APIC clusters/sites.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#cluster_name DataIntersightNiatelemetryNexusDashboards#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#cluster_name DataIntersightNiatelemetryNexusDashboards#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * UUID of the Nexus Dashboard cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#cluster_uuid DataIntersightNiatelemetryNexusDashboards#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#cluster_uuid DataIntersightNiatelemetryNexusDashboards#cluster_uuid}
   */
   readonly clusterUuid?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#create_time DataIntersightNiatelemetryNexusDashboards#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#create_time DataIntersightNiatelemetryNexusDashboards#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the objects present for Nexus Dashboard devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#dn DataIntersightNiatelemetryNexusDashboards#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#dn DataIntersightNiatelemetryNexusDashboards#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#domain_group_moid DataIntersightNiatelemetryNexusDashboards#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#domain_group_moid DataIntersightNiatelemetryNexusDashboards#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#id DataIntersightNiatelemetryNexusDashboards#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#id DataIntersightNiatelemetryNexusDashboards#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,157 +65,157 @@ export interface DataIntersightNiatelemetryNexusDashboardsConfig extends cdktf.T
   /**
   * Health of Nexus Dashboard cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#is_cluster_healthy DataIntersightNiatelemetryNexusDashboards#is_cluster_healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#is_cluster_healthy DataIntersightNiatelemetryNexusDashboards#is_cluster_healthy}
   */
   readonly isClusterHealthy?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#mod_time DataIntersightNiatelemetryNexusDashboards#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#mod_time DataIntersightNiatelemetryNexusDashboards#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * Number of nodes in Nexus Dashboard cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#nd_cluster_size DataIntersightNiatelemetryNexusDashboards#nd_cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#nd_cluster_size DataIntersightNiatelemetryNexusDashboards#nd_cluster_size}
   */
   readonly ndClusterSize?: number;
   /**
   * Node type in Nexus Dashboard cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#nd_type DataIntersightNiatelemetryNexusDashboards#nd_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#nd_type DataIntersightNiatelemetryNexusDashboards#nd_type}
   */
   readonly ndType?: string;
   /**
   * Version running on Nexus Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#nd_version DataIntersightNiatelemetryNexusDashboards#nd_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#nd_version DataIntersightNiatelemetryNexusDashboards#nd_version}
   */
   readonly ndVersion?: string;
   /**
   * Number of applications installed in the Nexus Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_apps DataIntersightNiatelemetryNexusDashboards#number_of_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_apps DataIntersightNiatelemetryNexusDashboards#number_of_apps}
   */
   readonly numberOfApps?: number;
   /**
   * Number of total insight groups in ND.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_insight_groups DataIntersightNiatelemetryNexusDashboards#number_of_insight_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_insight_groups DataIntersightNiatelemetryNexusDashboards#number_of_insight_groups}
   */
   readonly numberOfInsightGroups?: number;
   /**
   * Number of total NIR dashboards in ND.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_nir_dashboards DataIntersightNiatelemetryNexusDashboards#number_of_nir_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_nir_dashboards DataIntersightNiatelemetryNexusDashboards#number_of_nir_dashboards}
   */
   readonly numberOfNirDashboards?: number;
   /**
   * Number of total schemas in Multi-Site Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_schemas_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_schemas_in_mso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_schemas_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_schemas_in_mso}
   */
   readonly numberOfSchemasInMso?: number;
   /**
   * Number of sites in Multi-Site Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_sites_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_sites_in_mso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_sites_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_sites_in_mso}
   */
   readonly numberOfSitesInMso?: number;
   /**
   * Number of sites serviced by ND.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_sites_serviced DataIntersightNiatelemetryNexusDashboards#number_of_sites_serviced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_sites_serviced DataIntersightNiatelemetryNexusDashboards#number_of_sites_serviced}
   */
   readonly numberOfSitesServiced?: number;
   /**
   * Number of total tenants in Multi-Site Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_tenants_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_tenants_in_mso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_tenants_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_tenants_in_mso}
   */
   readonly numberOfTenantsInMso?: number;
   /**
   * Number of sites with vxLan type fabric in Multi-Site Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#number_of_vxlan_fabric_sites_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_vxlan_fabric_sites_in_mso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#number_of_vxlan_fabric_sites_in_mso DataIntersightNiatelemetryNexusDashboards#number_of_vxlan_fabric_sites_in_mso}
   */
   readonly numberOfVxlanFabricSitesInMso?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#owners DataIntersightNiatelemetryNexusDashboards#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#owners DataIntersightNiatelemetryNexusDashboards#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#record_type DataIntersightNiatelemetryNexusDashboards#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#record_type DataIntersightNiatelemetryNexusDashboards#record_type}
   */
   readonly recordType?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#shared_scope DataIntersightNiatelemetryNexusDashboards#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#shared_scope DataIntersightNiatelemetryNexusDashboards#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Type of site added to Multi-Site Orchestrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#type_of_site_in_mso DataIntersightNiatelemetryNexusDashboards#type_of_site_in_mso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#type_of_site_in_mso DataIntersightNiatelemetryNexusDashboards#type_of_site_in_mso}
   */
   readonly typeOfSiteInMso?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#ancestors DataIntersightNiatelemetryNexusDashboards#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#ancestors DataIntersightNiatelemetryNexusDashboards#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryNexusDashboardsAncestors[] | cdktf.IResolvable;
   /**
   * nd_sites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#nd_sites DataIntersightNiatelemetryNexusDashboards#nd_sites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#nd_sites DataIntersightNiatelemetryNexusDashboards#nd_sites}
   */
   readonly ndSites?: DataIntersightNiatelemetryNexusDashboardsNdSites[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#parent DataIntersightNiatelemetryNexusDashboards#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#parent DataIntersightNiatelemetryNexusDashboards#parent}
   */
   readonly parent?: DataIntersightNiatelemetryNexusDashboardsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#permission_resources DataIntersightNiatelemetryNexusDashboards#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#permission_resources DataIntersightNiatelemetryNexusDashboards#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryNexusDashboardsPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#registered_device DataIntersightNiatelemetryNexusDashboards#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#registered_device DataIntersightNiatelemetryNexusDashboards#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryNexusDashboardsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#tags DataIntersightNiatelemetryNexusDashboards#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#tags DataIntersightNiatelemetryNexusDashboards#tags}
   */
   readonly tags?: DataIntersightNiatelemetryNexusDashboardsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#version_context DataIntersightNiatelemetryNexusDashboards#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#version_context DataIntersightNiatelemetryNexusDashboards#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryNexusDashboardsVersionContext;
 }
@@ -1557,7 +1557,7 @@ export class DataIntersightNiatelemetryNexusDashboardsResultsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryNexusDashboardsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1565,19 +1565,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1590,7 +1590,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -1822,7 +1822,7 @@ export class DataIntersightNiatelemetryNexusDashboardsAncestorsList extends cdkt
 }
 export interface DataIntersightNiatelemetryNexusDashboardsNdSites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1830,32 +1830,32 @@ export interface DataIntersightNiatelemetryNexusDashboardsNdSites {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * Returns the name of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#name DataIntersightNiatelemetryNexusDashboards#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#name DataIntersightNiatelemetryNexusDashboards#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
   * Returns the type of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#site_type DataIntersightNiatelemetryNexusDashboards#site_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#site_type DataIntersightNiatelemetryNexusDashboards#site_type}
   */
   readonly siteType?: string;
   /**
   * Returns the uuid of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#uuid DataIntersightNiatelemetryNexusDashboards#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#uuid DataIntersightNiatelemetryNexusDashboards#uuid}
   */
   readonly uuid?: string;
 }
@@ -2116,7 +2116,7 @@ export class DataIntersightNiatelemetryNexusDashboardsNdSitesList extends cdktf.
 }
 export interface DataIntersightNiatelemetryNexusDashboardsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2124,19 +2124,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2149,7 +2149,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -2349,7 +2349,7 @@ export class DataIntersightNiatelemetryNexusDashboardsParentOutputReference exte
 }
 export interface DataIntersightNiatelemetryNexusDashboardsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2357,19 +2357,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2382,7 +2382,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -2614,7 +2614,7 @@ export class DataIntersightNiatelemetryNexusDashboardsPermissionResourcesList ex
 }
 export interface DataIntersightNiatelemetryNexusDashboardsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2622,19 +2622,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2647,7 +2647,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -2847,7 +2847,7 @@ export class DataIntersightNiatelemetryNexusDashboardsRegisteredDeviceOutputRefe
 }
 export interface DataIntersightNiatelemetryNexusDashboardsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2855,19 +2855,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2880,7 +2880,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -3112,7 +3112,7 @@ export class DataIntersightNiatelemetryNexusDashboardsTagsAncestorDefinitionsLis
 }
 export interface DataIntersightNiatelemetryNexusDashboardsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3120,19 +3120,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3145,7 +3145,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -3345,25 +3345,25 @@ export class DataIntersightNiatelemetryNexusDashboardsTagsDefinitionOutputRefere
 }
 export interface DataIntersightNiatelemetryNexusDashboardsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#key DataIntersightNiatelemetryNexusDashboards#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#key DataIntersightNiatelemetryNexusDashboards#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#propagated DataIntersightNiatelemetryNexusDashboards#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#propagated DataIntersightNiatelemetryNexusDashboards#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#sys_tag DataIntersightNiatelemetryNexusDashboards#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#sys_tag DataIntersightNiatelemetryNexusDashboards#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3371,25 +3371,25 @@ export interface DataIntersightNiatelemetryNexusDashboardsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#type DataIntersightNiatelemetryNexusDashboards#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#type DataIntersightNiatelemetryNexusDashboards#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#value DataIntersightNiatelemetryNexusDashboards#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#value DataIntersightNiatelemetryNexusDashboards#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#ancestor_definitions DataIntersightNiatelemetryNexusDashboards#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#ancestor_definitions DataIntersightNiatelemetryNexusDashboards#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryNexusDashboardsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#definition DataIntersightNiatelemetryNexusDashboards#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#definition DataIntersightNiatelemetryNexusDashboards#definition}
   */
   readonly definition?: DataIntersightNiatelemetryNexusDashboardsTagsDefinition;
 }
@@ -3708,7 +3708,7 @@ export class DataIntersightNiatelemetryNexusDashboardsTagsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetryNexusDashboardsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3716,19 +3716,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3741,7 +3741,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -3973,7 +3973,7 @@ export class DataIntersightNiatelemetryNexusDashboardsVersionContextInterestedMo
 }
 export interface DataIntersightNiatelemetryNexusDashboardsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3981,19 +3981,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#moid DataIntersightNiatelemetryNexusDashboards#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4006,7 +4006,7 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#selector DataIntersightNiatelemetryNexusDashboards#selector}
   */
   readonly selector?: string;
 }
@@ -4206,7 +4206,7 @@ export class DataIntersightNiatelemetryNexusDashboardsVersionContextRefMoOutputR
 }
 export interface DataIntersightNiatelemetryNexusDashboardsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#additional_properties DataIntersightNiatelemetryNexusDashboards#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4214,32 +4214,32 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#class_id DataIntersightNiatelemetryNexusDashboards#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#marked_for_deletion DataIntersightNiatelemetryNexusDashboards#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#marked_for_deletion DataIntersightNiatelemetryNexusDashboards#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#nr_version DataIntersightNiatelemetryNexusDashboards#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#nr_version DataIntersightNiatelemetryNexusDashboards#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#object_type DataIntersightNiatelemetryNexusDashboards#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#timestamp DataIntersightNiatelemetryNexusDashboards#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#timestamp DataIntersightNiatelemetryNexusDashboards#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4250,19 +4250,19 @@ export interface DataIntersightNiatelemetryNexusDashboardsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#version_type DataIntersightNiatelemetryNexusDashboards#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#version_type DataIntersightNiatelemetryNexusDashboards#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#interested_mos DataIntersightNiatelemetryNexusDashboards#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#interested_mos DataIntersightNiatelemetryNexusDashboards#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryNexusDashboardsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#ref_mo DataIntersightNiatelemetryNexusDashboards#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#ref_mo DataIntersightNiatelemetryNexusDashboards#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryNexusDashboardsVersionContextRefMo;
 }
@@ -4578,7 +4578,7 @@ export class DataIntersightNiatelemetryNexusDashboardsVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards intersight_niatelemetry_nexus_dashboards}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards intersight_niatelemetry_nexus_dashboards}
 */
 export class DataIntersightNiatelemetryNexusDashboards extends cdktf.TerraformDataSource {
 
@@ -4594,7 +4594,7 @@ export class DataIntersightNiatelemetryNexusDashboards extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightNiatelemetryNexusDashboards resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryNexusDashboards to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryNexusDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryNexusDashboards that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryNexusDashboards to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4606,7 +4606,7 @@ export class DataIntersightNiatelemetryNexusDashboards extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nexus_dashboards intersight_niatelemetry_nexus_dashboards} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nexus_dashboards intersight_niatelemetry_nexus_dashboards} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4617,8 +4617,8 @@ export class DataIntersightNiatelemetryNexusDashboards extends cdktf.TerraformDa
       terraformResourceType: 'intersight_niatelemetry_nexus_dashboards',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

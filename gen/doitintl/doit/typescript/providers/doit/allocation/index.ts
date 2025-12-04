@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface AllocationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Allocation description
+  * A description of the allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#description Allocation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#description Allocation#description}
   */
   readonly description?: string;
   /**
-  * Allocation name
+  * The name of the allocation. Must be unique within the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#name Allocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#name Allocation#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#rule Allocation#rule}
+  * The configuration that defines the allocation rules and matching conditions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#rule Allocation#rule}
   */
   readonly rule: AllocationRule;
 }
@@ -28,33 +30,35 @@ export interface AllocationRuleComponents {
   /**
   * Include null values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#include_null Allocation#include_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#include_null Allocation#include_null}
   */
   readonly includeNull?: boolean | cdktf.IResolvable;
   /**
   * If true, all selected values will be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#inverse_selection Allocation#inverse_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#inverse_selection Allocation#inverse_selection}
   */
   readonly inverseSelection?: boolean | cdktf.IResolvable;
   /**
-  * Key of a dimension. Examples: "billing_account_id", "country", etc.
+  * Key of a dimension. Examples: "billing_account_id", "country", etc. Dimension must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#key Allocation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#key Allocation#key}
   */
   readonly key: string;
   /**
   * Filter mode to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#mode Allocation#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#mode Allocation#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#type Allocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#type Allocation#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#values Allocation#values}
+  * Values to filter on
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#values Allocation#values}
   */
   readonly values: string[];
 }
@@ -229,7 +233,7 @@ export class AllocationRuleComponentsOutputReference extends cdktf.ComplexObject
     return this._inverseSelection;
   }
 
-  // key - computed: true, optional: false, required: true
+  // key - computed: false, optional: false, required: true
   private _key?: string; 
   public get key() {
     return this.getStringAttribute('key');
@@ -242,7 +246,7 @@ export class AllocationRuleComponentsOutputReference extends cdktf.ComplexObject
     return this._key;
   }
 
-  // mode - computed: true, optional: false, required: true
+  // mode - computed: false, optional: false, required: true
   private _mode?: string; 
   public get mode() {
     return this.getStringAttribute('mode');
@@ -255,7 +259,7 @@ export class AllocationRuleComponentsOutputReference extends cdktf.ComplexObject
     return this._mode;
   }
 
-  // type - computed: true, optional: false, required: true
+  // type - computed: false, optional: false, required: true
   private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
@@ -268,7 +272,7 @@ export class AllocationRuleComponentsOutputReference extends cdktf.ComplexObject
     return this._type;
   }
 
-  // values - computed: true, optional: false, required: true
+  // values - computed: false, optional: false, required: true
   private _values?: string[]; 
   public get values() {
     return this.getListAttribute('values');
@@ -305,15 +309,15 @@ export interface AllocationRule {
   /**
   * List of allocation filter components
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#components Allocation#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#components Allocation#components}
   */
-  readonly components?: AllocationRuleComponents[] | cdktf.IResolvable;
+  readonly components: AllocationRuleComponents[] | cdktf.IResolvable;
   /**
   * Formula for combining components (A is the first component, B is the second one, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#formula Allocation#formula}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#formula Allocation#formula}
   */
-  readonly formula?: string;
+  readonly formula: string;
 }
 
 export function allocationRuleToTerraform(struct?: AllocationRule | cdktf.IResolvable): any {
@@ -400,7 +404,7 @@ export class AllocationRuleOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // components - computed: true, optional: true, required: false
+  // components - computed: false, optional: false, required: true
   private _components = new AllocationRuleComponentsList(this, "components", false);
   public get components() {
     return this._components;
@@ -408,24 +412,18 @@ export class AllocationRuleOutputReference extends cdktf.ComplexObject {
   public putComponents(value: AllocationRuleComponents[] | cdktf.IResolvable) {
     this._components.internalValue = value;
   }
-  public resetComponents() {
-    this._components.internalValue = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get componentsInput() {
     return this._components.internalValue;
   }
 
-  // formula - computed: true, optional: true, required: false
+  // formula - computed: false, optional: false, required: true
   private _formula?: string; 
   public get formula() {
     return this.getStringAttribute('formula');
   }
   public set formula(value: string) {
     this._formula = value;
-  }
-  public resetFormula() {
-    this._formula = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get formulaInput() {
@@ -434,7 +432,7 @@ export class AllocationRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation doit_allocation}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation doit_allocation}
 */
 export class Allocation extends cdktf.TerraformResource {
 
@@ -450,7 +448,7 @@ export class Allocation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Allocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Allocation to import
-  * @param importFromId The id of the existing Allocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Allocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Allocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -462,7 +460,7 @@ export class Allocation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/allocation doit_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/allocation doit_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -473,8 +471,8 @@ export class Allocation extends cdktf.TerraformResource {
       terraformResourceType: 'doit_allocation',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

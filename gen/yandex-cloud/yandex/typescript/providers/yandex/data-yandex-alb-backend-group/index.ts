@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexAlbBackendGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Backend Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#backend_group_id DataYandexAlbBackendGroup#backend_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#backend_group_id DataYandexAlbBackendGroup#backend_group_id}
   */
   readonly backendGroupId?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#description DataYandexAlbBackendGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#description DataYandexAlbBackendGroup#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#folder_id DataYandexAlbBackendGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#folder_id DataYandexAlbBackendGroup#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#id DataYandexAlbBackendGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#id DataYandexAlbBackendGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface DataYandexAlbBackendGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#labels DataYandexAlbBackendGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#labels DataYandexAlbBackendGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#name DataYandexAlbBackendGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#name DataYandexAlbBackendGroup#name}
   */
   readonly name?: string;
   /**
   * grpc_backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#grpc_backend DataYandexAlbBackendGroup#grpc_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#grpc_backend DataYandexAlbBackendGroup#grpc_backend}
   */
   readonly grpcBackend?: DataYandexAlbBackendGroupGrpcBackend[] | cdktf.IResolvable;
   /**
   * http_backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http_backend DataYandexAlbBackendGroup#http_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http_backend DataYandexAlbBackendGroup#http_backend}
   */
   readonly httpBackend?: DataYandexAlbBackendGroupHttpBackend[] | cdktf.IResolvable;
   /**
   * session_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#session_affinity DataYandexAlbBackendGroup#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#session_affinity DataYandexAlbBackendGroup#session_affinity}
   */
   readonly sessionAffinity?: DataYandexAlbBackendGroupSessionAffinity;
   /**
   * stream_backend block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#stream_backend DataYandexAlbBackendGroup#stream_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#stream_backend DataYandexAlbBackendGroup#stream_backend}
   */
   readonly streamBackend?: DataYandexAlbBackendGroupStreamBackend[] | cdktf.IResolvable;
 }
 export interface DataYandexAlbBackendGroupGrpcBackendHealthcheckGrpcHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
   */
   readonly serviceName?: string;
 }
@@ -155,11 +155,11 @@ export class DataYandexAlbBackendGroupGrpcBackendHealthcheckGrpcHealthcheckOutpu
 }
 export interface DataYandexAlbBackendGroupGrpcBackendHealthcheckHttpHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
   */
   readonly http2?: boolean | cdktf.IResolvable;
 }
@@ -282,11 +282,11 @@ export class DataYandexAlbBackendGroupGrpcBackendHealthcheckHttpHealthcheckOutpu
 }
 export interface DataYandexAlbBackendGroupGrpcBackendHealthcheckStreamHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
   */
   readonly send?: string;
 }
@@ -399,37 +399,37 @@ export class DataYandexAlbBackendGroupGrpcBackendHealthcheckStreamHealthcheckOut
 }
 export interface DataYandexAlbBackendGroupGrpcBackendHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
   */
   readonly healthcheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
   */
   readonly intervalJitterPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * grpc_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
   */
   readonly grpcHealthcheck?: DataYandexAlbBackendGroupGrpcBackendHealthcheckGrpcHealthcheck;
   /**
   * http_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
   */
   readonly httpHealthcheck?: DataYandexAlbBackendGroupGrpcBackendHealthcheckHttpHealthcheck;
   /**
   * stream_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
   */
   readonly streamHealthcheck?: DataYandexAlbBackendGroupGrpcBackendHealthcheckStreamHealthcheck;
 }
@@ -697,19 +697,19 @@ export class DataYandexAlbBackendGroupGrpcBackendHealthcheckOutputReference exte
 }
 export interface DataYandexAlbBackendGroupGrpcBackendLoadBalancingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
   */
   readonly localityAwareRoutingPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
   */
   readonly strictLocality?: boolean | cdktf.IResolvable;
 }
@@ -880,11 +880,11 @@ export class DataYandexAlbBackendGroupGrpcBackendLoadBalancingConfigOutputRefere
 }
 export interface DataYandexAlbBackendGroupGrpcBackendTlsValidationContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
   */
   readonly trustedCaBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
   */
   readonly trustedCaId?: string;
 }
@@ -997,13 +997,13 @@ export class DataYandexAlbBackendGroupGrpcBackendTlsValidationContextOutputRefer
 }
 export interface DataYandexAlbBackendGroupGrpcBackendTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
   */
   readonly sni?: string;
   /**
   * validation_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
   */
   readonly validationContext?: DataYandexAlbBackendGroupGrpcBackendTlsValidationContext;
 }
@@ -1116,29 +1116,29 @@ export class DataYandexAlbBackendGroupGrpcBackendTlsOutputReference extends cdkt
 }
 export interface DataYandexAlbBackendGroupGrpcBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
   */
   readonly weight?: number;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
   */
   readonly healthcheck?: DataYandexAlbBackendGroupGrpcBackendHealthcheck;
   /**
   * load_balancing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
   */
   readonly loadBalancingConfig?: DataYandexAlbBackendGroupGrpcBackendLoadBalancingConfig;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
   */
   readonly tls?: DataYandexAlbBackendGroupGrpcBackendTls;
 }
@@ -1380,7 +1380,7 @@ export class DataYandexAlbBackendGroupGrpcBackendList extends cdktf.ComplexList 
 }
 export interface DataYandexAlbBackendGroupHttpBackendHealthcheckGrpcHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1464,11 +1464,11 @@ export class DataYandexAlbBackendGroupHttpBackendHealthcheckGrpcHealthcheckOutpu
 }
 export interface DataYandexAlbBackendGroupHttpBackendHealthcheckHttpHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
   */
   readonly http2?: boolean | cdktf.IResolvable;
 }
@@ -1591,11 +1591,11 @@ export class DataYandexAlbBackendGroupHttpBackendHealthcheckHttpHealthcheckOutpu
 }
 export interface DataYandexAlbBackendGroupHttpBackendHealthcheckStreamHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
   */
   readonly send?: string;
 }
@@ -1708,37 +1708,37 @@ export class DataYandexAlbBackendGroupHttpBackendHealthcheckStreamHealthcheckOut
 }
 export interface DataYandexAlbBackendGroupHttpBackendHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
   */
   readonly healthcheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
   */
   readonly intervalJitterPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * grpc_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
   */
   readonly grpcHealthcheck?: DataYandexAlbBackendGroupHttpBackendHealthcheckGrpcHealthcheck;
   /**
   * http_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
   */
   readonly httpHealthcheck?: DataYandexAlbBackendGroupHttpBackendHealthcheckHttpHealthcheck;
   /**
   * stream_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
   */
   readonly streamHealthcheck?: DataYandexAlbBackendGroupHttpBackendHealthcheckStreamHealthcheck;
 }
@@ -2006,19 +2006,19 @@ export class DataYandexAlbBackendGroupHttpBackendHealthcheckOutputReference exte
 }
 export interface DataYandexAlbBackendGroupHttpBackendLoadBalancingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
   */
   readonly localityAwareRoutingPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
   */
   readonly strictLocality?: boolean | cdktf.IResolvable;
 }
@@ -2189,11 +2189,11 @@ export class DataYandexAlbBackendGroupHttpBackendLoadBalancingConfigOutputRefere
 }
 export interface DataYandexAlbBackendGroupHttpBackendTlsValidationContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
   */
   readonly trustedCaBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
   */
   readonly trustedCaId?: string;
 }
@@ -2306,13 +2306,13 @@ export class DataYandexAlbBackendGroupHttpBackendTlsValidationContextOutputRefer
 }
 export interface DataYandexAlbBackendGroupHttpBackendTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
   */
   readonly sni?: string;
   /**
   * validation_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
   */
   readonly validationContext?: DataYandexAlbBackendGroupHttpBackendTlsValidationContext;
 }
@@ -2425,41 +2425,41 @@ export class DataYandexAlbBackendGroupHttpBackendTlsOutputReference extends cdkt
 }
 export interface DataYandexAlbBackendGroupHttpBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
   */
   readonly http2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#storage_bucket DataYandexAlbBackendGroup#storage_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#storage_bucket DataYandexAlbBackendGroup#storage_bucket}
   */
   readonly storageBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#target_group_ids DataYandexAlbBackendGroup#target_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#target_group_ids DataYandexAlbBackendGroup#target_group_ids}
   */
   readonly targetGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
   */
   readonly weight?: number;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
   */
   readonly healthcheck?: DataYandexAlbBackendGroupHttpBackendHealthcheck;
   /**
   * load_balancing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
   */
   readonly loadBalancingConfig?: DataYandexAlbBackendGroupHttpBackendLoadBalancingConfig;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
   */
   readonly tls?: DataYandexAlbBackendGroupHttpBackendTls;
 }
@@ -2785,7 +2785,7 @@ export interface DataYandexAlbBackendGroupSessionAffinityConnection {
   /**
   * Use source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#source_ip DataYandexAlbBackendGroup#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#source_ip DataYandexAlbBackendGroup#source_ip}
   */
   readonly sourceIp?: boolean | cdktf.IResolvable;
 }
@@ -2871,7 +2871,7 @@ export interface DataYandexAlbBackendGroupSessionAffinityCookie {
   /**
   * TTL for the cookie (if not set, session cookie will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#ttl DataYandexAlbBackendGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#ttl DataYandexAlbBackendGroup#ttl}
   */
   readonly ttl?: string;
 }
@@ -2962,7 +2962,7 @@ export interface DataYandexAlbBackendGroupSessionAffinityHeader {
   /**
   * The name of the request header that will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#header_name DataYandexAlbBackendGroup#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#header_name DataYandexAlbBackendGroup#header_name}
   */
   readonly headerName?: string;
 }
@@ -3048,19 +3048,19 @@ export interface DataYandexAlbBackendGroupSessionAffinity {
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#connection DataYandexAlbBackendGroup#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#connection DataYandexAlbBackendGroup#connection}
   */
   readonly connection?: DataYandexAlbBackendGroupSessionAffinityConnection;
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#cookie DataYandexAlbBackendGroup#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#cookie DataYandexAlbBackendGroup#cookie}
   */
   readonly cookie?: DataYandexAlbBackendGroupSessionAffinityCookie;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#header DataYandexAlbBackendGroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#header DataYandexAlbBackendGroup#header}
   */
   readonly header?: DataYandexAlbBackendGroupSessionAffinityHeader;
 }
@@ -3202,7 +3202,7 @@ export class DataYandexAlbBackendGroupSessionAffinityOutputReference extends cdk
 }
 export interface DataYandexAlbBackendGroupStreamBackendHealthcheckGrpcHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#service_name DataYandexAlbBackendGroup#service_name}
   */
   readonly serviceName?: string;
 }
@@ -3286,11 +3286,11 @@ export class DataYandexAlbBackendGroupStreamBackendHealthcheckGrpcHealthcheckOut
 }
 export interface DataYandexAlbBackendGroupStreamBackendHealthcheckHttpHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#host DataYandexAlbBackendGroup#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http2 DataYandexAlbBackendGroup#http2}
   */
   readonly http2?: boolean | cdktf.IResolvable;
 }
@@ -3413,11 +3413,11 @@ export class DataYandexAlbBackendGroupStreamBackendHealthcheckHttpHealthcheckOut
 }
 export interface DataYandexAlbBackendGroupStreamBackendHealthcheckStreamHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#receive DataYandexAlbBackendGroup#receive}
   */
   readonly receive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#send DataYandexAlbBackendGroup#send}
   */
   readonly send?: string;
 }
@@ -3530,37 +3530,37 @@ export class DataYandexAlbBackendGroupStreamBackendHealthcheckStreamHealthcheckO
 }
 export interface DataYandexAlbBackendGroupStreamBackendHealthcheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck_port DataYandexAlbBackendGroup#healthcheck_port}
   */
   readonly healthcheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthy_threshold DataYandexAlbBackendGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#interval_jitter_percent DataYandexAlbBackendGroup#interval_jitter_percent}
   */
   readonly intervalJitterPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#unhealthy_threshold DataYandexAlbBackendGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * grpc_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#grpc_healthcheck DataYandexAlbBackendGroup#grpc_healthcheck}
   */
   readonly grpcHealthcheck?: DataYandexAlbBackendGroupStreamBackendHealthcheckGrpcHealthcheck;
   /**
   * http_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#http_healthcheck DataYandexAlbBackendGroup#http_healthcheck}
   */
   readonly httpHealthcheck?: DataYandexAlbBackendGroupStreamBackendHealthcheckHttpHealthcheck;
   /**
   * stream_healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#stream_healthcheck DataYandexAlbBackendGroup#stream_healthcheck}
   */
   readonly streamHealthcheck?: DataYandexAlbBackendGroupStreamBackendHealthcheckStreamHealthcheck;
 }
@@ -3828,19 +3828,19 @@ export class DataYandexAlbBackendGroupStreamBackendHealthcheckOutputReference ex
 }
 export interface DataYandexAlbBackendGroupStreamBackendLoadBalancingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#locality_aware_routing_percent DataYandexAlbBackendGroup#locality_aware_routing_percent}
   */
   readonly localityAwareRoutingPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#mode DataYandexAlbBackendGroup#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#panic_threshold DataYandexAlbBackendGroup#panic_threshold}
   */
   readonly panicThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#strict_locality DataYandexAlbBackendGroup#strict_locality}
   */
   readonly strictLocality?: boolean | cdktf.IResolvable;
 }
@@ -4011,11 +4011,11 @@ export class DataYandexAlbBackendGroupStreamBackendLoadBalancingConfigOutputRefe
 }
 export interface DataYandexAlbBackendGroupStreamBackendTlsValidationContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_bytes DataYandexAlbBackendGroup#trusted_ca_bytes}
   */
   readonly trustedCaBytes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#trusted_ca_id DataYandexAlbBackendGroup#trusted_ca_id}
   */
   readonly trustedCaId?: string;
 }
@@ -4128,13 +4128,13 @@ export class DataYandexAlbBackendGroupStreamBackendTlsValidationContextOutputRef
 }
 export interface DataYandexAlbBackendGroupStreamBackendTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#sni DataYandexAlbBackendGroup#sni}
   */
   readonly sni?: string;
   /**
   * validation_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#validation_context DataYandexAlbBackendGroup#validation_context}
   */
   readonly validationContext?: DataYandexAlbBackendGroupStreamBackendTlsValidationContext;
 }
@@ -4247,37 +4247,37 @@ export class DataYandexAlbBackendGroupStreamBackendTlsOutputReference extends cd
 }
 export interface DataYandexAlbBackendGroupStreamBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#enable_proxy_protocol DataYandexAlbBackendGroup#enable_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#enable_proxy_protocol DataYandexAlbBackendGroup#enable_proxy_protocol}
   */
   readonly enableProxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#keep_connections_on_host_health_failure DataYandexAlbBackendGroup#keep_connections_on_host_health_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#keep_connections_on_host_health_failure DataYandexAlbBackendGroup#keep_connections_on_host_health_failure}
   */
   readonly keepConnectionsOnHostHealthFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#port DataYandexAlbBackendGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#weight DataYandexAlbBackendGroup#weight}
   */
   readonly weight?: number;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#healthcheck DataYandexAlbBackendGroup#healthcheck}
   */
   readonly healthcheck?: DataYandexAlbBackendGroupStreamBackendHealthcheck;
   /**
   * load_balancing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#load_balancing_config DataYandexAlbBackendGroup#load_balancing_config}
   */
   readonly loadBalancingConfig?: DataYandexAlbBackendGroupStreamBackendLoadBalancingConfig;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#tls DataYandexAlbBackendGroup#tls}
   */
   readonly tls?: DataYandexAlbBackendGroupStreamBackendTls;
 }
@@ -4577,7 +4577,7 @@ export class DataYandexAlbBackendGroupStreamBackendList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group yandex_alb_backend_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group yandex_alb_backend_group}
 */
 export class DataYandexAlbBackendGroup extends cdktf.TerraformDataSource {
 
@@ -4593,7 +4593,7 @@ export class DataYandexAlbBackendGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexAlbBackendGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexAlbBackendGroup to import
-  * @param importFromId The id of the existing DataYandexAlbBackendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexAlbBackendGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexAlbBackendGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4605,7 +4605,7 @@ export class DataYandexAlbBackendGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/alb_backend_group yandex_alb_backend_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/alb_backend_group yandex_alb_backend_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4616,8 +4616,8 @@ export class DataYandexAlbBackendGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_alb_backend_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

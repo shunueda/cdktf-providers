@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiaapiNibFileDownloaderConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#account_moid DataIntersightNiaapiNibFileDownloader#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#account_moid DataIntersightNiaapiNibFileDownloader#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiaapiNibFileDownloaderConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#create_time DataIntersightNiaapiNibFileDownloader#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#create_time DataIntersightNiaapiNibFileDownloader#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#domain_group_moid DataIntersightNiaapiNibFileDownloader#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#domain_group_moid DataIntersightNiaapiNibFileDownloader#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Filename of this Metadata package file, folder will be handled by api.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#file_name DataIntersightNiaapiNibFileDownloader#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#file_name DataIntersightNiaapiNibFileDownloader#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#id DataIntersightNiaapiNibFileDownloader#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#id DataIntersightNiaapiNibFileDownloader#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,67 +53,67 @@ export interface DataIntersightNiaapiNibFileDownloaderConfig extends cdktf.Terra
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#mod_time DataIntersightNiaapiNibFileDownloader#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#mod_time DataIntersightNiaapiNibFileDownloader#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#owners DataIntersightNiaapiNibFileDownloader#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#owners DataIntersightNiaapiNibFileDownloader#owners}
   */
   readonly owners?: string[];
   /**
   * The presigned URL from server to download this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#presigned_url DataIntersightNiaapiNibFileDownloader#presigned_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#presigned_url DataIntersightNiaapiNibFileDownloader#presigned_url}
   */
   readonly presignedUrl?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#shared_scope DataIntersightNiaapiNibFileDownloader#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#shared_scope DataIntersightNiaapiNibFileDownloader#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#ancestors DataIntersightNiaapiNibFileDownloader#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#ancestors DataIntersightNiaapiNibFileDownloader#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiNibFileDownloaderAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#parent DataIntersightNiaapiNibFileDownloader#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#parent DataIntersightNiaapiNibFileDownloader#parent}
   */
   readonly parent?: DataIntersightNiaapiNibFileDownloaderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#permission_resources DataIntersightNiaapiNibFileDownloader#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#permission_resources DataIntersightNiaapiNibFileDownloader#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiNibFileDownloaderPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#tags DataIntersightNiaapiNibFileDownloader#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#tags DataIntersightNiaapiNibFileDownloader#tags}
   */
   readonly tags?: DataIntersightNiaapiNibFileDownloaderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#version_context DataIntersightNiaapiNibFileDownloader#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#version_context DataIntersightNiaapiNibFileDownloader#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiNibFileDownloaderVersionContext;
 }
@@ -1173,7 +1173,7 @@ export class DataIntersightNiaapiNibFileDownloaderResultsList extends cdktf.Comp
 }
 export interface DataIntersightNiaapiNibFileDownloaderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1181,19 +1181,19 @@ export interface DataIntersightNiaapiNibFileDownloaderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1206,7 +1206,7 @@ export interface DataIntersightNiaapiNibFileDownloaderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1438,7 +1438,7 @@ export class DataIntersightNiaapiNibFileDownloaderAncestorsList extends cdktf.Co
 }
 export interface DataIntersightNiaapiNibFileDownloaderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1446,19 +1446,19 @@ export interface DataIntersightNiaapiNibFileDownloaderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1471,7 +1471,7 @@ export interface DataIntersightNiaapiNibFileDownloaderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1671,7 +1671,7 @@ export class DataIntersightNiaapiNibFileDownloaderParentOutputReference extends 
 }
 export interface DataIntersightNiaapiNibFileDownloaderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1679,19 +1679,19 @@ export interface DataIntersightNiaapiNibFileDownloaderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1704,7 +1704,7 @@ export interface DataIntersightNiaapiNibFileDownloaderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -1936,7 +1936,7 @@ export class DataIntersightNiaapiNibFileDownloaderPermissionResourcesList extend
 }
 export interface DataIntersightNiaapiNibFileDownloaderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1944,19 +1944,19 @@ export interface DataIntersightNiaapiNibFileDownloaderTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1969,7 +1969,7 @@ export interface DataIntersightNiaapiNibFileDownloaderTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -2201,7 +2201,7 @@ export class DataIntersightNiaapiNibFileDownloaderTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightNiaapiNibFileDownloaderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2209,19 +2209,19 @@ export interface DataIntersightNiaapiNibFileDownloaderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2234,7 +2234,7 @@ export interface DataIntersightNiaapiNibFileDownloaderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -2434,25 +2434,25 @@ export class DataIntersightNiaapiNibFileDownloaderTagsDefinitionOutputReference 
 }
 export interface DataIntersightNiaapiNibFileDownloaderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#key DataIntersightNiaapiNibFileDownloader#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#key DataIntersightNiaapiNibFileDownloader#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#propagated DataIntersightNiaapiNibFileDownloader#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#propagated DataIntersightNiaapiNibFileDownloader#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#sys_tag DataIntersightNiaapiNibFileDownloader#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#sys_tag DataIntersightNiaapiNibFileDownloader#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2460,25 +2460,25 @@ export interface DataIntersightNiaapiNibFileDownloaderTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#type DataIntersightNiaapiNibFileDownloader#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#type DataIntersightNiaapiNibFileDownloader#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#value DataIntersightNiaapiNibFileDownloader#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#value DataIntersightNiaapiNibFileDownloader#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#ancestor_definitions DataIntersightNiaapiNibFileDownloader#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#ancestor_definitions DataIntersightNiaapiNibFileDownloader#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiNibFileDownloaderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#definition DataIntersightNiaapiNibFileDownloader#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#definition DataIntersightNiaapiNibFileDownloader#definition}
   */
   readonly definition?: DataIntersightNiaapiNibFileDownloaderTagsDefinition;
 }
@@ -2797,7 +2797,7 @@ export class DataIntersightNiaapiNibFileDownloaderTagsList extends cdktf.Complex
 }
 export interface DataIntersightNiaapiNibFileDownloaderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2805,19 +2805,19 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2830,7 +2830,7 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -3062,7 +3062,7 @@ export class DataIntersightNiaapiNibFileDownloaderVersionContextInterestedMosLis
 }
 export interface DataIntersightNiaapiNibFileDownloaderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3070,19 +3070,19 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#moid DataIntersightNiaapiNibFileDownloader#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3095,7 +3095,7 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#selector DataIntersightNiaapiNibFileDownloader#selector}
   */
   readonly selector?: string;
 }
@@ -3295,7 +3295,7 @@ export class DataIntersightNiaapiNibFileDownloaderVersionContextRefMoOutputRefer
 }
 export interface DataIntersightNiaapiNibFileDownloaderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#additional_properties DataIntersightNiaapiNibFileDownloader#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3303,32 +3303,32 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#class_id DataIntersightNiaapiNibFileDownloader#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#marked_for_deletion DataIntersightNiaapiNibFileDownloader#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#marked_for_deletion DataIntersightNiaapiNibFileDownloader#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#nr_version DataIntersightNiaapiNibFileDownloader#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#nr_version DataIntersightNiaapiNibFileDownloader#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#object_type DataIntersightNiaapiNibFileDownloader#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#timestamp DataIntersightNiaapiNibFileDownloader#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#timestamp DataIntersightNiaapiNibFileDownloader#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3339,19 +3339,19 @@ export interface DataIntersightNiaapiNibFileDownloaderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#version_type DataIntersightNiaapiNibFileDownloader#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#version_type DataIntersightNiaapiNibFileDownloader#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#interested_mos DataIntersightNiaapiNibFileDownloader#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#interested_mos DataIntersightNiaapiNibFileDownloader#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiNibFileDownloaderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#ref_mo DataIntersightNiaapiNibFileDownloader#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#ref_mo DataIntersightNiaapiNibFileDownloader#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiNibFileDownloaderVersionContextRefMo;
 }
@@ -3667,7 +3667,7 @@ export class DataIntersightNiaapiNibFileDownloaderVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader intersight_niaapi_nib_file_downloader}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader intersight_niaapi_nib_file_downloader}
 */
 export class DataIntersightNiaapiNibFileDownloader extends cdktf.TerraformDataSource {
 
@@ -3683,7 +3683,7 @@ export class DataIntersightNiaapiNibFileDownloader extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightNiaapiNibFileDownloader resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiNibFileDownloader to import
-  * @param importFromId The id of the existing DataIntersightNiaapiNibFileDownloader that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiNibFileDownloader that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiNibFileDownloader to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3695,7 +3695,7 @@ export class DataIntersightNiaapiNibFileDownloader extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_nib_file_downloader intersight_niaapi_nib_file_downloader} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_nib_file_downloader intersight_niaapi_nib_file_downloader} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3706,8 +3706,8 @@ export class DataIntersightNiaapiNibFileDownloader extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_niaapi_nib_file_downloader',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

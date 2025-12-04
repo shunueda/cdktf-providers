@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareNxosDescriptorConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#account_moid DataIntersightFirmwareNxosDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#account_moid DataIntersightFirmwareNxosDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#brand_string DataIntersightFirmwareNxosDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#brand_string DataIntersightFirmwareNxosDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
@@ -29,29 +29,29 @@ export interface DataIntersightFirmwareNxosDescriptorConfig extends cdktf.Terraf
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#create_time DataIntersightFirmwareNxosDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#create_time DataIntersightFirmwareNxosDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#description DataIntersightFirmwareNxosDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#description DataIntersightFirmwareNxosDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#domain_group_moid DataIntersightFirmwareNxosDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#domain_group_moid DataIntersightFirmwareNxosDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#id DataIntersightFirmwareNxosDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#id DataIntersightFirmwareNxosDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,31 +60,31 @@ export interface DataIntersightFirmwareNxosDescriptorConfig extends cdktf.Terraf
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#label DataIntersightFirmwareNxosDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#label DataIntersightFirmwareNxosDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#mod_time DataIntersightFirmwareNxosDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#mod_time DataIntersightFirmwareNxosDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#model DataIntersightFirmwareNxosDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#model DataIntersightFirmwareNxosDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#nr_version DataIntersightFirmwareNxosDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#nr_version DataIntersightFirmwareNxosDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -92,66 +92,66 @@ export interface DataIntersightFirmwareNxosDescriptorConfig extends cdktf.Terraf
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#owners DataIntersightFirmwareNxosDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#owners DataIntersightFirmwareNxosDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#revision DataIntersightFirmwareNxosDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#revision DataIntersightFirmwareNxosDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#shared_scope DataIntersightFirmwareNxosDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#shared_scope DataIntersightFirmwareNxosDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#vendor DataIntersightFirmwareNxosDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#vendor DataIntersightFirmwareNxosDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#ancestors DataIntersightFirmwareNxosDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#ancestors DataIntersightFirmwareNxosDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareNxosDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#capabilities DataIntersightFirmwareNxosDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#capabilities DataIntersightFirmwareNxosDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightFirmwareNxosDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#parent DataIntersightFirmwareNxosDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#parent DataIntersightFirmwareNxosDescriptor#parent}
   */
   readonly parent?: DataIntersightFirmwareNxosDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#permission_resources DataIntersightFirmwareNxosDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#permission_resources DataIntersightFirmwareNxosDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareNxosDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#tags DataIntersightFirmwareNxosDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#tags DataIntersightFirmwareNxosDescriptor#tags}
   */
   readonly tags?: DataIntersightFirmwareNxosDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#version_context DataIntersightFirmwareNxosDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#version_context DataIntersightFirmwareNxosDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareNxosDescriptorVersionContext;
 }
@@ -1337,7 +1337,7 @@ export class DataIntersightFirmwareNxosDescriptorResultsList extends cdktf.Compl
 }
 export interface DataIntersightFirmwareNxosDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1345,19 +1345,19 @@ export interface DataIntersightFirmwareNxosDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1370,7 +1370,7 @@ export interface DataIntersightFirmwareNxosDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1602,7 +1602,7 @@ export class DataIntersightFirmwareNxosDescriptorAncestorsList extends cdktf.Com
 }
 export interface DataIntersightFirmwareNxosDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1610,19 +1610,19 @@ export interface DataIntersightFirmwareNxosDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1635,7 +1635,7 @@ export interface DataIntersightFirmwareNxosDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1867,7 +1867,7 @@ export class DataIntersightFirmwareNxosDescriptorCapabilitiesList extends cdktf.
 }
 export interface DataIntersightFirmwareNxosDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1875,19 +1875,19 @@ export interface DataIntersightFirmwareNxosDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1900,7 +1900,7 @@ export interface DataIntersightFirmwareNxosDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2100,7 +2100,7 @@ export class DataIntersightFirmwareNxosDescriptorParentOutputReference extends c
 }
 export interface DataIntersightFirmwareNxosDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2108,19 +2108,19 @@ export interface DataIntersightFirmwareNxosDescriptorPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2133,7 +2133,7 @@ export interface DataIntersightFirmwareNxosDescriptorPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2365,7 +2365,7 @@ export class DataIntersightFirmwareNxosDescriptorPermissionResourcesList extends
 }
 export interface DataIntersightFirmwareNxosDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2373,19 +2373,19 @@ export interface DataIntersightFirmwareNxosDescriptorTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2398,7 +2398,7 @@ export interface DataIntersightFirmwareNxosDescriptorTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2630,7 +2630,7 @@ export class DataIntersightFirmwareNxosDescriptorTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightFirmwareNxosDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2638,19 +2638,19 @@ export interface DataIntersightFirmwareNxosDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2663,7 +2663,7 @@ export interface DataIntersightFirmwareNxosDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2863,25 +2863,25 @@ export class DataIntersightFirmwareNxosDescriptorTagsDefinitionOutputReference e
 }
 export interface DataIntersightFirmwareNxosDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#key DataIntersightFirmwareNxosDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#key DataIntersightFirmwareNxosDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#propagated DataIntersightFirmwareNxosDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#propagated DataIntersightFirmwareNxosDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#sys_tag DataIntersightFirmwareNxosDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#sys_tag DataIntersightFirmwareNxosDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2889,25 +2889,25 @@ export interface DataIntersightFirmwareNxosDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#type DataIntersightFirmwareNxosDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#type DataIntersightFirmwareNxosDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#value DataIntersightFirmwareNxosDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#value DataIntersightFirmwareNxosDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#ancestor_definitions DataIntersightFirmwareNxosDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#ancestor_definitions DataIntersightFirmwareNxosDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareNxosDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#definition DataIntersightFirmwareNxosDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#definition DataIntersightFirmwareNxosDescriptor#definition}
   */
   readonly definition?: DataIntersightFirmwareNxosDescriptorTagsDefinition;
 }
@@ -3226,7 +3226,7 @@ export class DataIntersightFirmwareNxosDescriptorTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightFirmwareNxosDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3234,19 +3234,19 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3259,7 +3259,7 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3491,7 +3491,7 @@ export class DataIntersightFirmwareNxosDescriptorVersionContextInterestedMosList
 }
 export interface DataIntersightFirmwareNxosDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3499,19 +3499,19 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#moid DataIntersightFirmwareNxosDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3524,7 +3524,7 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#selector DataIntersightFirmwareNxosDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3724,7 +3724,7 @@ export class DataIntersightFirmwareNxosDescriptorVersionContextRefMoOutputRefere
 }
 export interface DataIntersightFirmwareNxosDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#additional_properties DataIntersightFirmwareNxosDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3732,32 +3732,32 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#class_id DataIntersightFirmwareNxosDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#marked_for_deletion DataIntersightFirmwareNxosDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#marked_for_deletion DataIntersightFirmwareNxosDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#nr_version DataIntersightFirmwareNxosDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#nr_version DataIntersightFirmwareNxosDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#object_type DataIntersightFirmwareNxosDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#timestamp DataIntersightFirmwareNxosDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#timestamp DataIntersightFirmwareNxosDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3768,19 +3768,19 @@ export interface DataIntersightFirmwareNxosDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#version_type DataIntersightFirmwareNxosDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#version_type DataIntersightFirmwareNxosDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#interested_mos DataIntersightFirmwareNxosDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#interested_mos DataIntersightFirmwareNxosDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareNxosDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#ref_mo DataIntersightFirmwareNxosDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#ref_mo DataIntersightFirmwareNxosDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareNxosDescriptorVersionContextRefMo;
 }
@@ -4096,7 +4096,7 @@ export class DataIntersightFirmwareNxosDescriptorVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor intersight_firmware_nxos_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor intersight_firmware_nxos_descriptor}
 */
 export class DataIntersightFirmwareNxosDescriptor extends cdktf.TerraformDataSource {
 
@@ -4112,7 +4112,7 @@ export class DataIntersightFirmwareNxosDescriptor extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightFirmwareNxosDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareNxosDescriptor to import
-  * @param importFromId The id of the existing DataIntersightFirmwareNxosDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareNxosDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareNxosDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4124,7 +4124,7 @@ export class DataIntersightFirmwareNxosDescriptor extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_nxos_descriptor intersight_firmware_nxos_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_nxos_descriptor intersight_firmware_nxos_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4135,8 +4135,8 @@ export class DataIntersightFirmwareNxosDescriptor extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_firmware_nxos_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

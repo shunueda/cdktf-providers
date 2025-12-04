@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudDbbrainTopSpaceSchemasConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#id DataTencentcloudDbbrainTopSpaceSchemas#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#id DataTencentcloudDbbrainTopSpaceSchemas#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudDbbrainTopSpaceSchemasConfig extends cdktf.Terr
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#instance_id DataTencentcloudDbbrainTopSpaceSchemas#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#instance_id DataTencentcloudDbbrainTopSpaceSchemas#instance_id}
   */
   readonly instanceId: string;
   /**
   * The number of Top libraries to return, the maximum value is 100, and the default is 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#limit DataTencentcloudDbbrainTopSpaceSchemas#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#limit DataTencentcloudDbbrainTopSpaceSchemas#limit}
   */
   readonly limit?: number;
   /**
   * Service product type, supported values include: mysql - cloud database MySQL, cynosdb - cloud database CynosDB for MySQL, the default is mysql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#product DataTencentcloudDbbrainTopSpaceSchemas#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#product DataTencentcloudDbbrainTopSpaceSchemas#product}
   */
   readonly product?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#result_output_file DataTencentcloudDbbrainTopSpaceSchemas#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#result_output_file DataTencentcloudDbbrainTopSpaceSchemas#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * The sorting field used to filter the Top library. The optional fields include DataLength, IndexLength, TotalLength, DataFree, FragRatio, TableRows, and PhysicalFileSize (only supported by ApsaraDB for MySQL instances). The default for ApsaraDB for MySQL instances is PhysicalFileSize, and the default for other product instances is TotalLength.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#sort_by DataTencentcloudDbbrainTopSpaceSchemas#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#sort_by DataTencentcloudDbbrainTopSpaceSchemas#sort_by}
   */
   readonly sortBy?: string;
 }
@@ -157,7 +157,7 @@ export class DataTencentcloudDbbrainTopSpaceSchemasTopSpaceSchemasList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas tencentcloud_dbbrain_top_space_schemas}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas tencentcloud_dbbrain_top_space_schemas}
 */
 export class DataTencentcloudDbbrainTopSpaceSchemas extends cdktf.TerraformDataSource {
 
@@ -173,7 +173,7 @@ export class DataTencentcloudDbbrainTopSpaceSchemas extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudDbbrainTopSpaceSchemas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDbbrainTopSpaceSchemas to import
-  * @param importFromId The id of the existing DataTencentcloudDbbrainTopSpaceSchemas that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDbbrainTopSpaceSchemas that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDbbrainTopSpaceSchemas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class DataTencentcloudDbbrainTopSpaceSchemas extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dbbrain_top_space_schemas tencentcloud_dbbrain_top_space_schemas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dbbrain_top_space_schemas tencentcloud_dbbrain_top_space_schemas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class DataTencentcloudDbbrainTopSpaceSchemas extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_dbbrain_top_space_schemas',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

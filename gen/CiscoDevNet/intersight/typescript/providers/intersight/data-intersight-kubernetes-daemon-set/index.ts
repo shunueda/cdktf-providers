@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesDaemonSetConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#account_moid DataIntersightKubernetesDaemonSet#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#account_moid DataIntersightKubernetesDaemonSet#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightKubernetesDaemonSetConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#create_time DataIntersightKubernetesDaemonSet#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#create_time DataIntersightKubernetesDaemonSet#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#domain_group_moid DataIntersightKubernetesDaemonSet#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#domain_group_moid DataIntersightKubernetesDaemonSet#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#id DataIntersightKubernetesDaemonSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#id DataIntersightKubernetesDaemonSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightKubernetesDaemonSetConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#mod_time DataIntersightKubernetesDaemonSet#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#mod_time DataIntersightKubernetesDaemonSet#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * Name of the referenced kubernetes resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#name DataIntersightKubernetesDaemonSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#name DataIntersightKubernetesDaemonSet#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#owners DataIntersightKubernetesDaemonSet#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#owners DataIntersightKubernetesDaemonSet#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#shared_scope DataIntersightKubernetesDaemonSet#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#shared_scope DataIntersightKubernetesDaemonSet#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * UUID of the referenced kubernetes resource. It is generated by the kubernetes cluster itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#uuid DataIntersightKubernetesDaemonSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#uuid DataIntersightKubernetesDaemonSet#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#ancestors DataIntersightKubernetesDaemonSet#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#ancestors DataIntersightKubernetesDaemonSet#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesDaemonSetAncestors[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#metadata DataIntersightKubernetesDaemonSet#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#metadata DataIntersightKubernetesDaemonSet#metadata}
   */
   readonly metadata?: DataIntersightKubernetesDaemonSetMetadata;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#parent DataIntersightKubernetesDaemonSet#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#parent DataIntersightKubernetesDaemonSet#parent}
   */
   readonly parent?: DataIntersightKubernetesDaemonSetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#permission_resources DataIntersightKubernetesDaemonSet#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#permission_resources DataIntersightKubernetesDaemonSet#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesDaemonSetPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#registered_device DataIntersightKubernetesDaemonSet#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#registered_device DataIntersightKubernetesDaemonSet#registered_device}
   */
   readonly registeredDevice?: DataIntersightKubernetesDaemonSetRegisteredDevice;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#status DataIntersightKubernetesDaemonSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#status DataIntersightKubernetesDaemonSet#status}
   */
   readonly status?: DataIntersightKubernetesDaemonSetStatus;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#tags DataIntersightKubernetesDaemonSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#tags DataIntersightKubernetesDaemonSet#tags}
   */
   readonly tags?: DataIntersightKubernetesDaemonSetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#version_context DataIntersightKubernetesDaemonSet#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#version_context DataIntersightKubernetesDaemonSet#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesDaemonSetVersionContext;
 }
@@ -1534,7 +1534,7 @@ export class DataIntersightKubernetesDaemonSetResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightKubernetesDaemonSetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1542,19 +1542,19 @@ export interface DataIntersightKubernetesDaemonSetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1567,7 +1567,7 @@ export interface DataIntersightKubernetesDaemonSetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -1799,7 +1799,7 @@ export class DataIntersightKubernetesDaemonSetAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightKubernetesDaemonSetMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1807,44 +1807,44 @@ export interface DataIntersightKubernetesDaemonSetMetadata {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * CreationTimestamp is a timestamp representing the server time when this object was created. It is not guaranteed to be set in happens-before order across separate operations. Clients may not set this value. It is represented in RFC3339 form and is in UTC. Populated by the system. Read-only. Null for lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#creation_timestamp DataIntersightKubernetesDaemonSet#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#creation_timestamp DataIntersightKubernetesDaemonSet#creation_timestamp}
   */
   readonly creationTimestamp?: string;
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#name DataIntersightKubernetesDaemonSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#name DataIntersightKubernetesDaemonSet#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within each name must be unique. An empty namespace is equivalent to the "default" namespace, but "default" is the canonical representation. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#namespace DataIntersightKubernetesDaemonSet#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#namespace DataIntersightKubernetesDaemonSet#namespace}
   */
   readonly namespace?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#resource_version DataIntersightKubernetesDaemonSet#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#resource_version DataIntersightKubernetesDaemonSet#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID is the unique in time and space value for this object. It is typically generated by the server on successful creation of a resource and is not allowed to change on PUT operations. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#uuid DataIntersightKubernetesDaemonSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#uuid DataIntersightKubernetesDaemonSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -2131,7 +2131,7 @@ export class DataIntersightKubernetesDaemonSetMetadataOutputReference extends cd
 }
 export interface DataIntersightKubernetesDaemonSetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2139,19 +2139,19 @@ export interface DataIntersightKubernetesDaemonSetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2164,7 +2164,7 @@ export interface DataIntersightKubernetesDaemonSetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -2364,7 +2364,7 @@ export class DataIntersightKubernetesDaemonSetParentOutputReference extends cdkt
 }
 export interface DataIntersightKubernetesDaemonSetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2372,19 +2372,19 @@ export interface DataIntersightKubernetesDaemonSetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2397,7 +2397,7 @@ export interface DataIntersightKubernetesDaemonSetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -2629,7 +2629,7 @@ export class DataIntersightKubernetesDaemonSetPermissionResourcesList extends cd
 }
 export interface DataIntersightKubernetesDaemonSetRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2637,19 +2637,19 @@ export interface DataIntersightKubernetesDaemonSetRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2662,7 +2662,7 @@ export interface DataIntersightKubernetesDaemonSetRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -2862,7 +2862,7 @@ export class DataIntersightKubernetesDaemonSetRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightKubernetesDaemonSetStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2870,56 +2870,56 @@ export interface DataIntersightKubernetesDaemonSetStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The number of nodes that are running at least 1 daemon pod and are supposed to run the daemon pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#current_number_scheduled DataIntersightKubernetesDaemonSet#current_number_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#current_number_scheduled DataIntersightKubernetesDaemonSet#current_number_scheduled}
   */
   readonly currentNumberScheduled?: number;
   /**
   * The total number of nodes that should be running the daemon pod (including nodes correctly running the daemon pod).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#desired_number_scheduled DataIntersightKubernetesDaemonSet#desired_number_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#desired_number_scheduled DataIntersightKubernetesDaemonSet#desired_number_scheduled}
   */
   readonly desiredNumberScheduled?: number;
   /**
   * The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and available (ready for at least spec.minReadySeconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#number_available DataIntersightKubernetesDaemonSet#number_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#number_available DataIntersightKubernetesDaemonSet#number_available}
   */
   readonly numberAvailable?: string;
   /**
   * The number of nodes that are running the daemon pod, but are not supposed to run the daemon pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#number_misscheduled DataIntersightKubernetesDaemonSet#number_misscheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#number_misscheduled DataIntersightKubernetesDaemonSet#number_misscheduled}
   */
   readonly numberMisscheduled?: number;
   /**
   * The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#number_ready DataIntersightKubernetesDaemonSet#number_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#number_ready DataIntersightKubernetesDaemonSet#number_ready}
   */
   readonly numberReady?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
   * The most recent generation observed by the daemon set controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#observed_generation DataIntersightKubernetesDaemonSet#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#observed_generation DataIntersightKubernetesDaemonSet#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
   * The total number of nodes that are running updated daemon pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#updated_number_scheduled DataIntersightKubernetesDaemonSet#updated_number_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#updated_number_scheduled DataIntersightKubernetesDaemonSet#updated_number_scheduled}
   */
   readonly updatedNumberScheduled?: string;
 }
@@ -3264,7 +3264,7 @@ export class DataIntersightKubernetesDaemonSetStatusOutputReference extends cdkt
 }
 export interface DataIntersightKubernetesDaemonSetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3272,19 +3272,19 @@ export interface DataIntersightKubernetesDaemonSetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3297,7 +3297,7 @@ export interface DataIntersightKubernetesDaemonSetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -3529,7 +3529,7 @@ export class DataIntersightKubernetesDaemonSetTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightKubernetesDaemonSetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3537,19 +3537,19 @@ export interface DataIntersightKubernetesDaemonSetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3562,7 +3562,7 @@ export interface DataIntersightKubernetesDaemonSetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -3762,25 +3762,25 @@ export class DataIntersightKubernetesDaemonSetTagsDefinitionOutputReference exte
 }
 export interface DataIntersightKubernetesDaemonSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#key DataIntersightKubernetesDaemonSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#key DataIntersightKubernetesDaemonSet#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#propagated DataIntersightKubernetesDaemonSet#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#propagated DataIntersightKubernetesDaemonSet#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#sys_tag DataIntersightKubernetesDaemonSet#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#sys_tag DataIntersightKubernetesDaemonSet#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3788,25 +3788,25 @@ export interface DataIntersightKubernetesDaemonSetTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#type DataIntersightKubernetesDaemonSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#type DataIntersightKubernetesDaemonSet#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#value DataIntersightKubernetesDaemonSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#value DataIntersightKubernetesDaemonSet#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#ancestor_definitions DataIntersightKubernetesDaemonSet#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#ancestor_definitions DataIntersightKubernetesDaemonSet#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesDaemonSetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#definition DataIntersightKubernetesDaemonSet#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#definition DataIntersightKubernetesDaemonSet#definition}
   */
   readonly definition?: DataIntersightKubernetesDaemonSetTagsDefinition;
 }
@@ -4125,7 +4125,7 @@ export class DataIntersightKubernetesDaemonSetTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightKubernetesDaemonSetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4133,19 +4133,19 @@ export interface DataIntersightKubernetesDaemonSetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4158,7 +4158,7 @@ export interface DataIntersightKubernetesDaemonSetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -4390,7 +4390,7 @@ export class DataIntersightKubernetesDaemonSetVersionContextInterestedMosList ex
 }
 export interface DataIntersightKubernetesDaemonSetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4398,19 +4398,19 @@ export interface DataIntersightKubernetesDaemonSetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#moid DataIntersightKubernetesDaemonSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4423,7 +4423,7 @@ export interface DataIntersightKubernetesDaemonSetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#selector DataIntersightKubernetesDaemonSet#selector}
   */
   readonly selector?: string;
 }
@@ -4623,7 +4623,7 @@ export class DataIntersightKubernetesDaemonSetVersionContextRefMoOutputReference
 }
 export interface DataIntersightKubernetesDaemonSetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#additional_properties DataIntersightKubernetesDaemonSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4631,32 +4631,32 @@ export interface DataIntersightKubernetesDaemonSetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#class_id DataIntersightKubernetesDaemonSet#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#marked_for_deletion DataIntersightKubernetesDaemonSet#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#marked_for_deletion DataIntersightKubernetesDaemonSet#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#nr_version DataIntersightKubernetesDaemonSet#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#nr_version DataIntersightKubernetesDaemonSet#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#object_type DataIntersightKubernetesDaemonSet#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#timestamp DataIntersightKubernetesDaemonSet#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#timestamp DataIntersightKubernetesDaemonSet#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4667,19 +4667,19 @@ export interface DataIntersightKubernetesDaemonSetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#version_type DataIntersightKubernetesDaemonSet#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#version_type DataIntersightKubernetesDaemonSet#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#interested_mos DataIntersightKubernetesDaemonSet#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#interested_mos DataIntersightKubernetesDaemonSet#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesDaemonSetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#ref_mo DataIntersightKubernetesDaemonSet#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#ref_mo DataIntersightKubernetesDaemonSet#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesDaemonSetVersionContextRefMo;
 }
@@ -4995,7 +4995,7 @@ export class DataIntersightKubernetesDaemonSetVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set intersight_kubernetes_daemon_set}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set intersight_kubernetes_daemon_set}
 */
 export class DataIntersightKubernetesDaemonSet extends cdktf.TerraformDataSource {
 
@@ -5011,7 +5011,7 @@ export class DataIntersightKubernetesDaemonSet extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightKubernetesDaemonSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesDaemonSet to import
-  * @param importFromId The id of the existing DataIntersightKubernetesDaemonSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesDaemonSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesDaemonSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5023,7 +5023,7 @@ export class DataIntersightKubernetesDaemonSet extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_daemon_set intersight_kubernetes_daemon_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_daemon_set intersight_kubernetes_daemon_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5034,8 +5034,8 @@ export class DataIntersightKubernetesDaemonSet extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_kubernetes_daemon_set',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

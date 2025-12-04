@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightNiaapiSnValidatorMetadataConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#account_moid DataIntersightNiaapiSnValidatorMetadata#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#account_moid DataIntersightNiaapiSnValidatorMetadata#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Checksum of SnValidatorData file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#checksum DataIntersightNiaapiSnValidatorMetadata#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#checksum DataIntersightNiaapiSnValidatorMetadata#checksum}
   */
   readonly checksum?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightNiaapiSnValidatorMetadataConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#create_time DataIntersightNiaapiSnValidatorMetadata#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#create_time DataIntersightNiaapiSnValidatorMetadata#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#domain_group_moid DataIntersightNiaapiSnValidatorMetadata#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#domain_group_moid DataIntersightNiaapiSnValidatorMetadata#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The filename of sn metadata file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#file_name DataIntersightNiaapiSnValidatorMetadata#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#file_name DataIntersightNiaapiSnValidatorMetadata#file_name}
   */
   readonly fileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#id DataIntersightNiaapiSnValidatorMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#id DataIntersightNiaapiSnValidatorMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,67 +59,67 @@ export interface DataIntersightNiaapiSnValidatorMetadataConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#mod_time DataIntersightNiaapiSnValidatorMetadata#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#mod_time DataIntersightNiaapiSnValidatorMetadata#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The version number of the SerialNumber Metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#nr_version DataIntersightNiaapiSnValidatorMetadata#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#nr_version DataIntersightNiaapiSnValidatorMetadata#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#owners DataIntersightNiaapiSnValidatorMetadata#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#owners DataIntersightNiaapiSnValidatorMetadata#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#shared_scope DataIntersightNiaapiSnValidatorMetadata#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#shared_scope DataIntersightNiaapiSnValidatorMetadata#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#ancestors DataIntersightNiaapiSnValidatorMetadata#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#ancestors DataIntersightNiaapiSnValidatorMetadata#ancestors}
   */
   readonly ancestors?: DataIntersightNiaapiSnValidatorMetadataAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#parent DataIntersightNiaapiSnValidatorMetadata#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#parent DataIntersightNiaapiSnValidatorMetadata#parent}
   */
   readonly parent?: DataIntersightNiaapiSnValidatorMetadataParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#permission_resources DataIntersightNiaapiSnValidatorMetadata#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#permission_resources DataIntersightNiaapiSnValidatorMetadata#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiaapiSnValidatorMetadataPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#tags DataIntersightNiaapiSnValidatorMetadata#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#tags DataIntersightNiaapiSnValidatorMetadata#tags}
   */
   readonly tags?: DataIntersightNiaapiSnValidatorMetadataTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#version_context DataIntersightNiaapiSnValidatorMetadata#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#version_context DataIntersightNiaapiSnValidatorMetadata#version_context}
   */
   readonly versionContext?: DataIntersightNiaapiSnValidatorMetadataVersionContext;
 }
@@ -1184,7 +1184,7 @@ export class DataIntersightNiaapiSnValidatorMetadataResultsList extends cdktf.Co
 }
 export interface DataIntersightNiaapiSnValidatorMetadataAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1192,19 +1192,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1217,7 +1217,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -1449,7 +1449,7 @@ export class DataIntersightNiaapiSnValidatorMetadataAncestorsList extends cdktf.
 }
 export interface DataIntersightNiaapiSnValidatorMetadataParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1457,19 +1457,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1482,7 +1482,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -1682,7 +1682,7 @@ export class DataIntersightNiaapiSnValidatorMetadataParentOutputReference extend
 }
 export interface DataIntersightNiaapiSnValidatorMetadataPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1690,19 +1690,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1715,7 +1715,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -1947,7 +1947,7 @@ export class DataIntersightNiaapiSnValidatorMetadataPermissionResourcesList exte
 }
 export interface DataIntersightNiaapiSnValidatorMetadataTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1955,19 +1955,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1980,7 +1980,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2212,7 +2212,7 @@ export class DataIntersightNiaapiSnValidatorMetadataTagsAncestorDefinitionsList 
 }
 export interface DataIntersightNiaapiSnValidatorMetadataTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2220,19 +2220,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2245,7 +2245,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -2445,25 +2445,25 @@ export class DataIntersightNiaapiSnValidatorMetadataTagsDefinitionOutputReferenc
 }
 export interface DataIntersightNiaapiSnValidatorMetadataTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#key DataIntersightNiaapiSnValidatorMetadata#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#key DataIntersightNiaapiSnValidatorMetadata#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#propagated DataIntersightNiaapiSnValidatorMetadata#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#propagated DataIntersightNiaapiSnValidatorMetadata#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#sys_tag DataIntersightNiaapiSnValidatorMetadata#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#sys_tag DataIntersightNiaapiSnValidatorMetadata#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2471,25 +2471,25 @@ export interface DataIntersightNiaapiSnValidatorMetadataTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#type DataIntersightNiaapiSnValidatorMetadata#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#type DataIntersightNiaapiSnValidatorMetadata#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#value DataIntersightNiaapiSnValidatorMetadata#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#value DataIntersightNiaapiSnValidatorMetadata#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#ancestor_definitions DataIntersightNiaapiSnValidatorMetadata#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#ancestor_definitions DataIntersightNiaapiSnValidatorMetadata#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiaapiSnValidatorMetadataTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#definition DataIntersightNiaapiSnValidatorMetadata#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#definition DataIntersightNiaapiSnValidatorMetadata#definition}
   */
   readonly definition?: DataIntersightNiaapiSnValidatorMetadataTagsDefinition;
 }
@@ -2808,7 +2808,7 @@ export class DataIntersightNiaapiSnValidatorMetadataTagsList extends cdktf.Compl
 }
 export interface DataIntersightNiaapiSnValidatorMetadataVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2816,19 +2816,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2841,7 +2841,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -3073,7 +3073,7 @@ export class DataIntersightNiaapiSnValidatorMetadataVersionContextInterestedMosL
 }
 export interface DataIntersightNiaapiSnValidatorMetadataVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3081,19 +3081,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#moid DataIntersightNiaapiSnValidatorMetadata#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3106,7 +3106,7 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#selector DataIntersightNiaapiSnValidatorMetadata#selector}
   */
   readonly selector?: string;
 }
@@ -3306,7 +3306,7 @@ export class DataIntersightNiaapiSnValidatorMetadataVersionContextRefMoOutputRef
 }
 export interface DataIntersightNiaapiSnValidatorMetadataVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#additional_properties DataIntersightNiaapiSnValidatorMetadata#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3314,32 +3314,32 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#class_id DataIntersightNiaapiSnValidatorMetadata#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#marked_for_deletion DataIntersightNiaapiSnValidatorMetadata#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#marked_for_deletion DataIntersightNiaapiSnValidatorMetadata#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#nr_version DataIntersightNiaapiSnValidatorMetadata#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#nr_version DataIntersightNiaapiSnValidatorMetadata#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#object_type DataIntersightNiaapiSnValidatorMetadata#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#timestamp DataIntersightNiaapiSnValidatorMetadata#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#timestamp DataIntersightNiaapiSnValidatorMetadata#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3350,19 +3350,19 @@ export interface DataIntersightNiaapiSnValidatorMetadataVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#version_type DataIntersightNiaapiSnValidatorMetadata#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#version_type DataIntersightNiaapiSnValidatorMetadata#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#interested_mos DataIntersightNiaapiSnValidatorMetadata#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#interested_mos DataIntersightNiaapiSnValidatorMetadata#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiaapiSnValidatorMetadataVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#ref_mo DataIntersightNiaapiSnValidatorMetadata#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#ref_mo DataIntersightNiaapiSnValidatorMetadata#ref_mo}
   */
   readonly refMo?: DataIntersightNiaapiSnValidatorMetadataVersionContextRefMo;
 }
@@ -3678,7 +3678,7 @@ export class DataIntersightNiaapiSnValidatorMetadataVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata intersight_niaapi_sn_validator_metadata}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata intersight_niaapi_sn_validator_metadata}
 */
 export class DataIntersightNiaapiSnValidatorMetadata extends cdktf.TerraformDataSource {
 
@@ -3694,7 +3694,7 @@ export class DataIntersightNiaapiSnValidatorMetadata extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightNiaapiSnValidatorMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiaapiSnValidatorMetadata to import
-  * @param importFromId The id of the existing DataIntersightNiaapiSnValidatorMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiaapiSnValidatorMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiaapiSnValidatorMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3706,7 +3706,7 @@ export class DataIntersightNiaapiSnValidatorMetadata extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niaapi_sn_validator_metadata intersight_niaapi_sn_validator_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niaapi_sn_validator_metadata intersight_niaapi_sn_validator_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3717,8 +3717,8 @@ export class DataIntersightNiaapiSnValidatorMetadata extends cdktf.TerraformData
       terraformResourceType: 'intersight_niaapi_sn_validator_metadata',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

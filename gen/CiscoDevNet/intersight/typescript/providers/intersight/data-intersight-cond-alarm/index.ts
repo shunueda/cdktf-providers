@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#account_moid DataIntersightCondAlarm#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#account_moid DataIntersightCondAlarm#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,59 +18,59 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   * * `None` - The Enum value None represents that the alarm is not acknowledged and is included as part of health status and overall alarm count.
   * * `Acknowledge` - The Enum value Acknowledge represents that the alarm is acknowledged by user. The alarm will be ignored from the health status and overall alarm count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#acknowledge DataIntersightCondAlarm#acknowledge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#acknowledge DataIntersightCondAlarm#acknowledge}
   */
   readonly acknowledge?: string;
   /**
   * User who acknowledged the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#acknowledge_by DataIntersightCondAlarm#acknowledge_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#acknowledge_by DataIntersightCondAlarm#acknowledge_by}
   */
   readonly acknowledgeBy?: string;
   /**
   * Time at which the alarm was acknowledged by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#acknowledge_time DataIntersightCondAlarm#acknowledge_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#acknowledge_time DataIntersightCondAlarm#acknowledge_time}
   */
   readonly acknowledgeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Display name of the affected object on which the alarm is raised. The name uniquely identifies an alarm target such that it can be distinguished from similar objects managed by Intersight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#affected_mo_display_name DataIntersightCondAlarm#affected_mo_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#affected_mo_display_name DataIntersightCondAlarm#affected_mo_display_name}
   */
   readonly affectedMoDisplayName?: string;
   /**
   * MoId of the affected object from the managed system's point of view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#affected_mo_id DataIntersightCondAlarm#affected_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#affected_mo_id DataIntersightCondAlarm#affected_mo_id}
   */
   readonly affectedMoId?: string;
   /**
   * Managed system affected object type. For example Adaptor, FI, CIMC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#affected_mo_type DataIntersightCondAlarm#affected_mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#affected_mo_type DataIntersightCondAlarm#affected_mo_type}
   */
   readonly affectedMoType?: string;
   /**
   * A unique key for an alarm instance, consists of a combination of a unique system name and msAffectedObject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#affected_object DataIntersightCondAlarm#affected_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#affected_object DataIntersightCondAlarm#affected_object}
   */
   readonly affectedObject?: string;
   /**
   * Parent MoId of the fault from managed system. For example, Blade moid for adaptor fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ancestor_mo_id DataIntersightCondAlarm#ancestor_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ancestor_mo_id DataIntersightCondAlarm#ancestor_mo_id}
   */
   readonly ancestorMoId?: string;
   /**
   * Parent MO type of the fault from managed system. For example, Blade for adaptor fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ancestor_mo_type DataIntersightCondAlarm#ancestor_mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ancestor_mo_type DataIntersightCondAlarm#ancestor_mo_type}
   */
   readonly ancestorMoType?: string;
   /**
@@ -78,37 +78,37 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * A unique alarm code. For alarms mapped from UCS faults, this will be the same as the UCS fault code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#code DataIntersightCondAlarm#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#code DataIntersightCondAlarm#code}
   */
   readonly code?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#create_time DataIntersightCondAlarm#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#create_time DataIntersightCondAlarm#create_time}
   */
   readonly createTime?: string;
   /**
   * The time the alarm was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#creation_time DataIntersightCondAlarm#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#creation_time DataIntersightCondAlarm#creation_time}
   */
   readonly creationTime?: string;
   /**
   * A longer description of the alarm than the name. The description contains details of the component reporting the issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#description DataIntersightCondAlarm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#description DataIntersightCondAlarm#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#domain_group_moid DataIntersightCondAlarm#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#domain_group_moid DataIntersightCondAlarm#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -118,23 +118,23 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   * * `Cooldown` - The enum value Cooldown says that the alarm is cleared, but was recently active.
   * * `Unknown` - The enum value Unknown indicates that you might not have the latest version of the property meta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#flapping DataIntersightCondAlarm#flapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#flapping DataIntersightCondAlarm#flapping}
   */
   readonly flapping?: string;
   /**
   * Alarm flapping counter. This will be incremented every time the state of the alarm transitions to an active state (Critical, Warning or Info) followed by a Cleared state or vice versa. If no more transitions occur within the system-defined flap interval (usually less than 5 minutes), the counter will be reset to zero. This represents the amount of times the alarm has flapped between an active and a cleared state since the last time the Flapping state was cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#flapping_count DataIntersightCondAlarm#flapping_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#flapping_count DataIntersightCondAlarm#flapping_count}
   */
   readonly flappingCount?: number;
   /**
   * Alarm flapping start time. Only when the flapping state is Flapping or Cooldown, this will be set to the time the alarm began flapping. If the flapping state is NotFlapping, this timestamp may be set to zero or any other time and should be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#flapping_start_time DataIntersightCondAlarm#flapping_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#flapping_start_time DataIntersightCondAlarm#flapping_start_time}
   */
   readonly flappingStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#id DataIntersightCondAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#id DataIntersightCondAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,38 +143,38 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   /**
   * The time the alarm last had a change in severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#last_transition_time DataIntersightCondAlarm#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#last_transition_time DataIntersightCondAlarm#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#mod_time DataIntersightCondAlarm#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#mod_time DataIntersightCondAlarm#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * A unique key for the alarm from the managed system's point of view. For example, in the case of UCS, this is the fault's dn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ms_affected_object DataIntersightCondAlarm#ms_affected_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ms_affected_object DataIntersightCondAlarm#ms_affected_object}
   */
   readonly msAffectedObject?: string;
   /**
   * Uniquely identifies the type of alarm. For alarms originating from Intersight, this will be a descriptive name. For alarms that are mapped from faults, the name will be derived from fault properties. For example, alarms mapped from UCS faults will use a prefix of UCS and appended with the fault code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#name DataIntersightCondAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#name DataIntersightCondAlarm#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -185,11 +185,11 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   * * `Warning` - The Enum value Warning represents the Warning level of severity.
   * * `Cleared` - The Enum value Cleared represents that the alarm severity has been cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#orig_severity DataIntersightCondAlarm#orig_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#orig_severity DataIntersightCondAlarm#orig_severity}
   */
   readonly origSeverity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#owners DataIntersightCondAlarm#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#owners DataIntersightCondAlarm#owners}
   */
   readonly owners?: string[];
   /**
@@ -200,74 +200,80 @@ export interface DataIntersightCondAlarmConfig extends cdktf.TerraformMetaArgume
   * * `Warning` - The Enum value Warning represents the Warning level of severity.
   * * `Cleared` - The Enum value Cleared represents that the alarm severity has been cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#severity DataIntersightCondAlarm#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#severity DataIntersightCondAlarm#severity}
   */
   readonly severity?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#shared_scope DataIntersightCondAlarm#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#shared_scope DataIntersightCondAlarm#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Indicates whether the alarm is marked for suppression or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#suppressed DataIntersightCondAlarm#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#suppressed DataIntersightCondAlarm#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
   * affected_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#affected_mo DataIntersightCondAlarm#affected_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#affected_mo DataIntersightCondAlarm#affected_mo}
   */
   readonly affectedMo?: DataIntersightCondAlarmAffectedMo;
   /**
   * alarm_summary_aggregators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#alarm_summary_aggregators DataIntersightCondAlarm#alarm_summary_aggregators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#alarm_summary_aggregators DataIntersightCondAlarm#alarm_summary_aggregators}
   */
   readonly alarmSummaryAggregators?: DataIntersightCondAlarmAlarmSummaryAggregators[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ancestors DataIntersightCondAlarm#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ancestors DataIntersightCondAlarm#ancestors}
   */
   readonly ancestors?: DataIntersightCondAlarmAncestors[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#definition DataIntersightCondAlarm#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#definition DataIntersightCondAlarm#definition}
   */
   readonly definition?: DataIntersightCondAlarmDefinition;
   /**
+  * location_details block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#location_details DataIntersightCondAlarm#location_details}
+  */
+  readonly locationDetails?: DataIntersightCondAlarmLocationDetails;
+  /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#parent DataIntersightCondAlarm#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#parent DataIntersightCondAlarm#parent}
   */
   readonly parent?: DataIntersightCondAlarmParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#permission_resources DataIntersightCondAlarm#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#permission_resources DataIntersightCondAlarm#permission_resources}
   */
   readonly permissionResources?: DataIntersightCondAlarmPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#registered_device DataIntersightCondAlarm#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#registered_device DataIntersightCondAlarm#registered_device}
   */
   readonly registeredDevice?: DataIntersightCondAlarmRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#tags DataIntersightCondAlarm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#tags DataIntersightCondAlarm#tags}
   */
   readonly tags?: DataIntersightCondAlarmTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#version_context DataIntersightCondAlarm#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#version_context DataIntersightCondAlarm#version_context}
   */
   readonly versionContext?: DataIntersightCondAlarmVersionContext;
 }
@@ -649,6 +655,318 @@ export class DataIntersightCondAlarmResultsDefinitionList extends cdktf.ComplexL
   */
   public get(index: number): DataIntersightCondAlarmResultsDefinitionOutputReference {
     return new DataIntersightCondAlarmResultsDefinitionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightCondAlarmResultsLocationDetailsAddress {
+}
+
+export function dataIntersightCondAlarmResultsLocationDetailsAddressToTerraform(struct?: DataIntersightCondAlarmResultsLocationDetailsAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightCondAlarmResultsLocationDetailsAddressToHclTerraform(struct?: DataIntersightCondAlarmResultsLocationDetailsAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmResultsLocationDetailsAddress | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmResultsLocationDetailsAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // address1 - computed: true, optional: false, required: false
+  public get address1() {
+    return this.getStringAttribute('address1');
+  }
+
+  // address2 - computed: true, optional: false, required: false
+  public get address2() {
+    return this.getStringAttribute('address2');
+  }
+
+  // city - computed: true, optional: false, required: false
+  public get city() {
+    return this.getStringAttribute('city');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // country - computed: true, optional: false, required: false
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+
+  // postal_code - computed: true, optional: false, required: false
+  public get postalCode() {
+    return this.getStringAttribute('postal_code');
+  }
+
+  // state_province - computed: true, optional: false, required: false
+  public get stateProvince() {
+    return this.getStringAttribute('state_province');
+  }
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsAddressList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightCondAlarmResultsLocationDetailsAddressOutputReference {
+    return new DataIntersightCondAlarmResultsLocationDetailsAddressOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightCondAlarmResultsLocationDetailsCoordinates {
+}
+
+export function dataIntersightCondAlarmResultsLocationDetailsCoordinatesToTerraform(struct?: DataIntersightCondAlarmResultsLocationDetailsCoordinates): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightCondAlarmResultsLocationDetailsCoordinatesToHclTerraform(struct?: DataIntersightCondAlarmResultsLocationDetailsCoordinates): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsCoordinatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmResultsLocationDetailsCoordinates | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmResultsLocationDetailsCoordinates | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // latitude - computed: true, optional: false, required: false
+  public get latitude() {
+    return this.getNumberAttribute('latitude');
+  }
+
+  // longitude - computed: true, optional: false, required: false
+  public get longitude() {
+    return this.getNumberAttribute('longitude');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsCoordinatesList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightCondAlarmResultsLocationDetailsCoordinatesOutputReference {
+    return new DataIntersightCondAlarmResultsLocationDetailsCoordinatesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataIntersightCondAlarmResultsLocationDetails {
+}
+
+export function dataIntersightCondAlarmResultsLocationDetailsToTerraform(struct?: DataIntersightCondAlarmResultsLocationDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataIntersightCondAlarmResultsLocationDetailsToHclTerraform(struct?: DataIntersightCondAlarmResultsLocationDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmResultsLocationDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmResultsLocationDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_properties - computed: true, optional: false, required: false
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+
+  // address - computed: true, optional: false, required: false
+  private _address = new DataIntersightCondAlarmResultsLocationDetailsAddressList(this, "address", false);
+  public get address() {
+    return this._address;
+  }
+
+  // class_id - computed: true, optional: false, required: false
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+
+  // coordinates - computed: true, optional: false, required: false
+  private _coordinates = new DataIntersightCondAlarmResultsLocationDetailsCoordinatesList(this, "coordinates", false);
+  public get coordinates() {
+    return this._coordinates;
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // object_type - computed: true, optional: false, required: false
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+}
+
+export class DataIntersightCondAlarmResultsLocationDetailsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataIntersightCondAlarmResultsLocationDetailsOutputReference {
+    return new DataIntersightCondAlarmResultsLocationDetailsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataIntersightCondAlarmResultsParent {
@@ -1725,6 +2043,12 @@ export class DataIntersightCondAlarmResultsOutputReference extends cdktf.Complex
     return this.getStringAttribute('last_transition_time');
   }
 
+  // location_details - computed: true, optional: false, required: false
+  private _locationDetails = new DataIntersightCondAlarmResultsLocationDetailsList(this, "location_details", false);
+  public get locationDetails() {
+    return this._locationDetails;
+  }
+
   // mod_time - computed: true, optional: false, required: false
   public get modTime() {
     return this.getStringAttribute('mod_time');
@@ -1826,7 +2150,7 @@ export class DataIntersightCondAlarmResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCondAlarmAffectedMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1834,19 +2158,19 @@ export interface DataIntersightCondAlarmAffectedMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1859,7 +2183,7 @@ export interface DataIntersightCondAlarmAffectedMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2059,7 +2383,7 @@ export class DataIntersightCondAlarmAffectedMoOutputReference extends cdktf.Comp
 }
 export interface DataIntersightCondAlarmAlarmSummaryAggregators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2067,19 +2391,19 @@ export interface DataIntersightCondAlarmAlarmSummaryAggregators {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2092,7 +2416,7 @@ export interface DataIntersightCondAlarmAlarmSummaryAggregators {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2324,7 +2648,7 @@ export class DataIntersightCondAlarmAlarmSummaryAggregatorsList extends cdktf.Co
 }
 export interface DataIntersightCondAlarmAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2332,19 +2656,19 @@ export interface DataIntersightCondAlarmAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2357,7 +2681,7 @@ export interface DataIntersightCondAlarmAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2589,7 +2913,7 @@ export class DataIntersightCondAlarmAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCondAlarmDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2597,19 +2921,19 @@ export interface DataIntersightCondAlarmDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2622,7 +2946,7 @@ export interface DataIntersightCondAlarmDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -2820,9 +3144,620 @@ export class DataIntersightCondAlarmDefinitionOutputReference extends cdktf.Comp
     return this._selector;
   }
 }
-export interface DataIntersightCondAlarmParent {
+export interface DataIntersightCondAlarmLocationDetailsAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The primary street address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#address1 DataIntersightCondAlarm#address1}
+  */
+  readonly address1?: string;
+  /**
+  * Additional address information, such as suite number or floor.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#address2 DataIntersightCondAlarm#address2}
+  */
+  readonly address2?: string;
+  /**
+  * The city where the address is located.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#city DataIntersightCondAlarm#city}
+  */
+  readonly city?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The country code in ISO 3166-1 alpha-2 format.
+  * * `Unknown` - The value Unknown is used when the country code is not known or applicable.
+  * * `AD` - The country code for Andorra.
+  * * `AE` - The country code for United Arab Emirates.
+  * * `AF` - The country code for Afghanistan.
+  * * `AG` - The country code for Antigua and Barbuda.
+  * * `AI` - The country code for Anguilla.
+  * * `AL` - The country code for Albania.
+  * * `AM` - The country code for Armenia.
+  * * `AO` - The country code for Angola.
+  * * `AQ` - The country code for Antarctica.
+  * * `AR` - The country code for Argentina.
+  * * `AS` - The country code for American Samoa.
+  * * `AT` - The country code for Austria.
+  * * `AU` - The country code for Australia.
+  * * `AW` - The country code for Aruba.
+  * * `AX` - The country code for Åland Islands.
+  * * `AZ` - The country code for Azerbaijan.
+  * * `BA` - The country code for Bosnia and Herzegovina.
+  * * `BB` - The country code for Barbados.
+  * * `BD` - The country code for Bangladesh.
+  * * `BE` - The country code for Belgium.
+  * * `BF` - The country code for Burkina Faso.
+  * * `BG` - The country code for Bulgaria.
+  * * `BH` - The country code for Bahrain.
+  * * `BI` - The country code for Burundi.
+  * * `BJ` - The country code for Benin.
+  * * `BL` - The country code for Saint Barthélemy.
+  * * `BM` - The country code for Bermuda.
+  * * `BN` - The country code for Brunei Darussalam.
+  * * `BO` - The country code for Plurinational State of Bolivia.
+  * * `BQ` - The country code for Sint Eustatius and Saba Bonaire.
+  * * `BR` - The country code for Brazil.
+  * * `BS` - The country code for Bahamas.
+  * * `BT` - The country code for Bhutan.
+  * * `BV` - The country code for Bouvet Island.
+  * * `BW` - The country code for Botswana.
+  * * `BZ` - The country code for Belize.
+  * * `CA` - The country code for Canada.
+  * * `CC` - The country code for Cocos (Keeling) Islands.
+  * * `CD` - The country code for Democratic Republic of the Congo.
+  * * `CF` - The country code for Central African Republic.
+  * * `CG` - The country code for Congo.
+  * * `CH` - The country code for Switzerland.
+  * * `CI` - The country code for Côte d'Ivoire.
+  * * `CK` - The country code for Cook Islands.
+  * * `CL` - The country code for Chile.
+  * * `CM` - The country code for Cameroon.
+  * * `CN` - The country code for China.
+  * * `CO` - The country code for Colombia.
+  * * `CR` - The country code for Costa Rica.
+  * * `CV` - The country code for Cabo Verde.
+  * * `CW` - The country code for Curaçao.
+  * * `CX` - The country code for Christmas Island.
+  * * `CY` - The country code for Cyprus.
+  * * `CZ` - The country code for Czechia.
+  * * `DE` - The country code for Germany.
+  * * `DJ` - The country code for Djibouti.
+  * * `DK` - The country code for Denmark.
+  * * `DM` - The country code for Dominica.
+  * * `DO` - The country code for Dominican Republic.
+  * * `DZ` - The country code for Algeria.
+  * * `EC` - The country code for Ecuador.
+  * * `EE` - The country code for Estonia.
+  * * `EG` - The country code for Egypt.
+  * * `EH` - The country code for Western Sahara.
+  * * `ER` - The country code for Eritrea.
+  * * `ES` - The country code for Spain.
+  * * `ET` - The country code for Ethiopia.
+  * * `FI` - The country code for Finland.
+  * * `FJ` - The country code for Fiji.
+  * * `FK` - The country code for Falkland Islands (Malvinas).
+  * * `FM` - The country code for Federated States of Micronesia.
+  * * `FO` - The country code for Faroe Islands.
+  * * `FR` - The country code for France.
+  * * `GA` - The country code for Gabon.
+  * * `GB` - The country code for United Kingdom of Great Britain and Northern Ireland.
+  * * `GD` - The country code for Grenada.
+  * * `GE` - The country code for Georgia.
+  * * `GF` - The country code for French Guiana.
+  * * `GG` - The country code for Guernsey.
+  * * `GH` - The country code for Ghana.
+  * * `GI` - The country code for Gibraltar.
+  * * `GL` - The country code for Greenland.
+  * * `GM` - The country code for Gambia.
+  * * `GN` - The country code for Guinea.
+  * * `GP` - The country code for Guadeloupe.
+  * * `GQ` - The country code for Equatorial Guinea.
+  * * `GR` - The country code for Greece.
+  * * `GS` - The country code for South Georgia and the South Sandwich Islands.
+  * * `GT` - The country code for Guatemala.
+  * * `GU` - The country code for Guam.
+  * * `GW` - The country code for Guinea-Bissau.
+  * * `GY` - The country code for Guyana.
+  * * `HK` - The country code for Hong Kong.
+  * * `HM` - The country code for Heard Island and McDonald Islands.
+  * * `HN` - The country code for Honduras.
+  * * `HR` - The country code for Croatia.
+  * * `HT` - The country code for Haiti.
+  * * `HU` - The country code for Hungary.
+  * * `ID` - The country code for Indonesia.
+  * * `IE` - The country code for Ireland.
+  * * `IL` - The country code for Israel.
+  * * `IM` - The country code for Isle of Man.
+  * * `IN` - The country code for India.
+  * * `IO` - The country code for British Indian Ocean Territory.
+  * * `IQ` - The country code for Iraq.
+  * * `IS` - The country code for Iceland.
+  * * `IT` - The country code for Italy.
+  * * `JE` - The country code for Jersey.
+  * * `JM` - The country code for Jamaica.
+  * * `JO` - The country code for Jordan.
+  * * `JP` - The country code for Japan.
+  * * `KE` - The country code for Kenya.
+  * * `KG` - The country code for Kyrgyzstan.
+  * * `KH` - The country code for Cambodia.
+  * * `KI` - The country code for Kiribati.
+  * * `KM` - The country code for Comoros.
+  * * `KN` - The country code for Saint Kitts and Nevis.
+  * * `KR` - The country code for Republic of Korea.
+  * * `KW` - The country code for Kuwait.
+  * * `KY` - The country code for Cayman Islands.
+  * * `KZ` - The country code for Kazakhstan.
+  * * `LA` - The country code for Lao People's Democratic Republic.
+  * * `LB` - The country code for Lebanon.
+  * * `LC` - The country code for Saint Lucia.
+  * * `LI` - The country code for Liechtenstein.
+  * * `LK` - The country code for Sri Lanka.
+  * * `LR` - The country code for Liberia.
+  * * `LS` - The country code for Lesotho.
+  * * `LT` - The country code for Lithuania.
+  * * `LU` - The country code for Luxembourg.
+  * * `LV` - The country code for Latvia.
+  * * `LY` - The country code for Libya.
+  * * `MA` - The country code for Morocco.
+  * * `MC` - The country code for Monaco.
+  * * `MD` - The country code for Republic of Moldova.
+  * * `ME` - The country code for Montenegro.
+  * * `MF` - The country code for Saint Martin (French part).
+  * * `MG` - The country code for Madagascar.
+  * * `MH` - The country code for Marshall Islands.
+  * * `MK` - The country code for North Macedonia.
+  * * `ML` - The country code for Mali.
+  * * `MM` - The country code for Myanmar.
+  * * `MN` - The country code for Mongolia.
+  * * `MO` - The country code for Macao.
+  * * `MP` - The country code for Northern Mariana Islands.
+  * * `MQ` - The country code for Martinique.
+  * * `MR` - The country code for Mauritania.
+  * * `MS` - The country code for Montserrat.
+  * * `MT` - The country code for Malta.
+  * * `MU` - The country code for Mauritius.
+  * * `MV` - The country code for Maldives.
+  * * `MW` - The country code for Malawi.
+  * * `MX` - The country code for Mexico.
+  * * `MY` - The country code for Malaysia.
+  * * `MZ` - The country code for Mozambique.
+  * * `NA` - The country code for Namibia.
+  * * `NC` - The country code for New Caledonia.
+  * * `NE` - The country code for Niger.
+  * * `NF` - The country code for Norfolk Island.
+  * * `NG` - The country code for Nigeria.
+  * * `NI` - The country code for Nicaragua.
+  * * `NL` - The country code for Kingdom of the Netherlands.
+  * * `NO` - The country code for Norway.
+  * * `NP` - The country code for Nepal.
+  * * `NR` - The country code for Nauru.
+  * * `NU` - The country code for Niue.
+  * * `NZ` - The country code for New Zealand.
+  * * `OM` - The country code for Oman.
+  * * `PA` - The country code for Panama.
+  * * `PE` - The country code for Peru.
+  * * `PF` - The country code for French Polynesia.
+  * * `PG` - The country code for Papua New Guinea.
+  * * `PH` - The country code for Philippines.
+  * * `PK` - The country code for Pakistan.
+  * * `PL` - The country code for Poland.
+  * * `PM` - The country code for Saint Pierre and Miquelon.
+  * * `PN` - The country code for Pitcairn.
+  * * `PR` - The country code for Puerto Rico.
+  * * `PS` - The country code for State of Palestine.
+  * * `PT` - The country code for Portugal.
+  * * `PW` - The country code for Palau.
+  * * `PY` - The country code for Paraguay.
+  * * `QA` - The country code for Qatar.
+  * * `RE` - The country code for Réunion.
+  * * `RO` - The country code for Romania.
+  * * `RS` - The country code for Serbia.
+  * * `RW` - The country code for Rwanda.
+  * * `SA` - The country code for Saudi Arabia.
+  * * `SB` - The country code for Solomon Islands.
+  * * `SC` - The country code for Seychelles.
+  * * `SD` - The country code for Sudan.
+  * * `SE` - The country code for Sweden.
+  * * `SG` - The country code for Singapore.
+  * * `SH` - The country code for Ascension and Tristan da Cunha Saint Helena.
+  * * `SI` - The country code for Slovenia.
+  * * `SJ` - The country code for Svalbard and Jan Mayen.
+  * * `SK` - The country code for Slovakia.
+  * * `SL` - The country code for Sierra Leone.
+  * * `SM` - The country code for San Marino.
+  * * `SN` - The country code for Senegal.
+  * * `SO` - The country code for Somalia.
+  * * `SR` - The country code for Suriname.
+  * * `SS` - The country code for South Sudan.
+  * * `ST` - The country code for Sao Tome and Principe.
+  * * `SV` - The country code for El Salvador.
+  * * `SX` - The country code for Sint Maarten (Dutch part).
+  * * `SZ` - The country code for Eswatini.
+  * * `TC` - The country code for Turks and Caicos Islands.
+  * * `TD` - The country code for Chad.
+  * * `TF` - The country code for French Southern Territories.
+  * * `TG` - The country code for Togo.
+  * * `TH` - The country code for Thailand.
+  * * `TJ` - The country code for Tajikistan.
+  * * `TK` - The country code for Tokelau.
+  * * `TL` - The country code for Timor-Leste.
+  * * `TM` - The country code for Turkmenistan.
+  * * `TN` - The country code for Tunisia.
+  * * `TO` - The country code for Tonga.
+  * * `TR` - The country code for Türkiye.
+  * * `TT` - The country code for Trinidad and Tobago.
+  * * `TV` - The country code for Tuvalu.
+  * * `TW` - The country code for Province of China Taiwan.
+  * * `TZ` - The country code for United Republic of Tanzania.
+  * * `UA` - The country code for Ukraine.
+  * * `UG` - The country code for Uganda.
+  * * `UM` - The country code for United States Minor Outlying Islands.
+  * * `US` - The country code for United States of America.
+  * * `UY` - The country code for Uruguay.
+  * * `UZ` - The country code for Uzbekistan.
+  * * `VA` - The country code for Holy See.
+  * * `VC` - The country code for Saint Vincent and the Grenadines.
+  * * `VE` - The country code for Bolivarian Republic of Venezuela.
+  * * `VG` - The country code for Virgin Islands (British).
+  * * `VI` - The country code for Virgin Islands (U.S.).
+  * * `VN` - The country code for Viet Nam.
+  * * `VU` - The country code for Vanuatu.
+  * * `WF` - The country code for Wallis and Futuna.
+  * * `WS` - The country code for Samoa.
+  * * `YE` - The country code for Yemen.
+  * * `YT` - The country code for Mayotte.
+  * * `ZA` - The country code for South Africa.
+  * * `ZM` - The country code for Zambia.
+  * * `ZW` - The country code for Zimbabwe.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#country DataIntersightCondAlarm#country}
+  */
+  readonly country?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * The postal or ZIP code for the address.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#postal_code DataIntersightCondAlarm#postal_code}
+  */
+  readonly postalCode?: string;
+  /**
+  * The state or province where the address is located.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#state_province DataIntersightCondAlarm#state_province}
+  */
+  readonly stateProvince?: string;
+}
+
+export function dataIntersightCondAlarmLocationDetailsAddressToTerraform(struct?: DataIntersightCondAlarmLocationDetailsAddressOutputReference | DataIntersightCondAlarmLocationDetailsAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    address1: cdktf.stringToTerraform(struct!.address1),
+    address2: cdktf.stringToTerraform(struct!.address2),
+    city: cdktf.stringToTerraform(struct!.city),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    country: cdktf.stringToTerraform(struct!.country),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    postal_code: cdktf.stringToTerraform(struct!.postalCode),
+    state_province: cdktf.stringToTerraform(struct!.stateProvince),
+  }
+}
+
+
+export function dataIntersightCondAlarmLocationDetailsAddressToHclTerraform(struct?: DataIntersightCondAlarmLocationDetailsAddressOutputReference | DataIntersightCondAlarmLocationDetailsAddress): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    address1: {
+      value: cdktf.stringToHclTerraform(struct!.address1),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    address2: {
+      value: cdktf.stringToHclTerraform(struct!.address2),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    city: {
+      value: cdktf.stringToHclTerraform(struct!.city),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    country: {
+      value: cdktf.stringToHclTerraform(struct!.country),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    postal_code: {
+      value: cdktf.stringToHclTerraform(struct!.postalCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    state_province: {
+      value: cdktf.stringToHclTerraform(struct!.stateProvince),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightCondAlarmLocationDetailsAddressOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmLocationDetailsAddress | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._address1 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address1 = this._address1;
+    }
+    if (this._address2 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address2 = this._address2;
+    }
+    if (this._city !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.city = this._city;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._country !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.country = this._country;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._postalCode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.postalCode = this._postalCode;
+    }
+    if (this._stateProvince !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stateProvince = this._stateProvince;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmLocationDetailsAddress | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._address1 = undefined;
+      this._address2 = undefined;
+      this._city = undefined;
+      this._classId = undefined;
+      this._country = undefined;
+      this._objectType = undefined;
+      this._postalCode = undefined;
+      this._stateProvince = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._address1 = value.address1;
+      this._address2 = value.address2;
+      this._city = value.city;
+      this._classId = value.classId;
+      this._country = value.country;
+      this._objectType = value.objectType;
+      this._postalCode = value.postalCode;
+      this._stateProvince = value.stateProvince;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // address1 - computed: false, optional: true, required: false
+  private _address1?: string; 
+  public get address1() {
+    return this.getStringAttribute('address1');
+  }
+  public set address1(value: string) {
+    this._address1 = value;
+  }
+  public resetAddress1() {
+    this._address1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get address1Input() {
+    return this._address1;
+  }
+
+  // address2 - computed: false, optional: true, required: false
+  private _address2?: string; 
+  public get address2() {
+    return this.getStringAttribute('address2');
+  }
+  public set address2(value: string) {
+    this._address2 = value;
+  }
+  public resetAddress2() {
+    this._address2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get address2Input() {
+    return this._address2;
+  }
+
+  // city - computed: false, optional: true, required: false
+  private _city?: string; 
+  public get city() {
+    return this.getStringAttribute('city');
+  }
+  public set city(value: string) {
+    this._city = value;
+  }
+  public resetCity() {
+    this._city = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cityInput() {
+    return this._city;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // country - computed: false, optional: true, required: false
+  private _country?: string; 
+  public get country() {
+    return this.getStringAttribute('country');
+  }
+  public set country(value: string) {
+    this._country = value;
+  }
+  public resetCountry() {
+    this._country = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get countryInput() {
+    return this._country;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // postal_code - computed: false, optional: true, required: false
+  private _postalCode?: string; 
+  public get postalCode() {
+    return this.getStringAttribute('postal_code');
+  }
+  public set postalCode(value: string) {
+    this._postalCode = value;
+  }
+  public resetPostalCode() {
+    this._postalCode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get postalCodeInput() {
+    return this._postalCode;
+  }
+
+  // state_province - computed: false, optional: true, required: false
+  private _stateProvince?: string; 
+  public get stateProvince() {
+    return this.getStringAttribute('state_province');
+  }
+  public set stateProvince(value: string) {
+    this._stateProvince = value;
+  }
+  public resetStateProvince() {
+    this._stateProvince = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stateProvinceInput() {
+    return this._stateProvince;
+  }
+}
+export interface DataIntersightCondAlarmLocationDetailsCoordinates {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2830,19 +3765,508 @@ export interface DataIntersightCondAlarmParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * The latitude coordinate value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#latitude DataIntersightCondAlarm#latitude}
+  */
+  readonly latitude?: number;
+  /**
+  * The longitude coordinate value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#longitude DataIntersightCondAlarm#longitude}
+  */
+  readonly longitude?: number;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  */
+  readonly objectType?: string;
+}
+
+export function dataIntersightCondAlarmLocationDetailsCoordinatesToTerraform(struct?: DataIntersightCondAlarmLocationDetailsCoordinatesOutputReference | DataIntersightCondAlarmLocationDetailsCoordinates): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    latitude: cdktf.numberToTerraform(struct!.latitude),
+    longitude: cdktf.numberToTerraform(struct!.longitude),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+  }
+}
+
+
+export function dataIntersightCondAlarmLocationDetailsCoordinatesToHclTerraform(struct?: DataIntersightCondAlarmLocationDetailsCoordinatesOutputReference | DataIntersightCondAlarmLocationDetailsCoordinates): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    latitude: {
+      value: cdktf.numberToHclTerraform(struct!.latitude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    longitude: {
+      value: cdktf.numberToHclTerraform(struct!.longitude),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightCondAlarmLocationDetailsCoordinatesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmLocationDetailsCoordinates | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._latitude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.latitude = this._latitude;
+    }
+    if (this._longitude !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.longitude = this._longitude;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmLocationDetailsCoordinates | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._latitude = undefined;
+      this._longitude = undefined;
+      this._objectType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._latitude = value.latitude;
+      this._longitude = value.longitude;
+      this._objectType = value.objectType;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // latitude - computed: false, optional: true, required: false
+  private _latitude?: number; 
+  public get latitude() {
+    return this.getNumberAttribute('latitude');
+  }
+  public set latitude(value: number) {
+    this._latitude = value;
+  }
+  public resetLatitude() {
+    this._latitude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get latitudeInput() {
+    return this._latitude;
+  }
+
+  // longitude - computed: false, optional: true, required: false
+  private _longitude?: number; 
+  public get longitude() {
+    return this.getNumberAttribute('longitude');
+  }
+  public set longitude(value: number) {
+    this._longitude = value;
+  }
+  public resetLongitude() {
+    this._longitude = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get longitudeInput() {
+    return this._longitude;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+}
+export interface DataIntersightCondAlarmLocationDetails {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * A user provided name for the location.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#name DataIntersightCondAlarm#name}
+  */
+  readonly name?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * The value should be the same as the 'ClassId' property.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * address block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#address DataIntersightCondAlarm#address}
+  */
+  readonly address?: DataIntersightCondAlarmLocationDetailsAddress;
+  /**
+  * coordinates block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#coordinates DataIntersightCondAlarm#coordinates}
+  */
+  readonly coordinates?: DataIntersightCondAlarmLocationDetailsCoordinates;
+}
+
+export function dataIntersightCondAlarmLocationDetailsToTerraform(struct?: DataIntersightCondAlarmLocationDetailsOutputReference | DataIntersightCondAlarmLocationDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    name: cdktf.stringToTerraform(struct!.name),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    address: dataIntersightCondAlarmLocationDetailsAddressToTerraform(struct!.address),
+    coordinates: dataIntersightCondAlarmLocationDetailsCoordinatesToTerraform(struct!.coordinates),
+  }
+}
+
+
+export function dataIntersightCondAlarmLocationDetailsToHclTerraform(struct?: DataIntersightCondAlarmLocationDetailsOutputReference | DataIntersightCondAlarmLocationDetails): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    address: {
+      value: dataIntersightCondAlarmLocationDetailsAddressToHclTerraform(struct!.address),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataIntersightCondAlarmLocationDetailsAddressList",
+    },
+    coordinates: {
+      value: dataIntersightCondAlarmLocationDetailsCoordinatesToHclTerraform(struct!.coordinates),
+      isBlock: true,
+      type: "list",
+      storageClassType: "DataIntersightCondAlarmLocationDetailsCoordinatesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataIntersightCondAlarmLocationDetailsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): DataIntersightCondAlarmLocationDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._address?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address?.internalValue;
+    }
+    if (this._coordinates?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.coordinates = this._coordinates?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataIntersightCondAlarmLocationDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._name = undefined;
+      this._objectType = undefined;
+      this._address.internalValue = undefined;
+      this._coordinates.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._name = value.name;
+      this._objectType = value.objectType;
+      this._address.internalValue = value.address;
+      this._coordinates.internalValue = value.coordinates;
+    }
+  }
+
+  // additional_properties - computed: false, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: false, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // name - computed: false, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // object_type - computed: false, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address = new DataIntersightCondAlarmLocationDetailsAddressOutputReference(this, "address");
+  public get address() {
+    return this._address;
+  }
+  public putAddress(value: DataIntersightCondAlarmLocationDetailsAddress) {
+    this._address.internalValue = value;
+  }
+  public resetAddress() {
+    this._address.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address.internalValue;
+  }
+
+  // coordinates - computed: false, optional: true, required: false
+  private _coordinates = new DataIntersightCondAlarmLocationDetailsCoordinatesOutputReference(this, "coordinates");
+  public get coordinates() {
+    return this._coordinates;
+  }
+  public putCoordinates(value: DataIntersightCondAlarmLocationDetailsCoordinates) {
+    this._coordinates.internalValue = value;
+  }
+  public resetCoordinates() {
+    this._coordinates.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get coordinatesInput() {
+    return this._coordinates.internalValue;
+  }
+}
+export interface DataIntersightCondAlarmParent {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * The fully-qualified name of the instantiated, concrete type.
+  * This property is used as a discriminator to identify the type of the payload
+  * when marshaling and unmarshaling data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2855,7 +4279,7 @@ export interface DataIntersightCondAlarmParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3055,7 +4479,7 @@ export class DataIntersightCondAlarmParentOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightCondAlarmPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3063,19 +4487,19 @@ export interface DataIntersightCondAlarmPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3088,7 +4512,7 @@ export interface DataIntersightCondAlarmPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3320,7 +4744,7 @@ export class DataIntersightCondAlarmPermissionResourcesList extends cdktf.Comple
 }
 export interface DataIntersightCondAlarmRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3328,19 +4752,19 @@ export interface DataIntersightCondAlarmRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3353,7 +4777,7 @@ export interface DataIntersightCondAlarmRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3553,7 +4977,7 @@ export class DataIntersightCondAlarmRegisteredDeviceOutputReference extends cdkt
 }
 export interface DataIntersightCondAlarmTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3561,19 +4985,19 @@ export interface DataIntersightCondAlarmTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3586,7 +5010,7 @@ export interface DataIntersightCondAlarmTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -3818,7 +5242,7 @@ export class DataIntersightCondAlarmTagsAncestorDefinitionsList extends cdktf.Co
 }
 export interface DataIntersightCondAlarmTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3826,19 +5250,19 @@ export interface DataIntersightCondAlarmTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3851,7 +5275,7 @@ export interface DataIntersightCondAlarmTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -4051,25 +5475,25 @@ export class DataIntersightCondAlarmTagsDefinitionOutputReference extends cdktf.
 }
 export interface DataIntersightCondAlarmTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#key DataIntersightCondAlarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#key DataIntersightCondAlarm#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#propagated DataIntersightCondAlarm#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#propagated DataIntersightCondAlarm#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#sys_tag DataIntersightCondAlarm#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#sys_tag DataIntersightCondAlarm#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4077,25 +5501,25 @@ export interface DataIntersightCondAlarmTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#type DataIntersightCondAlarm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#type DataIntersightCondAlarm#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#value DataIntersightCondAlarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#value DataIntersightCondAlarm#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ancestor_definitions DataIntersightCondAlarm#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ancestor_definitions DataIntersightCondAlarm#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCondAlarmTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#definition DataIntersightCondAlarm#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#definition DataIntersightCondAlarm#definition}
   */
   readonly definition?: DataIntersightCondAlarmTagsDefinition;
 }
@@ -4414,7 +5838,7 @@ export class DataIntersightCondAlarmTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightCondAlarmVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4422,19 +5846,19 @@ export interface DataIntersightCondAlarmVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4447,7 +5871,7 @@ export interface DataIntersightCondAlarmVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -4679,7 +6103,7 @@ export class DataIntersightCondAlarmVersionContextInterestedMosList extends cdkt
 }
 export interface DataIntersightCondAlarmVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4687,19 +6111,19 @@ export interface DataIntersightCondAlarmVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#moid DataIntersightCondAlarm#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4712,7 +6136,7 @@ export interface DataIntersightCondAlarmVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#selector DataIntersightCondAlarm#selector}
   */
   readonly selector?: string;
 }
@@ -4912,7 +6336,7 @@ export class DataIntersightCondAlarmVersionContextRefMoOutputReference extends c
 }
 export interface DataIntersightCondAlarmVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#additional_properties DataIntersightCondAlarm#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4920,32 +6344,32 @@ export interface DataIntersightCondAlarmVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#class_id DataIntersightCondAlarm#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#marked_for_deletion DataIntersightCondAlarm#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#marked_for_deletion DataIntersightCondAlarm#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#nr_version DataIntersightCondAlarm#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#nr_version DataIntersightCondAlarm#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#object_type DataIntersightCondAlarm#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#timestamp DataIntersightCondAlarm#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#timestamp DataIntersightCondAlarm#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4956,19 +6380,19 @@ export interface DataIntersightCondAlarmVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#version_type DataIntersightCondAlarm#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#version_type DataIntersightCondAlarm#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#interested_mos DataIntersightCondAlarm#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#interested_mos DataIntersightCondAlarm#interested_mos}
   */
   readonly interestedMos?: DataIntersightCondAlarmVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#ref_mo DataIntersightCondAlarm#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#ref_mo DataIntersightCondAlarm#ref_mo}
   */
   readonly refMo?: DataIntersightCondAlarmVersionContextRefMo;
 }
@@ -5284,7 +6708,7 @@ export class DataIntersightCondAlarmVersionContextOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm intersight_cond_alarm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm intersight_cond_alarm}
 */
 export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
 
@@ -5300,7 +6724,7 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightCondAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCondAlarm to import
-  * @param importFromId The id of the existing DataIntersightCondAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCondAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCondAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5312,7 +6736,7 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/cond_alarm intersight_cond_alarm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/cond_alarm intersight_cond_alarm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5323,8 +6747,8 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_cond_alarm',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5370,6 +6794,7 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
     this._alarmSummaryAggregators.internalValue = config.alarmSummaryAggregators;
     this._ancestors.internalValue = config.ancestors;
     this._definition.internalValue = config.definition;
+    this._locationDetails.internalValue = config.locationDetails;
     this._parent.internalValue = config.parent;
     this._permissionResources.internalValue = config.permissionResources;
     this._registeredDevice.internalValue = config.registeredDevice;
@@ -5963,6 +7388,22 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
     return this._definition.internalValue;
   }
 
+  // location_details - computed: false, optional: true, required: false
+  private _locationDetails = new DataIntersightCondAlarmLocationDetailsOutputReference(this, "location_details");
+  public get locationDetails() {
+    return this._locationDetails;
+  }
+  public putLocationDetails(value: DataIntersightCondAlarmLocationDetails) {
+    this._locationDetails.internalValue = value;
+  }
+  public resetLocationDetails() {
+    this._locationDetails.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get locationDetailsInput() {
+    return this._locationDetails.internalValue;
+  }
+
   // parent - computed: false, optional: true, required: false
   private _parent = new DataIntersightCondAlarmParentOutputReference(this, "parent");
   public get parent() {
@@ -6085,6 +7526,7 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
       alarm_summary_aggregators: cdktf.listMapper(dataIntersightCondAlarmAlarmSummaryAggregatorsToTerraform, true)(this._alarmSummaryAggregators.internalValue),
       ancestors: cdktf.listMapper(dataIntersightCondAlarmAncestorsToTerraform, true)(this._ancestors.internalValue),
       definition: dataIntersightCondAlarmDefinitionToTerraform(this._definition.internalValue),
+      location_details: dataIntersightCondAlarmLocationDetailsToTerraform(this._locationDetails.internalValue),
       parent: dataIntersightCondAlarmParentToTerraform(this._parent.internalValue),
       permission_resources: cdktf.listMapper(dataIntersightCondAlarmPermissionResourcesToTerraform, true)(this._permissionResources.internalValue),
       registered_device: dataIntersightCondAlarmRegisteredDeviceToTerraform(this._registeredDevice.internalValue),
@@ -6310,6 +7752,12 @@ export class DataIntersightCondAlarm extends cdktf.TerraformDataSource {
         isBlock: true,
         type: "list",
         storageClassType: "DataIntersightCondAlarmDefinitionList",
+      },
+      location_details: {
+        value: dataIntersightCondAlarmLocationDetailsToHclTerraform(this._locationDetails.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "DataIntersightCondAlarmLocationDetailsList",
       },
       parent: {
         value: dataIntersightCondAlarmParentToHclTerraform(this._parent.internalValue),

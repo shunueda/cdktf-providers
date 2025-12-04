@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilityServerPcieConnectivityCatalogConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#account_moid CapabilityServerPcieConnectivityCatalog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#account_moid CapabilityServerPcieConnectivityCatalog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#ancestors CapabilityServerPcieConnectivityCatalog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#ancestors CapabilityServerPcieConnectivityCatalog#ancestors}
   */
   readonly ancestors?: CapabilityServerPcieConnectivityCatalogAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface CapabilityServerPcieConnectivityCatalogConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#create_time CapabilityServerPcieConnectivityCatalog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#create_time CapabilityServerPcieConnectivityCatalog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#domain_group_moid CapabilityServerPcieConnectivityCatalog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#domain_group_moid CapabilityServerPcieConnectivityCatalog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#id CapabilityServerPcieConnectivityCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#id CapabilityServerPcieConnectivityCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,90 +53,90 @@ export interface CapabilityServerPcieConnectivityCatalogConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#mod_time CapabilityServerPcieConnectivityCatalog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#mod_time CapabilityServerPcieConnectivityCatalog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#name CapabilityServerPcieConnectivityCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#name CapabilityServerPcieConnectivityCatalog#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#owners CapabilityServerPcieConnectivityCatalog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#owners CapabilityServerPcieConnectivityCatalog#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#parent CapabilityServerPcieConnectivityCatalog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#parent CapabilityServerPcieConnectivityCatalog#parent}
   */
   readonly parent?: CapabilityServerPcieConnectivityCatalogParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#permission_resources CapabilityServerPcieConnectivityCatalog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#permission_resources CapabilityServerPcieConnectivityCatalog#permission_resources}
   */
   readonly permissionResources?: CapabilityServerPcieConnectivityCatalogPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#shared_scope CapabilityServerPcieConnectivityCatalog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#shared_scope CapabilityServerPcieConnectivityCatalog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#supported_layouts CapabilityServerPcieConnectivityCatalog#supported_layouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#supported_layouts CapabilityServerPcieConnectivityCatalog#supported_layouts}
   */
   readonly supportedLayouts?: CapabilityServerPcieConnectivityCatalogSupportedLayouts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#supported_number_of_gpus CapabilityServerPcieConnectivityCatalog#supported_number_of_gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#supported_number_of_gpus CapabilityServerPcieConnectivityCatalog#supported_number_of_gpus}
   */
   readonly supportedNumberOfGpus?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#tags CapabilityServerPcieConnectivityCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#tags CapabilityServerPcieConnectivityCatalog#tags}
   */
   readonly tags?: CapabilityServerPcieConnectivityCatalogTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#version_context CapabilityServerPcieConnectivityCatalog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#version_context CapabilityServerPcieConnectivityCatalog#version_context}
   */
   readonly versionContext?: CapabilityServerPcieConnectivityCatalogVersionContext[] | cdktf.IResolvable;
 }
 export interface CapabilityServerPcieConnectivityCatalogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -368,23 +368,23 @@ export class CapabilityServerPcieConnectivityCatalogAncestorsList extends cdktf.
 }
 export interface CapabilityServerPcieConnectivityCatalogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -616,23 +616,23 @@ export class CapabilityServerPcieConnectivityCatalogParentList extends cdktf.Com
 }
 export interface CapabilityServerPcieConnectivityCatalogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -864,19 +864,19 @@ export class CapabilityServerPcieConnectivityCatalogPermissionResourcesList exte
 }
 export interface CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopologyConnectedAdapter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#end_point_ids CapabilityServerPcieConnectivityCatalog#end_point_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#end_point_ids CapabilityServerPcieConnectivityCatalog#end_point_ids}
   */
   readonly endPointIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
 }
@@ -1079,23 +1079,23 @@ export class CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopology
 }
 export interface CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopologyConnectedGpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#end_point_ids CapabilityServerPcieConnectivityCatalog#end_point_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#end_point_ids CapabilityServerPcieConnectivityCatalog#end_point_ids}
   */
   readonly endPointIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#pcie_node_slots CapabilityServerPcieConnectivityCatalog#pcie_node_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#pcie_node_slots CapabilityServerPcieConnectivityCatalog#pcie_node_slots}
   */
   readonly pcieNodeSlots?: number[];
 }
@@ -1327,31 +1327,31 @@ export class CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopology
 }
 export interface CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopology {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#connected_adapter CapabilityServerPcieConnectivityCatalog#connected_adapter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#connected_adapter CapabilityServerPcieConnectivityCatalog#connected_adapter}
   */
   readonly connectedAdapter?: CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopologyConnectedAdapter[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#connected_gpu CapabilityServerPcieConnectivityCatalog#connected_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#connected_gpu CapabilityServerPcieConnectivityCatalog#connected_gpu}
   */
   readonly connectedGpu?: CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopologyConnectedGpu[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#pcie_switch_id CapabilityServerPcieConnectivityCatalog#pcie_switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#pcie_switch_id CapabilityServerPcieConnectivityCatalog#pcie_switch_id}
   */
   readonly pcieSwitchId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#xfm_id CapabilityServerPcieConnectivityCatalog#xfm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#xfm_id CapabilityServerPcieConnectivityCatalog#xfm_id}
   */
   readonly xfmId?: number;
 }
@@ -1641,27 +1641,27 @@ export class CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopology
 }
 export interface CapabilityServerPcieConnectivityCatalogSupportedLayouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#cpu_id CapabilityServerPcieConnectivityCatalog#cpu_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#cpu_id CapabilityServerPcieConnectivityCatalog#cpu_id}
   */
   readonly cpuId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#pcie_topology CapabilityServerPcieConnectivityCatalog#pcie_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#pcie_topology CapabilityServerPcieConnectivityCatalog#pcie_topology}
   */
   readonly pcieTopology?: CapabilityServerPcieConnectivityCatalogSupportedLayoutsPcieTopology[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#server_slots CapabilityServerPcieConnectivityCatalog#server_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#server_slots CapabilityServerPcieConnectivityCatalog#server_slots}
   */
   readonly serverSlots?: number[];
 }
@@ -1922,23 +1922,23 @@ export class CapabilityServerPcieConnectivityCatalogSupportedLayoutsList extends
 }
 export interface CapabilityServerPcieConnectivityCatalogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2170,23 +2170,23 @@ export class CapabilityServerPcieConnectivityCatalogTagsAncestorDefinitionsList 
 }
 export interface CapabilityServerPcieConnectivityCatalogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -2418,35 +2418,35 @@ export class CapabilityServerPcieConnectivityCatalogTagsDefinitionList extends c
 }
 export interface CapabilityServerPcieConnectivityCatalogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#ancestor_definitions CapabilityServerPcieConnectivityCatalog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#ancestor_definitions CapabilityServerPcieConnectivityCatalog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityServerPcieConnectivityCatalogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#definition CapabilityServerPcieConnectivityCatalog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#definition CapabilityServerPcieConnectivityCatalog#definition}
   */
   readonly definition?: CapabilityServerPcieConnectivityCatalogTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#key CapabilityServerPcieConnectivityCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#key CapabilityServerPcieConnectivityCatalog#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#propagated CapabilityServerPcieConnectivityCatalog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#propagated CapabilityServerPcieConnectivityCatalog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#sys_tag CapabilityServerPcieConnectivityCatalog#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#sys_tag CapabilityServerPcieConnectivityCatalog#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#type CapabilityServerPcieConnectivityCatalog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#type CapabilityServerPcieConnectivityCatalog#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#value CapabilityServerPcieConnectivityCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#value CapabilityServerPcieConnectivityCatalog#value}
   */
   readonly value?: string;
 }
@@ -2765,23 +2765,23 @@ export class CapabilityServerPcieConnectivityCatalogTagsList extends cdktf.Compl
 }
 export interface CapabilityServerPcieConnectivityCatalogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3013,23 +3013,23 @@ export class CapabilityServerPcieConnectivityCatalogVersionContextInterestedMosL
 }
 export interface CapabilityServerPcieConnectivityCatalogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#moid CapabilityServerPcieConnectivityCatalog#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#selector CapabilityServerPcieConnectivityCatalog#selector}
   */
   readonly selector?: string;
 }
@@ -3261,39 +3261,39 @@ export class CapabilityServerPcieConnectivityCatalogVersionContextRefMoList exte
 }
 export interface CapabilityServerPcieConnectivityCatalogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#additional_properties CapabilityServerPcieConnectivityCatalog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#class_id CapabilityServerPcieConnectivityCatalog#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#interested_mos CapabilityServerPcieConnectivityCatalog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#interested_mos CapabilityServerPcieConnectivityCatalog#interested_mos}
   */
   readonly interestedMos?: CapabilityServerPcieConnectivityCatalogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#marked_for_deletion CapabilityServerPcieConnectivityCatalog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#marked_for_deletion CapabilityServerPcieConnectivityCatalog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#nr_version CapabilityServerPcieConnectivityCatalog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#nr_version CapabilityServerPcieConnectivityCatalog#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#object_type CapabilityServerPcieConnectivityCatalog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#ref_mo CapabilityServerPcieConnectivityCatalog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#ref_mo CapabilityServerPcieConnectivityCatalog#ref_mo}
   */
   readonly refMo?: CapabilityServerPcieConnectivityCatalogVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#timestamp CapabilityServerPcieConnectivityCatalog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#timestamp CapabilityServerPcieConnectivityCatalog#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#version_type CapabilityServerPcieConnectivityCatalog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#version_type CapabilityServerPcieConnectivityCatalog#version_type}
   */
   readonly versionType?: string;
 }
@@ -3641,7 +3641,7 @@ export class CapabilityServerPcieConnectivityCatalogVersionContextList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog intersight_capability_server_pcie_connectivity_catalog}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog intersight_capability_server_pcie_connectivity_catalog}
 */
 export class CapabilityServerPcieConnectivityCatalog extends cdktf.TerraformResource {
 
@@ -3657,7 +3657,7 @@ export class CapabilityServerPcieConnectivityCatalog extends cdktf.TerraformReso
   * Generates CDKTF code for importing a CapabilityServerPcieConnectivityCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityServerPcieConnectivityCatalog to import
-  * @param importFromId The id of the existing CapabilityServerPcieConnectivityCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityServerPcieConnectivityCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityServerPcieConnectivityCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3669,7 +3669,7 @@ export class CapabilityServerPcieConnectivityCatalog extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_server_pcie_connectivity_catalog intersight_capability_server_pcie_connectivity_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_server_pcie_connectivity_catalog intersight_capability_server_pcie_connectivity_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3680,8 +3680,8 @@ export class CapabilityServerPcieConnectivityCatalog extends cdktf.TerraformReso
       terraformResourceType: 'intersight_capability_server_pcie_connectivity_catalog',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

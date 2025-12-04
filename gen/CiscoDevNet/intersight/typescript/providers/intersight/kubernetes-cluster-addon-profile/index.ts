@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,28 +10,28 @@ export interface KubernetesClusterAddonProfileConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#account_moid KubernetesClusterAddonProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#account_moid KubernetesClusterAddonProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#addons KubernetesClusterAddonProfile#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#addons KubernetesClusterAddonProfile#addons}
   */
   readonly addons?: KubernetesClusterAddonProfileAddons[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#ancestors KubernetesClusterAddonProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#ancestors KubernetesClusterAddonProfile#ancestors}
   */
   readonly ancestors?: KubernetesClusterAddonProfileAncestors[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#associated_cluster KubernetesClusterAddonProfile#associated_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#associated_cluster KubernetesClusterAddonProfile#associated_cluster}
   */
   readonly associatedCluster?: KubernetesClusterAddonProfileAssociatedCluster[] | cdktf.IResolvable;
   /**
@@ -39,23 +39,23 @@ export interface KubernetesClusterAddonProfileConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#create_time KubernetesClusterAddonProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#create_time KubernetesClusterAddonProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#domain_group_moid KubernetesClusterAddonProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#domain_group_moid KubernetesClusterAddonProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#id KubernetesClusterAddonProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#id KubernetesClusterAddonProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,89 +64,89 @@ export interface KubernetesClusterAddonProfileConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#mod_time KubernetesClusterAddonProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#mod_time KubernetesClusterAddonProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the cluster addon profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#name KubernetesClusterAddonProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#name KubernetesClusterAddonProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#organization KubernetesClusterAddonProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#organization KubernetesClusterAddonProfile#organization}
   */
   readonly organization?: KubernetesClusterAddonProfileOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#owners KubernetesClusterAddonProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#owners KubernetesClusterAddonProfile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#parent KubernetesClusterAddonProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#parent KubernetesClusterAddonProfile#parent}
   */
   readonly parent?: KubernetesClusterAddonProfileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#permission_resources KubernetesClusterAddonProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#permission_resources KubernetesClusterAddonProfile#permission_resources}
   */
   readonly permissionResources?: KubernetesClusterAddonProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#shared_scope KubernetesClusterAddonProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#shared_scope KubernetesClusterAddonProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#tags KubernetesClusterAddonProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#tags KubernetesClusterAddonProfile#tags}
   */
   readonly tags?: KubernetesClusterAddonProfileTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#version_context KubernetesClusterAddonProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#version_context KubernetesClusterAddonProfile#version_context}
   */
   readonly versionContext?: KubernetesClusterAddonProfileVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesClusterAddonProfileAddonsAddonConfigurationOverrideSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#key KubernetesClusterAddonProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#key KubernetesClusterAddonProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#value KubernetesClusterAddonProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#value KubernetesClusterAddonProfile#value}
   */
   readonly value?: string;
 }
@@ -378,39 +378,39 @@ export class KubernetesClusterAddonProfileAddonsAddonConfigurationOverrideSetsLi
 }
 export interface KubernetesClusterAddonProfileAddonsAddonConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#install_strategy KubernetesClusterAddonProfile#install_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#install_strategy KubernetesClusterAddonProfile#install_strategy}
   */
   readonly installStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#override_sets KubernetesClusterAddonProfile#override_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#override_sets KubernetesClusterAddonProfile#override_sets}
   */
   readonly overrideSets?: KubernetesClusterAddonProfileAddonsAddonConfigurationOverrideSets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#overrides KubernetesClusterAddonProfile#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#overrides KubernetesClusterAddonProfile#overrides}
   */
   readonly overrides?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#release_name KubernetesClusterAddonProfile#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#release_name KubernetesClusterAddonProfile#release_name}
   */
   readonly releaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#release_namespace KubernetesClusterAddonProfile#release_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#release_namespace KubernetesClusterAddonProfile#release_namespace}
   */
   readonly releaseNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#upgrade_strategy KubernetesClusterAddonProfile#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#upgrade_strategy KubernetesClusterAddonProfile#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
 }
@@ -758,23 +758,23 @@ export class KubernetesClusterAddonProfileAddonsAddonConfigurationList extends c
 }
 export interface KubernetesClusterAddonProfileAddonsAddonPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1006,27 +1006,27 @@ export class KubernetesClusterAddonProfileAddonsAddonPolicyList extends cdktf.Co
 }
 export interface KubernetesClusterAddonProfileAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#addon_configuration KubernetesClusterAddonProfile#addon_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#addon_configuration KubernetesClusterAddonProfile#addon_configuration}
   */
   readonly addonConfiguration?: KubernetesClusterAddonProfileAddonsAddonConfiguration[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#addon_policy KubernetesClusterAddonProfile#addon_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#addon_policy KubernetesClusterAddonProfile#addon_policy}
   */
   readonly addonPolicy?: KubernetesClusterAddonProfileAddonsAddonPolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#name KubernetesClusterAddonProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#name KubernetesClusterAddonProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
 }
@@ -1287,23 +1287,23 @@ export class KubernetesClusterAddonProfileAddonsList extends cdktf.ComplexList {
 }
 export interface KubernetesClusterAddonProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1535,23 +1535,23 @@ export class KubernetesClusterAddonProfileAncestorsList extends cdktf.ComplexLis
 }
 export interface KubernetesClusterAddonProfileAssociatedCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1783,23 +1783,23 @@ export class KubernetesClusterAddonProfileAssociatedClusterList extends cdktf.Co
 }
 export interface KubernetesClusterAddonProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2031,23 +2031,23 @@ export class KubernetesClusterAddonProfileOrganizationList extends cdktf.Complex
 }
 export interface KubernetesClusterAddonProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2279,23 +2279,23 @@ export class KubernetesClusterAddonProfileParentList extends cdktf.ComplexList {
 }
 export interface KubernetesClusterAddonProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2527,23 +2527,23 @@ export class KubernetesClusterAddonProfilePermissionResourcesList extends cdktf.
 }
 export interface KubernetesClusterAddonProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2775,23 +2775,23 @@ export class KubernetesClusterAddonProfileTagsAncestorDefinitionsList extends cd
 }
 export interface KubernetesClusterAddonProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3023,35 +3023,35 @@ export class KubernetesClusterAddonProfileTagsDefinitionList extends cdktf.Compl
 }
 export interface KubernetesClusterAddonProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#ancestor_definitions KubernetesClusterAddonProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#ancestor_definitions KubernetesClusterAddonProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesClusterAddonProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#definition KubernetesClusterAddonProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#definition KubernetesClusterAddonProfile#definition}
   */
   readonly definition?: KubernetesClusterAddonProfileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#key KubernetesClusterAddonProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#key KubernetesClusterAddonProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#propagated KubernetesClusterAddonProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#propagated KubernetesClusterAddonProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#sys_tag KubernetesClusterAddonProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#sys_tag KubernetesClusterAddonProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#type KubernetesClusterAddonProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#type KubernetesClusterAddonProfile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#value KubernetesClusterAddonProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#value KubernetesClusterAddonProfile#value}
   */
   readonly value?: string;
 }
@@ -3370,23 +3370,23 @@ export class KubernetesClusterAddonProfileTagsList extends cdktf.ComplexList {
 }
 export interface KubernetesClusterAddonProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3618,23 +3618,23 @@ export class KubernetesClusterAddonProfileVersionContextInterestedMosList extend
 }
 export interface KubernetesClusterAddonProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#moid KubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#selector KubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3866,39 +3866,39 @@ export class KubernetesClusterAddonProfileVersionContextRefMoList extends cdktf.
 }
 export interface KubernetesClusterAddonProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#additional_properties KubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#class_id KubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#interested_mos KubernetesClusterAddonProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#interested_mos KubernetesClusterAddonProfile#interested_mos}
   */
   readonly interestedMos?: KubernetesClusterAddonProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#marked_for_deletion KubernetesClusterAddonProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#marked_for_deletion KubernetesClusterAddonProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#nr_version KubernetesClusterAddonProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#nr_version KubernetesClusterAddonProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#object_type KubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#ref_mo KubernetesClusterAddonProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#ref_mo KubernetesClusterAddonProfile#ref_mo}
   */
   readonly refMo?: KubernetesClusterAddonProfileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#timestamp KubernetesClusterAddonProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#timestamp KubernetesClusterAddonProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#version_type KubernetesClusterAddonProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#version_type KubernetesClusterAddonProfile#version_type}
   */
   readonly versionType?: string;
 }
@@ -4246,7 +4246,7 @@ export class KubernetesClusterAddonProfileVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile}
 */
 export class KubernetesClusterAddonProfile extends cdktf.TerraformResource {
 
@@ -4262,7 +4262,7 @@ export class KubernetesClusterAddonProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesClusterAddonProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesClusterAddonProfile to import
-  * @param importFromId The id of the existing KubernetesClusterAddonProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesClusterAddonProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesClusterAddonProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4274,7 +4274,7 @@ export class KubernetesClusterAddonProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4285,8 +4285,8 @@ export class KubernetesClusterAddonProfile extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_kubernetes_cluster_addon_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

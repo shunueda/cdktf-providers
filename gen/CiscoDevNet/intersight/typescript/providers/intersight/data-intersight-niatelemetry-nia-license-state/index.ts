@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryNiaLicenseStateConfig extends cdktf.T
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#account_moid DataIntersightNiatelemetryNiaLicenseState#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#account_moid DataIntersightNiatelemetryNiaLicenseState#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryNiaLicenseStateConfig extends cdktf.T
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#create_time DataIntersightNiatelemetryNiaLicenseState#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#create_time DataIntersightNiatelemetryNiaLicenseState#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#domain_group_moid DataIntersightNiatelemetryNiaLicenseState#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#domain_group_moid DataIntersightNiatelemetryNiaLicenseState#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Features activated on device being inventoried. This determines which features are currently enabled on the device that the license API can check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#feature_activated DataIntersightNiatelemetryNiaLicenseState#feature_activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#feature_activated DataIntersightNiatelemetryNiaLicenseState#feature_activated}
   */
   readonly featureActivated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#id DataIntersightNiatelemetryNiaLicenseState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#id DataIntersightNiatelemetryNiaLicenseState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DataIntersightNiatelemetryNiaLicenseStateConfig extends cdktf.T
   /**
   * Licenses activated on device being inventoried. This determines which lienceses are currently enabled on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#license_activated DataIntersightNiatelemetryNiaLicenseState#license_activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#license_activated DataIntersightNiatelemetryNiaLicenseState#license_activated}
   */
   readonly licenseActivated?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#mod_time DataIntersightNiatelemetryNiaLicenseState#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#mod_time DataIntersightNiatelemetryNiaLicenseState#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#owners DataIntersightNiatelemetryNiaLicenseState#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#owners DataIntersightNiatelemetryNiaLicenseState#owners}
   */
   readonly owners?: string[];
   /**
   * PID of device being inventoried. This determines the hardware model type of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#pid_type DataIntersightNiatelemetryNiaLicenseState#pid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#pid_type DataIntersightNiatelemetryNiaLicenseState#pid_type}
   */
   readonly pidType?: string;
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#record_type DataIntersightNiatelemetryNiaLicenseState#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#record_type DataIntersightNiatelemetryNiaLicenseState#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#record_version DataIntersightNiatelemetryNiaLicenseState#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#record_version DataIntersightNiatelemetryNiaLicenseState#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Serial number of device being inventoried. The serial number is unique per device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#serial DataIntersightNiatelemetryNiaLicenseState#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#serial DataIntersightNiatelemetryNiaLicenseState#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#shared_scope DataIntersightNiatelemetryNiaLicenseState#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#shared_scope DataIntersightNiatelemetryNiaLicenseState#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of fabric domain of the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#site_name DataIntersightNiatelemetryNiaLicenseState#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#site_name DataIntersightNiatelemetryNiaLicenseState#site_name}
   */
   readonly siteName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#ancestors DataIntersightNiatelemetryNiaLicenseState#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#ancestors DataIntersightNiatelemetryNiaLicenseState#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryNiaLicenseStateAncestors[] | cdktf.IResolvable;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#device DataIntersightNiatelemetryNiaLicenseState#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#device DataIntersightNiatelemetryNiaLicenseState#device}
   */
   readonly device?: DataIntersightNiatelemetryNiaLicenseStateDevice;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#parent DataIntersightNiatelemetryNiaLicenseState#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#parent DataIntersightNiatelemetryNiaLicenseState#parent}
   */
   readonly parent?: DataIntersightNiatelemetryNiaLicenseStateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#permission_resources DataIntersightNiatelemetryNiaLicenseState#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#permission_resources DataIntersightNiatelemetryNiaLicenseState#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryNiaLicenseStatePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#tags DataIntersightNiatelemetryNiaLicenseState#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#tags DataIntersightNiatelemetryNiaLicenseState#tags}
   */
   readonly tags?: DataIntersightNiatelemetryNiaLicenseStateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#version_context DataIntersightNiatelemetryNiaLicenseState#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#version_context DataIntersightNiatelemetryNiaLicenseState#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryNiaLicenseStateVersionContext;
 }
@@ -1335,7 +1335,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateResultsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1343,19 +1343,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1368,7 +1368,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -1600,7 +1600,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateAncestorsList extends cdkt
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1608,19 +1608,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1633,7 +1633,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -1833,7 +1833,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateDeviceOutputReference exte
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1841,19 +1841,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1866,7 +1866,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -2066,7 +2066,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateParentOutputReference exte
 }
 export interface DataIntersightNiatelemetryNiaLicenseStatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2074,19 +2074,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2099,7 +2099,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -2331,7 +2331,7 @@ export class DataIntersightNiatelemetryNiaLicenseStatePermissionResourcesList ex
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2339,19 +2339,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateTagsAncestorDefinition
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2364,7 +2364,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateTagsAncestorDefinition
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -2596,7 +2596,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateTagsAncestorDefinitionsLis
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2604,19 +2604,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2629,7 +2629,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -2829,25 +2829,25 @@ export class DataIntersightNiatelemetryNiaLicenseStateTagsDefinitionOutputRefere
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#key DataIntersightNiatelemetryNiaLicenseState#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#key DataIntersightNiatelemetryNiaLicenseState#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#propagated DataIntersightNiatelemetryNiaLicenseState#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#propagated DataIntersightNiatelemetryNiaLicenseState#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#sys_tag DataIntersightNiatelemetryNiaLicenseState#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#sys_tag DataIntersightNiatelemetryNiaLicenseState#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2855,25 +2855,25 @@ export interface DataIntersightNiatelemetryNiaLicenseStateTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#type DataIntersightNiatelemetryNiaLicenseState#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#type DataIntersightNiatelemetryNiaLicenseState#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#value DataIntersightNiatelemetryNiaLicenseState#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#value DataIntersightNiatelemetryNiaLicenseState#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#ancestor_definitions DataIntersightNiatelemetryNiaLicenseState#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#ancestor_definitions DataIntersightNiatelemetryNiaLicenseState#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryNiaLicenseStateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#definition DataIntersightNiatelemetryNiaLicenseState#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#definition DataIntersightNiatelemetryNiaLicenseState#definition}
   */
   readonly definition?: DataIntersightNiatelemetryNiaLicenseStateTagsDefinition;
 }
@@ -3192,7 +3192,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateTagsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3200,19 +3200,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextInterest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3225,7 +3225,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextInterest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -3457,7 +3457,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateVersionContextInterestedMo
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3465,19 +3465,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#moid DataIntersightNiatelemetryNiaLicenseState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3490,7 +3490,7 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#selector DataIntersightNiatelemetryNiaLicenseState#selector}
   */
   readonly selector?: string;
 }
@@ -3690,7 +3690,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateVersionContextRefMoOutputR
 }
 export interface DataIntersightNiatelemetryNiaLicenseStateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#additional_properties DataIntersightNiatelemetryNiaLicenseState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3698,32 +3698,32 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#class_id DataIntersightNiatelemetryNiaLicenseState#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#marked_for_deletion DataIntersightNiatelemetryNiaLicenseState#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#marked_for_deletion DataIntersightNiatelemetryNiaLicenseState#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#nr_version DataIntersightNiatelemetryNiaLicenseState#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#nr_version DataIntersightNiatelemetryNiaLicenseState#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#object_type DataIntersightNiatelemetryNiaLicenseState#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#timestamp DataIntersightNiatelemetryNiaLicenseState#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#timestamp DataIntersightNiatelemetryNiaLicenseState#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3734,19 +3734,19 @@ export interface DataIntersightNiatelemetryNiaLicenseStateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#version_type DataIntersightNiatelemetryNiaLicenseState#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#version_type DataIntersightNiatelemetryNiaLicenseState#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#interested_mos DataIntersightNiatelemetryNiaLicenseState#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#interested_mos DataIntersightNiatelemetryNiaLicenseState#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryNiaLicenseStateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#ref_mo DataIntersightNiatelemetryNiaLicenseState#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#ref_mo DataIntersightNiatelemetryNiaLicenseState#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryNiaLicenseStateVersionContextRefMo;
 }
@@ -4062,7 +4062,7 @@ export class DataIntersightNiatelemetryNiaLicenseStateVersionContextOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state intersight_niatelemetry_nia_license_state}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state intersight_niatelemetry_nia_license_state}
 */
 export class DataIntersightNiatelemetryNiaLicenseState extends cdktf.TerraformDataSource {
 
@@ -4078,7 +4078,7 @@ export class DataIntersightNiatelemetryNiaLicenseState extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataIntersightNiatelemetryNiaLicenseState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryNiaLicenseState to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaLicenseState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryNiaLicenseState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryNiaLicenseState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4090,7 +4090,7 @@ export class DataIntersightNiatelemetryNiaLicenseState extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_nia_license_state intersight_niatelemetry_nia_license_state} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_nia_license_state intersight_niatelemetry_nia_license_state} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4101,8 +4101,8 @@ export class DataIntersightNiatelemetryNiaLicenseState extends cdktf.TerraformDa
       terraformResourceType: 'intersight_niatelemetry_nia_license_state',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

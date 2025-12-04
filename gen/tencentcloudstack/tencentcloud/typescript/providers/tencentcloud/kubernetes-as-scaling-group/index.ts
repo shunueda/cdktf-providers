@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesAsScalingGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#cluster_id KubernetesAsScalingGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#cluster_id KubernetesAsScalingGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Custom parameter information related to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#extra_args KubernetesAsScalingGroup#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#extra_args KubernetesAsScalingGroup#extra_args}
   */
   readonly extraArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#id KubernetesAsScalingGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#id KubernetesAsScalingGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface KubernetesAsScalingGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Labels of kubernetes AS Group created nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#labels KubernetesAsScalingGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#labels KubernetesAsScalingGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Sets whether the joining node participates in the schedule. Default is '0'. Participate in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#unschedulable KubernetesAsScalingGroup#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#unschedulable KubernetesAsScalingGroup#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * auto_scaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#auto_scaling_config KubernetesAsScalingGroup#auto_scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#auto_scaling_config KubernetesAsScalingGroup#auto_scaling_config}
   */
   readonly autoScalingConfig: KubernetesAsScalingGroupAutoScalingConfig;
   /**
   * auto_scaling_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#auto_scaling_group KubernetesAsScalingGroup#auto_scaling_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#auto_scaling_group KubernetesAsScalingGroup#auto_scaling_group}
   */
   readonly autoScalingGroup: KubernetesAsScalingGroupAutoScalingGroup;
 }
@@ -55,19 +55,19 @@ export interface KubernetesAsScalingGroupAutoScalingConfigDataDisk {
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#disk_size KubernetesAsScalingGroup#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#disk_size KubernetesAsScalingGroup#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid value: `CLOUD_PREMIUM` and `CLOUD_SSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#disk_type KubernetesAsScalingGroup#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#disk_type KubernetesAsScalingGroup#disk_type}
   */
   readonly diskType?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#snapshot_id KubernetesAsScalingGroup#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#snapshot_id KubernetesAsScalingGroup#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -243,91 +243,91 @@ export interface KubernetesAsScalingGroupAutoScalingConfig {
   /**
   * Name of a launch configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#configuration_name KubernetesAsScalingGroup#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#configuration_name KubernetesAsScalingGroup#configuration_name}
   */
   readonly configurationName: string;
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#enhanced_monitor_service KubernetesAsScalingGroup#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#enhanced_monitor_service KubernetesAsScalingGroup#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#enhanced_security_service KubernetesAsScalingGroup#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#enhanced_security_service KubernetesAsScalingGroup#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * A list of tags used to associate different resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#instance_tags KubernetesAsScalingGroup#instance_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#instance_tags KubernetesAsScalingGroup#instance_tags}
   */
   readonly instanceTags?: { [key: string]: string };
   /**
   * Specified types of CVM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#instance_type KubernetesAsScalingGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#instance_type KubernetesAsScalingGroup#instance_type}
   */
   readonly instanceType: string;
   /**
   * Charge types for network traffic. Valid value: `BANDWIDTH_PREPAID`, `TRAFFIC_POSTPAID_BY_HOUR` and `BANDWIDTH_PACKAGE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#internet_charge_type KubernetesAsScalingGroup#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#internet_charge_type KubernetesAsScalingGroup#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#internet_max_bandwidth_out KubernetesAsScalingGroup#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#internet_max_bandwidth_out KubernetesAsScalingGroup#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * ID list of keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#key_ids KubernetesAsScalingGroup#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#key_ids KubernetesAsScalingGroup#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#password KubernetesAsScalingGroup#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#password KubernetesAsScalingGroup#password}
   */
   readonly password?: string;
   /**
   * Specifys to which project the configuration belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#project_id KubernetesAsScalingGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#project_id KubernetesAsScalingGroup#project_id}
   */
   readonly projectId?: number;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#public_ip_assigned KubernetesAsScalingGroup#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#public_ip_assigned KubernetesAsScalingGroup#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#security_group_ids KubernetesAsScalingGroup#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#security_group_ids KubernetesAsScalingGroup#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#system_disk_size KubernetesAsScalingGroup#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#system_disk_size KubernetesAsScalingGroup#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * Type of a CVM disk. Valid value: `CLOUD_PREMIUM` and `CLOUD_SSD`. Default is `CLOUD_PREMIUM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#system_disk_type KubernetesAsScalingGroup#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#system_disk_type KubernetesAsScalingGroup#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#data_disk KubernetesAsScalingGroup#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#data_disk KubernetesAsScalingGroup#data_disk}
   */
   readonly dataDisk?: KubernetesAsScalingGroupAutoScalingConfigDataDisk[] | cdktf.IResolvable;
 }
@@ -813,13 +813,13 @@ export interface KubernetesAsScalingGroupAutoScalingGroupForwardBalancerIdsTarge
   /**
   * Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#port KubernetesAsScalingGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#port KubernetesAsScalingGroup#port}
   */
   readonly port: number;
   /**
   * Weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#weight KubernetesAsScalingGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#weight KubernetesAsScalingGroup#weight}
   */
   readonly weight: number;
 }
@@ -960,25 +960,25 @@ export interface KubernetesAsScalingGroupAutoScalingGroupForwardBalancerIds {
   /**
   * Listener ID for application load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#listener_id KubernetesAsScalingGroup#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#listener_id KubernetesAsScalingGroup#listener_id}
   */
   readonly listenerId: string;
   /**
   * ID of available load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#load_balancer_id KubernetesAsScalingGroup#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#load_balancer_id KubernetesAsScalingGroup#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * ID of forwarding rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#rule_id KubernetesAsScalingGroup#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#rule_id KubernetesAsScalingGroup#rule_id}
   */
   readonly ruleId?: string;
   /**
   * target_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#target_attribute KubernetesAsScalingGroup#target_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#target_attribute KubernetesAsScalingGroup#target_attribute}
   */
   readonly targetAttribute: KubernetesAsScalingGroupAutoScalingGroupForwardBalancerIdsTargetAttribute[] | cdktf.IResolvable;
 }
@@ -1174,85 +1174,85 @@ export interface KubernetesAsScalingGroupAutoScalingGroup {
   /**
   * Default cooldown time in second, and default value is 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#default_cooldown KubernetesAsScalingGroup#default_cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#default_cooldown KubernetesAsScalingGroup#default_cooldown}
   */
   readonly defaultCooldown?: number;
   /**
   * Desired volume of CVM instances, which is between max_size and min_size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#desired_capacity KubernetesAsScalingGroup#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#desired_capacity KubernetesAsScalingGroup#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
   * ID list of traditional load balancers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#load_balancer_ids KubernetesAsScalingGroup#load_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#load_balancer_ids KubernetesAsScalingGroup#load_balancer_ids}
   */
   readonly loadBalancerIds?: string[];
   /**
   * Maximum number of CVM instances (0~2000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#max_size KubernetesAsScalingGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#max_size KubernetesAsScalingGroup#max_size}
   */
   readonly maxSize: number;
   /**
   * Minimum number of CVM instances (0~2000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#min_size KubernetesAsScalingGroup#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#min_size KubernetesAsScalingGroup#min_size}
   */
   readonly minSize: number;
   /**
   * Specifys to which project the scaling group belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#project_id KubernetesAsScalingGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#project_id KubernetesAsScalingGroup#project_id}
   */
   readonly projectId?: number;
   /**
   * Available values for retry policies include `IMMEDIATE_RETRY` and `INCREMENTAL_INTERVALS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#retry_policy KubernetesAsScalingGroup#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#retry_policy KubernetesAsScalingGroup#retry_policy}
   */
   readonly retryPolicy?: string;
   /**
   * Name of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#scaling_group_name KubernetesAsScalingGroup#scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#scaling_group_name KubernetesAsScalingGroup#scaling_group_name}
   */
   readonly scalingGroupName: string;
   /**
   * ID list of subnet, and for VPC it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#subnet_ids KubernetesAsScalingGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#subnet_ids KubernetesAsScalingGroup#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#tags KubernetesAsScalingGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#tags KubernetesAsScalingGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Available values for termination policies include `OLDEST_INSTANCE` and `NEWEST_INSTANCE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#termination_policies KubernetesAsScalingGroup#termination_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#termination_policies KubernetesAsScalingGroup#termination_policies}
   */
   readonly terminationPolicies?: string[];
   /**
   * ID of VPC network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#vpc_id KubernetesAsScalingGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#vpc_id KubernetesAsScalingGroup#vpc_id}
   */
   readonly vpcId: string;
   /**
   * List of available zones, for Basic network it is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#zones KubernetesAsScalingGroup#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#zones KubernetesAsScalingGroup#zones}
   */
   readonly zones?: string[];
   /**
   * forward_balancer_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#forward_balancer_ids KubernetesAsScalingGroup#forward_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#forward_balancer_ids KubernetesAsScalingGroup#forward_balancer_ids}
   */
   readonly forwardBalancerIds?: KubernetesAsScalingGroupAutoScalingGroupForwardBalancerIds[] | cdktf.IResolvable;
 }
@@ -1701,7 +1701,7 @@ export class KubernetesAsScalingGroupAutoScalingGroupOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group tencentcloud_kubernetes_as_scaling_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group tencentcloud_kubernetes_as_scaling_group}
 */
 export class KubernetesAsScalingGroup extends cdktf.TerraformResource {
 
@@ -1717,7 +1717,7 @@ export class KubernetesAsScalingGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesAsScalingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAsScalingGroup to import
-  * @param importFromId The id of the existing KubernetesAsScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAsScalingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAsScalingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1729,7 +1729,7 @@ export class KubernetesAsScalingGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_as_scaling_group tencentcloud_kubernetes_as_scaling_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_as_scaling_group tencentcloud_kubernetes_as_scaling_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1740,8 +1740,8 @@ export class KubernetesAsScalingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_as_scaling_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

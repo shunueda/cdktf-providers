@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudDlcDescribeDataEngineImageVersionsConfig extend
   /**
   * Sort by: false (descending, default), true (ascending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#asc DataTencentcloudDlcDescribeDataEngineImageVersions#asc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#asc DataTencentcloudDlcDescribeDataEngineImageVersions#asc}
   */
   readonly asc?: boolean | cdktf.IResolvable;
   /**
   * Engine type only support: SparkSQL/PrestoSQL/SparkBatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#engine_type DataTencentcloudDlcDescribeDataEngineImageVersions#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#engine_type DataTencentcloudDlcDescribeDataEngineImageVersions#engine_type}
   */
   readonly engineType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#id DataTencentcloudDlcDescribeDataEngineImageVersions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#id DataTencentcloudDlcDescribeDataEngineImageVersions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface DataTencentcloudDlcDescribeDataEngineImageVersionsConfig extend
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#result_output_file DataTencentcloudDlcDescribeDataEngineImageVersions#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#result_output_file DataTencentcloudDlcDescribeDataEngineImageVersions#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sort fields: InsertTime (insert time, default), UpdateTime (update time).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#sort DataTencentcloudDlcDescribeDataEngineImageVersions#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#sort DataTencentcloudDlcDescribeDataEngineImageVersions#sort}
   */
   readonly sort?: string;
 }
@@ -156,7 +156,7 @@ export class DataTencentcloudDlcDescribeDataEngineImageVersionsImageParentVersio
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions tencentcloud_dlc_describe_data_engine_image_versions}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions tencentcloud_dlc_describe_data_engine_image_versions}
 */
 export class DataTencentcloudDlcDescribeDataEngineImageVersions extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataTencentcloudDlcDescribeDataEngineImageVersions extends cdktf.Te
   * Generates CDKTF code for importing a DataTencentcloudDlcDescribeDataEngineImageVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDlcDescribeDataEngineImageVersions to import
-  * @param importFromId The id of the existing DataTencentcloudDlcDescribeDataEngineImageVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDlcDescribeDataEngineImageVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDlcDescribeDataEngineImageVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataTencentcloudDlcDescribeDataEngineImageVersions extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dlc_describe_data_engine_image_versions tencentcloud_dlc_describe_data_engine_image_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dlc_describe_data_engine_image_versions tencentcloud_dlc_describe_data_engine_image_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataTencentcloudDlcDescribeDataEngineImageVersions extends cdktf.Te
       terraformResourceType: 'tencentcloud_dlc_describe_data_engine_image_versions',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

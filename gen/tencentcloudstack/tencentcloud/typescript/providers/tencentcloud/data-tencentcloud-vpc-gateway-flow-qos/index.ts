@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVpcGatewayFlowQosConfig extends cdktf.Terraform
   /**
   * Network instance ID, the network instance types we currently support are:Private line gateway instance ID, in the form of `dcg-ltjahce6`;Nat gateway instance ID, in the form of `nat-ltjahce6`;VPN gateway instance ID, in the form of `vpn-ltjahce6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos#gateway_id DataTencentcloudVpcGatewayFlowQos#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos#gateway_id DataTencentcloudVpcGatewayFlowQos#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos#id DataTencentcloudVpcGatewayFlowQos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos#id DataTencentcloudVpcGatewayFlowQos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudVpcGatewayFlowQosConfig extends cdktf.Terraform
   /**
   * Intranet IP of the cloud server with traffic limitation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos#ip_addresses DataTencentcloudVpcGatewayFlowQos#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos#ip_addresses DataTencentcloudVpcGatewayFlowQos#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos#result_output_file DataTencentcloudVpcGatewayFlowQos#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos#result_output_file DataTencentcloudVpcGatewayFlowQos#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -125,7 +125,7 @@ export class DataTencentcloudVpcGatewayFlowQosGatewayQosSetList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos tencentcloud_vpc_gateway_flow_qos}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos tencentcloud_vpc_gateway_flow_qos}
 */
 export class DataTencentcloudVpcGatewayFlowQos extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataTencentcloudVpcGatewayFlowQos extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudVpcGatewayFlowQos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcGatewayFlowQos to import
-  * @param importFromId The id of the existing DataTencentcloudVpcGatewayFlowQos that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcGatewayFlowQos that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcGatewayFlowQos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataTencentcloudVpcGatewayFlowQos extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/vpc_gateway_flow_qos tencentcloud_vpc_gateway_flow_qos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/vpc_gateway_flow_qos tencentcloud_vpc_gateway_flow_qos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataTencentcloudVpcGatewayFlowQos extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_vpc_gateway_flow_qos',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

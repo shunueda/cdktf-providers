@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHclOperatingSystemConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#account_moid DataIntersightHclOperatingSystem#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#account_moid DataIntersightHclOperatingSystem#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHclOperatingSystemConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#create_time DataIntersightHclOperatingSystem#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#create_time DataIntersightHclOperatingSystem#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#domain_group_moid DataIntersightHclOperatingSystem#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#domain_group_moid DataIntersightHclOperatingSystem#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#id DataIntersightHclOperatingSystem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#id DataIntersightHclOperatingSystem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightHclOperatingSystemConfig extends cdktf.TerraformM
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#mod_time DataIntersightHclOperatingSystem#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#mod_time DataIntersightHclOperatingSystem#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * Version of the Operating System.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#nr_version DataIntersightHclOperatingSystem#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#nr_version DataIntersightHclOperatingSystem#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#owners DataIntersightHclOperatingSystem#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#owners DataIntersightHclOperatingSystem#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#shared_scope DataIntersightHclOperatingSystem#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#shared_scope DataIntersightHclOperatingSystem#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#ancestors DataIntersightHclOperatingSystem#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#ancestors DataIntersightHclOperatingSystem#ancestors}
   */
   readonly ancestors?: DataIntersightHclOperatingSystemAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#parent DataIntersightHclOperatingSystem#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#parent DataIntersightHclOperatingSystem#parent}
   */
   readonly parent?: DataIntersightHclOperatingSystemParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#permission_resources DataIntersightHclOperatingSystem#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#permission_resources DataIntersightHclOperatingSystem#permission_resources}
   */
   readonly permissionResources?: DataIntersightHclOperatingSystemPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#tags DataIntersightHclOperatingSystem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#tags DataIntersightHclOperatingSystem#tags}
   */
   readonly tags?: DataIntersightHclOperatingSystemTags[] | cdktf.IResolvable;
   /**
   * vendor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#vendor DataIntersightHclOperatingSystem#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#vendor DataIntersightHclOperatingSystem#vendor}
   */
   readonly vendor?: DataIntersightHclOperatingSystemVendor;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#version_context DataIntersightHclOperatingSystem#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#version_context DataIntersightHclOperatingSystem#version_context}
   */
   readonly versionContext?: DataIntersightHclOperatingSystemVersionContext;
 }
@@ -1269,7 +1269,7 @@ export class DataIntersightHclOperatingSystemResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightHclOperatingSystemAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1277,19 +1277,19 @@ export interface DataIntersightHclOperatingSystemAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1302,7 +1302,7 @@ export interface DataIntersightHclOperatingSystemAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -1534,7 +1534,7 @@ export class DataIntersightHclOperatingSystemAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightHclOperatingSystemParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1542,19 +1542,19 @@ export interface DataIntersightHclOperatingSystemParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1567,7 +1567,7 @@ export interface DataIntersightHclOperatingSystemParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -1767,7 +1767,7 @@ export class DataIntersightHclOperatingSystemParentOutputReference extends cdktf
 }
 export interface DataIntersightHclOperatingSystemPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1775,19 +1775,19 @@ export interface DataIntersightHclOperatingSystemPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1800,7 +1800,7 @@ export interface DataIntersightHclOperatingSystemPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -2032,7 +2032,7 @@ export class DataIntersightHclOperatingSystemPermissionResourcesList extends cdk
 }
 export interface DataIntersightHclOperatingSystemTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2040,19 +2040,19 @@ export interface DataIntersightHclOperatingSystemTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2065,7 +2065,7 @@ export interface DataIntersightHclOperatingSystemTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -2297,7 +2297,7 @@ export class DataIntersightHclOperatingSystemTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightHclOperatingSystemTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2305,19 +2305,19 @@ export interface DataIntersightHclOperatingSystemTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2330,7 +2330,7 @@ export interface DataIntersightHclOperatingSystemTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -2530,25 +2530,25 @@ export class DataIntersightHclOperatingSystemTagsDefinitionOutputReference exten
 }
 export interface DataIntersightHclOperatingSystemTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#key DataIntersightHclOperatingSystem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#key DataIntersightHclOperatingSystem#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#propagated DataIntersightHclOperatingSystem#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#propagated DataIntersightHclOperatingSystem#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#sys_tag DataIntersightHclOperatingSystem#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#sys_tag DataIntersightHclOperatingSystem#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2556,25 +2556,25 @@ export interface DataIntersightHclOperatingSystemTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#type DataIntersightHclOperatingSystem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#type DataIntersightHclOperatingSystem#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#value DataIntersightHclOperatingSystem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#value DataIntersightHclOperatingSystem#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#ancestor_definitions DataIntersightHclOperatingSystem#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#ancestor_definitions DataIntersightHclOperatingSystem#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHclOperatingSystemTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#definition DataIntersightHclOperatingSystem#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#definition DataIntersightHclOperatingSystem#definition}
   */
   readonly definition?: DataIntersightHclOperatingSystemTagsDefinition;
 }
@@ -2893,7 +2893,7 @@ export class DataIntersightHclOperatingSystemTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightHclOperatingSystemVendor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2901,19 +2901,19 @@ export interface DataIntersightHclOperatingSystemVendor {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2926,7 +2926,7 @@ export interface DataIntersightHclOperatingSystemVendor {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -3126,7 +3126,7 @@ export class DataIntersightHclOperatingSystemVendorOutputReference extends cdktf
 }
 export interface DataIntersightHclOperatingSystemVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3134,19 +3134,19 @@ export interface DataIntersightHclOperatingSystemVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3159,7 +3159,7 @@ export interface DataIntersightHclOperatingSystemVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -3391,7 +3391,7 @@ export class DataIntersightHclOperatingSystemVersionContextInterestedMosList ext
 }
 export interface DataIntersightHclOperatingSystemVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3399,19 +3399,19 @@ export interface DataIntersightHclOperatingSystemVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#moid DataIntersightHclOperatingSystem#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3424,7 +3424,7 @@ export interface DataIntersightHclOperatingSystemVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#selector DataIntersightHclOperatingSystem#selector}
   */
   readonly selector?: string;
 }
@@ -3624,7 +3624,7 @@ export class DataIntersightHclOperatingSystemVersionContextRefMoOutputReference 
 }
 export interface DataIntersightHclOperatingSystemVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#additional_properties DataIntersightHclOperatingSystem#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3632,32 +3632,32 @@ export interface DataIntersightHclOperatingSystemVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#class_id DataIntersightHclOperatingSystem#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#marked_for_deletion DataIntersightHclOperatingSystem#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#marked_for_deletion DataIntersightHclOperatingSystem#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#nr_version DataIntersightHclOperatingSystem#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#nr_version DataIntersightHclOperatingSystem#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#object_type DataIntersightHclOperatingSystem#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#timestamp DataIntersightHclOperatingSystem#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#timestamp DataIntersightHclOperatingSystem#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3668,19 +3668,19 @@ export interface DataIntersightHclOperatingSystemVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#version_type DataIntersightHclOperatingSystem#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#version_type DataIntersightHclOperatingSystem#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#interested_mos DataIntersightHclOperatingSystem#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#interested_mos DataIntersightHclOperatingSystem#interested_mos}
   */
   readonly interestedMos?: DataIntersightHclOperatingSystemVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#ref_mo DataIntersightHclOperatingSystem#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#ref_mo DataIntersightHclOperatingSystem#ref_mo}
   */
   readonly refMo?: DataIntersightHclOperatingSystemVersionContextRefMo;
 }
@@ -3996,7 +3996,7 @@ export class DataIntersightHclOperatingSystemVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system intersight_hcl_operating_system}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system intersight_hcl_operating_system}
 */
 export class DataIntersightHclOperatingSystem extends cdktf.TerraformDataSource {
 
@@ -4012,7 +4012,7 @@ export class DataIntersightHclOperatingSystem extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightHclOperatingSystem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHclOperatingSystem to import
-  * @param importFromId The id of the existing DataIntersightHclOperatingSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHclOperatingSystem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHclOperatingSystem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4024,7 +4024,7 @@ export class DataIntersightHclOperatingSystem extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_operating_system intersight_hcl_operating_system} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_operating_system intersight_hcl_operating_system} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4035,8 +4035,8 @@ export class DataIntersightHclOperatingSystem extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_hcl_operating_system',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

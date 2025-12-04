@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CapabilityEquipmentPhysicalDefConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#account_moid CapabilityEquipmentPhysicalDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#account_moid CapabilityEquipmentPhysicalDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#ancestors CapabilityEquipmentPhysicalDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#ancestors CapabilityEquipmentPhysicalDef#ancestors}
   */
   readonly ancestors?: CapabilityEquipmentPhysicalDefAncestors[] | cdktf.IResolvable;
   /**
@@ -28,35 +28,35 @@ export interface CapabilityEquipmentPhysicalDefConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#create_time CapabilityEquipmentPhysicalDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#create_time CapabilityEquipmentPhysicalDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Depth information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#depth CapabilityEquipmentPhysicalDef#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#depth CapabilityEquipmentPhysicalDef#depth}
   */
   readonly depth?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#domain_group_moid CapabilityEquipmentPhysicalDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#domain_group_moid CapabilityEquipmentPhysicalDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Height information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#height CapabilityEquipmentPhysicalDef#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#height CapabilityEquipmentPhysicalDef#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#id CapabilityEquipmentPhysicalDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#id CapabilityEquipmentPhysicalDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,61 +65,61 @@ export interface CapabilityEquipmentPhysicalDefConfig extends cdktf.TerraformMet
   /**
   * Max Power information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#max_power CapabilityEquipmentPhysicalDef#max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#max_power CapabilityEquipmentPhysicalDef#max_power}
   */
   readonly maxPower?: number;
   /**
   * Min Power information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#min_power CapabilityEquipmentPhysicalDef#min_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#min_power CapabilityEquipmentPhysicalDef#min_power}
   */
   readonly minPower?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#mod_time CapabilityEquipmentPhysicalDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#mod_time CapabilityEquipmentPhysicalDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#name CapabilityEquipmentPhysicalDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#name CapabilityEquipmentPhysicalDef#name}
   */
   readonly name?: string;
   /**
   * Nominal Power information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#nominal_power CapabilityEquipmentPhysicalDef#nominal_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#nominal_power CapabilityEquipmentPhysicalDef#nominal_power}
   */
   readonly nominalPower?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#owners CapabilityEquipmentPhysicalDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#owners CapabilityEquipmentPhysicalDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#parent CapabilityEquipmentPhysicalDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#parent CapabilityEquipmentPhysicalDef#parent}
   */
   readonly parent?: CapabilityEquipmentPhysicalDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#permission_resources CapabilityEquipmentPhysicalDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#permission_resources CapabilityEquipmentPhysicalDef#permission_resources}
   */
   readonly permissionResources?: CapabilityEquipmentPhysicalDefPermissionResources[] | cdktf.IResolvable;
   /**
@@ -129,75 +129,75 @@ export interface CapabilityEquipmentPhysicalDefConfig extends cdktf.TerraformMet
   * * `UCS-FI-6536` - The standard 5th generation UCS Fabric Interconnect with 36 ports.
   * * `UCSX-S9108-100G` - Cisco UCS Fabric Interconnect 9108 100G with 8 ports.
   * * `UCS-FI-6664` - The standard 6th generation UCS Fabric Interconnect with 64 ports.
-  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect.
+  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect with 52 ports.
   * * `UCSXE-ECMC-10G` - Cisco UCS XE ECMC 10G with 2 ports.
   * * `UCSXE-ECMC-G1` - Cisco UCS XE ECMC G1 with 2 ports.
   * * `unknown` - Unknown device type, usage is TBD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#pid CapabilityEquipmentPhysicalDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#pid CapabilityEquipmentPhysicalDef#pid}
   */
   readonly pid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#shared_scope CapabilityEquipmentPhysicalDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#shared_scope CapabilityEquipmentPhysicalDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#sku CapabilityEquipmentPhysicalDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#sku CapabilityEquipmentPhysicalDef#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#tags CapabilityEquipmentPhysicalDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#tags CapabilityEquipmentPhysicalDef#tags}
   */
   readonly tags?: CapabilityEquipmentPhysicalDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#version_context CapabilityEquipmentPhysicalDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#version_context CapabilityEquipmentPhysicalDef#version_context}
   */
   readonly versionContext?: CapabilityEquipmentPhysicalDefVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#vid CapabilityEquipmentPhysicalDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#vid CapabilityEquipmentPhysicalDef#vid}
   */
   readonly vid?: string;
   /**
   * Weight information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#weight CapabilityEquipmentPhysicalDef#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#weight CapabilityEquipmentPhysicalDef#weight}
   */
   readonly weight?: number;
   /**
   * Width information for a Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#width CapabilityEquipmentPhysicalDef#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#width CapabilityEquipmentPhysicalDef#width}
   */
   readonly width?: number;
 }
 export interface CapabilityEquipmentPhysicalDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -429,23 +429,23 @@ export class CapabilityEquipmentPhysicalDefAncestorsList extends cdktf.ComplexLi
 }
 export interface CapabilityEquipmentPhysicalDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -677,23 +677,23 @@ export class CapabilityEquipmentPhysicalDefParentList extends cdktf.ComplexList 
 }
 export interface CapabilityEquipmentPhysicalDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -925,23 +925,23 @@ export class CapabilityEquipmentPhysicalDefPermissionResourcesList extends cdktf
 }
 export interface CapabilityEquipmentPhysicalDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -1173,23 +1173,23 @@ export class CapabilityEquipmentPhysicalDefTagsAncestorDefinitionsList extends c
 }
 export interface CapabilityEquipmentPhysicalDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -1421,35 +1421,35 @@ export class CapabilityEquipmentPhysicalDefTagsDefinitionList extends cdktf.Comp
 }
 export interface CapabilityEquipmentPhysicalDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#ancestor_definitions CapabilityEquipmentPhysicalDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#ancestor_definitions CapabilityEquipmentPhysicalDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityEquipmentPhysicalDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#definition CapabilityEquipmentPhysicalDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#definition CapabilityEquipmentPhysicalDef#definition}
   */
   readonly definition?: CapabilityEquipmentPhysicalDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#key CapabilityEquipmentPhysicalDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#key CapabilityEquipmentPhysicalDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#propagated CapabilityEquipmentPhysicalDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#propagated CapabilityEquipmentPhysicalDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#sys_tag CapabilityEquipmentPhysicalDef#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#sys_tag CapabilityEquipmentPhysicalDef#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#type CapabilityEquipmentPhysicalDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#type CapabilityEquipmentPhysicalDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#value CapabilityEquipmentPhysicalDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#value CapabilityEquipmentPhysicalDef#value}
   */
   readonly value?: string;
 }
@@ -1768,23 +1768,23 @@ export class CapabilityEquipmentPhysicalDefTagsList extends cdktf.ComplexList {
 }
 export interface CapabilityEquipmentPhysicalDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -2016,23 +2016,23 @@ export class CapabilityEquipmentPhysicalDefVersionContextInterestedMosList exten
 }
 export interface CapabilityEquipmentPhysicalDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#moid CapabilityEquipmentPhysicalDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#selector CapabilityEquipmentPhysicalDef#selector}
   */
   readonly selector?: string;
 }
@@ -2264,39 +2264,39 @@ export class CapabilityEquipmentPhysicalDefVersionContextRefMoList extends cdktf
 }
 export interface CapabilityEquipmentPhysicalDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#additional_properties CapabilityEquipmentPhysicalDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#class_id CapabilityEquipmentPhysicalDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#interested_mos CapabilityEquipmentPhysicalDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#interested_mos CapabilityEquipmentPhysicalDef#interested_mos}
   */
   readonly interestedMos?: CapabilityEquipmentPhysicalDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#marked_for_deletion CapabilityEquipmentPhysicalDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#marked_for_deletion CapabilityEquipmentPhysicalDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#nr_version CapabilityEquipmentPhysicalDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#nr_version CapabilityEquipmentPhysicalDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#object_type CapabilityEquipmentPhysicalDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#ref_mo CapabilityEquipmentPhysicalDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#ref_mo CapabilityEquipmentPhysicalDef#ref_mo}
   */
   readonly refMo?: CapabilityEquipmentPhysicalDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#timestamp CapabilityEquipmentPhysicalDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#timestamp CapabilityEquipmentPhysicalDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#version_type CapabilityEquipmentPhysicalDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#version_type CapabilityEquipmentPhysicalDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2644,7 +2644,7 @@ export class CapabilityEquipmentPhysicalDefVersionContextList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def intersight_capability_equipment_physical_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def intersight_capability_equipment_physical_def}
 */
 export class CapabilityEquipmentPhysicalDef extends cdktf.TerraformResource {
 
@@ -2660,7 +2660,7 @@ export class CapabilityEquipmentPhysicalDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityEquipmentPhysicalDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityEquipmentPhysicalDef to import
-  * @param importFromId The id of the existing CapabilityEquipmentPhysicalDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityEquipmentPhysicalDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityEquipmentPhysicalDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2672,7 +2672,7 @@ export class CapabilityEquipmentPhysicalDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_equipment_physical_def intersight_capability_equipment_physical_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_equipment_physical_def intersight_capability_equipment_physical_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2683,8 +2683,8 @@ export class CapabilityEquipmentPhysicalDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_equipment_physical_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

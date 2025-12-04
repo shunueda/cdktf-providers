@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#account_moid DataIntersightPowerControlState#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#account_moid DataIntersightPowerControlState#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * This field identifies the allocated power on the chassis in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#allocated_power DataIntersightPowerControlState#allocated_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#allocated_power DataIntersightPowerControlState#allocated_power}
   */
   readonly allocatedPower?: number;
   /**
@@ -28,19 +28,19 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#create_time DataIntersightPowerControlState#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#create_time DataIntersightPowerControlState#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#domain_group_moid DataIntersightPowerControlState#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#domain_group_moid DataIntersightPowerControlState#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -49,17 +49,17 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   * * `Disabled` - Set the value to Disabled.
   * * `Not Applicable` - Set the value to Not Applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#extended_power_capacity DataIntersightPowerControlState#extended_power_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#extended_power_capacity DataIntersightPowerControlState#extended_power_capacity}
   */
   readonly extendedPowerCapacity?: string;
   /**
   * This field identifies the available power when PSUs are in grid mode in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#grid_max_power DataIntersightPowerControlState#grid_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#grid_max_power DataIntersightPowerControlState#grid_max_power}
   */
   readonly gridMaxPower?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#id DataIntersightPowerControlState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#id DataIntersightPowerControlState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,54 +68,54 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   /**
   * This field identifies the maximum power required by the endpoint in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#max_required_power DataIntersightPowerControlState#max_required_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#max_required_power DataIntersightPowerControlState#max_required_power}
   */
   readonly maxRequiredPower?: number;
   /**
   * This field identifies the minimum power required by the endpoint in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#min_required_power DataIntersightPowerControlState#min_required_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#min_required_power DataIntersightPowerControlState#min_required_power}
   */
   readonly minRequiredPower?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#mod_time DataIntersightPowerControlState#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#mod_time DataIntersightPowerControlState#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * This field identifies the available power when PSUs are in N+1 mode in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#n1_max_power DataIntersightPowerControlState#n1_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#n1_max_power DataIntersightPowerControlState#n1_max_power}
   */
   readonly n1MaxPower?: number;
   /**
   * This field identifies the available power when PSUs are in N+2 mode in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#n2_max_power DataIntersightPowerControlState#n2_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#n2_max_power DataIntersightPowerControlState#n2_max_power}
   */
   readonly n2MaxPower?: number;
   /**
   * This field identifies the available power when PSUs are in non-redundant mode in Watts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#non_redundant_max_power DataIntersightPowerControlState#non_redundant_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#non_redundant_max_power DataIntersightPowerControlState#non_redundant_max_power}
   */
   readonly nonRedundantMaxPower?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#owners DataIntersightPowerControlState#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#owners DataIntersightPowerControlState#owners}
   */
   readonly owners?: string[];
   /**
@@ -123,7 +123,7 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   * * `Enabled` - Set the value to Enabled.
   * * `Disabled` - Set the value to Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#power_rebalancing DataIntersightPowerControlState#power_rebalancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#power_rebalancing DataIntersightPowerControlState#power_rebalancing}
   */
   readonly powerRebalancing?: string;
   /**
@@ -131,56 +131,56 @@ export interface DataIntersightPowerControlStateConfig extends cdktf.TerraformMe
   * * `Enabled` - Set the value to Enabled.
   * * `Disabled` - Set the value to Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#power_save_mode DataIntersightPowerControlState#power_save_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#power_save_mode DataIntersightPowerControlState#power_save_mode}
   */
   readonly powerSaveMode?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#shared_scope DataIntersightPowerControlState#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#shared_scope DataIntersightPowerControlState#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#ancestors DataIntersightPowerControlState#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#ancestors DataIntersightPowerControlState#ancestors}
   */
   readonly ancestors?: DataIntersightPowerControlStateAncestors[] | cdktf.IResolvable;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#equipment_chassis DataIntersightPowerControlState#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#equipment_chassis DataIntersightPowerControlState#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightPowerControlStateEquipmentChassis;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#parent DataIntersightPowerControlState#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#parent DataIntersightPowerControlState#parent}
   */
   readonly parent?: DataIntersightPowerControlStateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#permission_resources DataIntersightPowerControlState#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#permission_resources DataIntersightPowerControlState#permission_resources}
   */
   readonly permissionResources?: DataIntersightPowerControlStatePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#registered_device DataIntersightPowerControlState#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#registered_device DataIntersightPowerControlState#registered_device}
   */
   readonly registeredDevice?: DataIntersightPowerControlStateRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#tags DataIntersightPowerControlState#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#tags DataIntersightPowerControlState#tags}
   */
   readonly tags?: DataIntersightPowerControlStateTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#version_context DataIntersightPowerControlState#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#version_context DataIntersightPowerControlState#version_context}
   */
   readonly versionContext?: DataIntersightPowerControlStateVersionContext;
 }
@@ -1482,7 +1482,7 @@ export class DataIntersightPowerControlStateResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightPowerControlStateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1490,19 +1490,19 @@ export interface DataIntersightPowerControlStateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1515,7 +1515,7 @@ export interface DataIntersightPowerControlStateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -1747,7 +1747,7 @@ export class DataIntersightPowerControlStateAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightPowerControlStateEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1755,19 +1755,19 @@ export interface DataIntersightPowerControlStateEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1780,7 +1780,7 @@ export interface DataIntersightPowerControlStateEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -1980,7 +1980,7 @@ export class DataIntersightPowerControlStateEquipmentChassisOutputReference exte
 }
 export interface DataIntersightPowerControlStateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1988,19 +1988,19 @@ export interface DataIntersightPowerControlStateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2013,7 +2013,7 @@ export interface DataIntersightPowerControlStateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -2213,7 +2213,7 @@ export class DataIntersightPowerControlStateParentOutputReference extends cdktf.
 }
 export interface DataIntersightPowerControlStatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2221,19 +2221,19 @@ export interface DataIntersightPowerControlStatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2246,7 +2246,7 @@ export interface DataIntersightPowerControlStatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -2478,7 +2478,7 @@ export class DataIntersightPowerControlStatePermissionResourcesList extends cdkt
 }
 export interface DataIntersightPowerControlStateRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2486,19 +2486,19 @@ export interface DataIntersightPowerControlStateRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2511,7 +2511,7 @@ export interface DataIntersightPowerControlStateRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -2711,7 +2711,7 @@ export class DataIntersightPowerControlStateRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightPowerControlStateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2719,19 +2719,19 @@ export interface DataIntersightPowerControlStateTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2744,7 +2744,7 @@ export interface DataIntersightPowerControlStateTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -2976,7 +2976,7 @@ export class DataIntersightPowerControlStateTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightPowerControlStateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2984,19 +2984,19 @@ export interface DataIntersightPowerControlStateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3009,7 +3009,7 @@ export interface DataIntersightPowerControlStateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -3209,25 +3209,25 @@ export class DataIntersightPowerControlStateTagsDefinitionOutputReference extend
 }
 export interface DataIntersightPowerControlStateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#key DataIntersightPowerControlState#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#key DataIntersightPowerControlState#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#propagated DataIntersightPowerControlState#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#propagated DataIntersightPowerControlState#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#sys_tag DataIntersightPowerControlState#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#sys_tag DataIntersightPowerControlState#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3235,25 +3235,25 @@ export interface DataIntersightPowerControlStateTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#type DataIntersightPowerControlState#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#type DataIntersightPowerControlState#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#value DataIntersightPowerControlState#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#value DataIntersightPowerControlState#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#ancestor_definitions DataIntersightPowerControlState#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#ancestor_definitions DataIntersightPowerControlState#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPowerControlStateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#definition DataIntersightPowerControlState#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#definition DataIntersightPowerControlState#definition}
   */
   readonly definition?: DataIntersightPowerControlStateTagsDefinition;
 }
@@ -3572,7 +3572,7 @@ export class DataIntersightPowerControlStateTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPowerControlStateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3580,19 +3580,19 @@ export interface DataIntersightPowerControlStateVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3605,7 +3605,7 @@ export interface DataIntersightPowerControlStateVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -3837,7 +3837,7 @@ export class DataIntersightPowerControlStateVersionContextInterestedMosList exte
 }
 export interface DataIntersightPowerControlStateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3845,19 +3845,19 @@ export interface DataIntersightPowerControlStateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#moid DataIntersightPowerControlState#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3870,7 +3870,7 @@ export interface DataIntersightPowerControlStateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#selector DataIntersightPowerControlState#selector}
   */
   readonly selector?: string;
 }
@@ -4070,7 +4070,7 @@ export class DataIntersightPowerControlStateVersionContextRefMoOutputReference e
 }
 export interface DataIntersightPowerControlStateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#additional_properties DataIntersightPowerControlState#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4078,32 +4078,32 @@ export interface DataIntersightPowerControlStateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#class_id DataIntersightPowerControlState#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#marked_for_deletion DataIntersightPowerControlState#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#marked_for_deletion DataIntersightPowerControlState#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#nr_version DataIntersightPowerControlState#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#nr_version DataIntersightPowerControlState#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#object_type DataIntersightPowerControlState#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#timestamp DataIntersightPowerControlState#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#timestamp DataIntersightPowerControlState#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4114,19 +4114,19 @@ export interface DataIntersightPowerControlStateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#version_type DataIntersightPowerControlState#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#version_type DataIntersightPowerControlState#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#interested_mos DataIntersightPowerControlState#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#interested_mos DataIntersightPowerControlState#interested_mos}
   */
   readonly interestedMos?: DataIntersightPowerControlStateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#ref_mo DataIntersightPowerControlState#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#ref_mo DataIntersightPowerControlState#ref_mo}
   */
   readonly refMo?: DataIntersightPowerControlStateVersionContextRefMo;
 }
@@ -4442,7 +4442,7 @@ export class DataIntersightPowerControlStateVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state intersight_power_control_state}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state intersight_power_control_state}
 */
 export class DataIntersightPowerControlState extends cdktf.TerraformDataSource {
 
@@ -4458,7 +4458,7 @@ export class DataIntersightPowerControlState extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightPowerControlState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPowerControlState to import
-  * @param importFromId The id of the existing DataIntersightPowerControlState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPowerControlState that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPowerControlState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4470,7 +4470,7 @@ export class DataIntersightPowerControlState extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/power_control_state intersight_power_control_state} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/power_control_state intersight_power_control_state} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4481,8 +4481,8 @@ export class DataIntersightPowerControlState extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_power_control_state',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

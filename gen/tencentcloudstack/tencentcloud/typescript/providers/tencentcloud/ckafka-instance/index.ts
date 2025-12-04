@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CkafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance bandwidth in MBps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#band_width CkafkaInstance#band_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#band_width CkafkaInstance#band_width}
   */
   readonly bandWidth?: number;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. Default value is `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#charge_type CkafkaInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#charge_type CkafkaInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Disk Size. Its interval varies with bandwidth, and the input must be within the interval, which can be viewed through the control. If it is not within the interval, the plan will cause a change when first created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#disk_size CkafkaInstance#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#disk_size CkafkaInstance#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Type of disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#disk_type CkafkaInstance#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#disk_type CkafkaInstance#disk_type}
   */
   readonly diskType?: string;
   /**
   * Elastic bandwidth switch 0 not turned on 1 turned on (0 default). This takes effect only when the instance is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#elastic_bandwidth_switch CkafkaInstance#elastic_bandwidth_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#elastic_bandwidth_switch CkafkaInstance#elastic_bandwidth_switch}
   */
   readonly elasticBandwidthSwitch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#id CkafkaInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#id CkafkaInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface CkafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#instance_name CkafkaInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#instance_name CkafkaInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Description of instance type. `profession`: 1, `standard`:  1(general), 2(standard), 3(advanced), 4(capacity), 5(specialized-1), 6(specialized-2), 7(specialized-3), 8(specialized-4), 9(exclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#instance_type CkafkaInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#instance_type CkafkaInstance#instance_type}
   */
   readonly instanceType?: number;
   /**
   * Kafka version (0.10.2/1.1.1/2.4.1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#kafka_version CkafkaInstance#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#kafka_version CkafkaInstance#kafka_version}
   */
   readonly kafkaVersion?: string;
   /**
   * The size of a single message in bytes at the instance level. Value range: `1024 - 12*1024*1024 bytes (i.e., 1KB-12MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#max_message_byte CkafkaInstance#max_message_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#max_message_byte CkafkaInstance#max_message_byte}
   */
   readonly maxMessageByte?: number;
   /**
   * The maximum retention time of instance logs, in minutes. the default is 10080 (7 days), the maximum is 30 days, and the default 0 is not filled, which means that the log retention time recovery policy is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#msg_retention_time CkafkaInstance#msg_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#msg_retention_time CkafkaInstance#msg_retention_time}
   */
   readonly msgRetentionTime?: number;
   /**
   * Indicates whether the instance is multi zones. NOTE: if set to `true`, `zone_ids` must set together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#multi_zone_flag CkafkaInstance#multi_zone_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#multi_zone_flag CkafkaInstance#multi_zone_flag}
   */
   readonly multiZoneFlag?: boolean | cdktf.IResolvable;
   /**
   * Partition Size. Its interval varies with bandwidth, and the input must be within the interval, which can be viewed through the control. If it is not within the interval, the plan will cause a change when first created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#partition CkafkaInstance#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#partition CkafkaInstance#partition}
   */
   readonly partition?: number;
   /**
   * Prepaid purchase time, such as 1, is one month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#period CkafkaInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#period CkafkaInstance#period}
   */
   readonly period?: number;
   /**
   * Bandwidth of the public network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#public_network CkafkaInstance#public_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#public_network CkafkaInstance#public_network}
   */
   readonly publicNetwork?: number;
   /**
   * Modification of the rebalancing time after upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#rebalance_time CkafkaInstance#rebalance_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#rebalance_time CkafkaInstance#rebalance_time}
   */
   readonly rebalanceTime?: number;
   /**
   * Prepaid automatic renewal mark, 0 means the default state, the initial state, 1 means automatic renewal, 2 means clear no automatic renewal (user setting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#renew_flag CkafkaInstance#renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#renew_flag CkafkaInstance#renew_flag}
   */
   readonly renewFlag?: number;
   /**
   * Specifications type of instance. Allowed values are `profession`, `premium`. Default is `profession`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#specifications_type CkafkaInstance#specifications_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#specifications_type CkafkaInstance#specifications_type}
   */
   readonly specificationsType?: string;
   /**
   * Subnet id, it will be basic network if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#subnet_id CkafkaInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#subnet_id CkafkaInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Tag set of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#tag_set CkafkaInstance#tag_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#tag_set CkafkaInstance#tag_set}
   */
   readonly tagSet?: { [key: string]: string };
   /**
@@ -133,43 +133,43 @@ export interface CkafkaInstanceConfig extends cdktf.TerraformMetaArguments {
   * - 1: stable transformation;
   * - 2: High-speed transformer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#upgrade_strategy CkafkaInstance#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#upgrade_strategy CkafkaInstance#upgrade_strategy}
   */
   readonly upgradeStrategy?: number;
   /**
   * Vpc id, it will be basic network if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#vpc_id CkafkaInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#vpc_id CkafkaInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * Available zone id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#zone_id CkafkaInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#zone_id CkafkaInstance#zone_id}
   */
   readonly zoneId: number;
   /**
   * List of available zone id. NOTE: this argument must set together with `multi_zone_flag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#zone_ids CkafkaInstance#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#zone_ids CkafkaInstance#zone_ids}
   */
   readonly zoneIds?: number[];
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#config CkafkaInstance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#config CkafkaInstance#config}
   */
   readonly config?: CkafkaInstanceConfigA;
   /**
   * dynamic_retention_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#dynamic_retention_config CkafkaInstance#dynamic_retention_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#dynamic_retention_config CkafkaInstance#dynamic_retention_config}
   */
   readonly dynamicRetentionConfig?: CkafkaInstanceDynamicRetentionConfig;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#tags CkafkaInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#tags CkafkaInstance#tags}
   */
   readonly tags?: CkafkaInstanceTags[] | cdktf.IResolvable;
 }
@@ -177,19 +177,19 @@ export interface CkafkaInstanceConfigA {
   /**
   * Automatic creation. true: enabled, false: not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#auto_create_topic_enable CkafkaInstance#auto_create_topic_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#auto_create_topic_enable CkafkaInstance#auto_create_topic_enable}
   */
   readonly autoCreateTopicEnable: boolean | cdktf.IResolvable;
   /**
   * If auto.create.topic.enable is set to true and this value is not set, 3 will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#default_num_partitions CkafkaInstance#default_num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#default_num_partitions CkafkaInstance#default_num_partitions}
   */
   readonly defaultNumPartitions: number;
   /**
   * If auto.create.topic.enable is set to true but this value is not set, 2 will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#default_replication_factor CkafkaInstance#default_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#default_replication_factor CkafkaInstance#default_replication_factor}
   */
   readonly defaultReplicationFactor: number;
 }
@@ -324,25 +324,25 @@ export interface CkafkaInstanceDynamicRetentionConfig {
   /**
   * Minimum retention time, in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#bottom_retention CkafkaInstance#bottom_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#bottom_retention CkafkaInstance#bottom_retention}
   */
   readonly bottomRetention?: number;
   /**
   * Disk quota threshold (in percentage) for triggering the message retention time change event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#disk_quota_percentage CkafkaInstance#disk_quota_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#disk_quota_percentage CkafkaInstance#disk_quota_percentage}
   */
   readonly diskQuotaPercentage?: number;
   /**
   * Whether the dynamic message retention time configuration is enabled. 0: disabled; 1: enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#enable CkafkaInstance#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#enable CkafkaInstance#enable}
   */
   readonly enable?: number;
   /**
   * Percentage by which the message retention time is shortened each time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#step_forward_percentage CkafkaInstance#step_forward_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#step_forward_percentage CkafkaInstance#step_forward_percentage}
   */
   readonly stepForwardPercentage?: number;
 }
@@ -515,13 +515,13 @@ export interface CkafkaInstanceTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#key CkafkaInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#key CkafkaInstance#key}
   */
   readonly key: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#value CkafkaInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#value CkafkaInstance#value}
   */
   readonly value: string;
 }
@@ -660,7 +660,7 @@ export class CkafkaInstanceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance tencentcloud_ckafka_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance tencentcloud_ckafka_instance}
 */
 export class CkafkaInstance extends cdktf.TerraformResource {
 
@@ -676,7 +676,7 @@ export class CkafkaInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CkafkaInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CkafkaInstance to import
-  * @param importFromId The id of the existing CkafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CkafkaInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CkafkaInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -688,7 +688,7 @@ export class CkafkaInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ckafka_instance tencentcloud_ckafka_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ckafka_instance tencentcloud_ckafka_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -699,8 +699,8 @@ export class CkafkaInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ckafka_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

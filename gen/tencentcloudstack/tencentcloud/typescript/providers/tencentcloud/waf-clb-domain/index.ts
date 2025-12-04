@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface WafClbDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Load balancer type: clb, apisix or tsegw, default clb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#alb_type WafClbDomain#alb_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#alb_type WafClbDomain#alb_type}
   */
   readonly albType?: string;
   /**
   * Whether to enable api safe, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#api_safe_status WafClbDomain#api_safe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#api_safe_status WafClbDomain#api_safe_status}
   */
   readonly apiSafeStatus?: number;
   /**
   * Whether to enable bot, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#bot_status WafClbDomain#bot_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#bot_status WafClbDomain#bot_status}
   */
   readonly botStatus?: number;
   /**
   * Whether to enable access logs, 1 enable, 0 disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#cls_status WafClbDomain#cls_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#cls_status WafClbDomain#cls_status}
   */
   readonly clsStatus?: number;
   /**
   * Domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#domain WafClbDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#domain WafClbDomain#domain}
   */
   readonly domain: string;
   /**
   * Protection Status: 10: Rule Observation&&AI Off Mode, 11: Rule Observation&&AI Observation Mode, 12: Rule Observation&&AI Interception Mode, 20: Rule Interception&&AI Off Mode, 21: Rule Interception&&AI Observation Mode, 22: Rule Interception&&AI Interception Mode, Default 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#engine WafClbDomain#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#engine WafClbDomain#engine}
   */
   readonly engine?: number;
   /**
   * WAF traffic mode, 1 cleaning mode, 0 mirroring mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#flow_mode WafClbDomain#flow_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#flow_mode WafClbDomain#flow_mode}
   */
   readonly flowMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#id WafClbDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#id WafClbDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,37 +59,37 @@ export interface WafClbDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#instance_id WafClbDomain#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#instance_id WafClbDomain#instance_id}
   */
   readonly instanceId: string;
   /**
   * When is_cdn=3, this parameter needs to be filled in to indicate a custom header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#ip_headers WafClbDomain#ip_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#ip_headers WafClbDomain#ip_headers}
   */
   readonly ipHeaders?: string[];
   /**
   * Whether a proxy has been enabled before WAF, 0 no deployment, 1 deployment and use first IP in X-Forwarded-For as client IP, 2 deployment and use remote_addr as client IP, 3 deployment and use values of custom headers as client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#is_cdn WafClbDomain#is_cdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#is_cdn WafClbDomain#is_cdn}
   */
   readonly isCdn?: number;
   /**
   * Regions of LB bound by domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#region WafClbDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#region WafClbDomain#region}
   */
   readonly region: string;
   /**
   * Binding status between waf and LB, 0:not bind, 1:binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#status WafClbDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#status WafClbDomain#status}
   */
   readonly status?: number;
   /**
   * load_balancer_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#load_balancer_set WafClbDomain#load_balancer_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#load_balancer_set WafClbDomain#load_balancer_set}
   */
   readonly loadBalancerSet?: WafClbDomainLoadBalancerSet[] | cdktf.IResolvable;
 }
@@ -97,67 +97,67 @@ export interface WafClbDomainLoadBalancerSet {
   /**
   * Unique ID of listener in LB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#listener_id WafClbDomain#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#listener_id WafClbDomain#listener_id}
   */
   readonly listenerId: string;
   /**
   * Listener name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#listener_name WafClbDomain#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#listener_name WafClbDomain#listener_name}
   */
   readonly listenerName: string;
   /**
   * LoadBalancer unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#load_balancer_id WafClbDomain#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#load_balancer_id WafClbDomain#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * LoadBalancer name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#load_balancer_name WafClbDomain#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#load_balancer_name WafClbDomain#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
   * Network type for load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#load_balancer_type WafClbDomain#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#load_balancer_type WafClbDomain#load_balancer_type}
   */
   readonly loadBalancerType?: string;
   /**
   * VPCID for load balancer, public network is -1, and internal network is filled in according to actual conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#numerical_vpc_id WafClbDomain#numerical_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#numerical_vpc_id WafClbDomain#numerical_vpc_id}
   */
   readonly numericalVpcId?: number;
   /**
   * Protocol of listener, http or https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#protocol WafClbDomain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#protocol WafClbDomain#protocol}
   */
   readonly protocol: string;
   /**
   * LoadBalancer region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#region WafClbDomain#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#region WafClbDomain#region}
   */
   readonly region: string;
   /**
   * LoadBalancer IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#vip WafClbDomain#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#vip WafClbDomain#vip}
   */
   readonly vip: string;
   /**
   * LoadBalancer port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#vport WafClbDomain#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#vport WafClbDomain#vport}
   */
   readonly vport: number;
   /**
   * LoadBalancer zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#zone WafClbDomain#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#zone WafClbDomain#zone}
   */
   readonly zone: string;
 }
@@ -536,7 +536,7 @@ export class WafClbDomainLoadBalancerSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain tencentcloud_waf_clb_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain tencentcloud_waf_clb_domain}
 */
 export class WafClbDomain extends cdktf.TerraformResource {
 
@@ -552,7 +552,7 @@ export class WafClbDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafClbDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafClbDomain to import
-  * @param importFromId The id of the existing WafClbDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafClbDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafClbDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class WafClbDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/waf_clb_domain tencentcloud_waf_clb_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/waf_clb_domain tencentcloud_waf_clb_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class WafClbDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_clb_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

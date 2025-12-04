@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexStartReduceReSyncConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#account_moid HyperflexStartReduceReSync#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#account_moid HyperflexStartReduceReSync#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#ancestors HyperflexStartReduceReSync#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#ancestors HyperflexStartReduceReSync#ancestors}
   */
   readonly ancestors?: HyperflexStartReduceReSyncAncestors[] | cdktf.IResolvable;
   /**
@@ -28,27 +28,27 @@ export interface HyperflexStartReduceReSyncConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#cluster_mo_ids HyperflexStartReduceReSync#cluster_mo_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#cluster_mo_ids HyperflexStartReduceReSync#cluster_mo_ids}
   */
   readonly clusterMoIds?: string[];
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#create_time HyperflexStartReduceReSync#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#create_time HyperflexStartReduceReSync#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#domain_group_moid HyperflexStartReduceReSync#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#domain_group_moid HyperflexStartReduceReSync#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#id HyperflexStartReduceReSync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#id HyperflexStartReduceReSync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,20 +57,20 @@ export interface HyperflexStartReduceReSyncConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#mod_time HyperflexStartReduceReSync#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#mod_time HyperflexStartReduceReSync#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
@@ -78,67 +78,67 @@ export interface HyperflexStartReduceReSyncConfig extends cdktf.TerraformMetaArg
   * * `NoOp` - Does not perform any operation when the API is called.
   * * `StartReduceResync` - Start the execution of reduce re-sync and stale mirror cleanup for the HyperFlex clusters associated with the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#operation HyperflexStartReduceReSync#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#operation HyperflexStartReduceReSync#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#owners HyperflexStartReduceReSync#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#owners HyperflexStartReduceReSync#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#parent HyperflexStartReduceReSync#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#parent HyperflexStartReduceReSync#parent}
   */
   readonly parent?: HyperflexStartReduceReSyncParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#permission_resources HyperflexStartReduceReSync#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#permission_resources HyperflexStartReduceReSync#permission_resources}
   */
   readonly permissionResources?: HyperflexStartReduceReSyncPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#shared_scope HyperflexStartReduceReSync#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#shared_scope HyperflexStartReduceReSync#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#tags HyperflexStartReduceReSync#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#tags HyperflexStartReduceReSync#tags}
   */
   readonly tags?: HyperflexStartReduceReSyncTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#target_details HyperflexStartReduceReSync#target_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#target_details HyperflexStartReduceReSync#target_details}
   */
   readonly targetDetails?: HyperflexStartReduceReSyncTargetDetails[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#version_context HyperflexStartReduceReSync#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#version_context HyperflexStartReduceReSync#version_context}
   */
   readonly versionContext?: HyperflexStartReduceReSyncVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexStartReduceReSyncAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -370,23 +370,23 @@ export class HyperflexStartReduceReSyncAncestorsList extends cdktf.ComplexList {
 }
 export interface HyperflexStartReduceReSyncParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -618,23 +618,23 @@ export class HyperflexStartReduceReSyncParentList extends cdktf.ComplexList {
 }
 export interface HyperflexStartReduceReSyncPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -866,23 +866,23 @@ export class HyperflexStartReduceReSyncPermissionResourcesList extends cdktf.Com
 }
 export interface HyperflexStartReduceReSyncTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -1114,23 +1114,23 @@ export class HyperflexStartReduceReSyncTagsAncestorDefinitionsList extends cdktf
 }
 export interface HyperflexStartReduceReSyncTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -1362,35 +1362,35 @@ export class HyperflexStartReduceReSyncTagsDefinitionList extends cdktf.ComplexL
 }
 export interface HyperflexStartReduceReSyncTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#ancestor_definitions HyperflexStartReduceReSync#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#ancestor_definitions HyperflexStartReduceReSync#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexStartReduceReSyncTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#definition HyperflexStartReduceReSync#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#definition HyperflexStartReduceReSync#definition}
   */
   readonly definition?: HyperflexStartReduceReSyncTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#key HyperflexStartReduceReSync#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#key HyperflexStartReduceReSync#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#propagated HyperflexStartReduceReSync#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#propagated HyperflexStartReduceReSync#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#sys_tag HyperflexStartReduceReSync#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#sys_tag HyperflexStartReduceReSync#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#type HyperflexStartReduceReSync#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#type HyperflexStartReduceReSync#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#value HyperflexStartReduceReSync#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#value HyperflexStartReduceReSync#value}
   */
   readonly value?: string;
 }
@@ -1709,23 +1709,23 @@ export class HyperflexStartReduceReSyncTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexStartReduceReSyncTargetDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#account_mo_id HyperflexStartReduceReSync#account_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#account_mo_id HyperflexStartReduceReSync#account_mo_id}
   */
   readonly accountMoId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#cluster_mo_ids HyperflexStartReduceReSync#cluster_mo_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#cluster_mo_ids HyperflexStartReduceReSync#cluster_mo_ids}
   */
   readonly clusterMoIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
 }
@@ -1957,23 +1957,23 @@ export class HyperflexStartReduceReSyncTargetDetailsList extends cdktf.ComplexLi
 }
 export interface HyperflexStartReduceReSyncVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -2205,23 +2205,23 @@ export class HyperflexStartReduceReSyncVersionContextInterestedMosList extends c
 }
 export interface HyperflexStartReduceReSyncVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#moid HyperflexStartReduceReSync#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#selector HyperflexStartReduceReSync#selector}
   */
   readonly selector?: string;
 }
@@ -2453,39 +2453,39 @@ export class HyperflexStartReduceReSyncVersionContextRefMoList extends cdktf.Com
 }
 export interface HyperflexStartReduceReSyncVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#additional_properties HyperflexStartReduceReSync#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#class_id HyperflexStartReduceReSync#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#interested_mos HyperflexStartReduceReSync#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#interested_mos HyperflexStartReduceReSync#interested_mos}
   */
   readonly interestedMos?: HyperflexStartReduceReSyncVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#marked_for_deletion HyperflexStartReduceReSync#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#marked_for_deletion HyperflexStartReduceReSync#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#nr_version HyperflexStartReduceReSync#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#nr_version HyperflexStartReduceReSync#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#object_type HyperflexStartReduceReSync#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#ref_mo HyperflexStartReduceReSync#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#ref_mo HyperflexStartReduceReSync#ref_mo}
   */
   readonly refMo?: HyperflexStartReduceReSyncVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#timestamp HyperflexStartReduceReSync#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#timestamp HyperflexStartReduceReSync#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#version_type HyperflexStartReduceReSync#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#version_type HyperflexStartReduceReSync#version_type}
   */
   readonly versionType?: string;
 }
@@ -2833,7 +2833,7 @@ export class HyperflexStartReduceReSyncVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync intersight_hyperflex_start_reduce_re_sync}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync intersight_hyperflex_start_reduce_re_sync}
 */
 export class HyperflexStartReduceReSync extends cdktf.TerraformResource {
 
@@ -2849,7 +2849,7 @@ export class HyperflexStartReduceReSync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexStartReduceReSync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexStartReduceReSync to import
-  * @param importFromId The id of the existing HyperflexStartReduceReSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexStartReduceReSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexStartReduceReSync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2861,7 +2861,7 @@ export class HyperflexStartReduceReSync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_start_reduce_re_sync intersight_hyperflex_start_reduce_re_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_start_reduce_re_sync intersight_hyperflex_start_reduce_re_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2872,8 +2872,8 @@ export class HyperflexStartReduceReSync extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_start_reduce_re_sync',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

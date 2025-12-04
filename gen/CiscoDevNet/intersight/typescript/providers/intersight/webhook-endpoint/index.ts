@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,36 +11,36 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#account WebhookEndpoint#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#account WebhookEndpoint#account}
   */
   readonly account?: WebhookEndpointAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#account_moid WebhookEndpoint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#account_moid WebhookEndpoint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#ancestors WebhookEndpoint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#ancestors WebhookEndpoint#ancestors}
   */
   readonly ancestors?: WebhookEndpointAncestors[] | cdktf.IResolvable;
   /**
   * Stores the credentials for the specified authentication type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#app_credentials WebhookEndpoint#app_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#app_credentials WebhookEndpoint#app_credentials}
   */
   readonly appCredentials?: WebhookEndpointAppCredentials[] | cdktf.IResolvable;
   /**
   * A reference to a iamAppRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#app_registration WebhookEndpoint#app_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#app_registration WebhookEndpoint#app_registration}
   */
   readonly appRegistration?: WebhookEndpointAppRegistration[] | cdktf.IResolvable;
   /**
@@ -51,7 +51,7 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   * * `auth-code` - The client uses OAuth Authorization Grant Flow without PKCE for authentication.
   * * `client-credentials` - The client uses OAuth Client Credentials Flow for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#auth_type WebhookEndpoint#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#auth_type WebhookEndpoint#auth_type}
   */
   readonly authType?: string;
   /**
@@ -59,13 +59,13 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#create_time WebhookEndpoint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#create_time WebhookEndpoint#create_time}
   */
   readonly createTime?: string;
   /**
@@ -73,17 +73,17 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   * * `none` - No action to be performed.
   * * `regenerateCredentials` - Allows for revocation and regeneration of a token. The old token associated with the client application. will not be usable and a new token will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#credentials_action WebhookEndpoint#credentials_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#credentials_action WebhookEndpoint#credentials_action}
   */
   readonly credentialsAction?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#domain_group_moid WebhookEndpoint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#domain_group_moid WebhookEndpoint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#id WebhookEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#id WebhookEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,101 +92,101 @@ export interface WebhookEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#mod_time WebhookEndpoint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#mod_time WebhookEndpoint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The name of the Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#name WebhookEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#name WebhookEndpoint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#organization WebhookEndpoint#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#organization WebhookEndpoint#organization}
   */
   readonly organization?: WebhookEndpointOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#owners WebhookEndpoint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#owners WebhookEndpoint#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#parent WebhookEndpoint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#parent WebhookEndpoint#parent}
   */
   readonly parent?: WebhookEndpointParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#permission_resources WebhookEndpoint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#permission_resources WebhookEndpoint#permission_resources}
   */
   readonly permissionResources?: WebhookEndpointPermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to webhookSchema resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#schemas WebhookEndpoint#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#schemas WebhookEndpoint#schemas}
   */
   readonly schemas?: WebhookEndpointSchemas[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#shared_scope WebhookEndpoint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#shared_scope WebhookEndpoint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#tags WebhookEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#tags WebhookEndpoint#tags}
   */
   readonly tags?: WebhookEndpointTags[] | cdktf.IResolvable;
   /**
   * The endpoint URL. The CREATE and UPDATE APIs can cause the change to the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
   */
   readonly url?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#version_context WebhookEndpoint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#version_context WebhookEndpoint#version_context}
   */
   readonly versionContext?: WebhookEndpointVersionContext[] | cdktf.IResolvable;
 }
 export interface WebhookEndpointAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -418,23 +418,23 @@ export class WebhookEndpointAccountList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -666,15 +666,15 @@ export class WebhookEndpointAncestorsList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointAppCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
 }
@@ -848,23 +848,23 @@ export class WebhookEndpointAppCredentialsList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointAppRegistration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -1096,23 +1096,23 @@ export class WebhookEndpointAppRegistrationList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -1344,23 +1344,23 @@ export class WebhookEndpointOrganizationList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -1592,23 +1592,23 @@ export class WebhookEndpointParentList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -1840,23 +1840,23 @@ export class WebhookEndpointPermissionResourcesList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointSchemas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2088,23 +2088,23 @@ export class WebhookEndpointSchemasList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2336,23 +2336,23 @@ export class WebhookEndpointTagsAncestorDefinitionsList extends cdktf.ComplexLis
 }
 export interface WebhookEndpointTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2584,35 +2584,35 @@ export class WebhookEndpointTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#ancestor_definitions WebhookEndpoint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#ancestor_definitions WebhookEndpoint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: WebhookEndpointTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#definition WebhookEndpoint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#definition WebhookEndpoint#definition}
   */
   readonly definition?: WebhookEndpointTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#key WebhookEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#key WebhookEndpoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#propagated WebhookEndpoint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#propagated WebhookEndpoint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#sys_tag WebhookEndpoint#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#sys_tag WebhookEndpoint#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#type WebhookEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#type WebhookEndpoint#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#value WebhookEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#value WebhookEndpoint#value}
   */
   readonly value?: string;
 }
@@ -2931,23 +2931,23 @@ export class WebhookEndpointTagsList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3179,23 +3179,23 @@ export class WebhookEndpointVersionContextInterestedMosList extends cdktf.Comple
 }
 export interface WebhookEndpointVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#moid WebhookEndpoint#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#selector WebhookEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3427,39 +3427,39 @@ export class WebhookEndpointVersionContextRefMoList extends cdktf.ComplexList {
 }
 export interface WebhookEndpointVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#additional_properties WebhookEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#class_id WebhookEndpoint#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#interested_mos WebhookEndpoint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#interested_mos WebhookEndpoint#interested_mos}
   */
   readonly interestedMos?: WebhookEndpointVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#marked_for_deletion WebhookEndpoint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#marked_for_deletion WebhookEndpoint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#nr_version WebhookEndpoint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#nr_version WebhookEndpoint#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#object_type WebhookEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#ref_mo WebhookEndpoint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#ref_mo WebhookEndpoint#ref_mo}
   */
   readonly refMo?: WebhookEndpointVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#timestamp WebhookEndpoint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#timestamp WebhookEndpoint#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#version_type WebhookEndpoint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#version_type WebhookEndpoint#version_type}
   */
   readonly versionType?: string;
 }
@@ -3807,7 +3807,7 @@ export class WebhookEndpointVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint intersight_webhook_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint intersight_webhook_endpoint}
 */
 export class WebhookEndpoint extends cdktf.TerraformResource {
 
@@ -3823,7 +3823,7 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookEndpoint to import
-  * @param importFromId The id of the existing WebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3835,7 +3835,7 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/webhook_endpoint intersight_webhook_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/webhook_endpoint intersight_webhook_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3846,8 +3846,8 @@ export class WebhookEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_webhook_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

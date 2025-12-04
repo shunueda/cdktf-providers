@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#account_moid OpenapiTaskGenerationRequest#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#account_moid OpenapiTaskGenerationRequest#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#ancestors OpenapiTaskGenerationRequest#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#ancestors OpenapiTaskGenerationRequest#ancestors}
   */
   readonly ancestors?: OpenapiTaskGenerationRequestAncestors[] | cdktf.IResolvable;
   /**
@@ -28,19 +28,19 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#create_time OpenapiTaskGenerationRequest#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#create_time OpenapiTaskGenerationRequest#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#domain_group_moid OpenapiTaskGenerationRequest#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#domain_group_moid OpenapiTaskGenerationRequest#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -48,19 +48,19 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   * * `External` - Denotes that the target endpoint is an external API endpoint.
   * * `Internal` - Denotes that the target endpoint is a Intersight API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#endpoint_type OpenapiTaskGenerationRequest#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#endpoint_type OpenapiTaskGenerationRequest#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#failed_tasks OpenapiTaskGenerationRequest#failed_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#failed_tasks OpenapiTaskGenerationRequest#failed_tasks}
   */
   readonly failedTasks?: OpenapiTaskGenerationRequestFailedTasks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#header_parameters OpenapiTaskGenerationRequest#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#header_parameters OpenapiTaskGenerationRequest#header_parameters}
   */
   readonly headerParameters?: OpenapiTaskGenerationRequestHeaderParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#id OpenapiTaskGenerationRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#id OpenapiTaskGenerationRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,57 +69,57 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   /**
   * When this value is set to true, the task name validations happen and provides the task validation status against each of the selected API on the property selectedApis When this value is set to false, an internal workflow to generate the tasks is submitted,  conflicting task names are created with an incremented version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#is_validate_request OpenapiTaskGenerationRequest#is_validate_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#is_validate_request OpenapiTaskGenerationRequest#is_validate_request}
   */
   readonly isValidateRequest?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#mod_time OpenapiTaskGenerationRequest#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#mod_time OpenapiTaskGenerationRequest#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
   * A reference to a openapiProcessFile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#nr_source OpenapiTaskGenerationRequest#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#nr_source OpenapiTaskGenerationRequest#nr_source}
   */
   readonly nrSource?: OpenapiTaskGenerationRequestNrSource[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#organization OpenapiTaskGenerationRequest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#organization OpenapiTaskGenerationRequest#organization}
   */
   readonly organization?: OpenapiTaskGenerationRequestOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#owners OpenapiTaskGenerationRequest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#owners OpenapiTaskGenerationRequest#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#parent OpenapiTaskGenerationRequest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#parent OpenapiTaskGenerationRequest#parent}
   */
   readonly parent?: OpenapiTaskGenerationRequestParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#permission_resources OpenapiTaskGenerationRequest#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#permission_resources OpenapiTaskGenerationRequest#permission_resources}
   */
   readonly permissionResources?: OpenapiTaskGenerationRequestPermissionResources[] | cdktf.IResolvable;
   /**
@@ -127,22 +127,22 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   * * `HTTPS` - Denotes that the API call uses the HTTPS protocol type
   * * `HTTP` - Denotes that the API call uses the HTTP protocol type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#protocol OpenapiTaskGenerationRequest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#protocol OpenapiTaskGenerationRequest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#query_parameters OpenapiTaskGenerationRequest#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#query_parameters OpenapiTaskGenerationRequest#query_parameters}
   */
   readonly queryParameters?: OpenapiTaskGenerationRequestQueryParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selected_apis OpenapiTaskGenerationRequest#selected_apis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selected_apis OpenapiTaskGenerationRequest#selected_apis}
   */
   readonly selectedApis?: OpenapiTaskGenerationRequestSelectedApis[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#shared_scope OpenapiTaskGenerationRequest#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#shared_scope OpenapiTaskGenerationRequest#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -152,68 +152,68 @@ export interface OpenapiTaskGenerationRequestConfig extends cdktf.TerraformMetaA
   * * `Completed` - All the tasks from the request have been created.
   * * `Failed` - There were failures in generating one or more tasks in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#status OpenapiTaskGenerationRequest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#status OpenapiTaskGenerationRequest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#tags OpenapiTaskGenerationRequest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#tags OpenapiTaskGenerationRequest#tags}
   */
   readonly tags?: OpenapiTaskGenerationRequestTags[] | cdktf.IResolvable;
   /**
   * Optional string that can be prefixed to the name of created tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#task_prefix OpenapiTaskGenerationRequest#task_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#task_prefix OpenapiTaskGenerationRequest#task_prefix}
   */
   readonly taskPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#task_tags OpenapiTaskGenerationRequest#task_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#task_tags OpenapiTaskGenerationRequest#task_tags}
   */
   readonly taskTags?: OpenapiTaskGenerationRequestTaskTags[] | cdktf.IResolvable;
   /**
   * Specifies the URL of the endpoint that the created task communicates with. It is defaulted to intersight.com for internal endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#url OpenapiTaskGenerationRequest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#url OpenapiTaskGenerationRequest#url}
   */
   readonly url?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#version_context OpenapiTaskGenerationRequest#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#version_context OpenapiTaskGenerationRequest#version_context}
   */
   readonly versionContext?: OpenapiTaskGenerationRequestVersionContext[] | cdktf.IResolvable;
   /**
   * This model object can trigger workflows. Use this option to wait for all running workflows to reach a complete state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#wait_for_completion OpenapiTaskGenerationRequest#wait_for_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#wait_for_completion OpenapiTaskGenerationRequest#wait_for_completion}
   */
   readonly waitForCompletion?: boolean | cdktf.IResolvable;
   /**
   * A reference to a workflowWorkflowInfo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#workflow OpenapiTaskGenerationRequest#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#workflow OpenapiTaskGenerationRequest#workflow}
   */
   readonly workflow?: OpenapiTaskGenerationRequestWorkflow[] | cdktf.IResolvable;
 }
 export interface OpenapiTaskGenerationRequestAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -445,27 +445,27 @@ export class OpenapiTaskGenerationRequestAncestorsList extends cdktf.ComplexList
 }
 export interface OpenapiTaskGenerationRequestFailedTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#name OpenapiTaskGenerationRequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#name OpenapiTaskGenerationRequest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#path OpenapiTaskGenerationRequest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#path OpenapiTaskGenerationRequest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#reason OpenapiTaskGenerationRequest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#reason OpenapiTaskGenerationRequest#reason}
   */
   readonly reason?: string;
 }
@@ -726,23 +726,23 @@ export class OpenapiTaskGenerationRequestFailedTasksList extends cdktf.ComplexLi
 }
 export interface OpenapiTaskGenerationRequestHeaderParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
   */
   readonly value?: string;
 }
@@ -974,23 +974,23 @@ export class OpenapiTaskGenerationRequestHeaderParametersList extends cdktf.Comp
 }
 export interface OpenapiTaskGenerationRequestNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1222,23 +1222,23 @@ export class OpenapiTaskGenerationRequestNrSourceList extends cdktf.ComplexList 
 }
 export interface OpenapiTaskGenerationRequestOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1470,23 +1470,23 @@ export class OpenapiTaskGenerationRequestOrganizationList extends cdktf.ComplexL
 }
 export interface OpenapiTaskGenerationRequestParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1718,23 +1718,23 @@ export class OpenapiTaskGenerationRequestParentList extends cdktf.ComplexList {
 }
 export interface OpenapiTaskGenerationRequestPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1966,23 +1966,23 @@ export class OpenapiTaskGenerationRequestPermissionResourcesList extends cdktf.C
 }
 export interface OpenapiTaskGenerationRequestQueryParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
   */
   readonly value?: string;
 }
@@ -2214,23 +2214,23 @@ export class OpenapiTaskGenerationRequestQueryParametersList extends cdktf.Compl
 }
 export interface OpenapiTaskGenerationRequestSelectedApisApiPathObjectIdentifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2462,47 +2462,47 @@ export class OpenapiTaskGenerationRequestSelectedApisApiPathObjectIdentifierList
 }
 export interface OpenapiTaskGenerationRequestSelectedApis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#api_path_object_identifier OpenapiTaskGenerationRequest#api_path_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#api_path_object_identifier OpenapiTaskGenerationRequest#api_path_object_identifier}
   */
   readonly apiPathObjectIdentifier?: OpenapiTaskGenerationRequestSelectedApisApiPathObjectIdentifier[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#description OpenapiTaskGenerationRequest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#description OpenapiTaskGenerationRequest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#display_label OpenapiTaskGenerationRequest#display_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#display_label OpenapiTaskGenerationRequest#display_label}
   */
   readonly displayLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#method OpenapiTaskGenerationRequest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#method OpenapiTaskGenerationRequest#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#name OpenapiTaskGenerationRequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#name OpenapiTaskGenerationRequest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#path OpenapiTaskGenerationRequest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#path OpenapiTaskGenerationRequest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#validation_error OpenapiTaskGenerationRequest#validation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#validation_error OpenapiTaskGenerationRequest#validation_error}
   */
   readonly validationError?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#validation_status OpenapiTaskGenerationRequest#validation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#validation_status OpenapiTaskGenerationRequest#validation_status}
   */
   readonly validationStatus?: string;
 }
@@ -2908,23 +2908,23 @@ export class OpenapiTaskGenerationRequestSelectedApisList extends cdktf.ComplexL
 }
 export interface OpenapiTaskGenerationRequestTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -3156,23 +3156,23 @@ export class OpenapiTaskGenerationRequestTagsAncestorDefinitionsList extends cdk
 }
 export interface OpenapiTaskGenerationRequestTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -3404,35 +3404,35 @@ export class OpenapiTaskGenerationRequestTagsDefinitionList extends cdktf.Comple
 }
 export interface OpenapiTaskGenerationRequestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#ancestor_definitions OpenapiTaskGenerationRequest#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#ancestor_definitions OpenapiTaskGenerationRequest#ancestor_definitions}
   */
   readonly ancestorDefinitions?: OpenapiTaskGenerationRequestTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#definition OpenapiTaskGenerationRequest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#definition OpenapiTaskGenerationRequest#definition}
   */
   readonly definition?: OpenapiTaskGenerationRequestTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#propagated OpenapiTaskGenerationRequest#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#propagated OpenapiTaskGenerationRequest#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#sys_tag OpenapiTaskGenerationRequest#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#sys_tag OpenapiTaskGenerationRequest#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#type OpenapiTaskGenerationRequest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#type OpenapiTaskGenerationRequest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
   */
   readonly value?: string;
 }
@@ -3751,23 +3751,23 @@ export class OpenapiTaskGenerationRequestTagsList extends cdktf.ComplexList {
 }
 export interface OpenapiTaskGenerationRequestTaskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#key OpenapiTaskGenerationRequest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#value OpenapiTaskGenerationRequest#value}
   */
   readonly value?: string;
 }
@@ -3999,23 +3999,23 @@ export class OpenapiTaskGenerationRequestTaskTagsList extends cdktf.ComplexList 
 }
 export interface OpenapiTaskGenerationRequestVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -4247,23 +4247,23 @@ export class OpenapiTaskGenerationRequestVersionContextInterestedMosList extends
 }
 export interface OpenapiTaskGenerationRequestVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -4495,39 +4495,39 @@ export class OpenapiTaskGenerationRequestVersionContextRefMoList extends cdktf.C
 }
 export interface OpenapiTaskGenerationRequestVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#interested_mos OpenapiTaskGenerationRequest#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#interested_mos OpenapiTaskGenerationRequest#interested_mos}
   */
   readonly interestedMos?: OpenapiTaskGenerationRequestVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#marked_for_deletion OpenapiTaskGenerationRequest#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#marked_for_deletion OpenapiTaskGenerationRequest#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#nr_version OpenapiTaskGenerationRequest#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#nr_version OpenapiTaskGenerationRequest#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#ref_mo OpenapiTaskGenerationRequest#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#ref_mo OpenapiTaskGenerationRequest#ref_mo}
   */
   readonly refMo?: OpenapiTaskGenerationRequestVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#timestamp OpenapiTaskGenerationRequest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#timestamp OpenapiTaskGenerationRequest#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#version_type OpenapiTaskGenerationRequest#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#version_type OpenapiTaskGenerationRequest#version_type}
   */
   readonly versionType?: string;
 }
@@ -4875,23 +4875,23 @@ export class OpenapiTaskGenerationRequestVersionContextList extends cdktf.Comple
 }
 export interface OpenapiTaskGenerationRequestWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#additional_properties OpenapiTaskGenerationRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#class_id OpenapiTaskGenerationRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#moid OpenapiTaskGenerationRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#object_type OpenapiTaskGenerationRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#selector OpenapiTaskGenerationRequest#selector}
   */
   readonly selector?: string;
 }
@@ -5123,7 +5123,7 @@ export class OpenapiTaskGenerationRequestWorkflowList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request intersight_openapi_task_generation_request}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request intersight_openapi_task_generation_request}
 */
 export class OpenapiTaskGenerationRequest extends cdktf.TerraformResource {
 
@@ -5139,7 +5139,7 @@ export class OpenapiTaskGenerationRequest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenapiTaskGenerationRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenapiTaskGenerationRequest to import
-  * @param importFromId The id of the existing OpenapiTaskGenerationRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenapiTaskGenerationRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenapiTaskGenerationRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5151,7 +5151,7 @@ export class OpenapiTaskGenerationRequest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/openapi_task_generation_request intersight_openapi_task_generation_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/openapi_task_generation_request intersight_openapi_task_generation_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5162,8 +5162,8 @@ export class OpenapiTaskGenerationRequest extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_openapi_task_generation_request',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

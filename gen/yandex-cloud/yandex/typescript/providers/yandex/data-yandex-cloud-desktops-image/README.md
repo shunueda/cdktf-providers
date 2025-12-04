@@ -1,3 +1,3 @@
 # `data_yandex_cloud_desktops_image`
 
-Refer to the Terraform Registry for docs: [`data_yandex_cloud_desktops_image`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/cloud_desktops_image).
+Refer to the Terraform Registry for docs: [`data_yandex_cloud_desktops_image`](https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/cloud_desktops_image).

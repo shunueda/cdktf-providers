@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotConfig exten
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#account_moid DataIntersightHyperflexHealthCheckExecutionSnapshot#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#account_moid DataIntersightHyperflexHealthCheckExecutionSnapshot#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Category that the HyperFlex health check Definition belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#category DataIntersightHyperflexHealthCheckExecutionSnapshot#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#category DataIntersightHyperflexHealthCheckExecutionSnapshot#category}
   */
   readonly category?: string;
   /**
   * Information detailing the possible cause of the healthcheck failure, if the check fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#cause DataIntersightHyperflexHealthCheckExecutionSnapshot#cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#cause DataIntersightHyperflexHealthCheckExecutionSnapshot#cause}
   */
   readonly cause?: string;
   /**
@@ -34,43 +34,43 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotConfig exten
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * Health check execution completion time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#completion_time DataIntersightHyperflexHealthCheckExecutionSnapshot#completion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#completion_time DataIntersightHyperflexHealthCheckExecutionSnapshot#completion_time}
   */
   readonly completionTime?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#create_time DataIntersightHyperflexHealthCheckExecutionSnapshot#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#create_time DataIntersightHyperflexHealthCheckExecutionSnapshot#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#domain_group_moid DataIntersightHyperflexHealthCheckExecutionSnapshot#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#domain_group_moid DataIntersightHyperflexHealthCheckExecutionSnapshot#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Details of the health check execution result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_details DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_details DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_details}
   */
   readonly healthCheckDetails?: string;
   /**
   * Error details of a script execution failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_error_details DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_error_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_error_details DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_error_details}
   */
   readonly healthCheckExecutionErrorDetails?: string;
   /**
   * Error summary of a script execution failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_error_summary DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_error_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_error_summary DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_error_summary}
   */
   readonly healthCheckExecutionErrorSummary?: string;
   /**
@@ -80,7 +80,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotConfig exten
   * * `FAILED` - Indicates that the health check execution failed.
   * * `TIMED_OUT` - Indicates that the health check execution timed out before completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_status DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_execution_status DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_execution_status}
   */
   readonly healthCheckExecutionStatus?: string;
   /**
@@ -91,29 +91,29 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotConfig exten
   * * `WARN` - Indicates that the health check completed with a warning.
   * * `NOT_APPLICABLE` - Indicates that the health check is either unsupported, or not applicable on the Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_result DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_result DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_result}
   */
   readonly healthCheckResult?: string;
   /**
   * A brief summary of health check results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_summary DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_summary DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_summary}
   */
   readonly healthCheckSummary?: string;
   /**
   * IP Address of the vCenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_vcenter_ip DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_vcenter_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_vcenter_ip DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_vcenter_ip}
   */
   readonly healthCheckVcenterIp?: string;
   /**
   * HyperFlex Device Name where the healthcheck is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#hx_device_name DataIntersightHyperflexHealthCheckExecutionSnapshot#hx_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#hx_device_name DataIntersightHyperflexHealthCheckExecutionSnapshot#hx_device_name}
   */
   readonly hxDeviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#id DataIntersightHyperflexHealthCheckExecutionSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#id DataIntersightHyperflexHealthCheckExecutionSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -122,97 +122,97 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotConfig exten
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#mod_time DataIntersightHyperflexHealthCheckExecutionSnapshot#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#mod_time DataIntersightHyperflexHealthCheckExecutionSnapshot#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#owners DataIntersightHyperflexHealthCheckExecutionSnapshot#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#owners DataIntersightHyperflexHealthCheckExecutionSnapshot#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#shared_scope DataIntersightHyperflexHealthCheckExecutionSnapshot#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#shared_scope DataIntersightHyperflexHealthCheckExecutionSnapshot#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Information detailing a suggegsted resolution for the healthcheck failure, if the check fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#suggested_resolution DataIntersightHyperflexHealthCheckExecutionSnapshot#suggested_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#suggested_resolution DataIntersightHyperflexHealthCheckExecutionSnapshot#suggested_resolution}
   */
   readonly suggestedResolution?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#ancestors DataIntersightHyperflexHealthCheckExecutionSnapshot#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#ancestors DataIntersightHyperflexHealthCheckExecutionSnapshot#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexHealthCheckExecutionSnapshotAncestors[] | cdktf.IResolvable;
   /**
   * health_check_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_definition DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#health_check_definition DataIntersightHyperflexHealthCheckExecutionSnapshot#health_check_definition}
   */
   readonly healthCheckDefinition?: DataIntersightHyperflexHealthCheckExecutionSnapshotHealthCheckDefinition;
   /**
   * hx_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#hx_cluster DataIntersightHyperflexHealthCheckExecutionSnapshot#hx_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#hx_cluster DataIntersightHyperflexHealthCheckExecutionSnapshot#hx_cluster}
   */
   readonly hxCluster?: DataIntersightHyperflexHealthCheckExecutionSnapshotHxCluster;
   /**
   * node_level_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_level_info DataIntersightHyperflexHealthCheckExecutionSnapshot#node_level_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_level_info DataIntersightHyperflexHealthCheckExecutionSnapshot#node_level_info}
   */
   readonly nodeLevelInfo?: DataIntersightHyperflexHealthCheckExecutionSnapshotNodeLevelInfo[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#parent DataIntersightHyperflexHealthCheckExecutionSnapshot#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#parent DataIntersightHyperflexHealthCheckExecutionSnapshot#parent}
   */
   readonly parent?: DataIntersightHyperflexHealthCheckExecutionSnapshotParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#permission_resources DataIntersightHyperflexHealthCheckExecutionSnapshot#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#permission_resources DataIntersightHyperflexHealthCheckExecutionSnapshot#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexHealthCheckExecutionSnapshotPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#registered_device DataIntersightHyperflexHealthCheckExecutionSnapshot#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#registered_device DataIntersightHyperflexHealthCheckExecutionSnapshot#registered_device}
   */
   readonly registeredDevice?: DataIntersightHyperflexHealthCheckExecutionSnapshotRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#tags DataIntersightHyperflexHealthCheckExecutionSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#tags DataIntersightHyperflexHealthCheckExecutionSnapshot#tags}
   */
   readonly tags?: DataIntersightHyperflexHealthCheckExecutionSnapshotTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#version_context DataIntersightHyperflexHealthCheckExecutionSnapshot#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#version_context DataIntersightHyperflexHealthCheckExecutionSnapshot#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContext;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#workflow DataIntersightHyperflexHealthCheckExecutionSnapshot#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#workflow DataIntersightHyperflexHealthCheckExecutionSnapshot#workflow}
   */
   readonly workflow?: DataIntersightHyperflexHealthCheckExecutionSnapshotWorkflow;
 }
@@ -1847,7 +1847,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotResultsList exte
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1855,19 +1855,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1880,7 +1880,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2112,7 +2112,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotAncestorsList ex
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHealthCheckDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2120,19 +2120,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHealthCheckD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2145,7 +2145,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHealthCheckD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2345,7 +2345,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotHealthCheckDefin
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHxCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2353,19 +2353,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHxCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2378,7 +2378,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotHxCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2578,7 +2578,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotHxClusterOutputR
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotNodeLevelInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2586,50 +2586,50 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotNodeLevelInf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * Node-specific check failure cause.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_cause DataIntersightHyperflexHealthCheckExecutionSnapshot#node_cause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_cause DataIntersightHyperflexHealthCheckExecutionSnapshot#node_cause}
   */
   readonly nodeCause?: string;
   /**
   * Node-specific check result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_check_result DataIntersightHyperflexHealthCheckExecutionSnapshot#node_check_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_check_result DataIntersightHyperflexHealthCheckExecutionSnapshot#node_check_result}
   */
   readonly nodeCheckResult?: string;
   /**
   * The IP Address of the ESXi server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_esx_ip_address DataIntersightHyperflexHealthCheckExecutionSnapshot#node_esx_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_esx_ip_address DataIntersightHyperflexHealthCheckExecutionSnapshot#node_esx_ip_address}
   */
   readonly nodeEsxIpAddress?: string;
   /**
   * The IP Address of cluster node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_ip_address DataIntersightHyperflexHealthCheckExecutionSnapshot#node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_ip_address DataIntersightHyperflexHealthCheckExecutionSnapshot#node_ip_address}
   */
   readonly nodeIpAddress?: string;
   /**
   * Cluster node name on which the check was run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_name DataIntersightHyperflexHealthCheckExecutionSnapshot#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_name DataIntersightHyperflexHealthCheckExecutionSnapshot#node_name}
   */
   readonly nodeName?: string;
   /**
   * Node-specific check failure suggested resolution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#node_resolution DataIntersightHyperflexHealthCheckExecutionSnapshot#node_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#node_resolution DataIntersightHyperflexHealthCheckExecutionSnapshot#node_resolution}
   */
   readonly nodeResolution?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
 }
@@ -2977,7 +2977,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotNodeLevelInfoLis
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2985,19 +2985,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3010,7 +3010,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3210,7 +3210,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotParentOutputRefe
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3218,19 +3218,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotPermissionRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3243,7 +3243,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotPermissionRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3475,7 +3475,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotPermissionResour
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3483,19 +3483,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotRegisteredDe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3508,7 +3508,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotRegisteredDe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3708,7 +3708,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotRegisteredDevice
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3716,19 +3716,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsAncestor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3741,7 +3741,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsAncestor
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3973,7 +3973,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotTagsAncestorDefi
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3981,19 +3981,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4006,7 +4006,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTagsDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -4206,25 +4206,25 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotTagsDefinitionOu
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#key DataIntersightHyperflexHealthCheckExecutionSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#key DataIntersightHyperflexHealthCheckExecutionSnapshot#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#propagated DataIntersightHyperflexHealthCheckExecutionSnapshot#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#propagated DataIntersightHyperflexHealthCheckExecutionSnapshot#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#sys_tag DataIntersightHyperflexHealthCheckExecutionSnapshot#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#sys_tag DataIntersightHyperflexHealthCheckExecutionSnapshot#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4232,25 +4232,25 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#type DataIntersightHyperflexHealthCheckExecutionSnapshot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#type DataIntersightHyperflexHealthCheckExecutionSnapshot#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#value DataIntersightHyperflexHealthCheckExecutionSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#value DataIntersightHyperflexHealthCheckExecutionSnapshot#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#ancestor_definitions DataIntersightHyperflexHealthCheckExecutionSnapshot#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#ancestor_definitions DataIntersightHyperflexHealthCheckExecutionSnapshot#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexHealthCheckExecutionSnapshotTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#definition DataIntersightHyperflexHealthCheckExecutionSnapshot#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#definition DataIntersightHyperflexHealthCheckExecutionSnapshot#definition}
   */
   readonly definition?: DataIntersightHyperflexHealthCheckExecutionSnapshotTagsDefinition;
 }
@@ -4569,7 +4569,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotTagsList extends
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4577,19 +4577,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4602,7 +4602,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -4834,7 +4834,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextIn
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4842,19 +4842,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4867,7 +4867,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -5067,7 +5067,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextRe
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5075,32 +5075,32 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#marked_for_deletion DataIntersightHyperflexHealthCheckExecutionSnapshot#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#marked_for_deletion DataIntersightHyperflexHealthCheckExecutionSnapshot#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#nr_version DataIntersightHyperflexHealthCheckExecutionSnapshot#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#nr_version DataIntersightHyperflexHealthCheckExecutionSnapshot#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#timestamp DataIntersightHyperflexHealthCheckExecutionSnapshot#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#timestamp DataIntersightHyperflexHealthCheckExecutionSnapshot#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5111,19 +5111,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotVersionConte
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#version_type DataIntersightHyperflexHealthCheckExecutionSnapshot#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#version_type DataIntersightHyperflexHealthCheckExecutionSnapshot#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#interested_mos DataIntersightHyperflexHealthCheckExecutionSnapshot#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#interested_mos DataIntersightHyperflexHealthCheckExecutionSnapshot#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#ref_mo DataIntersightHyperflexHealthCheckExecutionSnapshot#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#ref_mo DataIntersightHyperflexHealthCheckExecutionSnapshot#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextRefMo;
 }
@@ -5439,7 +5439,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotVersionContextOu
 }
 export interface DataIntersightHyperflexHealthCheckExecutionSnapshotWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#additional_properties DataIntersightHyperflexHealthCheckExecutionSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5447,19 +5447,19 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotWorkflow {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#class_id DataIntersightHyperflexHealthCheckExecutionSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#moid DataIntersightHyperflexHealthCheckExecutionSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#object_type DataIntersightHyperflexHealthCheckExecutionSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5472,7 +5472,7 @@ export interface DataIntersightHyperflexHealthCheckExecutionSnapshotWorkflow {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#selector DataIntersightHyperflexHealthCheckExecutionSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -5672,7 +5672,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshotWorkflowOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot intersight_hyperflex_health_check_execution_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot intersight_hyperflex_health_check_execution_snapshot}
 */
 export class DataIntersightHyperflexHealthCheckExecutionSnapshot extends cdktf.TerraformDataSource {
 
@@ -5688,7 +5688,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshot extends cdktf.T
   * Generates CDKTF code for importing a DataIntersightHyperflexHealthCheckExecutionSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexHealthCheckExecutionSnapshot to import
-  * @param importFromId The id of the existing DataIntersightHyperflexHealthCheckExecutionSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexHealthCheckExecutionSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexHealthCheckExecutionSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5700,7 +5700,7 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshot extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_execution_snapshot intersight_hyperflex_health_check_execution_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_health_check_execution_snapshot intersight_hyperflex_health_check_execution_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5711,8 +5711,8 @@ export class DataIntersightHyperflexHealthCheckExecutionSnapshot extends cdktf.T
       terraformResourceType: 'intersight_hyperflex_health_check_execution_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

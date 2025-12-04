@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface MdbMysqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication plugin. Allowed values: `MYSQL_NATIVE_PASSWORD`, `CACHING_SHA2_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH` (for version 5.7 `MYSQL_NATIVE_PASSWORD`, `SHA256_PASSWORD`, `MYSQL_NO_LOGIN`, `MDB_IAMPROXY_AUTH`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#authentication_plugin MdbMysqlUser#authentication_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#authentication_plugin MdbMysqlUser#authentication_plugin}
   */
   readonly authenticationPlugin?: string;
   /**
   * The ID of the MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#cluster_id MdbMysqlUser#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#cluster_id MdbMysqlUser#cluster_id}
   */
   readonly clusterId: string;
   /**
@@ -25,17 +25,17 @@ export interface MdbMysqlUserConfig extends cdktf.TerraformMetaArguments {
   * ~> **Must specify either password or generate_password**.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#generate_password MdbMysqlUser#generate_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#generate_password MdbMysqlUser#generate_password}
   */
   readonly generatePassword?: boolean | cdktf.IResolvable;
   /**
   * List user's global permissions. Allowed permissions: `REPLICATION_CLIENT`, `REPLICATION_SLAVE`, `PROCESS`, `FLUSH_OPTIMIZER_COSTS`, `SHOW_ROUTINE`, `MDB_ADMIN` for clear list use empty list. If the attribute is not specified there will be no changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#global_permissions MdbMysqlUser#global_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#global_permissions MdbMysqlUser#global_permissions}
   */
   readonly globalPermissions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#id MdbMysqlUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#id MdbMysqlUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,31 +44,31 @@ export interface MdbMysqlUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#name MdbMysqlUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#name MdbMysqlUser#name}
   */
   readonly name: string;
   /**
   * The password of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#password MdbMysqlUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#password MdbMysqlUser#password}
   */
   readonly password?: string;
   /**
   * connection_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#connection_limits MdbMysqlUser#connection_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#connection_limits MdbMysqlUser#connection_limits}
   */
   readonly connectionLimits?: MdbMysqlUserConnectionLimits;
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#permission MdbMysqlUser#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#permission MdbMysqlUser#permission}
   */
   readonly permission?: MdbMysqlUserPermission[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#timeouts MdbMysqlUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#timeouts MdbMysqlUser#timeouts}
   */
   readonly timeouts?: MdbMysqlUserTimeouts;
 }
@@ -76,25 +76,25 @@ export interface MdbMysqlUserConnectionLimits {
   /**
   * Max connections per hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#max_connections_per_hour MdbMysqlUser#max_connections_per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#max_connections_per_hour MdbMysqlUser#max_connections_per_hour}
   */
   readonly maxConnectionsPerHour?: number;
   /**
   * Max questions per hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#max_questions_per_hour MdbMysqlUser#max_questions_per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#max_questions_per_hour MdbMysqlUser#max_questions_per_hour}
   */
   readonly maxQuestionsPerHour?: number;
   /**
   * Max updates per hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#max_updates_per_hour MdbMysqlUser#max_updates_per_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#max_updates_per_hour MdbMysqlUser#max_updates_per_hour}
   */
   readonly maxUpdatesPerHour?: number;
   /**
   * Max user connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#max_user_connections MdbMysqlUser#max_user_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#max_user_connections MdbMysqlUser#max_user_connections}
   */
   readonly maxUserConnections?: number;
 }
@@ -267,13 +267,13 @@ export interface MdbMysqlUserPermission {
   /**
   * The name of the database that the permission grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#database_name MdbMysqlUser#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#database_name MdbMysqlUser#database_name}
   */
   readonly databaseName: string;
   /**
   * List user's roles in the database. Allowed roles: `ALL`,`ALTER`,`ALTER_ROUTINE`,`CREATE`,`CREATE_ROUTINE`,`CREATE_TEMPORARY_TABLES`, `CREATE_VIEW`,`DELETE`,`DROP`,`EVENT`,`EXECUTE`,`INDEX`,`INSERT`,`LOCK_TABLES`,`SELECT`,`SHOW_VIEW`,`TRIGGER`,`UPDATE`,`REFERENCES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#roles MdbMysqlUser#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#roles MdbMysqlUser#roles}
   */
   readonly roles?: string[];
 }
@@ -415,19 +415,19 @@ export class MdbMysqlUserPermissionList extends cdktf.ComplexList {
 }
 export interface MdbMysqlUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#create MdbMysqlUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#create MdbMysqlUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#delete MdbMysqlUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#delete MdbMysqlUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#read MdbMysqlUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#read MdbMysqlUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#update MdbMysqlUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#update MdbMysqlUser#update}
   */
   readonly update?: string;
 }
@@ -608,7 +608,7 @@ export class MdbMysqlUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user yandex_mdb_mysql_user}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user yandex_mdb_mysql_user}
 */
 export class MdbMysqlUser extends cdktf.TerraformResource {
 
@@ -624,7 +624,7 @@ export class MdbMysqlUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbMysqlUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbMysqlUser to import
-  * @param importFromId The id of the existing MdbMysqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbMysqlUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbMysqlUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class MdbMysqlUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/mdb_mysql_user yandex_mdb_mysql_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/mdb_mysql_user yandex_mdb_mysql_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class MdbMysqlUser extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_mysql_user',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

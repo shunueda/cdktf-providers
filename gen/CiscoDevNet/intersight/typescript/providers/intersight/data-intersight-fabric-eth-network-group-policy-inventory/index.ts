@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#account_moid DataIntersightFabricEthNetworkGroupPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#account_moid DataIntersightFabricEthNetworkGroupPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#create_time DataIntersightFabricEthNetworkGroupPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#create_time DataIntersightFabricEthNetworkGroupPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#description DataIntersightFabricEthNetworkGroupPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#description DataIntersightFabricEthNetworkGroupPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#device_mo_id DataIntersightFabricEthNetworkGroupPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#device_mo_id DataIntersightFabricEthNetworkGroupPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#domain_group_moid DataIntersightFabricEthNetworkGroupPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#domain_group_moid DataIntersightFabricEthNetworkGroupPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#id DataIntersightFabricEthNetworkGroupPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#id DataIntersightFabricEthNetworkGroupPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,79 +59,79 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryConfig extend
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#mod_time DataIntersightFabricEthNetworkGroupPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#mod_time DataIntersightFabricEthNetworkGroupPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#name DataIntersightFabricEthNetworkGroupPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#name DataIntersightFabricEthNetworkGroupPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#owners DataIntersightFabricEthNetworkGroupPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#owners DataIntersightFabricEthNetworkGroupPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#shared_scope DataIntersightFabricEthNetworkGroupPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#shared_scope DataIntersightFabricEthNetworkGroupPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#ancestors DataIntersightFabricEthNetworkGroupPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#ancestors DataIntersightFabricEthNetworkGroupPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightFabricEthNetworkGroupPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#parent DataIntersightFabricEthNetworkGroupPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#parent DataIntersightFabricEthNetworkGroupPolicyInventory#parent}
   */
   readonly parent?: DataIntersightFabricEthNetworkGroupPolicyInventoryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#permission_resources DataIntersightFabricEthNetworkGroupPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#permission_resources DataIntersightFabricEthNetworkGroupPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricEthNetworkGroupPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#tags DataIntersightFabricEthNetworkGroupPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#tags DataIntersightFabricEthNetworkGroupPolicyInventory#tags}
   */
   readonly tags?: DataIntersightFabricEthNetworkGroupPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#target_mo DataIntersightFabricEthNetworkGroupPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#target_mo DataIntersightFabricEthNetworkGroupPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightFabricEthNetworkGroupPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#version_context DataIntersightFabricEthNetworkGroupPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#version_context DataIntersightFabricEthNetworkGroupPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContext;
   /**
   * vlan_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#vlan_settings DataIntersightFabricEthNetworkGroupPolicyInventory#vlan_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#vlan_settings DataIntersightFabricEthNetworkGroupPolicyInventory#vlan_settings}
   */
   readonly vlanSettings?: DataIntersightFabricEthNetworkGroupPolicyInventoryVlanSettings;
 }
@@ -1408,7 +1408,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryResultsList exten
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1416,19 +1416,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1441,7 +1441,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1673,7 +1673,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryAncestorsList ext
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1681,19 +1681,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1706,7 +1706,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1906,7 +1906,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryParentOutputRefer
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1914,19 +1914,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryPermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1939,7 +1939,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryPermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2171,7 +2171,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryPermissionResourc
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2179,19 +2179,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2204,7 +2204,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2436,7 +2436,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryTagsAncestorDefin
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2444,19 +2444,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2469,7 +2469,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2669,25 +2669,25 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryTagsDefinitionOut
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#key DataIntersightFabricEthNetworkGroupPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#key DataIntersightFabricEthNetworkGroupPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#propagated DataIntersightFabricEthNetworkGroupPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#propagated DataIntersightFabricEthNetworkGroupPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#sys_tag DataIntersightFabricEthNetworkGroupPolicyInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#sys_tag DataIntersightFabricEthNetworkGroupPolicyInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2695,25 +2695,25 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#type DataIntersightFabricEthNetworkGroupPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#type DataIntersightFabricEthNetworkGroupPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#value DataIntersightFabricEthNetworkGroupPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#value DataIntersightFabricEthNetworkGroupPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#ancestor_definitions DataIntersightFabricEthNetworkGroupPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#ancestor_definitions DataIntersightFabricEthNetworkGroupPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricEthNetworkGroupPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#definition DataIntersightFabricEthNetworkGroupPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#definition DataIntersightFabricEthNetworkGroupPolicyInventory#definition}
   */
   readonly definition?: DataIntersightFabricEthNetworkGroupPolicyInventoryTagsDefinition;
 }
@@ -3032,7 +3032,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryTagsList extends 
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3040,19 +3040,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3065,7 +3065,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3265,7 +3265,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryTargetMoOutputRef
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3273,19 +3273,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3298,7 +3298,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3530,7 +3530,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextInt
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3538,19 +3538,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#moid DataIntersightFabricEthNetworkGroupPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3563,7 +3563,7 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#selector DataIntersightFabricEthNetworkGroupPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3763,7 +3763,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextRef
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3771,32 +3771,32 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#marked_for_deletion DataIntersightFabricEthNetworkGroupPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#marked_for_deletion DataIntersightFabricEthNetworkGroupPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#nr_version DataIntersightFabricEthNetworkGroupPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#nr_version DataIntersightFabricEthNetworkGroupPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#timestamp DataIntersightFabricEthNetworkGroupPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#timestamp DataIntersightFabricEthNetworkGroupPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3807,19 +3807,19 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#version_type DataIntersightFabricEthNetworkGroupPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#version_type DataIntersightFabricEthNetworkGroupPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#interested_mos DataIntersightFabricEthNetworkGroupPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#interested_mos DataIntersightFabricEthNetworkGroupPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#ref_mo DataIntersightFabricEthNetworkGroupPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#ref_mo DataIntersightFabricEthNetworkGroupPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextRefMo;
 }
@@ -4135,13 +4135,13 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryVersionContextOut
 }
 export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVlanSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#additional_properties DataIntersightFabricEthNetworkGroupPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Allowed VLAN IDs of the virtual interface. A list of comma separated VLAN ids and/or VLAN id ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#allowed_vlans DataIntersightFabricEthNetworkGroupPolicyInventory#allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#allowed_vlans DataIntersightFabricEthNetworkGroupPolicyInventory#allowed_vlans}
   */
   readonly allowedVlans?: string;
   /**
@@ -4149,32 +4149,32 @@ export interface DataIntersightFabricEthNetworkGroupPolicyInventoryVlanSettings 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#class_id DataIntersightFabricEthNetworkGroupPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * Native VLAN ID of the virtual interface or the corresponding Vethernet on the peer Fabric Interconnect to which the virtual interface is connected. Native VLAN ID maps all incoming untagged traffic i.e. packets without a VLAN tag to the native VLAN for switching purposes. If the native VLAN is not a part of the allowed VLANs, it will automatically be added to the list of allowed VLANs. A native VLAN ID of 0 will indicate to the system to use the system default native VLAN ID and will also prevent native VLAN from being added to the allowed VLAN list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#native_vlan DataIntersightFabricEthNetworkGroupPolicyInventory#native_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#native_vlan DataIntersightFabricEthNetworkGroupPolicyInventory#native_vlan}
   */
   readonly nativeVlan?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#object_type DataIntersightFabricEthNetworkGroupPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * Enable QinQ (802.1Q-in-802.1Q) Tunneling on the vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#qinq_enabled DataIntersightFabricEthNetworkGroupPolicyInventory#qinq_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#qinq_enabled DataIntersightFabricEthNetworkGroupPolicyInventory#qinq_enabled}
   */
   readonly qinqEnabled?: boolean | cdktf.IResolvable;
   /**
   * Select the VLAN ID for VIC QinQ (802.1Q-in-802.1Q) Tunneling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#qinq_vlan DataIntersightFabricEthNetworkGroupPolicyInventory#qinq_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#qinq_vlan DataIntersightFabricEthNetworkGroupPolicyInventory#qinq_vlan}
   */
   readonly qinqVlan?: number;
 }
@@ -4432,7 +4432,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventoryVlanSettingsOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory intersight_fabric_eth_network_group_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory intersight_fabric_eth_network_group_policy_inventory}
 */
 export class DataIntersightFabricEthNetworkGroupPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -4448,7 +4448,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventory extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightFabricEthNetworkGroupPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricEthNetworkGroupPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightFabricEthNetworkGroupPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricEthNetworkGroupPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricEthNetworkGroupPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4460,7 +4460,7 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventory extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_eth_network_group_policy_inventory intersight_fabric_eth_network_group_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_eth_network_group_policy_inventory intersight_fabric_eth_network_group_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4471,8 +4471,8 @@ export class DataIntersightFabricEthNetworkGroupPolicyInventory extends cdktf.Te
       terraformResourceType: 'intersight_fabric_eth_network_group_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

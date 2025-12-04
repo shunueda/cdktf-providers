@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoOriginGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Back-to-origin Host Header, it only takes effect when type = HTTP is passed in. The rule engine modifies the Host Header configuration priority to be higher than the Host Header of the origin site group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#host_header TeoOriginGroup#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#host_header TeoOriginGroup#host_header}
   */
   readonly hostHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#id TeoOriginGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#id TeoOriginGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface TeoOriginGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * OriginGroup Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#name TeoOriginGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#name TeoOriginGroup#name}
   */
   readonly name?: string;
   /**
@@ -31,19 +31,19 @@ export interface TeoOriginGroupConfig extends cdktf.TerraformMetaArguments {
   * - `GENERAL`: Universal origin site group, only supports adding IP/domain name origin sites, which can be referenced by domain name service, rule engine, four-layer proxy, general load balancing, and HTTP-specific load balancing.
   * - `HTTP`: The HTTP-specific origin site group, supports adding IP/domain name and object storage origin site as the origin site, it cannot be referenced by the four-layer proxy, it can only be added to the acceleration domain name, rule engine-modify origin site, and HTTP-specific load balancing reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#type TeoOriginGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#type TeoOriginGroup#type}
   */
   readonly type: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#zone_id TeoOriginGroup#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#zone_id TeoOriginGroup#zone_id}
   */
   readonly zoneId: string;
   /**
   * records block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#records TeoOriginGroup#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#records TeoOriginGroup#records}
   */
   readonly records: TeoOriginGroupRecords[] | cdktf.IResolvable;
 }
@@ -140,13 +140,13 @@ export interface TeoOriginGroupRecordsPrivateParameters {
   *   - `SignatureVersion`: Authentication version, v2 or v4.
   *   - `Region`: Bucket region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#name TeoOriginGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#name TeoOriginGroup#name}
   */
   readonly name: string;
   /**
   * Private authentication parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#value TeoOriginGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#value TeoOriginGroup#value}
   */
   readonly value: string;
 }
@@ -289,19 +289,19 @@ export interface TeoOriginGroupRecords {
   *   - `true`: Use private authentication.
   *   - `false`: Do not use private authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#private TeoOriginGroup#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#private TeoOriginGroup#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * Origin site record value, does not include port information, can be: IPv4, IPv6, domain name format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#record TeoOriginGroup#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#record TeoOriginGroup#record}
   */
   readonly record: string;
   /**
   * Origin record ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#record_id TeoOriginGroup#record_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#record_id TeoOriginGroup#record_id}
   */
   readonly recordId?: string;
   /**
@@ -310,19 +310,19 @@ export interface TeoOriginGroupRecords {
   *   - `COS`: COS source.
   *   - `AWS_S3`: AWS S3 object storage origin site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#type TeoOriginGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#type TeoOriginGroup#type}
   */
   readonly type?: string;
   /**
   * The weight of the origin site, the value is 0-100. If it is not filled in, it means that the weight will not be set and the system will schedule it freely. If it is filled in with 0, it means that the weight is 0 and the traffic will not be scheduled to this origin site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#weight TeoOriginGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#weight TeoOriginGroup#weight}
   */
   readonly weight?: number;
   /**
   * private_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#private_parameters TeoOriginGroup#private_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#private_parameters TeoOriginGroup#private_parameters}
   */
   readonly privateParameters?: TeoOriginGroupRecordsPrivateParameters[] | cdktf.IResolvable;
 }
@@ -580,7 +580,7 @@ export class TeoOriginGroupRecordsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group tencentcloud_teo_origin_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group tencentcloud_teo_origin_group}
 */
 export class TeoOriginGroup extends cdktf.TerraformResource {
 
@@ -596,7 +596,7 @@ export class TeoOriginGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoOriginGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoOriginGroup to import
-  * @param importFromId The id of the existing TeoOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoOriginGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -608,7 +608,7 @@ export class TeoOriginGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/teo_origin_group tencentcloud_teo_origin_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/teo_origin_group tencentcloud_teo_origin_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -619,8 +619,8 @@ export class TeoOriginGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_origin_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

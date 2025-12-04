@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OceanusResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Folder id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#folder_id OceanusResource#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#folder_id OceanusResource#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#id OceanusResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#id OceanusResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface OceanusResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#name OceanusResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#name OceanusResource#name}
   */
   readonly name?: string;
   /**
   * Resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#remark OceanusResource#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#remark OceanusResource#remark}
   */
   readonly remark?: string;
   /**
   * Resource version description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#resource_config_remark OceanusResource#resource_config_remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#resource_config_remark OceanusResource#resource_config_remark}
   */
   readonly resourceConfigRemark?: string;
   /**
   * Resource type, only support JAR now, value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#resource_type OceanusResource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#resource_type OceanusResource#resource_type}
   */
   readonly resourceType: number;
   /**
   * Workspace serialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#work_space_id OceanusResource#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#work_space_id OceanusResource#work_space_id}
   */
   readonly workSpaceId?: string;
   /**
   * resource_loc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#resource_loc OceanusResource#resource_loc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#resource_loc OceanusResource#resource_loc}
   */
   readonly resourceLoc: OceanusResourceResourceLoc;
 }
@@ -61,19 +61,19 @@ export interface OceanusResourceResourceLocParam {
   /**
   * Resource bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#bucket OceanusResource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#bucket OceanusResource#bucket}
   */
   readonly bucket: string;
   /**
   * Resource path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#path OceanusResource#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#path OceanusResource#path}
   */
   readonly path: string;
   /**
   * Resource region, if not set, use resource region, note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#region OceanusResource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#region OceanusResource#region}
   */
   readonly region?: string;
 }
@@ -211,13 +211,13 @@ export interface OceanusResourceResourceLoc {
   /**
   * The available storage types for resource location are currently limited to 1:COS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#storage_type OceanusResource#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#storage_type OceanusResource#storage_type}
   */
   readonly storageType: number;
   /**
   * param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#param OceanusResource#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#param OceanusResource#param}
   */
   readonly param: OceanusResourceResourceLocParam;
 }
@@ -324,7 +324,7 @@ export class OceanusResourceResourceLocOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource tencentcloud_oceanus_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource tencentcloud_oceanus_resource}
 */
 export class OceanusResource extends cdktf.TerraformResource {
 
@@ -340,7 +340,7 @@ export class OceanusResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusResource to import
-  * @param importFromId The id of the existing OceanusResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class OceanusResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/oceanus_resource tencentcloud_oceanus_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/oceanus_resource tencentcloud_oceanus_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class OceanusResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

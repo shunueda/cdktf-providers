@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RecommendationHardwareExpansionRequestConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#account_moid RecommendationHardwareExpansionRequest#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#account_moid RecommendationHardwareExpansionRequest#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,17 +18,17 @@ export interface RecommendationHardwareExpansionRequestConfig extends cdktf.Terr
   * * `None` - The Enum value None represents that no action is triggered on the forecast Instance managed object.
   * * `Evaluate` - The Enum value Evaluate represents that a re-evaluation of the forecast needs to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#action RecommendationHardwareExpansionRequest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#action RecommendationHardwareExpansionRequest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#ancestors RecommendationHardwareExpansionRequest#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#ancestors RecommendationHardwareExpansionRequest#ancestors}
   */
   readonly ancestors?: RecommendationHardwareExpansionRequestAncestors[] | cdktf.IResolvable;
   /**
@@ -36,29 +36,29 @@ export interface RecommendationHardwareExpansionRequestConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#create_time RecommendationHardwareExpansionRequest#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#create_time RecommendationHardwareExpansionRequest#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#domain_group_moid RecommendationHardwareExpansionRequest#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#domain_group_moid RecommendationHardwareExpansionRequest#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * An array of relationships to recommendationHardwareExpansionRequestItem resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#hw_expansion_request_items RecommendationHardwareExpansionRequest#hw_expansion_request_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#hw_expansion_request_items RecommendationHardwareExpansionRequest#hw_expansion_request_items}
   */
   readonly hwExpansionRequestItems?: RecommendationHardwareExpansionRequestHwExpansionRequestItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#id RecommendationHardwareExpansionRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#id RecommendationHardwareExpansionRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,69 +67,69 @@ export interface RecommendationHardwareExpansionRequestConfig extends cdktf.Terr
   /**
   * User visible error message for the Hardware Expansion request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#message RecommendationHardwareExpansionRequest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#message RecommendationHardwareExpansionRequest#message}
   */
   readonly message?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#mod_time RecommendationHardwareExpansionRequest#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#mod_time RecommendationHardwareExpansionRequest#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
   * The name of the expansion specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#name RecommendationHardwareExpansionRequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#name RecommendationHardwareExpansionRequest#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#owners RecommendationHardwareExpansionRequest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#owners RecommendationHardwareExpansionRequest#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#parent RecommendationHardwareExpansionRequest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#parent RecommendationHardwareExpansionRequest#parent}
   */
   readonly parent?: RecommendationHardwareExpansionRequestParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#permission_resources RecommendationHardwareExpansionRequest#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#permission_resources RecommendationHardwareExpansionRequest#permission_resources}
   */
   readonly permissionResources?: RecommendationHardwareExpansionRequestPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#registered_device RecommendationHardwareExpansionRequest#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#registered_device RecommendationHardwareExpansionRequest#registered_device}
   */
   readonly registeredDevice?: RecommendationHardwareExpansionRequestRegisteredDevice[] | cdktf.IResolvable;
   /**
   * The time when the expansion was requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#request_time RecommendationHardwareExpansionRequest#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#request_time RecommendationHardwareExpansionRequest#request_time}
   */
   readonly requestTime?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#shared_scope RecommendationHardwareExpansionRequest#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#shared_scope RecommendationHardwareExpansionRequest#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -138,39 +138,39 @@ export interface RecommendationHardwareExpansionRequestConfig extends cdktf.Terr
   * * `Success` - The Enum value Success represents that the API call returned with success.
   * * `Fail` - The Enum value Fail represents that the API call returned with a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#status RecommendationHardwareExpansionRequest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#status RecommendationHardwareExpansionRequest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#tags RecommendationHardwareExpansionRequest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#tags RecommendationHardwareExpansionRequest#tags}
   */
   readonly tags?: RecommendationHardwareExpansionRequestTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#version_context RecommendationHardwareExpansionRequest#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#version_context RecommendationHardwareExpansionRequest#version_context}
   */
   readonly versionContext?: RecommendationHardwareExpansionRequestVersionContext[] | cdktf.IResolvable;
 }
 export interface RecommendationHardwareExpansionRequestAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -402,23 +402,23 @@ export class RecommendationHardwareExpansionRequestAncestorsList extends cdktf.C
 }
 export interface RecommendationHardwareExpansionRequestHwExpansionRequestItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -650,23 +650,23 @@ export class RecommendationHardwareExpansionRequestHwExpansionRequestItemsList e
 }
 export interface RecommendationHardwareExpansionRequestParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -898,23 +898,23 @@ export class RecommendationHardwareExpansionRequestParentList extends cdktf.Comp
 }
 export interface RecommendationHardwareExpansionRequestPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1146,23 +1146,23 @@ export class RecommendationHardwareExpansionRequestPermissionResourcesList exten
 }
 export interface RecommendationHardwareExpansionRequestRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1394,23 +1394,23 @@ export class RecommendationHardwareExpansionRequestRegisteredDeviceList extends 
 }
 export interface RecommendationHardwareExpansionRequestTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1642,23 +1642,23 @@ export class RecommendationHardwareExpansionRequestTagsAncestorDefinitionsList e
 }
 export interface RecommendationHardwareExpansionRequestTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -1890,35 +1890,35 @@ export class RecommendationHardwareExpansionRequestTagsDefinitionList extends cd
 }
 export interface RecommendationHardwareExpansionRequestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#ancestor_definitions RecommendationHardwareExpansionRequest#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#ancestor_definitions RecommendationHardwareExpansionRequest#ancestor_definitions}
   */
   readonly ancestorDefinitions?: RecommendationHardwareExpansionRequestTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#definition RecommendationHardwareExpansionRequest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#definition RecommendationHardwareExpansionRequest#definition}
   */
   readonly definition?: RecommendationHardwareExpansionRequestTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#key RecommendationHardwareExpansionRequest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#key RecommendationHardwareExpansionRequest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#propagated RecommendationHardwareExpansionRequest#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#propagated RecommendationHardwareExpansionRequest#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#sys_tag RecommendationHardwareExpansionRequest#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#sys_tag RecommendationHardwareExpansionRequest#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#type RecommendationHardwareExpansionRequest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#type RecommendationHardwareExpansionRequest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#value RecommendationHardwareExpansionRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#value RecommendationHardwareExpansionRequest#value}
   */
   readonly value?: string;
 }
@@ -2237,23 +2237,23 @@ export class RecommendationHardwareExpansionRequestTagsList extends cdktf.Comple
 }
 export interface RecommendationHardwareExpansionRequestVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2485,23 +2485,23 @@ export class RecommendationHardwareExpansionRequestVersionContextInterestedMosLi
 }
 export interface RecommendationHardwareExpansionRequestVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#moid RecommendationHardwareExpansionRequest#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#selector RecommendationHardwareExpansionRequest#selector}
   */
   readonly selector?: string;
 }
@@ -2733,39 +2733,39 @@ export class RecommendationHardwareExpansionRequestVersionContextRefMoList exten
 }
 export interface RecommendationHardwareExpansionRequestVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#additional_properties RecommendationHardwareExpansionRequest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#class_id RecommendationHardwareExpansionRequest#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#interested_mos RecommendationHardwareExpansionRequest#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#interested_mos RecommendationHardwareExpansionRequest#interested_mos}
   */
   readonly interestedMos?: RecommendationHardwareExpansionRequestVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#marked_for_deletion RecommendationHardwareExpansionRequest#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#marked_for_deletion RecommendationHardwareExpansionRequest#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#nr_version RecommendationHardwareExpansionRequest#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#nr_version RecommendationHardwareExpansionRequest#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#object_type RecommendationHardwareExpansionRequest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#ref_mo RecommendationHardwareExpansionRequest#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#ref_mo RecommendationHardwareExpansionRequest#ref_mo}
   */
   readonly refMo?: RecommendationHardwareExpansionRequestVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#timestamp RecommendationHardwareExpansionRequest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#timestamp RecommendationHardwareExpansionRequest#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#version_type RecommendationHardwareExpansionRequest#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#version_type RecommendationHardwareExpansionRequest#version_type}
   */
   readonly versionType?: string;
 }
@@ -3113,7 +3113,7 @@ export class RecommendationHardwareExpansionRequestVersionContextList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request}
 */
 export class RecommendationHardwareExpansionRequest extends cdktf.TerraformResource {
 
@@ -3129,7 +3129,7 @@ export class RecommendationHardwareExpansionRequest extends cdktf.TerraformResou
   * Generates CDKTF code for importing a RecommendationHardwareExpansionRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecommendationHardwareExpansionRequest to import
-  * @param importFromId The id of the existing RecommendationHardwareExpansionRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecommendationHardwareExpansionRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecommendationHardwareExpansionRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3141,7 +3141,7 @@ export class RecommendationHardwareExpansionRequest extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_hardware_expansion_request intersight_recommendation_hardware_expansion_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3152,8 +3152,8 @@ export class RecommendationHardwareExpansionRequest extends cdktf.TerraformResou
       terraformResourceType: 'intersight_recommendation_hardware_expansion_request',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

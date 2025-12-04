@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#cluster_data_center_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#cluster_data_center_id}
   */
   readonly clusterDataCenterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,23 +21,23 @@ export interface DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2C
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#filter DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#filter DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#filter}
   */
   readonly filter?: DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2Filter[] | cdktf.IResolvable;
   /**
   * iam_principal_arns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#iam_principal_arns DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#iam_principal_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#iam_principal_arns DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#iam_principal_arns}
   */
   readonly iamPrincipalArns?: DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2IamPrincipalArns[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#name DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#name DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#values DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#values DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#values}
   */
   readonly values: string[];
 }
@@ -178,19 +178,19 @@ export interface DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2I
   /**
   * The ID of the cluster data center.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#cluster_data_center_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#cluster_data_center_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#cluster_data_center_id}
   */
   readonly clusterDataCenterId?: string;
   /**
   * The Instaclustr ID of the AWS endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#end_point_service_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#end_point_service_id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#end_point_service_id}
   */
   readonly endPointServiceId?: string;
   /**
   * The Instaclustr ID of the IAM Principal ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#id DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ export interface DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2I
   /**
   * The IAM Principal ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#principal_arn DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#principal_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#principal_arn DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2#principal_arn}
   */
   readonly principalArn?: string;
 }
@@ -402,7 +402,7 @@ export class DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2IamPr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2 instaclustr_cluster_data_center_aws_endpoint_service_principals_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2 instaclustr_cluster_data_center_aws_endpoint_service_principals_v2}
 */
 export class DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 extends cdktf.TerraformDataSource {
 
@@ -418,7 +418,7 @@ export class DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 exte
   * Generates CDKTF code for importing a DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 to import
-  * @param importFromId The id of the existing DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +430,7 @@ export class DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2 instaclustr_cluster_data_center_aws_endpoint_service_principals_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/cluster_data_center_aws_endpoint_service_principals_v2 instaclustr_cluster_data_center_aws_endpoint_service_principals_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +441,8 @@ export class DataInstaclustrClusterDataCenterAwsEndpointServicePrincipalsV2 exte
       terraformResourceType: 'instaclustr_cluster_data_center_aws_endpoint_service_principals_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.31',
-        providerVersionConstraint: '2.1.31'
+        providerVersion: '2.1.32',
+        providerVersionConstraint: '2.1.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CapabilitySwitchCapabilityConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#account_moid CapabilitySwitchCapability#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#account_moid CapabilitySwitchCapability#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Range of port-channel IDs supported on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#allowed_uplink_pc_id_range CapabilitySwitchCapability#allowed_uplink_pc_id_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#allowed_uplink_pc_id_range CapabilitySwitchCapability#allowed_uplink_pc_id_range}
   */
   readonly allowedUplinkPcIdRange?: CapabilitySwitchCapabilityAllowedUplinkPcIdRange[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ancestors CapabilitySwitchCapability#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ancestors CapabilitySwitchCapability#ancestors}
   */
   readonly ancestors?: CapabilitySwitchCapabilityAncestors[] | cdktf.IResolvable;
   /**
@@ -34,51 +34,51 @@ export interface CapabilitySwitchCapabilityConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#create_time CapabilitySwitchCapability#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#create_time CapabilitySwitchCapability#create_time}
   */
   readonly createTime?: string;
   /**
   * Default Fcoe VLAN associated with this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#default_fcoe_vlan CapabilitySwitchCapability#default_fcoe_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#default_fcoe_vlan CapabilitySwitchCapability#default_fcoe_vlan}
   */
   readonly defaultFcoeVlan?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#domain_group_moid CapabilitySwitchCapability#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#domain_group_moid CapabilitySwitchCapability#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Dynamic VIFs support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#dynamic_vifs_supported CapabilitySwitchCapability#dynamic_vifs_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#dynamic_vifs_supported CapabilitySwitchCapability#dynamic_vifs_supported}
   */
   readonly dynamicVifsSupported?: boolean | cdktf.IResolvable;
   /**
   * Fan Modules support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#fan_modules_supported CapabilitySwitchCapability#fan_modules_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#fan_modules_supported CapabilitySwitchCapability#fan_modules_supported}
   */
   readonly fanModulesSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#fc_end_host_mode_reserved_vsans CapabilitySwitchCapability#fc_end_host_mode_reserved_vsans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#fc_end_host_mode_reserved_vsans CapabilitySwitchCapability#fc_end_host_mode_reserved_vsans}
   */
   readonly fcEndHostModeReservedVsans?: CapabilitySwitchCapabilityFcEndHostModeReservedVsans[] | cdktf.IResolvable;
   /**
   * Fc Uplink ports auto negotiation speed support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#fc_uplink_ports_auto_negotiation_supported CapabilitySwitchCapability#fc_uplink_ports_auto_negotiation_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#fc_uplink_ports_auto_negotiation_supported CapabilitySwitchCapability#fc_uplink_ports_auto_negotiation_supported}
   */
   readonly fcUplinkPortsAutoNegotiationSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#id CapabilitySwitchCapability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#id CapabilitySwitchCapability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,105 +87,105 @@ export interface CapabilitySwitchCapabilityConfig extends cdktf.TerraformMetaArg
   /**
   * VlanPort Compression is controlled by IMM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#imm_controls_vpcompression CapabilitySwitchCapability#imm_controls_vpcompression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#imm_controls_vpcompression CapabilitySwitchCapability#imm_controls_vpcompression}
   */
   readonly immControlsVpcompression?: boolean | cdktf.IResolvable;
   /**
   * Inter cluster link vlan support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#inter_cluster_link_vlan_supported CapabilitySwitchCapability#inter_cluster_link_vlan_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#inter_cluster_link_vlan_supported CapabilitySwitchCapability#inter_cluster_link_vlan_supported}
   */
   readonly interClusterLinkVlanSupported?: boolean | cdktf.IResolvable;
   /**
   * Locator Beacon LED support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#locator_beacon_supported CapabilitySwitchCapability#locator_beacon_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#locator_beacon_supported CapabilitySwitchCapability#locator_beacon_supported}
   */
   readonly locatorBeaconSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#macsec_supported_ports CapabilitySwitchCapability#macsec_supported_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#macsec_supported_ports CapabilitySwitchCapability#macsec_supported_ports}
   */
   readonly macsecSupportedPorts?: CapabilitySwitchCapabilityMacsecSupportedPorts[] | cdktf.IResolvable;
   /**
   * Maximum allowed physical ports on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#max_ports CapabilitySwitchCapability#max_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#max_ports CapabilitySwitchCapability#max_ports}
   */
   readonly maxPorts?: number;
   /**
   * Maximum allowed physical slots on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#max_slots CapabilitySwitchCapability#max_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#max_slots CapabilitySwitchCapability#max_slots}
   */
   readonly maxSlots?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#min_version_map_for_switch_features CapabilitySwitchCapability#min_version_map_for_switch_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#min_version_map_for_switch_features CapabilitySwitchCapability#min_version_map_for_switch_features}
   */
   readonly minVersionMapForSwitchFeatures?: CapabilitySwitchCapabilityMinVersionMapForSwitchFeatures[] | cdktf.IResolvable;
   /**
   * Minimum firmware version supported for breakout ports on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#min_version_map_with_breakout_support CapabilitySwitchCapability#min_version_map_with_breakout_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#min_version_map_with_breakout_support CapabilitySwitchCapability#min_version_map_with_breakout_support}
   */
   readonly minVersionMapWithBreakoutSupport?: CapabilitySwitchCapabilityMinVersionMapWithBreakoutSupport[] | cdktf.IResolvable;
   /**
   * Minimum firmware version supported for locator leds on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#min_version_map_with_locator_led_support CapabilitySwitchCapability#min_version_map_with_locator_led_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#min_version_map_with_locator_led_support CapabilitySwitchCapability#min_version_map_with_locator_led_support}
   */
   readonly minVersionMapWithLocatorLedSupport?: CapabilitySwitchCapabilityMinVersionMapWithLocatorLedSupport[] | cdktf.IResolvable;
   /**
   * Minimum firmware version supported for 'negotiate auto 25000' port admin speed on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#min_version_map_with_neg_auto25g_support CapabilitySwitchCapability#min_version_map_with_neg_auto25g_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#min_version_map_with_neg_auto25g_support CapabilitySwitchCapability#min_version_map_with_neg_auto25g_support}
   */
   readonly minVersionMapWithNegAuto25GSupport?: CapabilitySwitchCapabilityMinVersionMapWithNegAuto25GSupport[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#mod_time CapabilitySwitchCapability#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#mod_time CapabilitySwitchCapability#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#name CapabilitySwitchCapability#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#name CapabilitySwitchCapability#name}
   */
   readonly name?: string;
   /**
   * List of network limitations for this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#network_limits CapabilitySwitchCapability#network_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#network_limits CapabilitySwitchCapability#network_limits}
   */
   readonly networkLimits?: CapabilitySwitchCapabilityNetworkLimits[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#owners CapabilitySwitchCapability#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#owners CapabilitySwitchCapability#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#parent CapabilitySwitchCapability#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#parent CapabilitySwitchCapability#parent}
   */
   readonly parent?: CapabilitySwitchCapabilityParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#permission_resources CapabilitySwitchCapability#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#permission_resources CapabilitySwitchCapability#permission_resources}
   */
   readonly permissionResources?: CapabilitySwitchCapabilityPermissionResources[] | cdktf.IResolvable;
   /**
@@ -195,154 +195,162 @@ export interface CapabilitySwitchCapabilityConfig extends cdktf.TerraformMetaArg
   * * `UCS-FI-6536` - The standard 5th generation UCS Fabric Interconnect with 36 ports.
   * * `UCSX-S9108-100G` - Cisco UCS Fabric Interconnect 9108 100G with 8 ports.
   * * `UCS-FI-6664` - The standard 6th generation UCS Fabric Interconnect with 64 ports.
-  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect.
+  * * `UCS-FI-6652` - The standard 6th generation UCS Fabric Interconnect with 52 ports.
   * * `UCSXE-ECMC-10G` - Cisco UCS XE ECMC 10G with 2 ports.
   * * `UCSXE-ECMC-G1` - Cisco UCS XE ECMC G1 with 2 ports.
   * * `unknown` - Unknown device type, usage is TBD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#pid CapabilitySwitchCapability#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#pid CapabilitySwitchCapability#pid}
   */
   readonly pid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting100g_speed CapabilitySwitchCapability#ports_supporting100g_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting100g_speed CapabilitySwitchCapability#ports_supporting100g_speed}
   */
   readonly portsSupporting100GSpeed?: CapabilitySwitchCapabilityPortsSupporting100GSpeed[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting10g_speed CapabilitySwitchCapability#ports_supporting10g_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting10g_speed CapabilitySwitchCapability#ports_supporting10g_speed}
   */
   readonly portsSupporting10GSpeed?: CapabilitySwitchCapabilityPortsSupporting10GSpeed[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting1g_speed CapabilitySwitchCapability#ports_supporting1g_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting1g_speed CapabilitySwitchCapability#ports_supporting1g_speed}
   */
   readonly portsSupporting1GSpeed?: CapabilitySwitchCapabilityPortsSupporting1GSpeed[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting25g_speed CapabilitySwitchCapability#ports_supporting25g_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting25g_speed CapabilitySwitchCapability#ports_supporting25g_speed}
   */
   readonly portsSupporting25GSpeed?: CapabilitySwitchCapabilityPortsSupporting25GSpeed[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting40g_speed CapabilitySwitchCapability#ports_supporting40g_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting400g_speed CapabilitySwitchCapability#ports_supporting400g_speed}
+  */
+  readonly portsSupporting400GSpeed?: CapabilitySwitchCapabilityPortsSupporting400GSpeed[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting40g_speed CapabilitySwitchCapability#ports_supporting40g_speed}
   */
   readonly portsSupporting40GSpeed?: CapabilitySwitchCapabilityPortsSupporting40GSpeed[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting_appliance_role CapabilitySwitchCapability#ports_supporting_appliance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting50g_speed CapabilitySwitchCapability#ports_supporting50g_speed}
+  */
+  readonly portsSupporting50GSpeed?: CapabilitySwitchCapabilityPortsSupporting50GSpeed[] | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting_appliance_role CapabilitySwitchCapability#ports_supporting_appliance_role}
   */
   readonly portsSupportingApplianceRole?: CapabilitySwitchCapabilityPortsSupportingApplianceRole[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting_breakout CapabilitySwitchCapability#ports_supporting_breakout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting_breakout CapabilitySwitchCapability#ports_supporting_breakout}
   */
   readonly portsSupportingBreakout?: CapabilitySwitchCapabilityPortsSupportingBreakout[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting_fcoe CapabilitySwitchCapability#ports_supporting_fcoe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting_fcoe CapabilitySwitchCapability#ports_supporting_fcoe}
   */
   readonly portsSupportingFcoe?: CapabilitySwitchCapabilityPortsSupportingFcoe[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting_inter_cluster_link CapabilitySwitchCapability#ports_supporting_inter_cluster_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting_inter_cluster_link CapabilitySwitchCapability#ports_supporting_inter_cluster_link}
   */
   readonly portsSupportingInterClusterLink?: CapabilitySwitchCapabilityPortsSupportingInterClusterLink[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ports_supporting_server_role CapabilitySwitchCapability#ports_supporting_server_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ports_supporting_server_role CapabilitySwitchCapability#ports_supporting_server_role}
   */
   readonly portsSupportingServerRole?: CapabilitySwitchCapabilityPortsSupportingServerRole[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#reserved_vsans CapabilitySwitchCapability#reserved_vsans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#reserved_vsans CapabilitySwitchCapability#reserved_vsans}
   */
   readonly reservedVsans?: CapabilitySwitchCapabilityReservedVsans[] | cdktf.IResolvable;
   /**
   * Sereno Adaptor with Netflow support on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#sereno_netflow_supported CapabilitySwitchCapability#sereno_netflow_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#sereno_netflow_supported CapabilitySwitchCapability#sereno_netflow_supported}
   */
   readonly serenoNetflowSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#server_role_supported_on_breakout CapabilitySwitchCapability#server_role_supported_on_breakout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#server_role_supported_on_breakout CapabilitySwitchCapability#server_role_supported_on_breakout}
   */
   readonly serverRoleSupportedOnBreakout?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#shared_scope CapabilitySwitchCapability#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#shared_scope CapabilitySwitchCapability#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#sku CapabilitySwitchCapability#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#sku CapabilitySwitchCapability#sku}
   */
   readonly sku?: string;
   /**
   * List of storage limitations for this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#storage_limits CapabilitySwitchCapability#storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#storage_limits CapabilitySwitchCapability#storage_limits}
   */
   readonly storageLimits?: CapabilitySwitchCapabilityStorageLimits[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#switching_mode_capabilities CapabilitySwitchCapability#switching_mode_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#switching_mode_capabilities CapabilitySwitchCapability#switching_mode_capabilities}
   */
   readonly switchingModeCapabilities?: CapabilitySwitchCapabilitySwitchingModeCapabilities[] | cdktf.IResolvable;
   /**
   * List of system limitations for this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#system_limits CapabilitySwitchCapability#system_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#system_limits CapabilitySwitchCapability#system_limits}
   */
   readonly systemLimits?: CapabilitySwitchCapabilitySystemLimits[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#tags CapabilitySwitchCapability#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#tags CapabilitySwitchCapability#tags}
   */
   readonly tags?: CapabilitySwitchCapabilityTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#un_supported_equipment_model CapabilitySwitchCapability#un_supported_equipment_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#un_supported_equipment_model CapabilitySwitchCapability#un_supported_equipment_model}
   */
   readonly unSupportedEquipmentModel?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#unified_ports CapabilitySwitchCapability#unified_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#unified_ports CapabilitySwitchCapability#unified_ports}
   */
   readonly unifiedPorts?: CapabilitySwitchCapabilityUnifiedPorts[] | cdktf.IResolvable;
   /**
   * The Slider rule for Unified ports on this switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#unified_rule CapabilitySwitchCapability#unified_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#unified_rule CapabilitySwitchCapability#unified_rule}
   */
   readonly unifiedRule?: string;
   /**
   * 'Negotiate Auto 25000' admin speed support on this switch for port or port-channel
   * with Ethernet Uplink/Appliance/FCoE Uplink roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#uplink_admin_port_speed_neg_auto25_gbps_supported CapabilitySwitchCapability#uplink_admin_port_speed_neg_auto25_gbps_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#uplink_admin_port_speed_neg_auto25_gbps_supported CapabilitySwitchCapability#uplink_admin_port_speed_neg_auto25_gbps_supported}
   */
   readonly uplinkAdminPortSpeedNegAuto25GbpsSupported?: boolean | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#version_context CapabilitySwitchCapability#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#version_context CapabilitySwitchCapability#version_context}
   */
   readonly versionContext?: CapabilitySwitchCapabilityVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for Switch/Fabric-Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#vid CapabilitySwitchCapability#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#vid CapabilitySwitchCapability#vid}
   */
   readonly vid?: string;
 }
 export interface CapabilitySwitchCapabilityAllowedUplinkPcIdRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_pc_id CapabilitySwitchCapability#end_pc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_pc_id CapabilitySwitchCapability#end_pc_id}
   */
   readonly endPcId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_pc_id CapabilitySwitchCapability#start_pc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_pc_id CapabilitySwitchCapability#start_pc_id}
   */
   readonly startPcId?: number;
 }
@@ -574,23 +582,23 @@ export class CapabilitySwitchCapabilityAllowedUplinkPcIdRangeList extends cdktf.
 }
 export interface CapabilitySwitchCapabilityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -822,31 +830,31 @@ export class CapabilitySwitchCapabilityAncestorsList extends cdktf.ComplexList {
 }
 export interface CapabilitySwitchCapabilityFcEndHostModeReservedVsans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -1136,31 +1144,31 @@ export class CapabilitySwitchCapabilityFcEndHostModeReservedVsansList extends cd
 }
 export interface CapabilitySwitchCapabilityMacsecSupportedPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -1450,23 +1458,23 @@ export class CapabilitySwitchCapabilityMacsecSupportedPortsList extends cdktf.Co
 }
 export interface CapabilitySwitchCapabilityMinVersionMapForSwitchFeaturesVersionMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
   */
   readonly deviceFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -1698,23 +1706,23 @@ export class CapabilitySwitchCapabilityMinVersionMapForSwitchFeaturesVersionMapL
 }
 export interface CapabilitySwitchCapabilityMinVersionMapForSwitchFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#feature_name CapabilitySwitchCapability#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#feature_name CapabilitySwitchCapability#feature_name}
   */
   readonly featureName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#version_map CapabilitySwitchCapability#version_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#version_map CapabilitySwitchCapability#version_map}
   */
   readonly versionMap?: CapabilitySwitchCapabilityMinVersionMapForSwitchFeaturesVersionMap[] | cdktf.IResolvable;
 }
@@ -1946,23 +1954,23 @@ export class CapabilitySwitchCapabilityMinVersionMapForSwitchFeaturesList extend
 }
 export interface CapabilitySwitchCapabilityMinVersionMapWithBreakoutSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
   */
   readonly deviceFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -2194,23 +2202,23 @@ export class CapabilitySwitchCapabilityMinVersionMapWithBreakoutSupportList exte
 }
 export interface CapabilitySwitchCapabilityMinVersionMapWithLocatorLedSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
   */
   readonly deviceFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -2442,23 +2450,23 @@ export class CapabilitySwitchCapabilityMinVersionMapWithLocatorLedSupportList ex
 }
 export interface CapabilitySwitchCapabilityMinVersionMapWithNegAuto25GSupport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#bundle_version CapabilitySwitchCapability#bundle_version}
   */
   readonly bundleVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#device_firmware_version CapabilitySwitchCapability#device_firmware_version}
   */
   readonly deviceFirmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -2690,75 +2698,75 @@ export class CapabilitySwitchCapabilityMinVersionMapWithNegAuto25GSupportList ex
 }
 export interface CapabilitySwitchCapabilityNetworkLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#max_compressed_port_vlan_count CapabilitySwitchCapability#max_compressed_port_vlan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#max_compressed_port_vlan_count CapabilitySwitchCapability#max_compressed_port_vlan_count}
   */
   readonly maxCompressedPortVlanCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#max_uncompressed_port_vlan_count CapabilitySwitchCapability#max_uncompressed_port_vlan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#max_uncompressed_port_vlan_count CapabilitySwitchCapability#max_uncompressed_port_vlan_count}
   */
   readonly maxUncompressedPortVlanCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_active_traffic_monitoring_sessions CapabilitySwitchCapability#maximum_active_traffic_monitoring_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_active_traffic_monitoring_sessions CapabilitySwitchCapability#maximum_active_traffic_monitoring_sessions}
   */
   readonly maximumActiveTrafficMonitoringSessions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_ethernet_port_channels CapabilitySwitchCapability#maximum_ethernet_port_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_ethernet_port_channels CapabilitySwitchCapability#maximum_ethernet_port_channels}
   */
   readonly maximumEthernetPortChannels?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_ethernet_uplink_ports CapabilitySwitchCapability#maximum_ethernet_uplink_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_ethernet_uplink_ports CapabilitySwitchCapability#maximum_ethernet_uplink_ports}
   */
   readonly maximumEthernetUplinkPorts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_fc_port_channel_members CapabilitySwitchCapability#maximum_fc_port_channel_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_fc_port_channel_members CapabilitySwitchCapability#maximum_fc_port_channel_members}
   */
   readonly maximumFcPortChannelMembers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_fc_port_channels CapabilitySwitchCapability#maximum_fc_port_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_fc_port_channels CapabilitySwitchCapability#maximum_fc_port_channels}
   */
   readonly maximumFcPortChannels?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_igmp_groups CapabilitySwitchCapability#maximum_igmp_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_igmp_groups CapabilitySwitchCapability#maximum_igmp_groups}
   */
   readonly maximumIgmpGroups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_port_channel_members CapabilitySwitchCapability#maximum_port_channel_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_port_channel_members CapabilitySwitchCapability#maximum_port_channel_members}
   */
   readonly maximumPortChannelMembers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_primary_vlan CapabilitySwitchCapability#maximum_primary_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_primary_vlan CapabilitySwitchCapability#maximum_primary_vlan}
   */
   readonly maximumPrimaryVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_secondary_vlan CapabilitySwitchCapability#maximum_secondary_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_secondary_vlan CapabilitySwitchCapability#maximum_secondary_vlan}
   */
   readonly maximumSecondaryVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_secondary_vlan_per_primary CapabilitySwitchCapability#maximum_secondary_vlan_per_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_secondary_vlan_per_primary CapabilitySwitchCapability#maximum_secondary_vlan_per_primary}
   */
   readonly maximumSecondaryVlanPerPrimary?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_vifs CapabilitySwitchCapability#maximum_vifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_vifs CapabilitySwitchCapability#maximum_vifs}
   */
   readonly maximumVifs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_vlans CapabilitySwitchCapability#maximum_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_vlans CapabilitySwitchCapability#maximum_vlans}
   */
   readonly maximumVlans?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#minimum_active_fans CapabilitySwitchCapability#minimum_active_fans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#minimum_active_fans CapabilitySwitchCapability#minimum_active_fans}
   */
   readonly minimumActiveFans?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -3367,23 +3375,23 @@ export class CapabilitySwitchCapabilityNetworkLimitsList extends cdktf.ComplexLi
 }
 export interface CapabilitySwitchCapabilityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -3615,23 +3623,23 @@ export class CapabilitySwitchCapabilityParentList extends cdktf.ComplexList {
 }
 export interface CapabilitySwitchCapabilityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -3863,31 +3871,31 @@ export class CapabilitySwitchCapabilityPermissionResourcesList extends cdktf.Com
 }
 export interface CapabilitySwitchCapabilityPortsSupporting100GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -4177,31 +4185,31 @@ export class CapabilitySwitchCapabilityPortsSupporting100GSpeedList extends cdkt
 }
 export interface CapabilitySwitchCapabilityPortsSupporting10GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -4491,31 +4499,31 @@ export class CapabilitySwitchCapabilityPortsSupporting10GSpeedList extends cdktf
 }
 export interface CapabilitySwitchCapabilityPortsSupporting1GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -4805,31 +4813,31 @@ export class CapabilitySwitchCapabilityPortsSupporting1GSpeedList extends cdktf.
 }
 export interface CapabilitySwitchCapabilityPortsSupporting25GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -5117,33 +5125,347 @@ export class CapabilitySwitchCapabilityPortsSupporting25GSpeedList extends cdktf
     return new CapabilitySwitchCapabilityPortsSupporting25GSpeedOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface CapabilitySwitchCapabilityPortsSupporting40GSpeed {
+export interface CapabilitySwitchCapabilityPortsSupporting400GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  */
+  readonly startSlotId?: number;
+}
+
+export function capabilitySwitchCapabilityPortsSupporting400GSpeedToTerraform(struct?: CapabilitySwitchCapabilityPortsSupporting400GSpeed | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    end_port_id: cdktf.numberToTerraform(struct!.endPortId),
+    end_slot_id: cdktf.numberToTerraform(struct!.endSlotId),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    start_port_id: cdktf.numberToTerraform(struct!.startPortId),
+    start_slot_id: cdktf.numberToTerraform(struct!.startSlotId),
+  }
+}
+
+
+export function capabilitySwitchCapabilityPortsSupporting400GSpeedToHclTerraform(struct?: CapabilitySwitchCapabilityPortsSupporting400GSpeed | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    end_port_id: {
+      value: cdktf.numberToHclTerraform(struct!.endPortId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    end_slot_id: {
+      value: cdktf.numberToHclTerraform(struct!.endSlotId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_port_id: {
+      value: cdktf.numberToHclTerraform(struct!.startPortId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    start_slot_id: {
+      value: cdktf.numberToHclTerraform(struct!.startSlotId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CapabilitySwitchCapabilityPortsSupporting400GSpeedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CapabilitySwitchCapabilityPortsSupporting400GSpeed | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._endPortId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endPortId = this._endPortId;
+    }
+    if (this._endSlotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endSlotId = this._endSlotId;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._startPortId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startPortId = this._startPortId;
+    }
+    if (this._startSlotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startSlotId = this._startSlotId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CapabilitySwitchCapabilityPortsSupporting400GSpeed | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._endPortId = undefined;
+      this._endSlotId = undefined;
+      this._objectType = undefined;
+      this._startPortId = undefined;
+      this._startSlotId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._endPortId = value.endPortId;
+      this._endSlotId = value.endSlotId;
+      this._objectType = value.objectType;
+      this._startPortId = value.startPortId;
+      this._startSlotId = value.startSlotId;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // end_port_id - computed: true, optional: true, required: false
+  private _endPortId?: number; 
+  public get endPortId() {
+    return this.getNumberAttribute('end_port_id');
+  }
+  public set endPortId(value: number) {
+    this._endPortId = value;
+  }
+  public resetEndPortId() {
+    this._endPortId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endPortIdInput() {
+    return this._endPortId;
+  }
+
+  // end_slot_id - computed: true, optional: true, required: false
+  private _endSlotId?: number; 
+  public get endSlotId() {
+    return this.getNumberAttribute('end_slot_id');
+  }
+  public set endSlotId(value: number) {
+    this._endSlotId = value;
+  }
+  public resetEndSlotId() {
+    this._endSlotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endSlotIdInput() {
+    return this._endSlotId;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // start_port_id - computed: true, optional: true, required: false
+  private _startPortId?: number; 
+  public get startPortId() {
+    return this.getNumberAttribute('start_port_id');
+  }
+  public set startPortId(value: number) {
+    this._startPortId = value;
+  }
+  public resetStartPortId() {
+    this._startPortId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startPortIdInput() {
+    return this._startPortId;
+  }
+
+  // start_slot_id - computed: true, optional: true, required: false
+  private _startSlotId?: number; 
+  public get startSlotId() {
+    return this.getNumberAttribute('start_slot_id');
+  }
+  public set startSlotId(value: number) {
+    this._startSlotId = value;
+  }
+  public resetStartSlotId() {
+    this._startSlotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startSlotIdInput() {
+    return this._startSlotId;
+  }
+}
+
+export class CapabilitySwitchCapabilityPortsSupporting400GSpeedList extends cdktf.ComplexList {
+  public internalValue? : CapabilitySwitchCapabilityPortsSupporting400GSpeed[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CapabilitySwitchCapabilityPortsSupporting400GSpeedOutputReference {
+    return new CapabilitySwitchCapabilityPortsSupporting400GSpeedOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CapabilitySwitchCapabilityPortsSupporting40GSpeed {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  */
+  readonly endPortId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  */
+  readonly endSlotId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  */
+  readonly startPortId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -5431,33 +5753,347 @@ export class CapabilitySwitchCapabilityPortsSupporting40GSpeedList extends cdktf
     return new CapabilitySwitchCapabilityPortsSupporting40GSpeedOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface CapabilitySwitchCapabilityPortsSupportingApplianceRole {
+export interface CapabilitySwitchCapabilityPortsSupporting50GSpeed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  */
+  readonly startSlotId?: number;
+}
+
+export function capabilitySwitchCapabilityPortsSupporting50GSpeedToTerraform(struct?: CapabilitySwitchCapabilityPortsSupporting50GSpeed | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
+    class_id: cdktf.stringToTerraform(struct!.classId),
+    end_port_id: cdktf.numberToTerraform(struct!.endPortId),
+    end_slot_id: cdktf.numberToTerraform(struct!.endSlotId),
+    object_type: cdktf.stringToTerraform(struct!.objectType),
+    start_port_id: cdktf.numberToTerraform(struct!.startPortId),
+    start_slot_id: cdktf.numberToTerraform(struct!.startSlotId),
+  }
+}
+
+
+export function capabilitySwitchCapabilityPortsSupporting50GSpeedToHclTerraform(struct?: CapabilitySwitchCapabilityPortsSupporting50GSpeed | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    additional_properties: {
+      value: cdktf.stringToHclTerraform(struct!.additionalProperties),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    class_id: {
+      value: cdktf.stringToHclTerraform(struct!.classId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    end_port_id: {
+      value: cdktf.numberToHclTerraform(struct!.endPortId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    end_slot_id: {
+      value: cdktf.numberToHclTerraform(struct!.endSlotId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    object_type: {
+      value: cdktf.stringToHclTerraform(struct!.objectType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    start_port_id: {
+      value: cdktf.numberToHclTerraform(struct!.startPortId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    start_slot_id: {
+      value: cdktf.numberToHclTerraform(struct!.startSlotId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CapabilitySwitchCapabilityPortsSupporting50GSpeedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CapabilitySwitchCapabilityPortsSupporting50GSpeed | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._additionalProperties !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.additionalProperties = this._additionalProperties;
+    }
+    if (this._classId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classId = this._classId;
+    }
+    if (this._endPortId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endPortId = this._endPortId;
+    }
+    if (this._endSlotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endSlotId = this._endSlotId;
+    }
+    if (this._objectType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.objectType = this._objectType;
+    }
+    if (this._startPortId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startPortId = this._startPortId;
+    }
+    if (this._startSlotId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startSlotId = this._startSlotId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CapabilitySwitchCapabilityPortsSupporting50GSpeed | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._additionalProperties = undefined;
+      this._classId = undefined;
+      this._endPortId = undefined;
+      this._endSlotId = undefined;
+      this._objectType = undefined;
+      this._startPortId = undefined;
+      this._startSlotId = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._additionalProperties = value.additionalProperties;
+      this._classId = value.classId;
+      this._endPortId = value.endPortId;
+      this._endSlotId = value.endSlotId;
+      this._objectType = value.objectType;
+      this._startPortId = value.startPortId;
+      this._startSlotId = value.startSlotId;
+    }
+  }
+
+  // additional_properties - computed: true, optional: true, required: false
+  private _additionalProperties?: string; 
+  public get additionalProperties() {
+    return this.getStringAttribute('additional_properties');
+  }
+  public set additionalProperties(value: string) {
+    this._additionalProperties = value;
+  }
+  public resetAdditionalProperties() {
+    this._additionalProperties = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get additionalPropertiesInput() {
+    return this._additionalProperties;
+  }
+
+  // class_id - computed: true, optional: true, required: false
+  private _classId?: string; 
+  public get classId() {
+    return this.getStringAttribute('class_id');
+  }
+  public set classId(value: string) {
+    this._classId = value;
+  }
+  public resetClassId() {
+    this._classId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classIdInput() {
+    return this._classId;
+  }
+
+  // end_port_id - computed: true, optional: true, required: false
+  private _endPortId?: number; 
+  public get endPortId() {
+    return this.getNumberAttribute('end_port_id');
+  }
+  public set endPortId(value: number) {
+    this._endPortId = value;
+  }
+  public resetEndPortId() {
+    this._endPortId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endPortIdInput() {
+    return this._endPortId;
+  }
+
+  // end_slot_id - computed: true, optional: true, required: false
+  private _endSlotId?: number; 
+  public get endSlotId() {
+    return this.getNumberAttribute('end_slot_id');
+  }
+  public set endSlotId(value: number) {
+    this._endSlotId = value;
+  }
+  public resetEndSlotId() {
+    this._endSlotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endSlotIdInput() {
+    return this._endSlotId;
+  }
+
+  // object_type - computed: true, optional: true, required: false
+  private _objectType?: string; 
+  public get objectType() {
+    return this.getStringAttribute('object_type');
+  }
+  public set objectType(value: string) {
+    this._objectType = value;
+  }
+  public resetObjectType() {
+    this._objectType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get objectTypeInput() {
+    return this._objectType;
+  }
+
+  // start_port_id - computed: true, optional: true, required: false
+  private _startPortId?: number; 
+  public get startPortId() {
+    return this.getNumberAttribute('start_port_id');
+  }
+  public set startPortId(value: number) {
+    this._startPortId = value;
+  }
+  public resetStartPortId() {
+    this._startPortId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startPortIdInput() {
+    return this._startPortId;
+  }
+
+  // start_slot_id - computed: true, optional: true, required: false
+  private _startSlotId?: number; 
+  public get startSlotId() {
+    return this.getNumberAttribute('start_slot_id');
+  }
+  public set startSlotId(value: number) {
+    this._startSlotId = value;
+  }
+  public resetStartSlotId() {
+    this._startSlotId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startSlotIdInput() {
+    return this._startSlotId;
+  }
+}
+
+export class CapabilitySwitchCapabilityPortsSupporting50GSpeedList extends cdktf.ComplexList {
+  public internalValue? : CapabilitySwitchCapabilityPortsSupporting50GSpeed[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CapabilitySwitchCapabilityPortsSupporting50GSpeedOutputReference {
+    return new CapabilitySwitchCapabilityPortsSupporting50GSpeedOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CapabilitySwitchCapabilityPortsSupportingApplianceRole {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  */
+  readonly additionalProperties?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  */
+  readonly classId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  */
+  readonly endPortId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  */
+  readonly endSlotId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  */
+  readonly objectType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  */
+  readonly startPortId?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -5747,31 +6383,31 @@ export class CapabilitySwitchCapabilityPortsSupportingApplianceRoleList extends 
 }
 export interface CapabilitySwitchCapabilityPortsSupportingBreakout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -6061,31 +6697,31 @@ export class CapabilitySwitchCapabilityPortsSupportingBreakoutList extends cdktf
 }
 export interface CapabilitySwitchCapabilityPortsSupportingFcoe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -6375,31 +7011,31 @@ export class CapabilitySwitchCapabilityPortsSupportingFcoeList extends cdktf.Com
 }
 export interface CapabilitySwitchCapabilityPortsSupportingInterClusterLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -6689,31 +7325,31 @@ export class CapabilitySwitchCapabilityPortsSupportingInterClusterLinkList exten
 }
 export interface CapabilitySwitchCapabilityPortsSupportingServerRole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -7003,31 +7639,31 @@ export class CapabilitySwitchCapabilityPortsSupportingServerRoleList extends cdk
 }
 export interface CapabilitySwitchCapabilityReservedVsans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -7317,35 +7953,35 @@ export class CapabilitySwitchCapabilityReservedVsansList extends cdktf.ComplexLi
 }
 export interface CapabilitySwitchCapabilityStorageLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_user_zone_count CapabilitySwitchCapability#maximum_user_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_user_zone_count CapabilitySwitchCapability#maximum_user_zone_count}
   */
   readonly maximumUserZoneCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_virtual_fc_interfaces CapabilitySwitchCapability#maximum_virtual_fc_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_virtual_fc_interfaces CapabilitySwitchCapability#maximum_virtual_fc_interfaces}
   */
   readonly maximumVirtualFcInterfaces?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_virtual_fc_interfaces_per_blade_server CapabilitySwitchCapability#maximum_virtual_fc_interfaces_per_blade_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_virtual_fc_interfaces_per_blade_server CapabilitySwitchCapability#maximum_virtual_fc_interfaces_per_blade_server}
   */
   readonly maximumVirtualFcInterfacesPerBladeServer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_vsans CapabilitySwitchCapability#maximum_vsans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_vsans CapabilitySwitchCapability#maximum_vsans}
   */
   readonly maximumVsans?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_zone_count CapabilitySwitchCapability#maximum_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_zone_count CapabilitySwitchCapability#maximum_zone_count}
   */
   readonly maximumZoneCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -7664,23 +8300,23 @@ export class CapabilitySwitchCapabilityStorageLimitsList extends cdktf.ComplexLi
 }
 export interface CapabilitySwitchCapabilitySwitchingModeCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#switching_mode CapabilitySwitchCapability#switching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#switching_mode CapabilitySwitchCapability#switching_mode}
   */
   readonly switchingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#vp_compression_supported CapabilitySwitchCapability#vp_compression_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#vp_compression_supported CapabilitySwitchCapability#vp_compression_supported}
   */
   readonly vpCompressionSupported?: boolean | cdktf.IResolvable;
 }
@@ -7912,27 +8548,27 @@ export class CapabilitySwitchCapabilitySwitchingModeCapabilitiesList extends cdk
 }
 export interface CapabilitySwitchCapabilitySystemLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_chassis_count CapabilitySwitchCapability#maximum_chassis_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_chassis_count CapabilitySwitchCapability#maximum_chassis_count}
   */
   readonly maximumChassisCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_fex_per_domain CapabilitySwitchCapability#maximum_fex_per_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_fex_per_domain CapabilitySwitchCapability#maximum_fex_per_domain}
   */
   readonly maximumFexPerDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#maximum_servers_per_domain CapabilitySwitchCapability#maximum_servers_per_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#maximum_servers_per_domain CapabilitySwitchCapability#maximum_servers_per_domain}
   */
   readonly maximumServersPerDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
 }
@@ -8193,23 +8829,23 @@ export class CapabilitySwitchCapabilitySystemLimitsList extends cdktf.ComplexLis
 }
 export interface CapabilitySwitchCapabilityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -8441,23 +9077,23 @@ export class CapabilitySwitchCapabilityTagsAncestorDefinitionsList extends cdktf
 }
 export interface CapabilitySwitchCapabilityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -8689,35 +9325,35 @@ export class CapabilitySwitchCapabilityTagsDefinitionList extends cdktf.ComplexL
 }
 export interface CapabilitySwitchCapabilityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ancestor_definitions CapabilitySwitchCapability#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ancestor_definitions CapabilitySwitchCapability#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilitySwitchCapabilityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#definition CapabilitySwitchCapability#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#definition CapabilitySwitchCapability#definition}
   */
   readonly definition?: CapabilitySwitchCapabilityTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#key CapabilitySwitchCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#key CapabilitySwitchCapability#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#propagated CapabilitySwitchCapability#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#propagated CapabilitySwitchCapability#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#sys_tag CapabilitySwitchCapability#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#sys_tag CapabilitySwitchCapability#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#type CapabilitySwitchCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#type CapabilitySwitchCapability#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#value CapabilitySwitchCapability#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#value CapabilitySwitchCapability#value}
   */
   readonly value?: string;
 }
@@ -9036,31 +9672,31 @@ export class CapabilitySwitchCapabilityTagsList extends cdktf.ComplexList {
 }
 export interface CapabilitySwitchCapabilityUnifiedPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_port_id CapabilitySwitchCapability#end_port_id}
   */
   readonly endPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#end_slot_id CapabilitySwitchCapability#end_slot_id}
   */
   readonly endSlotId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_port_id CapabilitySwitchCapability#start_port_id}
   */
   readonly startPortId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#start_slot_id CapabilitySwitchCapability#start_slot_id}
   */
   readonly startSlotId?: number;
 }
@@ -9350,23 +9986,23 @@ export class CapabilitySwitchCapabilityUnifiedPortsList extends cdktf.ComplexLis
 }
 export interface CapabilitySwitchCapabilityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -9598,23 +10234,23 @@ export class CapabilitySwitchCapabilityVersionContextInterestedMosList extends c
 }
 export interface CapabilitySwitchCapabilityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#moid CapabilitySwitchCapability#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#selector CapabilitySwitchCapability#selector}
   */
   readonly selector?: string;
 }
@@ -9846,39 +10482,39 @@ export class CapabilitySwitchCapabilityVersionContextRefMoList extends cdktf.Com
 }
 export interface CapabilitySwitchCapabilityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#additional_properties CapabilitySwitchCapability#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#class_id CapabilitySwitchCapability#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#interested_mos CapabilitySwitchCapability#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#interested_mos CapabilitySwitchCapability#interested_mos}
   */
   readonly interestedMos?: CapabilitySwitchCapabilityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#marked_for_deletion CapabilitySwitchCapability#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#marked_for_deletion CapabilitySwitchCapability#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#nr_version CapabilitySwitchCapability#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#nr_version CapabilitySwitchCapability#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#object_type CapabilitySwitchCapability#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#ref_mo CapabilitySwitchCapability#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#ref_mo CapabilitySwitchCapability#ref_mo}
   */
   readonly refMo?: CapabilitySwitchCapabilityVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#timestamp CapabilitySwitchCapability#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#timestamp CapabilitySwitchCapability#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#version_type CapabilitySwitchCapability#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#version_type CapabilitySwitchCapability#version_type}
   */
   readonly versionType?: string;
 }
@@ -10226,7 +10862,7 @@ export class CapabilitySwitchCapabilityVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability intersight_capability_switch_capability}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability intersight_capability_switch_capability}
 */
 export class CapabilitySwitchCapability extends cdktf.TerraformResource {
 
@@ -10242,7 +10878,7 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilitySwitchCapability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilitySwitchCapability to import
-  * @param importFromId The id of the existing CapabilitySwitchCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilitySwitchCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilitySwitchCapability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10254,7 +10890,7 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_switch_capability intersight_capability_switch_capability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_switch_capability intersight_capability_switch_capability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10265,8 +10901,8 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_switch_capability',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -10312,7 +10948,9 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
     this._portsSupporting10GSpeed.internalValue = config.portsSupporting10GSpeed;
     this._portsSupporting1GSpeed.internalValue = config.portsSupporting1GSpeed;
     this._portsSupporting25GSpeed.internalValue = config.portsSupporting25GSpeed;
+    this._portsSupporting400GSpeed.internalValue = config.portsSupporting400GSpeed;
     this._portsSupporting40GSpeed.internalValue = config.portsSupporting40GSpeed;
+    this._portsSupporting50GSpeed.internalValue = config.portsSupporting50GSpeed;
     this._portsSupportingApplianceRole.internalValue = config.portsSupportingApplianceRole;
     this._portsSupportingBreakout.internalValue = config.portsSupportingBreakout;
     this._portsSupportingFcoe.internalValue = config.portsSupportingFcoe;
@@ -10915,6 +11553,22 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
     return this._portsSupporting25GSpeed.internalValue;
   }
 
+  // ports_supporting400g_speed - computed: true, optional: true, required: false
+  private _portsSupporting400GSpeed = new CapabilitySwitchCapabilityPortsSupporting400GSpeedList(this, "ports_supporting400g_speed", false);
+  public get portsSupporting400GSpeed() {
+    return this._portsSupporting400GSpeed;
+  }
+  public putPortsSupporting400GSpeed(value: CapabilitySwitchCapabilityPortsSupporting400GSpeed[] | cdktf.IResolvable) {
+    this._portsSupporting400GSpeed.internalValue = value;
+  }
+  public resetPortsSupporting400GSpeed() {
+    this._portsSupporting400GSpeed.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsSupporting400GSpeedInput() {
+    return this._portsSupporting400GSpeed.internalValue;
+  }
+
   // ports_supporting40g_speed - computed: true, optional: true, required: false
   private _portsSupporting40GSpeed = new CapabilitySwitchCapabilityPortsSupporting40GSpeedList(this, "ports_supporting40g_speed", false);
   public get portsSupporting40GSpeed() {
@@ -10929,6 +11583,22 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get portsSupporting40GSpeedInput() {
     return this._portsSupporting40GSpeed.internalValue;
+  }
+
+  // ports_supporting50g_speed - computed: true, optional: true, required: false
+  private _portsSupporting50GSpeed = new CapabilitySwitchCapabilityPortsSupporting50GSpeedList(this, "ports_supporting50g_speed", false);
+  public get portsSupporting50GSpeed() {
+    return this._portsSupporting50GSpeed;
+  }
+  public putPortsSupporting50GSpeed(value: CapabilitySwitchCapabilityPortsSupporting50GSpeed[] | cdktf.IResolvable) {
+    this._portsSupporting50GSpeed.internalValue = value;
+  }
+  public resetPortsSupporting50GSpeed() {
+    this._portsSupporting50GSpeed.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portsSupporting50GSpeedInput() {
+    return this._portsSupporting50GSpeed.internalValue;
   }
 
   // ports_supporting_appliance_role - computed: true, optional: true, required: false
@@ -11293,7 +11963,9 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
       ports_supporting10g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting10GSpeedToTerraform, false)(this._portsSupporting10GSpeed.internalValue),
       ports_supporting1g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting1GSpeedToTerraform, false)(this._portsSupporting1GSpeed.internalValue),
       ports_supporting25g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting25GSpeedToTerraform, false)(this._portsSupporting25GSpeed.internalValue),
+      ports_supporting400g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting400GSpeedToTerraform, false)(this._portsSupporting400GSpeed.internalValue),
       ports_supporting40g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting40GSpeedToTerraform, false)(this._portsSupporting40GSpeed.internalValue),
+      ports_supporting50g_speed: cdktf.listMapper(capabilitySwitchCapabilityPortsSupporting50GSpeedToTerraform, false)(this._portsSupporting50GSpeed.internalValue),
       ports_supporting_appliance_role: cdktf.listMapper(capabilitySwitchCapabilityPortsSupportingApplianceRoleToTerraform, false)(this._portsSupportingApplianceRole.internalValue),
       ports_supporting_breakout: cdktf.listMapper(capabilitySwitchCapabilityPortsSupportingBreakoutToTerraform, false)(this._portsSupportingBreakout.internalValue),
       ports_supporting_fcoe: cdktf.listMapper(capabilitySwitchCapabilityPortsSupportingFcoeToTerraform, false)(this._portsSupportingFcoe.internalValue),
@@ -11535,11 +12207,23 @@ export class CapabilitySwitchCapability extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "CapabilitySwitchCapabilityPortsSupporting25GSpeedList",
       },
+      ports_supporting400g_speed: {
+        value: cdktf.listMapperHcl(capabilitySwitchCapabilityPortsSupporting400GSpeedToHclTerraform, false)(this._portsSupporting400GSpeed.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CapabilitySwitchCapabilityPortsSupporting400GSpeedList",
+      },
       ports_supporting40g_speed: {
         value: cdktf.listMapperHcl(capabilitySwitchCapabilityPortsSupporting40GSpeedToHclTerraform, false)(this._portsSupporting40GSpeed.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "CapabilitySwitchCapabilityPortsSupporting40GSpeedList",
+      },
+      ports_supporting50g_speed: {
+        value: cdktf.listMapperHcl(capabilitySwitchCapabilityPortsSupporting50GSpeedToHclTerraform, false)(this._portsSupporting50GSpeed.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "CapabilitySwitchCapabilityPortsSupporting50GSpeedList",
       },
       ports_supporting_appliance_role: {
         value: cdktf.listMapperHcl(capabilitySwitchCapabilityPortsSupportingApplianceRoleToHclTerraform, false)(this._portsSupportingApplianceRole.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VodProcedureTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Template description. Length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#comment VodProcedureTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#comment VodProcedureTemplate#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#id VodProcedureTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#id VodProcedureTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VodProcedureTemplateConfig extends cdktf.TerraformMetaArguments
   /**
   * Task flow name (up to 20 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#name VodProcedureTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#name VodProcedureTemplate#name}
   */
   readonly name: string;
   /**
   * The VOD [application](https://intl.cloud.tencent.com/document/product/266/14574) ID. For customers who activate VOD service from December 25, 2023, if they want to access resources in a VOD application (whether it's the default application or a newly created one), they must fill in this field with the application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#sub_app_id VodProcedureTemplate#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#sub_app_id VodProcedureTemplate#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * ai_analysis_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#ai_analysis_task VodProcedureTemplate#ai_analysis_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#ai_analysis_task VodProcedureTemplate#ai_analysis_task}
   */
   readonly aiAnalysisTask?: VodProcedureTemplateAiAnalysisTask;
   /**
   * ai_recognition_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#ai_recognition_task VodProcedureTemplate#ai_recognition_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#ai_recognition_task VodProcedureTemplate#ai_recognition_task}
   */
   readonly aiRecognitionTask?: VodProcedureTemplateAiRecognitionTask;
   /**
   * media_process_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#media_process_task VodProcedureTemplate#media_process_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#media_process_task VodProcedureTemplate#media_process_task}
   */
   readonly mediaProcessTask?: VodProcedureTemplateMediaProcessTask;
   /**
   * review_audio_video_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#review_audio_video_task VodProcedureTemplate#review_audio_video_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#review_audio_video_task VodProcedureTemplate#review_audio_video_task}
   */
   readonly reviewAudioVideoTask?: VodProcedureTemplateReviewAudioVideoTask;
 }
@@ -61,7 +61,7 @@ export interface VodProcedureTemplateAiAnalysisTask {
   /**
   * Video content analysis template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition?: string;
 }
@@ -147,7 +147,7 @@ export interface VodProcedureTemplateAiRecognitionTask {
   /**
   * Intelligent video recognition template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition?: string;
 }
@@ -233,31 +233,31 @@ export interface VodProcedureTemplateMediaProcessTaskAdaptiveDynamicStreamingTas
   /**
   * Watermarking template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will exist till the last video frame; If this value is greater than `0` (e.g., n), the watermark will exist till second n; If this value is smaller than `0` (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame; If this value is greater than `0` (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to `2000000` characters. This needs to be entered only when the watermark type is `SVG`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to `100` characters. This needs to be entered only when the watermark type is text. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
   */
   readonly textContent?: string;
 }
@@ -488,19 +488,19 @@ export interface VodProcedureTemplateMediaProcessTaskAdaptiveDynamicStreamingTas
   /**
   * Adaptive bitrate streaming template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * Subtitle list, element is subtitle ID, support multiple subtitles, up to 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#subtitle_list VodProcedureTemplate#subtitle_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#subtitle_list VodProcedureTemplate#subtitle_list}
   */
   readonly subtitleList?: string[];
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
   */
   readonly watermarkList?: VodProcedureTemplateMediaProcessTaskAdaptiveDynamicStreamingTaskListWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -673,19 +673,19 @@ export interface VodProcedureTemplateMediaProcessTaskAnimatedGraphicTaskListStru
   /**
   * Animated image generating template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time of animated image in video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset: number;
   /**
   * Start time of animated image in video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset: number;
 }
@@ -852,31 +852,31 @@ export interface VodProcedureTemplateMediaProcessTaskCoverBySnapshotTaskListWate
   /**
   * Watermarking template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will exist till the last video frame; If this value is greater than `0` (e.g., n), the watermark will exist till second n; If this value is smaller than `0` (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame; If this value is greater than `0` (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to `2000000` characters. This needs to be entered only when the watermark type is `SVG`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to `100` characters. This needs to be entered only when the watermark type is text. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
   */
   readonly textContent?: string;
 }
@@ -1107,25 +1107,25 @@ export interface VodProcedureTemplateMediaProcessTaskCoverBySnapshotTaskListStru
   /**
   * Time point screen capturing template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * Screen capturing mode. Valid values: `Time`, `Percent`. `Time`: screen captures by time point, `Percent`: screen captures by percentage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#position_type VodProcedureTemplate#position_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#position_type VodProcedureTemplate#position_type}
   */
   readonly positionType: string;
   /**
   * Screenshot position: For time point screen capturing, this means to take a screenshot at a specified time point (in seconds) and use it as the cover. For percentage screen capturing, this value means to take a screenshot at a specified percentage of the video duration and use it as the cover.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#position_value VodProcedureTemplate#position_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#position_value VodProcedureTemplate#position_value}
   */
   readonly positionValue: number;
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
   */
   readonly watermarkList?: VodProcedureTemplateMediaProcessTaskCoverBySnapshotTaskListWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -1321,7 +1321,7 @@ export interface VodProcedureTemplateMediaProcessTaskImageSpriteTaskListStruct {
   /**
   * Image sprite generating template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
 }
@@ -1436,31 +1436,31 @@ export interface VodProcedureTemplateMediaProcessTaskSampleSnapshotTaskListWater
   /**
   * Watermarking template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will exist till the last video frame; If this value is greater than `0` (e.g., n), the watermark will exist till second n; If this value is smaller than `0` (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame; If this value is greater than `0` (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to `2000000` characters. This needs to be entered only when the watermark type is `SVG`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to `100` characters. This needs to be entered only when the watermark type is text. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
   */
   readonly textContent?: string;
 }
@@ -1691,13 +1691,13 @@ export interface VodProcedureTemplateMediaProcessTaskSampleSnapshotTaskListStruc
   /**
   * Sampled screen capturing template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
   */
   readonly watermarkList?: VodProcedureTemplateMediaProcessTaskSampleSnapshotTaskListWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -1841,31 +1841,31 @@ export interface VodProcedureTemplateMediaProcessTaskSnapshotByTimeOffsetTaskLis
   /**
   * Watermarking template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will exist till the last video frame; If this value is greater than `0` (e.g., n), the watermark will exist till second n; If this value is smaller than `0` (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame; If this value is greater than `0` (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to `2000000` characters. This needs to be entered only when the watermark type is `SVG`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to `100` characters. This needs to be entered only when the watermark type is text. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
   */
   readonly textContent?: string;
 }
@@ -2096,25 +2096,25 @@ export interface VodProcedureTemplateMediaProcessTaskSnapshotByTimeOffsetTaskLis
   /**
   * Time point screen capturing template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * The list of screenshot time points. `s` and `%` formats are supported: When a time point string ends with `s`, its unit is second. For example, `3.5s` means the 3.5th second of the video; When a time point string ends with `%`, it is marked with corresponding percentage of the video duration. For example, `10%` means that the time point is at the 10% of the video entire duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#ext_time_offset_list VodProcedureTemplate#ext_time_offset_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#ext_time_offset_list VodProcedureTemplate#ext_time_offset_list}
   */
   readonly extTimeOffsetList?: string[];
   /**
   * List of time points for screencapturing in milliseconds. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#time_offset_list VodProcedureTemplate#time_offset_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#time_offset_list VodProcedureTemplate#time_offset_list}
   */
   readonly timeOffsetList?: number[];
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
   */
   readonly watermarkList?: VodProcedureTemplateMediaProcessTaskSnapshotByTimeOffsetTaskListWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -2316,7 +2316,7 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListCopyRightW
   /**
   * Copyright information, maximum length is 200 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text VodProcedureTemplate#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text VodProcedureTemplate#text}
   */
   readonly text?: string;
 }
@@ -2402,7 +2402,7 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListHeadTailLi
   /**
   * Video opening/closing credits configuration template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition?: string;
 }
@@ -2520,43 +2520,43 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListMosaicList
   /**
   * Origin position, which currently can only be: `TopLeft`: the origin of coordinates is in the top-left corner of the video, and the origin of the blur is in the top-left corner of the image or text. Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#coordinate_origin VodProcedureTemplate#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#coordinate_origin VodProcedureTemplate#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * End time offset of blur in seconds. If this parameter is left empty or `0` is entered, the blur will exist till the last video frame; If this value is greater than `0` (e.g., n), the blur will exist till second n; If this value is smaller than `0` (e.g., -n), the blur will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Blur height. `%` and `px` formats are supported: If the string ends in `%`, the `height` of the blur will be the specified percentage of the video height; for example, 10% means that Height is 10% of the video height; If the string ends in `px`, the `height` of the blur will be in px; for example, 100px means that Height is 100 px. Default value: `10%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#height VodProcedureTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#height VodProcedureTemplate#height}
   */
   readonly height?: string;
   /**
   * Start time offset of blur in seconds. If this parameter is left empty or `0` is entered, the blur will appear upon the first video frame. If this parameter is left empty or `0` is entered, the blur will appear upon the first video frame; If this value is greater than `0` (e.g., n), the blur will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the blur will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * Blur width. `%` and `px` formats are supported: If the string ends in `%`, the `width` of the blur will be the specified percentage of the video width; for example, 10% means that `width` is 10% of the video width; If the string ends in `px`, the `width` of the blur will be in px; for example, 100px means that Width is 100 px. Default value: `10%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#width VodProcedureTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#width VodProcedureTemplate#width}
   */
   readonly width?: string;
   /**
   * The horizontal position of the origin of the blur relative to the origin of coordinates of the video. `%` and `px` formats are supported: If the string ends in `%`, the XPos of the blur will be the specified percentage of the video width; for example, 10% means that XPos is 10% of the video width; If the string ends in `px`, the XPos of the blur will be the specified px; for example, 100px means that XPos is 100 px. Default value: `0px`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#x_pos VodProcedureTemplate#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#x_pos VodProcedureTemplate#x_pos}
   */
   readonly xPos?: string;
   /**
   * Vertical position of the origin of blur relative to the origin of coordinates of video. `%` and `px` formats are supported: If the string ends in `%`, the YPos of the blur will be the specified percentage of the video height; for example, 10% means that YPos is 10% of the video height; If the string ends in `px`, the YPos of the blur will be the specified px; for example, 100px means that YPos is 100 px. Default value: `0px`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#y_pos VodProcedureTemplate#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#y_pos VodProcedureTemplate#y_pos}
   */
   readonly yPos?: string;
 }
@@ -2848,7 +2848,7 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListTraceWater
   /**
   * Whether to use digital watermarks. This parameter is required. Valid values: ON, OFF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#switch VodProcedureTemplate#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#switch VodProcedureTemplate#switch}
   */
   readonly switch?: string;
 }
@@ -2934,31 +2934,31 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListWatermarkL
   /**
   * Watermarking template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will exist till the last video frame; If this value is greater than `0` (e.g., n), the watermark will exist till second n; If this value is smaller than `0` (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame. If this parameter is left blank or `0` is entered, the watermark will appear upon the first video frame; If this value is greater than `0` (e.g., n), the watermark will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to `2000000` characters. This needs to be entered only when the watermark type is `SVG`. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#svg_content VodProcedureTemplate#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to `100` characters. This needs to be entered only when the watermark type is text. Note: this field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#text_content VodProcedureTemplate#text_content}
   */
   readonly textContent?: string;
 }
@@ -3189,49 +3189,49 @@ export interface VodProcedureTemplateMediaProcessTaskTranscodeTaskListStruct {
   /**
   * Video transcoding template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition: string;
   /**
   * End time offset of blur in seconds. If this parameter is left empty or `0` is entered, the blur will exist till the last video frame; If this value is greater than `0` (e.g., n), the blur will exist till second n; If this value is smaller than `0` (e.g., -n), the blur will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#end_time_offset VodProcedureTemplate#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of blur in seconds. If this parameter is left empty or `0` is entered, the blur will appear upon the first video frame. If this parameter is left empty or `0` is entered, the blur will appear upon the first video frame; If this value is greater than `0` (e.g., n), the blur will appear at second n after the first video frame; If this value is smaller than `0` (e.g., -n), the blur will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#start_time_offset VodProcedureTemplate#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * copy_right_watermark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#copy_right_watermark VodProcedureTemplate#copy_right_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#copy_right_watermark VodProcedureTemplate#copy_right_watermark}
   */
   readonly copyRightWatermark?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListCopyRightWatermark;
   /**
   * head_tail_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#head_tail_list VodProcedureTemplate#head_tail_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#head_tail_list VodProcedureTemplate#head_tail_list}
   */
   readonly headTailList?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListHeadTailListStruct[] | cdktf.IResolvable;
   /**
   * mosaic_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#mosaic_list VodProcedureTemplate#mosaic_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#mosaic_list VodProcedureTemplate#mosaic_list}
   */
   readonly mosaicList?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListMosaicListStruct[] | cdktf.IResolvable;
   /**
   * trace_watermark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#trace_watermark VodProcedureTemplate#trace_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#trace_watermark VodProcedureTemplate#trace_watermark}
   */
   readonly traceWatermark?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListTraceWatermark;
   /**
   * watermark_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#watermark_list VodProcedureTemplate#watermark_list}
   */
   readonly watermarkList?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListWatermarkListStruct[] | cdktf.IResolvable;
 }
@@ -3549,43 +3549,43 @@ export interface VodProcedureTemplateMediaProcessTask {
   /**
   * adaptive_dynamic_streaming_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#adaptive_dynamic_streaming_task_list VodProcedureTemplate#adaptive_dynamic_streaming_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#adaptive_dynamic_streaming_task_list VodProcedureTemplate#adaptive_dynamic_streaming_task_list}
   */
   readonly adaptiveDynamicStreamingTaskList?: VodProcedureTemplateMediaProcessTaskAdaptiveDynamicStreamingTaskListStruct[] | cdktf.IResolvable;
   /**
   * animated_graphic_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#animated_graphic_task_list VodProcedureTemplate#animated_graphic_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#animated_graphic_task_list VodProcedureTemplate#animated_graphic_task_list}
   */
   readonly animatedGraphicTaskList?: VodProcedureTemplateMediaProcessTaskAnimatedGraphicTaskListStruct[] | cdktf.IResolvable;
   /**
   * cover_by_snapshot_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#cover_by_snapshot_task_list VodProcedureTemplate#cover_by_snapshot_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#cover_by_snapshot_task_list VodProcedureTemplate#cover_by_snapshot_task_list}
   */
   readonly coverBySnapshotTaskList?: VodProcedureTemplateMediaProcessTaskCoverBySnapshotTaskListStruct[] | cdktf.IResolvable;
   /**
   * image_sprite_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#image_sprite_task_list VodProcedureTemplate#image_sprite_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#image_sprite_task_list VodProcedureTemplate#image_sprite_task_list}
   */
   readonly imageSpriteTaskList?: VodProcedureTemplateMediaProcessTaskImageSpriteTaskListStruct[] | cdktf.IResolvable;
   /**
   * sample_snapshot_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#sample_snapshot_task_list VodProcedureTemplate#sample_snapshot_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#sample_snapshot_task_list VodProcedureTemplate#sample_snapshot_task_list}
   */
   readonly sampleSnapshotTaskList?: VodProcedureTemplateMediaProcessTaskSampleSnapshotTaskListStruct[] | cdktf.IResolvable;
   /**
   * snapshot_by_time_offset_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#snapshot_by_time_offset_task_list VodProcedureTemplate#snapshot_by_time_offset_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#snapshot_by_time_offset_task_list VodProcedureTemplate#snapshot_by_time_offset_task_list}
   */
   readonly snapshotByTimeOffsetTaskList?: VodProcedureTemplateMediaProcessTaskSnapshotByTimeOffsetTaskListStruct[] | cdktf.IResolvable;
   /**
   * transcode_task_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#transcode_task_list VodProcedureTemplate#transcode_task_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#transcode_task_list VodProcedureTemplate#transcode_task_list}
   */
   readonly transcodeTaskList?: VodProcedureTemplateMediaProcessTaskTranscodeTaskListStruct[] | cdktf.IResolvable;
 }
@@ -3845,7 +3845,7 @@ export interface VodProcedureTemplateReviewAudioVideoTask {
   /**
   * Review template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#definition VodProcedureTemplate#definition}
   */
   readonly definition?: string;
   /**
@@ -3853,7 +3853,7 @@ export interface VodProcedureTemplateReviewAudioVideoTask {
   * - `Media`: The original audio/video;
   * - `Cover`: Thumbnails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#review_contents VodProcedureTemplate#review_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#review_contents VodProcedureTemplate#review_contents}
   */
   readonly reviewContents?: string[];
 }
@@ -3966,7 +3966,7 @@ export class VodProcedureTemplateReviewAudioVideoTaskOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template tencentcloud_vod_procedure_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template tencentcloud_vod_procedure_template}
 */
 export class VodProcedureTemplate extends cdktf.TerraformResource {
 
@@ -3982,7 +3982,7 @@ export class VodProcedureTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodProcedureTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodProcedureTemplate to import
-  * @param importFromId The id of the existing VodProcedureTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodProcedureTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodProcedureTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3994,7 +3994,7 @@ export class VodProcedureTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/vod_procedure_template tencentcloud_vod_procedure_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/vod_procedure_template tencentcloud_vod_procedure_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4005,8 +4005,8 @@ export class VodProcedureTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vod_procedure_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,35 +11,35 @@ export interface LicenseLicenseReservationOpConfig extends cdktf.TerraformMetaAr
   * A reference to a iamAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#account LicenseLicenseReservationOp#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#account LicenseLicenseReservationOp#account}
   */
   readonly account?: LicenseLicenseReservationOpAccount[] | cdktf.IResolvable;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#account_moid LicenseLicenseReservationOp#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#account_moid LicenseLicenseReservationOp#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#ancestors LicenseLicenseReservationOp#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#ancestors LicenseLicenseReservationOp#ancestors}
   */
   readonly ancestors?: LicenseLicenseReservationOpAncestors[] | cdktf.IResolvable;
   /**
   * Revervation code used to install the license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#auth_code LicenseLicenseReservationOp#auth_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#auth_code LicenseLicenseReservationOp#auth_code}
   */
   readonly authCode?: string;
   /**
   * Flag to indicate whether authorization code is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#auth_code_installed LicenseLicenseReservationOp#auth_code_installed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#auth_code_installed LicenseLicenseReservationOp#auth_code_installed}
   */
   readonly authCodeInstalled?: boolean | cdktf.IResolvable;
   /**
@@ -47,41 +47,41 @@ export interface LicenseLicenseReservationOpConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
   * Confirm code used to complete the license update on smart license account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#confirm_code LicenseLicenseReservationOp#confirm_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#confirm_code LicenseLicenseReservationOp#confirm_code}
   */
   readonly confirmCode?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#create_time LicenseLicenseReservationOp#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#create_time LicenseLicenseReservationOp#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#domain_group_moid LicenseLicenseReservationOp#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#domain_group_moid LicenseLicenseReservationOp#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Trigger the generation of request code for specific license reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#generate_request_code LicenseLicenseReservationOp#generate_request_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#generate_request_code LicenseLicenseReservationOp#generate_request_code}
   */
   readonly generateRequestCode?: boolean | cdktf.IResolvable;
   /**
   * Trigger the generation of return code for specific license reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#generate_return_code LicenseLicenseReservationOp#generate_return_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#generate_return_code LicenseLicenseReservationOp#generate_return_code}
   */
   readonly generateReturnCode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#id LicenseLicenseReservationOp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#id LicenseLicenseReservationOp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,88 +90,88 @@ export interface LicenseLicenseReservationOpConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#mod_time LicenseLicenseReservationOp#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#mod_time LicenseLicenseReservationOp#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#owners LicenseLicenseReservationOp#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#owners LicenseLicenseReservationOp#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#parent LicenseLicenseReservationOp#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#parent LicenseLicenseReservationOp#parent}
   */
   readonly parent?: LicenseLicenseReservationOpParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#permission_resources LicenseLicenseReservationOp#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#permission_resources LicenseLicenseReservationOp#permission_resources}
   */
   readonly permissionResources?: LicenseLicenseReservationOpPermissionResources[] | cdktf.IResolvable;
   /**
   * Revervation code used to generate authorization code from CSSM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#request_code LicenseLicenseReservationOp#request_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#request_code LicenseLicenseReservationOp#request_code}
   */
   readonly requestCode?: string;
   /**
   * Return code used to return the reserved license to smart license account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#return_code LicenseLicenseReservationOp#return_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#return_code LicenseLicenseReservationOp#return_code}
   */
   readonly returnCode?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#shared_scope LicenseLicenseReservationOp#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#shared_scope LicenseLicenseReservationOp#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#tags LicenseLicenseReservationOp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#tags LicenseLicenseReservationOp#tags}
   */
   readonly tags?: LicenseLicenseReservationOpTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#version_context LicenseLicenseReservationOp#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#version_context LicenseLicenseReservationOp#version_context}
   */
   readonly versionContext?: LicenseLicenseReservationOpVersionContext[] | cdktf.IResolvable;
 }
 export interface LicenseLicenseReservationOpAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -403,23 +403,23 @@ export class LicenseLicenseReservationOpAccountList extends cdktf.ComplexList {
 }
 export interface LicenseLicenseReservationOpAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -651,23 +651,23 @@ export class LicenseLicenseReservationOpAncestorsList extends cdktf.ComplexList 
 }
 export interface LicenseLicenseReservationOpParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -899,23 +899,23 @@ export class LicenseLicenseReservationOpParentList extends cdktf.ComplexList {
 }
 export interface LicenseLicenseReservationOpPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -1147,23 +1147,23 @@ export class LicenseLicenseReservationOpPermissionResourcesList extends cdktf.Co
 }
 export interface LicenseLicenseReservationOpTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -1395,23 +1395,23 @@ export class LicenseLicenseReservationOpTagsAncestorDefinitionsList extends cdkt
 }
 export interface LicenseLicenseReservationOpTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -1643,35 +1643,35 @@ export class LicenseLicenseReservationOpTagsDefinitionList extends cdktf.Complex
 }
 export interface LicenseLicenseReservationOpTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#ancestor_definitions LicenseLicenseReservationOp#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#ancestor_definitions LicenseLicenseReservationOp#ancestor_definitions}
   */
   readonly ancestorDefinitions?: LicenseLicenseReservationOpTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#definition LicenseLicenseReservationOp#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#definition LicenseLicenseReservationOp#definition}
   */
   readonly definition?: LicenseLicenseReservationOpTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#key LicenseLicenseReservationOp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#key LicenseLicenseReservationOp#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#propagated LicenseLicenseReservationOp#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#propagated LicenseLicenseReservationOp#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#sys_tag LicenseLicenseReservationOp#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#sys_tag LicenseLicenseReservationOp#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#type LicenseLicenseReservationOp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#type LicenseLicenseReservationOp#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#value LicenseLicenseReservationOp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#value LicenseLicenseReservationOp#value}
   */
   readonly value?: string;
 }
@@ -1990,23 +1990,23 @@ export class LicenseLicenseReservationOpTagsList extends cdktf.ComplexList {
 }
 export interface LicenseLicenseReservationOpVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -2238,23 +2238,23 @@ export class LicenseLicenseReservationOpVersionContextInterestedMosList extends 
 }
 export interface LicenseLicenseReservationOpVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#moid LicenseLicenseReservationOp#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#selector LicenseLicenseReservationOp#selector}
   */
   readonly selector?: string;
 }
@@ -2486,39 +2486,39 @@ export class LicenseLicenseReservationOpVersionContextRefMoList extends cdktf.Co
 }
 export interface LicenseLicenseReservationOpVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#additional_properties LicenseLicenseReservationOp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#class_id LicenseLicenseReservationOp#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#interested_mos LicenseLicenseReservationOp#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#interested_mos LicenseLicenseReservationOp#interested_mos}
   */
   readonly interestedMos?: LicenseLicenseReservationOpVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#marked_for_deletion LicenseLicenseReservationOp#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#marked_for_deletion LicenseLicenseReservationOp#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#nr_version LicenseLicenseReservationOp#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#nr_version LicenseLicenseReservationOp#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#object_type LicenseLicenseReservationOp#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#ref_mo LicenseLicenseReservationOp#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#ref_mo LicenseLicenseReservationOp#ref_mo}
   */
   readonly refMo?: LicenseLicenseReservationOpVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#timestamp LicenseLicenseReservationOp#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#timestamp LicenseLicenseReservationOp#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#version_type LicenseLicenseReservationOp#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#version_type LicenseLicenseReservationOp#version_type}
   */
   readonly versionType?: string;
 }
@@ -2866,7 +2866,7 @@ export class LicenseLicenseReservationOpVersionContextList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op intersight_license_license_reservation_op}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op intersight_license_license_reservation_op}
 */
 export class LicenseLicenseReservationOp extends cdktf.TerraformResource {
 
@@ -2882,7 +2882,7 @@ export class LicenseLicenseReservationOp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseLicenseReservationOp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseLicenseReservationOp to import
-  * @param importFromId The id of the existing LicenseLicenseReservationOp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseLicenseReservationOp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseLicenseReservationOp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2894,7 +2894,7 @@ export class LicenseLicenseReservationOp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/license_license_reservation_op intersight_license_license_reservation_op} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/license_license_reservation_op intersight_license_license_reservation_op} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2905,8 +2905,8 @@ export class LicenseLicenseReservationOp extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_license_license_reservation_op',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

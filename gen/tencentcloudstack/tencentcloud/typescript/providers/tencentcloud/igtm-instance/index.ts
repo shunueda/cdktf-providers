@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface IgtmInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access main domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#access_domain IgtmInstance#access_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#access_domain IgtmInstance#access_domain}
   */
   readonly accessDomain: string;
   /**
   * Access subdomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#access_sub_domain IgtmInstance#access_sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#access_sub_domain IgtmInstance#access_sub_domain}
   */
   readonly accessSubDomain: string;
   /**
   * CUSTOM: Custom access domain
   * SYSTEM: System access domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#access_type IgtmInstance#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#access_type IgtmInstance#access_type}
   */
   readonly accessType: string;
   /**
   * Business domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#domain IgtmInstance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#domain IgtmInstance#domain}
   */
   readonly domain: string;
   /**
   * Resolution effective time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#global_ttl IgtmInstance#global_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#global_ttl IgtmInstance#global_ttl}
   */
   readonly globalTtl: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#id IgtmInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#id IgtmInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ export interface IgtmInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#instance_name IgtmInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#instance_name IgtmInstance#instance_name}
   */
   readonly instanceName: string;
   /**
@@ -57,25 +57,25 @@ export interface IgtmInstanceConfig extends cdktf.TerraformMetaArguments {
   * STANDARD: Standard version
   * ULTIMATE: Ultimate version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#package_type IgtmInstance#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#package_type IgtmInstance#package_type}
   */
   readonly packageType: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#remark IgtmInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#remark IgtmInstance#remark}
   */
   readonly remark?: string;
   /**
   * Package resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#resource_id IgtmInstance#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#resource_id IgtmInstance#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance tencentcloud_igtm_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance tencentcloud_igtm_instance}
 */
 export class IgtmInstance extends cdktf.TerraformResource {
 
@@ -91,7 +91,7 @@ export class IgtmInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IgtmInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IgtmInstance to import
-  * @param importFromId The id of the existing IgtmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IgtmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IgtmInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -103,7 +103,7 @@ export class IgtmInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/igtm_instance tencentcloud_igtm_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/igtm_instance tencentcloud_igtm_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -114,8 +114,8 @@ export class IgtmInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_igtm_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

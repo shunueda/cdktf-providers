@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EnergyDailyMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#account_moid EnergyDailyMetrics#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#account_moid EnergyDailyMetrics#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#ancestors EnergyDailyMetrics#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#ancestors EnergyDailyMetrics#ancestors}
   */
   readonly ancestors?: EnergyDailyMetricsAncestors[] | cdktf.IResolvable;
   /**
@@ -29,23 +29,23 @@ export interface EnergyDailyMetricsConfig extends cdktf.TerraformMetaArguments {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#create_time EnergyDailyMetrics#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#create_time EnergyDailyMetrics#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#domain_group_moid EnergyDailyMetrics#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#domain_group_moid EnergyDailyMetrics#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#id EnergyDailyMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#id EnergyDailyMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,13 +54,13 @@ export interface EnergyDailyMetricsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#mod_time EnergyDailyMetrics#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#mod_time EnergyDailyMetrics#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
@@ -68,63 +68,63 @@ export interface EnergyDailyMetricsConfig extends cdktf.TerraformMetaArguments {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#owners EnergyDailyMetrics#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#owners EnergyDailyMetrics#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#parent EnergyDailyMetrics#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#parent EnergyDailyMetrics#parent}
   */
   readonly parent?: EnergyDailyMetricsParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#permission_resources EnergyDailyMetrics#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#permission_resources EnergyDailyMetrics#permission_resources}
   */
   readonly permissionResources?: EnergyDailyMetricsPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#shared_scope EnergyDailyMetrics#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#shared_scope EnergyDailyMetrics#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#tags EnergyDailyMetrics#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#tags EnergyDailyMetrics#tags}
   */
   readonly tags?: EnergyDailyMetricsTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#version_context EnergyDailyMetrics#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#version_context EnergyDailyMetrics#version_context}
   */
   readonly versionContext?: EnergyDailyMetricsVersionContext[] | cdktf.IResolvable;
 }
 export interface EnergyDailyMetricsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -356,23 +356,23 @@ export class EnergyDailyMetricsAncestorsList extends cdktf.ComplexList {
 }
 export interface EnergyDailyMetricsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -604,23 +604,23 @@ export class EnergyDailyMetricsParentList extends cdktf.ComplexList {
 }
 export interface EnergyDailyMetricsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -852,23 +852,23 @@ export class EnergyDailyMetricsPermissionResourcesList extends cdktf.ComplexList
 }
 export interface EnergyDailyMetricsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -1100,23 +1100,23 @@ export class EnergyDailyMetricsTagsAncestorDefinitionsList extends cdktf.Complex
 }
 export interface EnergyDailyMetricsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -1348,35 +1348,35 @@ export class EnergyDailyMetricsTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface EnergyDailyMetricsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#ancestor_definitions EnergyDailyMetrics#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#ancestor_definitions EnergyDailyMetrics#ancestor_definitions}
   */
   readonly ancestorDefinitions?: EnergyDailyMetricsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#definition EnergyDailyMetrics#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#definition EnergyDailyMetrics#definition}
   */
   readonly definition?: EnergyDailyMetricsTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#key EnergyDailyMetrics#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#key EnergyDailyMetrics#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#propagated EnergyDailyMetrics#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#propagated EnergyDailyMetrics#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#sys_tag EnergyDailyMetrics#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#sys_tag EnergyDailyMetrics#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#type EnergyDailyMetrics#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#type EnergyDailyMetrics#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#value EnergyDailyMetrics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#value EnergyDailyMetrics#value}
   */
   readonly value?: string;
 }
@@ -1695,23 +1695,23 @@ export class EnergyDailyMetricsTagsList extends cdktf.ComplexList {
 }
 export interface EnergyDailyMetricsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -1943,23 +1943,23 @@ export class EnergyDailyMetricsVersionContextInterestedMosList extends cdktf.Com
 }
 export interface EnergyDailyMetricsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#moid EnergyDailyMetrics#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#selector EnergyDailyMetrics#selector}
   */
   readonly selector?: string;
 }
@@ -2191,39 +2191,39 @@ export class EnergyDailyMetricsVersionContextRefMoList extends cdktf.ComplexList
 }
 export interface EnergyDailyMetricsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#additional_properties EnergyDailyMetrics#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#class_id EnergyDailyMetrics#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#interested_mos EnergyDailyMetrics#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#interested_mos EnergyDailyMetrics#interested_mos}
   */
   readonly interestedMos?: EnergyDailyMetricsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#marked_for_deletion EnergyDailyMetrics#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#marked_for_deletion EnergyDailyMetrics#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#nr_version EnergyDailyMetrics#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#nr_version EnergyDailyMetrics#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#object_type EnergyDailyMetrics#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#ref_mo EnergyDailyMetrics#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#ref_mo EnergyDailyMetrics#ref_mo}
   */
   readonly refMo?: EnergyDailyMetricsVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#timestamp EnergyDailyMetrics#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#timestamp EnergyDailyMetrics#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#version_type EnergyDailyMetrics#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#version_type EnergyDailyMetrics#version_type}
   */
   readonly versionType?: string;
 }
@@ -2571,7 +2571,7 @@ export class EnergyDailyMetricsVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics intersight_energy_daily_metrics}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics intersight_energy_daily_metrics}
 */
 export class EnergyDailyMetrics extends cdktf.TerraformResource {
 
@@ -2587,7 +2587,7 @@ export class EnergyDailyMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnergyDailyMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnergyDailyMetrics to import
-  * @param importFromId The id of the existing EnergyDailyMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnergyDailyMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnergyDailyMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2599,7 +2599,7 @@ export class EnergyDailyMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/energy_daily_metrics intersight_energy_daily_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/energy_daily_metrics intersight_energy_daily_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2610,8 +2610,8 @@ export class EnergyDailyMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_energy_daily_metrics',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesAciCniTenantClusterAllocationConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#account_moid KubernetesAciCniTenantClusterAllocation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#account_moid KubernetesAciCniTenantClusterAllocation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ancestors KubernetesAciCniTenantClusterAllocation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ancestors KubernetesAciCniTenantClusterAllocation#ancestors}
   */
   readonly ancestors?: KubernetesAciCniTenantClusterAllocationAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface KubernetesAciCniTenantClusterAllocationConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#create_time KubernetesAciCniTenantClusterAllocation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#create_time KubernetesAciCniTenantClusterAllocation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#domain_group_moid KubernetesAciCniTenantClusterAllocation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#domain_group_moid KubernetesAciCniTenantClusterAllocation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#id KubernetesAciCniTenantClusterAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#id KubernetesAciCniTenantClusterAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,107 +53,107 @@ export interface KubernetesAciCniTenantClusterAllocationConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#mod_time KubernetesAciCniTenantClusterAllocation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#mod_time KubernetesAciCniTenantClusterAllocation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * CIDR allocated for ACI node service IPs in this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#node_svc_ip_subnet KubernetesAciCniTenantClusterAllocation#node_svc_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#node_svc_ip_subnet KubernetesAciCniTenantClusterAllocation#node_svc_ip_subnet}
   */
   readonly nodeSvcIpSubnet?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#organization KubernetesAciCniTenantClusterAllocation#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#organization KubernetesAciCniTenantClusterAllocation#organization}
   */
   readonly organization?: KubernetesAciCniTenantClusterAllocationOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#owners KubernetesAciCniTenantClusterAllocation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#owners KubernetesAciCniTenantClusterAllocation#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#parent KubernetesAciCniTenantClusterAllocation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#parent KubernetesAciCniTenantClusterAllocation#parent}
   */
   readonly parent?: KubernetesAciCniTenantClusterAllocationParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#permission_resources KubernetesAciCniTenantClusterAllocation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#permission_resources KubernetesAciCniTenantClusterAllocation#permission_resources}
   */
   readonly permissionResources?: KubernetesAciCniTenantClusterAllocationPermissionResources[] | cdktf.IResolvable;
   /**
   * CIDR allocated for pod IPs in this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#pod_ip_subnet KubernetesAciCniTenantClusterAllocation#pod_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#pod_ip_subnet KubernetesAciCniTenantClusterAllocation#pod_ip_subnet}
   */
   readonly podIpSubnet?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#shared_scope KubernetesAciCniTenantClusterAllocation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#shared_scope KubernetesAciCniTenantClusterAllocation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#tags KubernetesAciCniTenantClusterAllocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#tags KubernetesAciCniTenantClusterAllocation#tags}
   */
   readonly tags?: KubernetesAciCniTenantClusterAllocationTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#version_context KubernetesAciCniTenantClusterAllocation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#version_context KubernetesAciCniTenantClusterAllocation#version_context}
   */
   readonly versionContext?: KubernetesAciCniTenantClusterAllocationVersionContext[] | cdktf.IResolvable;
   /**
   * End of VLAN range allocated to this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_end KubernetesAciCniTenantClusterAllocation#vlan_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_end KubernetesAciCniTenantClusterAllocation#vlan_end}
   */
   readonly vlanEnd?: string;
   /**
   * Start of VLAN range allocated to this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_start KubernetesAciCniTenantClusterAllocation#vlan_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_start KubernetesAciCniTenantClusterAllocation#vlan_start}
   */
   readonly vlanStart?: string;
 }
 export interface KubernetesAciCniTenantClusterAllocationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -385,23 +385,23 @@ export class KubernetesAciCniTenantClusterAllocationAncestorsList extends cdktf.
 }
 export interface KubernetesAciCniTenantClusterAllocationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -633,23 +633,23 @@ export class KubernetesAciCniTenantClusterAllocationOrganizationList extends cdk
 }
 export interface KubernetesAciCniTenantClusterAllocationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -881,23 +881,23 @@ export class KubernetesAciCniTenantClusterAllocationParentList extends cdktf.Com
 }
 export interface KubernetesAciCniTenantClusterAllocationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -1129,23 +1129,23 @@ export class KubernetesAciCniTenantClusterAllocationPermissionResourcesList exte
 }
 export interface KubernetesAciCniTenantClusterAllocationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -1377,23 +1377,23 @@ export class KubernetesAciCniTenantClusterAllocationTagsAncestorDefinitionsList 
 }
 export interface KubernetesAciCniTenantClusterAllocationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -1625,35 +1625,35 @@ export class KubernetesAciCniTenantClusterAllocationTagsDefinitionList extends c
 }
 export interface KubernetesAciCniTenantClusterAllocationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ancestor_definitions KubernetesAciCniTenantClusterAllocation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ancestor_definitions KubernetesAciCniTenantClusterAllocation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesAciCniTenantClusterAllocationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#definition KubernetesAciCniTenantClusterAllocation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#definition KubernetesAciCniTenantClusterAllocation#definition}
   */
   readonly definition?: KubernetesAciCniTenantClusterAllocationTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#key KubernetesAciCniTenantClusterAllocation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#key KubernetesAciCniTenantClusterAllocation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#propagated KubernetesAciCniTenantClusterAllocation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#propagated KubernetesAciCniTenantClusterAllocation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#sys_tag KubernetesAciCniTenantClusterAllocation#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#sys_tag KubernetesAciCniTenantClusterAllocation#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#type KubernetesAciCniTenantClusterAllocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#type KubernetesAciCniTenantClusterAllocation#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#value KubernetesAciCniTenantClusterAllocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#value KubernetesAciCniTenantClusterAllocation#value}
   */
   readonly value?: string;
 }
@@ -1972,23 +1972,23 @@ export class KubernetesAciCniTenantClusterAllocationTagsList extends cdktf.Compl
 }
 export interface KubernetesAciCniTenantClusterAllocationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2220,23 +2220,23 @@ export class KubernetesAciCniTenantClusterAllocationVersionContextInterestedMosL
 }
 export interface KubernetesAciCniTenantClusterAllocationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#moid KubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#selector KubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2468,39 +2468,39 @@ export class KubernetesAciCniTenantClusterAllocationVersionContextRefMoList exte
 }
 export interface KubernetesAciCniTenantClusterAllocationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties KubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#class_id KubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#interested_mos KubernetesAciCniTenantClusterAllocation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#interested_mos KubernetesAciCniTenantClusterAllocation#interested_mos}
   */
   readonly interestedMos?: KubernetesAciCniTenantClusterAllocationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#marked_for_deletion KubernetesAciCniTenantClusterAllocation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#marked_for_deletion KubernetesAciCniTenantClusterAllocation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#nr_version KubernetesAciCniTenantClusterAllocation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#nr_version KubernetesAciCniTenantClusterAllocation#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#object_type KubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ref_mo KubernetesAciCniTenantClusterAllocation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#ref_mo KubernetesAciCniTenantClusterAllocation#ref_mo}
   */
   readonly refMo?: KubernetesAciCniTenantClusterAllocationVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#timestamp KubernetesAciCniTenantClusterAllocation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#timestamp KubernetesAciCniTenantClusterAllocation#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#version_type KubernetesAciCniTenantClusterAllocation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#version_type KubernetesAciCniTenantClusterAllocation#version_type}
   */
   readonly versionType?: string;
 }
@@ -2848,7 +2848,7 @@ export class KubernetesAciCniTenantClusterAllocationVersionContextList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation}
 */
 export class KubernetesAciCniTenantClusterAllocation extends cdktf.TerraformResource {
 
@@ -2864,7 +2864,7 @@ export class KubernetesAciCniTenantClusterAllocation extends cdktf.TerraformReso
   * Generates CDKTF code for importing a KubernetesAciCniTenantClusterAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesAciCniTenantClusterAllocation to import
-  * @param importFromId The id of the existing KubernetesAciCniTenantClusterAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesAciCniTenantClusterAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesAciCniTenantClusterAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2876,7 +2876,7 @@ export class KubernetesAciCniTenantClusterAllocation extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2887,8 +2887,8 @@ export class KubernetesAciCniTenantClusterAllocation extends cdktf.TerraformReso
       terraformResourceType: 'intersight_kubernetes_aci_cni_tenant_cluster_allocation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

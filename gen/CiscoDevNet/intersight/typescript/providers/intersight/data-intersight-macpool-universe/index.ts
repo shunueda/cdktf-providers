@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightMacpoolUniverseConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#account_moid DataIntersightMacpoolUniverse#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#account_moid DataIntersightMacpoolUniverse#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightMacpoolUniverseConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#create_time DataIntersightMacpoolUniverse#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#create_time DataIntersightMacpoolUniverse#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#domain_group_moid DataIntersightMacpoolUniverse#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#domain_group_moid DataIntersightMacpoolUniverse#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#id DataIntersightMacpoolUniverse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#id DataIntersightMacpoolUniverse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface DataIntersightMacpoolUniverseConfig extends cdktf.TerraformMeta
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#mod_time DataIntersightMacpoolUniverse#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#mod_time DataIntersightMacpoolUniverse#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#owners DataIntersightMacpoolUniverse#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#owners DataIntersightMacpoolUniverse#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#shared_scope DataIntersightMacpoolUniverse#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#shared_scope DataIntersightMacpoolUniverse#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#account DataIntersightMacpoolUniverse#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#account DataIntersightMacpoolUniverse#account}
   */
   readonly account?: DataIntersightMacpoolUniverseAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#ancestors DataIntersightMacpoolUniverse#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#ancestors DataIntersightMacpoolUniverse#ancestors}
   */
   readonly ancestors?: DataIntersightMacpoolUniverseAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#parent DataIntersightMacpoolUniverse#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#parent DataIntersightMacpoolUniverse#parent}
   */
   readonly parent?: DataIntersightMacpoolUniverseParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#permission_resources DataIntersightMacpoolUniverse#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#permission_resources DataIntersightMacpoolUniverse#permission_resources}
   */
   readonly permissionResources?: DataIntersightMacpoolUniversePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#tags DataIntersightMacpoolUniverse#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#tags DataIntersightMacpoolUniverse#tags}
   */
   readonly tags?: DataIntersightMacpoolUniverseTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#version_context DataIntersightMacpoolUniverse#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#version_context DataIntersightMacpoolUniverse#version_context}
   */
   readonly versionContext?: DataIntersightMacpoolUniverseVersionContext;
 }
@@ -1258,7 +1258,7 @@ export class DataIntersightMacpoolUniverseResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightMacpoolUniverseAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1266,19 +1266,19 @@ export interface DataIntersightMacpoolUniverseAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1291,7 +1291,7 @@ export interface DataIntersightMacpoolUniverseAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -1491,7 +1491,7 @@ export class DataIntersightMacpoolUniverseAccountOutputReference extends cdktf.C
 }
 export interface DataIntersightMacpoolUniverseAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1499,19 +1499,19 @@ export interface DataIntersightMacpoolUniverseAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1524,7 +1524,7 @@ export interface DataIntersightMacpoolUniverseAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -1756,7 +1756,7 @@ export class DataIntersightMacpoolUniverseAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightMacpoolUniverseParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1764,19 +1764,19 @@ export interface DataIntersightMacpoolUniverseParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1789,7 +1789,7 @@ export interface DataIntersightMacpoolUniverseParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -1989,7 +1989,7 @@ export class DataIntersightMacpoolUniverseParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightMacpoolUniversePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1997,19 +1997,19 @@ export interface DataIntersightMacpoolUniversePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2022,7 +2022,7 @@ export interface DataIntersightMacpoolUniversePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -2254,7 +2254,7 @@ export class DataIntersightMacpoolUniversePermissionResourcesList extends cdktf.
 }
 export interface DataIntersightMacpoolUniverseTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2262,19 +2262,19 @@ export interface DataIntersightMacpoolUniverseTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2287,7 +2287,7 @@ export interface DataIntersightMacpoolUniverseTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -2519,7 +2519,7 @@ export class DataIntersightMacpoolUniverseTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightMacpoolUniverseTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2527,19 +2527,19 @@ export interface DataIntersightMacpoolUniverseTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2552,7 +2552,7 @@ export interface DataIntersightMacpoolUniverseTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -2752,25 +2752,25 @@ export class DataIntersightMacpoolUniverseTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightMacpoolUniverseTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#key DataIntersightMacpoolUniverse#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#key DataIntersightMacpoolUniverse#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#propagated DataIntersightMacpoolUniverse#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#propagated DataIntersightMacpoolUniverse#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#sys_tag DataIntersightMacpoolUniverse#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#sys_tag DataIntersightMacpoolUniverse#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2778,25 +2778,25 @@ export interface DataIntersightMacpoolUniverseTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#type DataIntersightMacpoolUniverse#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#type DataIntersightMacpoolUniverse#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#value DataIntersightMacpoolUniverse#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#value DataIntersightMacpoolUniverse#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#ancestor_definitions DataIntersightMacpoolUniverse#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#ancestor_definitions DataIntersightMacpoolUniverse#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMacpoolUniverseTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#definition DataIntersightMacpoolUniverse#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#definition DataIntersightMacpoolUniverse#definition}
   */
   readonly definition?: DataIntersightMacpoolUniverseTagsDefinition;
 }
@@ -3115,7 +3115,7 @@ export class DataIntersightMacpoolUniverseTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMacpoolUniverseVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3123,19 +3123,19 @@ export interface DataIntersightMacpoolUniverseVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3148,7 +3148,7 @@ export interface DataIntersightMacpoolUniverseVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -3380,7 +3380,7 @@ export class DataIntersightMacpoolUniverseVersionContextInterestedMosList extend
 }
 export interface DataIntersightMacpoolUniverseVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3388,19 +3388,19 @@ export interface DataIntersightMacpoolUniverseVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#moid DataIntersightMacpoolUniverse#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3413,7 +3413,7 @@ export interface DataIntersightMacpoolUniverseVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#selector DataIntersightMacpoolUniverse#selector}
   */
   readonly selector?: string;
 }
@@ -3613,7 +3613,7 @@ export class DataIntersightMacpoolUniverseVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightMacpoolUniverseVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#additional_properties DataIntersightMacpoolUniverse#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3621,32 +3621,32 @@ export interface DataIntersightMacpoolUniverseVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#class_id DataIntersightMacpoolUniverse#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#marked_for_deletion DataIntersightMacpoolUniverse#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#marked_for_deletion DataIntersightMacpoolUniverse#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#nr_version DataIntersightMacpoolUniverse#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#nr_version DataIntersightMacpoolUniverse#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#object_type DataIntersightMacpoolUniverse#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#timestamp DataIntersightMacpoolUniverse#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#timestamp DataIntersightMacpoolUniverse#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3657,19 +3657,19 @@ export interface DataIntersightMacpoolUniverseVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#version_type DataIntersightMacpoolUniverse#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#version_type DataIntersightMacpoolUniverse#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#interested_mos DataIntersightMacpoolUniverse#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#interested_mos DataIntersightMacpoolUniverse#interested_mos}
   */
   readonly interestedMos?: DataIntersightMacpoolUniverseVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#ref_mo DataIntersightMacpoolUniverse#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#ref_mo DataIntersightMacpoolUniverse#ref_mo}
   */
   readonly refMo?: DataIntersightMacpoolUniverseVersionContextRefMo;
 }
@@ -3985,7 +3985,7 @@ export class DataIntersightMacpoolUniverseVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe intersight_macpool_universe}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe intersight_macpool_universe}
 */
 export class DataIntersightMacpoolUniverse extends cdktf.TerraformDataSource {
 
@@ -4001,7 +4001,7 @@ export class DataIntersightMacpoolUniverse extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightMacpoolUniverse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMacpoolUniverse to import
-  * @param importFromId The id of the existing DataIntersightMacpoolUniverse that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMacpoolUniverse that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMacpoolUniverse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4013,7 +4013,7 @@ export class DataIntersightMacpoolUniverse extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/macpool_universe intersight_macpool_universe} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/macpool_universe intersight_macpool_universe} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4024,8 +4024,8 @@ export class DataIntersightMacpoolUniverse extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_macpool_universe',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

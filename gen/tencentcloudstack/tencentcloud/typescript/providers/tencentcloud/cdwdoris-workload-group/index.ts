@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CdwdorisWorkloadGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#id CdwdorisWorkloadGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#id CdwdorisWorkloadGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface CdwdorisWorkloadGroupConfig extends cdktf.TerraformMetaArgument
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#instance_id CdwdorisWorkloadGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#instance_id CdwdorisWorkloadGroup#instance_id}
   */
   readonly instanceId: string;
   /**
   * workload_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#workload_group CdwdorisWorkloadGroup#workload_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#workload_group CdwdorisWorkloadGroup#workload_group}
   */
   readonly workloadGroup?: CdwdorisWorkloadGroupWorkloadGroup;
 }
@@ -31,31 +31,31 @@ export interface CdwdorisWorkloadGroupWorkloadGroup {
   /**
   * Cpu hard limit. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#cpu_hard_limit CdwdorisWorkloadGroup#cpu_hard_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#cpu_hard_limit CdwdorisWorkloadGroup#cpu_hard_limit}
   */
   readonly cpuHardLimit?: string;
   /**
   * CPU weight. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#cpu_share CdwdorisWorkloadGroup#cpu_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#cpu_share CdwdorisWorkloadGroup#cpu_share}
   */
   readonly cpuShare?: number;
   /**
   * Whether to allow over-allocation. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#enable_memory_over_commit CdwdorisWorkloadGroup#enable_memory_over_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#enable_memory_over_commit CdwdorisWorkloadGroup#enable_memory_over_commit}
   */
   readonly enableMemoryOverCommit?: boolean | cdktf.IResolvable;
   /**
   * Memory limit, the sum of the memory limit values of all resource groups should be less than or equal to 100. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#memory_limit CdwdorisWorkloadGroup#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#memory_limit CdwdorisWorkloadGroup#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * Workload group name. Note: This field may return null, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#workload_group_name CdwdorisWorkloadGroup#workload_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#workload_group_name CdwdorisWorkloadGroup#workload_group_name}
   */
   readonly workloadGroupName?: string;
 }
@@ -255,7 +255,7 @@ export class CdwdorisWorkloadGroupWorkloadGroupOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group tencentcloud_cdwdoris_workload_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group tencentcloud_cdwdoris_workload_group}
 */
 export class CdwdorisWorkloadGroup extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class CdwdorisWorkloadGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdwdorisWorkloadGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdwdorisWorkloadGroup to import
-  * @param importFromId The id of the existing CdwdorisWorkloadGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdwdorisWorkloadGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdwdorisWorkloadGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class CdwdorisWorkloadGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwdoris_workload_group tencentcloud_cdwdoris_workload_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwdoris_workload_group tencentcloud_cdwdoris_workload_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class CdwdorisWorkloadGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdwdoris_workload_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

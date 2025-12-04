@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface NiatelemetryNexusCloudSiteConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#account_moid NiatelemetryNexusCloudSite#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#account_moid NiatelemetryNexusCloudSite#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Advisories setting status, based on license type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#advisories NiatelemetryNexusCloudSite#advisories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#advisories NiatelemetryNexusCloudSite#advisories}
   */
   readonly advisories?: boolean | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#ancestors NiatelemetryNexusCloudSite#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#ancestors NiatelemetryNexusCloudSite#ancestors}
   */
   readonly ancestors?: NiatelemetryNexusCloudSiteAncestors[] | cdktf.IResolvable;
   /**
   * Anomalies setting status, based on license type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#anomalies NiatelemetryNexusCloudSite#anomalies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#anomalies NiatelemetryNexusCloudSite#anomalies}
   */
   readonly anomalies?: boolean | cdktf.IResolvable;
   /**
   * Capacity utilization setting status, based on license type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#capacity_utilization NiatelemetryNexusCloudSite#capacity_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#capacity_utilization NiatelemetryNexusCloudSite#capacity_utilization}
   */
   readonly capacityUtilization?: boolean | cdktf.IResolvable;
   /**
@@ -46,23 +46,23 @@ export interface NiatelemetryNexusCloudSiteConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#create_time NiatelemetryNexusCloudSite#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#create_time NiatelemetryNexusCloudSite#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#domain_group_moid NiatelemetryNexusCloudSite#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#domain_group_moid NiatelemetryNexusCloudSite#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#id NiatelemetryNexusCloudSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#id NiatelemetryNexusCloudSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,113 +71,113 @@ export interface NiatelemetryNexusCloudSiteConfig extends cdktf.TerraformMetaArg
   /**
   * Returns the license type of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#license_type NiatelemetryNexusCloudSite#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#license_type NiatelemetryNexusCloudSite#license_type}
   */
   readonly licenseType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#mod_time NiatelemetryNexusCloudSite#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#mod_time NiatelemetryNexusCloudSite#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
   * Returns the name of the Nexus Cloud site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#name NiatelemetryNexusCloudSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#name NiatelemetryNexusCloudSite#name}
   */
   readonly name?: string;
   /**
   * A reference to a niatelemetryNexusCloudAccount resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#nexus_cloud_account NiatelemetryNexusCloudSite#nexus_cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#nexus_cloud_account NiatelemetryNexusCloudSite#nexus_cloud_account}
   */
   readonly nexusCloudAccount?: NiatelemetryNexusCloudSiteNexusCloudAccount[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#owners NiatelemetryNexusCloudSite#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#owners NiatelemetryNexusCloudSite#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#parent NiatelemetryNexusCloudSite#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#parent NiatelemetryNexusCloudSite#parent}
   */
   readonly parent?: NiatelemetryNexusCloudSiteParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#permission_resources NiatelemetryNexusCloudSite#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#permission_resources NiatelemetryNexusCloudSite#permission_resources}
   */
   readonly permissionResources?: NiatelemetryNexusCloudSitePermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#shared_scope NiatelemetryNexusCloudSite#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#shared_scope NiatelemetryNexusCloudSite#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Returns the type of the Nexus Cloud site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#site_type NiatelemetryNexusCloudSite#site_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#site_type NiatelemetryNexusCloudSite#site_type}
   */
   readonly siteType?: string;
   /**
   * Software management setting status, based on license type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#software_management NiatelemetryNexusCloudSite#software_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#software_management NiatelemetryNexusCloudSite#software_management}
   */
   readonly softwareManagement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#tags NiatelemetryNexusCloudSite#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#tags NiatelemetryNexusCloudSite#tags}
   */
   readonly tags?: NiatelemetryNexusCloudSiteTags[] | cdktf.IResolvable;
   /**
   * Returns the uuid of the Nexus Cloud site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#uuid NiatelemetryNexusCloudSite#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#uuid NiatelemetryNexusCloudSite#uuid}
   */
   readonly uuid?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#version_context NiatelemetryNexusCloudSite#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#version_context NiatelemetryNexusCloudSite#version_context}
   */
   readonly versionContext?: NiatelemetryNexusCloudSiteVersionContext[] | cdktf.IResolvable;
 }
 export interface NiatelemetryNexusCloudSiteAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -409,23 +409,23 @@ export class NiatelemetryNexusCloudSiteAncestorsList extends cdktf.ComplexList {
 }
 export interface NiatelemetryNexusCloudSiteNexusCloudAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -657,23 +657,23 @@ export class NiatelemetryNexusCloudSiteNexusCloudAccountList extends cdktf.Compl
 }
 export interface NiatelemetryNexusCloudSiteParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -905,23 +905,23 @@ export class NiatelemetryNexusCloudSiteParentList extends cdktf.ComplexList {
 }
 export interface NiatelemetryNexusCloudSitePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -1153,23 +1153,23 @@ export class NiatelemetryNexusCloudSitePermissionResourcesList extends cdktf.Com
 }
 export interface NiatelemetryNexusCloudSiteTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -1401,23 +1401,23 @@ export class NiatelemetryNexusCloudSiteTagsAncestorDefinitionsList extends cdktf
 }
 export interface NiatelemetryNexusCloudSiteTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -1649,35 +1649,35 @@ export class NiatelemetryNexusCloudSiteTagsDefinitionList extends cdktf.ComplexL
 }
 export interface NiatelemetryNexusCloudSiteTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#ancestor_definitions NiatelemetryNexusCloudSite#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#ancestor_definitions NiatelemetryNexusCloudSite#ancestor_definitions}
   */
   readonly ancestorDefinitions?: NiatelemetryNexusCloudSiteTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#definition NiatelemetryNexusCloudSite#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#definition NiatelemetryNexusCloudSite#definition}
   */
   readonly definition?: NiatelemetryNexusCloudSiteTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#key NiatelemetryNexusCloudSite#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#key NiatelemetryNexusCloudSite#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#propagated NiatelemetryNexusCloudSite#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#propagated NiatelemetryNexusCloudSite#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#sys_tag NiatelemetryNexusCloudSite#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#sys_tag NiatelemetryNexusCloudSite#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#type NiatelemetryNexusCloudSite#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#type NiatelemetryNexusCloudSite#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#value NiatelemetryNexusCloudSite#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#value NiatelemetryNexusCloudSite#value}
   */
   readonly value?: string;
 }
@@ -1996,23 +1996,23 @@ export class NiatelemetryNexusCloudSiteTagsList extends cdktf.ComplexList {
 }
 export interface NiatelemetryNexusCloudSiteVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -2244,23 +2244,23 @@ export class NiatelemetryNexusCloudSiteVersionContextInterestedMosList extends c
 }
 export interface NiatelemetryNexusCloudSiteVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#moid NiatelemetryNexusCloudSite#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#selector NiatelemetryNexusCloudSite#selector}
   */
   readonly selector?: string;
 }
@@ -2492,39 +2492,39 @@ export class NiatelemetryNexusCloudSiteVersionContextRefMoList extends cdktf.Com
 }
 export interface NiatelemetryNexusCloudSiteVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#additional_properties NiatelemetryNexusCloudSite#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#class_id NiatelemetryNexusCloudSite#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#interested_mos NiatelemetryNexusCloudSite#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#interested_mos NiatelemetryNexusCloudSite#interested_mos}
   */
   readonly interestedMos?: NiatelemetryNexusCloudSiteVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#marked_for_deletion NiatelemetryNexusCloudSite#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#marked_for_deletion NiatelemetryNexusCloudSite#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#nr_version NiatelemetryNexusCloudSite#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#nr_version NiatelemetryNexusCloudSite#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#object_type NiatelemetryNexusCloudSite#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#ref_mo NiatelemetryNexusCloudSite#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#ref_mo NiatelemetryNexusCloudSite#ref_mo}
   */
   readonly refMo?: NiatelemetryNexusCloudSiteVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#timestamp NiatelemetryNexusCloudSite#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#timestamp NiatelemetryNexusCloudSite#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#version_type NiatelemetryNexusCloudSite#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#version_type NiatelemetryNexusCloudSite#version_type}
   */
   readonly versionType?: string;
 }
@@ -2872,7 +2872,7 @@ export class NiatelemetryNexusCloudSiteVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site intersight_niatelemetry_nexus_cloud_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site intersight_niatelemetry_nexus_cloud_site}
 */
 export class NiatelemetryNexusCloudSite extends cdktf.TerraformResource {
 
@@ -2888,7 +2888,7 @@ export class NiatelemetryNexusCloudSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NiatelemetryNexusCloudSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NiatelemetryNexusCloudSite to import
-  * @param importFromId The id of the existing NiatelemetryNexusCloudSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NiatelemetryNexusCloudSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NiatelemetryNexusCloudSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2900,7 +2900,7 @@ export class NiatelemetryNexusCloudSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/niatelemetry_nexus_cloud_site intersight_niatelemetry_nexus_cloud_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/niatelemetry_nexus_cloud_site intersight_niatelemetry_nexus_cloud_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2911,8 +2911,8 @@ export class NiatelemetryNexusCloudSite extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_niatelemetry_nexus_cloud_site',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

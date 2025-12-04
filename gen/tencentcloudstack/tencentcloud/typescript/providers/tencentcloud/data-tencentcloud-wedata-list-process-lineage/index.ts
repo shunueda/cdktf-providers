@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudWedataListProcessLineageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#id DataTencentcloudWedataListProcessLineage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#id DataTencentcloudWedataListProcessLineage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudWedataListProcessLineageConfig extends cdktf.Te
   /**
   * Source: WEDATA|THIRD, default WEDATA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#platform DataTencentcloudWedataListProcessLineage#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#platform DataTencentcloudWedataListProcessLineage#platform}
   */
   readonly platform: string;
   /**
   * Task unique ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#process_id DataTencentcloudWedataListProcessLineage#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#process_id DataTencentcloudWedataListProcessLineage#process_id}
   */
   readonly processId: string;
   /**
   * Task type: SCHEDULE_TASK, INTEGRATION_TASK, THIRD_REPORT, TABLE_MODEL, MODEL_METRIC, METRIC_METRIC, DATA_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#process_type DataTencentcloudWedataListProcessLineage#process_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#process_type DataTencentcloudWedataListProcessLineage#process_type}
   */
   readonly processType: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#result_output_file DataTencentcloudWedataListProcessLineage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#result_output_file DataTencentcloudWedataListProcessLineage#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -702,7 +702,7 @@ export class DataTencentcloudWedataListProcessLineageItemsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage tencentcloud_wedata_list_process_lineage}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage tencentcloud_wedata_list_process_lineage}
 */
 export class DataTencentcloudWedataListProcessLineage extends cdktf.TerraformDataSource {
 
@@ -718,7 +718,7 @@ export class DataTencentcloudWedataListProcessLineage extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataTencentcloudWedataListProcessLineage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataListProcessLineage to import
-  * @param importFromId The id of the existing DataTencentcloudWedataListProcessLineage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataListProcessLineage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataListProcessLineage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -730,7 +730,7 @@ export class DataTencentcloudWedataListProcessLineage extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/wedata_list_process_lineage tencentcloud_wedata_list_process_lineage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/wedata_list_process_lineage tencentcloud_wedata_list_process_lineage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -741,8 +741,8 @@ export class DataTencentcloudWedataListProcessLineage extends cdktf.TerraformDat
       terraformResourceType: 'tencentcloud_wedata_list_process_lineage',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

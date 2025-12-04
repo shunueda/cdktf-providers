@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface DataIntersightServerConfigChangeDetailConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#account_moid DataIntersightServerConfigChangeDetail#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#account_moid DataIntersightServerConfigChangeDetail#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#changes DataIntersightServerConfigChangeDetail#changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#changes DataIntersightServerConfigChangeDetail#changes}
   */
   readonly changes?: string[];
   /**
@@ -26,7 +26,7 @@ export interface DataIntersightServerConfigChangeDetailConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
@@ -34,27 +34,27 @@ export interface DataIntersightServerConfigChangeDetailConfig extends cdktf.Terr
   * * `Pending-changes` - Config change flag represents changes are due to not deployed changes from Intersight.
   * * `Drift-changes` - Config change flag represents changes are due to endpoint configuration changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#config_change_flag DataIntersightServerConfigChangeDetail#config_change_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#config_change_flag DataIntersightServerConfigChangeDetail#config_change_flag}
   */
   readonly configChangeFlag?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#create_time DataIntersightServerConfigChangeDetail#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#create_time DataIntersightServerConfigChangeDetail#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#disruptions DataIntersightServerConfigChangeDetail#disruptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#disruptions DataIntersightServerConfigChangeDetail#disruptions}
   */
   readonly disruptions?: string[];
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#domain_group_moid DataIntersightServerConfigChangeDetail#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#domain_group_moid DataIntersightServerConfigChangeDetail#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#id DataIntersightServerConfigChangeDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#id DataIntersightServerConfigChangeDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ export interface DataIntersightServerConfigChangeDetailConfig extends cdktf.Terr
   /**
   * Detailed description of the config change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#message DataIntersightServerConfigChangeDetail#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#message DataIntersightServerConfigChangeDetail#message}
   */
   readonly message?: string;
   /**
@@ -73,79 +73,79 @@ export interface DataIntersightServerConfigChangeDetailConfig extends cdktf.Terr
   * * `Modified` - The 'update' operation/state.Indicates some of the desired configuration changes specified in a profile have not been been applied to the associated device.This happens when the user has made changes to a profile and has not deployed the changes yet, or when the workflow to applythe configuration changes has not completed successfully.
   * * `Deleted` - The 'delete' operation/state.Indicates a configuration profile has been been disassociated from a device and the user has not undeployed these changes yet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#mod_status DataIntersightServerConfigChangeDetail#mod_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#mod_status DataIntersightServerConfigChangeDetail#mod_status}
   */
   readonly modStatus?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#mod_time DataIntersightServerConfigChangeDetail#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#mod_time DataIntersightServerConfigChangeDetail#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#owners DataIntersightServerConfigChangeDetail#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#owners DataIntersightServerConfigChangeDetail#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#shared_scope DataIntersightServerConfigChangeDetail#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#shared_scope DataIntersightServerConfigChangeDetail#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#ancestors DataIntersightServerConfigChangeDetail#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#ancestors DataIntersightServerConfigChangeDetail#ancestors}
   */
   readonly ancestors?: DataIntersightServerConfigChangeDetailAncestors[] | cdktf.IResolvable;
   /**
   * config_change_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#config_change_context DataIntersightServerConfigChangeDetail#config_change_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#config_change_context DataIntersightServerConfigChangeDetail#config_change_context}
   */
   readonly configChangeContext?: DataIntersightServerConfigChangeDetailConfigChangeContext;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#parent DataIntersightServerConfigChangeDetail#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#parent DataIntersightServerConfigChangeDetail#parent}
   */
   readonly parent?: DataIntersightServerConfigChangeDetailParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#permission_resources DataIntersightServerConfigChangeDetail#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#permission_resources DataIntersightServerConfigChangeDetail#permission_resources}
   */
   readonly permissionResources?: DataIntersightServerConfigChangeDetailPermissionResources[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#profile DataIntersightServerConfigChangeDetail#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#profile DataIntersightServerConfigChangeDetail#profile}
   */
   readonly profile?: DataIntersightServerConfigChangeDetailProfile;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#tags DataIntersightServerConfigChangeDetail#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#tags DataIntersightServerConfigChangeDetail#tags}
   */
   readonly tags?: DataIntersightServerConfigChangeDetailTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#version_context DataIntersightServerConfigChangeDetail#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#version_context DataIntersightServerConfigChangeDetail#version_context}
   */
   readonly versionContext?: DataIntersightServerConfigChangeDetailVersionContext;
 }
@@ -1452,7 +1452,7 @@ export class DataIntersightServerConfigChangeDetailResultsList extends cdktf.Com
 }
 export interface DataIntersightServerConfigChangeDetailAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1460,19 +1460,19 @@ export interface DataIntersightServerConfigChangeDetailAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1485,7 +1485,7 @@ export interface DataIntersightServerConfigChangeDetailAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -1717,7 +1717,7 @@ export class DataIntersightServerConfigChangeDetailAncestorsList extends cdktf.C
 }
 export interface DataIntersightServerConfigChangeDetailConfigChangeContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1725,60 +1725,60 @@ export interface DataIntersightServerConfigChangeDetailConfigChangeContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#dependent_policy_list DataIntersightServerConfigChangeDetail#dependent_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#dependent_policy_list DataIntersightServerConfigChangeDetail#dependent_policy_list}
   */
   readonly dependentPolicyList?: string[];
   /**
   * The data of the object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#entity_data DataIntersightServerConfigChangeDetail#entity_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#entity_data DataIntersightServerConfigChangeDetail#entity_data}
   */
   readonly entityData?: string;
   /**
   * The Moid of the object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#entity_moid DataIntersightServerConfigChangeDetail#entity_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#entity_moid DataIntersightServerConfigChangeDetail#entity_moid}
   */
   readonly entityMoid?: string;
   /**
   * The name of the object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#entity_name DataIntersightServerConfigChangeDetail#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#entity_name DataIntersightServerConfigChangeDetail#entity_name}
   */
   readonly entityName?: string;
   /**
   * The type of the object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#entity_type DataIntersightServerConfigChangeDetail#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#entity_type DataIntersightServerConfigChangeDetail#entity_type}
   */
   readonly entityType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
   * The Moid of the parent object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#parent_moid DataIntersightServerConfigChangeDetail#parent_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#parent_moid DataIntersightServerConfigChangeDetail#parent_moid}
   */
   readonly parentMoid?: string;
   /**
   * The type of the policy object associated with the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#parent_policy_object_type DataIntersightServerConfigChangeDetail#parent_policy_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#parent_policy_object_type DataIntersightServerConfigChangeDetail#parent_policy_object_type}
   */
   readonly parentPolicyObjectType?: string;
   /**
   * The type of the parent object present in config result context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#parent_type DataIntersightServerConfigChangeDetail#parent_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#parent_type DataIntersightServerConfigChangeDetail#parent_type}
   */
   readonly parentType?: string;
 }
@@ -2152,7 +2152,7 @@ export class DataIntersightServerConfigChangeDetailConfigChangeContextOutputRefe
 }
 export interface DataIntersightServerConfigChangeDetailParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2160,19 +2160,19 @@ export interface DataIntersightServerConfigChangeDetailParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2185,7 +2185,7 @@ export interface DataIntersightServerConfigChangeDetailParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2385,7 +2385,7 @@ export class DataIntersightServerConfigChangeDetailParentOutputReference extends
 }
 export interface DataIntersightServerConfigChangeDetailPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2393,19 +2393,19 @@ export interface DataIntersightServerConfigChangeDetailPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2418,7 +2418,7 @@ export interface DataIntersightServerConfigChangeDetailPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2650,7 +2650,7 @@ export class DataIntersightServerConfigChangeDetailPermissionResourcesList exten
 }
 export interface DataIntersightServerConfigChangeDetailProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2658,19 +2658,19 @@ export interface DataIntersightServerConfigChangeDetailProfile {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2683,7 +2683,7 @@ export interface DataIntersightServerConfigChangeDetailProfile {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -2883,7 +2883,7 @@ export class DataIntersightServerConfigChangeDetailProfileOutputReference extend
 }
 export interface DataIntersightServerConfigChangeDetailTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2891,19 +2891,19 @@ export interface DataIntersightServerConfigChangeDetailTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2916,7 +2916,7 @@ export interface DataIntersightServerConfigChangeDetailTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -3148,7 +3148,7 @@ export class DataIntersightServerConfigChangeDetailTagsAncestorDefinitionsList e
 }
 export interface DataIntersightServerConfigChangeDetailTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3156,19 +3156,19 @@ export interface DataIntersightServerConfigChangeDetailTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3181,7 +3181,7 @@ export interface DataIntersightServerConfigChangeDetailTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -3381,25 +3381,25 @@ export class DataIntersightServerConfigChangeDetailTagsDefinitionOutputReference
 }
 export interface DataIntersightServerConfigChangeDetailTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#key DataIntersightServerConfigChangeDetail#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#key DataIntersightServerConfigChangeDetail#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#propagated DataIntersightServerConfigChangeDetail#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#propagated DataIntersightServerConfigChangeDetail#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#sys_tag DataIntersightServerConfigChangeDetail#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#sys_tag DataIntersightServerConfigChangeDetail#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3407,25 +3407,25 @@ export interface DataIntersightServerConfigChangeDetailTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#type DataIntersightServerConfigChangeDetail#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#type DataIntersightServerConfigChangeDetail#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#value DataIntersightServerConfigChangeDetail#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#value DataIntersightServerConfigChangeDetail#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#ancestor_definitions DataIntersightServerConfigChangeDetail#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#ancestor_definitions DataIntersightServerConfigChangeDetail#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightServerConfigChangeDetailTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#definition DataIntersightServerConfigChangeDetail#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#definition DataIntersightServerConfigChangeDetail#definition}
   */
   readonly definition?: DataIntersightServerConfigChangeDetailTagsDefinition;
 }
@@ -3744,7 +3744,7 @@ export class DataIntersightServerConfigChangeDetailTagsList extends cdktf.Comple
 }
 export interface DataIntersightServerConfigChangeDetailVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3752,19 +3752,19 @@ export interface DataIntersightServerConfigChangeDetailVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3777,7 +3777,7 @@ export interface DataIntersightServerConfigChangeDetailVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -4009,7 +4009,7 @@ export class DataIntersightServerConfigChangeDetailVersionContextInterestedMosLi
 }
 export interface DataIntersightServerConfigChangeDetailVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4017,19 +4017,19 @@ export interface DataIntersightServerConfigChangeDetailVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#moid DataIntersightServerConfigChangeDetail#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4042,7 +4042,7 @@ export interface DataIntersightServerConfigChangeDetailVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#selector DataIntersightServerConfigChangeDetail#selector}
   */
   readonly selector?: string;
 }
@@ -4242,7 +4242,7 @@ export class DataIntersightServerConfigChangeDetailVersionContextRefMoOutputRefe
 }
 export interface DataIntersightServerConfigChangeDetailVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#additional_properties DataIntersightServerConfigChangeDetail#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4250,32 +4250,32 @@ export interface DataIntersightServerConfigChangeDetailVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#class_id DataIntersightServerConfigChangeDetail#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#marked_for_deletion DataIntersightServerConfigChangeDetail#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#marked_for_deletion DataIntersightServerConfigChangeDetail#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#nr_version DataIntersightServerConfigChangeDetail#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#nr_version DataIntersightServerConfigChangeDetail#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#object_type DataIntersightServerConfigChangeDetail#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#timestamp DataIntersightServerConfigChangeDetail#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#timestamp DataIntersightServerConfigChangeDetail#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4286,19 +4286,19 @@ export interface DataIntersightServerConfigChangeDetailVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#version_type DataIntersightServerConfigChangeDetail#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#version_type DataIntersightServerConfigChangeDetail#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#interested_mos DataIntersightServerConfigChangeDetail#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#interested_mos DataIntersightServerConfigChangeDetail#interested_mos}
   */
   readonly interestedMos?: DataIntersightServerConfigChangeDetailVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#ref_mo DataIntersightServerConfigChangeDetail#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#ref_mo DataIntersightServerConfigChangeDetail#ref_mo}
   */
   readonly refMo?: DataIntersightServerConfigChangeDetailVersionContextRefMo;
 }
@@ -4614,7 +4614,7 @@ export class DataIntersightServerConfigChangeDetailVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail intersight_server_config_change_detail}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail intersight_server_config_change_detail}
 */
 export class DataIntersightServerConfigChangeDetail extends cdktf.TerraformDataSource {
 
@@ -4630,7 +4630,7 @@ export class DataIntersightServerConfigChangeDetail extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightServerConfigChangeDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightServerConfigChangeDetail to import
-  * @param importFromId The id of the existing DataIntersightServerConfigChangeDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightServerConfigChangeDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightServerConfigChangeDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4642,7 +4642,7 @@ export class DataIntersightServerConfigChangeDetail extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/server_config_change_detail intersight_server_config_change_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/server_config_change_detail intersight_server_config_change_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4653,8 +4653,8 @@ export class DataIntersightServerConfigChangeDetail extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_server_config_change_detail',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PrivateDnsInboundEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#endpoint_name PrivateDnsInboundEndpoint#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#endpoint_name PrivateDnsInboundEndpoint#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#endpoint_region PrivateDnsInboundEndpoint#endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#endpoint_region PrivateDnsInboundEndpoint#endpoint_region}
   */
   readonly endpointRegion: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#endpoint_vpc PrivateDnsInboundEndpoint#endpoint_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#endpoint_vpc PrivateDnsInboundEndpoint#endpoint_vpc}
   */
   readonly endpointVpc: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#id PrivateDnsInboundEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#id PrivateDnsInboundEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface PrivateDnsInboundEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * subnet_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#subnet_ip PrivateDnsInboundEndpoint#subnet_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#subnet_ip PrivateDnsInboundEndpoint#subnet_ip}
   */
   readonly subnetIp: PrivateDnsInboundEndpointSubnetIp[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface PrivateDnsInboundEndpointSubnetIp {
   /**
   * Subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#subnet_id PrivateDnsInboundEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#subnet_id PrivateDnsInboundEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#subnet_vip PrivateDnsInboundEndpoint#subnet_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#subnet_vip PrivateDnsInboundEndpoint#subnet_vip}
   */
   readonly subnetVip?: string;
 }
@@ -191,7 +191,7 @@ export class PrivateDnsInboundEndpointSubnetIpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint tencentcloud_private_dns_inbound_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint tencentcloud_private_dns_inbound_endpoint}
 */
 export class PrivateDnsInboundEndpoint extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class PrivateDnsInboundEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsInboundEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsInboundEndpoint to import
-  * @param importFromId The id of the existing PrivateDnsInboundEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsInboundEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsInboundEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class PrivateDnsInboundEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/private_dns_inbound_endpoint tencentcloud_private_dns_inbound_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/private_dns_inbound_endpoint tencentcloud_private_dns_inbound_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class PrivateDnsInboundEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_inbound_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

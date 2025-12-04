@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface DataIntersightMetaDefinitionConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#account_moid DataIntersightMetaDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#account_moid DataIntersightMetaDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#ancestor_classes DataIntersightMetaDefinition#ancestor_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#ancestor_classes DataIntersightMetaDefinition#ancestor_classes}
   */
   readonly ancestorClasses?: string[];
   /**
@@ -26,23 +26,23 @@ export interface DataIntersightMetaDefinitionConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#create_time DataIntersightMetaDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#create_time DataIntersightMetaDefinition#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#domain_group_moid DataIntersightMetaDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#domain_group_moid DataIntersightMetaDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#id DataIntersightMetaDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#id DataIntersightMetaDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ export interface DataIntersightMetaDefinitionConfig extends cdktf.TerraformMetaA
   /**
   * Boolean flag to specify whether the meta class is a concrete class or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#is_concrete DataIntersightMetaDefinition#is_concrete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#is_concrete DataIntersightMetaDefinition#is_concrete}
   */
   readonly isConcrete?: boolean | cdktf.IResolvable;
   /**
@@ -59,44 +59,44 @@ export interface DataIntersightMetaDefinitionConfig extends cdktf.TerraformMetaA
   * * `ManagedObject` - The meta.Definition object describes a managed object.
   * * `ComplexType` - The meta.Definition object describes a nested complex type within a managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#meta_type DataIntersightMetaDefinition#meta_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#meta_type DataIntersightMetaDefinition#meta_type}
   */
   readonly metaType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#mod_time DataIntersightMetaDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#mod_time DataIntersightMetaDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified class name of the Managed Object or complex type. For example, "compute:Blade" where the Managed Object is "Blade" and the package is 'compute'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
   */
   readonly name?: string;
   /**
   * The namespace of the meta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#namespace DataIntersightMetaDefinition#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#namespace DataIntersightMetaDefinition#namespace}
   */
   readonly namespace?: string;
   /**
   * The version of the service that defines the meta-data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#nr_version DataIntersightMetaDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#nr_version DataIntersightMetaDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -107,106 +107,106 @@ export interface DataIntersightMetaDefinitionConfig extends cdktf.TerraformMetaA
   * * `Internal` - Any Managed Object with OwnerType as Internal is internal to system. Such Managed Objects cannot be accessed using REST APIs and can be created, updated or deleted in any security context.
   * * `Organization` - Any Managed Object with OwnerType as Organization is contained under an organization like profiles, policies, user defined workflows. Implicitly an organization on-peer-delete relation is added in this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#owner DataIntersightMetaDefinition#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#owner DataIntersightMetaDefinition#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#owners DataIntersightMetaDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#owners DataIntersightMetaDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * The fully-qualified name of the parent metaclass in the class inheritance hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#parent_class DataIntersightMetaDefinition#parent_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#parent_class DataIntersightMetaDefinition#parent_class}
   */
   readonly parentClass?: string;
   /**
   * Boolean flag to specify whether instances of this class type can be specified in permissions for instance based access control. Permissions can be created for entire Intersight account or to a subset of resources (instance based access control). In the first release, permissions are supported for entire account or for a subset of organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#permission_supported DataIntersightMetaDefinition#permission_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#permission_supported DataIntersightMetaDefinition#permission_supported}
   */
   readonly permissionSupported?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag to specify whether instances of this class type can be assigned to resource groups that are part of an organization for access control. Inventoried physical/logical objects which needs access control should have rbacResource=true. These objects are not part of any organization by default like device registrations and should be assigned to organizations for access control. Profiles, policies, workflow definitions which are created by specifying organization need not have this flag set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#rbac_resource DataIntersightMetaDefinition#rbac_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#rbac_resource DataIntersightMetaDefinition#rbac_resource}
   */
   readonly rbacResource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#resource_pool_types DataIntersightMetaDefinition#resource_pool_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#resource_pool_types DataIntersightMetaDefinition#resource_pool_types}
   */
   readonly resourcePoolTypes?: string[];
   /**
   * Restful URL path for the meta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#rest_path DataIntersightMetaDefinition#rest_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#rest_path DataIntersightMetaDefinition#rest_path}
   */
   readonly restPath?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#shared_scope DataIntersightMetaDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#shared_scope DataIntersightMetaDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * access_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#access_privileges DataIntersightMetaDefinition#access_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#access_privileges DataIntersightMetaDefinition#access_privileges}
   */
   readonly accessPrivileges?: DataIntersightMetaDefinitionAccessPrivileges[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#ancestors DataIntersightMetaDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#ancestors DataIntersightMetaDefinition#ancestors}
   */
   readonly ancestors?: DataIntersightMetaDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * display_name_metas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#display_name_metas DataIntersightMetaDefinition#display_name_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#display_name_metas DataIntersightMetaDefinition#display_name_metas}
   */
   readonly displayNameMetas?: DataIntersightMetaDefinitionDisplayNameMetas[] | cdktf.IResolvable;
   /**
   * identity_constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#identity_constraints DataIntersightMetaDefinition#identity_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#identity_constraints DataIntersightMetaDefinition#identity_constraints}
   */
   readonly identityConstraints?: DataIntersightMetaDefinitionIdentityConstraints[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#parent DataIntersightMetaDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#parent DataIntersightMetaDefinition#parent}
   */
   readonly parent?: DataIntersightMetaDefinitionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#permission_resources DataIntersightMetaDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#permission_resources DataIntersightMetaDefinition#permission_resources}
   */
   readonly permissionResources?: DataIntersightMetaDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#properties DataIntersightMetaDefinition#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#properties DataIntersightMetaDefinition#properties}
   */
   readonly properties?: DataIntersightMetaDefinitionProperties[] | cdktf.IResolvable;
   /**
   * relationships block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#relationships DataIntersightMetaDefinition#relationships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#relationships DataIntersightMetaDefinition#relationships}
   */
   readonly relationships?: DataIntersightMetaDefinitionRelationships[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#tags DataIntersightMetaDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#tags DataIntersightMetaDefinition#tags}
   */
   readonly tags?: DataIntersightMetaDefinitionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#version_context DataIntersightMetaDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#version_context DataIntersightMetaDefinition#version_context}
   */
   readonly versionContext?: DataIntersightMetaDefinitionVersionContext;
 }
@@ -1891,7 +1891,7 @@ export class DataIntersightMetaDefinitionResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMetaDefinitionAccessPrivileges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1899,7 +1899,7 @@ export interface DataIntersightMetaDefinitionAccessPrivileges {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
@@ -1909,20 +1909,20 @@ export interface DataIntersightMetaDefinitionAccessPrivileges {
   * * `Read` - The 'read' operation/state.
   * * `Delete` - The 'delete' operation/state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#method DataIntersightMetaDefinition#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#method DataIntersightMetaDefinition#method}
   */
   readonly method?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The name of the privilege which is required to invoke the specified CRUD method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#privilege DataIntersightMetaDefinition#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#privilege DataIntersightMetaDefinition#privilege}
   */
   readonly privilege?: string;
 }
@@ -2154,7 +2154,7 @@ export class DataIntersightMetaDefinitionAccessPrivilegesList extends cdktf.Comp
 }
 export interface DataIntersightMetaDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2162,19 +2162,19 @@ export interface DataIntersightMetaDefinitionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2187,7 +2187,7 @@ export interface DataIntersightMetaDefinitionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2419,7 +2419,7 @@ export class DataIntersightMetaDefinitionAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightMetaDefinitionDisplayNameMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2427,32 +2427,32 @@ export interface DataIntersightMetaDefinitionDisplayNameMetas {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * A specification for constructing the displayname from the MO's properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#format DataIntersightMetaDefinition#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#format DataIntersightMetaDefinition#format}
   */
   readonly format?: string;
   /**
   * An indication of whether the displayname should be contructed 'recursively' including the displayname of the first ancestor with a similarly named displayname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#include_ancestor DataIntersightMetaDefinition#include_ancestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#include_ancestor DataIntersightMetaDefinition#include_ancestor}
   */
   readonly includeAncestor?: boolean | cdktf.IResolvable;
   /**
   * The name of the displayname used as a key in the DisplayName map which is returned as part of an MO for a Rest request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -2713,7 +2713,7 @@ export class DataIntersightMetaDefinitionDisplayNameMetasList extends cdktf.Comp
 }
 export interface DataIntersightMetaDefinitionIdentityConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2721,18 +2721,18 @@ export interface DataIntersightMetaDefinitionIdentityConstraints {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#fields DataIntersightMetaDefinition#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#fields DataIntersightMetaDefinition#fields}
   */
   readonly fields?: string[];
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -2935,7 +2935,7 @@ export class DataIntersightMetaDefinitionIdentityConstraintsList extends cdktf.C
 }
 export interface DataIntersightMetaDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2943,19 +2943,19 @@ export interface DataIntersightMetaDefinitionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2968,7 +2968,7 @@ export interface DataIntersightMetaDefinitionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3168,7 +3168,7 @@ export class DataIntersightMetaDefinitionParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightMetaDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3176,19 +3176,19 @@ export interface DataIntersightMetaDefinitionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3201,7 +3201,7 @@ export interface DataIntersightMetaDefinitionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3433,7 +3433,7 @@ export class DataIntersightMetaDefinitionPermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightMetaDefinitionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3445,7 +3445,7 @@ export interface DataIntersightMetaDefinitionProperties {
   * * `WriteOnly` - The value of the property can be set but it is never returned in the response body of supported HTTP methods.This settings is used for sensitive properties such as passwords.
   * * `ReadOnCreate` - The value of the property is returned in the HTTP POST response body when the REST resource is created.The property is not writeable and cannot be queried through a GET request after the resource has been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#api_access DataIntersightMetaDefinition#api_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#api_access DataIntersightMetaDefinition#api_access}
   */
   readonly apiAccess?: string;
   /**
@@ -3453,25 +3453,25 @@ export interface DataIntersightMetaDefinitionProperties {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The default value of the property. Not applicable when IsComplexType is True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#default DataIntersightMetaDefinition#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#default DataIntersightMetaDefinition#default}
   */
   readonly default?: string;
   /**
   * Indicates whether the property is a collection (i.e. a JSON array), otherwise it is a single value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#is_collection DataIntersightMetaDefinition#is_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#is_collection DataIntersightMetaDefinition#is_collection}
   */
   readonly isCollection?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the property is a complex type, otherwise it is a basic scalar type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#is_complex_type DataIntersightMetaDefinition#is_complex_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#is_complex_type DataIntersightMetaDefinition#is_complex_type}
   */
   readonly isComplexType?: boolean | cdktf.IResolvable;
   /**
@@ -3493,20 +3493,20 @@ export interface DataIntersightMetaDefinitionProperties {
   * * `EnumInteger` - The 'EnumInteger' kind of property.
   * * `ComplexType` - The 'ComplexType' kind of property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#kind DataIntersightMetaDefinition#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#kind DataIntersightMetaDefinition#kind}
   */
   readonly kind?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3519,19 +3519,19 @@ export interface DataIntersightMetaDefinitionProperties {
   * * `Sha512crypt` - The value of the property is hashed using the sha512crypt key derivation function.
   * * `Argon2id` - The value of the property is hashed using the argon2id key derivation function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#op_security DataIntersightMetaDefinition#op_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#op_security DataIntersightMetaDefinition#op_security}
   */
   readonly opSecurity?: string;
   /**
   * Enables the property to be searchable from global search. A value of 0 means this property is not globally searchable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#search_weight DataIntersightMetaDefinition#search_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#search_weight DataIntersightMetaDefinition#search_weight}
   */
   readonly searchWeight?: number;
   /**
   * The type of the property. In case of collection properties the type is that of individual elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
   */
   readonly type?: string;
 }
@@ -3966,7 +3966,7 @@ export class DataIntersightMetaDefinitionPropertiesList extends cdktf.ComplexLis
 }
 export interface DataIntersightMetaDefinitionRelationships {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3978,7 +3978,7 @@ export interface DataIntersightMetaDefinitionRelationships {
   * * `WriteOnly` - The value of the property can be set but it is never returned in the response body of supported HTTP methods.This settings is used for sensitive properties such as passwords.
   * * `ReadOnCreate` - The value of the property is returned in the HTTP POST response body when the REST resource is created.The property is not writeable and cannot be queried through a GET request after the resource has been created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#api_access DataIntersightMetaDefinition#api_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#api_access DataIntersightMetaDefinition#api_access}
   */
   readonly apiAccess?: string;
   /**
@@ -3986,60 +3986,60 @@ export interface DataIntersightMetaDefinitionRelationships {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Specifies whether the relationship is a collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#collection DataIntersightMetaDefinition#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#collection DataIntersightMetaDefinition#collection}
   */
   readonly collection?: boolean | cdktf.IResolvable;
   /**
   * When turned off, the peer MO is not exported when the local MO is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#export DataIntersightMetaDefinition#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#export DataIntersightMetaDefinition#export}
   */
   readonly export?: boolean | cdktf.IResolvable;
   /**
   * When turned on, the local MO is exported when the peer is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#export_with_peer DataIntersightMetaDefinition#export_with_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#export_with_peer DataIntersightMetaDefinition#export_with_peer}
   */
   readonly exportWithPeer?: boolean | cdktf.IResolvable;
   /**
   * The name of the relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#name DataIntersightMetaDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Name of relationship in peer managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#peer_rel_name DataIntersightMetaDefinition#peer_rel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#peer_rel_name DataIntersightMetaDefinition#peer_rel_name}
   */
   readonly peerRelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#peer_supported_object_types DataIntersightMetaDefinition#peer_supported_object_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#peer_supported_object_types DataIntersightMetaDefinition#peer_supported_object_types}
   */
   readonly peerSupportedObjectTypes?: string[];
   /**
   * When turned on, peer MO corresponding to the reference provided in relation is updated with a reference to the current MO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#peer_sync DataIntersightMetaDefinition#peer_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#peer_sync DataIntersightMetaDefinition#peer_sync}
   */
   readonly peerSync?: boolean | cdktf.IResolvable;
   /**
   * Fully qualified type of the peer managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
   */
   readonly type?: string;
 }
@@ -4474,7 +4474,7 @@ export class DataIntersightMetaDefinitionRelationshipsList extends cdktf.Complex
 }
 export interface DataIntersightMetaDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4482,19 +4482,19 @@ export interface DataIntersightMetaDefinitionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4507,7 +4507,7 @@ export interface DataIntersightMetaDefinitionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4739,7 +4739,7 @@ export class DataIntersightMetaDefinitionTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightMetaDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4747,19 +4747,19 @@ export interface DataIntersightMetaDefinitionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4772,7 +4772,7 @@ export interface DataIntersightMetaDefinitionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4972,25 +4972,25 @@ export class DataIntersightMetaDefinitionTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightMetaDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#key DataIntersightMetaDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#key DataIntersightMetaDefinition#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#propagated DataIntersightMetaDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#propagated DataIntersightMetaDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#sys_tag DataIntersightMetaDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#sys_tag DataIntersightMetaDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4998,25 +4998,25 @@ export interface DataIntersightMetaDefinitionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#type DataIntersightMetaDefinition#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#value DataIntersightMetaDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#value DataIntersightMetaDefinition#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#ancestor_definitions DataIntersightMetaDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#ancestor_definitions DataIntersightMetaDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMetaDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#definition DataIntersightMetaDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#definition DataIntersightMetaDefinition#definition}
   */
   readonly definition?: DataIntersightMetaDefinitionTagsDefinition;
 }
@@ -5335,7 +5335,7 @@ export class DataIntersightMetaDefinitionTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMetaDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5343,19 +5343,19 @@ export interface DataIntersightMetaDefinitionVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5368,7 +5368,7 @@ export interface DataIntersightMetaDefinitionVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -5600,7 +5600,7 @@ export class DataIntersightMetaDefinitionVersionContextInterestedMosList extends
 }
 export interface DataIntersightMetaDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5608,19 +5608,19 @@ export interface DataIntersightMetaDefinitionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#moid DataIntersightMetaDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5633,7 +5633,7 @@ export interface DataIntersightMetaDefinitionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#selector DataIntersightMetaDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -5833,7 +5833,7 @@ export class DataIntersightMetaDefinitionVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightMetaDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#additional_properties DataIntersightMetaDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5841,32 +5841,32 @@ export interface DataIntersightMetaDefinitionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#class_id DataIntersightMetaDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#marked_for_deletion DataIntersightMetaDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#marked_for_deletion DataIntersightMetaDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#nr_version DataIntersightMetaDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#nr_version DataIntersightMetaDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#object_type DataIntersightMetaDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#timestamp DataIntersightMetaDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#timestamp DataIntersightMetaDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5877,19 +5877,19 @@ export interface DataIntersightMetaDefinitionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#version_type DataIntersightMetaDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#version_type DataIntersightMetaDefinition#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#interested_mos DataIntersightMetaDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#interested_mos DataIntersightMetaDefinition#interested_mos}
   */
   readonly interestedMos?: DataIntersightMetaDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#ref_mo DataIntersightMetaDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#ref_mo DataIntersightMetaDefinition#ref_mo}
   */
   readonly refMo?: DataIntersightMetaDefinitionVersionContextRefMo;
 }
@@ -6205,7 +6205,7 @@ export class DataIntersightMetaDefinitionVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition intersight_meta_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition intersight_meta_definition}
 */
 export class DataIntersightMetaDefinition extends cdktf.TerraformDataSource {
 
@@ -6221,7 +6221,7 @@ export class DataIntersightMetaDefinition extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightMetaDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMetaDefinition to import
-  * @param importFromId The id of the existing DataIntersightMetaDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMetaDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMetaDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6233,7 +6233,7 @@ export class DataIntersightMetaDefinition extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meta_definition intersight_meta_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meta_definition intersight_meta_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6244,8 +6244,8 @@ export class DataIntersightMetaDefinition extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_meta_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

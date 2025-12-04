@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client
+// https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AppClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Callback URLs to use. Used together with `type` set to `frontend`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#callback_urls AppClient#callback_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#callback_urls AppClient#callback_urls}
   */
   readonly callbackUrls?: string[];
   /**
   * Should a secret be generated? Automatically set by `type`, but you're able to override it with this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#generate_secret AppClient#generate_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#generate_secret AppClient#generate_secret}
   */
   readonly generateSecret?: boolean | cdktf.IResolvable;
   /**
   * Logout URLs to use. Used together with `type` set to `frontend`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#logout_urls AppClient#logout_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#logout_urls AppClient#logout_urls}
   */
   readonly logoutUrls?: string[];
   /**
   * The name of this app client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#name AppClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#name AppClient#name}
   */
   readonly name: string;
   /**
   * Scopes that this client has access to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#scopes AppClient#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#scopes AppClient#scopes}
   */
   readonly scopes?: string[];
   /**
-  * The use-case for this app client. Used to automatically add OAuth options
+  * The use-case for this app client. Used to automatically add OAuth options. Must be either `frontend` or `backend`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#type AppClient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#type AppClient#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client vy_app_client}
+* Represents a {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client vy_app_client}
 */
 export class AppClient extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class AppClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppClient to import
-  * @param importFromId The id of the existing AppClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class AppClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/0.5.0/docs/resources/app_client vy_app_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nsbno/vy/1.0.1/docs/resources/app_client vy_app_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class AppClient extends cdktf.TerraformResource {
       terraformResourceType: 'vy_app_client',
       terraformGeneratorMetadata: {
         providerName: 'vy',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '1.0.1',
+        providerVersionConstraint: '1.0.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

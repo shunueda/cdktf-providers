@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface FunctionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of requests processed by a function instance at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#concurrency FunctionResource#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#concurrency FunctionResource#concurrency}
   */
   readonly concurrency?: number;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#description FunctionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#description FunctionResource#description}
   */
   readonly description?: string;
   /**
   * Entrypoint for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#entrypoint FunctionResource#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#entrypoint FunctionResource#entrypoint}
   */
   readonly entrypoint: string;
   /**
   * A set of key/value environment variables for Yandex Cloud Function. Each key must begin with a letter (A-Z, a-z).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#environment FunctionResource#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#environment FunctionResource#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Execution timeout in seconds for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#execution_timeout FunctionResource#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#execution_timeout FunctionResource#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#folder_id FunctionResource#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#folder_id FunctionResource#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#id FunctionResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#id FunctionResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,109 +53,109 @@ export interface FunctionResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#labels FunctionResource#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#labels FunctionResource#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Memory in megabytes (**aligned to 128MB**) for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#memory FunctionResource#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#memory FunctionResource#memory}
   */
   readonly memory: number;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#name FunctionResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#name FunctionResource#name}
   */
   readonly name: string;
   /**
   * Runtime for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#runtime FunctionResource#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#runtime FunctionResource#runtime}
   */
   readonly runtime: string;
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * Tags for Yandex Cloud Function. Tag `$latest` isn't returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#tags FunctionResource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#tags FunctionResource#tags}
   */
   readonly tags?: string[];
   /**
   * Tmpfs size for Yandex Cloud Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#tmpfs_size FunctionResource#tmpfs_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#tmpfs_size FunctionResource#tmpfs_size}
   */
   readonly tmpfsSize?: number;
   /**
   * User-defined string for current function version. User must change this string any times when function changed. Function will be updated when hash is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#user_hash FunctionResource#user_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#user_hash FunctionResource#user_hash}
   */
   readonly userHash: string;
   /**
   * async_invocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#async_invocation FunctionResource#async_invocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#async_invocation FunctionResource#async_invocation}
   */
   readonly asyncInvocation?: FunctionResourceAsyncInvocation;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#connectivity FunctionResource#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#connectivity FunctionResource#connectivity}
   */
   readonly connectivity?: FunctionResourceConnectivity;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#content FunctionResource#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#content FunctionResource#content}
   */
   readonly content?: FunctionResourceContent;
   /**
   * log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#log_options FunctionResource#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#log_options FunctionResource#log_options}
   */
   readonly logOptions?: FunctionResourceLogOptions;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#metadata_options FunctionResource#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#metadata_options FunctionResource#metadata_options}
   */
   readonly metadataOptions?: FunctionResourceMetadataOptions;
   /**
   * mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#mounts FunctionResource#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#mounts FunctionResource#mounts}
   */
   readonly mounts?: FunctionResourceMounts[] | cdktf.IResolvable;
   /**
   * package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#package FunctionResource#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#package FunctionResource#package}
   */
   readonly package?: FunctionResourcePackage;
   /**
   * secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#secrets FunctionResource#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#secrets FunctionResource#secrets}
   */
   readonly secrets?: FunctionResourceSecrets[] | cdktf.IResolvable;
   /**
   * storage_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#storage_mounts FunctionResource#storage_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#storage_mounts FunctionResource#storage_mounts}
   */
   readonly storageMounts?: FunctionResourceStorageMounts[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#timeouts FunctionResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#timeouts FunctionResource#timeouts}
   */
   readonly timeouts?: FunctionResourceTimeouts;
 }
@@ -163,13 +163,13 @@ export interface FunctionResourceAsyncInvocationYmqFailureTarget {
   /**
   * YMQ ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#arn FunctionResource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#arn FunctionResource#arn}
   */
   readonly arn: string;
   /**
   * Service account used for writing result to queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
   */
   readonly serviceAccountId: string;
 }
@@ -278,13 +278,13 @@ export interface FunctionResourceAsyncInvocationYmqSuccessTarget {
   /**
   * YMQ ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#arn FunctionResource#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#arn FunctionResource#arn}
   */
   readonly arn: string;
   /**
   * Service account used for writing result to queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
   */
   readonly serviceAccountId: string;
 }
@@ -393,25 +393,25 @@ export interface FunctionResourceAsyncInvocation {
   /**
   * Maximum number of retries for async invocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#retries_count FunctionResource#retries_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#retries_count FunctionResource#retries_count}
   */
   readonly retriesCount?: number;
   /**
   * Service account used for async invocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#service_account_id FunctionResource#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * ymq_failure_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#ymq_failure_target FunctionResource#ymq_failure_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#ymq_failure_target FunctionResource#ymq_failure_target}
   */
   readonly ymqFailureTarget?: FunctionResourceAsyncInvocationYmqFailureTarget;
   /**
   * ymq_success_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#ymq_success_target FunctionResource#ymq_success_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#ymq_success_target FunctionResource#ymq_success_target}
   */
   readonly ymqSuccessTarget?: FunctionResourceAsyncInvocationYmqSuccessTarget;
 }
@@ -584,7 +584,7 @@ export interface FunctionResourceConnectivity {
   /**
   * Network the version will have access to. It's essential to specify network with subnets in all availability zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#network_id FunctionResource#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#network_id FunctionResource#network_id}
   */
   readonly networkId: string;
 }
@@ -667,7 +667,7 @@ export interface FunctionResourceContent {
   /**
   * Filename to zip archive for the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#zip_filename FunctionResource#zip_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#zip_filename FunctionResource#zip_filename}
   */
   readonly zipFilename: string;
 }
@@ -750,25 +750,25 @@ export interface FunctionResourceLogOptions {
   /**
   * Is logging from function disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#disabled FunctionResource#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#disabled FunctionResource#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Log entries are written to default log group for specified folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#folder_id FunctionResource#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#folder_id FunctionResource#folder_id}
   */
   readonly folderId?: string;
   /**
   * Log entries are written to specified log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#log_group_id FunctionResource#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#log_group_id FunctionResource#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum log entry level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#min_level FunctionResource#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#min_level FunctionResource#min_level}
   */
   readonly minLevel?: string;
 }
@@ -941,13 +941,13 @@ export interface FunctionResourceMetadataOptions {
   /**
   * Enables access to AWS flavored metadata (IMDSv1). Values: `0` - default, `1` - enabled, `2` - disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#aws_v1_http_endpoint FunctionResource#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#aws_v1_http_endpoint FunctionResource#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
   * Enables access to GCE flavored metadata. Values: `0`- default, `1` - enabled, `2` - disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#gce_http_endpoint FunctionResource#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#gce_http_endpoint FunctionResource#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
 }
@@ -1062,13 +1062,13 @@ export interface FunctionResourceMountsEphemeralDisk {
   /**
   * Optional block size of the ephemeral disk in KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#block_size_kb FunctionResource#block_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#block_size_kb FunctionResource#block_size_kb}
   */
   readonly blockSizeKb?: number;
   /**
   * Size of the ephemeral disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#size_gb FunctionResource#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#size_gb FunctionResource#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -1180,13 +1180,13 @@ export interface FunctionResourceMountsObjectStorage {
   /**
   * Name of the mounting bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#bucket FunctionResource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#bucket FunctionResource#bucket}
   */
   readonly bucket: string;
   /**
   * Prefix within the bucket. If you leave this field empty, the entire bucket will be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#prefix FunctionResource#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#prefix FunctionResource#prefix}
   */
   readonly prefix?: string;
 }
@@ -1298,25 +1298,25 @@ export interface FunctionResourceMounts {
   /**
   * Mount’s accessibility mode. Valid values are `ro` and `rw`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#mode FunctionResource#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#mode FunctionResource#mode}
   */
   readonly mode?: string;
   /**
   * Name of the mount point. The directory where the target is mounted will be accessible at the `/function/storage/<mounts.0.name>` path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#name FunctionResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#name FunctionResource#name}
   */
   readonly name: string;
   /**
   * ephemeral_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#ephemeral_disk FunctionResource#ephemeral_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#ephemeral_disk FunctionResource#ephemeral_disk}
   */
   readonly ephemeralDisk?: FunctionResourceMountsEphemeralDisk;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#object_storage FunctionResource#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#object_storage FunctionResource#object_storage}
   */
   readonly objectStorage?: FunctionResourceMountsObjectStorage;
 }
@@ -1518,19 +1518,19 @@ export interface FunctionResourcePackage {
   /**
   * Name of the bucket that stores the code for the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#bucket_name FunctionResource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#bucket_name FunctionResource#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Name of the object in the bucket that stores the code for the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#object_name FunctionResource#object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#object_name FunctionResource#object_name}
   */
   readonly objectName: string;
   /**
   * SHA256 hash of the version deployment package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#sha_256 FunctionResource#sha_256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#sha_256 FunctionResource#sha_256}
   */
   readonly sha256?: string;
 }
@@ -1668,13 +1668,13 @@ export interface FunctionResourceSecrets {
   /**
   * Function's environment variable in which secret's value will be stored. Must begin with a letter (A-Z, a-z).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#environment_variable FunctionResource#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#environment_variable FunctionResource#environment_variable}
   */
   readonly environmentVariable: string;
   /**
   * Secret's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#id FunctionResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#id FunctionResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1683,13 +1683,13 @@ export interface FunctionResourceSecrets {
   /**
   * Secret's entries key which value will be stored in environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#key FunctionResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#key FunctionResource#key}
   */
   readonly key: string;
   /**
   * Secret's version ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#version_id FunctionResource#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#version_id FunctionResource#version_id}
   */
   readonly versionId: string;
 }
@@ -1882,25 +1882,25 @@ export interface FunctionResourceStorageMounts {
   /**
   * Name of the mounting bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#bucket FunctionResource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#bucket FunctionResource#bucket}
   */
   readonly bucket: string;
   /**
   * Name of the mount point. The directory where the bucket is mounted will be accessible at the `/function/storage/<mount_point>` path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#mount_point_name FunctionResource#mount_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#mount_point_name FunctionResource#mount_point_name}
   */
   readonly mountPointName: string;
   /**
   * Prefix within the bucket. If you leave this field empty, the entire bucket will be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#prefix FunctionResource#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#prefix FunctionResource#prefix}
   */
   readonly prefix?: string;
   /**
   * Mount the bucket in read-only mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#read_only FunctionResource#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#read_only FunctionResource#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -2097,15 +2097,15 @@ export class FunctionResourceStorageMountsList extends cdktf.ComplexList {
 }
 export interface FunctionResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#create FunctionResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#create FunctionResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#delete FunctionResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#delete FunctionResource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#update FunctionResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#update FunctionResource#update}
   */
   readonly update?: string;
 }
@@ -2257,7 +2257,7 @@ export class FunctionResourceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function yandex_function}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function yandex_function}
 */
 export class FunctionResource extends cdktf.TerraformResource {
 
@@ -2273,7 +2273,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionResource to import
-  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2285,7 +2285,7 @@ export class FunctionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/function yandex_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/function yandex_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2296,8 +2296,8 @@ export class FunctionResource extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_function',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCatalystsdwanConfigGroupConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#account_moid DataIntersightCatalystsdwanConfigGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#account_moid DataIntersightCatalystsdwanConfigGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,33 +22,33 @@ export interface DataIntersightCatalystsdwanConfigGroupConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * UUID for the Catalyst SDWAN config group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#config_group_id DataIntersightCatalystsdwanConfigGroup#config_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#config_group_id DataIntersightCatalystsdwanConfigGroup#config_group_id}
   */
   readonly configGroupId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#create_time DataIntersightCatalystsdwanConfigGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#create_time DataIntersightCatalystsdwanConfigGroup#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#devices DataIntersightCatalystsdwanConfigGroup#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#devices DataIntersightCatalystsdwanConfigGroup#devices}
   */
   readonly devices?: string[];
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#domain_group_moid DataIntersightCatalystsdwanConfigGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#domain_group_moid DataIntersightCatalystsdwanConfigGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#id DataIntersightCatalystsdwanConfigGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#id DataIntersightCatalystsdwanConfigGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,85 +57,85 @@ export interface DataIntersightCatalystsdwanConfigGroupConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#mod_time DataIntersightCatalystsdwanConfigGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#mod_time DataIntersightCatalystsdwanConfigGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The Catalyst SDWAN config group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#name DataIntersightCatalystsdwanConfigGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#name DataIntersightCatalystsdwanConfigGroup#name}
   */
   readonly name?: string;
   /**
   * The Catalyst SDWAN config group number of devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#number_of_devices DataIntersightCatalystsdwanConfigGroup#number_of_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#number_of_devices DataIntersightCatalystsdwanConfigGroup#number_of_devices}
   */
   readonly numberOfDevices?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#owners DataIntersightCatalystsdwanConfigGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#owners DataIntersightCatalystsdwanConfigGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#shared_scope DataIntersightCatalystsdwanConfigGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#shared_scope DataIntersightCatalystsdwanConfigGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The Catalyst SDWAN config group solution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#solution DataIntersightCatalystsdwanConfigGroup#solution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#solution DataIntersightCatalystsdwanConfigGroup#solution}
   */
   readonly solution?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#ancestors DataIntersightCatalystsdwanConfigGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#ancestors DataIntersightCatalystsdwanConfigGroup#ancestors}
   */
   readonly ancestors?: DataIntersightCatalystsdwanConfigGroupAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#parent DataIntersightCatalystsdwanConfigGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#parent DataIntersightCatalystsdwanConfigGroup#parent}
   */
   readonly parent?: DataIntersightCatalystsdwanConfigGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#permission_resources DataIntersightCatalystsdwanConfigGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#permission_resources DataIntersightCatalystsdwanConfigGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightCatalystsdwanConfigGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#registered_device DataIntersightCatalystsdwanConfigGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#registered_device DataIntersightCatalystsdwanConfigGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightCatalystsdwanConfigGroupRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#tags DataIntersightCatalystsdwanConfigGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#tags DataIntersightCatalystsdwanConfigGroup#tags}
   */
   readonly tags?: DataIntersightCatalystsdwanConfigGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#version_context DataIntersightCatalystsdwanConfigGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#version_context DataIntersightCatalystsdwanConfigGroup#version_context}
   */
   readonly versionContext?: DataIntersightCatalystsdwanConfigGroupVersionContext;
 }
@@ -1311,7 +1311,7 @@ export class DataIntersightCatalystsdwanConfigGroupResultsList extends cdktf.Com
 }
 export interface DataIntersightCatalystsdwanConfigGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1319,19 +1319,19 @@ export interface DataIntersightCatalystsdwanConfigGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1344,7 +1344,7 @@ export interface DataIntersightCatalystsdwanConfigGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1576,7 +1576,7 @@ export class DataIntersightCatalystsdwanConfigGroupAncestorsList extends cdktf.C
 }
 export interface DataIntersightCatalystsdwanConfigGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1584,19 +1584,19 @@ export interface DataIntersightCatalystsdwanConfigGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1609,7 +1609,7 @@ export interface DataIntersightCatalystsdwanConfigGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1809,7 +1809,7 @@ export class DataIntersightCatalystsdwanConfigGroupParentOutputReference extends
 }
 export interface DataIntersightCatalystsdwanConfigGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1817,19 +1817,19 @@ export interface DataIntersightCatalystsdwanConfigGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1842,7 +1842,7 @@ export interface DataIntersightCatalystsdwanConfigGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2074,7 +2074,7 @@ export class DataIntersightCatalystsdwanConfigGroupPermissionResourcesList exten
 }
 export interface DataIntersightCatalystsdwanConfigGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2082,19 +2082,19 @@ export interface DataIntersightCatalystsdwanConfigGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2107,7 +2107,7 @@ export interface DataIntersightCatalystsdwanConfigGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2307,7 +2307,7 @@ export class DataIntersightCatalystsdwanConfigGroupRegisteredDeviceOutputReferen
 }
 export interface DataIntersightCatalystsdwanConfigGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2315,19 +2315,19 @@ export interface DataIntersightCatalystsdwanConfigGroupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2340,7 +2340,7 @@ export interface DataIntersightCatalystsdwanConfigGroupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2572,7 +2572,7 @@ export class DataIntersightCatalystsdwanConfigGroupTagsAncestorDefinitionsList e
 }
 export interface DataIntersightCatalystsdwanConfigGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2580,19 +2580,19 @@ export interface DataIntersightCatalystsdwanConfigGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2605,7 +2605,7 @@ export interface DataIntersightCatalystsdwanConfigGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2805,25 +2805,25 @@ export class DataIntersightCatalystsdwanConfigGroupTagsDefinitionOutputReference
 }
 export interface DataIntersightCatalystsdwanConfigGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#key DataIntersightCatalystsdwanConfigGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#key DataIntersightCatalystsdwanConfigGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#propagated DataIntersightCatalystsdwanConfigGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#propagated DataIntersightCatalystsdwanConfigGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#sys_tag DataIntersightCatalystsdwanConfigGroup#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#sys_tag DataIntersightCatalystsdwanConfigGroup#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2831,25 +2831,25 @@ export interface DataIntersightCatalystsdwanConfigGroupTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#type DataIntersightCatalystsdwanConfigGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#type DataIntersightCatalystsdwanConfigGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#value DataIntersightCatalystsdwanConfigGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#value DataIntersightCatalystsdwanConfigGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#ancestor_definitions DataIntersightCatalystsdwanConfigGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#ancestor_definitions DataIntersightCatalystsdwanConfigGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCatalystsdwanConfigGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#definition DataIntersightCatalystsdwanConfigGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#definition DataIntersightCatalystsdwanConfigGroup#definition}
   */
   readonly definition?: DataIntersightCatalystsdwanConfigGroupTagsDefinition;
 }
@@ -3168,7 +3168,7 @@ export class DataIntersightCatalystsdwanConfigGroupTagsList extends cdktf.Comple
 }
 export interface DataIntersightCatalystsdwanConfigGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3176,19 +3176,19 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3201,7 +3201,7 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3433,7 +3433,7 @@ export class DataIntersightCatalystsdwanConfigGroupVersionContextInterestedMosLi
 }
 export interface DataIntersightCatalystsdwanConfigGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3441,19 +3441,19 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#moid DataIntersightCatalystsdwanConfigGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3466,7 +3466,7 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#selector DataIntersightCatalystsdwanConfigGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3666,7 +3666,7 @@ export class DataIntersightCatalystsdwanConfigGroupVersionContextRefMoOutputRefe
 }
 export interface DataIntersightCatalystsdwanConfigGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#additional_properties DataIntersightCatalystsdwanConfigGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3674,32 +3674,32 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#class_id DataIntersightCatalystsdwanConfigGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#marked_for_deletion DataIntersightCatalystsdwanConfigGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#marked_for_deletion DataIntersightCatalystsdwanConfigGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#nr_version DataIntersightCatalystsdwanConfigGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#nr_version DataIntersightCatalystsdwanConfigGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#object_type DataIntersightCatalystsdwanConfigGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#timestamp DataIntersightCatalystsdwanConfigGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#timestamp DataIntersightCatalystsdwanConfigGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3710,19 +3710,19 @@ export interface DataIntersightCatalystsdwanConfigGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#version_type DataIntersightCatalystsdwanConfigGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#version_type DataIntersightCatalystsdwanConfigGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#interested_mos DataIntersightCatalystsdwanConfigGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#interested_mos DataIntersightCatalystsdwanConfigGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightCatalystsdwanConfigGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#ref_mo DataIntersightCatalystsdwanConfigGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#ref_mo DataIntersightCatalystsdwanConfigGroup#ref_mo}
   */
   readonly refMo?: DataIntersightCatalystsdwanConfigGroupVersionContextRefMo;
 }
@@ -4038,7 +4038,7 @@ export class DataIntersightCatalystsdwanConfigGroupVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group intersight_catalystsdwan_config_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group intersight_catalystsdwan_config_group}
 */
 export class DataIntersightCatalystsdwanConfigGroup extends cdktf.TerraformDataSource {
 
@@ -4054,7 +4054,7 @@ export class DataIntersightCatalystsdwanConfigGroup extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightCatalystsdwanConfigGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCatalystsdwanConfigGroup to import
-  * @param importFromId The id of the existing DataIntersightCatalystsdwanConfigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCatalystsdwanConfigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCatalystsdwanConfigGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4066,7 +4066,7 @@ export class DataIntersightCatalystsdwanConfigGroup extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/catalystsdwan_config_group intersight_catalystsdwan_config_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/catalystsdwan_config_group intersight_catalystsdwan_config_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4077,8 +4077,8 @@ export class DataIntersightCatalystsdwanConfigGroup extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_catalystsdwan_config_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

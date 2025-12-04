@@ -33,7 +33,10 @@ Object.defineProperty(exports, 'apiGatewayUpdateService', { get: function () { r
 Object.defineProperty(exports, 'apiGatewayUpstream', { get: function () { return require('./api-gateway-upstream'); } });
 Object.defineProperty(exports, 'apiGatewayUsagePlan', { get: function () { return require('./api-gateway-usage-plan'); } });
 Object.defineProperty(exports, 'apiGatewayUsagePlanAttachment', { get: function () { return require('./api-gateway-usage-plan-attachment'); } });
+Object.defineProperty(exports, 'apmApplicationConfig', { get: function () { return require('./apm-application-config'); } });
+Object.defineProperty(exports, 'apmAssociationConfig', { get: function () { return require('./apm-association-config'); } });
 Object.defineProperty(exports, 'apmInstance', { get: function () { return require('./apm-instance'); } });
+Object.defineProperty(exports, 'apmSampleConfig', { get: function () { return require('./apm-sample-config'); } });
 Object.defineProperty(exports, 'asAttachment', { get: function () { return require('./as-attachment'); } });
 Object.defineProperty(exports, 'asCompleteLifecycle', { get: function () { return require('./as-complete-lifecycle'); } });
 Object.defineProperty(exports, 'asExecuteScalingPolicy', { get: function () { return require('./as-execute-scaling-policy'); } });

@@ -5935,7 +5935,7 @@ export class DataIntersightComputeBladeResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladeAdapters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5943,19 +5943,19 @@ export interface DataIntersightComputeBladeAdapters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5968,7 +5968,7 @@ export interface DataIntersightComputeBladeAdapters {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -6200,7 +6200,7 @@ export class DataIntersightComputeBladeAdaptersList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladeAlarmSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6208,13 +6208,13 @@ export interface DataIntersightComputeBladeAlarmSummary {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The count of alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#critical DataIntersightComputeBlade#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#critical DataIntersightComputeBlade#critical}
   */
   readonly critical?: number;
   /**
@@ -6223,50 +6223,50 @@ export interface DataIntersightComputeBladeAlarmSummary {
   * * `Warning` - The Enum value Warning represents that the entity has one or more active warnings on it.
   * * `Critical` - The Enum value Critical represents that the entity is in a critical state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#health DataIntersightComputeBlade#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#health DataIntersightComputeBlade#health}
   */
   readonly health?: string;
   /**
   * The count of alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#info DataIntersightComputeBlade#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#info DataIntersightComputeBlade#info}
   */
   readonly info?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
   * The flag that indicates whether suppression is enabled or not in the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#suppressed DataIntersightComputeBlade#suppressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#suppressed DataIntersightComputeBlade#suppressed}
   */
   readonly suppressed?: boolean | cdktf.IResolvable;
   /**
   * The count of active suppressed alarms that have severity type Critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#suppressed_critical DataIntersightComputeBlade#suppressed_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#suppressed_critical DataIntersightComputeBlade#suppressed_critical}
   */
   readonly suppressedCritical?: number;
   /**
   * The count of active suppressed alarms that have severity type Info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#suppressed_info DataIntersightComputeBlade#suppressed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#suppressed_info DataIntersightComputeBlade#suppressed_info}
   */
   readonly suppressedInfo?: number;
   /**
   * The count of active suppressed alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#suppressed_warning DataIntersightComputeBlade#suppressed_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#suppressed_warning DataIntersightComputeBlade#suppressed_warning}
   */
   readonly suppressedWarning?: number;
   /**
   * The count of alarms that have severity type Warning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#warning DataIntersightComputeBlade#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#warning DataIntersightComputeBlade#warning}
   */
   readonly warning?: number;
 }
@@ -6640,7 +6640,7 @@ export class DataIntersightComputeBladeAlarmSummaryOutputReference extends cdktf
 }
 export interface DataIntersightComputeBladeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6648,19 +6648,19 @@ export interface DataIntersightComputeBladeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6673,7 +6673,7 @@ export interface DataIntersightComputeBladeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -6905,7 +6905,7 @@ export class DataIntersightComputeBladeAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladeBiosBootmode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6913,19 +6913,19 @@ export interface DataIntersightComputeBladeBiosBootmode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6938,7 +6938,7 @@ export interface DataIntersightComputeBladeBiosBootmode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -7138,7 +7138,7 @@ export class DataIntersightComputeBladeBiosBootmodeOutputReference extends cdktf
 }
 export interface DataIntersightComputeBladeBiosTokenSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7146,19 +7146,19 @@ export interface DataIntersightComputeBladeBiosTokenSettings {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7171,7 +7171,7 @@ export interface DataIntersightComputeBladeBiosTokenSettings {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -7371,7 +7371,7 @@ export class DataIntersightComputeBladeBiosTokenSettingsOutputReference extends 
 }
 export interface DataIntersightComputeBladeBiosUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7379,19 +7379,19 @@ export interface DataIntersightComputeBladeBiosUnits {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7404,7 +7404,7 @@ export interface DataIntersightComputeBladeBiosUnits {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -7636,7 +7636,7 @@ export class DataIntersightComputeBladeBiosUnitsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladeBiosVfSelectMemoryRasConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7644,19 +7644,19 @@ export interface DataIntersightComputeBladeBiosVfSelectMemoryRasConfiguration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7669,7 +7669,7 @@ export interface DataIntersightComputeBladeBiosVfSelectMemoryRasConfiguration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -7869,7 +7869,7 @@ export class DataIntersightComputeBladeBiosVfSelectMemoryRasConfigurationOutputR
 }
 export interface DataIntersightComputeBladeBmc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7877,19 +7877,19 @@ export interface DataIntersightComputeBladeBmc {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7902,7 +7902,7 @@ export interface DataIntersightComputeBladeBmc {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -8102,7 +8102,7 @@ export class DataIntersightComputeBladeBmcOutputReference extends cdktf.ComplexO
 }
 export interface DataIntersightComputeBladeBoard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8110,19 +8110,19 @@ export interface DataIntersightComputeBladeBoard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8135,7 +8135,7 @@ export interface DataIntersightComputeBladeBoard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -8335,7 +8335,7 @@ export class DataIntersightComputeBladeBoardOutputReference extends cdktf.Comple
 }
 export interface DataIntersightComputeBladeBootCddDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8343,19 +8343,19 @@ export interface DataIntersightComputeBladeBootCddDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8368,7 +8368,7 @@ export interface DataIntersightComputeBladeBootCddDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -8600,7 +8600,7 @@ export class DataIntersightComputeBladeBootCddDevicesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeBootDeviceBootSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8608,19 +8608,19 @@ export interface DataIntersightComputeBladeBootDeviceBootSecurity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8633,7 +8633,7 @@ export interface DataIntersightComputeBladeBootDeviceBootSecurity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -8833,7 +8833,7 @@ export class DataIntersightComputeBladeBootDeviceBootSecurityOutputReference ext
 }
 export interface DataIntersightComputeBladeBootDeviceBootmode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8841,19 +8841,19 @@ export interface DataIntersightComputeBladeBootDeviceBootmode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8866,7 +8866,7 @@ export interface DataIntersightComputeBladeBootDeviceBootmode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -9066,7 +9066,7 @@ export class DataIntersightComputeBladeBootDeviceBootmodeOutputReference extends
 }
 export interface DataIntersightComputeBladeBootHddDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9074,19 +9074,19 @@ export interface DataIntersightComputeBladeBootHddDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9099,7 +9099,7 @@ export interface DataIntersightComputeBladeBootHddDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -9331,7 +9331,7 @@ export class DataIntersightComputeBladeBootHddDevicesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeBootIscsiDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9339,19 +9339,19 @@ export interface DataIntersightComputeBladeBootIscsiDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9364,7 +9364,7 @@ export interface DataIntersightComputeBladeBootIscsiDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -9596,7 +9596,7 @@ export class DataIntersightComputeBladeBootIscsiDevicesList extends cdktf.Comple
 }
 export interface DataIntersightComputeBladeBootNvmeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9604,19 +9604,19 @@ export interface DataIntersightComputeBladeBootNvmeDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9629,7 +9629,7 @@ export interface DataIntersightComputeBladeBootNvmeDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -9861,7 +9861,7 @@ export class DataIntersightComputeBladeBootNvmeDevicesList extends cdktf.Complex
 }
 export interface DataIntersightComputeBladeBootPchStorageDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9869,19 +9869,19 @@ export interface DataIntersightComputeBladeBootPchStorageDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9894,7 +9894,7 @@ export interface DataIntersightComputeBladeBootPchStorageDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -10126,7 +10126,7 @@ export class DataIntersightComputeBladeBootPchStorageDevicesList extends cdktf.C
 }
 export interface DataIntersightComputeBladeBootPxeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10134,19 +10134,19 @@ export interface DataIntersightComputeBladeBootPxeDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10159,7 +10159,7 @@ export interface DataIntersightComputeBladeBootPxeDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -10391,7 +10391,7 @@ export class DataIntersightComputeBladeBootPxeDevicesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeBootSanDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10399,19 +10399,19 @@ export interface DataIntersightComputeBladeBootSanDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10424,7 +10424,7 @@ export interface DataIntersightComputeBladeBootSanDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -10656,7 +10656,7 @@ export class DataIntersightComputeBladeBootSanDevicesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeBootSdDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10664,19 +10664,19 @@ export interface DataIntersightComputeBladeBootSdDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10689,7 +10689,7 @@ export interface DataIntersightComputeBladeBootSdDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -10921,7 +10921,7 @@ export class DataIntersightComputeBladeBootSdDevicesList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBladeBootUefiShellDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10929,19 +10929,19 @@ export interface DataIntersightComputeBladeBootUefiShellDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10954,7 +10954,7 @@ export interface DataIntersightComputeBladeBootUefiShellDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -11186,7 +11186,7 @@ export class DataIntersightComputeBladeBootUefiShellDevicesList extends cdktf.Co
 }
 export interface DataIntersightComputeBladeBootUsbDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11194,19 +11194,19 @@ export interface DataIntersightComputeBladeBootUsbDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11219,7 +11219,7 @@ export interface DataIntersightComputeBladeBootUsbDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -11451,7 +11451,7 @@ export class DataIntersightComputeBladeBootUsbDevicesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeBootVmediaDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11459,19 +11459,19 @@ export interface DataIntersightComputeBladeBootVmediaDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11484,7 +11484,7 @@ export interface DataIntersightComputeBladeBootVmediaDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -11716,7 +11716,7 @@ export class DataIntersightComputeBladeBootVmediaDevicesList extends cdktf.Compl
 }
 export interface DataIntersightComputeBladeComputePersonality {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11724,19 +11724,19 @@ export interface DataIntersightComputeBladeComputePersonality {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11749,7 +11749,7 @@ export interface DataIntersightComputeBladeComputePersonality {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -11981,7 +11981,7 @@ export class DataIntersightComputeBladeComputePersonalityList extends cdktf.Comp
 }
 export interface DataIntersightComputeBladeComputeServerPowerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11989,19 +11989,19 @@ export interface DataIntersightComputeBladeComputeServerPowerParameters {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12014,7 +12014,7 @@ export interface DataIntersightComputeBladeComputeServerPowerParameters {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -12214,7 +12214,7 @@ export class DataIntersightComputeBladeComputeServerPowerParametersOutputReferen
 }
 export interface DataIntersightComputeBladeEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12222,19 +12222,19 @@ export interface DataIntersightComputeBladeEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12247,7 +12247,7 @@ export interface DataIntersightComputeBladeEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -12447,7 +12447,7 @@ export class DataIntersightComputeBladeEquipmentChassisOutputReference extends c
 }
 export interface DataIntersightComputeBladeEquipmentIoExpanders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12455,19 +12455,19 @@ export interface DataIntersightComputeBladeEquipmentIoExpanders {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12480,7 +12480,7 @@ export interface DataIntersightComputeBladeEquipmentIoExpanders {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -12712,7 +12712,7 @@ export class DataIntersightComputeBladeEquipmentIoExpandersList extends cdktf.Co
 }
 export interface DataIntersightComputeBladeGenericInventoryHolders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12720,19 +12720,19 @@ export interface DataIntersightComputeBladeGenericInventoryHolders {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12745,7 +12745,7 @@ export interface DataIntersightComputeBladeGenericInventoryHolders {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -12977,7 +12977,7 @@ export class DataIntersightComputeBladeGenericInventoryHoldersList extends cdktf
 }
 export interface DataIntersightComputeBladeGraphicsCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12985,19 +12985,19 @@ export interface DataIntersightComputeBladeGraphicsCards {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13010,7 +13010,7 @@ export interface DataIntersightComputeBladeGraphicsCards {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -13242,7 +13242,7 @@ export class DataIntersightComputeBladeGraphicsCardsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBladeHybridDriveSlots {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13250,19 +13250,19 @@ export interface DataIntersightComputeBladeHybridDriveSlots {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13275,7 +13275,7 @@ export interface DataIntersightComputeBladeHybridDriveSlots {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -13507,7 +13507,7 @@ export class DataIntersightComputeBladeHybridDriveSlotsList extends cdktf.Comple
 }
 export interface DataIntersightComputeBladeInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13515,19 +13515,19 @@ export interface DataIntersightComputeBladeInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13540,7 +13540,7 @@ export interface DataIntersightComputeBladeInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -13740,13 +13740,13 @@ export class DataIntersightComputeBladeInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightComputeBladeKvmIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * IP Address to be used for KVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#address DataIntersightComputeBlade#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#address DataIntersightComputeBlade#address}
   */
   readonly address?: string;
   /**
@@ -13754,7 +13754,7 @@ export interface DataIntersightComputeBladeKvmIpAddresses {
   * * `Equipment` - Ip Address assigned to an equipment.
   * * `ServiceProfile` - Ip Address assigned to a Service Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#category DataIntersightComputeBlade#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#category DataIntersightComputeBlade#category}
   */
   readonly category?: string;
   /**
@@ -13762,43 +13762,43 @@ export interface DataIntersightComputeBladeKvmIpAddresses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * Default gateway property of KVM IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#default_gateway DataIntersightComputeBlade#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#default_gateway DataIntersightComputeBlade#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * The distinguished name for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#dn DataIntersightComputeBlade#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#dn DataIntersightComputeBlade#dn}
   */
   readonly dn?: string;
   /**
   * HTTP port of an IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#http_port DataIntersightComputeBlade#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#http_port DataIntersightComputeBlade#http_port}
   */
   readonly httpPort?: number;
   /**
   * Secured HTTP port of an IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#https_port DataIntersightComputeBlade#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#https_port DataIntersightComputeBlade#https_port}
   */
   readonly httpsPort?: number;
   /**
   * Port number on which the KVM is running and used for connecting to KVM console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#kvm_port DataIntersightComputeBlade#kvm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#kvm_port DataIntersightComputeBlade#kvm_port}
   */
   readonly kvmPort?: number;
   /**
   * VLAN Identifier of Inband IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#kvm_vlan DataIntersightComputeBlade#kvm_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#kvm_vlan DataIntersightComputeBlade#kvm_vlan}
   */
   readonly kvmVlan?: number;
   /**
@@ -13806,20 +13806,20 @@ export interface DataIntersightComputeBladeKvmIpAddresses {
   * * `Outband` - The user assigned Out of band IP Address.
   * * `Inband` - The user assigned Inband IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
   * Subnet detail of a KVM IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#subnet DataIntersightComputeBlade#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#subnet DataIntersightComputeBlade#subnet}
   */
   readonly subnet?: string;
   /**
@@ -13833,7 +13833,7 @@ export interface DataIntersightComputeBladeKvmIpAddresses {
   * * `VnicIpV4ProfDerivedAddr` - Server Profile derived Ipv4 Address of a Virtual Network Interface.
   * * `MgmtIpV6ProfDerivedAddr` - Server Profile derived Ipv6 Address used for accessing server management services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#type DataIntersightComputeBlade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#type DataIntersightComputeBlade#type}
   */
   readonly type?: string;
 }
@@ -14326,25 +14326,25 @@ export class DataIntersightComputeBladeKvmIpAddressesList extends cdktf.ComplexL
 }
 export interface DataIntersightComputeBladeLocationDetailsAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The primary street address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#address1 DataIntersightComputeBlade#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#address1 DataIntersightComputeBlade#address1}
   */
   readonly address1?: string;
   /**
   * Additional address information, such as suite number or floor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#address2 DataIntersightComputeBlade#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#address2 DataIntersightComputeBlade#address2}
   */
   readonly address2?: string;
   /**
   * The city where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#city DataIntersightComputeBlade#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#city DataIntersightComputeBlade#city}
   */
   readonly city?: string;
   /**
@@ -14352,7 +14352,7 @@ export interface DataIntersightComputeBladeLocationDetailsAddress {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
@@ -14602,26 +14602,26 @@ export interface DataIntersightComputeBladeLocationDetailsAddress {
   * * `ZM` - The country code for Zambia.
   * * `ZW` - The country code for Zimbabwe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#country DataIntersightComputeBlade#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#country DataIntersightComputeBlade#country}
   */
   readonly country?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
   * The postal or ZIP code for the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#postal_code DataIntersightComputeBlade#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#postal_code DataIntersightComputeBlade#postal_code}
   */
   readonly postalCode?: string;
   /**
   * The state or province where the address is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#state_province DataIntersightComputeBlade#state_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#state_province DataIntersightComputeBlade#state_province}
   */
   readonly stateProvince?: string;
 }
@@ -14937,7 +14937,7 @@ export class DataIntersightComputeBladeLocationDetailsAddressOutputReference ext
 }
 export interface DataIntersightComputeBladeLocationDetailsCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14945,26 +14945,26 @@ export interface DataIntersightComputeBladeLocationDetailsCoordinates {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The latitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#latitude DataIntersightComputeBlade#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#latitude DataIntersightComputeBlade#latitude}
   */
   readonly latitude?: number;
   /**
   * The longitude coordinate value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#longitude DataIntersightComputeBlade#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#longitude DataIntersightComputeBlade#longitude}
   */
   readonly longitude?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
 }
@@ -15164,7 +15164,7 @@ export class DataIntersightComputeBladeLocationDetailsCoordinatesOutputReference
 }
 export interface DataIntersightComputeBladeLocationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15172,32 +15172,32 @@ export interface DataIntersightComputeBladeLocationDetails {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * A user provided name for the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#name DataIntersightComputeBlade#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#address DataIntersightComputeBlade#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#address DataIntersightComputeBlade#address}
   */
   readonly address?: DataIntersightComputeBladeLocationDetailsAddress;
   /**
   * coordinates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#coordinates DataIntersightComputeBlade#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#coordinates DataIntersightComputeBlade#coordinates}
   */
   readonly coordinates?: DataIntersightComputeBladeLocationDetailsCoordinates;
 }
@@ -15426,7 +15426,7 @@ export class DataIntersightComputeBladeLocationDetailsOutputReference extends cd
 }
 export interface DataIntersightComputeBladeLocatorLed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15434,19 +15434,19 @@ export interface DataIntersightComputeBladeLocatorLed {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15459,7 +15459,7 @@ export interface DataIntersightComputeBladeLocatorLed {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -15659,7 +15659,7 @@ export class DataIntersightComputeBladeLocatorLedOutputReference extends cdktf.C
 }
 export interface DataIntersightComputeBladeMemoryArrays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15667,19 +15667,19 @@ export interface DataIntersightComputeBladeMemoryArrays {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15692,7 +15692,7 @@ export interface DataIntersightComputeBladeMemoryArrays {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -15924,7 +15924,7 @@ export class DataIntersightComputeBladeMemoryArraysList extends cdktf.ComplexLis
 }
 export interface DataIntersightComputeBladeMgmtIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15932,19 +15932,19 @@ export interface DataIntersightComputeBladeMgmtIdentity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15957,7 +15957,7 @@ export interface DataIntersightComputeBladeMgmtIdentity {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -16157,7 +16157,7 @@ export class DataIntersightComputeBladeMgmtIdentityOutputReference extends cdktf
 }
 export interface DataIntersightComputeBladeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16165,19 +16165,19 @@ export interface DataIntersightComputeBladeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16190,7 +16190,7 @@ export interface DataIntersightComputeBladeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -16390,7 +16390,7 @@ export class DataIntersightComputeBladeParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightComputeBladePciDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16398,19 +16398,19 @@ export interface DataIntersightComputeBladePciDevices {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16423,7 +16423,7 @@ export interface DataIntersightComputeBladePciDevices {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -16655,7 +16655,7 @@ export class DataIntersightComputeBladePciDevicesList extends cdktf.ComplexList 
 }
 export interface DataIntersightComputeBladePciNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16663,19 +16663,19 @@ export interface DataIntersightComputeBladePciNodes {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16688,7 +16688,7 @@ export interface DataIntersightComputeBladePciNodes {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -16920,7 +16920,7 @@ export class DataIntersightComputeBladePciNodesList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16928,19 +16928,19 @@ export interface DataIntersightComputeBladePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16953,7 +16953,7 @@ export interface DataIntersightComputeBladePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -17185,7 +17185,7 @@ export class DataIntersightComputeBladePermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightComputeBladePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17193,19 +17193,19 @@ export interface DataIntersightComputeBladePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17218,7 +17218,7 @@ export interface DataIntersightComputeBladePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -17418,7 +17418,7 @@ export class DataIntersightComputeBladePreviousFruOutputReference extends cdktf.
 }
 export interface DataIntersightComputeBladeProcessors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17426,19 +17426,19 @@ export interface DataIntersightComputeBladeProcessors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17451,7 +17451,7 @@ export interface DataIntersightComputeBladeProcessors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -17683,7 +17683,7 @@ export class DataIntersightComputeBladeProcessorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightComputeBladeRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17691,19 +17691,19 @@ export interface DataIntersightComputeBladeRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17716,7 +17716,7 @@ export interface DataIntersightComputeBladeRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -17916,7 +17916,7 @@ export class DataIntersightComputeBladeRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightComputeBladeStorageControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -17924,19 +17924,19 @@ export interface DataIntersightComputeBladeStorageControllers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -17949,7 +17949,7 @@ export interface DataIntersightComputeBladeStorageControllers {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -18181,7 +18181,7 @@ export class DataIntersightComputeBladeStorageControllersList extends cdktf.Comp
 }
 export interface DataIntersightComputeBladeStorageEnclosures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18189,19 +18189,19 @@ export interface DataIntersightComputeBladeStorageEnclosures {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -18214,7 +18214,7 @@ export interface DataIntersightComputeBladeStorageEnclosures {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -18446,7 +18446,7 @@ export class DataIntersightComputeBladeStorageEnclosuresList extends cdktf.Compl
 }
 export interface DataIntersightComputeBladeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18454,19 +18454,19 @@ export interface DataIntersightComputeBladeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -18479,7 +18479,7 @@ export interface DataIntersightComputeBladeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -18711,7 +18711,7 @@ export class DataIntersightComputeBladeTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightComputeBladeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -18719,19 +18719,19 @@ export interface DataIntersightComputeBladeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -18744,7 +18744,7 @@ export interface DataIntersightComputeBladeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }
@@ -18944,25 +18944,25 @@ export class DataIntersightComputeBladeTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightComputeBladeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#key DataIntersightComputeBlade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#key DataIntersightComputeBlade#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#propagated DataIntersightComputeBlade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#propagated DataIntersightComputeBlade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#sys_tag DataIntersightComputeBlade#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#sys_tag DataIntersightComputeBlade#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -18970,25 +18970,25 @@ export interface DataIntersightComputeBladeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#type DataIntersightComputeBlade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#type DataIntersightComputeBlade#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#value DataIntersightComputeBlade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#value DataIntersightComputeBlade#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#ancestor_definitions DataIntersightComputeBlade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#ancestor_definitions DataIntersightComputeBlade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeBladeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#definition DataIntersightComputeBlade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#definition DataIntersightComputeBlade#definition}
   */
   readonly definition?: DataIntersightComputeBladeTagsDefinition;
 }
@@ -19307,7 +19307,7 @@ export class DataIntersightComputeBladeTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBladeTopSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#additional_properties DataIntersightComputeBlade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -19315,19 +19315,19 @@ export interface DataIntersightComputeBladeTopSystem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#class_id DataIntersightComputeBlade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#moid DataIntersightComputeBlade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#object_type DataIntersightComputeBlade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -19340,7 +19340,7 @@ export interface DataIntersightComputeBladeTopSystem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_blade#selector DataIntersightComputeBlade#selector}
   */
   readonly selector?: string;
 }

@@ -1,3 +1,3 @@
 # `rootly_functionality`
 
-Refer to the Terraform Registry for docs: [`rootly_functionality`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/functionality).
+Refer to the Terraform Registry for docs: [`rootly_functionality`](https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/functionality).

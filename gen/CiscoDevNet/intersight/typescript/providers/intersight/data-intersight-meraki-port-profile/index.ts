@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightMerakiPortProfileConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#account_moid DataIntersightMerakiPortProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#account_moid DataIntersightMerakiPortProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightMerakiPortProfileConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#create_time DataIntersightMerakiPortProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#create_time DataIntersightMerakiPortProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#domain_group_moid DataIntersightMerakiPortProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#domain_group_moid DataIntersightMerakiPortProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#id DataIntersightMerakiPortProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#id DataIntersightMerakiPortProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataIntersightMerakiPortProfileConfig extends cdktf.TerraformMe
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#mod_time DataIntersightMerakiPortProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#mod_time DataIntersightMerakiPortProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The name of the port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#name DataIntersightMerakiPortProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#name DataIntersightMerakiPortProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#owners DataIntersightMerakiPortProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#owners DataIntersightMerakiPortProfile#owners}
   */
   readonly owners?: string[];
   /**
   * The unique identifier for the port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#profile_id DataIntersightMerakiPortProfile#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#profile_id DataIntersightMerakiPortProfile#profile_id}
   */
   readonly profileId?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#shared_scope DataIntersightMerakiPortProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#shared_scope DataIntersightMerakiPortProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#ancestors DataIntersightMerakiPortProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#ancestors DataIntersightMerakiPortProfile#ancestors}
   */
   readonly ancestors?: DataIntersightMerakiPortProfileAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#parent DataIntersightMerakiPortProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#parent DataIntersightMerakiPortProfile#parent}
   */
   readonly parent?: DataIntersightMerakiPortProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#permission_resources DataIntersightMerakiPortProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#permission_resources DataIntersightMerakiPortProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightMerakiPortProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#registered_device DataIntersightMerakiPortProfile#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#registered_device DataIntersightMerakiPortProfile#registered_device}
   */
   readonly registeredDevice?: DataIntersightMerakiPortProfileRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#tags DataIntersightMerakiPortProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#tags DataIntersightMerakiPortProfile#tags}
   */
   readonly tags?: DataIntersightMerakiPortProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#version_context DataIntersightMerakiPortProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#version_context DataIntersightMerakiPortProfile#version_context}
   */
   readonly versionContext?: DataIntersightMerakiPortProfileVersionContext;
 }
@@ -1280,7 +1280,7 @@ export class DataIntersightMerakiPortProfileResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightMerakiPortProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1288,19 +1288,19 @@ export interface DataIntersightMerakiPortProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1313,7 +1313,7 @@ export interface DataIntersightMerakiPortProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1545,7 +1545,7 @@ export class DataIntersightMerakiPortProfileAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightMerakiPortProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1553,19 +1553,19 @@ export interface DataIntersightMerakiPortProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1578,7 +1578,7 @@ export interface DataIntersightMerakiPortProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -1778,7 +1778,7 @@ export class DataIntersightMerakiPortProfileParentOutputReference extends cdktf.
 }
 export interface DataIntersightMerakiPortProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1786,19 +1786,19 @@ export interface DataIntersightMerakiPortProfilePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1811,7 +1811,7 @@ export interface DataIntersightMerakiPortProfilePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2043,7 +2043,7 @@ export class DataIntersightMerakiPortProfilePermissionResourcesList extends cdkt
 }
 export interface DataIntersightMerakiPortProfileRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2051,19 +2051,19 @@ export interface DataIntersightMerakiPortProfileRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2076,7 +2076,7 @@ export interface DataIntersightMerakiPortProfileRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2276,7 +2276,7 @@ export class DataIntersightMerakiPortProfileRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightMerakiPortProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2284,19 +2284,19 @@ export interface DataIntersightMerakiPortProfileTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2309,7 +2309,7 @@ export interface DataIntersightMerakiPortProfileTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2541,7 +2541,7 @@ export class DataIntersightMerakiPortProfileTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightMerakiPortProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2549,19 +2549,19 @@ export interface DataIntersightMerakiPortProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2574,7 +2574,7 @@ export interface DataIntersightMerakiPortProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2774,25 +2774,25 @@ export class DataIntersightMerakiPortProfileTagsDefinitionOutputReference extend
 }
 export interface DataIntersightMerakiPortProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#key DataIntersightMerakiPortProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#key DataIntersightMerakiPortProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#propagated DataIntersightMerakiPortProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#propagated DataIntersightMerakiPortProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#sys_tag DataIntersightMerakiPortProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#sys_tag DataIntersightMerakiPortProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2800,25 +2800,25 @@ export interface DataIntersightMerakiPortProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#type DataIntersightMerakiPortProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#type DataIntersightMerakiPortProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#value DataIntersightMerakiPortProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#value DataIntersightMerakiPortProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#ancestor_definitions DataIntersightMerakiPortProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#ancestor_definitions DataIntersightMerakiPortProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightMerakiPortProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#definition DataIntersightMerakiPortProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#definition DataIntersightMerakiPortProfile#definition}
   */
   readonly definition?: DataIntersightMerakiPortProfileTagsDefinition;
 }
@@ -3137,7 +3137,7 @@ export class DataIntersightMerakiPortProfileTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightMerakiPortProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3145,19 +3145,19 @@ export interface DataIntersightMerakiPortProfileVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3170,7 +3170,7 @@ export interface DataIntersightMerakiPortProfileVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3402,7 +3402,7 @@ export class DataIntersightMerakiPortProfileVersionContextInterestedMosList exte
 }
 export interface DataIntersightMerakiPortProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3410,19 +3410,19 @@ export interface DataIntersightMerakiPortProfileVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#moid DataIntersightMerakiPortProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3435,7 +3435,7 @@ export interface DataIntersightMerakiPortProfileVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#selector DataIntersightMerakiPortProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3635,7 +3635,7 @@ export class DataIntersightMerakiPortProfileVersionContextRefMoOutputReference e
 }
 export interface DataIntersightMerakiPortProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#additional_properties DataIntersightMerakiPortProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3643,32 +3643,32 @@ export interface DataIntersightMerakiPortProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#class_id DataIntersightMerakiPortProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#marked_for_deletion DataIntersightMerakiPortProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#marked_for_deletion DataIntersightMerakiPortProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#nr_version DataIntersightMerakiPortProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#nr_version DataIntersightMerakiPortProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#object_type DataIntersightMerakiPortProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#timestamp DataIntersightMerakiPortProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#timestamp DataIntersightMerakiPortProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3679,19 +3679,19 @@ export interface DataIntersightMerakiPortProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#version_type DataIntersightMerakiPortProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#version_type DataIntersightMerakiPortProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#interested_mos DataIntersightMerakiPortProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#interested_mos DataIntersightMerakiPortProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightMerakiPortProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#ref_mo DataIntersightMerakiPortProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#ref_mo DataIntersightMerakiPortProfile#ref_mo}
   */
   readonly refMo?: DataIntersightMerakiPortProfileVersionContextRefMo;
 }
@@ -4007,7 +4007,7 @@ export class DataIntersightMerakiPortProfileVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile intersight_meraki_port_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile intersight_meraki_port_profile}
 */
 export class DataIntersightMerakiPortProfile extends cdktf.TerraformDataSource {
 
@@ -4023,7 +4023,7 @@ export class DataIntersightMerakiPortProfile extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightMerakiPortProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightMerakiPortProfile to import
-  * @param importFromId The id of the existing DataIntersightMerakiPortProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightMerakiPortProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightMerakiPortProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4035,7 +4035,7 @@ export class DataIntersightMerakiPortProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/meraki_port_profile intersight_meraki_port_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/meraki_port_profile intersight_meraki_port_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4046,8 +4046,8 @@ export class DataIntersightMerakiPortProfile extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_meraki_port_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#account_moid DataIntersightHyperflexDrive#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#account_moid DataIntersightHyperflexDrive#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Provisioned capacity of the drive in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#capacity DataIntersightHyperflexDrive#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#capacity DataIntersightHyperflexDrive#capacity}
   */
   readonly capacity?: number;
   /**
@@ -28,13 +28,13 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#create_time DataIntersightHyperflexDrive#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#create_time DataIntersightHyperflexDrive#create_time}
   */
   readonly createTime?: string;
   /**
@@ -44,29 +44,29 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * * `NOTUSED` - The use state of the disk is unused.
   * * `EMPTY` - The use state of the disk is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#disk_use_state DataIntersightHyperflexDrive#disk_use_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#disk_use_state DataIntersightHyperflexDrive#disk_use_state}
   */
   readonly diskUseState?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#domain_group_moid DataIntersightHyperflexDrive#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#domain_group_moid DataIntersightHyperflexDrive#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Host Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#host_name DataIntersightHyperflexDrive#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#host_name DataIntersightHyperflexDrive#host_name}
   */
   readonly hostName?: string;
   /**
   * The unique identifier of the drive's host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#host_uuid DataIntersightHyperflexDrive#host_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#host_uuid DataIntersightHyperflexDrive#host_uuid}
   */
   readonly hostUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#id DataIntersightHyperflexDrive#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#id DataIntersightHyperflexDrive#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,48 +75,48 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#mod_time DataIntersightHyperflexDrive#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#mod_time DataIntersightHyperflexDrive#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model number of the disk or SSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#model_number DataIntersightHyperflexDrive#model_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#model_number DataIntersightHyperflexDrive#model_number}
   */
   readonly modelNumber?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The unique identifier of the Hyperflex Node to which the disk is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#node_uuid DataIntersightHyperflexDrive#node_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#node_uuid DataIntersightHyperflexDrive#node_uuid}
   */
   readonly nodeUuid?: string;
   /**
   * The firmware version of the Hyperflex drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#nr_version DataIntersightHyperflexDrive#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#nr_version DataIntersightHyperflexDrive#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#owners DataIntersightHyperflexDrive#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#owners DataIntersightHyperflexDrive#owners}
   */
   readonly owners?: string[];
   /**
   * Device path for the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#path DataIntersightHyperflexDrive#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#path DataIntersightHyperflexDrive#path}
   */
   readonly path?: string;
   /**
@@ -126,26 +126,26 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * * `NVMe` - Non-volatile memory express (NVMe) protocol used in disk.
   * * `SATA` - Serial Advanced Technology Attachment (SATA) used in disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#protocol DataIntersightHyperflexDrive#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#protocol DataIntersightHyperflexDrive#protocol}
   */
   readonly protocol?: string;
   /**
   * Serial number of the Hyperflex drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#serial_number DataIntersightHyperflexDrive#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#serial_number DataIntersightHyperflexDrive#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#shared_scope DataIntersightHyperflexDrive#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#shared_scope DataIntersightHyperflexDrive#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The SCSI slot number of the drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#slot_number DataIntersightHyperflexDrive#slot_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#slot_number DataIntersightHyperflexDrive#slot_number}
   */
   readonly slotNumber?: string;
   /**
@@ -159,7 +159,7 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * * `SECUREERASED` - The disk has been secure erased.
   * * `BLOCKED` - The disk has been blocked by storfs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#status DataIntersightHyperflexDrive#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#status DataIntersightHyperflexDrive#status}
   */
   readonly status?: string;
   /**
@@ -177,7 +177,7 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * * `SAS` - Storage disk with serial attached SCSI.
   * * `VMDISK` - Virtual machine Data Disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#type DataIntersightHyperflexDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#type DataIntersightHyperflexDrive#type}
   */
   readonly type?: string;
   /**
@@ -188,61 +188,61 @@ export interface DataIntersightHyperflexDriveConfig extends cdktf.TerraformMetaA
   * * `SYSTEM` - The usage of the disk is related to system storage.
   * * `CACHING` - The usage of the disk is for caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#usage DataIntersightHyperflexDrive#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#usage DataIntersightHyperflexDrive#usage}
   */
   readonly usage?: string;
   /**
   * Used Capacity of the drive in Bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#used_capacity DataIntersightHyperflexDrive#used_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#used_capacity DataIntersightHyperflexDrive#used_capacity}
   */
   readonly usedCapacity?: number;
   /**
   * The unique identifier of the Hyperflex drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#uuid DataIntersightHyperflexDrive#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#uuid DataIntersightHyperflexDrive#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#ancestors DataIntersightHyperflexDrive#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#ancestors DataIntersightHyperflexDrive#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexDriveAncestors[] | cdktf.IResolvable;
   /**
   * locator_led block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#locator_led DataIntersightHyperflexDrive#locator_led}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#locator_led DataIntersightHyperflexDrive#locator_led}
   */
   readonly locatorLed?: DataIntersightHyperflexDriveLocatorLed;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#node DataIntersightHyperflexDrive#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#node DataIntersightHyperflexDrive#node}
   */
   readonly nodeAttribute?: DataIntersightHyperflexDriveNode;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#parent DataIntersightHyperflexDrive#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#parent DataIntersightHyperflexDrive#parent}
   */
   readonly parent?: DataIntersightHyperflexDriveParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#permission_resources DataIntersightHyperflexDrive#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#permission_resources DataIntersightHyperflexDrive#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexDrivePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#tags DataIntersightHyperflexDrive#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#tags DataIntersightHyperflexDrive#tags}
   */
   readonly tags?: DataIntersightHyperflexDriveTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#version_context DataIntersightHyperflexDrive#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#version_context DataIntersightHyperflexDrive#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexDriveVersionContext;
 }
@@ -1574,7 +1574,7 @@ export class DataIntersightHyperflexDriveResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexDriveAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1582,19 +1582,19 @@ export interface DataIntersightHyperflexDriveAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1607,7 +1607,7 @@ export interface DataIntersightHyperflexDriveAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -1839,7 +1839,7 @@ export class DataIntersightHyperflexDriveAncestorsList extends cdktf.ComplexList
 }
 export interface DataIntersightHyperflexDriveLocatorLed {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1847,19 +1847,19 @@ export interface DataIntersightHyperflexDriveLocatorLed {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1872,7 +1872,7 @@ export interface DataIntersightHyperflexDriveLocatorLed {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2072,7 +2072,7 @@ export class DataIntersightHyperflexDriveLocatorLedOutputReference extends cdktf
 }
 export interface DataIntersightHyperflexDriveNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2080,19 +2080,19 @@ export interface DataIntersightHyperflexDriveNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2105,7 +2105,7 @@ export interface DataIntersightHyperflexDriveNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2305,7 +2305,7 @@ export class DataIntersightHyperflexDriveNodeOutputReference extends cdktf.Compl
 }
 export interface DataIntersightHyperflexDriveParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2313,19 +2313,19 @@ export interface DataIntersightHyperflexDriveParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2338,7 +2338,7 @@ export interface DataIntersightHyperflexDriveParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2538,7 +2538,7 @@ export class DataIntersightHyperflexDriveParentOutputReference extends cdktf.Com
 }
 export interface DataIntersightHyperflexDrivePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2546,19 +2546,19 @@ export interface DataIntersightHyperflexDrivePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2571,7 +2571,7 @@ export interface DataIntersightHyperflexDrivePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2803,7 +2803,7 @@ export class DataIntersightHyperflexDrivePermissionResourcesList extends cdktf.C
 }
 export interface DataIntersightHyperflexDriveTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2811,19 +2811,19 @@ export interface DataIntersightHyperflexDriveTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2836,7 +2836,7 @@ export interface DataIntersightHyperflexDriveTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3068,7 +3068,7 @@ export class DataIntersightHyperflexDriveTagsAncestorDefinitionsList extends cdk
 }
 export interface DataIntersightHyperflexDriveTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3076,19 +3076,19 @@ export interface DataIntersightHyperflexDriveTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3101,7 +3101,7 @@ export interface DataIntersightHyperflexDriveTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3301,25 +3301,25 @@ export class DataIntersightHyperflexDriveTagsDefinitionOutputReference extends c
 }
 export interface DataIntersightHyperflexDriveTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#key DataIntersightHyperflexDrive#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#key DataIntersightHyperflexDrive#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#propagated DataIntersightHyperflexDrive#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#propagated DataIntersightHyperflexDrive#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#sys_tag DataIntersightHyperflexDrive#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#sys_tag DataIntersightHyperflexDrive#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3327,25 +3327,25 @@ export interface DataIntersightHyperflexDriveTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#type DataIntersightHyperflexDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#type DataIntersightHyperflexDrive#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#value DataIntersightHyperflexDrive#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#value DataIntersightHyperflexDrive#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#ancestor_definitions DataIntersightHyperflexDrive#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#ancestor_definitions DataIntersightHyperflexDrive#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexDriveTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#definition DataIntersightHyperflexDrive#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#definition DataIntersightHyperflexDrive#definition}
   */
   readonly definition?: DataIntersightHyperflexDriveTagsDefinition;
 }
@@ -3664,7 +3664,7 @@ export class DataIntersightHyperflexDriveTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightHyperflexDriveVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3672,19 +3672,19 @@ export interface DataIntersightHyperflexDriveVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3697,7 +3697,7 @@ export interface DataIntersightHyperflexDriveVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3929,7 +3929,7 @@ export class DataIntersightHyperflexDriveVersionContextInterestedMosList extends
 }
 export interface DataIntersightHyperflexDriveVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3937,19 +3937,19 @@ export interface DataIntersightHyperflexDriveVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#moid DataIntersightHyperflexDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3962,7 +3962,7 @@ export interface DataIntersightHyperflexDriveVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#selector DataIntersightHyperflexDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4162,7 +4162,7 @@ export class DataIntersightHyperflexDriveVersionContextRefMoOutputReference exte
 }
 export interface DataIntersightHyperflexDriveVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#additional_properties DataIntersightHyperflexDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4170,32 +4170,32 @@ export interface DataIntersightHyperflexDriveVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#class_id DataIntersightHyperflexDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#marked_for_deletion DataIntersightHyperflexDrive#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#marked_for_deletion DataIntersightHyperflexDrive#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#nr_version DataIntersightHyperflexDrive#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#nr_version DataIntersightHyperflexDrive#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#object_type DataIntersightHyperflexDrive#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#timestamp DataIntersightHyperflexDrive#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#timestamp DataIntersightHyperflexDrive#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4206,19 +4206,19 @@ export interface DataIntersightHyperflexDriveVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#version_type DataIntersightHyperflexDrive#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#version_type DataIntersightHyperflexDrive#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#interested_mos DataIntersightHyperflexDrive#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#interested_mos DataIntersightHyperflexDrive#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexDriveVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#ref_mo DataIntersightHyperflexDrive#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#ref_mo DataIntersightHyperflexDrive#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexDriveVersionContextRefMo;
 }
@@ -4534,7 +4534,7 @@ export class DataIntersightHyperflexDriveVersionContextOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive intersight_hyperflex_drive}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive intersight_hyperflex_drive}
 */
 export class DataIntersightHyperflexDrive extends cdktf.TerraformDataSource {
 
@@ -4550,7 +4550,7 @@ export class DataIntersightHyperflexDrive extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightHyperflexDrive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexDrive to import
-  * @param importFromId The id of the existing DataIntersightHyperflexDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexDrive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4562,7 +4562,7 @@ export class DataIntersightHyperflexDrive extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_drive intersight_hyperflex_drive} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_drive intersight_hyperflex_drive} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4573,8 +4573,8 @@ export class DataIntersightHyperflexDrive extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_hyperflex_drive',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

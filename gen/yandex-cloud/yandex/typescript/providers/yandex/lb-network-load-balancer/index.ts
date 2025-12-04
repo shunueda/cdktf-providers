@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LbNetworkLoadBalancerConfig extends cdktf.TerraformMetaArgument
   /**
   * Flag that marks the network load balancer as available to zonal shift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#allow_zonal_shift LbNetworkLoadBalancer#allow_zonal_shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#allow_zonal_shift LbNetworkLoadBalancer#allow_zonal_shift}
   */
   readonly allowZonalShift?: boolean | cdktf.IResolvable;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#deletion_protection LbNetworkLoadBalancer#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#deletion_protection LbNetworkLoadBalancer#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#description LbNetworkLoadBalancer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#description LbNetworkLoadBalancer#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#folder_id LbNetworkLoadBalancer#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#folder_id LbNetworkLoadBalancer#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#id LbNetworkLoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#id LbNetworkLoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface LbNetworkLoadBalancerConfig extends cdktf.TerraformMetaArgument
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#labels LbNetworkLoadBalancer#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#labels LbNetworkLoadBalancer#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
   */
   readonly name?: string;
   /**
   * ID of the availability zone where the network load balancer resides. If omitted, default region is being used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#region_id LbNetworkLoadBalancer#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#region_id LbNetworkLoadBalancer#region_id}
   */
   readonly regionId?: string;
   /**
   * Type of the network load balancer. Must be one of 'external' or 'internal'. The default is 'external'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#type LbNetworkLoadBalancer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#type LbNetworkLoadBalancer#type}
   */
   readonly type?: string;
   /**
   * attached_target_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#attached_target_group LbNetworkLoadBalancer#attached_target_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#attached_target_group LbNetworkLoadBalancer#attached_target_group}
   */
   readonly attachedTargetGroup?: LbNetworkLoadBalancerAttachedTargetGroup[] | cdktf.IResolvable;
   /**
   * listener block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#listener LbNetworkLoadBalancer#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#listener LbNetworkLoadBalancer#listener}
   */
   readonly listener?: LbNetworkLoadBalancerListener[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#timeouts LbNetworkLoadBalancer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#timeouts LbNetworkLoadBalancer#timeouts}
   */
   readonly timeouts?: LbNetworkLoadBalancerTimeouts;
 }
@@ -85,13 +85,13 @@ export interface LbNetworkLoadBalancerAttachedTargetGroupHealthcheckHttpOptions 
   /**
   * URL path to set for health checking requests for every target in the target group. For example `/ping`. The default path is `/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#path LbNetworkLoadBalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#path LbNetworkLoadBalancer#path}
   */
   readonly path?: string;
   /**
   * Port to use for HTTP health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
   */
   readonly port: number;
 }
@@ -203,7 +203,7 @@ export interface LbNetworkLoadBalancerAttachedTargetGroupHealthcheckTcpOptions {
   /**
   * Port to use for TCP health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
   */
   readonly port: number;
 }
@@ -286,43 +286,43 @@ export interface LbNetworkLoadBalancerAttachedTargetGroupHealthcheck {
   /**
   * Number of successful health checks required in order to set the `HEALTHY` status for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#healthy_threshold LbNetworkLoadBalancer#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#healthy_threshold LbNetworkLoadBalancer#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * The interval between health checks. The default is 2 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#interval LbNetworkLoadBalancer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#interval LbNetworkLoadBalancer#interval}
   */
   readonly interval?: number;
   /**
   * Name of the health check. The name must be unique for each target group that attached to a single load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
   */
   readonly name: string;
   /**
   * Timeout for a target to return a response for the health check. The default is 1 second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#timeout LbNetworkLoadBalancer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#timeout LbNetworkLoadBalancer#timeout}
   */
   readonly timeout?: number;
   /**
   * Number of failed health checks before changing the status to `UNHEALTHY`. The default is 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#unhealthy_threshold LbNetworkLoadBalancer#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#unhealthy_threshold LbNetworkLoadBalancer#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * http_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#http_options LbNetworkLoadBalancer#http_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#http_options LbNetworkLoadBalancer#http_options}
   */
   readonly httpOptions?: LbNetworkLoadBalancerAttachedTargetGroupHealthcheckHttpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#tcp_options LbNetworkLoadBalancer#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#tcp_options LbNetworkLoadBalancer#tcp_options}
   */
   readonly tcpOptions?: LbNetworkLoadBalancerAttachedTargetGroupHealthcheckTcpOptions;
 }
@@ -611,13 +611,13 @@ export interface LbNetworkLoadBalancerAttachedTargetGroup {
   /**
   * ID of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#target_group_id LbNetworkLoadBalancer#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#target_group_id LbNetworkLoadBalancer#target_group_id}
   */
   readonly targetGroupId: string;
   /**
   * healthcheck block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#healthcheck LbNetworkLoadBalancer#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#healthcheck LbNetworkLoadBalancer#healthcheck}
   */
   readonly healthcheck: LbNetworkLoadBalancerAttachedTargetGroupHealthcheck[] | cdktf.IResolvable;
 }
@@ -758,13 +758,13 @@ export interface LbNetworkLoadBalancerListenerExternalAddressSpec {
   /**
   * External IP address for a listener. IP address will be allocated if it wasn't been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#address LbNetworkLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#address LbNetworkLoadBalancer#address}
   */
   readonly address?: string;
   /**
   * IP version of the external addresses that the load balancer works with. Must be one of `ipv4` or `ipv6`. The default is `ipv4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#ip_version LbNetworkLoadBalancer#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#ip_version LbNetworkLoadBalancer#ip_version}
   */
   readonly ipVersion?: string;
 }
@@ -879,19 +879,19 @@ export interface LbNetworkLoadBalancerListenerInternalAddressSpec {
   /**
   * Internal IP address for a listener. Must belong to the subnet that is referenced in subnet_id. IP address will be allocated if it wasn't been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#address LbNetworkLoadBalancer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#address LbNetworkLoadBalancer#address}
   */
   readonly address?: string;
   /**
   * IP version of the external addresses that the load balancer works with. Must be one of `ipv4` or `ipv6`. The default is `ipv4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#ip_version LbNetworkLoadBalancer#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#ip_version LbNetworkLoadBalancer#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * ID of the subnet to which the internal IP address belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#subnet_id LbNetworkLoadBalancer#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#subnet_id LbNetworkLoadBalancer#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -1032,37 +1032,37 @@ export interface LbNetworkLoadBalancerListener {
   /**
   * Name of the listener. The name must be unique for each listener on a single load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#name LbNetworkLoadBalancer#name}
   */
   readonly name: string;
   /**
   * Port for incoming traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#port LbNetworkLoadBalancer#port}
   */
   readonly port: number;
   /**
   * Protocol for incoming traffic. TCP or UDP and the default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#protocol LbNetworkLoadBalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#protocol LbNetworkLoadBalancer#protocol}
   */
   readonly protocol?: string;
   /**
   * Port of a target. The default is the same as listener's port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#target_port LbNetworkLoadBalancer#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#target_port LbNetworkLoadBalancer#target_port}
   */
   readonly targetPort?: number;
   /**
   * external_address_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#external_address_spec LbNetworkLoadBalancer#external_address_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#external_address_spec LbNetworkLoadBalancer#external_address_spec}
   */
   readonly externalAddressSpec?: LbNetworkLoadBalancerListenerExternalAddressSpec;
   /**
   * internal_address_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#internal_address_spec LbNetworkLoadBalancer#internal_address_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#internal_address_spec LbNetworkLoadBalancer#internal_address_spec}
   */
   readonly internalAddressSpec?: LbNetworkLoadBalancerListenerInternalAddressSpec;
 }
@@ -1317,15 +1317,15 @@ export class LbNetworkLoadBalancerListenerList extends cdktf.ComplexList {
 }
 export interface LbNetworkLoadBalancerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#create LbNetworkLoadBalancer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#create LbNetworkLoadBalancer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#delete LbNetworkLoadBalancer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#delete LbNetworkLoadBalancer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#update LbNetworkLoadBalancer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#update LbNetworkLoadBalancer#update}
   */
   readonly update?: string;
 }
@@ -1477,7 +1477,7 @@ export class LbNetworkLoadBalancerTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer yandex_lb_network_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer yandex_lb_network_load_balancer}
 */
 export class LbNetworkLoadBalancer extends cdktf.TerraformResource {
 
@@ -1493,7 +1493,7 @@ export class LbNetworkLoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbNetworkLoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbNetworkLoadBalancer to import
-  * @param importFromId The id of the existing LbNetworkLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbNetworkLoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbNetworkLoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1505,7 +1505,7 @@ export class LbNetworkLoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_network_load_balancer yandex_lb_network_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_network_load_balancer yandex_lb_network_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1516,8 +1516,8 @@ export class LbNetworkLoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_lb_network_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightRecommendationClusterExpansionConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#account_moid DataIntersightRecommendationClusterExpansion#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#account_moid DataIntersightRecommendationClusterExpansion#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightRecommendationClusterExpansionConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the cluster for which the expansion recommendation is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#cluster_name DataIntersightRecommendationClusterExpansion#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#cluster_name DataIntersightRecommendationClusterExpansion#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#create_time DataIntersightRecommendationClusterExpansion#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#create_time DataIntersightRecommendationClusterExpansion#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#domain_group_moid DataIntersightRecommendationClusterExpansion#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#domain_group_moid DataIntersightRecommendationClusterExpansion#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#id DataIntersightRecommendationClusterExpansion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#id DataIntersightRecommendationClusterExpansion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DataIntersightRecommendationClusterExpansionConfig extends cdkt
   /**
   * The time when the recommendation was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#last_updated_time DataIntersightRecommendationClusterExpansion#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#last_updated_time DataIntersightRecommendationClusterExpansion#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#mod_time DataIntersightRecommendationClusterExpansion#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#mod_time DataIntersightRecommendationClusterExpansion#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The name of the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#name DataIntersightRecommendationClusterExpansion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#name DataIntersightRecommendationClusterExpansion#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#owners DataIntersightRecommendationClusterExpansion#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#owners DataIntersightRecommendationClusterExpansion#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates if the recommendation requirement is met by the existing setup by adding hardware components to it or it needs expansion. For example if the recommendation is to add 16 disks to a HyperFlex cluster but the cluster is already alost full and only 8 disks can be added, then this property is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#requirement_met DataIntersightRecommendationClusterExpansion#requirement_met}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#requirement_met DataIntersightRecommendationClusterExpansion#requirement_met}
   */
   readonly requirementMet?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#shared_scope DataIntersightRecommendationClusterExpansion#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#shared_scope DataIntersightRecommendationClusterExpansion#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#ancestors DataIntersightRecommendationClusterExpansion#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#ancestors DataIntersightRecommendationClusterExpansion#ancestors}
   */
   readonly ancestors?: DataIntersightRecommendationClusterExpansionAncestors[] | cdktf.IResolvable;
   /**
   * hardware_expansion_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#hardware_expansion_request DataIntersightRecommendationClusterExpansion#hardware_expansion_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#hardware_expansion_request DataIntersightRecommendationClusterExpansion#hardware_expansion_request}
   */
   readonly hardwareExpansionRequest?: DataIntersightRecommendationClusterExpansionHardwareExpansionRequest;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#parent DataIntersightRecommendationClusterExpansion#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#parent DataIntersightRecommendationClusterExpansion#parent}
   */
   readonly parent?: DataIntersightRecommendationClusterExpansionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#permission_resources DataIntersightRecommendationClusterExpansion#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#permission_resources DataIntersightRecommendationClusterExpansion#permission_resources}
   */
   readonly permissionResources?: DataIntersightRecommendationClusterExpansionPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#physical_item DataIntersightRecommendationClusterExpansion#physical_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#physical_item DataIntersightRecommendationClusterExpansion#physical_item}
   */
   readonly physicalItem?: DataIntersightRecommendationClusterExpansionPhysicalItem[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#registered_device DataIntersightRecommendationClusterExpansion#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#registered_device DataIntersightRecommendationClusterExpansion#registered_device}
   */
   readonly registeredDevice?: DataIntersightRecommendationClusterExpansionRegisteredDevice;
   /**
   * software_item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#software_item DataIntersightRecommendationClusterExpansion#software_item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#software_item DataIntersightRecommendationClusterExpansion#software_item}
   */
   readonly softwareItem?: DataIntersightRecommendationClusterExpansionSoftwareItem[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#tags DataIntersightRecommendationClusterExpansion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#tags DataIntersightRecommendationClusterExpansion#tags}
   */
   readonly tags?: DataIntersightRecommendationClusterExpansionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#version_context DataIntersightRecommendationClusterExpansion#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#version_context DataIntersightRecommendationClusterExpansion#version_context}
   */
   readonly versionContext?: DataIntersightRecommendationClusterExpansionVersionContext;
 }
@@ -1623,7 +1623,7 @@ export class DataIntersightRecommendationClusterExpansionResultsList extends cdk
 }
 export interface DataIntersightRecommendationClusterExpansionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1631,19 +1631,19 @@ export interface DataIntersightRecommendationClusterExpansionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1656,7 +1656,7 @@ export interface DataIntersightRecommendationClusterExpansionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -1888,7 +1888,7 @@ export class DataIntersightRecommendationClusterExpansionAncestorsList extends c
 }
 export interface DataIntersightRecommendationClusterExpansionHardwareExpansionRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1896,19 +1896,19 @@ export interface DataIntersightRecommendationClusterExpansionHardwareExpansionRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1921,7 +1921,7 @@ export interface DataIntersightRecommendationClusterExpansionHardwareExpansionRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -2121,7 +2121,7 @@ export class DataIntersightRecommendationClusterExpansionHardwareExpansionReques
 }
 export interface DataIntersightRecommendationClusterExpansionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2129,19 +2129,19 @@ export interface DataIntersightRecommendationClusterExpansionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2154,7 +2154,7 @@ export interface DataIntersightRecommendationClusterExpansionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -2354,7 +2354,7 @@ export class DataIntersightRecommendationClusterExpansionParentOutputReference e
 }
 export interface DataIntersightRecommendationClusterExpansionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2362,19 +2362,19 @@ export interface DataIntersightRecommendationClusterExpansionPermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2387,7 +2387,7 @@ export interface DataIntersightRecommendationClusterExpansionPermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -2619,7 +2619,7 @@ export class DataIntersightRecommendationClusterExpansionPermissionResourcesList
 }
 export interface DataIntersightRecommendationClusterExpansionPhysicalItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2627,19 +2627,19 @@ export interface DataIntersightRecommendationClusterExpansionPhysicalItem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2652,7 +2652,7 @@ export interface DataIntersightRecommendationClusterExpansionPhysicalItem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -2884,7 +2884,7 @@ export class DataIntersightRecommendationClusterExpansionPhysicalItemList extend
 }
 export interface DataIntersightRecommendationClusterExpansionRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2892,19 +2892,19 @@ export interface DataIntersightRecommendationClusterExpansionRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2917,7 +2917,7 @@ export interface DataIntersightRecommendationClusterExpansionRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -3117,7 +3117,7 @@ export class DataIntersightRecommendationClusterExpansionRegisteredDeviceOutputR
 }
 export interface DataIntersightRecommendationClusterExpansionSoftwareItem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3125,19 +3125,19 @@ export interface DataIntersightRecommendationClusterExpansionSoftwareItem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3150,7 +3150,7 @@ export interface DataIntersightRecommendationClusterExpansionSoftwareItem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -3382,7 +3382,7 @@ export class DataIntersightRecommendationClusterExpansionSoftwareItemList extend
 }
 export interface DataIntersightRecommendationClusterExpansionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3390,19 +3390,19 @@ export interface DataIntersightRecommendationClusterExpansionTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3415,7 +3415,7 @@ export interface DataIntersightRecommendationClusterExpansionTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -3647,7 +3647,7 @@ export class DataIntersightRecommendationClusterExpansionTagsAncestorDefinitions
 }
 export interface DataIntersightRecommendationClusterExpansionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3655,19 +3655,19 @@ export interface DataIntersightRecommendationClusterExpansionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3680,7 +3680,7 @@ export interface DataIntersightRecommendationClusterExpansionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -3880,25 +3880,25 @@ export class DataIntersightRecommendationClusterExpansionTagsDefinitionOutputRef
 }
 export interface DataIntersightRecommendationClusterExpansionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#key DataIntersightRecommendationClusterExpansion#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#key DataIntersightRecommendationClusterExpansion#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#propagated DataIntersightRecommendationClusterExpansion#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#propagated DataIntersightRecommendationClusterExpansion#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#sys_tag DataIntersightRecommendationClusterExpansion#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#sys_tag DataIntersightRecommendationClusterExpansion#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3906,25 +3906,25 @@ export interface DataIntersightRecommendationClusterExpansionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#type DataIntersightRecommendationClusterExpansion#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#type DataIntersightRecommendationClusterExpansion#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#value DataIntersightRecommendationClusterExpansion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#value DataIntersightRecommendationClusterExpansion#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#ancestor_definitions DataIntersightRecommendationClusterExpansion#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#ancestor_definitions DataIntersightRecommendationClusterExpansion#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightRecommendationClusterExpansionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#definition DataIntersightRecommendationClusterExpansion#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#definition DataIntersightRecommendationClusterExpansion#definition}
   */
   readonly definition?: DataIntersightRecommendationClusterExpansionTagsDefinition;
 }
@@ -4243,7 +4243,7 @@ export class DataIntersightRecommendationClusterExpansionTagsList extends cdktf.
 }
 export interface DataIntersightRecommendationClusterExpansionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4251,19 +4251,19 @@ export interface DataIntersightRecommendationClusterExpansionVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4276,7 +4276,7 @@ export interface DataIntersightRecommendationClusterExpansionVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -4508,7 +4508,7 @@ export class DataIntersightRecommendationClusterExpansionVersionContextIntereste
 }
 export interface DataIntersightRecommendationClusterExpansionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4516,19 +4516,19 @@ export interface DataIntersightRecommendationClusterExpansionVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#moid DataIntersightRecommendationClusterExpansion#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4541,7 +4541,7 @@ export interface DataIntersightRecommendationClusterExpansionVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#selector DataIntersightRecommendationClusterExpansion#selector}
   */
   readonly selector?: string;
 }
@@ -4741,7 +4741,7 @@ export class DataIntersightRecommendationClusterExpansionVersionContextRefMoOutp
 }
 export interface DataIntersightRecommendationClusterExpansionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#additional_properties DataIntersightRecommendationClusterExpansion#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4749,32 +4749,32 @@ export interface DataIntersightRecommendationClusterExpansionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#class_id DataIntersightRecommendationClusterExpansion#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#marked_for_deletion DataIntersightRecommendationClusterExpansion#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#marked_for_deletion DataIntersightRecommendationClusterExpansion#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#nr_version DataIntersightRecommendationClusterExpansion#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#nr_version DataIntersightRecommendationClusterExpansion#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#object_type DataIntersightRecommendationClusterExpansion#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#timestamp DataIntersightRecommendationClusterExpansion#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#timestamp DataIntersightRecommendationClusterExpansion#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4785,19 +4785,19 @@ export interface DataIntersightRecommendationClusterExpansionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#version_type DataIntersightRecommendationClusterExpansion#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#version_type DataIntersightRecommendationClusterExpansion#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#interested_mos DataIntersightRecommendationClusterExpansion#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#interested_mos DataIntersightRecommendationClusterExpansion#interested_mos}
   */
   readonly interestedMos?: DataIntersightRecommendationClusterExpansionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#ref_mo DataIntersightRecommendationClusterExpansion#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#ref_mo DataIntersightRecommendationClusterExpansion#ref_mo}
   */
   readonly refMo?: DataIntersightRecommendationClusterExpansionVersionContextRefMo;
 }
@@ -5113,7 +5113,7 @@ export class DataIntersightRecommendationClusterExpansionVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion intersight_recommendation_cluster_expansion}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion intersight_recommendation_cluster_expansion}
 */
 export class DataIntersightRecommendationClusterExpansion extends cdktf.TerraformDataSource {
 
@@ -5129,7 +5129,7 @@ export class DataIntersightRecommendationClusterExpansion extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightRecommendationClusterExpansion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightRecommendationClusterExpansion to import
-  * @param importFromId The id of the existing DataIntersightRecommendationClusterExpansion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightRecommendationClusterExpansion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightRecommendationClusterExpansion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5141,7 +5141,7 @@ export class DataIntersightRecommendationClusterExpansion extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/recommendation_cluster_expansion intersight_recommendation_cluster_expansion} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/recommendation_cluster_expansion intersight_recommendation_cluster_expansion} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5152,8 +5152,8 @@ export class DataIntersightRecommendationClusterExpansion extends cdktf.Terrafor
       terraformResourceType: 'intersight_recommendation_cluster_expansion',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list
+// https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAzapiResourceListConfig extends cdktf.TerraformMetaArgument
   /**
   * A map of headers to include in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
@@ -26,13 +26,13 @@ export interface DataAzapiResourceListConfig extends cdktf.TerraformMetaArgument
   * 
   *   For type `Microsoft.Resources/resourceGroups`, the `parent_id` could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: `az account show`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
   */
   readonly parentId: string;
   /**
   * A map of query parameters to include in the request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -84,25 +84,25 @@ export interface DataAzapiResourceListConfig extends cdktf.TerraformMetaArgument
   * To learn more about JMESPath, visit [JMESPath](https://jmespath.org/).
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
   */
   readonly responseExportValues?: { [key: string]: any };
   /**
   * The retry object supports the following attributes:
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
   */
   readonly retry?: DataAzapiResourceListRetry;
   /**
   * In a format like `<resource-type>@<api-version>`. `<resource-type>` is the Azure resource type, for example, `Microsoft.Storage/storageAccounts`. `<api-version>` is version of the API used to manage this azure resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
   */
   readonly timeouts?: DataAzapiResourceListTimeouts;
 }
@@ -110,31 +110,31 @@ export interface DataAzapiResourceListRetry {
   /**
   * A list of regular expressions to match against error messages. If any of the regular expressions match, the request will be retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#error_message_regex DataAzapiResourceList#error_message_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#error_message_regex DataAzapiResourceList#error_message_regex}
   */
   readonly errorMessageRegex: string[];
   /**
   * The base number of seconds to wait between retries. Default is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#interval_seconds DataAzapiResourceList#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#interval_seconds DataAzapiResourceList#interval_seconds}
   */
   readonly intervalSeconds?: number;
   /**
   * The maximum number of seconds to wait between retries. Default is `180`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#max_interval_seconds DataAzapiResourceList#max_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#max_interval_seconds DataAzapiResourceList#max_interval_seconds}
   */
   readonly maxIntervalSeconds?: number;
   /**
   * The multiplier to apply to the interval between retries. Default is `1.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#multiplier DataAzapiResourceList#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#multiplier DataAzapiResourceList#multiplier}
   */
   readonly multiplier?: number;
   /**
   * The randomization factor to apply to the interval between retries. The formula for the randomized interval is: `RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])`. Therefore set to zero `0.0` for no randomization. Default is `0.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#randomization_factor DataAzapiResourceList#randomization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#randomization_factor DataAzapiResourceList#randomization_factor}
   */
   readonly randomizationFactor?: number;
 }
@@ -343,7 +343,7 @@ export interface DataAzapiResourceListTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#read DataAzapiResourceList#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#read DataAzapiResourceList#read}
   */
   readonly read?: string;
 }
@@ -437,7 +437,7 @@ export class DataAzapiResourceListTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list azapi_resource_list}
+* Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list azapi_resource_list}
 */
 export class DataAzapiResourceList extends cdktf.TerraformDataSource {
 
@@ -453,7 +453,7 @@ export class DataAzapiResourceList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzapiResourceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzapiResourceList to import
-  * @param importFromId The id of the existing DataAzapiResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzapiResourceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzapiResourceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -465,7 +465,7 @@ export class DataAzapiResourceList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.7.0/docs/data-sources/resource_list azapi_resource_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.8.0/docs/data-sources/resource_list azapi_resource_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -476,8 +476,8 @@ export class DataAzapiResourceList extends cdktf.TerraformDataSource {
       terraformResourceType: 'azapi_resource_list',
       terraformGeneratorMetadata: {
         providerName: 'azapi',
-        providerVersion: '2.7.0',
-        providerVersionConstraint: '2.7.0'
+        providerVersion: '2.8.0',
+        providerVersionConstraint: '2.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

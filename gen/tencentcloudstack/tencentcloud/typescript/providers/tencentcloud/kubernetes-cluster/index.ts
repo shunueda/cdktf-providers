@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,197 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, it will acquire the ClusterRole tke:admin. NOTE: this arguments cannot revoke to `false` after acquired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#acquire_cluster_admin_role KubernetesCluster#acquire_cluster_admin_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#acquire_cluster_admin_role KubernetesCluster#acquire_cluster_admin_role}
   */
   readonly acquireClusterAdminRole?: boolean | cdktf.IResolvable;
   /**
   * Whether the cluster level auto upgraded, valid for managed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auto_upgrade_cluster_level KubernetesCluster#auto_upgrade_cluster_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auto_upgrade_cluster_level KubernetesCluster#auto_upgrade_cluster_level}
   */
   readonly autoUpgradeClusterLevel?: boolean | cdktf.IResolvable;
   /**
   * The number of basic pods. valid when enable_customized_pod_cidr=true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#base_pod_num KubernetesCluster#base_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#base_pod_num KubernetesCluster#base_pod_num}
   */
   readonly basePodNum?: number;
   /**
   * CDC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cdc_id KubernetesCluster#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cdc_id KubernetesCluster#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Claim expired seconds to recycle ENI. This field can only set when field `network_type` is 'VPC-CNI'. `claim_expired_seconds` must greater or equal than 300 and less than 15768000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#claim_expired_seconds KubernetesCluster#claim_expired_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#claim_expired_seconds KubernetesCluster#claim_expired_seconds}
   */
   readonly claimExpiredSeconds?: number;
   /**
   * A network address block of the cluster. Different from vpc cidr and cidr of other clusters within this vpc. Must be in  10./192.168/172.[16-31] segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_cidr KubernetesCluster#cluster_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_cidr KubernetesCluster#cluster_cidr}
   */
   readonly clusterCidr?: string;
   /**
   * Deployment type of the cluster, the available values include: 'MANAGED_CLUSTER' and 'INDEPENDENT_CLUSTER'. Default is 'MANAGED_CLUSTER'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_deploy_type KubernetesCluster#cluster_deploy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_deploy_type KubernetesCluster#cluster_deploy_type}
   */
   readonly clusterDeployType?: string;
   /**
   * Description of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_desc KubernetesCluster#cluster_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_desc KubernetesCluster#cluster_desc}
   */
   readonly clusterDesc?: string;
   /**
   * Open internet access or not. If this field is set 'true', the field below `worker_config` must be set. Because only cluster with node is allowed enable access endpoint. You may open it through `tencentcloud_kubernetes_cluster_endpoint`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_internet KubernetesCluster#cluster_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_internet KubernetesCluster#cluster_internet}
   */
   readonly clusterInternet?: boolean | cdktf.IResolvable;
   /**
   * Domain name for cluster Kube-apiserver internet access. Be careful if you modify value of this parameter, the cluster_external_endpoint value may be changed automatically too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_internet_domain KubernetesCluster#cluster_internet_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_internet_domain KubernetesCluster#cluster_internet_domain}
   */
   readonly clusterInternetDomain?: string;
   /**
   * Specify security group, NOTE: This argument must not be empty if cluster internet enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_internet_security_group KubernetesCluster#cluster_internet_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_internet_security_group KubernetesCluster#cluster_internet_security_group}
   */
   readonly clusterInternetSecurityGroup?: string;
   /**
   * Open intranet access or not. If this field is set 'true', the field below `worker_config` must be set. Because only cluster with node is allowed enable access endpoint. You may open it through `tencentcloud_kubernetes_cluster_endpoint`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_intranet KubernetesCluster#cluster_intranet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_intranet KubernetesCluster#cluster_intranet}
   */
   readonly clusterIntranet?: boolean | cdktf.IResolvable;
   /**
   * Domain name for cluster Kube-apiserver intranet access. Be careful if you modify value of this parameter, the pgw_endpoint value may be changed automatically too.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_intranet_domain KubernetesCluster#cluster_intranet_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_intranet_domain KubernetesCluster#cluster_intranet_domain}
   */
   readonly clusterIntranetDomain?: string;
   /**
   * Subnet id who can access this independent cluster, this field must and can only set  when `cluster_intranet` is true. `cluster_intranet_subnet_id` can not modify once be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_intranet_subnet_id KubernetesCluster#cluster_intranet_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_intranet_subnet_id KubernetesCluster#cluster_intranet_subnet_id}
   */
   readonly clusterIntranetSubnetId?: string;
   /**
   * Indicates whether `ipvs` is enabled. Default is true. False means `iptables` is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_ipvs KubernetesCluster#cluster_ipvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_ipvs KubernetesCluster#cluster_ipvs}
   */
   readonly clusterIpvs?: boolean | cdktf.IResolvable;
   /**
   * Specify cluster level, valid for managed cluster, use data source `tencentcloud_kubernetes_cluster_levels` to query available levels. Available value examples `L5`, `L20`, `L50`, `L100`, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_level KubernetesCluster#cluster_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_level KubernetesCluster#cluster_level}
   */
   readonly clusterLevel?: string;
   /**
   * The maximum number of Pods per node in the cluster. Default is 256. The minimum value is 4. When its power unequal to 2, it will round upward to the closest power of 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_max_pod_num KubernetesCluster#cluster_max_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_max_pod_num KubernetesCluster#cluster_max_pod_num}
   */
   readonly clusterMaxPodNum?: number;
   /**
   * The maximum number of services in the cluster. Default is 256. The range is from 32 to 32768. When its power unequal to 2, it will round upward to the closest power of 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_max_service_num KubernetesCluster#cluster_max_service_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_max_service_num KubernetesCluster#cluster_max_service_num}
   */
   readonly clusterMaxServiceNum?: number;
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_name KubernetesCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_name KubernetesCluster#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Cluster operating system, supports setting public images (the field passes the corresponding image Name) and custom images (the field passes the corresponding image ID). For details, please refer to: https://cloud.tencent.com/document/product/457/68289.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_os KubernetesCluster#cluster_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_os KubernetesCluster#cluster_os}
   */
   readonly clusterOs?: string;
   /**
   * Image type of the cluster os, the available values include: 'GENERAL'. Default is 'GENERAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_os_type KubernetesCluster#cluster_os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_os_type KubernetesCluster#cluster_os_type}
   */
   readonly clusterOsType?: string;
   /**
   * Subnet ID of the cluster, such as: subnet-b3p7d7q5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_subnet_id KubernetesCluster#cluster_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_subnet_id KubernetesCluster#cluster_subnet_id}
   */
   readonly clusterSubnetId?: string;
   /**
   * Version of the cluster. Use `tencentcloud_kubernetes_available_cluster_versions` to get the upgradable cluster version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_version KubernetesCluster#cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_version KubernetesCluster#cluster_version}
   */
   readonly clusterVersion?: string;
   /**
   * Runtime type of the cluster, the available values include: 'docker' and 'containerd'.The Kubernetes v1.24 has removed dockershim, so please use containerd in v1.24 or higher. The default value is `docker` for versions below v1.24 and `containerd` for versions above v1.24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#container_runtime KubernetesCluster#container_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#container_runtime KubernetesCluster#container_runtime}
   */
   readonly containerRuntime?: string;
   /**
   * Whether to enable DataPlaneV2 (replace kube-proxy with cilium). `data_plane_v2` and `cluster_ipvs` should not be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#data_plane_v2 KubernetesCluster#data_plane_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#data_plane_v2 KubernetesCluster#data_plane_v2}
   */
   readonly dataPlaneV2?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether cluster deletion protection is enabled. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#deletion_protection KubernetesCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#deletion_protection KubernetesCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * To prevent the installation of a specific Addon component, enter the corresponding AddonName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disable_addons KubernetesCluster#disable_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disable_addons KubernetesCluster#disable_addons}
   */
   readonly disableAddons?: string[];
   /**
   * Docker graph path. Default is `/var/lib/docker`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#docker_graph_path KubernetesCluster#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#docker_graph_path KubernetesCluster#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * Whether to enable the custom mode of node podCIDR size. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enable_customized_pod_cidr KubernetesCluster#enable_customized_pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enable_customized_pod_cidr KubernetesCluster#enable_customized_pod_cidr}
   */
   readonly enableCustomizedPodCidr?: boolean | cdktf.IResolvable;
   /**
   * Subnet Ids for cluster with VPC-CNI network mode. This field can only set when field `network_type` is 'VPC-CNI'. `eni_subnet_ids` can not empty once be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#eni_subnet_ids KubernetesCluster#eni_subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#eni_subnet_ids KubernetesCluster#eni_subnet_ids}
   */
   readonly eniSubnetIds?: string[];
   /**
   * Custom parameter information related to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#extra_args KubernetesCluster#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#extra_args KubernetesCluster#extra_args}
   */
   readonly extraArgs?: string[];
   /**
   * Indicate to set desired pod number in node. valid when enable_customized_pod_cidr=true, and it takes effect for all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#globe_desired_pod_num KubernetesCluster#globe_desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#globe_desired_pod_num KubernetesCluster#globe_desired_pod_num}
   */
   readonly globeDesiredPodNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,187 +209,187 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether to ignore the cluster cidr conflict error. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#ignore_cluster_cidr_conflict KubernetesCluster#ignore_cluster_cidr_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#ignore_cluster_cidr_conflict KubernetesCluster#ignore_cluster_cidr_conflict}
   */
   readonly ignoreClusterCidrConflict?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to ignore the service cidr conflict error. Only valid in `VPC-CNI` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#ignore_service_cidr_conflict KubernetesCluster#ignore_service_cidr_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#ignore_service_cidr_conflict KubernetesCluster#ignore_service_cidr_conflict}
   */
   readonly ignoreServiceCidrConflict?: boolean | cdktf.IResolvable;
   /**
   * The strategy for deleting cluster instances: terminate (destroy instances, only support pay as you go cloud host instances) retain (remove only, keep instances), Default is terminate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_delete_mode KubernetesCluster#instance_delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_delete_mode KubernetesCluster#instance_delete_mode}
   */
   readonly instanceDeleteMode?: string;
   /**
   * In the VPC-CNI mode of the cluster, the dual stack cluster status defaults to false, indicating a non dual stack cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#is_dual_stack KubernetesCluster#is_dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#is_dual_stack KubernetesCluster#is_dual_stack}
   */
   readonly isDualStack?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether non-static ip mode is enabled. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#is_non_static_ip_mode KubernetesCluster#is_non_static_ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#is_non_static_ip_mode KubernetesCluster#is_non_static_ip_mode}
   */
   readonly isNonStaticIpMode?: boolean | cdktf.IResolvable;
   /**
   * Cluster kube-proxy mode, the available values include: 'kube-proxy-bpf'. Default is not set.When set to kube-proxy-bpf, cluster version greater than 1.14 and with Tencent Linux 2.4 is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kube_proxy_mode KubernetesCluster#kube_proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kube_proxy_mode KubernetesCluster#kube_proxy_mode}
   */
   readonly kubeProxyMode?: string;
   /**
   * Labels of tke cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Security policies for managed cluster internet, like:'192.168.1.0/24' or '113.116.51.27', '0.0.0.0/0' means all. This field can only set when field `cluster_deploy_type` is 'MANAGED_CLUSTER' and `cluster_internet` is true. `managed_cluster_internet_security_policies` can not delete or empty once be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#managed_cluster_internet_security_policies KubernetesCluster#managed_cluster_internet_security_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#managed_cluster_internet_security_policies KubernetesCluster#managed_cluster_internet_security_policies}
   */
   readonly managedClusterInternetSecurityPolicies?: string[];
   /**
   * Mount target. Default is not mounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Cluster network type, the available values include: 'GR' and 'VPC-CNI' and 'CiliumOverlay'. Default is GR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#network_type KubernetesCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#network_type KubernetesCluster#network_type}
   */
   readonly networkType?: string;
   /**
   * Node name type of Cluster, the available values include: 'lan-ip' and 'hostname', Default is 'lan-ip'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#node_name_type KubernetesCluster#node_name_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#node_name_type KubernetesCluster#node_name_type}
   */
   readonly nodeNameType?: string;
   /**
   * Base64-encoded user script, executed before initializing the node, currently only effective for adding existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#pre_start_user_script KubernetesCluster#pre_start_user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#pre_start_user_script KubernetesCluster#pre_start_user_script}
   */
   readonly preStartUserScript?: string;
   /**
   * Project ID, default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#project_id KubernetesCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#project_id KubernetesCluster#project_id}
   */
   readonly projectId?: number;
   /**
   * Container Runtime version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#runtime_version KubernetesCluster#runtime_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#runtime_version KubernetesCluster#runtime_version}
   */
   readonly runtimeVersion?: string;
   /**
   * A network address block of the service. Different from vpc cidr and cidr of other clusters within this vpc. Must be in  10./192.168/172.[16-31] segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#service_cidr KubernetesCluster#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#service_cidr KubernetesCluster#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
   * The tags of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Sets whether the joining node participates in the schedule. Default is '0'. Participate in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#unschedulable KubernetesCluster#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#unschedulable KubernetesCluster#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * Indicates whether upgrade all instances when cluster_version change. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#upgrade_instances_follow_cluster KubernetesCluster#upgrade_instances_follow_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#upgrade_instances_follow_cluster KubernetesCluster#upgrade_instances_follow_cluster}
   */
   readonly upgradeInstancesFollowCluster?: boolean | cdktf.IResolvable;
   /**
   * Distinguish between shared network card multi-IP mode and independent network card mode. Fill in `tke-route-eni` for shared network card multi-IP mode and `tke-direct-eni` for independent network card mode. The default is shared network card mode. When it is necessary to turn off the vpc-cni container network capability, both `eni_subnet_ids` and `vpc_cni_type` must be set to empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#vpc_cni_type KubernetesCluster#vpc_cni_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#vpc_cni_type KubernetesCluster#vpc_cni_type}
   */
   readonly vpcCniType?: string;
   /**
   * Vpc Id of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#vpc_id KubernetesCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#vpc_id KubernetesCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * auth_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auth_options KubernetesCluster#auth_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auth_options KubernetesCluster#auth_options}
   */
   readonly authOptions?: KubernetesClusterAuthOptions;
   /**
   * cluster_audit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_audit KubernetesCluster#cluster_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_audit KubernetesCluster#cluster_audit}
   */
   readonly clusterAudit?: KubernetesClusterClusterAudit;
   /**
   * cluster_extra_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cluster_extra_args KubernetesCluster#cluster_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cluster_extra_args KubernetesCluster#cluster_extra_args}
   */
   readonly clusterExtraArgs?: KubernetesClusterClusterExtraArgs;
   /**
   * event_persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#event_persistence KubernetesCluster#event_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#event_persistence KubernetesCluster#event_persistence}
   */
   readonly eventPersistence?: KubernetesClusterEventPersistence;
   /**
   * exist_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#exist_instance KubernetesCluster#exist_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#exist_instance KubernetesCluster#exist_instance}
   */
   readonly existInstance?: KubernetesClusterExistInstance[] | cdktf.IResolvable;
   /**
   * extension_addon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#extension_addon KubernetesCluster#extension_addon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#extension_addon KubernetesCluster#extension_addon}
   */
   readonly extensionAddon?: KubernetesClusterExtensionAddon[] | cdktf.IResolvable;
   /**
   * log_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#log_agent KubernetesCluster#log_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#log_agent KubernetesCluster#log_agent}
   */
   readonly logAgent?: KubernetesClusterLogAgent;
   /**
   * master_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#master_config KubernetesCluster#master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#master_config KubernetesCluster#master_config}
   */
   readonly masterConfig?: KubernetesClusterMasterConfig[] | cdktf.IResolvable;
   /**
   * node_pool_global_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#node_pool_global_config KubernetesCluster#node_pool_global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#node_pool_global_config KubernetesCluster#node_pool_global_config}
   */
   readonly nodePoolGlobalConfig?: KubernetesClusterNodePoolGlobalConfig[] | cdktf.IResolvable;
   /**
   * resource_delete_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#resource_delete_options KubernetesCluster#resource_delete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#resource_delete_options KubernetesCluster#resource_delete_options}
   */
   readonly resourceDeleteOptions?: KubernetesClusterResourceDeleteOptions[] | cdktf.IResolvable;
   /**
   * worker_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#worker_config KubernetesCluster#worker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#worker_config KubernetesCluster#worker_config}
   */
   readonly workerConfig?: KubernetesClusterWorkerConfig[] | cdktf.IResolvable;
 }
@@ -492,25 +492,25 @@ export interface KubernetesClusterAuthOptions {
   /**
   * If set to `true`, the rbac rule will be created automatically which allow anonymous user to access '/.well-known/openid-configuration' and '/openid/v1/jwks'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auto_create_discovery_anonymous_auth KubernetesCluster#auto_create_discovery_anonymous_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auto_create_discovery_anonymous_auth KubernetesCluster#auto_create_discovery_anonymous_auth}
   */
   readonly autoCreateDiscoveryAnonymousAuth?: boolean | cdktf.IResolvable;
   /**
   * Specify service-account-issuer. If use_tke_default is set to `true`, please do not set this field, it will be ignored anyway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#issuer KubernetesCluster#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#issuer KubernetesCluster#issuer}
   */
   readonly issuer?: string;
   /**
   * Specify service-account-jwks-uri. If use_tke_default is set to `true`, please do not set this field, it will be ignored anyway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#jwks_uri KubernetesCluster#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#jwks_uri KubernetesCluster#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
   * If set to `true`, the issuer and jwks_uri will be generated automatically by tke, please do not set issuer and jwks_uri, and they will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#use_tke_default KubernetesCluster#use_tke_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#use_tke_default KubernetesCluster#use_tke_default}
   */
   readonly useTkeDefault?: boolean | cdktf.IResolvable;
 }
@@ -683,25 +683,25 @@ export interface KubernetesClusterClusterAudit {
   /**
   * when you want to close the cluster audit log or delete the cluster, you can use this parameter to determine whether the audit log set and topic created by default will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#delete_audit_log_and_topic KubernetesCluster#delete_audit_log_and_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#delete_audit_log_and_topic KubernetesCluster#delete_audit_log_and_topic}
   */
   readonly deleteAuditLogAndTopic?: boolean | cdktf.IResolvable;
   /**
   * Specify weather the Cluster Audit enabled. NOTE: Enable Cluster Audit will also auto install Log Agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Specify id of existing CLS log set, or auto create a new set by leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#log_set_id KubernetesCluster#log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#log_set_id KubernetesCluster#log_set_id}
   */
   readonly logSetId?: string;
   /**
   * Specify id of existing CLS log topic, or auto create a new topic by leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#topic_id KubernetesCluster#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#topic_id KubernetesCluster#topic_id}
   */
   readonly topicId?: string;
 }
@@ -871,19 +871,19 @@ export interface KubernetesClusterClusterExtraArgs {
   /**
   * The customized parameters for kube-apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kube_apiserver KubernetesCluster#kube_apiserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kube_apiserver KubernetesCluster#kube_apiserver}
   */
   readonly kubeApiserver?: string[];
   /**
   * The customized parameters for kube-controller-manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kube_controller_manager KubernetesCluster#kube_controller_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kube_controller_manager KubernetesCluster#kube_controller_manager}
   */
   readonly kubeControllerManager?: string[];
   /**
   * The customized parameters for kube-scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kube_scheduler KubernetesCluster#kube_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kube_scheduler KubernetesCluster#kube_scheduler}
   */
   readonly kubeScheduler?: string[];
 }
@@ -1027,25 +1027,25 @@ export interface KubernetesClusterEventPersistence {
   /**
   * when you want to close the cluster event persistence or delete the cluster, you can use this parameter to determine whether the event persistence log set and topic created by default will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#delete_event_log_and_topic KubernetesCluster#delete_event_log_and_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#delete_event_log_and_topic KubernetesCluster#delete_event_log_and_topic}
   */
   readonly deleteEventLogAndTopic?: boolean | cdktf.IResolvable;
   /**
   * Specify weather the Event Persistence enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Specify id of existing CLS log set, or auto create a new set by leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#log_set_id KubernetesCluster#log_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#log_set_id KubernetesCluster#log_set_id}
   */
   readonly logSetId?: string;
   /**
   * Specify id of existing CLS log topic, or auto create a new topic by leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#topic_id KubernetesCluster#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#topic_id KubernetesCluster#topic_id}
   */
   readonly topicId?: string;
 }
@@ -1215,37 +1215,37 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfigDataDisk
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount. NOTE: this argument doesn't support setting in node pool, or will leads to mount error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk. Valid value: `LOCAL_BASIC`, `LOCAL_SSD`, `CLOUD_BASIC`, `CLOUD_PREMIUM`, `CLOUD_SSD`, `CLOUD_HSSD`, `CLOUD_TSSD` and `CLOUD_BSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
   */
   readonly fileSystem?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
   */
   readonly mountTarget?: string;
 }
@@ -1476,7 +1476,7 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfigExtraArg
   /**
   * Kubelet custom parameter. The parameter format is ["k1=v1", "k1=v2"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kubelet KubernetesCluster#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kubelet KubernetesCluster#kubelet}
   */
   readonly kubelet?: string[];
 }
@@ -1562,31 +1562,31 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfigGpuArgs 
   /**
   * CUDA  version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cuda KubernetesCluster#cuda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cuda KubernetesCluster#cuda}
   */
   readonly cuda?: { [key: string]: string };
   /**
   * cuDNN version. Format like: `{ version: String, name: String, doc_name: String, dev_name: String }`. `version`: cuDNN version; `name`: cuDNN name; `doc_name`: Doc name of cuDNN; `dev_name`: Dev name of cuDNN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cudnn KubernetesCluster#cudnn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cudnn KubernetesCluster#cudnn}
   */
   readonly cudnn?: { [key: string]: string };
   /**
   * Custom GPU driver. Format like: `{address: String}`. `address`: URL of custom GPU driver address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#custom_driver KubernetesCluster#custom_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#custom_driver KubernetesCluster#custom_driver}
   */
   readonly customDriver?: { [key: string]: string };
   /**
   * GPU driver version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#driver KubernetesCluster#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#driver KubernetesCluster#driver}
   */
   readonly driver?: { [key: string]: string };
   /**
   * Whether to enable MIG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mig_enable KubernetesCluster#mig_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mig_enable KubernetesCluster#mig_enable}
   */
   readonly migEnable?: boolean | cdktf.IResolvable;
 }
@@ -1788,13 +1788,13 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfigLabels {
   /**
   * Name of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * Value of map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
   */
   readonly value: string;
 }
@@ -1935,19 +1935,19 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfigTaints {
   /**
   * Effect of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#effect KubernetesCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#effect KubernetesCluster#effect}
   */
   readonly effect?: string;
   /**
   * Key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#key KubernetesCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#key KubernetesCluster#key}
   */
   readonly key?: string;
   /**
   * Value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#value KubernetesCluster#value}
   */
   readonly value?: string;
 }
@@ -2123,61 +2123,61 @@ export interface KubernetesClusterExistInstanceInstancesParaMasterConfig {
   /**
   * Indicate to set desired pod number in node. valid when the cluster is podCIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#desired_pod_number KubernetesCluster#desired_pod_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#desired_pod_number KubernetesCluster#desired_pod_number}
   */
   readonly desiredPodNumber?: number;
   /**
   * Docker graph path. Default is `/var/lib/docker`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#docker_graph_path KubernetesCluster#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#docker_graph_path KubernetesCluster#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * Mount target. Default is not mounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Set whether the joined nodes participate in scheduling, with a default value of 0, indicating participation in scheduling; Non 0 means not participating in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#unschedulable KubernetesCluster#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#unschedulable KubernetesCluster#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * User script encoded in base64, which will be executed after the k8s component runs. The user needs to ensure the script's reentrant and retry logic. The script and its generated log files can be viewed in the node path /data/ccs_userscript/. If the node needs to be initialized before joining the schedule, it can be used in conjunction with the `unschedulable` parameter. After the final initialization of the userScript is completed, add the command "kubectl uncordon nodename --kubeconfig=/root/.kube/config" to add the node to the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#user_script KubernetesCluster#user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#user_script KubernetesCluster#user_script}
   */
   readonly userScript?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
   */
   readonly dataDisk?: KubernetesClusterExistInstanceInstancesParaMasterConfigDataDisk;
   /**
   * extra_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#extra_args KubernetesCluster#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#extra_args KubernetesCluster#extra_args}
   */
   readonly extraArgs?: KubernetesClusterExistInstanceInstancesParaMasterConfigExtraArgs;
   /**
   * gpu_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#gpu_args KubernetesCluster#gpu_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#gpu_args KubernetesCluster#gpu_args}
   */
   readonly gpuArgs?: KubernetesClusterExistInstanceInstancesParaMasterConfigGpuArgs;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
   */
   readonly labels?: KubernetesClusterExistInstanceInstancesParaMasterConfigLabels[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#taints KubernetesCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#taints KubernetesCluster#taints}
   */
   readonly taints?: KubernetesClusterExistInstanceInstancesParaMasterConfigTaints[] | cdktf.IResolvable;
 }
@@ -2524,43 +2524,43 @@ export interface KubernetesClusterExistInstanceInstancesPara {
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * Cluster IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_ids KubernetesCluster#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_ids KubernetesCluster#instance_ids}
   */
   readonly instanceIds: string[];
   /**
   * ID list of keys, should be set if `password` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access, should be set if `key_ids` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
   */
   readonly password?: string;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * master_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#master_config KubernetesCluster#master_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#master_config KubernetesCluster#master_config}
   */
   readonly masterConfig?: KubernetesClusterExistInstanceInstancesParaMasterConfig;
 }
@@ -2817,19 +2817,19 @@ export interface KubernetesClusterExistInstance {
   /**
   * Custom mode cluster, you can specify the number of pods for each node. corresponding to the existed_instances_para.instance_ids parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#desired_pod_numbers KubernetesCluster#desired_pod_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#desired_pod_numbers KubernetesCluster#desired_pod_numbers}
   */
   readonly desiredPodNumbers?: number[];
   /**
   * Role of existed node. Value: MASTER_ETCD or WORKER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#node_role KubernetesCluster#node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#node_role KubernetesCluster#node_role}
   */
   readonly nodeRole?: string;
   /**
   * instances_para block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instances_para KubernetesCluster#instances_para}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instances_para KubernetesCluster#instances_para}
   */
   readonly instancesPara?: KubernetesClusterExistInstanceInstancesPara;
 }
@@ -3005,13 +3005,13 @@ export interface KubernetesClusterExtensionAddon {
   /**
   * Add-on name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * Parameter of the add-on resource object in JSON string format, please check the example at the top of page for reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#param KubernetesCluster#param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#param KubernetesCluster#param}
   */
   readonly param: string;
 }
@@ -3152,13 +3152,13 @@ export interface KubernetesClusterLogAgent {
   /**
   * Whether the log agent enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Kubelet root directory as the literal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kubelet_root_dir KubernetesCluster#kubelet_root_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kubelet_root_dir KubernetesCluster#kubelet_root_dir}
   */
   readonly kubeletRootDir?: string;
 }
@@ -3270,55 +3270,55 @@ export interface KubernetesClusterMasterConfigDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk, available values: `CLOUD_PREMIUM` and `CLOUD_SSD` and `CLOUD_HSSD` and `CLOUD_TSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Indicates whether to encrypt data disk, default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#encrypt KubernetesCluster#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#encrypt KubernetesCluster#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
   */
   readonly fileSystem?: string;
   /**
   * ID of the custom CMK in the format of UUID or `kms-abcd1234`. This parameter is used to encrypt cloud disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kms_key_id KubernetesCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kms_key_id KubernetesCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#snapshot_id KubernetesCluster#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#snapshot_id KubernetesCluster#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -3668,163 +3668,163 @@ export interface KubernetesClusterMasterConfig {
   /**
   * Indicates which availability zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * bandwidth package id. if user is standard user, then the bandwidth_package_id is needed, or default has bandwidth_package_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#bandwidth_package_id KubernetesCluster#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#bandwidth_package_id KubernetesCluster#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * CAM role name authorized to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cam_role_name KubernetesCluster#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cam_role_name KubernetesCluster#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * Number of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#count KubernetesCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#count KubernetesCluster#count}
   */
   readonly count?: number;
   /**
   * Indicate to set desired pod number in node. valid when enable_customized_pod_cidr=true, and it override `[globe_]desired_pod_num` for current node. Either all the fields `desired_pod_num` or none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#desired_pod_num KubernetesCluster#desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#desired_pod_num KubernetesCluster#desired_pod_num}
   */
   readonly desiredPodNum?: number;
   /**
   * Disaster recover groups to which a CVM instance belongs. Only support maximum 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disaster_recover_group_ids KubernetesCluster#disaster_recover_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disaster_recover_group_ids KubernetesCluster#disaster_recover_group_ids}
   */
   readonly disasterRecoverGroupIds?: string[];
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * The host name of the attached instance. Dot (.) and dash (-) cannot be used as the first and last characters of HostName and cannot be used consecutively. Windows example: The length of the name character is [2, 15], letters (capitalization is not restricted), numbers and dashes (-) are allowed, dots (.) are not supported, and not all numbers are allowed. Examples of other types (Linux, etc.): The character length is [2, 60], and multiple dots are allowed. There is a segment between the dots. Each segment allows letters (with no limitation on capitalization), numbers and dashes (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#hostname KubernetesCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#hostname KubernetesCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * Id of cvm hpc cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#hpc_cluster_id KubernetesCluster#hpc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#hpc_cluster_id KubernetesCluster#hpc_cluster_id}
   */
   readonly hpcClusterId?: string;
   /**
   * The valid image id, format of img-xxx. Note: `img_id` will be replaced with the image corresponding to TKE `cluster_os`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#img_id KubernetesCluster#img_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#img_id KubernetesCluster#img_id}
   */
   readonly imgId?: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. The default is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`, `PREPAID` instance will not terminated after cluster deleted, and may not allow to delete before expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type KubernetesCluster#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type KubernetesCluster#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance. NOTE: it only works when instance_charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_period KubernetesCluster#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_period KubernetesCluster#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_renew_flag KubernetesCluster#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_renew_flag KubernetesCluster#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: string;
   /**
   * Name of the CVMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_name KubernetesCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_name KubernetesCluster#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Specified types of CVM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_type KubernetesCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_type KubernetesCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Charge types for network traffic. Available values include `TRAFFIC_POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#internet_charge_type KubernetesCluster#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#internet_charge_type KubernetesCluster#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#internet_max_bandwidth_out KubernetesCluster#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#internet_max_bandwidth_out KubernetesCluster#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * ID list of keys, should be set if `password` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access, should be set if `key_ids` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
   */
   readonly password?: string;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#public_ip_assigned KubernetesCluster#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#public_ip_assigned KubernetesCluster#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Private network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#system_disk_size KubernetesCluster#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#system_disk_size KubernetesCluster#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * System disk type. For more information on limits of system disk types, see [Storage Overview](https://intl.cloud.tencent.com/document/product/213/4952). Valid values: `LOCAL_BASIC`: local disk, `LOCAL_SSD`: local SSD disk, `CLOUD_SSD`: SSD, `CLOUD_PREMIUM`: Premium Cloud Storage. NOTE: `CLOUD_BASIC`, `LOCAL_BASIC` and `LOCAL_SSD` are deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#system_disk_type KubernetesCluster#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#system_disk_type KubernetesCluster#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * ase64-encoded User Data text, the length limit is 16KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#user_data KubernetesCluster#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#user_data KubernetesCluster#user_data}
   */
   readonly userData?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
   */
   readonly dataDisk?: KubernetesClusterMasterConfigDataDisk[] | cdktf.IResolvable;
 }
@@ -4690,55 +4690,55 @@ export interface KubernetesClusterNodePoolGlobalConfig {
   /**
   * Indicates which scale-out method will be used when there are multiple scaling groups. Valid values: `random` - select a random scaling group, `most-pods` - select the scaling group that can schedule the most pods, `least-waste` - select the scaling group that can ensure the fewest remaining resources after Pod scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#expander KubernetesCluster#expander}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#expander KubernetesCluster#expander}
   */
   readonly expander?: string;
   /**
   * Whether to ignore DaemonSet pods by default when calculating resource usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#ignore_daemon_sets_utilization KubernetesCluster#ignore_daemon_sets_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#ignore_daemon_sets_utilization KubernetesCluster#ignore_daemon_sets_utilization}
   */
   readonly ignoreDaemonSetsUtilization?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether to enable scale-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#is_scale_in_enabled KubernetesCluster#is_scale_in_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#is_scale_in_enabled KubernetesCluster#is_scale_in_enabled}
   */
   readonly isScaleInEnabled?: boolean | cdktf.IResolvable;
   /**
   * Max concurrent scale-in volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#max_concurrent_scale_in KubernetesCluster#max_concurrent_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#max_concurrent_scale_in KubernetesCluster#max_concurrent_scale_in}
   */
   readonly maxConcurrentScaleIn?: number;
   /**
   * Number of minutes after cluster scale-out when the system starts judging whether to perform scale-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#scale_in_delay KubernetesCluster#scale_in_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#scale_in_delay KubernetesCluster#scale_in_delay}
   */
   readonly scaleInDelay?: number;
   /**
   * Number of consecutive minutes of idleness after which the node is subject to scale-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#scale_in_unneeded_time KubernetesCluster#scale_in_unneeded_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#scale_in_unneeded_time KubernetesCluster#scale_in_unneeded_time}
   */
   readonly scaleInUnneededTime?: number;
   /**
   * Percentage of node resource usage below which the node is considered to be idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#scale_in_utilization_threshold KubernetesCluster#scale_in_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#scale_in_utilization_threshold KubernetesCluster#scale_in_utilization_threshold}
   */
   readonly scaleInUtilizationThreshold?: number;
   /**
   * During scale-in, ignore nodes with local storage pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#skip_nodes_with_local_storage KubernetesCluster#skip_nodes_with_local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#skip_nodes_with_local_storage KubernetesCluster#skip_nodes_with_local_storage}
   */
   readonly skipNodesWithLocalStorage?: boolean | cdktf.IResolvable;
   /**
   * During scale-in, ignore nodes with pods in the kube-system namespace that are not managed by DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#skip_nodes_with_system_pods KubernetesCluster#skip_nodes_with_system_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#skip_nodes_with_system_pods KubernetesCluster#skip_nodes_with_system_pods}
   */
   readonly skipNodesWithSystemPods?: boolean | cdktf.IResolvable;
 }
@@ -5088,19 +5088,19 @@ export interface KubernetesClusterResourceDeleteOptions {
   /**
   * The deletion mode of CBS resources when the cluster is deleted, `terminate` (destroy), `retain` (retain). Other resources are deleted by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#delete_mode KubernetesCluster#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#delete_mode KubernetesCluster#delete_mode}
   */
   readonly deleteMode: string;
   /**
   * Resource type, valid values are `CBS`, `CLB`, and `CVM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#resource_type KubernetesCluster#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#resource_type KubernetesCluster#resource_type}
   */
   readonly resourceType: string;
   /**
   * Whether to skip resources with deletion protection enabled, the default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#skip_deletion_protection KubernetesCluster#skip_deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#skip_deletion_protection KubernetesCluster#skip_deletion_protection}
   */
   readonly skipDeletionProtection?: boolean | cdktf.IResolvable;
 }
@@ -5270,55 +5270,55 @@ export interface KubernetesClusterWorkerConfigDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#auto_format_and_mount KubernetesCluster#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_partition KubernetesCluster#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_size KubernetesCluster#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk, available values: `CLOUD_PREMIUM` and `CLOUD_SSD` and `CLOUD_HSSD` and `CLOUD_TSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disk_type KubernetesCluster#disk_type}
   */
   readonly diskType?: string;
   /**
   * Indicates whether to encrypt data disk, default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#encrypt KubernetesCluster#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#encrypt KubernetesCluster#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#file_system KubernetesCluster#file_system}
   */
   readonly fileSystem?: string;
   /**
   * ID of the custom CMK in the format of UUID or `kms-abcd1234`. This parameter is used to encrypt cloud disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#kms_key_id KubernetesCluster#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#kms_key_id KubernetesCluster#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#mount_target KubernetesCluster#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#snapshot_id KubernetesCluster#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#snapshot_id KubernetesCluster#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -5668,163 +5668,163 @@ export interface KubernetesClusterWorkerConfig {
   /**
   * Indicates which availability zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * bandwidth package id. if user is standard user, then the bandwidth_package_id is needed, or default has bandwidth_package_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#bandwidth_package_id KubernetesCluster#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#bandwidth_package_id KubernetesCluster#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * CAM role name authorized to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#cam_role_name KubernetesCluster#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#cam_role_name KubernetesCluster#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * Number of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#count KubernetesCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#count KubernetesCluster#count}
   */
   readonly count?: number;
   /**
   * Indicate to set desired pod number in node. valid when enable_customized_pod_cidr=true, and it override `[globe_]desired_pod_num` for current node. Either all the fields `desired_pod_num` or none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#desired_pod_num KubernetesCluster#desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#desired_pod_num KubernetesCluster#desired_pod_num}
   */
   readonly desiredPodNum?: number;
   /**
   * Disaster recover groups to which a CVM instance belongs. Only support maximum 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#disaster_recover_group_ids KubernetesCluster#disaster_recover_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#disaster_recover_group_ids KubernetesCluster#disaster_recover_group_ids}
   */
   readonly disasterRecoverGroupIds?: string[];
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_monitor_service KubernetesCluster#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#enhanced_security_service KubernetesCluster#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * The host name of the attached instance. Dot (.) and dash (-) cannot be used as the first and last characters of HostName and cannot be used consecutively. Windows example: The length of the name character is [2, 15], letters (capitalization is not restricted), numbers and dashes (-) are allowed, dots (.) are not supported, and not all numbers are allowed. Examples of other types (Linux, etc.): The character length is [2, 60], and multiple dots are allowed. There is a segment between the dots. Each segment allows letters (with no limitation on capitalization), numbers and dashes (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#hostname KubernetesCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#hostname KubernetesCluster#hostname}
   */
   readonly hostname?: string;
   /**
   * Id of cvm hpc cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#hpc_cluster_id KubernetesCluster#hpc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#hpc_cluster_id KubernetesCluster#hpc_cluster_id}
   */
   readonly hpcClusterId?: string;
   /**
   * The valid image id, format of img-xxx. Note: `img_id` will be replaced with the image corresponding to TKE `cluster_os`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#img_id KubernetesCluster#img_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#img_id KubernetesCluster#img_id}
   */
   readonly imgId?: string;
   /**
   * The charge type of instance. Valid values are `PREPAID` and `POSTPAID_BY_HOUR`. The default is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`, `PREPAID` instance will not terminated after cluster deleted, and may not allow to delete before expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type KubernetesCluster#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type KubernetesCluster#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance. NOTE: it only works when instance_charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_period KubernetesCluster#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_period KubernetesCluster#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_renew_flag KubernetesCluster#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_charge_type_prepaid_renew_flag KubernetesCluster#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: string;
   /**
   * Name of the CVMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_name KubernetesCluster#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_name KubernetesCluster#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Specified types of CVM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#instance_type KubernetesCluster#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#instance_type KubernetesCluster#instance_type}
   */
   readonly instanceType: string;
   /**
   * Charge types for network traffic. Available values include `TRAFFIC_POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#internet_charge_type KubernetesCluster#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#internet_charge_type KubernetesCluster#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#internet_max_bandwidth_out KubernetesCluster#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#internet_max_bandwidth_out KubernetesCluster#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * ID list of keys, should be set if `password` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#key_ids KubernetesCluster#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access, should be set if `key_ids` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#password KubernetesCluster#password}
   */
   readonly password?: string;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#public_ip_assigned KubernetesCluster#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#public_ip_assigned KubernetesCluster#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Private network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#system_disk_size KubernetesCluster#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#system_disk_size KubernetesCluster#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * System disk type. For more information on limits of system disk types, see [Storage Overview](https://intl.cloud.tencent.com/document/product/213/4952). Valid values: `LOCAL_BASIC`: local disk, `LOCAL_SSD`: local SSD disk, `CLOUD_SSD`: SSD, `CLOUD_PREMIUM`: Premium Cloud Storage. NOTE: `CLOUD_BASIC`, `LOCAL_BASIC` and `LOCAL_SSD` are deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#system_disk_type KubernetesCluster#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#system_disk_type KubernetesCluster#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * ase64-encoded User Data text, the length limit is 16KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#user_data KubernetesCluster#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#user_data KubernetesCluster#user_data}
   */
   readonly userData?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#data_disk KubernetesCluster#data_disk}
   */
   readonly dataDisk?: KubernetesClusterWorkerConfigDataDisk[] | cdktf.IResolvable;
 }
@@ -6688,7 +6688,7 @@ export class KubernetesClusterWorkerConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster tencentcloud_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster tencentcloud_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -6704,7 +6704,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6716,7 +6716,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/kubernetes_cluster tencentcloud_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/kubernetes_cluster tencentcloud_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6727,8 +6727,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

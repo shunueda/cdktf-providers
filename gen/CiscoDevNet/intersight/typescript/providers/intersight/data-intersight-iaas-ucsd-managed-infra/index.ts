@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightIaasUcsdManagedInfraConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#account_moid DataIntersightIaasUcsdManagedInfra#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#account_moid DataIntersightIaasUcsdManagedInfra#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total advanced catalogs in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#advanced_catalog_count DataIntersightIaasUcsdManagedInfra#advanced_catalog_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#advanced_catalog_count DataIntersightIaasUcsdManagedInfra#advanced_catalog_count}
   */
   readonly advancedCatalogCount?: number;
   /**
   * Total bare metal catalogs in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#bm_catalog_count DataIntersightIaasUcsdManagedInfra#bm_catalog_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#bm_catalog_count DataIntersightIaasUcsdManagedInfra#bm_catalog_count}
   */
   readonly bmCatalogCount?: number;
   /**
@@ -34,47 +34,47 @@ export interface DataIntersightIaasUcsdManagedInfraConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * Total service container catalogs in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#container_catalog_count DataIntersightIaasUcsdManagedInfra#container_catalog_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#container_catalog_count DataIntersightIaasUcsdManagedInfra#container_catalog_count}
   */
   readonly containerCatalogCount?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#create_time DataIntersightIaasUcsdManagedInfra#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#create_time DataIntersightIaasUcsdManagedInfra#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#domain_group_moid DataIntersightIaasUcsdManagedInfra#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#domain_group_moid DataIntersightIaasUcsdManagedInfra#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Total ESXi hosts in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#esxi_host_count DataIntersightIaasUcsdManagedInfra#esxi_host_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#esxi_host_count DataIntersightIaasUcsdManagedInfra#esxi_host_count}
   */
   readonly esxiHostCount?: number;
   /**
   * Total external (Ldap) groups in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#external_group_count DataIntersightIaasUcsdManagedInfra#external_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#external_group_count DataIntersightIaasUcsdManagedInfra#external_group_count}
   */
   readonly externalGroupCount?: number;
   /**
   * Total HyperV hosts in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#hyperv_host_count DataIntersightIaasUcsdManagedInfra#hyperv_host_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#hyperv_host_count DataIntersightIaasUcsdManagedInfra#hyperv_host_count}
   */
   readonly hypervHostCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#id DataIntersightIaasUcsdManagedInfra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#id DataIntersightIaasUcsdManagedInfra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,97 +83,97 @@ export interface DataIntersightIaasUcsdManagedInfraConfig extends cdktf.Terrafor
   /**
   * Total local groups in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#local_group_count DataIntersightIaasUcsdManagedInfra#local_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#local_group_count DataIntersightIaasUcsdManagedInfra#local_group_count}
   */
   readonly localGroupCount?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#mod_time DataIntersightIaasUcsdManagedInfra#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#mod_time DataIntersightIaasUcsdManagedInfra#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#owners DataIntersightIaasUcsdManagedInfra#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#owners DataIntersightIaasUcsdManagedInfra#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#shared_scope DataIntersightIaasUcsdManagedInfra#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#shared_scope DataIntersightIaasUcsdManagedInfra#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Total standard catalogs in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#standard_catalog_count DataIntersightIaasUcsdManagedInfra#standard_catalog_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#standard_catalog_count DataIntersightIaasUcsdManagedInfra#standard_catalog_count}
   */
   readonly standardCatalogCount?: number;
   /**
   * Total user accounts in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#user_count DataIntersightIaasUcsdManagedInfra#user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#user_count DataIntersightIaasUcsdManagedInfra#user_count}
   */
   readonly userCount?: number;
   /**
   * Total virtual datacenters in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#vdc_count DataIntersightIaasUcsdManagedInfra#vdc_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#vdc_count DataIntersightIaasUcsdManagedInfra#vdc_count}
   */
   readonly vdcCount?: number;
   /**
   * Total Virtual machines in UCSD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#vm_count DataIntersightIaasUcsdManagedInfra#vm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#vm_count DataIntersightIaasUcsdManagedInfra#vm_count}
   */
   readonly vmCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#ancestors DataIntersightIaasUcsdManagedInfra#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#ancestors DataIntersightIaasUcsdManagedInfra#ancestors}
   */
   readonly ancestors?: DataIntersightIaasUcsdManagedInfraAncestors[] | cdktf.IResolvable;
   /**
   * guid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#guid DataIntersightIaasUcsdManagedInfra#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#guid DataIntersightIaasUcsdManagedInfra#guid}
   */
   readonly guid?: DataIntersightIaasUcsdManagedInfraGuid;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#parent DataIntersightIaasUcsdManagedInfra#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#parent DataIntersightIaasUcsdManagedInfra#parent}
   */
   readonly parent?: DataIntersightIaasUcsdManagedInfraParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#permission_resources DataIntersightIaasUcsdManagedInfra#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#permission_resources DataIntersightIaasUcsdManagedInfra#permission_resources}
   */
   readonly permissionResources?: DataIntersightIaasUcsdManagedInfraPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#tags DataIntersightIaasUcsdManagedInfra#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#tags DataIntersightIaasUcsdManagedInfra#tags}
   */
   readonly tags?: DataIntersightIaasUcsdManagedInfraTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#version_context DataIntersightIaasUcsdManagedInfra#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#version_context DataIntersightIaasUcsdManagedInfra#version_context}
   */
   readonly versionContext?: DataIntersightIaasUcsdManagedInfraVersionContext;
 }
@@ -1379,7 +1379,7 @@ export class DataIntersightIaasUcsdManagedInfraResultsList extends cdktf.Complex
 }
 export interface DataIntersightIaasUcsdManagedInfraAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1387,19 +1387,19 @@ export interface DataIntersightIaasUcsdManagedInfraAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1412,7 +1412,7 @@ export interface DataIntersightIaasUcsdManagedInfraAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -1644,7 +1644,7 @@ export class DataIntersightIaasUcsdManagedInfraAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightIaasUcsdManagedInfraGuid {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1652,19 +1652,19 @@ export interface DataIntersightIaasUcsdManagedInfraGuid {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1677,7 +1677,7 @@ export interface DataIntersightIaasUcsdManagedInfraGuid {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -1877,7 +1877,7 @@ export class DataIntersightIaasUcsdManagedInfraGuidOutputReference extends cdktf
 }
 export interface DataIntersightIaasUcsdManagedInfraParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1885,19 +1885,19 @@ export interface DataIntersightIaasUcsdManagedInfraParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1910,7 +1910,7 @@ export interface DataIntersightIaasUcsdManagedInfraParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -2110,7 +2110,7 @@ export class DataIntersightIaasUcsdManagedInfraParentOutputReference extends cdk
 }
 export interface DataIntersightIaasUcsdManagedInfraPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2118,19 +2118,19 @@ export interface DataIntersightIaasUcsdManagedInfraPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2143,7 +2143,7 @@ export interface DataIntersightIaasUcsdManagedInfraPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -2375,7 +2375,7 @@ export class DataIntersightIaasUcsdManagedInfraPermissionResourcesList extends c
 }
 export interface DataIntersightIaasUcsdManagedInfraTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2383,19 +2383,19 @@ export interface DataIntersightIaasUcsdManagedInfraTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2408,7 +2408,7 @@ export interface DataIntersightIaasUcsdManagedInfraTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -2640,7 +2640,7 @@ export class DataIntersightIaasUcsdManagedInfraTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightIaasUcsdManagedInfraTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2648,19 +2648,19 @@ export interface DataIntersightIaasUcsdManagedInfraTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2673,7 +2673,7 @@ export interface DataIntersightIaasUcsdManagedInfraTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -2873,25 +2873,25 @@ export class DataIntersightIaasUcsdManagedInfraTagsDefinitionOutputReference ext
 }
 export interface DataIntersightIaasUcsdManagedInfraTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#key DataIntersightIaasUcsdManagedInfra#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#key DataIntersightIaasUcsdManagedInfra#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#propagated DataIntersightIaasUcsdManagedInfra#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#propagated DataIntersightIaasUcsdManagedInfra#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#sys_tag DataIntersightIaasUcsdManagedInfra#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#sys_tag DataIntersightIaasUcsdManagedInfra#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2899,25 +2899,25 @@ export interface DataIntersightIaasUcsdManagedInfraTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#type DataIntersightIaasUcsdManagedInfra#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#type DataIntersightIaasUcsdManagedInfra#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#value DataIntersightIaasUcsdManagedInfra#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#value DataIntersightIaasUcsdManagedInfra#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#ancestor_definitions DataIntersightIaasUcsdManagedInfra#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#ancestor_definitions DataIntersightIaasUcsdManagedInfra#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIaasUcsdManagedInfraTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#definition DataIntersightIaasUcsdManagedInfra#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#definition DataIntersightIaasUcsdManagedInfra#definition}
   */
   readonly definition?: DataIntersightIaasUcsdManagedInfraTagsDefinition;
 }
@@ -3236,7 +3236,7 @@ export class DataIntersightIaasUcsdManagedInfraTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIaasUcsdManagedInfraVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3244,19 +3244,19 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3269,7 +3269,7 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -3501,7 +3501,7 @@ export class DataIntersightIaasUcsdManagedInfraVersionContextInterestedMosList e
 }
 export interface DataIntersightIaasUcsdManagedInfraVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3509,19 +3509,19 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#moid DataIntersightIaasUcsdManagedInfra#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3534,7 +3534,7 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#selector DataIntersightIaasUcsdManagedInfra#selector}
   */
   readonly selector?: string;
 }
@@ -3734,7 +3734,7 @@ export class DataIntersightIaasUcsdManagedInfraVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightIaasUcsdManagedInfraVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#additional_properties DataIntersightIaasUcsdManagedInfra#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3742,32 +3742,32 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#class_id DataIntersightIaasUcsdManagedInfra#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#marked_for_deletion DataIntersightIaasUcsdManagedInfra#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#marked_for_deletion DataIntersightIaasUcsdManagedInfra#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#nr_version DataIntersightIaasUcsdManagedInfra#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#nr_version DataIntersightIaasUcsdManagedInfra#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#object_type DataIntersightIaasUcsdManagedInfra#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#timestamp DataIntersightIaasUcsdManagedInfra#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#timestamp DataIntersightIaasUcsdManagedInfra#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3778,19 +3778,19 @@ export interface DataIntersightIaasUcsdManagedInfraVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#version_type DataIntersightIaasUcsdManagedInfra#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#version_type DataIntersightIaasUcsdManagedInfra#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#interested_mos DataIntersightIaasUcsdManagedInfra#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#interested_mos DataIntersightIaasUcsdManagedInfra#interested_mos}
   */
   readonly interestedMos?: DataIntersightIaasUcsdManagedInfraVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#ref_mo DataIntersightIaasUcsdManagedInfra#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#ref_mo DataIntersightIaasUcsdManagedInfra#ref_mo}
   */
   readonly refMo?: DataIntersightIaasUcsdManagedInfraVersionContextRefMo;
 }
@@ -4106,7 +4106,7 @@ export class DataIntersightIaasUcsdManagedInfraVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra intersight_iaas_ucsd_managed_infra}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra intersight_iaas_ucsd_managed_infra}
 */
 export class DataIntersightIaasUcsdManagedInfra extends cdktf.TerraformDataSource {
 
@@ -4122,7 +4122,7 @@ export class DataIntersightIaasUcsdManagedInfra extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightIaasUcsdManagedInfra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIaasUcsdManagedInfra to import
-  * @param importFromId The id of the existing DataIntersightIaasUcsdManagedInfra that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIaasUcsdManagedInfra that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIaasUcsdManagedInfra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4134,7 +4134,7 @@ export class DataIntersightIaasUcsdManagedInfra extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iaas_ucsd_managed_infra intersight_iaas_ucsd_managed_infra} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iaas_ucsd_managed_infra intersight_iaas_ucsd_managed_infra} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4145,8 +4145,8 @@ export class DataIntersightIaasUcsdManagedInfra extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_iaas_ucsd_managed_infra',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

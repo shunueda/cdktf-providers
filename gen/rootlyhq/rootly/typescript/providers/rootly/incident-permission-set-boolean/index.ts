@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface IncidentPermissionSetBooleanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#enabled IncidentPermissionSetBoolean#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#enabled IncidentPermissionSetBoolean#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#id IncidentPermissionSetBoolean#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#id IncidentPermissionSetBoolean#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#incident_permission_set_id IncidentPermissionSetBoolean#incident_permission_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#incident_permission_set_id IncidentPermissionSetBoolean#incident_permission_set_id}
   */
   readonly incidentPermissionSetId: string;
   /**
   * Value must be one of `publish_to_status_page`, `assign_incident_roles`, `invite_subscribers`, `update_summary`, `update_timeline`, `trigger_workflows`, `create_communications`, `read_communications`, `update_communications`, `delete_communications`, `send_communications`, `modify_custom_fields`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#kind IncidentPermissionSetBoolean#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#kind IncidentPermissionSetBoolean#kind}
   */
   readonly kind?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#private IncidentPermissionSetBoolean#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#private IncidentPermissionSetBoolean#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean rootly_incident_permission_set_boolean}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean rootly_incident_permission_set_boolean}
 */
 export class IncidentPermissionSetBoolean extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class IncidentPermissionSetBoolean extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IncidentPermissionSetBoolean resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncidentPermissionSetBoolean to import
-  * @param importFromId The id of the existing IncidentPermissionSetBoolean that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncidentPermissionSetBoolean that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncidentPermissionSetBoolean to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class IncidentPermissionSetBoolean extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/incident_permission_set_boolean rootly_incident_permission_set_boolean} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/incident_permission_set_boolean rootly_incident_permission_set_boolean} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class IncidentPermissionSetBoolean extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_incident_permission_set_boolean',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

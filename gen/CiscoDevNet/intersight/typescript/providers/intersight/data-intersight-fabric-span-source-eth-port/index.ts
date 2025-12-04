@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#account_moid DataIntersightFabricSpanSourceEthPort#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#account_moid DataIntersightFabricSpanSourceEthPort#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -23,7 +23,7 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * When a port is configured as a breakout port, the 'aggregatePortId' port number as labeled on the equipment,
   * e.g. the id of the port on the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#aggregate_port_id DataIntersightFabricSpanSourceEthPort#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#aggregate_port_id DataIntersightFabricSpanSourceEthPort#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
@@ -32,13 +32,13 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#create_time DataIntersightFabricSpanSourceEthPort#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#create_time DataIntersightFabricSpanSourceEthPort#create_time}
   */
   readonly createTime?: string;
   /**
@@ -47,17 +47,17 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * * `Transmit` - SPAN outgoing traffic on the SPAN source interface.
   * * `Both` - SPAN incoming and outgoing traffic on the SPAN source interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#direction DataIntersightFabricSpanSourceEthPort#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#direction DataIntersightFabricSpanSourceEthPort#direction}
   */
   readonly direction?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#domain_group_moid DataIntersightFabricSpanSourceEthPort#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#domain_group_moid DataIntersightFabricSpanSourceEthPort#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#id DataIntersightFabricSpanSourceEthPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#id DataIntersightFabricSpanSourceEthPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,13 +66,13 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#mod_time DataIntersightFabricSpanSourceEthPort#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#mod_time DataIntersightFabricSpanSourceEthPort#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
@@ -80,11 +80,11 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#owners DataIntersightFabricSpanSourceEthPort#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#owners DataIntersightFabricSpanSourceEthPort#owners}
   */
   readonly owners?: string[];
   /**
@@ -93,20 +93,20 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * e.g. the id of the port on the switch, FEX or chassis.
   * When a port is configured as a breakout port, the 'portId' represents the port id on the fanout side of the breakout cable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#port_id DataIntersightFabricSpanSourceEthPort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#port_id DataIntersightFabricSpanSourceEthPort#port_id}
   */
   readonly portId?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#shared_scope DataIntersightFabricSpanSourceEthPort#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#shared_scope DataIntersightFabricSpanSourceEthPort#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Slot Identifier of the Switch Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#slot_id DataIntersightFabricSpanSourceEthPort#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#slot_id DataIntersightFabricSpanSourceEthPort#slot_id}
   */
   readonly slotId?: number;
   /**
@@ -116,49 +116,49 @@ export interface DataIntersightFabricSpanSourceEthPortConfig extends cdktf.Terra
   * * `FcUplink` - FcoeUplink Role corresponding to PortRole in PortPolicy.
   * * `Appliance` - FcoeUplink Role corresponding to PortRole in PortPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#source_role DataIntersightFabricSpanSourceEthPort#source_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#source_role DataIntersightFabricSpanSourceEthPort#source_role}
   */
   readonly sourceRole?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#ancestors DataIntersightFabricSpanSourceEthPort#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#ancestors DataIntersightFabricSpanSourceEthPort#ancestors}
   */
   readonly ancestors?: DataIntersightFabricSpanSourceEthPortAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#parent DataIntersightFabricSpanSourceEthPort#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#parent DataIntersightFabricSpanSourceEthPort#parent}
   */
   readonly parent?: DataIntersightFabricSpanSourceEthPortParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#permission_resources DataIntersightFabricSpanSourceEthPort#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#permission_resources DataIntersightFabricSpanSourceEthPort#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricSpanSourceEthPortPermissionResources[] | cdktf.IResolvable;
   /**
   * physical_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#physical_port DataIntersightFabricSpanSourceEthPort#physical_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#physical_port DataIntersightFabricSpanSourceEthPort#physical_port}
   */
   readonly physicalPort?: DataIntersightFabricSpanSourceEthPortPhysicalPort;
   /**
   * span_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#span_session DataIntersightFabricSpanSourceEthPort#span_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#span_session DataIntersightFabricSpanSourceEthPort#span_session}
   */
   readonly spanSession?: DataIntersightFabricSpanSourceEthPortSpanSession;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#tags DataIntersightFabricSpanSourceEthPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#tags DataIntersightFabricSpanSourceEthPort#tags}
   */
   readonly tags?: DataIntersightFabricSpanSourceEthPortTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#version_context DataIntersightFabricSpanSourceEthPort#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#version_context DataIntersightFabricSpanSourceEthPort#version_context}
   */
   readonly versionContext?: DataIntersightFabricSpanSourceEthPortVersionContext;
 }
@@ -1435,7 +1435,7 @@ export class DataIntersightFabricSpanSourceEthPortResultsList extends cdktf.Comp
 }
 export interface DataIntersightFabricSpanSourceEthPortAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1443,19 +1443,19 @@ export interface DataIntersightFabricSpanSourceEthPortAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1468,7 +1468,7 @@ export interface DataIntersightFabricSpanSourceEthPortAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -1700,7 +1700,7 @@ export class DataIntersightFabricSpanSourceEthPortAncestorsList extends cdktf.Co
 }
 export interface DataIntersightFabricSpanSourceEthPortParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1708,19 +1708,19 @@ export interface DataIntersightFabricSpanSourceEthPortParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1733,7 +1733,7 @@ export interface DataIntersightFabricSpanSourceEthPortParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -1933,7 +1933,7 @@ export class DataIntersightFabricSpanSourceEthPortParentOutputReference extends 
 }
 export interface DataIntersightFabricSpanSourceEthPortPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1941,19 +1941,19 @@ export interface DataIntersightFabricSpanSourceEthPortPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1966,7 +1966,7 @@ export interface DataIntersightFabricSpanSourceEthPortPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -2198,7 +2198,7 @@ export class DataIntersightFabricSpanSourceEthPortPermissionResourcesList extend
 }
 export interface DataIntersightFabricSpanSourceEthPortPhysicalPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2206,19 +2206,19 @@ export interface DataIntersightFabricSpanSourceEthPortPhysicalPort {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2231,7 +2231,7 @@ export interface DataIntersightFabricSpanSourceEthPortPhysicalPort {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -2431,7 +2431,7 @@ export class DataIntersightFabricSpanSourceEthPortPhysicalPortOutputReference ex
 }
 export interface DataIntersightFabricSpanSourceEthPortSpanSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2439,19 +2439,19 @@ export interface DataIntersightFabricSpanSourceEthPortSpanSession {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2464,7 +2464,7 @@ export interface DataIntersightFabricSpanSourceEthPortSpanSession {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -2664,7 +2664,7 @@ export class DataIntersightFabricSpanSourceEthPortSpanSessionOutputReference ext
 }
 export interface DataIntersightFabricSpanSourceEthPortTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2672,19 +2672,19 @@ export interface DataIntersightFabricSpanSourceEthPortTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2697,7 +2697,7 @@ export interface DataIntersightFabricSpanSourceEthPortTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -2929,7 +2929,7 @@ export class DataIntersightFabricSpanSourceEthPortTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightFabricSpanSourceEthPortTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2937,19 +2937,19 @@ export interface DataIntersightFabricSpanSourceEthPortTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2962,7 +2962,7 @@ export interface DataIntersightFabricSpanSourceEthPortTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -3162,25 +3162,25 @@ export class DataIntersightFabricSpanSourceEthPortTagsDefinitionOutputReference 
 }
 export interface DataIntersightFabricSpanSourceEthPortTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#key DataIntersightFabricSpanSourceEthPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#key DataIntersightFabricSpanSourceEthPort#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#propagated DataIntersightFabricSpanSourceEthPort#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#propagated DataIntersightFabricSpanSourceEthPort#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#sys_tag DataIntersightFabricSpanSourceEthPort#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#sys_tag DataIntersightFabricSpanSourceEthPort#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3188,25 +3188,25 @@ export interface DataIntersightFabricSpanSourceEthPortTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#type DataIntersightFabricSpanSourceEthPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#type DataIntersightFabricSpanSourceEthPort#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#value DataIntersightFabricSpanSourceEthPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#value DataIntersightFabricSpanSourceEthPort#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#ancestor_definitions DataIntersightFabricSpanSourceEthPort#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#ancestor_definitions DataIntersightFabricSpanSourceEthPort#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricSpanSourceEthPortTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#definition DataIntersightFabricSpanSourceEthPort#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#definition DataIntersightFabricSpanSourceEthPort#definition}
   */
   readonly definition?: DataIntersightFabricSpanSourceEthPortTagsDefinition;
 }
@@ -3525,7 +3525,7 @@ export class DataIntersightFabricSpanSourceEthPortTagsList extends cdktf.Complex
 }
 export interface DataIntersightFabricSpanSourceEthPortVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3533,19 +3533,19 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3558,7 +3558,7 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -3790,7 +3790,7 @@ export class DataIntersightFabricSpanSourceEthPortVersionContextInterestedMosLis
 }
 export interface DataIntersightFabricSpanSourceEthPortVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3798,19 +3798,19 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#moid DataIntersightFabricSpanSourceEthPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3823,7 +3823,7 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#selector DataIntersightFabricSpanSourceEthPort#selector}
   */
   readonly selector?: string;
 }
@@ -4023,7 +4023,7 @@ export class DataIntersightFabricSpanSourceEthPortVersionContextRefMoOutputRefer
 }
 export interface DataIntersightFabricSpanSourceEthPortVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#additional_properties DataIntersightFabricSpanSourceEthPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4031,32 +4031,32 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#class_id DataIntersightFabricSpanSourceEthPort#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#marked_for_deletion DataIntersightFabricSpanSourceEthPort#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#marked_for_deletion DataIntersightFabricSpanSourceEthPort#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#nr_version DataIntersightFabricSpanSourceEthPort#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#nr_version DataIntersightFabricSpanSourceEthPort#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#object_type DataIntersightFabricSpanSourceEthPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#timestamp DataIntersightFabricSpanSourceEthPort#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#timestamp DataIntersightFabricSpanSourceEthPort#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4067,19 +4067,19 @@ export interface DataIntersightFabricSpanSourceEthPortVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#version_type DataIntersightFabricSpanSourceEthPort#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#version_type DataIntersightFabricSpanSourceEthPort#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#interested_mos DataIntersightFabricSpanSourceEthPort#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#interested_mos DataIntersightFabricSpanSourceEthPort#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricSpanSourceEthPortVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#ref_mo DataIntersightFabricSpanSourceEthPort#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#ref_mo DataIntersightFabricSpanSourceEthPort#ref_mo}
   */
   readonly refMo?: DataIntersightFabricSpanSourceEthPortVersionContextRefMo;
 }
@@ -4395,7 +4395,7 @@ export class DataIntersightFabricSpanSourceEthPortVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port intersight_fabric_span_source_eth_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port intersight_fabric_span_source_eth_port}
 */
 export class DataIntersightFabricSpanSourceEthPort extends cdktf.TerraformDataSource {
 
@@ -4411,7 +4411,7 @@ export class DataIntersightFabricSpanSourceEthPort extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightFabricSpanSourceEthPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricSpanSourceEthPort to import
-  * @param importFromId The id of the existing DataIntersightFabricSpanSourceEthPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricSpanSourceEthPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricSpanSourceEthPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4423,7 +4423,7 @@ export class DataIntersightFabricSpanSourceEthPort extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_eth_port intersight_fabric_span_source_eth_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_eth_port intersight_fabric_span_source_eth_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4434,8 +4434,8 @@ export class DataIntersightFabricSpanSourceEthPort extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_fabric_span_source_eth_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

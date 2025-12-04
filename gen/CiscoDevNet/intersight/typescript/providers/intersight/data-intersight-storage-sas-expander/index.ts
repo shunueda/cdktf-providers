@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageSasExpanderConfig extends cdktf.TerraformM
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#account_moid DataIntersightStorageSasExpander#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#account_moid DataIntersightStorageSasExpander#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightStorageSasExpanderConfig extends cdktf.TerraformM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#create_time DataIntersightStorageSasExpander#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#create_time DataIntersightStorageSasExpander#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#device_mo_id DataIntersightStorageSasExpander#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#device_mo_id DataIntersightStorageSasExpander#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#dn DataIntersightStorageSasExpander#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#dn DataIntersightStorageSasExpander#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#domain_group_moid DataIntersightStorageSasExpander#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#domain_group_moid DataIntersightStorageSasExpander#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Unique Identifier of the storage expander.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#expander_id DataIntersightStorageSasExpander#expander_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#expander_id DataIntersightStorageSasExpander#expander_id}
   */
   readonly expanderId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#id DataIntersightStorageSasExpander#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#id DataIntersightStorageSasExpander#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,163 +65,163 @@ export interface DataIntersightStorageSasExpanderConfig extends cdktf.TerraformM
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#is_upgraded DataIntersightStorageSasExpander#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#is_upgraded DataIntersightStorageSasExpander#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#mod_time DataIntersightStorageSasExpander#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#mod_time DataIntersightStorageSasExpander#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#model DataIntersightStorageSasExpander#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#model DataIntersightStorageSasExpander#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The name  of the installed storage expander.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#name DataIntersightStorageSasExpander#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#name DataIntersightStorageSasExpander#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
   * The operational state of the storage expander.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#oper_state DataIntersightStorageSasExpander#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#oper_state DataIntersightStorageSasExpander#oper_state}
   */
   readonly operState?: string;
   /**
   * The operability status of the storage expander.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#operability DataIntersightStorageSasExpander#operability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#operability DataIntersightStorageSasExpander#operability}
   */
   readonly operability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#owners DataIntersightStorageSasExpander#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#owners DataIntersightStorageSasExpander#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#presence DataIntersightStorageSasExpander#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#presence DataIntersightStorageSasExpander#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#revision DataIntersightStorageSasExpander#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#revision DataIntersightStorageSasExpander#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#rn DataIntersightStorageSasExpander#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#rn DataIntersightStorageSasExpander#rn}
   */
   readonly rn?: string;
   /**
   * The SAS address of the SAS expander.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#sas_address DataIntersightStorageSasExpander#sas_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#sas_address DataIntersightStorageSasExpander#sas_address}
   */
   readonly sasAddress?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#serial DataIntersightStorageSasExpander#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#serial DataIntersightStorageSasExpander#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#shared_scope DataIntersightStorageSasExpander#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#shared_scope DataIntersightStorageSasExpander#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#vendor DataIntersightStorageSasExpander#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#vendor DataIntersightStorageSasExpander#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#ancestors DataIntersightStorageSasExpander#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#ancestors DataIntersightStorageSasExpander#ancestors}
   */
   readonly ancestors?: DataIntersightStorageSasExpanderAncestors[] | cdktf.IResolvable;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#compute_rack_unit DataIntersightStorageSasExpander#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#compute_rack_unit DataIntersightStorageSasExpander#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightStorageSasExpanderComputeRackUnit;
   /**
   * controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#controller DataIntersightStorageSasExpander#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#controller DataIntersightStorageSasExpander#controller}
   */
   readonly controller?: DataIntersightStorageSasExpanderController;
   /**
   * equipment_chassis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#equipment_chassis DataIntersightStorageSasExpander#equipment_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#equipment_chassis DataIntersightStorageSasExpander#equipment_chassis}
   */
   readonly equipmentChassis?: DataIntersightStorageSasExpanderEquipmentChassis;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#inventory_device_info DataIntersightStorageSasExpander#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#inventory_device_info DataIntersightStorageSasExpander#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageSasExpanderInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#parent DataIntersightStorageSasExpander#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#parent DataIntersightStorageSasExpander#parent}
   */
   readonly parent?: DataIntersightStorageSasExpanderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#permission_resources DataIntersightStorageSasExpander#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#permission_resources DataIntersightStorageSasExpander#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageSasExpanderPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#previous_fru DataIntersightStorageSasExpander#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#previous_fru DataIntersightStorageSasExpander#previous_fru}
   */
   readonly previousFru?: DataIntersightStorageSasExpanderPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#registered_device DataIntersightStorageSasExpander#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#registered_device DataIntersightStorageSasExpander#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageSasExpanderRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#tags DataIntersightStorageSasExpander#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#tags DataIntersightStorageSasExpander#tags}
   */
   readonly tags?: DataIntersightStorageSasExpanderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#version_context DataIntersightStorageSasExpander#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#version_context DataIntersightStorageSasExpander#version_context}
   */
   readonly versionContext?: DataIntersightStorageSasExpanderVersionContext;
 }
@@ -1947,7 +1947,7 @@ export class DataIntersightStorageSasExpanderResultsList extends cdktf.ComplexLi
 }
 export interface DataIntersightStorageSasExpanderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1955,19 +1955,19 @@ export interface DataIntersightStorageSasExpanderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1980,7 +1980,7 @@ export interface DataIntersightStorageSasExpanderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -2212,7 +2212,7 @@ export class DataIntersightStorageSasExpanderAncestorsList extends cdktf.Complex
 }
 export interface DataIntersightStorageSasExpanderComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2220,19 +2220,19 @@ export interface DataIntersightStorageSasExpanderComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2245,7 +2245,7 @@ export interface DataIntersightStorageSasExpanderComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -2445,7 +2445,7 @@ export class DataIntersightStorageSasExpanderComputeRackUnitOutputReference exte
 }
 export interface DataIntersightStorageSasExpanderController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2453,19 +2453,19 @@ export interface DataIntersightStorageSasExpanderController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2478,7 +2478,7 @@ export interface DataIntersightStorageSasExpanderController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -2678,7 +2678,7 @@ export class DataIntersightStorageSasExpanderControllerOutputReference extends c
 }
 export interface DataIntersightStorageSasExpanderEquipmentChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2686,19 +2686,19 @@ export interface DataIntersightStorageSasExpanderEquipmentChassis {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2711,7 +2711,7 @@ export interface DataIntersightStorageSasExpanderEquipmentChassis {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -2911,7 +2911,7 @@ export class DataIntersightStorageSasExpanderEquipmentChassisOutputReference ext
 }
 export interface DataIntersightStorageSasExpanderInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2919,19 +2919,19 @@ export interface DataIntersightStorageSasExpanderInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2944,7 +2944,7 @@ export interface DataIntersightStorageSasExpanderInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -3144,7 +3144,7 @@ export class DataIntersightStorageSasExpanderInventoryDeviceInfoOutputReference 
 }
 export interface DataIntersightStorageSasExpanderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3152,19 +3152,19 @@ export interface DataIntersightStorageSasExpanderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3177,7 +3177,7 @@ export interface DataIntersightStorageSasExpanderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -3377,7 +3377,7 @@ export class DataIntersightStorageSasExpanderParentOutputReference extends cdktf
 }
 export interface DataIntersightStorageSasExpanderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3385,19 +3385,19 @@ export interface DataIntersightStorageSasExpanderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3410,7 +3410,7 @@ export interface DataIntersightStorageSasExpanderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -3642,7 +3642,7 @@ export class DataIntersightStorageSasExpanderPermissionResourcesList extends cdk
 }
 export interface DataIntersightStorageSasExpanderPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3650,19 +3650,19 @@ export interface DataIntersightStorageSasExpanderPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3675,7 +3675,7 @@ export interface DataIntersightStorageSasExpanderPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -3875,7 +3875,7 @@ export class DataIntersightStorageSasExpanderPreviousFruOutputReference extends 
 }
 export interface DataIntersightStorageSasExpanderRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3883,19 +3883,19 @@ export interface DataIntersightStorageSasExpanderRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3908,7 +3908,7 @@ export interface DataIntersightStorageSasExpanderRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -4108,7 +4108,7 @@ export class DataIntersightStorageSasExpanderRegisteredDeviceOutputReference ext
 }
 export interface DataIntersightStorageSasExpanderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4116,19 +4116,19 @@ export interface DataIntersightStorageSasExpanderTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4141,7 +4141,7 @@ export interface DataIntersightStorageSasExpanderTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -4373,7 +4373,7 @@ export class DataIntersightStorageSasExpanderTagsAncestorDefinitionsList extends
 }
 export interface DataIntersightStorageSasExpanderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4381,19 +4381,19 @@ export interface DataIntersightStorageSasExpanderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4406,7 +4406,7 @@ export interface DataIntersightStorageSasExpanderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -4606,25 +4606,25 @@ export class DataIntersightStorageSasExpanderTagsDefinitionOutputReference exten
 }
 export interface DataIntersightStorageSasExpanderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#key DataIntersightStorageSasExpander#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#key DataIntersightStorageSasExpander#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#propagated DataIntersightStorageSasExpander#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#propagated DataIntersightStorageSasExpander#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#sys_tag DataIntersightStorageSasExpander#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#sys_tag DataIntersightStorageSasExpander#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4632,25 +4632,25 @@ export interface DataIntersightStorageSasExpanderTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#type DataIntersightStorageSasExpander#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#type DataIntersightStorageSasExpander#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#value DataIntersightStorageSasExpander#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#value DataIntersightStorageSasExpander#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#ancestor_definitions DataIntersightStorageSasExpander#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#ancestor_definitions DataIntersightStorageSasExpander#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageSasExpanderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#definition DataIntersightStorageSasExpander#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#definition DataIntersightStorageSasExpander#definition}
   */
   readonly definition?: DataIntersightStorageSasExpanderTagsDefinition;
 }
@@ -4969,7 +4969,7 @@ export class DataIntersightStorageSasExpanderTagsList extends cdktf.ComplexList 
 }
 export interface DataIntersightStorageSasExpanderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4977,19 +4977,19 @@ export interface DataIntersightStorageSasExpanderVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5002,7 +5002,7 @@ export interface DataIntersightStorageSasExpanderVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -5234,7 +5234,7 @@ export class DataIntersightStorageSasExpanderVersionContextInterestedMosList ext
 }
 export interface DataIntersightStorageSasExpanderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5242,19 +5242,19 @@ export interface DataIntersightStorageSasExpanderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#moid DataIntersightStorageSasExpander#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5267,7 +5267,7 @@ export interface DataIntersightStorageSasExpanderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#selector DataIntersightStorageSasExpander#selector}
   */
   readonly selector?: string;
 }
@@ -5467,7 +5467,7 @@ export class DataIntersightStorageSasExpanderVersionContextRefMoOutputReference 
 }
 export interface DataIntersightStorageSasExpanderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#additional_properties DataIntersightStorageSasExpander#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5475,32 +5475,32 @@ export interface DataIntersightStorageSasExpanderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#class_id DataIntersightStorageSasExpander#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#marked_for_deletion DataIntersightStorageSasExpander#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#marked_for_deletion DataIntersightStorageSasExpander#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#nr_version DataIntersightStorageSasExpander#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#nr_version DataIntersightStorageSasExpander#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#object_type DataIntersightStorageSasExpander#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#timestamp DataIntersightStorageSasExpander#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#timestamp DataIntersightStorageSasExpander#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5511,19 +5511,19 @@ export interface DataIntersightStorageSasExpanderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#version_type DataIntersightStorageSasExpander#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#version_type DataIntersightStorageSasExpander#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#interested_mos DataIntersightStorageSasExpander#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#interested_mos DataIntersightStorageSasExpander#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageSasExpanderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#ref_mo DataIntersightStorageSasExpander#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#ref_mo DataIntersightStorageSasExpander#ref_mo}
   */
   readonly refMo?: DataIntersightStorageSasExpanderVersionContextRefMo;
 }
@@ -5839,7 +5839,7 @@ export class DataIntersightStorageSasExpanderVersionContextOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander intersight_storage_sas_expander}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander intersight_storage_sas_expander}
 */
 export class DataIntersightStorageSasExpander extends cdktf.TerraformDataSource {
 
@@ -5855,7 +5855,7 @@ export class DataIntersightStorageSasExpander extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataIntersightStorageSasExpander resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageSasExpander to import
-  * @param importFromId The id of the existing DataIntersightStorageSasExpander that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageSasExpander that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageSasExpander to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5867,7 +5867,7 @@ export class DataIntersightStorageSasExpander extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_sas_expander intersight_storage_sas_expander} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_sas_expander intersight_storage_sas_expander} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5878,8 +5878,8 @@ export class DataIntersightStorageSasExpander extends cdktf.TerraformDataSource 
       terraformResourceType: 'intersight_storage_sas_expander',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#account_moid SoftwareUcsdBundleDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#account_moid SoftwareUcsdBundleDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#ancestors SoftwareUcsdBundleDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#ancestors SoftwareUcsdBundleDistributable#ancestors}
   */
   readonly ancestors?: SoftwareUcsdBundleDistributableAncestors[] | cdktf.IResolvable;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#bundle_type SoftwareUcsdBundleDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#bundle_type SoftwareUcsdBundleDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
   * A reference to a softwarerepositoryCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#catalog SoftwareUcsdBundleDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#catalog SoftwareUcsdBundleDistributable#catalog}
   */
   readonly catalog?: SoftwareUcsdBundleDistributableCatalog[] | cdktf.IResolvable;
   /**
@@ -41,41 +41,41 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#component_meta SoftwareUcsdBundleDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#component_meta SoftwareUcsdBundleDistributable#component_meta}
   */
   readonly componentMeta?: SoftwareUcsdBundleDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#create_time SoftwareUcsdBundleDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#create_time SoftwareUcsdBundleDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#description SoftwareUcsdBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#description SoftwareUcsdBundleDistributable#description}
   */
   readonly description?: string;
   /**
   * An array of relationships to firmwareDistributableMeta resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#distributable_metas SoftwareUcsdBundleDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#distributable_metas SoftwareUcsdBundleDistributable#distributable_metas}
   */
   readonly distributableMetas?: SoftwareUcsdBundleDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#domain_group_moid SoftwareUcsdBundleDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#domain_group_moid SoftwareUcsdBundleDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#download_count SoftwareUcsdBundleDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#download_count SoftwareUcsdBundleDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -84,17 +84,17 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#feature_source SoftwareUcsdBundleDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#feature_source SoftwareUcsdBundleDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#guid SoftwareUcsdBundleDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#guid SoftwareUcsdBundleDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#id SoftwareUcsdBundleDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#id SoftwareUcsdBundleDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,13 +103,13 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#image_type SoftwareUcsdBundleDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#image_type SoftwareUcsdBundleDistributable#image_type}
   */
   readonly imageType?: string;
   /**
   * An array of relationships to softwareUcsdDistributable resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#images SoftwareUcsdBundleDistributable#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#images SoftwareUcsdBundleDistributable#images}
   */
   readonly images?: SoftwareUcsdBundleDistributableImages[] | cdktf.IResolvable;
   /**
@@ -124,7 +124,7 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#import_action SoftwareUcsdBundleDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#import_action SoftwareUcsdBundleDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -132,6 +132,7 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   * * `ReadyForImport` - The image is ready to be imported into the repository.
   * * `Importing` - The image is being imported into the repository.
   * * `Imported` - The image has been extracted and imported into the repository.
+  * * `ComputingMetadata` - Indicates that the image has been imported but its metadata computation has not been done.
   * * `PendingExtraction` - Indicates that the image has been imported but not extracted in the repository.
   * * `Extracting` - Indicates that the image is being extracted into the repository.
   * * `Extracted` - Indicates that the image has been extracted into the repository.
@@ -145,201 +146,201 @@ export interface SoftwareUcsdBundleDistributableConfig extends cdktf.TerraformMe
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#import_state SoftwareUcsdBundleDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#import_state SoftwareUcsdBundleDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#imported_time SoftwareUcsdBundleDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#imported_time SoftwareUcsdBundleDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#last_access_time SoftwareUcsdBundleDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#last_access_time SoftwareUcsdBundleDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#md5e_tag SoftwareUcsdBundleDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#md5e_tag SoftwareUcsdBundleDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#md5sum SoftwareUcsdBundleDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#md5sum SoftwareUcsdBundleDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#mdfid SoftwareUcsdBundleDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#mdfid SoftwareUcsdBundleDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#mod_time SoftwareUcsdBundleDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#mod_time SoftwareUcsdBundleDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#model SoftwareUcsdBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#model SoftwareUcsdBundleDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#name SoftwareUcsdBundleDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#name SoftwareUcsdBundleDistributable#name}
   */
   readonly name?: string;
   /**
   * Location of the file in an external repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#nr_source SoftwareUcsdBundleDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#nr_source SoftwareUcsdBundleDistributable#nr_source}
   */
   readonly nrSource?: SoftwareUcsdBundleDistributableNrSource[] | cdktf.IResolvable;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#nr_version SoftwareUcsdBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#nr_version SoftwareUcsdBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#owners SoftwareUcsdBundleDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#owners SoftwareUcsdBundleDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#parent SoftwareUcsdBundleDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#parent SoftwareUcsdBundleDistributable#parent}
   */
   readonly parent?: SoftwareUcsdBundleDistributableParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#permission_resources SoftwareUcsdBundleDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#permission_resources SoftwareUcsdBundleDistributable#permission_resources}
   */
   readonly permissionResources?: SoftwareUcsdBundleDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#platform_type SoftwareUcsdBundleDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#platform_type SoftwareUcsdBundleDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#recommended_build SoftwareUcsdBundleDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#recommended_build SoftwareUcsdBundleDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#release SoftwareUcsdBundleDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#release SoftwareUcsdBundleDistributable#release}
   */
   readonly release?: SoftwareUcsdBundleDistributableRelease[] | cdktf.IResolvable;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#release_date SoftwareUcsdBundleDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#release_date SoftwareUcsdBundleDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#release_notes_url SoftwareUcsdBundleDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#release_notes_url SoftwareUcsdBundleDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#sha512sum SoftwareUcsdBundleDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#sha512sum SoftwareUcsdBundleDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#shared_scope SoftwareUcsdBundleDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#shared_scope SoftwareUcsdBundleDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#size SoftwareUcsdBundleDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#size SoftwareUcsdBundleDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#software_advisory_url SoftwareUcsdBundleDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#software_advisory_url SoftwareUcsdBundleDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#software_type_id SoftwareUcsdBundleDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#software_type_id SoftwareUcsdBundleDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#supported_models SoftwareUcsdBundleDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#supported_models SoftwareUcsdBundleDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#tags SoftwareUcsdBundleDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#tags SoftwareUcsdBundleDistributable#tags}
   */
   readonly tags?: SoftwareUcsdBundleDistributableTags[] | cdktf.IResolvable;
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#vendor SoftwareUcsdBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#vendor SoftwareUcsdBundleDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#version_context SoftwareUcsdBundleDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#version_context SoftwareUcsdBundleDistributable#version_context}
   */
   readonly versionContext?: SoftwareUcsdBundleDistributableVersionContext[] | cdktf.IResolvable;
 }
 export interface SoftwareUcsdBundleDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -571,23 +572,23 @@ export class SoftwareUcsdBundleDistributableAncestorsList extends cdktf.ComplexL
 }
 export interface SoftwareUcsdBundleDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -819,63 +820,63 @@ export class SoftwareUcsdBundleDistributableCatalogList extends cdktf.ComplexLis
 }
 export interface SoftwareUcsdBundleDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#alternate_packed_version SoftwareUcsdBundleDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#alternate_packed_version SoftwareUcsdBundleDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#component_label SoftwareUcsdBundleDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#component_label SoftwareUcsdBundleDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#component_type SoftwareUcsdBundleDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#component_type SoftwareUcsdBundleDistributable#component_type}
   */
   readonly componentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#description SoftwareUcsdBundleDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#description SoftwareUcsdBundleDistributable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#disruption SoftwareUcsdBundleDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#disruption SoftwareUcsdBundleDistributable#disruption}
   */
   readonly disruption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#image_path SoftwareUcsdBundleDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#image_path SoftwareUcsdBundleDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#is_oob_supported SoftwareUcsdBundleDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#is_oob_supported SoftwareUcsdBundleDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#model SoftwareUcsdBundleDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#model SoftwareUcsdBundleDistributable#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#oob_manageability SoftwareUcsdBundleDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#oob_manageability SoftwareUcsdBundleDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#packed_version SoftwareUcsdBundleDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#packed_version SoftwareUcsdBundleDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#redfish_url SoftwareUcsdBundleDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#redfish_url SoftwareUcsdBundleDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#vendor SoftwareUcsdBundleDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#vendor SoftwareUcsdBundleDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -1397,23 +1398,23 @@ export class SoftwareUcsdBundleDistributableComponentMetaList extends cdktf.Comp
 }
 export interface SoftwareUcsdBundleDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -1645,23 +1646,23 @@ export class SoftwareUcsdBundleDistributableDistributableMetasList extends cdktf
 }
 export interface SoftwareUcsdBundleDistributableImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -1893,15 +1894,15 @@ export class SoftwareUcsdBundleDistributableImagesList extends cdktf.ComplexList
 }
 export interface SoftwareUcsdBundleDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -2075,23 +2076,23 @@ export class SoftwareUcsdBundleDistributableNrSourceList extends cdktf.ComplexLi
 }
 export interface SoftwareUcsdBundleDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2323,23 +2324,23 @@ export class SoftwareUcsdBundleDistributableParentList extends cdktf.ComplexList
 }
 export interface SoftwareUcsdBundleDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2571,23 +2572,23 @@ export class SoftwareUcsdBundleDistributablePermissionResourcesList extends cdkt
 }
 export interface SoftwareUcsdBundleDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2819,23 +2820,23 @@ export class SoftwareUcsdBundleDistributableReleaseList extends cdktf.ComplexLis
 }
 export interface SoftwareUcsdBundleDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3067,23 +3068,23 @@ export class SoftwareUcsdBundleDistributableTagsAncestorDefinitionsList extends 
 }
 export interface SoftwareUcsdBundleDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3315,35 +3316,35 @@ export class SoftwareUcsdBundleDistributableTagsDefinitionList extends cdktf.Com
 }
 export interface SoftwareUcsdBundleDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#ancestor_definitions SoftwareUcsdBundleDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#ancestor_definitions SoftwareUcsdBundleDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SoftwareUcsdBundleDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#definition SoftwareUcsdBundleDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#definition SoftwareUcsdBundleDistributable#definition}
   */
   readonly definition?: SoftwareUcsdBundleDistributableTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#key SoftwareUcsdBundleDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#key SoftwareUcsdBundleDistributable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#propagated SoftwareUcsdBundleDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#propagated SoftwareUcsdBundleDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#sys_tag SoftwareUcsdBundleDistributable#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#sys_tag SoftwareUcsdBundleDistributable#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#type SoftwareUcsdBundleDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#type SoftwareUcsdBundleDistributable#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#value SoftwareUcsdBundleDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#value SoftwareUcsdBundleDistributable#value}
   */
   readonly value?: string;
 }
@@ -3662,23 +3663,23 @@ export class SoftwareUcsdBundleDistributableTagsList extends cdktf.ComplexList {
 }
 export interface SoftwareUcsdBundleDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3910,23 +3911,23 @@ export class SoftwareUcsdBundleDistributableVersionContextInterestedMosList exte
 }
 export interface SoftwareUcsdBundleDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#moid SoftwareUcsdBundleDistributable#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#selector SoftwareUcsdBundleDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4158,39 +4159,39 @@ export class SoftwareUcsdBundleDistributableVersionContextRefMoList extends cdkt
 }
 export interface SoftwareUcsdBundleDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#additional_properties SoftwareUcsdBundleDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#class_id SoftwareUcsdBundleDistributable#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#interested_mos SoftwareUcsdBundleDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#interested_mos SoftwareUcsdBundleDistributable#interested_mos}
   */
   readonly interestedMos?: SoftwareUcsdBundleDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#marked_for_deletion SoftwareUcsdBundleDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#marked_for_deletion SoftwareUcsdBundleDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#nr_version SoftwareUcsdBundleDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#nr_version SoftwareUcsdBundleDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#object_type SoftwareUcsdBundleDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#ref_mo SoftwareUcsdBundleDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#ref_mo SoftwareUcsdBundleDistributable#ref_mo}
   */
   readonly refMo?: SoftwareUcsdBundleDistributableVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#timestamp SoftwareUcsdBundleDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#timestamp SoftwareUcsdBundleDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#version_type SoftwareUcsdBundleDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#version_type SoftwareUcsdBundleDistributable#version_type}
   */
   readonly versionType?: string;
 }
@@ -4538,7 +4539,7 @@ export class SoftwareUcsdBundleDistributableVersionContextList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable intersight_software_ucsd_bundle_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable intersight_software_ucsd_bundle_distributable}
 */
 export class SoftwareUcsdBundleDistributable extends cdktf.TerraformResource {
 
@@ -4554,7 +4555,7 @@ export class SoftwareUcsdBundleDistributable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SoftwareUcsdBundleDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SoftwareUcsdBundleDistributable to import
-  * @param importFromId The id of the existing SoftwareUcsdBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SoftwareUcsdBundleDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SoftwareUcsdBundleDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4566,7 +4567,7 @@ export class SoftwareUcsdBundleDistributable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/software_ucsd_bundle_distributable intersight_software_ucsd_bundle_distributable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/software_ucsd_bundle_distributable intersight_software_ucsd_bundle_distributable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4577,8 +4578,8 @@ export class SoftwareUcsdBundleDistributable extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_software_ucsd_bundle_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

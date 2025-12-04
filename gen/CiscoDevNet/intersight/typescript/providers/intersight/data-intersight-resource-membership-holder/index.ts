@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightResourceMembershipHolderAConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#account_moid DataIntersightResourceMembershipHolderA#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#account_moid DataIntersightResourceMembershipHolderA#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightResourceMembershipHolderAConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#create_time DataIntersightResourceMembershipHolderA#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#create_time DataIntersightResourceMembershipHolderA#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#domain_group_moid DataIntersightResourceMembershipHolderA#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#domain_group_moid DataIntersightResourceMembershipHolderA#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#id DataIntersightResourceMembershipHolderA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#id DataIntersightResourceMembershipHolderA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,73 +47,73 @@ export interface DataIntersightResourceMembershipHolderAConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#mod_time DataIntersightResourceMembershipHolderA#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#mod_time DataIntersightResourceMembershipHolderA#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The name of this resource membership holder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#name DataIntersightResourceMembershipHolderA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#name DataIntersightResourceMembershipHolderA#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#owners DataIntersightResourceMembershipHolderA#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#owners DataIntersightResourceMembershipHolderA#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#shared_scope DataIntersightResourceMembershipHolderA#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#shared_scope DataIntersightResourceMembershipHolderA#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#account DataIntersightResourceMembershipHolderA#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#account DataIntersightResourceMembershipHolderA#account}
   */
   readonly account?: DataIntersightResourceMembershipHolderAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#ancestors DataIntersightResourceMembershipHolderA#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#ancestors DataIntersightResourceMembershipHolderA#ancestors}
   */
   readonly ancestors?: DataIntersightResourceMembershipHolderAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#parent DataIntersightResourceMembershipHolderA#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#parent DataIntersightResourceMembershipHolderA#parent}
   */
   readonly parent?: DataIntersightResourceMembershipHolderParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#permission_resources DataIntersightResourceMembershipHolderA#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#permission_resources DataIntersightResourceMembershipHolderA#permission_resources}
   */
   readonly permissionResources?: DataIntersightResourceMembershipHolderPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#tags DataIntersightResourceMembershipHolderA#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#tags DataIntersightResourceMembershipHolderA#tags}
   */
   readonly tags?: DataIntersightResourceMembershipHolderTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#version_context DataIntersightResourceMembershipHolderA#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#version_context DataIntersightResourceMembershipHolderA#version_context}
   */
   readonly versionContext?: DataIntersightResourceMembershipHolderVersionContext;
 }
@@ -1269,7 +1269,7 @@ export class DataIntersightResourceMembershipHolderResultsList extends cdktf.Com
 }
 export interface DataIntersightResourceMembershipHolderAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1277,19 +1277,19 @@ export interface DataIntersightResourceMembershipHolderAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1302,7 +1302,7 @@ export interface DataIntersightResourceMembershipHolderAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -1502,7 +1502,7 @@ export class DataIntersightResourceMembershipHolderAccountOutputReference extend
 }
 export interface DataIntersightResourceMembershipHolderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1510,19 +1510,19 @@ export interface DataIntersightResourceMembershipHolderAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1535,7 +1535,7 @@ export interface DataIntersightResourceMembershipHolderAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -1767,7 +1767,7 @@ export class DataIntersightResourceMembershipHolderAncestorsList extends cdktf.C
 }
 export interface DataIntersightResourceMembershipHolderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1775,19 +1775,19 @@ export interface DataIntersightResourceMembershipHolderParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1800,7 +1800,7 @@ export interface DataIntersightResourceMembershipHolderParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -2000,7 +2000,7 @@ export class DataIntersightResourceMembershipHolderParentOutputReference extends
 }
 export interface DataIntersightResourceMembershipHolderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2008,19 +2008,19 @@ export interface DataIntersightResourceMembershipHolderPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2033,7 +2033,7 @@ export interface DataIntersightResourceMembershipHolderPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -2265,7 +2265,7 @@ export class DataIntersightResourceMembershipHolderPermissionResourcesList exten
 }
 export interface DataIntersightResourceMembershipHolderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2273,19 +2273,19 @@ export interface DataIntersightResourceMembershipHolderTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2298,7 +2298,7 @@ export interface DataIntersightResourceMembershipHolderTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -2530,7 +2530,7 @@ export class DataIntersightResourceMembershipHolderTagsAncestorDefinitionsList e
 }
 export interface DataIntersightResourceMembershipHolderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2538,19 +2538,19 @@ export interface DataIntersightResourceMembershipHolderTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2563,7 +2563,7 @@ export interface DataIntersightResourceMembershipHolderTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -2763,25 +2763,25 @@ export class DataIntersightResourceMembershipHolderTagsDefinitionOutputReference
 }
 export interface DataIntersightResourceMembershipHolderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#key DataIntersightResourceMembershipHolderA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#key DataIntersightResourceMembershipHolderA#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#propagated DataIntersightResourceMembershipHolderA#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#propagated DataIntersightResourceMembershipHolderA#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#sys_tag DataIntersightResourceMembershipHolderA#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#sys_tag DataIntersightResourceMembershipHolderA#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2789,25 +2789,25 @@ export interface DataIntersightResourceMembershipHolderTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#type DataIntersightResourceMembershipHolderA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#type DataIntersightResourceMembershipHolderA#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#value DataIntersightResourceMembershipHolderA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#value DataIntersightResourceMembershipHolderA#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#ancestor_definitions DataIntersightResourceMembershipHolderA#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#ancestor_definitions DataIntersightResourceMembershipHolderA#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightResourceMembershipHolderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#definition DataIntersightResourceMembershipHolderA#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#definition DataIntersightResourceMembershipHolderA#definition}
   */
   readonly definition?: DataIntersightResourceMembershipHolderTagsDefinition;
 }
@@ -3126,7 +3126,7 @@ export class DataIntersightResourceMembershipHolderTagsList extends cdktf.Comple
 }
 export interface DataIntersightResourceMembershipHolderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3134,19 +3134,19 @@ export interface DataIntersightResourceMembershipHolderVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3159,7 +3159,7 @@ export interface DataIntersightResourceMembershipHolderVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -3391,7 +3391,7 @@ export class DataIntersightResourceMembershipHolderVersionContextInterestedMosLi
 }
 export interface DataIntersightResourceMembershipHolderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3399,19 +3399,19 @@ export interface DataIntersightResourceMembershipHolderVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#moid DataIntersightResourceMembershipHolderA#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3424,7 +3424,7 @@ export interface DataIntersightResourceMembershipHolderVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#selector DataIntersightResourceMembershipHolderA#selector}
   */
   readonly selector?: string;
 }
@@ -3624,7 +3624,7 @@ export class DataIntersightResourceMembershipHolderVersionContextRefMoOutputRefe
 }
 export interface DataIntersightResourceMembershipHolderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#additional_properties DataIntersightResourceMembershipHolderA#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3632,32 +3632,32 @@ export interface DataIntersightResourceMembershipHolderVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#class_id DataIntersightResourceMembershipHolderA#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#marked_for_deletion DataIntersightResourceMembershipHolderA#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#marked_for_deletion DataIntersightResourceMembershipHolderA#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#nr_version DataIntersightResourceMembershipHolderA#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#nr_version DataIntersightResourceMembershipHolderA#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#object_type DataIntersightResourceMembershipHolderA#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#timestamp DataIntersightResourceMembershipHolderA#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#timestamp DataIntersightResourceMembershipHolderA#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3668,19 +3668,19 @@ export interface DataIntersightResourceMembershipHolderVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#version_type DataIntersightResourceMembershipHolderA#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#version_type DataIntersightResourceMembershipHolderA#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#interested_mos DataIntersightResourceMembershipHolderA#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#interested_mos DataIntersightResourceMembershipHolderA#interested_mos}
   */
   readonly interestedMos?: DataIntersightResourceMembershipHolderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#ref_mo DataIntersightResourceMembershipHolderA#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#ref_mo DataIntersightResourceMembershipHolderA#ref_mo}
   */
   readonly refMo?: DataIntersightResourceMembershipHolderVersionContextRefMo;
 }
@@ -3996,7 +3996,7 @@ export class DataIntersightResourceMembershipHolderVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder intersight_resource_membership_holder}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder intersight_resource_membership_holder}
 */
 export class DataIntersightResourceMembershipHolderA extends cdktf.TerraformDataSource {
 
@@ -4012,7 +4012,7 @@ export class DataIntersightResourceMembershipHolderA extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightResourceMembershipHolderA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightResourceMembershipHolderA to import
-  * @param importFromId The id of the existing DataIntersightResourceMembershipHolderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightResourceMembershipHolderA that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightResourceMembershipHolderA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4024,7 +4024,7 @@ export class DataIntersightResourceMembershipHolderA extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/resource_membership_holder intersight_resource_membership_holder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/resource_membership_holder intersight_resource_membership_holder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4035,8 +4035,8 @@ export class DataIntersightResourceMembershipHolderA extends cdktf.TerraformData
       terraformResourceType: 'intersight_resource_membership_holder',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

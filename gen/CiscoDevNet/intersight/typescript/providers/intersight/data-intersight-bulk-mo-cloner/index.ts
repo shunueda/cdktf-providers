@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBulkMoClonerConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,27 +22,27 @@ export interface DataIntersightBulkMoClonerConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#exclude_properties DataIntersightBulkMoCloner#exclude_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#exclude_properties DataIntersightBulkMoCloner#exclude_properties}
   */
   readonly excludeProperties?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#id DataIntersightBulkMoCloner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#id DataIntersightBulkMoCloner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,98 +51,98 @@ export interface DataIntersightBulkMoClonerConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * A user-friendly short name to identify the workflow. Name can only contain letters (a-z, A-Z),
   * numbers (0-9), hyphen (-), period (.), colon (:), space ( ), forward slash (/), comma or an underscore (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#workflow_name_suffix DataIntersightBulkMoCloner#workflow_name_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#workflow_name_suffix DataIntersightBulkMoCloner#workflow_name_suffix}
   */
   readonly workflowNameSuffix?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoClonerAncestors[] | cdktf.IResolvable;
   /**
   * async_result block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#async_result DataIntersightBulkMoCloner#async_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#async_result DataIntersightBulkMoCloner#async_result}
   */
   readonly asyncResult?: DataIntersightBulkMoClonerAsyncResult;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#organization DataIntersightBulkMoCloner#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#organization DataIntersightBulkMoCloner#organization}
   */
   readonly organization?: DataIntersightBulkMoClonerOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
   */
   readonly parent?: DataIntersightBulkMoClonerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoClonerPermissionResources[] | cdktf.IResolvable;
   /**
   * responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#responses DataIntersightBulkMoCloner#responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#responses DataIntersightBulkMoCloner#responses}
   */
   readonly responses?: DataIntersightBulkMoClonerResponses[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#sources DataIntersightBulkMoCloner#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#sources DataIntersightBulkMoCloner#sources}
   */
   readonly sources?: DataIntersightBulkMoClonerSources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
   */
   readonly tags?: DataIntersightBulkMoClonerTags[] | cdktf.IResolvable;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#targets DataIntersightBulkMoCloner#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#targets DataIntersightBulkMoCloner#targets}
   */
   readonly targets?: DataIntersightBulkMoClonerTargets[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoClonerVersionContext;
 }
@@ -4655,7 +4655,7 @@ export class DataIntersightBulkMoClonerResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4663,19 +4663,19 @@ export interface DataIntersightBulkMoClonerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4688,7 +4688,7 @@ export interface DataIntersightBulkMoClonerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -4920,7 +4920,7 @@ export class DataIntersightBulkMoClonerAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerAsyncResult {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4928,19 +4928,19 @@ export interface DataIntersightBulkMoClonerAsyncResult {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4953,7 +4953,7 @@ export interface DataIntersightBulkMoClonerAsyncResult {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5153,7 +5153,7 @@ export class DataIntersightBulkMoClonerAsyncResultOutputReference extends cdktf.
 }
 export interface DataIntersightBulkMoClonerOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5161,19 +5161,19 @@ export interface DataIntersightBulkMoClonerOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5186,7 +5186,7 @@ export interface DataIntersightBulkMoClonerOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5386,7 +5386,7 @@ export class DataIntersightBulkMoClonerOrganizationOutputReference extends cdktf
 }
 export interface DataIntersightBulkMoClonerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5394,19 +5394,19 @@ export interface DataIntersightBulkMoClonerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5419,7 +5419,7 @@ export interface DataIntersightBulkMoClonerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5619,7 +5619,7 @@ export class DataIntersightBulkMoClonerParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBulkMoClonerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5627,19 +5627,19 @@ export interface DataIntersightBulkMoClonerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5652,7 +5652,7 @@ export interface DataIntersightBulkMoClonerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -5884,7 +5884,7 @@ export class DataIntersightBulkMoClonerPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightBulkMoClonerResponsesBodyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5892,19 +5892,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5917,7 +5917,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -6149,7 +6149,7 @@ export class DataIntersightBulkMoClonerResponsesBodyAncestorsList extends cdktf.
 }
 export interface DataIntersightBulkMoClonerResponsesBodyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6157,19 +6157,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6182,7 +6182,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -6382,7 +6382,7 @@ export class DataIntersightBulkMoClonerResponsesBodyParentOutputReference extend
 }
 export interface DataIntersightBulkMoClonerResponsesBodyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6390,19 +6390,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6415,7 +6415,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -6647,7 +6647,7 @@ export class DataIntersightBulkMoClonerResponsesBodyPermissionResourcesList exte
 }
 export interface DataIntersightBulkMoClonerResponsesBodyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6655,19 +6655,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6680,7 +6680,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -6912,7 +6912,7 @@ export class DataIntersightBulkMoClonerResponsesBodyTagsAncestorDefinitionsList 
 }
 export interface DataIntersightBulkMoClonerResponsesBodyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6920,19 +6920,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6945,7 +6945,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -7145,25 +7145,25 @@ export class DataIntersightBulkMoClonerResponsesBodyTagsDefinitionOutputReferenc
 }
 export interface DataIntersightBulkMoClonerResponsesBodyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -7171,25 +7171,25 @@ export interface DataIntersightBulkMoClonerResponsesBodyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoClonerResponsesBodyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
   */
   readonly definition?: DataIntersightBulkMoClonerResponsesBodyTagsDefinition;
 }
@@ -7508,7 +7508,7 @@ export class DataIntersightBulkMoClonerResponsesBodyTagsList extends cdktf.Compl
 }
 export interface DataIntersightBulkMoClonerResponsesBodyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7516,19 +7516,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7541,7 +7541,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -7773,7 +7773,7 @@ export class DataIntersightBulkMoClonerResponsesBodyVersionContextInterestedMosL
 }
 export interface DataIntersightBulkMoClonerResponsesBodyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7781,19 +7781,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7806,7 +7806,7 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -8006,7 +8006,7 @@ export class DataIntersightBulkMoClonerResponsesBodyVersionContextRefMoOutputRef
 }
 export interface DataIntersightBulkMoClonerResponsesBodyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8014,32 +8014,32 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8050,19 +8050,19 @@ export interface DataIntersightBulkMoClonerResponsesBodyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoClonerResponsesBodyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoClonerResponsesBodyVersionContextRefMo;
 }
@@ -8380,11 +8380,11 @@ export interface DataIntersightBulkMoClonerResponsesBody {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8393,31 +8393,31 @@ export interface DataIntersightBulkMoClonerResponsesBody {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
@@ -8425,48 +8425,48 @@ export interface DataIntersightBulkMoClonerResponsesBody {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoClonerResponsesBodyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
   */
   readonly parent?: DataIntersightBulkMoClonerResponsesBodyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoClonerResponsesBodyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
   */
   readonly tags?: DataIntersightBulkMoClonerResponsesBodyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoClonerResponsesBodyVersionContext;
 }
@@ -8956,13 +8956,13 @@ export class DataIntersightBulkMoClonerResponsesBodyOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoClonerResponses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The response string for an individual REST API action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#body_string DataIntersightBulkMoCloner#body_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#body_string DataIntersightBulkMoCloner#body_string}
   */
   readonly bodyString?: string;
   /**
@@ -8970,26 +8970,26 @@ export interface DataIntersightBulkMoClonerResponses {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * The http return status of the individual API action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#status DataIntersightBulkMoCloner#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#status DataIntersightBulkMoCloner#status}
   */
   readonly status?: number;
   /**
   * body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#body DataIntersightBulkMoCloner#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#body DataIntersightBulkMoCloner#body}
   */
   readonly body?: DataIntersightBulkMoClonerResponsesBody;
 }
@@ -9250,7 +9250,7 @@ export class DataIntersightBulkMoClonerResponsesList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerSourcesAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9258,19 +9258,19 @@ export interface DataIntersightBulkMoClonerSourcesAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9283,7 +9283,7 @@ export interface DataIntersightBulkMoClonerSourcesAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -9515,7 +9515,7 @@ export class DataIntersightBulkMoClonerSourcesAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightBulkMoClonerSourcesParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9523,19 +9523,19 @@ export interface DataIntersightBulkMoClonerSourcesParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9548,7 +9548,7 @@ export interface DataIntersightBulkMoClonerSourcesParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -9748,7 +9748,7 @@ export class DataIntersightBulkMoClonerSourcesParentOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoClonerSourcesPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9756,19 +9756,19 @@ export interface DataIntersightBulkMoClonerSourcesPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9781,7 +9781,7 @@ export interface DataIntersightBulkMoClonerSourcesPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -10013,7 +10013,7 @@ export class DataIntersightBulkMoClonerSourcesPermissionResourcesList extends cd
 }
 export interface DataIntersightBulkMoClonerSourcesTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10021,19 +10021,19 @@ export interface DataIntersightBulkMoClonerSourcesTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10046,7 +10046,7 @@ export interface DataIntersightBulkMoClonerSourcesTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -10278,7 +10278,7 @@ export class DataIntersightBulkMoClonerSourcesTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightBulkMoClonerSourcesTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10286,19 +10286,19 @@ export interface DataIntersightBulkMoClonerSourcesTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10311,7 +10311,7 @@ export interface DataIntersightBulkMoClonerSourcesTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -10511,25 +10511,25 @@ export class DataIntersightBulkMoClonerSourcesTagsDefinitionOutputReference exte
 }
 export interface DataIntersightBulkMoClonerSourcesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -10537,25 +10537,25 @@ export interface DataIntersightBulkMoClonerSourcesTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoClonerSourcesTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
   */
   readonly definition?: DataIntersightBulkMoClonerSourcesTagsDefinition;
 }
@@ -10874,7 +10874,7 @@ export class DataIntersightBulkMoClonerSourcesTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightBulkMoClonerSourcesVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10882,19 +10882,19 @@ export interface DataIntersightBulkMoClonerSourcesVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10907,7 +10907,7 @@ export interface DataIntersightBulkMoClonerSourcesVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -11139,7 +11139,7 @@ export class DataIntersightBulkMoClonerSourcesVersionContextInterestedMosList ex
 }
 export interface DataIntersightBulkMoClonerSourcesVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11147,19 +11147,19 @@ export interface DataIntersightBulkMoClonerSourcesVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -11172,7 +11172,7 @@ export interface DataIntersightBulkMoClonerSourcesVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -11372,7 +11372,7 @@ export class DataIntersightBulkMoClonerSourcesVersionContextRefMoOutputReference
 }
 export interface DataIntersightBulkMoClonerSourcesVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11380,32 +11380,32 @@ export interface DataIntersightBulkMoClonerSourcesVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -11416,19 +11416,19 @@ export interface DataIntersightBulkMoClonerSourcesVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoClonerSourcesVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoClonerSourcesVersionContextRefMo;
 }
@@ -11746,11 +11746,11 @@ export interface DataIntersightBulkMoClonerSources {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -11759,31 +11759,31 @@ export interface DataIntersightBulkMoClonerSources {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
@@ -11791,48 +11791,48 @@ export interface DataIntersightBulkMoClonerSources {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoClonerSourcesAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
   */
   readonly parent?: DataIntersightBulkMoClonerSourcesParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoClonerSourcesPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
   */
   readonly tags?: DataIntersightBulkMoClonerSourcesTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoClonerSourcesVersionContext;
 }
@@ -12354,7 +12354,7 @@ export class DataIntersightBulkMoClonerSourcesList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12362,19 +12362,19 @@ export interface DataIntersightBulkMoClonerTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12387,7 +12387,7 @@ export interface DataIntersightBulkMoClonerTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -12619,7 +12619,7 @@ export class DataIntersightBulkMoClonerTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightBulkMoClonerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -12627,19 +12627,19 @@ export interface DataIntersightBulkMoClonerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -12652,7 +12652,7 @@ export interface DataIntersightBulkMoClonerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -12852,25 +12852,25 @@ export class DataIntersightBulkMoClonerTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightBulkMoClonerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -12878,25 +12878,25 @@ export interface DataIntersightBulkMoClonerTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoClonerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
   */
   readonly definition?: DataIntersightBulkMoClonerTagsDefinition;
 }
@@ -13215,7 +13215,7 @@ export class DataIntersightBulkMoClonerTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerTargetsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13223,19 +13223,19 @@ export interface DataIntersightBulkMoClonerTargetsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13248,7 +13248,7 @@ export interface DataIntersightBulkMoClonerTargetsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -13480,7 +13480,7 @@ export class DataIntersightBulkMoClonerTargetsAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightBulkMoClonerTargetsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13488,19 +13488,19 @@ export interface DataIntersightBulkMoClonerTargetsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13513,7 +13513,7 @@ export interface DataIntersightBulkMoClonerTargetsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -13713,7 +13713,7 @@ export class DataIntersightBulkMoClonerTargetsParentOutputReference extends cdkt
 }
 export interface DataIntersightBulkMoClonerTargetsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13721,19 +13721,19 @@ export interface DataIntersightBulkMoClonerTargetsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -13746,7 +13746,7 @@ export interface DataIntersightBulkMoClonerTargetsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -13978,7 +13978,7 @@ export class DataIntersightBulkMoClonerTargetsPermissionResourcesList extends cd
 }
 export interface DataIntersightBulkMoClonerTargetsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -13986,19 +13986,19 @@ export interface DataIntersightBulkMoClonerTargetsTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14011,7 +14011,7 @@ export interface DataIntersightBulkMoClonerTargetsTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -14243,7 +14243,7 @@ export class DataIntersightBulkMoClonerTargetsTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightBulkMoClonerTargetsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14251,19 +14251,19 @@ export interface DataIntersightBulkMoClonerTargetsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14276,7 +14276,7 @@ export interface DataIntersightBulkMoClonerTargetsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -14476,25 +14476,25 @@ export class DataIntersightBulkMoClonerTargetsTagsDefinitionOutputReference exte
 }
 export interface DataIntersightBulkMoClonerTargetsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#key DataIntersightBulkMoCloner#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#propagated DataIntersightBulkMoCloner#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#sys_tag DataIntersightBulkMoCloner#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -14502,25 +14502,25 @@ export interface DataIntersightBulkMoClonerTargetsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#type DataIntersightBulkMoCloner#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#value DataIntersightBulkMoCloner#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestor_definitions DataIntersightBulkMoCloner#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBulkMoClonerTargetsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#definition DataIntersightBulkMoCloner#definition}
   */
   readonly definition?: DataIntersightBulkMoClonerTargetsTagsDefinition;
 }
@@ -14839,7 +14839,7 @@ export class DataIntersightBulkMoClonerTargetsTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightBulkMoClonerTargetsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -14847,19 +14847,19 @@ export interface DataIntersightBulkMoClonerTargetsVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -14872,7 +14872,7 @@ export interface DataIntersightBulkMoClonerTargetsVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -15104,7 +15104,7 @@ export class DataIntersightBulkMoClonerTargetsVersionContextInterestedMosList ex
 }
 export interface DataIntersightBulkMoClonerTargetsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15112,19 +15112,19 @@ export interface DataIntersightBulkMoClonerTargetsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -15137,7 +15137,7 @@ export interface DataIntersightBulkMoClonerTargetsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -15337,7 +15337,7 @@ export class DataIntersightBulkMoClonerTargetsVersionContextRefMoOutputReference
 }
 export interface DataIntersightBulkMoClonerTargetsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15345,32 +15345,32 @@ export interface DataIntersightBulkMoClonerTargetsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -15381,19 +15381,19 @@ export interface DataIntersightBulkMoClonerTargetsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoClonerTargetsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoClonerTargetsVersionContextRefMo;
 }
@@ -15711,11 +15711,11 @@ export interface DataIntersightBulkMoClonerTargets {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#account_moid DataIntersightBulkMoCloner#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -15724,31 +15724,31 @@ export interface DataIntersightBulkMoClonerTargets {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#create_time DataIntersightBulkMoCloner#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#domain_group_moid DataIntersightBulkMoCloner#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#mod_time DataIntersightBulkMoCloner#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
@@ -15756,48 +15756,48 @@ export interface DataIntersightBulkMoClonerTargets {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#owners DataIntersightBulkMoCloner#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#shared_scope DataIntersightBulkMoCloner#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ancestors DataIntersightBulkMoCloner#ancestors}
   */
   readonly ancestors?: DataIntersightBulkMoClonerTargetsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#parent DataIntersightBulkMoCloner#parent}
   */
   readonly parent?: DataIntersightBulkMoClonerTargetsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#permission_resources DataIntersightBulkMoCloner#permission_resources}
   */
   readonly permissionResources?: DataIntersightBulkMoClonerTargetsPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#tags DataIntersightBulkMoCloner#tags}
   */
   readonly tags?: DataIntersightBulkMoClonerTargetsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_context DataIntersightBulkMoCloner#version_context}
   */
   readonly versionContext?: DataIntersightBulkMoClonerTargetsVersionContext;
 }
@@ -16319,7 +16319,7 @@ export class DataIntersightBulkMoClonerTargetsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBulkMoClonerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16327,19 +16327,19 @@ export interface DataIntersightBulkMoClonerVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16352,7 +16352,7 @@ export interface DataIntersightBulkMoClonerVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -16584,7 +16584,7 @@ export class DataIntersightBulkMoClonerVersionContextInterestedMosList extends c
 }
 export interface DataIntersightBulkMoClonerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16592,19 +16592,19 @@ export interface DataIntersightBulkMoClonerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#moid DataIntersightBulkMoCloner#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
@@ -16617,7 +16617,7 @@ export interface DataIntersightBulkMoClonerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#selector DataIntersightBulkMoCloner#selector}
   */
   readonly selector?: string;
 }
@@ -16817,7 +16817,7 @@ export class DataIntersightBulkMoClonerVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightBulkMoClonerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#additional_properties DataIntersightBulkMoCloner#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -16825,32 +16825,32 @@ export interface DataIntersightBulkMoClonerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#class_id DataIntersightBulkMoCloner#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#marked_for_deletion DataIntersightBulkMoCloner#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#nr_version DataIntersightBulkMoCloner#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#object_type DataIntersightBulkMoCloner#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#timestamp DataIntersightBulkMoCloner#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -16861,19 +16861,19 @@ export interface DataIntersightBulkMoClonerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#version_type DataIntersightBulkMoCloner#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#interested_mos DataIntersightBulkMoCloner#interested_mos}
   */
   readonly interestedMos?: DataIntersightBulkMoClonerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#ref_mo DataIntersightBulkMoCloner#ref_mo}
   */
   readonly refMo?: DataIntersightBulkMoClonerVersionContextRefMo;
 }
@@ -17189,7 +17189,7 @@ export class DataIntersightBulkMoClonerVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner intersight_bulk_mo_cloner}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner intersight_bulk_mo_cloner}
 */
 export class DataIntersightBulkMoCloner extends cdktf.TerraformDataSource {
 
@@ -17205,7 +17205,7 @@ export class DataIntersightBulkMoCloner extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBulkMoCloner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBulkMoCloner to import
-  * @param importFromId The id of the existing DataIntersightBulkMoCloner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBulkMoCloner that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBulkMoCloner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -17217,7 +17217,7 @@ export class DataIntersightBulkMoCloner extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bulk_mo_cloner intersight_bulk_mo_cloner} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bulk_mo_cloner intersight_bulk_mo_cloner} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -17228,8 +17228,8 @@ export class DataIntersightBulkMoCloner extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bulk_mo_cloner',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

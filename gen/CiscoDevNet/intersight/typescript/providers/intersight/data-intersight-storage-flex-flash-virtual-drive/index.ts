@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageFlexFlashVirtualDriveConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#account_moid DataIntersightStorageFlexFlashVirtualDrive#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#account_moid DataIntersightStorageFlexFlashVirtualDrive#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightStorageFlexFlashVirtualDriveConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#create_time DataIntersightStorageFlexFlashVirtualDrive#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#create_time DataIntersightStorageFlexFlashVirtualDrive#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#device_mo_id DataIntersightStorageFlexFlashVirtualDrive#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#device_mo_id DataIntersightStorageFlexFlashVirtualDrive#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#dn DataIntersightStorageFlexFlashVirtualDrive#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#dn DataIntersightStorageFlexFlashVirtualDrive#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#domain_group_moid DataIntersightStorageFlexFlashVirtualDrive#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#domain_group_moid DataIntersightStorageFlexFlashVirtualDrive#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The drive scope of the flex flash virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#drive_scope DataIntersightStorageFlexFlashVirtualDrive#drive_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#drive_scope DataIntersightStorageFlexFlashVirtualDrive#drive_scope}
   */
   readonly driveScope?: string;
   /**
   * Status of virtual drive on the flex controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#drive_status DataIntersightStorageFlexFlashVirtualDrive#drive_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#drive_status DataIntersightStorageFlexFlashVirtualDrive#drive_status}
   */
   readonly driveStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#id DataIntersightStorageFlexFlashVirtualDrive#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#id DataIntersightStorageFlexFlashVirtualDrive#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,151 +71,151 @@ export interface DataIntersightStorageFlexFlashVirtualDriveConfig extends cdktf.
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#is_upgraded DataIntersightStorageFlexFlashVirtualDrive#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#is_upgraded DataIntersightStorageFlexFlashVirtualDrive#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#mod_time DataIntersightStorageFlexFlashVirtualDrive#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#mod_time DataIntersightStorageFlexFlashVirtualDrive#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#model DataIntersightStorageFlexFlashVirtualDrive#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#model DataIntersightStorageFlexFlashVirtualDrive#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#owners DataIntersightStorageFlexFlashVirtualDrive#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#owners DataIntersightStorageFlexFlashVirtualDrive#owners}
   */
   readonly owners?: string[];
   /**
   * The partition Id of the flex flash virtual Drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#partition_id DataIntersightStorageFlexFlashVirtualDrive#partition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#partition_id DataIntersightStorageFlexFlashVirtualDrive#partition_id}
   */
   readonly partitionId?: string;
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#presence DataIntersightStorageFlexFlashVirtualDrive#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#presence DataIntersightStorageFlexFlashVirtualDrive#presence}
   */
   readonly presence?: string;
   /**
   * The resident image on the flex flash virtual Drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#resident_image DataIntersightStorageFlexFlashVirtualDrive#resident_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#resident_image DataIntersightStorageFlexFlashVirtualDrive#resident_image}
   */
   readonly residentImage?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#revision DataIntersightStorageFlexFlashVirtualDrive#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#revision DataIntersightStorageFlexFlashVirtualDrive#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#rn DataIntersightStorageFlexFlashVirtualDrive#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#rn DataIntersightStorageFlexFlashVirtualDrive#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#serial DataIntersightStorageFlexFlashVirtualDrive#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#serial DataIntersightStorageFlexFlashVirtualDrive#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#shared_scope DataIntersightStorageFlexFlashVirtualDrive#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#shared_scope DataIntersightStorageFlexFlashVirtualDrive#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Size of virtual drive on the flex controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#size DataIntersightStorageFlexFlashVirtualDrive#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#size DataIntersightStorageFlexFlashVirtualDrive#size}
   */
   readonly size?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#vendor DataIntersightStorageFlexFlashVirtualDrive#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#vendor DataIntersightStorageFlexFlashVirtualDrive#vendor}
   */
   readonly vendor?: string;
   /**
   * Virtual drive on the flex flash controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#virtual_drive DataIntersightStorageFlexFlashVirtualDrive#virtual_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#virtual_drive DataIntersightStorageFlexFlashVirtualDrive#virtual_drive}
   */
   readonly virtualDrive?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#ancestors DataIntersightStorageFlexFlashVirtualDrive#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#ancestors DataIntersightStorageFlexFlashVirtualDrive#ancestors}
   */
   readonly ancestors?: DataIntersightStorageFlexFlashVirtualDriveAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#inventory_device_info DataIntersightStorageFlexFlashVirtualDrive#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#inventory_device_info DataIntersightStorageFlexFlashVirtualDrive#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageFlexFlashVirtualDriveInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#parent DataIntersightStorageFlexFlashVirtualDrive#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#parent DataIntersightStorageFlexFlashVirtualDrive#parent}
   */
   readonly parent?: DataIntersightStorageFlexFlashVirtualDriveParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#permission_resources DataIntersightStorageFlexFlashVirtualDrive#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#permission_resources DataIntersightStorageFlexFlashVirtualDrive#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageFlexFlashVirtualDrivePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#previous_fru DataIntersightStorageFlexFlashVirtualDrive#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#previous_fru DataIntersightStorageFlexFlashVirtualDrive#previous_fru}
   */
   readonly previousFru?: DataIntersightStorageFlexFlashVirtualDrivePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#registered_device DataIntersightStorageFlexFlashVirtualDrive#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#registered_device DataIntersightStorageFlexFlashVirtualDrive#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageFlexFlashVirtualDriveRegisteredDevice;
   /**
   * storage_flex_flash_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#storage_flex_flash_controller DataIntersightStorageFlexFlashVirtualDrive#storage_flex_flash_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#storage_flex_flash_controller DataIntersightStorageFlexFlashVirtualDrive#storage_flex_flash_controller}
   */
   readonly storageFlexFlashController?: DataIntersightStorageFlexFlashVirtualDriveStorageFlexFlashController;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#tags DataIntersightStorageFlexFlashVirtualDrive#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#tags DataIntersightStorageFlexFlashVirtualDrive#tags}
   */
   readonly tags?: DataIntersightStorageFlexFlashVirtualDriveTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#version_context DataIntersightStorageFlexFlashVirtualDrive#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#version_context DataIntersightStorageFlexFlashVirtualDrive#version_context}
   */
   readonly versionContext?: DataIntersightStorageFlexFlashVirtualDriveVersionContext;
 }
@@ -1744,7 +1744,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveResultsList extends cdktf
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1752,19 +1752,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1777,7 +1777,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2009,7 +2009,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveAncestorsList extends cdk
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2017,19 +2017,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2042,7 +2042,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2242,7 +2242,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveInventoryDeviceInfoOutput
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2250,19 +2250,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2275,7 +2275,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2475,7 +2475,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveParentOutputReference ext
 }
 export interface DataIntersightStorageFlexFlashVirtualDrivePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2483,19 +2483,19 @@ export interface DataIntersightStorageFlexFlashVirtualDrivePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2508,7 +2508,7 @@ export interface DataIntersightStorageFlexFlashVirtualDrivePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2740,7 +2740,7 @@ export class DataIntersightStorageFlexFlashVirtualDrivePermissionResourcesList e
 }
 export interface DataIntersightStorageFlexFlashVirtualDrivePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2748,19 +2748,19 @@ export interface DataIntersightStorageFlexFlashVirtualDrivePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2773,7 +2773,7 @@ export interface DataIntersightStorageFlexFlashVirtualDrivePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -2973,7 +2973,7 @@ export class DataIntersightStorageFlexFlashVirtualDrivePreviousFruOutputReferenc
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2981,19 +2981,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3006,7 +3006,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3206,7 +3206,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveRegisteredDeviceOutputRef
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveStorageFlexFlashController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3214,19 +3214,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveStorageFlexFlashContr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3239,7 +3239,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveStorageFlexFlashContr
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3439,7 +3439,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveStorageFlexFlashControlle
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3447,19 +3447,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3472,7 +3472,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3704,7 +3704,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveTagsAncestorDefinitionsLi
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3712,19 +3712,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3737,7 +3737,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -3937,25 +3937,25 @@ export class DataIntersightStorageFlexFlashVirtualDriveTagsDefinitionOutputRefer
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#key DataIntersightStorageFlexFlashVirtualDrive#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#key DataIntersightStorageFlexFlashVirtualDrive#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#propagated DataIntersightStorageFlexFlashVirtualDrive#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#propagated DataIntersightStorageFlexFlashVirtualDrive#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#sys_tag DataIntersightStorageFlexFlashVirtualDrive#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#sys_tag DataIntersightStorageFlexFlashVirtualDrive#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3963,25 +3963,25 @@ export interface DataIntersightStorageFlexFlashVirtualDriveTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#type DataIntersightStorageFlexFlashVirtualDrive#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#type DataIntersightStorageFlexFlashVirtualDrive#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#value DataIntersightStorageFlexFlashVirtualDrive#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#value DataIntersightStorageFlexFlashVirtualDrive#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#ancestor_definitions DataIntersightStorageFlexFlashVirtualDrive#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#ancestor_definitions DataIntersightStorageFlexFlashVirtualDrive#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageFlexFlashVirtualDriveTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#definition DataIntersightStorageFlexFlashVirtualDrive#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#definition DataIntersightStorageFlexFlashVirtualDrive#definition}
   */
   readonly definition?: DataIntersightStorageFlexFlashVirtualDriveTagsDefinition;
 }
@@ -4300,7 +4300,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveTagsList extends cdktf.Co
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4308,19 +4308,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4333,7 +4333,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4565,7 +4565,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveVersionContextInterestedM
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4573,19 +4573,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#moid DataIntersightStorageFlexFlashVirtualDrive#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4598,7 +4598,7 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#selector DataIntersightStorageFlexFlashVirtualDrive#selector}
   */
   readonly selector?: string;
 }
@@ -4798,7 +4798,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveVersionContextRefMoOutput
 }
 export interface DataIntersightStorageFlexFlashVirtualDriveVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#additional_properties DataIntersightStorageFlexFlashVirtualDrive#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4806,32 +4806,32 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#class_id DataIntersightStorageFlexFlashVirtualDrive#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#marked_for_deletion DataIntersightStorageFlexFlashVirtualDrive#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#marked_for_deletion DataIntersightStorageFlexFlashVirtualDrive#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#nr_version DataIntersightStorageFlexFlashVirtualDrive#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#nr_version DataIntersightStorageFlexFlashVirtualDrive#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#object_type DataIntersightStorageFlexFlashVirtualDrive#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#timestamp DataIntersightStorageFlexFlashVirtualDrive#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#timestamp DataIntersightStorageFlexFlashVirtualDrive#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4842,19 +4842,19 @@ export interface DataIntersightStorageFlexFlashVirtualDriveVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#version_type DataIntersightStorageFlexFlashVirtualDrive#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#version_type DataIntersightStorageFlexFlashVirtualDrive#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#interested_mos DataIntersightStorageFlexFlashVirtualDrive#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#interested_mos DataIntersightStorageFlexFlashVirtualDrive#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageFlexFlashVirtualDriveVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#ref_mo DataIntersightStorageFlexFlashVirtualDrive#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#ref_mo DataIntersightStorageFlexFlashVirtualDrive#ref_mo}
   */
   readonly refMo?: DataIntersightStorageFlexFlashVirtualDriveVersionContextRefMo;
 }
@@ -5170,7 +5170,7 @@ export class DataIntersightStorageFlexFlashVirtualDriveVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive intersight_storage_flex_flash_virtual_drive}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive intersight_storage_flex_flash_virtual_drive}
 */
 export class DataIntersightStorageFlexFlashVirtualDrive extends cdktf.TerraformDataSource {
 
@@ -5186,7 +5186,7 @@ export class DataIntersightStorageFlexFlashVirtualDrive extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightStorageFlexFlashVirtualDrive resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageFlexFlashVirtualDrive to import
-  * @param importFromId The id of the existing DataIntersightStorageFlexFlashVirtualDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageFlexFlashVirtualDrive that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageFlexFlashVirtualDrive to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5198,7 +5198,7 @@ export class DataIntersightStorageFlexFlashVirtualDrive extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_flex_flash_virtual_drive intersight_storage_flex_flash_virtual_drive} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_flex_flash_virtual_drive intersight_storage_flex_flash_virtual_drive} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5209,8 +5209,8 @@ export class DataIntersightStorageFlexFlashVirtualDrive extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_flex_flash_virtual_drive',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

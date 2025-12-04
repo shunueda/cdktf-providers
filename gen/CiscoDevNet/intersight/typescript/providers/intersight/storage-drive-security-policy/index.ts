@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface StorageDriveSecurityPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#account_moid StorageDriveSecurityPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#account_moid StorageDriveSecurityPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#ancestors StorageDriveSecurityPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#ancestors StorageDriveSecurityPolicy#ancestors}
   */
   readonly ancestors?: StorageDriveSecurityPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface StorageDriveSecurityPolicyConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#create_time StorageDriveSecurityPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#create_time StorageDriveSecurityPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#description StorageDriveSecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#description StorageDriveSecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#domain_group_moid StorageDriveSecurityPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#domain_group_moid StorageDriveSecurityPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#id StorageDriveSecurityPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#id StorageDriveSecurityPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,101 +59,101 @@ export interface StorageDriveSecurityPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Key details for supporting drive security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#key_setting StorageDriveSecurityPolicy#key_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#key_setting StorageDriveSecurityPolicy#key_setting}
   */
   readonly keySetting?: StorageDriveSecurityPolicyKeySetting[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#mod_time StorageDriveSecurityPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#mod_time StorageDriveSecurityPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#name StorageDriveSecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#name StorageDriveSecurityPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#organization StorageDriveSecurityPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#organization StorageDriveSecurityPolicy#organization}
   */
   readonly organization?: StorageDriveSecurityPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#owners StorageDriveSecurityPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#owners StorageDriveSecurityPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#parent StorageDriveSecurityPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#parent StorageDriveSecurityPolicy#parent}
   */
   readonly parent?: StorageDriveSecurityPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#permission_resources StorageDriveSecurityPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#permission_resources StorageDriveSecurityPolicy#permission_resources}
   */
   readonly permissionResources?: StorageDriveSecurityPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * An array of relationships to policyAbstractConfigProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#profiles StorageDriveSecurityPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#profiles StorageDriveSecurityPolicy#profiles}
   */
   readonly profiles?: StorageDriveSecurityPolicyProfiles[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#shared_scope StorageDriveSecurityPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#shared_scope StorageDriveSecurityPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#tags StorageDriveSecurityPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#tags StorageDriveSecurityPolicy#tags}
   */
   readonly tags?: StorageDriveSecurityPolicyTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#version_context StorageDriveSecurityPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#version_context StorageDriveSecurityPolicy#version_context}
   */
   readonly versionContext?: StorageDriveSecurityPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface StorageDriveSecurityPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -385,31 +385,31 @@ export class StorageDriveSecurityPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface StorageDriveSecurityPolicyKeySettingManualKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#existing_key StorageDriveSecurityPolicy#existing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#existing_key StorageDriveSecurityPolicy#existing_key}
   */
   readonly existingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#is_existing_key_set StorageDriveSecurityPolicy#is_existing_key_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#is_existing_key_set StorageDriveSecurityPolicy#is_existing_key_set}
   */
   readonly isExistingKeySet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#is_new_key_set StorageDriveSecurityPolicy#is_new_key_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#is_new_key_set StorageDriveSecurityPolicy#is_new_key_set}
   */
   readonly isNewKeySet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#new_key StorageDriveSecurityPolicy#new_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#new_key StorageDriveSecurityPolicy#new_key}
   */
   readonly newKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
 }
@@ -699,31 +699,31 @@ export class StorageDriveSecurityPolicyKeySettingManualKeyList extends cdktf.Com
 }
 export interface StorageDriveSecurityPolicyKeySettingRemoteKeyAuthCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#is_password_set StorageDriveSecurityPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#is_password_set StorageDriveSecurityPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#password StorageDriveSecurityPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#password StorageDriveSecurityPolicy#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#use_authentication StorageDriveSecurityPolicy#use_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#use_authentication StorageDriveSecurityPolicy#use_authentication}
   */
   readonly useAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#username StorageDriveSecurityPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#username StorageDriveSecurityPolicy#username}
   */
   readonly username?: string;
 }
@@ -1013,31 +1013,31 @@ export class StorageDriveSecurityPolicyKeySettingRemoteKeyAuthCredentialsList ex
 }
 export interface StorageDriveSecurityPolicyKeySettingRemoteKeyPrimaryServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#enable_drive_security StorageDriveSecurityPolicy#enable_drive_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#enable_drive_security StorageDriveSecurityPolicy#enable_drive_security}
   */
   readonly enableDriveSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#ip_address StorageDriveSecurityPolicy#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#ip_address StorageDriveSecurityPolicy#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#port StorageDriveSecurityPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#port StorageDriveSecurityPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#timeout StorageDriveSecurityPolicy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#timeout StorageDriveSecurityPolicy#timeout}
   */
   readonly timeout?: number;
 }
@@ -1327,31 +1327,31 @@ export class StorageDriveSecurityPolicyKeySettingRemoteKeyPrimaryServerList exte
 }
 export interface StorageDriveSecurityPolicyKeySettingRemoteKeySecondaryServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#enable_drive_security StorageDriveSecurityPolicy#enable_drive_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#enable_drive_security StorageDriveSecurityPolicy#enable_drive_security}
   */
   readonly enableDriveSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#ip_address StorageDriveSecurityPolicy#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#ip_address StorageDriveSecurityPolicy#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#port StorageDriveSecurityPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#port StorageDriveSecurityPolicy#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#timeout StorageDriveSecurityPolicy#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#timeout StorageDriveSecurityPolicy#timeout}
   */
   readonly timeout?: number;
 }
@@ -1641,39 +1641,39 @@ export class StorageDriveSecurityPolicyKeySettingRemoteKeySecondaryServerList ex
 }
 export interface StorageDriveSecurityPolicyKeySettingRemoteKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#auth_credentials StorageDriveSecurityPolicy#auth_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#auth_credentials StorageDriveSecurityPolicy#auth_credentials}
   */
   readonly authCredentials?: StorageDriveSecurityPolicyKeySettingRemoteKeyAuthCredentials[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#existing_key StorageDriveSecurityPolicy#existing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#existing_key StorageDriveSecurityPolicy#existing_key}
   */
   readonly existingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#is_existing_key_set StorageDriveSecurityPolicy#is_existing_key_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#is_existing_key_set StorageDriveSecurityPolicy#is_existing_key_set}
   */
   readonly isExistingKeySet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#primary_server StorageDriveSecurityPolicy#primary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#primary_server StorageDriveSecurityPolicy#primary_server}
   */
   readonly primaryServer?: StorageDriveSecurityPolicyKeySettingRemoteKeyPrimaryServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#secondary_server StorageDriveSecurityPolicy#secondary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#secondary_server StorageDriveSecurityPolicy#secondary_server}
   */
   readonly secondaryServer?: StorageDriveSecurityPolicyKeySettingRemoteKeySecondaryServer[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#server_certificate StorageDriveSecurityPolicy#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#server_certificate StorageDriveSecurityPolicy#server_certificate}
   */
   readonly serverCertificate?: string;
 }
@@ -2021,27 +2021,27 @@ export class StorageDriveSecurityPolicyKeySettingRemoteKeyList extends cdktf.Com
 }
 export interface StorageDriveSecurityPolicyKeySetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#key_type StorageDriveSecurityPolicy#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#key_type StorageDriveSecurityPolicy#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#manual_key StorageDriveSecurityPolicy#manual_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#manual_key StorageDriveSecurityPolicy#manual_key}
   */
   readonly manualKey?: StorageDriveSecurityPolicyKeySettingManualKey[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#remote_key StorageDriveSecurityPolicy#remote_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#remote_key StorageDriveSecurityPolicy#remote_key}
   */
   readonly remoteKey?: StorageDriveSecurityPolicyKeySettingRemoteKey[] | cdktf.IResolvable;
 }
@@ -2302,23 +2302,23 @@ export class StorageDriveSecurityPolicyKeySettingList extends cdktf.ComplexList 
 }
 export interface StorageDriveSecurityPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2550,23 +2550,23 @@ export class StorageDriveSecurityPolicyOrganizationList extends cdktf.ComplexLis
 }
 export interface StorageDriveSecurityPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2798,23 +2798,23 @@ export class StorageDriveSecurityPolicyParentList extends cdktf.ComplexList {
 }
 export interface StorageDriveSecurityPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3046,23 +3046,23 @@ export class StorageDriveSecurityPolicyPermissionResourcesList extends cdktf.Com
 }
 export interface StorageDriveSecurityPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3294,23 +3294,23 @@ export class StorageDriveSecurityPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface StorageDriveSecurityPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3542,23 +3542,23 @@ export class StorageDriveSecurityPolicyTagsAncestorDefinitionsList extends cdktf
 }
 export interface StorageDriveSecurityPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3790,35 +3790,35 @@ export class StorageDriveSecurityPolicyTagsDefinitionList extends cdktf.ComplexL
 }
 export interface StorageDriveSecurityPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#ancestor_definitions StorageDriveSecurityPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#ancestor_definitions StorageDriveSecurityPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: StorageDriveSecurityPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#definition StorageDriveSecurityPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#definition StorageDriveSecurityPolicy#definition}
   */
   readonly definition?: StorageDriveSecurityPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#key StorageDriveSecurityPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#key StorageDriveSecurityPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#propagated StorageDriveSecurityPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#propagated StorageDriveSecurityPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#sys_tag StorageDriveSecurityPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#sys_tag StorageDriveSecurityPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#type StorageDriveSecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#type StorageDriveSecurityPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#value StorageDriveSecurityPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#value StorageDriveSecurityPolicy#value}
   */
   readonly value?: string;
 }
@@ -4137,23 +4137,23 @@ export class StorageDriveSecurityPolicyTagsList extends cdktf.ComplexList {
 }
 export interface StorageDriveSecurityPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4385,23 +4385,23 @@ export class StorageDriveSecurityPolicyVersionContextInterestedMosList extends c
 }
 export interface StorageDriveSecurityPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#moid StorageDriveSecurityPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#selector StorageDriveSecurityPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4633,39 +4633,39 @@ export class StorageDriveSecurityPolicyVersionContextRefMoList extends cdktf.Com
 }
 export interface StorageDriveSecurityPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#additional_properties StorageDriveSecurityPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#class_id StorageDriveSecurityPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#interested_mos StorageDriveSecurityPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#interested_mos StorageDriveSecurityPolicy#interested_mos}
   */
   readonly interestedMos?: StorageDriveSecurityPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#marked_for_deletion StorageDriveSecurityPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#marked_for_deletion StorageDriveSecurityPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#nr_version StorageDriveSecurityPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#nr_version StorageDriveSecurityPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#object_type StorageDriveSecurityPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#ref_mo StorageDriveSecurityPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#ref_mo StorageDriveSecurityPolicy#ref_mo}
   */
   readonly refMo?: StorageDriveSecurityPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#timestamp StorageDriveSecurityPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#timestamp StorageDriveSecurityPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#version_type StorageDriveSecurityPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#version_type StorageDriveSecurityPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -5013,7 +5013,7 @@ export class StorageDriveSecurityPolicyVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy intersight_storage_drive_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy intersight_storage_drive_security_policy}
 */
 export class StorageDriveSecurityPolicy extends cdktf.TerraformResource {
 
@@ -5029,7 +5029,7 @@ export class StorageDriveSecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageDriveSecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageDriveSecurityPolicy to import
-  * @param importFromId The id of the existing StorageDriveSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageDriveSecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageDriveSecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5041,7 +5041,7 @@ export class StorageDriveSecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/storage_drive_security_policy intersight_storage_drive_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/storage_drive_security_policy intersight_storage_drive_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5052,8 +5052,8 @@ export class StorageDriveSecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_storage_drive_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

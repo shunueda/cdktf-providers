@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataYandexFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of requests processed by a function instance at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#concurrency DataYandexFunction#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#concurrency DataYandexFunction#concurrency}
   */
   readonly concurrency?: number;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#folder_id DataYandexFunction#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#folder_id DataYandexFunction#folder_id}
   */
   readonly folderId?: string;
   /**
   * Yandex Cloud Function id used to define function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#function_id DataYandexFunction#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#function_id DataYandexFunction#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#id DataYandexFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#id DataYandexFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface DataYandexFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#name DataYandexFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#name DataYandexFunction#name}
   */
   readonly name?: string;
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#connectivity DataYandexFunction#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#connectivity DataYandexFunction#connectivity}
   */
   readonly connectivity?: DataYandexFunctionConnectivity;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#metadata_options DataYandexFunction#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#metadata_options DataYandexFunction#metadata_options}
   */
   readonly metadataOptions?: DataYandexFunctionMetadataOptions;
   /**
   * mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#mounts DataYandexFunction#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#mounts DataYandexFunction#mounts}
   */
   readonly mounts?: DataYandexFunctionMounts[] | cdktf.IResolvable;
   /**
   * secrets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#secrets DataYandexFunction#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#secrets DataYandexFunction#secrets}
   */
   readonly secrets?: DataYandexFunctionSecrets[] | cdktf.IResolvable;
   /**
   * storage_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#storage_mounts DataYandexFunction#storage_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#storage_mounts DataYandexFunction#storage_mounts}
   */
   readonly storageMounts?: DataYandexFunctionStorageMounts[] | cdktf.IResolvable;
 }
@@ -413,7 +413,7 @@ export class DataYandexFunctionLogOptionsList extends cdktf.ComplexList {
 }
 export interface DataYandexFunctionConnectivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#network_id DataYandexFunction#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#network_id DataYandexFunction#network_id}
   */
   readonly networkId: string;
 }
@@ -494,11 +494,11 @@ export class DataYandexFunctionConnectivityOutputReference extends cdktf.Complex
 }
 export interface DataYandexFunctionMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#aws_v1_http_endpoint DataYandexFunction#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#aws_v1_http_endpoint DataYandexFunction#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#gce_http_endpoint DataYandexFunction#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#gce_http_endpoint DataYandexFunction#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
 }
@@ -611,11 +611,11 @@ export class DataYandexFunctionMetadataOptionsOutputReference extends cdktf.Comp
 }
 export interface DataYandexFunctionMountsEphemeralDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#block_size_kb DataYandexFunction#block_size_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#block_size_kb DataYandexFunction#block_size_kb}
   */
   readonly blockSizeKb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#size_gb DataYandexFunction#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#size_gb DataYandexFunction#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -725,11 +725,11 @@ export class DataYandexFunctionMountsEphemeralDiskOutputReference extends cdktf.
 }
 export interface DataYandexFunctionMountsObjectStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#bucket DataYandexFunction#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#bucket DataYandexFunction#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#prefix DataYandexFunction#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#prefix DataYandexFunction#prefix}
   */
   readonly prefix?: string;
 }
@@ -839,23 +839,23 @@ export class DataYandexFunctionMountsObjectStorageOutputReference extends cdktf.
 }
 export interface DataYandexFunctionMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#mode DataYandexFunction#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#mode DataYandexFunction#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#name DataYandexFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#name DataYandexFunction#name}
   */
   readonly name: string;
   /**
   * ephemeral_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#ephemeral_disk DataYandexFunction#ephemeral_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#ephemeral_disk DataYandexFunction#ephemeral_disk}
   */
   readonly ephemeralDisk?: DataYandexFunctionMountsEphemeralDisk;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#object_storage DataYandexFunction#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#object_storage DataYandexFunction#object_storage}
   */
   readonly objectStorage?: DataYandexFunctionMountsObjectStorage;
 }
@@ -1055,22 +1055,22 @@ export class DataYandexFunctionMountsList extends cdktf.ComplexList {
 }
 export interface DataYandexFunctionSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#environment_variable DataYandexFunction#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#environment_variable DataYandexFunction#environment_variable}
   */
   readonly environmentVariable: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#id DataYandexFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#id DataYandexFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#key DataYandexFunction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#key DataYandexFunction#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#version_id DataYandexFunction#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#version_id DataYandexFunction#version_id}
   */
   readonly versionId: string;
 }
@@ -1261,19 +1261,19 @@ export class DataYandexFunctionSecretsList extends cdktf.ComplexList {
 }
 export interface DataYandexFunctionStorageMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#bucket DataYandexFunction#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#bucket DataYandexFunction#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#mount_point_name DataYandexFunction#mount_point_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#mount_point_name DataYandexFunction#mount_point_name}
   */
   readonly mountPointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#prefix DataYandexFunction#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#prefix DataYandexFunction#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#read_only DataYandexFunction#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#read_only DataYandexFunction#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1470,7 +1470,7 @@ export class DataYandexFunctionStorageMountsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function yandex_function}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function yandex_function}
 */
 export class DataYandexFunction extends cdktf.TerraformDataSource {
 
@@ -1486,7 +1486,7 @@ export class DataYandexFunction extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexFunction to import
-  * @param importFromId The id of the existing DataYandexFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1498,7 +1498,7 @@ export class DataYandexFunction extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/function yandex_function} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/function yandex_function} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1509,8 +1509,8 @@ export class DataYandexFunction extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_function',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

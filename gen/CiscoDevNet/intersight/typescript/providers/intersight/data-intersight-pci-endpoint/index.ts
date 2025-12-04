@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightPciEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#account_moid DataIntersightPciEndpoint#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#account_moid DataIntersightPciEndpoint#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,31 +22,31 @@ export interface DataIntersightPciEndpointConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#create_time DataIntersightPciEndpoint#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#create_time DataIntersightPciEndpoint#create_time}
   */
   readonly createTime?: string;
   /**
   * The identifier of the enclosure device of the actual physical device to which the logical PCIe endpoint is pointing to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#device_enclosure_id DataIntersightPciEndpoint#device_enclosure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#device_enclosure_id DataIntersightPciEndpoint#device_enclosure_id}
   */
   readonly deviceEnclosureId?: number;
   /**
   * The identifier of the actual physical device to which the logical PCIe endpoint is pointing to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#device_id DataIntersightPciEndpoint#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#device_id DataIntersightPciEndpoint#device_id}
   */
   readonly deviceId?: number;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#device_mo_id DataIntersightPciEndpoint#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#device_mo_id DataIntersightPciEndpoint#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
@@ -56,29 +56,29 @@ export interface DataIntersightPciEndpointConfig extends cdktf.TerraformMetaArgu
   * * `CPU` - The device type of the physical device is CPU.
   * * `GPU` - The device type of the physical device is GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#device_type DataIntersightPciEndpoint#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#device_type DataIntersightPciEndpoint#device_type}
   */
   readonly deviceType?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#dn DataIntersightPciEndpoint#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#dn DataIntersightPciEndpoint#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#domain_group_moid DataIntersightPciEndpoint#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#domain_group_moid DataIntersightPciEndpoint#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The identifier of the PCIe endpoint within a X-Fabric module PCIe switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#endpoint_id DataIntersightPciEndpoint#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#endpoint_id DataIntersightPciEndpoint#endpoint_id}
   */
   readonly endpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#id DataIntersightPciEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#id DataIntersightPciEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,137 +87,137 @@ export interface DataIntersightPciEndpointConfig extends cdktf.TerraformMetaArgu
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#mod_time DataIntersightPciEndpoint#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#mod_time DataIntersightPciEndpoint#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The name of the PCIe endpoint, as reported by the XFM platform software (BMC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#name DataIntersightPciEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#name DataIntersightPciEndpoint#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#oper_reason DataIntersightPciEndpoint#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#oper_reason DataIntersightPciEndpoint#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * Operational state of the PCIe endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#oper_state DataIntersightPciEndpoint#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#oper_state DataIntersightPciEndpoint#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#owners DataIntersightPciEndpoint#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#owners DataIntersightPciEndpoint#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#rn DataIntersightPciEndpoint#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#rn DataIntersightPciEndpoint#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#shared_scope DataIntersightPciEndpoint#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#shared_scope DataIntersightPciEndpoint#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The unique identifier of the PCIe endpoint as reported by the chassis expander management controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#uri DataIntersightPciEndpoint#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#uri DataIntersightPciEndpoint#uri}
   */
   readonly uri?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#ancestors DataIntersightPciEndpoint#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#ancestors DataIntersightPciEndpoint#ancestors}
   */
   readonly ancestors?: DataIntersightPciEndpointAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#inventory_device_info DataIntersightPciEndpoint#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#inventory_device_info DataIntersightPciEndpoint#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightPciEndpointInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#parent DataIntersightPciEndpoint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#parent DataIntersightPciEndpoint#parent}
   */
   readonly parent?: DataIntersightPciEndpointParent;
   /**
   * pci_switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#pci_switch DataIntersightPciEndpoint#pci_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#pci_switch DataIntersightPciEndpoint#pci_switch}
   */
   readonly pciSwitch?: DataIntersightPciEndpointPciSwitch;
   /**
   * pci_switch_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#pci_switch_port DataIntersightPciEndpoint#pci_switch_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#pci_switch_port DataIntersightPciEndpoint#pci_switch_port}
   */
   readonly pciSwitchPort?: DataIntersightPciEndpointPciSwitchPort;
   /**
   * pci_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#pci_zone DataIntersightPciEndpoint#pci_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#pci_zone DataIntersightPciEndpoint#pci_zone}
   */
   readonly pciZone?: DataIntersightPciEndpointPciZone;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#permission_resources DataIntersightPciEndpoint#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#permission_resources DataIntersightPciEndpoint#permission_resources}
   */
   readonly permissionResources?: DataIntersightPciEndpointPermissionResources[] | cdktf.IResolvable;
   /**
   * processor_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#processor_unit DataIntersightPciEndpoint#processor_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#processor_unit DataIntersightPciEndpoint#processor_unit}
   */
   readonly processorUnit?: DataIntersightPciEndpointProcessorUnit;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#registered_device DataIntersightPciEndpoint#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#registered_device DataIntersightPciEndpoint#registered_device}
   */
   readonly registeredDevice?: DataIntersightPciEndpointRegisteredDevice;
   /**
   * shared_adapter_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#shared_adapter_unit DataIntersightPciEndpoint#shared_adapter_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#shared_adapter_unit DataIntersightPciEndpoint#shared_adapter_unit}
   */
   readonly sharedAdapterUnit?: DataIntersightPciEndpointSharedAdapterUnit;
   /**
   * shared_graphics_card block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#shared_graphics_card DataIntersightPciEndpoint#shared_graphics_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#shared_graphics_card DataIntersightPciEndpoint#shared_graphics_card}
   */
   readonly sharedGraphicsCard?: DataIntersightPciEndpointSharedGraphicsCard;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#tags DataIntersightPciEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#tags DataIntersightPciEndpoint#tags}
   */
   readonly tags?: DataIntersightPciEndpointTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#version_context DataIntersightPciEndpoint#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#version_context DataIntersightPciEndpoint#version_context}
   */
   readonly versionContext?: DataIntersightPciEndpointVersionContext;
 }
@@ -2130,7 +2130,7 @@ export class DataIntersightPciEndpointResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciEndpointAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2138,19 +2138,19 @@ export interface DataIntersightPciEndpointAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2163,7 +2163,7 @@ export interface DataIntersightPciEndpointAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2395,7 +2395,7 @@ export class DataIntersightPciEndpointAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciEndpointInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2403,19 +2403,19 @@ export interface DataIntersightPciEndpointInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2428,7 +2428,7 @@ export interface DataIntersightPciEndpointInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2628,7 +2628,7 @@ export class DataIntersightPciEndpointInventoryDeviceInfoOutputReference extends
 }
 export interface DataIntersightPciEndpointParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2636,19 +2636,19 @@ export interface DataIntersightPciEndpointParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2661,7 +2661,7 @@ export interface DataIntersightPciEndpointParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -2861,7 +2861,7 @@ export class DataIntersightPciEndpointParentOutputReference extends cdktf.Comple
 }
 export interface DataIntersightPciEndpointPciSwitch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2869,19 +2869,19 @@ export interface DataIntersightPciEndpointPciSwitch {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2894,7 +2894,7 @@ export interface DataIntersightPciEndpointPciSwitch {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3094,7 +3094,7 @@ export class DataIntersightPciEndpointPciSwitchOutputReference extends cdktf.Com
 }
 export interface DataIntersightPciEndpointPciSwitchPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3102,19 +3102,19 @@ export interface DataIntersightPciEndpointPciSwitchPort {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3127,7 +3127,7 @@ export interface DataIntersightPciEndpointPciSwitchPort {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3327,7 +3327,7 @@ export class DataIntersightPciEndpointPciSwitchPortOutputReference extends cdktf
 }
 export interface DataIntersightPciEndpointPciZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3335,19 +3335,19 @@ export interface DataIntersightPciEndpointPciZone {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3360,7 +3360,7 @@ export interface DataIntersightPciEndpointPciZone {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3560,7 +3560,7 @@ export class DataIntersightPciEndpointPciZoneOutputReference extends cdktf.Compl
 }
 export interface DataIntersightPciEndpointPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3568,19 +3568,19 @@ export interface DataIntersightPciEndpointPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3593,7 +3593,7 @@ export interface DataIntersightPciEndpointPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -3825,7 +3825,7 @@ export class DataIntersightPciEndpointPermissionResourcesList extends cdktf.Comp
 }
 export interface DataIntersightPciEndpointProcessorUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3833,19 +3833,19 @@ export interface DataIntersightPciEndpointProcessorUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3858,7 +3858,7 @@ export interface DataIntersightPciEndpointProcessorUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4058,7 +4058,7 @@ export class DataIntersightPciEndpointProcessorUnitOutputReference extends cdktf
 }
 export interface DataIntersightPciEndpointRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4066,19 +4066,19 @@ export interface DataIntersightPciEndpointRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4091,7 +4091,7 @@ export interface DataIntersightPciEndpointRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4291,7 +4291,7 @@ export class DataIntersightPciEndpointRegisteredDeviceOutputReference extends cd
 }
 export interface DataIntersightPciEndpointSharedAdapterUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4299,19 +4299,19 @@ export interface DataIntersightPciEndpointSharedAdapterUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4324,7 +4324,7 @@ export interface DataIntersightPciEndpointSharedAdapterUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4524,7 +4524,7 @@ export class DataIntersightPciEndpointSharedAdapterUnitOutputReference extends c
 }
 export interface DataIntersightPciEndpointSharedGraphicsCard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4532,19 +4532,19 @@ export interface DataIntersightPciEndpointSharedGraphicsCard {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4557,7 +4557,7 @@ export interface DataIntersightPciEndpointSharedGraphicsCard {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -4757,7 +4757,7 @@ export class DataIntersightPciEndpointSharedGraphicsCardOutputReference extends 
 }
 export interface DataIntersightPciEndpointTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4765,19 +4765,19 @@ export interface DataIntersightPciEndpointTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4790,7 +4790,7 @@ export interface DataIntersightPciEndpointTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -5022,7 +5022,7 @@ export class DataIntersightPciEndpointTagsAncestorDefinitionsList extends cdktf.
 }
 export interface DataIntersightPciEndpointTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5030,19 +5030,19 @@ export interface DataIntersightPciEndpointTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5055,7 +5055,7 @@ export interface DataIntersightPciEndpointTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -5255,25 +5255,25 @@ export class DataIntersightPciEndpointTagsDefinitionOutputReference extends cdkt
 }
 export interface DataIntersightPciEndpointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#key DataIntersightPciEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#key DataIntersightPciEndpoint#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#propagated DataIntersightPciEndpoint#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#propagated DataIntersightPciEndpoint#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#sys_tag DataIntersightPciEndpoint#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#sys_tag DataIntersightPciEndpoint#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -5281,25 +5281,25 @@ export interface DataIntersightPciEndpointTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#type DataIntersightPciEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#type DataIntersightPciEndpoint#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#value DataIntersightPciEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#value DataIntersightPciEndpoint#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#ancestor_definitions DataIntersightPciEndpoint#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#ancestor_definitions DataIntersightPciEndpoint#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightPciEndpointTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#definition DataIntersightPciEndpoint#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#definition DataIntersightPciEndpoint#definition}
   */
   readonly definition?: DataIntersightPciEndpointTagsDefinition;
 }
@@ -5618,7 +5618,7 @@ export class DataIntersightPciEndpointTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightPciEndpointVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5626,19 +5626,19 @@ export interface DataIntersightPciEndpointVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5651,7 +5651,7 @@ export interface DataIntersightPciEndpointVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -5883,7 +5883,7 @@ export class DataIntersightPciEndpointVersionContextInterestedMosList extends cd
 }
 export interface DataIntersightPciEndpointVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5891,19 +5891,19 @@ export interface DataIntersightPciEndpointVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#moid DataIntersightPciEndpoint#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5916,7 +5916,7 @@ export interface DataIntersightPciEndpointVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#selector DataIntersightPciEndpoint#selector}
   */
   readonly selector?: string;
 }
@@ -6116,7 +6116,7 @@ export class DataIntersightPciEndpointVersionContextRefMoOutputReference extends
 }
 export interface DataIntersightPciEndpointVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#additional_properties DataIntersightPciEndpoint#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6124,32 +6124,32 @@ export interface DataIntersightPciEndpointVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#class_id DataIntersightPciEndpoint#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#marked_for_deletion DataIntersightPciEndpoint#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#marked_for_deletion DataIntersightPciEndpoint#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#nr_version DataIntersightPciEndpoint#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#nr_version DataIntersightPciEndpoint#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#object_type DataIntersightPciEndpoint#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#timestamp DataIntersightPciEndpoint#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#timestamp DataIntersightPciEndpoint#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6160,19 +6160,19 @@ export interface DataIntersightPciEndpointVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#version_type DataIntersightPciEndpoint#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#version_type DataIntersightPciEndpoint#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#interested_mos DataIntersightPciEndpoint#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#interested_mos DataIntersightPciEndpoint#interested_mos}
   */
   readonly interestedMos?: DataIntersightPciEndpointVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#ref_mo DataIntersightPciEndpoint#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#ref_mo DataIntersightPciEndpoint#ref_mo}
   */
   readonly refMo?: DataIntersightPciEndpointVersionContextRefMo;
 }
@@ -6488,7 +6488,7 @@ export class DataIntersightPciEndpointVersionContextOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint intersight_pci_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint intersight_pci_endpoint}
 */
 export class DataIntersightPciEndpoint extends cdktf.TerraformDataSource {
 
@@ -6504,7 +6504,7 @@ export class DataIntersightPciEndpoint extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightPciEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightPciEndpoint to import
-  * @param importFromId The id of the existing DataIntersightPciEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightPciEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightPciEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6516,7 +6516,7 @@ export class DataIntersightPciEndpoint extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/pci_endpoint intersight_pci_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/pci_endpoint intersight_pci_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6527,8 +6527,8 @@ export class DataIntersightPciEndpoint extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_pci_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RecommendationPurchaseOrderEstimateConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#account_moid RecommendationPurchaseOrderEstimate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#account_moid RecommendationPurchaseOrderEstimate#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -18,17 +18,17 @@ export interface RecommendationPurchaseOrderEstimateConfig extends cdktf.Terrafo
   * * `None` - The Enum value None represents that no action is triggered on the forecast Instance managed object.
   * * `Evaluate` - The Enum value Evaluate represents that a re-evaluation of the forecast needs to be triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#action RecommendationPurchaseOrderEstimate#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#action RecommendationPurchaseOrderEstimate#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#ancestors RecommendationPurchaseOrderEstimate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#ancestors RecommendationPurchaseOrderEstimate#ancestors}
   */
   readonly ancestors?: RecommendationPurchaseOrderEstimateAncestors[] | cdktf.IResolvable;
   /**
@@ -36,43 +36,43 @@ export interface RecommendationPurchaseOrderEstimateConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a recommendationClusterExpansion resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#cluster_expansion RecommendationPurchaseOrderEstimate#cluster_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#cluster_expansion RecommendationPurchaseOrderEstimate#cluster_expansion}
   */
   readonly clusterExpansion?: RecommendationPurchaseOrderEstimateClusterExpansion[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#create_time RecommendationPurchaseOrderEstimate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#create_time RecommendationPurchaseOrderEstimate#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#domain_group_moid RecommendationPurchaseOrderEstimate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#domain_group_moid RecommendationPurchaseOrderEstimate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The unique identification generated by the Cisco commerce APIs portal to identify the recommended bill of materials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#estimate_id RecommendationPurchaseOrderEstimate#estimate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#estimate_id RecommendationPurchaseOrderEstimate#estimate_id}
   */
   readonly estimateId?: string;
   /**
   * A reference to a iamUser resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#estimate_owner RecommendationPurchaseOrderEstimate#estimate_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#estimate_owner RecommendationPurchaseOrderEstimate#estimate_owner}
   */
   readonly estimateOwner?: RecommendationPurchaseOrderEstimateEstimateOwner[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#id RecommendationPurchaseOrderEstimate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#id RecommendationPurchaseOrderEstimate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,68 +81,68 @@ export interface RecommendationPurchaseOrderEstimateConfig extends cdktf.Terrafo
   /**
   * The time when the recommendation was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#last_updated_time RecommendationPurchaseOrderEstimate#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#last_updated_time RecommendationPurchaseOrderEstimate#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
   * The user visible message which indicates any errors encountered in making the external API call to get the estimate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#message RecommendationPurchaseOrderEstimate#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#message RecommendationPurchaseOrderEstimate#message}
   */
   readonly message?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#mod_time RecommendationPurchaseOrderEstimate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#mod_time RecommendationPurchaseOrderEstimate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
   * The name of the recommendation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#name RecommendationPurchaseOrderEstimate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#name RecommendationPurchaseOrderEstimate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#owners RecommendationPurchaseOrderEstimate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#owners RecommendationPurchaseOrderEstimate#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#parent RecommendationPurchaseOrderEstimate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#parent RecommendationPurchaseOrderEstimate#parent}
   */
   readonly parent?: RecommendationPurchaseOrderEstimateParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#permission_resources RecommendationPurchaseOrderEstimate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#permission_resources RecommendationPurchaseOrderEstimate#permission_resources}
   */
   readonly permissionResources?: RecommendationPurchaseOrderEstimatePermissionResources[] | cdktf.IResolvable;
   /**
   * Indicates if the recommendation requirement is met by the existing setup by adding hardware components to it or it needs expansion. For example if the recommendation is to add 16 disks to a HyperFlex cluster but the cluster is already alost full and only 8 disks can be added, then this property is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#requirement_met RecommendationPurchaseOrderEstimate#requirement_met}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#requirement_met RecommendationPurchaseOrderEstimate#requirement_met}
   */
   readonly requirementMet?: boolean | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#shared_scope RecommendationPurchaseOrderEstimate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#shared_scope RecommendationPurchaseOrderEstimate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -151,45 +151,45 @@ export interface RecommendationPurchaseOrderEstimateConfig extends cdktf.Terrafo
   * * `Success` - The Enum value Success represents that the API call returned with success.
   * * `Fail` - The Enum value Fail represents that the API call returned with a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#status RecommendationPurchaseOrderEstimate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#status RecommendationPurchaseOrderEstimate#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#tags RecommendationPurchaseOrderEstimate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#tags RecommendationPurchaseOrderEstimate#tags}
   */
   readonly tags?: RecommendationPurchaseOrderEstimateTags[] | cdktf.IResolvable;
   /**
   * The total cost of all the recommended hardware in the bill of materials for the corresponding estimate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#total_cost RecommendationPurchaseOrderEstimate#total_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#total_cost RecommendationPurchaseOrderEstimate#total_cost}
   */
   readonly totalCost?: number;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#version_context RecommendationPurchaseOrderEstimate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#version_context RecommendationPurchaseOrderEstimate#version_context}
   */
   readonly versionContext?: RecommendationPurchaseOrderEstimateVersionContext[] | cdktf.IResolvable;
 }
 export interface RecommendationPurchaseOrderEstimateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -421,23 +421,23 @@ export class RecommendationPurchaseOrderEstimateAncestorsList extends cdktf.Comp
 }
 export interface RecommendationPurchaseOrderEstimateClusterExpansion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -669,23 +669,23 @@ export class RecommendationPurchaseOrderEstimateClusterExpansionList extends cdk
 }
 export interface RecommendationPurchaseOrderEstimateEstimateOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -917,23 +917,23 @@ export class RecommendationPurchaseOrderEstimateEstimateOwnerList extends cdktf.
 }
 export interface RecommendationPurchaseOrderEstimateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -1165,23 +1165,23 @@ export class RecommendationPurchaseOrderEstimateParentList extends cdktf.Complex
 }
 export interface RecommendationPurchaseOrderEstimatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -1413,23 +1413,23 @@ export class RecommendationPurchaseOrderEstimatePermissionResourcesList extends 
 }
 export interface RecommendationPurchaseOrderEstimateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -1661,23 +1661,23 @@ export class RecommendationPurchaseOrderEstimateTagsAncestorDefinitionsList exte
 }
 export interface RecommendationPurchaseOrderEstimateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -1909,35 +1909,35 @@ export class RecommendationPurchaseOrderEstimateTagsDefinitionList extends cdktf
 }
 export interface RecommendationPurchaseOrderEstimateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#ancestor_definitions RecommendationPurchaseOrderEstimate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#ancestor_definitions RecommendationPurchaseOrderEstimate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: RecommendationPurchaseOrderEstimateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#definition RecommendationPurchaseOrderEstimate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#definition RecommendationPurchaseOrderEstimate#definition}
   */
   readonly definition?: RecommendationPurchaseOrderEstimateTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#key RecommendationPurchaseOrderEstimate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#key RecommendationPurchaseOrderEstimate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#propagated RecommendationPurchaseOrderEstimate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#propagated RecommendationPurchaseOrderEstimate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#sys_tag RecommendationPurchaseOrderEstimate#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#sys_tag RecommendationPurchaseOrderEstimate#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#type RecommendationPurchaseOrderEstimate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#type RecommendationPurchaseOrderEstimate#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#value RecommendationPurchaseOrderEstimate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#value RecommendationPurchaseOrderEstimate#value}
   */
   readonly value?: string;
 }
@@ -2256,23 +2256,23 @@ export class RecommendationPurchaseOrderEstimateTagsList extends cdktf.ComplexLi
 }
 export interface RecommendationPurchaseOrderEstimateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -2504,23 +2504,23 @@ export class RecommendationPurchaseOrderEstimateVersionContextInterestedMosList 
 }
 export interface RecommendationPurchaseOrderEstimateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#moid RecommendationPurchaseOrderEstimate#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#selector RecommendationPurchaseOrderEstimate#selector}
   */
   readonly selector?: string;
 }
@@ -2752,39 +2752,39 @@ export class RecommendationPurchaseOrderEstimateVersionContextRefMoList extends 
 }
 export interface RecommendationPurchaseOrderEstimateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#additional_properties RecommendationPurchaseOrderEstimate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#class_id RecommendationPurchaseOrderEstimate#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#interested_mos RecommendationPurchaseOrderEstimate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#interested_mos RecommendationPurchaseOrderEstimate#interested_mos}
   */
   readonly interestedMos?: RecommendationPurchaseOrderEstimateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#marked_for_deletion RecommendationPurchaseOrderEstimate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#marked_for_deletion RecommendationPurchaseOrderEstimate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#nr_version RecommendationPurchaseOrderEstimate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#nr_version RecommendationPurchaseOrderEstimate#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#object_type RecommendationPurchaseOrderEstimate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#ref_mo RecommendationPurchaseOrderEstimate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#ref_mo RecommendationPurchaseOrderEstimate#ref_mo}
   */
   readonly refMo?: RecommendationPurchaseOrderEstimateVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#timestamp RecommendationPurchaseOrderEstimate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#timestamp RecommendationPurchaseOrderEstimate#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#version_type RecommendationPurchaseOrderEstimate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#version_type RecommendationPurchaseOrderEstimate#version_type}
   */
   readonly versionType?: string;
 }
@@ -3132,7 +3132,7 @@ export class RecommendationPurchaseOrderEstimateVersionContextList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate intersight_recommendation_purchase_order_estimate}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate intersight_recommendation_purchase_order_estimate}
 */
 export class RecommendationPurchaseOrderEstimate extends cdktf.TerraformResource {
 
@@ -3148,7 +3148,7 @@ export class RecommendationPurchaseOrderEstimate extends cdktf.TerraformResource
   * Generates CDKTF code for importing a RecommendationPurchaseOrderEstimate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RecommendationPurchaseOrderEstimate to import
-  * @param importFromId The id of the existing RecommendationPurchaseOrderEstimate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RecommendationPurchaseOrderEstimate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RecommendationPurchaseOrderEstimate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3160,7 +3160,7 @@ export class RecommendationPurchaseOrderEstimate extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/recommendation_purchase_order_estimate intersight_recommendation_purchase_order_estimate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/recommendation_purchase_order_estimate intersight_recommendation_purchase_order_estimate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3171,8 +3171,8 @@ export class RecommendationPurchaseOrderEstimate extends cdktf.TerraformResource
       terraformResourceType: 'intersight_recommendation_purchase_order_estimate',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

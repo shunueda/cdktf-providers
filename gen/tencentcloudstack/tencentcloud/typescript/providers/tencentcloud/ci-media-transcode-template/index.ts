@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaTranscodeTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#bucket CiMediaTranscodeTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#bucket CiMediaTranscodeTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#id CiMediaTranscodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#id CiMediaTranscodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface CiMediaTranscodeTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#name CiMediaTranscodeTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#name CiMediaTranscodeTemplate#name}
   */
   readonly name: string;
   /**
   * audio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#audio CiMediaTranscodeTemplate#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#audio CiMediaTranscodeTemplate#audio}
   */
   readonly audio?: CiMediaTranscodeTemplateAudio;
   /**
   * audio_mix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#audio_mix CiMediaTranscodeTemplate#audio_mix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#audio_mix CiMediaTranscodeTemplate#audio_mix}
   */
   readonly audioMix?: CiMediaTranscodeTemplateAudioMix[] | cdktf.IResolvable;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#container CiMediaTranscodeTemplate#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#container CiMediaTranscodeTemplate#container}
   */
   readonly container: CiMediaTranscodeTemplateContainer;
   /**
   * time_interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#time_interval CiMediaTranscodeTemplate#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#time_interval CiMediaTranscodeTemplate#time_interval}
   */
   readonly timeInterval?: CiMediaTranscodeTemplateTimeInterval;
   /**
   * trans_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#trans_config CiMediaTranscodeTemplate#trans_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#trans_config CiMediaTranscodeTemplate#trans_config}
   */
   readonly transConfig?: CiMediaTranscodeTemplateTransConfig;
   /**
   * video block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#video CiMediaTranscodeTemplate#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#video CiMediaTranscodeTemplate#video}
   */
   readonly video?: CiMediaTranscodeTemplateVideo;
 }
@@ -67,49 +67,49 @@ export interface CiMediaTranscodeTemplateAudio {
   /**
   * Original audio bit rate, unit: Kbps, Value range: [8, 1000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#bitrate CiMediaTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#bitrate CiMediaTranscodeTemplate#bitrate}
   */
   readonly bitrate?: string;
   /**
   * number of channels- When Codec is set to aac/flac, support 1, 2, 4, 5, 6, 8- When Codec is set to mp3/opus, support 1, 2- When Codec is set to Vorbis, only 2 is supported- When Codec is set to amr, only 1 is supported- When Codec is set to pcm_s16le, only 1 and 2 are supported- When the encapsulation format is dash, 8 is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#channels CiMediaTranscodeTemplate#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#channels CiMediaTranscodeTemplate#channels}
   */
   readonly channels?: string;
   /**
   * Codec format, value aac, mp3, flac, amr, Vorbis, opus, pcm_s16le.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#codec CiMediaTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#codec CiMediaTranscodeTemplate#codec}
   */
   readonly codec?: string;
   /**
   * Keep dual audio tracks, the value is true, false. This parameter is invalid when Video.Codec is H.265.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#keep_two_tracks CiMediaTranscodeTemplate#keep_two_tracks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#keep_two_tracks CiMediaTranscodeTemplate#keep_two_tracks}
   */
   readonly keepTwoTracks?: string;
   /**
   * Whether to delete the source audio stream, the value is true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#remove CiMediaTranscodeTemplate#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#remove CiMediaTranscodeTemplate#remove}
   */
   readonly remove?: string;
   /**
   * Sampling bit width- When Codec is set to aac, support fltp- When Codec is set to mp3, fltp, s16p, s32p are supported- When Codec is set to flac, s16, s32, s16p, s32p are supported- When Codec is set to amr, support s16, s16p- When Codec is set to opus, support s16- When Codec is set to pcm_s16le, support s16- When Codec is set to Vorbis, support fltp- This parameter is invalid when Video.Codec is H.265.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#sample_format CiMediaTranscodeTemplate#sample_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#sample_format CiMediaTranscodeTemplate#sample_format}
   */
   readonly sampleFormat?: string;
   /**
   * Sampling Rate- Unit: Hz- Optional 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000, 88200, 96000- Different packages, mp3 supports different sampling rates, as shown in the table below- When Codec is set to amr, only 8000 is supported- When Codec is set to opus, it supports 8000, 16000, 24000, 48000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#samplerate CiMediaTranscodeTemplate#samplerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#samplerate CiMediaTranscodeTemplate#samplerate}
   */
   readonly samplerate?: string;
   /**
   * Convert track, the value is true, false. This parameter is invalid when Video.Codec is H.265.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#switch_track CiMediaTranscodeTemplate#switch_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#switch_track CiMediaTranscodeTemplate#switch_track}
   */
   readonly switchTrack?: string;
 }
@@ -398,37 +398,37 @@ export interface CiMediaTranscodeTemplateAudioMixEffectConfig {
   /**
   * bgm transition fade-in duration, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#bgm_fade_time CiMediaTranscodeTemplate#bgm_fade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#bgm_fade_time CiMediaTranscodeTemplate#bgm_fade_time}
   */
   readonly bgmFadeTime?: string;
   /**
   * Enable bgm conversion fade in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#enable_bgm_fade CiMediaTranscodeTemplate#enable_bgm_fade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#enable_bgm_fade CiMediaTranscodeTemplate#enable_bgm_fade}
   */
   readonly enableBgmFade?: string;
   /**
   * enable fade out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#enable_end_fadeout CiMediaTranscodeTemplate#enable_end_fadeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#enable_end_fadeout CiMediaTranscodeTemplate#enable_end_fadeout}
   */
   readonly enableEndFadeout?: string;
   /**
   * enable fade in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#enable_start_fadein CiMediaTranscodeTemplate#enable_start_fadein}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#enable_start_fadein CiMediaTranscodeTemplate#enable_start_fadein}
   */
   readonly enableStartFadein?: string;
   /**
   * fade out time, greater than 0, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#end_fadeout_time CiMediaTranscodeTemplate#end_fadeout_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#end_fadeout_time CiMediaTranscodeTemplate#end_fadeout_time}
   */
   readonly endFadeoutTime?: string;
   /**
   * Fade in duration, greater than 0, support floating point numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#start_fadein_time CiMediaTranscodeTemplate#start_fadein_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#start_fadein_time CiMediaTranscodeTemplate#start_fadein_time}
   */
   readonly startFadeinTime?: string;
 }
@@ -659,25 +659,25 @@ export interface CiMediaTranscodeTemplateAudioMix {
   /**
   * The media address of the audio track that needs to be mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#audio_source CiMediaTranscodeTemplate#audio_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#audio_source CiMediaTranscodeTemplate#audio_source}
   */
   readonly audioSource: string;
   /**
   * Mixing mode Repeat: background sound loop, Once: The background sound is played once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#mix_mode CiMediaTranscodeTemplate#mix_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#mix_mode CiMediaTranscodeTemplate#mix_mode}
   */
   readonly mixMode?: string;
   /**
   * Whether to replace the original audio of the Input media file with the mixed audio track media.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#replace CiMediaTranscodeTemplate#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#replace CiMediaTranscodeTemplate#replace}
   */
   readonly replace?: string;
   /**
   * effect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#effect_config CiMediaTranscodeTemplate#effect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#effect_config CiMediaTranscodeTemplate#effect_config}
   */
   readonly effectConfig?: CiMediaTranscodeTemplateAudioMixEffectConfig;
 }
@@ -879,7 +879,7 @@ export interface CiMediaTranscodeTemplateContainerClipConfig {
   /**
   * Fragmentation duration, default 5s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#duration CiMediaTranscodeTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#duration CiMediaTranscodeTemplate#duration}
   */
   readonly duration?: string;
 }
@@ -965,13 +965,13 @@ export interface CiMediaTranscodeTemplateContainer {
   /**
   * Package format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#format CiMediaTranscodeTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#format CiMediaTranscodeTemplate#format}
   */
   readonly format: string;
   /**
   * clip_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#clip_config CiMediaTranscodeTemplate#clip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#clip_config CiMediaTranscodeTemplate#clip_config}
   */
   readonly clipConfig?: CiMediaTranscodeTemplateContainerClipConfig;
 }
@@ -1083,13 +1083,13 @@ export interface CiMediaTranscodeTemplateTimeInterval {
   /**
   * duration, [0 video duration], in seconds, Support float format, the execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#duration CiMediaTranscodeTemplate#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#duration CiMediaTranscodeTemplate#duration}
   */
   readonly duration?: string;
   /**
   * Starting time, [0 video duration], in seconds, Support float format, the execution accuracy is accurate to milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#start CiMediaTranscodeTemplate#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#start CiMediaTranscodeTemplate#start}
   */
   readonly start?: string;
 }
@@ -1204,13 +1204,13 @@ export interface CiMediaTranscodeTemplateTransConfigHlsEncrypt {
   /**
   * Whether to enable HLS encryption, support encryption when Container.Format is hls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#is_hls_encrypt CiMediaTranscodeTemplate#is_hls_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#is_hls_encrypt CiMediaTranscodeTemplate#is_hls_encrypt}
   */
   readonly isHlsEncrypt?: string;
   /**
   * HLS encrypted key, this parameter is only meaningful when IsHlsEncrypt is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#uri_key CiMediaTranscodeTemplate#uri_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#uri_key CiMediaTranscodeTemplate#uri_key}
   */
   readonly uriKey?: string;
 }
@@ -1325,61 +1325,61 @@ export interface CiMediaTranscodeTemplateTransConfig {
   /**
   * Resolution adjustment method, value scale, crop, pad, none, When the aspect ratio of the output video is different from the original video, adjust the resolution accordingly according to this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#adj_dar_method CiMediaTranscodeTemplate#adj_dar_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#adj_dar_method CiMediaTranscodeTemplate#adj_dar_method}
   */
   readonly adjDarMethod?: string;
   /**
   * Audio bit rate adjustment mode, value 0, 1; when the output audio bit rate is greater than the original audio bit rate, 0 means use the original audio bit rate; 1 means return transcoding failed, Take effect when IsCheckAudioBitrate is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#audio_bitrate_adj_method CiMediaTranscodeTemplate#audio_bitrate_adj_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#audio_bitrate_adj_method CiMediaTranscodeTemplate#audio_bitrate_adj_method}
   */
   readonly audioBitrateAdjMethod?: string;
   /**
   * Whether to delete the MetaData information in the file, true, false, When false, keep source file information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#delete_metadata CiMediaTranscodeTemplate#delete_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#delete_metadata CiMediaTranscodeTemplate#delete_metadata}
   */
   readonly deleteMetadata?: string;
   /**
   * Whether to check the audio code rate, true, false, When false, transcode according to configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#is_check_audio_bitrate CiMediaTranscodeTemplate#is_check_audio_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#is_check_audio_bitrate CiMediaTranscodeTemplate#is_check_audio_bitrate}
   */
   readonly isCheckAudioBitrate?: string;
   /**
   * Whether to check the resolution, when it is false, transcode according to the configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#is_check_reso CiMediaTranscodeTemplate#is_check_reso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#is_check_reso CiMediaTranscodeTemplate#is_check_reso}
   */
   readonly isCheckReso?: string;
   /**
   * Whether to check the video code rate, when it is false, transcode according to the configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#is_check_video_bitrate CiMediaTranscodeTemplate#is_check_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#is_check_video_bitrate CiMediaTranscodeTemplate#is_check_video_bitrate}
   */
   readonly isCheckVideoBitrate?: string;
   /**
   * Whether to enable HDR to SDR true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#is_hdr2_sdr CiMediaTranscodeTemplate#is_hdr2_sdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#is_hdr2_sdr CiMediaTranscodeTemplate#is_hdr2_sdr}
   */
   readonly isHdr2Sdr?: string;
   /**
   * Resolution adjustment mode, value 0, 1; 0 means use the original video resolution; 1 means return transcoding failed, Take effect when IsCheckReso is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#reso_adj_method CiMediaTranscodeTemplate#reso_adj_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#reso_adj_method CiMediaTranscodeTemplate#reso_adj_method}
   */
   readonly resoAdjMethod?: string;
   /**
   * Video bit rate adjustment method, value 0, 1; when the output video bit rate is greater than the original video bit rate, 0 means use the original video bit rate; 1 means return transcoding failed, Take effect when IsCheckVideoBitrate is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#video_bitrate_adj_method CiMediaTranscodeTemplate#video_bitrate_adj_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#video_bitrate_adj_method CiMediaTranscodeTemplate#video_bitrate_adj_method}
   */
   readonly videoBitrateAdjMethod?: string;
   /**
   * hls_encrypt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#hls_encrypt CiMediaTranscodeTemplate#hls_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#hls_encrypt CiMediaTranscodeTemplate#hls_encrypt}
   */
   readonly hlsEncrypt?: CiMediaTranscodeTemplateTransConfigHlsEncrypt;
 }
@@ -1726,91 +1726,91 @@ export interface CiMediaTranscodeTemplateVideo {
   /**
   * Bit rate of video output file, value range: [10, 50000], unit: Kbps, auto means adaptive bit rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#bitrate CiMediaTranscodeTemplate#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#bitrate CiMediaTranscodeTemplate#bitrate}
   */
   readonly bitrate?: string;
   /**
   * buffer size, Value range: [1000, 128000], Unit: Kb, This parameter is not supported when Codec is VP8/VP9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#bufsize CiMediaTranscodeTemplate#bufsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#bufsize CiMediaTranscodeTemplate#bufsize}
   */
   readonly bufsize?: string;
   /**
   * Codec format, default value: `H.264`, when format is WebM, it is VP8, value range: `H.264`, `H.265`, `VP8`, `VP9`, `AV1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#codec CiMediaTranscodeTemplate#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#codec CiMediaTranscodeTemplate#codec}
   */
   readonly codec?: string;
   /**
   * Bit rate-quality control factor, value range: (0, 51], If Crf is set, the setting of Bitrate will be invalid, When Bitrate is empty, the default is 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#crf CiMediaTranscodeTemplate#crf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#crf CiMediaTranscodeTemplate#crf}
   */
   readonly crf?: string;
   /**
   * Frame rate, value range: (0, 60], Unit: fps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#fps CiMediaTranscodeTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#fps CiMediaTranscodeTemplate#fps}
   */
   readonly fps?: string;
   /**
   * The maximum number of frames between key frames, value range: [1, 100000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#gop CiMediaTranscodeTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#gop CiMediaTranscodeTemplate#gop}
   */
   readonly gop?: string;
   /**
   * High, value range: [128, 4096], Unit: px, If only Height is set, Width is calculated according to the original ratio of the video, must be even.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#height CiMediaTranscodeTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#height CiMediaTranscodeTemplate#height}
   */
   readonly height?: string;
   /**
   * Adaptive length,true, false, This parameter is not supported when Codec is VP8/VP9/AV1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#long_short_mode CiMediaTranscodeTemplate#long_short_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#long_short_mode CiMediaTranscodeTemplate#long_short_mode}
   */
   readonly longShortMode?: string;
   /**
   * Peak video bit rate, Value range: [10, 50000], Unit: Kbps, This parameter is not supported when Codec is VP8/VP9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#maxrate CiMediaTranscodeTemplate#maxrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#maxrate CiMediaTranscodeTemplate#maxrate}
   */
   readonly maxrate?: string;
   /**
   * video color format, H.264 support: yuv420p, yuv422p, yuv444p, yuvj420p, yuvj422p, yuvj444p, auto, H.265 support: yuv420p, yuv420p10le, auto, This parameter is not supported when Codec is VP8/VP9/AV1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#pixfmt CiMediaTranscodeTemplate#pixfmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#pixfmt CiMediaTranscodeTemplate#pixfmt}
   */
   readonly pixfmt?: string;
   /**
   * Video Algorithm Presets- H.264 supports this parameter, the values are veryfast, fast, medium, slow, slower- VP8 supports this parameter, the value is good, realtime- AV1 supports this parameter, the value is 5 (recommended value), 4- H.265 and VP9 do not support this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#preset CiMediaTranscodeTemplate#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#preset CiMediaTranscodeTemplate#preset}
   */
   readonly preset?: string;
   /**
   * encoding level, Support baseline, main, high, auto- When Pixfmt is auto, this parameter can only be set to auto, when it is set to other options, the parameter value will be set to auto- baseline: suitable for mobile devices- main: suitable for standard resolution devices- high: suitable for high-resolution devices- Only H.264 supports this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#profile CiMediaTranscodeTemplate#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#profile CiMediaTranscodeTemplate#profile}
   */
   readonly profile?: string;
   /**
   * Whether to delete the video stream, true, false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#remove CiMediaTranscodeTemplate#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#remove CiMediaTranscodeTemplate#remove}
   */
   readonly remove?: string;
   /**
   * Rotation angle, Value range: [0, 360), Unit: degree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#rotate CiMediaTranscodeTemplate#rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#rotate CiMediaTranscodeTemplate#rotate}
   */
   readonly rotate?: string;
   /**
   * width, value range: [128, 4096], Unit: px, If only Width is set, Height is calculated according to the original ratio of the video, must be even.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#width CiMediaTranscodeTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#width CiMediaTranscodeTemplate#width}
   */
   readonly width?: string;
 }
@@ -2300,7 +2300,7 @@ export class CiMediaTranscodeTemplateVideoOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template tencentcloud_ci_media_transcode_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template tencentcloud_ci_media_transcode_template}
 */
 export class CiMediaTranscodeTemplate extends cdktf.TerraformResource {
 
@@ -2316,7 +2316,7 @@ export class CiMediaTranscodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaTranscodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaTranscodeTemplate to import
-  * @param importFromId The id of the existing CiMediaTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaTranscodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2328,7 +2328,7 @@ export class CiMediaTranscodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/ci_media_transcode_template tencentcloud_ci_media_transcode_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/ci_media_transcode_template tencentcloud_ci_media_transcode_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2339,8 +2339,8 @@ export class CiMediaTranscodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_transcode_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

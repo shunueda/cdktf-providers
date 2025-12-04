@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStorageNetAppNfsClientConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#account_moid DataIntersightStorageNetAppNfsClient#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#account_moid DataIntersightStorageNetAppNfsClient#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightStorageNetAppNfsClientConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * Specifies IP address of the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#client_ip DataIntersightStorageNetAppNfsClient#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#client_ip DataIntersightStorageNetAppNfsClient#client_ip}
   */
   readonly clientIp?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#create_time DataIntersightStorageNetAppNfsClient#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#create_time DataIntersightStorageNetAppNfsClient#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#domain_group_moid DataIntersightStorageNetAppNfsClient#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#domain_group_moid DataIntersightStorageNetAppNfsClient#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#id DataIntersightStorageNetAppNfsClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#id DataIntersightStorageNetAppNfsClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,115 +53,115 @@ export interface DataIntersightStorageNetAppNfsClientConfig extends cdktf.Terraf
   /**
   * Specifies an ISO-8601 format of date and time to retrieve the idle time duration in hours, minutes, and seconds format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#idle_duration DataIntersightStorageNetAppNfsClient#idle_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#idle_duration DataIntersightStorageNetAppNfsClient#idle_duration}
   */
   readonly idleDuration?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#mod_time DataIntersightStorageNetAppNfsClient#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#mod_time DataIntersightStorageNetAppNfsClient#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#owners DataIntersightStorageNetAppNfsClient#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#owners DataIntersightStorageNetAppNfsClient#owners}
   */
   readonly owners?: string[];
   /**
   * The NFS protocol version over which client is accessing the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#protocol DataIntersightStorageNetAppNfsClient#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#protocol DataIntersightStorageNetAppNfsClient#protocol}
   */
   readonly protocol?: string;
   /**
   * Specifies IP address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#server_ip DataIntersightStorageNetAppNfsClient#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#server_ip DataIntersightStorageNetAppNfsClient#server_ip}
   */
   readonly serverIp?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#shared_scope DataIntersightStorageNetAppNfsClient#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#shared_scope DataIntersightStorageNetAppNfsClient#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The storage virtual machine name for the NFS client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#svm_name DataIntersightStorageNetAppNfsClient#svm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#svm_name DataIntersightStorageNetAppNfsClient#svm_name}
   */
   readonly svmName?: string;
   /**
   * Unique identifier for the NetApp Storage Virtual Machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#svm_uuid DataIntersightStorageNetAppNfsClient#svm_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#svm_uuid DataIntersightStorageNetAppNfsClient#svm_uuid}
   */
   readonly svmUuid?: string;
   /**
   * The parent volume name for the NFS client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#volume_name DataIntersightStorageNetAppNfsClient#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#volume_name DataIntersightStorageNetAppNfsClient#volume_name}
   */
   readonly volumeName?: string;
   /**
   * Unique identifier for the NetApp Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#volume_uuid DataIntersightStorageNetAppNfsClient#volume_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#volume_uuid DataIntersightStorageNetAppNfsClient#volume_uuid}
   */
   readonly volumeUuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#ancestors DataIntersightStorageNetAppNfsClient#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#ancestors DataIntersightStorageNetAppNfsClient#ancestors}
   */
   readonly ancestors?: DataIntersightStorageNetAppNfsClientAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#parent DataIntersightStorageNetAppNfsClient#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#parent DataIntersightStorageNetAppNfsClient#parent}
   */
   readonly parent?: DataIntersightStorageNetAppNfsClientParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#permission_resources DataIntersightStorageNetAppNfsClient#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#permission_resources DataIntersightStorageNetAppNfsClient#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageNetAppNfsClientPermissionResources[] | cdktf.IResolvable;
   /**
   * storage_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#storage_container DataIntersightStorageNetAppNfsClient#storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#storage_container DataIntersightStorageNetAppNfsClient#storage_container}
   */
   readonly storageContainer?: DataIntersightStorageNetAppNfsClientStorageContainer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#tags DataIntersightStorageNetAppNfsClient#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#tags DataIntersightStorageNetAppNfsClient#tags}
   */
   readonly tags?: DataIntersightStorageNetAppNfsClientTags[] | cdktf.IResolvable;
   /**
   * tenant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#tenant DataIntersightStorageNetAppNfsClient#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#tenant DataIntersightStorageNetAppNfsClient#tenant}
   */
   readonly tenant?: DataIntersightStorageNetAppNfsClientTenant;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#version_context DataIntersightStorageNetAppNfsClient#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#version_context DataIntersightStorageNetAppNfsClient#version_context}
   */
   readonly versionContext?: DataIntersightStorageNetAppNfsClientVersionContext;
 }
@@ -1453,7 +1453,7 @@ export class DataIntersightStorageNetAppNfsClientResultsList extends cdktf.Compl
 }
 export interface DataIntersightStorageNetAppNfsClientAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1461,19 +1461,19 @@ export interface DataIntersightStorageNetAppNfsClientAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1486,7 +1486,7 @@ export interface DataIntersightStorageNetAppNfsClientAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -1718,7 +1718,7 @@ export class DataIntersightStorageNetAppNfsClientAncestorsList extends cdktf.Com
 }
 export interface DataIntersightStorageNetAppNfsClientParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1726,19 +1726,19 @@ export interface DataIntersightStorageNetAppNfsClientParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1751,7 +1751,7 @@ export interface DataIntersightStorageNetAppNfsClientParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -1951,7 +1951,7 @@ export class DataIntersightStorageNetAppNfsClientParentOutputReference extends c
 }
 export interface DataIntersightStorageNetAppNfsClientPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1959,19 +1959,19 @@ export interface DataIntersightStorageNetAppNfsClientPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1984,7 +1984,7 @@ export interface DataIntersightStorageNetAppNfsClientPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -2216,7 +2216,7 @@ export class DataIntersightStorageNetAppNfsClientPermissionResourcesList extends
 }
 export interface DataIntersightStorageNetAppNfsClientStorageContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2224,19 +2224,19 @@ export interface DataIntersightStorageNetAppNfsClientStorageContainer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2249,7 +2249,7 @@ export interface DataIntersightStorageNetAppNfsClientStorageContainer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -2449,7 +2449,7 @@ export class DataIntersightStorageNetAppNfsClientStorageContainerOutputReference
 }
 export interface DataIntersightStorageNetAppNfsClientTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2457,19 +2457,19 @@ export interface DataIntersightStorageNetAppNfsClientTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2482,7 +2482,7 @@ export interface DataIntersightStorageNetAppNfsClientTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -2714,7 +2714,7 @@ export class DataIntersightStorageNetAppNfsClientTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightStorageNetAppNfsClientTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2722,19 +2722,19 @@ export interface DataIntersightStorageNetAppNfsClientTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2747,7 +2747,7 @@ export interface DataIntersightStorageNetAppNfsClientTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -2947,25 +2947,25 @@ export class DataIntersightStorageNetAppNfsClientTagsDefinitionOutputReference e
 }
 export interface DataIntersightStorageNetAppNfsClientTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#key DataIntersightStorageNetAppNfsClient#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#key DataIntersightStorageNetAppNfsClient#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#propagated DataIntersightStorageNetAppNfsClient#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#propagated DataIntersightStorageNetAppNfsClient#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#sys_tag DataIntersightStorageNetAppNfsClient#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#sys_tag DataIntersightStorageNetAppNfsClient#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2973,25 +2973,25 @@ export interface DataIntersightStorageNetAppNfsClientTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#type DataIntersightStorageNetAppNfsClient#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#type DataIntersightStorageNetAppNfsClient#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#value DataIntersightStorageNetAppNfsClient#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#value DataIntersightStorageNetAppNfsClient#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#ancestor_definitions DataIntersightStorageNetAppNfsClient#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#ancestor_definitions DataIntersightStorageNetAppNfsClient#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageNetAppNfsClientTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#definition DataIntersightStorageNetAppNfsClient#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#definition DataIntersightStorageNetAppNfsClient#definition}
   */
   readonly definition?: DataIntersightStorageNetAppNfsClientTagsDefinition;
 }
@@ -3310,7 +3310,7 @@ export class DataIntersightStorageNetAppNfsClientTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightStorageNetAppNfsClientTenant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3318,19 +3318,19 @@ export interface DataIntersightStorageNetAppNfsClientTenant {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3343,7 +3343,7 @@ export interface DataIntersightStorageNetAppNfsClientTenant {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -3543,7 +3543,7 @@ export class DataIntersightStorageNetAppNfsClientTenantOutputReference extends c
 }
 export interface DataIntersightStorageNetAppNfsClientVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3551,19 +3551,19 @@ export interface DataIntersightStorageNetAppNfsClientVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3576,7 +3576,7 @@ export interface DataIntersightStorageNetAppNfsClientVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -3808,7 +3808,7 @@ export class DataIntersightStorageNetAppNfsClientVersionContextInterestedMosList
 }
 export interface DataIntersightStorageNetAppNfsClientVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3816,19 +3816,19 @@ export interface DataIntersightStorageNetAppNfsClientVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#moid DataIntersightStorageNetAppNfsClient#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3841,7 +3841,7 @@ export interface DataIntersightStorageNetAppNfsClientVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#selector DataIntersightStorageNetAppNfsClient#selector}
   */
   readonly selector?: string;
 }
@@ -4041,7 +4041,7 @@ export class DataIntersightStorageNetAppNfsClientVersionContextRefMoOutputRefere
 }
 export interface DataIntersightStorageNetAppNfsClientVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#additional_properties DataIntersightStorageNetAppNfsClient#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4049,32 +4049,32 @@ export interface DataIntersightStorageNetAppNfsClientVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#class_id DataIntersightStorageNetAppNfsClient#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#marked_for_deletion DataIntersightStorageNetAppNfsClient#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#marked_for_deletion DataIntersightStorageNetAppNfsClient#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#nr_version DataIntersightStorageNetAppNfsClient#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#nr_version DataIntersightStorageNetAppNfsClient#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#object_type DataIntersightStorageNetAppNfsClient#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#timestamp DataIntersightStorageNetAppNfsClient#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#timestamp DataIntersightStorageNetAppNfsClient#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4085,19 +4085,19 @@ export interface DataIntersightStorageNetAppNfsClientVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#version_type DataIntersightStorageNetAppNfsClient#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#version_type DataIntersightStorageNetAppNfsClient#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#interested_mos DataIntersightStorageNetAppNfsClient#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#interested_mos DataIntersightStorageNetAppNfsClient#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageNetAppNfsClientVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#ref_mo DataIntersightStorageNetAppNfsClient#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#ref_mo DataIntersightStorageNetAppNfsClient#ref_mo}
   */
   readonly refMo?: DataIntersightStorageNetAppNfsClientVersionContextRefMo;
 }
@@ -4413,7 +4413,7 @@ export class DataIntersightStorageNetAppNfsClientVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client intersight_storage_net_app_nfs_client}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client intersight_storage_net_app_nfs_client}
 */
 export class DataIntersightStorageNetAppNfsClient extends cdktf.TerraformDataSource {
 
@@ -4429,7 +4429,7 @@ export class DataIntersightStorageNetAppNfsClient extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightStorageNetAppNfsClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageNetAppNfsClient to import
-  * @param importFromId The id of the existing DataIntersightStorageNetAppNfsClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageNetAppNfsClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageNetAppNfsClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4441,7 +4441,7 @@ export class DataIntersightStorageNetAppNfsClient extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_net_app_nfs_client intersight_storage_net_app_nfs_client} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_net_app_nfs_client intersight_storage_net_app_nfs_client} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4452,8 +4452,8 @@ export class DataIntersightStorageNetAppNfsClient extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_storage_net_app_nfs_client',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

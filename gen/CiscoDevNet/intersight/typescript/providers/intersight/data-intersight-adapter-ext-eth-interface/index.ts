@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightAdapterExtEthInterfaceConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#account_moid DataIntersightAdapterExtEthInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#account_moid DataIntersightAdapterExtEthInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Admin configured state of an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#admin_state DataIntersightAdapterExtEthInterface#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#admin_state DataIntersightAdapterExtEthInterface#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -28,47 +28,47 @@ export interface DataIntersightAdapterExtEthInterfaceConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#create_time DataIntersightAdapterExtEthInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#create_time DataIntersightAdapterExtEthInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#device_mo_id DataIntersightAdapterExtEthInterface#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#device_mo_id DataIntersightAdapterExtEthInterface#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#dn DataIntersightAdapterExtEthInterface#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#dn DataIntersightAdapterExtEthInterface#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#domain_group_moid DataIntersightAdapterExtEthInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#domain_group_moid DataIntersightAdapterExtEthInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Endpoint Config DN of an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#ep_dn DataIntersightAdapterExtEthInterface#ep_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#ep_dn DataIntersightAdapterExtEthInterface#ep_dn}
   */
   readonly epDn?: string;
   /**
   * Unique Identifier for an External Ethernet Interface within the adapter object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#ext_eth_interface_id DataIntersightAdapterExtEthInterface#ext_eth_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#ext_eth_interface_id DataIntersightAdapterExtEthInterface#ext_eth_interface_id}
   */
   readonly extEthInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#id DataIntersightAdapterExtEthInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#id DataIntersightAdapterExtEthInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,155 +77,155 @@ export interface DataIntersightAdapterExtEthInterfaceConfig extends cdktf.Terraf
   /**
   * Type of an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#interface_type DataIntersightAdapterExtEthInterface#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#interface_type DataIntersightAdapterExtEthInterface#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * MAC address of an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#mac_address DataIntersightAdapterExtEthInterface#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#mac_address DataIntersightAdapterExtEthInterface#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#mod_time DataIntersightAdapterExtEthInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#mod_time DataIntersightAdapterExtEthInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * Type of network connection or configuration that adapter is using.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#network_type DataIntersightAdapterExtEthInterface#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#network_type DataIntersightAdapterExtEthInterface#network_type}
   */
   readonly networkType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#oper_reason DataIntersightAdapterExtEthInterface#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#oper_reason DataIntersightAdapterExtEthInterface#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * Operational state of an Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#oper_state DataIntersightAdapterExtEthInterface#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#oper_state DataIntersightAdapterExtEthInterface#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#owners DataIntersightAdapterExtEthInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#owners DataIntersightAdapterExtEthInterface#owners}
   */
   readonly owners?: string[];
   /**
   * Peer Aggregate Port Id attached to an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#peer_aggr_port_id DataIntersightAdapterExtEthInterface#peer_aggr_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#peer_aggr_port_id DataIntersightAdapterExtEthInterface#peer_aggr_port_id}
   */
   readonly peerAggrPortId?: number;
   /**
   * DN of peer end-point attached to an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#peer_dn DataIntersightAdapterExtEthInterface#peer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#peer_dn DataIntersightAdapterExtEthInterface#peer_dn}
   */
   readonly peerDn?: string;
   /**
   * Peer Port Id attached to an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#peer_port_id DataIntersightAdapterExtEthInterface#peer_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#peer_port_id DataIntersightAdapterExtEthInterface#peer_port_id}
   */
   readonly peerPortId?: number;
   /**
   * Peer Slot Id attached to an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#peer_slot_id DataIntersightAdapterExtEthInterface#peer_slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#peer_slot_id DataIntersightAdapterExtEthInterface#peer_slot_id}
   */
   readonly peerSlotId?: number;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#rn DataIntersightAdapterExtEthInterface#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#rn DataIntersightAdapterExtEthInterface#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#shared_scope DataIntersightAdapterExtEthInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#shared_scope DataIntersightAdapterExtEthInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SwitchId attached to an External Ethernet Interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#switch_id DataIntersightAdapterExtEthInterface#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#switch_id DataIntersightAdapterExtEthInterface#switch_id}
   */
   readonly switchId?: string;
   /**
   * acknowledged_peer_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#acknowledged_peer_interface DataIntersightAdapterExtEthInterface#acknowledged_peer_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#acknowledged_peer_interface DataIntersightAdapterExtEthInterface#acknowledged_peer_interface}
   */
   readonly acknowledgedPeerInterface?: DataIntersightAdapterExtEthInterfaceAcknowledgedPeerInterface;
   /**
   * adapter_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#adapter_unit DataIntersightAdapterExtEthInterface#adapter_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#adapter_unit DataIntersightAdapterExtEthInterface#adapter_unit}
   */
   readonly adapterUnit?: DataIntersightAdapterExtEthInterfaceAdapterUnit;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#ancestors DataIntersightAdapterExtEthInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#ancestors DataIntersightAdapterExtEthInterface#ancestors}
   */
   readonly ancestors?: DataIntersightAdapterExtEthInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#inventory_device_info DataIntersightAdapterExtEthInterface#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#inventory_device_info DataIntersightAdapterExtEthInterface#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightAdapterExtEthInterfaceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#parent DataIntersightAdapterExtEthInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#parent DataIntersightAdapterExtEthInterface#parent}
   */
   readonly parent?: DataIntersightAdapterExtEthInterfaceParent;
   /**
   * peer_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#peer_interface DataIntersightAdapterExtEthInterface#peer_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#peer_interface DataIntersightAdapterExtEthInterface#peer_interface}
   */
   readonly peerInterface?: DataIntersightAdapterExtEthInterfacePeerInterface;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#permission_resources DataIntersightAdapterExtEthInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#permission_resources DataIntersightAdapterExtEthInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightAdapterExtEthInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#registered_device DataIntersightAdapterExtEthInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#registered_device DataIntersightAdapterExtEthInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightAdapterExtEthInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#tags DataIntersightAdapterExtEthInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#tags DataIntersightAdapterExtEthInterface#tags}
   */
   readonly tags?: DataIntersightAdapterExtEthInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#version_context DataIntersightAdapterExtEthInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#version_context DataIntersightAdapterExtEthInterface#version_context}
   */
   readonly versionContext?: DataIntersightAdapterExtEthInterfaceVersionContext;
 }
@@ -1860,7 +1860,7 @@ export class DataIntersightAdapterExtEthInterfaceResultsList extends cdktf.Compl
 }
 export interface DataIntersightAdapterExtEthInterfaceAcknowledgedPeerInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1868,19 +1868,19 @@ export interface DataIntersightAdapterExtEthInterfaceAcknowledgedPeerInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1893,7 +1893,7 @@ export interface DataIntersightAdapterExtEthInterfaceAcknowledgedPeerInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2093,7 +2093,7 @@ export class DataIntersightAdapterExtEthInterfaceAcknowledgedPeerInterfaceOutput
 }
 export interface DataIntersightAdapterExtEthInterfaceAdapterUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2101,19 +2101,19 @@ export interface DataIntersightAdapterExtEthInterfaceAdapterUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2126,7 +2126,7 @@ export interface DataIntersightAdapterExtEthInterfaceAdapterUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2326,7 +2326,7 @@ export class DataIntersightAdapterExtEthInterfaceAdapterUnitOutputReference exte
 }
 export interface DataIntersightAdapterExtEthInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2334,19 +2334,19 @@ export interface DataIntersightAdapterExtEthInterfaceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2359,7 +2359,7 @@ export interface DataIntersightAdapterExtEthInterfaceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2591,7 +2591,7 @@ export class DataIntersightAdapterExtEthInterfaceAncestorsList extends cdktf.Com
 }
 export interface DataIntersightAdapterExtEthInterfaceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2599,19 +2599,19 @@ export interface DataIntersightAdapterExtEthInterfaceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2624,7 +2624,7 @@ export interface DataIntersightAdapterExtEthInterfaceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2824,7 +2824,7 @@ export class DataIntersightAdapterExtEthInterfaceInventoryDeviceInfoOutputRefere
 }
 export interface DataIntersightAdapterExtEthInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2832,19 +2832,19 @@ export interface DataIntersightAdapterExtEthInterfaceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2857,7 +2857,7 @@ export interface DataIntersightAdapterExtEthInterfaceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3057,7 +3057,7 @@ export class DataIntersightAdapterExtEthInterfaceParentOutputReference extends c
 }
 export interface DataIntersightAdapterExtEthInterfacePeerInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3065,19 +3065,19 @@ export interface DataIntersightAdapterExtEthInterfacePeerInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3090,7 +3090,7 @@ export interface DataIntersightAdapterExtEthInterfacePeerInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3290,7 +3290,7 @@ export class DataIntersightAdapterExtEthInterfacePeerInterfaceOutputReference ex
 }
 export interface DataIntersightAdapterExtEthInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3298,19 +3298,19 @@ export interface DataIntersightAdapterExtEthInterfacePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3323,7 +3323,7 @@ export interface DataIntersightAdapterExtEthInterfacePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3555,7 +3555,7 @@ export class DataIntersightAdapterExtEthInterfacePermissionResourcesList extends
 }
 export interface DataIntersightAdapterExtEthInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3563,19 +3563,19 @@ export interface DataIntersightAdapterExtEthInterfaceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3588,7 +3588,7 @@ export interface DataIntersightAdapterExtEthInterfaceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3788,7 +3788,7 @@ export class DataIntersightAdapterExtEthInterfaceRegisteredDeviceOutputReference
 }
 export interface DataIntersightAdapterExtEthInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3796,19 +3796,19 @@ export interface DataIntersightAdapterExtEthInterfaceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3821,7 +3821,7 @@ export interface DataIntersightAdapterExtEthInterfaceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4053,7 +4053,7 @@ export class DataIntersightAdapterExtEthInterfaceTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightAdapterExtEthInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4061,19 +4061,19 @@ export interface DataIntersightAdapterExtEthInterfaceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4086,7 +4086,7 @@ export interface DataIntersightAdapterExtEthInterfaceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4286,25 +4286,25 @@ export class DataIntersightAdapterExtEthInterfaceTagsDefinitionOutputReference e
 }
 export interface DataIntersightAdapterExtEthInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#key DataIntersightAdapterExtEthInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#key DataIntersightAdapterExtEthInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#propagated DataIntersightAdapterExtEthInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#propagated DataIntersightAdapterExtEthInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#sys_tag DataIntersightAdapterExtEthInterface#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#sys_tag DataIntersightAdapterExtEthInterface#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4312,25 +4312,25 @@ export interface DataIntersightAdapterExtEthInterfaceTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#type DataIntersightAdapterExtEthInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#type DataIntersightAdapterExtEthInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#value DataIntersightAdapterExtEthInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#value DataIntersightAdapterExtEthInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#ancestor_definitions DataIntersightAdapterExtEthInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#ancestor_definitions DataIntersightAdapterExtEthInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAdapterExtEthInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#definition DataIntersightAdapterExtEthInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#definition DataIntersightAdapterExtEthInterface#definition}
   */
   readonly definition?: DataIntersightAdapterExtEthInterfaceTagsDefinition;
 }
@@ -4649,7 +4649,7 @@ export class DataIntersightAdapterExtEthInterfaceTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightAdapterExtEthInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4657,19 +4657,19 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4682,7 +4682,7 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4914,7 +4914,7 @@ export class DataIntersightAdapterExtEthInterfaceVersionContextInterestedMosList
 }
 export interface DataIntersightAdapterExtEthInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4922,19 +4922,19 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#moid DataIntersightAdapterExtEthInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4947,7 +4947,7 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#selector DataIntersightAdapterExtEthInterface#selector}
   */
   readonly selector?: string;
 }
@@ -5147,7 +5147,7 @@ export class DataIntersightAdapterExtEthInterfaceVersionContextRefMoOutputRefere
 }
 export interface DataIntersightAdapterExtEthInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#additional_properties DataIntersightAdapterExtEthInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5155,32 +5155,32 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#class_id DataIntersightAdapterExtEthInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#marked_for_deletion DataIntersightAdapterExtEthInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#marked_for_deletion DataIntersightAdapterExtEthInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#nr_version DataIntersightAdapterExtEthInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#nr_version DataIntersightAdapterExtEthInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#object_type DataIntersightAdapterExtEthInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#timestamp DataIntersightAdapterExtEthInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#timestamp DataIntersightAdapterExtEthInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5191,19 +5191,19 @@ export interface DataIntersightAdapterExtEthInterfaceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#version_type DataIntersightAdapterExtEthInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#version_type DataIntersightAdapterExtEthInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#interested_mos DataIntersightAdapterExtEthInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#interested_mos DataIntersightAdapterExtEthInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightAdapterExtEthInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#ref_mo DataIntersightAdapterExtEthInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#ref_mo DataIntersightAdapterExtEthInterface#ref_mo}
   */
   readonly refMo?: DataIntersightAdapterExtEthInterfaceVersionContextRefMo;
 }
@@ -5519,7 +5519,7 @@ export class DataIntersightAdapterExtEthInterfaceVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface intersight_adapter_ext_eth_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface intersight_adapter_ext_eth_interface}
 */
 export class DataIntersightAdapterExtEthInterface extends cdktf.TerraformDataSource {
 
@@ -5535,7 +5535,7 @@ export class DataIntersightAdapterExtEthInterface extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightAdapterExtEthInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAdapterExtEthInterface to import
-  * @param importFromId The id of the existing DataIntersightAdapterExtEthInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAdapterExtEthInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAdapterExtEthInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5547,7 +5547,7 @@ export class DataIntersightAdapterExtEthInterface extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/adapter_ext_eth_interface intersight_adapter_ext_eth_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/adapter_ext_eth_interface intersight_adapter_ext_eth_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5558,8 +5558,8 @@ export class DataIntersightAdapterExtEthInterface extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_adapter_ext_eth_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

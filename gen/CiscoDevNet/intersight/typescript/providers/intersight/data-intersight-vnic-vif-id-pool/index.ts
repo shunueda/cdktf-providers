@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVnicVifIdPoolConfig extends cdktf.TerraformMetaAr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#account_moid DataIntersightVnicVifIdPool#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#account_moid DataIntersightVnicVifIdPool#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,27 +22,27 @@ export interface DataIntersightVnicVifIdPoolConfig extends cdktf.TerraformMetaAr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#create_time DataIntersightVnicVifIdPool#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#create_time DataIntersightVnicVifIdPool#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#domain_group_moid DataIntersightVnicVifIdPool#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#domain_group_moid DataIntersightVnicVifIdPool#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#gap_available_ids DataIntersightVnicVifIdPool#gap_available_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#gap_available_ids DataIntersightVnicVifIdPool#gap_available_ids}
   */
   readonly gapAvailableIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#id DataIntersightVnicVifIdPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#id DataIntersightVnicVifIdPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,73 +51,73 @@ export interface DataIntersightVnicVifIdPoolConfig extends cdktf.TerraformMetaAr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#mod_time DataIntersightVnicVifIdPool#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#mod_time DataIntersightVnicVifIdPool#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * Shows the next available channel number ID to be allocated for a vNIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#next_available_id DataIntersightVnicVifIdPool#next_available_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#next_available_id DataIntersightVnicVifIdPool#next_available_id}
   */
   readonly nextAvailableId?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#owners DataIntersightVnicVifIdPool#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#owners DataIntersightVnicVifIdPool#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#shared_scope DataIntersightVnicVifIdPool#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#shared_scope DataIntersightVnicVifIdPool#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#ancestors DataIntersightVnicVifIdPool#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#ancestors DataIntersightVnicVifIdPool#ancestors}
   */
   readonly ancestors?: DataIntersightVnicVifIdPoolAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#network_element DataIntersightVnicVifIdPool#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#network_element DataIntersightVnicVifIdPool#network_element}
   */
   readonly networkElement?: DataIntersightVnicVifIdPoolNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#parent DataIntersightVnicVifIdPool#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#parent DataIntersightVnicVifIdPool#parent}
   */
   readonly parent?: DataIntersightVnicVifIdPoolParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#permission_resources DataIntersightVnicVifIdPool#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#permission_resources DataIntersightVnicVifIdPool#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicVifIdPoolPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#tags DataIntersightVnicVifIdPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#tags DataIntersightVnicVifIdPool#tags}
   */
   readonly tags?: DataIntersightVnicVifIdPoolTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#version_context DataIntersightVnicVifIdPool#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#version_context DataIntersightVnicVifIdPool#version_context}
   */
   readonly versionContext?: DataIntersightVnicVifIdPoolVersionContext;
 }
@@ -1278,7 +1278,7 @@ export class DataIntersightVnicVifIdPoolResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicVifIdPoolAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1286,19 +1286,19 @@ export interface DataIntersightVnicVifIdPoolAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1311,7 +1311,7 @@ export interface DataIntersightVnicVifIdPoolAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -1543,7 +1543,7 @@ export class DataIntersightVnicVifIdPoolAncestorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightVnicVifIdPoolNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1551,19 +1551,19 @@ export interface DataIntersightVnicVifIdPoolNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1576,7 +1576,7 @@ export interface DataIntersightVnicVifIdPoolNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -1776,7 +1776,7 @@ export class DataIntersightVnicVifIdPoolNetworkElementOutputReference extends cd
 }
 export interface DataIntersightVnicVifIdPoolParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1784,19 +1784,19 @@ export interface DataIntersightVnicVifIdPoolParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1809,7 +1809,7 @@ export interface DataIntersightVnicVifIdPoolParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2009,7 +2009,7 @@ export class DataIntersightVnicVifIdPoolParentOutputReference extends cdktf.Comp
 }
 export interface DataIntersightVnicVifIdPoolPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2017,19 +2017,19 @@ export interface DataIntersightVnicVifIdPoolPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2042,7 +2042,7 @@ export interface DataIntersightVnicVifIdPoolPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2274,7 +2274,7 @@ export class DataIntersightVnicVifIdPoolPermissionResourcesList extends cdktf.Co
 }
 export interface DataIntersightVnicVifIdPoolTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2282,19 +2282,19 @@ export interface DataIntersightVnicVifIdPoolTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2307,7 +2307,7 @@ export interface DataIntersightVnicVifIdPoolTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2539,7 +2539,7 @@ export class DataIntersightVnicVifIdPoolTagsAncestorDefinitionsList extends cdkt
 }
 export interface DataIntersightVnicVifIdPoolTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2547,19 +2547,19 @@ export interface DataIntersightVnicVifIdPoolTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2572,7 +2572,7 @@ export interface DataIntersightVnicVifIdPoolTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -2772,25 +2772,25 @@ export class DataIntersightVnicVifIdPoolTagsDefinitionOutputReference extends cd
 }
 export interface DataIntersightVnicVifIdPoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#key DataIntersightVnicVifIdPool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#key DataIntersightVnicVifIdPool#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#propagated DataIntersightVnicVifIdPool#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#propagated DataIntersightVnicVifIdPool#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#sys_tag DataIntersightVnicVifIdPool#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#sys_tag DataIntersightVnicVifIdPool#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2798,25 +2798,25 @@ export interface DataIntersightVnicVifIdPoolTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#type DataIntersightVnicVifIdPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#type DataIntersightVnicVifIdPool#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#value DataIntersightVnicVifIdPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#value DataIntersightVnicVifIdPool#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#ancestor_definitions DataIntersightVnicVifIdPool#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#ancestor_definitions DataIntersightVnicVifIdPool#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicVifIdPoolTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#definition DataIntersightVnicVifIdPool#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#definition DataIntersightVnicVifIdPool#definition}
   */
   readonly definition?: DataIntersightVnicVifIdPoolTagsDefinition;
 }
@@ -3135,7 +3135,7 @@ export class DataIntersightVnicVifIdPoolTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicVifIdPoolVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3143,19 +3143,19 @@ export interface DataIntersightVnicVifIdPoolVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3168,7 +3168,7 @@ export interface DataIntersightVnicVifIdPoolVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -3400,7 +3400,7 @@ export class DataIntersightVnicVifIdPoolVersionContextInterestedMosList extends 
 }
 export interface DataIntersightVnicVifIdPoolVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3408,19 +3408,19 @@ export interface DataIntersightVnicVifIdPoolVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#moid DataIntersightVnicVifIdPool#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3433,7 +3433,7 @@ export interface DataIntersightVnicVifIdPoolVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#selector DataIntersightVnicVifIdPool#selector}
   */
   readonly selector?: string;
 }
@@ -3633,7 +3633,7 @@ export class DataIntersightVnicVifIdPoolVersionContextRefMoOutputReference exten
 }
 export interface DataIntersightVnicVifIdPoolVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#additional_properties DataIntersightVnicVifIdPool#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3641,32 +3641,32 @@ export interface DataIntersightVnicVifIdPoolVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#class_id DataIntersightVnicVifIdPool#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#marked_for_deletion DataIntersightVnicVifIdPool#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#marked_for_deletion DataIntersightVnicVifIdPool#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#nr_version DataIntersightVnicVifIdPool#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#nr_version DataIntersightVnicVifIdPool#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#object_type DataIntersightVnicVifIdPool#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#timestamp DataIntersightVnicVifIdPool#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#timestamp DataIntersightVnicVifIdPool#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3677,19 +3677,19 @@ export interface DataIntersightVnicVifIdPoolVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#version_type DataIntersightVnicVifIdPool#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#version_type DataIntersightVnicVifIdPool#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#interested_mos DataIntersightVnicVifIdPool#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#interested_mos DataIntersightVnicVifIdPool#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicVifIdPoolVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#ref_mo DataIntersightVnicVifIdPool#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#ref_mo DataIntersightVnicVifIdPool#ref_mo}
   */
   readonly refMo?: DataIntersightVnicVifIdPoolVersionContextRefMo;
 }
@@ -4005,7 +4005,7 @@ export class DataIntersightVnicVifIdPoolVersionContextOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool intersight_vnic_vif_id_pool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool intersight_vnic_vif_id_pool}
 */
 export class DataIntersightVnicVifIdPool extends cdktf.TerraformDataSource {
 
@@ -4021,7 +4021,7 @@ export class DataIntersightVnicVifIdPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightVnicVifIdPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicVifIdPool to import
-  * @param importFromId The id of the existing DataIntersightVnicVifIdPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicVifIdPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicVifIdPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4033,7 +4033,7 @@ export class DataIntersightVnicVifIdPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vif_id_pool intersight_vnic_vif_id_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vif_id_pool intersight_vnic_vif_id_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4044,8 +4044,8 @@ export class DataIntersightVnicVifIdPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_vif_id_pool',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

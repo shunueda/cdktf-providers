@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationConfig ext
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#account_moid DataIntersightKubernetesAciCniTenantClusterAllocation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#account_moid DataIntersightKubernetesAciCniTenantClusterAllocation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationConfig ext
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#create_time DataIntersightKubernetesAciCniTenantClusterAllocation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#create_time DataIntersightKubernetesAciCniTenantClusterAllocation#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#domain_group_moid DataIntersightKubernetesAciCniTenantClusterAllocation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#domain_group_moid DataIntersightKubernetesAciCniTenantClusterAllocation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#id DataIntersightKubernetesAciCniTenantClusterAllocation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#id DataIntersightKubernetesAciCniTenantClusterAllocation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationConfig ext
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#mod_time DataIntersightKubernetesAciCniTenantClusterAllocation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#mod_time DataIntersightKubernetesAciCniTenantClusterAllocation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * CIDR allocated for ACI node service IPs in this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#node_svc_ip_subnet DataIntersightKubernetesAciCniTenantClusterAllocation#node_svc_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#node_svc_ip_subnet DataIntersightKubernetesAciCniTenantClusterAllocation#node_svc_ip_subnet}
   */
   readonly nodeSvcIpSubnet?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#owners DataIntersightKubernetesAciCniTenantClusterAllocation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#owners DataIntersightKubernetesAciCniTenantClusterAllocation#owners}
   */
   readonly owners?: string[];
   /**
   * CIDR allocated for pod IPs in this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#pod_ip_subnet DataIntersightKubernetesAciCniTenantClusterAllocation#pod_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#pod_ip_subnet DataIntersightKubernetesAciCniTenantClusterAllocation#pod_ip_subnet}
   */
   readonly podIpSubnet?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#shared_scope DataIntersightKubernetesAciCniTenantClusterAllocation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#shared_scope DataIntersightKubernetesAciCniTenantClusterAllocation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * End of VLAN range allocated to this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_end DataIntersightKubernetesAciCniTenantClusterAllocation#vlan_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_end DataIntersightKubernetesAciCniTenantClusterAllocation#vlan_end}
   */
   readonly vlanEnd?: string;
   /**
   * Start of VLAN range allocated to this tenant cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_start DataIntersightKubernetesAciCniTenantClusterAllocation#vlan_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#vlan_start DataIntersightKubernetesAciCniTenantClusterAllocation#vlan_start}
   */
   readonly vlanStart?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ancestors DataIntersightKubernetesAciCniTenantClusterAllocation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ancestors DataIntersightKubernetesAciCniTenantClusterAllocation#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesAciCniTenantClusterAllocationAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#organization DataIntersightKubernetesAciCniTenantClusterAllocation#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#organization DataIntersightKubernetesAciCniTenantClusterAllocation#organization}
   */
   readonly organization?: DataIntersightKubernetesAciCniTenantClusterAllocationOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#parent DataIntersightKubernetesAciCniTenantClusterAllocation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#parent DataIntersightKubernetesAciCniTenantClusterAllocation#parent}
   */
   readonly parent?: DataIntersightKubernetesAciCniTenantClusterAllocationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#permission_resources DataIntersightKubernetesAciCniTenantClusterAllocation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#permission_resources DataIntersightKubernetesAciCniTenantClusterAllocation#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesAciCniTenantClusterAllocationPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#tags DataIntersightKubernetesAciCniTenantClusterAllocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#tags DataIntersightKubernetesAciCniTenantClusterAllocation#tags}
   */
   readonly tags?: DataIntersightKubernetesAciCniTenantClusterAllocationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#version_context DataIntersightKubernetesAciCniTenantClusterAllocation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#version_context DataIntersightKubernetesAciCniTenantClusterAllocation#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesAciCniTenantClusterAllocationVersionContext;
 }
@@ -1302,7 +1302,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationResultsList ex
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1310,19 +1310,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationAncestors 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1335,7 +1335,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationAncestors 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -1567,7 +1567,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationAncestorsList 
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1575,19 +1575,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationOrganizati
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1600,7 +1600,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationOrganizati
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -1800,7 +1800,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationOrganizationOu
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1808,19 +1808,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1833,7 +1833,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2033,7 +2033,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationParentOutputRe
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2041,19 +2041,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationPermission
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2066,7 +2066,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationPermission
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2298,7 +2298,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationPermissionReso
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2306,19 +2306,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsAncest
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2331,7 +2331,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsAncest
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2563,7 +2563,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationTagsAncestorDe
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2571,19 +2571,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2596,7 +2596,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationTagsDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -2796,25 +2796,25 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationTagsDefinition
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#key DataIntersightKubernetesAciCniTenantClusterAllocation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#key DataIntersightKubernetesAciCniTenantClusterAllocation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#propagated DataIntersightKubernetesAciCniTenantClusterAllocation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#propagated DataIntersightKubernetesAciCniTenantClusterAllocation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#sys_tag DataIntersightKubernetesAciCniTenantClusterAllocation#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#sys_tag DataIntersightKubernetesAciCniTenantClusterAllocation#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2822,25 +2822,25 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#type DataIntersightKubernetesAciCniTenantClusterAllocation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#type DataIntersightKubernetesAciCniTenantClusterAllocation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#value DataIntersightKubernetesAciCniTenantClusterAllocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#value DataIntersightKubernetesAciCniTenantClusterAllocation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ancestor_definitions DataIntersightKubernetesAciCniTenantClusterAllocation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ancestor_definitions DataIntersightKubernetesAciCniTenantClusterAllocation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesAciCniTenantClusterAllocationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#definition DataIntersightKubernetesAciCniTenantClusterAllocation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#definition DataIntersightKubernetesAciCniTenantClusterAllocation#definition}
   */
   readonly definition?: DataIntersightKubernetesAciCniTenantClusterAllocationTagsDefinition;
 }
@@ -3159,7 +3159,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationTagsList exten
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3167,19 +3167,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3192,7 +3192,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -3424,7 +3424,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationVersionContext
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3432,19 +3432,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#moid DataIntersightKubernetesAciCniTenantClusterAllocation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3457,7 +3457,7 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#selector DataIntersightKubernetesAciCniTenantClusterAllocation#selector}
   */
   readonly selector?: string;
 }
@@ -3657,7 +3657,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationVersionContext
 }
 export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#additional_properties DataIntersightKubernetesAciCniTenantClusterAllocation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3665,32 +3665,32 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#class_id DataIntersightKubernetesAciCniTenantClusterAllocation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#marked_for_deletion DataIntersightKubernetesAciCniTenantClusterAllocation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#marked_for_deletion DataIntersightKubernetesAciCniTenantClusterAllocation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#nr_version DataIntersightKubernetesAciCniTenantClusterAllocation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#nr_version DataIntersightKubernetesAciCniTenantClusterAllocation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#object_type DataIntersightKubernetesAciCniTenantClusterAllocation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#timestamp DataIntersightKubernetesAciCniTenantClusterAllocation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#timestamp DataIntersightKubernetesAciCniTenantClusterAllocation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3701,19 +3701,19 @@ export interface DataIntersightKubernetesAciCniTenantClusterAllocationVersionCon
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#version_type DataIntersightKubernetesAciCniTenantClusterAllocation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#version_type DataIntersightKubernetesAciCniTenantClusterAllocation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#interested_mos DataIntersightKubernetesAciCniTenantClusterAllocation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#interested_mos DataIntersightKubernetesAciCniTenantClusterAllocation#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesAciCniTenantClusterAllocationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ref_mo DataIntersightKubernetesAciCniTenantClusterAllocation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#ref_mo DataIntersightKubernetesAciCniTenantClusterAllocation#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesAciCniTenantClusterAllocationVersionContextRefMo;
 }
@@ -4029,7 +4029,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocationVersionContext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation}
 */
 export class DataIntersightKubernetesAciCniTenantClusterAllocation extends cdktf.TerraformDataSource {
 
@@ -4045,7 +4045,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocation extends cdktf
   * Generates CDKTF code for importing a DataIntersightKubernetesAciCniTenantClusterAllocation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesAciCniTenantClusterAllocation to import
-  * @param importFromId The id of the existing DataIntersightKubernetesAciCniTenantClusterAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesAciCniTenantClusterAllocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesAciCniTenantClusterAllocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4057,7 +4057,7 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocation extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_aci_cni_tenant_cluster_allocation intersight_kubernetes_aci_cni_tenant_cluster_allocation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4068,8 +4068,8 @@ export class DataIntersightKubernetesAciCniTenantClusterAllocation extends cdktf
       terraformResourceType: 'intersight_kubernetes_aci_cni_tenant_cluster_allocation',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

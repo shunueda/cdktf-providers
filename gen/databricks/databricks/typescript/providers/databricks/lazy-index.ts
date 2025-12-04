@@ -131,6 +131,7 @@ Object.defineProperty(exports, 'vectorSearchIndex', { get: function () { return 
 Object.defineProperty(exports, 'volume', { get: function () { return require('./volume'); } });
 Object.defineProperty(exports, 'workspaceBinding', { get: function () { return require('./workspace-binding'); } });
 Object.defineProperty(exports, 'workspaceConf', { get: function () { return require('./workspace-conf'); } });
+Object.defineProperty(exports, 'workspaceEntityTagAssignment', { get: function () { return require('./workspace-entity-tag-assignment'); } });
 Object.defineProperty(exports, 'workspaceFile', { get: function () { return require('./workspace-file'); } });
 Object.defineProperty(exports, 'workspaceNetworkOption', { get: function () { return require('./workspace-network-option'); } });
 Object.defineProperty(exports, 'workspaceSettingV2', { get: function () { return require('./workspace-setting-v2'); } });
@@ -241,6 +242,8 @@ Object.defineProperty(exports, 'dataDatabricksUsers', { get: function () { retur
 Object.defineProperty(exports, 'dataDatabricksViews', { get: function () { return require('./data-databricks-views'); } });
 Object.defineProperty(exports, 'dataDatabricksVolume', { get: function () { return require('./data-databricks-volume'); } });
 Object.defineProperty(exports, 'dataDatabricksVolumes', { get: function () { return require('./data-databricks-volumes'); } });
+Object.defineProperty(exports, 'dataDatabricksWorkspaceEntityTagAssignment', { get: function () { return require('./data-databricks-workspace-entity-tag-assignment'); } });
+Object.defineProperty(exports, 'dataDatabricksWorkspaceEntityTagAssignments', { get: function () { return require('./data-databricks-workspace-entity-tag-assignments'); } });
 Object.defineProperty(exports, 'dataDatabricksWorkspaceNetworkOption', { get: function () { return require('./data-databricks-workspace-network-option'); } });
 Object.defineProperty(exports, 'dataDatabricksWorkspaceSettingV2', { get: function () { return require('./data-databricks-workspace-setting-v2'); } });
 Object.defineProperty(exports, 'dataDatabricksZones', { get: function () { return require('./data-databricks-zones'); } });

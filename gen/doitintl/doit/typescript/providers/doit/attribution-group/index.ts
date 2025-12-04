@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface AttributionGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * list of the attributions IDs
+  * List of the attributions that are part of the attribution group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group#attributions AttributionGroup#attributions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group#attributions AttributionGroup#attributions}
   */
   readonly attributions: string[];
   /**
   * Description of the attribution group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group#description AttributionGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group#description AttributionGroup#description}
   */
   readonly description?: string;
   /**
   * Name of the attribution group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group#name AttributionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group#name AttributionGroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group doit_attribution_group}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group doit_attribution_group}
 */
 export class AttributionGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AttributionGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttributionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttributionGroup to import
-  * @param importFromId The id of the existing AttributionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttributionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttributionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AttributionGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/attribution_group doit_attribution_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/attribution_group doit_attribution_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AttributionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'doit_attribution_group',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

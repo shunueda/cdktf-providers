@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightComputeBoardConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#account_moid DataIntersightComputeBoard#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#account_moid DataIntersightComputeBoard#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Unique identifier of the mother board present in the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#board_id DataIntersightComputeBoard#board_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#board_id DataIntersightComputeBoard#board_id}
   */
   readonly boardId?: number;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightComputeBoardConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The type of central processing unit on the mother board.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#cpu_type_controller DataIntersightComputeBoard#cpu_type_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#cpu_type_controller DataIntersightComputeBoard#cpu_type_controller}
   */
   readonly cpuTypeController?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#create_time DataIntersightComputeBoard#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#create_time DataIntersightComputeBoard#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#device_mo_id DataIntersightComputeBoard#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#device_mo_id DataIntersightComputeBoard#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#dn DataIntersightComputeBoard#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#dn DataIntersightComputeBoard#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#domain_group_moid DataIntersightComputeBoard#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#domain_group_moid DataIntersightComputeBoard#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#id DataIntersightComputeBoard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#id DataIntersightComputeBoard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,227 +71,227 @@ export interface DataIntersightComputeBoardConfig extends cdktf.TerraformMetaArg
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#is_upgraded DataIntersightComputeBoard#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#is_upgraded DataIntersightComputeBoard#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#mod_time DataIntersightComputeBoard#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#mod_time DataIntersightComputeBoard#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#model DataIntersightComputeBoard#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#model DataIntersightComputeBoard#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
   * Current power state of the mother board of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#oper_power_state DataIntersightComputeBoard#oper_power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#oper_power_state DataIntersightComputeBoard#oper_power_state}
   */
   readonly operPowerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#oper_reason DataIntersightComputeBoard#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#oper_reason DataIntersightComputeBoard#oper_reason}
   */
   readonly operReason?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#owners DataIntersightComputeBoard#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#owners DataIntersightComputeBoard#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#presence DataIntersightComputeBoard#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#presence DataIntersightComputeBoard#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#revision DataIntersightComputeBoard#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#revision DataIntersightComputeBoard#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#rn DataIntersightComputeBoard#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#rn DataIntersightComputeBoard#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#serial DataIntersightComputeBoard#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#serial DataIntersightComputeBoard#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#shared_scope DataIntersightComputeBoard#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#shared_scope DataIntersightComputeBoard#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#vendor DataIntersightComputeBoard#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#vendor DataIntersightComputeBoard#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#ancestors DataIntersightComputeBoard#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#ancestors DataIntersightComputeBoard#ancestors}
   */
   readonly ancestors?: DataIntersightComputeBoardAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#compute_blade DataIntersightComputeBoard#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#compute_blade DataIntersightComputeBoard#compute_blade}
   */
   readonly computeBlade?: DataIntersightComputeBoardComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#compute_rack_unit DataIntersightComputeBoard#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#compute_rack_unit DataIntersightComputeBoard#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightComputeBoardComputeRackUnit;
   /**
   * equipment_tpms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#equipment_tpms DataIntersightComputeBoard#equipment_tpms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#equipment_tpms DataIntersightComputeBoard#equipment_tpms}
   */
   readonly equipmentTpms?: DataIntersightComputeBoardEquipmentTpms[] | cdktf.IResolvable;
   /**
   * graphics_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#graphics_cards DataIntersightComputeBoard#graphics_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#graphics_cards DataIntersightComputeBoard#graphics_cards}
   */
   readonly graphicsCards?: DataIntersightComputeBoardGraphicsCards[] | cdktf.IResolvable;
   /**
   * hybrid_drive_slots block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#hybrid_drive_slots DataIntersightComputeBoard#hybrid_drive_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#hybrid_drive_slots DataIntersightComputeBoard#hybrid_drive_slots}
   */
   readonly hybridDriveSlots?: DataIntersightComputeBoardHybridDriveSlots[] | cdktf.IResolvable;
   /**
   * interconnects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#interconnects DataIntersightComputeBoard#interconnects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#interconnects DataIntersightComputeBoard#interconnects}
   */
   readonly interconnects?: DataIntersightComputeBoardInterconnects[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#inventory_device_info DataIntersightComputeBoard#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#inventory_device_info DataIntersightComputeBoard#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightComputeBoardInventoryDeviceInfo;
   /**
   * memory_arrays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#memory_arrays DataIntersightComputeBoard#memory_arrays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#memory_arrays DataIntersightComputeBoard#memory_arrays}
   */
   readonly memoryArrays?: DataIntersightComputeBoardMemoryArrays[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#parent DataIntersightComputeBoard#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#parent DataIntersightComputeBoard#parent}
   */
   readonly parent?: DataIntersightComputeBoardParent;
   /**
   * pci_coprocessor_cards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#pci_coprocessor_cards DataIntersightComputeBoard#pci_coprocessor_cards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#pci_coprocessor_cards DataIntersightComputeBoard#pci_coprocessor_cards}
   */
   readonly pciCoprocessorCards?: DataIntersightComputeBoardPciCoprocessorCards[] | cdktf.IResolvable;
   /**
   * pci_switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#pci_switch DataIntersightComputeBoard#pci_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#pci_switch DataIntersightComputeBoard#pci_switch}
   */
   readonly pciSwitch?: DataIntersightComputeBoardPciSwitch[] | cdktf.IResolvable;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#permission_resources DataIntersightComputeBoard#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#permission_resources DataIntersightComputeBoard#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeBoardPermissionResources[] | cdktf.IResolvable;
   /**
   * persistent_memory_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#persistent_memory_configuration DataIntersightComputeBoard#persistent_memory_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#persistent_memory_configuration DataIntersightComputeBoard#persistent_memory_configuration}
   */
   readonly persistentMemoryConfiguration?: DataIntersightComputeBoardPersistentMemoryConfiguration;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#previous_fru DataIntersightComputeBoard#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#previous_fru DataIntersightComputeBoard#previous_fru}
   */
   readonly previousFru?: DataIntersightComputeBoardPreviousFru;
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#processors DataIntersightComputeBoard#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#processors DataIntersightComputeBoard#processors}
   */
   readonly processors?: DataIntersightComputeBoardProcessors[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#registered_device DataIntersightComputeBoard#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#registered_device DataIntersightComputeBoard#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeBoardRegisteredDevice;
   /**
   * security_units block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#security_units DataIntersightComputeBoard#security_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#security_units DataIntersightComputeBoard#security_units}
   */
   readonly securityUnits?: DataIntersightComputeBoardSecurityUnits[] | cdktf.IResolvable;
   /**
   * storage_controller_drives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#storage_controller_drives DataIntersightComputeBoard#storage_controller_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#storage_controller_drives DataIntersightComputeBoard#storage_controller_drives}
   */
   readonly storageControllerDrives?: DataIntersightComputeBoardStorageControllerDrives[] | cdktf.IResolvable;
   /**
   * storage_controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#storage_controllers DataIntersightComputeBoard#storage_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#storage_controllers DataIntersightComputeBoard#storage_controllers}
   */
   readonly storageControllers?: DataIntersightComputeBoardStorageControllers[] | cdktf.IResolvable;
   /**
   * storage_flex_flash_controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#storage_flex_flash_controllers DataIntersightComputeBoard#storage_flex_flash_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#storage_flex_flash_controllers DataIntersightComputeBoard#storage_flex_flash_controllers}
   */
   readonly storageFlexFlashControllers?: DataIntersightComputeBoardStorageFlexFlashControllers[] | cdktf.IResolvable;
   /**
   * storage_flex_util_controllers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#storage_flex_util_controllers DataIntersightComputeBoard#storage_flex_util_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#storage_flex_util_controllers DataIntersightComputeBoard#storage_flex_util_controllers}
   */
   readonly storageFlexUtilControllers?: DataIntersightComputeBoardStorageFlexUtilControllers[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#tags DataIntersightComputeBoard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#tags DataIntersightComputeBoard#tags}
   */
   readonly tags?: DataIntersightComputeBoardTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#version_context DataIntersightComputeBoard#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#version_context DataIntersightComputeBoard#version_context}
   */
   readonly versionContext?: DataIntersightComputeBoardVersionContext;
 }
@@ -3325,7 +3325,7 @@ export class DataIntersightComputeBoardResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBoardAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3333,19 +3333,19 @@ export interface DataIntersightComputeBoardAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3358,7 +3358,7 @@ export interface DataIntersightComputeBoardAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -3590,7 +3590,7 @@ export class DataIntersightComputeBoardAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBoardComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3598,19 +3598,19 @@ export interface DataIntersightComputeBoardComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3623,7 +3623,7 @@ export interface DataIntersightComputeBoardComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -3823,7 +3823,7 @@ export class DataIntersightComputeBoardComputeBladeOutputReference extends cdktf
 }
 export interface DataIntersightComputeBoardComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3831,19 +3831,19 @@ export interface DataIntersightComputeBoardComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3856,7 +3856,7 @@ export interface DataIntersightComputeBoardComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -4056,7 +4056,7 @@ export class DataIntersightComputeBoardComputeRackUnitOutputReference extends cd
 }
 export interface DataIntersightComputeBoardEquipmentTpms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4064,19 +4064,19 @@ export interface DataIntersightComputeBoardEquipmentTpms {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4089,7 +4089,7 @@ export interface DataIntersightComputeBoardEquipmentTpms {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -4321,7 +4321,7 @@ export class DataIntersightComputeBoardEquipmentTpmsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBoardGraphicsCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4329,19 +4329,19 @@ export interface DataIntersightComputeBoardGraphicsCards {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4354,7 +4354,7 @@ export interface DataIntersightComputeBoardGraphicsCards {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -4586,7 +4586,7 @@ export class DataIntersightComputeBoardGraphicsCardsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBoardHybridDriveSlots {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4594,19 +4594,19 @@ export interface DataIntersightComputeBoardHybridDriveSlots {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4619,7 +4619,7 @@ export interface DataIntersightComputeBoardHybridDriveSlots {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -4851,7 +4851,7 @@ export class DataIntersightComputeBoardHybridDriveSlotsList extends cdktf.Comple
 }
 export interface DataIntersightComputeBoardInterconnects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4859,19 +4859,19 @@ export interface DataIntersightComputeBoardInterconnects {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4884,7 +4884,7 @@ export interface DataIntersightComputeBoardInterconnects {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -5116,7 +5116,7 @@ export class DataIntersightComputeBoardInterconnectsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBoardInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5124,19 +5124,19 @@ export interface DataIntersightComputeBoardInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5149,7 +5149,7 @@ export interface DataIntersightComputeBoardInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -5349,7 +5349,7 @@ export class DataIntersightComputeBoardInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightComputeBoardMemoryArrays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5357,19 +5357,19 @@ export interface DataIntersightComputeBoardMemoryArrays {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5382,7 +5382,7 @@ export interface DataIntersightComputeBoardMemoryArrays {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -5614,7 +5614,7 @@ export class DataIntersightComputeBoardMemoryArraysList extends cdktf.ComplexLis
 }
 export interface DataIntersightComputeBoardParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5622,19 +5622,19 @@ export interface DataIntersightComputeBoardParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5647,7 +5647,7 @@ export interface DataIntersightComputeBoardParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -5847,7 +5847,7 @@ export class DataIntersightComputeBoardParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightComputeBoardPciCoprocessorCards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5855,19 +5855,19 @@ export interface DataIntersightComputeBoardPciCoprocessorCards {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5880,7 +5880,7 @@ export interface DataIntersightComputeBoardPciCoprocessorCards {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -6112,7 +6112,7 @@ export class DataIntersightComputeBoardPciCoprocessorCardsList extends cdktf.Com
 }
 export interface DataIntersightComputeBoardPciSwitch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6120,19 +6120,19 @@ export interface DataIntersightComputeBoardPciSwitch {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6145,7 +6145,7 @@ export interface DataIntersightComputeBoardPciSwitch {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -6377,7 +6377,7 @@ export class DataIntersightComputeBoardPciSwitchList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBoardPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6385,19 +6385,19 @@ export interface DataIntersightComputeBoardPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6410,7 +6410,7 @@ export interface DataIntersightComputeBoardPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -6642,7 +6642,7 @@ export class DataIntersightComputeBoardPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightComputeBoardPersistentMemoryConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6650,19 +6650,19 @@ export interface DataIntersightComputeBoardPersistentMemoryConfiguration {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6675,7 +6675,7 @@ export interface DataIntersightComputeBoardPersistentMemoryConfiguration {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -6875,7 +6875,7 @@ export class DataIntersightComputeBoardPersistentMemoryConfigurationOutputRefere
 }
 export interface DataIntersightComputeBoardPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6883,19 +6883,19 @@ export interface DataIntersightComputeBoardPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6908,7 +6908,7 @@ export interface DataIntersightComputeBoardPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -7108,7 +7108,7 @@ export class DataIntersightComputeBoardPreviousFruOutputReference extends cdktf.
 }
 export interface DataIntersightComputeBoardProcessors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7116,19 +7116,19 @@ export interface DataIntersightComputeBoardProcessors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7141,7 +7141,7 @@ export interface DataIntersightComputeBoardProcessors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -7373,7 +7373,7 @@ export class DataIntersightComputeBoardProcessorsList extends cdktf.ComplexList 
 }
 export interface DataIntersightComputeBoardRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7381,19 +7381,19 @@ export interface DataIntersightComputeBoardRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7406,7 +7406,7 @@ export interface DataIntersightComputeBoardRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -7606,7 +7606,7 @@ export class DataIntersightComputeBoardRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightComputeBoardSecurityUnits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7614,19 +7614,19 @@ export interface DataIntersightComputeBoardSecurityUnits {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7639,7 +7639,7 @@ export interface DataIntersightComputeBoardSecurityUnits {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -7871,7 +7871,7 @@ export class DataIntersightComputeBoardSecurityUnitsList extends cdktf.ComplexLi
 }
 export interface DataIntersightComputeBoardStorageControllerDrives {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7879,19 +7879,19 @@ export interface DataIntersightComputeBoardStorageControllerDrives {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7904,7 +7904,7 @@ export interface DataIntersightComputeBoardStorageControllerDrives {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -8136,7 +8136,7 @@ export class DataIntersightComputeBoardStorageControllerDrivesList extends cdktf
 }
 export interface DataIntersightComputeBoardStorageControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8144,19 +8144,19 @@ export interface DataIntersightComputeBoardStorageControllers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8169,7 +8169,7 @@ export interface DataIntersightComputeBoardStorageControllers {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -8401,7 +8401,7 @@ export class DataIntersightComputeBoardStorageControllersList extends cdktf.Comp
 }
 export interface DataIntersightComputeBoardStorageFlexFlashControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8409,19 +8409,19 @@ export interface DataIntersightComputeBoardStorageFlexFlashControllers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8434,7 +8434,7 @@ export interface DataIntersightComputeBoardStorageFlexFlashControllers {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -8666,7 +8666,7 @@ export class DataIntersightComputeBoardStorageFlexFlashControllersList extends c
 }
 export interface DataIntersightComputeBoardStorageFlexUtilControllers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8674,19 +8674,19 @@ export interface DataIntersightComputeBoardStorageFlexUtilControllers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8699,7 +8699,7 @@ export interface DataIntersightComputeBoardStorageFlexUtilControllers {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -8931,7 +8931,7 @@ export class DataIntersightComputeBoardStorageFlexUtilControllersList extends cd
 }
 export interface DataIntersightComputeBoardTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8939,19 +8939,19 @@ export interface DataIntersightComputeBoardTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8964,7 +8964,7 @@ export interface DataIntersightComputeBoardTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -9196,7 +9196,7 @@ export class DataIntersightComputeBoardTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightComputeBoardTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9204,19 +9204,19 @@ export interface DataIntersightComputeBoardTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9229,7 +9229,7 @@ export interface DataIntersightComputeBoardTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -9429,25 +9429,25 @@ export class DataIntersightComputeBoardTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightComputeBoardTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#key DataIntersightComputeBoard#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#key DataIntersightComputeBoard#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#propagated DataIntersightComputeBoard#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#propagated DataIntersightComputeBoard#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#sys_tag DataIntersightComputeBoard#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#sys_tag DataIntersightComputeBoard#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -9455,25 +9455,25 @@ export interface DataIntersightComputeBoardTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#type DataIntersightComputeBoard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#type DataIntersightComputeBoard#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#value DataIntersightComputeBoard#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#value DataIntersightComputeBoard#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#ancestor_definitions DataIntersightComputeBoard#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#ancestor_definitions DataIntersightComputeBoard#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeBoardTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#definition DataIntersightComputeBoard#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#definition DataIntersightComputeBoard#definition}
   */
   readonly definition?: DataIntersightComputeBoardTagsDefinition;
 }
@@ -9792,7 +9792,7 @@ export class DataIntersightComputeBoardTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightComputeBoardVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -9800,19 +9800,19 @@ export interface DataIntersightComputeBoardVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -9825,7 +9825,7 @@ export interface DataIntersightComputeBoardVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -10057,7 +10057,7 @@ export class DataIntersightComputeBoardVersionContextInterestedMosList extends c
 }
 export interface DataIntersightComputeBoardVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10065,19 +10065,19 @@ export interface DataIntersightComputeBoardVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#moid DataIntersightComputeBoard#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
@@ -10090,7 +10090,7 @@ export interface DataIntersightComputeBoardVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#selector DataIntersightComputeBoard#selector}
   */
   readonly selector?: string;
 }
@@ -10290,7 +10290,7 @@ export class DataIntersightComputeBoardVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightComputeBoardVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#additional_properties DataIntersightComputeBoard#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -10298,32 +10298,32 @@ export interface DataIntersightComputeBoardVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#class_id DataIntersightComputeBoard#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#marked_for_deletion DataIntersightComputeBoard#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#marked_for_deletion DataIntersightComputeBoard#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#nr_version DataIntersightComputeBoard#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#nr_version DataIntersightComputeBoard#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#object_type DataIntersightComputeBoard#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#timestamp DataIntersightComputeBoard#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#timestamp DataIntersightComputeBoard#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -10334,19 +10334,19 @@ export interface DataIntersightComputeBoardVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#version_type DataIntersightComputeBoard#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#version_type DataIntersightComputeBoard#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#interested_mos DataIntersightComputeBoard#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#interested_mos DataIntersightComputeBoard#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeBoardVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#ref_mo DataIntersightComputeBoard#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#ref_mo DataIntersightComputeBoard#ref_mo}
   */
   readonly refMo?: DataIntersightComputeBoardVersionContextRefMo;
 }
@@ -10662,7 +10662,7 @@ export class DataIntersightComputeBoardVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board intersight_compute_board}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board intersight_compute_board}
 */
 export class DataIntersightComputeBoard extends cdktf.TerraformDataSource {
 
@@ -10678,7 +10678,7 @@ export class DataIntersightComputeBoard extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightComputeBoard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeBoard to import
-  * @param importFromId The id of the existing DataIntersightComputeBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeBoard that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeBoard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10690,7 +10690,7 @@ export class DataIntersightComputeBoard extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_board intersight_compute_board} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_board intersight_compute_board} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10701,8 +10701,8 @@ export class DataIntersightComputeBoard extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_compute_board',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

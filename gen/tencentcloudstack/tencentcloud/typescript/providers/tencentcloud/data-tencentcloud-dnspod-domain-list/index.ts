@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudDnspodDomainListConfig extends cdktf.TerraformM
   /**
   * Get domain names based on domain group id, which can be obtained through the GroupId field in DescribeDomain or DescribeDomainList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#group_id DataTencentcloudDnspodDomainList#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#group_id DataTencentcloudDnspodDomainList#group_id}
   */
   readonly groupId?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#id DataTencentcloudDnspodDomainList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#id DataTencentcloudDnspodDomainList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,85 +23,85 @@ export interface DataTencentcloudDnspodDomainListConfig extends cdktf.TerraformM
   /**
   * Get domain names based on keywords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#keyword DataTencentcloudDnspodDomainList#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#keyword DataTencentcloudDnspodDomainList#keyword}
   */
   readonly keyword?: string;
   /**
   * Get domain names based on the package, which can be obtained through the Grade field in DescribeDomain or DescribeDomainList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#package DataTencentcloudDnspodDomainList#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#package DataTencentcloudDnspodDomainList#package}
   */
   readonly package?: string[];
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#project_id DataTencentcloudDnspodDomainList#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#project_id DataTencentcloudDnspodDomainList#project_id}
   */
   readonly projectId?: number;
   /**
   * The start point of the domain name&amp;#39;s record count query range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#record_count_begin DataTencentcloudDnspodDomainList#record_count_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#record_count_begin DataTencentcloudDnspodDomainList#record_count_begin}
   */
   readonly recordCountBegin?: number;
   /**
   * The end point of the domain name&amp;#39;s record count query range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#record_count_end DataTencentcloudDnspodDomainList#record_count_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#record_count_end DataTencentcloudDnspodDomainList#record_count_end}
   */
   readonly recordCountEnd?: number;
   /**
   * Get domain names based on remark information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#remark DataTencentcloudDnspodDomainList#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#remark DataTencentcloudDnspodDomainList#remark}
   */
   readonly remark?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#result_output_file DataTencentcloudDnspodDomainList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#result_output_file DataTencentcloudDnspodDomainList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sorting field. Available values are NAME, STATUS, RECORDS, GRADE, UPDATED_ON. NAME: Domain name STATUS: Domain status RECORDS: Number of records GRADE: Package level UPDATED_ON: Update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#sort_field DataTencentcloudDnspodDomainList#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#sort_field DataTencentcloudDnspodDomainList#sort_field}
   */
   readonly sortField?: string;
   /**
   * Sorting type, ascending: ASC, descending: DESC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#sort_type DataTencentcloudDnspodDomainList#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#sort_type DataTencentcloudDnspodDomainList#sort_type}
   */
   readonly sortType?: string;
   /**
   * Get domain names based on domain status. Available values are ENABLE, LOCK, PAUSE, SPAM. ENABLE: Normal LOCK: Locked PAUSE: Paused SPAM: Banned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#status DataTencentcloudDnspodDomainList#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#status DataTencentcloudDnspodDomainList#status}
   */
   readonly status?: string[];
   /**
   * Get domain names based on domain group type. Available values are ALL, MINE, SHARE, RECENT. ALL: All MINE: My domain names SHARE: Domain names shared with me RECENT: Recently operated domain names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#type DataTencentcloudDnspodDomainList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#type DataTencentcloudDnspodDomainList#type}
   */
   readonly type: string;
   /**
   * The start time of the domain name&amp;#39;s update time to be obtained, such as &amp;#39;2021-05-01 03:00:00&amp;#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#updated_at_begin DataTencentcloudDnspodDomainList#updated_at_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#updated_at_begin DataTencentcloudDnspodDomainList#updated_at_begin}
   */
   readonly updatedAtBegin?: string;
   /**
   * The end time of the domain name&amp;#39;s update time to be obtained, such as &amp;#39;2021-05-10 20:00:00&amp;#39;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#updated_at_end DataTencentcloudDnspodDomainList#updated_at_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#updated_at_end DataTencentcloudDnspodDomainList#updated_at_end}
   */
   readonly updatedAtEnd?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#tags DataTencentcloudDnspodDomainList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#tags DataTencentcloudDnspodDomainList#tags}
   */
   readonly tags?: DataTencentcloudDnspodDomainListTags[] | cdktf.IResolvable;
 }
@@ -375,13 +375,13 @@ export interface DataTencentcloudDnspodDomainListTags {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#tag_key DataTencentcloudDnspodDomainList#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#tag_key DataTencentcloudDnspodDomainList#tag_key}
   */
   readonly tagKey: string;
   /**
   * Filter value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#tag_value DataTencentcloudDnspodDomainList#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#tag_value DataTencentcloudDnspodDomainList#tag_value}
   */
   readonly tagValue: string[];
 }
@@ -520,7 +520,7 @@ export class DataTencentcloudDnspodDomainListTagsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list tencentcloud_dnspod_domain_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list tencentcloud_dnspod_domain_list}
 */
 export class DataTencentcloudDnspodDomainList extends cdktf.TerraformDataSource {
 
@@ -536,7 +536,7 @@ export class DataTencentcloudDnspodDomainList extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudDnspodDomainList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnspodDomainList to import
-  * @param importFromId The id of the existing DataTencentcloudDnspodDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnspodDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnspodDomainList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +548,7 @@ export class DataTencentcloudDnspodDomainList extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/dnspod_domain_list tencentcloud_dnspod_domain_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/dnspod_domain_list tencentcloud_dnspod_domain_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +559,8 @@ export class DataTencentcloudDnspodDomainList extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_dnspod_domain_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

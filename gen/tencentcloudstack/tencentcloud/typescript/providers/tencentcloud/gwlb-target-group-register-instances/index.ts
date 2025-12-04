@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GwlbTargetGroupRegisterInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#id GwlbTargetGroupRegisterInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#id GwlbTargetGroupRegisterInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface GwlbTargetGroupRegisterInstancesConfig extends cdktf.TerraformM
   /**
   * Target group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#target_group_id GwlbTargetGroupRegisterInstances#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#target_group_id GwlbTargetGroupRegisterInstances#target_group_id}
   */
   readonly targetGroupId: string;
   /**
   * target_group_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#target_group_instances GwlbTargetGroupRegisterInstances#target_group_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#target_group_instances GwlbTargetGroupRegisterInstances#target_group_instances}
   */
   readonly targetGroupInstances: GwlbTargetGroupRegisterInstancesTargetGroupInstances[] | cdktf.IResolvable;
 }
@@ -31,19 +31,19 @@ export interface GwlbTargetGroupRegisterInstancesTargetGroupInstances {
   /**
   * Private network IP of target group instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#bind_ip GwlbTargetGroupRegisterInstances#bind_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#bind_ip GwlbTargetGroupRegisterInstances#bind_ip}
   */
   readonly bindIp: string;
   /**
   * Port of target group instance. Only 6081 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#port GwlbTargetGroupRegisterInstances#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#port GwlbTargetGroupRegisterInstances#port}
   */
   readonly port?: number;
   /**
   * Weight of target group instance. Only 0 or 16 is supported, and non-0 is uniformly treated as 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#weight GwlbTargetGroupRegisterInstances#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#weight GwlbTargetGroupRegisterInstances#weight}
   */
   readonly weight?: number;
 }
@@ -214,7 +214,7 @@ export class GwlbTargetGroupRegisterInstancesTargetGroupInstancesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances tencentcloud_gwlb_target_group_register_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances tencentcloud_gwlb_target_group_register_instances}
 */
 export class GwlbTargetGroupRegisterInstances extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class GwlbTargetGroupRegisterInstances extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GwlbTargetGroupRegisterInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GwlbTargetGroupRegisterInstances to import
-  * @param importFromId The id of the existing GwlbTargetGroupRegisterInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GwlbTargetGroupRegisterInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GwlbTargetGroupRegisterInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class GwlbTargetGroupRegisterInstances extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/gwlb_target_group_register_instances tencentcloud_gwlb_target_group_register_instances} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/gwlb_target_group_register_instances tencentcloud_gwlb_target_group_register_instances} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class GwlbTargetGroupRegisterInstances extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gwlb_target_group_register_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

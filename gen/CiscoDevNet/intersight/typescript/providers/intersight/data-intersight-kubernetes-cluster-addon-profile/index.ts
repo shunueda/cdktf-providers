@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesClusterAddonProfileConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#account_moid DataIntersightKubernetesClusterAddonProfile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#account_moid DataIntersightKubernetesClusterAddonProfile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightKubernetesClusterAddonProfileConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#create_time DataIntersightKubernetesClusterAddonProfile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#create_time DataIntersightKubernetesClusterAddonProfile#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#domain_group_moid DataIntersightKubernetesClusterAddonProfile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#domain_group_moid DataIntersightKubernetesClusterAddonProfile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#id DataIntersightKubernetesClusterAddonProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#id DataIntersightKubernetesClusterAddonProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightKubernetesClusterAddonProfileConfig extends cdktf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#mod_time DataIntersightKubernetesClusterAddonProfile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#mod_time DataIntersightKubernetesClusterAddonProfile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * Name of the cluster addon profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#name DataIntersightKubernetesClusterAddonProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#name DataIntersightKubernetesClusterAddonProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#owners DataIntersightKubernetesClusterAddonProfile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#owners DataIntersightKubernetesClusterAddonProfile#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#shared_scope DataIntersightKubernetesClusterAddonProfile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#shared_scope DataIntersightKubernetesClusterAddonProfile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#addons DataIntersightKubernetesClusterAddonProfile#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#addons DataIntersightKubernetesClusterAddonProfile#addons}
   */
   readonly addons?: DataIntersightKubernetesClusterAddonProfileAddons[] | cdktf.IResolvable;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#ancestors DataIntersightKubernetesClusterAddonProfile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#ancestors DataIntersightKubernetesClusterAddonProfile#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesClusterAddonProfileAncestors[] | cdktf.IResolvable;
   /**
   * associated_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#associated_cluster DataIntersightKubernetesClusterAddonProfile#associated_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#associated_cluster DataIntersightKubernetesClusterAddonProfile#associated_cluster}
   */
   readonly associatedCluster?: DataIntersightKubernetesClusterAddonProfileAssociatedCluster;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#organization DataIntersightKubernetesClusterAddonProfile#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#organization DataIntersightKubernetesClusterAddonProfile#organization}
   */
   readonly organization?: DataIntersightKubernetesClusterAddonProfileOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#parent DataIntersightKubernetesClusterAddonProfile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#parent DataIntersightKubernetesClusterAddonProfile#parent}
   */
   readonly parent?: DataIntersightKubernetesClusterAddonProfileParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#permission_resources DataIntersightKubernetesClusterAddonProfile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#permission_resources DataIntersightKubernetesClusterAddonProfile#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesClusterAddonProfilePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#tags DataIntersightKubernetesClusterAddonProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#tags DataIntersightKubernetesClusterAddonProfile#tags}
   */
   readonly tags?: DataIntersightKubernetesClusterAddonProfileTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#version_context DataIntersightKubernetesClusterAddonProfile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#version_context DataIntersightKubernetesClusterAddonProfile#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesClusterAddonProfileVersionContext;
 }
@@ -1796,7 +1796,7 @@ export class DataIntersightKubernetesClusterAddonProfileResultsList extends cdkt
 }
 export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigurationOverrideSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1804,26 +1804,26 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigura
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Key or property name in a key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#key DataIntersightKubernetesClusterAddonProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#key DataIntersightKubernetesClusterAddonProfile#key}
   */
   readonly key?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Property value in a key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#value DataIntersightKubernetesClusterAddonProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#value DataIntersightKubernetesClusterAddonProfile#value}
   */
   readonly value?: string;
 }
@@ -2055,7 +2055,7 @@ export class DataIntersightKubernetesClusterAddonProfileAddonsAddonConfiguration
 }
 export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2063,7 +2063,7 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigura
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
@@ -2073,32 +2073,32 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigura
   * * `InstallOnly` - Only install in green field. No action in case of failure or removal.
   * * `Always` - Attempt install if chart is not already installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#install_strategy DataIntersightKubernetesClusterAddonProfile#install_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#install_strategy DataIntersightKubernetesClusterAddonProfile#install_strategy}
   */
   readonly installStrategy?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * Properties that can be overridden for an addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#overrides DataIntersightKubernetesClusterAddonProfile#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#overrides DataIntersightKubernetesClusterAddonProfile#overrides}
   */
   readonly overrides?: string;
   /**
   * Name for the helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#release_name DataIntersightKubernetesClusterAddonProfile#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#release_name DataIntersightKubernetesClusterAddonProfile#release_name}
   */
   readonly releaseName?: string;
   /**
   * Namespace for the helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#release_namespace DataIntersightKubernetesClusterAddonProfile#release_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#release_namespace DataIntersightKubernetesClusterAddonProfile#release_namespace}
   */
   readonly releaseNamespace?: string;
   /**
@@ -2109,13 +2109,13 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigura
   * * `ReinstallOnFailure` - Attempt upgrade first. Remove and install on upgrade failure.
   * * `AlwaysReinstall` - Always remove older release and reinstall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#upgrade_strategy DataIntersightKubernetesClusterAddonProfile#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#upgrade_strategy DataIntersightKubernetesClusterAddonProfile#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
   /**
   * override_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#override_sets DataIntersightKubernetesClusterAddonProfile#override_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#override_sets DataIntersightKubernetesClusterAddonProfile#override_sets}
   */
   readonly overrideSets?: DataIntersightKubernetesClusterAddonProfileAddonsAddonConfigurationOverrideSets[] | cdktf.IResolvable;
 }
@@ -2431,7 +2431,7 @@ export class DataIntersightKubernetesClusterAddonProfileAddonsAddonConfiguration
 }
 export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2439,19 +2439,19 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2464,7 +2464,7 @@ export interface DataIntersightKubernetesClusterAddonProfileAddonsAddonPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -2664,7 +2664,7 @@ export class DataIntersightKubernetesClusterAddonProfileAddonsAddonPolicyOutputR
 }
 export interface DataIntersightKubernetesClusterAddonProfileAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2672,32 +2672,32 @@ export interface DataIntersightKubernetesClusterAddonProfileAddons {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * Name of addon to be installed on a Kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#name DataIntersightKubernetesClusterAddonProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#name DataIntersightKubernetesClusterAddonProfile#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * addon_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#addon_configuration DataIntersightKubernetesClusterAddonProfile#addon_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#addon_configuration DataIntersightKubernetesClusterAddonProfile#addon_configuration}
   */
   readonly addonConfiguration?: DataIntersightKubernetesClusterAddonProfileAddonsAddonConfiguration;
   /**
   * addon_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#addon_policy DataIntersightKubernetesClusterAddonProfile#addon_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#addon_policy DataIntersightKubernetesClusterAddonProfile#addon_policy}
   */
   readonly addonPolicy?: DataIntersightKubernetesClusterAddonProfileAddonsAddonPolicy;
 }
@@ -2958,7 +2958,7 @@ export class DataIntersightKubernetesClusterAddonProfileAddonsList extends cdktf
 }
 export interface DataIntersightKubernetesClusterAddonProfileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2966,19 +2966,19 @@ export interface DataIntersightKubernetesClusterAddonProfileAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2991,7 +2991,7 @@ export interface DataIntersightKubernetesClusterAddonProfileAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3223,7 +3223,7 @@ export class DataIntersightKubernetesClusterAddonProfileAncestorsList extends cd
 }
 export interface DataIntersightKubernetesClusterAddonProfileAssociatedCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3231,19 +3231,19 @@ export interface DataIntersightKubernetesClusterAddonProfileAssociatedCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3256,7 +3256,7 @@ export interface DataIntersightKubernetesClusterAddonProfileAssociatedCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3456,7 +3456,7 @@ export class DataIntersightKubernetesClusterAddonProfileAssociatedClusterOutputR
 }
 export interface DataIntersightKubernetesClusterAddonProfileOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3464,19 +3464,19 @@ export interface DataIntersightKubernetesClusterAddonProfileOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3489,7 +3489,7 @@ export interface DataIntersightKubernetesClusterAddonProfileOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3689,7 +3689,7 @@ export class DataIntersightKubernetesClusterAddonProfileOrganizationOutputRefere
 }
 export interface DataIntersightKubernetesClusterAddonProfileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3697,19 +3697,19 @@ export interface DataIntersightKubernetesClusterAddonProfileParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3722,7 +3722,7 @@ export interface DataIntersightKubernetesClusterAddonProfileParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -3922,7 +3922,7 @@ export class DataIntersightKubernetesClusterAddonProfileParentOutputReference ex
 }
 export interface DataIntersightKubernetesClusterAddonProfilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3930,19 +3930,19 @@ export interface DataIntersightKubernetesClusterAddonProfilePermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3955,7 +3955,7 @@ export interface DataIntersightKubernetesClusterAddonProfilePermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4187,7 +4187,7 @@ export class DataIntersightKubernetesClusterAddonProfilePermissionResourcesList 
 }
 export interface DataIntersightKubernetesClusterAddonProfileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4195,19 +4195,19 @@ export interface DataIntersightKubernetesClusterAddonProfileTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4220,7 +4220,7 @@ export interface DataIntersightKubernetesClusterAddonProfileTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4452,7 +4452,7 @@ export class DataIntersightKubernetesClusterAddonProfileTagsAncestorDefinitionsL
 }
 export interface DataIntersightKubernetesClusterAddonProfileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4460,19 +4460,19 @@ export interface DataIntersightKubernetesClusterAddonProfileTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4485,7 +4485,7 @@ export interface DataIntersightKubernetesClusterAddonProfileTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -4685,25 +4685,25 @@ export class DataIntersightKubernetesClusterAddonProfileTagsDefinitionOutputRefe
 }
 export interface DataIntersightKubernetesClusterAddonProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#key DataIntersightKubernetesClusterAddonProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#key DataIntersightKubernetesClusterAddonProfile#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#propagated DataIntersightKubernetesClusterAddonProfile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#propagated DataIntersightKubernetesClusterAddonProfile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#sys_tag DataIntersightKubernetesClusterAddonProfile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#sys_tag DataIntersightKubernetesClusterAddonProfile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4711,25 +4711,25 @@ export interface DataIntersightKubernetesClusterAddonProfileTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#type DataIntersightKubernetesClusterAddonProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#type DataIntersightKubernetesClusterAddonProfile#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#value DataIntersightKubernetesClusterAddonProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#value DataIntersightKubernetesClusterAddonProfile#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#ancestor_definitions DataIntersightKubernetesClusterAddonProfile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#ancestor_definitions DataIntersightKubernetesClusterAddonProfile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesClusterAddonProfileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#definition DataIntersightKubernetesClusterAddonProfile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#definition DataIntersightKubernetesClusterAddonProfile#definition}
   */
   readonly definition?: DataIntersightKubernetesClusterAddonProfileTagsDefinition;
 }
@@ -5048,7 +5048,7 @@ export class DataIntersightKubernetesClusterAddonProfileTagsList extends cdktf.C
 }
 export interface DataIntersightKubernetesClusterAddonProfileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5056,19 +5056,19 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5081,7 +5081,7 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5313,7 +5313,7 @@ export class DataIntersightKubernetesClusterAddonProfileVersionContextInterested
 }
 export interface DataIntersightKubernetesClusterAddonProfileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5321,19 +5321,19 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#moid DataIntersightKubernetesClusterAddonProfile#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5346,7 +5346,7 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#selector DataIntersightKubernetesClusterAddonProfile#selector}
   */
   readonly selector?: string;
 }
@@ -5546,7 +5546,7 @@ export class DataIntersightKubernetesClusterAddonProfileVersionContextRefMoOutpu
 }
 export interface DataIntersightKubernetesClusterAddonProfileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#additional_properties DataIntersightKubernetesClusterAddonProfile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5554,32 +5554,32 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#class_id DataIntersightKubernetesClusterAddonProfile#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#marked_for_deletion DataIntersightKubernetesClusterAddonProfile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#marked_for_deletion DataIntersightKubernetesClusterAddonProfile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#nr_version DataIntersightKubernetesClusterAddonProfile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#nr_version DataIntersightKubernetesClusterAddonProfile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#object_type DataIntersightKubernetesClusterAddonProfile#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#timestamp DataIntersightKubernetesClusterAddonProfile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#timestamp DataIntersightKubernetesClusterAddonProfile#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5590,19 +5590,19 @@ export interface DataIntersightKubernetesClusterAddonProfileVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#version_type DataIntersightKubernetesClusterAddonProfile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#version_type DataIntersightKubernetesClusterAddonProfile#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#interested_mos DataIntersightKubernetesClusterAddonProfile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#interested_mos DataIntersightKubernetesClusterAddonProfile#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesClusterAddonProfileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#ref_mo DataIntersightKubernetesClusterAddonProfile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#ref_mo DataIntersightKubernetesClusterAddonProfile#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesClusterAddonProfileVersionContextRefMo;
 }
@@ -5918,7 +5918,7 @@ export class DataIntersightKubernetesClusterAddonProfileVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile}
 */
 export class DataIntersightKubernetesClusterAddonProfile extends cdktf.TerraformDataSource {
 
@@ -5934,7 +5934,7 @@ export class DataIntersightKubernetesClusterAddonProfile extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightKubernetesClusterAddonProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesClusterAddonProfile to import
-  * @param importFromId The id of the existing DataIntersightKubernetesClusterAddonProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesClusterAddonProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesClusterAddonProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5946,7 +5946,7 @@ export class DataIntersightKubernetesClusterAddonProfile extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_cluster_addon_profile intersight_kubernetes_cluster_addon_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5957,8 +5957,8 @@ export class DataIntersightKubernetesClusterAddonProfile extends cdktf.Terraform
       terraformResourceType: 'intersight_kubernetes_cluster_addon_profile',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

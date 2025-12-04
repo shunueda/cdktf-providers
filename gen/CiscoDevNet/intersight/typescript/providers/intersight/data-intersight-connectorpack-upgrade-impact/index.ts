@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightConnectorpackUpgradeImpactConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#account_moid DataIntersightConnectorpackUpgradeImpact#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#account_moid DataIntersightConnectorpackUpgradeImpact#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightConnectorpackUpgradeImpactConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#create_time DataIntersightConnectorpackUpgradeImpact#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#create_time DataIntersightConnectorpackUpgradeImpact#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#domain_group_moid DataIntersightConnectorpackUpgradeImpact#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#domain_group_moid DataIntersightConnectorpackUpgradeImpact#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#id DataIntersightConnectorpackUpgradeImpact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#id DataIntersightConnectorpackUpgradeImpact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,85 +47,85 @@ export interface DataIntersightConnectorpackUpgradeImpactConfig extends cdktf.Te
   /**
   * States whether the UCS Director is eligible for an upgrade. Set to true if connector packs are available for upgrade, else set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#is_eligible_for_upgrade DataIntersightConnectorpackUpgradeImpact#is_eligible_for_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#is_eligible_for_upgrade DataIntersightConnectorpackUpgradeImpact#is_eligible_for_upgrade}
   */
   readonly isEligibleForUpgrade?: boolean | cdktf.IResolvable;
   /**
   * States whether all the requisite updates have been downloaded to the target UCS Director. Set to true if all connector packs required to upgrade UCS Director to the next iteration have been downloaded, else set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#is_update_downloaded DataIntersightConnectorpackUpgradeImpact#is_update_downloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#is_update_downloaded DataIntersightConnectorpackUpgradeImpact#is_update_downloaded}
   */
   readonly isUpdateDownloaded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#mod_time DataIntersightConnectorpackUpgradeImpact#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#mod_time DataIntersightConnectorpackUpgradeImpact#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#owners DataIntersightConnectorpackUpgradeImpact#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#owners DataIntersightConnectorpackUpgradeImpact#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#shared_scope DataIntersightConnectorpackUpgradeImpact#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#shared_scope DataIntersightConnectorpackUpgradeImpact#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#ancestors DataIntersightConnectorpackUpgradeImpact#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#ancestors DataIntersightConnectorpackUpgradeImpact#ancestors}
   */
   readonly ancestors?: DataIntersightConnectorpackUpgradeImpactAncestors[] | cdktf.IResolvable;
   /**
   * connector_pack block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#connector_pack DataIntersightConnectorpackUpgradeImpact#connector_pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#connector_pack DataIntersightConnectorpackUpgradeImpact#connector_pack}
   */
   readonly connectorPack?: DataIntersightConnectorpackUpgradeImpactConnectorPack[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#parent DataIntersightConnectorpackUpgradeImpact#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#parent DataIntersightConnectorpackUpgradeImpact#parent}
   */
   readonly parent?: DataIntersightConnectorpackUpgradeImpactParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#permission_resources DataIntersightConnectorpackUpgradeImpact#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#permission_resources DataIntersightConnectorpackUpgradeImpact#permission_resources}
   */
   readonly permissionResources?: DataIntersightConnectorpackUpgradeImpactPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#tags DataIntersightConnectorpackUpgradeImpact#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#tags DataIntersightConnectorpackUpgradeImpact#tags}
   */
   readonly tags?: DataIntersightConnectorpackUpgradeImpactTags[] | cdktf.IResolvable;
   /**
   * ucsd_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#ucsd_info DataIntersightConnectorpackUpgradeImpact#ucsd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#ucsd_info DataIntersightConnectorpackUpgradeImpact#ucsd_info}
   */
   readonly ucsdInfo?: DataIntersightConnectorpackUpgradeImpactUcsdInfo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#version_context DataIntersightConnectorpackUpgradeImpact#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#version_context DataIntersightConnectorpackUpgradeImpact#version_context}
   */
   readonly versionContext?: DataIntersightConnectorpackUpgradeImpactVersionContext;
 }
@@ -1392,7 +1392,7 @@ export class DataIntersightConnectorpackUpgradeImpactResultsList extends cdktf.C
 }
 export interface DataIntersightConnectorpackUpgradeImpactAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1400,19 +1400,19 @@ export interface DataIntersightConnectorpackUpgradeImpactAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1425,7 +1425,7 @@ export interface DataIntersightConnectorpackUpgradeImpactAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -1657,7 +1657,7 @@ export class DataIntersightConnectorpackUpgradeImpactAncestorsList extends cdktf
 }
 export interface DataIntersightConnectorpackUpgradeImpactConnectorPack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1665,32 +1665,32 @@ export interface DataIntersightConnectorpackUpgradeImpactConnectorPack {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * Version of connector pack currently running in UCS Director.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#current_version DataIntersightConnectorpackUpgradeImpact#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#current_version DataIntersightConnectorpackUpgradeImpact#current_version}
   */
   readonly currentVersion?: string;
   /**
   * Name of the connector pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#name DataIntersightConnectorpackUpgradeImpact#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#name DataIntersightConnectorpackUpgradeImpact#name}
   */
   readonly name?: string;
   /**
   * Version of connector pack to be installed in the next upgrade cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#new_version DataIntersightConnectorpackUpgradeImpact#new_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#new_version DataIntersightConnectorpackUpgradeImpact#new_version}
   */
   readonly newVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
 }
@@ -1951,7 +1951,7 @@ export class DataIntersightConnectorpackUpgradeImpactConnectorPackList extends c
 }
 export interface DataIntersightConnectorpackUpgradeImpactParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1959,19 +1959,19 @@ export interface DataIntersightConnectorpackUpgradeImpactParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1984,7 +1984,7 @@ export interface DataIntersightConnectorpackUpgradeImpactParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2184,7 +2184,7 @@ export class DataIntersightConnectorpackUpgradeImpactParentOutputReference exten
 }
 export interface DataIntersightConnectorpackUpgradeImpactPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2192,19 +2192,19 @@ export interface DataIntersightConnectorpackUpgradeImpactPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2217,7 +2217,7 @@ export interface DataIntersightConnectorpackUpgradeImpactPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2449,7 +2449,7 @@ export class DataIntersightConnectorpackUpgradeImpactPermissionResourcesList ext
 }
 export interface DataIntersightConnectorpackUpgradeImpactTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2457,19 +2457,19 @@ export interface DataIntersightConnectorpackUpgradeImpactTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2482,7 +2482,7 @@ export interface DataIntersightConnectorpackUpgradeImpactTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2714,7 +2714,7 @@ export class DataIntersightConnectorpackUpgradeImpactTagsAncestorDefinitionsList
 }
 export interface DataIntersightConnectorpackUpgradeImpactTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2722,19 +2722,19 @@ export interface DataIntersightConnectorpackUpgradeImpactTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2747,7 +2747,7 @@ export interface DataIntersightConnectorpackUpgradeImpactTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -2947,25 +2947,25 @@ export class DataIntersightConnectorpackUpgradeImpactTagsDefinitionOutputReferen
 }
 export interface DataIntersightConnectorpackUpgradeImpactTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#key DataIntersightConnectorpackUpgradeImpact#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#key DataIntersightConnectorpackUpgradeImpact#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#propagated DataIntersightConnectorpackUpgradeImpact#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#propagated DataIntersightConnectorpackUpgradeImpact#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#sys_tag DataIntersightConnectorpackUpgradeImpact#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#sys_tag DataIntersightConnectorpackUpgradeImpact#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2973,25 +2973,25 @@ export interface DataIntersightConnectorpackUpgradeImpactTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#type DataIntersightConnectorpackUpgradeImpact#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#type DataIntersightConnectorpackUpgradeImpact#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#value DataIntersightConnectorpackUpgradeImpact#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#value DataIntersightConnectorpackUpgradeImpact#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#ancestor_definitions DataIntersightConnectorpackUpgradeImpact#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#ancestor_definitions DataIntersightConnectorpackUpgradeImpact#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightConnectorpackUpgradeImpactTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#definition DataIntersightConnectorpackUpgradeImpact#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#definition DataIntersightConnectorpackUpgradeImpact#definition}
   */
   readonly definition?: DataIntersightConnectorpackUpgradeImpactTagsDefinition;
 }
@@ -3310,7 +3310,7 @@ export class DataIntersightConnectorpackUpgradeImpactTagsList extends cdktf.Comp
 }
 export interface DataIntersightConnectorpackUpgradeImpactUcsdInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3318,19 +3318,19 @@ export interface DataIntersightConnectorpackUpgradeImpactUcsdInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3343,7 +3343,7 @@ export interface DataIntersightConnectorpackUpgradeImpactUcsdInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -3543,7 +3543,7 @@ export class DataIntersightConnectorpackUpgradeImpactUcsdInfoOutputReference ext
 }
 export interface DataIntersightConnectorpackUpgradeImpactVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3551,19 +3551,19 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3576,7 +3576,7 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -3808,7 +3808,7 @@ export class DataIntersightConnectorpackUpgradeImpactVersionContextInterestedMos
 }
 export interface DataIntersightConnectorpackUpgradeImpactVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3816,19 +3816,19 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#moid DataIntersightConnectorpackUpgradeImpact#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3841,7 +3841,7 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#selector DataIntersightConnectorpackUpgradeImpact#selector}
   */
   readonly selector?: string;
 }
@@ -4041,7 +4041,7 @@ export class DataIntersightConnectorpackUpgradeImpactVersionContextRefMoOutputRe
 }
 export interface DataIntersightConnectorpackUpgradeImpactVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#additional_properties DataIntersightConnectorpackUpgradeImpact#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4049,32 +4049,32 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#class_id DataIntersightConnectorpackUpgradeImpact#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#marked_for_deletion DataIntersightConnectorpackUpgradeImpact#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#marked_for_deletion DataIntersightConnectorpackUpgradeImpact#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#nr_version DataIntersightConnectorpackUpgradeImpact#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#nr_version DataIntersightConnectorpackUpgradeImpact#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#object_type DataIntersightConnectorpackUpgradeImpact#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#timestamp DataIntersightConnectorpackUpgradeImpact#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#timestamp DataIntersightConnectorpackUpgradeImpact#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4085,19 +4085,19 @@ export interface DataIntersightConnectorpackUpgradeImpactVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#version_type DataIntersightConnectorpackUpgradeImpact#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#version_type DataIntersightConnectorpackUpgradeImpact#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#interested_mos DataIntersightConnectorpackUpgradeImpact#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#interested_mos DataIntersightConnectorpackUpgradeImpact#interested_mos}
   */
   readonly interestedMos?: DataIntersightConnectorpackUpgradeImpactVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#ref_mo DataIntersightConnectorpackUpgradeImpact#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#ref_mo DataIntersightConnectorpackUpgradeImpact#ref_mo}
   */
   readonly refMo?: DataIntersightConnectorpackUpgradeImpactVersionContextRefMo;
 }
@@ -4413,7 +4413,7 @@ export class DataIntersightConnectorpackUpgradeImpactVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact intersight_connectorpack_upgrade_impact}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact intersight_connectorpack_upgrade_impact}
 */
 export class DataIntersightConnectorpackUpgradeImpact extends cdktf.TerraformDataSource {
 
@@ -4429,7 +4429,7 @@ export class DataIntersightConnectorpackUpgradeImpact extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightConnectorpackUpgradeImpact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightConnectorpackUpgradeImpact to import
-  * @param importFromId The id of the existing DataIntersightConnectorpackUpgradeImpact that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightConnectorpackUpgradeImpact that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightConnectorpackUpgradeImpact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4441,7 +4441,7 @@ export class DataIntersightConnectorpackUpgradeImpact extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/connectorpack_upgrade_impact intersight_connectorpack_upgrade_impact} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/connectorpack_upgrade_impact intersight_connectorpack_upgrade_impact} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4452,8 +4452,8 @@ export class DataIntersightConnectorpackUpgradeImpact extends cdktf.TerraformDat
       terraformResourceType: 'intersight_connectorpack_upgrade_impact',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

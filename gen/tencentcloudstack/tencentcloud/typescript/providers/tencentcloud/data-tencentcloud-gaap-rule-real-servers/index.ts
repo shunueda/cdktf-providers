@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudGaapRuleRealServersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers#id DataTencentcloudGaapRuleRealServers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers#id DataTencentcloudGaapRuleRealServers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudGaapRuleRealServersConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers#result_output_file DataTencentcloudGaapRuleRealServers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers#result_output_file DataTencentcloudGaapRuleRealServers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Rule Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers#rule_id DataTencentcloudGaapRuleRealServers#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers#rule_id DataTencentcloudGaapRuleRealServers#rule_id}
   */
   readonly ruleId: string;
 }
@@ -229,7 +229,7 @@ export class DataTencentcloudGaapRuleRealServersRealServerSetList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers tencentcloud_gaap_rule_real_servers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers tencentcloud_gaap_rule_real_servers}
 */
 export class DataTencentcloudGaapRuleRealServers extends cdktf.TerraformDataSource {
 
@@ -245,7 +245,7 @@ export class DataTencentcloudGaapRuleRealServers extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudGaapRuleRealServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapRuleRealServers to import
-  * @param importFromId The id of the existing DataTencentcloudGaapRuleRealServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapRuleRealServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapRuleRealServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class DataTencentcloudGaapRuleRealServers extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/gaap_rule_real_servers tencentcloud_gaap_rule_real_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/gaap_rule_real_servers tencentcloud_gaap_rule_real_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class DataTencentcloudGaapRuleRealServers extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_gaap_rule_real_servers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

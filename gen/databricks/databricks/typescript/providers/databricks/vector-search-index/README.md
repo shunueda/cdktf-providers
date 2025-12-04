@@ -1,3 +1,3 @@
 # `databricks_vector_search_index`
 
-Refer to the Terraform Registry for docs: [`databricks_vector_search_index`](https://registry.terraform.io/providers/databricks/databricks/1.98.0/docs/resources/vector_search_index).
+Refer to the Terraform Registry for docs: [`databricks_vector_search_index`](https://registry.terraform.io/providers/databricks/databricks/1.99.0/docs/resources/vector_search_index).

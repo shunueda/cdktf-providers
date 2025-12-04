@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBootPchStorageDeviceConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#account_moid DataIntersightBootPchStorageDevice#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#account_moid DataIntersightBootPchStorageDevice#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBootPchStorageDeviceConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#create_time DataIntersightBootPchStorageDevice#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#create_time DataIntersightBootPchStorageDevice#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#device_mo_id DataIntersightBootPchStorageDevice#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#device_mo_id DataIntersightBootPchStorageDevice#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#dn DataIntersightBootPchStorageDevice#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#dn DataIntersightBootPchStorageDevice#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#domain_group_moid DataIntersightBootPchStorageDevice#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#domain_group_moid DataIntersightBootPchStorageDevice#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#id DataIntersightBootPchStorageDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#id DataIntersightBootPchStorageDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,151 +59,151 @@ export interface DataIntersightBootPchStorageDeviceConfig extends cdktf.Terrafor
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#is_upgraded DataIntersightBootPchStorageDevice#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#is_upgraded DataIntersightBootPchStorageDevice#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#mod_time DataIntersightBootPchStorageDevice#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#mod_time DataIntersightBootPchStorageDevice#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#model DataIntersightBootPchStorageDevice#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#model DataIntersightBootPchStorageDevice#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The name of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#name DataIntersightBootPchStorageDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#name DataIntersightBootPchStorageDevice#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The order of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#order DataIntersightBootPchStorageDevice#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#order DataIntersightBootPchStorageDevice#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#owners DataIntersightBootPchStorageDevice#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#owners DataIntersightBootPchStorageDevice#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#presence DataIntersightBootPchStorageDevice#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#presence DataIntersightBootPchStorageDevice#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#revision DataIntersightBootPchStorageDevice#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#revision DataIntersightBootPchStorageDevice#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#rn DataIntersightBootPchStorageDevice#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#rn DataIntersightBootPchStorageDevice#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#serial DataIntersightBootPchStorageDevice#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#serial DataIntersightBootPchStorageDevice#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#shared_scope DataIntersightBootPchStorageDevice#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#shared_scope DataIntersightBootPchStorageDevice#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The state of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#state DataIntersightBootPchStorageDevice#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#state DataIntersightBootPchStorageDevice#state}
   */
   readonly state?: string;
   /**
   * The type of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#type DataIntersightBootPchStorageDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#type DataIntersightBootPchStorageDevice#type}
   */
   readonly type?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#vendor DataIntersightBootPchStorageDevice#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#vendor DataIntersightBootPchStorageDevice#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#ancestors DataIntersightBootPchStorageDevice#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#ancestors DataIntersightBootPchStorageDevice#ancestors}
   */
   readonly ancestors?: DataIntersightBootPchStorageDeviceAncestors[] | cdktf.IResolvable;
   /**
   * compute_physical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#compute_physical DataIntersightBootPchStorageDevice#compute_physical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#compute_physical DataIntersightBootPchStorageDevice#compute_physical}
   */
   readonly computePhysical?: DataIntersightBootPchStorageDeviceComputePhysical;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#inventory_device_info DataIntersightBootPchStorageDevice#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#inventory_device_info DataIntersightBootPchStorageDevice#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBootPchStorageDeviceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#parent DataIntersightBootPchStorageDevice#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#parent DataIntersightBootPchStorageDevice#parent}
   */
   readonly parent?: DataIntersightBootPchStorageDeviceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#permission_resources DataIntersightBootPchStorageDevice#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#permission_resources DataIntersightBootPchStorageDevice#permission_resources}
   */
   readonly permissionResources?: DataIntersightBootPchStorageDevicePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#previous_fru DataIntersightBootPchStorageDevice#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#previous_fru DataIntersightBootPchStorageDevice#previous_fru}
   */
   readonly previousFru?: DataIntersightBootPchStorageDevicePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#registered_device DataIntersightBootPchStorageDevice#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#registered_device DataIntersightBootPchStorageDevice#registered_device}
   */
   readonly registeredDevice?: DataIntersightBootPchStorageDeviceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#tags DataIntersightBootPchStorageDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#tags DataIntersightBootPchStorageDevice#tags}
   */
   readonly tags?: DataIntersightBootPchStorageDeviceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#version_context DataIntersightBootPchStorageDevice#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#version_context DataIntersightBootPchStorageDevice#version_context}
   */
   readonly versionContext?: DataIntersightBootPchStorageDeviceVersionContext;
 }
@@ -1722,7 +1722,7 @@ export class DataIntersightBootPchStorageDeviceResultsList extends cdktf.Complex
 }
 export interface DataIntersightBootPchStorageDeviceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1730,19 +1730,19 @@ export interface DataIntersightBootPchStorageDeviceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1755,7 +1755,7 @@ export interface DataIntersightBootPchStorageDeviceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -1987,7 +1987,7 @@ export class DataIntersightBootPchStorageDeviceAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightBootPchStorageDeviceComputePhysical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1995,19 +1995,19 @@ export interface DataIntersightBootPchStorageDeviceComputePhysical {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2020,7 +2020,7 @@ export interface DataIntersightBootPchStorageDeviceComputePhysical {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2220,7 +2220,7 @@ export class DataIntersightBootPchStorageDeviceComputePhysicalOutputReference ex
 }
 export interface DataIntersightBootPchStorageDeviceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2228,19 +2228,19 @@ export interface DataIntersightBootPchStorageDeviceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2253,7 +2253,7 @@ export interface DataIntersightBootPchStorageDeviceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2453,7 +2453,7 @@ export class DataIntersightBootPchStorageDeviceInventoryDeviceInfoOutputReferenc
 }
 export interface DataIntersightBootPchStorageDeviceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2461,19 +2461,19 @@ export interface DataIntersightBootPchStorageDeviceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2486,7 +2486,7 @@ export interface DataIntersightBootPchStorageDeviceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2686,7 +2686,7 @@ export class DataIntersightBootPchStorageDeviceParentOutputReference extends cdk
 }
 export interface DataIntersightBootPchStorageDevicePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2694,19 +2694,19 @@ export interface DataIntersightBootPchStorageDevicePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2719,7 +2719,7 @@ export interface DataIntersightBootPchStorageDevicePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2951,7 +2951,7 @@ export class DataIntersightBootPchStorageDevicePermissionResourcesList extends c
 }
 export interface DataIntersightBootPchStorageDevicePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2959,19 +2959,19 @@ export interface DataIntersightBootPchStorageDevicePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2984,7 +2984,7 @@ export interface DataIntersightBootPchStorageDevicePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3184,7 +3184,7 @@ export class DataIntersightBootPchStorageDevicePreviousFruOutputReference extend
 }
 export interface DataIntersightBootPchStorageDeviceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3192,19 +3192,19 @@ export interface DataIntersightBootPchStorageDeviceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3217,7 +3217,7 @@ export interface DataIntersightBootPchStorageDeviceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3417,7 +3417,7 @@ export class DataIntersightBootPchStorageDeviceRegisteredDeviceOutputReference e
 }
 export interface DataIntersightBootPchStorageDeviceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3425,19 +3425,19 @@ export interface DataIntersightBootPchStorageDeviceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3450,7 +3450,7 @@ export interface DataIntersightBootPchStorageDeviceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3682,7 +3682,7 @@ export class DataIntersightBootPchStorageDeviceTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightBootPchStorageDeviceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3690,19 +3690,19 @@ export interface DataIntersightBootPchStorageDeviceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3715,7 +3715,7 @@ export interface DataIntersightBootPchStorageDeviceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3915,25 +3915,25 @@ export class DataIntersightBootPchStorageDeviceTagsDefinitionOutputReference ext
 }
 export interface DataIntersightBootPchStorageDeviceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#key DataIntersightBootPchStorageDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#key DataIntersightBootPchStorageDevice#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#propagated DataIntersightBootPchStorageDevice#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#propagated DataIntersightBootPchStorageDevice#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#sys_tag DataIntersightBootPchStorageDevice#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#sys_tag DataIntersightBootPchStorageDevice#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3941,25 +3941,25 @@ export interface DataIntersightBootPchStorageDeviceTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#type DataIntersightBootPchStorageDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#type DataIntersightBootPchStorageDevice#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#value DataIntersightBootPchStorageDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#value DataIntersightBootPchStorageDevice#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#ancestor_definitions DataIntersightBootPchStorageDevice#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#ancestor_definitions DataIntersightBootPchStorageDevice#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBootPchStorageDeviceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#definition DataIntersightBootPchStorageDevice#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#definition DataIntersightBootPchStorageDevice#definition}
   */
   readonly definition?: DataIntersightBootPchStorageDeviceTagsDefinition;
 }
@@ -4278,7 +4278,7 @@ export class DataIntersightBootPchStorageDeviceTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightBootPchStorageDeviceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4286,19 +4286,19 @@ export interface DataIntersightBootPchStorageDeviceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4311,7 +4311,7 @@ export interface DataIntersightBootPchStorageDeviceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4543,7 +4543,7 @@ export class DataIntersightBootPchStorageDeviceVersionContextInterestedMosList e
 }
 export interface DataIntersightBootPchStorageDeviceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4551,19 +4551,19 @@ export interface DataIntersightBootPchStorageDeviceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#moid DataIntersightBootPchStorageDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4576,7 +4576,7 @@ export interface DataIntersightBootPchStorageDeviceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#selector DataIntersightBootPchStorageDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4776,7 +4776,7 @@ export class DataIntersightBootPchStorageDeviceVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightBootPchStorageDeviceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#additional_properties DataIntersightBootPchStorageDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4784,32 +4784,32 @@ export interface DataIntersightBootPchStorageDeviceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#class_id DataIntersightBootPchStorageDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#marked_for_deletion DataIntersightBootPchStorageDevice#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#marked_for_deletion DataIntersightBootPchStorageDevice#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#nr_version DataIntersightBootPchStorageDevice#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#nr_version DataIntersightBootPchStorageDevice#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#object_type DataIntersightBootPchStorageDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#timestamp DataIntersightBootPchStorageDevice#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#timestamp DataIntersightBootPchStorageDevice#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4820,19 +4820,19 @@ export interface DataIntersightBootPchStorageDeviceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#version_type DataIntersightBootPchStorageDevice#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#version_type DataIntersightBootPchStorageDevice#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#interested_mos DataIntersightBootPchStorageDevice#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#interested_mos DataIntersightBootPchStorageDevice#interested_mos}
   */
   readonly interestedMos?: DataIntersightBootPchStorageDeviceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#ref_mo DataIntersightBootPchStorageDevice#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#ref_mo DataIntersightBootPchStorageDevice#ref_mo}
   */
   readonly refMo?: DataIntersightBootPchStorageDeviceVersionContextRefMo;
 }
@@ -5148,7 +5148,7 @@ export class DataIntersightBootPchStorageDeviceVersionContextOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device intersight_boot_pch_storage_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device intersight_boot_pch_storage_device}
 */
 export class DataIntersightBootPchStorageDevice extends cdktf.TerraformDataSource {
 
@@ -5164,7 +5164,7 @@ export class DataIntersightBootPchStorageDevice extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightBootPchStorageDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBootPchStorageDevice to import
-  * @param importFromId The id of the existing DataIntersightBootPchStorageDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBootPchStorageDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBootPchStorageDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5176,7 +5176,7 @@ export class DataIntersightBootPchStorageDevice extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_pch_storage_device intersight_boot_pch_storage_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_pch_storage_device intersight_boot_pch_storage_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5187,8 +5187,8 @@ export class DataIntersightBootPchStorageDevice extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_boot_pch_storage_device',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

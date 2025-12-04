@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server
+// https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,137 +10,137 @@ export interface HttpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of ThousandEyes agent IDs to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#agents HttpServer#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#agents HttpServer#agents}
   */
   readonly agents: string[];
   /**
   * List of alert rules IDs to apply to the test (get `ruleId` from `/alerts/rules` endpoint. If `alertsEnabled` is set to `true` and `alertRules` is not included on test creation or update, applicable user default alert rules will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#alert_rules HttpServer#alert_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#alert_rules HttpServer#alert_rules}
   */
   readonly alertRules?: string[];
   /**
   * Set to 'true' to enable alerts, or 'false' to disable alerts. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#alerts_enabled HttpServer#alerts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#alerts_enabled HttpServer#alerts_enabled}
   */
   readonly alertsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Allows TLS renegotiation with servers not supporting RFC 5746. Default Set to true to allow unsafe legacy renegotiation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#allow_unsafe_legacy_renegotiation HttpServer#allow_unsafe_legacy_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#allow_unsafe_legacy_renegotiation HttpServer#allow_unsafe_legacy_renegotiation}
   */
   readonly allowUnsafeLegacyRenegotiation?: boolean | cdktf.IResolvable;
   /**
   * [none, basic, ntlm, kerberos, oauth] The HTTP authentication type. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#auth_type HttpServer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#auth_type HttpServer#auth_type}
   */
   readonly authType?: string;
   /**
   * Set to `true` to measure bandwidth. This only applies to Enterprise Agents assigned to the test, and requires that networkMeasurements is set. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#bandwidth_measurements HttpServer#bandwidth_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#bandwidth_measurements HttpServer#bandwidth_measurements}
   */
   readonly bandwidthMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP measurements. Set to true for enabled, false for disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#bgp_measurements HttpServer#bgp_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#bgp_measurements HttpServer#bgp_measurements}
   */
   readonly bgpMeasurements?: boolean | cdktf.IResolvable;
   /**
   * String representation (containing newline characters) of client certificate, the private key must be placed first, then the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#client_certificate HttpServer#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#client_certificate HttpServer#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Indicates whether network data to the proxy should be collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#collect_proxy_network_data HttpServer#collect_proxy_network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#collect_proxy_network_data HttpServer#collect_proxy_network_data}
   */
   readonly collectProxyNetworkData?: boolean | cdktf.IResolvable;
   /**
   * Verify content using a regular expression. This field does not require escaping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#content_regex HttpServer#content_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#content_regex HttpServer#content_regex}
   */
   readonly contentRegex?: string;
   /**
   * A description of the alert rule. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#description HttpServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#description HttpServer#description}
   */
   readonly description?: string;
   /**
   * The valid HTTP response code you’re interested in retrieving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#desired_status_code HttpServer#desired_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#desired_status_code HttpServer#desired_status_code}
   */
   readonly desiredStatusCode?: string;
   /**
   * Adds distributed tracing headers to API requests using B3 and W3C standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#distributed_tracing HttpServer#distributed_tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#distributed_tracing HttpServer#distributed_tracing}
   */
   readonly distributedTracing?: boolean | cdktf.IResolvable;
   /**
   * The IP address to use for DNS override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#dns_override HttpServer#dns_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#dns_override HttpServer#dns_override}
   */
   readonly dnsOverride?: string;
   /**
   * Specify the maximum number of bytes to download from the target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#download_limit HttpServer#download_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#download_limit HttpServer#download_limit}
   */
   readonly downloadLimit?: number;
   /**
   * Enables or disables the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#enabled HttpServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#enabled HttpServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Sets packets rate sent to measure the network in packets per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#fixed_packet_rate HttpServer#fixed_packet_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#fixed_packet_rate HttpServer#fixed_packet_rate}
   */
   readonly fixedPacketRate?: number;
   /**
   * Follow HTTP/301 or HTTP/302 redirect directives. Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#follow_redirects HttpServer#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#follow_redirects HttpServer#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * ["header: value", "header2: value"] The array of header strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#headers HttpServer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#headers HttpServer#headers}
   */
   readonly headers?: string[];
   /**
   * The target time for HTTP server completion, specified in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#http_target_time HttpServer#http_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#http_target_time HttpServer#http_target_time}
   */
   readonly httpTargetTime?: number;
   /**
   * The target time for HTTP server limits, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#http_time_limit HttpServer#http_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#http_time_limit HttpServer#http_time_limit}
   */
   readonly httpTimeLimit?: number;
   /**
   * Set to 2 for the default HTTP version (prefer HTTP/2), or 1 for HTTP/1.1 only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#http_version HttpServer#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#http_version HttpServer#http_version}
   */
   readonly httpVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#id HttpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#id HttpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,163 +149,163 @@ export interface HttpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set to 'true' to capture response headers for objects loaded by the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#include_headers HttpServer#include_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#include_headers HttpServer#include_headers}
   */
   readonly includeHeaders?: boolean | cdktf.IResolvable;
   /**
   * The interval to run the test on, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#interval HttpServer#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#interval HttpServer#interval}
   */
   readonly interval: number;
   /**
   * [force-ipv4, prefer-ipv6, force-ipv6, or use-agent-policy] IP version policy. Overrides the IPv6 policy configured at the agent level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#ipv6_policy HttpServer#ipv6_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#ipv6_policy HttpServer#ipv6_policy}
   */
   readonly ipv6Policy?: string;
   /**
   * Contains list of BGP monitor IDs (get `monitorId` from `/monitors` endpoint)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#monitors HttpServer#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#monitors HttpServer#monitors}
   */
   readonly monitors?: string[];
   /**
   * Measure MTU sizes on the network from agents to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#mtu_measurements HttpServer#mtu_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#mtu_measurements HttpServer#mtu_measurements}
   */
   readonly mtuMeasurements?: boolean | cdktf.IResolvable;
   /**
   * Set to 'true' to enable network measurements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#network_measurements HttpServer#network_measurements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#network_measurements HttpServer#network_measurements}
   */
   readonly networkMeasurements?: boolean | cdktf.IResolvable;
   /**
   * The number of path traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#num_path_traces HttpServer#num_path_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#num_path_traces HttpServer#num_path_traces}
   */
   readonly numPathTraces?: number;
   /**
   * Flag indicating if a proxy other than the default should be used. To override the default proxy for agents, set to `true` and specify a value for `overrideProxyId`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#override_agent_proxy HttpServer#override_agent_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#override_agent_proxy HttpServer#override_agent_proxy}
   */
   readonly overrideAgentProxy?: boolean | cdktf.IResolvable;
   /**
   * ID of the proxy to be used if the default proxy is overridden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#override_proxy_id HttpServer#override_proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#override_proxy_id HttpServer#override_proxy_id}
   */
   readonly overrideProxyId?: string;
   /**
   * The password to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#password HttpServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#password HttpServer#password}
   */
   readonly password?: string;
   /**
   * [classic or in-session] Choose 'inSession' to perform the path trace within a TCP session. Default value is 'classic'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#path_trace_mode HttpServer#path_trace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#path_trace_mode HttpServer#path_trace_mode}
   */
   readonly pathTraceMode?: string;
   /**
   * The POST body content. No escaping is required. If the post body is set to something other than empty, the requestMethod will be set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#post_body HttpServer#post_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#post_body HttpServer#post_body}
   */
   readonly postBody?: string;
   /**
   * [auto, sack, or syn] The probe mode used by end-to-end network tests. This is only valid if the protocol is set to TCP. The default value is AUTO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#probe_mode HttpServer#probe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#probe_mode HttpServer#probe_mode}
   */
   readonly probeMode?: string;
   /**
   * The protocol used by dependent network tests (end-to-end, path trace, PMTUD). Default value is tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#protocol HttpServer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#protocol HttpServer#protocol}
   */
   readonly protocol?: string;
   /**
   * Indicates whether agents should randomize the start time in each test round.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#randomized_start_time HttpServer#randomized_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#randomized_start_time HttpServer#randomized_start_time}
   */
   readonly randomizedStartTime?: boolean | cdktf.IResolvable;
   /**
   * List of accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#shared_with_accounts HttpServer#shared_with_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#shared_with_accounts HttpServer#shared_with_accounts}
   */
   readonly sharedWithAccounts?: string[];
   /**
   * Defines the SSL version. 0 for auto, 3 for SSLv3, 4 for TLS v1.0, 5 for TLS v1.1, 6 for TLS v1.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#ssl_version_id HttpServer#ssl_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#ssl_version_id HttpServer#ssl_version_id}
   */
   readonly sslVersionId?: string;
   /**
   * The name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#test_name HttpServer#test_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#test_name HttpServer#test_name}
   */
   readonly testName?: string;
   /**
   * The target URL for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#url HttpServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#url HttpServer#url}
   */
   readonly url: string;
   /**
   * Enable to use basic authentication. Only include this field if you are using authentication. Requires the username and password to be set if enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#use_ntlm HttpServer#use_ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#use_ntlm HttpServer#use_ntlm}
   */
   readonly useNtlm?: boolean | cdktf.IResolvable;
   /**
   * Enable to automatically add all available Public BGP Monitors to the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#use_public_bgp HttpServer#use_public_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#use_public_bgp HttpServer#use_public_bgp}
   */
   readonly usePublicBgp?: boolean | cdktf.IResolvable;
   /**
   * The user-agent string to be provided during the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#user_agent HttpServer#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#user_agent HttpServer#user_agent}
   */
   readonly userAgent?: string;
   /**
   * The username to be used to authenticate with the destination server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#username HttpServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#username HttpServer#username}
   */
   readonly username?: string;
   /**
   * Set whether to ignore certificate errors. Set to 'false' to ignore certificate errors. The default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#verify_certificate HttpServer#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#verify_certificate HttpServer#verify_certificate}
   */
   readonly verifyCertificate?: boolean | cdktf.IResolvable;
   /**
   * agent_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#agent_interfaces HttpServer#agent_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#agent_interfaces HttpServer#agent_interfaces}
   */
   readonly agentInterfaces?: HttpServerAgentInterfaces[] | cdktf.IResolvable;
   /**
   * custom_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#custom_headers HttpServer#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#custom_headers HttpServer#custom_headers}
   */
   readonly customHeaders?: HttpServerCustomHeaders[] | cdktf.IResolvable;
   /**
   * oauth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#oauth HttpServer#oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#oauth HttpServer#oauth}
   */
   readonly oauth?: HttpServerOauth[] | cdktf.IResolvable;
 }
@@ -313,13 +313,13 @@ export interface HttpServerAgentInterfaces {
   /**
   * The agent ID of the enterprise agent for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#agent_id HttpServer#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#agent_id HttpServer#agent_id}
   */
   readonly agentId?: string;
   /**
   * IP address of the agent interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#ip_address HttpServer#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#ip_address HttpServer#ip_address}
   */
   readonly ipAddress?: string;
 }
@@ -466,19 +466,19 @@ export interface HttpServerCustomHeaders {
   /**
   * Use these HTTP headers for all domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#all HttpServer#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#all HttpServer#all}
   */
   readonly all?: { [key: string]: string };
   /**
   * Use these HTTP headers for the specified domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#domains HttpServer#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#domains HttpServer#domains}
   */
   readonly domains?: { [key: string]: string };
   /**
   * Use these HTTP headers for root server request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#root HttpServer#root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#root HttpServer#root}
   */
   readonly root?: { [key: string]: string };
 }
@@ -654,49 +654,49 @@ export interface HttpServerOauth {
   /**
   * [none, basic, ntlm, kerberos, oauth] The HTTP authentication type. Defaults to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#auth_type HttpServer#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#auth_type HttpServer#auth_type}
   */
   readonly authType?: string;
   /**
   * The ID of the OAuth configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#config_id HttpServer#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#config_id HttpServer#config_id}
   */
   readonly configId: string;
   /**
   * Request headers used for OAuth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#headers HttpServer#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#headers HttpServer#headers}
   */
   readonly headers?: string;
   /**
   * OAuth password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#password HttpServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#password HttpServer#password}
   */
   readonly password?: string;
   /**
   * Enter the OAuth body for the HTTP POST request in this field when using OAuth as the authentication mechanism. No special escaping is required. If content is provided in the post body, the `requestMethod` is automatically set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#post_body HttpServer#post_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#post_body HttpServer#post_body}
   */
   readonly postBody?: string;
   /**
   * [get, post, put, delete, patch, options, trace] Request method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#request_method HttpServer#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#request_method HttpServer#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Target for the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#test_url HttpServer#test_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#test_url HttpServer#test_url}
   */
   readonly testUrl: string;
   /**
   * OAuth username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#username HttpServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#username HttpServer#username}
   */
   readonly username?: string;
 }
@@ -1009,7 +1009,7 @@ export class HttpServerOauthList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server thousandeyes_http_server}
+* Represents a {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server thousandeyes_http_server}
 */
 export class HttpServer extends cdktf.TerraformResource {
 
@@ -1025,7 +1025,7 @@ export class HttpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpServer to import
-  * @param importFromId The id of the existing HttpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1037,7 +1037,7 @@ export class HttpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.3/docs/resources/http_server thousandeyes_http_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/thousandeyes/thousandeyes/3.1.4/docs/resources/http_server thousandeyes_http_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1048,8 +1048,8 @@ export class HttpServer extends cdktf.TerraformResource {
       terraformResourceType: 'thousandeyes_http_server',
       terraformGeneratorMetadata: {
         providerName: 'thousandeyes',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

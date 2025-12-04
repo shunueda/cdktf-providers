@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#account_moid DataIntersightNiatelemetrySyslogRemoteDest#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#account_moid DataIntersightNiatelemetrySyslogRemoteDest#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Admin state of Syslog remote dest in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#admin_state DataIntersightNiatelemetrySyslogRemoteDest#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#admin_state DataIntersightNiatelemetrySyslogRemoteDest#admin_state}
   */
   readonly adminState?: string;
   /**
@@ -28,41 +28,41 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * Parent common policy for syslog src in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#common_policy DataIntersightNiatelemetrySyslogRemoteDest#common_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#common_policy DataIntersightNiatelemetrySyslogRemoteDest#common_policy}
   */
   readonly commonPolicy?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#create_time DataIntersightNiatelemetrySyslogRemoteDest#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#create_time DataIntersightNiatelemetrySyslogRemoteDest#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the Syslog remote dest in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#dn DataIntersightNiatelemetrySyslogRemoteDest#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#dn DataIntersightNiatelemetrySyslogRemoteDest#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#domain_group_moid DataIntersightNiatelemetrySyslogRemoteDest#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#domain_group_moid DataIntersightNiatelemetrySyslogRemoteDest#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Host of Syslog remote dest in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#host DataIntersightNiatelemetrySyslogRemoteDest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#host DataIntersightNiatelemetrySyslogRemoteDest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#id DataIntersightNiatelemetrySyslogRemoteDest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#id DataIntersightNiatelemetrySyslogRemoteDest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#mod_time DataIntersightNiatelemetrySyslogRemoteDest#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#mod_time DataIntersightNiatelemetrySyslogRemoteDest#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#owners DataIntersightNiatelemetrySyslogRemoteDest#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#owners DataIntersightNiatelemetrySyslogRemoteDest#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#record_type DataIntersightNiatelemetrySyslogRemoteDest#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#record_type DataIntersightNiatelemetrySyslogRemoteDest#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#record_version DataIntersightNiatelemetrySyslogRemoteDest#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#record_version DataIntersightNiatelemetrySyslogRemoteDest#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#shared_scope DataIntersightNiatelemetrySyslogRemoteDest#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#shared_scope DataIntersightNiatelemetrySyslogRemoteDest#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#site_name DataIntersightNiatelemetrySyslogRemoteDest#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#site_name DataIntersightNiatelemetrySyslogRemoteDest#site_name}
   */
   readonly siteName?: string;
   /**
   * Dn of sys log src dest grp in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#syslog_rs_dest_grp DataIntersightNiatelemetrySyslogRemoteDest#syslog_rs_dest_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#syslog_rs_dest_grp DataIntersightNiatelemetrySyslogRemoteDest#syslog_rs_dest_grp}
   */
   readonly syslogRsDestGrp?: string;
   /**
   * Dn of parent syslog src for the syslog dest grp in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#syslog_src DataIntersightNiatelemetrySyslogRemoteDest#syslog_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#syslog_src DataIntersightNiatelemetrySyslogRemoteDest#syslog_src}
   */
   readonly syslogSrc?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#ancestors DataIntersightNiatelemetrySyslogRemoteDest#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#ancestors DataIntersightNiatelemetrySyslogRemoteDest#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetrySyslogRemoteDestAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#parent DataIntersightNiatelemetrySyslogRemoteDest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#parent DataIntersightNiatelemetrySyslogRemoteDest#parent}
   */
   readonly parent?: DataIntersightNiatelemetrySyslogRemoteDestParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#permission_resources DataIntersightNiatelemetrySyslogRemoteDest#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#permission_resources DataIntersightNiatelemetrySyslogRemoteDest#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetrySyslogRemoteDestPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#registered_device DataIntersightNiatelemetrySyslogRemoteDest#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#registered_device DataIntersightNiatelemetrySyslogRemoteDest#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetrySyslogRemoteDestRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#tags DataIntersightNiatelemetrySyslogRemoteDest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#tags DataIntersightNiatelemetrySyslogRemoteDest#tags}
   */
   readonly tags?: DataIntersightNiatelemetrySyslogRemoteDestTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#version_context DataIntersightNiatelemetrySyslogRemoteDest#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#version_context DataIntersightNiatelemetrySyslogRemoteDest#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetrySyslogRemoteDestVersionContext;
 }
@@ -1357,7 +1357,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestResultsList extends cdktf
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1365,19 +1365,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1390,7 +1390,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -1622,7 +1622,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestAncestorsList extends cdk
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1630,19 +1630,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1655,7 +1655,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -1855,7 +1855,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestParentOutputReference ext
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1863,19 +1863,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1888,7 +1888,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -2120,7 +2120,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestPermissionResourcesList e
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2128,19 +2128,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2153,7 +2153,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -2353,7 +2353,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestRegisteredDeviceOutputRef
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2361,19 +2361,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2386,7 +2386,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -2618,7 +2618,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestTagsAncestorDefinitionsLi
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2626,19 +2626,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2651,7 +2651,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -2851,25 +2851,25 @@ export class DataIntersightNiatelemetrySyslogRemoteDestTagsDefinitionOutputRefer
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#key DataIntersightNiatelemetrySyslogRemoteDest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#key DataIntersightNiatelemetrySyslogRemoteDest#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#propagated DataIntersightNiatelemetrySyslogRemoteDest#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#propagated DataIntersightNiatelemetrySyslogRemoteDest#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#sys_tag DataIntersightNiatelemetrySyslogRemoteDest#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#sys_tag DataIntersightNiatelemetrySyslogRemoteDest#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2877,25 +2877,25 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#type DataIntersightNiatelemetrySyslogRemoteDest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#type DataIntersightNiatelemetrySyslogRemoteDest#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#value DataIntersightNiatelemetrySyslogRemoteDest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#value DataIntersightNiatelemetrySyslogRemoteDest#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#ancestor_definitions DataIntersightNiatelemetrySyslogRemoteDest#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#ancestor_definitions DataIntersightNiatelemetrySyslogRemoteDest#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetrySyslogRemoteDestTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#definition DataIntersightNiatelemetrySyslogRemoteDest#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#definition DataIntersightNiatelemetrySyslogRemoteDest#definition}
   */
   readonly definition?: DataIntersightNiatelemetrySyslogRemoteDestTagsDefinition;
 }
@@ -3214,7 +3214,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestTagsList extends cdktf.Co
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3222,19 +3222,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3247,7 +3247,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -3479,7 +3479,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestVersionContextInterestedM
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3487,19 +3487,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#moid DataIntersightNiatelemetrySyslogRemoteDest#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3512,7 +3512,7 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#selector DataIntersightNiatelemetrySyslogRemoteDest#selector}
   */
   readonly selector?: string;
 }
@@ -3712,7 +3712,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestVersionContextRefMoOutput
 }
 export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#additional_properties DataIntersightNiatelemetrySyslogRemoteDest#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3720,32 +3720,32 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#class_id DataIntersightNiatelemetrySyslogRemoteDest#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#marked_for_deletion DataIntersightNiatelemetrySyslogRemoteDest#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#marked_for_deletion DataIntersightNiatelemetrySyslogRemoteDest#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#nr_version DataIntersightNiatelemetrySyslogRemoteDest#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#nr_version DataIntersightNiatelemetrySyslogRemoteDest#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#object_type DataIntersightNiatelemetrySyslogRemoteDest#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#timestamp DataIntersightNiatelemetrySyslogRemoteDest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#timestamp DataIntersightNiatelemetrySyslogRemoteDest#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3756,19 +3756,19 @@ export interface DataIntersightNiatelemetrySyslogRemoteDestVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#version_type DataIntersightNiatelemetrySyslogRemoteDest#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#version_type DataIntersightNiatelemetrySyslogRemoteDest#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#interested_mos DataIntersightNiatelemetrySyslogRemoteDest#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#interested_mos DataIntersightNiatelemetrySyslogRemoteDest#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetrySyslogRemoteDestVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#ref_mo DataIntersightNiatelemetrySyslogRemoteDest#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#ref_mo DataIntersightNiatelemetrySyslogRemoteDest#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetrySyslogRemoteDestVersionContextRefMo;
 }
@@ -4084,7 +4084,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDestVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest intersight_niatelemetry_syslog_remote_dest}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest intersight_niatelemetry_syslog_remote_dest}
 */
 export class DataIntersightNiatelemetrySyslogRemoteDest extends cdktf.TerraformDataSource {
 
@@ -4100,7 +4100,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightNiatelemetrySyslogRemoteDest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetrySyslogRemoteDest to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetrySyslogRemoteDest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetrySyslogRemoteDest that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetrySyslogRemoteDest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4112,7 +4112,7 @@ export class DataIntersightNiatelemetrySyslogRemoteDest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_syslog_remote_dest intersight_niatelemetry_syslog_remote_dest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_syslog_remote_dest intersight_niatelemetry_syslog_remote_dest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4123,8 +4123,8 @@ export class DataIntersightNiatelemetrySyslogRemoteDest extends cdktf.TerraformD
       terraformResourceType: 'intersight_niatelemetry_syslog_remote_dest',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

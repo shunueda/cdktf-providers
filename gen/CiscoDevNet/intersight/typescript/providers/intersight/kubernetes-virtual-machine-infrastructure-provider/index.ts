@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface KubernetesVirtualMachineInfrastructureProviderConfig extends cd
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#account_moid KubernetesVirtualMachineInfrastructureProvider#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#account_moid KubernetesVirtualMachineInfrastructureProvider#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ancestors KubernetesVirtualMachineInfrastructureProvider#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ancestors KubernetesVirtualMachineInfrastructureProvider#ancestors}
   */
   readonly ancestors?: KubernetesVirtualMachineInfrastructureProviderAncestors[] | cdktf.IResolvable;
   /**
@@ -28,29 +28,29 @@ export interface KubernetesVirtualMachineInfrastructureProviderConfig extends cd
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#create_time KubernetesVirtualMachineInfrastructureProvider#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#create_time KubernetesVirtualMachineInfrastructureProvider#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for the infrastructure provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#description KubernetesVirtualMachineInfrastructureProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#description KubernetesVirtualMachineInfrastructureProvider#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#domain_group_moid KubernetesVirtualMachineInfrastructureProvider#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#domain_group_moid KubernetesVirtualMachineInfrastructureProvider#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#id KubernetesVirtualMachineInfrastructureProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#id KubernetesVirtualMachineInfrastructureProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,116 +59,116 @@ export interface KubernetesVirtualMachineInfrastructureProviderConfig extends cd
   /**
   * Virtual machine infrastucture provider allocation properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#infra_config KubernetesVirtualMachineInfrastructureProvider#infra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#infra_config KubernetesVirtualMachineInfrastructureProvider#infra_config}
   */
   readonly infraConfig?: KubernetesVirtualMachineInfrastructureProviderInfraConfig[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesVirtualMachineInfraConfigPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#infra_config_policy KubernetesVirtualMachineInfrastructureProvider#infra_config_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#infra_config_policy KubernetesVirtualMachineInfrastructureProvider#infra_config_policy}
   */
   readonly infraConfigPolicy?: KubernetesVirtualMachineInfrastructureProviderInfraConfigPolicy[] | cdktf.IResolvable;
   /**
   * A reference to a kubernetesVirtualMachineInstanceType resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#instance_type KubernetesVirtualMachineInfrastructureProvider#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#instance_type KubernetesVirtualMachineInfrastructureProvider#instance_type}
   */
   readonly instanceType?: KubernetesVirtualMachineInfrastructureProviderInstanceType[] | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#mod_time KubernetesVirtualMachineInfrastructureProvider#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#mod_time KubernetesVirtualMachineInfrastructureProvider#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
   * Name of an infrastructure provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#name KubernetesVirtualMachineInfrastructureProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#name KubernetesVirtualMachineInfrastructureProvider#name}
   */
   readonly name?: string;
   /**
   * A reference to a kubernetesNodeGroupProfile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#node_group KubernetesVirtualMachineInfrastructureProvider#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#node_group KubernetesVirtualMachineInfrastructureProvider#node_group}
   */
   readonly nodeGroup?: KubernetesVirtualMachineInfrastructureProviderNodeGroup[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#owners KubernetesVirtualMachineInfrastructureProvider#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#owners KubernetesVirtualMachineInfrastructureProvider#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#parent KubernetesVirtualMachineInfrastructureProvider#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#parent KubernetesVirtualMachineInfrastructureProvider#parent}
   */
   readonly parent?: KubernetesVirtualMachineInfrastructureProviderParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#permission_resources KubernetesVirtualMachineInfrastructureProvider#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#permission_resources KubernetesVirtualMachineInfrastructureProvider#permission_resources}
   */
   readonly permissionResources?: KubernetesVirtualMachineInfrastructureProviderPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#shared_scope KubernetesVirtualMachineInfrastructureProvider#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#shared_scope KubernetesVirtualMachineInfrastructureProvider#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#tags KubernetesVirtualMachineInfrastructureProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#tags KubernetesVirtualMachineInfrastructureProvider#tags}
   */
   readonly tags?: KubernetesVirtualMachineInfrastructureProviderTags[] | cdktf.IResolvable;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#target KubernetesVirtualMachineInfrastructureProvider#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#target KubernetesVirtualMachineInfrastructureProvider#target}
   */
   readonly target?: KubernetesVirtualMachineInfrastructureProviderTarget[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#version_context KubernetesVirtualMachineInfrastructureProvider#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#version_context KubernetesVirtualMachineInfrastructureProvider#version_context}
   */
   readonly versionContext?: KubernetesVirtualMachineInfrastructureProviderVersionContext[] | cdktf.IResolvable;
 }
 export interface KubernetesVirtualMachineInfrastructureProviderAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -400,23 +400,23 @@ export class KubernetesVirtualMachineInfrastructureProviderAncestorsList extends
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfacesPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -648,23 +648,23 @@ export class KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInt
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfacesVrf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -896,35 +896,35 @@ export class KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInt
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#mtu KubernetesVirtualMachineInfrastructureProvider#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#mtu KubernetesVirtualMachineInfrastructureProvider#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#name KubernetesVirtualMachineInfrastructureProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#name KubernetesVirtualMachineInfrastructureProvider#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#pools KubernetesVirtualMachineInfrastructureProvider#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#pools KubernetesVirtualMachineInfrastructureProvider#pools}
   */
   readonly pools?: KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfacesPools[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#provider_name KubernetesVirtualMachineInfrastructureProvider#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#provider_name KubernetesVirtualMachineInfrastructureProvider#provider_name}
   */
   readonly providerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#vrf KubernetesVirtualMachineInfrastructureProvider#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#vrf KubernetesVirtualMachineInfrastructureProvider#vrf}
   */
   readonly vrf?: KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfacesVrf[] | cdktf.IResolvable;
 }
@@ -1243,23 +1243,23 @@ export class KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInt
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInfraConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#interfaces KubernetesVirtualMachineInfrastructureProvider#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#interfaces KubernetesVirtualMachineInfrastructureProvider#interfaces}
   */
   readonly interfaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#network_interfaces KubernetesVirtualMachineInfrastructureProvider#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#network_interfaces KubernetesVirtualMachineInfrastructureProvider#network_interfaces}
   */
   readonly networkInterfaces?: KubernetesVirtualMachineInfrastructureProviderInfraConfigNetworkInterfaces[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
 }
@@ -1491,23 +1491,23 @@ export class KubernetesVirtualMachineInfrastructureProviderInfraConfigList exten
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInfraConfigPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -1739,23 +1739,23 @@ export class KubernetesVirtualMachineInfrastructureProviderInfraConfigPolicyList
 }
 export interface KubernetesVirtualMachineInfrastructureProviderInstanceType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -1987,23 +1987,23 @@ export class KubernetesVirtualMachineInfrastructureProviderInstanceTypeList exte
 }
 export interface KubernetesVirtualMachineInfrastructureProviderNodeGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -2235,23 +2235,23 @@ export class KubernetesVirtualMachineInfrastructureProviderNodeGroupList extends
 }
 export interface KubernetesVirtualMachineInfrastructureProviderParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -2483,23 +2483,23 @@ export class KubernetesVirtualMachineInfrastructureProviderParentList extends cd
 }
 export interface KubernetesVirtualMachineInfrastructureProviderPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -2731,23 +2731,23 @@ export class KubernetesVirtualMachineInfrastructureProviderPermissionResourcesLi
 }
 export interface KubernetesVirtualMachineInfrastructureProviderTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -2979,23 +2979,23 @@ export class KubernetesVirtualMachineInfrastructureProviderTagsAncestorDefinitio
 }
 export interface KubernetesVirtualMachineInfrastructureProviderTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -3227,35 +3227,35 @@ export class KubernetesVirtualMachineInfrastructureProviderTagsDefinitionList ex
 }
 export interface KubernetesVirtualMachineInfrastructureProviderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ancestor_definitions KubernetesVirtualMachineInfrastructureProvider#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ancestor_definitions KubernetesVirtualMachineInfrastructureProvider#ancestor_definitions}
   */
   readonly ancestorDefinitions?: KubernetesVirtualMachineInfrastructureProviderTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#definition KubernetesVirtualMachineInfrastructureProvider#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#definition KubernetesVirtualMachineInfrastructureProvider#definition}
   */
   readonly definition?: KubernetesVirtualMachineInfrastructureProviderTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#key KubernetesVirtualMachineInfrastructureProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#key KubernetesVirtualMachineInfrastructureProvider#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#propagated KubernetesVirtualMachineInfrastructureProvider#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#propagated KubernetesVirtualMachineInfrastructureProvider#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#sys_tag KubernetesVirtualMachineInfrastructureProvider#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#sys_tag KubernetesVirtualMachineInfrastructureProvider#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#type KubernetesVirtualMachineInfrastructureProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#type KubernetesVirtualMachineInfrastructureProvider#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#value KubernetesVirtualMachineInfrastructureProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#value KubernetesVirtualMachineInfrastructureProvider#value}
   */
   readonly value?: string;
 }
@@ -3574,23 +3574,23 @@ export class KubernetesVirtualMachineInfrastructureProviderTagsList extends cdkt
 }
 export interface KubernetesVirtualMachineInfrastructureProviderTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -3822,23 +3822,23 @@ export class KubernetesVirtualMachineInfrastructureProviderTargetList extends cd
 }
 export interface KubernetesVirtualMachineInfrastructureProviderVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -4070,23 +4070,23 @@ export class KubernetesVirtualMachineInfrastructureProviderVersionContextInteres
 }
 export interface KubernetesVirtualMachineInfrastructureProviderVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#moid KubernetesVirtualMachineInfrastructureProvider#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#selector KubernetesVirtualMachineInfrastructureProvider#selector}
   */
   readonly selector?: string;
 }
@@ -4318,39 +4318,39 @@ export class KubernetesVirtualMachineInfrastructureProviderVersionContextRefMoLi
 }
 export interface KubernetesVirtualMachineInfrastructureProviderVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#additional_properties KubernetesVirtualMachineInfrastructureProvider#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#class_id KubernetesVirtualMachineInfrastructureProvider#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#interested_mos KubernetesVirtualMachineInfrastructureProvider#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#interested_mos KubernetesVirtualMachineInfrastructureProvider#interested_mos}
   */
   readonly interestedMos?: KubernetesVirtualMachineInfrastructureProviderVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#marked_for_deletion KubernetesVirtualMachineInfrastructureProvider#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#marked_for_deletion KubernetesVirtualMachineInfrastructureProvider#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#nr_version KubernetesVirtualMachineInfrastructureProvider#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#nr_version KubernetesVirtualMachineInfrastructureProvider#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#object_type KubernetesVirtualMachineInfrastructureProvider#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ref_mo KubernetesVirtualMachineInfrastructureProvider#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#ref_mo KubernetesVirtualMachineInfrastructureProvider#ref_mo}
   */
   readonly refMo?: KubernetesVirtualMachineInfrastructureProviderVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#timestamp KubernetesVirtualMachineInfrastructureProvider#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#timestamp KubernetesVirtualMachineInfrastructureProvider#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#version_type KubernetesVirtualMachineInfrastructureProvider#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#version_type KubernetesVirtualMachineInfrastructureProvider#version_type}
   */
   readonly versionType?: string;
 }
@@ -4698,7 +4698,7 @@ export class KubernetesVirtualMachineInfrastructureProviderVersionContextList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider intersight_kubernetes_virtual_machine_infrastructure_provider}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider intersight_kubernetes_virtual_machine_infrastructure_provider}
 */
 export class KubernetesVirtualMachineInfrastructureProvider extends cdktf.TerraformResource {
 
@@ -4714,7 +4714,7 @@ export class KubernetesVirtualMachineInfrastructureProvider extends cdktf.Terraf
   * Generates CDKTF code for importing a KubernetesVirtualMachineInfrastructureProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesVirtualMachineInfrastructureProvider to import
-  * @param importFromId The id of the existing KubernetesVirtualMachineInfrastructureProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesVirtualMachineInfrastructureProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesVirtualMachineInfrastructureProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4726,7 +4726,7 @@ export class KubernetesVirtualMachineInfrastructureProvider extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/kubernetes_virtual_machine_infrastructure_provider intersight_kubernetes_virtual_machine_infrastructure_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/kubernetes_virtual_machine_infrastructure_provider intersight_kubernetes_virtual_machine_infrastructure_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4737,8 +4737,8 @@ export class KubernetesVirtualMachineInfrastructureProvider extends cdktf.Terraf
       terraformResourceType: 'intersight_kubernetes_virtual_machine_infrastructure_provider',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

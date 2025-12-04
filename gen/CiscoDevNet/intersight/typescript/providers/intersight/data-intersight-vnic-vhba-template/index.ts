@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#account_moid DataIntersightVnicVhbaTemplate#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#account_moid DataIntersightVnicVhbaTemplate#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#create_time DataIntersightVnicVhbaTemplate#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#create_time DataIntersightVnicVhbaTemplate#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the vHBA template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#description DataIntersightVnicVhbaTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#description DataIntersightVnicVhbaTemplate#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#domain_group_moid DataIntersightVnicVhbaTemplate#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#domain_group_moid DataIntersightVnicVhbaTemplate#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * When enabled, the configuration of the derived instances may override the template configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#enable_override DataIntersightVnicVhbaTemplate#enable_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#enable_override DataIntersightVnicVhbaTemplate#enable_override}
   */
   readonly enableOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#id DataIntersightVnicVhbaTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#id DataIntersightVnicVhbaTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,61 +59,61 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#mod_time DataIntersightVnicVhbaTemplate#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#mod_time DataIntersightVnicVhbaTemplate#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * Name of the vHBA template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#name DataIntersightVnicVhbaTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#name DataIntersightVnicVhbaTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#owners DataIntersightVnicVhbaTemplate#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#owners DataIntersightVnicVhbaTemplate#owners}
   */
   readonly owners?: string[];
   /**
   * Name of the peer vHBA which belongs to the peer FI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#peer_vhba_name DataIntersightVnicVhbaTemplate#peer_vhba_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#peer_vhba_name DataIntersightVnicVhbaTemplate#peer_vhba_name}
   */
   readonly peerVhbaName?: string;
   /**
   * Enables retention of LUN ID associations in memory until they are manually cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#persistent_bindings DataIntersightVnicVhbaTemplate#persistent_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#persistent_bindings DataIntersightVnicVhbaTemplate#persistent_bindings}
   */
   readonly persistentBindings?: boolean | cdktf.IResolvable;
   /**
   * Pingroup name associated to vfc for static pinning. SCP deploy will resolve pingroup name and fetches the correspoding uplink port/port channel to pin the vfc traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#pin_group_name DataIntersightVnicVhbaTemplate#pin_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#pin_group_name DataIntersightVnicVhbaTemplate#pin_group_name}
   */
   readonly pinGroupName?: string;
   /**
   * The count of the San Connectivity Policies using vHBA template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#scp_usage_count DataIntersightVnicVhbaTemplate#scp_usage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#scp_usage_count DataIntersightVnicVhbaTemplate#scp_usage_count}
   */
   readonly scpUsageCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#shared_scope DataIntersightVnicVhbaTemplate#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#shared_scope DataIntersightVnicVhbaTemplate#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -122,7 +122,7 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   * * `A` - Fabric A of the FI cluster.
   * * `B` - Fabric B of the FI cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#switch_id DataIntersightVnicVhbaTemplate#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#switch_id DataIntersightVnicVhbaTemplate#switch_id}
   */
   readonly switchId?: string;
   /**
@@ -132,7 +132,7 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   * * `fc-nvme-target` - Fc-nvme-target specifies vHBA as a provider of storage volumes to initiators. Enables NVMe-based message commands to transfer data and status information between host and target storage systems. Currently tech-preview, only enabled with an asynchronous driver.
   * * `fc-target` - Fc-target specifies vHBA as a provider of storage volumes to initiators. Enables SCSI commands to transfer data and status information between host and target storage systems. fc-target is enabled only with an asynchronous driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
   */
   readonly type?: string;
   /**
@@ -143,85 +143,85 @@ export interface DataIntersightVnicVhbaTemplateConfig extends cdktf.TerraformMet
   * * `InProgress` - The Enum value represents that the object sync with the attached template is in progress.
   * * `OutOfSync` - The Enum value represents that the object values are not in sync with attached template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#update_status DataIntersightVnicVhbaTemplate#update_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#update_status DataIntersightVnicVhbaTemplate#update_status}
   */
   readonly updateStatus?: string;
   /**
   * The number of objects derived from a Template MO instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#usage_count DataIntersightVnicVhbaTemplate#usage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#usage_count DataIntersightVnicVhbaTemplate#usage_count}
   */
   readonly usageCount?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#ancestors DataIntersightVnicVhbaTemplate#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#ancestors DataIntersightVnicVhbaTemplate#ancestors}
   */
   readonly ancestors?: DataIntersightVnicVhbaTemplateAncestors[] | cdktf.IResolvable;
   /**
   * fc_adapter_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#fc_adapter_policy DataIntersightVnicVhbaTemplate#fc_adapter_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#fc_adapter_policy DataIntersightVnicVhbaTemplate#fc_adapter_policy}
   */
   readonly fcAdapterPolicy?: DataIntersightVnicVhbaTemplateFcAdapterPolicy;
   /**
   * fc_network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#fc_network_policy DataIntersightVnicVhbaTemplate#fc_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#fc_network_policy DataIntersightVnicVhbaTemplate#fc_network_policy}
   */
   readonly fcNetworkPolicy?: DataIntersightVnicVhbaTemplateFcNetworkPolicy;
   /**
   * fc_qos_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#fc_qos_policy DataIntersightVnicVhbaTemplate#fc_qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#fc_qos_policy DataIntersightVnicVhbaTemplate#fc_qos_policy}
   */
   readonly fcQosPolicy?: DataIntersightVnicVhbaTemplateFcQosPolicy;
   /**
   * fc_zone_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#fc_zone_policies DataIntersightVnicVhbaTemplate#fc_zone_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#fc_zone_policies DataIntersightVnicVhbaTemplate#fc_zone_policies}
   */
   readonly fcZonePolicies?: DataIntersightVnicVhbaTemplateFcZonePolicies[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#organization DataIntersightVnicVhbaTemplate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#organization DataIntersightVnicVhbaTemplate#organization}
   */
   readonly organization?: DataIntersightVnicVhbaTemplateOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#parent DataIntersightVnicVhbaTemplate#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#parent DataIntersightVnicVhbaTemplate#parent}
   */
   readonly parent?: DataIntersightVnicVhbaTemplateParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#permission_resources DataIntersightVnicVhbaTemplate#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#permission_resources DataIntersightVnicVhbaTemplate#permission_resources}
   */
   readonly permissionResources?: DataIntersightVnicVhbaTemplatePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#tags DataIntersightVnicVhbaTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#tags DataIntersightVnicVhbaTemplate#tags}
   */
   readonly tags?: DataIntersightVnicVhbaTemplateTags[] | cdktf.IResolvable;
   /**
   * template_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#template_actions DataIntersightVnicVhbaTemplate#template_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#template_actions DataIntersightVnicVhbaTemplate#template_actions}
   */
   readonly templateActions?: DataIntersightVnicVhbaTemplateTemplateActions[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#version_context DataIntersightVnicVhbaTemplate#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#version_context DataIntersightVnicVhbaTemplate#version_context}
   */
   readonly versionContext?: DataIntersightVnicVhbaTemplateVersionContext;
   /**
   * wwpn_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#wwpn_pool DataIntersightVnicVhbaTemplate#wwpn_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#wwpn_pool DataIntersightVnicVhbaTemplate#wwpn_pool}
   */
   readonly wwpnPool?: DataIntersightVnicVhbaTemplateWwpnPool;
 }
@@ -2129,7 +2129,7 @@ export class DataIntersightVnicVhbaTemplateResultsList extends cdktf.ComplexList
 }
 export interface DataIntersightVnicVhbaTemplateAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2137,19 +2137,19 @@ export interface DataIntersightVnicVhbaTemplateAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2162,7 +2162,7 @@ export interface DataIntersightVnicVhbaTemplateAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2394,7 +2394,7 @@ export class DataIntersightVnicVhbaTemplateAncestorsList extends cdktf.ComplexLi
 }
 export interface DataIntersightVnicVhbaTemplateFcAdapterPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2402,19 +2402,19 @@ export interface DataIntersightVnicVhbaTemplateFcAdapterPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2427,7 +2427,7 @@ export interface DataIntersightVnicVhbaTemplateFcAdapterPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2627,7 +2627,7 @@ export class DataIntersightVnicVhbaTemplateFcAdapterPolicyOutputReference extend
 }
 export interface DataIntersightVnicVhbaTemplateFcNetworkPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2635,19 +2635,19 @@ export interface DataIntersightVnicVhbaTemplateFcNetworkPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2660,7 +2660,7 @@ export interface DataIntersightVnicVhbaTemplateFcNetworkPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -2860,7 +2860,7 @@ export class DataIntersightVnicVhbaTemplateFcNetworkPolicyOutputReference extend
 }
 export interface DataIntersightVnicVhbaTemplateFcQosPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2868,19 +2868,19 @@ export interface DataIntersightVnicVhbaTemplateFcQosPolicy {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2893,7 +2893,7 @@ export interface DataIntersightVnicVhbaTemplateFcQosPolicy {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3093,7 +3093,7 @@ export class DataIntersightVnicVhbaTemplateFcQosPolicyOutputReference extends cd
 }
 export interface DataIntersightVnicVhbaTemplateFcZonePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3101,19 +3101,19 @@ export interface DataIntersightVnicVhbaTemplateFcZonePolicies {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3126,7 +3126,7 @@ export interface DataIntersightVnicVhbaTemplateFcZonePolicies {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3358,7 +3358,7 @@ export class DataIntersightVnicVhbaTemplateFcZonePoliciesList extends cdktf.Comp
 }
 export interface DataIntersightVnicVhbaTemplateOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3366,19 +3366,19 @@ export interface DataIntersightVnicVhbaTemplateOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3391,7 +3391,7 @@ export interface DataIntersightVnicVhbaTemplateOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3591,7 +3591,7 @@ export class DataIntersightVnicVhbaTemplateOrganizationOutputReference extends c
 }
 export interface DataIntersightVnicVhbaTemplateParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3599,19 +3599,19 @@ export interface DataIntersightVnicVhbaTemplateParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3624,7 +3624,7 @@ export interface DataIntersightVnicVhbaTemplateParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -3824,7 +3824,7 @@ export class DataIntersightVnicVhbaTemplateParentOutputReference extends cdktf.C
 }
 export interface DataIntersightVnicVhbaTemplatePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3832,19 +3832,19 @@ export interface DataIntersightVnicVhbaTemplatePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3857,7 +3857,7 @@ export interface DataIntersightVnicVhbaTemplatePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4089,7 +4089,7 @@ export class DataIntersightVnicVhbaTemplatePermissionResourcesList extends cdktf
 }
 export interface DataIntersightVnicVhbaTemplateTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4097,19 +4097,19 @@ export interface DataIntersightVnicVhbaTemplateTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4122,7 +4122,7 @@ export interface DataIntersightVnicVhbaTemplateTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4354,7 +4354,7 @@ export class DataIntersightVnicVhbaTemplateTagsAncestorDefinitionsList extends c
 }
 export interface DataIntersightVnicVhbaTemplateTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4362,19 +4362,19 @@ export interface DataIntersightVnicVhbaTemplateTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4387,7 +4387,7 @@ export interface DataIntersightVnicVhbaTemplateTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -4587,25 +4587,25 @@ export class DataIntersightVnicVhbaTemplateTagsDefinitionOutputReference extends
 }
 export interface DataIntersightVnicVhbaTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#key DataIntersightVnicVhbaTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#key DataIntersightVnicVhbaTemplate#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#propagated DataIntersightVnicVhbaTemplate#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#propagated DataIntersightVnicVhbaTemplate#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#sys_tag DataIntersightVnicVhbaTemplate#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#sys_tag DataIntersightVnicVhbaTemplate#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4613,25 +4613,25 @@ export interface DataIntersightVnicVhbaTemplateTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#value DataIntersightVnicVhbaTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#value DataIntersightVnicVhbaTemplate#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#ancestor_definitions DataIntersightVnicVhbaTemplate#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#ancestor_definitions DataIntersightVnicVhbaTemplate#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVnicVhbaTemplateTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#definition DataIntersightVnicVhbaTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#definition DataIntersightVnicVhbaTemplate#definition}
   */
   readonly definition?: DataIntersightVnicVhbaTemplateTagsDefinition;
 }
@@ -4950,7 +4950,7 @@ export class DataIntersightVnicVhbaTemplateTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightVnicVhbaTemplateTemplateActionsParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4958,7 +4958,7 @@ export interface DataIntersightVnicVhbaTemplateTemplateActionsParams {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
@@ -4968,14 +4968,14 @@ export interface DataIntersightVnicVhbaTemplateTemplateActionsParams {
   * * `SyncTimer` - The parameter for the initial delay in seconds after which the sync action must be executed. The supported range is from 0 to 60 seconds.
   * * `OverriddenList` - The parameter applicable in attach operation indicating the configurations that must override the template configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#name DataIntersightVnicVhbaTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#name DataIntersightVnicVhbaTemplate#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4984,7 +4984,7 @@ export interface DataIntersightVnicVhbaTemplateTemplateActionsParams {
   * b) Name - SyncTimer, Supported Values - 0 to 60 seconds.
   * c) Name - OverriddenList, Supported Values - Comma Separated list of overridable configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#value DataIntersightVnicVhbaTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#value DataIntersightVnicVhbaTemplate#value}
   */
   readonly value?: string;
 }
@@ -5216,7 +5216,7 @@ export class DataIntersightVnicVhbaTemplateTemplateActionsParamsList extends cdk
 }
 export interface DataIntersightVnicVhbaTemplateTemplateActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5224,14 +5224,14 @@ export interface DataIntersightVnicVhbaTemplateTemplateActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5241,13 +5241,13 @@ export interface DataIntersightVnicVhbaTemplateTemplateActions {
   * * `Detach` - The action to detach the current derived object from its attached template.
   * * `Attach` - The action to attach the current object to the specified template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#type DataIntersightVnicVhbaTemplate#type}
   */
   readonly type?: string;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#params DataIntersightVnicVhbaTemplate#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#params DataIntersightVnicVhbaTemplate#params}
   */
   readonly params?: DataIntersightVnicVhbaTemplateTemplateActionsParams[] | cdktf.IResolvable;
 }
@@ -5479,7 +5479,7 @@ export class DataIntersightVnicVhbaTemplateTemplateActionsList extends cdktf.Com
 }
 export interface DataIntersightVnicVhbaTemplateVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5487,19 +5487,19 @@ export interface DataIntersightVnicVhbaTemplateVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5512,7 +5512,7 @@ export interface DataIntersightVnicVhbaTemplateVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5744,7 +5744,7 @@ export class DataIntersightVnicVhbaTemplateVersionContextInterestedMosList exten
 }
 export interface DataIntersightVnicVhbaTemplateVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5752,19 +5752,19 @@ export interface DataIntersightVnicVhbaTemplateVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5777,7 +5777,7 @@ export interface DataIntersightVnicVhbaTemplateVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -5977,7 +5977,7 @@ export class DataIntersightVnicVhbaTemplateVersionContextRefMoOutputReference ex
 }
 export interface DataIntersightVnicVhbaTemplateVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5985,32 +5985,32 @@ export interface DataIntersightVnicVhbaTemplateVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#marked_for_deletion DataIntersightVnicVhbaTemplate#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#marked_for_deletion DataIntersightVnicVhbaTemplate#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#nr_version DataIntersightVnicVhbaTemplate#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#nr_version DataIntersightVnicVhbaTemplate#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#timestamp DataIntersightVnicVhbaTemplate#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#timestamp DataIntersightVnicVhbaTemplate#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6021,19 +6021,19 @@ export interface DataIntersightVnicVhbaTemplateVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#version_type DataIntersightVnicVhbaTemplate#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#version_type DataIntersightVnicVhbaTemplate#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#interested_mos DataIntersightVnicVhbaTemplate#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#interested_mos DataIntersightVnicVhbaTemplate#interested_mos}
   */
   readonly interestedMos?: DataIntersightVnicVhbaTemplateVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#ref_mo DataIntersightVnicVhbaTemplate#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#ref_mo DataIntersightVnicVhbaTemplate#ref_mo}
   */
   readonly refMo?: DataIntersightVnicVhbaTemplateVersionContextRefMo;
 }
@@ -6349,7 +6349,7 @@ export class DataIntersightVnicVhbaTemplateVersionContextOutputReference extends
 }
 export interface DataIntersightVnicVhbaTemplateWwpnPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#additional_properties DataIntersightVnicVhbaTemplate#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6357,19 +6357,19 @@ export interface DataIntersightVnicVhbaTemplateWwpnPool {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#class_id DataIntersightVnicVhbaTemplate#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#moid DataIntersightVnicVhbaTemplate#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#object_type DataIntersightVnicVhbaTemplate#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6382,7 +6382,7 @@ export interface DataIntersightVnicVhbaTemplateWwpnPool {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#selector DataIntersightVnicVhbaTemplate#selector}
   */
   readonly selector?: string;
 }
@@ -6582,7 +6582,7 @@ export class DataIntersightVnicVhbaTemplateWwpnPoolOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template intersight_vnic_vhba_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template intersight_vnic_vhba_template}
 */
 export class DataIntersightVnicVhbaTemplate extends cdktf.TerraformDataSource {
 
@@ -6598,7 +6598,7 @@ export class DataIntersightVnicVhbaTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightVnicVhbaTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVnicVhbaTemplate to import
-  * @param importFromId The id of the existing DataIntersightVnicVhbaTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVnicVhbaTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVnicVhbaTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6610,7 +6610,7 @@ export class DataIntersightVnicVhbaTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/vnic_vhba_template intersight_vnic_vhba_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/vnic_vhba_template intersight_vnic_vhba_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6621,8 +6621,8 @@ export class DataIntersightVnicVhbaTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_vnic_vhba_template',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

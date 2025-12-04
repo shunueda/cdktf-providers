@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,21 +11,21 @@ export interface DataYandexOrganizationmanagerIdpUserpoolConfig extends cdktf.Te
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#id DataYandexOrganizationmanagerIdpUserpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#id DataYandexOrganizationmanagerIdpUserpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#timeouts DataYandexOrganizationmanagerIdpUserpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#timeouts DataYandexOrganizationmanagerIdpUserpool#timeouts}
   */
   readonly timeouts?: DataYandexOrganizationmanagerIdpUserpoolTimeouts;
   /**
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#userpool_id DataYandexOrganizationmanagerIdpUserpool#userpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#userpool_id DataYandexOrganizationmanagerIdpUserpool#userpool_id}
   */
   readonly userpoolId?: string;
 }
@@ -152,10 +152,10 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordLifetimePolicyOutpu
     return this.getNumberAttribute('min_days_count');
   }
 }
-export interface DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings {
+export interface DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed {
 }
 
-export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings): any {
+export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedToTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -165,7 +165,7 @@ export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMin
 }
 
 
-export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsToHclTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings): any {
+export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedToHclTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -175,7 +175,7 @@ export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMin
   return attrs;
 }
 
-export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsOutputReference extends cdktf.ComplexObject {
+export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -186,13 +186,13 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLen
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | undefined {
+  public get internalValue(): DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings | undefined) {
+  public set internalValue(value: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixed | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -201,25 +201,35 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLen
     }
   }
 
-  // one - computed: true, optional: false, required: false
-  public get one() {
-    return this.getNumberAttribute('one');
+  // digits_required - computed: true, optional: false, required: false
+  public get digitsRequired() {
+    return this.getBooleanAttribute('digits_required');
   }
 
-  // three - computed: true, optional: false, required: false
-  public get three() {
-    return this.getNumberAttribute('three');
+  // lowers_required - computed: true, optional: false, required: false
+  public get lowersRequired() {
+    return this.getBooleanAttribute('lowers_required');
   }
 
-  // two - computed: true, optional: false, required: false
-  public get two() {
-    return this.getNumberAttribute('two');
+  // min_length - computed: true, optional: false, required: false
+  public get minLength() {
+    return this.getNumberAttribute('min_length');
+  }
+
+  // specials_required - computed: true, optional: false, required: false
+  public get specialsRequired() {
+    return this.getBooleanAttribute('specials_required');
+  }
+
+  // uppers_required - computed: true, optional: false, required: false
+  public get uppersRequired() {
+    return this.getBooleanAttribute('uppers_required');
   }
 }
-export interface DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses {
+export interface DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmart {
 }
 
-export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses): any {
+export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmartToTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -229,7 +239,7 @@ export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyReq
 }
 
 
-export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesToHclTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses): any {
+export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmartToHclTerraform(struct?: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmart): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -239,7 +249,7 @@ export function dataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyReq
   return attrs;
 }
 
-export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesOutputReference extends cdktf.ComplexObject {
+export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmartOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -250,13 +260,13 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequir
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | undefined {
+  public get internalValue(): DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses | undefined) {
+  public set internalValue(value: DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmart | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -265,24 +275,24 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequir
     }
   }
 
-  // digits - computed: true, optional: false, required: false
-  public get digits() {
-    return this.getBooleanAttribute('digits');
+  // four_classes - computed: true, optional: false, required: false
+  public get fourClasses() {
+    return this.getNumberAttribute('four_classes');
   }
 
-  // lowers - computed: true, optional: false, required: false
-  public get lowers() {
-    return this.getBooleanAttribute('lowers');
+  // one_class - computed: true, optional: false, required: false
+  public get oneClass() {
+    return this.getNumberAttribute('one_class');
   }
 
-  // specials - computed: true, optional: false, required: false
-  public get specials() {
-    return this.getBooleanAttribute('specials');
+  // three_classes - computed: true, optional: false, required: false
+  public get threeClasses() {
+    return this.getNumberAttribute('three_classes');
   }
 
-  // uppers - computed: true, optional: false, required: false
-  public get uppers() {
-    return this.getBooleanAttribute('uppers');
+  // two_classes - computed: true, optional: false, required: false
+  public get twoClasses() {
+    return this.getNumberAttribute('two_classes');
   }
 }
 export interface DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicy {
@@ -339,6 +349,12 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyOutput
     return this.getBooleanAttribute('allow_similar');
   }
 
+  // fixed - computed: true, optional: false, required: false
+  private _fixed = new DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyFixedOutputReference(this, "fixed");
+  public get fixed() {
+    return this._fixed;
+  }
+
   // match_length - computed: true, optional: false, required: false
   public get matchLength() {
     return this.getNumberAttribute('match_length');
@@ -349,46 +365,35 @@ export class DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyOutput
     return this.getNumberAttribute('max_length');
   }
 
-  // min_length - computed: true, optional: false, required: false
-  public get minLength() {
-    return this.getNumberAttribute('min_length');
-  }
-
-  // min_length_by_class_settings - computed: true, optional: false, required: false
-  private _minLengthByClassSettings = new DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettingsOutputReference(this, "min_length_by_class_settings");
-  public get minLengthByClassSettings() {
-    return this._minLengthByClassSettings;
-  }
-
-  // required_classes - computed: true, optional: false, required: false
-  private _requiredClasses = new DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClassesOutputReference(this, "required_classes");
-  public get requiredClasses() {
-    return this._requiredClasses;
+  // smart - computed: true, optional: false, required: false
+  private _smart = new DataYandexOrganizationmanagerIdpUserpoolPasswordQualityPolicySmartOutputReference(this, "smart");
+  public get smart() {
+    return this._smart;
   }
 }
 export interface DataYandexOrganizationmanagerIdpUserpoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#create DataYandexOrganizationmanagerIdpUserpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#create DataYandexOrganizationmanagerIdpUserpool#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#delete DataYandexOrganizationmanagerIdpUserpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#delete DataYandexOrganizationmanagerIdpUserpool#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#read DataYandexOrganizationmanagerIdpUserpool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#read DataYandexOrganizationmanagerIdpUserpool#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#update DataYandexOrganizationmanagerIdpUserpool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#update DataYandexOrganizationmanagerIdpUserpool#update}
   */
   readonly update?: string;
 }
@@ -638,7 +643,7 @@ export class DataYandexOrganizationmanagerIdpUserpoolUserSettingsOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
 */
 export class DataYandexOrganizationmanagerIdpUserpool extends cdktf.TerraformDataSource {
 
@@ -654,7 +659,7 @@ export class DataYandexOrganizationmanagerIdpUserpool extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerIdpUserpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerIdpUserpool to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerIdpUserpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -666,7 +671,7 @@ export class DataYandexOrganizationmanagerIdpUserpool extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/data-sources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/data-sources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -677,8 +682,8 @@ export class DataYandexOrganizationmanagerIdpUserpool extends cdktf.TerraformDat
       terraformResourceType: 'yandex_organizationmanager_idp_userpool',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightNetworkVlanPortInfoConfig extends cdktf.Terraform
   /**
   * The number of available VLAN access ports on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#access_vlan_port_count DataIntersightNetworkVlanPortInfo#access_vlan_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#access_vlan_port_count DataIntersightNetworkVlanPortInfo#access_vlan_port_count}
   */
   readonly accessVlanPortCount?: number;
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#account_moid DataIntersightNetworkVlanPortInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#account_moid DataIntersightNetworkVlanPortInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The number of available VLAN border ports on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#border_vlan_port_count DataIntersightNetworkVlanPortInfo#border_vlan_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#border_vlan_port_count DataIntersightNetworkVlanPortInfo#border_vlan_port_count}
   */
   readonly borderVlanPortCount?: number;
   /**
@@ -34,53 +34,53 @@ export interface DataIntersightNetworkVlanPortInfoConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The number of compressed VLAN Group count on a Fabric Interconnect calculated by VLAN port group library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#compressed_optimization_sets_value DataIntersightNetworkVlanPortInfo#compressed_optimization_sets_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#compressed_optimization_sets_value DataIntersightNetworkVlanPortInfo#compressed_optimization_sets_value}
   */
   readonly compressedOptimizationSetsValue?: number;
   /**
   * The number of compressed VLAN ports on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#compressed_vlan_port_count DataIntersightNetworkVlanPortInfo#compressed_vlan_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#compressed_vlan_port_count DataIntersightNetworkVlanPortInfo#compressed_vlan_port_count}
   */
   readonly compressedVlanPortCount?: string;
   /**
   * The number of compressed VLAN port count on a Fabric Interconnect calculated by VLAN port group library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#compressed_vlan_port_count_value DataIntersightNetworkVlanPortInfo#compressed_vlan_port_count_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#compressed_vlan_port_count_value DataIntersightNetworkVlanPortInfo#compressed_vlan_port_count_value}
   */
   readonly compressedVlanPortCountValue?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#create_time DataIntersightNetworkVlanPortInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#create_time DataIntersightNetworkVlanPortInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#device_mo_id DataIntersightNetworkVlanPortInfo#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#device_mo_id DataIntersightNetworkVlanPortInfo#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#dn DataIntersightNetworkVlanPortInfo#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#dn DataIntersightNetworkVlanPortInfo#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#domain_group_moid DataIntersightNetworkVlanPortInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#domain_group_moid DataIntersightNetworkVlanPortInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#id DataIntersightNetworkVlanPortInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#id DataIntersightNetworkVlanPortInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,109 +89,109 @@ export interface DataIntersightNetworkVlanPortInfoConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#mod_time DataIntersightNetworkVlanPortInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#mod_time DataIntersightNetworkVlanPortInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#owners DataIntersightNetworkVlanPortInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#owners DataIntersightNetworkVlanPortInfo#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#rn DataIntersightNetworkVlanPortInfo#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#rn DataIntersightNetworkVlanPortInfo#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#shared_scope DataIntersightNetworkVlanPortInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#shared_scope DataIntersightNetworkVlanPortInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The total number of VLAN ports on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#total_vlan_port_count DataIntersightNetworkVlanPortInfo#total_vlan_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#total_vlan_port_count DataIntersightNetworkVlanPortInfo#total_vlan_port_count}
   */
   readonly totalVlanPortCount?: number;
   /**
   * The number of uncompressed VLAN ports on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#uncompressed_vlan_port_count DataIntersightNetworkVlanPortInfo#uncompressed_vlan_port_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#uncompressed_vlan_port_count DataIntersightNetworkVlanPortInfo#uncompressed_vlan_port_count}
   */
   readonly uncompressedVlanPortCount?: string;
   /**
   * The number of uncompressed VLAN port count on a Fabric Interconnect calculated by VLAN port group library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#uncompressed_vlan_port_count_value DataIntersightNetworkVlanPortInfo#uncompressed_vlan_port_count_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#uncompressed_vlan_port_count_value DataIntersightNetworkVlanPortInfo#uncompressed_vlan_port_count_value}
   */
   readonly uncompressedVlanPortCountValue?: number;
   /**
   * The maximum number of VLAN ports allowed on a Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#vlan_port_limit DataIntersightNetworkVlanPortInfo#vlan_port_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#vlan_port_limit DataIntersightNetworkVlanPortInfo#vlan_port_limit}
   */
   readonly vlanPortLimit?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#ancestors DataIntersightNetworkVlanPortInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#ancestors DataIntersightNetworkVlanPortInfo#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkVlanPortInfoAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#inventory_device_info DataIntersightNetworkVlanPortInfo#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#inventory_device_info DataIntersightNetworkVlanPortInfo#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightNetworkVlanPortInfoInventoryDeviceInfo;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#network_element DataIntersightNetworkVlanPortInfo#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#network_element DataIntersightNetworkVlanPortInfo#network_element}
   */
   readonly networkElement?: DataIntersightNetworkVlanPortInfoNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#parent DataIntersightNetworkVlanPortInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#parent DataIntersightNetworkVlanPortInfo#parent}
   */
   readonly parent?: DataIntersightNetworkVlanPortInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#permission_resources DataIntersightNetworkVlanPortInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#permission_resources DataIntersightNetworkVlanPortInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkVlanPortInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#registered_device DataIntersightNetworkVlanPortInfo#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#registered_device DataIntersightNetworkVlanPortInfo#registered_device}
   */
   readonly registeredDevice?: DataIntersightNetworkVlanPortInfoRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#tags DataIntersightNetworkVlanPortInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#tags DataIntersightNetworkVlanPortInfo#tags}
   */
   readonly tags?: DataIntersightNetworkVlanPortInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#version_context DataIntersightNetworkVlanPortInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#version_context DataIntersightNetworkVlanPortInfo#version_context}
   */
   readonly versionContext?: DataIntersightNetworkVlanPortInfoVersionContext;
 }
@@ -1604,7 +1604,7 @@ export class DataIntersightNetworkVlanPortInfoResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightNetworkVlanPortInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1612,19 +1612,19 @@ export interface DataIntersightNetworkVlanPortInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1637,7 +1637,7 @@ export interface DataIntersightNetworkVlanPortInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1869,7 +1869,7 @@ export class DataIntersightNetworkVlanPortInfoAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightNetworkVlanPortInfoInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1877,19 +1877,19 @@ export interface DataIntersightNetworkVlanPortInfoInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1902,7 +1902,7 @@ export interface DataIntersightNetworkVlanPortInfoInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2102,7 +2102,7 @@ export class DataIntersightNetworkVlanPortInfoInventoryDeviceInfoOutputReference
 }
 export interface DataIntersightNetworkVlanPortInfoNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2110,19 +2110,19 @@ export interface DataIntersightNetworkVlanPortInfoNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2135,7 +2135,7 @@ export interface DataIntersightNetworkVlanPortInfoNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2335,7 +2335,7 @@ export class DataIntersightNetworkVlanPortInfoNetworkElementOutputReference exte
 }
 export interface DataIntersightNetworkVlanPortInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2343,19 +2343,19 @@ export interface DataIntersightNetworkVlanPortInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2368,7 +2368,7 @@ export interface DataIntersightNetworkVlanPortInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2568,7 +2568,7 @@ export class DataIntersightNetworkVlanPortInfoParentOutputReference extends cdkt
 }
 export interface DataIntersightNetworkVlanPortInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2576,19 +2576,19 @@ export interface DataIntersightNetworkVlanPortInfoPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2601,7 +2601,7 @@ export interface DataIntersightNetworkVlanPortInfoPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2833,7 +2833,7 @@ export class DataIntersightNetworkVlanPortInfoPermissionResourcesList extends cd
 }
 export interface DataIntersightNetworkVlanPortInfoRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2841,19 +2841,19 @@ export interface DataIntersightNetworkVlanPortInfoRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2866,7 +2866,7 @@ export interface DataIntersightNetworkVlanPortInfoRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3066,7 +3066,7 @@ export class DataIntersightNetworkVlanPortInfoRegisteredDeviceOutputReference ex
 }
 export interface DataIntersightNetworkVlanPortInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3074,19 +3074,19 @@ export interface DataIntersightNetworkVlanPortInfoTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3099,7 +3099,7 @@ export interface DataIntersightNetworkVlanPortInfoTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3331,7 +3331,7 @@ export class DataIntersightNetworkVlanPortInfoTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightNetworkVlanPortInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3339,19 +3339,19 @@ export interface DataIntersightNetworkVlanPortInfoTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3364,7 +3364,7 @@ export interface DataIntersightNetworkVlanPortInfoTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3564,25 +3564,25 @@ export class DataIntersightNetworkVlanPortInfoTagsDefinitionOutputReference exte
 }
 export interface DataIntersightNetworkVlanPortInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#key DataIntersightNetworkVlanPortInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#key DataIntersightNetworkVlanPortInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#propagated DataIntersightNetworkVlanPortInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#propagated DataIntersightNetworkVlanPortInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#sys_tag DataIntersightNetworkVlanPortInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#sys_tag DataIntersightNetworkVlanPortInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3590,25 +3590,25 @@ export interface DataIntersightNetworkVlanPortInfoTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#type DataIntersightNetworkVlanPortInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#type DataIntersightNetworkVlanPortInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#value DataIntersightNetworkVlanPortInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#value DataIntersightNetworkVlanPortInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#ancestor_definitions DataIntersightNetworkVlanPortInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#ancestor_definitions DataIntersightNetworkVlanPortInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkVlanPortInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#definition DataIntersightNetworkVlanPortInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#definition DataIntersightNetworkVlanPortInfo#definition}
   */
   readonly definition?: DataIntersightNetworkVlanPortInfoTagsDefinition;
 }
@@ -3927,7 +3927,7 @@ export class DataIntersightNetworkVlanPortInfoTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightNetworkVlanPortInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3935,19 +3935,19 @@ export interface DataIntersightNetworkVlanPortInfoVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3960,7 +3960,7 @@ export interface DataIntersightNetworkVlanPortInfoVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4192,7 +4192,7 @@ export class DataIntersightNetworkVlanPortInfoVersionContextInterestedMosList ex
 }
 export interface DataIntersightNetworkVlanPortInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4200,19 +4200,19 @@ export interface DataIntersightNetworkVlanPortInfoVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#moid DataIntersightNetworkVlanPortInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4225,7 +4225,7 @@ export interface DataIntersightNetworkVlanPortInfoVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#selector DataIntersightNetworkVlanPortInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4425,7 +4425,7 @@ export class DataIntersightNetworkVlanPortInfoVersionContextRefMoOutputReference
 }
 export interface DataIntersightNetworkVlanPortInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#additional_properties DataIntersightNetworkVlanPortInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4433,32 +4433,32 @@ export interface DataIntersightNetworkVlanPortInfoVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#class_id DataIntersightNetworkVlanPortInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#marked_for_deletion DataIntersightNetworkVlanPortInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#marked_for_deletion DataIntersightNetworkVlanPortInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#nr_version DataIntersightNetworkVlanPortInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#nr_version DataIntersightNetworkVlanPortInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#object_type DataIntersightNetworkVlanPortInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#timestamp DataIntersightNetworkVlanPortInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#timestamp DataIntersightNetworkVlanPortInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4469,19 +4469,19 @@ export interface DataIntersightNetworkVlanPortInfoVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#version_type DataIntersightNetworkVlanPortInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#version_type DataIntersightNetworkVlanPortInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#interested_mos DataIntersightNetworkVlanPortInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#interested_mos DataIntersightNetworkVlanPortInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkVlanPortInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#ref_mo DataIntersightNetworkVlanPortInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#ref_mo DataIntersightNetworkVlanPortInfo#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkVlanPortInfoVersionContextRefMo;
 }
@@ -4797,7 +4797,7 @@ export class DataIntersightNetworkVlanPortInfoVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info intersight_network_vlan_port_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info intersight_network_vlan_port_info}
 */
 export class DataIntersightNetworkVlanPortInfo extends cdktf.TerraformDataSource {
 
@@ -4813,7 +4813,7 @@ export class DataIntersightNetworkVlanPortInfo extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightNetworkVlanPortInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkVlanPortInfo to import
-  * @param importFromId The id of the existing DataIntersightNetworkVlanPortInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkVlanPortInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkVlanPortInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4825,7 +4825,7 @@ export class DataIntersightNetworkVlanPortInfo extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/network_vlan_port_info intersight_network_vlan_port_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/network_vlan_port_info intersight_network_vlan_port_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4836,8 +4836,8 @@ export class DataIntersightNetworkVlanPortInfo extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_network_vlan_port_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

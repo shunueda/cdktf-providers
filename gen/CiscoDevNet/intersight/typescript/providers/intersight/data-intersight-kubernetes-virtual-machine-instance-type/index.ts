@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeConfig extend
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#account_moid DataIntersightKubernetesVirtualMachineInstanceType#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#account_moid DataIntersightKubernetesVirtualMachineInstanceType#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeConfig extend
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * Number of CPUs allocated to virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#cpu DataIntersightKubernetesVirtualMachineInstanceType#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#cpu DataIntersightKubernetesVirtualMachineInstanceType#cpu}
   */
   readonly cpu?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#create_time DataIntersightKubernetesVirtualMachineInstanceType#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#create_time DataIntersightKubernetesVirtualMachineInstanceType#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#description DataIntersightKubernetesVirtualMachineInstanceType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#description DataIntersightKubernetesVirtualMachineInstanceType#description}
   */
   readonly description?: string;
   /**
   * Ephemeral disk capacity to be provided with units example - 10Gi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#disk_size DataIntersightKubernetesVirtualMachineInstanceType#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#disk_size DataIntersightKubernetesVirtualMachineInstanceType#disk_size}
   */
   readonly diskSize?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#domain_group_moid DataIntersightKubernetesVirtualMachineInstanceType#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#domain_group_moid DataIntersightKubernetesVirtualMachineInstanceType#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#id DataIntersightKubernetesVirtualMachineInstanceType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#id DataIntersightKubernetesVirtualMachineInstanceType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeConfig extend
   /**
   * Virtual machine memory defined in mebibytes (MiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#memory DataIntersightKubernetesVirtualMachineInstanceType#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#memory DataIntersightKubernetesVirtualMachineInstanceType#memory}
   */
   readonly memory?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#mod_time DataIntersightKubernetesVirtualMachineInstanceType#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#mod_time DataIntersightKubernetesVirtualMachineInstanceType#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#name DataIntersightKubernetesVirtualMachineInstanceType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#name DataIntersightKubernetesVirtualMachineInstanceType#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#owners DataIntersightKubernetesVirtualMachineInstanceType#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#owners DataIntersightKubernetesVirtualMachineInstanceType#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#shared_scope DataIntersightKubernetesVirtualMachineInstanceType#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#shared_scope DataIntersightKubernetesVirtualMachineInstanceType#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#ancestors DataIntersightKubernetesVirtualMachineInstanceType#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#ancestors DataIntersightKubernetesVirtualMachineInstanceType#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesVirtualMachineInstanceTypeAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#organization DataIntersightKubernetesVirtualMachineInstanceType#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#organization DataIntersightKubernetesVirtualMachineInstanceType#organization}
   */
   readonly organization?: DataIntersightKubernetesVirtualMachineInstanceTypeOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#parent DataIntersightKubernetesVirtualMachineInstanceType#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#parent DataIntersightKubernetesVirtualMachineInstanceType#parent}
   */
   readonly parent?: DataIntersightKubernetesVirtualMachineInstanceTypeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#permission_resources DataIntersightKubernetesVirtualMachineInstanceType#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#permission_resources DataIntersightKubernetesVirtualMachineInstanceType#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesVirtualMachineInstanceTypePermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#profiles DataIntersightKubernetesVirtualMachineInstanceType#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#profiles DataIntersightKubernetesVirtualMachineInstanceType#profiles}
   */
   readonly profiles?: DataIntersightKubernetesVirtualMachineInstanceTypeProfiles[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#tags DataIntersightKubernetesVirtualMachineInstanceType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#tags DataIntersightKubernetesVirtualMachineInstanceType#tags}
   */
   readonly tags?: DataIntersightKubernetesVirtualMachineInstanceTypeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#version_context DataIntersightKubernetesVirtualMachineInstanceType#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#version_context DataIntersightKubernetesVirtualMachineInstanceType#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesVirtualMachineInstanceTypeVersionContext;
 }
@@ -1420,7 +1420,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeResultsList exten
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1428,19 +1428,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1453,7 +1453,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -1685,7 +1685,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeAncestorsList ext
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1693,19 +1693,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeOrganization 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1718,7 +1718,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeOrganization 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -1918,7 +1918,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeOrganizationOutpu
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1926,19 +1926,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1951,7 +1951,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -2151,7 +2151,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeParentOutputRefer
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2159,19 +2159,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypePermissionRes
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2184,7 +2184,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypePermissionRes
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -2416,7 +2416,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypePermissionResourc
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2424,19 +2424,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2449,7 +2449,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -2681,7 +2681,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeProfilesList exte
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2689,19 +2689,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsAncestorD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2714,7 +2714,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsAncestorD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -2946,7 +2946,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeTagsAncestorDefin
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2954,19 +2954,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2979,7 +2979,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeTagsDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -3179,25 +3179,25 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeTagsDefinitionOut
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#key DataIntersightKubernetesVirtualMachineInstanceType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#key DataIntersightKubernetesVirtualMachineInstanceType#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#propagated DataIntersightKubernetesVirtualMachineInstanceType#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#propagated DataIntersightKubernetesVirtualMachineInstanceType#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#sys_tag DataIntersightKubernetesVirtualMachineInstanceType#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#sys_tag DataIntersightKubernetesVirtualMachineInstanceType#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3205,25 +3205,25 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#type DataIntersightKubernetesVirtualMachineInstanceType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#type DataIntersightKubernetesVirtualMachineInstanceType#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#value DataIntersightKubernetesVirtualMachineInstanceType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#value DataIntersightKubernetesVirtualMachineInstanceType#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#ancestor_definitions DataIntersightKubernetesVirtualMachineInstanceType#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#ancestor_definitions DataIntersightKubernetesVirtualMachineInstanceType#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesVirtualMachineInstanceTypeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#definition DataIntersightKubernetesVirtualMachineInstanceType#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#definition DataIntersightKubernetesVirtualMachineInstanceType#definition}
   */
   readonly definition?: DataIntersightKubernetesVirtualMachineInstanceTypeTagsDefinition;
 }
@@ -3542,7 +3542,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeTagsList extends 
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3550,19 +3550,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3575,7 +3575,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -3807,7 +3807,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextInt
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3815,19 +3815,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#moid DataIntersightKubernetesVirtualMachineInstanceType#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3840,7 +3840,7 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#selector DataIntersightKubernetesVirtualMachineInstanceType#selector}
   */
   readonly selector?: string;
 }
@@ -4040,7 +4040,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextRef
 }
 export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#additional_properties DataIntersightKubernetesVirtualMachineInstanceType#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4048,32 +4048,32 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#class_id DataIntersightKubernetesVirtualMachineInstanceType#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#marked_for_deletion DataIntersightKubernetesVirtualMachineInstanceType#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#marked_for_deletion DataIntersightKubernetesVirtualMachineInstanceType#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#nr_version DataIntersightKubernetesVirtualMachineInstanceType#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#nr_version DataIntersightKubernetesVirtualMachineInstanceType#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#object_type DataIntersightKubernetesVirtualMachineInstanceType#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#timestamp DataIntersightKubernetesVirtualMachineInstanceType#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#timestamp DataIntersightKubernetesVirtualMachineInstanceType#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4084,19 +4084,19 @@ export interface DataIntersightKubernetesVirtualMachineInstanceTypeVersionContex
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#version_type DataIntersightKubernetesVirtualMachineInstanceType#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#version_type DataIntersightKubernetesVirtualMachineInstanceType#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#interested_mos DataIntersightKubernetesVirtualMachineInstanceType#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#interested_mos DataIntersightKubernetesVirtualMachineInstanceType#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#ref_mo DataIntersightKubernetesVirtualMachineInstanceType#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#ref_mo DataIntersightKubernetesVirtualMachineInstanceType#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextRefMo;
 }
@@ -4412,7 +4412,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceTypeVersionContextOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type intersight_kubernetes_virtual_machine_instance_type}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type intersight_kubernetes_virtual_machine_instance_type}
 */
 export class DataIntersightKubernetesVirtualMachineInstanceType extends cdktf.TerraformDataSource {
 
@@ -4428,7 +4428,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceType extends cdktf.Te
   * Generates CDKTF code for importing a DataIntersightKubernetesVirtualMachineInstanceType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesVirtualMachineInstanceType to import
-  * @param importFromId The id of the existing DataIntersightKubernetesVirtualMachineInstanceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesVirtualMachineInstanceType that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesVirtualMachineInstanceType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4440,7 +4440,7 @@ export class DataIntersightKubernetesVirtualMachineInstanceType extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_virtual_machine_instance_type intersight_kubernetes_virtual_machine_instance_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_virtual_machine_instance_type intersight_kubernetes_virtual_machine_instance_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4451,8 +4451,8 @@ export class DataIntersightKubernetesVirtualMachineInstanceType extends cdktf.Te
       terraformResourceType: 'intersight_kubernetes_virtual_machine_instance_type',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

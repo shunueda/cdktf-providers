@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AuditTrackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Track interface type, optional:- `Read`: Read interface- `Write`: Write interface- `*`: All interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#action_type AuditTrack#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#action_type AuditTrack#action_type}
   */
   readonly actionType: string;
   /**
   * Track interface name list:- when ResourceType is `*`, EventNames is must `[&amp;quot;*&amp;quot;]`- when ResourceType is a single product, EventNames support all interface:`[&amp;quot;*&amp;quot;]`- when ResourceType is a single product, EventNames support some interface, up to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#event_names AuditTrack#event_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#event_names AuditTrack#event_names}
   */
   readonly eventNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#id AuditTrack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#id AuditTrack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface AuditTrackConfig extends cdktf.TerraformMetaArguments {
   /**
   * Track name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#name AuditTrack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#name AuditTrack#name}
   */
   readonly name: string;
   /**
   * Track product, optional:- `*`: All product- Single product, such as `cos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#resource_type AuditTrack#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#resource_type AuditTrack#resource_type}
   */
   readonly resourceType: string;
   /**
   * Track status, optional:- `0`: Close- `1`: Open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#status AuditTrack#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#status AuditTrack#status}
   */
   readonly status: number;
   /**
   * Whether to enable the delivery of group member operation logs to the group management account or trusted service management account, optional:- `0`: Close- `1`: Open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#track_for_all_members AuditTrack#track_for_all_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#track_for_all_members AuditTrack#track_for_all_members}
   */
   readonly trackForAllMembers?: number;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage AuditTrack#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage AuditTrack#storage}
   */
   readonly storage: AuditTrackStorage;
 }
@@ -61,37 +61,37 @@ export interface AuditTrackStorage {
   /**
   * Designated to store user ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_account_id AuditTrack#storage_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_account_id AuditTrack#storage_account_id}
   */
   readonly storageAccountId?: string;
   /**
   * Designated to store user appid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_app_id AuditTrack#storage_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_app_id AuditTrack#storage_app_id}
   */
   readonly storageAppId?: string;
   /**
   * Track Storage name:- when StorageType is `cls`, StorageName is cls topicId- when StorageType is `cos`, StorageName is cos bucket name that does not contain `-APPID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_name AuditTrack#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_name AuditTrack#storage_name}
   */
   readonly storageName: string;
   /**
   * Storage path prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_prefix AuditTrack#storage_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_prefix AuditTrack#storage_prefix}
   */
   readonly storagePrefix: string;
   /**
   * Storage region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_region AuditTrack#storage_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_region AuditTrack#storage_region}
   */
   readonly storageRegion: string;
   /**
   * Track Storage type, optional:- `cos`- `cls`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#storage_type AuditTrack#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#storage_type AuditTrack#storage_type}
   */
   readonly storageType: string;
 }
@@ -308,7 +308,7 @@ export class AuditTrackStorageOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track tencentcloud_audit_track}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track tencentcloud_audit_track}
 */
 export class AuditTrack extends cdktf.TerraformResource {
 
@@ -324,7 +324,7 @@ export class AuditTrack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuditTrack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuditTrack to import
-  * @param importFromId The id of the existing AuditTrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuditTrack that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuditTrack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -336,7 +336,7 @@ export class AuditTrack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/audit_track tencentcloud_audit_track} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/audit_track tencentcloud_audit_track} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,8 +347,8 @@ export class AuditTrack extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_audit_track',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

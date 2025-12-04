@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryCloudDetailsConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#account_moid DataIntersightNiatelemetryCloudDetails#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#account_moid DataIntersightNiatelemetryCloudDetails#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryCloudDetailsConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#create_time DataIntersightNiatelemetryCloudDetails#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#create_time DataIntersightNiatelemetryCloudDetails#create_time}
   */
   readonly createTime?: string;
   /**
   * Returns the dn of cloudProvP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#dn DataIntersightNiatelemetryCloudDetails#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#dn DataIntersightNiatelemetryCloudDetails#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#domain_group_moid DataIntersightNiatelemetryCloudDetails#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#domain_group_moid DataIntersightNiatelemetryCloudDetails#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#id DataIntersightNiatelemetryCloudDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#id DataIntersightNiatelemetryCloudDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,97 +53,97 @@ export interface DataIntersightNiatelemetryCloudDetailsConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#mod_time DataIntersightNiatelemetryCloudDetails#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#mod_time DataIntersightNiatelemetryCloudDetails#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#owners DataIntersightNiatelemetryCloudDetails#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#owners DataIntersightNiatelemetryCloudDetails#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#record_type DataIntersightNiatelemetryCloudDetails#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#record_type DataIntersightNiatelemetryCloudDetails#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#record_version DataIntersightNiatelemetryCloudDetails#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#record_version DataIntersightNiatelemetryCloudDetails#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#shared_scope DataIntersightNiatelemetryCloudDetails#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#shared_scope DataIntersightNiatelemetryCloudDetails#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#site_name DataIntersightNiatelemetryCloudDetails#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#site_name DataIntersightNiatelemetryCloudDetails#site_name}
   */
   readonly siteName?: string;
   /**
   * Returns the vendor of the cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#vendor DataIntersightNiatelemetryCloudDetails#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#vendor DataIntersightNiatelemetryCloudDetails#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#ancestors DataIntersightNiatelemetryCloudDetails#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#ancestors DataIntersightNiatelemetryCloudDetails#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryCloudDetailsAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#parent DataIntersightNiatelemetryCloudDetails#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#parent DataIntersightNiatelemetryCloudDetails#parent}
   */
   readonly parent?: DataIntersightNiatelemetryCloudDetailsParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#permission_resources DataIntersightNiatelemetryCloudDetails#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#permission_resources DataIntersightNiatelemetryCloudDetails#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryCloudDetailsPermissionResources[] | cdktf.IResolvable;
   /**
   * region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#region DataIntersightNiatelemetryCloudDetails#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#region DataIntersightNiatelemetryCloudDetails#region}
   */
   readonly region?: DataIntersightNiatelemetryCloudDetailsRegion[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#registered_device DataIntersightNiatelemetryCloudDetails#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#registered_device DataIntersightNiatelemetryCloudDetails#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryCloudDetailsRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#tags DataIntersightNiatelemetryCloudDetails#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#tags DataIntersightNiatelemetryCloudDetails#tags}
   */
   readonly tags?: DataIntersightNiatelemetryCloudDetailsTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#version_context DataIntersightNiatelemetryCloudDetails#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#version_context DataIntersightNiatelemetryCloudDetails#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryCloudDetailsVersionContext;
 }
@@ -1430,7 +1430,7 @@ export class DataIntersightNiatelemetryCloudDetailsResultsList extends cdktf.Com
 }
 export interface DataIntersightNiatelemetryCloudDetailsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1438,19 +1438,19 @@ export interface DataIntersightNiatelemetryCloudDetailsAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1463,7 +1463,7 @@ export interface DataIntersightNiatelemetryCloudDetailsAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1695,7 +1695,7 @@ export class DataIntersightNiatelemetryCloudDetailsAncestorsList extends cdktf.C
 }
 export interface DataIntersightNiatelemetryCloudDetailsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1703,19 +1703,19 @@ export interface DataIntersightNiatelemetryCloudDetailsParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1728,7 +1728,7 @@ export interface DataIntersightNiatelemetryCloudDetailsParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -1928,7 +1928,7 @@ export class DataIntersightNiatelemetryCloudDetailsParentOutputReference extends
 }
 export interface DataIntersightNiatelemetryCloudDetailsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1936,19 +1936,19 @@ export interface DataIntersightNiatelemetryCloudDetailsPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1961,7 +1961,7 @@ export interface DataIntersightNiatelemetryCloudDetailsPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2193,19 +2193,19 @@ export class DataIntersightNiatelemetryCloudDetailsPermissionResourcesList exten
 }
 export interface DataIntersightNiatelemetryCloudDetailsRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Return value of adminState attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#admin_state DataIntersightNiatelemetryCloudDetails#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#admin_state DataIntersightNiatelemetryCloudDetails#admin_state}
   */
   readonly adminState?: string;
   /**
   * Return whether CAPIC is deployed in the cloud region or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#capic_deployed DataIntersightNiatelemetryCloudDetails#capic_deployed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#capic_deployed DataIntersightNiatelemetryCloudDetails#capic_deployed}
   */
   readonly capicDeployed?: string;
   /**
@@ -2213,26 +2213,26 @@ export interface DataIntersightNiatelemetryCloudDetailsRegion {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * Return whether any user deployment is configured in the cloud region or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#in_use DataIntersightNiatelemetryCloudDetails#in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#in_use DataIntersightNiatelemetryCloudDetails#in_use}
   */
   readonly inUse?: string;
   /**
   * Return value of name of the cloud region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#name DataIntersightNiatelemetryCloudDetails#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#name DataIntersightNiatelemetryCloudDetails#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
 }
@@ -2522,7 +2522,7 @@ export class DataIntersightNiatelemetryCloudDetailsRegionList extends cdktf.Comp
 }
 export interface DataIntersightNiatelemetryCloudDetailsRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2530,19 +2530,19 @@ export interface DataIntersightNiatelemetryCloudDetailsRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2555,7 +2555,7 @@ export interface DataIntersightNiatelemetryCloudDetailsRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -2755,7 +2755,7 @@ export class DataIntersightNiatelemetryCloudDetailsRegisteredDeviceOutputReferen
 }
 export interface DataIntersightNiatelemetryCloudDetailsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2763,19 +2763,19 @@ export interface DataIntersightNiatelemetryCloudDetailsTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2788,7 +2788,7 @@ export interface DataIntersightNiatelemetryCloudDetailsTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3020,7 +3020,7 @@ export class DataIntersightNiatelemetryCloudDetailsTagsAncestorDefinitionsList e
 }
 export interface DataIntersightNiatelemetryCloudDetailsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3028,19 +3028,19 @@ export interface DataIntersightNiatelemetryCloudDetailsTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3053,7 +3053,7 @@ export interface DataIntersightNiatelemetryCloudDetailsTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3253,25 +3253,25 @@ export class DataIntersightNiatelemetryCloudDetailsTagsDefinitionOutputReference
 }
 export interface DataIntersightNiatelemetryCloudDetailsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#key DataIntersightNiatelemetryCloudDetails#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#key DataIntersightNiatelemetryCloudDetails#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#propagated DataIntersightNiatelemetryCloudDetails#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#propagated DataIntersightNiatelemetryCloudDetails#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#sys_tag DataIntersightNiatelemetryCloudDetails#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#sys_tag DataIntersightNiatelemetryCloudDetails#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3279,25 +3279,25 @@ export interface DataIntersightNiatelemetryCloudDetailsTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#type DataIntersightNiatelemetryCloudDetails#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#type DataIntersightNiatelemetryCloudDetails#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#value DataIntersightNiatelemetryCloudDetails#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#value DataIntersightNiatelemetryCloudDetails#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#ancestor_definitions DataIntersightNiatelemetryCloudDetails#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#ancestor_definitions DataIntersightNiatelemetryCloudDetails#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryCloudDetailsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#definition DataIntersightNiatelemetryCloudDetails#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#definition DataIntersightNiatelemetryCloudDetails#definition}
   */
   readonly definition?: DataIntersightNiatelemetryCloudDetailsTagsDefinition;
 }
@@ -3616,7 +3616,7 @@ export class DataIntersightNiatelemetryCloudDetailsTagsList extends cdktf.Comple
 }
 export interface DataIntersightNiatelemetryCloudDetailsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3624,19 +3624,19 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3649,7 +3649,7 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -3881,7 +3881,7 @@ export class DataIntersightNiatelemetryCloudDetailsVersionContextInterestedMosLi
 }
 export interface DataIntersightNiatelemetryCloudDetailsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3889,19 +3889,19 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#moid DataIntersightNiatelemetryCloudDetails#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3914,7 +3914,7 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#selector DataIntersightNiatelemetryCloudDetails#selector}
   */
   readonly selector?: string;
 }
@@ -4114,7 +4114,7 @@ export class DataIntersightNiatelemetryCloudDetailsVersionContextRefMoOutputRefe
 }
 export interface DataIntersightNiatelemetryCloudDetailsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#additional_properties DataIntersightNiatelemetryCloudDetails#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4122,32 +4122,32 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#class_id DataIntersightNiatelemetryCloudDetails#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#marked_for_deletion DataIntersightNiatelemetryCloudDetails#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#marked_for_deletion DataIntersightNiatelemetryCloudDetails#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#nr_version DataIntersightNiatelemetryCloudDetails#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#nr_version DataIntersightNiatelemetryCloudDetails#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#object_type DataIntersightNiatelemetryCloudDetails#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#timestamp DataIntersightNiatelemetryCloudDetails#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#timestamp DataIntersightNiatelemetryCloudDetails#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4158,19 +4158,19 @@ export interface DataIntersightNiatelemetryCloudDetailsVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#version_type DataIntersightNiatelemetryCloudDetails#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#version_type DataIntersightNiatelemetryCloudDetails#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#interested_mos DataIntersightNiatelemetryCloudDetails#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#interested_mos DataIntersightNiatelemetryCloudDetails#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryCloudDetailsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#ref_mo DataIntersightNiatelemetryCloudDetails#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#ref_mo DataIntersightNiatelemetryCloudDetails#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryCloudDetailsVersionContextRefMo;
 }
@@ -4486,7 +4486,7 @@ export class DataIntersightNiatelemetryCloudDetailsVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details intersight_niatelemetry_cloud_details}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details intersight_niatelemetry_cloud_details}
 */
 export class DataIntersightNiatelemetryCloudDetails extends cdktf.TerraformDataSource {
 
@@ -4502,7 +4502,7 @@ export class DataIntersightNiatelemetryCloudDetails extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightNiatelemetryCloudDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryCloudDetails to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryCloudDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryCloudDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryCloudDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4514,7 +4514,7 @@ export class DataIntersightNiatelemetryCloudDetails extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_cloud_details intersight_niatelemetry_cloud_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_cloud_details intersight_niatelemetry_cloud_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4525,8 +4525,8 @@ export class DataIntersightNiatelemetryCloudDetails extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_niatelemetry_cloud_details',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

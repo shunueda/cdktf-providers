@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CdwpgResetAccountPasswordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password#id CdwpgResetAccountPassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password#id CdwpgResetAccountPassword#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface CdwpgResetAccountPasswordConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password#instance_id CdwpgResetAccountPassword#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password#instance_id CdwpgResetAccountPassword#instance_id}
   */
   readonly instanceId: string;
   /**
   * New password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password#new_password CdwpgResetAccountPassword#new_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password#new_password CdwpgResetAccountPassword#new_password}
   */
   readonly newPassword: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password#user_name CdwpgResetAccountPassword#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password#user_name CdwpgResetAccountPassword#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password tencentcloud_cdwpg_reset_account_password}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password tencentcloud_cdwpg_reset_account_password}
 */
 export class CdwpgResetAccountPassword extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CdwpgResetAccountPassword extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdwpgResetAccountPassword resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdwpgResetAccountPassword to import
-  * @param importFromId The id of the existing CdwpgResetAccountPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdwpgResetAccountPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdwpgResetAccountPassword to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CdwpgResetAccountPassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdwpg_reset_account_password tencentcloud_cdwpg_reset_account_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdwpg_reset_account_password tencentcloud_cdwpg_reset_account_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CdwpgResetAccountPassword extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdwpg_reset_account_password',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

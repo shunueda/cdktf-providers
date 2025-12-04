@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightStorageVirtualDriveExtensionConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#account_moid DataIntersightStorageVirtualDriveExtension#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#account_moid DataIntersightStorageVirtualDriveExtension#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The ability to boot from the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#bootable DataIntersightStorageVirtualDriveExtension#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#bootable DataIntersightStorageVirtualDriveExtension#bootable}
   */
   readonly bootable?: string;
   /**
@@ -28,47 +28,47 @@ export interface DataIntersightStorageVirtualDriveExtensionConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The container id of the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#container_id DataIntersightStorageVirtualDriveExtension#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#container_id DataIntersightStorageVirtualDriveExtension#container_id}
   */
   readonly containerId?: number;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#create_time DataIntersightStorageVirtualDriveExtension#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#create_time DataIntersightStorageVirtualDriveExtension#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#device_mo_id DataIntersightStorageVirtualDriveExtension#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#device_mo_id DataIntersightStorageVirtualDriveExtension#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#dn DataIntersightStorageVirtualDriveExtension#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#dn DataIntersightStorageVirtualDriveExtension#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#domain_group_moid DataIntersightStorageVirtualDriveExtension#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#domain_group_moid DataIntersightStorageVirtualDriveExtension#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The state of the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#drive_state DataIntersightStorageVirtualDriveExtension#drive_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#drive_state DataIntersightStorageVirtualDriveExtension#drive_state}
   */
   readonly driveState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#id DataIntersightStorageVirtualDriveExtension#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#id DataIntersightStorageVirtualDriveExtension#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,127 +77,127 @@ export interface DataIntersightStorageVirtualDriveExtensionConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#mod_time DataIntersightStorageVirtualDriveExtension#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#mod_time DataIntersightStorageVirtualDriveExtension#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The name of the Virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#name DataIntersightStorageVirtualDriveExtension#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#name DataIntersightStorageVirtualDriveExtension#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
   * The operational device id of the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#oper_device_id DataIntersightStorageVirtualDriveExtension#oper_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#oper_device_id DataIntersightStorageVirtualDriveExtension#oper_device_id}
   */
   readonly operDeviceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#owners DataIntersightStorageVirtualDriveExtension#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#owners DataIntersightStorageVirtualDriveExtension#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#rn DataIntersightStorageVirtualDriveExtension#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#rn DataIntersightStorageVirtualDriveExtension#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#shared_scope DataIntersightStorageVirtualDriveExtension#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#shared_scope DataIntersightStorageVirtualDriveExtension#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The UUID assigned to the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#uuid DataIntersightStorageVirtualDriveExtension#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#uuid DataIntersightStorageVirtualDriveExtension#uuid}
   */
   readonly uuid?: string;
   /**
   * The UUID value of the vendor assigned to the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#vendor_uuid DataIntersightStorageVirtualDriveExtension#vendor_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#vendor_uuid DataIntersightStorageVirtualDriveExtension#vendor_uuid}
   */
   readonly vendorUuid?: string;
   /**
   * The distinguished name of the virtual drive for which the extended data is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#virtual_drive_dn DataIntersightStorageVirtualDriveExtension#virtual_drive_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#virtual_drive_dn DataIntersightStorageVirtualDriveExtension#virtual_drive_dn}
   */
   readonly virtualDriveDn?: string;
   /**
   * The Id of the virtual drive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#virtual_drive_id DataIntersightStorageVirtualDriveExtension#virtual_drive_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#virtual_drive_id DataIntersightStorageVirtualDriveExtension#virtual_drive_id}
   */
   readonly virtualDriveId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#ancestors DataIntersightStorageVirtualDriveExtension#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#ancestors DataIntersightStorageVirtualDriveExtension#ancestors}
   */
   readonly ancestors?: DataIntersightStorageVirtualDriveExtensionAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#inventory_device_info DataIntersightStorageVirtualDriveExtension#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#inventory_device_info DataIntersightStorageVirtualDriveExtension#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightStorageVirtualDriveExtensionInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#parent DataIntersightStorageVirtualDriveExtension#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#parent DataIntersightStorageVirtualDriveExtension#parent}
   */
   readonly parent?: DataIntersightStorageVirtualDriveExtensionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#permission_resources DataIntersightStorageVirtualDriveExtension#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#permission_resources DataIntersightStorageVirtualDriveExtension#permission_resources}
   */
   readonly permissionResources?: DataIntersightStorageVirtualDriveExtensionPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#registered_device DataIntersightStorageVirtualDriveExtension#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#registered_device DataIntersightStorageVirtualDriveExtension#registered_device}
   */
   readonly registeredDevice?: DataIntersightStorageVirtualDriveExtensionRegisteredDevice;
   /**
   * storage_controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#storage_controller DataIntersightStorageVirtualDriveExtension#storage_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#storage_controller DataIntersightStorageVirtualDriveExtension#storage_controller}
   */
   readonly storageController?: DataIntersightStorageVirtualDriveExtensionStorageController;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#tags DataIntersightStorageVirtualDriveExtension#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#tags DataIntersightStorageVirtualDriveExtension#tags}
   */
   readonly tags?: DataIntersightStorageVirtualDriveExtensionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#version_context DataIntersightStorageVirtualDriveExtension#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#version_context DataIntersightStorageVirtualDriveExtension#version_context}
   */
   readonly versionContext?: DataIntersightStorageVirtualDriveExtensionVersionContext;
   /**
   * virtual_drive block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#virtual_drive DataIntersightStorageVirtualDriveExtension#virtual_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#virtual_drive DataIntersightStorageVirtualDriveExtension#virtual_drive}
   */
   readonly virtualDrive?: DataIntersightStorageVirtualDriveExtensionVirtualDrive;
 }
@@ -1711,7 +1711,7 @@ export class DataIntersightStorageVirtualDriveExtensionResultsList extends cdktf
 }
 export interface DataIntersightStorageVirtualDriveExtensionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1719,19 +1719,19 @@ export interface DataIntersightStorageVirtualDriveExtensionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1744,7 +1744,7 @@ export interface DataIntersightStorageVirtualDriveExtensionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -1976,7 +1976,7 @@ export class DataIntersightStorageVirtualDriveExtensionAncestorsList extends cdk
 }
 export interface DataIntersightStorageVirtualDriveExtensionInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1984,19 +1984,19 @@ export interface DataIntersightStorageVirtualDriveExtensionInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2009,7 +2009,7 @@ export interface DataIntersightStorageVirtualDriveExtensionInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -2209,7 +2209,7 @@ export class DataIntersightStorageVirtualDriveExtensionInventoryDeviceInfoOutput
 }
 export interface DataIntersightStorageVirtualDriveExtensionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2217,19 +2217,19 @@ export interface DataIntersightStorageVirtualDriveExtensionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2242,7 +2242,7 @@ export interface DataIntersightStorageVirtualDriveExtensionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -2442,7 +2442,7 @@ export class DataIntersightStorageVirtualDriveExtensionParentOutputReference ext
 }
 export interface DataIntersightStorageVirtualDriveExtensionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2450,19 +2450,19 @@ export interface DataIntersightStorageVirtualDriveExtensionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2475,7 +2475,7 @@ export interface DataIntersightStorageVirtualDriveExtensionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -2707,7 +2707,7 @@ export class DataIntersightStorageVirtualDriveExtensionPermissionResourcesList e
 }
 export interface DataIntersightStorageVirtualDriveExtensionRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2715,19 +2715,19 @@ export interface DataIntersightStorageVirtualDriveExtensionRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2740,7 +2740,7 @@ export interface DataIntersightStorageVirtualDriveExtensionRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -2940,7 +2940,7 @@ export class DataIntersightStorageVirtualDriveExtensionRegisteredDeviceOutputRef
 }
 export interface DataIntersightStorageVirtualDriveExtensionStorageController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2948,19 +2948,19 @@ export interface DataIntersightStorageVirtualDriveExtensionStorageController {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2973,7 +2973,7 @@ export interface DataIntersightStorageVirtualDriveExtensionStorageController {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -3173,7 +3173,7 @@ export class DataIntersightStorageVirtualDriveExtensionStorageControllerOutputRe
 }
 export interface DataIntersightStorageVirtualDriveExtensionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3181,19 +3181,19 @@ export interface DataIntersightStorageVirtualDriveExtensionTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3206,7 +3206,7 @@ export interface DataIntersightStorageVirtualDriveExtensionTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -3438,7 +3438,7 @@ export class DataIntersightStorageVirtualDriveExtensionTagsAncestorDefinitionsLi
 }
 export interface DataIntersightStorageVirtualDriveExtensionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3446,19 +3446,19 @@ export interface DataIntersightStorageVirtualDriveExtensionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3471,7 +3471,7 @@ export interface DataIntersightStorageVirtualDriveExtensionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -3671,25 +3671,25 @@ export class DataIntersightStorageVirtualDriveExtensionTagsDefinitionOutputRefer
 }
 export interface DataIntersightStorageVirtualDriveExtensionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#key DataIntersightStorageVirtualDriveExtension#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#key DataIntersightStorageVirtualDriveExtension#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#propagated DataIntersightStorageVirtualDriveExtension#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#propagated DataIntersightStorageVirtualDriveExtension#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#sys_tag DataIntersightStorageVirtualDriveExtension#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#sys_tag DataIntersightStorageVirtualDriveExtension#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3697,25 +3697,25 @@ export interface DataIntersightStorageVirtualDriveExtensionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#type DataIntersightStorageVirtualDriveExtension#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#type DataIntersightStorageVirtualDriveExtension#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#value DataIntersightStorageVirtualDriveExtension#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#value DataIntersightStorageVirtualDriveExtension#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#ancestor_definitions DataIntersightStorageVirtualDriveExtension#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#ancestor_definitions DataIntersightStorageVirtualDriveExtension#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStorageVirtualDriveExtensionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#definition DataIntersightStorageVirtualDriveExtension#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#definition DataIntersightStorageVirtualDriveExtension#definition}
   */
   readonly definition?: DataIntersightStorageVirtualDriveExtensionTagsDefinition;
 }
@@ -4034,7 +4034,7 @@ export class DataIntersightStorageVirtualDriveExtensionTagsList extends cdktf.Co
 }
 export interface DataIntersightStorageVirtualDriveExtensionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4042,19 +4042,19 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4067,7 +4067,7 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -4299,7 +4299,7 @@ export class DataIntersightStorageVirtualDriveExtensionVersionContextInterestedM
 }
 export interface DataIntersightStorageVirtualDriveExtensionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4307,19 +4307,19 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4332,7 +4332,7 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -4532,7 +4532,7 @@ export class DataIntersightStorageVirtualDriveExtensionVersionContextRefMoOutput
 }
 export interface DataIntersightStorageVirtualDriveExtensionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4540,32 +4540,32 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#marked_for_deletion DataIntersightStorageVirtualDriveExtension#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#marked_for_deletion DataIntersightStorageVirtualDriveExtension#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#nr_version DataIntersightStorageVirtualDriveExtension#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#nr_version DataIntersightStorageVirtualDriveExtension#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#timestamp DataIntersightStorageVirtualDriveExtension#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#timestamp DataIntersightStorageVirtualDriveExtension#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4576,19 +4576,19 @@ export interface DataIntersightStorageVirtualDriveExtensionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#version_type DataIntersightStorageVirtualDriveExtension#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#version_type DataIntersightStorageVirtualDriveExtension#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#interested_mos DataIntersightStorageVirtualDriveExtension#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#interested_mos DataIntersightStorageVirtualDriveExtension#interested_mos}
   */
   readonly interestedMos?: DataIntersightStorageVirtualDriveExtensionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#ref_mo DataIntersightStorageVirtualDriveExtension#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#ref_mo DataIntersightStorageVirtualDriveExtension#ref_mo}
   */
   readonly refMo?: DataIntersightStorageVirtualDriveExtensionVersionContextRefMo;
 }
@@ -4904,7 +4904,7 @@ export class DataIntersightStorageVirtualDriveExtensionVersionContextOutputRefer
 }
 export interface DataIntersightStorageVirtualDriveExtensionVirtualDrive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#additional_properties DataIntersightStorageVirtualDriveExtension#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4912,19 +4912,19 @@ export interface DataIntersightStorageVirtualDriveExtensionVirtualDrive {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#class_id DataIntersightStorageVirtualDriveExtension#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#moid DataIntersightStorageVirtualDriveExtension#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#object_type DataIntersightStorageVirtualDriveExtension#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4937,7 +4937,7 @@ export interface DataIntersightStorageVirtualDriveExtensionVirtualDrive {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#selector DataIntersightStorageVirtualDriveExtension#selector}
   */
   readonly selector?: string;
 }
@@ -5137,7 +5137,7 @@ export class DataIntersightStorageVirtualDriveExtensionVirtualDriveOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension intersight_storage_virtual_drive_extension}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension intersight_storage_virtual_drive_extension}
 */
 export class DataIntersightStorageVirtualDriveExtension extends cdktf.TerraformDataSource {
 
@@ -5153,7 +5153,7 @@ export class DataIntersightStorageVirtualDriveExtension extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightStorageVirtualDriveExtension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStorageVirtualDriveExtension to import
-  * @param importFromId The id of the existing DataIntersightStorageVirtualDriveExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStorageVirtualDriveExtension that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStorageVirtualDriveExtension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5165,7 +5165,7 @@ export class DataIntersightStorageVirtualDriveExtension extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_virtual_drive_extension intersight_storage_virtual_drive_extension} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_virtual_drive_extension intersight_storage_virtual_drive_extension} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5176,8 +5176,8 @@ export class DataIntersightStorageVirtualDriveExtension extends cdktf.TerraformD
       terraformResourceType: 'intersight_storage_virtual_drive_extension',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

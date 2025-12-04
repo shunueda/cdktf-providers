@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightKubernetesAddonDefinitionConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#account_moid DataIntersightKubernetesAddonDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#account_moid DataIntersightKubernetesAddonDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Description of the addon component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#chart_url DataIntersightKubernetesAddonDefinition#chart_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#chart_url DataIntersightKubernetesAddonDefinition#chart_url}
   */
   readonly chartUrl?: string;
   /**
@@ -28,13 +28,13 @@ export interface DataIntersightKubernetesAddonDefinitionConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#create_time DataIntersightKubernetesAddonDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#create_time DataIntersightKubernetesAddonDefinition#create_time}
   */
   readonly createTime?: string;
   /**
@@ -44,13 +44,13 @@ export interface DataIntersightKubernetesAddonDefinitionConfig extends cdktf.Ter
   * * `InstallOnly` - Only install in green field. No action in case of failure or removal.
   * * `Always` - Attempt install if chart is not already installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#default_install_strategy DataIntersightKubernetesAddonDefinition#default_install_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#default_install_strategy DataIntersightKubernetesAddonDefinition#default_install_strategy}
   */
   readonly defaultInstallStrategy?: string;
   /**
   * Default namespace to install the release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#default_namespace DataIntersightKubernetesAddonDefinition#default_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#default_namespace DataIntersightKubernetesAddonDefinition#default_namespace}
   */
   readonly defaultNamespace?: string;
   /**
@@ -61,136 +61,136 @@ export interface DataIntersightKubernetesAddonDefinitionConfig extends cdktf.Ter
   * * `ReinstallOnFailure` - Attempt upgrade first. Remove and install on upgrade failure.
   * * `AlwaysReinstall` - Always remove older release and reinstall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#default_upgrade_strategy DataIntersightKubernetesAddonDefinition#default_upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#default_upgrade_strategy DataIntersightKubernetesAddonDefinition#default_upgrade_strategy}
   */
   readonly defaultUpgradeStrategy?: string;
   /**
   * Description of the addon component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#description DataIntersightKubernetesAddonDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#description DataIntersightKubernetesAddonDefinition#description}
   */
   readonly description?: string;
   /**
   * Digest used to verify the integrity of an addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#digest DataIntersightKubernetesAddonDefinition#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#digest DataIntersightKubernetesAddonDefinition#digest}
   */
   readonly digest?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#domain_group_moid DataIntersightKubernetesAddonDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#domain_group_moid DataIntersightKubernetesAddonDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Icon used to represent the addon in UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#icon_url DataIntersightKubernetesAddonDefinition#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#icon_url DataIntersightKubernetesAddonDefinition#icon_url}
   */
   readonly iconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#id DataIntersightKubernetesAddonDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#id DataIntersightKubernetesAddonDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#labels DataIntersightKubernetesAddonDefinition#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#labels DataIntersightKubernetesAddonDefinition#labels}
   */
   readonly labels?: string[];
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#mod_time DataIntersightKubernetesAddonDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#mod_time DataIntersightKubernetesAddonDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * Name of an addon component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#name DataIntersightKubernetesAddonDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#name DataIntersightKubernetesAddonDefinition#name}
   */
   readonly name?: string;
   /**
   * Version of the addon component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#nr_version DataIntersightKubernetesAddonDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#nr_version DataIntersightKubernetesAddonDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Properties that can be overridden for an addon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#overrides DataIntersightKubernetesAddonDefinition#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#overrides DataIntersightKubernetesAddonDefinition#overrides}
   */
   readonly overrides?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#owners DataIntersightKubernetesAddonDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#owners DataIntersightKubernetesAddonDefinition#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#platforms DataIntersightKubernetesAddonDefinition#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#platforms DataIntersightKubernetesAddonDefinition#platforms}
   */
   readonly platforms?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#shared_scope DataIntersightKubernetesAddonDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#shared_scope DataIntersightKubernetesAddonDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#ancestors DataIntersightKubernetesAddonDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#ancestors DataIntersightKubernetesAddonDefinition#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesAddonDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#catalog DataIntersightKubernetesAddonDefinition#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#catalog DataIntersightKubernetesAddonDefinition#catalog}
   */
   readonly catalog?: DataIntersightKubernetesAddonDefinitionCatalog;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#organization DataIntersightKubernetesAddonDefinition#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#organization DataIntersightKubernetesAddonDefinition#organization}
   */
   readonly organization?: DataIntersightKubernetesAddonDefinitionOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#parent DataIntersightKubernetesAddonDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#parent DataIntersightKubernetesAddonDefinition#parent}
   */
   readonly parent?: DataIntersightKubernetesAddonDefinitionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#permission_resources DataIntersightKubernetesAddonDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#permission_resources DataIntersightKubernetesAddonDefinition#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesAddonDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#tags DataIntersightKubernetesAddonDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#tags DataIntersightKubernetesAddonDefinition#tags}
   */
   readonly tags?: DataIntersightKubernetesAddonDefinitionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#version_context DataIntersightKubernetesAddonDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#version_context DataIntersightKubernetesAddonDefinition#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesAddonDefinitionVersionContext;
 }
@@ -1502,7 +1502,7 @@ export class DataIntersightKubernetesAddonDefinitionResultsList extends cdktf.Co
 }
 export interface DataIntersightKubernetesAddonDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1510,19 +1510,19 @@ export interface DataIntersightKubernetesAddonDefinitionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1535,7 +1535,7 @@ export interface DataIntersightKubernetesAddonDefinitionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1767,7 +1767,7 @@ export class DataIntersightKubernetesAddonDefinitionAncestorsList extends cdktf.
 }
 export interface DataIntersightKubernetesAddonDefinitionCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1775,19 +1775,19 @@ export interface DataIntersightKubernetesAddonDefinitionCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1800,7 +1800,7 @@ export interface DataIntersightKubernetesAddonDefinitionCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2000,7 +2000,7 @@ export class DataIntersightKubernetesAddonDefinitionCatalogOutputReference exten
 }
 export interface DataIntersightKubernetesAddonDefinitionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2008,19 +2008,19 @@ export interface DataIntersightKubernetesAddonDefinitionOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2033,7 +2033,7 @@ export interface DataIntersightKubernetesAddonDefinitionOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2233,7 +2233,7 @@ export class DataIntersightKubernetesAddonDefinitionOrganizationOutputReference 
 }
 export interface DataIntersightKubernetesAddonDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2241,19 +2241,19 @@ export interface DataIntersightKubernetesAddonDefinitionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2266,7 +2266,7 @@ export interface DataIntersightKubernetesAddonDefinitionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2466,7 +2466,7 @@ export class DataIntersightKubernetesAddonDefinitionParentOutputReference extend
 }
 export interface DataIntersightKubernetesAddonDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2474,19 +2474,19 @@ export interface DataIntersightKubernetesAddonDefinitionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2499,7 +2499,7 @@ export interface DataIntersightKubernetesAddonDefinitionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2731,7 +2731,7 @@ export class DataIntersightKubernetesAddonDefinitionPermissionResourcesList exte
 }
 export interface DataIntersightKubernetesAddonDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2739,19 +2739,19 @@ export interface DataIntersightKubernetesAddonDefinitionTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2764,7 +2764,7 @@ export interface DataIntersightKubernetesAddonDefinitionTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2996,7 +2996,7 @@ export class DataIntersightKubernetesAddonDefinitionTagsAncestorDefinitionsList 
 }
 export interface DataIntersightKubernetesAddonDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3004,19 +3004,19 @@ export interface DataIntersightKubernetesAddonDefinitionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3029,7 +3029,7 @@ export interface DataIntersightKubernetesAddonDefinitionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3229,25 +3229,25 @@ export class DataIntersightKubernetesAddonDefinitionTagsDefinitionOutputReferenc
 }
 export interface DataIntersightKubernetesAddonDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#key DataIntersightKubernetesAddonDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#key DataIntersightKubernetesAddonDefinition#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#propagated DataIntersightKubernetesAddonDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#propagated DataIntersightKubernetesAddonDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#sys_tag DataIntersightKubernetesAddonDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#sys_tag DataIntersightKubernetesAddonDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3255,25 +3255,25 @@ export interface DataIntersightKubernetesAddonDefinitionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#type DataIntersightKubernetesAddonDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#type DataIntersightKubernetesAddonDefinition#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#value DataIntersightKubernetesAddonDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#value DataIntersightKubernetesAddonDefinition#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#ancestor_definitions DataIntersightKubernetesAddonDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#ancestor_definitions DataIntersightKubernetesAddonDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesAddonDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#definition DataIntersightKubernetesAddonDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#definition DataIntersightKubernetesAddonDefinition#definition}
   */
   readonly definition?: DataIntersightKubernetesAddonDefinitionTagsDefinition;
 }
@@ -3592,7 +3592,7 @@ export class DataIntersightKubernetesAddonDefinitionTagsList extends cdktf.Compl
 }
 export interface DataIntersightKubernetesAddonDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3600,19 +3600,19 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3625,7 +3625,7 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3857,7 +3857,7 @@ export class DataIntersightKubernetesAddonDefinitionVersionContextInterestedMosL
 }
 export interface DataIntersightKubernetesAddonDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3865,19 +3865,19 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#moid DataIntersightKubernetesAddonDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3890,7 +3890,7 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#selector DataIntersightKubernetesAddonDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4090,7 +4090,7 @@ export class DataIntersightKubernetesAddonDefinitionVersionContextRefMoOutputRef
 }
 export interface DataIntersightKubernetesAddonDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#additional_properties DataIntersightKubernetesAddonDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4098,32 +4098,32 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#class_id DataIntersightKubernetesAddonDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#marked_for_deletion DataIntersightKubernetesAddonDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#marked_for_deletion DataIntersightKubernetesAddonDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#nr_version DataIntersightKubernetesAddonDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#nr_version DataIntersightKubernetesAddonDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#object_type DataIntersightKubernetesAddonDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#timestamp DataIntersightKubernetesAddonDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#timestamp DataIntersightKubernetesAddonDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4134,19 +4134,19 @@ export interface DataIntersightKubernetesAddonDefinitionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#version_type DataIntersightKubernetesAddonDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#version_type DataIntersightKubernetesAddonDefinition#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#interested_mos DataIntersightKubernetesAddonDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#interested_mos DataIntersightKubernetesAddonDefinition#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesAddonDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#ref_mo DataIntersightKubernetesAddonDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#ref_mo DataIntersightKubernetesAddonDefinition#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesAddonDefinitionVersionContextRefMo;
 }
@@ -4462,7 +4462,7 @@ export class DataIntersightKubernetesAddonDefinitionVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition intersight_kubernetes_addon_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition intersight_kubernetes_addon_definition}
 */
 export class DataIntersightKubernetesAddonDefinition extends cdktf.TerraformDataSource {
 
@@ -4478,7 +4478,7 @@ export class DataIntersightKubernetesAddonDefinition extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightKubernetesAddonDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesAddonDefinition to import
-  * @param importFromId The id of the existing DataIntersightKubernetesAddonDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesAddonDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesAddonDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4490,7 +4490,7 @@ export class DataIntersightKubernetesAddonDefinition extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_addon_definition intersight_kubernetes_addon_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/kubernetes_addon_definition intersight_kubernetes_addon_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4501,8 +4501,8 @@ export class DataIntersightKubernetesAddonDefinition extends cdktf.TerraformData
       terraformResourceType: 'intersight_kubernetes_addon_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

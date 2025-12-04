@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightCapabilityPsuManufacturingDefConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#account_moid DataIntersightCapabilityPsuManufacturingDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#account_moid DataIntersightCapabilityPsuManufacturingDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Caption for a power supply unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#caption DataIntersightCapabilityPsuManufacturingDef#caption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#caption DataIntersightCapabilityPsuManufacturingDef#caption}
   */
   readonly caption?: string;
   /**
@@ -28,29 +28,29 @@ export interface DataIntersightCapabilityPsuManufacturingDefConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#create_time DataIntersightCapabilityPsuManufacturingDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#create_time DataIntersightCapabilityPsuManufacturingDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for a power supply unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#description DataIntersightCapabilityPsuManufacturingDef#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#description DataIntersightCapabilityPsuManufacturingDef#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#domain_group_moid DataIntersightCapabilityPsuManufacturingDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#domain_group_moid DataIntersightCapabilityPsuManufacturingDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#id DataIntersightCapabilityPsuManufacturingDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#id DataIntersightCapabilityPsuManufacturingDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightCapabilityPsuManufacturingDefConfig extends cdktf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#mod_time DataIntersightCapabilityPsuManufacturingDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#mod_time DataIntersightCapabilityPsuManufacturingDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#name DataIntersightCapabilityPsuManufacturingDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#name DataIntersightCapabilityPsuManufacturingDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#owners DataIntersightCapabilityPsuManufacturingDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#owners DataIntersightCapabilityPsuManufacturingDef#owners}
   */
   readonly owners?: string[];
   /**
   * Product Identifier for a power supply unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#pid DataIntersightCapabilityPsuManufacturingDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#pid DataIntersightCapabilityPsuManufacturingDef#pid}
   */
   readonly pid?: string;
   /**
   * Product Name for Power Supplu Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#product_name DataIntersightCapabilityPsuManufacturingDef#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#product_name DataIntersightCapabilityPsuManufacturingDef#product_name}
   */
   readonly productName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#shared_scope DataIntersightCapabilityPsuManufacturingDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#shared_scope DataIntersightCapabilityPsuManufacturingDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for a power supply unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#sku DataIntersightCapabilityPsuManufacturingDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#sku DataIntersightCapabilityPsuManufacturingDef#sku}
   */
   readonly sku?: string;
   /**
   * VID information for a power supply unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#vid DataIntersightCapabilityPsuManufacturingDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#vid DataIntersightCapabilityPsuManufacturingDef#vid}
   */
   readonly vid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#ancestors DataIntersightCapabilityPsuManufacturingDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#ancestors DataIntersightCapabilityPsuManufacturingDef#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityPsuManufacturingDefAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#parent DataIntersightCapabilityPsuManufacturingDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#parent DataIntersightCapabilityPsuManufacturingDef#parent}
   */
   readonly parent?: DataIntersightCapabilityPsuManufacturingDefParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#permission_resources DataIntersightCapabilityPsuManufacturingDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#permission_resources DataIntersightCapabilityPsuManufacturingDef#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityPsuManufacturingDefPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#tags DataIntersightCapabilityPsuManufacturingDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#tags DataIntersightCapabilityPsuManufacturingDef#tags}
   */
   readonly tags?: DataIntersightCapabilityPsuManufacturingDefTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#version_context DataIntersightCapabilityPsuManufacturingDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#version_context DataIntersightCapabilityPsuManufacturingDef#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityPsuManufacturingDefVersionContext;
 }
@@ -1228,7 +1228,7 @@ export class DataIntersightCapabilityPsuManufacturingDefResultsList extends cdkt
 }
 export interface DataIntersightCapabilityPsuManufacturingDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1236,19 +1236,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1261,7 +1261,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1493,7 +1493,7 @@ export class DataIntersightCapabilityPsuManufacturingDefAncestorsList extends cd
 }
 export interface DataIntersightCapabilityPsuManufacturingDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1501,19 +1501,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1526,7 +1526,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1726,7 +1726,7 @@ export class DataIntersightCapabilityPsuManufacturingDefParentOutputReference ex
 }
 export interface DataIntersightCapabilityPsuManufacturingDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1734,19 +1734,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefPermissionResources 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1759,7 +1759,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefPermissionResources 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1991,7 +1991,7 @@ export class DataIntersightCapabilityPsuManufacturingDefPermissionResourcesList 
 }
 export interface DataIntersightCapabilityPsuManufacturingDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1999,19 +1999,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefTagsAncestorDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2024,7 +2024,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefTagsAncestorDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2256,7 +2256,7 @@ export class DataIntersightCapabilityPsuManufacturingDefTagsAncestorDefinitionsL
 }
 export interface DataIntersightCapabilityPsuManufacturingDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2264,19 +2264,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2289,7 +2289,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2489,25 +2489,25 @@ export class DataIntersightCapabilityPsuManufacturingDefTagsDefinitionOutputRefe
 }
 export interface DataIntersightCapabilityPsuManufacturingDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#key DataIntersightCapabilityPsuManufacturingDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#key DataIntersightCapabilityPsuManufacturingDef#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#propagated DataIntersightCapabilityPsuManufacturingDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#propagated DataIntersightCapabilityPsuManufacturingDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#sys_tag DataIntersightCapabilityPsuManufacturingDef#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#sys_tag DataIntersightCapabilityPsuManufacturingDef#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2515,25 +2515,25 @@ export interface DataIntersightCapabilityPsuManufacturingDefTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#type DataIntersightCapabilityPsuManufacturingDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#type DataIntersightCapabilityPsuManufacturingDef#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#value DataIntersightCapabilityPsuManufacturingDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#value DataIntersightCapabilityPsuManufacturingDef#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#ancestor_definitions DataIntersightCapabilityPsuManufacturingDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#ancestor_definitions DataIntersightCapabilityPsuManufacturingDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityPsuManufacturingDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#definition DataIntersightCapabilityPsuManufacturingDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#definition DataIntersightCapabilityPsuManufacturingDef#definition}
   */
   readonly definition?: DataIntersightCapabilityPsuManufacturingDefTagsDefinition;
 }
@@ -2852,7 +2852,7 @@ export class DataIntersightCapabilityPsuManufacturingDefTagsList extends cdktf.C
 }
 export interface DataIntersightCapabilityPsuManufacturingDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2860,19 +2860,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContextIntere
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2885,7 +2885,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContextIntere
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -3117,7 +3117,7 @@ export class DataIntersightCapabilityPsuManufacturingDefVersionContextInterested
 }
 export interface DataIntersightCapabilityPsuManufacturingDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3125,19 +3125,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContextRefMo 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#moid DataIntersightCapabilityPsuManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3150,7 +3150,7 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContextRefMo 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#selector DataIntersightCapabilityPsuManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -3350,7 +3350,7 @@ export class DataIntersightCapabilityPsuManufacturingDefVersionContextRefMoOutpu
 }
 export interface DataIntersightCapabilityPsuManufacturingDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#additional_properties DataIntersightCapabilityPsuManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3358,32 +3358,32 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#class_id DataIntersightCapabilityPsuManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#marked_for_deletion DataIntersightCapabilityPsuManufacturingDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#marked_for_deletion DataIntersightCapabilityPsuManufacturingDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#nr_version DataIntersightCapabilityPsuManufacturingDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#nr_version DataIntersightCapabilityPsuManufacturingDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#object_type DataIntersightCapabilityPsuManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#timestamp DataIntersightCapabilityPsuManufacturingDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#timestamp DataIntersightCapabilityPsuManufacturingDef#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3394,19 +3394,19 @@ export interface DataIntersightCapabilityPsuManufacturingDefVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#version_type DataIntersightCapabilityPsuManufacturingDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#version_type DataIntersightCapabilityPsuManufacturingDef#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#interested_mos DataIntersightCapabilityPsuManufacturingDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#interested_mos DataIntersightCapabilityPsuManufacturingDef#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityPsuManufacturingDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#ref_mo DataIntersightCapabilityPsuManufacturingDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#ref_mo DataIntersightCapabilityPsuManufacturingDef#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityPsuManufacturingDefVersionContextRefMo;
 }
@@ -3722,7 +3722,7 @@ export class DataIntersightCapabilityPsuManufacturingDefVersionContextOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def intersight_capability_psu_manufacturing_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def intersight_capability_psu_manufacturing_def}
 */
 export class DataIntersightCapabilityPsuManufacturingDef extends cdktf.TerraformDataSource {
 
@@ -3738,7 +3738,7 @@ export class DataIntersightCapabilityPsuManufacturingDef extends cdktf.Terraform
   * Generates CDKTF code for importing a DataIntersightCapabilityPsuManufacturingDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityPsuManufacturingDef to import
-  * @param importFromId The id of the existing DataIntersightCapabilityPsuManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityPsuManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityPsuManufacturingDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3750,7 +3750,7 @@ export class DataIntersightCapabilityPsuManufacturingDef extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_psu_manufacturing_def intersight_capability_psu_manufacturing_def} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_psu_manufacturing_def intersight_capability_psu_manufacturing_def} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3761,8 +3761,8 @@ export class DataIntersightCapabilityPsuManufacturingDef extends cdktf.Terraform
       terraformResourceType: 'intersight_capability_psu_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

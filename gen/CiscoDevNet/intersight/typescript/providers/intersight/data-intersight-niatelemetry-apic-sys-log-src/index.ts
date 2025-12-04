@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightNiatelemetryApicSysLogSrcConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#account_moid DataIntersightNiatelemetryApicSysLogSrc#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#account_moid DataIntersightNiatelemetryApicSysLogSrc#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightNiatelemetryApicSysLogSrcConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#create_time DataIntersightNiatelemetryApicSysLogSrc#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#create_time DataIntersightNiatelemetryApicSysLogSrc#create_time}
   */
   readonly createTime?: string;
   /**
   * Dn of the SysLogSrc in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#dn DataIntersightNiatelemetryApicSysLogSrc#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#dn DataIntersightNiatelemetryApicSysLogSrc#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#domain_group_moid DataIntersightNiatelemetryApicSysLogSrc#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#domain_group_moid DataIntersightNiatelemetryApicSysLogSrc#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#id DataIntersightNiatelemetryApicSysLogSrc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#id DataIntersightNiatelemetryApicSysLogSrc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,103 +53,103 @@ export interface DataIntersightNiatelemetryApicSysLogSrcConfig extends cdktf.Ter
   /**
   * Minimum sevirity on SysLogSrc MO in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#min_sev DataIntersightNiatelemetryApicSysLogSrc#min_sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#min_sev DataIntersightNiatelemetryApicSysLogSrc#min_sev}
   */
   readonly minSev?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#mod_time DataIntersightNiatelemetryApicSysLogSrc#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#mod_time DataIntersightNiatelemetryApicSysLogSrc#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#owners DataIntersightNiatelemetryApicSysLogSrc#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#owners DataIntersightNiatelemetryApicSysLogSrc#owners}
   */
   readonly owners?: string[];
   /**
   * Type of record DCNM / APIC / SE. This determines the type of platform where inventory was collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#record_type DataIntersightNiatelemetryApicSysLogSrc#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#record_type DataIntersightNiatelemetryApicSysLogSrc#record_type}
   */
   readonly recordType?: string;
   /**
   * Version of record being pushed. This determines what was the API version for data available from the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#record_version DataIntersightNiatelemetryApicSysLogSrc#record_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#record_version DataIntersightNiatelemetryApicSysLogSrc#record_version}
   */
   readonly recordVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#shared_scope DataIntersightNiatelemetryApicSysLogSrc#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#shared_scope DataIntersightNiatelemetryApicSysLogSrc#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Name of the APIC site from which this data is being collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#site_name DataIntersightNiatelemetryApicSysLogSrc#site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#site_name DataIntersightNiatelemetryApicSysLogSrc#site_name}
   */
   readonly siteName?: string;
   /**
   * List of Syslog remote destination for SyslogSrc in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#syslog_remote_dest DataIntersightNiatelemetryApicSysLogSrc#syslog_remote_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#syslog_remote_dest DataIntersightNiatelemetryApicSysLogSrc#syslog_remote_dest}
   */
   readonly syslogRemoteDest?: string;
   /**
   * Syslog destination grp for SysLogSrc in APIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#syslog_rs_dest_grp DataIntersightNiatelemetryApicSysLogSrc#syslog_rs_dest_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#syslog_rs_dest_grp DataIntersightNiatelemetryApicSysLogSrc#syslog_rs_dest_grp}
   */
   readonly syslogRsDestGrp?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#ancestors DataIntersightNiatelemetryApicSysLogSrc#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#ancestors DataIntersightNiatelemetryApicSysLogSrc#ancestors}
   */
   readonly ancestors?: DataIntersightNiatelemetryApicSysLogSrcAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#parent DataIntersightNiatelemetryApicSysLogSrc#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#parent DataIntersightNiatelemetryApicSysLogSrc#parent}
   */
   readonly parent?: DataIntersightNiatelemetryApicSysLogSrcParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#permission_resources DataIntersightNiatelemetryApicSysLogSrc#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#permission_resources DataIntersightNiatelemetryApicSysLogSrc#permission_resources}
   */
   readonly permissionResources?: DataIntersightNiatelemetryApicSysLogSrcPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#registered_device DataIntersightNiatelemetryApicSysLogSrc#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#registered_device DataIntersightNiatelemetryApicSysLogSrc#registered_device}
   */
   readonly registeredDevice?: DataIntersightNiatelemetryApicSysLogSrcRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#tags DataIntersightNiatelemetryApicSysLogSrc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#tags DataIntersightNiatelemetryApicSysLogSrc#tags}
   */
   readonly tags?: DataIntersightNiatelemetryApicSysLogSrcTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#version_context DataIntersightNiatelemetryApicSysLogSrc#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#version_context DataIntersightNiatelemetryApicSysLogSrc#version_context}
   */
   readonly versionContext?: DataIntersightNiatelemetryApicSysLogSrcVersionContext;
 }
@@ -1335,7 +1335,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcResultsList extends cdktf.Co
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1343,19 +1343,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1368,7 +1368,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -1600,7 +1600,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcAncestorsList extends cdktf.
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1608,19 +1608,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1633,7 +1633,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -1833,7 +1833,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcParentOutputReference extend
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1841,19 +1841,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1866,7 +1866,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -2098,7 +2098,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcPermissionResourcesList exte
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2106,19 +2106,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2131,7 +2131,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -2331,7 +2331,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcRegisteredDeviceOutputRefere
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2339,19 +2339,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2364,7 +2364,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -2596,7 +2596,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcTagsAncestorDefinitionsList 
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2604,19 +2604,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2629,7 +2629,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -2829,25 +2829,25 @@ export class DataIntersightNiatelemetryApicSysLogSrcTagsDefinitionOutputReferenc
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#key DataIntersightNiatelemetryApicSysLogSrc#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#key DataIntersightNiatelemetryApicSysLogSrc#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#propagated DataIntersightNiatelemetryApicSysLogSrc#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#propagated DataIntersightNiatelemetryApicSysLogSrc#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#sys_tag DataIntersightNiatelemetryApicSysLogSrc#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#sys_tag DataIntersightNiatelemetryApicSysLogSrc#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2855,25 +2855,25 @@ export interface DataIntersightNiatelemetryApicSysLogSrcTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#type DataIntersightNiatelemetryApicSysLogSrc#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#type DataIntersightNiatelemetryApicSysLogSrc#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#value DataIntersightNiatelemetryApicSysLogSrc#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#value DataIntersightNiatelemetryApicSysLogSrc#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#ancestor_definitions DataIntersightNiatelemetryApicSysLogSrc#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#ancestor_definitions DataIntersightNiatelemetryApicSysLogSrc#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNiatelemetryApicSysLogSrcTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#definition DataIntersightNiatelemetryApicSysLogSrc#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#definition DataIntersightNiatelemetryApicSysLogSrc#definition}
   */
   readonly definition?: DataIntersightNiatelemetryApicSysLogSrcTagsDefinition;
 }
@@ -3192,7 +3192,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcTagsList extends cdktf.Compl
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3200,19 +3200,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3225,7 +3225,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -3457,7 +3457,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcVersionContextInterestedMosL
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3465,19 +3465,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#moid DataIntersightNiatelemetryApicSysLogSrc#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3490,7 +3490,7 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#selector DataIntersightNiatelemetryApicSysLogSrc#selector}
   */
   readonly selector?: string;
 }
@@ -3690,7 +3690,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcVersionContextRefMoOutputRef
 }
 export interface DataIntersightNiatelemetryApicSysLogSrcVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#additional_properties DataIntersightNiatelemetryApicSysLogSrc#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3698,32 +3698,32 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#class_id DataIntersightNiatelemetryApicSysLogSrc#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#marked_for_deletion DataIntersightNiatelemetryApicSysLogSrc#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#marked_for_deletion DataIntersightNiatelemetryApicSysLogSrc#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#nr_version DataIntersightNiatelemetryApicSysLogSrc#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#nr_version DataIntersightNiatelemetryApicSysLogSrc#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#object_type DataIntersightNiatelemetryApicSysLogSrc#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#timestamp DataIntersightNiatelemetryApicSysLogSrc#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#timestamp DataIntersightNiatelemetryApicSysLogSrc#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3734,19 +3734,19 @@ export interface DataIntersightNiatelemetryApicSysLogSrcVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#version_type DataIntersightNiatelemetryApicSysLogSrc#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#version_type DataIntersightNiatelemetryApicSysLogSrc#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#interested_mos DataIntersightNiatelemetryApicSysLogSrc#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#interested_mos DataIntersightNiatelemetryApicSysLogSrc#interested_mos}
   */
   readonly interestedMos?: DataIntersightNiatelemetryApicSysLogSrcVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#ref_mo DataIntersightNiatelemetryApicSysLogSrc#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#ref_mo DataIntersightNiatelemetryApicSysLogSrc#ref_mo}
   */
   readonly refMo?: DataIntersightNiatelemetryApicSysLogSrcVersionContextRefMo;
 }
@@ -4062,7 +4062,7 @@ export class DataIntersightNiatelemetryApicSysLogSrcVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src intersight_niatelemetry_apic_sys_log_src}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src intersight_niatelemetry_apic_sys_log_src}
 */
 export class DataIntersightNiatelemetryApicSysLogSrc extends cdktf.TerraformDataSource {
 
@@ -4078,7 +4078,7 @@ export class DataIntersightNiatelemetryApicSysLogSrc extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightNiatelemetryApicSysLogSrc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNiatelemetryApicSysLogSrc to import
-  * @param importFromId The id of the existing DataIntersightNiatelemetryApicSysLogSrc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNiatelemetryApicSysLogSrc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNiatelemetryApicSysLogSrc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4090,7 +4090,7 @@ export class DataIntersightNiatelemetryApicSysLogSrc extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/niatelemetry_apic_sys_log_src intersight_niatelemetry_apic_sys_log_src} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/niatelemetry_apic_sys_log_src intersight_niatelemetry_apic_sys_log_src} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4101,8 +4101,8 @@ export class DataIntersightNiatelemetryApicSysLogSrc extends cdktf.TerraformData
       terraformResourceType: 'intersight_niatelemetry_apic_sys_log_src',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

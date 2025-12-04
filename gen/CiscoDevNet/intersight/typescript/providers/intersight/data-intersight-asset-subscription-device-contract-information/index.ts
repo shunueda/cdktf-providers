@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationConfig 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#account_moid DataIntersightAssetSubscriptionDeviceContractInformation#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#account_moid DataIntersightAssetSubscriptionDeviceContractInformation#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationConfig 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#create_time DataIntersightAssetSubscriptionDeviceContractInformation#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#create_time DataIntersightAssetSubscriptionDeviceContractInformation#create_time}
   */
   readonly createTime?: string;
   /**
   * Unique identifier of the Cisco device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#device_id DataIntersightAssetSubscriptionDeviceContractInformation#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#device_id DataIntersightAssetSubscriptionDeviceContractInformation#device_id}
   */
   readonly deviceId?: string;
   /**
   * Product identifier for the specified Cisco device. It is used to distinguish between HyperFlex and UCS devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#device_pid DataIntersightAssetSubscriptionDeviceContractInformation#device_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#device_pid DataIntersightAssetSubscriptionDeviceContractInformation#device_pid}
   */
   readonly devicePid?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#domain_group_moid DataIntersightAssetSubscriptionDeviceContractInformation#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#domain_group_moid DataIntersightAssetSubscriptionDeviceContractInformation#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#id DataIntersightAssetSubscriptionDeviceContractInformation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#id DataIntersightAssetSubscriptionDeviceContractInformation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationConfig 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#mod_time DataIntersightAssetSubscriptionDeviceContractInformation#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#mod_time DataIntersightAssetSubscriptionDeviceContractInformation#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#owners DataIntersightAssetSubscriptionDeviceContractInformation#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#owners DataIntersightAssetSubscriptionDeviceContractInformation#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#shared_scope DataIntersightAssetSubscriptionDeviceContractInformation#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#shared_scope DataIntersightAssetSubscriptionDeviceContractInformation#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Identifies the consumption-based subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#subscription_ref_id DataIntersightAssetSubscriptionDeviceContractInformation#subscription_ref_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#subscription_ref_id DataIntersightAssetSubscriptionDeviceContractInformation#subscription_ref_id}
   */
   readonly subscriptionRefId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#ancestors DataIntersightAssetSubscriptionDeviceContractInformation#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#ancestors DataIntersightAssetSubscriptionDeviceContractInformation#ancestors}
   */
   readonly ancestors?: DataIntersightAssetSubscriptionDeviceContractInformationAncestors[] | cdktf.IResolvable;
   /**
   * device_contract_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#device_contract_information DataIntersightAssetSubscriptionDeviceContractInformation#device_contract_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#device_contract_information DataIntersightAssetSubscriptionDeviceContractInformation#device_contract_information}
   */
   readonly deviceContractInformation?: DataIntersightAssetSubscriptionDeviceContractInformationDeviceContractInformation;
   /**
   * device_information block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#device_information DataIntersightAssetSubscriptionDeviceContractInformation#device_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#device_information DataIntersightAssetSubscriptionDeviceContractInformation#device_information}
   */
   readonly deviceInformation?: DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformation;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#parent DataIntersightAssetSubscriptionDeviceContractInformation#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#parent DataIntersightAssetSubscriptionDeviceContractInformation#parent}
   */
   readonly parent?: DataIntersightAssetSubscriptionDeviceContractInformationParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#permission_resources DataIntersightAssetSubscriptionDeviceContractInformation#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#permission_resources DataIntersightAssetSubscriptionDeviceContractInformation#permission_resources}
   */
   readonly permissionResources?: DataIntersightAssetSubscriptionDeviceContractInformationPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#registered_device DataIntersightAssetSubscriptionDeviceContractInformation#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#registered_device DataIntersightAssetSubscriptionDeviceContractInformation#registered_device}
   */
   readonly registeredDevice?: DataIntersightAssetSubscriptionDeviceContractInformationRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#tags DataIntersightAssetSubscriptionDeviceContractInformation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#tags DataIntersightAssetSubscriptionDeviceContractInformation#tags}
   */
   readonly tags?: DataIntersightAssetSubscriptionDeviceContractInformationTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#version_context DataIntersightAssetSubscriptionDeviceContractInformation#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#version_context DataIntersightAssetSubscriptionDeviceContractInformation#version_context}
   */
   readonly versionContext?: DataIntersightAssetSubscriptionDeviceContractInformationVersionContext;
 }
@@ -1933,7 +1933,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationResultsList
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1941,19 +1941,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationAncesto
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1966,7 +1966,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationAncesto
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -2198,7 +2198,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationAncestorsLi
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceContractInformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2206,19 +2206,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceC
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2231,7 +2231,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceC
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -2433,11 +2433,11 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   /**
   * The action taken by Cisco Install Base on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#action DataIntersightAssetSubscriptionDeviceContractInformation#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#action DataIntersightAssetSubscriptionDeviceContractInformation#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2445,20 +2445,20 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
   * Description of status of Cisco device reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#status_description DataIntersightAssetSubscriptionDeviceContractInformation#status_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#status_description DataIntersightAssetSubscriptionDeviceContractInformation#status_description}
   */
   readonly statusDescription?: string;
   /**
@@ -2470,31 +2470,31 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * * `10007` - Device is returned succcessfuly.
   * * `10009` - Device is terminated at customer's end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#status_id DataIntersightAssetSubscriptionDeviceContractInformation#status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#status_id DataIntersightAssetSubscriptionDeviceContractInformation#status_id}
   */
   readonly statusId?: number;
   /**
   * Timestamp field reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#timestamp DataIntersightAssetSubscriptionDeviceContractInformation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#timestamp DataIntersightAssetSubscriptionDeviceContractInformation#timestamp}
   */
   readonly timestamp?: string;
   /**
   * Transaction batch ID reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#transaction_batch_id DataIntersightAssetSubscriptionDeviceContractInformation#transaction_batch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#transaction_batch_id DataIntersightAssetSubscriptionDeviceContractInformation#transaction_batch_id}
   */
   readonly transactionBatchId?: number;
   /**
   * Transaction Date reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#transaction_date DataIntersightAssetSubscriptionDeviceContractInformation#transaction_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#transaction_date DataIntersightAssetSubscriptionDeviceContractInformation#transaction_date}
   */
   readonly transactionDate?: string;
   /**
   * Transaction sequence reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#transaction_sequence DataIntersightAssetSubscriptionDeviceContractInformation#transaction_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#transaction_sequence DataIntersightAssetSubscriptionDeviceContractInformation#transaction_sequence}
   */
   readonly transactionSequence?: number;
 }
@@ -2871,31 +2871,31 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationDeviceInfor
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformationEndCustomerAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Address Line one of the address information. example "PO BOX 641570".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#address1 DataIntersightAssetSubscriptionDeviceContractInformation#address1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#address1 DataIntersightAssetSubscriptionDeviceContractInformation#address1}
   */
   readonly address1?: string;
   /**
   * Address Line two of the address information. example "Cisco Systems".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#address2 DataIntersightAssetSubscriptionDeviceContractInformation#address2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#address2 DataIntersightAssetSubscriptionDeviceContractInformation#address2}
   */
   readonly address2?: string;
   /**
   * Address Line three of the address information. example "Cisco Systems".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#address3 DataIntersightAssetSubscriptionDeviceContractInformation#address3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#address3 DataIntersightAssetSubscriptionDeviceContractInformation#address3}
   */
   readonly address3?: string;
   /**
   * City in which the address resides. example "San Jose".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#city DataIntersightAssetSubscriptionDeviceContractInformation#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#city DataIntersightAssetSubscriptionDeviceContractInformation#city}
   */
   readonly city?: string;
   /**
@@ -2903,56 +2903,56 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * Country in which the address resides. example "US".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#country DataIntersightAssetSubscriptionDeviceContractInformation#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#country DataIntersightAssetSubscriptionDeviceContractInformation#country}
   */
   readonly country?: string;
   /**
   * County in which the address resides. example "Washington County".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#county DataIntersightAssetSubscriptionDeviceContractInformation#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#county DataIntersightAssetSubscriptionDeviceContractInformation#county}
   */
   readonly county?: string;
   /**
   * Location in which the address resides. example "14852".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#location DataIntersightAssetSubscriptionDeviceContractInformation#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#location DataIntersightAssetSubscriptionDeviceContractInformation#location}
   */
   readonly location?: string;
   /**
   * Name of the user whose address is being populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#name DataIntersightAssetSubscriptionDeviceContractInformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#name DataIntersightAssetSubscriptionDeviceContractInformation#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
   * Postal Code in which the address resides. example "95164-1570".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#postal_code DataIntersightAssetSubscriptionDeviceContractInformation#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#postal_code DataIntersightAssetSubscriptionDeviceContractInformation#postal_code}
   */
   readonly postalCode?: string;
   /**
   * Province in which the address resides. example "AB".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#province DataIntersightAssetSubscriptionDeviceContractInformation#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#province DataIntersightAssetSubscriptionDeviceContractInformation#province}
   */
   readonly province?: string;
   /**
   * State in which the address resides. example "CA".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#state DataIntersightAssetSubscriptionDeviceContractInformation#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#state DataIntersightAssetSubscriptionDeviceContractInformation#state}
   */
   readonly state?: string;
 }
@@ -3413,7 +3413,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationDeviceInfor
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformationEndCustomer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3421,13 +3421,13 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * Unique identifier for an end customer. This identifier is allocated by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#id DataIntersightAssetSubscriptionDeviceContractInformation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#id DataIntersightAssetSubscriptionDeviceContractInformation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3436,20 +3436,20 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   /**
   * Name as per the information provided by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#name DataIntersightAssetSubscriptionDeviceContractInformation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#name DataIntersightAssetSubscriptionDeviceContractInformation#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#address DataIntersightAssetSubscriptionDeviceContractInformation#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#address DataIntersightAssetSubscriptionDeviceContractInformation#address}
   */
   readonly address?: DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformationEndCustomerAddress;
 }
@@ -3678,13 +3678,13 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationDeviceInfor
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Application name reported by Cisco Install Base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#application_name DataIntersightAssetSubscriptionDeviceContractInformation#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#application_name DataIntersightAssetSubscriptionDeviceContractInformation#application_name}
   */
   readonly applicationName?: string;
   /**
@@ -3692,56 +3692,56 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * Instance number of the device. example "917280220".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#instance_id DataIntersightAssetSubscriptionDeviceContractInformation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#instance_id DataIntersightAssetSubscriptionDeviceContractInformation#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Item type flag. example ATO, Child, Standalone. ATO - refers to Cisco Block based major device. Child - refers to Child device part of an ATO block. Standalone - refers to a device that is managed and configured as an individual entity with limited capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#item_type DataIntersightAssetSubscriptionDeviceContractInformation#item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#item_type DataIntersightAssetSubscriptionDeviceContractInformation#item_type}
   */
   readonly itemType?: string;
   /**
   * Identifier for consumption based pricing. MLB refers to MultiLine Bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#mlb_offer_type DataIntersightAssetSubscriptionDeviceContractInformation#mlb_offer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#mlb_offer_type DataIntersightAssetSubscriptionDeviceContractInformation#mlb_offer_type}
   */
   readonly mlbOfferType?: string;
   /**
   * Identifier corresponding to MLB Product Name. MLB refers to MultiLine Bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#mlb_product_id DataIntersightAssetSubscriptionDeviceContractInformation#mlb_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#mlb_product_id DataIntersightAssetSubscriptionDeviceContractInformation#mlb_product_id}
   */
   readonly mlbProductId?: number;
   /**
   * Product Name for the device. It is used to determine if the server is to be billed as a UCS compute device or a storage cluster. MLB refers to MultiLine Bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#mlb_product_name DataIntersightAssetSubscriptionDeviceContractInformation#mlb_product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#mlb_product_name DataIntersightAssetSubscriptionDeviceContractInformation#mlb_product_name}
   */
   readonly mlbProductName?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
   * Unique identifier of old Cisco device. It is the device ID of old Cisco device, which got replaced by the new device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#old_device_id DataIntersightAssetSubscriptionDeviceContractInformation#old_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#old_device_id DataIntersightAssetSubscriptionDeviceContractInformation#old_device_id}
   */
   readonly oldDeviceId?: string;
   /**
   * Description of status of old Cisco device, which got replaced by the new device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#old_device_status_description DataIntersightAssetSubscriptionDeviceContractInformation#old_device_status_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#old_device_status_description DataIntersightAssetSubscriptionDeviceContractInformation#old_device_status_description}
   */
   readonly oldDeviceStatusDescription?: string;
   /**
@@ -3753,25 +3753,25 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * * `10007` - Device is returned succcessfuly.
   * * `10009` - Device is terminated at customer's end.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#old_device_status_id DataIntersightAssetSubscriptionDeviceContractInformation#old_device_status_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#old_device_status_id DataIntersightAssetSubscriptionDeviceContractInformation#old_device_status_id}
   */
   readonly oldDeviceStatusId?: number;
   /**
   * Instance number of the old device, which got replaced by the new device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#old_instance_id DataIntersightAssetSubscriptionDeviceContractInformation#old_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#old_instance_id DataIntersightAssetSubscriptionDeviceContractInformation#old_instance_id}
   */
   readonly oldInstanceId?: string;
   /**
   * Product Family is the field used to identify the hypervisor type. example "ESXi".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#product_family DataIntersightAssetSubscriptionDeviceContractInformation#product_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#product_family DataIntersightAssetSubscriptionDeviceContractInformation#product_family}
   */
   readonly productFamily?: string;
   /**
   * Product type helps to determine if device has to be billed using consumption metering. example "SERVER".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#product_type DataIntersightAssetSubscriptionDeviceContractInformation#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#product_type DataIntersightAssetSubscriptionDeviceContractInformation#product_type}
   */
   readonly productType?: string;
   /**
@@ -3781,19 +3781,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationDeviceI
   * * `NODE` - The metric type of the device is a hardware metric.
   * * `VM` - The metric type of the device is a hypervisor metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#unit_of_measure DataIntersightAssetSubscriptionDeviceContractInformation#unit_of_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#unit_of_measure DataIntersightAssetSubscriptionDeviceContractInformation#unit_of_measure}
   */
   readonly unitOfMeasure?: string;
   /**
   * device_transactions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#device_transactions DataIntersightAssetSubscriptionDeviceContractInformation#device_transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#device_transactions DataIntersightAssetSubscriptionDeviceContractInformation#device_transactions}
   */
   readonly deviceTransactions?: DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformationDeviceTransactions[] | cdktf.IResolvable;
   /**
   * end_customer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#end_customer DataIntersightAssetSubscriptionDeviceContractInformation#end_customer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#end_customer DataIntersightAssetSubscriptionDeviceContractInformation#end_customer}
   */
   readonly endCustomer?: DataIntersightAssetSubscriptionDeviceContractInformationDeviceInformationEndCustomer;
 }
@@ -4370,7 +4370,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationDeviceInfor
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4378,19 +4378,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationParent 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4403,7 +4403,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationParent 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -4603,7 +4603,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationParentOutpu
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4611,19 +4611,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationPermiss
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4636,7 +4636,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationPermiss
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -4868,7 +4868,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationPermissionR
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4876,19 +4876,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationRegiste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4901,7 +4901,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationRegiste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -5101,7 +5101,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationRegisteredD
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5109,19 +5109,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsAnc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5134,7 +5134,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsAnc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -5366,7 +5366,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationTagsAncesto
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5374,19 +5374,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5399,7 +5399,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationTagsDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -5599,25 +5599,25 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationTagsDefinit
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#key DataIntersightAssetSubscriptionDeviceContractInformation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#key DataIntersightAssetSubscriptionDeviceContractInformation#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#propagated DataIntersightAssetSubscriptionDeviceContractInformation#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#propagated DataIntersightAssetSubscriptionDeviceContractInformation#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#sys_tag DataIntersightAssetSubscriptionDeviceContractInformation#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#sys_tag DataIntersightAssetSubscriptionDeviceContractInformation#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -5625,25 +5625,25 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#type DataIntersightAssetSubscriptionDeviceContractInformation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#type DataIntersightAssetSubscriptionDeviceContractInformation#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#value DataIntersightAssetSubscriptionDeviceContractInformation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#value DataIntersightAssetSubscriptionDeviceContractInformation#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#ancestor_definitions DataIntersightAssetSubscriptionDeviceContractInformation#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#ancestor_definitions DataIntersightAssetSubscriptionDeviceContractInformation#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightAssetSubscriptionDeviceContractInformationTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#definition DataIntersightAssetSubscriptionDeviceContractInformation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#definition DataIntersightAssetSubscriptionDeviceContractInformation#definition}
   */
   readonly definition?: DataIntersightAssetSubscriptionDeviceContractInformationTagsDefinition;
 }
@@ -5962,7 +5962,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationTagsList ex
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5970,19 +5970,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5995,7 +5995,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -6227,7 +6227,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationVersionCont
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6235,19 +6235,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#moid DataIntersightAssetSubscriptionDeviceContractInformation#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6260,7 +6260,7 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#selector DataIntersightAssetSubscriptionDeviceContractInformation#selector}
   */
   readonly selector?: string;
 }
@@ -6460,7 +6460,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationVersionCont
 }
 export interface DataIntersightAssetSubscriptionDeviceContractInformationVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#additional_properties DataIntersightAssetSubscriptionDeviceContractInformation#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6468,32 +6468,32 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#class_id DataIntersightAssetSubscriptionDeviceContractInformation#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#marked_for_deletion DataIntersightAssetSubscriptionDeviceContractInformation#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#marked_for_deletion DataIntersightAssetSubscriptionDeviceContractInformation#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#nr_version DataIntersightAssetSubscriptionDeviceContractInformation#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#nr_version DataIntersightAssetSubscriptionDeviceContractInformation#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#object_type DataIntersightAssetSubscriptionDeviceContractInformation#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#timestamp DataIntersightAssetSubscriptionDeviceContractInformation#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#timestamp DataIntersightAssetSubscriptionDeviceContractInformation#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6504,19 +6504,19 @@ export interface DataIntersightAssetSubscriptionDeviceContractInformationVersion
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#version_type DataIntersightAssetSubscriptionDeviceContractInformation#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#version_type DataIntersightAssetSubscriptionDeviceContractInformation#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#interested_mos DataIntersightAssetSubscriptionDeviceContractInformation#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#interested_mos DataIntersightAssetSubscriptionDeviceContractInformation#interested_mos}
   */
   readonly interestedMos?: DataIntersightAssetSubscriptionDeviceContractInformationVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#ref_mo DataIntersightAssetSubscriptionDeviceContractInformation#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#ref_mo DataIntersightAssetSubscriptionDeviceContractInformation#ref_mo}
   */
   readonly refMo?: DataIntersightAssetSubscriptionDeviceContractInformationVersionContextRefMo;
 }
@@ -6832,7 +6832,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformationVersionCont
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information intersight_asset_subscription_device_contract_information}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information intersight_asset_subscription_device_contract_information}
 */
 export class DataIntersightAssetSubscriptionDeviceContractInformation extends cdktf.TerraformDataSource {
 
@@ -6848,7 +6848,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformation extends cd
   * Generates CDKTF code for importing a DataIntersightAssetSubscriptionDeviceContractInformation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightAssetSubscriptionDeviceContractInformation to import
-  * @param importFromId The id of the existing DataIntersightAssetSubscriptionDeviceContractInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightAssetSubscriptionDeviceContractInformation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightAssetSubscriptionDeviceContractInformation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6860,7 +6860,7 @@ export class DataIntersightAssetSubscriptionDeviceContractInformation extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/asset_subscription_device_contract_information intersight_asset_subscription_device_contract_information} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/asset_subscription_device_contract_information intersight_asset_subscription_device_contract_information} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6871,8 +6871,8 @@ export class DataIntersightAssetSubscriptionDeviceContractInformation extends cd
       terraformResourceType: 'intersight_asset_subscription_device_contract_information',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

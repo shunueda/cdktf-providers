@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CosBatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Appid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#appid CosBatch#appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#appid CosBatch#appid}
   */
   readonly appid: number;
   /**
   * Whether to confirm before performing the task. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#confirmation_required CosBatch#confirmation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#confirmation_required CosBatch#confirmation_required}
   */
   readonly confirmationRequired?: boolean | cdktf.IResolvable;
   /**
   * Mission description. If you configured this information when you created the task, the content is returned. The description length ranges from 0 to 256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#description CosBatch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#description CosBatch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#id CosBatch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#id CosBatch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface CosBatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mission priority. The higher the value, the higher the priority of the task. Priority values range from 0 to 2147483647.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#priority CosBatch#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#priority CosBatch#priority}
   */
   readonly priority: number;
   /**
   * COS resource identifier, which is used to identify the role you created. You need this resource identifier to verify your identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#role_arn CosBatch#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#role_arn CosBatch#role_arn}
   */
   readonly roleArn: string;
   /**
@@ -49,31 +49,31 @@ export interface CosBatchConfig extends cdktf.TerraformMetaArguments {
   * Legal parameter values include Active, Cancelled, Cancelling, Complete, Completing, Failed, Failing, New, Paused, Pausing, Preparing, Ready, Suspended.
   * For Update status, when you move a task to the Ready state, COS will assume that you have confirmed the task and will perform it. When you move a task to the Cancelled state, COS cancels the task. Optional parameters include: Ready, Cancelled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#status CosBatch#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#status CosBatch#status}
   */
   readonly status?: string;
   /**
   * Uin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#uin CosBatch#uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#uin CosBatch#uin}
   */
   readonly uin: string;
   /**
   * manifest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#manifest CosBatch#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#manifest CosBatch#manifest}
   */
   readonly manifest: CosBatchManifest;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#operation CosBatch#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#operation CosBatch#operation}
   */
   readonly operation: CosBatchOperation;
   /**
   * report block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#report CosBatch#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#report CosBatch#report}
   */
   readonly report: CosBatchReport;
 }
@@ -81,19 +81,19 @@ export interface CosBatchManifestLocation {
   /**
   * Specifies the etag of the object list. Length 1-1024 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#etag CosBatch#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#etag CosBatch#etag}
   */
   readonly etag: string;
   /**
   * Specifies the unique resource identifier of the object manifest, which is 1-1024 bytes long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#object_arn CosBatch#object_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#object_arn CosBatch#object_arn}
   */
   readonly objectArn: string;
   /**
   * Specifies the version of the object manifest ID, which is 1-1024 bytes long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#object_version_id CosBatch#object_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#object_version_id CosBatch#object_version_id}
   */
   readonly objectVersionId?: string;
 }
@@ -231,13 +231,13 @@ export interface CosBatchManifestSpec {
   /**
   * Describes the fields contained in the listing, which you need to use to specify CSV file fields when Format is COSBatchOperations_CSV_V1. Legal fields are: Ignore, Bucket, Key, VersionId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#fields CosBatch#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#fields CosBatch#fields}
   */
   readonly fields?: string[];
   /**
   * Specifies the format information for the list of objects. Legal fields are: COSBatchOperations_CSV_V1, COSInventoryReport_CSV_V1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#format CosBatch#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#format CosBatch#format}
   */
   readonly format: string;
 }
@@ -349,13 +349,13 @@ export interface CosBatchManifest {
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#location CosBatch#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#location CosBatch#location}
   */
   readonly location: CosBatchManifestLocation;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#spec CosBatch#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#spec CosBatch#spec}
   */
   readonly spec: CosBatchManifestSpec;
 }
@@ -464,13 +464,13 @@ export interface CosBatchOperationCosInitiateRestoreObject {
   /**
   * Sets the number of days after which the copy will be automatically expired and deleted, an integer in the range of 1-365.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#expiration_in_days CosBatch#expiration_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#expiration_in_days CosBatch#expiration_in_days}
   */
   readonly expirationInDays: number;
   /**
   * Select archive recovery model. Available values: Bulk, Standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#job_tier CosBatch#job_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#job_tier CosBatch#job_tier}
   */
   readonly jobTier: string;
 }
@@ -579,25 +579,25 @@ export interface CosBatchOperationCosPutObjectCopyAccessControlGrants {
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#display_name CosBatch#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#display_name CosBatch#display_name}
   */
   readonly displayName?: string;
   /**
   * User ID (UIN) in qcs format. For example: qcs::cam::uin/100000000001:uin/100000000001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#identifier CosBatch#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#identifier CosBatch#identifier}
   */
   readonly identifier: string;
   /**
   * Specify a permission to be granted. Enumerated value: READ,WRITE,FULL_CONTROL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#permission CosBatch#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#permission CosBatch#permission}
   */
   readonly permission: string;
   /**
   * Specifies the type of Identifier. Currently, only user ID is supported. Enumerated value: ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#type_identifier CosBatch#type_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#type_identifier CosBatch#type_identifier}
   */
   readonly typeIdentifier: string;
 }
@@ -761,13 +761,13 @@ export interface CosBatchOperationCosPutObjectCopyNewObjectMetadataUserMetadata 
   /**
   * key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#key CosBatch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#key CosBatch#key}
   */
   readonly key: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#value CosBatch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#value CosBatch#value}
   */
   readonly value: string;
 }
@@ -908,43 +908,43 @@ export interface CosBatchOperationCosPutObjectCopyNewObjectMetadata {
   /**
   * The caching instructions defined in RFC 2616 are saved as object metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#cache_control CosBatch#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#cache_control CosBatch#cache_control}
   */
   readonly cacheControl?: string;
   /**
   * The file name defined in RFC 2616 is saved as object metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#content_disposition CosBatch#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#content_disposition CosBatch#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
   * The encoding format defined in RFC 2616 is saved as object metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#content_encoding CosBatch#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#content_encoding CosBatch#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * The content types defined in RFC 2616 are saved as object metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#content_type CosBatch#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#content_type CosBatch#content_type}
   */
   readonly contentType?: string;
   /**
   * The cache expiration time defined in RFC 2616 is saved as object metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#http_expires_date CosBatch#http_expires_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#http_expires_date CosBatch#http_expires_date}
   */
   readonly httpExpiresDate?: string;
   /**
   * Server encryption algorithm. Currently, only AES256 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#sse_algorithm CosBatch#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#sse_algorithm CosBatch#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
   /**
   * user_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#user_metadata CosBatch#user_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#user_metadata CosBatch#user_metadata}
   */
   readonly userMetadata?: CosBatchOperationCosPutObjectCopyNewObjectMetadataUserMetadata[] | cdktf.IResolvable;
 }
@@ -1204,13 +1204,13 @@ export interface CosBatchOperationCosPutObjectCopyNewObjectTagging {
   /**
   * key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#key CosBatch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#key CosBatch#key}
   */
   readonly key: string;
   /**
   * value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#value CosBatch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#value CosBatch#value}
   */
   readonly value: string;
 }
@@ -1354,85 +1354,85 @@ export interface CosBatchOperationCosPutObjectCopy {
   * - Replaced: replace source ACL
   * - Add: add a new ACL based on the source ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#access_control_directive CosBatch#access_control_directive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#access_control_directive CosBatch#access_control_directive}
   */
   readonly accessControlDirective?: string;
   /**
   * Defines the ACL property of the object. Valid values: private, public-read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#canned_access_control_list CosBatch#canned_access_control_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#canned_access_control_list CosBatch#canned_access_control_list}
   */
   readonly cannedAccessControlList?: string;
   /**
   * This element specifies whether to copy object metadata from the source object or replace it with metadata in the < NewObjectMetadata > element. Valid values are: Copy, Replaced, Add. Copy: inherit source object metadata; Replaced: replace source metadata; Add: add new metadata based on source metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#metadata_directive CosBatch#metadata_directive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#metadata_directive CosBatch#metadata_directive}
   */
   readonly metadataDirective?: string;
   /**
   * When the object is modified after the specified time, the operation is performed, otherwise 412 is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#modified_since_constraint CosBatch#modified_since_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#modified_since_constraint CosBatch#modified_since_constraint}
   */
   readonly modifiedSinceConstraint?: number;
   /**
   * Specifies whether the prefix of the source object needs to be replaced. A value of true indicates the replacement object prefix, which needs to be used with <ResourcesPrefix> and <TargetKeyPrefix>. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#prefix_replace CosBatch#prefix_replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#prefix_replace CosBatch#prefix_replace}
   */
   readonly prefixReplace?: boolean | cdktf.IResolvable;
   /**
   * This field is valid only when the < PrefixReplace > value is true. Specify the source object prefix to be replaced, and the replacement directory should end with `/`. Can be empty with a maximum length of 1024 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#resources_prefix CosBatch#resources_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#resources_prefix CosBatch#resources_prefix}
   */
   readonly resourcesPrefix?: string;
   /**
   * Sets the storage level of the object. Enumerated value: STANDARD,STANDARD_IA. Default value: STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#storage_class CosBatch#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#storage_class CosBatch#storage_class}
   */
   readonly storageClass?: string;
   /**
   * This element specifies whether to copy the object tag from the source object or replace it with the tag in the < NewObjectTagging > element. Valid values are: Copy, Replaced, Add. Copy: inherits the source object tag; Replaced: replaces the source tag; Add: adds a new tag based on the source tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#tagging_directive CosBatch#tagging_directive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#tagging_directive CosBatch#tagging_directive}
   */
   readonly taggingDirective?: string;
   /**
   * This field is valid only when the <PrefixReplace> value is true. This value represents the replaced prefix, and the replacement directory should end with /. Can be empty with a maximum length of 1024 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#target_key_prefix CosBatch#target_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#target_key_prefix CosBatch#target_key_prefix}
   */
   readonly targetKeyPrefix?: string;
   /**
   * Sets the target bucket for the Copy. Use qcs to specify, for example, qcs::cos:ap-chengdu:uid/1250000000:examplebucket-1250000000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#target_resource CosBatch#target_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#target_resource CosBatch#target_resource}
   */
   readonly targetResource: string;
   /**
   * When the object has not been modified after the specified time, the operation is performed, otherwise 412 is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#unmodified_since_constraint CosBatch#unmodified_since_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#unmodified_since_constraint CosBatch#unmodified_since_constraint}
   */
   readonly unmodifiedSinceConstraint?: number;
   /**
   * access_control_grants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#access_control_grants CosBatch#access_control_grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#access_control_grants CosBatch#access_control_grants}
   */
   readonly accessControlGrants?: CosBatchOperationCosPutObjectCopyAccessControlGrants;
   /**
   * new_object_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#new_object_metadata CosBatch#new_object_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#new_object_metadata CosBatch#new_object_metadata}
   */
   readonly newObjectMetadata?: CosBatchOperationCosPutObjectCopyNewObjectMetadata;
   /**
   * new_object_tagging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#new_object_tagging CosBatch#new_object_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#new_object_tagging CosBatch#new_object_tagging}
   */
   readonly newObjectTagging?: CosBatchOperationCosPutObjectCopyNewObjectTagging[] | cdktf.IResolvable;
 }
@@ -1892,13 +1892,13 @@ export interface CosBatchOperation {
   /**
   * cos_initiate_restore_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#cos_initiate_restore_object CosBatch#cos_initiate_restore_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#cos_initiate_restore_object CosBatch#cos_initiate_restore_object}
   */
   readonly cosInitiateRestoreObject?: CosBatchOperationCosInitiateRestoreObject;
   /**
   * cos_put_object_copy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#cos_put_object_copy CosBatch#cos_put_object_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#cos_put_object_copy CosBatch#cos_put_object_copy}
   */
   readonly cosPutObjectCopy?: CosBatchOperationCosPutObjectCopy;
 }
@@ -2013,31 +2013,31 @@ export interface CosBatchReport {
   /**
   * Delivery bucket for task completion reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#bucket CosBatch#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#bucket CosBatch#bucket}
   */
   readonly bucket: string;
   /**
   * Whether to output the task completion report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#enabled CosBatch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#enabled CosBatch#enabled}
   */
   readonly enabled: string;
   /**
   * Task completion report format information. Legal value: Report_CSV_V1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#format CosBatch#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#format CosBatch#format}
   */
   readonly format: string;
   /**
   * Prefix information for the task completion report. Length 0-256 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#prefix CosBatch#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#prefix CosBatch#prefix}
   */
   readonly prefix?: string;
   /**
   * Task completion report the task information that needs to be recorded to determine whether to record the execution information of all operations or the information of failed operations. Legal values: AllTasks, FailedTasksOnly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#report_scope CosBatch#report_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#report_scope CosBatch#report_scope}
   */
   readonly reportScope: string;
 }
@@ -2225,7 +2225,7 @@ export class CosBatchReportOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch tencentcloud_cos_batch}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch tencentcloud_cos_batch}
 */
 export class CosBatch extends cdktf.TerraformResource {
 
@@ -2241,7 +2241,7 @@ export class CosBatch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosBatch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosBatch to import
-  * @param importFromId The id of the existing CosBatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosBatch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosBatch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2253,7 +2253,7 @@ export class CosBatch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cos_batch tencentcloud_cos_batch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cos_batch tencentcloud_cos_batch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2264,8 +2264,8 @@ export class CosBatch extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_batch',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

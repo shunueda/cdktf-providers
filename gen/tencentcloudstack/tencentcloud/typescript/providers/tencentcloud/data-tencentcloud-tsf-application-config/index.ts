@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataTencentcloudTsfApplicationConfigAConfig extends cdktf.Terra
   /**
   * Application ID, query all when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#application_id DataTencentcloudTsfApplicationConfigA#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#application_id DataTencentcloudTsfApplicationConfigA#application_id}
   */
   readonly applicationId?: string;
   /**
   * Configuration ID, query all with higher priority when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#config_id DataTencentcloudTsfApplicationConfigA#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#config_id DataTencentcloudTsfApplicationConfigA#config_id}
   */
   readonly configId?: string;
   /**
   * Configuration ID list, query all with lower priority when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#config_id_list DataTencentcloudTsfApplicationConfigA#config_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#config_id_list DataTencentcloudTsfApplicationConfigA#config_id_list}
   */
   readonly configIdList?: string[];
   /**
   * Configuration name, precise query, query all when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#config_name DataTencentcloudTsfApplicationConfigA#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#config_name DataTencentcloudTsfApplicationConfigA#config_name}
   */
   readonly configName?: string;
   /**
   * Configuration version, precise query, query all when not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#config_version DataTencentcloudTsfApplicationConfigA#config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#config_version DataTencentcloudTsfApplicationConfigA#config_version}
   */
   readonly configVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#id DataTencentcloudTsfApplicationConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#id DataTencentcloudTsfApplicationConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface DataTencentcloudTsfApplicationConfigAConfig extends cdktf.Terra
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#result_output_file DataTencentcloudTsfApplicationConfigA#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#result_output_file DataTencentcloudTsfApplicationConfigA#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -264,7 +264,7 @@ export class DataTencentcloudTsfApplicationConfigResultList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config tencentcloud_tsf_application_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config tencentcloud_tsf_application_config}
 */
 export class DataTencentcloudTsfApplicationConfigA extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataTencentcloudTsfApplicationConfigA extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudTsfApplicationConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfApplicationConfigA to import
-  * @param importFromId The id of the existing DataTencentcloudTsfApplicationConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfApplicationConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfApplicationConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataTencentcloudTsfApplicationConfigA extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/tsf_application_config tencentcloud_tsf_application_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/tsf_application_config tencentcloud_tsf_application_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataTencentcloudTsfApplicationConfigA extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_tsf_application_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#account_moid DataIntersightStoragePureReplicationSchedule#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#account_moid DataIntersightStoragePureReplicationSchedule#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,13 +22,13 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#create_time DataIntersightStoragePureReplicationSchedule#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#create_time DataIntersightStoragePureReplicationSchedule#create_time}
   */
   readonly createTime?: string;
   /**
@@ -36,13 +36,13 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   * FlashArray maintains all created snapshot until retention period. Daily limit is applied only on the snapshots once retention time is expired.
   * In case of, daily limit is less than the number of snapshot available on source, system select snapshots evenly spaced out throughout the day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#daily_limit DataIntersightStoragePureReplicationSchedule#daily_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#daily_limit DataIntersightStoragePureReplicationSchedule#daily_limit}
   */
   readonly dailyLimit?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#domain_group_moid DataIntersightStoragePureReplicationSchedule#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#domain_group_moid DataIntersightStoragePureReplicationSchedule#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -52,11 +52,11 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   *     P30D, Snapshot is scheduled for every 30 days.
   *     PT2H34M56.123S is 2 hours, 34 minutes, 56 seconds and 123 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#frequency DataIntersightStoragePureReplicationSchedule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#frequency DataIntersightStoragePureReplicationSchedule#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#id DataIntersightStoragePureReplicationSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#id DataIntersightStoragePureReplicationSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,30 +65,30 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#mod_time DataIntersightStoragePureReplicationSchedule#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#mod_time DataIntersightStoragePureReplicationSchedule#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * Replication schedule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#name DataIntersightStoragePureReplicationSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#name DataIntersightStoragePureReplicationSchedule#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#owners DataIntersightStoragePureReplicationSchedule#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#owners DataIntersightStoragePureReplicationSchedule#owners}
   */
   readonly owners?: string[];
   /**
@@ -97,7 +97,7 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   * Format: hh:mm:ss
   * Example: 15:00:00, Replication is set for 3:00 PM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#replication_time DataIntersightStoragePureReplicationSchedule#replication_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#replication_time DataIntersightStoragePureReplicationSchedule#replication_time}
   */
   readonly replicationTime?: string;
   /**
@@ -107,74 +107,74 @@ export interface DataIntersightStoragePureReplicationScheduleConfig extends cdkt
   * P30D, Snapshots are available for 30 days.
   * PT2H34M56.123S, 2 hours, 34 minutes, 56 seconds and 123 milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#retention_time DataIntersightStoragePureReplicationSchedule#retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#retention_time DataIntersightStoragePureReplicationSchedule#retention_time}
   */
   readonly retentionTime?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#shared_scope DataIntersightStoragePureReplicationSchedule#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#shared_scope DataIntersightStoragePureReplicationSchedule#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Duration to keep the daily limit snapshots on target array. StorageArray deletes the snapshots permanently from the targets beyond this period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#snapshot_expiry_time DataIntersightStoragePureReplicationSchedule#snapshot_expiry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#snapshot_expiry_time DataIntersightStoragePureReplicationSchedule#snapshot_expiry_time}
   */
   readonly snapshotExpiryTime?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#ancestors DataIntersightStoragePureReplicationSchedule#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#ancestors DataIntersightStoragePureReplicationSchedule#ancestors}
   */
   readonly ancestors?: DataIntersightStoragePureReplicationScheduleAncestors[] | cdktf.IResolvable;
   /**
   * array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#array DataIntersightStoragePureReplicationSchedule#array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#array DataIntersightStoragePureReplicationSchedule#array}
   */
   readonly array?: DataIntersightStoragePureReplicationScheduleArray;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#parent DataIntersightStoragePureReplicationSchedule#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#parent DataIntersightStoragePureReplicationSchedule#parent}
   */
   readonly parent?: DataIntersightStoragePureReplicationScheduleParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#permission_resources DataIntersightStoragePureReplicationSchedule#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#permission_resources DataIntersightStoragePureReplicationSchedule#permission_resources}
   */
   readonly permissionResources?: DataIntersightStoragePureReplicationSchedulePermissionResources[] | cdktf.IResolvable;
   /**
   * protection_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#protection_group DataIntersightStoragePureReplicationSchedule#protection_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#protection_group DataIntersightStoragePureReplicationSchedule#protection_group}
   */
   readonly protectionGroup?: DataIntersightStoragePureReplicationScheduleProtectionGroup;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#registered_device DataIntersightStoragePureReplicationSchedule#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#registered_device DataIntersightStoragePureReplicationSchedule#registered_device}
   */
   readonly registeredDevice?: DataIntersightStoragePureReplicationScheduleRegisteredDevice;
   /**
   * replication_blackout_intervals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#replication_blackout_intervals DataIntersightStoragePureReplicationSchedule#replication_blackout_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#replication_blackout_intervals DataIntersightStoragePureReplicationSchedule#replication_blackout_intervals}
   */
   readonly replicationBlackoutIntervals?: DataIntersightStoragePureReplicationScheduleReplicationBlackoutIntervals[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#tags DataIntersightStoragePureReplicationSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#tags DataIntersightStoragePureReplicationSchedule#tags}
   */
   readonly tags?: DataIntersightStoragePureReplicationScheduleTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#version_context DataIntersightStoragePureReplicationSchedule#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#version_context DataIntersightStoragePureReplicationSchedule#version_context}
   */
   readonly versionContext?: DataIntersightStoragePureReplicationScheduleVersionContext;
 }
@@ -1658,7 +1658,7 @@ export class DataIntersightStoragePureReplicationScheduleResultsList extends cdk
 }
 export interface DataIntersightStoragePureReplicationScheduleAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1666,19 +1666,19 @@ export interface DataIntersightStoragePureReplicationScheduleAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1691,7 +1691,7 @@ export interface DataIntersightStoragePureReplicationScheduleAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -1923,7 +1923,7 @@ export class DataIntersightStoragePureReplicationScheduleAncestorsList extends c
 }
 export interface DataIntersightStoragePureReplicationScheduleArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1931,19 +1931,19 @@ export interface DataIntersightStoragePureReplicationScheduleArray {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1956,7 +1956,7 @@ export interface DataIntersightStoragePureReplicationScheduleArray {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2156,7 +2156,7 @@ export class DataIntersightStoragePureReplicationScheduleArrayOutputReference ex
 }
 export interface DataIntersightStoragePureReplicationScheduleParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2164,19 +2164,19 @@ export interface DataIntersightStoragePureReplicationScheduleParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2189,7 +2189,7 @@ export interface DataIntersightStoragePureReplicationScheduleParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2389,7 +2389,7 @@ export class DataIntersightStoragePureReplicationScheduleParentOutputReference e
 }
 export interface DataIntersightStoragePureReplicationSchedulePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2397,19 +2397,19 @@ export interface DataIntersightStoragePureReplicationSchedulePermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2422,7 +2422,7 @@ export interface DataIntersightStoragePureReplicationSchedulePermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2654,7 +2654,7 @@ export class DataIntersightStoragePureReplicationSchedulePermissionResourcesList
 }
 export interface DataIntersightStoragePureReplicationScheduleProtectionGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2662,19 +2662,19 @@ export interface DataIntersightStoragePureReplicationScheduleProtectionGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2687,7 +2687,7 @@ export interface DataIntersightStoragePureReplicationScheduleProtectionGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -2887,7 +2887,7 @@ export class DataIntersightStoragePureReplicationScheduleProtectionGroupOutputRe
 }
 export interface DataIntersightStoragePureReplicationScheduleRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2895,19 +2895,19 @@ export interface DataIntersightStoragePureReplicationScheduleRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2920,7 +2920,7 @@ export interface DataIntersightStoragePureReplicationScheduleRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -3120,7 +3120,7 @@ export class DataIntersightStoragePureReplicationScheduleRegisteredDeviceOutputR
 }
 export interface DataIntersightStoragePureReplicationScheduleReplicationBlackoutIntervals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3129,14 +3129,14 @@ export interface DataIntersightStoragePureReplicationScheduleReplicationBlackout
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The end time of day for replication blackout window.
   * Example: 17:00:01 which is 17 hours, 0 minutes, 1 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#end DataIntersightStoragePureReplicationSchedule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#end DataIntersightStoragePureReplicationSchedule#end}
   */
   readonly end?: string;
   /**
@@ -3144,7 +3144,7 @@ export interface DataIntersightStoragePureReplicationScheduleReplicationBlackout
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3152,7 +3152,7 @@ export interface DataIntersightStoragePureReplicationScheduleReplicationBlackout
   * Example: 15:04:03.123 which is 15 hours, 4 minutes, 3 seconds and 123 milliseconds.
   * The fractional seconds are written using the standard decimal notation which can be used for setting milliseconds and microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#start DataIntersightStoragePureReplicationSchedule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#start DataIntersightStoragePureReplicationSchedule#start}
   */
   readonly start?: string;
 }
@@ -3384,7 +3384,7 @@ export class DataIntersightStoragePureReplicationScheduleReplicationBlackoutInte
 }
 export interface DataIntersightStoragePureReplicationScheduleTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3392,19 +3392,19 @@ export interface DataIntersightStoragePureReplicationScheduleTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3417,7 +3417,7 @@ export interface DataIntersightStoragePureReplicationScheduleTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -3649,7 +3649,7 @@ export class DataIntersightStoragePureReplicationScheduleTagsAncestorDefinitions
 }
 export interface DataIntersightStoragePureReplicationScheduleTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3657,19 +3657,19 @@ export interface DataIntersightStoragePureReplicationScheduleTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3682,7 +3682,7 @@ export interface DataIntersightStoragePureReplicationScheduleTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -3882,25 +3882,25 @@ export class DataIntersightStoragePureReplicationScheduleTagsDefinitionOutputRef
 }
 export interface DataIntersightStoragePureReplicationScheduleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#key DataIntersightStoragePureReplicationSchedule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#key DataIntersightStoragePureReplicationSchedule#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#propagated DataIntersightStoragePureReplicationSchedule#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#propagated DataIntersightStoragePureReplicationSchedule#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#sys_tag DataIntersightStoragePureReplicationSchedule#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#sys_tag DataIntersightStoragePureReplicationSchedule#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3908,25 +3908,25 @@ export interface DataIntersightStoragePureReplicationScheduleTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#type DataIntersightStoragePureReplicationSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#type DataIntersightStoragePureReplicationSchedule#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#value DataIntersightStoragePureReplicationSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#value DataIntersightStoragePureReplicationSchedule#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#ancestor_definitions DataIntersightStoragePureReplicationSchedule#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#ancestor_definitions DataIntersightStoragePureReplicationSchedule#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightStoragePureReplicationScheduleTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#definition DataIntersightStoragePureReplicationSchedule#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#definition DataIntersightStoragePureReplicationSchedule#definition}
   */
   readonly definition?: DataIntersightStoragePureReplicationScheduleTagsDefinition;
 }
@@ -4245,7 +4245,7 @@ export class DataIntersightStoragePureReplicationScheduleTagsList extends cdktf.
 }
 export interface DataIntersightStoragePureReplicationScheduleVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4253,19 +4253,19 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4278,7 +4278,7 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -4510,7 +4510,7 @@ export class DataIntersightStoragePureReplicationScheduleVersionContextIntereste
 }
 export interface DataIntersightStoragePureReplicationScheduleVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4518,19 +4518,19 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#moid DataIntersightStoragePureReplicationSchedule#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4543,7 +4543,7 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#selector DataIntersightStoragePureReplicationSchedule#selector}
   */
   readonly selector?: string;
 }
@@ -4743,7 +4743,7 @@ export class DataIntersightStoragePureReplicationScheduleVersionContextRefMoOutp
 }
 export interface DataIntersightStoragePureReplicationScheduleVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#additional_properties DataIntersightStoragePureReplicationSchedule#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4751,32 +4751,32 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#class_id DataIntersightStoragePureReplicationSchedule#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#marked_for_deletion DataIntersightStoragePureReplicationSchedule#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#marked_for_deletion DataIntersightStoragePureReplicationSchedule#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#nr_version DataIntersightStoragePureReplicationSchedule#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#nr_version DataIntersightStoragePureReplicationSchedule#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#object_type DataIntersightStoragePureReplicationSchedule#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#timestamp DataIntersightStoragePureReplicationSchedule#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#timestamp DataIntersightStoragePureReplicationSchedule#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4787,19 +4787,19 @@ export interface DataIntersightStoragePureReplicationScheduleVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#version_type DataIntersightStoragePureReplicationSchedule#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#version_type DataIntersightStoragePureReplicationSchedule#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#interested_mos DataIntersightStoragePureReplicationSchedule#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#interested_mos DataIntersightStoragePureReplicationSchedule#interested_mos}
   */
   readonly interestedMos?: DataIntersightStoragePureReplicationScheduleVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#ref_mo DataIntersightStoragePureReplicationSchedule#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#ref_mo DataIntersightStoragePureReplicationSchedule#ref_mo}
   */
   readonly refMo?: DataIntersightStoragePureReplicationScheduleVersionContextRefMo;
 }
@@ -5115,7 +5115,7 @@ export class DataIntersightStoragePureReplicationScheduleVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule intersight_storage_pure_replication_schedule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule intersight_storage_pure_replication_schedule}
 */
 export class DataIntersightStoragePureReplicationSchedule extends cdktf.TerraformDataSource {
 
@@ -5131,7 +5131,7 @@ export class DataIntersightStoragePureReplicationSchedule extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightStoragePureReplicationSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightStoragePureReplicationSchedule to import
-  * @param importFromId The id of the existing DataIntersightStoragePureReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightStoragePureReplicationSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightStoragePureReplicationSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5143,7 +5143,7 @@ export class DataIntersightStoragePureReplicationSchedule extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/storage_pure_replication_schedule intersight_storage_pure_replication_schedule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/storage_pure_replication_schedule intersight_storage_pure_replication_schedule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5154,8 +5154,8 @@ export class DataIntersightStoragePureReplicationSchedule extends cdktf.Terrafor
       terraformResourceType: 'intersight_storage_pure_replication_schedule',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

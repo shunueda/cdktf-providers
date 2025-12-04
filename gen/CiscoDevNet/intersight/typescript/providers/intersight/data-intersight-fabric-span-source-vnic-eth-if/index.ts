@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFabricSpanSourceVnicEthIfConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#account_moid DataIntersightFabricSpanSourceVnicEthIf#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#account_moid DataIntersightFabricSpanSourceVnicEthIf#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,13 +22,13 @@ export interface DataIntersightFabricSpanSourceVnicEthIfConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#create_time DataIntersightFabricSpanSourceVnicEthIf#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#create_time DataIntersightFabricSpanSourceVnicEthIf#create_time}
   */
   readonly createTime?: string;
   /**
@@ -37,17 +37,17 @@ export interface DataIntersightFabricSpanSourceVnicEthIfConfig extends cdktf.Ter
   * * `Transmit` - SPAN outgoing traffic on the SPAN source interface.
   * * `Both` - SPAN incoming and outgoing traffic on the SPAN source interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#direction DataIntersightFabricSpanSourceVnicEthIf#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#direction DataIntersightFabricSpanSourceVnicEthIf#direction}
   */
   readonly direction?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#domain_group_moid DataIntersightFabricSpanSourceVnicEthIf#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#domain_group_moid DataIntersightFabricSpanSourceVnicEthIf#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#id DataIntersightFabricSpanSourceVnicEthIf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#id DataIntersightFabricSpanSourceVnicEthIf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,85 +56,85 @@ export interface DataIntersightFabricSpanSourceVnicEthIfConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#mod_time DataIntersightFabricSpanSourceVnicEthIf#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#mod_time DataIntersightFabricSpanSourceVnicEthIf#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * Name of the VNIC referenced by vnic relationship. Vnic name is not updated if it gets updated by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#name DataIntersightFabricSpanSourceVnicEthIf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#name DataIntersightFabricSpanSourceVnicEthIf#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#owners DataIntersightFabricSpanSourceVnicEthIf#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#owners DataIntersightFabricSpanSourceVnicEthIf#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#shared_scope DataIntersightFabricSpanSourceVnicEthIf#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#shared_scope DataIntersightFabricSpanSourceVnicEthIf#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * VIF ID of the VNIC placed on Fabric Interconnect associated to the SPAN session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#vif_id DataIntersightFabricSpanSourceVnicEthIf#vif_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#vif_id DataIntersightFabricSpanSourceVnicEthIf#vif_id}
   */
   readonly vifId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#ancestors DataIntersightFabricSpanSourceVnicEthIf#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#ancestors DataIntersightFabricSpanSourceVnicEthIf#ancestors}
   */
   readonly ancestors?: DataIntersightFabricSpanSourceVnicEthIfAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#parent DataIntersightFabricSpanSourceVnicEthIf#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#parent DataIntersightFabricSpanSourceVnicEthIf#parent}
   */
   readonly parent?: DataIntersightFabricSpanSourceVnicEthIfParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#permission_resources DataIntersightFabricSpanSourceVnicEthIf#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#permission_resources DataIntersightFabricSpanSourceVnicEthIf#permission_resources}
   */
   readonly permissionResources?: DataIntersightFabricSpanSourceVnicEthIfPermissionResources[] | cdktf.IResolvable;
   /**
   * span_session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#span_session DataIntersightFabricSpanSourceVnicEthIf#span_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#span_session DataIntersightFabricSpanSourceVnicEthIf#span_session}
   */
   readonly spanSession?: DataIntersightFabricSpanSourceVnicEthIfSpanSession;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#tags DataIntersightFabricSpanSourceVnicEthIf#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#tags DataIntersightFabricSpanSourceVnicEthIf#tags}
   */
   readonly tags?: DataIntersightFabricSpanSourceVnicEthIfTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#version_context DataIntersightFabricSpanSourceVnicEthIf#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#version_context DataIntersightFabricSpanSourceVnicEthIf#version_context}
   */
   readonly versionContext?: DataIntersightFabricSpanSourceVnicEthIfVersionContext;
   /**
   * vnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#vnic DataIntersightFabricSpanSourceVnicEthIf#vnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#vnic DataIntersightFabricSpanSourceVnicEthIf#vnic}
   */
   readonly vnic?: DataIntersightFabricSpanSourceVnicEthIfVnic;
 }
@@ -1401,7 +1401,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfResultsList extends cdktf.Co
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1409,19 +1409,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1434,7 +1434,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -1666,7 +1666,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfAncestorsList extends cdktf.
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1674,19 +1674,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1699,7 +1699,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -1899,7 +1899,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfParentOutputReference extend
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1907,19 +1907,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1932,7 +1932,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -2164,7 +2164,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfPermissionResourcesList exte
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfSpanSession {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2172,19 +2172,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfSpanSession {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2197,7 +2197,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfSpanSession {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -2397,7 +2397,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfSpanSessionOutputReference e
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2405,19 +2405,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2430,7 +2430,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -2662,7 +2662,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfTagsAncestorDefinitionsList 
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2670,19 +2670,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2695,7 +2695,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -2895,25 +2895,25 @@ export class DataIntersightFabricSpanSourceVnicEthIfTagsDefinitionOutputReferenc
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#key DataIntersightFabricSpanSourceVnicEthIf#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#key DataIntersightFabricSpanSourceVnicEthIf#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#propagated DataIntersightFabricSpanSourceVnicEthIf#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#propagated DataIntersightFabricSpanSourceVnicEthIf#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#sys_tag DataIntersightFabricSpanSourceVnicEthIf#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#sys_tag DataIntersightFabricSpanSourceVnicEthIf#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2921,25 +2921,25 @@ export interface DataIntersightFabricSpanSourceVnicEthIfTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#type DataIntersightFabricSpanSourceVnicEthIf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#type DataIntersightFabricSpanSourceVnicEthIf#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#value DataIntersightFabricSpanSourceVnicEthIf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#value DataIntersightFabricSpanSourceVnicEthIf#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#ancestor_definitions DataIntersightFabricSpanSourceVnicEthIf#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#ancestor_definitions DataIntersightFabricSpanSourceVnicEthIf#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFabricSpanSourceVnicEthIfTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#definition DataIntersightFabricSpanSourceVnicEthIf#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#definition DataIntersightFabricSpanSourceVnicEthIf#definition}
   */
   readonly definition?: DataIntersightFabricSpanSourceVnicEthIfTagsDefinition;
 }
@@ -3258,7 +3258,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfTagsList extends cdktf.Compl
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3266,19 +3266,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3291,7 +3291,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -3523,7 +3523,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfVersionContextInterestedMosL
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3531,19 +3531,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3556,7 +3556,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -3756,7 +3756,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfVersionContextRefMoOutputRef
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3764,32 +3764,32 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#marked_for_deletion DataIntersightFabricSpanSourceVnicEthIf#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#marked_for_deletion DataIntersightFabricSpanSourceVnicEthIf#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#nr_version DataIntersightFabricSpanSourceVnicEthIf#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#nr_version DataIntersightFabricSpanSourceVnicEthIf#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#timestamp DataIntersightFabricSpanSourceVnicEthIf#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#timestamp DataIntersightFabricSpanSourceVnicEthIf#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3800,19 +3800,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#version_type DataIntersightFabricSpanSourceVnicEthIf#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#version_type DataIntersightFabricSpanSourceVnicEthIf#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#interested_mos DataIntersightFabricSpanSourceVnicEthIf#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#interested_mos DataIntersightFabricSpanSourceVnicEthIf#interested_mos}
   */
   readonly interestedMos?: DataIntersightFabricSpanSourceVnicEthIfVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#ref_mo DataIntersightFabricSpanSourceVnicEthIf#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#ref_mo DataIntersightFabricSpanSourceVnicEthIf#ref_mo}
   */
   readonly refMo?: DataIntersightFabricSpanSourceVnicEthIfVersionContextRefMo;
 }
@@ -4128,7 +4128,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfVersionContextOutputReferenc
 }
 export interface DataIntersightFabricSpanSourceVnicEthIfVnic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#additional_properties DataIntersightFabricSpanSourceVnicEthIf#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4136,19 +4136,19 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVnic {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#class_id DataIntersightFabricSpanSourceVnicEthIf#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#moid DataIntersightFabricSpanSourceVnicEthIf#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#object_type DataIntersightFabricSpanSourceVnicEthIf#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4161,7 +4161,7 @@ export interface DataIntersightFabricSpanSourceVnicEthIfVnic {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#selector DataIntersightFabricSpanSourceVnicEthIf#selector}
   */
   readonly selector?: string;
 }
@@ -4361,7 +4361,7 @@ export class DataIntersightFabricSpanSourceVnicEthIfVnicOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if intersight_fabric_span_source_vnic_eth_if}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if intersight_fabric_span_source_vnic_eth_if}
 */
 export class DataIntersightFabricSpanSourceVnicEthIf extends cdktf.TerraformDataSource {
 
@@ -4377,7 +4377,7 @@ export class DataIntersightFabricSpanSourceVnicEthIf extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightFabricSpanSourceVnicEthIf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFabricSpanSourceVnicEthIf to import
-  * @param importFromId The id of the existing DataIntersightFabricSpanSourceVnicEthIf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFabricSpanSourceVnicEthIf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFabricSpanSourceVnicEthIf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4389,7 +4389,7 @@ export class DataIntersightFabricSpanSourceVnicEthIf extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/fabric_span_source_vnic_eth_if intersight_fabric_span_source_vnic_eth_if} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/fabric_span_source_vnic_eth_if intersight_fabric_span_source_vnic_eth_if} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4400,8 +4400,8 @@ export class DataIntersightFabricSpanSourceVnicEthIf extends cdktf.TerraformData
       terraformResourceType: 'intersight_fabric_span_source_vnic_eth_if',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

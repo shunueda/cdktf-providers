@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightApicVpcGroupConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#account_moid DataIntersightApicVpcGroup#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#account_moid DataIntersightApicVpcGroup#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightApicVpcGroupConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#create_time DataIntersightApicVpcGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#create_time DataIntersightApicVpcGroup#create_time}
   */
   readonly createTime?: string;
   /**
-  * Distinguished Name (DN) of an object in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Distinguished Name (DN) of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#dn DataIntersightApicVpcGroup#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#dn DataIntersightApicVpcGroup#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#domain_group_moid DataIntersightApicVpcGroup#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#domain_group_moid DataIntersightApicVpcGroup#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#id DataIntersightApicVpcGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#id DataIntersightApicVpcGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface DataIntersightApicVpcGroupConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#mod_time DataIntersightApicVpcGroup#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#mod_time DataIntersightApicVpcGroup#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
-  * Object name in Cisco Application Policy Infrastructure Controller (APIC) GUI.
+  * Name of an object within the Cisco Application Policy Infrastructure Controller (APIC) GUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#name DataIntersightApicVpcGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#name DataIntersightApicVpcGroup#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#owners DataIntersightApicVpcGroup#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#owners DataIntersightApicVpcGroup#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#shared_scope DataIntersightApicVpcGroup#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#shared_scope DataIntersightApicVpcGroup#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#ancestors DataIntersightApicVpcGroup#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#ancestors DataIntersightApicVpcGroup#ancestors}
   */
   readonly ancestors?: DataIntersightApicVpcGroupAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#parent DataIntersightApicVpcGroup#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#parent DataIntersightApicVpcGroup#parent}
   */
   readonly parent?: DataIntersightApicVpcGroupParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#permission_resources DataIntersightApicVpcGroup#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#permission_resources DataIntersightApicVpcGroup#permission_resources}
   */
   readonly permissionResources?: DataIntersightApicVpcGroupPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#registered_device DataIntersightApicVpcGroup#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#registered_device DataIntersightApicVpcGroup#registered_device}
   */
   readonly registeredDevice?: DataIntersightApicVpcGroupRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#tags DataIntersightApicVpcGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#tags DataIntersightApicVpcGroup#tags}
   */
   readonly tags?: DataIntersightApicVpcGroupTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#version_context DataIntersightApicVpcGroup#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#version_context DataIntersightApicVpcGroup#version_context}
   */
   readonly versionContext?: DataIntersightApicVpcGroupVersionContext;
 }
@@ -1280,7 +1280,7 @@ export class DataIntersightApicVpcGroupResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicVpcGroupAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1288,19 +1288,19 @@ export interface DataIntersightApicVpcGroupAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1313,7 +1313,7 @@ export interface DataIntersightApicVpcGroupAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1545,7 +1545,7 @@ export class DataIntersightApicVpcGroupAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicVpcGroupParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1553,19 +1553,19 @@ export interface DataIntersightApicVpcGroupParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1578,7 +1578,7 @@ export interface DataIntersightApicVpcGroupParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -1778,7 +1778,7 @@ export class DataIntersightApicVpcGroupParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightApicVpcGroupPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1786,19 +1786,19 @@ export interface DataIntersightApicVpcGroupPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1811,7 +1811,7 @@ export interface DataIntersightApicVpcGroupPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2043,7 +2043,7 @@ export class DataIntersightApicVpcGroupPermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightApicVpcGroupRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2051,19 +2051,19 @@ export interface DataIntersightApicVpcGroupRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2076,7 +2076,7 @@ export interface DataIntersightApicVpcGroupRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2276,7 +2276,7 @@ export class DataIntersightApicVpcGroupRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightApicVpcGroupTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2284,19 +2284,19 @@ export interface DataIntersightApicVpcGroupTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2309,7 +2309,7 @@ export interface DataIntersightApicVpcGroupTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2541,7 +2541,7 @@ export class DataIntersightApicVpcGroupTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightApicVpcGroupTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2549,19 +2549,19 @@ export interface DataIntersightApicVpcGroupTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2574,7 +2574,7 @@ export interface DataIntersightApicVpcGroupTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -2774,25 +2774,25 @@ export class DataIntersightApicVpcGroupTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightApicVpcGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#key DataIntersightApicVpcGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#key DataIntersightApicVpcGroup#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#propagated DataIntersightApicVpcGroup#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#propagated DataIntersightApicVpcGroup#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#sys_tag DataIntersightApicVpcGroup#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#sys_tag DataIntersightApicVpcGroup#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2800,25 +2800,25 @@ export interface DataIntersightApicVpcGroupTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#type DataIntersightApicVpcGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#type DataIntersightApicVpcGroup#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#value DataIntersightApicVpcGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#value DataIntersightApicVpcGroup#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#ancestor_definitions DataIntersightApicVpcGroup#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#ancestor_definitions DataIntersightApicVpcGroup#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightApicVpcGroupTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#definition DataIntersightApicVpcGroup#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#definition DataIntersightApicVpcGroup#definition}
   */
   readonly definition?: DataIntersightApicVpcGroupTagsDefinition;
 }
@@ -3137,7 +3137,7 @@ export class DataIntersightApicVpcGroupTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightApicVpcGroupVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3145,19 +3145,19 @@ export interface DataIntersightApicVpcGroupVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3170,7 +3170,7 @@ export interface DataIntersightApicVpcGroupVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3402,7 +3402,7 @@ export class DataIntersightApicVpcGroupVersionContextInterestedMosList extends c
 }
 export interface DataIntersightApicVpcGroupVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3410,19 +3410,19 @@ export interface DataIntersightApicVpcGroupVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#moid DataIntersightApicVpcGroup#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3435,7 +3435,7 @@ export interface DataIntersightApicVpcGroupVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#selector DataIntersightApicVpcGroup#selector}
   */
   readonly selector?: string;
 }
@@ -3635,7 +3635,7 @@ export class DataIntersightApicVpcGroupVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightApicVpcGroupVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#additional_properties DataIntersightApicVpcGroup#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3643,32 +3643,32 @@ export interface DataIntersightApicVpcGroupVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#class_id DataIntersightApicVpcGroup#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#marked_for_deletion DataIntersightApicVpcGroup#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#marked_for_deletion DataIntersightApicVpcGroup#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#nr_version DataIntersightApicVpcGroup#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#nr_version DataIntersightApicVpcGroup#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#object_type DataIntersightApicVpcGroup#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#timestamp DataIntersightApicVpcGroup#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#timestamp DataIntersightApicVpcGroup#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3679,19 +3679,19 @@ export interface DataIntersightApicVpcGroupVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#version_type DataIntersightApicVpcGroup#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#version_type DataIntersightApicVpcGroup#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#interested_mos DataIntersightApicVpcGroup#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#interested_mos DataIntersightApicVpcGroup#interested_mos}
   */
   readonly interestedMos?: DataIntersightApicVpcGroupVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#ref_mo DataIntersightApicVpcGroup#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#ref_mo DataIntersightApicVpcGroup#ref_mo}
   */
   readonly refMo?: DataIntersightApicVpcGroupVersionContextRefMo;
 }
@@ -4007,7 +4007,7 @@ export class DataIntersightApicVpcGroupVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group intersight_apic_vpc_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group intersight_apic_vpc_group}
 */
 export class DataIntersightApicVpcGroup extends cdktf.TerraformDataSource {
 
@@ -4023,7 +4023,7 @@ export class DataIntersightApicVpcGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightApicVpcGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightApicVpcGroup to import
-  * @param importFromId The id of the existing DataIntersightApicVpcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightApicVpcGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightApicVpcGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4035,7 +4035,7 @@ export class DataIntersightApicVpcGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/apic_vpc_group intersight_apic_vpc_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/apic_vpc_group intersight_apic_vpc_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4046,8 +4046,8 @@ export class DataIntersightApicVpcGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_apic_vpc_group',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

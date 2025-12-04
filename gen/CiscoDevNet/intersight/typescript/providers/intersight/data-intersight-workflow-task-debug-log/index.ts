@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightWorkflowTaskDebugLogConfig extends cdktf.Terrafor
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#account_moid DataIntersightWorkflowTaskDebugLog#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#account_moid DataIntersightWorkflowTaskDebugLog#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightWorkflowTaskDebugLogConfig extends cdktf.Terrafor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#create_time DataIntersightWorkflowTaskDebugLog#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#create_time DataIntersightWorkflowTaskDebugLog#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#domain_group_moid DataIntersightWorkflowTaskDebugLog#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#domain_group_moid DataIntersightWorkflowTaskDebugLog#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#id DataIntersightWorkflowTaskDebugLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#id DataIntersightWorkflowTaskDebugLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,91 +47,91 @@ export interface DataIntersightWorkflowTaskDebugLogConfig extends cdktf.Terrafor
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#mod_time DataIntersightWorkflowTaskDebugLog#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#mod_time DataIntersightWorkflowTaskDebugLog#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#owners DataIntersightWorkflowTaskDebugLog#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#owners DataIntersightWorkflowTaskDebugLog#owners}
   */
   readonly owners?: string[];
   /**
   * A counter for number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#retry_count DataIntersightWorkflowTaskDebugLog#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#retry_count DataIntersightWorkflowTaskDebugLog#retry_count}
   */
   readonly retryCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#shared_scope DataIntersightWorkflowTaskDebugLog#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#shared_scope DataIntersightWorkflowTaskDebugLog#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Holds information helpful in isolating task failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#task_debug_log_entries DataIntersightWorkflowTaskDebugLog#task_debug_log_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#task_debug_log_entries DataIntersightWorkflowTaskDebugLog#task_debug_log_entries}
   */
   readonly taskDebugLogEntries?: string;
   /**
   * The unique identifier for task instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#task_inst_id DataIntersightWorkflowTaskDebugLog#task_inst_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#task_inst_id DataIntersightWorkflowTaskDebugLog#task_inst_id}
   */
   readonly taskInstId?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#ancestors DataIntersightWorkflowTaskDebugLog#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#ancestors DataIntersightWorkflowTaskDebugLog#ancestors}
   */
   readonly ancestors?: DataIntersightWorkflowTaskDebugLogAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#parent DataIntersightWorkflowTaskDebugLog#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#parent DataIntersightWorkflowTaskDebugLog#parent}
   */
   readonly parent?: DataIntersightWorkflowTaskDebugLogParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#permission_resources DataIntersightWorkflowTaskDebugLog#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#permission_resources DataIntersightWorkflowTaskDebugLog#permission_resources}
   */
   readonly permissionResources?: DataIntersightWorkflowTaskDebugLogPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#tags DataIntersightWorkflowTaskDebugLog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#tags DataIntersightWorkflowTaskDebugLog#tags}
   */
   readonly tags?: DataIntersightWorkflowTaskDebugLogTags[] | cdktf.IResolvable;
   /**
   * task_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#task_info DataIntersightWorkflowTaskDebugLog#task_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#task_info DataIntersightWorkflowTaskDebugLog#task_info}
   */
   readonly taskInfo?: DataIntersightWorkflowTaskDebugLogTaskInfo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#version_context DataIntersightWorkflowTaskDebugLog#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#version_context DataIntersightWorkflowTaskDebugLog#version_context}
   */
   readonly versionContext?: DataIntersightWorkflowTaskDebugLogVersionContext;
   /**
   * workflow_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#workflow_info DataIntersightWorkflowTaskDebugLog#workflow_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#workflow_info DataIntersightWorkflowTaskDebugLog#workflow_info}
   */
   readonly workflowInfo?: DataIntersightWorkflowTaskDebugLogWorkflowInfo;
 }
@@ -1398,7 +1398,7 @@ export class DataIntersightWorkflowTaskDebugLogResultsList extends cdktf.Complex
 }
 export interface DataIntersightWorkflowTaskDebugLogAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1406,19 +1406,19 @@ export interface DataIntersightWorkflowTaskDebugLogAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1431,7 +1431,7 @@ export interface DataIntersightWorkflowTaskDebugLogAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -1663,7 +1663,7 @@ export class DataIntersightWorkflowTaskDebugLogAncestorsList extends cdktf.Compl
 }
 export interface DataIntersightWorkflowTaskDebugLogParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1671,19 +1671,19 @@ export interface DataIntersightWorkflowTaskDebugLogParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1696,7 +1696,7 @@ export interface DataIntersightWorkflowTaskDebugLogParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -1896,7 +1896,7 @@ export class DataIntersightWorkflowTaskDebugLogParentOutputReference extends cdk
 }
 export interface DataIntersightWorkflowTaskDebugLogPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1904,19 +1904,19 @@ export interface DataIntersightWorkflowTaskDebugLogPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1929,7 +1929,7 @@ export interface DataIntersightWorkflowTaskDebugLogPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -2161,7 +2161,7 @@ export class DataIntersightWorkflowTaskDebugLogPermissionResourcesList extends c
 }
 export interface DataIntersightWorkflowTaskDebugLogTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2169,19 +2169,19 @@ export interface DataIntersightWorkflowTaskDebugLogTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2194,7 +2194,7 @@ export interface DataIntersightWorkflowTaskDebugLogTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -2426,7 +2426,7 @@ export class DataIntersightWorkflowTaskDebugLogTagsAncestorDefinitionsList exten
 }
 export interface DataIntersightWorkflowTaskDebugLogTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2434,19 +2434,19 @@ export interface DataIntersightWorkflowTaskDebugLogTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2459,7 +2459,7 @@ export interface DataIntersightWorkflowTaskDebugLogTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -2659,25 +2659,25 @@ export class DataIntersightWorkflowTaskDebugLogTagsDefinitionOutputReference ext
 }
 export interface DataIntersightWorkflowTaskDebugLogTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#key DataIntersightWorkflowTaskDebugLog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#key DataIntersightWorkflowTaskDebugLog#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#propagated DataIntersightWorkflowTaskDebugLog#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#propagated DataIntersightWorkflowTaskDebugLog#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#sys_tag DataIntersightWorkflowTaskDebugLog#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#sys_tag DataIntersightWorkflowTaskDebugLog#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2685,25 +2685,25 @@ export interface DataIntersightWorkflowTaskDebugLogTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#type DataIntersightWorkflowTaskDebugLog#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#type DataIntersightWorkflowTaskDebugLog#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#value DataIntersightWorkflowTaskDebugLog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#value DataIntersightWorkflowTaskDebugLog#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#ancestor_definitions DataIntersightWorkflowTaskDebugLog#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#ancestor_definitions DataIntersightWorkflowTaskDebugLog#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightWorkflowTaskDebugLogTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#definition DataIntersightWorkflowTaskDebugLog#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#definition DataIntersightWorkflowTaskDebugLog#definition}
   */
   readonly definition?: DataIntersightWorkflowTaskDebugLogTagsDefinition;
 }
@@ -3022,7 +3022,7 @@ export class DataIntersightWorkflowTaskDebugLogTagsList extends cdktf.ComplexLis
 }
 export interface DataIntersightWorkflowTaskDebugLogTaskInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3030,19 +3030,19 @@ export interface DataIntersightWorkflowTaskDebugLogTaskInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3055,7 +3055,7 @@ export interface DataIntersightWorkflowTaskDebugLogTaskInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -3255,7 +3255,7 @@ export class DataIntersightWorkflowTaskDebugLogTaskInfoOutputReference extends c
 }
 export interface DataIntersightWorkflowTaskDebugLogVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3263,19 +3263,19 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3288,7 +3288,7 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -3520,7 +3520,7 @@ export class DataIntersightWorkflowTaskDebugLogVersionContextInterestedMosList e
 }
 export interface DataIntersightWorkflowTaskDebugLogVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3528,19 +3528,19 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3553,7 +3553,7 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -3753,7 +3753,7 @@ export class DataIntersightWorkflowTaskDebugLogVersionContextRefMoOutputReferenc
 }
 export interface DataIntersightWorkflowTaskDebugLogVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3761,32 +3761,32 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#marked_for_deletion DataIntersightWorkflowTaskDebugLog#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#marked_for_deletion DataIntersightWorkflowTaskDebugLog#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#nr_version DataIntersightWorkflowTaskDebugLog#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#nr_version DataIntersightWorkflowTaskDebugLog#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#timestamp DataIntersightWorkflowTaskDebugLog#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#timestamp DataIntersightWorkflowTaskDebugLog#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3797,19 +3797,19 @@ export interface DataIntersightWorkflowTaskDebugLogVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#version_type DataIntersightWorkflowTaskDebugLog#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#version_type DataIntersightWorkflowTaskDebugLog#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#interested_mos DataIntersightWorkflowTaskDebugLog#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#interested_mos DataIntersightWorkflowTaskDebugLog#interested_mos}
   */
   readonly interestedMos?: DataIntersightWorkflowTaskDebugLogVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#ref_mo DataIntersightWorkflowTaskDebugLog#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#ref_mo DataIntersightWorkflowTaskDebugLog#ref_mo}
   */
   readonly refMo?: DataIntersightWorkflowTaskDebugLogVersionContextRefMo;
 }
@@ -4125,7 +4125,7 @@ export class DataIntersightWorkflowTaskDebugLogVersionContextOutputReference ext
 }
 export interface DataIntersightWorkflowTaskDebugLogWorkflowInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#additional_properties DataIntersightWorkflowTaskDebugLog#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4133,19 +4133,19 @@ export interface DataIntersightWorkflowTaskDebugLogWorkflowInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#class_id DataIntersightWorkflowTaskDebugLog#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#moid DataIntersightWorkflowTaskDebugLog#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#object_type DataIntersightWorkflowTaskDebugLog#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4158,7 +4158,7 @@ export interface DataIntersightWorkflowTaskDebugLogWorkflowInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#selector DataIntersightWorkflowTaskDebugLog#selector}
   */
   readonly selector?: string;
 }
@@ -4358,7 +4358,7 @@ export class DataIntersightWorkflowTaskDebugLogWorkflowInfoOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log intersight_workflow_task_debug_log}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log intersight_workflow_task_debug_log}
 */
 export class DataIntersightWorkflowTaskDebugLog extends cdktf.TerraformDataSource {
 
@@ -4374,7 +4374,7 @@ export class DataIntersightWorkflowTaskDebugLog extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataIntersightWorkflowTaskDebugLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightWorkflowTaskDebugLog to import
-  * @param importFromId The id of the existing DataIntersightWorkflowTaskDebugLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightWorkflowTaskDebugLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightWorkflowTaskDebugLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4386,7 +4386,7 @@ export class DataIntersightWorkflowTaskDebugLog extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/workflow_task_debug_log intersight_workflow_task_debug_log} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/workflow_task_debug_log intersight_workflow_task_debug_log} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4397,8 +4397,8 @@ export class DataIntersightWorkflowTaskDebugLog extends cdktf.TerraformDataSourc
       terraformResourceType: 'intersight_workflow_task_debug_log',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

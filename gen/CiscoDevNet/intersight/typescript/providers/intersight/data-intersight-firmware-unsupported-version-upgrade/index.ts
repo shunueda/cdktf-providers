@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#account_moid DataIntersightFirmwareUnsupportedVersionUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#account_moid DataIntersightFirmwareUnsupportedVersionUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeConfig extends c
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#create_time DataIntersightFirmwareUnsupportedVersionUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#create_time DataIntersightFirmwareUnsupportedVersionUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#domain_group_moid DataIntersightFirmwareUnsupportedVersionUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#domain_group_moid DataIntersightFirmwareUnsupportedVersionUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Any error encountered. Set to empty when download is in progress or completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#download_error DataIntersightFirmwareUnsupportedVersionUpgrade#download_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#download_error DataIntersightFirmwareUnsupportedVersionUpgrade#download_error}
   */
   readonly downloadError?: string;
   /**
   * The download progress of the file represented as a percentage between 0% and 100%. If progress reporting is not possible, a value of -1 is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#download_progress DataIntersightFirmwareUnsupportedVersionUpgrade#download_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#download_progress DataIntersightFirmwareUnsupportedVersionUpgrade#download_progress}
   */
   readonly downloadProgress?: number;
   /**
   * The number of retries the plugin attempted before succeeding or failing the download.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#download_retries DataIntersightFirmwareUnsupportedVersionUpgrade#download_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#download_retries DataIntersightFirmwareUnsupportedVersionUpgrade#download_retries}
   */
   readonly downloadRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#id DataIntersightFirmwareUnsupportedVersionUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#id DataIntersightFirmwareUnsupportedVersionUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,31 +65,31 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeConfig extends c
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#mod_time DataIntersightFirmwareUnsupportedVersionUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#mod_time DataIntersightFirmwareUnsupportedVersionUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#owners DataIntersightFirmwareUnsupportedVersionUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#owners DataIntersightFirmwareUnsupportedVersionUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#shared_scope DataIntersightFirmwareUnsupportedVersionUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#shared_scope DataIntersightFirmwareUnsupportedVersionUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -98,61 +98,61 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeConfig extends c
   * * `Completed` - Upgrade completed successfully.
   * * `Failed` - Upgrade status is failed when upgrade has failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#upgrade_status DataIntersightFirmwareUnsupportedVersionUpgrade#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#upgrade_status DataIntersightFirmwareUnsupportedVersionUpgrade#upgrade_status}
   */
   readonly upgradeStatus?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#ancestors DataIntersightFirmwareUnsupportedVersionUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#ancestors DataIntersightFirmwareUnsupportedVersionUpgrade#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareUnsupportedVersionUpgradeAncestors[] | cdktf.IResolvable;
   /**
   * checksum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#checksum DataIntersightFirmwareUnsupportedVersionUpgrade#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#checksum DataIntersightFirmwareUnsupportedVersionUpgrade#checksum}
   */
   readonly checksum?: DataIntersightFirmwareUnsupportedVersionUpgradeChecksum;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#device DataIntersightFirmwareUnsupportedVersionUpgrade#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#device DataIntersightFirmwareUnsupportedVersionUpgrade#device}
   */
   readonly device?: DataIntersightFirmwareUnsupportedVersionUpgradeDevice;
   /**
   * distributable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#distributable DataIntersightFirmwareUnsupportedVersionUpgrade#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#distributable DataIntersightFirmwareUnsupportedVersionUpgrade#distributable}
   */
   readonly distributable?: DataIntersightFirmwareUnsupportedVersionUpgradeDistributable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#parent DataIntersightFirmwareUnsupportedVersionUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#parent DataIntersightFirmwareUnsupportedVersionUpgrade#parent}
   */
   readonly parent?: DataIntersightFirmwareUnsupportedVersionUpgradeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#permission_resources DataIntersightFirmwareUnsupportedVersionUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#permission_resources DataIntersightFirmwareUnsupportedVersionUpgrade#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareUnsupportedVersionUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * physical_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#physical_identity DataIntersightFirmwareUnsupportedVersionUpgrade#physical_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#physical_identity DataIntersightFirmwareUnsupportedVersionUpgrade#physical_identity}
   */
   readonly physicalIdentity?: DataIntersightFirmwareUnsupportedVersionUpgradePhysicalIdentity;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#tags DataIntersightFirmwareUnsupportedVersionUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#tags DataIntersightFirmwareUnsupportedVersionUpgrade#tags}
   */
   readonly tags?: DataIntersightFirmwareUnsupportedVersionUpgradeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#version_context DataIntersightFirmwareUnsupportedVersionUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#version_context DataIntersightFirmwareUnsupportedVersionUpgrade#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareUnsupportedVersionUpgradeVersionContext;
 }
@@ -1621,7 +1621,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeResultsList extends 
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1629,19 +1629,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1654,7 +1654,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -1886,7 +1886,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeAncestorsList extend
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeChecksum {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1894,7 +1894,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeChecksum {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -1902,14 +1902,14 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeChecksum {
   * * `crc` - A CRC hash as definded by RFC 3385. Generated with the IEEE polynomial.
   * * `sha256` - An SHA256 hash as defined by RFC 4634.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#hash_algorithm DataIntersightFirmwareUnsupportedVersionUpgrade#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#hash_algorithm DataIntersightFirmwareUnsupportedVersionUpgrade#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -2080,7 +2080,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeChecksumOutputRefere
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2088,19 +2088,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2113,7 +2113,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2313,7 +2313,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeDeviceOutputReferenc
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2321,19 +2321,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeDistributable {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2346,7 +2346,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeDistributable {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2546,7 +2546,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeDistributableOutputR
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2554,19 +2554,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2579,7 +2579,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2779,7 +2779,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeParentOutputReferenc
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2787,19 +2787,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradePermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2812,7 +2812,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradePermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3044,7 +3044,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradePermissionResourcesL
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradePhysicalIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3052,19 +3052,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradePhysicalIdentity
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3077,7 +3077,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradePhysicalIdentity
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3277,7 +3277,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradePhysicalIdentityOutp
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3285,19 +3285,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3310,7 +3310,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3542,7 +3542,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeTagsAncestorDefiniti
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3550,19 +3550,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3575,7 +3575,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3775,25 +3775,25 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeTagsDefinitionOutput
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#key DataIntersightFirmwareUnsupportedVersionUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#key DataIntersightFirmwareUnsupportedVersionUpgrade#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#propagated DataIntersightFirmwareUnsupportedVersionUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#propagated DataIntersightFirmwareUnsupportedVersionUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#sys_tag DataIntersightFirmwareUnsupportedVersionUpgrade#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#sys_tag DataIntersightFirmwareUnsupportedVersionUpgrade#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3801,25 +3801,25 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#type DataIntersightFirmwareUnsupportedVersionUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#type DataIntersightFirmwareUnsupportedVersionUpgrade#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#value DataIntersightFirmwareUnsupportedVersionUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#value DataIntersightFirmwareUnsupportedVersionUpgrade#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#ancestor_definitions DataIntersightFirmwareUnsupportedVersionUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#ancestor_definitions DataIntersightFirmwareUnsupportedVersionUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareUnsupportedVersionUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#definition DataIntersightFirmwareUnsupportedVersionUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#definition DataIntersightFirmwareUnsupportedVersionUpgrade#definition}
   */
   readonly definition?: DataIntersightFirmwareUnsupportedVersionUpgradeTagsDefinition;
 }
@@ -4138,7 +4138,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeTagsList extends cdk
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4146,19 +4146,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4171,7 +4171,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4403,7 +4403,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextIntere
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4411,19 +4411,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#moid DataIntersightFirmwareUnsupportedVersionUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4436,7 +4436,7 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#selector DataIntersightFirmwareUnsupportedVersionUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4636,7 +4636,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextRefMoO
 }
 export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#additional_properties DataIntersightFirmwareUnsupportedVersionUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4644,32 +4644,32 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#class_id DataIntersightFirmwareUnsupportedVersionUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#marked_for_deletion DataIntersightFirmwareUnsupportedVersionUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#marked_for_deletion DataIntersightFirmwareUnsupportedVersionUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#nr_version DataIntersightFirmwareUnsupportedVersionUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#nr_version DataIntersightFirmwareUnsupportedVersionUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#object_type DataIntersightFirmwareUnsupportedVersionUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#timestamp DataIntersightFirmwareUnsupportedVersionUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#timestamp DataIntersightFirmwareUnsupportedVersionUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4680,19 +4680,19 @@ export interface DataIntersightFirmwareUnsupportedVersionUpgradeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#version_type DataIntersightFirmwareUnsupportedVersionUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#version_type DataIntersightFirmwareUnsupportedVersionUpgrade#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#interested_mos DataIntersightFirmwareUnsupportedVersionUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#interested_mos DataIntersightFirmwareUnsupportedVersionUpgrade#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#ref_mo DataIntersightFirmwareUnsupportedVersionUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#ref_mo DataIntersightFirmwareUnsupportedVersionUpgrade#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextRefMo;
 }
@@ -5008,7 +5008,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgradeVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade intersight_firmware_unsupported_version_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade intersight_firmware_unsupported_version_upgrade}
 */
 export class DataIntersightFirmwareUnsupportedVersionUpgrade extends cdktf.TerraformDataSource {
 
@@ -5024,7 +5024,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgrade extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightFirmwareUnsupportedVersionUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareUnsupportedVersionUpgrade to import
-  * @param importFromId The id of the existing DataIntersightFirmwareUnsupportedVersionUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareUnsupportedVersionUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareUnsupportedVersionUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5036,7 +5036,7 @@ export class DataIntersightFirmwareUnsupportedVersionUpgrade extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_unsupported_version_upgrade intersight_firmware_unsupported_version_upgrade} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/firmware_unsupported_version_upgrade intersight_firmware_unsupported_version_upgrade} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5047,8 +5047,8 @@ export class DataIntersightFirmwareUnsupportedVersionUpgrade extends cdktf.Terra
       terraformResourceType: 'intersight_firmware_unsupported_version_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

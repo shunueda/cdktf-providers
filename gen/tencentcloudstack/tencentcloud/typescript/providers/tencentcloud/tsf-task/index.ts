@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TsfTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * execution type, unicast/broadcast.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#execute_type TsfTask#execute_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#execute_type TsfTask#execute_type}
   */
   readonly executeType: string;
   /**
   * deployment group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#group_id TsfTask#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#group_id TsfTask#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#id TsfTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#id TsfTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface TsfTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Program id list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#program_id_list TsfTask#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#program_id_list TsfTask#program_id_list}
   */
   readonly programIdList?: string[];
   /**
   * number of retries, 0 &amp;lt;= RetryCount&amp;lt;= 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#retry_count TsfTask#retry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#retry_count TsfTask#retry_count}
   */
   readonly retryCount?: number;
   /**
   * retry interval, 0 &amp;lt;= RetryInterval &amp;lt;= 600000, time unit ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#retry_interval TsfTask#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#retry_interval TsfTask#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * number of shards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#shard_count TsfTask#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#shard_count TsfTask#shard_count}
   */
   readonly shardCount?: number;
   /**
   * the operator to judge the success of the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#success_operator TsfTask#success_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#success_operator TsfTask#success_operator}
   */
   readonly successOperator?: string;
   /**
   * The threshold for judging the success rate of the task, such as 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#success_ratio TsfTask#success_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#success_ratio TsfTask#success_ratio}
   */
   readonly successRatio?: string;
   /**
   * task parameters, the length limit is 10000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#task_argument TsfTask#task_argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#task_argument TsfTask#task_argument}
   */
   readonly taskArgument?: string;
   /**
   * task content, length limit 65536 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#task_content TsfTask#task_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#task_content TsfTask#task_content}
   */
   readonly taskContent: string;
   /**
   * task name, task length 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#task_name TsfTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#task_name TsfTask#task_name}
   */
   readonly taskName: string;
   /**
   * task type, java.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#task_type TsfTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#task_type TsfTask#task_type}
   */
   readonly taskType: string;
   /**
   * task timeout, time unit ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#time_out TsfTask#time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#time_out TsfTask#time_out}
   */
   readonly timeOut: number;
   /**
   * advance_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#advance_settings TsfTask#advance_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#advance_settings TsfTask#advance_settings}
   */
   readonly advanceSettings?: TsfTaskAdvanceSettings;
   /**
   * shard_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#shard_arguments TsfTask#shard_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#shard_arguments TsfTask#shard_arguments}
   */
   readonly shardArguments?: TsfTaskShardArguments[] | cdktf.IResolvable;
   /**
   * task_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#task_rule TsfTask#task_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#task_rule TsfTask#task_rule}
   */
   readonly taskRule?: TsfTaskTaskRule;
 }
@@ -115,7 +115,7 @@ export interface TsfTaskAdvanceSettings {
   /**
   * Subtask single-machine concurrency limit, the default value is 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#sub_task_concurrency TsfTask#sub_task_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#sub_task_concurrency TsfTask#sub_task_concurrency}
   */
   readonly subTaskConcurrency?: number;
 }
@@ -201,13 +201,13 @@ export interface TsfTaskShardArguments {
   /**
   * Sharding parameter KEY, integer, range [1,1000].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#shard_key TsfTask#shard_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#shard_key TsfTask#shard_key}
   */
   readonly shardKey: number;
   /**
   * Shard parameter VALUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#shard_value TsfTask#shard_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#shard_value TsfTask#shard_value}
   */
   readonly shardValue: string;
 }
@@ -348,19 +348,19 @@ export interface TsfTaskTaskRule {
   /**
   * Cron type rule, cron expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#expression TsfTask#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#expression TsfTask#expression}
   */
   readonly expression?: string;
   /**
   * time interval, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#repeat_interval TsfTask#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#repeat_interval TsfTask#repeat_interval}
   */
   readonly repeatInterval?: number;
   /**
   * trigger rule type, Cron/Repeat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#rule_type TsfTask#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#rule_type TsfTask#rule_type}
   */
   readonly ruleType: string;
 }
@@ -499,7 +499,7 @@ export class TsfTaskTaskRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task tencentcloud_tsf_task}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task tencentcloud_tsf_task}
 */
 export class TsfTask extends cdktf.TerraformResource {
 
@@ -515,7 +515,7 @@ export class TsfTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfTask to import
-  * @param importFromId The id of the existing TsfTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class TsfTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/tsf_task tencentcloud_tsf_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/tsf_task tencentcloud_tsf_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class TsfTask extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_task',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightComputeServerPowerPolicyConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#account_moid DataIntersightComputeServerPowerPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#account_moid DataIntersightComputeServerPowerPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightComputeServerPowerPolicyConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#create_time DataIntersightComputeServerPowerPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#create_time DataIntersightComputeServerPowerPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#description DataIntersightComputeServerPowerPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#description DataIntersightComputeServerPowerPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#domain_group_moid DataIntersightComputeServerPowerPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#domain_group_moid DataIntersightComputeServerPowerPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#id DataIntersightComputeServerPowerPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#id DataIntersightComputeServerPowerPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,30 +53,30 @@ export interface DataIntersightComputeServerPowerPolicyConfig extends cdktf.Terr
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#mod_time DataIntersightComputeServerPowerPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#mod_time DataIntersightComputeServerPowerPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#name DataIntersightComputeServerPowerPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#name DataIntersightComputeServerPowerPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#owners DataIntersightComputeServerPowerPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#owners DataIntersightComputeServerPowerPolicy#owners}
   */
   readonly owners?: string[];
   /**
@@ -89,74 +89,74 @@ export interface DataIntersightComputeServerPowerPolicyConfig extends cdktf.Terr
   * * `Shutdown` - Operating system on the server is shut down.
   * * `Reboot` - Power state of IMC is rebooted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#power_state DataIntersightComputeServerPowerPolicy#power_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#power_state DataIntersightComputeServerPowerPolicy#power_state}
   */
   readonly powerState?: string;
   /**
   * The name of the server it is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#server_name DataIntersightComputeServerPowerPolicy#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#server_name DataIntersightComputeServerPowerPolicy#server_name}
   */
   readonly serverName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#shared_scope DataIntersightComputeServerPowerPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#shared_scope DataIntersightComputeServerPowerPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#ancestors DataIntersightComputeServerPowerPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#ancestors DataIntersightComputeServerPowerPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightComputeServerPowerPolicyAncestors[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#organization DataIntersightComputeServerPowerPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#organization DataIntersightComputeServerPowerPolicy#organization}
   */
   readonly organization?: DataIntersightComputeServerPowerPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#parent DataIntersightComputeServerPowerPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#parent DataIntersightComputeServerPowerPolicy#parent}
   */
   readonly parent?: DataIntersightComputeServerPowerPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#permission_resources DataIntersightComputeServerPowerPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#permission_resources DataIntersightComputeServerPowerPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightComputeServerPowerPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#profiles DataIntersightComputeServerPowerPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#profiles DataIntersightComputeServerPowerPolicy#profiles}
   */
   readonly profiles?: DataIntersightComputeServerPowerPolicyProfiles[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#registered_device DataIntersightComputeServerPowerPolicy#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#registered_device DataIntersightComputeServerPowerPolicy#registered_device}
   */
   readonly registeredDevice?: DataIntersightComputeServerPowerPolicyRegisteredDevice;
   /**
   * server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#server DataIntersightComputeServerPowerPolicy#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#server DataIntersightComputeServerPowerPolicy#server}
   */
   readonly server?: DataIntersightComputeServerPowerPolicyServer;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#tags DataIntersightComputeServerPowerPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#tags DataIntersightComputeServerPowerPolicy#tags}
   */
   readonly tags?: DataIntersightComputeServerPowerPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#version_context DataIntersightComputeServerPowerPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#version_context DataIntersightComputeServerPowerPolicy#version_context}
   */
   readonly versionContext?: DataIntersightComputeServerPowerPolicyVersionContext;
 }
@@ -1630,7 +1630,7 @@ export class DataIntersightComputeServerPowerPolicyResultsList extends cdktf.Com
 }
 export interface DataIntersightComputeServerPowerPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1638,19 +1638,19 @@ export interface DataIntersightComputeServerPowerPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1663,7 +1663,7 @@ export interface DataIntersightComputeServerPowerPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1895,7 +1895,7 @@ export class DataIntersightComputeServerPowerPolicyAncestorsList extends cdktf.C
 }
 export interface DataIntersightComputeServerPowerPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1903,19 +1903,19 @@ export interface DataIntersightComputeServerPowerPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1928,7 +1928,7 @@ export interface DataIntersightComputeServerPowerPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2128,7 +2128,7 @@ export class DataIntersightComputeServerPowerPolicyOrganizationOutputReference e
 }
 export interface DataIntersightComputeServerPowerPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2136,19 +2136,19 @@ export interface DataIntersightComputeServerPowerPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2161,7 +2161,7 @@ export interface DataIntersightComputeServerPowerPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2361,7 +2361,7 @@ export class DataIntersightComputeServerPowerPolicyParentOutputReference extends
 }
 export interface DataIntersightComputeServerPowerPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2369,19 +2369,19 @@ export interface DataIntersightComputeServerPowerPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2394,7 +2394,7 @@ export interface DataIntersightComputeServerPowerPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2626,7 +2626,7 @@ export class DataIntersightComputeServerPowerPolicyPermissionResourcesList exten
 }
 export interface DataIntersightComputeServerPowerPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2634,19 +2634,19 @@ export interface DataIntersightComputeServerPowerPolicyProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2659,7 +2659,7 @@ export interface DataIntersightComputeServerPowerPolicyProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2891,7 +2891,7 @@ export class DataIntersightComputeServerPowerPolicyProfilesList extends cdktf.Co
 }
 export interface DataIntersightComputeServerPowerPolicyRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2899,19 +2899,19 @@ export interface DataIntersightComputeServerPowerPolicyRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2924,7 +2924,7 @@ export interface DataIntersightComputeServerPowerPolicyRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3124,7 +3124,7 @@ export class DataIntersightComputeServerPowerPolicyRegisteredDeviceOutputReferen
 }
 export interface DataIntersightComputeServerPowerPolicyServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3132,19 +3132,19 @@ export interface DataIntersightComputeServerPowerPolicyServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3157,7 +3157,7 @@ export interface DataIntersightComputeServerPowerPolicyServer {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3357,7 +3357,7 @@ export class DataIntersightComputeServerPowerPolicyServerOutputReference extends
 }
 export interface DataIntersightComputeServerPowerPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3365,19 +3365,19 @@ export interface DataIntersightComputeServerPowerPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3390,7 +3390,7 @@ export interface DataIntersightComputeServerPowerPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3622,7 +3622,7 @@ export class DataIntersightComputeServerPowerPolicyTagsAncestorDefinitionsList e
 }
 export interface DataIntersightComputeServerPowerPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3630,19 +3630,19 @@ export interface DataIntersightComputeServerPowerPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3655,7 +3655,7 @@ export interface DataIntersightComputeServerPowerPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3855,25 +3855,25 @@ export class DataIntersightComputeServerPowerPolicyTagsDefinitionOutputReference
 }
 export interface DataIntersightComputeServerPowerPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#key DataIntersightComputeServerPowerPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#key DataIntersightComputeServerPowerPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#propagated DataIntersightComputeServerPowerPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#propagated DataIntersightComputeServerPowerPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#sys_tag DataIntersightComputeServerPowerPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#sys_tag DataIntersightComputeServerPowerPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3881,25 +3881,25 @@ export interface DataIntersightComputeServerPowerPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#type DataIntersightComputeServerPowerPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#type DataIntersightComputeServerPowerPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#value DataIntersightComputeServerPowerPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#value DataIntersightComputeServerPowerPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#ancestor_definitions DataIntersightComputeServerPowerPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#ancestor_definitions DataIntersightComputeServerPowerPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightComputeServerPowerPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#definition DataIntersightComputeServerPowerPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#definition DataIntersightComputeServerPowerPolicy#definition}
   */
   readonly definition?: DataIntersightComputeServerPowerPolicyTagsDefinition;
 }
@@ -4218,7 +4218,7 @@ export class DataIntersightComputeServerPowerPolicyTagsList extends cdktf.Comple
 }
 export interface DataIntersightComputeServerPowerPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4226,19 +4226,19 @@ export interface DataIntersightComputeServerPowerPolicyVersionContextInterestedM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4251,7 +4251,7 @@ export interface DataIntersightComputeServerPowerPolicyVersionContextInterestedM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4483,7 +4483,7 @@ export class DataIntersightComputeServerPowerPolicyVersionContextInterestedMosLi
 }
 export interface DataIntersightComputeServerPowerPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4491,19 +4491,19 @@ export interface DataIntersightComputeServerPowerPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#moid DataIntersightComputeServerPowerPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4516,7 +4516,7 @@ export interface DataIntersightComputeServerPowerPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#selector DataIntersightComputeServerPowerPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4716,7 +4716,7 @@ export class DataIntersightComputeServerPowerPolicyVersionContextRefMoOutputRefe
 }
 export interface DataIntersightComputeServerPowerPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#additional_properties DataIntersightComputeServerPowerPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4724,32 +4724,32 @@ export interface DataIntersightComputeServerPowerPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#class_id DataIntersightComputeServerPowerPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#marked_for_deletion DataIntersightComputeServerPowerPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#marked_for_deletion DataIntersightComputeServerPowerPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#nr_version DataIntersightComputeServerPowerPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#nr_version DataIntersightComputeServerPowerPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#object_type DataIntersightComputeServerPowerPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#timestamp DataIntersightComputeServerPowerPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#timestamp DataIntersightComputeServerPowerPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4760,19 +4760,19 @@ export interface DataIntersightComputeServerPowerPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#version_type DataIntersightComputeServerPowerPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#version_type DataIntersightComputeServerPowerPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#interested_mos DataIntersightComputeServerPowerPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#interested_mos DataIntersightComputeServerPowerPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightComputeServerPowerPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#ref_mo DataIntersightComputeServerPowerPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#ref_mo DataIntersightComputeServerPowerPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightComputeServerPowerPolicyVersionContextRefMo;
 }
@@ -5088,7 +5088,7 @@ export class DataIntersightComputeServerPowerPolicyVersionContextOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy intersight_compute_server_power_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy intersight_compute_server_power_policy}
 */
 export class DataIntersightComputeServerPowerPolicy extends cdktf.TerraformDataSource {
 
@@ -5104,7 +5104,7 @@ export class DataIntersightComputeServerPowerPolicy extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataIntersightComputeServerPowerPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightComputeServerPowerPolicy to import
-  * @param importFromId The id of the existing DataIntersightComputeServerPowerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightComputeServerPowerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightComputeServerPowerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5116,7 +5116,7 @@ export class DataIntersightComputeServerPowerPolicy extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/compute_server_power_policy intersight_compute_server_power_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/compute_server_power_policy intersight_compute_server_power_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5127,8 +5127,8 @@ export class DataIntersightComputeServerPowerPolicy extends cdktf.TerraformDataS
       terraformResourceType: 'intersight_compute_server_power_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

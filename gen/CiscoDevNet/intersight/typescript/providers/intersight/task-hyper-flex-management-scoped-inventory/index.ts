@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TaskHyperFlexManagementScopedInventoryConfig extends cdktf.Terr
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#account_moid TaskHyperFlexManagementScopedInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#account_moid TaskHyperFlexManagementScopedInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#ancestors TaskHyperFlexManagementScopedInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#ancestors TaskHyperFlexManagementScopedInventory#ancestors}
   */
   readonly ancestors?: TaskHyperFlexManagementScopedInventoryAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface TaskHyperFlexManagementScopedInventoryConfig extends cdktf.Terr
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#create_time TaskHyperFlexManagementScopedInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#create_time TaskHyperFlexManagementScopedInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#domain_group_moid TaskHyperFlexManagementScopedInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#domain_group_moid TaskHyperFlexManagementScopedInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#id TaskHyperFlexManagementScopedInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#id TaskHyperFlexManagementScopedInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,111 +53,111 @@ export interface TaskHyperFlexManagementScopedInventoryConfig extends cdktf.Terr
   /**
   * Device will immediately collect the objects from the platform. If false, the device will wait for any in flight scheduled collections to complete first. Used to ensure that any long running collections do not delay the scoped collection result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#immediate TaskHyperFlexManagementScopedInventory#immediate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#immediate TaskHyperFlexManagementScopedInventory#immediate}
   */
   readonly immediate?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#mod_time TaskHyperFlexManagementScopedInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#mod_time TaskHyperFlexManagementScopedInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
   * A property that uniquely identifies the object to be inventoried as a part of the scoped inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#naming_property TaskHyperFlexManagementScopedInventory#naming_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#naming_property TaskHyperFlexManagementScopedInventory#naming_property}
   */
   readonly namingProperty?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#owners TaskHyperFlexManagementScopedInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#owners TaskHyperFlexManagementScopedInventory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#parent TaskHyperFlexManagementScopedInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#parent TaskHyperFlexManagementScopedInventory#parent}
   */
   readonly parent?: TaskHyperFlexManagementScopedInventoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#permission_resources TaskHyperFlexManagementScopedInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#permission_resources TaskHyperFlexManagementScopedInventory#permission_resources}
   */
   readonly permissionResources?: TaskHyperFlexManagementScopedInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Set of queries to identify objects to be inventoried as part of this scoped inventory action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#queries TaskHyperFlexManagementScopedInventory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#queries TaskHyperFlexManagementScopedInventory#queries}
   */
   readonly queries?: string;
   /**
   * A reference to a assetDeviceRegistration resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#registered_device TaskHyperFlexManagementScopedInventory#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#registered_device TaskHyperFlexManagementScopedInventory#registered_device}
   */
   readonly registeredDevice?: TaskHyperFlexManagementScopedInventoryRegisteredDevice[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#shared_scope TaskHyperFlexManagementScopedInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#shared_scope TaskHyperFlexManagementScopedInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#tags TaskHyperFlexManagementScopedInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#tags TaskHyperFlexManagementScopedInventory#tags}
   */
   readonly tags?: TaskHyperFlexManagementScopedInventoryTags[] | cdktf.IResolvable;
   /**
   * Type of the object for which scoped inventory needs to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#type TaskHyperFlexManagementScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#type TaskHyperFlexManagementScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#values TaskHyperFlexManagementScopedInventory#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#values TaskHyperFlexManagementScopedInventory#values}
   */
   readonly values?: string[];
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#version_context TaskHyperFlexManagementScopedInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#version_context TaskHyperFlexManagementScopedInventory#version_context}
   */
   readonly versionContext?: TaskHyperFlexManagementScopedInventoryVersionContext[] | cdktf.IResolvable;
 }
 export interface TaskHyperFlexManagementScopedInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -389,23 +389,23 @@ export class TaskHyperFlexManagementScopedInventoryAncestorsList extends cdktf.C
 }
 export interface TaskHyperFlexManagementScopedInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -637,23 +637,23 @@ export class TaskHyperFlexManagementScopedInventoryParentList extends cdktf.Comp
 }
 export interface TaskHyperFlexManagementScopedInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -885,23 +885,23 @@ export class TaskHyperFlexManagementScopedInventoryPermissionResourcesList exten
 }
 export interface TaskHyperFlexManagementScopedInventoryRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1133,23 +1133,23 @@ export class TaskHyperFlexManagementScopedInventoryRegisteredDeviceList extends 
 }
 export interface TaskHyperFlexManagementScopedInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1381,23 +1381,23 @@ export class TaskHyperFlexManagementScopedInventoryTagsAncestorDefinitionsList e
 }
 export interface TaskHyperFlexManagementScopedInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1629,35 +1629,35 @@ export class TaskHyperFlexManagementScopedInventoryTagsDefinitionList extends cd
 }
 export interface TaskHyperFlexManagementScopedInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#ancestor_definitions TaskHyperFlexManagementScopedInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#ancestor_definitions TaskHyperFlexManagementScopedInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TaskHyperFlexManagementScopedInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#definition TaskHyperFlexManagementScopedInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#definition TaskHyperFlexManagementScopedInventory#definition}
   */
   readonly definition?: TaskHyperFlexManagementScopedInventoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#key TaskHyperFlexManagementScopedInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#key TaskHyperFlexManagementScopedInventory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#propagated TaskHyperFlexManagementScopedInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#propagated TaskHyperFlexManagementScopedInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#sys_tag TaskHyperFlexManagementScopedInventory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#sys_tag TaskHyperFlexManagementScopedInventory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#type TaskHyperFlexManagementScopedInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#type TaskHyperFlexManagementScopedInventory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#value TaskHyperFlexManagementScopedInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#value TaskHyperFlexManagementScopedInventory#value}
   */
   readonly value?: string;
 }
@@ -1976,23 +1976,23 @@ export class TaskHyperFlexManagementScopedInventoryTagsList extends cdktf.Comple
 }
 export interface TaskHyperFlexManagementScopedInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2224,23 +2224,23 @@ export class TaskHyperFlexManagementScopedInventoryVersionContextInterestedMosLi
 }
 export interface TaskHyperFlexManagementScopedInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#moid TaskHyperFlexManagementScopedInventory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#selector TaskHyperFlexManagementScopedInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2472,39 +2472,39 @@ export class TaskHyperFlexManagementScopedInventoryVersionContextRefMoList exten
 }
 export interface TaskHyperFlexManagementScopedInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#additional_properties TaskHyperFlexManagementScopedInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#class_id TaskHyperFlexManagementScopedInventory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#interested_mos TaskHyperFlexManagementScopedInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#interested_mos TaskHyperFlexManagementScopedInventory#interested_mos}
   */
   readonly interestedMos?: TaskHyperFlexManagementScopedInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#marked_for_deletion TaskHyperFlexManagementScopedInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#marked_for_deletion TaskHyperFlexManagementScopedInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#nr_version TaskHyperFlexManagementScopedInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#nr_version TaskHyperFlexManagementScopedInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#object_type TaskHyperFlexManagementScopedInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#ref_mo TaskHyperFlexManagementScopedInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#ref_mo TaskHyperFlexManagementScopedInventory#ref_mo}
   */
   readonly refMo?: TaskHyperFlexManagementScopedInventoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#timestamp TaskHyperFlexManagementScopedInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#timestamp TaskHyperFlexManagementScopedInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#version_type TaskHyperFlexManagementScopedInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#version_type TaskHyperFlexManagementScopedInventory#version_type}
   */
   readonly versionType?: string;
 }
@@ -2852,7 +2852,7 @@ export class TaskHyperFlexManagementScopedInventoryVersionContextList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory intersight_task_hyper_flex_management_scoped_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory intersight_task_hyper_flex_management_scoped_inventory}
 */
 export class TaskHyperFlexManagementScopedInventory extends cdktf.TerraformResource {
 
@@ -2868,7 +2868,7 @@ export class TaskHyperFlexManagementScopedInventory extends cdktf.TerraformResou
   * Generates CDKTF code for importing a TaskHyperFlexManagementScopedInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskHyperFlexManagementScopedInventory to import
-  * @param importFromId The id of the existing TaskHyperFlexManagementScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskHyperFlexManagementScopedInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskHyperFlexManagementScopedInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2880,7 +2880,7 @@ export class TaskHyperFlexManagementScopedInventory extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/task_hyper_flex_management_scoped_inventory intersight_task_hyper_flex_management_scoped_inventory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/task_hyper_flex_management_scoped_inventory intersight_task_hyper_flex_management_scoped_inventory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2891,8 +2891,8 @@ export class TaskHyperFlexManagementScopedInventory extends cdktf.TerraformResou
       terraformResourceType: 'intersight_task_hyper_flex_management_scoped_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

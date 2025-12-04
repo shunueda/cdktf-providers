@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CdcSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Site Detail Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#address_line CdcSite#address_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#address_line CdcSite#address_line}
   */
   readonly addressLine: string;
   /**
   * Whether there is an upstream circuit breaker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#breaker_requirement CdcSite#breaker_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#breaker_requirement CdcSite#breaker_requirement}
   */
   readonly breakerRequirement?: boolean | cdktf.IResolvable;
   /**
   * Site City.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#city CdcSite#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#city CdcSite#city}
   */
   readonly city: string;
   /**
   * Whether the following environmental conditions are met: n1. There are no material requirements or the acceptance standard on site that will affect the delivery and installation of the CDC device. n2. The following conditions are met for finalized rack positions: Temperature ranges from 41 to 104 degrees F (5 to 40 degrees C). Humidity ranges from 10 degrees F (-12 degrees C) to 70 degrees F (21 degrees C) and relative humidity ranges from 8% RH to 80% RH. Air flows from front to back at the rack position and there is sufficient air in CFM (cubic feet per minute). The air quantity in CFM must be 145.8 times the power consumption (in KVA) of CDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#condition_requirement CdcSite#condition_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#condition_requirement CdcSite#condition_requirement}
   */
   readonly conditionRequirement?: boolean | cdktf.IResolvable;
   /**
   * Site Country.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#country CdcSite#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#country CdcSite#country}
   */
   readonly country: string;
   /**
   * Site Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#description CdcSite#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#description CdcSite#description}
   */
   readonly description?: string;
   /**
   * Whether the following dimension conditions are met: Your loading dock can accommodate one rack container (H x W x D = 94 x 54 x 48). You can provide a clear route from the delivery point of your rack (H x W x D = 80 x 24 x 48) to its final installation location. You should consider platforms, corridors, doors, turns, ramps, freight elevators as well as other access restrictions when measuring the depth. There shall be a 48 or greater front clearance and a 24 or greater rear clearance where the CDC is finally installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#dimension_requirement CdcSite#dimension_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#dimension_requirement CdcSite#dimension_requirement}
   */
   readonly dimensionRequirement?: boolean | cdktf.IResolvable;
   /**
   * Site Fiber Type. Using optical fiber type to connect the CDC device to the network SM(Single-Mode) or MM(Multi-Mode) fibers are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#fiber_type CdcSite#fiber_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#fiber_type CdcSite#fiber_type}
   */
   readonly fiberType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#id CdcSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#id CdcSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,85 +65,85 @@ export interface CdcSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Site Max Weight capacity (KG).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#max_weight CdcSite#max_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#max_weight CdcSite#max_weight}
   */
   readonly maxWeight?: number;
   /**
   * Site Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#name CdcSite#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#name CdcSite#name}
   */
   readonly name: string;
   /**
   * Whether you need help from Tencent Cloud for rack installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#need_help CdcSite#need_help}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#need_help CdcSite#need_help}
   */
   readonly needHelp?: boolean | cdktf.IResolvable;
   /**
   * Site Optical Standard. Optical standard used to connect the CDC device to the network This field depends on the uplink speed, optical fiber type, and distance to upstream equipment. Allow value: `SM`, `MM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#optical_standard CdcSite#optical_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#optical_standard CdcSite#optical_standard}
   */
   readonly opticalStandard?: string;
   /**
   * Detailed address of the site area (to be added).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#optional_address_line CdcSite#optional_address_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#optional_address_line CdcSite#optional_address_line}
   */
   readonly optionalAddressLine?: string;
   /**
   * Site Power Connectors. Example: 380VAC3P.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#power_connectors CdcSite#power_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#power_connectors CdcSite#power_connectors}
   */
   readonly powerConnectors?: string;
   /**
   * Site Power DrawKva (KW).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#power_draw_kva CdcSite#power_draw_kva}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#power_draw_kva CdcSite#power_draw_kva}
   */
   readonly powerDrawKva?: number;
   /**
   * Site Power Feed Drop. Whether power is supplied from above or below the rack. Allow value: `UP`, `DOWN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#power_feed_drop CdcSite#power_feed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#power_feed_drop CdcSite#power_feed_drop}
   */
   readonly powerFeedDrop?: string;
   /**
   * Site Province.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#province CdcSite#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#province CdcSite#province}
   */
   readonly province: string;
   /**
   * Whether redundant upstream equipment (switch or router) is provided so that both network devices can be connected to the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#redundant_networking CdcSite#redundant_networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#redundant_networking CdcSite#redundant_networking}
   */
   readonly redundantNetworking?: boolean | cdktf.IResolvable;
   /**
   * Whether there is power redundancy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#redundant_power CdcSite#redundant_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#redundant_power CdcSite#redundant_power}
   */
   readonly redundantPower?: boolean | cdktf.IResolvable;
   /**
   * Number of uplinks used by each CDC device (2 devices per rack) when connected to the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#uplink_count CdcSite#uplink_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#uplink_count CdcSite#uplink_count}
   */
   readonly uplinkCount?: number;
   /**
   * Uplink speed from the network to Tencent Cloud Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#uplink_speed_gbps CdcSite#uplink_speed_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#uplink_speed_gbps CdcSite#uplink_speed_gbps}
   */
   readonly uplinkSpeedGbps?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site tencentcloud_cdc_site}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site tencentcloud_cdc_site}
 */
 export class CdcSite extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class CdcSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdcSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdcSite to import
-  * @param importFromId The id of the existing CdcSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdcSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdcSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class CdcSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cdc_site tencentcloud_cdc_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cdc_site tencentcloud_cdc_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class CdcSite extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cdc_site',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

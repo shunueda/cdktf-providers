@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NatGatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#description NatGatewaySnat#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#description NatGatewaySnat#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#id NatGatewaySnat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#id NatGatewaySnat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface NatGatewaySnatConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID, required when `resource_type` is NETWORKINTERFACE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#instance_id NatGatewaySnat#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#instance_id NatGatewaySnat#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Private IPs of the instance's primary ENI, required when `resource_type` is NETWORKINTERFACE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#instance_private_ip_addr NatGatewaySnat#instance_private_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#instance_private_ip_addr NatGatewaySnat#instance_private_ip_addr}
   */
   readonly instancePrivateIpAddr?: string;
   /**
   * NAT gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#nat_gateway_id NatGatewaySnat#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#nat_gateway_id NatGatewaySnat#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
   * Elastic IP address pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#public_ip_addr NatGatewaySnat#public_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#public_ip_addr NatGatewaySnat#public_ip_addr}
   */
   readonly publicIpAddr: string[];
   /**
   * Resource type. Valid values: SUBNET, NETWORKINTERFACE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#resource_type NatGatewaySnat#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#resource_type NatGatewaySnat#resource_type}
   */
   readonly resourceType: string;
   /**
   * The IPv4 CIDR of the subnet, required when `resource_type` is SUBNET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#subnet_cidr_block NatGatewaySnat#subnet_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#subnet_cidr_block NatGatewaySnat#subnet_cidr_block}
   */
   readonly subnetCidrBlock?: string;
   /**
   * Subnet instance ID, required when `resource_type` is SUBNET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#subnet_id NatGatewaySnat#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#subnet_id NatGatewaySnat#subnet_id}
   */
   readonly subnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat tencentcloud_nat_gateway_snat}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat tencentcloud_nat_gateway_snat}
 */
 export class NatGatewaySnat extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class NatGatewaySnat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NatGatewaySnat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NatGatewaySnat to import
-  * @param importFromId The id of the existing NatGatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NatGatewaySnat that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NatGatewaySnat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class NatGatewaySnat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/nat_gateway_snat tencentcloud_nat_gateway_snat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/nat_gateway_snat tencentcloud_nat_gateway_snat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class NatGatewaySnat extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_nat_gateway_snat',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

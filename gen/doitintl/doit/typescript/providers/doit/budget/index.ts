@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget
+// https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,105 +8,137 @@ import * as cdktf from 'cdktf';
 
 export interface BudgetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#alerts Budget#alerts}
+  * List of up to three thresholds defined as percentage of amount
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#alerts Budget#alerts}
   */
   readonly alerts?: BudgetAlerts[] | cdktf.IResolvable;
   /**
-  * Budget period required: true(if usePrevSpend is false)
+  * Budget period amount. Required if usePrevSpend is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#amount Budget#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#amount Budget#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#collaborators Budget#collaborators}
-  */
-  readonly collaborators: BudgetCollaborators[] | cdktf.IResolvable;
-  /**
-  * Budget currency can be one of: ["USD","ILS","EUR","GBP","AUD","CAD","DKK","NOK","SEK","BRL","SGD","MXN","CHF","MYR","TWD","EGP","ZAR"]
+  * List of permitted users to view/edit the report
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#currency Budget#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#collaborators Budget#collaborators}
+  */
+  readonly collaborators?: BudgetCollaborators[] | cdktf.IResolvable;
+  /**
+  * Budget currency. Possible values are:
+  * 'USD'
+  * 'ILS'
+  * 'EUR'
+  * 'AUD'
+  * 'CAD'
+  * 'GBP'
+  * 'DKK'
+  * 'NOK'
+  * 'SEK'
+  * 'BRL'
+  * 'SGD'
+  * 'MXN'
+  * 'CHF'
+  * 'MYR'
+  * 'TWD'
+  * 'EGP'
+  * 'ZAR'
+  * 'JPY'
+  * 'IDR'
+  * 'AED'
+  * 'COP'
+  * 'THB'
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#currency Budget#currency}
   */
   readonly currency: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#description Budget#description}
+  * Budget description
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#description Budget#description}
   */
   readonly description?: string;
   /**
-  * Fixed budget end date required: true(if budget type is fixed)
+  * Fixed budget end date. Required if budget type is fixed. In milliseconds since the epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#end_period Budget#end_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#end_period Budget#end_period}
   */
   readonly endPeriod?: number;
   /**
   * Periodical growth percentage in recurring budget
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#growth_per_period Budget#growth_per_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#growth_per_period Budget#growth_per_period}
   */
   readonly growthPerPeriod?: number;
   /**
   * Budget metric  - currently fixed to "cost"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#metric Budget#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#metric Budget#metric}
   */
   readonly metric?: string;
   /**
-  * Name Budget Name
+  * Budget Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#name Budget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#name Budget#name}
   */
   readonly name: string;
   /**
   * Public
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#public Budget#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#public Budget#public}
   */
   readonly public?: string;
   /**
   * List of emails to notify when reaching alert threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#recipients Budget#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#recipients Budget#recipients}
   */
-  readonly recipients: string[];
+  readonly recipients?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#recipients_slack_channels Budget#recipients_slack_channels}
+  * List of slack channels to notify when reaching alert threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#recipients_slack_channels Budget#recipients_slack_channels}
   */
   readonly recipientsSlackChannels?: BudgetRecipientsSlackChannels[] | cdktf.IResolvable;
   /**
-  * List of budges that defines that budget scope
+  * List of attributions that defines that budget scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#scope Budget#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#scope Budget#scope}
   */
   readonly scope: string[];
   /**
-  * Budget start Date
+  * Budget start Date, in milliseconds since the epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#start_period Budget#start_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#start_period Budget#start_period}
   */
-  readonly startPeriod?: number;
+  readonly startPeriod: number;
   /**
   * Recurring budget interval can be on of:["day", "week", "month", "quarter","year]"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#time_interval Budget#time_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#time_interval Budget#time_interval}
   */
   readonly timeInterval?: string;
   /**
   * Budget type can be one of: ["fixed", "recurring"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#type Budget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#type Budget#type}
   */
   readonly type: string;
   /**
   * Use the last period's spend as the target amount for recurring budgets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#use_prev_spend Budget#use_prev_spend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#use_prev_spend Budget#use_prev_spend}
   */
   readonly usePrevSpend?: boolean | cdktf.IResolvable;
 }
 export interface BudgetAlerts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#percentage Budget#percentage}
+  * Percentage of the budget amount
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#percentage Budget#percentage}
   */
-  readonly percentage?: number;
+  readonly percentage: number;
 }
 
 export function budgetAlertsToTerraform(struct?: BudgetAlerts | cdktf.IResolvable): any {
@@ -182,16 +214,13 @@ export class BudgetAlertsOutputReference extends cdktf.ComplexObject {
     }
   }
 
-  // percentage - computed: true, optional: true, required: false
+  // percentage - computed: false, optional: false, required: true
   private _percentage?: number; 
   public get percentage() {
     return this.getNumberAttribute('percentage');
   }
   public set percentage(value: number) {
     this._percentage = value;
-  }
-  public resetPercentage() {
-    this._percentage = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get percentageInput() {
@@ -220,15 +249,15 @@ export class BudgetAlertsList extends cdktf.ComplexList {
 }
 export interface BudgetCollaborators {
   /**
-  * Collaborator email
+  * Email of the collaborator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#email Budget#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#email Budget#email}
   */
   readonly email: string;
   /**
-  * Collaborator role
+  * Role of the collaborator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#role Budget#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#role Budget#role}
   */
   readonly role: string;
 }
@@ -367,42 +396,44 @@ export class BudgetCollaboratorsList extends cdktf.ComplexList {
 }
 export interface BudgetRecipientsSlackChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#customer_id Budget#customer_id}
+  * Customer ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#customer_id Budget#customer_id}
   */
-  readonly customerId?: string;
+  readonly customerId: string;
   /**
   * Slack channel ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#id Budget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#id Budget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
-  readonly id?: string;
+  readonly id: string;
   /**
   * Slack channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#name Budget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#name Budget#name}
   */
-  readonly name?: string;
+  readonly name: string;
   /**
-  * Slack channel shared
+  * Whether the channel is shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#shared Budget#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#shared Budget#shared}
   */
-  readonly shared?: boolean | cdktf.IResolvable;
+  readonly shared: boolean | cdktf.IResolvable;
   /**
-  * Slack channel type
+  * Type of the channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#type Budget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#type Budget#type}
   */
-  readonly type?: string;
+  readonly type: string;
   /**
-  * Slack channel workspace
+  * Slack workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#workspace Budget#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#workspace Budget#workspace}
   */
-  readonly workspace?: string;
+  readonly workspace: string;
 }
 
 export function budgetRecipientsSlackChannelsToTerraform(struct?: BudgetRecipientsSlackChannels | cdktf.IResolvable): any {
@@ -543,7 +574,7 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
     }
   }
 
-  // customer_id - computed: false, optional: true, required: false
+  // customer_id - computed: false, optional: false, required: true
   private _customerId?: string; 
   public get customerId() {
     return this.getStringAttribute('customer_id');
@@ -551,15 +582,12 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
   public set customerId(value: string) {
     this._customerId = value;
   }
-  public resetCustomerId() {
-    this._customerId = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get customerIdInput() {
     return this._customerId;
   }
 
-  // id - computed: false, optional: true, required: false
+  // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
@@ -567,15 +595,12 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
   public set id(value: string) {
     this._id = value;
   }
-  public resetId() {
-    this._id = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
   }
 
-  // name - computed: false, optional: true, required: false
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -583,15 +608,12 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
   public set name(value: string) {
     this._name = value;
   }
-  public resetName() {
-    this._name = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
   }
 
-  // shared - computed: false, optional: true, required: false
+  // shared - computed: false, optional: false, required: true
   private _shared?: boolean | cdktf.IResolvable; 
   public get shared() {
     return this.getBooleanAttribute('shared');
@@ -599,15 +621,12 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
   public set shared(value: boolean | cdktf.IResolvable) {
     this._shared = value;
   }
-  public resetShared() {
-    this._shared = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get sharedInput() {
     return this._shared;
   }
 
-  // type - computed: false, optional: true, required: false
+  // type - computed: false, optional: false, required: true
   private _type?: string; 
   public get type() {
     return this.getStringAttribute('type');
@@ -615,24 +634,18 @@ export class BudgetRecipientsSlackChannelsOutputReference extends cdktf.ComplexO
   public set type(value: string) {
     this._type = value;
   }
-  public resetType() {
-    this._type = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get typeInput() {
     return this._type;
   }
 
-  // workspace - computed: false, optional: true, required: false
+  // workspace - computed: false, optional: false, required: true
   private _workspace?: string; 
   public get workspace() {
     return this.getStringAttribute('workspace');
   }
   public set workspace(value: string) {
     this._workspace = value;
-  }
-  public resetWorkspace() {
-    this._workspace = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get workspaceInput() {
@@ -661,7 +674,7 @@ export class BudgetRecipientsSlackChannelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget doit_budget}
+* Represents a {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget doit_budget}
 */
 export class Budget extends cdktf.TerraformResource {
 
@@ -677,7 +690,7 @@ export class Budget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Budget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Budget to import
-  * @param importFromId The id of the existing Budget that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Budget that should be imported. Refer to the {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Budget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -689,7 +702,7 @@ export class Budget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.25.0/docs/resources/budget doit_budget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/doitintl/doit/0.26.0/docs/resources/budget doit_budget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -700,8 +713,8 @@ export class Budget extends cdktf.TerraformResource {
       terraformResourceType: 'doit_budget',
       terraformGeneratorMetadata: {
         providerName: 'doit',
-        providerVersion: '0.25.0',
-        providerVersionConstraint: '0.25.0'
+        providerVersion: '0.26.0',
+        providerVersionConstraint: '0.26.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -750,7 +763,7 @@ export class Budget extends cdktf.TerraformResource {
     return this._alerts.internalValue;
   }
 
-  // amount - computed: true, optional: true, required: false
+  // amount - computed: false, optional: true, required: false
   private _amount?: number; 
   public get amount() {
     return this.getNumberAttribute('amount');
@@ -766,13 +779,16 @@ export class Budget extends cdktf.TerraformResource {
     return this._amount;
   }
 
-  // collaborators - computed: false, optional: false, required: true
+  // collaborators - computed: false, optional: true, required: false
   private _collaborators = new BudgetCollaboratorsList(this, "collaborators", false);
   public get collaborators() {
     return this._collaborators;
   }
   public putCollaborators(value: BudgetCollaborators[] | cdktf.IResolvable) {
     this._collaborators.internalValue = value;
+  }
+  public resetCollaborators() {
+    this._collaborators.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get collaboratorsInput() {
@@ -895,13 +911,16 @@ export class Budget extends cdktf.TerraformResource {
     return this._public;
   }
 
-  // recipients - computed: false, optional: false, required: true
+  // recipients - computed: false, optional: true, required: false
   private _recipients?: string[]; 
   public get recipients() {
     return this.getListAttribute('recipients');
   }
   public set recipients(value: string[]) {
     this._recipients = value;
+  }
+  public resetRecipients() {
+    this._recipients = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get recipientsInput() {
@@ -937,16 +956,13 @@ export class Budget extends cdktf.TerraformResource {
     return this._scope;
   }
 
-  // start_period - computed: true, optional: true, required: false
+  // start_period - computed: false, optional: false, required: true
   private _startPeriod?: number; 
   public get startPeriod() {
     return this.getNumberAttribute('start_period');
   }
   public set startPeriod(value: number) {
     this._startPeriod = value;
-  }
-  public resetStartPeriod() {
-    this._startPeriod = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get startPeriodInput() {
@@ -982,7 +998,7 @@ export class Budget extends cdktf.TerraformResource {
     return this._type;
   }
 
-  // use_prev_spend - computed: true, optional: true, required: false
+  // use_prev_spend - computed: false, optional: true, required: false
   private _usePrevSpend?: boolean | cdktf.IResolvable; 
   public get usePrevSpend() {
     return this.getBooleanAttribute('use_prev_spend');

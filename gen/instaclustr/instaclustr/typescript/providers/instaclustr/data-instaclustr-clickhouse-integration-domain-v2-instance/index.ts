@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataInstaclustrClickhouseIntegrationDomainV2InstanceConfig exte
   /**
   * ID of the ClickHouse cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationDomainV2Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#cluster_id DataInstaclustrClickhouseIntegrationDomainV2Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#id DataInstaclustrClickhouseIntegrationDomainV2Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#id DataInstaclustrClickhouseIntegrationDomainV2Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataInstaclustrClickhouseIntegrationDomainV2InstanceConfig exte
   /**
   * domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#domain DataInstaclustrClickhouseIntegrationDomainV2Instance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#domain DataInstaclustrClickhouseIntegrationDomainV2Instance#domain}
   */
   readonly domain?: DataInstaclustrClickhouseIntegrationDomainV2InstanceDomain[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface DataInstaclustrClickhouseIntegrationDomainV2InstanceDomain {
   /**
   * Status of the Domain Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#status DataInstaclustrClickhouseIntegrationDomainV2Instance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#status DataInstaclustrClickhouseIntegrationDomainV2Instance#status}
   */
   readonly status?: string;
   /**
   * Target for the Domain Integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#target DataInstaclustrClickhouseIntegrationDomainV2Instance#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#target DataInstaclustrClickhouseIntegrationDomainV2Instance#target}
   */
   readonly target?: string;
 }
@@ -182,7 +182,7 @@ export class DataInstaclustrClickhouseIntegrationDomainV2InstanceDomainList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance instaclustr_clickhouse_integration_domain_v2_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance instaclustr_clickhouse_integration_domain_v2_instance}
 */
 export class DataInstaclustrClickhouseIntegrationDomainV2Instance extends cdktf.TerraformDataSource {
 
@@ -198,7 +198,7 @@ export class DataInstaclustrClickhouseIntegrationDomainV2Instance extends cdktf.
   * Generates CDKTF code for importing a DataInstaclustrClickhouseIntegrationDomainV2Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrClickhouseIntegrationDomainV2Instance to import
-  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationDomainV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrClickhouseIntegrationDomainV2Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrClickhouseIntegrationDomainV2Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class DataInstaclustrClickhouseIntegrationDomainV2Instance extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.31/docs/data-sources/clickhouse_integration_domain_v2_instance instaclustr_clickhouse_integration_domain_v2_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.32/docs/data-sources/clickhouse_integration_domain_v2_instance instaclustr_clickhouse_integration_domain_v2_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class DataInstaclustrClickhouseIntegrationDomainV2Instance extends cdktf.
       terraformResourceType: 'instaclustr_clickhouse_integration_domain_v2_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.31',
-        providerVersionConstraint: '2.1.31'
+        providerVersion: '2.1.32',
+        providerVersionConstraint: '2.1.32'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

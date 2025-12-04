@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightEquipmentChassisControllerConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#account_moid DataIntersightEquipmentChassisController#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#account_moid DataIntersightEquipmentChassisController#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,31 +22,31 @@ export interface DataIntersightEquipmentChassisControllerConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#create_time DataIntersightEquipmentChassisController#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#create_time DataIntersightEquipmentChassisController#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#device_mo_id DataIntersightEquipmentChassisController#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#device_mo_id DataIntersightEquipmentChassisController#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#dn DataIntersightEquipmentChassisController#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#dn DataIntersightEquipmentChassisController#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#domain_group_moid DataIntersightEquipmentChassisController#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#domain_group_moid DataIntersightEquipmentChassisController#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -54,11 +54,11 @@ export interface DataIntersightEquipmentChassisControllerConfig extends cdktf.Te
   * * `Unknown` - Chassis Controller equipment type is unknown.
   * * `ECMC` - Chassis Controller equipment type is ECMC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#equipment_type DataIntersightEquipmentChassisController#equipment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#equipment_type DataIntersightEquipmentChassisController#equipment_type}
   */
   readonly equipmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#id DataIntersightEquipmentChassisController#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#id DataIntersightEquipmentChassisController#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,131 +67,131 @@ export interface DataIntersightEquipmentChassisControllerConfig extends cdktf.Te
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#is_upgraded DataIntersightEquipmentChassisController#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#is_upgraded DataIntersightEquipmentChassisController#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#mod_time DataIntersightEquipmentChassisController#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#mod_time DataIntersightEquipmentChassisController#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#model DataIntersightEquipmentChassisController#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#model DataIntersightEquipmentChassisController#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#oper_reason DataIntersightEquipmentChassisController#oper_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#oper_reason DataIntersightEquipmentChassisController#oper_reason}
   */
   readonly operReason?: string[];
   /**
   * Operational state of chassis controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#oper_state DataIntersightEquipmentChassisController#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#oper_state DataIntersightEquipmentChassisController#oper_state}
   */
   readonly operState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#owners DataIntersightEquipmentChassisController#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#owners DataIntersightEquipmentChassisController#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#presence DataIntersightEquipmentChassisController#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#presence DataIntersightEquipmentChassisController#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#revision DataIntersightEquipmentChassisController#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#revision DataIntersightEquipmentChassisController#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#rn DataIntersightEquipmentChassisController#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#rn DataIntersightEquipmentChassisController#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#serial DataIntersightEquipmentChassisController#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#serial DataIntersightEquipmentChassisController#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#shared_scope DataIntersightEquipmentChassisController#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#shared_scope DataIntersightEquipmentChassisController#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#vendor DataIntersightEquipmentChassisController#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#vendor DataIntersightEquipmentChassisController#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#ancestors DataIntersightEquipmentChassisController#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#ancestors DataIntersightEquipmentChassisController#ancestors}
   */
   readonly ancestors?: DataIntersightEquipmentChassisControllerAncestors[] | cdktf.IResolvable;
   /**
   * network_element block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#network_element DataIntersightEquipmentChassisController#network_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#network_element DataIntersightEquipmentChassisController#network_element}
   */
   readonly networkElement?: DataIntersightEquipmentChassisControllerNetworkElement;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#parent DataIntersightEquipmentChassisController#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#parent DataIntersightEquipmentChassisController#parent}
   */
   readonly parent?: DataIntersightEquipmentChassisControllerParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#permission_resources DataIntersightEquipmentChassisController#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#permission_resources DataIntersightEquipmentChassisController#permission_resources}
   */
   readonly permissionResources?: DataIntersightEquipmentChassisControllerPermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#previous_fru DataIntersightEquipmentChassisController#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#previous_fru DataIntersightEquipmentChassisController#previous_fru}
   */
   readonly previousFru?: DataIntersightEquipmentChassisControllerPreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#registered_device DataIntersightEquipmentChassisController#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#registered_device DataIntersightEquipmentChassisController#registered_device}
   */
   readonly registeredDevice?: DataIntersightEquipmentChassisControllerRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#tags DataIntersightEquipmentChassisController#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#tags DataIntersightEquipmentChassisController#tags}
   */
   readonly tags?: DataIntersightEquipmentChassisControllerTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#version_context DataIntersightEquipmentChassisController#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#version_context DataIntersightEquipmentChassisController#version_context}
   */
   readonly versionContext?: DataIntersightEquipmentChassisControllerVersionContext;
 }
@@ -1604,7 +1604,7 @@ export class DataIntersightEquipmentChassisControllerResultsList extends cdktf.C
 }
 export interface DataIntersightEquipmentChassisControllerAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1612,19 +1612,19 @@ export interface DataIntersightEquipmentChassisControllerAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1637,7 +1637,7 @@ export interface DataIntersightEquipmentChassisControllerAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -1869,7 +1869,7 @@ export class DataIntersightEquipmentChassisControllerAncestorsList extends cdktf
 }
 export interface DataIntersightEquipmentChassisControllerNetworkElement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1877,19 +1877,19 @@ export interface DataIntersightEquipmentChassisControllerNetworkElement {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1902,7 +1902,7 @@ export interface DataIntersightEquipmentChassisControllerNetworkElement {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -2102,7 +2102,7 @@ export class DataIntersightEquipmentChassisControllerNetworkElementOutputReferen
 }
 export interface DataIntersightEquipmentChassisControllerParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2110,19 +2110,19 @@ export interface DataIntersightEquipmentChassisControllerParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2135,7 +2135,7 @@ export interface DataIntersightEquipmentChassisControllerParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -2335,7 +2335,7 @@ export class DataIntersightEquipmentChassisControllerParentOutputReference exten
 }
 export interface DataIntersightEquipmentChassisControllerPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2343,19 +2343,19 @@ export interface DataIntersightEquipmentChassisControllerPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2368,7 +2368,7 @@ export interface DataIntersightEquipmentChassisControllerPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -2600,7 +2600,7 @@ export class DataIntersightEquipmentChassisControllerPermissionResourcesList ext
 }
 export interface DataIntersightEquipmentChassisControllerPreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2608,19 +2608,19 @@ export interface DataIntersightEquipmentChassisControllerPreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2633,7 +2633,7 @@ export interface DataIntersightEquipmentChassisControllerPreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -2833,7 +2833,7 @@ export class DataIntersightEquipmentChassisControllerPreviousFruOutputReference 
 }
 export interface DataIntersightEquipmentChassisControllerRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2841,19 +2841,19 @@ export interface DataIntersightEquipmentChassisControllerRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2866,7 +2866,7 @@ export interface DataIntersightEquipmentChassisControllerRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -3066,7 +3066,7 @@ export class DataIntersightEquipmentChassisControllerRegisteredDeviceOutputRefer
 }
 export interface DataIntersightEquipmentChassisControllerTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3074,19 +3074,19 @@ export interface DataIntersightEquipmentChassisControllerTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3099,7 +3099,7 @@ export interface DataIntersightEquipmentChassisControllerTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -3331,7 +3331,7 @@ export class DataIntersightEquipmentChassisControllerTagsAncestorDefinitionsList
 }
 export interface DataIntersightEquipmentChassisControllerTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3339,19 +3339,19 @@ export interface DataIntersightEquipmentChassisControllerTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3364,7 +3364,7 @@ export interface DataIntersightEquipmentChassisControllerTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -3564,25 +3564,25 @@ export class DataIntersightEquipmentChassisControllerTagsDefinitionOutputReferen
 }
 export interface DataIntersightEquipmentChassisControllerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#key DataIntersightEquipmentChassisController#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#key DataIntersightEquipmentChassisController#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#propagated DataIntersightEquipmentChassisController#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#propagated DataIntersightEquipmentChassisController#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#sys_tag DataIntersightEquipmentChassisController#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#sys_tag DataIntersightEquipmentChassisController#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3590,25 +3590,25 @@ export interface DataIntersightEquipmentChassisControllerTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#type DataIntersightEquipmentChassisController#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#type DataIntersightEquipmentChassisController#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#value DataIntersightEquipmentChassisController#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#value DataIntersightEquipmentChassisController#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#ancestor_definitions DataIntersightEquipmentChassisController#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#ancestor_definitions DataIntersightEquipmentChassisController#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEquipmentChassisControllerTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#definition DataIntersightEquipmentChassisController#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#definition DataIntersightEquipmentChassisController#definition}
   */
   readonly definition?: DataIntersightEquipmentChassisControllerTagsDefinition;
 }
@@ -3927,7 +3927,7 @@ export class DataIntersightEquipmentChassisControllerTagsList extends cdktf.Comp
 }
 export interface DataIntersightEquipmentChassisControllerVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3935,19 +3935,19 @@ export interface DataIntersightEquipmentChassisControllerVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3960,7 +3960,7 @@ export interface DataIntersightEquipmentChassisControllerVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -4192,7 +4192,7 @@ export class DataIntersightEquipmentChassisControllerVersionContextInterestedMos
 }
 export interface DataIntersightEquipmentChassisControllerVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4200,19 +4200,19 @@ export interface DataIntersightEquipmentChassisControllerVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#moid DataIntersightEquipmentChassisController#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4225,7 +4225,7 @@ export interface DataIntersightEquipmentChassisControllerVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#selector DataIntersightEquipmentChassisController#selector}
   */
   readonly selector?: string;
 }
@@ -4425,7 +4425,7 @@ export class DataIntersightEquipmentChassisControllerVersionContextRefMoOutputRe
 }
 export interface DataIntersightEquipmentChassisControllerVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#additional_properties DataIntersightEquipmentChassisController#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4433,32 +4433,32 @@ export interface DataIntersightEquipmentChassisControllerVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#class_id DataIntersightEquipmentChassisController#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#marked_for_deletion DataIntersightEquipmentChassisController#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#marked_for_deletion DataIntersightEquipmentChassisController#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#nr_version DataIntersightEquipmentChassisController#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#nr_version DataIntersightEquipmentChassisController#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#object_type DataIntersightEquipmentChassisController#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#timestamp DataIntersightEquipmentChassisController#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#timestamp DataIntersightEquipmentChassisController#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4469,19 +4469,19 @@ export interface DataIntersightEquipmentChassisControllerVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#version_type DataIntersightEquipmentChassisController#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#version_type DataIntersightEquipmentChassisController#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#interested_mos DataIntersightEquipmentChassisController#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#interested_mos DataIntersightEquipmentChassisController#interested_mos}
   */
   readonly interestedMos?: DataIntersightEquipmentChassisControllerVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#ref_mo DataIntersightEquipmentChassisController#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#ref_mo DataIntersightEquipmentChassisController#ref_mo}
   */
   readonly refMo?: DataIntersightEquipmentChassisControllerVersionContextRefMo;
 }
@@ -4797,7 +4797,7 @@ export class DataIntersightEquipmentChassisControllerVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller intersight_equipment_chassis_controller}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller intersight_equipment_chassis_controller}
 */
 export class DataIntersightEquipmentChassisController extends cdktf.TerraformDataSource {
 
@@ -4813,7 +4813,7 @@ export class DataIntersightEquipmentChassisController extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightEquipmentChassisController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEquipmentChassisController to import
-  * @param importFromId The id of the existing DataIntersightEquipmentChassisController that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEquipmentChassisController that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEquipmentChassisController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4825,7 +4825,7 @@ export class DataIntersightEquipmentChassisController extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/equipment_chassis_controller intersight_equipment_chassis_controller} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/equipment_chassis_controller intersight_equipment_chassis_controller} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4836,8 +4836,8 @@ export class DataIntersightEquipmentChassisController extends cdktf.TerraformDat
       terraformResourceType: 'intersight_equipment_chassis_controller',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

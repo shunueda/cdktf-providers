@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudEmrJobStatusDetailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#id DataTencentcloudEmrJobStatusDetail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#id DataTencentcloudEmrJobStatusDetail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudEmrJobStatusDetailConfig extends cdktf.Terrafor
   /**
   * EMR Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#instance_id DataTencentcloudEmrJobStatusDetail#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#instance_id DataTencentcloudEmrJobStatusDetail#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to return additional task information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#need_extra_detail DataTencentcloudEmrJobStatusDetail#need_extra_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#need_extra_detail DataTencentcloudEmrJobStatusDetail#need_extra_detail}
   */
   readonly needExtraDetail?: boolean | cdktf.IResolvable;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#result_output_file DataTencentcloudEmrJobStatusDetail#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#result_output_file DataTencentcloudEmrJobStatusDetail#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * flow_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#flow_param DataTencentcloudEmrJobStatusDetail#flow_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#flow_param DataTencentcloudEmrJobStatusDetail#flow_param}
   */
   readonly flowParam: DataTencentcloudEmrJobStatusDetailFlowParam;
 }
@@ -429,13 +429,13 @@ export interface DataTencentcloudEmrJobStatusDetailFlowParam {
   /**
   * Process Parameter Key: value range: TraceId: Query by TraceId FlowId: Query by FlowId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#f_key DataTencentcloudEmrJobStatusDetail#f_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#f_key DataTencentcloudEmrJobStatusDetail#f_key}
   */
   readonly fKey: string;
   /**
   * Parameter Value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#f_value DataTencentcloudEmrJobStatusDetail#f_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#f_value DataTencentcloudEmrJobStatusDetail#f_value}
   */
   readonly fValue: string;
 }
@@ -542,7 +542,7 @@ export class DataTencentcloudEmrJobStatusDetailFlowParamOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail tencentcloud_emr_job_status_detail}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail tencentcloud_emr_job_status_detail}
 */
 export class DataTencentcloudEmrJobStatusDetail extends cdktf.TerraformDataSource {
 
@@ -558,7 +558,7 @@ export class DataTencentcloudEmrJobStatusDetail extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudEmrJobStatusDetail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudEmrJobStatusDetail to import
-  * @param importFromId The id of the existing DataTencentcloudEmrJobStatusDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudEmrJobStatusDetail that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudEmrJobStatusDetail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class DataTencentcloudEmrJobStatusDetail extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/emr_job_status_detail tencentcloud_emr_job_status_detail} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/emr_job_status_detail tencentcloud_emr_job_status_detail} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class DataTencentcloudEmrJobStatusDetail extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_emr_job_status_detail',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

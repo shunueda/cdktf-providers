@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightOprsSyncTargetListMessageConfig extends cdktf.Ter
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#account_moid DataIntersightOprsSyncTargetListMessage#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#account_moid DataIntersightOprsSyncTargetListMessage#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The unique id of the assist which is associated with this message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#assist_id DataIntersightOprsSyncTargetListMessage#assist_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#assist_id DataIntersightOprsSyncTargetListMessage#assist_id}
   */
   readonly assistId?: string;
   /**
@@ -28,23 +28,23 @@ export interface DataIntersightOprsSyncTargetListMessageConfig extends cdktf.Ter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#create_time DataIntersightOprsSyncTargetListMessage#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#create_time DataIntersightOprsSyncTargetListMessage#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#domain_group_moid DataIntersightOprsSyncTargetListMessage#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#domain_group_moid DataIntersightOprsSyncTargetListMessage#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#id DataIntersightOprsSyncTargetListMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#id DataIntersightOprsSyncTargetListMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,31 +53,31 @@ export interface DataIntersightOprsSyncTargetListMessageConfig extends cdktf.Ter
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#mod_time DataIntersightOprsSyncTargetListMessage#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#mod_time DataIntersightOprsSyncTargetListMessage#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#owners DataIntersightOprsSyncTargetListMessage#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#owners DataIntersightOprsSyncTargetListMessage#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#shared_scope DataIntersightOprsSyncTargetListMessage#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#shared_scope DataIntersightOprsSyncTargetListMessage#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -166,53 +166,53 @@ export interface DataIntersightOprsSyncTargetListMessageConfig extends cdktf.Ter
   * * `MerakiCloud` - A Cisco Meraki Organization.
   * * `CiscoISE` - A Cisco Identity Services Engine (ISE) target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#target_type DataIntersightOprsSyncTargetListMessage#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#target_type DataIntersightOprsSyncTargetListMessage#target_type}
   */
   readonly targetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#targets DataIntersightOprsSyncTargetListMessage#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#targets DataIntersightOprsSyncTargetListMessage#targets}
   */
   readonly targets?: string[];
   /**
   * The time at which the event was generated. Date is accurate to Intersights clock. This time will be used to identify order of events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#time_stamp DataIntersightOprsSyncTargetListMessage#time_stamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#time_stamp DataIntersightOprsSyncTargetListMessage#time_stamp}
   */
   readonly timeStamp?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#ancestors DataIntersightOprsSyncTargetListMessage#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#ancestors DataIntersightOprsSyncTargetListMessage#ancestors}
   */
   readonly ancestors?: DataIntersightOprsSyncTargetListMessageAncestors[] | cdktf.IResolvable;
   /**
   * assist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#assist DataIntersightOprsSyncTargetListMessage#assist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#assist DataIntersightOprsSyncTargetListMessage#assist}
   */
   readonly assist?: DataIntersightOprsSyncTargetListMessageAssist;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#parent DataIntersightOprsSyncTargetListMessage#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#parent DataIntersightOprsSyncTargetListMessage#parent}
   */
   readonly parent?: DataIntersightOprsSyncTargetListMessageParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#permission_resources DataIntersightOprsSyncTargetListMessage#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#permission_resources DataIntersightOprsSyncTargetListMessage#permission_resources}
   */
   readonly permissionResources?: DataIntersightOprsSyncTargetListMessagePermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#tags DataIntersightOprsSyncTargetListMessage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#tags DataIntersightOprsSyncTargetListMessage#tags}
   */
   readonly tags?: DataIntersightOprsSyncTargetListMessageTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#version_context DataIntersightOprsSyncTargetListMessage#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#version_context DataIntersightOprsSyncTargetListMessage#version_context}
   */
   readonly versionContext?: DataIntersightOprsSyncTargetListMessageVersionContext;
 }
@@ -1383,7 +1383,7 @@ export class DataIntersightOprsSyncTargetListMessageResultsList extends cdktf.Co
 }
 export interface DataIntersightOprsSyncTargetListMessageAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1391,19 +1391,19 @@ export interface DataIntersightOprsSyncTargetListMessageAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1416,7 +1416,7 @@ export interface DataIntersightOprsSyncTargetListMessageAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -1648,7 +1648,7 @@ export class DataIntersightOprsSyncTargetListMessageAncestorsList extends cdktf.
 }
 export interface DataIntersightOprsSyncTargetListMessageAssist {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1656,19 +1656,19 @@ export interface DataIntersightOprsSyncTargetListMessageAssist {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1681,7 +1681,7 @@ export interface DataIntersightOprsSyncTargetListMessageAssist {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -1881,7 +1881,7 @@ export class DataIntersightOprsSyncTargetListMessageAssistOutputReference extend
 }
 export interface DataIntersightOprsSyncTargetListMessageParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1889,19 +1889,19 @@ export interface DataIntersightOprsSyncTargetListMessageParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1914,7 +1914,7 @@ export interface DataIntersightOprsSyncTargetListMessageParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2114,7 +2114,7 @@ export class DataIntersightOprsSyncTargetListMessageParentOutputReference extend
 }
 export interface DataIntersightOprsSyncTargetListMessagePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2122,19 +2122,19 @@ export interface DataIntersightOprsSyncTargetListMessagePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2147,7 +2147,7 @@ export interface DataIntersightOprsSyncTargetListMessagePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2379,7 +2379,7 @@ export class DataIntersightOprsSyncTargetListMessagePermissionResourcesList exte
 }
 export interface DataIntersightOprsSyncTargetListMessageTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2387,19 +2387,19 @@ export interface DataIntersightOprsSyncTargetListMessageTagsAncestorDefinitions 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2412,7 +2412,7 @@ export interface DataIntersightOprsSyncTargetListMessageTagsAncestorDefinitions 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2644,7 +2644,7 @@ export class DataIntersightOprsSyncTargetListMessageTagsAncestorDefinitionsList 
 }
 export interface DataIntersightOprsSyncTargetListMessageTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2652,19 +2652,19 @@ export interface DataIntersightOprsSyncTargetListMessageTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2677,7 +2677,7 @@ export interface DataIntersightOprsSyncTargetListMessageTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -2877,25 +2877,25 @@ export class DataIntersightOprsSyncTargetListMessageTagsDefinitionOutputReferenc
 }
 export interface DataIntersightOprsSyncTargetListMessageTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#key DataIntersightOprsSyncTargetListMessage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#key DataIntersightOprsSyncTargetListMessage#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#propagated DataIntersightOprsSyncTargetListMessage#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#propagated DataIntersightOprsSyncTargetListMessage#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#sys_tag DataIntersightOprsSyncTargetListMessage#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#sys_tag DataIntersightOprsSyncTargetListMessage#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2903,25 +2903,25 @@ export interface DataIntersightOprsSyncTargetListMessageTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#type DataIntersightOprsSyncTargetListMessage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#type DataIntersightOprsSyncTargetListMessage#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#value DataIntersightOprsSyncTargetListMessage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#value DataIntersightOprsSyncTargetListMessage#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#ancestor_definitions DataIntersightOprsSyncTargetListMessage#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#ancestor_definitions DataIntersightOprsSyncTargetListMessage#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightOprsSyncTargetListMessageTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#definition DataIntersightOprsSyncTargetListMessage#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#definition DataIntersightOprsSyncTargetListMessage#definition}
   */
   readonly definition?: DataIntersightOprsSyncTargetListMessageTagsDefinition;
 }
@@ -3240,7 +3240,7 @@ export class DataIntersightOprsSyncTargetListMessageTagsList extends cdktf.Compl
 }
 export interface DataIntersightOprsSyncTargetListMessageVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3248,19 +3248,19 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContextInterested
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3273,7 +3273,7 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContextInterested
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -3505,7 +3505,7 @@ export class DataIntersightOprsSyncTargetListMessageVersionContextInterestedMosL
 }
 export interface DataIntersightOprsSyncTargetListMessageVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3513,19 +3513,19 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#moid DataIntersightOprsSyncTargetListMessage#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3538,7 +3538,7 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#selector DataIntersightOprsSyncTargetListMessage#selector}
   */
   readonly selector?: string;
 }
@@ -3738,7 +3738,7 @@ export class DataIntersightOprsSyncTargetListMessageVersionContextRefMoOutputRef
 }
 export interface DataIntersightOprsSyncTargetListMessageVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#additional_properties DataIntersightOprsSyncTargetListMessage#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3746,32 +3746,32 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#class_id DataIntersightOprsSyncTargetListMessage#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#marked_for_deletion DataIntersightOprsSyncTargetListMessage#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#marked_for_deletion DataIntersightOprsSyncTargetListMessage#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#nr_version DataIntersightOprsSyncTargetListMessage#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#nr_version DataIntersightOprsSyncTargetListMessage#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#object_type DataIntersightOprsSyncTargetListMessage#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#timestamp DataIntersightOprsSyncTargetListMessage#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#timestamp DataIntersightOprsSyncTargetListMessage#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3782,19 +3782,19 @@ export interface DataIntersightOprsSyncTargetListMessageVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#version_type DataIntersightOprsSyncTargetListMessage#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#version_type DataIntersightOprsSyncTargetListMessage#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#interested_mos DataIntersightOprsSyncTargetListMessage#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#interested_mos DataIntersightOprsSyncTargetListMessage#interested_mos}
   */
   readonly interestedMos?: DataIntersightOprsSyncTargetListMessageVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#ref_mo DataIntersightOprsSyncTargetListMessage#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#ref_mo DataIntersightOprsSyncTargetListMessage#ref_mo}
   */
   readonly refMo?: DataIntersightOprsSyncTargetListMessageVersionContextRefMo;
 }
@@ -4110,7 +4110,7 @@ export class DataIntersightOprsSyncTargetListMessageVersionContextOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message intersight_oprs_sync_target_list_message}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message intersight_oprs_sync_target_list_message}
 */
 export class DataIntersightOprsSyncTargetListMessage extends cdktf.TerraformDataSource {
 
@@ -4126,7 +4126,7 @@ export class DataIntersightOprsSyncTargetListMessage extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataIntersightOprsSyncTargetListMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightOprsSyncTargetListMessage to import
-  * @param importFromId The id of the existing DataIntersightOprsSyncTargetListMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightOprsSyncTargetListMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightOprsSyncTargetListMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4138,7 +4138,7 @@ export class DataIntersightOprsSyncTargetListMessage extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/oprs_sync_target_list_message intersight_oprs_sync_target_list_message} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/oprs_sync_target_list_message intersight_oprs_sync_target_list_message} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4149,8 +4149,8 @@ export class DataIntersightOprsSyncTargetListMessage extends cdktf.TerraformData
       terraformResourceType: 'intersight_oprs_sync_target_list_message',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

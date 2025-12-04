@@ -422,6 +422,7 @@ export * as dataOpentelekomcloudRdsBackupV3 from './data-opentelekomcloud-rds-ba
 export * as dataOpentelekomcloudRdsFlavorsV1 from './data-opentelekomcloud-rds-flavors-v1';
 export * as dataOpentelekomcloudRdsFlavorsV3 from './data-opentelekomcloud-rds-flavors-v3';
 export * as dataOpentelekomcloudRdsInstanceV3 from './data-opentelekomcloud-rds-instance-v3';
+export * as dataOpentelekomcloudRdsMajorVersionsV3 from './data-opentelekomcloud-rds-major-versions-v3';
 export * as dataOpentelekomcloudRdsVersionsV3 from './data-opentelekomcloud-rds-versions-v3';
 export * as dataOpentelekomcloudRmsAdvancedQueriesV1 from './data-opentelekomcloud-rms-advanced-queries-v1';
 export * as dataOpentelekomcloudRmsAdvancedQuerySchemasV1 from './data-opentelekomcloud-rms-advanced-query-schemas-v1';

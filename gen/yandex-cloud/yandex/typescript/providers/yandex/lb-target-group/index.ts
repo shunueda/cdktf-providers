@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface LbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the target group. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#description LbTargetGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#description LbTargetGroup#description}
   */
   readonly description?: string;
   /**
   * ID of the folder that the target group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#folder_id LbTargetGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#folder_id LbTargetGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the TargetGroup resource to return.
   *  To get the target group ID, use a [TargetGroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#id LbTargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#id LbTargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,39 +32,39 @@ export interface LbTargetGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Resource labels as `` key:value `` pairs. Maximum of 64 per resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#labels LbTargetGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#labels LbTargetGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the target group.
   *  The name is unique within the folder. 3-63 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#name LbTargetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#name LbTargetGroup#name}
   */
   readonly name?: string;
   /**
   * ID of the region where the target group resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#region_id LbTargetGroup#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#region_id LbTargetGroup#region_id}
   */
   readonly regionId?: string;
   /**
   * ID of the TargetGroup resource to return.
   *  To get the target group ID, use a [TargetGroupService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#target_group_id LbTargetGroup#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#target_group_id LbTargetGroup#target_group_id}
   */
   readonly targetGroupId?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#target LbTargetGroup#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#target LbTargetGroup#target}
   */
   readonly target?: LbTargetGroupTarget[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#timeouts LbTargetGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#timeouts LbTargetGroup#timeouts}
   */
   readonly timeouts?: LbTargetGroupTimeouts;
 }
@@ -72,14 +72,14 @@ export interface LbTargetGroupTarget {
   /**
   * IP address of the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#address LbTargetGroup#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#address LbTargetGroup#address}
   */
   readonly address?: string;
   /**
   * ID of the subnet that targets are connected to.
   *  All targets in the target group must be connected to the same subnet within a single availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#subnet_id LbTargetGroup#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#subnet_id LbTargetGroup#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -226,25 +226,25 @@ export interface LbTargetGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#create LbTargetGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#create LbTargetGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#delete LbTargetGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#delete LbTargetGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#read LbTargetGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#read LbTargetGroup#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#update LbTargetGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#update LbTargetGroup#update}
   */
   readonly update?: string;
 }
@@ -425,7 +425,7 @@ export class LbTargetGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group yandex_lb_target_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group yandex_lb_target_group}
 */
 export class LbTargetGroup extends cdktf.TerraformResource {
 
@@ -441,7 +441,7 @@ export class LbTargetGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbTargetGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbTargetGroup to import
-  * @param importFromId The id of the existing LbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbTargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class LbTargetGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/lb_target_group yandex_lb_target_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/lb_target_group yandex_lb_target_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class LbTargetGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_lb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

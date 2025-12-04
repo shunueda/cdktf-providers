@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface HyperflexServiceAuthTokenConfig extends cdktf.TerraformMetaArgu
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#account_moid HyperflexServiceAuthToken#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#account_moid HyperflexServiceAuthToken#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#ancestors HyperflexServiceAuthToken#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#ancestors HyperflexServiceAuthToken#ancestors}
   */
   readonly ancestors?: HyperflexServiceAuthTokenAncestors[] | cdktf.IResolvable;
   /**
@@ -28,42 +28,42 @@ export interface HyperflexServiceAuthTokenConfig extends cdktf.TerraformMetaArgu
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
   * Client Id or tenant Id of the entity that uses the service auth token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#client_id HyperflexServiceAuthToken#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#client_id HyperflexServiceAuthToken#client_id}
   */
   readonly clientId?: string;
   /**
   * A reference to a hyperflexCluster resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#cluster HyperflexServiceAuthToken#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#cluster HyperflexServiceAuthToken#cluster}
   */
   readonly cluster?: HyperflexServiceAuthTokenCluster[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#create_time HyperflexServiceAuthToken#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#create_time HyperflexServiceAuthToken#create_time}
   */
   readonly createTime?: string;
   /**
   * Version of Container Storage Interface (CSI) that the tokenOwner is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#csi_version HyperflexServiceAuthToken#csi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#csi_version HyperflexServiceAuthToken#csi_version}
   */
   readonly csiVersion?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#domain_group_moid HyperflexServiceAuthToken#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#domain_group_moid HyperflexServiceAuthToken#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#id HyperflexServiceAuthToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#id HyperflexServiceAuthToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,57 +72,57 @@ export interface HyperflexServiceAuthTokenConfig extends cdktf.TerraformMetaArgu
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#mod_time HyperflexServiceAuthToken#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#mod_time HyperflexServiceAuthToken#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#organization HyperflexServiceAuthToken#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#organization HyperflexServiceAuthToken#organization}
   */
   readonly organization?: HyperflexServiceAuthTokenOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#owners HyperflexServiceAuthToken#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#owners HyperflexServiceAuthToken#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#parent HyperflexServiceAuthToken#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#parent HyperflexServiceAuthToken#parent}
   */
   readonly parent?: HyperflexServiceAuthTokenParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#permission_resources HyperflexServiceAuthToken#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#permission_resources HyperflexServiceAuthToken#permission_resources}
   */
   readonly permissionResources?: HyperflexServiceAuthTokenPermissionResources[] | cdktf.IResolvable;
   /**
   * Service auth token that has been created by HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#service_auth_token HyperflexServiceAuthToken#service_auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#service_auth_token HyperflexServiceAuthToken#service_auth_token}
   */
   readonly serviceAuthToken?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#shared_scope HyperflexServiceAuthToken#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#shared_scope HyperflexServiceAuthToken#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -135,46 +135,46 @@ export interface HyperflexServiceAuthTokenConfig extends cdktf.TerraformMetaArgu
   * * `Revoked` - The service auth token revocation has been successfully revoked.
   * * `FailedToRevoke` - Cannot revoke the service auth token on the underlying HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#status HyperflexServiceAuthToken#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#status HyperflexServiceAuthToken#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#tags HyperflexServiceAuthToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#tags HyperflexServiceAuthToken#tags}
   */
   readonly tags?: HyperflexServiceAuthTokenTags[] | cdktf.IResolvable;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#token_owner HyperflexServiceAuthToken#token_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#token_owner HyperflexServiceAuthToken#token_owner}
   */
   readonly tokenOwner?: HyperflexServiceAuthTokenTokenOwner[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#version_context HyperflexServiceAuthToken#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#version_context HyperflexServiceAuthToken#version_context}
   */
   readonly versionContext?: HyperflexServiceAuthTokenVersionContext[] | cdktf.IResolvable;
 }
 export interface HyperflexServiceAuthTokenAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -406,23 +406,23 @@ export class HyperflexServiceAuthTokenAncestorsList extends cdktf.ComplexList {
 }
 export interface HyperflexServiceAuthTokenCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -654,23 +654,23 @@ export class HyperflexServiceAuthTokenClusterList extends cdktf.ComplexList {
 }
 export interface HyperflexServiceAuthTokenOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -902,23 +902,23 @@ export class HyperflexServiceAuthTokenOrganizationList extends cdktf.ComplexList
 }
 export interface HyperflexServiceAuthTokenParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -1150,23 +1150,23 @@ export class HyperflexServiceAuthTokenParentList extends cdktf.ComplexList {
 }
 export interface HyperflexServiceAuthTokenPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -1398,23 +1398,23 @@ export class HyperflexServiceAuthTokenPermissionResourcesList extends cdktf.Comp
 }
 export interface HyperflexServiceAuthTokenTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -1646,23 +1646,23 @@ export class HyperflexServiceAuthTokenTagsAncestorDefinitionsList extends cdktf.
 }
 export interface HyperflexServiceAuthTokenTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -1894,35 +1894,35 @@ export class HyperflexServiceAuthTokenTagsDefinitionList extends cdktf.ComplexLi
 }
 export interface HyperflexServiceAuthTokenTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#ancestor_definitions HyperflexServiceAuthToken#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#ancestor_definitions HyperflexServiceAuthToken#ancestor_definitions}
   */
   readonly ancestorDefinitions?: HyperflexServiceAuthTokenTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#definition HyperflexServiceAuthToken#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#definition HyperflexServiceAuthToken#definition}
   */
   readonly definition?: HyperflexServiceAuthTokenTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#key HyperflexServiceAuthToken#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#key HyperflexServiceAuthToken#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#propagated HyperflexServiceAuthToken#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#propagated HyperflexServiceAuthToken#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#sys_tag HyperflexServiceAuthToken#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#sys_tag HyperflexServiceAuthToken#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#type HyperflexServiceAuthToken#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#type HyperflexServiceAuthToken#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#value HyperflexServiceAuthToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#value HyperflexServiceAuthToken#value}
   */
   readonly value?: string;
 }
@@ -2241,23 +2241,23 @@ export class HyperflexServiceAuthTokenTagsList extends cdktf.ComplexList {
 }
 export interface HyperflexServiceAuthTokenTokenOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2489,23 +2489,23 @@ export class HyperflexServiceAuthTokenTokenOwnerList extends cdktf.ComplexList {
 }
 export interface HyperflexServiceAuthTokenVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2737,23 +2737,23 @@ export class HyperflexServiceAuthTokenVersionContextInterestedMosList extends cd
 }
 export interface HyperflexServiceAuthTokenVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#moid HyperflexServiceAuthToken#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#selector HyperflexServiceAuthToken#selector}
   */
   readonly selector?: string;
 }
@@ -2985,39 +2985,39 @@ export class HyperflexServiceAuthTokenVersionContextRefMoList extends cdktf.Comp
 }
 export interface HyperflexServiceAuthTokenVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#additional_properties HyperflexServiceAuthToken#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#class_id HyperflexServiceAuthToken#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#interested_mos HyperflexServiceAuthToken#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#interested_mos HyperflexServiceAuthToken#interested_mos}
   */
   readonly interestedMos?: HyperflexServiceAuthTokenVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#marked_for_deletion HyperflexServiceAuthToken#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#marked_for_deletion HyperflexServiceAuthToken#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#nr_version HyperflexServiceAuthToken#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#nr_version HyperflexServiceAuthToken#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#object_type HyperflexServiceAuthToken#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#ref_mo HyperflexServiceAuthToken#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#ref_mo HyperflexServiceAuthToken#ref_mo}
   */
   readonly refMo?: HyperflexServiceAuthTokenVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#timestamp HyperflexServiceAuthToken#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#timestamp HyperflexServiceAuthToken#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#version_type HyperflexServiceAuthToken#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#version_type HyperflexServiceAuthToken#version_type}
   */
   readonly versionType?: string;
 }
@@ -3365,7 +3365,7 @@ export class HyperflexServiceAuthTokenVersionContextList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token}
 */
 export class HyperflexServiceAuthToken extends cdktf.TerraformResource {
 
@@ -3381,7 +3381,7 @@ export class HyperflexServiceAuthToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HyperflexServiceAuthToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HyperflexServiceAuthToken to import
-  * @param importFromId The id of the existing HyperflexServiceAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HyperflexServiceAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HyperflexServiceAuthToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3393,7 +3393,7 @@ export class HyperflexServiceAuthToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/hyperflex_service_auth_token intersight_hyperflex_service_auth_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3404,8 +3404,8 @@ export class HyperflexServiceAuthToken extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_hyperflex_service_auth_token',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

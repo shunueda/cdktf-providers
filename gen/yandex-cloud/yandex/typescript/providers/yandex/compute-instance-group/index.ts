@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ComputeInstanceGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#deletion_protection ComputeInstanceGroup#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#deletion_protection ComputeInstanceGroup#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#id ComputeInstanceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#id ComputeInstanceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface ComputeInstanceGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Timeout for waiting for the VM to become healthy. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_checking_health_duration ComputeInstanceGroup#max_checking_health_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_checking_health_duration ComputeInstanceGroup#max_checking_health_duration}
   */
   readonly maxCheckingHealthDuration?: number;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
   */
   readonly name?: string;
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) which linked to the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#service_account_id ComputeInstanceGroup#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#service_account_id ComputeInstanceGroup#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * A set of key/value variables pairs to assign to the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#variables ComputeInstanceGroup#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#variables ComputeInstanceGroup#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * allocation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#allocation_policy ComputeInstanceGroup#allocation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#allocation_policy ComputeInstanceGroup#allocation_policy}
   */
   readonly allocationPolicy: ComputeInstanceGroupAllocationPolicy;
   /**
   * application_load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#application_load_balancer ComputeInstanceGroup#application_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#application_load_balancer ComputeInstanceGroup#application_load_balancer}
   */
   readonly applicationLoadBalancer?: ComputeInstanceGroupApplicationLoadBalancer;
   /**
   * deploy_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#deploy_policy ComputeInstanceGroup#deploy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#deploy_policy ComputeInstanceGroup#deploy_policy}
   */
   readonly deployPolicy: ComputeInstanceGroupDeployPolicy;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#health_check ComputeInstanceGroup#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#health_check ComputeInstanceGroup#health_check}
   */
   readonly healthCheck?: ComputeInstanceGroupHealthCheck[] | cdktf.IResolvable;
   /**
   * instance_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#instance_template ComputeInstanceGroup#instance_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#instance_template ComputeInstanceGroup#instance_template}
   */
   readonly instanceTemplate: ComputeInstanceGroupInstanceTemplate;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#load_balancer ComputeInstanceGroup#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#load_balancer ComputeInstanceGroup#load_balancer}
   */
   readonly loadBalancer?: ComputeInstanceGroupLoadBalancer;
   /**
   * scale_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#scale_policy ComputeInstanceGroup#scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#scale_policy ComputeInstanceGroup#scale_policy}
   */
   readonly scalePolicy: ComputeInstanceGroupScalePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#timeouts ComputeInstanceGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#timeouts ComputeInstanceGroup#timeouts}
   */
   readonly timeouts?: ComputeInstanceGroupTimeouts;
 }
@@ -351,13 +351,13 @@ export interface ComputeInstanceGroupAllocationPolicyInstanceTagsPool {
   /**
   * List of tags for instances in zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#tags ComputeInstanceGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#tags ComputeInstanceGroup#tags}
   */
   readonly tags: string[];
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#zone ComputeInstanceGroup#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#zone ComputeInstanceGroup#zone}
   */
   readonly zone: string;
 }
@@ -498,13 +498,13 @@ export interface ComputeInstanceGroupAllocationPolicy {
   /**
   * A list of [availability zones](https://yandex.cloud/docs/overview/concepts/geo-scope).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#zones ComputeInstanceGroup#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#zones ComputeInstanceGroup#zones}
   */
   readonly zones: string[];
   /**
   * instance_tags_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#instance_tags_pool ComputeInstanceGroup#instance_tags_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#instance_tags_pool ComputeInstanceGroup#instance_tags_pool}
   */
   readonly instanceTagsPool?: ComputeInstanceGroupAllocationPolicyInstanceTagsPool[] | cdktf.IResolvable;
 }
@@ -616,31 +616,31 @@ export interface ComputeInstanceGroupApplicationLoadBalancer {
   /**
   * Do not wait load balancer health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ignore_health_checks ComputeInstanceGroup#ignore_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ignore_health_checks ComputeInstanceGroup#ignore_health_checks}
   */
   readonly ignoreHealthChecks?: boolean | cdktf.IResolvable;
   /**
   * Timeout for waiting for the VM to be checked by the load balancer. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_opening_traffic_duration ComputeInstanceGroup#max_opening_traffic_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_opening_traffic_duration ComputeInstanceGroup#max_opening_traffic_duration}
   */
   readonly maxOpeningTrafficDuration?: number;
   /**
   * A description of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_description ComputeInstanceGroup#target_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_description ComputeInstanceGroup#target_group_description}
   */
   readonly targetGroupDescription?: string;
   /**
   * A set of key/value label pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_labels ComputeInstanceGroup#target_group_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_labels ComputeInstanceGroup#target_group_labels}
   */
   readonly targetGroupLabels?: { [key: string]: string };
   /**
   * The name of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_name ComputeInstanceGroup#target_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_name ComputeInstanceGroup#target_group_name}
   */
   readonly targetGroupName?: string;
 }
@@ -852,37 +852,37 @@ export interface ComputeInstanceGroupDeployPolicy {
   /**
   * The maximum number of instances that can be created at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_creating ComputeInstanceGroup#max_creating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_creating ComputeInstanceGroup#max_creating}
   */
   readonly maxCreating?: number;
   /**
   * The maximum number of instances that can be deleted at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_deleting ComputeInstanceGroup#max_deleting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_deleting ComputeInstanceGroup#max_deleting}
   */
   readonly maxDeleting?: number;
   /**
   * The maximum number of instances that can be temporarily allocated above the group's target size during the update process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_expansion ComputeInstanceGroup#max_expansion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_expansion ComputeInstanceGroup#max_expansion}
   */
   readonly maxExpansion: number;
   /**
   * The maximum number of running instances that can be taken offline (stopped or deleted) at the same time during the update process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_unavailable ComputeInstanceGroup#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_unavailable ComputeInstanceGroup#max_unavailable}
   */
   readonly maxUnavailable: number;
   /**
   * The amount of time in seconds to allow for an instance to start. Instance will be considered up and running (and start receiving traffic) only after the startup_duration has elapsed and all health checks are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#startup_duration ComputeInstanceGroup#startup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#startup_duration ComputeInstanceGroup#startup_duration}
   */
   readonly startupDuration?: number;
   /**
   * Affects the lifecycle of the instance during deployment. If set to `proactive` (default), Instance Groups can forcefully stop a running instance. If `opportunistic`, Instance Groups does not stop a running instance. Instead, it will wait until the instance stops itself or becomes unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#strategy ComputeInstanceGroup#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#strategy ComputeInstanceGroup#strategy}
   */
   readonly strategy?: string;
 }
@@ -1107,13 +1107,13 @@ export interface ComputeInstanceGroupHealthCheckHttpOptions {
   /**
   * The URL path used for health check requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#path ComputeInstanceGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#path ComputeInstanceGroup#path}
   */
   readonly path: string;
   /**
   * The port used for HTTP health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#port ComputeInstanceGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#port ComputeInstanceGroup#port}
   */
   readonly port: number;
 }
@@ -1222,7 +1222,7 @@ export interface ComputeInstanceGroupHealthCheckTcpOptions {
   /**
   * The port used for TCP health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#port ComputeInstanceGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#port ComputeInstanceGroup#port}
   */
   readonly port: number;
 }
@@ -1305,37 +1305,37 @@ export interface ComputeInstanceGroupHealthCheck {
   /**
   * The number of successful health checks before the managed instance is declared healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#healthy_threshold ComputeInstanceGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#healthy_threshold ComputeInstanceGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * The interval to wait between health checks in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#interval ComputeInstanceGroup#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#interval ComputeInstanceGroup#interval}
   */
   readonly interval?: number;
   /**
   * The length of time to wait for a response before the health check times out in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#timeout ComputeInstanceGroup#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#timeout ComputeInstanceGroup#timeout}
   */
   readonly timeout?: number;
   /**
   * The number of failed health checks before the managed instance is declared unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#unhealthy_threshold ComputeInstanceGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#unhealthy_threshold ComputeInstanceGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * http_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#http_options ComputeInstanceGroup#http_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#http_options ComputeInstanceGroup#http_options}
   */
   readonly httpOptions?: ComputeInstanceGroupHealthCheckHttpOptions;
   /**
   * tcp_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#tcp_options ComputeInstanceGroup#tcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#tcp_options ComputeInstanceGroup#tcp_options}
   */
   readonly tcpOptions?: ComputeInstanceGroupHealthCheckTcpOptions;
 }
@@ -1598,31 +1598,31 @@ export interface ComputeInstanceGroupInstanceTemplateBootDiskInitializeParams {
   /**
   * A description of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
   */
   readonly description?: string;
   /**
   * The disk image to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#image_id ComputeInstanceGroup#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#image_id ComputeInstanceGroup#image_id}
   */
   readonly imageId?: string;
   /**
   * The size of the disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
   */
   readonly size?: number;
   /**
   * The snapshot to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#snapshot_id ComputeInstanceGroup#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#snapshot_id ComputeInstanceGroup#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
   */
   readonly type?: string;
 }
@@ -1824,31 +1824,31 @@ export interface ComputeInstanceGroupInstanceTemplateBootDisk {
   /**
   * This value can be used to reference the device under `/dev/disk/by-id/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
   */
   readonly deviceName?: string;
   /**
   * The ID of the existing disk (such as those managed by yandex_compute_disk) to attach as a boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#disk_id ComputeInstanceGroup#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#disk_id ComputeInstanceGroup#disk_id}
   */
   readonly diskId?: string;
   /**
   * The access mode to the disk resource. By default a disk is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
   */
   readonly mode?: string;
   /**
   * When set can be later used to change DiskSpec of actual disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
   */
   readonly name?: string;
   /**
   * initialize_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#initialize_params ComputeInstanceGroup#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#initialize_params ComputeInstanceGroup#initialize_params}
   */
   readonly initializeParams?: ComputeInstanceGroupInstanceTemplateBootDiskInitializeParams;
 }
@@ -2050,19 +2050,19 @@ export interface ComputeInstanceGroupInstanceTemplateFilesystem {
   /**
   * Name of the device representing the filesystem on the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
   */
   readonly deviceName?: string;
   /**
   * ID of the filesystem that should be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#filesystem_id ComputeInstanceGroup#filesystem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#filesystem_id ComputeInstanceGroup#filesystem_id}
   */
   readonly filesystemId: string;
   /**
   * Mode of access to the filesystem that should be attached. By default, filesystem is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
   */
   readonly mode?: string;
 }
@@ -2235,25 +2235,25 @@ export interface ComputeInstanceGroupInstanceTemplateMetadataOptions {
   /**
   * Enables access to AWS flavored metadata (IMDSv1). Possible values: `0`, `1` for `enabled` and `2` for `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#aws_v1_http_endpoint ComputeInstanceGroup#aws_v1_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#aws_v1_http_endpoint ComputeInstanceGroup#aws_v1_http_endpoint}
   */
   readonly awsV1HttpEndpoint?: number;
   /**
   * Enables access to IAM credentials with AWS flavored metadata (IMDSv1). Possible values: `0`, `1` for `enabled` and `2` for `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#aws_v1_http_token ComputeInstanceGroup#aws_v1_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#aws_v1_http_token ComputeInstanceGroup#aws_v1_http_token}
   */
   readonly awsV1HttpToken?: number;
   /**
   * Enables access to GCE flavored metadata. Possible values: `0`, `1` for `enabled` and `2` for `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#gce_http_endpoint ComputeInstanceGroup#gce_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#gce_http_endpoint ComputeInstanceGroup#gce_http_endpoint}
   */
   readonly gceHttpEndpoint?: number;
   /**
   * Enables access to IAM credentials with GCE flavored metadata. Possible values: `0`, `1` for `enabled` and `2` for `disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#gce_http_token ComputeInstanceGroup#gce_http_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#gce_http_token ComputeInstanceGroup#gce_http_token}
   */
   readonly gceHttpToken?: number;
 }
@@ -2426,25 +2426,25 @@ export interface ComputeInstanceGroupInstanceTemplateNetworkInterfaceDnsRecord {
   /**
   * DNS zone id (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
   */
   readonly ttl?: number;
 }
@@ -2646,25 +2646,25 @@ export interface ComputeInstanceGroupInstanceTemplateNetworkInterfaceIpv6DnsReco
   /**
   * DNS zone id (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
   */
   readonly ttl?: number;
 }
@@ -2866,25 +2866,25 @@ export interface ComputeInstanceGroupInstanceTemplateNetworkInterfaceNatDnsRecor
   /**
   * DNS zone id (if not set, private zone used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#dns_zone_id ComputeInstanceGroup#dns_zone_id}
   */
   readonly dnsZoneId?: string;
   /**
   * DNS record FQDN (must have dot at the end).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#fqdn ComputeInstanceGroup#fqdn}
   */
   readonly fqdn: string;
   /**
   * When set to `true`, also create PTR DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ptr ComputeInstanceGroup#ptr}
   */
   readonly ptr?: boolean | cdktf.IResolvable;
   /**
   * DNS record TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ttl ComputeInstanceGroup#ttl}
   */
   readonly ttl?: number;
 }
@@ -3086,73 +3086,73 @@ export interface ComputeInstanceGroupInstanceTemplateNetworkInterface {
   /**
   * Manual set static IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ip_address ComputeInstanceGroup#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ip_address ComputeInstanceGroup#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Allocate an IPv4 address for the interface. The default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ipv4 ComputeInstanceGroup#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ipv4 ComputeInstanceGroup#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * If `true`, allocate an IPv6 address for the interface. The address will be automatically assigned from the specified subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ipv6 ComputeInstanceGroup#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ipv6 ComputeInstanceGroup#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * Manual set static IPv6 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ipv6_address ComputeInstanceGroup#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ipv6_address ComputeInstanceGroup#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Flag for using NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#nat ComputeInstanceGroup#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#nat ComputeInstanceGroup#nat}
   */
   readonly nat?: boolean | cdktf.IResolvable;
   /**
   * A public address that can be used to access the internet over NAT. Use `variables` to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#nat_ip_address ComputeInstanceGroup#nat_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#nat_ip_address ComputeInstanceGroup#nat_ip_address}
   */
   readonly natIpAddress?: string;
   /**
   * The ID of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#network_id ComputeInstanceGroup#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#network_id ComputeInstanceGroup#network_id}
   */
   readonly networkId?: string;
   /**
   * Security group (SG) `IDs` for network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#security_group_ids ComputeInstanceGroup#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#security_group_ids ComputeInstanceGroup#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnets to attach this interface to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#subnet_ids ComputeInstanceGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#subnet_ids ComputeInstanceGroup#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#dns_record ComputeInstanceGroup#dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#dns_record ComputeInstanceGroup#dns_record}
   */
   readonly dnsRecord?: ComputeInstanceGroupInstanceTemplateNetworkInterfaceDnsRecord[] | cdktf.IResolvable;
   /**
   * ipv6_dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ipv6_dns_record ComputeInstanceGroup#ipv6_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ipv6_dns_record ComputeInstanceGroup#ipv6_dns_record}
   */
   readonly ipv6DnsRecord?: ComputeInstanceGroupInstanceTemplateNetworkInterfaceIpv6DnsRecord[] | cdktf.IResolvable;
   /**
   * nat_dns_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#nat_dns_record ComputeInstanceGroup#nat_dns_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#nat_dns_record ComputeInstanceGroup#nat_dns_record}
   */
   readonly natDnsRecord?: ComputeInstanceGroupInstanceTemplateNetworkInterfaceNatDnsRecord[] | cdktf.IResolvable;
 }
@@ -3589,7 +3589,7 @@ export interface ComputeInstanceGroupInstanceTemplateNetworkSettings {
   /**
   * Network acceleration type. By default a network is in `STANDARD` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
   */
   readonly type?: string;
 }
@@ -3707,7 +3707,7 @@ export interface ComputeInstanceGroupInstanceTemplatePlacementPolicy {
   /**
   * Specifies the id of the Placement Group to assign to the instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#placement_group_id ComputeInstanceGroup#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#placement_group_id ComputeInstanceGroup#placement_group_id}
   */
   readonly placementGroupId: string;
 }
@@ -3790,25 +3790,25 @@ export interface ComputeInstanceGroupInstanceTemplateResources {
   /**
   * If provided, specifies baseline core performance as a percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#core_fraction ComputeInstanceGroup#core_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#core_fraction ComputeInstanceGroup#core_fraction}
   */
   readonly coreFraction?: number;
   /**
   * The number of CPU cores for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#cores ComputeInstanceGroup#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#cores ComputeInstanceGroup#cores}
   */
   readonly cores: number;
   /**
   * If provided, specifies the number of GPU devices for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#gpus ComputeInstanceGroup#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#gpus ComputeInstanceGroup#gpus}
   */
   readonly gpus?: number;
   /**
   * The memory size in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#memory ComputeInstanceGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#memory ComputeInstanceGroup#memory}
   */
   readonly memory: number;
 }
@@ -3975,7 +3975,7 @@ export interface ComputeInstanceGroupInstanceTemplateSchedulingPolicy {
   /**
   * Specifies if the instance is preemptible. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#preemptible ComputeInstanceGroup#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#preemptible ComputeInstanceGroup#preemptible}
   */
   readonly preemptible?: boolean | cdktf.IResolvable;
 }
@@ -4061,31 +4061,31 @@ export interface ComputeInstanceGroupInstanceTemplateSecondaryDiskInitializePara
   /**
   * A description of the boot disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
   */
   readonly description?: string;
   /**
   * The disk image to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#image_id ComputeInstanceGroup#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#image_id ComputeInstanceGroup#image_id}
   */
   readonly imageId?: string;
   /**
   * The size of the disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
   */
   readonly size?: number;
   /**
   * The snapshot to initialize this disk from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#snapshot_id ComputeInstanceGroup#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#snapshot_id ComputeInstanceGroup#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The disk type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#type ComputeInstanceGroup#type}
   */
   readonly type?: string;
 }
@@ -4287,31 +4287,31 @@ export interface ComputeInstanceGroupInstanceTemplateSecondaryDisk {
   /**
   * This value can be used to reference the device under `/dev/disk/by-id/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#device_name ComputeInstanceGroup#device_name}
   */
   readonly deviceName?: string;
   /**
   * ID of the existing disk. To set use variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#disk_id ComputeInstanceGroup#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#disk_id ComputeInstanceGroup#disk_id}
   */
   readonly diskId?: string;
   /**
   * The access mode to the disk resource. By default a disk is attached in `READ_WRITE` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#mode ComputeInstanceGroup#mode}
   */
   readonly mode?: string;
   /**
   * When set can be later used to change DiskSpec of actual disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
   */
   readonly name?: string;
   /**
   * initialize_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#initialize_params ComputeInstanceGroup#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#initialize_params ComputeInstanceGroup#initialize_params}
   */
   readonly initializeParams?: ComputeInstanceGroupInstanceTemplateSecondaryDiskInitializeParams;
 }
@@ -4545,7 +4545,7 @@ export interface ComputeInstanceGroupInstanceTemplate {
   /**
   * A description of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#description ComputeInstanceGroup#description}
   */
   readonly description?: string;
   /**
@@ -4556,19 +4556,19 @@ export interface ComputeInstanceGroupInstanceTemplate {
   * * combination of `{instance.zone_id}` and `{instance.index_in_zone}`
   * Example: `my-instance-{instance.index}`. If hostname is not set, `name` value will be used. It may also contain another placeholders, see `metadata` doc for full list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#hostname ComputeInstanceGroup#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#hostname ComputeInstanceGroup#hostname}
   */
   readonly hostname?: string;
   /**
   * A set of key/value label pairs to assign to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A set of metadata key/value pairs to make available from within the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metadata ComputeInstanceGroup#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metadata ComputeInstanceGroup#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
@@ -4579,73 +4579,73 @@ export interface ComputeInstanceGroupInstanceTemplate {
   * Example: `my-instance-{instance.index}`.
   * If not set, default name is used: `{instance_group.id}-{instance.short_id}`. It may also contain another placeholders, see `metadata` doc for full list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#name ComputeInstanceGroup#name}
   */
   readonly name?: string;
   /**
   * The ID of the hardware platform configuration for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#platform_id ComputeInstanceGroup#platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#platform_id ComputeInstanceGroup#platform_id}
   */
   readonly platformId?: string;
   /**
   * The ID of the service account authorized for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#service_account_id ComputeInstanceGroup#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#service_account_id ComputeInstanceGroup#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#boot_disk ComputeInstanceGroup#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#boot_disk ComputeInstanceGroup#boot_disk}
   */
   readonly bootDisk: ComputeInstanceGroupInstanceTemplateBootDisk;
   /**
   * filesystem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#filesystem ComputeInstanceGroup#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#filesystem ComputeInstanceGroup#filesystem}
   */
   readonly filesystem?: ComputeInstanceGroupInstanceTemplateFilesystem[] | cdktf.IResolvable;
   /**
   * metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metadata_options ComputeInstanceGroup#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metadata_options ComputeInstanceGroup#metadata_options}
   */
   readonly metadataOptions?: ComputeInstanceGroupInstanceTemplateMetadataOptions;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#network_interface ComputeInstanceGroup#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#network_interface ComputeInstanceGroup#network_interface}
   */
   readonly networkInterface: ComputeInstanceGroupInstanceTemplateNetworkInterface[] | cdktf.IResolvable;
   /**
   * network_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#network_settings ComputeInstanceGroup#network_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#network_settings ComputeInstanceGroup#network_settings}
   */
   readonly networkSettings?: ComputeInstanceGroupInstanceTemplateNetworkSettings[] | cdktf.IResolvable;
   /**
   * placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#placement_policy ComputeInstanceGroup#placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#placement_policy ComputeInstanceGroup#placement_policy}
   */
   readonly placementPolicy?: ComputeInstanceGroupInstanceTemplatePlacementPolicy;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#resources ComputeInstanceGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#resources ComputeInstanceGroup#resources}
   */
   readonly resources: ComputeInstanceGroupInstanceTemplateResources;
   /**
   * scheduling_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#scheduling_policy ComputeInstanceGroup#scheduling_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#scheduling_policy ComputeInstanceGroup#scheduling_policy}
   */
   readonly schedulingPolicy?: ComputeInstanceGroupInstanceTemplateSchedulingPolicy;
   /**
   * secondary_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#secondary_disk ComputeInstanceGroup#secondary_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#secondary_disk ComputeInstanceGroup#secondary_disk}
   */
   readonly secondaryDisk?: ComputeInstanceGroupInstanceTemplateSecondaryDisk[] | cdktf.IResolvable;
 }
@@ -5157,31 +5157,31 @@ export interface ComputeInstanceGroupLoadBalancer {
   /**
   * Do not wait load balancer health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#ignore_health_checks ComputeInstanceGroup#ignore_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#ignore_health_checks ComputeInstanceGroup#ignore_health_checks}
   */
   readonly ignoreHealthChecks?: boolean | cdktf.IResolvable;
   /**
   * Timeout for waiting for the VM to be checked by the load balancer. If the timeout is exceeded, the VM will be turned off based on the deployment policy. Specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_opening_traffic_duration ComputeInstanceGroup#max_opening_traffic_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_opening_traffic_duration ComputeInstanceGroup#max_opening_traffic_duration}
   */
   readonly maxOpeningTrafficDuration?: number;
   /**
   * A description of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_description ComputeInstanceGroup#target_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_description ComputeInstanceGroup#target_group_description}
   */
   readonly targetGroupDescription?: string;
   /**
   * A set of key/value label pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_labels ComputeInstanceGroup#target_group_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_labels ComputeInstanceGroup#target_group_labels}
   */
   readonly targetGroupLabels?: { [key: string]: string };
   /**
   * The name of the target group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target_group_name ComputeInstanceGroup#target_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target_group_name ComputeInstanceGroup#target_group_name}
   */
   readonly targetGroupName?: string;
 }
@@ -5393,43 +5393,43 @@ export interface ComputeInstanceGroupScalePolicyAutoScaleCustomRule {
   /**
   * If specified, sets the folder id to fetch metrics from. By default, it is the ID of the folder the group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * Metrics [labels](https://yandex.cloud/en/docs/monitoring/concepts/data-model#label) from Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the metric in Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metric_name ComputeInstanceGroup#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metric_name ComputeInstanceGroup#metric_name}
   */
   readonly metricName: string;
   /**
   * Type of metric, can be `GAUGE` or `COUNTER`. `GAUGE` metric reflects the value at particular time point. `COUNTER` metric exhibits a monotonous growth over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metric_type ComputeInstanceGroup#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metric_type ComputeInstanceGroup#metric_type}
   */
   readonly metricType: string;
   /**
   * The metric rule type (UTILIZATION, WORKLOAD). UTILIZATION for metrics describing resource utilization per VM instance. WORKLOAD for metrics describing total workload on all VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#rule_type ComputeInstanceGroup#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#rule_type ComputeInstanceGroup#rule_type}
   */
   readonly ruleType: string;
   /**
   * If specified, sets the service name to fetch metrics. The default value is `custom`. You can use a label to specify service metrics, e.g., `service` with the `compute` value for Compute Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#service ComputeInstanceGroup#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#service ComputeInstanceGroup#service}
   */
   readonly service?: string;
   /**
   * Target metric value by which Instance Groups calculates the number of required VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target ComputeInstanceGroup#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target ComputeInstanceGroup#target}
   */
   readonly target: number;
 }
@@ -5709,55 +5709,55 @@ export interface ComputeInstanceGroupScalePolicyAutoScale {
   /**
   * Autoscale type, can be `ZONAL` or `REGIONAL`. By default `ZONAL` type is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#auto_scale_type ComputeInstanceGroup#auto_scale_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#auto_scale_type ComputeInstanceGroup#auto_scale_type}
   */
   readonly autoScaleType?: string;
   /**
   * Target CPU load level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#cpu_utilization_target ComputeInstanceGroup#cpu_utilization_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#cpu_utilization_target ComputeInstanceGroup#cpu_utilization_target}
   */
   readonly cpuUtilizationTarget?: number;
   /**
   * The initial number of instances in the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#initial_size ComputeInstanceGroup#initial_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#initial_size ComputeInstanceGroup#initial_size}
   */
   readonly initialSize: number;
   /**
   * The maximum number of virtual machines in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_size ComputeInstanceGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_size ComputeInstanceGroup#max_size}
   */
   readonly maxSize?: number;
   /**
   * The amount of time, in seconds, that metrics are averaged for. If the average value at the end of the interval is higher than the `cpu_utilization_target`, the instance group will increase the number of virtual machines in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#measurement_duration ComputeInstanceGroup#measurement_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#measurement_duration ComputeInstanceGroup#measurement_duration}
   */
   readonly measurementDuration: number;
   /**
   * The minimum number of virtual machines in a single availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#min_zone_size ComputeInstanceGroup#min_zone_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#min_zone_size ComputeInstanceGroup#min_zone_size}
   */
   readonly minZoneSize?: number;
   /**
   * The minimum time interval, in seconds, to monitor the load before an instance group can reduce the number of virtual machines in the group. During this time, the group will not decrease even if the average load falls below the value of `cpu_utilization_target`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#stabilization_duration ComputeInstanceGroup#stabilization_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#stabilization_duration ComputeInstanceGroup#stabilization_duration}
   */
   readonly stabilizationDuration?: number;
   /**
   * The warm-up time of the virtual machine, in seconds. During this time, traffic is fed to the virtual machine, but load metrics are not taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#warmup_duration ComputeInstanceGroup#warmup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#warmup_duration ComputeInstanceGroup#warmup_duration}
   */
   readonly warmupDuration?: number;
   /**
   * custom_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#custom_rule ComputeInstanceGroup#custom_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#custom_rule ComputeInstanceGroup#custom_rule}
   */
   readonly customRule?: ComputeInstanceGroupScalePolicyAutoScaleCustomRule[] | cdktf.IResolvable;
 }
@@ -6069,7 +6069,7 @@ export interface ComputeInstanceGroupScalePolicyFixedScale {
   /**
   * The number of instances in the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#size ComputeInstanceGroup#size}
   */
   readonly size: number;
 }
@@ -6152,43 +6152,43 @@ export interface ComputeInstanceGroupScalePolicyTestAutoScaleCustomRule {
   /**
   * Folder ID of custom metric in Yandex Monitoring that should be used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#folder_id ComputeInstanceGroup#folder_id}
   */
   readonly folderId?: string;
   /**
   * A map of labels of metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#labels ComputeInstanceGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metric_name ComputeInstanceGroup#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metric_name ComputeInstanceGroup#metric_name}
   */
   readonly metricName: string;
   /**
   * Metric type, `GAUGE` or `COUNTER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#metric_type ComputeInstanceGroup#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#metric_type ComputeInstanceGroup#metric_type}
   */
   readonly metricType: string;
   /**
   * Rule type: `UTILIZATION` - This type means that the metric applies to one instance. First, Instance Groups calculates the average metric value for each instance, then averages the values for instances in one availability zone. This type of metric must have the `instance_id` label. `WORKLOAD` - This type means that the metric applies to instances in one availability zone. This type of metric must have the `zone_id` label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#rule_type ComputeInstanceGroup#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#rule_type ComputeInstanceGroup#rule_type}
   */
   readonly ruleType: string;
   /**
   * Service of custom metric in Yandex Monitoring that should be used for scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#service ComputeInstanceGroup#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#service ComputeInstanceGroup#service}
   */
   readonly service?: string;
   /**
   * Target metric value level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#target ComputeInstanceGroup#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#target ComputeInstanceGroup#target}
   */
   readonly target: number;
 }
@@ -6468,55 +6468,55 @@ export interface ComputeInstanceGroupScalePolicyTestAutoScale {
   /**
   * Autoscale type, can be `ZONAL` or `REGIONAL`. By default `ZONAL` type is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#auto_scale_type ComputeInstanceGroup#auto_scale_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#auto_scale_type ComputeInstanceGroup#auto_scale_type}
   */
   readonly autoScaleType?: string;
   /**
   * Target CPU load level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#cpu_utilization_target ComputeInstanceGroup#cpu_utilization_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#cpu_utilization_target ComputeInstanceGroup#cpu_utilization_target}
   */
   readonly cpuUtilizationTarget?: number;
   /**
   * The initial number of instances in the instance group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#initial_size ComputeInstanceGroup#initial_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#initial_size ComputeInstanceGroup#initial_size}
   */
   readonly initialSize: number;
   /**
   * The maximum number of virtual machines in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#max_size ComputeInstanceGroup#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#max_size ComputeInstanceGroup#max_size}
   */
   readonly maxSize?: number;
   /**
   * The amount of time, in seconds, that metrics are averaged for. If the average value at the end of the interval is higher than the `cpu_utilization_target`, the instance group will increase the number of virtual machines in the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#measurement_duration ComputeInstanceGroup#measurement_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#measurement_duration ComputeInstanceGroup#measurement_duration}
   */
   readonly measurementDuration: number;
   /**
   * The minimum number of virtual machines in a single availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#min_zone_size ComputeInstanceGroup#min_zone_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#min_zone_size ComputeInstanceGroup#min_zone_size}
   */
   readonly minZoneSize?: number;
   /**
   * The minimum time interval, in seconds, to monitor the load before an instance group can reduce the number of virtual machines in the group. During this time, the group will not decrease even if the average load falls below the value of `cpu_utilization_target`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#stabilization_duration ComputeInstanceGroup#stabilization_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#stabilization_duration ComputeInstanceGroup#stabilization_duration}
   */
   readonly stabilizationDuration?: number;
   /**
   * The warm-up time of the virtual machine, in seconds. During this time, traffic is fed to the virtual machine, but load metrics are not taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#warmup_duration ComputeInstanceGroup#warmup_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#warmup_duration ComputeInstanceGroup#warmup_duration}
   */
   readonly warmupDuration?: number;
   /**
   * custom_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#custom_rule ComputeInstanceGroup#custom_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#custom_rule ComputeInstanceGroup#custom_rule}
   */
   readonly customRule?: ComputeInstanceGroupScalePolicyTestAutoScaleCustomRule[] | cdktf.IResolvable;
 }
@@ -6828,19 +6828,19 @@ export interface ComputeInstanceGroupScalePolicy {
   /**
   * auto_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#auto_scale ComputeInstanceGroup#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#auto_scale ComputeInstanceGroup#auto_scale}
   */
   readonly autoScale?: ComputeInstanceGroupScalePolicyAutoScale;
   /**
   * fixed_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#fixed_scale ComputeInstanceGroup#fixed_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#fixed_scale ComputeInstanceGroup#fixed_scale}
   */
   readonly fixedScale?: ComputeInstanceGroupScalePolicyFixedScale;
   /**
   * test_auto_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#test_auto_scale ComputeInstanceGroup#test_auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#test_auto_scale ComputeInstanceGroup#test_auto_scale}
   */
   readonly testAutoScale?: ComputeInstanceGroupScalePolicyTestAutoScale;
 }
@@ -6982,15 +6982,15 @@ export class ComputeInstanceGroupScalePolicyOutputReference extends cdktf.Comple
 }
 export interface ComputeInstanceGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#create ComputeInstanceGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#create ComputeInstanceGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#delete ComputeInstanceGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#delete ComputeInstanceGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#update ComputeInstanceGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#update ComputeInstanceGroup#update}
   */
   readonly update?: string;
 }
@@ -7142,7 +7142,7 @@ export class ComputeInstanceGroupTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group yandex_compute_instance_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group yandex_compute_instance_group}
 */
 export class ComputeInstanceGroup extends cdktf.TerraformResource {
 
@@ -7158,7 +7158,7 @@ export class ComputeInstanceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeInstanceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeInstanceGroup to import
-  * @param importFromId The id of the existing ComputeInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeInstanceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7170,7 +7170,7 @@ export class ComputeInstanceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.173.0/docs/resources/compute_instance_group yandex_compute_instance_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.174.0/docs/resources/compute_instance_group yandex_compute_instance_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7181,8 +7181,8 @@ export class ComputeInstanceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.173.0',
-        providerVersionConstraint: '0.173.0'
+        providerVersion: '0.174.0',
+        providerVersionConstraint: '0.174.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

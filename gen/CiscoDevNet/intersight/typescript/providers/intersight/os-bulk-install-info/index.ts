@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OsBulkInstallInfoConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#account_moid OsBulkInstallInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#account_moid OsBulkInstallInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#ancestors OsBulkInstallInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#ancestors OsBulkInstallInfo#ancestors}
   */
   readonly ancestors?: OsBulkInstallInfoAncestors[] | cdktf.IResolvable;
   /**
@@ -28,26 +28,26 @@ export interface OsBulkInstallInfoConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
   * A reference to a osConfigurationFile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#configuration_file OsBulkInstallInfo#configuration_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#configuration_file OsBulkInstallInfo#configuration_file}
   */
   readonly configurationFile?: OsBulkInstallInfoConfigurationFile[] | cdktf.IResolvable;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#create_time OsBulkInstallInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#create_time OsBulkInstallInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#domain_group_moid OsBulkInstallInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#domain_group_moid OsBulkInstallInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -55,17 +55,17 @@ export interface OsBulkInstallInfoConfig extends cdktf.TerraformMetaArguments {
   * The first section holds generic information about the OS Install like OS Image, SCU Image etc. The second section holds
   * parameters which are specific to each server level data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#file_content OsBulkInstallInfo#file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#file_content OsBulkInstallInfo#file_content}
   */
   readonly fileContent?: string;
   /**
   * The global parameter of the CSV file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#global_config OsBulkInstallInfo#global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#global_config OsBulkInstallInfo#global_config}
   */
   readonly globalConfig?: OsBulkInstallInfoGlobalConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#id OsBulkInstallInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#id OsBulkInstallInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,32 +74,32 @@ export interface OsBulkInstallInfoConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether the value of the 'fileContent' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#is_file_content_set OsBulkInstallInfo#is_file_content_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#is_file_content_set OsBulkInstallInfo#is_file_content_set}
   */
   readonly isFileContentSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#mod_time OsBulkInstallInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#mod_time OsBulkInstallInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
   * The name of the CSV file, which holds the OS install parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#name OsBulkInstallInfo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#name OsBulkInstallInfo#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -110,98 +110,98 @@ export interface OsBulkInstallInfoConfig extends cdktf.TerraformMetaArguments {
   * * `CompletedError` - The API is failed with operation then OperStatus will be marked as CompletedError.
   * * `CompletedWarning` - The API is completed with some warning then OperStatus will be CompletedWarning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#oper_state OsBulkInstallInfo#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#oper_state OsBulkInstallInfo#oper_state}
   */
   readonly operState?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#organization OsBulkInstallInfo#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#organization OsBulkInstallInfo#organization}
   */
   readonly organization?: OsBulkInstallInfoOrganization[] | cdktf.IResolvable;
   /**
   * A reference to a softwarerepositoryOperatingSystemFile resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#os_image OsBulkInstallInfo#os_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#os_image OsBulkInstallInfo#os_image}
   */
   readonly osImage?: OsBulkInstallInfoOsImage[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#owners OsBulkInstallInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#owners OsBulkInstallInfo#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#parent OsBulkInstallInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#parent OsBulkInstallInfo#parent}
   */
   readonly parent?: OsBulkInstallInfoParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#permission_resources OsBulkInstallInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#permission_resources OsBulkInstallInfo#permission_resources}
   */
   readonly permissionResources?: OsBulkInstallInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a firmwareServerConfigurationUtilityDistributable resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#scu_image OsBulkInstallInfo#scu_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#scu_image OsBulkInstallInfo#scu_image}
   */
   readonly scuImage?: OsBulkInstallInfoScuImage[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#server_configs OsBulkInstallInfo#server_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#server_configs OsBulkInstallInfo#server_configs}
   */
   readonly serverConfigs?: OsBulkInstallInfoServerConfigs[] | cdktf.IResolvable;
   /**
   * An array of relationships to computePhysical resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#servers OsBulkInstallInfo#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#servers OsBulkInstallInfo#servers}
   */
   readonly servers?: OsBulkInstallInfoServers[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#shared_scope OsBulkInstallInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#shared_scope OsBulkInstallInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#tags OsBulkInstallInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#tags OsBulkInstallInfo#tags}
   */
   readonly tags?: OsBulkInstallInfoTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#validation_infos OsBulkInstallInfo#validation_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#validation_infos OsBulkInstallInfo#validation_infos}
   */
   readonly validationInfos?: OsBulkInstallInfoValidationInfos[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#version_context OsBulkInstallInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#version_context OsBulkInstallInfo#version_context}
   */
   readonly versionContext?: OsBulkInstallInfoVersionContext[] | cdktf.IResolvable;
 }
 export interface OsBulkInstallInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -433,23 +433,23 @@ export class OsBulkInstallInfoAncestorsList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoConfigurationFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -681,15 +681,15 @@ export class OsBulkInstallInfoConfigurationFileList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoGlobalConfigOperatingSystemParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -863,51 +863,51 @@ export class OsBulkInstallInfoGlobalConfigOperatingSystemParametersList extends 
 }
 export interface OsBulkInstallInfoGlobalConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#configuration_file_name OsBulkInstallInfo#configuration_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#configuration_file_name OsBulkInstallInfo#configuration_file_name}
   */
   readonly configurationFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#configuration_source OsBulkInstallInfo#configuration_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#configuration_source OsBulkInstallInfo#configuration_source}
   */
   readonly configurationSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#install_method OsBulkInstallInfo#install_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#install_method OsBulkInstallInfo#install_method}
   */
   readonly installMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#install_target_type OsBulkInstallInfo#install_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#install_target_type OsBulkInstallInfo#install_target_type}
   */
   readonly installTargetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#operating_system_parameters OsBulkInstallInfo#operating_system_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#operating_system_parameters OsBulkInstallInfo#operating_system_parameters}
   */
   readonly operatingSystemParameters?: OsBulkInstallInfoGlobalConfigOperatingSystemParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#os_image_name OsBulkInstallInfo#os_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#os_image_name OsBulkInstallInfo#os_image_name}
   */
   readonly osImageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#override_secure_boot OsBulkInstallInfo#override_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#override_secure_boot OsBulkInstallInfo#override_secure_boot}
   */
   readonly overrideSecureBoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#scu_image_name OsBulkInstallInfo#scu_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#scu_image_name OsBulkInstallInfo#scu_image_name}
   */
   readonly scuImageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#windows_edition OsBulkInstallInfo#windows_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#windows_edition OsBulkInstallInfo#windows_edition}
   */
   readonly windowsEdition?: string;
 }
@@ -1342,23 +1342,23 @@ export class OsBulkInstallInfoGlobalConfigList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1590,23 +1590,23 @@ export class OsBulkInstallInfoOrganizationList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoOsImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1838,23 +1838,23 @@ export class OsBulkInstallInfoOsImageList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2086,23 +2086,23 @@ export class OsBulkInstallInfoParentList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2334,23 +2334,23 @@ export class OsBulkInstallInfoPermissionResourcesList extends cdktf.ComplexList 
 }
 export interface OsBulkInstallInfoScuImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2582,27 +2582,27 @@ export class OsBulkInstallInfoScuImageList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoServerConfigsAdditionalParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#is_value_set OsBulkInstallInfo#is_value_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#is_value_set OsBulkInstallInfo#is_value_set}
   */
   readonly isValueSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#type OsBulkInstallInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#type OsBulkInstallInfo#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#value OsBulkInstallInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#value OsBulkInstallInfo#value}
   */
   readonly value?: string;
 }
@@ -2863,15 +2863,15 @@ export class OsBulkInstallInfoServerConfigsAdditionalParametersList extends cdkt
 }
 export interface OsBulkInstallInfoServerConfigsAnswersIpConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -3045,67 +3045,67 @@ export class OsBulkInstallInfoServerConfigsAnswersIpConfigurationList extends cd
 }
 export interface OsBulkInstallInfoServerConfigsAnswers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#alternate_name_servers OsBulkInstallInfo#alternate_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#alternate_name_servers OsBulkInstallInfo#alternate_name_servers}
   */
   readonly alternateNameServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#answer_file OsBulkInstallInfo#answer_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#answer_file OsBulkInstallInfo#answer_file}
   */
   readonly answerFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#hostname OsBulkInstallInfo#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#hostname OsBulkInstallInfo#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#ip_config_type OsBulkInstallInfo#ip_config_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#ip_config_type OsBulkInstallInfo#ip_config_type}
   */
   readonly ipConfigType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#ip_configuration OsBulkInstallInfo#ip_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#ip_configuration OsBulkInstallInfo#ip_configuration}
   */
   readonly ipConfiguration?: OsBulkInstallInfoServerConfigsAnswersIpConfiguration[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#is_answer_file_set OsBulkInstallInfo#is_answer_file_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#is_answer_file_set OsBulkInstallInfo#is_answer_file_set}
   */
   readonly isAnswerFileSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#is_root_password_crypted OsBulkInstallInfo#is_root_password_crypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#is_root_password_crypted OsBulkInstallInfo#is_root_password_crypted}
   */
   readonly isRootPasswordCrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#is_root_password_set OsBulkInstallInfo#is_root_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#is_root_password_set OsBulkInstallInfo#is_root_password_set}
   */
   readonly isRootPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#nameserver OsBulkInstallInfo#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#nameserver OsBulkInstallInfo#nameserver}
   */
   readonly nameserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#network_device OsBulkInstallInfo#network_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#network_device OsBulkInstallInfo#network_device}
   */
   readonly networkDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#nr_source OsBulkInstallInfo#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#nr_source OsBulkInstallInfo#nr_source}
   */
   readonly nrSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#product_key OsBulkInstallInfo#product_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#product_key OsBulkInstallInfo#product_key}
   */
   readonly productKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#root_password OsBulkInstallInfo#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#root_password OsBulkInstallInfo#root_password}
   */
   readonly rootPassword?: string;
 }
@@ -3656,15 +3656,15 @@ export class OsBulkInstallInfoServerConfigsAnswersList extends cdktf.ComplexList
 }
 export interface OsBulkInstallInfoServerConfigsOperatingSystemParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -3838,15 +3838,15 @@ export class OsBulkInstallInfoServerConfigsOperatingSystemParametersList extends
 }
 export interface OsBulkInstallInfoServerConfigsProcessedInstallTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -4020,63 +4020,63 @@ export class OsBulkInstallInfoServerConfigsProcessedInstallTargetList extends cd
 }
 export interface OsBulkInstallInfoServerConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_parameters OsBulkInstallInfo#additional_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_parameters OsBulkInstallInfo#additional_parameters}
   */
   readonly additionalParameters?: OsBulkInstallInfoServerConfigsAdditionalParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#answers OsBulkInstallInfo#answers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#answers OsBulkInstallInfo#answers}
   */
   readonly answers?: OsBulkInstallInfoServerConfigsAnswers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#error_msgs OsBulkInstallInfo#error_msgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#error_msgs OsBulkInstallInfo#error_msgs}
   */
   readonly errorMsgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#initiator_wwpn OsBulkInstallInfo#initiator_wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#initiator_wwpn OsBulkInstallInfo#initiator_wwpn}
   */
   readonly initiatorWwpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#install_target OsBulkInstallInfo#install_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#install_target OsBulkInstallInfo#install_target}
   */
   readonly installTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#lun_id OsBulkInstallInfo#lun_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#lun_id OsBulkInstallInfo#lun_id}
   */
   readonly lunId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#operating_system_parameters OsBulkInstallInfo#operating_system_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#operating_system_parameters OsBulkInstallInfo#operating_system_parameters}
   */
   readonly operatingSystemParameters?: OsBulkInstallInfoServerConfigsOperatingSystemParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#processed_install_target OsBulkInstallInfo#processed_install_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#processed_install_target OsBulkInstallInfo#processed_install_target}
   */
   readonly processedInstallTarget?: OsBulkInstallInfoServerConfigsProcessedInstallTarget[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#serial_number OsBulkInstallInfo#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#serial_number OsBulkInstallInfo#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#target_iqn OsBulkInstallInfo#target_iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#target_iqn OsBulkInstallInfo#target_iqn}
   */
   readonly targetIqn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#target_wwpn OsBulkInstallInfo#target_wwpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#target_wwpn OsBulkInstallInfo#target_wwpn}
   */
   readonly targetWwpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#vnic_mac OsBulkInstallInfo#vnic_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#vnic_mac OsBulkInstallInfo#vnic_mac}
   */
   readonly vnicMac?: string;
 }
@@ -4598,23 +4598,23 @@ export class OsBulkInstallInfoServerConfigsList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4846,23 +4846,23 @@ export class OsBulkInstallInfoServersList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -5094,23 +5094,23 @@ export class OsBulkInstallInfoTagsAncestorDefinitionsList extends cdktf.ComplexL
 }
 export interface OsBulkInstallInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -5342,35 +5342,35 @@ export class OsBulkInstallInfoTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#ancestor_definitions OsBulkInstallInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#ancestor_definitions OsBulkInstallInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: OsBulkInstallInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#definition OsBulkInstallInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#definition OsBulkInstallInfo#definition}
   */
   readonly definition?: OsBulkInstallInfoTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#key OsBulkInstallInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#key OsBulkInstallInfo#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#propagated OsBulkInstallInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#propagated OsBulkInstallInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#sys_tag OsBulkInstallInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#sys_tag OsBulkInstallInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#type OsBulkInstallInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#type OsBulkInstallInfo#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#value OsBulkInstallInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#value OsBulkInstallInfo#value}
   */
   readonly value?: string;
 }
@@ -5689,27 +5689,27 @@ export class OsBulkInstallInfoTagsList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoValidationInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#error_msg OsBulkInstallInfo#error_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#error_msg OsBulkInstallInfo#error_msg}
   */
   readonly errorMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#status OsBulkInstallInfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#status OsBulkInstallInfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#step_name OsBulkInstallInfo#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#step_name OsBulkInstallInfo#step_name}
   */
   readonly stepName?: string;
 }
@@ -5970,23 +5970,23 @@ export class OsBulkInstallInfoValidationInfosList extends cdktf.ComplexList {
 }
 export interface OsBulkInstallInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -6218,23 +6218,23 @@ export class OsBulkInstallInfoVersionContextInterestedMosList extends cdktf.Comp
 }
 export interface OsBulkInstallInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#moid OsBulkInstallInfo#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#selector OsBulkInstallInfo#selector}
   */
   readonly selector?: string;
 }
@@ -6466,39 +6466,39 @@ export class OsBulkInstallInfoVersionContextRefMoList extends cdktf.ComplexList 
 }
 export interface OsBulkInstallInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#additional_properties OsBulkInstallInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#class_id OsBulkInstallInfo#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#interested_mos OsBulkInstallInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#interested_mos OsBulkInstallInfo#interested_mos}
   */
   readonly interestedMos?: OsBulkInstallInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#marked_for_deletion OsBulkInstallInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#marked_for_deletion OsBulkInstallInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#nr_version OsBulkInstallInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#nr_version OsBulkInstallInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#object_type OsBulkInstallInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#ref_mo OsBulkInstallInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#ref_mo OsBulkInstallInfo#ref_mo}
   */
   readonly refMo?: OsBulkInstallInfoVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#timestamp OsBulkInstallInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#timestamp OsBulkInstallInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#version_type OsBulkInstallInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#version_type OsBulkInstallInfo#version_type}
   */
   readonly versionType?: string;
 }
@@ -6846,7 +6846,7 @@ export class OsBulkInstallInfoVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info intersight_os_bulk_install_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info intersight_os_bulk_install_info}
 */
 export class OsBulkInstallInfo extends cdktf.TerraformResource {
 
@@ -6862,7 +6862,7 @@ export class OsBulkInstallInfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OsBulkInstallInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsBulkInstallInfo to import
-  * @param importFromId The id of the existing OsBulkInstallInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsBulkInstallInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsBulkInstallInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6874,7 +6874,7 @@ export class OsBulkInstallInfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/os_bulk_install_info intersight_os_bulk_install_info} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/os_bulk_install_info intersight_os_bulk_install_info} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6885,8 +6885,8 @@ export class OsBulkInstallInfo extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_os_bulk_install_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

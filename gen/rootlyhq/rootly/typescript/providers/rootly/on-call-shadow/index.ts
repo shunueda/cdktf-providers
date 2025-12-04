@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OnCallShadowConfig extends cdktf.TerraformMetaArguments {
   /**
   * End datetime for shadow shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#ends_at OnCallShadow#ends_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#ends_at OnCallShadow#ends_at}
   */
   readonly endsAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#id OnCallShadow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#id OnCallShadow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface OnCallShadowConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of schedule the shadow shift belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#schedule_id OnCallShadow#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#schedule_id OnCallShadow#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * Which user the shadow shift belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#shadow_user_id OnCallShadow#shadow_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#shadow_user_id OnCallShadow#shadow_user_id}
   */
   readonly shadowUserId: number;
   /**
   * ID of schedule or user the shadow user is shadowing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#shadowable_id OnCallShadow#shadowable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#shadowable_id OnCallShadow#shadowable_id}
   */
   readonly shadowableId: string;
   /**
   * Value must be one of `User`, `Schedule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#shadowable_type OnCallShadow#shadowable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#shadowable_type OnCallShadow#shadowable_type}
   */
   readonly shadowableType?: string;
   /**
   * Start datetime of shadow shift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#starts_at OnCallShadow#starts_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#starts_at OnCallShadow#starts_at}
   */
   readonly startsAt: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow rootly_on_call_shadow}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow rootly_on_call_shadow}
 */
 export class OnCallShadow extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class OnCallShadow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OnCallShadow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnCallShadow to import
-  * @param importFromId The id of the existing OnCallShadow that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnCallShadow that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnCallShadow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class OnCallShadow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.10/docs/resources/on_call_shadow rootly_on_call_shadow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.11/docs/resources/on_call_shadow rootly_on_call_shadow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class OnCallShadow extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_on_call_shadow',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.10',
-        providerVersionConstraint: '4.3.10'
+        providerVersion: '4.3.11',
+        providerVersionConstraint: '4.3.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

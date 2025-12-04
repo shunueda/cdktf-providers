@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#account_moid DataIntersightSoftwareHyperflexDistributable#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#account_moid DataIntersightSoftwareHyperflexDistributable#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#bundle_type DataIntersightSoftwareHyperflexDistributable#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#bundle_type DataIntersightSoftwareHyperflexDistributable#bundle_type}
   */
   readonly bundleType?: string;
   /**
@@ -28,31 +28,31 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#create_time DataIntersightSoftwareHyperflexDistributable#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#create_time DataIntersightSoftwareHyperflexDistributable#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#description DataIntersightSoftwareHyperflexDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#description DataIntersightSoftwareHyperflexDistributable#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#domain_group_moid DataIntersightSoftwareHyperflexDistributable#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#domain_group_moid DataIntersightSoftwareHyperflexDistributable#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#download_count DataIntersightSoftwareHyperflexDistributable#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#download_count DataIntersightSoftwareHyperflexDistributable#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -61,17 +61,17 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#feature_source DataIntersightSoftwareHyperflexDistributable#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#feature_source DataIntersightSoftwareHyperflexDistributable#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#guid DataIntersightSoftwareHyperflexDistributable#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#guid DataIntersightSoftwareHyperflexDistributable#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#id DataIntersightSoftwareHyperflexDistributable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#id DataIntersightSoftwareHyperflexDistributable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, UCS Managed Fabric Interconnect. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#image_type DataIntersightSoftwareHyperflexDistributable#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#image_type DataIntersightSoftwareHyperflexDistributable#image_type}
   */
   readonly imageType?: string;
   /**
@@ -95,7 +95,7 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#import_action DataIntersightSoftwareHyperflexDistributable#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#import_action DataIntersightSoftwareHyperflexDistributable#import_action}
   */
   readonly importAction?: string;
   /**
@@ -103,6 +103,7 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   * * `ReadyForImport` - The image is ready to be imported into the repository.
   * * `Importing` - The image is being imported into the repository.
   * * `Imported` - The image has been extracted and imported into the repository.
+  * * `ComputingMetadata` - Indicates that the image has been imported but its metadata computation has not been done.
   * * `PendingExtraction` - Indicates that the image has been imported but not extracted in the repository.
   * * `Extracting` - Indicates that the image is being extracted into the repository.
   * * `Extracted` - Indicates that the image has been extracted into the repository.
@@ -116,203 +117,203 @@ export interface DataIntersightSoftwareHyperflexDistributableConfig extends cdkt
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#import_state DataIntersightSoftwareHyperflexDistributable#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#import_state DataIntersightSoftwareHyperflexDistributable#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#imported_time DataIntersightSoftwareHyperflexDistributable#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#imported_time DataIntersightSoftwareHyperflexDistributable#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#last_access_time DataIntersightSoftwareHyperflexDistributable#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#last_access_time DataIntersightSoftwareHyperflexDistributable#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#md5e_tag DataIntersightSoftwareHyperflexDistributable#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#md5e_tag DataIntersightSoftwareHyperflexDistributable#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#md5sum DataIntersightSoftwareHyperflexDistributable#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#md5sum DataIntersightSoftwareHyperflexDistributable#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#mdfid DataIntersightSoftwareHyperflexDistributable#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#mdfid DataIntersightSoftwareHyperflexDistributable#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#mod_time DataIntersightSoftwareHyperflexDistributable#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#mod_time DataIntersightSoftwareHyperflexDistributable#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#model DataIntersightSoftwareHyperflexDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#model DataIntersightSoftwareHyperflexDistributable#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#name DataIntersightSoftwareHyperflexDistributable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#name DataIntersightSoftwareHyperflexDistributable#name}
   */
   readonly name?: string;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#nr_version DataIntersightSoftwareHyperflexDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#nr_version DataIntersightSoftwareHyperflexDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#owners DataIntersightSoftwareHyperflexDistributable#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#owners DataIntersightSoftwareHyperflexDistributable#owners}
   */
   readonly owners?: string[];
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#platform_type DataIntersightSoftwareHyperflexDistributable#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#platform_type DataIntersightSoftwareHyperflexDistributable#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#recommended_build DataIntersightSoftwareHyperflexDistributable#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#recommended_build DataIntersightSoftwareHyperflexDistributable#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#release_date DataIntersightSoftwareHyperflexDistributable#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#release_date DataIntersightSoftwareHyperflexDistributable#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#release_notes_url DataIntersightSoftwareHyperflexDistributable#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#release_notes_url DataIntersightSoftwareHyperflexDistributable#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#sha512sum DataIntersightSoftwareHyperflexDistributable#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#sha512sum DataIntersightSoftwareHyperflexDistributable#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#shared_scope DataIntersightSoftwareHyperflexDistributable#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#shared_scope DataIntersightSoftwareHyperflexDistributable#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#size DataIntersightSoftwareHyperflexDistributable#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#size DataIntersightSoftwareHyperflexDistributable#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#software_advisory_url DataIntersightSoftwareHyperflexDistributable#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#software_advisory_url DataIntersightSoftwareHyperflexDistributable#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#software_type_id DataIntersightSoftwareHyperflexDistributable#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#software_type_id DataIntersightSoftwareHyperflexDistributable#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#supported_models DataIntersightSoftwareHyperflexDistributable#supported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#supported_models DataIntersightSoftwareHyperflexDistributable#supported_models}
   */
   readonly supportedModels?: string[];
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#vendor DataIntersightSoftwareHyperflexDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#vendor DataIntersightSoftwareHyperflexDistributable#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#ancestors DataIntersightSoftwareHyperflexDistributable#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#ancestors DataIntersightSoftwareHyperflexDistributable#ancestors}
   */
   readonly ancestors?: DataIntersightSoftwareHyperflexDistributableAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#catalog DataIntersightSoftwareHyperflexDistributable#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#catalog DataIntersightSoftwareHyperflexDistributable#catalog}
   */
   readonly catalog?: DataIntersightSoftwareHyperflexDistributableCatalog;
   /**
   * component_meta block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#component_meta DataIntersightSoftwareHyperflexDistributable#component_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#component_meta DataIntersightSoftwareHyperflexDistributable#component_meta}
   */
   readonly componentMeta?: DataIntersightSoftwareHyperflexDistributableComponentMeta[] | cdktf.IResolvable;
   /**
   * distributable_metas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#distributable_metas DataIntersightSoftwareHyperflexDistributable#distributable_metas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#distributable_metas DataIntersightSoftwareHyperflexDistributable#distributable_metas}
   */
   readonly distributableMetas?: DataIntersightSoftwareHyperflexDistributableDistributableMetas[] | cdktf.IResolvable;
   /**
   * nr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#nr_source DataIntersightSoftwareHyperflexDistributable#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#nr_source DataIntersightSoftwareHyperflexDistributable#nr_source}
   */
   readonly nrSource?: DataIntersightSoftwareHyperflexDistributableNrSource;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#parent DataIntersightSoftwareHyperflexDistributable#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#parent DataIntersightSoftwareHyperflexDistributable#parent}
   */
   readonly parent?: DataIntersightSoftwareHyperflexDistributableParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#permission_resources DataIntersightSoftwareHyperflexDistributable#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#permission_resources DataIntersightSoftwareHyperflexDistributable#permission_resources}
   */
   readonly permissionResources?: DataIntersightSoftwareHyperflexDistributablePermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#release DataIntersightSoftwareHyperflexDistributable#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#release DataIntersightSoftwareHyperflexDistributable#release}
   */
   readonly release?: DataIntersightSoftwareHyperflexDistributableRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#tags DataIntersightSoftwareHyperflexDistributable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#tags DataIntersightSoftwareHyperflexDistributable#tags}
   */
   readonly tags?: DataIntersightSoftwareHyperflexDistributableTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#version_context DataIntersightSoftwareHyperflexDistributable#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#version_context DataIntersightSoftwareHyperflexDistributable#version_context}
   */
   readonly versionContext?: DataIntersightSoftwareHyperflexDistributableVersionContext;
 }
@@ -2037,7 +2038,7 @@ export class DataIntersightSoftwareHyperflexDistributableResultsList extends cdk
 }
 export interface DataIntersightSoftwareHyperflexDistributableAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2045,19 +2046,19 @@ export interface DataIntersightSoftwareHyperflexDistributableAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2070,7 +2071,7 @@ export interface DataIntersightSoftwareHyperflexDistributableAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2302,7 +2303,7 @@ export class DataIntersightSoftwareHyperflexDistributableAncestorsList extends c
 }
 export interface DataIntersightSoftwareHyperflexDistributableCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2310,19 +2311,19 @@ export interface DataIntersightSoftwareHyperflexDistributableCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2335,7 +2336,7 @@ export interface DataIntersightSoftwareHyperflexDistributableCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -2535,13 +2536,13 @@ export class DataIntersightSoftwareHyperflexDistributableCatalogOutputReference 
 }
 export interface DataIntersightSoftwareHyperflexDistributableComponentMeta {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Certain components have multiple versions packaged in the distributable. For example, the GPU component has multiple versions of the image packaged in the distributable due to a different onboard chip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#alternate_packed_version DataIntersightSoftwareHyperflexDistributable#alternate_packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#alternate_packed_version DataIntersightSoftwareHyperflexDistributable#alternate_packed_version}
   */
   readonly alternatePackedVersion?: string;
   /**
@@ -2549,13 +2550,13 @@ export interface DataIntersightSoftwareHyperflexDistributableComponentMeta {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The name of the component in the compressed HSU bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#component_label DataIntersightSoftwareHyperflexDistributable#component_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#component_label DataIntersightSoftwareHyperflexDistributable#component_label}
   */
   readonly componentLabel?: string;
   /**
@@ -2585,13 +2586,13 @@ export interface DataIntersightSoftwareHyperflexDistributableComponentMeta {
   * * `CMC` - This represents CMC components.
   * * `PSX` - This represents PSX components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#component_type DataIntersightSoftwareHyperflexDistributable#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#component_type DataIntersightSoftwareHyperflexDistributable#component_type}
   */
   readonly componentType?: string;
   /**
   * This shows the description of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#description DataIntersightSoftwareHyperflexDistributable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#description DataIntersightSoftwareHyperflexDistributable#description}
   */
   readonly description?: string;
   /**
@@ -2602,54 +2603,54 @@ export interface DataIntersightSoftwareHyperflexDistributableComponentMeta {
   * * `ManualPowerCycle` - Indicates that the component received a manual power cycle request.
   * * `AutomaticPowerCycle` - Indicates that the component received an automatic power cycle request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#disruption DataIntersightSoftwareHyperflexDistributable#disruption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#disruption DataIntersightSoftwareHyperflexDistributable#disruption}
   */
   readonly disruption?: string;
   /**
   * This shows the path of component image within the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#image_path DataIntersightSoftwareHyperflexDistributable#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#image_path DataIntersightSoftwareHyperflexDistributable#image_path}
   */
   readonly imagePath?: string;
   /**
   * If set, the component can be updated through out-of-band management, else, is updated through host service utility boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#is_oob_supported DataIntersightSoftwareHyperflexDistributable#is_oob_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#is_oob_supported DataIntersightSoftwareHyperflexDistributable#is_oob_supported}
   */
   readonly isOobSupported?: boolean | cdktf.IResolvable;
   /**
   * The model of the component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#model DataIntersightSoftwareHyperflexDistributable#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#model DataIntersightSoftwareHyperflexDistributable#model}
   */
   readonly model?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#oob_manageability DataIntersightSoftwareHyperflexDistributable#oob_manageability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#oob_manageability DataIntersightSoftwareHyperflexDistributable#oob_manageability}
   */
   readonly oobManageability?: string[];
   /**
   * The image version of components packaged in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#packed_version DataIntersightSoftwareHyperflexDistributable#packed_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#packed_version DataIntersightSoftwareHyperflexDistributable#packed_version}
   */
   readonly packedVersion?: string;
   /**
   * The redfish target for each component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#redfish_url DataIntersightSoftwareHyperflexDistributable#redfish_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#redfish_url DataIntersightSoftwareHyperflexDistributable#redfish_url}
   */
   readonly redfishUrl?: string;
   /**
   * The version of component image in the distributable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#vendor DataIntersightSoftwareHyperflexDistributable#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#vendor DataIntersightSoftwareHyperflexDistributable#vendor}
   */
   readonly vendor?: string;
 }
@@ -3171,7 +3172,7 @@ export class DataIntersightSoftwareHyperflexDistributableComponentMetaList exten
 }
 export interface DataIntersightSoftwareHyperflexDistributableDistributableMetas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3179,19 +3180,19 @@ export interface DataIntersightSoftwareHyperflexDistributableDistributableMetas 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3204,7 +3205,7 @@ export interface DataIntersightSoftwareHyperflexDistributableDistributableMetas 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3436,7 +3437,7 @@ export class DataIntersightSoftwareHyperflexDistributableDistributableMetasList 
 }
 export interface DataIntersightSoftwareHyperflexDistributableNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3445,7 +3446,7 @@ export interface DataIntersightSoftwareHyperflexDistributableNrSource {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
@@ -3453,7 +3454,7 @@ export interface DataIntersightSoftwareHyperflexDistributableNrSource {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
 }
@@ -3595,7 +3596,7 @@ export class DataIntersightSoftwareHyperflexDistributableNrSourceOutputReference
 }
 export interface DataIntersightSoftwareHyperflexDistributableParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3603,19 +3604,19 @@ export interface DataIntersightSoftwareHyperflexDistributableParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3628,7 +3629,7 @@ export interface DataIntersightSoftwareHyperflexDistributableParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -3828,7 +3829,7 @@ export class DataIntersightSoftwareHyperflexDistributableParentOutputReference e
 }
 export interface DataIntersightSoftwareHyperflexDistributablePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3836,19 +3837,19 @@ export interface DataIntersightSoftwareHyperflexDistributablePermissionResources
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3861,7 +3862,7 @@ export interface DataIntersightSoftwareHyperflexDistributablePermissionResources
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4093,7 +4094,7 @@ export class DataIntersightSoftwareHyperflexDistributablePermissionResourcesList
 }
 export interface DataIntersightSoftwareHyperflexDistributableRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4101,19 +4102,19 @@ export interface DataIntersightSoftwareHyperflexDistributableRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4126,7 +4127,7 @@ export interface DataIntersightSoftwareHyperflexDistributableRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4326,7 +4327,7 @@ export class DataIntersightSoftwareHyperflexDistributableReleaseOutputReference 
 }
 export interface DataIntersightSoftwareHyperflexDistributableTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4334,19 +4335,19 @@ export interface DataIntersightSoftwareHyperflexDistributableTagsAncestorDefinit
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4359,7 +4360,7 @@ export interface DataIntersightSoftwareHyperflexDistributableTagsAncestorDefinit
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4591,7 +4592,7 @@ export class DataIntersightSoftwareHyperflexDistributableTagsAncestorDefinitions
 }
 export interface DataIntersightSoftwareHyperflexDistributableTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4599,19 +4600,19 @@ export interface DataIntersightSoftwareHyperflexDistributableTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4624,7 +4625,7 @@ export interface DataIntersightSoftwareHyperflexDistributableTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -4824,25 +4825,25 @@ export class DataIntersightSoftwareHyperflexDistributableTagsDefinitionOutputRef
 }
 export interface DataIntersightSoftwareHyperflexDistributableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#key DataIntersightSoftwareHyperflexDistributable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#key DataIntersightSoftwareHyperflexDistributable#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#propagated DataIntersightSoftwareHyperflexDistributable#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#propagated DataIntersightSoftwareHyperflexDistributable#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#sys_tag DataIntersightSoftwareHyperflexDistributable#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#sys_tag DataIntersightSoftwareHyperflexDistributable#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -4850,25 +4851,25 @@ export interface DataIntersightSoftwareHyperflexDistributableTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#type DataIntersightSoftwareHyperflexDistributable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#type DataIntersightSoftwareHyperflexDistributable#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#value DataIntersightSoftwareHyperflexDistributable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#value DataIntersightSoftwareHyperflexDistributable#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#ancestor_definitions DataIntersightSoftwareHyperflexDistributable#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#ancestor_definitions DataIntersightSoftwareHyperflexDistributable#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightSoftwareHyperflexDistributableTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#definition DataIntersightSoftwareHyperflexDistributable#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#definition DataIntersightSoftwareHyperflexDistributable#definition}
   */
   readonly definition?: DataIntersightSoftwareHyperflexDistributableTagsDefinition;
 }
@@ -5187,7 +5188,7 @@ export class DataIntersightSoftwareHyperflexDistributableTagsList extends cdktf.
 }
 export interface DataIntersightSoftwareHyperflexDistributableVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5195,19 +5196,19 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContextInter
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5220,7 +5221,7 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContextInter
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5452,7 +5453,7 @@ export class DataIntersightSoftwareHyperflexDistributableVersionContextIntereste
 }
 export interface DataIntersightSoftwareHyperflexDistributableVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5460,19 +5461,19 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContextRefMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#moid DataIntersightSoftwareHyperflexDistributable#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5485,7 +5486,7 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContextRefMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#selector DataIntersightSoftwareHyperflexDistributable#selector}
   */
   readonly selector?: string;
 }
@@ -5685,7 +5686,7 @@ export class DataIntersightSoftwareHyperflexDistributableVersionContextRefMoOutp
 }
 export interface DataIntersightSoftwareHyperflexDistributableVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#additional_properties DataIntersightSoftwareHyperflexDistributable#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5693,32 +5694,32 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#class_id DataIntersightSoftwareHyperflexDistributable#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#marked_for_deletion DataIntersightSoftwareHyperflexDistributable#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#marked_for_deletion DataIntersightSoftwareHyperflexDistributable#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#nr_version DataIntersightSoftwareHyperflexDistributable#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#nr_version DataIntersightSoftwareHyperflexDistributable#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#object_type DataIntersightSoftwareHyperflexDistributable#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#timestamp DataIntersightSoftwareHyperflexDistributable#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#timestamp DataIntersightSoftwareHyperflexDistributable#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -5729,19 +5730,19 @@ export interface DataIntersightSoftwareHyperflexDistributableVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#version_type DataIntersightSoftwareHyperflexDistributable#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#version_type DataIntersightSoftwareHyperflexDistributable#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#interested_mos DataIntersightSoftwareHyperflexDistributable#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#interested_mos DataIntersightSoftwareHyperflexDistributable#interested_mos}
   */
   readonly interestedMos?: DataIntersightSoftwareHyperflexDistributableVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#ref_mo DataIntersightSoftwareHyperflexDistributable#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#ref_mo DataIntersightSoftwareHyperflexDistributable#ref_mo}
   */
   readonly refMo?: DataIntersightSoftwareHyperflexDistributableVersionContextRefMo;
 }
@@ -6057,7 +6058,7 @@ export class DataIntersightSoftwareHyperflexDistributableVersionContextOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable intersight_software_hyperflex_distributable}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable intersight_software_hyperflex_distributable}
 */
 export class DataIntersightSoftwareHyperflexDistributable extends cdktf.TerraformDataSource {
 
@@ -6073,7 +6074,7 @@ export class DataIntersightSoftwareHyperflexDistributable extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataIntersightSoftwareHyperflexDistributable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightSoftwareHyperflexDistributable to import
-  * @param importFromId The id of the existing DataIntersightSoftwareHyperflexDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightSoftwareHyperflexDistributable that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightSoftwareHyperflexDistributable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6085,7 +6086,7 @@ export class DataIntersightSoftwareHyperflexDistributable extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/software_hyperflex_distributable intersight_software_hyperflex_distributable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/software_hyperflex_distributable intersight_software_hyperflex_distributable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6096,8 +6097,8 @@ export class DataIntersightSoftwareHyperflexDistributable extends cdktf.Terrafor
       terraformResourceType: 'intersight_software_hyperflex_distributable',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

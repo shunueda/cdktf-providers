@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClsIndexConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#id ClsIndex#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#id ClsIndex#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface ClsIndexConfig extends cdktf.TerraformMetaArguments {
   /**
   * Internal field marker of full-text index. Default value: false. Valid value: false: excluding internal fields; true: including internal fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#include_internal_fields ClsIndex#include_internal_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#include_internal_fields ClsIndex#include_internal_fields}
   */
   readonly includeInternalFields?: boolean | cdktf.IResolvable;
   /**
   * Metadata flag. Default value: 0. Valid value: 0: full-text index (including the metadata field with key-value index enabled); 1: full-text index (including all metadata fields); 2: full-text index (excluding metadata fields)..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#metadata_flag ClsIndex#metadata_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#metadata_flag ClsIndex#metadata_flag}
   */
   readonly metadataFlag?: number;
   /**
   * Whether to take effect. Default value: true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#status ClsIndex#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#status ClsIndex#status}
   */
   readonly status?: boolean | cdktf.IResolvable;
   /**
   * Log topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#topic_id ClsIndex#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#topic_id ClsIndex#topic_id}
   */
   readonly topicId: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#rule ClsIndex#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#rule ClsIndex#rule}
   */
   readonly rule?: ClsIndexRule;
 }
@@ -49,7 +49,7 @@ export interface ClsIndexRuleDynamicIndex {
   /**
   * index automatic configuration switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#status ClsIndex#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#status ClsIndex#status}
   */
   readonly status: boolean | cdktf.IResolvable;
 }
@@ -132,19 +132,19 @@ export interface ClsIndexRuleFullText {
   /**
   * Case sensitivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
   */
   readonly caseSensitive: boolean | cdktf.IResolvable;
   /**
   * Whether Chinese characters are contained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
   */
   readonly containZH: boolean | cdktf.IResolvable;
   /**
   * Full-Text index delimiter. Each character in the string represents a delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
   */
   readonly tokenizer: string;
 }
@@ -279,25 +279,25 @@ export interface ClsIndexRuleKeyValueKeyValuesValue {
   /**
   * Whether Chinese characters are contained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
   */
   readonly containZH?: boolean | cdktf.IResolvable;
   /**
   * Whether the analysis feature is enabled for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#sql_flag ClsIndex#sql_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#sql_flag ClsIndex#sql_flag}
   */
   readonly sqlFlag?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter, which is meaningful only if the field type is text. Each character in the entered string represents a delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
   */
   readonly tokenizer?: string;
   /**
   * Field type. Valid values: long, text, double.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#type ClsIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#type ClsIndex#type}
   */
   readonly type: string;
 }
@@ -467,13 +467,13 @@ export interface ClsIndexRuleKeyValueKeyValues {
   /**
   * When a key value or metafield index needs to be configured for a field, the metafield Key does not need to be prefixed with __TAG__. and is consistent with the one when logs are uploaded. __TAG__. will be prefixed automatically for display in the console..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#key ClsIndex#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#key ClsIndex#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#value ClsIndex#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#value ClsIndex#value}
   */
   readonly value?: ClsIndexRuleKeyValueKeyValuesValue;
 }
@@ -617,13 +617,13 @@ export interface ClsIndexRuleKeyValue {
   /**
   * Case sensitivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
   */
   readonly caseSensitive: boolean | cdktf.IResolvable;
   /**
   * key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#key_values ClsIndex#key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#key_values ClsIndex#key_values}
   */
   readonly keyValues?: ClsIndexRuleKeyValueKeyValues[] | cdktf.IResolvable;
 }
@@ -735,25 +735,25 @@ export interface ClsIndexRuleTagKeyValuesValue {
   /**
   * Whether Chinese characters are contained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#contain_z_h ClsIndex#contain_z_h}
   */
   readonly containZH?: boolean | cdktf.IResolvable;
   /**
   * Whether the analysis feature is enabled for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#sql_flag ClsIndex#sql_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#sql_flag ClsIndex#sql_flag}
   */
   readonly sqlFlag?: boolean | cdktf.IResolvable;
   /**
   * Field delimiter, which is meaningful only if the field type is text. Each character in the entered string represents a delimiter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#tokenizer ClsIndex#tokenizer}
   */
   readonly tokenizer?: string;
   /**
   * Field type. Valid values: long, text, double.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#type ClsIndex#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#type ClsIndex#type}
   */
   readonly type: string;
 }
@@ -923,13 +923,13 @@ export interface ClsIndexRuleTagKeyValues {
   /**
   * When a key value or metafield index needs to be configured for a field, the metafield Key does not need to be prefixed with __TAG__. and is consistent with the one when logs are uploaded. __TAG__. will be prefixed automatically for display in the console..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#key ClsIndex#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#key ClsIndex#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#value ClsIndex#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#value ClsIndex#value}
   */
   readonly value?: ClsIndexRuleTagKeyValuesValue;
 }
@@ -1073,13 +1073,13 @@ export interface ClsIndexRuleTag {
   /**
   * Case sensitivity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#case_sensitive ClsIndex#case_sensitive}
   */
   readonly caseSensitive: boolean | cdktf.IResolvable;
   /**
   * key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#key_values ClsIndex#key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#key_values ClsIndex#key_values}
   */
   readonly keyValues?: ClsIndexRuleTagKeyValues[] | cdktf.IResolvable;
 }
@@ -1191,25 +1191,25 @@ export interface ClsIndexRule {
   /**
   * dynamic_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#dynamic_index ClsIndex#dynamic_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#dynamic_index ClsIndex#dynamic_index}
   */
   readonly dynamicIndex?: ClsIndexRuleDynamicIndex;
   /**
   * full_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#full_text ClsIndex#full_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#full_text ClsIndex#full_text}
   */
   readonly fullText?: ClsIndexRuleFullText;
   /**
   * key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#key_value ClsIndex#key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#key_value ClsIndex#key_value}
   */
   readonly keyValue?: ClsIndexRuleKeyValue;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#tag ClsIndex#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#tag ClsIndex#tag}
   */
   readonly tag?: ClsIndexRuleTag;
 }
@@ -1380,7 +1380,7 @@ export class ClsIndexRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index tencentcloud_cls_index}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index tencentcloud_cls_index}
 */
 export class ClsIndex extends cdktf.TerraformResource {
 
@@ -1396,7 +1396,7 @@ export class ClsIndex extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsIndex resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsIndex to import
-  * @param importFromId The id of the existing ClsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1408,7 +1408,7 @@ export class ClsIndex extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cls_index tencentcloud_cls_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cls_index tencentcloud_cls_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1419,8 +1419,8 @@ export class ClsIndex extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_index',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

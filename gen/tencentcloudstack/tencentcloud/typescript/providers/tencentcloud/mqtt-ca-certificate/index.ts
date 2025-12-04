@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MqttCaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#ca_certificate MqttCaCertificate#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#ca_certificate MqttCaCertificate#ca_certificate}
   */
   readonly caCertificate: string;
   /**
   * Certificate format, Default is PEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#format MqttCaCertificate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#format MqttCaCertificate#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#id MqttCaCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#id MqttCaCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface MqttCaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#instance_id MqttCaCertificate#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#instance_id MqttCaCertificate#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -37,19 +37,19 @@ export interface MqttCaCertificateConfig extends cdktf.TerraformMetaArguments {
   *   ACTIVE activation;
   *   INACTIVE not active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#status MqttCaCertificate#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#status MqttCaCertificate#status}
   */
   readonly status?: string;
   /**
   * Verification certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#verification_certificate MqttCaCertificate#verification_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#verification_certificate MqttCaCertificate#verification_certificate}
   */
   readonly verificationCertificate: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate tencentcloud_mqtt_ca_certificate}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate tencentcloud_mqtt_ca_certificate}
 */
 export class MqttCaCertificate extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class MqttCaCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MqttCaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MqttCaCertificate to import
-  * @param importFromId The id of the existing MqttCaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MqttCaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MqttCaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class MqttCaCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/mqtt_ca_certificate tencentcloud_mqtt_ca_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/mqtt_ca_certificate tencentcloud_mqtt_ca_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class MqttCaCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mqtt_ca_certificate',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

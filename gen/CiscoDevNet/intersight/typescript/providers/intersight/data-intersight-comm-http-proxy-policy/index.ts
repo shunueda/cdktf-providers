@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCommHttpProxyPolicyConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#account_moid DataIntersightCommHttpProxyPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#account_moid DataIntersightCommHttpProxyPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightCommHttpProxyPolicyConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#create_time DataIntersightCommHttpProxyPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#create_time DataIntersightCommHttpProxyPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#description DataIntersightCommHttpProxyPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#description DataIntersightCommHttpProxyPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#domain_group_moid DataIntersightCommHttpProxyPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#domain_group_moid DataIntersightCommHttpProxyPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HTTP Proxy server FQDN or IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#hostname DataIntersightCommHttpProxyPolicy#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#hostname DataIntersightCommHttpProxyPolicy#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#id DataIntersightCommHttpProxyPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#id DataIntersightCommHttpProxyPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,104 +59,104 @@ export interface DataIntersightCommHttpProxyPolicyConfig extends cdktf.Terraform
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#is_password_set DataIntersightCommHttpProxyPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#is_password_set DataIntersightCommHttpProxyPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#mod_time DataIntersightCommHttpProxyPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#mod_time DataIntersightCommHttpProxyPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#name DataIntersightCommHttpProxyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#name DataIntersightCommHttpProxyPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#owners DataIntersightCommHttpProxyPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#owners DataIntersightCommHttpProxyPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * The password for the HTTP Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#password DataIntersightCommHttpProxyPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#password DataIntersightCommHttpProxyPolicy#password}
   */
   readonly password?: string;
   /**
   * The HTTP Proxy port number.
   * The port number of the HTTP proxy must be between 1 and 65535, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#port DataIntersightCommHttpProxyPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#port DataIntersightCommHttpProxyPolicy#port}
   */
   readonly port?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#shared_scope DataIntersightCommHttpProxyPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#shared_scope DataIntersightCommHttpProxyPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The username for the HTTP Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#username DataIntersightCommHttpProxyPolicy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#username DataIntersightCommHttpProxyPolicy#username}
   */
   readonly username?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#ancestors DataIntersightCommHttpProxyPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#ancestors DataIntersightCommHttpProxyPolicy#ancestors}
   */
   readonly ancestors?: DataIntersightCommHttpProxyPolicyAncestors[] | cdktf.IResolvable;
   /**
   * cluster_profiles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#cluster_profiles DataIntersightCommHttpProxyPolicy#cluster_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#cluster_profiles DataIntersightCommHttpProxyPolicy#cluster_profiles}
   */
   readonly clusterProfiles?: DataIntersightCommHttpProxyPolicyClusterProfiles[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#organization DataIntersightCommHttpProxyPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#organization DataIntersightCommHttpProxyPolicy#organization}
   */
   readonly organization?: DataIntersightCommHttpProxyPolicyOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#parent DataIntersightCommHttpProxyPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#parent DataIntersightCommHttpProxyPolicy#parent}
   */
   readonly parent?: DataIntersightCommHttpProxyPolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#permission_resources DataIntersightCommHttpProxyPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#permission_resources DataIntersightCommHttpProxyPolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightCommHttpProxyPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#tags DataIntersightCommHttpProxyPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#tags DataIntersightCommHttpProxyPolicy#tags}
   */
   readonly tags?: DataIntersightCommHttpProxyPolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#version_context DataIntersightCommHttpProxyPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#version_context DataIntersightCommHttpProxyPolicy#version_context}
   */
   readonly versionContext?: DataIntersightCommHttpProxyPolicyVersionContext;
 }
@@ -1443,7 +1443,7 @@ export class DataIntersightCommHttpProxyPolicyResultsList extends cdktf.ComplexL
 }
 export interface DataIntersightCommHttpProxyPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1451,19 +1451,19 @@ export interface DataIntersightCommHttpProxyPolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1476,7 +1476,7 @@ export interface DataIntersightCommHttpProxyPolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1708,7 +1708,7 @@ export class DataIntersightCommHttpProxyPolicyAncestorsList extends cdktf.Comple
 }
 export interface DataIntersightCommHttpProxyPolicyClusterProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1716,19 +1716,19 @@ export interface DataIntersightCommHttpProxyPolicyClusterProfiles {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1741,7 +1741,7 @@ export interface DataIntersightCommHttpProxyPolicyClusterProfiles {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1973,7 +1973,7 @@ export class DataIntersightCommHttpProxyPolicyClusterProfilesList extends cdktf.
 }
 export interface DataIntersightCommHttpProxyPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1981,19 +1981,19 @@ export interface DataIntersightCommHttpProxyPolicyOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2006,7 +2006,7 @@ export interface DataIntersightCommHttpProxyPolicyOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2206,7 +2206,7 @@ export class DataIntersightCommHttpProxyPolicyOrganizationOutputReference extend
 }
 export interface DataIntersightCommHttpProxyPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2214,19 +2214,19 @@ export interface DataIntersightCommHttpProxyPolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2239,7 +2239,7 @@ export interface DataIntersightCommHttpProxyPolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2439,7 +2439,7 @@ export class DataIntersightCommHttpProxyPolicyParentOutputReference extends cdkt
 }
 export interface DataIntersightCommHttpProxyPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2447,19 +2447,19 @@ export interface DataIntersightCommHttpProxyPolicyPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2472,7 +2472,7 @@ export interface DataIntersightCommHttpProxyPolicyPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2704,7 +2704,7 @@ export class DataIntersightCommHttpProxyPolicyPermissionResourcesList extends cd
 }
 export interface DataIntersightCommHttpProxyPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2712,19 +2712,19 @@ export interface DataIntersightCommHttpProxyPolicyTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2737,7 +2737,7 @@ export interface DataIntersightCommHttpProxyPolicyTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2969,7 +2969,7 @@ export class DataIntersightCommHttpProxyPolicyTagsAncestorDefinitionsList extend
 }
 export interface DataIntersightCommHttpProxyPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2977,19 +2977,19 @@ export interface DataIntersightCommHttpProxyPolicyTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3002,7 +3002,7 @@ export interface DataIntersightCommHttpProxyPolicyTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3202,25 +3202,25 @@ export class DataIntersightCommHttpProxyPolicyTagsDefinitionOutputReference exte
 }
 export interface DataIntersightCommHttpProxyPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#key DataIntersightCommHttpProxyPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#key DataIntersightCommHttpProxyPolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#propagated DataIntersightCommHttpProxyPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#propagated DataIntersightCommHttpProxyPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#sys_tag DataIntersightCommHttpProxyPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#sys_tag DataIntersightCommHttpProxyPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3228,25 +3228,25 @@ export interface DataIntersightCommHttpProxyPolicyTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#type DataIntersightCommHttpProxyPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#type DataIntersightCommHttpProxyPolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#value DataIntersightCommHttpProxyPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#value DataIntersightCommHttpProxyPolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#ancestor_definitions DataIntersightCommHttpProxyPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#ancestor_definitions DataIntersightCommHttpProxyPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCommHttpProxyPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#definition DataIntersightCommHttpProxyPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#definition DataIntersightCommHttpProxyPolicy#definition}
   */
   readonly definition?: DataIntersightCommHttpProxyPolicyTagsDefinition;
 }
@@ -3565,7 +3565,7 @@ export class DataIntersightCommHttpProxyPolicyTagsList extends cdktf.ComplexList
 }
 export interface DataIntersightCommHttpProxyPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3573,19 +3573,19 @@ export interface DataIntersightCommHttpProxyPolicyVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3598,7 +3598,7 @@ export interface DataIntersightCommHttpProxyPolicyVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3830,7 +3830,7 @@ export class DataIntersightCommHttpProxyPolicyVersionContextInterestedMosList ex
 }
 export interface DataIntersightCommHttpProxyPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3838,19 +3838,19 @@ export interface DataIntersightCommHttpProxyPolicyVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#moid DataIntersightCommHttpProxyPolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3863,7 +3863,7 @@ export interface DataIntersightCommHttpProxyPolicyVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#selector DataIntersightCommHttpProxyPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4063,7 +4063,7 @@ export class DataIntersightCommHttpProxyPolicyVersionContextRefMoOutputReference
 }
 export interface DataIntersightCommHttpProxyPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#additional_properties DataIntersightCommHttpProxyPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4071,32 +4071,32 @@ export interface DataIntersightCommHttpProxyPolicyVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#class_id DataIntersightCommHttpProxyPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#marked_for_deletion DataIntersightCommHttpProxyPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#marked_for_deletion DataIntersightCommHttpProxyPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#nr_version DataIntersightCommHttpProxyPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#nr_version DataIntersightCommHttpProxyPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#object_type DataIntersightCommHttpProxyPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#timestamp DataIntersightCommHttpProxyPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#timestamp DataIntersightCommHttpProxyPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4107,19 +4107,19 @@ export interface DataIntersightCommHttpProxyPolicyVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#version_type DataIntersightCommHttpProxyPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#version_type DataIntersightCommHttpProxyPolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#interested_mos DataIntersightCommHttpProxyPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#interested_mos DataIntersightCommHttpProxyPolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightCommHttpProxyPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#ref_mo DataIntersightCommHttpProxyPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#ref_mo DataIntersightCommHttpProxyPolicy#ref_mo}
   */
   readonly refMo?: DataIntersightCommHttpProxyPolicyVersionContextRefMo;
 }
@@ -4435,7 +4435,7 @@ export class DataIntersightCommHttpProxyPolicyVersionContextOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy intersight_comm_http_proxy_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy intersight_comm_http_proxy_policy}
 */
 export class DataIntersightCommHttpProxyPolicy extends cdktf.TerraformDataSource {
 
@@ -4451,7 +4451,7 @@ export class DataIntersightCommHttpProxyPolicy extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataIntersightCommHttpProxyPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCommHttpProxyPolicy to import
-  * @param importFromId The id of the existing DataIntersightCommHttpProxyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCommHttpProxyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCommHttpProxyPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4463,7 +4463,7 @@ export class DataIntersightCommHttpProxyPolicy extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/comm_http_proxy_policy intersight_comm_http_proxy_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/comm_http_proxy_policy intersight_comm_http_proxy_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4474,8 +4474,8 @@ export class DataIntersightCommHttpProxyPolicy extends cdktf.TerraformDataSource
       terraformResourceType: 'intersight_comm_http_proxy_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

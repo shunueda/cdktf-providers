@@ -422,6 +422,7 @@ Object.defineProperty(exports, 'dataOpentelekomcloudRdsBackupV3', { get: functio
 Object.defineProperty(exports, 'dataOpentelekomcloudRdsFlavorsV1', { get: function () { return require('./data-opentelekomcloud-rds-flavors-v1'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudRdsFlavorsV3', { get: function () { return require('./data-opentelekomcloud-rds-flavors-v3'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudRdsInstanceV3', { get: function () { return require('./data-opentelekomcloud-rds-instance-v3'); } });
+Object.defineProperty(exports, 'dataOpentelekomcloudRdsMajorVersionsV3', { get: function () { return require('./data-opentelekomcloud-rds-major-versions-v3'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudRdsVersionsV3', { get: function () { return require('./data-opentelekomcloud-rds-versions-v3'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudRmsAdvancedQueriesV1', { get: function () { return require('./data-opentelekomcloud-rms-advanced-queries-v1'); } });
 Object.defineProperty(exports, 'dataOpentelekomcloudRmsAdvancedQuerySchemasV1', { get: function () { return require('./data-opentelekomcloud-rms-advanced-query-schemas-v1'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SoftwarerepositoryCategoryUnsupportedModelsConfig extends cdktf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#account_moid SoftwarerepositoryCategoryUnsupportedModels#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#account_moid SoftwarerepositoryCategoryUnsupportedModels#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#ancestors SoftwarerepositoryCategoryUnsupportedModels#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#ancestors SoftwarerepositoryCategoryUnsupportedModels#ancestors}
   */
   readonly ancestors?: SoftwarerepositoryCategoryUnsupportedModelsAncestors[] | cdktf.IResolvable;
   /**
@@ -28,23 +28,23 @@ export interface SoftwarerepositoryCategoryUnsupportedModelsConfig extends cdktf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#create_time SoftwarerepositoryCategoryUnsupportedModels#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#create_time SoftwarerepositoryCategoryUnsupportedModels#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#domain_group_moid SoftwarerepositoryCategoryUnsupportedModels#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#domain_group_moid SoftwarerepositoryCategoryUnsupportedModels#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#id SoftwarerepositoryCategoryUnsupportedModels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#id SoftwarerepositoryCategoryUnsupportedModels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,92 +53,92 @@ export interface SoftwarerepositoryCategoryUnsupportedModelsConfig extends cdktf
   /**
   * Cisco software repository image category identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#mdf_id SoftwarerepositoryCategoryUnsupportedModels#mdf_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#mdf_id SoftwarerepositoryCategoryUnsupportedModels#mdf_id}
   */
   readonly mdfId?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#mod_time SoftwarerepositoryCategoryUnsupportedModels#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#mod_time SoftwarerepositoryCategoryUnsupportedModels#mod_time}
   */
   readonly modTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#model_constraint SoftwarerepositoryCategoryUnsupportedModels#model_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#model_constraint SoftwarerepositoryCategoryUnsupportedModels#model_constraint}
   */
   readonly modelConstraint?: SoftwarerepositoryCategoryUnsupportedModelsModelConstraint[] | cdktf.IResolvable;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#name SoftwarerepositoryCategoryUnsupportedModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#name SoftwarerepositoryCategoryUnsupportedModels#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#owners SoftwarerepositoryCategoryUnsupportedModels#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#owners SoftwarerepositoryCategoryUnsupportedModels#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#parent SoftwarerepositoryCategoryUnsupportedModels#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#parent SoftwarerepositoryCategoryUnsupportedModels#parent}
   */
   readonly parent?: SoftwarerepositoryCategoryUnsupportedModelsParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#permission_resources SoftwarerepositoryCategoryUnsupportedModels#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#permission_resources SoftwarerepositoryCategoryUnsupportedModels#permission_resources}
   */
   readonly permissionResources?: SoftwarerepositoryCategoryUnsupportedModelsPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#shared_scope SoftwarerepositoryCategoryUnsupportedModels#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#shared_scope SoftwarerepositoryCategoryUnsupportedModels#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#tags SoftwarerepositoryCategoryUnsupportedModels#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#tags SoftwarerepositoryCategoryUnsupportedModels#tags}
   */
   readonly tags?: SoftwarerepositoryCategoryUnsupportedModelsTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#version_context SoftwarerepositoryCategoryUnsupportedModels#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#version_context SoftwarerepositoryCategoryUnsupportedModels#version_context}
   */
   readonly versionContext?: SoftwarerepositoryCategoryUnsupportedModelsVersionContext[] | cdktf.IResolvable;
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -370,31 +370,31 @@ export class SoftwarerepositoryCategoryUnsupportedModelsAncestorsList extends cd
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsModelConstraint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#max_version SoftwarerepositoryCategoryUnsupportedModels#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#max_version SoftwarerepositoryCategoryUnsupportedModels#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#name SoftwarerepositoryCategoryUnsupportedModels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#name SoftwarerepositoryCategoryUnsupportedModels#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#platform_regex SoftwarerepositoryCategoryUnsupportedModels#platform_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#platform_regex SoftwarerepositoryCategoryUnsupportedModels#platform_regex}
   */
   readonly platformRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#unsupported_models SoftwarerepositoryCategoryUnsupportedModels#unsupported_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#unsupported_models SoftwarerepositoryCategoryUnsupportedModels#unsupported_models}
   */
   readonly unsupportedModels?: string[];
 }
@@ -684,23 +684,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsModelConstraintList exte
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -932,23 +932,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsParentList extends cdktf
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -1180,23 +1180,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsPermissionResourcesList 
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -1428,23 +1428,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsTagsAncestorDefinitionsL
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -1676,35 +1676,35 @@ export class SoftwarerepositoryCategoryUnsupportedModelsTagsDefinitionList exten
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#ancestor_definitions SoftwarerepositoryCategoryUnsupportedModels#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#ancestor_definitions SoftwarerepositoryCategoryUnsupportedModels#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SoftwarerepositoryCategoryUnsupportedModelsTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#definition SoftwarerepositoryCategoryUnsupportedModels#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#definition SoftwarerepositoryCategoryUnsupportedModels#definition}
   */
   readonly definition?: SoftwarerepositoryCategoryUnsupportedModelsTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#key SoftwarerepositoryCategoryUnsupportedModels#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#key SoftwarerepositoryCategoryUnsupportedModels#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#propagated SoftwarerepositoryCategoryUnsupportedModels#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#propagated SoftwarerepositoryCategoryUnsupportedModels#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#sys_tag SoftwarerepositoryCategoryUnsupportedModels#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#sys_tag SoftwarerepositoryCategoryUnsupportedModels#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#type SoftwarerepositoryCategoryUnsupportedModels#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#type SoftwarerepositoryCategoryUnsupportedModels#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#value SoftwarerepositoryCategoryUnsupportedModels#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#value SoftwarerepositoryCategoryUnsupportedModels#value}
   */
   readonly value?: string;
 }
@@ -2023,23 +2023,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsTagsList extends cdktf.C
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -2271,23 +2271,23 @@ export class SoftwarerepositoryCategoryUnsupportedModelsVersionContextInterested
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#moid SoftwarerepositoryCategoryUnsupportedModels#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#selector SoftwarerepositoryCategoryUnsupportedModels#selector}
   */
   readonly selector?: string;
 }
@@ -2519,39 +2519,39 @@ export class SoftwarerepositoryCategoryUnsupportedModelsVersionContextRefMoList 
 }
 export interface SoftwarerepositoryCategoryUnsupportedModelsVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#additional_properties SoftwarerepositoryCategoryUnsupportedModels#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#class_id SoftwarerepositoryCategoryUnsupportedModels#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#interested_mos SoftwarerepositoryCategoryUnsupportedModels#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#interested_mos SoftwarerepositoryCategoryUnsupportedModels#interested_mos}
   */
   readonly interestedMos?: SoftwarerepositoryCategoryUnsupportedModelsVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#marked_for_deletion SoftwarerepositoryCategoryUnsupportedModels#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#marked_for_deletion SoftwarerepositoryCategoryUnsupportedModels#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#nr_version SoftwarerepositoryCategoryUnsupportedModels#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#nr_version SoftwarerepositoryCategoryUnsupportedModels#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#object_type SoftwarerepositoryCategoryUnsupportedModels#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#ref_mo SoftwarerepositoryCategoryUnsupportedModels#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#ref_mo SoftwarerepositoryCategoryUnsupportedModels#ref_mo}
   */
   readonly refMo?: SoftwarerepositoryCategoryUnsupportedModelsVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#timestamp SoftwarerepositoryCategoryUnsupportedModels#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#timestamp SoftwarerepositoryCategoryUnsupportedModels#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#version_type SoftwarerepositoryCategoryUnsupportedModels#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#version_type SoftwarerepositoryCategoryUnsupportedModels#version_type}
   */
   readonly versionType?: string;
 }
@@ -2899,7 +2899,7 @@ export class SoftwarerepositoryCategoryUnsupportedModelsVersionContextList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models intersight_softwarerepository_category_unsupported_models}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models intersight_softwarerepository_category_unsupported_models}
 */
 export class SoftwarerepositoryCategoryUnsupportedModels extends cdktf.TerraformResource {
 
@@ -2915,7 +2915,7 @@ export class SoftwarerepositoryCategoryUnsupportedModels extends cdktf.Terraform
   * Generates CDKTF code for importing a SoftwarerepositoryCategoryUnsupportedModels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SoftwarerepositoryCategoryUnsupportedModels to import
-  * @param importFromId The id of the existing SoftwarerepositoryCategoryUnsupportedModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SoftwarerepositoryCategoryUnsupportedModels that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SoftwarerepositoryCategoryUnsupportedModels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2927,7 +2927,7 @@ export class SoftwarerepositoryCategoryUnsupportedModels extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_category_unsupported_models intersight_softwarerepository_category_unsupported_models} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_category_unsupported_models intersight_softwarerepository_category_unsupported_models} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2938,8 +2938,8 @@ export class SoftwarerepositoryCategoryUnsupportedModels extends cdktf.Terraform
       terraformResourceType: 'intersight_softwarerepository_category_unsupported_models',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

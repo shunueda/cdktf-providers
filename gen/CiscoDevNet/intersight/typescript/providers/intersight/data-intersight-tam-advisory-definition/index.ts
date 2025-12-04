@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#account_moid DataIntersightTamAdvisoryDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#account_moid DataIntersightTamAdvisoryDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Cisco generated identifier for the published security/field-notice/end-of-life advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#advisory_id DataIntersightTamAdvisoryDefinition#advisory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#advisory_id DataIntersightTamAdvisoryDefinition#advisory_id}
   */
   readonly advisoryId?: string;
   /**
@@ -28,37 +28,37 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#create_time DataIntersightTamAdvisoryDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#create_time DataIntersightTamAdvisoryDefinition#create_time}
   */
   readonly createTime?: string;
   /**
   * Date when the security/field-notice/end-of-life advisory was first published by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#date_published DataIntersightTamAdvisoryDefinition#date_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#date_published DataIntersightTamAdvisoryDefinition#date_published}
   */
   readonly datePublished?: string;
   /**
   * Date when the security/field-notice/end-of-life advisory was last updated by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#date_updated DataIntersightTamAdvisoryDefinition#date_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#date_updated DataIntersightTamAdvisoryDefinition#date_updated}
   */
   readonly dateUpdated?: string;
   /**
   * Brief description of the advisory details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#description DataIntersightTamAdvisoryDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#description DataIntersightTamAdvisoryDefinition#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#domain_group_moid DataIntersightTamAdvisoryDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#domain_group_moid DataIntersightTamAdvisoryDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -66,17 +66,17 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   * * `tier1` - Advisory processing will be taken care by batch processing.
   * * `tier2` - Advisory processing will be taken care by stream processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#execute_on_pod DataIntersightTamAdvisoryDefinition#execute_on_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#execute_on_pod DataIntersightTamAdvisoryDefinition#execute_on_pod}
   */
   readonly executeOnPod?: string;
   /**
   * A link to an external URL describing security Advisory in more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#external_url DataIntersightTamAdvisoryDefinition#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#external_url DataIntersightTamAdvisoryDefinition#external_url}
   */
   readonly externalUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#id DataIntersightTamAdvisoryDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#id DataIntersightTamAdvisoryDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,53 +85,53 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#mod_time DataIntersightTamAdvisoryDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#mod_time DataIntersightTamAdvisoryDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * A user defined name for the Intersight Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * Cisco assigned advisory/field-notice/end-of-life version after latest revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#nr_version DataIntersightTamAdvisoryDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#nr_version DataIntersightTamAdvisoryDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#other_ref_urls DataIntersightTamAdvisoryDefinition#other_ref_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#other_ref_urls DataIntersightTamAdvisoryDefinition#other_ref_urls}
   */
   readonly otherRefUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#owners DataIntersightTamAdvisoryDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#owners DataIntersightTamAdvisoryDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * Recommended action to resolve the security advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#recommendation DataIntersightTamAdvisoryDefinition#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#recommendation DataIntersightTamAdvisoryDefinition#recommendation}
   */
   readonly recommendation?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#shared_scope DataIntersightTamAdvisoryDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#shared_scope DataIntersightTamAdvisoryDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -139,7 +139,7 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   * * `ready` - Advisory has been evaluated. The affected devices would be analyzed and corresponding advisory instances would be created.
   * * `evaluating` - Advisory is currently under evaluation. The affected devices would be analyzed but no advisory instances wouldbe created. The results of the analysis would be made available to Intersight engineering for evaluation and validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#state DataIntersightTamAdvisoryDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#state DataIntersightTamAdvisoryDefinition#state}
   */
   readonly state?: string;
   /**
@@ -148,79 +148,79 @@ export interface DataIntersightTamAdvisoryDefinitionConfig extends cdktf.Terrafo
   * * `fieldNotice` - Respresents the field notice alert type (https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html).
   * * `eolAdvisory` - Represents product End of Life (EOL) type (https://www.cisco.com/c/en/us/products/eos-eol-policy.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
   */
   readonly type?: string;
   /**
   * Workarounds available for the advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#workaround DataIntersightTamAdvisoryDefinition#workaround}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#workaround DataIntersightTamAdvisoryDefinition#workaround}
   */
   readonly workaround?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#actions DataIntersightTamAdvisoryDefinition#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#actions DataIntersightTamAdvisoryDefinition#actions}
   */
   readonly actions?: DataIntersightTamAdvisoryDefinitionActions[] | cdktf.IResolvable;
   /**
   * advisory_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#advisory_details DataIntersightTamAdvisoryDefinition#advisory_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#advisory_details DataIntersightTamAdvisoryDefinition#advisory_details}
   */
   readonly advisoryDetails?: DataIntersightTamAdvisoryDefinitionAdvisoryDetails;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#ancestors DataIntersightTamAdvisoryDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#ancestors DataIntersightTamAdvisoryDefinition#ancestors}
   */
   readonly ancestors?: DataIntersightTamAdvisoryDefinitionAncestors[] | cdktf.IResolvable;
   /**
   * api_data_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#api_data_sources DataIntersightTamAdvisoryDefinition#api_data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#api_data_sources DataIntersightTamAdvisoryDefinition#api_data_sources}
   */
   readonly apiDataSources?: DataIntersightTamAdvisoryDefinitionApiDataSources[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#organization DataIntersightTamAdvisoryDefinition#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#organization DataIntersightTamAdvisoryDefinition#organization}
   */
   readonly organization?: DataIntersightTamAdvisoryDefinitionOrganization;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#parent DataIntersightTamAdvisoryDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#parent DataIntersightTamAdvisoryDefinition#parent}
   */
   readonly parent?: DataIntersightTamAdvisoryDefinitionParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#permission_resources DataIntersightTamAdvisoryDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#permission_resources DataIntersightTamAdvisoryDefinition#permission_resources}
   */
   readonly permissionResources?: DataIntersightTamAdvisoryDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
   * s3_data_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#s3_data_sources DataIntersightTamAdvisoryDefinition#s3_data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#s3_data_sources DataIntersightTamAdvisoryDefinition#s3_data_sources}
   */
   readonly s3DataSources?: DataIntersightTamAdvisoryDefinitionS3DataSources[] | cdktf.IResolvable;
   /**
   * severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#severity DataIntersightTamAdvisoryDefinition#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#severity DataIntersightTamAdvisoryDefinition#severity}
   */
   readonly severity?: DataIntersightTamAdvisoryDefinitionSeverity;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#tags DataIntersightTamAdvisoryDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#tags DataIntersightTamAdvisoryDefinition#tags}
   */
   readonly tags?: DataIntersightTamAdvisoryDefinitionTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#version_context DataIntersightTamAdvisoryDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#version_context DataIntersightTamAdvisoryDefinition#version_context}
   */
   readonly versionContext?: DataIntersightTamAdvisoryDefinitionVersionContext;
 }
@@ -2370,7 +2370,7 @@ export class DataIntersightTamAdvisoryDefinitionResultsList extends cdktf.Comple
 }
 export interface DataIntersightTamAdvisoryDefinitionActionsIdentifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2378,26 +2378,26 @@ export interface DataIntersightTamAdvisoryDefinitionActionsIdentifiers {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Name of the filter paramter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Value of the filter paramter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#value DataIntersightTamAdvisoryDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#value DataIntersightTamAdvisoryDefinition#value}
   */
   readonly value?: string;
 }
@@ -2629,7 +2629,7 @@ export class DataIntersightTamAdvisoryDefinitionActionsIdentifiersList extends c
 }
 export interface DataIntersightTamAdvisoryDefinitionActionsQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2637,32 +2637,32 @@ export interface DataIntersightTamAdvisoryDefinitionActionsQueries {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Name is used to unique identify and result of the given query which can be used by subsequent queries as input data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * An integer value depicting the priority of the query among the queries that are part of the same QueryEntry collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
   */
   readonly priority?: number;
   /**
   * A SparkSQL query to be used on a given data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
   */
   readonly query?: string;
 }
@@ -2923,13 +2923,13 @@ export class DataIntersightTamAdvisoryDefinitionActionsQueriesList extends cdktf
 }
 export interface DataIntersightTamAdvisoryDefinitionActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Type of the managed object that should be marked with an instance of the Alert (when operation type is create) or that should have an alert instance removed (when operation type is remove).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#affected_object_type DataIntersightTamAdvisoryDefinition#affected_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#affected_object_type DataIntersightTamAdvisoryDefinition#affected_object_type}
   */
   readonly affectedObjectType?: string;
   /**
@@ -2938,7 +2938,7 @@ export interface DataIntersightTamAdvisoryDefinitionActions {
   * * `fieldNotice` - Respresents the field notice alert type (https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html).
   * * `eolAdvisory` - Represents product End of Life (EOL) type (https://www.cisco.com/c/en/us/products/eos-eol-policy.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#alert_type DataIntersightTamAdvisoryDefinition#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#alert_type DataIntersightTamAdvisoryDefinition#alert_type}
   */
   readonly alertType?: string;
   /**
@@ -2946,20 +2946,20 @@ export interface DataIntersightTamAdvisoryDefinitionActions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Uniquely identifies a given action among the set of actions corresponding to an advisory. Primarily used to store and compare results of subsequent iterations corresponding to the action queries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2967,26 +2967,26 @@ export interface DataIntersightTamAdvisoryDefinitionActions {
   * * `create` - Create an instance of AdvisoryInstance.
   * * `remove` - Remove an instance of AdvisoryInstance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#operation_type DataIntersightTamAdvisoryDefinition#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#operation_type DataIntersightTamAdvisoryDefinition#operation_type}
   */
   readonly operationType?: string;
   /**
   * Type of Intersight alert. An alert in Intersight could be one of several kinds (FieldNotice, PSIRT etc.). Primarily used for filtering alerts based on the type.
   * * `restApi` - Repesents the use of REST API for carrying out alert actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
   */
   readonly type?: string;
   /**
   * identifiers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#identifiers DataIntersightTamAdvisoryDefinition#identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#identifiers DataIntersightTamAdvisoryDefinition#identifiers}
   */
   readonly identifiers?: DataIntersightTamAdvisoryDefinitionActionsIdentifiers[] | cdktf.IResolvable;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
   */
   readonly queries?: DataIntersightTamAdvisoryDefinitionActionsQueries[] | cdktf.IResolvable;
 }
@@ -3363,7 +3363,7 @@ export class DataIntersightTamAdvisoryDefinitionActionsList extends cdktf.Comple
 }
 export interface DataIntersightTamAdvisoryDefinitionAdvisoryDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3372,13 +3372,13 @@ export interface DataIntersightTamAdvisoryDefinitionAdvisoryDetails {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Brief description of details specified for an advisory type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#description DataIntersightTamAdvisoryDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#description DataIntersightTamAdvisoryDefinition#description}
   */
   readonly description?: string;
   /**
@@ -3386,7 +3386,7 @@ export interface DataIntersightTamAdvisoryDefinitionAdvisoryDetails {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -3557,7 +3557,7 @@ export class DataIntersightTamAdvisoryDefinitionAdvisoryDetailsOutputReference e
 }
 export interface DataIntersightTamAdvisoryDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3565,19 +3565,19 @@ export interface DataIntersightTamAdvisoryDefinitionAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3590,7 +3590,7 @@ export interface DataIntersightTamAdvisoryDefinitionAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -3822,7 +3822,7 @@ export class DataIntersightTamAdvisoryDefinitionAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightTamAdvisoryDefinitionApiDataSourcesQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3830,32 +3830,32 @@ export interface DataIntersightTamAdvisoryDefinitionApiDataSourcesQueries {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Name is used to unique identify and result of the given query which can be used by subsequent queries as input data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * An integer value depicting the priority of the query among the queries that are part of the same QueryEntry collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
   */
   readonly priority?: number;
   /**
   * A SparkSQL query to be used on a given data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
   */
   readonly query?: string;
 }
@@ -4116,7 +4116,7 @@ export class DataIntersightTamAdvisoryDefinitionApiDataSourcesQueriesList extend
 }
 export interface DataIntersightTamAdvisoryDefinitionApiDataSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4124,26 +4124,26 @@ export interface DataIntersightTamAdvisoryDefinitionApiDataSources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Type of Intersight managed object used as data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#mo_type DataIntersightTamAdvisoryDefinition#mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#mo_type DataIntersightTamAdvisoryDefinition#mo_type}
   */
   readonly moType?: string;
   /**
   * Name is used to unique identify and refer a given data source in an alert definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4152,13 +4152,13 @@ export interface DataIntersightTamAdvisoryDefinitionApiDataSources {
   * * `nxos` - Collector type for this data collection is NXOS.
   * * `s3File` - Collector type for this data collection is a file in a cloud hosted object storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
   */
   readonly type?: string;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
   */
   readonly queries?: DataIntersightTamAdvisoryDefinitionApiDataSourcesQueries[] | cdktf.IResolvable;
 }
@@ -4448,7 +4448,7 @@ export class DataIntersightTamAdvisoryDefinitionApiDataSourcesList extends cdktf
 }
 export interface DataIntersightTamAdvisoryDefinitionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4456,19 +4456,19 @@ export interface DataIntersightTamAdvisoryDefinitionOrganization {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4481,7 +4481,7 @@ export interface DataIntersightTamAdvisoryDefinitionOrganization {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4681,7 +4681,7 @@ export class DataIntersightTamAdvisoryDefinitionOrganizationOutputReference exte
 }
 export interface DataIntersightTamAdvisoryDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4689,19 +4689,19 @@ export interface DataIntersightTamAdvisoryDefinitionParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4714,7 +4714,7 @@ export interface DataIntersightTamAdvisoryDefinitionParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4914,7 +4914,7 @@ export class DataIntersightTamAdvisoryDefinitionParentOutputReference extends cd
 }
 export interface DataIntersightTamAdvisoryDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4922,19 +4922,19 @@ export interface DataIntersightTamAdvisoryDefinitionPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4947,7 +4947,7 @@ export interface DataIntersightTamAdvisoryDefinitionPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -5179,7 +5179,7 @@ export class DataIntersightTamAdvisoryDefinitionPermissionResourcesList extends 
 }
 export interface DataIntersightTamAdvisoryDefinitionS3DataSourcesQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5187,32 +5187,32 @@ export interface DataIntersightTamAdvisoryDefinitionS3DataSourcesQueries {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Name is used to unique identify and result of the given query which can be used by subsequent queries as input data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * An integer value depicting the priority of the query among the queries that are part of the same QueryEntry collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#priority DataIntersightTamAdvisoryDefinition#priority}
   */
   readonly priority?: number;
   /**
   * A SparkSQL query to be used on a given data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#query DataIntersightTamAdvisoryDefinition#query}
   */
   readonly query?: string;
 }
@@ -5473,7 +5473,7 @@ export class DataIntersightTamAdvisoryDefinitionS3DataSourcesQueriesList extends
 }
 export interface DataIntersightTamAdvisoryDefinitionS3DataSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5481,26 +5481,26 @@ export interface DataIntersightTamAdvisoryDefinitionS3DataSources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * Name is used to unique identify and refer a given data source in an alert definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#name DataIntersightTamAdvisoryDefinition#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * Path used to access file in s3 containing data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#s3_path DataIntersightTamAdvisoryDefinition#s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#s3_path DataIntersightTamAdvisoryDefinition#s3_path}
   */
   readonly s3Path?: string;
   /**
@@ -5509,13 +5509,13 @@ export interface DataIntersightTamAdvisoryDefinitionS3DataSources {
   * * `nxos` - Collector type for this data collection is NXOS.
   * * `s3File` - Collector type for this data collection is a file in a cloud hosted object storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
   */
   readonly type?: string;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#queries DataIntersightTamAdvisoryDefinition#queries}
   */
   readonly queries?: DataIntersightTamAdvisoryDefinitionS3DataSourcesQueries[] | cdktf.IResolvable;
 }
@@ -5805,7 +5805,7 @@ export class DataIntersightTamAdvisoryDefinitionS3DataSourcesList extends cdktf.
 }
 export interface DataIntersightTamAdvisoryDefinitionSeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5814,7 +5814,7 @@ export interface DataIntersightTamAdvisoryDefinitionSeverity {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
@@ -5822,7 +5822,7 @@ export interface DataIntersightTamAdvisoryDefinitionSeverity {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -5964,7 +5964,7 @@ export class DataIntersightTamAdvisoryDefinitionSeverityOutputReference extends 
 }
 export interface DataIntersightTamAdvisoryDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5972,19 +5972,19 @@ export interface DataIntersightTamAdvisoryDefinitionTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5997,7 +5997,7 @@ export interface DataIntersightTamAdvisoryDefinitionTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -6229,7 +6229,7 @@ export class DataIntersightTamAdvisoryDefinitionTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightTamAdvisoryDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6237,19 +6237,19 @@ export interface DataIntersightTamAdvisoryDefinitionTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6262,7 +6262,7 @@ export interface DataIntersightTamAdvisoryDefinitionTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -6462,25 +6462,25 @@ export class DataIntersightTamAdvisoryDefinitionTagsDefinitionOutputReference ex
 }
 export interface DataIntersightTamAdvisoryDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#key DataIntersightTamAdvisoryDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#key DataIntersightTamAdvisoryDefinition#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#propagated DataIntersightTamAdvisoryDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#propagated DataIntersightTamAdvisoryDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#sys_tag DataIntersightTamAdvisoryDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#sys_tag DataIntersightTamAdvisoryDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -6488,25 +6488,25 @@ export interface DataIntersightTamAdvisoryDefinitionTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#type DataIntersightTamAdvisoryDefinition#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#value DataIntersightTamAdvisoryDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#value DataIntersightTamAdvisoryDefinition#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#ancestor_definitions DataIntersightTamAdvisoryDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#ancestor_definitions DataIntersightTamAdvisoryDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightTamAdvisoryDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#definition DataIntersightTamAdvisoryDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#definition DataIntersightTamAdvisoryDefinition#definition}
   */
   readonly definition?: DataIntersightTamAdvisoryDefinitionTagsDefinition;
 }
@@ -6825,7 +6825,7 @@ export class DataIntersightTamAdvisoryDefinitionTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightTamAdvisoryDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6833,19 +6833,19 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6858,7 +6858,7 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -7090,7 +7090,7 @@ export class DataIntersightTamAdvisoryDefinitionVersionContextInterestedMosList 
 }
 export interface DataIntersightTamAdvisoryDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7098,19 +7098,19 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#moid DataIntersightTamAdvisoryDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7123,7 +7123,7 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#selector DataIntersightTamAdvisoryDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -7323,7 +7323,7 @@ export class DataIntersightTamAdvisoryDefinitionVersionContextRefMoOutputReferen
 }
 export interface DataIntersightTamAdvisoryDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#additional_properties DataIntersightTamAdvisoryDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7331,32 +7331,32 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#class_id DataIntersightTamAdvisoryDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#marked_for_deletion DataIntersightTamAdvisoryDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#marked_for_deletion DataIntersightTamAdvisoryDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#nr_version DataIntersightTamAdvisoryDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#nr_version DataIntersightTamAdvisoryDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#object_type DataIntersightTamAdvisoryDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#timestamp DataIntersightTamAdvisoryDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#timestamp DataIntersightTamAdvisoryDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7367,19 +7367,19 @@ export interface DataIntersightTamAdvisoryDefinitionVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#version_type DataIntersightTamAdvisoryDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#version_type DataIntersightTamAdvisoryDefinition#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#interested_mos DataIntersightTamAdvisoryDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#interested_mos DataIntersightTamAdvisoryDefinition#interested_mos}
   */
   readonly interestedMos?: DataIntersightTamAdvisoryDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#ref_mo DataIntersightTamAdvisoryDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#ref_mo DataIntersightTamAdvisoryDefinition#ref_mo}
   */
   readonly refMo?: DataIntersightTamAdvisoryDefinitionVersionContextRefMo;
 }
@@ -7695,7 +7695,7 @@ export class DataIntersightTamAdvisoryDefinitionVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition intersight_tam_advisory_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition intersight_tam_advisory_definition}
 */
 export class DataIntersightTamAdvisoryDefinition extends cdktf.TerraformDataSource {
 
@@ -7711,7 +7711,7 @@ export class DataIntersightTamAdvisoryDefinition extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightTamAdvisoryDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightTamAdvisoryDefinition to import
-  * @param importFromId The id of the existing DataIntersightTamAdvisoryDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightTamAdvisoryDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightTamAdvisoryDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7723,7 +7723,7 @@ export class DataIntersightTamAdvisoryDefinition extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/tam_advisory_definition intersight_tam_advisory_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/tam_advisory_definition intersight_tam_advisory_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7734,8 +7734,8 @@ export class DataIntersightTamAdvisoryDefinition extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_tam_advisory_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

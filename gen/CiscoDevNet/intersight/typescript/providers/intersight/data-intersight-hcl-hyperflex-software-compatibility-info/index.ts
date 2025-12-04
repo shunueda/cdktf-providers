@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConfig exten
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#account_moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#account_moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,25 +22,25 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConfig exten
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#create_time DataIntersightHclHyperflexSoftwareCompatibilityInfo#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#create_time DataIntersightHclHyperflexSoftwareCompatibilityInfo#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#domain_group_moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#domain_group_moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * HXDP component software version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#hxdp_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#hxdp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#hxdp_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#hxdp_version}
   */
   readonly hxdpVersion?: string;
   /**
@@ -49,17 +49,17 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConfig exten
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#hypervisor_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#hypervisor_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
   * Hypervisor component software version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#hypervisor_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#hypervisor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#hypervisor_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#hypervisor_version}
   */
   readonly hypervisorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#id DataIntersightHclHyperflexSoftwareCompatibilityInfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#id DataIntersightHclHyperflexSoftwareCompatibilityInfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,97 +68,97 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConfig exten
   /**
   * Type of the HXDP bundle mgmt or full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#is_mgmt_build DataIntersightHclHyperflexSoftwareCompatibilityInfo#is_mgmt_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#is_mgmt_build DataIntersightHclHyperflexSoftwareCompatibilityInfo#is_mgmt_build}
   */
   readonly isMgmtBuild?: string;
   /**
   * Maximum supported HyperFlex Data Platform build version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#max_mgmt_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#max_mgmt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#max_mgmt_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#max_mgmt_version}
   */
   readonly maxMgmtVersion?: string;
   /**
   * Minimum supported HyperFlex Data Platform build version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#min_mgmt_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#min_mgmt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#min_mgmt_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#min_mgmt_version}
   */
   readonly minMgmtVersion?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#mod_time DataIntersightHclHyperflexSoftwareCompatibilityInfo#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#mod_time DataIntersightHclHyperflexSoftwareCompatibilityInfo#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#owners DataIntersightHclHyperflexSoftwareCompatibilityInfo#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#owners DataIntersightHclHyperflexSoftwareCompatibilityInfo#owners}
   */
   readonly owners?: string[];
   /**
   * UCS Server Firmware component software version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#server_fw_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#server_fw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#server_fw_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#server_fw_version}
   */
   readonly serverFwVersion?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#shared_scope DataIntersightHclHyperflexSoftwareCompatibilityInfo#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#shared_scope DataIntersightHclHyperflexSoftwareCompatibilityInfo#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#ancestors DataIntersightHclHyperflexSoftwareCompatibilityInfo#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#ancestors DataIntersightHclHyperflexSoftwareCompatibilityInfo#ancestors}
   */
   readonly ancestors?: DataIntersightHclHyperflexSoftwareCompatibilityInfoAncestors[] | cdktf.IResolvable;
   /**
   * app_catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#app_catalog DataIntersightHclHyperflexSoftwareCompatibilityInfo#app_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#app_catalog DataIntersightHclHyperflexSoftwareCompatibilityInfo#app_catalog}
   */
   readonly appCatalog?: DataIntersightHclHyperflexSoftwareCompatibilityInfoAppCatalog;
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraints DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraints DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraints}
   */
   readonly constraints?: DataIntersightHclHyperflexSoftwareCompatibilityInfoConstraints[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#parent DataIntersightHclHyperflexSoftwareCompatibilityInfo#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#parent DataIntersightHclHyperflexSoftwareCompatibilityInfo#parent}
   */
   readonly parent?: DataIntersightHclHyperflexSoftwareCompatibilityInfoParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#permission_resources DataIntersightHclHyperflexSoftwareCompatibilityInfo#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#permission_resources DataIntersightHclHyperflexSoftwareCompatibilityInfo#permission_resources}
   */
   readonly permissionResources?: DataIntersightHclHyperflexSoftwareCompatibilityInfoPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#tags DataIntersightHclHyperflexSoftwareCompatibilityInfo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#tags DataIntersightHclHyperflexSoftwareCompatibilityInfo#tags}
   */
   readonly tags?: DataIntersightHclHyperflexSoftwareCompatibilityInfoTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#version_context DataIntersightHclHyperflexSoftwareCompatibilityInfo#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#version_context DataIntersightHclHyperflexSoftwareCompatibilityInfo#version_context}
   */
   readonly versionContext?: DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContext;
 }
@@ -1445,7 +1445,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoResultsList exte
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1453,19 +1453,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1478,7 +1478,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1710,7 +1710,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoAncestorsList ex
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAppCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1718,19 +1718,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAppCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1743,7 +1743,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoAppCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -1943,7 +1943,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoAppCatalogOutput
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1951,26 +1951,26 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoConstraints 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * Name or key of the applicable compatibility constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraint_name DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraint_name DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraint_name}
   */
   readonly constraintName?: string;
   /**
   * Value of the applicable compatibility constraint. Could either be a string value or a regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraint_value DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraint_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#constraint_value DataIntersightHclHyperflexSoftwareCompatibilityInfo#constraint_value}
   */
   readonly constraintValue?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
 }
@@ -2202,7 +2202,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoConstraintsList 
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2210,19 +2210,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2235,7 +2235,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2435,7 +2435,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoParentOutputRefe
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2443,19 +2443,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoPermissionRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2468,7 +2468,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoPermissionRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2700,7 +2700,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoPermissionResour
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2708,19 +2708,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsAncestor
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2733,7 +2733,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsAncestor
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -2965,7 +2965,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsAncestorDefi
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2973,19 +2973,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsDefiniti
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2998,7 +2998,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsDefiniti
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3198,25 +3198,25 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsDefinitionOu
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#key DataIntersightHclHyperflexSoftwareCompatibilityInfo#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#key DataIntersightHclHyperflexSoftwareCompatibilityInfo#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#propagated DataIntersightHclHyperflexSoftwareCompatibilityInfo#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#propagated DataIntersightHclHyperflexSoftwareCompatibilityInfo#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#sys_tag DataIntersightHclHyperflexSoftwareCompatibilityInfo#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#sys_tag DataIntersightHclHyperflexSoftwareCompatibilityInfo#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3224,25 +3224,25 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#type DataIntersightHclHyperflexSoftwareCompatibilityInfo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#type DataIntersightHclHyperflexSoftwareCompatibilityInfo#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#value DataIntersightHclHyperflexSoftwareCompatibilityInfo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#value DataIntersightHclHyperflexSoftwareCompatibilityInfo#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#ancestor_definitions DataIntersightHclHyperflexSoftwareCompatibilityInfo#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#ancestor_definitions DataIntersightHclHyperflexSoftwareCompatibilityInfo#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#definition DataIntersightHclHyperflexSoftwareCompatibilityInfo#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#definition DataIntersightHclHyperflexSoftwareCompatibilityInfo#definition}
   */
   readonly definition?: DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsDefinition;
 }
@@ -3561,7 +3561,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoTagsList extends
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3569,19 +3569,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3594,7 +3594,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -3826,7 +3826,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextIn
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3834,19 +3834,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#moid DataIntersightHclHyperflexSoftwareCompatibilityInfo#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3859,7 +3859,7 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#selector DataIntersightHclHyperflexSoftwareCompatibilityInfo#selector}
   */
   readonly selector?: string;
 }
@@ -4059,7 +4059,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextRe
 }
 export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#additional_properties DataIntersightHclHyperflexSoftwareCompatibilityInfo#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4067,32 +4067,32 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#class_id DataIntersightHclHyperflexSoftwareCompatibilityInfo#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#marked_for_deletion DataIntersightHclHyperflexSoftwareCompatibilityInfo#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#marked_for_deletion DataIntersightHclHyperflexSoftwareCompatibilityInfo#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#nr_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#nr_version DataIntersightHclHyperflexSoftwareCompatibilityInfo#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#object_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#timestamp DataIntersightHclHyperflexSoftwareCompatibilityInfo#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#timestamp DataIntersightHclHyperflexSoftwareCompatibilityInfo#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4103,19 +4103,19 @@ export interface DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionConte
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#version_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#version_type DataIntersightHclHyperflexSoftwareCompatibilityInfo#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#interested_mos DataIntersightHclHyperflexSoftwareCompatibilityInfo#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#interested_mos DataIntersightHclHyperflexSoftwareCompatibilityInfo#interested_mos}
   */
   readonly interestedMos?: DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#ref_mo DataIntersightHclHyperflexSoftwareCompatibilityInfo#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#ref_mo DataIntersightHclHyperflexSoftwareCompatibilityInfo#ref_mo}
   */
   readonly refMo?: DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextRefMo;
 }
@@ -4431,7 +4431,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfoVersionContextOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info intersight_hcl_hyperflex_software_compatibility_info}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info intersight_hcl_hyperflex_software_compatibility_info}
 */
 export class DataIntersightHclHyperflexSoftwareCompatibilityInfo extends cdktf.TerraformDataSource {
 
@@ -4447,7 +4447,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfo extends cdktf.T
   * Generates CDKTF code for importing a DataIntersightHclHyperflexSoftwareCompatibilityInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHclHyperflexSoftwareCompatibilityInfo to import
-  * @param importFromId The id of the existing DataIntersightHclHyperflexSoftwareCompatibilityInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHclHyperflexSoftwareCompatibilityInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHclHyperflexSoftwareCompatibilityInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4459,7 +4459,7 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfo extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hcl_hyperflex_software_compatibility_info intersight_hcl_hyperflex_software_compatibility_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hcl_hyperflex_software_compatibility_info intersight_hcl_hyperflex_software_compatibility_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4470,8 +4470,8 @@ export class DataIntersightHclHyperflexSoftwareCompatibilityInfo extends cdktf.T
       terraformResourceType: 'intersight_hcl_hyperflex_software_compatibility_info',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

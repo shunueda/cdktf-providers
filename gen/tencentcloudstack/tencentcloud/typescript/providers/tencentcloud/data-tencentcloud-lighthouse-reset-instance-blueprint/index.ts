@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudLighthouseResetInstanceBlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#id DataTencentcloudLighthouseResetInstanceBlueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#id DataTencentcloudLighthouseResetInstanceBlueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataTencentcloudLighthouseResetInstanceBlueprintConfig extends 
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#instance_id DataTencentcloudLighthouseResetInstanceBlueprint#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#instance_id DataTencentcloudLighthouseResetInstanceBlueprint#instance_id}
   */
   readonly instanceId: string;
   /**
   * Number of returned results. Default value is 20. Maximum value is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#limit DataTencentcloudLighthouseResetInstanceBlueprint#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#limit DataTencentcloudLighthouseResetInstanceBlueprint#limit}
   */
   readonly limit?: number;
   /**
   * Offset. Default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#offset DataTencentcloudLighthouseResetInstanceBlueprint#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#offset DataTencentcloudLighthouseResetInstanceBlueprint#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#result_output_file DataTencentcloudLighthouseResetInstanceBlueprint#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#result_output_file DataTencentcloudLighthouseResetInstanceBlueprint#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#filters DataTencentcloudLighthouseResetInstanceBlueprint#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#filters DataTencentcloudLighthouseResetInstanceBlueprint#filters}
   */
   readonly filters?: DataTencentcloudLighthouseResetInstanceBlueprintFilters[] | cdktf.IResolvable;
 }
@@ -305,13 +305,13 @@ export interface DataTencentcloudLighthouseResetInstanceBlueprintFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#name DataTencentcloudLighthouseResetInstanceBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#name DataTencentcloudLighthouseResetInstanceBlueprint#name}
   */
   readonly name: string;
   /**
   * Filter value of field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#values DataTencentcloudLighthouseResetInstanceBlueprint#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#values DataTencentcloudLighthouseResetInstanceBlueprint#values}
   */
   readonly values: string[];
 }
@@ -450,7 +450,7 @@ export class DataTencentcloudLighthouseResetInstanceBlueprintFiltersList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint tencentcloud_lighthouse_reset_instance_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint tencentcloud_lighthouse_reset_instance_blueprint}
 */
 export class DataTencentcloudLighthouseResetInstanceBlueprint extends cdktf.TerraformDataSource {
 
@@ -466,7 +466,7 @@ export class DataTencentcloudLighthouseResetInstanceBlueprint extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudLighthouseResetInstanceBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudLighthouseResetInstanceBlueprint to import
-  * @param importFromId The id of the existing DataTencentcloudLighthouseResetInstanceBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudLighthouseResetInstanceBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudLighthouseResetInstanceBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -478,7 +478,7 @@ export class DataTencentcloudLighthouseResetInstanceBlueprint extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/lighthouse_reset_instance_blueprint tencentcloud_lighthouse_reset_instance_blueprint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/lighthouse_reset_instance_blueprint tencentcloud_lighthouse_reset_instance_blueprint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -489,8 +489,8 @@ export class DataTencentcloudLighthouseResetInstanceBlueprint extends cdktf.Terr
       terraformResourceType: 'tencentcloud_lighthouse_reset_instance_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

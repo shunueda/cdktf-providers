@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudIgtmInstanceListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#id DataTencentcloudIgtmInstanceList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#id DataTencentcloudIgtmInstanceList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudIgtmInstanceListConfig extends cdktf.TerraformM
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#result_output_file DataTencentcloudIgtmInstanceList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#result_output_file DataTencentcloudIgtmInstanceList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#filters DataTencentcloudIgtmInstanceList#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#filters DataTencentcloudIgtmInstanceList#filters}
   */
   readonly filters?: DataTencentcloudIgtmInstanceListFilters[] | cdktf.IResolvable;
 }
@@ -202,7 +202,7 @@ export interface DataTencentcloudIgtmInstanceListFilters {
   * Whether to enable fuzzy query, only supports filter field name as domain.
   * When fuzzy query is enabled, maximum Value length is 1, otherwise maximum Value length is 5. (Reserved field, not currently used).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#fuzzy DataTencentcloudIgtmInstanceList#fuzzy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#fuzzy DataTencentcloudIgtmInstanceList#fuzzy}
   */
   readonly fuzzy?: boolean | cdktf.IResolvable;
   /**
@@ -212,13 +212,13 @@ export interface DataTencentcloudIgtmInstanceListFilters {
   * - MonitorId: Monitor ID.
   * - PoolId: Pool ID. This is a required parameter, not passing it will cause interface query failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#name DataTencentcloudIgtmInstanceList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#name DataTencentcloudIgtmInstanceList#name}
   */
   readonly name: string;
   /**
   * Filter field value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#value DataTencentcloudIgtmInstanceList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#value DataTencentcloudIgtmInstanceList#value}
   */
   readonly value: string[];
 }
@@ -386,7 +386,7 @@ export class DataTencentcloudIgtmInstanceListFiltersList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list tencentcloud_igtm_instance_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list tencentcloud_igtm_instance_list}
 */
 export class DataTencentcloudIgtmInstanceList extends cdktf.TerraformDataSource {
 
@@ -402,7 +402,7 @@ export class DataTencentcloudIgtmInstanceList extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudIgtmInstanceList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudIgtmInstanceList to import
-  * @param importFromId The id of the existing DataTencentcloudIgtmInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudIgtmInstanceList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudIgtmInstanceList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class DataTencentcloudIgtmInstanceList extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/igtm_instance_list tencentcloud_igtm_instance_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/igtm_instance_list tencentcloud_igtm_instance_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class DataTencentcloudIgtmInstanceList extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_igtm_instance_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,138 +10,177 @@ export interface DataIntersightIamPrivilegeSetConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#account_moid DataIntersightIamPrivilegeSet#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#account_moid DataIntersightIamPrivilegeSet#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
+  /**
+  * Flag used by UI to keep track of the user selection option for future updates of privilege sets.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#allow_future_updates DataIntersightIamPrivilegeSet#allow_future_updates}
+  */
+  readonly allowFutureUpdates?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#create_time DataIntersightIamPrivilegeSet#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#create_time DataIntersightIamPrivilegeSet#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the privilege set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#description DataIntersightIamPrivilegeSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#description DataIntersightIamPrivilegeSet#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#domain_group_moid DataIntersightIamPrivilegeSet#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#domain_group_moid DataIntersightIamPrivilegeSet#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#id DataIntersightIamPrivilegeSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#id DataIntersightIamPrivilegeSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Flag to indicate if the privilege names are updated.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#is_privilege_names_updated DataIntersightIamPrivilegeSet#is_privilege_names_updated}
+  */
+  readonly isPrivilegeNamesUpdated?: boolean | cdktf.IResolvable;
+  /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#mod_time DataIntersightIamPrivilegeSet#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#mod_time DataIntersightIamPrivilegeSet#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * Name of the privilege set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#name DataIntersightIamPrivilegeSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#name DataIntersightIamPrivilegeSet#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#owners DataIntersightIamPrivilegeSet#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#owners DataIntersightIamPrivilegeSet#owners}
   */
   readonly owners?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#privilege_names DataIntersightIamPrivilegeSet#privilege_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#privilege_names DataIntersightIamPrivilegeSet#privilege_names}
   */
   readonly privilegeNames?: string[];
+  /**
+  * Type of the privilege set.
+  * * `Internal` - Privilege set is internal to the system.
+  * * `SystemPackaged` - Privilege set is packaged by the system and user can use it as a reference for custom privilege set creation.
+  * * `SystemDefined` - Privilege set is defined by the system.
+  * * `TreeNode` - Privilege set is a tree node in the custom privilege set creation hierarchy.
+  * * `TreeRoot` - Privilege set is a tree root in the custom privilege set creation hierarchy.
+  * * `TreeLeaf` - Privilege set is a tree leaf in the custom privilege set creation hierarchy.
+  * * `UserCreated` - Privilege set is created by the user.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#privilege_set_type DataIntersightIamPrivilegeSet#privilege_set_type}
+  */
+  readonly privilegeSetType?: string;
+  /**
+  * The scope of the privilege set.
+  * * `Generic` - Privilege set can be added to account wide permission or organization permissions.
+  * * `Account` - Privilege set can be added to account wide permission only.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#scope DataIntersightIamPrivilegeSet#scope}
+  */
+  readonly scope?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#shared_scope DataIntersightIamPrivilegeSet#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#shared_scope DataIntersightIamPrivilegeSet#shared_scope}
   */
   readonly sharedScope?: string;
   /**
+  * UUID of the privilege set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#uuid DataIntersightIamPrivilegeSet#uuid}
+  */
+  readonly uuid?: string;
+  /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#account DataIntersightIamPrivilegeSet#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#account DataIntersightIamPrivilegeSet#account}
   */
   readonly account?: DataIntersightIamPrivilegeSetAccount;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#ancestors DataIntersightIamPrivilegeSet#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#ancestors DataIntersightIamPrivilegeSet#ancestors}
   */
   readonly ancestors?: DataIntersightIamPrivilegeSetAncestors[] | cdktf.IResolvable;
   /**
   * associated_privilege_sets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#associated_privilege_sets DataIntersightIamPrivilegeSet#associated_privilege_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#associated_privilege_sets DataIntersightIamPrivilegeSet#associated_privilege_sets}
   */
   readonly associatedPrivilegeSets?: DataIntersightIamPrivilegeSetAssociatedPrivilegeSets[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#parent DataIntersightIamPrivilegeSet#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#parent DataIntersightIamPrivilegeSet#parent}
   */
   readonly parent?: DataIntersightIamPrivilegeSetParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#permission_resources DataIntersightIamPrivilegeSet#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#permission_resources DataIntersightIamPrivilegeSet#permission_resources}
   */
   readonly permissionResources?: DataIntersightIamPrivilegeSetPermissionResources[] | cdktf.IResolvable;
   /**
   * privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#privileges DataIntersightIamPrivilegeSet#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#privileges DataIntersightIamPrivilegeSet#privileges}
   */
   readonly privileges?: DataIntersightIamPrivilegeSetPrivileges[] | cdktf.IResolvable;
   /**
   * system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#system DataIntersightIamPrivilegeSet#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#system DataIntersightIamPrivilegeSet#system}
   */
   readonly systemAttribute?: DataIntersightIamPrivilegeSetSystem;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#tags DataIntersightIamPrivilegeSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#tags DataIntersightIamPrivilegeSet#tags}
   */
   readonly tags?: DataIntersightIamPrivilegeSetTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#version_context DataIntersightIamPrivilegeSet#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#version_context DataIntersightIamPrivilegeSet#version_context}
   */
   readonly versionContext?: DataIntersightIamPrivilegeSetVersionContext;
 }
@@ -1486,6 +1525,11 @@ export class DataIntersightIamPrivilegeSetResultsOutputReference extends cdktf.C
     return this.getStringAttribute('additional_properties');
   }
 
+  // allow_future_updates - computed: true, optional: false, required: false
+  public get allowFutureUpdates() {
+    return this.getBooleanAttribute('allow_future_updates');
+  }
+
   // ancestors - computed: true, optional: false, required: false
   private _ancestors = new DataIntersightIamPrivilegeSetResultsAncestorsList(this, "ancestors", false);
   public get ancestors() {
@@ -1516,6 +1560,11 @@ export class DataIntersightIamPrivilegeSetResultsOutputReference extends cdktf.C
   // domain_group_moid - computed: true, optional: false, required: false
   public get domainGroupMoid() {
     return this.getStringAttribute('domain_group_moid');
+  }
+
+  // is_privilege_names_updated - computed: true, optional: false, required: false
+  public get isPrivilegeNamesUpdated() {
+    return this.getBooleanAttribute('is_privilege_names_updated');
   }
 
   // mod_time - computed: true, optional: false, required: false
@@ -1560,10 +1609,20 @@ export class DataIntersightIamPrivilegeSetResultsOutputReference extends cdktf.C
     return this.getListAttribute('privilege_names');
   }
 
+  // privilege_set_type - computed: true, optional: false, required: false
+  public get privilegeSetType() {
+    return this.getStringAttribute('privilege_set_type');
+  }
+
   // privileges - computed: true, optional: false, required: false
   private _privileges = new DataIntersightIamPrivilegeSetResultsPrivilegesList(this, "privileges", false);
   public get privileges() {
     return this._privileges;
+  }
+
+  // scope - computed: true, optional: false, required: false
+  public get scope() {
+    return this.getStringAttribute('scope');
   }
 
   // shared_scope - computed: true, optional: false, required: false
@@ -1581,6 +1640,11 @@ export class DataIntersightIamPrivilegeSetResultsOutputReference extends cdktf.C
   private _tags = new DataIntersightIamPrivilegeSetResultsTagsList(this, "tags", false);
   public get tags() {
     return this._tags;
+  }
+
+  // uuid - computed: true, optional: false, required: false
+  public get uuid() {
+    return this.getStringAttribute('uuid');
   }
 
   // version_context - computed: true, optional: false, required: false
@@ -1610,7 +1674,7 @@ export class DataIntersightIamPrivilegeSetResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightIamPrivilegeSetAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1618,19 +1682,19 @@ export interface DataIntersightIamPrivilegeSetAccount {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1643,7 +1707,7 @@ export interface DataIntersightIamPrivilegeSetAccount {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -1843,7 +1907,7 @@ export class DataIntersightIamPrivilegeSetAccountOutputReference extends cdktf.C
 }
 export interface DataIntersightIamPrivilegeSetAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1851,19 +1915,19 @@ export interface DataIntersightIamPrivilegeSetAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1876,7 +1940,7 @@ export interface DataIntersightIamPrivilegeSetAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -2108,7 +2172,7 @@ export class DataIntersightIamPrivilegeSetAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightIamPrivilegeSetAssociatedPrivilegeSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2116,19 +2180,19 @@ export interface DataIntersightIamPrivilegeSetAssociatedPrivilegeSets {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2141,7 +2205,7 @@ export interface DataIntersightIamPrivilegeSetAssociatedPrivilegeSets {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -2373,7 +2437,7 @@ export class DataIntersightIamPrivilegeSetAssociatedPrivilegeSetsList extends cd
 }
 export interface DataIntersightIamPrivilegeSetParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2381,19 +2445,19 @@ export interface DataIntersightIamPrivilegeSetParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2406,7 +2470,7 @@ export interface DataIntersightIamPrivilegeSetParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -2606,7 +2670,7 @@ export class DataIntersightIamPrivilegeSetParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightIamPrivilegeSetPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2614,19 +2678,19 @@ export interface DataIntersightIamPrivilegeSetPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2639,7 +2703,7 @@ export interface DataIntersightIamPrivilegeSetPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -2871,7 +2935,7 @@ export class DataIntersightIamPrivilegeSetPermissionResourcesList extends cdktf.
 }
 export interface DataIntersightIamPrivilegeSetPrivileges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2879,19 +2943,19 @@ export interface DataIntersightIamPrivilegeSetPrivileges {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2904,7 +2968,7 @@ export interface DataIntersightIamPrivilegeSetPrivileges {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -3136,7 +3200,7 @@ export class DataIntersightIamPrivilegeSetPrivilegesList extends cdktf.ComplexLi
 }
 export interface DataIntersightIamPrivilegeSetSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3144,19 +3208,19 @@ export interface DataIntersightIamPrivilegeSetSystem {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3169,7 +3233,7 @@ export interface DataIntersightIamPrivilegeSetSystem {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -3369,7 +3433,7 @@ export class DataIntersightIamPrivilegeSetSystemOutputReference extends cdktf.Co
 }
 export interface DataIntersightIamPrivilegeSetTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3377,19 +3441,19 @@ export interface DataIntersightIamPrivilegeSetTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3402,7 +3466,7 @@ export interface DataIntersightIamPrivilegeSetTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -3634,7 +3698,7 @@ export class DataIntersightIamPrivilegeSetTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightIamPrivilegeSetTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3642,19 +3706,19 @@ export interface DataIntersightIamPrivilegeSetTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3667,7 +3731,7 @@ export interface DataIntersightIamPrivilegeSetTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -3867,25 +3931,25 @@ export class DataIntersightIamPrivilegeSetTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightIamPrivilegeSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#key DataIntersightIamPrivilegeSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#key DataIntersightIamPrivilegeSet#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#propagated DataIntersightIamPrivilegeSet#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#propagated DataIntersightIamPrivilegeSet#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#sys_tag DataIntersightIamPrivilegeSet#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#sys_tag DataIntersightIamPrivilegeSet#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3893,25 +3957,25 @@ export interface DataIntersightIamPrivilegeSetTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#type DataIntersightIamPrivilegeSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#type DataIntersightIamPrivilegeSet#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#value DataIntersightIamPrivilegeSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#value DataIntersightIamPrivilegeSet#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#ancestor_definitions DataIntersightIamPrivilegeSet#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#ancestor_definitions DataIntersightIamPrivilegeSet#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightIamPrivilegeSetTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#definition DataIntersightIamPrivilegeSet#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#definition DataIntersightIamPrivilegeSet#definition}
   */
   readonly definition?: DataIntersightIamPrivilegeSetTagsDefinition;
 }
@@ -4230,7 +4294,7 @@ export class DataIntersightIamPrivilegeSetTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightIamPrivilegeSetVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4238,19 +4302,19 @@ export interface DataIntersightIamPrivilegeSetVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4263,7 +4327,7 @@ export interface DataIntersightIamPrivilegeSetVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -4495,7 +4559,7 @@ export class DataIntersightIamPrivilegeSetVersionContextInterestedMosList extend
 }
 export interface DataIntersightIamPrivilegeSetVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4503,19 +4567,19 @@ export interface DataIntersightIamPrivilegeSetVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#moid DataIntersightIamPrivilegeSet#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4528,7 +4592,7 @@ export interface DataIntersightIamPrivilegeSetVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#selector DataIntersightIamPrivilegeSet#selector}
   */
   readonly selector?: string;
 }
@@ -4728,7 +4792,7 @@ export class DataIntersightIamPrivilegeSetVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightIamPrivilegeSetVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#additional_properties DataIntersightIamPrivilegeSet#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4736,32 +4800,32 @@ export interface DataIntersightIamPrivilegeSetVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#class_id DataIntersightIamPrivilegeSet#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#marked_for_deletion DataIntersightIamPrivilegeSet#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#marked_for_deletion DataIntersightIamPrivilegeSet#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#nr_version DataIntersightIamPrivilegeSet#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#nr_version DataIntersightIamPrivilegeSet#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#object_type DataIntersightIamPrivilegeSet#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#timestamp DataIntersightIamPrivilegeSet#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#timestamp DataIntersightIamPrivilegeSet#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4772,19 +4836,19 @@ export interface DataIntersightIamPrivilegeSetVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#version_type DataIntersightIamPrivilegeSet#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#version_type DataIntersightIamPrivilegeSet#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#interested_mos DataIntersightIamPrivilegeSet#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#interested_mos DataIntersightIamPrivilegeSet#interested_mos}
   */
   readonly interestedMos?: DataIntersightIamPrivilegeSetVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#ref_mo DataIntersightIamPrivilegeSet#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#ref_mo DataIntersightIamPrivilegeSet#ref_mo}
   */
   readonly refMo?: DataIntersightIamPrivilegeSetVersionContextRefMo;
 }
@@ -5100,7 +5164,7 @@ export class DataIntersightIamPrivilegeSetVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set intersight_iam_privilege_set}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set intersight_iam_privilege_set}
 */
 export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
 
@@ -5116,7 +5180,7 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightIamPrivilegeSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightIamPrivilegeSet to import
-  * @param importFromId The id of the existing DataIntersightIamPrivilegeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightIamPrivilegeSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightIamPrivilegeSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5128,7 +5192,7 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/iam_privilege_set intersight_iam_privilege_set} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/iam_privilege_set intersight_iam_privilege_set} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5139,8 +5203,8 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_iam_privilege_set',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -5152,18 +5216,23 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
     });
     this._accountMoid = config.accountMoid;
     this._additionalProperties = config.additionalProperties;
+    this._allowFutureUpdates = config.allowFutureUpdates;
     this._classId = config.classId;
     this._createTime = config.createTime;
     this._description = config.description;
     this._domainGroupMoid = config.domainGroupMoid;
     this._id = config.id;
+    this._isPrivilegeNamesUpdated = config.isPrivilegeNamesUpdated;
     this._modTime = config.modTime;
     this._moid = config.moid;
     this._name = config.name;
     this._objectType = config.objectType;
     this._owners = config.owners;
     this._privilegeNames = config.privilegeNames;
+    this._privilegeSetType = config.privilegeSetType;
+    this._scope = config.scope;
     this._sharedScope = config.sharedScope;
+    this._uuid = config.uuid;
     this._account.internalValue = config.account;
     this._ancestors.internalValue = config.ancestors;
     this._associatedPrivilegeSets.internalValue = config.associatedPrivilegeSets;
@@ -5209,6 +5278,22 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get additionalPropertiesInput() {
     return this._additionalProperties;
+  }
+
+  // allow_future_updates - computed: false, optional: true, required: false
+  private _allowFutureUpdates?: boolean | cdktf.IResolvable; 
+  public get allowFutureUpdates() {
+    return this.getBooleanAttribute('allow_future_updates');
+  }
+  public set allowFutureUpdates(value: boolean | cdktf.IResolvable) {
+    this._allowFutureUpdates = value;
+  }
+  public resetAllowFutureUpdates() {
+    this._allowFutureUpdates = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowFutureUpdatesInput() {
+    return this._allowFutureUpdates;
   }
 
   // class_id - computed: false, optional: true, required: false
@@ -5289,6 +5374,22 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // is_privilege_names_updated - computed: false, optional: true, required: false
+  private _isPrivilegeNamesUpdated?: boolean | cdktf.IResolvable; 
+  public get isPrivilegeNamesUpdated() {
+    return this.getBooleanAttribute('is_privilege_names_updated');
+  }
+  public set isPrivilegeNamesUpdated(value: boolean | cdktf.IResolvable) {
+    this._isPrivilegeNamesUpdated = value;
+  }
+  public resetIsPrivilegeNamesUpdated() {
+    this._isPrivilegeNamesUpdated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isPrivilegeNamesUpdatedInput() {
+    return this._isPrivilegeNamesUpdated;
   }
 
   // mod_time - computed: false, optional: true, required: false
@@ -5387,10 +5488,42 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
     return this._privilegeNames;
   }
 
+  // privilege_set_type - computed: false, optional: true, required: false
+  private _privilegeSetType?: string; 
+  public get privilegeSetType() {
+    return this.getStringAttribute('privilege_set_type');
+  }
+  public set privilegeSetType(value: string) {
+    this._privilegeSetType = value;
+  }
+  public resetPrivilegeSetType() {
+    this._privilegeSetType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get privilegeSetTypeInput() {
+    return this._privilegeSetType;
+  }
+
   // results - computed: true, optional: false, required: false
   private _results = new DataIntersightIamPrivilegeSetResultsList(this, "results", false);
   public get results() {
     return this._results;
+  }
+
+  // scope - computed: false, optional: true, required: false
+  private _scope?: string; 
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+  public set scope(value: string) {
+    this._scope = value;
+  }
+  public resetScope() {
+    this._scope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope;
   }
 
   // shared_scope - computed: false, optional: true, required: false
@@ -5407,6 +5540,22 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get sharedScopeInput() {
     return this._sharedScope;
+  }
+
+  // uuid - computed: false, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
   }
 
   // account - computed: false, optional: true, required: false
@@ -5561,18 +5710,23 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
     return {
       account_moid: cdktf.stringToTerraform(this._accountMoid),
       additional_properties: cdktf.stringToTerraform(this._additionalProperties),
+      allow_future_updates: cdktf.booleanToTerraform(this._allowFutureUpdates),
       class_id: cdktf.stringToTerraform(this._classId),
       create_time: cdktf.stringToTerraform(this._createTime),
       description: cdktf.stringToTerraform(this._description),
       domain_group_moid: cdktf.stringToTerraform(this._domainGroupMoid),
       id: cdktf.stringToTerraform(this._id),
+      is_privilege_names_updated: cdktf.booleanToTerraform(this._isPrivilegeNamesUpdated),
       mod_time: cdktf.stringToTerraform(this._modTime),
       moid: cdktf.stringToTerraform(this._moid),
       name: cdktf.stringToTerraform(this._name),
       object_type: cdktf.stringToTerraform(this._objectType),
       owners: cdktf.listMapper(cdktf.stringToTerraform, false)(this._owners),
       privilege_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._privilegeNames),
+      privilege_set_type: cdktf.stringToTerraform(this._privilegeSetType),
+      scope: cdktf.stringToTerraform(this._scope),
       shared_scope: cdktf.stringToTerraform(this._sharedScope),
+      uuid: cdktf.stringToTerraform(this._uuid),
       account: dataIntersightIamPrivilegeSetAccountToTerraform(this._account.internalValue),
       ancestors: cdktf.listMapper(dataIntersightIamPrivilegeSetAncestorsToTerraform, true)(this._ancestors.internalValue),
       associated_privilege_sets: cdktf.listMapper(dataIntersightIamPrivilegeSetAssociatedPrivilegeSetsToTerraform, true)(this._associatedPrivilegeSets.internalValue),
@@ -5598,6 +5752,12 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      allow_future_updates: {
+        value: cdktf.booleanToHclTerraform(this._allowFutureUpdates),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       class_id: {
         value: cdktf.stringToHclTerraform(this._classId),
@@ -5628,6 +5788,12 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      is_privilege_names_updated: {
+        value: cdktf.booleanToHclTerraform(this._isPrivilegeNamesUpdated),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       mod_time: {
         value: cdktf.stringToHclTerraform(this._modTime),
@@ -5665,8 +5831,26 @@ export class DataIntersightIamPrivilegeSet extends cdktf.TerraformDataSource {
         type: "list",
         storageClassType: "stringList",
       },
+      privilege_set_type: {
+        value: cdktf.stringToHclTerraform(this._privilegeSetType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scope: {
+        value: cdktf.stringToHclTerraform(this._scope),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       shared_scope: {
         value: cdktf.stringToHclTerraform(this._sharedScope),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

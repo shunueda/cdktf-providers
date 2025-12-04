@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CapabilityChassisManufacturingDefConfig extends cdktf.Terraform
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#account_moid CapabilityChassisManufacturingDef#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#account_moid CapabilityChassisManufacturingDef#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#ancestors CapabilityChassisManufacturingDef#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#ancestors CapabilityChassisManufacturingDef#ancestors}
   */
   readonly ancestors?: CapabilityChassisManufacturingDefAncestors[] | cdktf.IResolvable;
   /**
   * Caption for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#caption CapabilityChassisManufacturingDef#caption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#caption CapabilityChassisManufacturingDef#caption}
   */
   readonly caption?: string;
   /**
   * Chassis Code Name for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#chassis_code_name CapabilityChassisManufacturingDef#chassis_code_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#chassis_code_name CapabilityChassisManufacturingDef#chassis_code_name}
   */
   readonly chassisCodeName?: string;
   /**
@@ -40,29 +40,29 @@ export interface CapabilityChassisManufacturingDefConfig extends cdktf.Terraform
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#create_time CapabilityChassisManufacturingDef#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#create_time CapabilityChassisManufacturingDef#create_time}
   */
   readonly createTime?: string;
   /**
   * Description for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#description CapabilityChassisManufacturingDef#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#description CapabilityChassisManufacturingDef#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#domain_group_moid CapabilityChassisManufacturingDef#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#domain_group_moid CapabilityChassisManufacturingDef#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#id CapabilityChassisManufacturingDef#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#id CapabilityChassisManufacturingDef#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,106 +71,106 @@ export interface CapabilityChassisManufacturingDefConfig extends cdktf.Terraform
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#mod_time CapabilityChassisManufacturingDef#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#mod_time CapabilityChassisManufacturingDef#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
   * An unique identifer for a capability descriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#name CapabilityChassisManufacturingDef#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#name CapabilityChassisManufacturingDef#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#owners CapabilityChassisManufacturingDef#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#owners CapabilityChassisManufacturingDef#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#parent CapabilityChassisManufacturingDef#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#parent CapabilityChassisManufacturingDef#parent}
   */
   readonly parent?: CapabilityChassisManufacturingDefParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#permission_resources CapabilityChassisManufacturingDef#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#permission_resources CapabilityChassisManufacturingDef#permission_resources}
   */
   readonly permissionResources?: CapabilityChassisManufacturingDefPermissionResources[] | cdktf.IResolvable;
   /**
   * Product Identifier for a Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#pid CapabilityChassisManufacturingDef#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#pid CapabilityChassisManufacturingDef#pid}
   */
   readonly pid?: string;
   /**
   * Product Name for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#product_name CapabilityChassisManufacturingDef#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#product_name CapabilityChassisManufacturingDef#product_name}
   */
   readonly productName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#shared_scope CapabilityChassisManufacturingDef#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#shared_scope CapabilityChassisManufacturingDef#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * SKU information for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#sku CapabilityChassisManufacturingDef#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#sku CapabilityChassisManufacturingDef#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#tags CapabilityChassisManufacturingDef#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#tags CapabilityChassisManufacturingDef#tags}
   */
   readonly tags?: CapabilityChassisManufacturingDefTags[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#version_context CapabilityChassisManufacturingDef#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#version_context CapabilityChassisManufacturingDef#version_context}
   */
   readonly versionContext?: CapabilityChassisManufacturingDefVersionContext[] | cdktf.IResolvable;
   /**
   * VID information for Chassis enclosure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#vid CapabilityChassisManufacturingDef#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#vid CapabilityChassisManufacturingDef#vid}
   */
   readonly vid?: string;
 }
 export interface CapabilityChassisManufacturingDefAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -402,23 +402,23 @@ export class CapabilityChassisManufacturingDefAncestorsList extends cdktf.Comple
 }
 export interface CapabilityChassisManufacturingDefParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -650,23 +650,23 @@ export class CapabilityChassisManufacturingDefParentList extends cdktf.ComplexLi
 }
 export interface CapabilityChassisManufacturingDefPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -898,23 +898,23 @@ export class CapabilityChassisManufacturingDefPermissionResourcesList extends cd
 }
 export interface CapabilityChassisManufacturingDefTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1146,23 +1146,23 @@ export class CapabilityChassisManufacturingDefTagsAncestorDefinitionsList extend
 }
 export interface CapabilityChassisManufacturingDefTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1394,35 +1394,35 @@ export class CapabilityChassisManufacturingDefTagsDefinitionList extends cdktf.C
 }
 export interface CapabilityChassisManufacturingDefTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#ancestor_definitions CapabilityChassisManufacturingDef#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#ancestor_definitions CapabilityChassisManufacturingDef#ancestor_definitions}
   */
   readonly ancestorDefinitions?: CapabilityChassisManufacturingDefTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#definition CapabilityChassisManufacturingDef#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#definition CapabilityChassisManufacturingDef#definition}
   */
   readonly definition?: CapabilityChassisManufacturingDefTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#key CapabilityChassisManufacturingDef#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#key CapabilityChassisManufacturingDef#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#propagated CapabilityChassisManufacturingDef#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#propagated CapabilityChassisManufacturingDef#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#sys_tag CapabilityChassisManufacturingDef#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#sys_tag CapabilityChassisManufacturingDef#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#type CapabilityChassisManufacturingDef#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#type CapabilityChassisManufacturingDef#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#value CapabilityChassisManufacturingDef#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#value CapabilityChassisManufacturingDef#value}
   */
   readonly value?: string;
 }
@@ -1741,23 +1741,23 @@ export class CapabilityChassisManufacturingDefTagsList extends cdktf.ComplexList
 }
 export interface CapabilityChassisManufacturingDefVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -1989,23 +1989,23 @@ export class CapabilityChassisManufacturingDefVersionContextInterestedMosList ex
 }
 export interface CapabilityChassisManufacturingDefVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#moid CapabilityChassisManufacturingDef#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#selector CapabilityChassisManufacturingDef#selector}
   */
   readonly selector?: string;
 }
@@ -2237,39 +2237,39 @@ export class CapabilityChassisManufacturingDefVersionContextRefMoList extends cd
 }
 export interface CapabilityChassisManufacturingDefVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#additional_properties CapabilityChassisManufacturingDef#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#class_id CapabilityChassisManufacturingDef#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#interested_mos CapabilityChassisManufacturingDef#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#interested_mos CapabilityChassisManufacturingDef#interested_mos}
   */
   readonly interestedMos?: CapabilityChassisManufacturingDefVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#marked_for_deletion CapabilityChassisManufacturingDef#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#marked_for_deletion CapabilityChassisManufacturingDef#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#nr_version CapabilityChassisManufacturingDef#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#nr_version CapabilityChassisManufacturingDef#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#object_type CapabilityChassisManufacturingDef#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#ref_mo CapabilityChassisManufacturingDef#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#ref_mo CapabilityChassisManufacturingDef#ref_mo}
   */
   readonly refMo?: CapabilityChassisManufacturingDefVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#timestamp CapabilityChassisManufacturingDef#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#timestamp CapabilityChassisManufacturingDef#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#version_type CapabilityChassisManufacturingDef#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#version_type CapabilityChassisManufacturingDef#version_type}
   */
   readonly versionType?: string;
 }
@@ -2617,7 +2617,7 @@ export class CapabilityChassisManufacturingDefVersionContextList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def intersight_capability_chassis_manufacturing_def}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def intersight_capability_chassis_manufacturing_def}
 */
 export class CapabilityChassisManufacturingDef extends cdktf.TerraformResource {
 
@@ -2633,7 +2633,7 @@ export class CapabilityChassisManufacturingDef extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapabilityChassisManufacturingDef resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapabilityChassisManufacturingDef to import
-  * @param importFromId The id of the existing CapabilityChassisManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapabilityChassisManufacturingDef that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapabilityChassisManufacturingDef to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2645,7 +2645,7 @@ export class CapabilityChassisManufacturingDef extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/capability_chassis_manufacturing_def intersight_capability_chassis_manufacturing_def} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/capability_chassis_manufacturing_def intersight_capability_chassis_manufacturing_def} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2656,8 +2656,8 @@ export class CapabilityChassisManufacturingDef extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_capability_chassis_manufacturing_def',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

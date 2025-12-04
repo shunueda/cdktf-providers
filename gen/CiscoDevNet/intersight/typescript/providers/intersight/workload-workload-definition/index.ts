@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,21 @@ export interface WorkloadWorkloadDefinitionConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#account_moid WorkloadWorkloadDefinition#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#account_moid WorkloadWorkloadDefinition#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#ancestors WorkloadWorkloadDefinition#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#ancestors WorkloadWorkloadDefinition#ancestors}
   */
   readonly ancestors?: WorkloadWorkloadDefinitionAncestors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#blueprints WorkloadWorkloadDefinition#blueprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#blueprints WorkloadWorkloadDefinition#blueprints}
   */
   readonly blueprints?: WorkloadWorkloadDefinitionBlueprints[] | cdktf.IResolvable;
   /**
@@ -32,33 +32,33 @@ export interface WorkloadWorkloadDefinitionConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#create_time WorkloadWorkloadDefinition#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#create_time WorkloadWorkloadDefinition#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#deployment_summary WorkloadWorkloadDefinition#deployment_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#deployment_summary WorkloadWorkloadDefinition#deployment_summary}
   */
   readonly deploymentSummary?: WorkloadWorkloadDefinitionDeploymentSummary[] | cdktf.IResolvable;
   /**
   * The description for this workload definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#description WorkloadWorkloadDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#description WorkloadWorkloadDefinition#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#domain_group_moid WorkloadWorkloadDefinition#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#domain_group_moid WorkloadWorkloadDefinition#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#id WorkloadWorkloadDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#id WorkloadWorkloadDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,85 +67,85 @@ export interface WorkloadWorkloadDefinitionConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#mod_time WorkloadWorkloadDefinition#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#mod_time WorkloadWorkloadDefinition#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
   * The name for this Workload. You can have multiple versions of the Workload with the same name. Name can only contain letters (a-z, A-Z), numbers (0-9), space, hyphen (-), or an underscore (_). A refName is generated from the given name, and that along with the version must be unique within an Organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#name WorkloadWorkloadDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#name WorkloadWorkloadDefinition#name}
   */
   readonly name?: string;
   /**
   * The version of the workload to support multiple versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#nr_version WorkloadWorkloadDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#nr_version WorkloadWorkloadDefinition#nr_version}
   */
   readonly nrVersion?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#organization WorkloadWorkloadDefinition#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#organization WorkloadWorkloadDefinition#organization}
   */
   readonly organization?: WorkloadWorkloadDefinitionOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#owners WorkloadWorkloadDefinition#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#owners WorkloadWorkloadDefinition#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#parent WorkloadWorkloadDefinition#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#parent WorkloadWorkloadDefinition#parent}
   */
   readonly parent?: WorkloadWorkloadDefinitionParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#permission_resources WorkloadWorkloadDefinition#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#permission_resources WorkloadWorkloadDefinition#permission_resources}
   */
   readonly permissionResources?: WorkloadWorkloadDefinitionPermissionResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#platform_type WorkloadWorkloadDefinition#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#platform_type WorkloadWorkloadDefinition#platform_type}
   */
   readonly platformType?: string[];
   /**
   * The flag to indicate that this is the preferred (default) version of the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#preferred_version WorkloadWorkloadDefinition#preferred_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#preferred_version WorkloadWorkloadDefinition#preferred_version}
   */
   readonly preferredVersion?: boolean | cdktf.IResolvable;
   /**
   * The strategy used for rolling out deployment changes when this workload version is marked as the preferred version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#preferred_version_rollout_strategy WorkloadWorkloadDefinition#preferred_version_rollout_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#preferred_version_rollout_strategy WorkloadWorkloadDefinition#preferred_version_rollout_strategy}
   */
   readonly preferredVersionRolloutStrategy?: WorkloadWorkloadDefinitionPreferredVersionRolloutStrategy[] | cdktf.IResolvable;
   /**
   * A reference name is generated by the system based on the given name by replacing spaces and hyphen in name with underscore. This reference name is used internally and cannot be edited by users. It may only contain letters (a–z, A–Z), numbers (0–9), and underscores (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#ref_name WorkloadWorkloadDefinition#ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#ref_name WorkloadWorkloadDefinition#ref_name}
   */
   readonly refName?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#shared_scope WorkloadWorkloadDefinition#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#shared_scope WorkloadWorkloadDefinition#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -153,45 +153,45 @@ export interface WorkloadWorkloadDefinitionConfig extends cdktf.TerraformMetaArg
   * * `Inactive` - The definition is in an inactive state and there are no workload instances associated with this workload. Changes to input parameters within the workload are allowed in this state.
   * * `Active` - The definition is active and associated with one or more workload instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#status WorkloadWorkloadDefinition#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#status WorkloadWorkloadDefinition#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#tags WorkloadWorkloadDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#tags WorkloadWorkloadDefinition#tags}
   */
   readonly tags?: WorkloadWorkloadDefinitionTags[] | cdktf.IResolvable;
   /**
   * The current validation state and associated validation errors when state is invalid. When state is valid, it means all the required inputs for the blueprint are provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#validation_information WorkloadWorkloadDefinition#validation_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#validation_information WorkloadWorkloadDefinition#validation_information}
   */
   readonly validationInformation?: WorkloadWorkloadDefinitionValidationInformation[] | cdktf.IResolvable;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#version_context WorkloadWorkloadDefinition#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#version_context WorkloadWorkloadDefinition#version_context}
   */
   readonly versionContext?: WorkloadWorkloadDefinitionVersionContext[] | cdktf.IResolvable;
 }
 export interface WorkloadWorkloadDefinitionAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -423,23 +423,23 @@ export class WorkloadWorkloadDefinitionAncestorsList extends cdktf.ComplexList {
 }
 export interface WorkloadWorkloadDefinitionBlueprintsBlueprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -671,19 +671,19 @@ export class WorkloadWorkloadDefinitionBlueprintsBlueprintList extends cdktf.Com
 }
 export interface WorkloadWorkloadDefinitionBlueprintsResourceConstraint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#input WorkloadWorkloadDefinition#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#input WorkloadWorkloadDefinition#input}
   */
   readonly input?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -886,39 +886,39 @@ export class WorkloadWorkloadDefinitionBlueprintsResourceConstraintList extends 
 }
 export interface WorkloadWorkloadDefinitionBlueprints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#blueprint WorkloadWorkloadDefinition#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#blueprint WorkloadWorkloadDefinition#blueprint}
   */
   readonly blueprint?: WorkloadWorkloadDefinitionBlueprintsBlueprint[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#input WorkloadWorkloadDefinition#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#input WorkloadWorkloadDefinition#input}
   */
   readonly input?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#input_override WorkloadWorkloadDefinition#input_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#input_override WorkloadWorkloadDefinition#input_override}
   */
   readonly inputOverride?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#name WorkloadWorkloadDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#name WorkloadWorkloadDefinition#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#ref_name WorkloadWorkloadDefinition#ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#ref_name WorkloadWorkloadDefinition#ref_name}
   */
   readonly refName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#resource_constraint WorkloadWorkloadDefinition#resource_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#resource_constraint WorkloadWorkloadDefinition#resource_constraint}
   */
   readonly resourceConstraint?: WorkloadWorkloadDefinitionBlueprintsResourceConstraint[] | cdktf.IResolvable;
 }
@@ -1266,23 +1266,23 @@ export class WorkloadWorkloadDefinitionBlueprintsList extends cdktf.ComplexList 
 }
 export interface WorkloadWorkloadDefinitionDeploymentSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#nr_count WorkloadWorkloadDefinition#nr_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#nr_count WorkloadWorkloadDefinition#nr_count}
   */
   readonly nrCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#state WorkloadWorkloadDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#state WorkloadWorkloadDefinition#state}
   */
   readonly state?: string;
 }
@@ -1514,23 +1514,23 @@ export class WorkloadWorkloadDefinitionDeploymentSummaryList extends cdktf.Compl
 }
 export interface WorkloadWorkloadDefinitionOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -1762,23 +1762,23 @@ export class WorkloadWorkloadDefinitionOrganizationList extends cdktf.ComplexLis
 }
 export interface WorkloadWorkloadDefinitionParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2010,23 +2010,23 @@ export class WorkloadWorkloadDefinitionParentList extends cdktf.ComplexList {
 }
 export interface WorkloadWorkloadDefinitionPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2258,19 +2258,19 @@ export class WorkloadWorkloadDefinitionPermissionResourcesList extends cdktf.Com
 }
 export interface WorkloadWorkloadDefinitionPreferredVersionRolloutStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#failure_threshold WorkloadWorkloadDefinition#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#failure_threshold WorkloadWorkloadDefinition#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
 }
@@ -2473,23 +2473,23 @@ export class WorkloadWorkloadDefinitionPreferredVersionRolloutStrategyList exten
 }
 export interface WorkloadWorkloadDefinitionTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2721,23 +2721,23 @@ export class WorkloadWorkloadDefinitionTagsAncestorDefinitionsList extends cdktf
 }
 export interface WorkloadWorkloadDefinitionTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -2969,35 +2969,35 @@ export class WorkloadWorkloadDefinitionTagsDefinitionList extends cdktf.ComplexL
 }
 export interface WorkloadWorkloadDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#ancestor_definitions WorkloadWorkloadDefinition#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#ancestor_definitions WorkloadWorkloadDefinition#ancestor_definitions}
   */
   readonly ancestorDefinitions?: WorkloadWorkloadDefinitionTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#definition WorkloadWorkloadDefinition#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#definition WorkloadWorkloadDefinition#definition}
   */
   readonly definition?: WorkloadWorkloadDefinitionTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#key WorkloadWorkloadDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#key WorkloadWorkloadDefinition#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#propagated WorkloadWorkloadDefinition#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#propagated WorkloadWorkloadDefinition#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#sys_tag WorkloadWorkloadDefinition#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#sys_tag WorkloadWorkloadDefinition#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#type WorkloadWorkloadDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#type WorkloadWorkloadDefinition#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#value WorkloadWorkloadDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#value WorkloadWorkloadDefinition#value}
   */
   readonly value?: string;
 }
@@ -3316,31 +3316,31 @@ export class WorkloadWorkloadDefinitionTagsList extends cdktf.ComplexList {
 }
 export interface WorkloadWorkloadDefinitionValidationInformationValidationError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#error_log WorkloadWorkloadDefinition#error_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#error_log WorkloadWorkloadDefinition#error_log}
   */
   readonly errorLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#field WorkloadWorkloadDefinition#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#field WorkloadWorkloadDefinition#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#task_name WorkloadWorkloadDefinition#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#task_name WorkloadWorkloadDefinition#task_name}
   */
   readonly taskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#transition_name WorkloadWorkloadDefinition#transition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#transition_name WorkloadWorkloadDefinition#transition_name}
   */
   readonly transitionName?: string;
 }
@@ -3630,27 +3630,27 @@ export class WorkloadWorkloadDefinitionValidationInformationValidationErrorList 
 }
 export interface WorkloadWorkloadDefinitionValidationInformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#engine_state WorkloadWorkloadDefinition#engine_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#engine_state WorkloadWorkloadDefinition#engine_state}
   */
   readonly engineState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#state WorkloadWorkloadDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#state WorkloadWorkloadDefinition#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#validation_error WorkloadWorkloadDefinition#validation_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#validation_error WorkloadWorkloadDefinition#validation_error}
   */
   readonly validationError?: WorkloadWorkloadDefinitionValidationInformationValidationError[] | cdktf.IResolvable;
 }
@@ -3911,23 +3911,23 @@ export class WorkloadWorkloadDefinitionValidationInformationList extends cdktf.C
 }
 export interface WorkloadWorkloadDefinitionVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4159,23 +4159,23 @@ export class WorkloadWorkloadDefinitionVersionContextInterestedMosList extends c
 }
 export interface WorkloadWorkloadDefinitionVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#moid WorkloadWorkloadDefinition#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#selector WorkloadWorkloadDefinition#selector}
   */
   readonly selector?: string;
 }
@@ -4407,39 +4407,39 @@ export class WorkloadWorkloadDefinitionVersionContextRefMoList extends cdktf.Com
 }
 export interface WorkloadWorkloadDefinitionVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#additional_properties WorkloadWorkloadDefinition#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#class_id WorkloadWorkloadDefinition#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#interested_mos WorkloadWorkloadDefinition#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#interested_mos WorkloadWorkloadDefinition#interested_mos}
   */
   readonly interestedMos?: WorkloadWorkloadDefinitionVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#marked_for_deletion WorkloadWorkloadDefinition#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#marked_for_deletion WorkloadWorkloadDefinition#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#nr_version WorkloadWorkloadDefinition#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#nr_version WorkloadWorkloadDefinition#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#object_type WorkloadWorkloadDefinition#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#ref_mo WorkloadWorkloadDefinition#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#ref_mo WorkloadWorkloadDefinition#ref_mo}
   */
   readonly refMo?: WorkloadWorkloadDefinitionVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#timestamp WorkloadWorkloadDefinition#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#timestamp WorkloadWorkloadDefinition#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#version_type WorkloadWorkloadDefinition#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#version_type WorkloadWorkloadDefinition#version_type}
   */
   readonly versionType?: string;
 }
@@ -4787,7 +4787,7 @@ export class WorkloadWorkloadDefinitionVersionContextList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition intersight_workload_workload_definition}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition intersight_workload_workload_definition}
 */
 export class WorkloadWorkloadDefinition extends cdktf.TerraformResource {
 
@@ -4803,7 +4803,7 @@ export class WorkloadWorkloadDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkloadWorkloadDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkloadWorkloadDefinition to import
-  * @param importFromId The id of the existing WorkloadWorkloadDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkloadWorkloadDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkloadWorkloadDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4815,7 +4815,7 @@ export class WorkloadWorkloadDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/workload_workload_definition intersight_workload_workload_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/workload_workload_definition intersight_workload_workload_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4826,8 +4826,8 @@ export class WorkloadWorkloadDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_workload_workload_definition',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

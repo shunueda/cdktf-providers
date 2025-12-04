@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#account_moid VnicIscsiBootPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#account_moid VnicIscsiBootPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#ancestors VnicIscsiBootPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#ancestors VnicIscsiBootPolicy#ancestors}
   */
   readonly ancestors?: VnicIscsiBootPolicyAncestors[] | cdktf.IResolvable;
   /**
   * Auto target interface that is represented via the Initiator name or the DHCP vendor ID. The vendor ID can be up to 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#auto_targetvendor_name VnicIscsiBootPolicy#auto_targetvendor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#auto_targetvendor_name VnicIscsiBootPolicy#auto_targetvendor_name}
   */
   readonly autoTargetvendorName?: string;
   /**
   * CHAP authentication parameters for iSCSI Target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#chap VnicIscsiBootPolicy#chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#chap VnicIscsiBootPolicy#chap}
   */
   readonly chap?: VnicIscsiBootPolicyChap[] | cdktf.IResolvable;
   /**
@@ -40,29 +40,29 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#create_time VnicIscsiBootPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#create_time VnicIscsiBootPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#description VnicIscsiBootPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#description VnicIscsiBootPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#domain_group_moid VnicIscsiBootPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#domain_group_moid VnicIscsiBootPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#id VnicIscsiBootPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#id VnicIscsiBootPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   * A reference to a ippoolPool resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_ip_pool VnicIscsiBootPolicy#initiator_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_ip_pool VnicIscsiBootPolicy#initiator_ip_pool}
   */
   readonly initiatorIpPool?: VnicIscsiBootPolicyInitiatorIpPool[] | cdktf.IResolvable;
   /**
@@ -81,38 +81,38 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   * * `Static` - Static IPv4 address is assigned to the iSCSI boot interface based on the information entered in this area.
   * * `Pool` - An IPv4 address is assigned to the iSCSI boot interface from the management IP address pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_ip_source VnicIscsiBootPolicy#initiator_ip_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_ip_source VnicIscsiBootPolicy#initiator_ip_source}
   */
   readonly initiatorIpSource?: string;
   /**
   * Static IPv4 address provided for iSCSI Initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v4_address VnicIscsiBootPolicy#initiator_static_ip_v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v4_address VnicIscsiBootPolicy#initiator_static_ip_v4_address}
   */
   readonly initiatorStaticIpV4Address?: string;
   /**
   * IPV4 configurations such as Netmask, Gateway and DNS for iSCSI Initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v4_config VnicIscsiBootPolicy#initiator_static_ip_v4_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v4_config VnicIscsiBootPolicy#initiator_static_ip_v4_config}
   */
   readonly initiatorStaticIpV4Config?: VnicIscsiBootPolicyInitiatorStaticIpV4Config[] | cdktf.IResolvable;
   /**
   * Static IPv6 address provided for iSCSI Initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v6_address VnicIscsiBootPolicy#initiator_static_ip_v6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v6_address VnicIscsiBootPolicy#initiator_static_ip_v6_address}
   */
   readonly initiatorStaticIpV6Address?: string;
   /**
   * IPv6 configurations such as Prefix, Gateway and DNS for iSCSI Initiator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v6_config VnicIscsiBootPolicy#initiator_static_ip_v6_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#initiator_static_ip_v6_config VnicIscsiBootPolicy#initiator_static_ip_v6_config}
   */
   readonly initiatorStaticIpV6Config?: VnicIscsiBootPolicyInitiatorStaticIpV6Config[] | cdktf.IResolvable;
   /**
   * A reference to a vnicIscsiAdapterPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#iscsi_adapter_policy VnicIscsiBootPolicy#iscsi_adapter_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#iscsi_adapter_policy VnicIscsiBootPolicy#iscsi_adapter_policy}
   */
   readonly iscsiAdapterPolicy?: VnicIscsiBootPolicyIscsiAdapterPolicy[] | cdktf.IResolvable;
   /**
@@ -120,87 +120,87 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   * * `IPv4` - IP V4 address type requested.
   * * `IPv6` - IP V6 address type requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#iscsi_ip_type VnicIscsiBootPolicy#iscsi_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#iscsi_ip_type VnicIscsiBootPolicy#iscsi_ip_type}
   */
   readonly iscsiIpType?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#mod_time VnicIscsiBootPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#mod_time VnicIscsiBootPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Mutual CHAP authentication parameters for iSCSI Initiator. Two-way CHAP mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#mutual_chap VnicIscsiBootPolicy#mutual_chap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#mutual_chap VnicIscsiBootPolicy#mutual_chap}
   */
   readonly mutualChap?: VnicIscsiBootPolicyMutualChap[] | cdktf.IResolvable;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#name VnicIscsiBootPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#name VnicIscsiBootPolicy#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#organization VnicIscsiBootPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#organization VnicIscsiBootPolicy#organization}
   */
   readonly organization?: VnicIscsiBootPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#owners VnicIscsiBootPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#owners VnicIscsiBootPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#parent VnicIscsiBootPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#parent VnicIscsiBootPolicy#parent}
   */
   readonly parent?: VnicIscsiBootPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#permission_resources VnicIscsiBootPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#permission_resources VnicIscsiBootPolicy#permission_resources}
   */
   readonly permissionResources?: VnicIscsiBootPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * A reference to a vnicIscsiStaticTargetPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#primary_target_policy VnicIscsiBootPolicy#primary_target_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#primary_target_policy VnicIscsiBootPolicy#primary_target_policy}
   */
   readonly primaryTargetPolicy?: VnicIscsiBootPolicyPrimaryTargetPolicy[] | cdktf.IResolvable;
   /**
   * A reference to a vnicIscsiStaticTargetPolicy resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#secondary_target_policy VnicIscsiBootPolicy#secondary_target_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#secondary_target_policy VnicIscsiBootPolicy#secondary_target_policy}
   */
   readonly secondaryTargetPolicy?: VnicIscsiBootPolicySecondaryTargetPolicy[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#shared_scope VnicIscsiBootPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#shared_scope VnicIscsiBootPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#tags VnicIscsiBootPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#tags VnicIscsiBootPolicy#tags}
   */
   readonly tags?: VnicIscsiBootPolicyTags[] | cdktf.IResolvable;
   /**
@@ -208,35 +208,35 @@ export interface VnicIscsiBootPolicyConfig extends cdktf.TerraformMetaArguments 
   * * `Static` - Type indicates that static target interface is assigned to iSCSI boot.
   * * `Auto` - Type indicates that the system selects the target interface automatically during iSCSI boot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#target_source_type VnicIscsiBootPolicy#target_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#target_source_type VnicIscsiBootPolicy#target_source_type}
   */
   readonly targetSourceType?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#version_context VnicIscsiBootPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#version_context VnicIscsiBootPolicy#version_context}
   */
   readonly versionContext?: VnicIscsiBootPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface VnicIscsiBootPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -468,27 +468,27 @@ export class VnicIscsiBootPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyChap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#is_password_set VnicIscsiBootPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#is_password_set VnicIscsiBootPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#password VnicIscsiBootPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#password VnicIscsiBootPolicy#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#user_id VnicIscsiBootPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#user_id VnicIscsiBootPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -749,23 +749,23 @@ export class VnicIscsiBootPolicyChapList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyInitiatorIpPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -997,31 +997,31 @@ export class VnicIscsiBootPolicyInitiatorIpPoolList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyInitiatorStaticIpV4Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#gateway VnicIscsiBootPolicy#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#gateway VnicIscsiBootPolicy#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#netmask VnicIscsiBootPolicy#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#netmask VnicIscsiBootPolicy#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#primary_dns VnicIscsiBootPolicy#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#primary_dns VnicIscsiBootPolicy#primary_dns}
   */
   readonly primaryDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#secondary_dns VnicIscsiBootPolicy#secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#secondary_dns VnicIscsiBootPolicy#secondary_dns}
   */
   readonly secondaryDns?: string;
 }
@@ -1311,31 +1311,31 @@ export class VnicIscsiBootPolicyInitiatorStaticIpV4ConfigList extends cdktf.Comp
 }
 export interface VnicIscsiBootPolicyInitiatorStaticIpV6Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#gateway VnicIscsiBootPolicy#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#gateway VnicIscsiBootPolicy#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#prefix VnicIscsiBootPolicy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#prefix VnicIscsiBootPolicy#prefix}
   */
   readonly prefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#primary_dns VnicIscsiBootPolicy#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#primary_dns VnicIscsiBootPolicy#primary_dns}
   */
   readonly primaryDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#secondary_dns VnicIscsiBootPolicy#secondary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#secondary_dns VnicIscsiBootPolicy#secondary_dns}
   */
   readonly secondaryDns?: string;
 }
@@ -1625,23 +1625,23 @@ export class VnicIscsiBootPolicyInitiatorStaticIpV6ConfigList extends cdktf.Comp
 }
 export interface VnicIscsiBootPolicyIscsiAdapterPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1873,27 +1873,27 @@ export class VnicIscsiBootPolicyIscsiAdapterPolicyList extends cdktf.ComplexList
 }
 export interface VnicIscsiBootPolicyMutualChap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#is_password_set VnicIscsiBootPolicy#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#is_password_set VnicIscsiBootPolicy#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#password VnicIscsiBootPolicy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#password VnicIscsiBootPolicy#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#user_id VnicIscsiBootPolicy#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#user_id VnicIscsiBootPolicy#user_id}
   */
   readonly userId?: string;
 }
@@ -2154,23 +2154,23 @@ export class VnicIscsiBootPolicyMutualChapList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2402,23 +2402,23 @@ export class VnicIscsiBootPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2650,23 +2650,23 @@ export class VnicIscsiBootPolicyParentList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2898,23 +2898,23 @@ export class VnicIscsiBootPolicyPermissionResourcesList extends cdktf.ComplexLis
 }
 export interface VnicIscsiBootPolicyPrimaryTargetPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3146,23 +3146,23 @@ export class VnicIscsiBootPolicyPrimaryTargetPolicyList extends cdktf.ComplexLis
 }
 export interface VnicIscsiBootPolicySecondaryTargetPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3394,23 +3394,23 @@ export class VnicIscsiBootPolicySecondaryTargetPolicyList extends cdktf.ComplexL
 }
 export interface VnicIscsiBootPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3642,23 +3642,23 @@ export class VnicIscsiBootPolicyTagsAncestorDefinitionsList extends cdktf.Comple
 }
 export interface VnicIscsiBootPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3890,35 +3890,35 @@ export class VnicIscsiBootPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#ancestor_definitions VnicIscsiBootPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#ancestor_definitions VnicIscsiBootPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: VnicIscsiBootPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#definition VnicIscsiBootPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#definition VnicIscsiBootPolicy#definition}
   */
   readonly definition?: VnicIscsiBootPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#key VnicIscsiBootPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#key VnicIscsiBootPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#propagated VnicIscsiBootPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#propagated VnicIscsiBootPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#sys_tag VnicIscsiBootPolicy#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#sys_tag VnicIscsiBootPolicy#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#type VnicIscsiBootPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#type VnicIscsiBootPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#value VnicIscsiBootPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#value VnicIscsiBootPolicy#value}
   */
   readonly value?: string;
 }
@@ -4237,23 +4237,23 @@ export class VnicIscsiBootPolicyTagsList extends cdktf.ComplexList {
 }
 export interface VnicIscsiBootPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4485,23 +4485,23 @@ export class VnicIscsiBootPolicyVersionContextInterestedMosList extends cdktf.Co
 }
 export interface VnicIscsiBootPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#moid VnicIscsiBootPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#selector VnicIscsiBootPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -4733,39 +4733,39 @@ export class VnicIscsiBootPolicyVersionContextRefMoList extends cdktf.ComplexLis
 }
 export interface VnicIscsiBootPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#additional_properties VnicIscsiBootPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#class_id VnicIscsiBootPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#interested_mos VnicIscsiBootPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#interested_mos VnicIscsiBootPolicy#interested_mos}
   */
   readonly interestedMos?: VnicIscsiBootPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#marked_for_deletion VnicIscsiBootPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#marked_for_deletion VnicIscsiBootPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#nr_version VnicIscsiBootPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#nr_version VnicIscsiBootPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#object_type VnicIscsiBootPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#ref_mo VnicIscsiBootPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#ref_mo VnicIscsiBootPolicy#ref_mo}
   */
   readonly refMo?: VnicIscsiBootPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#timestamp VnicIscsiBootPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#timestamp VnicIscsiBootPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#version_type VnicIscsiBootPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#version_type VnicIscsiBootPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -5113,7 +5113,7 @@ export class VnicIscsiBootPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy intersight_vnic_iscsi_boot_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy intersight_vnic_iscsi_boot_policy}
 */
 export class VnicIscsiBootPolicy extends cdktf.TerraformResource {
 
@@ -5129,7 +5129,7 @@ export class VnicIscsiBootPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VnicIscsiBootPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VnicIscsiBootPolicy to import
-  * @param importFromId The id of the existing VnicIscsiBootPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VnicIscsiBootPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VnicIscsiBootPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5141,7 +5141,7 @@ export class VnicIscsiBootPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/vnic_iscsi_boot_policy intersight_vnic_iscsi_boot_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/vnic_iscsi_boot_policy intersight_vnic_iscsi_boot_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5152,8 +5152,8 @@ export class VnicIscsiBootPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_vnic_iscsi_boot_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

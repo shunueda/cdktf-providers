@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceConfi
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#account_moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#account_moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceConfi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#create_time DataIntersightVirtualizationVmwarePhysicalNetworkInterface#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#create_time DataIntersightVirtualizationVmwarePhysicalNetworkInterface#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#domain_group_moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#domain_group_moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * Driver type associated with physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#driver DataIntersightVirtualizationVmwarePhysicalNetworkInterface#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#driver DataIntersightVirtualizationVmwarePhysicalNetworkInterface#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,109 +53,109 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceConfi
   /**
   * The internally generated identity of physical network interface. This entity cannot manipulated by users. It aids in uniquely identifying the physical network interface object. For VMware, this is MOR (managed object reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#identity DataIntersightVirtualizationVmwarePhysicalNetworkInterface#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#identity DataIntersightVirtualizationVmwarePhysicalNetworkInterface#identity}
   */
   readonly identity?: string;
   /**
   * Link speed of the physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#link_speed DataIntersightVirtualizationVmwarePhysicalNetworkInterface#link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#link_speed DataIntersightVirtualizationVmwarePhysicalNetworkInterface#link_speed}
   */
   readonly linkSpeed?: number;
   /**
   * Standard MAC address assigned to physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#mac_address DataIntersightVirtualizationVmwarePhysicalNetworkInterface#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#mac_address DataIntersightVirtualizationVmwarePhysicalNetworkInterface#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#mod_time DataIntersightVirtualizationVmwarePhysicalNetworkInterface#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#mod_time DataIntersightVirtualizationVmwarePhysicalNetworkInterface#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * User-provided name to identify the physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#name DataIntersightVirtualizationVmwarePhysicalNetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#name DataIntersightVirtualizationVmwarePhysicalNetworkInterface#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#owners DataIntersightVirtualizationVmwarePhysicalNetworkInterface#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#owners DataIntersightVirtualizationVmwarePhysicalNetworkInterface#owners}
   */
   readonly owners?: string[];
   /**
   * PCI info for physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#pci DataIntersightVirtualizationVmwarePhysicalNetworkInterface#pci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#pci DataIntersightVirtualizationVmwarePhysicalNetworkInterface#pci}
   */
   readonly pci?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#shared_scope DataIntersightVirtualizationVmwarePhysicalNetworkInterface#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#shared_scope DataIntersightVirtualizationVmwarePhysicalNetworkInterface#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Switch associated with the physical network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#switch_name DataIntersightVirtualizationVmwarePhysicalNetworkInterface#switch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#switch_name DataIntersightVirtualizationVmwarePhysicalNetworkInterface#switch_name}
   */
   readonly switchName?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#ancestors DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#ancestors DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceAncestors[] | cdktf.IResolvable;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#host DataIntersightVirtualizationVmwarePhysicalNetworkInterface#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#host DataIntersightVirtualizationVmwarePhysicalNetworkInterface#host}
   */
   readonly host?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceHost;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#parent DataIntersightVirtualizationVmwarePhysicalNetworkInterface#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#parent DataIntersightVirtualizationVmwarePhysicalNetworkInterface#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#permission_resources DataIntersightVirtualizationVmwarePhysicalNetworkInterface#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#permission_resources DataIntersightVirtualizationVmwarePhysicalNetworkInterface#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfacePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#registered_device DataIntersightVirtualizationVmwarePhysicalNetworkInterface#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#registered_device DataIntersightVirtualizationVmwarePhysicalNetworkInterface#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#tags DataIntersightVirtualizationVmwarePhysicalNetworkInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#tags DataIntersightVirtualizationVmwarePhysicalNetworkInterface#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#version_context DataIntersightVirtualizationVmwarePhysicalNetworkInterface#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#version_context DataIntersightVirtualizationVmwarePhysicalNetworkInterface#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContext;
 }
@@ -1442,7 +1442,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceResultsLi
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1450,19 +1450,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceAnces
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1475,7 +1475,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceAnces
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1707,7 +1707,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceAncestors
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1715,19 +1715,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceHost 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1740,7 +1740,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceHost 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -1940,7 +1940,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceHostOutpu
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1948,19 +1948,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceParen
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1973,7 +1973,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceParen
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2173,7 +2173,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceParentOut
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfacePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2181,19 +2181,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfacePermi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2206,7 +2206,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfacePermi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2438,7 +2438,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfacePermissio
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2446,19 +2446,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceRegis
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2471,7 +2471,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceRegis
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2671,7 +2671,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceRegistere
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2679,19 +2679,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsA
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2704,7 +2704,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsA
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -2936,7 +2936,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsAnces
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2944,19 +2944,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsD
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2969,7 +2969,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsD
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3169,25 +3169,25 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsDefin
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#key DataIntersightVirtualizationVmwarePhysicalNetworkInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#key DataIntersightVirtualizationVmwarePhysicalNetworkInterface#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#propagated DataIntersightVirtualizationVmwarePhysicalNetworkInterface#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#propagated DataIntersightVirtualizationVmwarePhysicalNetworkInterface#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#sys_tag DataIntersightVirtualizationVmwarePhysicalNetworkInterface#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#sys_tag DataIntersightVirtualizationVmwarePhysicalNetworkInterface#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3195,25 +3195,25 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTags 
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#value DataIntersightVirtualizationVmwarePhysicalNetworkInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#value DataIntersightVirtualizationVmwarePhysicalNetworkInterface#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#ancestor_definitions DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#ancestor_definitions DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#definition DataIntersightVirtualizationVmwarePhysicalNetworkInterface#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#definition DataIntersightVirtualizationVmwarePhysicalNetworkInterface#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsDefinition;
 }
@@ -3532,7 +3532,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceTagsList 
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3540,19 +3540,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3565,7 +3565,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -3797,7 +3797,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionCo
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3805,19 +3805,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#moid DataIntersightVirtualizationVmwarePhysicalNetworkInterface#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3830,7 +3830,7 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#selector DataIntersightVirtualizationVmwarePhysicalNetworkInterface#selector}
   */
   readonly selector?: string;
 }
@@ -4030,7 +4030,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionCo
 }
 export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#additional_properties DataIntersightVirtualizationVmwarePhysicalNetworkInterface#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4038,32 +4038,32 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#class_id DataIntersightVirtualizationVmwarePhysicalNetworkInterface#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#marked_for_deletion DataIntersightVirtualizationVmwarePhysicalNetworkInterface#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#marked_for_deletion DataIntersightVirtualizationVmwarePhysicalNetworkInterface#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#nr_version DataIntersightVirtualizationVmwarePhysicalNetworkInterface#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#nr_version DataIntersightVirtualizationVmwarePhysicalNetworkInterface#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#object_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#timestamp DataIntersightVirtualizationVmwarePhysicalNetworkInterface#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#timestamp DataIntersightVirtualizationVmwarePhysicalNetworkInterface#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4074,19 +4074,19 @@ export interface DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersi
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#version_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#version_type DataIntersightVirtualizationVmwarePhysicalNetworkInterface#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#interested_mos DataIntersightVirtualizationVmwarePhysicalNetworkInterface#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#interested_mos DataIntersightVirtualizationVmwarePhysicalNetworkInterface#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#ref_mo DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#ref_mo DataIntersightVirtualizationVmwarePhysicalNetworkInterface#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionContextRefMo;
 }
@@ -4402,7 +4402,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterfaceVersionCo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface intersight_virtualization_vmware_physical_network_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface intersight_virtualization_vmware_physical_network_interface}
 */
 export class DataIntersightVirtualizationVmwarePhysicalNetworkInterface extends cdktf.TerraformDataSource {
 
@@ -4418,7 +4418,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterface extends 
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwarePhysicalNetworkInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwarePhysicalNetworkInterface to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwarePhysicalNetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwarePhysicalNetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwarePhysicalNetworkInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4430,7 +4430,7 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterface extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_physical_network_interface intersight_virtualization_vmware_physical_network_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/virtualization_vmware_physical_network_interface intersight_virtualization_vmware_physical_network_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4441,8 +4441,8 @@ export class DataIntersightVirtualizationVmwarePhysicalNetworkInterface extends 
       terraformResourceType: 'intersight_virtualization_vmware_physical_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

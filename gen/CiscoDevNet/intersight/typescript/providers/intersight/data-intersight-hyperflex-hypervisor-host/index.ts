@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#account_moid DataIntersightHyperflexHypervisorHost#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#account_moid DataIntersightHyperflexHypervisorHost#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,55 +22,55 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * Memory configured for controller virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#configured_memory DataIntersightHyperflexHypervisorHost#configured_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#configured_memory DataIntersightHyperflexHypervisorHost#configured_memory}
   */
   readonly configuredMemory?: number;
   /**
   * The display version of HyperFlex software running on the controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#controller_vm_display_version DataIntersightHyperflexHypervisorHost#controller_vm_display_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#controller_vm_display_version DataIntersightHyperflexHypervisorHost#controller_vm_display_version}
   */
   readonly controllerVmDisplayVersion?: string;
   /**
   * Platform storage software product display version running on controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#controller_vm_hxdp_display_version DataIntersightHyperflexHypervisorHost#controller_vm_hxdp_display_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#controller_vm_hxdp_display_version DataIntersightHyperflexHypervisorHost#controller_vm_hxdp_display_version}
   */
   readonly controllerVmHxdpDisplayVersion?: string;
   /**
   * Platform storage software product version running on controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#controller_vm_hxdp_version DataIntersightHyperflexHypervisorHost#controller_vm_hxdp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#controller_vm_hxdp_version DataIntersightHyperflexHypervisorHost#controller_vm_hxdp_version}
   */
   readonly controllerVmHxdpVersion?: string;
   /**
   * The UUID of the controller VM which belongs to this host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#controller_vm_uuid DataIntersightHyperflexHypervisorHost#controller_vm_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#controller_vm_uuid DataIntersightHyperflexHypervisorHost#controller_vm_uuid}
   */
   readonly controllerVmUuid?: string;
   /**
   * The version of HyperFlex software running on the controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#controller_vm_version DataIntersightHyperflexHypervisorHost#controller_vm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#controller_vm_version DataIntersightHyperflexHypervisorHost#controller_vm_version}
   */
   readonly controllerVmVersion?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#create_time DataIntersightHyperflexHypervisorHost#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#create_time DataIntersightHyperflexHypervisorHost#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#domain_group_moid DataIntersightHyperflexHypervisorHost#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#domain_group_moid DataIntersightHyperflexHypervisorHost#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -81,13 +81,13 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   * * `INMAINTENANCE` - The HyperFlex host is in maintenance mode.
   * * `DEGRADED` - Current status of the HyperFlex virtual machine is degraded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#host_status DataIntersightHyperflexHypervisorHost#host_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#host_status DataIntersightHyperflexHypervisorHost#host_status}
   */
   readonly hostStatus?: string;
   /**
   * The hypervisor type of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#hypervisor DataIntersightHyperflexHypervisorHost#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#hypervisor DataIntersightHyperflexHypervisorHost#hypervisor}
   */
   readonly hypervisor?: string;
   /**
@@ -96,11 +96,11 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   * * `Hyper-V` - The hypervisor running on the HyperFlex cluster is Microsoft Hyper-V.
   * * `Unknown` - The hypervisor running on the HyperFlex cluster is not known.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#hypervisor_type DataIntersightHyperflexHypervisorHost#hypervisor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#hypervisor_type DataIntersightHyperflexHypervisorHost#hypervisor_type}
   */
   readonly hypervisorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#id DataIntersightHyperflexHypervisorHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#id DataIntersightHyperflexHypervisorHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,60 +109,60 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   /**
   * The internally generated identity of this host. This entity is not manipulated by users. It aids in uniquely identifying the datacenter object. For VMware, this is an MOR (managed object reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#identity DataIntersightHyperflexHypervisorHost#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#identity DataIntersightHyperflexHypervisorHost#identity}
   */
   readonly identity?: string;
   /**
   * Flag indicating whether the HyperFlex host is in lockdown mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#lockdown DataIntersightHyperflexHypervisorHost#lockdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#lockdown DataIntersightHyperflexHypervisorHost#lockdown}
   */
   readonly lockdown?: boolean | cdktf.IResolvable;
   /**
   * Is this host in maintenance mode. Set to true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#maintenance_mode DataIntersightHyperflexHypervisorHost#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#maintenance_mode DataIntersightHyperflexHypervisorHost#maintenance_mode}
   */
   readonly maintenanceMode?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#mod_time DataIntersightHyperflexHypervisorHost#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#mod_time DataIntersightHyperflexHypervisorHost#mod_time}
   */
   readonly modTime?: string;
   /**
   * Commercial model information about this hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#model DataIntersightHyperflexHypervisorHost#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#model DataIntersightHyperflexHypervisorHost#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * Name of this host supplied by user. It is not the identity of the host. The name is subject to user manipulations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#name DataIntersightHyperflexHypervisorHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#name DataIntersightHyperflexHypervisorHost#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * The operation system version of the controller VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#os_version DataIntersightHyperflexHypervisorHost#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#os_version DataIntersightHyperflexHypervisorHost#os_version}
   */
   readonly osVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#owners DataIntersightHyperflexHypervisorHost#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#owners DataIntersightHyperflexHypervisorHost#owners}
   */
   readonly owners?: string[];
   /**
@@ -171,20 +171,20 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   * * `STORAGE` - The HyperFlex host's role is storage.
   * * `COMPUTE` - The HyperFlex host's role is compute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#role DataIntersightHyperflexHypervisorHost#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#role DataIntersightHyperflexHypervisorHost#role}
   */
   readonly role?: string;
   /**
   * Serial number of this host (internally generated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#serial DataIntersightHyperflexHypervisorHost#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#serial DataIntersightHyperflexHypervisorHost#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#shared_scope DataIntersightHyperflexHypervisorHost#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#shared_scope DataIntersightHyperflexHypervisorHost#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -194,133 +194,133 @@ export interface DataIntersightHyperflexHypervisorHostConfig extends cdktf.Terra
   * * `Critical` - Entity is in a critical state, impacting operations.
   * * `Ok` - Entity status is in a stable state, operating normally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#status DataIntersightHyperflexHypervisorHost#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#status DataIntersightHyperflexHypervisorHost#status}
   */
   readonly status?: string;
   /**
   * The controller virtual machine template version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#template_version DataIntersightHyperflexHypervisorHost#template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#template_version DataIntersightHyperflexHypervisorHost#template_version}
   */
   readonly templateVersion?: string;
   /**
   * The uptime of the host, stored as Duration (from w3c).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#up_time DataIntersightHyperflexHypervisorHost#up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#up_time DataIntersightHyperflexHypervisorHost#up_time}
   */
   readonly upTime?: string;
   /**
   * Universally unique identity of this host (example b3d4483b-5560-9342-8309-b486c9236610). Internally generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#uuid DataIntersightHyperflexHypervisorHost#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#uuid DataIntersightHyperflexHypervisorHost#uuid}
   */
   readonly uuid?: string;
   /**
   * Commercial vendor details of this hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#vendor DataIntersightHyperflexHypervisorHost#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#vendor DataIntersightHyperflexHypervisorHost#vendor}
   */
   readonly vendor?: string;
   /**
   * Configured number of virtual CPUs for Controller virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#virtual_cpus DataIntersightHyperflexHypervisorHost#virtual_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#virtual_cpus DataIntersightHyperflexHypervisorHost#virtual_cpus}
   */
   readonly virtualCpus?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ancestors DataIntersightHyperflexHypervisorHost#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ancestors DataIntersightHyperflexHypervisorHost#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexHypervisorHostAncestors[] | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#cluster DataIntersightHyperflexHypervisorHost#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#cluster DataIntersightHyperflexHypervisorHost#cluster}
   */
   readonly cluster?: DataIntersightHyperflexHypervisorHostCluster;
   /**
   * cpu_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#cpu_info DataIntersightHyperflexHypervisorHost#cpu_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#cpu_info DataIntersightHyperflexHypervisorHost#cpu_info}
   */
   readonly cpuInfo?: DataIntersightHyperflexHypervisorHostCpuInfo;
   /**
   * data_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#data_ip DataIntersightHyperflexHypervisorHost#data_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#data_ip DataIntersightHyperflexHypervisorHost#data_ip}
   */
   readonly dataIp?: DataIntersightHyperflexHypervisorHostDataIp;
   /**
   * hardware_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#hardware_info DataIntersightHyperflexHypervisorHost#hardware_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#hardware_info DataIntersightHyperflexHypervisorHost#hardware_info}
   */
   readonly hardwareInfo?: DataIntersightHyperflexHypervisorHostHardwareInfo;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
   */
   readonly ip?: DataIntersightHyperflexHypervisorHostIp;
   /**
   * memory_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#memory_capacity DataIntersightHyperflexHypervisorHost#memory_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#memory_capacity DataIntersightHyperflexHypervisorHost#memory_capacity}
   */
   readonly memoryCapacity?: DataIntersightHyperflexHypervisorHostMemoryCapacity;
   /**
   * mgmt_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#mgmt_ip DataIntersightHyperflexHypervisorHost#mgmt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#mgmt_ip DataIntersightHyperflexHypervisorHost#mgmt_ip}
   */
   readonly mgmtIp?: DataIntersightHyperflexHypervisorHostMgmtIp;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#node DataIntersightHyperflexHypervisorHost#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#node DataIntersightHyperflexHypervisorHost#node}
   */
   readonly nodeAttribute?: DataIntersightHyperflexHypervisorHostNode;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#parent DataIntersightHyperflexHypervisorHost#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#parent DataIntersightHyperflexHypervisorHost#parent}
   */
   readonly parent?: DataIntersightHyperflexHypervisorHostParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#permission_resources DataIntersightHyperflexHypervisorHost#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#permission_resources DataIntersightHyperflexHypervisorHost#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexHypervisorHostPermissionResources[] | cdktf.IResolvable;
   /**
   * processor_capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#processor_capacity DataIntersightHyperflexHypervisorHost#processor_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#processor_capacity DataIntersightHyperflexHypervisorHost#processor_capacity}
   */
   readonly processorCapacity?: DataIntersightHyperflexHypervisorHostProcessorCapacity;
   /**
   * product_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#product_info DataIntersightHyperflexHypervisorHost#product_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#product_info DataIntersightHyperflexHypervisorHost#product_info}
   */
   readonly productInfo?: DataIntersightHyperflexHypervisorHostProductInfo;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#registered_device DataIntersightHyperflexHypervisorHost#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#registered_device DataIntersightHyperflexHypervisorHost#registered_device}
   */
   readonly registeredDevice?: DataIntersightHyperflexHypervisorHostRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#tags DataIntersightHyperflexHypervisorHost#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#tags DataIntersightHyperflexHypervisorHost#tags}
   */
   readonly tags?: DataIntersightHyperflexHypervisorHostTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#version_context DataIntersightHyperflexHypervisorHost#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#version_context DataIntersightHyperflexHypervisorHost#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexHypervisorHostVersionContext;
 }
@@ -2656,7 +2656,7 @@ export class DataIntersightHyperflexHypervisorHostResultsList extends cdktf.Comp
 }
 export interface DataIntersightHyperflexHypervisorHostAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2664,19 +2664,19 @@ export interface DataIntersightHyperflexHypervisorHostAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2689,7 +2689,7 @@ export interface DataIntersightHyperflexHypervisorHostAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -2921,7 +2921,7 @@ export class DataIntersightHyperflexHypervisorHostAncestorsList extends cdktf.Co
 }
 export interface DataIntersightHyperflexHypervisorHostCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2929,19 +2929,19 @@ export interface DataIntersightHyperflexHypervisorHostCluster {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2954,7 +2954,7 @@ export interface DataIntersightHyperflexHypervisorHostCluster {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -3154,7 +3154,7 @@ export class DataIntersightHyperflexHypervisorHostClusterOutputReference extends
 }
 export interface DataIntersightHyperflexHypervisorHostCpuInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3162,44 +3162,44 @@ export interface DataIntersightHyperflexHypervisorHostCpuInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * Number of cores per CPU, as reported by the manufacturer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#cores DataIntersightHyperflexHypervisorHost#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#cores DataIntersightHyperflexHypervisorHost#cores}
   */
   readonly cores?: number;
   /**
   * The vendor provided description of the CPU. For example, Intel Xeon E5-2640 v3 @ 2.60GHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#description DataIntersightHyperflexHypervisorHost#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#description DataIntersightHyperflexHypervisorHost#description}
   */
   readonly description?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Number of CPU sockets available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#sockets DataIntersightHyperflexHypervisorHost#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#sockets DataIntersightHyperflexHypervisorHost#sockets}
   */
   readonly sockets?: number;
   /**
   * Speed of the CPUs in Hertz. For example, 2593749663.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#speed DataIntersightHyperflexHypervisorHost#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#speed DataIntersightHyperflexHypervisorHost#speed}
   */
   readonly speed?: number;
   /**
   * Manufacturer of the CPU . For example, Intel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#vendor DataIntersightHyperflexHypervisorHost#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#vendor DataIntersightHyperflexHypervisorHost#vendor}
   */
   readonly vendor?: string;
 }
@@ -3486,13 +3486,13 @@ export class DataIntersightHyperflexHypervisorHostCpuInfoOutputReference extends
 }
 export interface DataIntersightHyperflexHypervisorHostDataIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The IP or FQN of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
   */
   readonly address?: string;
   /**
@@ -3500,26 +3500,26 @@ export interface DataIntersightHyperflexHypervisorHostDataIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The fully qualified domain name of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The IP address of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
   */
   readonly ip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -3748,7 +3748,7 @@ export class DataIntersightHyperflexHypervisorHostDataIpOutputReference extends 
 }
 export interface DataIntersightHyperflexHypervisorHostHardwareInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3756,32 +3756,32 @@ export interface DataIntersightHyperflexHypervisorHostHardwareInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The number of cpu cores on this hardware platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#cpu_cores DataIntersightHyperflexHypervisorHost#cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#cpu_cores DataIntersightHyperflexHypervisorHost#cpu_cores}
   */
   readonly cpuCores?: number;
   /**
   * Speed of cpu in MHz. Usually cpu speeds are reported for modern cpus in GHz but MHz makes it more precise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#cpu_speed DataIntersightHyperflexHypervisorHost#cpu_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#cpu_speed DataIntersightHyperflexHypervisorHost#cpu_speed}
   */
   readonly cpuSpeed?: number;
   /**
   * The amount of memory allocated (bytes) to this hardware platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#memory_size DataIntersightHyperflexHypervisorHost#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#memory_size DataIntersightHyperflexHypervisorHost#memory_size}
   */
   readonly memorySize?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -4010,13 +4010,13 @@ export class DataIntersightHyperflexHypervisorHostHardwareInfoOutputReference ex
 }
 export interface DataIntersightHyperflexHypervisorHostIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The IP or FQN of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
   */
   readonly address?: string;
   /**
@@ -4024,26 +4024,26 @@ export interface DataIntersightHyperflexHypervisorHostIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The fully qualified domain name of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The IP address of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
   */
   readonly ip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -4272,13 +4272,13 @@ export class DataIntersightHyperflexHypervisorHostIpOutputReference extends cdkt
 }
 export interface DataIntersightHyperflexHypervisorHostMemoryCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The total memory capacity of the entity in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#capacity DataIntersightHyperflexHypervisorHost#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#capacity DataIntersightHyperflexHypervisorHost#capacity}
   */
   readonly capacity?: number;
   /**
@@ -4286,26 +4286,26 @@ export interface DataIntersightHyperflexHypervisorHostMemoryCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * Free memory (bytes) that is unused and available for allocation, as a point-in-time snapshot. The available memory capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used memory capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#free DataIntersightHyperflexHypervisorHost#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#free DataIntersightHyperflexHypervisorHost#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Memory (bytes) that has been already used up, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#used DataIntersightHyperflexHypervisorHost#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#used DataIntersightHyperflexHypervisorHost#used}
   */
   readonly used?: number;
 }
@@ -4534,13 +4534,13 @@ export class DataIntersightHyperflexHypervisorHostMemoryCapacityOutputReference 
 }
 export interface DataIntersightHyperflexHypervisorHostMgmtIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The IP or FQN of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#address DataIntersightHyperflexHypervisorHost#address}
   */
   readonly address?: string;
   /**
@@ -4548,26 +4548,26 @@ export interface DataIntersightHyperflexHypervisorHostMgmtIp {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The fully qualified domain name of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#fqdn DataIntersightHyperflexHypervisorHost#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The IP address of the HyperFlex appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ip DataIntersightHyperflexHypervisorHost#ip}
   */
   readonly ip?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
 }
@@ -4796,7 +4796,7 @@ export class DataIntersightHyperflexHypervisorHostMgmtIpOutputReference extends 
 }
 export interface DataIntersightHyperflexHypervisorHostNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4804,19 +4804,19 @@ export interface DataIntersightHyperflexHypervisorHostNode {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4829,7 +4829,7 @@ export interface DataIntersightHyperflexHypervisorHostNode {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -5029,7 +5029,7 @@ export class DataIntersightHyperflexHypervisorHostNodeOutputReference extends cd
 }
 export interface DataIntersightHyperflexHypervisorHostParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5037,19 +5037,19 @@ export interface DataIntersightHyperflexHypervisorHostParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5062,7 +5062,7 @@ export interface DataIntersightHyperflexHypervisorHostParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -5262,7 +5262,7 @@ export class DataIntersightHyperflexHypervisorHostParentOutputReference extends 
 }
 export interface DataIntersightHyperflexHypervisorHostPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5270,19 +5270,19 @@ export interface DataIntersightHyperflexHypervisorHostPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5295,7 +5295,7 @@ export interface DataIntersightHyperflexHypervisorHostPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -5527,13 +5527,13 @@ export class DataIntersightHyperflexHypervisorHostPermissionResourcesList extend
 }
 export interface DataIntersightHyperflexHypervisorHostProcessorCapacity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Total capacity of the entity in MHz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#capacity DataIntersightHyperflexHypervisorHost#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#capacity DataIntersightHyperflexHypervisorHost#capacity}
   */
   readonly capacity?: number;
   /**
@@ -5541,26 +5541,26 @@ export interface DataIntersightHyperflexHypervisorHostProcessorCapacity {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * Free CPU capacity in MHz, as a point-in-time snapshot. The available CPU capacity is reported for an entity (such as Host or Cluster) when inventory data is collected for that entity. As part of the inventory data, a snapshot of the free and used CPU capacity is also reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#free DataIntersightHyperflexHypervisorHost#free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#free DataIntersightHyperflexHypervisorHost#free}
   */
   readonly free?: number;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Used CPU capacity of the entity in MHz, as a point-in-time snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#used DataIntersightHyperflexHypervisorHost#used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#used DataIntersightHyperflexHypervisorHost#used}
   */
   readonly used?: number;
 }
@@ -5789,13 +5789,13 @@ export class DataIntersightHyperflexHypervisorHostProcessorCapacityOutputReferen
 }
 export interface DataIntersightHyperflexHypervisorHostProductInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The build number of the hypervisor running on this host (e.g., 4541947, 6.3.9600.18692). The build number may indicate some feature support that applications might rely on. The build number may not always be an integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#build DataIntersightHyperflexHypervisorHost#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#build DataIntersightHyperflexHypervisorHost#build}
   */
   readonly buildAttribute?: string;
   /**
@@ -5803,38 +5803,38 @@ export interface DataIntersightHyperflexHypervisorHostProductInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * Hypervisor version running on the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#nr_version DataIntersightHyperflexHypervisorHost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#nr_version DataIntersightHyperflexHypervisorHost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * Commercial product name. For example, VMware ESXi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#product_name DataIntersightHyperflexHypervisorHost#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#product_name DataIntersightHyperflexHypervisorHost#product_name}
   */
   readonly productName?: string;
   /**
   * Product name provided by the vendor. For example, embeddedEsx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#product_type DataIntersightHyperflexHypervisorHost#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#product_type DataIntersightHyperflexHypervisorHost#product_type}
   */
   readonly productType?: string;
   /**
   * Commercial vendor name. For example, VMware Inc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#product_vendor DataIntersightHyperflexHypervisorHost#product_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#product_vendor DataIntersightHyperflexHypervisorHost#product_vendor}
   */
   readonly productVendor?: string;
 }
@@ -6121,7 +6121,7 @@ export class DataIntersightHyperflexHypervisorHostProductInfoOutputReference ext
 }
 export interface DataIntersightHyperflexHypervisorHostRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6129,19 +6129,19 @@ export interface DataIntersightHyperflexHypervisorHostRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6154,7 +6154,7 @@ export interface DataIntersightHyperflexHypervisorHostRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -6354,7 +6354,7 @@ export class DataIntersightHyperflexHypervisorHostRegisteredDeviceOutputReferenc
 }
 export interface DataIntersightHyperflexHypervisorHostTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6362,19 +6362,19 @@ export interface DataIntersightHyperflexHypervisorHostTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6387,7 +6387,7 @@ export interface DataIntersightHyperflexHypervisorHostTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -6619,7 +6619,7 @@ export class DataIntersightHyperflexHypervisorHostTagsAncestorDefinitionsList ex
 }
 export interface DataIntersightHyperflexHypervisorHostTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6627,19 +6627,19 @@ export interface DataIntersightHyperflexHypervisorHostTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6652,7 +6652,7 @@ export interface DataIntersightHyperflexHypervisorHostTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -6852,25 +6852,25 @@ export class DataIntersightHyperflexHypervisorHostTagsDefinitionOutputReference 
 }
 export interface DataIntersightHyperflexHypervisorHostTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#key DataIntersightHyperflexHypervisorHost#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#key DataIntersightHyperflexHypervisorHost#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#propagated DataIntersightHyperflexHypervisorHost#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#propagated DataIntersightHyperflexHypervisorHost#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#sys_tag DataIntersightHyperflexHypervisorHost#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#sys_tag DataIntersightHyperflexHypervisorHost#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -6878,25 +6878,25 @@ export interface DataIntersightHyperflexHypervisorHostTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#type DataIntersightHyperflexHypervisorHost#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#type DataIntersightHyperflexHypervisorHost#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#value DataIntersightHyperflexHypervisorHost#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#value DataIntersightHyperflexHypervisorHost#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ancestor_definitions DataIntersightHyperflexHypervisorHost#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ancestor_definitions DataIntersightHyperflexHypervisorHost#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexHypervisorHostTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#definition DataIntersightHyperflexHypervisorHost#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#definition DataIntersightHyperflexHypervisorHost#definition}
   */
   readonly definition?: DataIntersightHyperflexHypervisorHostTagsDefinition;
 }
@@ -7215,7 +7215,7 @@ export class DataIntersightHyperflexHypervisorHostTagsList extends cdktf.Complex
 }
 export interface DataIntersightHyperflexHypervisorHostVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7223,19 +7223,19 @@ export interface DataIntersightHyperflexHypervisorHostVersionContextInterestedMo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7248,7 +7248,7 @@ export interface DataIntersightHyperflexHypervisorHostVersionContextInterestedMo
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -7480,7 +7480,7 @@ export class DataIntersightHyperflexHypervisorHostVersionContextInterestedMosLis
 }
 export interface DataIntersightHyperflexHypervisorHostVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7488,19 +7488,19 @@ export interface DataIntersightHyperflexHypervisorHostVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#moid DataIntersightHyperflexHypervisorHost#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7513,7 +7513,7 @@ export interface DataIntersightHyperflexHypervisorHostVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#selector DataIntersightHyperflexHypervisorHost#selector}
   */
   readonly selector?: string;
 }
@@ -7713,7 +7713,7 @@ export class DataIntersightHyperflexHypervisorHostVersionContextRefMoOutputRefer
 }
 export interface DataIntersightHyperflexHypervisorHostVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#additional_properties DataIntersightHyperflexHypervisorHost#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7721,32 +7721,32 @@ export interface DataIntersightHyperflexHypervisorHostVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#class_id DataIntersightHyperflexHypervisorHost#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#marked_for_deletion DataIntersightHyperflexHypervisorHost#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#marked_for_deletion DataIntersightHyperflexHypervisorHost#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#nr_version DataIntersightHyperflexHypervisorHost#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#nr_version DataIntersightHyperflexHypervisorHost#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#object_type DataIntersightHyperflexHypervisorHost#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#timestamp DataIntersightHyperflexHypervisorHost#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#timestamp DataIntersightHyperflexHypervisorHost#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -7757,19 +7757,19 @@ export interface DataIntersightHyperflexHypervisorHostVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#version_type DataIntersightHyperflexHypervisorHost#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#version_type DataIntersightHyperflexHypervisorHost#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#interested_mos DataIntersightHyperflexHypervisorHost#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#interested_mos DataIntersightHyperflexHypervisorHost#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexHypervisorHostVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#ref_mo DataIntersightHyperflexHypervisorHost#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#ref_mo DataIntersightHyperflexHypervisorHost#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexHypervisorHostVersionContextRefMo;
 }
@@ -8085,7 +8085,7 @@ export class DataIntersightHyperflexHypervisorHostVersionContextOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host intersight_hyperflex_hypervisor_host}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host intersight_hyperflex_hypervisor_host}
 */
 export class DataIntersightHyperflexHypervisorHost extends cdktf.TerraformDataSource {
 
@@ -8101,7 +8101,7 @@ export class DataIntersightHyperflexHypervisorHost extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataIntersightHyperflexHypervisorHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexHypervisorHost to import
-  * @param importFromId The id of the existing DataIntersightHyperflexHypervisorHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexHypervisorHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexHypervisorHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8113,7 +8113,7 @@ export class DataIntersightHyperflexHypervisorHost extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_hypervisor_host intersight_hyperflex_hypervisor_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/hyperflex_hypervisor_host intersight_hyperflex_hypervisor_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8124,8 +8124,8 @@ export class DataIntersightHyperflexHypervisorHost extends cdktf.TerraformDataSo
       terraformResourceType: 'intersight_hyperflex_hypervisor_host',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

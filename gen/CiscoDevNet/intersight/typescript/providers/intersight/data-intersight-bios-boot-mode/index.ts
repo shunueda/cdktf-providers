@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightBiosBootModeConfig extends cdktf.TerraformMetaArg
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#account_moid DataIntersightBiosBootMode#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#account_moid DataIntersightBiosBootMode#account_moid}
   */
   readonly accountMoid?: string;
   /**
   * The actual BIOS boot mode as reported by the platform BIOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#actual_boot_mode DataIntersightBiosBootMode#actual_boot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#actual_boot_mode DataIntersightBiosBootMode#actual_boot_mode}
   */
   readonly actualBootMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -28,35 +28,35 @@ export interface DataIntersightBiosBootModeConfig extends cdktf.TerraformMetaArg
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#create_time DataIntersightBiosBootMode#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#create_time DataIntersightBiosBootMode#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#device_mo_id DataIntersightBiosBootMode#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#device_mo_id DataIntersightBiosBootMode#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#dn DataIntersightBiosBootMode#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#dn DataIntersightBiosBootMode#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#domain_group_moid DataIntersightBiosBootMode#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#domain_group_moid DataIntersightBiosBootMode#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#id DataIntersightBiosBootMode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#id DataIntersightBiosBootMode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,91 +65,91 @@ export interface DataIntersightBiosBootModeConfig extends cdktf.TerraformMetaArg
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#mod_time DataIntersightBiosBootMode#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#mod_time DataIntersightBiosBootMode#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#owners DataIntersightBiosBootMode#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#owners DataIntersightBiosBootMode#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#rn DataIntersightBiosBootMode#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#rn DataIntersightBiosBootMode#rn}
   */
   readonly rn?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#shared_scope DataIntersightBiosBootMode#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#shared_scope DataIntersightBiosBootMode#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#ancestors DataIntersightBiosBootMode#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#ancestors DataIntersightBiosBootMode#ancestors}
   */
   readonly ancestors?: DataIntersightBiosBootModeAncestors[] | cdktf.IResolvable;
   /**
   * compute_blade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#compute_blade DataIntersightBiosBootMode#compute_blade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#compute_blade DataIntersightBiosBootMode#compute_blade}
   */
   readonly computeBlade?: DataIntersightBiosBootModeComputeBlade;
   /**
   * compute_rack_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#compute_rack_unit DataIntersightBiosBootMode#compute_rack_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#compute_rack_unit DataIntersightBiosBootMode#compute_rack_unit}
   */
   readonly computeRackUnit?: DataIntersightBiosBootModeComputeRackUnit;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#inventory_device_info DataIntersightBiosBootMode#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#inventory_device_info DataIntersightBiosBootMode#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBiosBootModeInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#parent DataIntersightBiosBootMode#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#parent DataIntersightBiosBootMode#parent}
   */
   readonly parent?: DataIntersightBiosBootModeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#permission_resources DataIntersightBiosBootMode#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#permission_resources DataIntersightBiosBootMode#permission_resources}
   */
   readonly permissionResources?: DataIntersightBiosBootModePermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#registered_device DataIntersightBiosBootMode#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#registered_device DataIntersightBiosBootMode#registered_device}
   */
   readonly registeredDevice?: DataIntersightBiosBootModeRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#tags DataIntersightBiosBootMode#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#tags DataIntersightBiosBootMode#tags}
   */
   readonly tags?: DataIntersightBiosBootModeTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#version_context DataIntersightBiosBootMode#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#version_context DataIntersightBiosBootMode#version_context}
   */
   readonly versionContext?: DataIntersightBiosBootModeVersionContext;
 }
@@ -1623,7 +1623,7 @@ export class DataIntersightBiosBootModeResultsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBiosBootModeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1631,19 +1631,19 @@ export interface DataIntersightBiosBootModeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1656,7 +1656,7 @@ export interface DataIntersightBiosBootModeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -1888,7 +1888,7 @@ export class DataIntersightBiosBootModeAncestorsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBiosBootModeComputeBlade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1896,19 +1896,19 @@ export interface DataIntersightBiosBootModeComputeBlade {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1921,7 +1921,7 @@ export interface DataIntersightBiosBootModeComputeBlade {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -2121,7 +2121,7 @@ export class DataIntersightBiosBootModeComputeBladeOutputReference extends cdktf
 }
 export interface DataIntersightBiosBootModeComputeRackUnit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2129,19 +2129,19 @@ export interface DataIntersightBiosBootModeComputeRackUnit {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2154,7 +2154,7 @@ export interface DataIntersightBiosBootModeComputeRackUnit {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -2354,7 +2354,7 @@ export class DataIntersightBiosBootModeComputeRackUnitOutputReference extends cd
 }
 export interface DataIntersightBiosBootModeInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2362,19 +2362,19 @@ export interface DataIntersightBiosBootModeInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2387,7 +2387,7 @@ export interface DataIntersightBiosBootModeInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -2587,7 +2587,7 @@ export class DataIntersightBiosBootModeInventoryDeviceInfoOutputReference extend
 }
 export interface DataIntersightBiosBootModeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2595,19 +2595,19 @@ export interface DataIntersightBiosBootModeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2620,7 +2620,7 @@ export interface DataIntersightBiosBootModeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -2820,7 +2820,7 @@ export class DataIntersightBiosBootModeParentOutputReference extends cdktf.Compl
 }
 export interface DataIntersightBiosBootModePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2828,19 +2828,19 @@ export interface DataIntersightBiosBootModePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2853,7 +2853,7 @@ export interface DataIntersightBiosBootModePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -3085,7 +3085,7 @@ export class DataIntersightBiosBootModePermissionResourcesList extends cdktf.Com
 }
 export interface DataIntersightBiosBootModeRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3093,19 +3093,19 @@ export interface DataIntersightBiosBootModeRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3118,7 +3118,7 @@ export interface DataIntersightBiosBootModeRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -3318,7 +3318,7 @@ export class DataIntersightBiosBootModeRegisteredDeviceOutputReference extends c
 }
 export interface DataIntersightBiosBootModeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3326,19 +3326,19 @@ export interface DataIntersightBiosBootModeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3351,7 +3351,7 @@ export interface DataIntersightBiosBootModeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -3583,7 +3583,7 @@ export class DataIntersightBiosBootModeTagsAncestorDefinitionsList extends cdktf
 }
 export interface DataIntersightBiosBootModeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3591,19 +3591,19 @@ export interface DataIntersightBiosBootModeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3616,7 +3616,7 @@ export interface DataIntersightBiosBootModeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -3816,25 +3816,25 @@ export class DataIntersightBiosBootModeTagsDefinitionOutputReference extends cdk
 }
 export interface DataIntersightBiosBootModeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#key DataIntersightBiosBootMode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#key DataIntersightBiosBootMode#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#propagated DataIntersightBiosBootMode#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#propagated DataIntersightBiosBootMode#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#sys_tag DataIntersightBiosBootMode#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#sys_tag DataIntersightBiosBootMode#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3842,25 +3842,25 @@ export interface DataIntersightBiosBootModeTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#type DataIntersightBiosBootMode#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#type DataIntersightBiosBootMode#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#value DataIntersightBiosBootMode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#value DataIntersightBiosBootMode#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#ancestor_definitions DataIntersightBiosBootMode#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#ancestor_definitions DataIntersightBiosBootMode#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBiosBootModeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#definition DataIntersightBiosBootMode#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#definition DataIntersightBiosBootMode#definition}
   */
   readonly definition?: DataIntersightBiosBootModeTagsDefinition;
 }
@@ -4179,7 +4179,7 @@ export class DataIntersightBiosBootModeTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBiosBootModeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4187,19 +4187,19 @@ export interface DataIntersightBiosBootModeVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4212,7 +4212,7 @@ export interface DataIntersightBiosBootModeVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -4444,7 +4444,7 @@ export class DataIntersightBiosBootModeVersionContextInterestedMosList extends c
 }
 export interface DataIntersightBiosBootModeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4452,19 +4452,19 @@ export interface DataIntersightBiosBootModeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#moid DataIntersightBiosBootMode#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4477,7 +4477,7 @@ export interface DataIntersightBiosBootModeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#selector DataIntersightBiosBootMode#selector}
   */
   readonly selector?: string;
 }
@@ -4677,7 +4677,7 @@ export class DataIntersightBiosBootModeVersionContextRefMoOutputReference extend
 }
 export interface DataIntersightBiosBootModeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#additional_properties DataIntersightBiosBootMode#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4685,32 +4685,32 @@ export interface DataIntersightBiosBootModeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#class_id DataIntersightBiosBootMode#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#marked_for_deletion DataIntersightBiosBootMode#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#marked_for_deletion DataIntersightBiosBootMode#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#nr_version DataIntersightBiosBootMode#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#nr_version DataIntersightBiosBootMode#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#object_type DataIntersightBiosBootMode#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#timestamp DataIntersightBiosBootMode#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#timestamp DataIntersightBiosBootMode#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4721,19 +4721,19 @@ export interface DataIntersightBiosBootModeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#version_type DataIntersightBiosBootMode#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#version_type DataIntersightBiosBootMode#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#interested_mos DataIntersightBiosBootMode#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#interested_mos DataIntersightBiosBootMode#interested_mos}
   */
   readonly interestedMos?: DataIntersightBiosBootModeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#ref_mo DataIntersightBiosBootMode#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#ref_mo DataIntersightBiosBootMode#ref_mo}
   */
   readonly refMo?: DataIntersightBiosBootModeVersionContextRefMo;
 }
@@ -5049,7 +5049,7 @@ export class DataIntersightBiosBootModeVersionContextOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode intersight_bios_boot_mode}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode intersight_bios_boot_mode}
 */
 export class DataIntersightBiosBootMode extends cdktf.TerraformDataSource {
 
@@ -5065,7 +5065,7 @@ export class DataIntersightBiosBootMode extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBiosBootMode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBiosBootMode to import
-  * @param importFromId The id of the existing DataIntersightBiosBootMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBiosBootMode that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBiosBootMode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5077,7 +5077,7 @@ export class DataIntersightBiosBootMode extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/bios_boot_mode intersight_bios_boot_mode} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/bios_boot_mode intersight_bios_boot_mode} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5088,8 +5088,8 @@ export class DataIntersightBiosBootMode extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_bios_boot_mode',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorConfig extends cdk
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#account_moid DataIntersightCapabilityCpuEndpointDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#account_moid DataIntersightCapabilityCpuEndpointDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,29 +22,29 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorConfig extends cdk
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#create_time DataIntersightCapabilityCpuEndpointDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#create_time DataIntersightCapabilityCpuEndpointDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * This field is to provide description of the cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#description DataIntersightCapabilityCpuEndpointDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#description DataIntersightCapabilityCpuEndpointDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#domain_group_moid DataIntersightCapabilityCpuEndpointDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#domain_group_moid DataIntersightCapabilityCpuEndpointDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#id DataIntersightCapabilityCpuEndpointDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#id DataIntersightCapabilityCpuEndpointDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,89 +53,89 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorConfig extends cdk
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#mod_time DataIntersightCapabilityCpuEndpointDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#mod_time DataIntersightCapabilityCpuEndpointDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field is to provide model of the cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#model DataIntersightCapabilityCpuEndpointDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#model DataIntersightCapabilityCpuEndpointDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#owners DataIntersightCapabilityCpuEndpointDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#owners DataIntersightCapabilityCpuEndpointDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * This field is to provide partNumber of the cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#part_number DataIntersightCapabilityCpuEndpointDescriptor#part_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#part_number DataIntersightCapabilityCpuEndpointDescriptor#part_number}
   */
   readonly partNumber?: string;
   /**
   * This field is to provide pid of the cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#pid DataIntersightCapabilityCpuEndpointDescriptor#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#pid DataIntersightCapabilityCpuEndpointDescriptor#pid}
   */
   readonly pid?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#shared_scope DataIntersightCapabilityCpuEndpointDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#shared_scope DataIntersightCapabilityCpuEndpointDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityCpuEndpointDescriptor#supported_platforms_pids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#supported_platforms_pids DataIntersightCapabilityCpuEndpointDescriptor#supported_platforms_pids}
   */
   readonly supportedPlatformsPids?: string[];
   /**
   * This field is to provide vendor of the cpu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#vendor DataIntersightCapabilityCpuEndpointDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#vendor DataIntersightCapabilityCpuEndpointDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#ancestors DataIntersightCapabilityCpuEndpointDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#ancestors DataIntersightCapabilityCpuEndpointDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightCapabilityCpuEndpointDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#parent DataIntersightCapabilityCpuEndpointDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#parent DataIntersightCapabilityCpuEndpointDescriptor#parent}
   */
   readonly parent?: DataIntersightCapabilityCpuEndpointDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#permission_resources DataIntersightCapabilityCpuEndpointDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#permission_resources DataIntersightCapabilityCpuEndpointDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightCapabilityCpuEndpointDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#tags DataIntersightCapabilityCpuEndpointDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#tags DataIntersightCapabilityCpuEndpointDescriptor#tags}
   */
   readonly tags?: DataIntersightCapabilityCpuEndpointDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#version_context DataIntersightCapabilityCpuEndpointDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#version_context DataIntersightCapabilityCpuEndpointDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightCapabilityCpuEndpointDescriptorVersionContext;
 }
@@ -1215,7 +1215,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorResultsList extends cd
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1223,19 +1223,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1248,7 +1248,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1480,7 +1480,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorAncestorsList extends 
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1488,19 +1488,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1513,7 +1513,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1713,7 +1713,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorParentOutputReference 
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1721,19 +1721,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorPermissionResource
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1746,7 +1746,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorPermissionResource
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1978,7 +1978,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorPermissionResourcesLis
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1986,19 +1986,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorTagsAncestorDefini
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2011,7 +2011,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorTagsAncestorDefini
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2243,7 +2243,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorTagsAncestorDefinition
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2251,19 +2251,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2276,7 +2276,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2476,25 +2476,25 @@ export class DataIntersightCapabilityCpuEndpointDescriptorTagsDefinitionOutputRe
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#key DataIntersightCapabilityCpuEndpointDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#key DataIntersightCapabilityCpuEndpointDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#propagated DataIntersightCapabilityCpuEndpointDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#propagated DataIntersightCapabilityCpuEndpointDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#sys_tag DataIntersightCapabilityCpuEndpointDescriptor#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#sys_tag DataIntersightCapabilityCpuEndpointDescriptor#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -2502,25 +2502,25 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#type DataIntersightCapabilityCpuEndpointDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#type DataIntersightCapabilityCpuEndpointDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#value DataIntersightCapabilityCpuEndpointDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#value DataIntersightCapabilityCpuEndpointDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityCpuEndpointDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#ancestor_definitions DataIntersightCapabilityCpuEndpointDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightCapabilityCpuEndpointDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#definition DataIntersightCapabilityCpuEndpointDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#definition DataIntersightCapabilityCpuEndpointDescriptor#definition}
   */
   readonly definition?: DataIntersightCapabilityCpuEndpointDescriptorTagsDefinition;
 }
@@ -2839,7 +2839,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorTagsList extends cdktf
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2847,19 +2847,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextInte
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2872,7 +2872,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextInte
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3104,7 +3104,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorVersionContextInterest
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3112,19 +3112,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextRefM
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#moid DataIntersightCapabilityCpuEndpointDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3137,7 +3137,7 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContextRefM
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#selector DataIntersightCapabilityCpuEndpointDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3337,7 +3337,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorVersionContextRefMoOut
 }
 export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#additional_properties DataIntersightCapabilityCpuEndpointDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3345,32 +3345,32 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#class_id DataIntersightCapabilityCpuEndpointDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityCpuEndpointDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#marked_for_deletion DataIntersightCapabilityCpuEndpointDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#nr_version DataIntersightCapabilityCpuEndpointDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#nr_version DataIntersightCapabilityCpuEndpointDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#object_type DataIntersightCapabilityCpuEndpointDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#timestamp DataIntersightCapabilityCpuEndpointDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#timestamp DataIntersightCapabilityCpuEndpointDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3381,19 +3381,19 @@ export interface DataIntersightCapabilityCpuEndpointDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#version_type DataIntersightCapabilityCpuEndpointDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#version_type DataIntersightCapabilityCpuEndpointDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#interested_mos DataIntersightCapabilityCpuEndpointDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#interested_mos DataIntersightCapabilityCpuEndpointDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightCapabilityCpuEndpointDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#ref_mo DataIntersightCapabilityCpuEndpointDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#ref_mo DataIntersightCapabilityCpuEndpointDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightCapabilityCpuEndpointDescriptorVersionContextRefMo;
 }
@@ -3709,7 +3709,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptorVersionContextOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor intersight_capability_cpu_endpoint_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor intersight_capability_cpu_endpoint_descriptor}
 */
 export class DataIntersightCapabilityCpuEndpointDescriptor extends cdktf.TerraformDataSource {
 
@@ -3725,7 +3725,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptor extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataIntersightCapabilityCpuEndpointDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightCapabilityCpuEndpointDescriptor to import
-  * @param importFromId The id of the existing DataIntersightCapabilityCpuEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightCapabilityCpuEndpointDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightCapabilityCpuEndpointDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3737,7 +3737,7 @@ export class DataIntersightCapabilityCpuEndpointDescriptor extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/capability_cpu_endpoint_descriptor intersight_capability_cpu_endpoint_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/capability_cpu_endpoint_descriptor intersight_capability_cpu_endpoint_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3748,8 +3748,8 @@ export class DataIntersightCapabilityCpuEndpointDescriptor extends cdktf.Terrafo
       terraformResourceType: 'intersight_capability_cpu_endpoint_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

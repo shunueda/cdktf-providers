@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#account_moid TamSecurityAdvisory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#account_moid TamSecurityAdvisory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#actions TamSecurityAdvisory#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#actions TamSecurityAdvisory#actions}
   */
   readonly actions?: TamSecurityAdvisoryActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Cisco generated identifier for the published security advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#advisory_id TamSecurityAdvisory#advisory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#advisory_id TamSecurityAdvisory#advisory_id}
   */
   readonly advisoryId?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#ancestors TamSecurityAdvisory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#ancestors TamSecurityAdvisory#ancestors}
   */
   readonly ancestors?: TamSecurityAdvisoryAncestors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#api_data_sources TamSecurityAdvisory#api_data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#api_data_sources TamSecurityAdvisory#api_data_sources}
   */
   readonly apiDataSources?: TamSecurityAdvisoryApiDataSources[] | cdktf.IResolvable;
   /**
   * CVSS version 3 base score for the security Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#base_score TamSecurityAdvisory#base_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#base_score TamSecurityAdvisory#base_score}
   */
   readonly baseScore?: number;
   /**
@@ -48,47 +48,47 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#create_time TamSecurityAdvisory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#create_time TamSecurityAdvisory#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#cve_ids TamSecurityAdvisory#cve_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#cve_ids TamSecurityAdvisory#cve_ids}
   */
   readonly cveIds?: string[];
   /**
   * Date when the security advisory was first published by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#date_published TamSecurityAdvisory#date_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#date_published TamSecurityAdvisory#date_published}
   */
   readonly datePublished?: string;
   /**
   * Date when the security advisory was last updated by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#date_updated TamSecurityAdvisory#date_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#date_updated TamSecurityAdvisory#date_updated}
   */
   readonly dateUpdated?: string;
   /**
   * Brief description of the advisory details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#description TamSecurityAdvisory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#description TamSecurityAdvisory#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#domain_group_moid TamSecurityAdvisory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#domain_group_moid TamSecurityAdvisory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * CVSS version 3 environmental score for the security Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#environmental_score TamSecurityAdvisory#environmental_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#environmental_score TamSecurityAdvisory#environmental_score}
   */
   readonly environmentalScore?: number;
   /**
@@ -96,17 +96,17 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   * * `tier1` - Advisory processing will be taken care by batch processing.
   * * `tier2` - Advisory processing will be taken care by stream processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#execute_on_pod TamSecurityAdvisory#execute_on_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#execute_on_pod TamSecurityAdvisory#execute_on_pod}
   */
   readonly executeOnPod?: string;
   /**
   * A link to an external URL describing security Advisory in more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#external_url TamSecurityAdvisory#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#external_url TamSecurityAdvisory#external_url}
   */
   readonly externalUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#id TamSecurityAdvisory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#id TamSecurityAdvisory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,79 +115,79 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#mod_time TamSecurityAdvisory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#mod_time TamSecurityAdvisory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
   * A user defined name for the Intersight Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
   * Cisco assigned advisory version after latest revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#nr_version TamSecurityAdvisory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#nr_version TamSecurityAdvisory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#organization TamSecurityAdvisory#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#organization TamSecurityAdvisory#organization}
   */
   readonly organization?: TamSecurityAdvisoryOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#other_ref_urls TamSecurityAdvisory#other_ref_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#other_ref_urls TamSecurityAdvisory#other_ref_urls}
   */
   readonly otherRefUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#owners TamSecurityAdvisory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#owners TamSecurityAdvisory#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#parent TamSecurityAdvisory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#parent TamSecurityAdvisory#parent}
   */
   readonly parent?: TamSecurityAdvisoryParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#permission_resources TamSecurityAdvisory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#permission_resources TamSecurityAdvisory#permission_resources}
   */
   readonly permissionResources?: TamSecurityAdvisoryPermissionResources[] | cdktf.IResolvable;
   /**
   * Recommended action to resolve the security advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#recommendation TamSecurityAdvisory#recommendation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#recommendation TamSecurityAdvisory#recommendation}
   */
   readonly recommendation?: string;
   /**
   * Severity level of the Intersight Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#severity TamSecurityAdvisory#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#severity TamSecurityAdvisory#severity}
   */
   readonly severity?: TamSecurityAdvisorySeverity[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#shared_scope TamSecurityAdvisory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#shared_scope TamSecurityAdvisory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -195,7 +195,7 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   * * `ready` - Advisory has been evaluated. The affected devices would be analyzed and corresponding advisory instances would be created.
   * * `evaluating` - Advisory is currently under evaluation. The affected devices would be analyzed but no advisory instances wouldbe created. The results of the analysis would be made available to Intersight engineering for evaluation and validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#state TamSecurityAdvisory#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#state TamSecurityAdvisory#state}
   */
   readonly state?: string;
   /**
@@ -203,51 +203,51 @@ export interface TamSecurityAdvisoryConfig extends cdktf.TerraformMetaArguments 
   * * `interim` - The Cisco investigation for the advisory is ongoing. Cisco will issue revisions to the advisory when additional information, including fixed software release data, becomes available.
   * * `final` - Cisco has completed its evaluation of the vulnerability described in the advisory. There will be no further updates unless there is a material change in the nature of the vulnerability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#status TamSecurityAdvisory#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#status TamSecurityAdvisory#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#tags TamSecurityAdvisory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#tags TamSecurityAdvisory#tags}
   */
   readonly tags?: TamSecurityAdvisoryTags[] | cdktf.IResolvable;
   /**
   * CVSS version 3 temporal score for the security Advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#temporal_score TamSecurityAdvisory#temporal_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#temporal_score TamSecurityAdvisory#temporal_score}
   */
   readonly temporalScore?: number;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#version_context TamSecurityAdvisory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#version_context TamSecurityAdvisory#version_context}
   */
   readonly versionContext?: TamSecurityAdvisoryVersionContext[] | cdktf.IResolvable;
   /**
   * Workarounds available for the advisory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#workaround TamSecurityAdvisory#workaround}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#workaround TamSecurityAdvisory#workaround}
   */
   readonly workaround?: string;
 }
 export interface TamSecurityAdvisoryActionsIdentifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#value TamSecurityAdvisory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#value TamSecurityAdvisory#value}
   */
   readonly value?: string;
 }
@@ -479,27 +479,27 @@ export class TamSecurityAdvisoryActionsIdentifiersList extends cdktf.ComplexList
 }
 export interface TamSecurityAdvisoryActionsQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#priority TamSecurityAdvisory#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#priority TamSecurityAdvisory#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#query TamSecurityAdvisory#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#query TamSecurityAdvisory#query}
   */
   readonly query?: string;
 }
@@ -760,43 +760,43 @@ export class TamSecurityAdvisoryActionsQueriesList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#affected_object_type TamSecurityAdvisory#affected_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#affected_object_type TamSecurityAdvisory#affected_object_type}
   */
   readonly affectedObjectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#alert_type TamSecurityAdvisory#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#alert_type TamSecurityAdvisory#alert_type}
   */
   readonly alertType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#identifiers TamSecurityAdvisory#identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#identifiers TamSecurityAdvisory#identifiers}
   */
   readonly identifiers?: TamSecurityAdvisoryActionsIdentifiers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#operation_type TamSecurityAdvisory#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#operation_type TamSecurityAdvisory#operation_type}
   */
   readonly operationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#queries TamSecurityAdvisory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#queries TamSecurityAdvisory#queries}
   */
   readonly queries?: TamSecurityAdvisoryActionsQueries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
   */
   readonly type?: string;
 }
@@ -1173,23 +1173,23 @@ export class TamSecurityAdvisoryActionsList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -1421,27 +1421,27 @@ export class TamSecurityAdvisoryAncestorsList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryApiDataSourcesQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#priority TamSecurityAdvisory#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#priority TamSecurityAdvisory#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#query TamSecurityAdvisory#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#query TamSecurityAdvisory#query}
   */
   readonly query?: string;
 }
@@ -1702,31 +1702,31 @@ export class TamSecurityAdvisoryApiDataSourcesQueriesList extends cdktf.ComplexL
 }
 export interface TamSecurityAdvisoryApiDataSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#mo_type TamSecurityAdvisory#mo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#mo_type TamSecurityAdvisory#mo_type}
   */
   readonly moType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#name TamSecurityAdvisory#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#queries TamSecurityAdvisory#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#queries TamSecurityAdvisory#queries}
   */
   readonly queries?: TamSecurityAdvisoryApiDataSourcesQueries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
   */
   readonly type?: string;
 }
@@ -2016,23 +2016,23 @@ export class TamSecurityAdvisoryApiDataSourcesList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -2264,23 +2264,23 @@ export class TamSecurityAdvisoryOrganizationList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -2512,23 +2512,23 @@ export class TamSecurityAdvisoryParentList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -2760,15 +2760,15 @@ export class TamSecurityAdvisoryPermissionResourcesList extends cdktf.ComplexLis
 }
 export interface TamSecurityAdvisorySeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
 }
@@ -2942,23 +2942,23 @@ export class TamSecurityAdvisorySeverityList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -3190,23 +3190,23 @@ export class TamSecurityAdvisoryTagsAncestorDefinitionsList extends cdktf.Comple
 }
 export interface TamSecurityAdvisoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -3438,35 +3438,35 @@ export class TamSecurityAdvisoryTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#ancestor_definitions TamSecurityAdvisory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#ancestor_definitions TamSecurityAdvisory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: TamSecurityAdvisoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#definition TamSecurityAdvisory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#definition TamSecurityAdvisory#definition}
   */
   readonly definition?: TamSecurityAdvisoryTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#key TamSecurityAdvisory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#key TamSecurityAdvisory#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#propagated TamSecurityAdvisory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#propagated TamSecurityAdvisory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#sys_tag TamSecurityAdvisory#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#sys_tag TamSecurityAdvisory#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#type TamSecurityAdvisory#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#value TamSecurityAdvisory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#value TamSecurityAdvisory#value}
   */
   readonly value?: string;
 }
@@ -3785,23 +3785,23 @@ export class TamSecurityAdvisoryTagsList extends cdktf.ComplexList {
 }
 export interface TamSecurityAdvisoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -4033,23 +4033,23 @@ export class TamSecurityAdvisoryVersionContextInterestedMosList extends cdktf.Co
 }
 export interface TamSecurityAdvisoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#moid TamSecurityAdvisory#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#selector TamSecurityAdvisory#selector}
   */
   readonly selector?: string;
 }
@@ -4281,39 +4281,39 @@ export class TamSecurityAdvisoryVersionContextRefMoList extends cdktf.ComplexLis
 }
 export interface TamSecurityAdvisoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#additional_properties TamSecurityAdvisory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#class_id TamSecurityAdvisory#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#interested_mos TamSecurityAdvisory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#interested_mos TamSecurityAdvisory#interested_mos}
   */
   readonly interestedMos?: TamSecurityAdvisoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#marked_for_deletion TamSecurityAdvisory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#marked_for_deletion TamSecurityAdvisory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#nr_version TamSecurityAdvisory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#nr_version TamSecurityAdvisory#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#object_type TamSecurityAdvisory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#ref_mo TamSecurityAdvisory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#ref_mo TamSecurityAdvisory#ref_mo}
   */
   readonly refMo?: TamSecurityAdvisoryVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#timestamp TamSecurityAdvisory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#timestamp TamSecurityAdvisory#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#version_type TamSecurityAdvisory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#version_type TamSecurityAdvisory#version_type}
   */
   readonly versionType?: string;
 }
@@ -4661,7 +4661,7 @@ export class TamSecurityAdvisoryVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory intersight_tam_security_advisory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory intersight_tam_security_advisory}
 */
 export class TamSecurityAdvisory extends cdktf.TerraformResource {
 
@@ -4677,7 +4677,7 @@ export class TamSecurityAdvisory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TamSecurityAdvisory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TamSecurityAdvisory to import
-  * @param importFromId The id of the existing TamSecurityAdvisory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TamSecurityAdvisory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TamSecurityAdvisory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4689,7 +4689,7 @@ export class TamSecurityAdvisory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/tam_security_advisory intersight_tam_security_advisory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/tam_security_advisory intersight_tam_security_advisory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4700,8 +4700,8 @@ export class TamSecurityAdvisory extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_tam_security_advisory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

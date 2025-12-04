@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#account_moid SoftwarerepositoryOperatingSystemFile#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#account_moid SoftwarerepositoryOperatingSystemFile#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#ancestors SoftwarerepositoryOperatingSystemFile#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#ancestors SoftwarerepositoryOperatingSystemFile#ancestors}
   */
   readonly ancestors?: SoftwarerepositoryOperatingSystemFileAncestors[] | cdktf.IResolvable;
   /**
   * The bundle type of the image, as published on cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#bundle_type SoftwarerepositoryOperatingSystemFile#bundle_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#bundle_type SoftwarerepositoryOperatingSystemFile#bundle_type}
   */
   readonly bundleType?: string;
   /**
   * A reference to a softwarerepositoryCatalog resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#catalog SoftwarerepositoryOperatingSystemFile#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#catalog SoftwarerepositoryOperatingSystemFile#catalog}
   */
   readonly catalog?: SoftwarerepositoryOperatingSystemFileCatalog[] | cdktf.IResolvable;
   /**
@@ -41,31 +41,31 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#create_time SoftwarerepositoryOperatingSystemFile#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#create_time SoftwarerepositoryOperatingSystemFile#create_time}
   */
   readonly createTime?: string;
   /**
   * User provided description about the file. Cisco provided description for image inventoried from a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#description SoftwarerepositoryOperatingSystemFile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#description SoftwarerepositoryOperatingSystemFile#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#domain_group_moid SoftwarerepositoryOperatingSystemFile#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#domain_group_moid SoftwarerepositoryOperatingSystemFile#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The number of times this file has been downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#download_count SoftwarerepositoryOperatingSystemFile#download_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#download_count SoftwarerepositoryOperatingSystemFile#download_count}
   */
   readonly downloadCount?: number;
   /**
@@ -74,17 +74,17 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   * * `OpenAPIImport` - This indicates an OpenAPI file upload.
   * * `PartnerIntegrationImport` - This indicates a Partner-Integration Appliance user file uploads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#feature_source SoftwarerepositoryOperatingSystemFile#feature_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#feature_source SoftwarerepositoryOperatingSystemFile#feature_source}
   */
   readonly featureSource?: string;
   /**
   * The unique identifier for an image in a Cisco repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#guid SoftwarerepositoryOperatingSystemFile#guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#guid SoftwarerepositoryOperatingSystemFile#guid}
   */
   readonly guid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#id SoftwarerepositoryOperatingSystemFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#id SoftwarerepositoryOperatingSystemFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   /**
   * The type of image which the distributable falls into according to the component it can upgrade. For e.g.; Standalone server, Intersight managed server, Unified Edge server. The field is used in private appliance mode, where image does not have description populated from CCO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#image_type SoftwarerepositoryOperatingSystemFile#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#image_type SoftwarerepositoryOperatingSystemFile#image_type}
   */
   readonly imageType?: string;
   /**
@@ -108,14 +108,21 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   * * `Extract` - The action to extract the file in the external repository.
   * * `Evict` - Evict the cached file from the Intersight Appliance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#import_action SoftwarerepositoryOperatingSystemFile#import_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#import_action SoftwarerepositoryOperatingSystemFile#import_action}
   */
   readonly importAction?: string;
+  /**
+  * The progress percentage for the import operation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#import_progress SoftwarerepositoryOperatingSystemFile#import_progress}
+  */
+  readonly importProgress?: number;
   /**
   * The state  of this file in the repository or Appliance. The importState is updated during the import operation and as part of the repository monitoring process.
   * * `ReadyForImport` - The image is ready to be imported into the repository.
   * * `Importing` - The image is being imported into the repository.
   * * `Imported` - The image has been extracted and imported into the repository.
+  * * `ComputingMetadata` - Indicates that the image has been imported but its metadata computation has not been done.
   * * `PendingExtraction` - Indicates that the image has been imported but not extracted in the repository.
   * * `Extracting` - Indicates that the image is being extracted into the repository.
   * * `Extracted` - Indicates that the image has been extracted into the repository.
@@ -129,197 +136,203 @@ export interface SoftwarerepositoryOperatingSystemFileConfig extends cdktf.Terra
   * * `Evicted` - Indicates that the image has been evicted from the Intersight Appliance (or endpoint cache) to reclaim storage space.
   * * `Invalid` - Indicates that the corresponding distributable MO has been removed from the backend. This can be due to unpublishing of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#import_state SoftwarerepositoryOperatingSystemFile#import_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#import_state SoftwarerepositoryOperatingSystemFile#import_state}
   */
   readonly importState?: string;
   /**
   * The time at which this image or file was imported/cached into the repositry. if the 'ImportState' is 'Imported', the time at which this image or file was imported. if the 'ImportState' is 'Cached', the time at which this image or file was cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#imported_time SoftwarerepositoryOperatingSystemFile#imported_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#imported_time SoftwarerepositoryOperatingSystemFile#imported_time}
   */
   readonly importedTime?: string;
   /**
   * The time at which this file was last downloaded from the local repository. It is used by the repository monitoring process to determine the files that are to be evicted from the cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#last_access_time SoftwarerepositoryOperatingSystemFile#last_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#last_access_time SoftwarerepositoryOperatingSystemFile#last_access_time}
   */
   readonly lastAccessTime?: string;
   /**
   * The MD5 ETag for a file that is stored in Intersight repository or in the appliance cache. Warning - MD5 is currently broken and this will be migrated to SHA shortly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#md5e_tag SoftwarerepositoryOperatingSystemFile#md5e_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#md5e_tag SoftwarerepositoryOperatingSystemFile#md5e_tag}
   */
   readonly md5ETag?: string;
   /**
   * The md5sum checksum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#md5sum SoftwarerepositoryOperatingSystemFile#md5sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#md5sum SoftwarerepositoryOperatingSystemFile#md5sum}
   */
   readonly md5Sum?: string;
   /**
   * The mdfid of the image provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#mdfid SoftwarerepositoryOperatingSystemFile#mdfid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#mdfid SoftwarerepositoryOperatingSystemFile#mdfid}
   */
   readonly mdfid?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#mod_time SoftwarerepositoryOperatingSystemFile#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#mod_time SoftwarerepositoryOperatingSystemFile#mod_time}
   */
   readonly modTime?: string;
   /**
   * The endpoint model for which this firmware image is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#model SoftwarerepositoryOperatingSystemFile#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#model SoftwarerepositoryOperatingSystemFile#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
   * The name of the file. It is populated as part of the image import operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#name SoftwarerepositoryOperatingSystemFile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#name SoftwarerepositoryOperatingSystemFile#name}
   */
   readonly name?: string;
   /**
   * Location of the file in an external repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#nr_source SoftwarerepositoryOperatingSystemFile#nr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#nr_source SoftwarerepositoryOperatingSystemFile#nr_source}
   */
   readonly nrSource?: SoftwarerepositoryOperatingSystemFileNrSource[] | cdktf.IResolvable;
   /**
   * Vendor provided version for the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#nr_version SoftwarerepositoryOperatingSystemFile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#nr_version SoftwarerepositoryOperatingSystemFile#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#owners SoftwarerepositoryOperatingSystemFile#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#owners SoftwarerepositoryOperatingSystemFile#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#parent SoftwarerepositoryOperatingSystemFile#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#parent SoftwarerepositoryOperatingSystemFile#parent}
   */
   readonly parent?: SoftwarerepositoryOperatingSystemFileParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#permission_resources SoftwarerepositoryOperatingSystemFile#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#permission_resources SoftwarerepositoryOperatingSystemFile#permission_resources}
   */
   readonly permissionResources?: SoftwarerepositoryOperatingSystemFilePermissionResources[] | cdktf.IResolvable;
   /**
   * The platform type of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#platform_type SoftwarerepositoryOperatingSystemFile#platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#platform_type SoftwarerepositoryOperatingSystemFile#platform_type}
   */
   readonly platformType?: string;
   /**
   * The build which is recommended by Cisco.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#recommended_build SoftwarerepositoryOperatingSystemFile#recommended_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#recommended_build SoftwarerepositoryOperatingSystemFile#recommended_build}
   */
   readonly recommendedBuild?: string;
   /**
   * A reference to a softwarerepositoryRelease resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#release SoftwarerepositoryOperatingSystemFile#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#release SoftwarerepositoryOperatingSystemFile#release}
   */
   readonly release?: SoftwarerepositoryOperatingSystemFileRelease[] | cdktf.IResolvable;
   /**
   * The date on which the file was released or distributed by its vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#release_date SoftwarerepositoryOperatingSystemFile#release_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#release_date SoftwarerepositoryOperatingSystemFile#release_date}
   */
   readonly releaseDate?: string;
   /**
   * The url for the release notes of this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#release_notes_url SoftwarerepositoryOperatingSystemFile#release_notes_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#release_notes_url SoftwarerepositoryOperatingSystemFile#release_notes_url}
   */
   readonly releaseNotesUrl?: string;
   /**
+  * File sample hashes at deterministic positions for efficient duplicate detection of large files.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#sample_hashes SoftwarerepositoryOperatingSystemFile#sample_hashes}
+  */
+  readonly sampleHashes?: string;
+  /**
   * The sha512sum of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#sha512sum SoftwarerepositoryOperatingSystemFile#sha512sum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#sha512sum SoftwarerepositoryOperatingSystemFile#sha512sum}
   */
   readonly sha512Sum?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#shared_scope SoftwarerepositoryOperatingSystemFile#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#shared_scope SoftwarerepositoryOperatingSystemFile#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The size (in bytes) of the file. This information is available for all Cisco distributed images and files imported to the local repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#size SoftwarerepositoryOperatingSystemFile#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#size SoftwarerepositoryOperatingSystemFile#size}
   */
   readonly size?: number;
   /**
   * The software advisory, if any, provided by the vendor for this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#software_advisory_url SoftwarerepositoryOperatingSystemFile#software_advisory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#software_advisory_url SoftwarerepositoryOperatingSystemFile#software_advisory_url}
   */
   readonly softwareAdvisoryUrl?: string;
   /**
   * The software type id provided by cisco.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#software_type_id SoftwarerepositoryOperatingSystemFile#software_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#software_type_id SoftwarerepositoryOperatingSystemFile#software_type_id}
   */
   readonly softwareTypeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#tags SoftwarerepositoryOperatingSystemFile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#tags SoftwarerepositoryOperatingSystemFile#tags}
   */
   readonly tags?: SoftwarerepositoryOperatingSystemFileTags[] | cdktf.IResolvable;
   /**
   * The vendor or publisher of this file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#vendor SoftwarerepositoryOperatingSystemFile#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#vendor SoftwarerepositoryOperatingSystemFile#vendor}
   */
   readonly vendor?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#version_context SoftwarerepositoryOperatingSystemFile#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#version_context SoftwarerepositoryOperatingSystemFile#version_context}
   */
   readonly versionContext?: SoftwarerepositoryOperatingSystemFileVersionContext[] | cdktf.IResolvable;
 }
 export interface SoftwarerepositoryOperatingSystemFileAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -551,23 +564,23 @@ export class SoftwarerepositoryOperatingSystemFileAncestorsList extends cdktf.Co
 }
 export interface SoftwarerepositoryOperatingSystemFileCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -799,15 +812,15 @@ export class SoftwarerepositoryOperatingSystemFileCatalogList extends cdktf.Comp
 }
 export interface SoftwarerepositoryOperatingSystemFileNrSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
 }
@@ -981,23 +994,23 @@ export class SoftwarerepositoryOperatingSystemFileNrSourceList extends cdktf.Com
 }
 export interface SoftwarerepositoryOperatingSystemFileParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -1229,23 +1242,23 @@ export class SoftwarerepositoryOperatingSystemFileParentList extends cdktf.Compl
 }
 export interface SoftwarerepositoryOperatingSystemFilePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -1477,23 +1490,23 @@ export class SoftwarerepositoryOperatingSystemFilePermissionResourcesList extend
 }
 export interface SoftwarerepositoryOperatingSystemFileRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -1725,23 +1738,23 @@ export class SoftwarerepositoryOperatingSystemFileReleaseList extends cdktf.Comp
 }
 export interface SoftwarerepositoryOperatingSystemFileTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -1973,23 +1986,23 @@ export class SoftwarerepositoryOperatingSystemFileTagsAncestorDefinitionsList ex
 }
 export interface SoftwarerepositoryOperatingSystemFileTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -2221,35 +2234,35 @@ export class SoftwarerepositoryOperatingSystemFileTagsDefinitionList extends cdk
 }
 export interface SoftwarerepositoryOperatingSystemFileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#ancestor_definitions SoftwarerepositoryOperatingSystemFile#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#ancestor_definitions SoftwarerepositoryOperatingSystemFile#ancestor_definitions}
   */
   readonly ancestorDefinitions?: SoftwarerepositoryOperatingSystemFileTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#definition SoftwarerepositoryOperatingSystemFile#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#definition SoftwarerepositoryOperatingSystemFile#definition}
   */
   readonly definition?: SoftwarerepositoryOperatingSystemFileTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#key SoftwarerepositoryOperatingSystemFile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#key SoftwarerepositoryOperatingSystemFile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#propagated SoftwarerepositoryOperatingSystemFile#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#propagated SoftwarerepositoryOperatingSystemFile#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#sys_tag SoftwarerepositoryOperatingSystemFile#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#sys_tag SoftwarerepositoryOperatingSystemFile#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#type SoftwarerepositoryOperatingSystemFile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#type SoftwarerepositoryOperatingSystemFile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#value SoftwarerepositoryOperatingSystemFile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#value SoftwarerepositoryOperatingSystemFile#value}
   */
   readonly value?: string;
 }
@@ -2568,23 +2581,23 @@ export class SoftwarerepositoryOperatingSystemFileTagsList extends cdktf.Complex
 }
 export interface SoftwarerepositoryOperatingSystemFileVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -2816,23 +2829,23 @@ export class SoftwarerepositoryOperatingSystemFileVersionContextInterestedMosLis
 }
 export interface SoftwarerepositoryOperatingSystemFileVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#moid SoftwarerepositoryOperatingSystemFile#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#selector SoftwarerepositoryOperatingSystemFile#selector}
   */
   readonly selector?: string;
 }
@@ -3064,39 +3077,39 @@ export class SoftwarerepositoryOperatingSystemFileVersionContextRefMoList extend
 }
 export interface SoftwarerepositoryOperatingSystemFileVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#additional_properties SoftwarerepositoryOperatingSystemFile#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#class_id SoftwarerepositoryOperatingSystemFile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#interested_mos SoftwarerepositoryOperatingSystemFile#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#interested_mos SoftwarerepositoryOperatingSystemFile#interested_mos}
   */
   readonly interestedMos?: SoftwarerepositoryOperatingSystemFileVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#marked_for_deletion SoftwarerepositoryOperatingSystemFile#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#marked_for_deletion SoftwarerepositoryOperatingSystemFile#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#nr_version SoftwarerepositoryOperatingSystemFile#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#nr_version SoftwarerepositoryOperatingSystemFile#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#object_type SoftwarerepositoryOperatingSystemFile#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#ref_mo SoftwarerepositoryOperatingSystemFile#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#ref_mo SoftwarerepositoryOperatingSystemFile#ref_mo}
   */
   readonly refMo?: SoftwarerepositoryOperatingSystemFileVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#timestamp SoftwarerepositoryOperatingSystemFile#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#timestamp SoftwarerepositoryOperatingSystemFile#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#version_type SoftwarerepositoryOperatingSystemFile#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#version_type SoftwarerepositoryOperatingSystemFile#version_type}
   */
   readonly versionType?: string;
 }
@@ -3444,7 +3457,7 @@ export class SoftwarerepositoryOperatingSystemFileVersionContextList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file intersight_softwarerepository_operating_system_file}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file intersight_softwarerepository_operating_system_file}
 */
 export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResource {
 
@@ -3460,7 +3473,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SoftwarerepositoryOperatingSystemFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SoftwarerepositoryOperatingSystemFile to import
-  * @param importFromId The id of the existing SoftwarerepositoryOperatingSystemFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SoftwarerepositoryOperatingSystemFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SoftwarerepositoryOperatingSystemFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3472,7 +3485,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/softwarerepository_operating_system_file intersight_softwarerepository_operating_system_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/resources/softwarerepository_operating_system_file intersight_softwarerepository_operating_system_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3483,8 +3496,8 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
       terraformResourceType: 'intersight_softwarerepository_operating_system_file',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3509,6 +3522,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
     this._id = config.id;
     this._imageType = config.imageType;
     this._importAction = config.importAction;
+    this._importProgress = config.importProgress;
     this._importState = config.importState;
     this._importedTime = config.importedTime;
     this._lastAccessTime = config.lastAccessTime;
@@ -3530,6 +3544,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
     this._release.internalValue = config.release;
     this._releaseDate = config.releaseDate;
     this._releaseNotesUrl = config.releaseNotesUrl;
+    this._sampleHashes = config.sampleHashes;
     this._sha512Sum = config.sha512Sum;
     this._sharedScope = config.sharedScope;
     this._size = config.size;
@@ -3782,6 +3797,22 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
   // Temporarily expose input value. Use with caution.
   public get importActionInput() {
     return this._importAction;
+  }
+
+  // import_progress - computed: false, optional: true, required: false
+  private _importProgress?: number; 
+  public get importProgress() {
+    return this.getNumberAttribute('import_progress');
+  }
+  public set importProgress(value: number) {
+    this._importProgress = value;
+  }
+  public resetImportProgress() {
+    this._importProgress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get importProgressInput() {
+    return this._importProgress;
   }
 
   // import_state - computed: true, optional: true, required: false
@@ -4120,6 +4151,22 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
     return this._releaseNotesUrl;
   }
 
+  // sample_hashes - computed: false, optional: true, required: false
+  private _sampleHashes?: string; 
+  public get sampleHashes() {
+    return this.getStringAttribute('sample_hashes');
+  }
+  public set sampleHashes(value: string) {
+    this._sampleHashes = value;
+  }
+  public resetSampleHashes() {
+    this._sampleHashes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sampleHashesInput() {
+    return this._sampleHashes;
+  }
+
   // sha512sum - computed: false, optional: true, required: false
   private _sha512Sum?: string; 
   public get sha512Sum() {
@@ -4269,6 +4316,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
       id: cdktf.stringToTerraform(this._id),
       image_type: cdktf.stringToTerraform(this._imageType),
       import_action: cdktf.stringToTerraform(this._importAction),
+      import_progress: cdktf.numberToTerraform(this._importProgress),
       import_state: cdktf.stringToTerraform(this._importState),
       imported_time: cdktf.stringToTerraform(this._importedTime),
       last_access_time: cdktf.stringToTerraform(this._lastAccessTime),
@@ -4290,6 +4338,7 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
       release: cdktf.listMapper(softwarerepositoryOperatingSystemFileReleaseToTerraform, false)(this._release.internalValue),
       release_date: cdktf.stringToTerraform(this._releaseDate),
       release_notes_url: cdktf.stringToTerraform(this._releaseNotesUrl),
+      sample_hashes: cdktf.stringToTerraform(this._sampleHashes),
       sha512sum: cdktf.stringToTerraform(this._sha512Sum),
       shared_scope: cdktf.stringToTerraform(this._sharedScope),
       size: cdktf.numberToTerraform(this._size),
@@ -4392,6 +4441,12 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      import_progress: {
+        value: cdktf.numberToHclTerraform(this._importProgress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       import_state: {
         value: cdktf.stringToHclTerraform(this._importState),
@@ -4515,6 +4570,12 @@ export class SoftwarerepositoryOperatingSystemFile extends cdktf.TerraformResour
       },
       release_notes_url: {
         value: cdktf.stringToHclTerraform(this._releaseNotesUrl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sample_hashes: {
+        value: cdktf.stringToHclTerraform(this._sampleHashes),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

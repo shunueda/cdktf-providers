@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBootDeviceBootSecurityConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#account_moid DataIntersightBootDeviceBootSecurity#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#account_moid DataIntersightBootDeviceBootSecurity#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBootDeviceBootSecurityConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#create_time DataIntersightBootDeviceBootSecurity#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#create_time DataIntersightBootDeviceBootSecurity#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#device_mo_id DataIntersightBootDeviceBootSecurity#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#device_mo_id DataIntersightBootDeviceBootSecurity#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#dn DataIntersightBootDeviceBootSecurity#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#dn DataIntersightBootDeviceBootSecurity#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#domain_group_moid DataIntersightBootDeviceBootSecurity#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#domain_group_moid DataIntersightBootDeviceBootSecurity#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#id DataIntersightBootDeviceBootSecurity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#id DataIntersightBootDeviceBootSecurity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,91 +59,91 @@ export interface DataIntersightBootDeviceBootSecurityConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#mod_time DataIntersightBootDeviceBootSecurity#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#mod_time DataIntersightBootDeviceBootSecurity#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#owners DataIntersightBootDeviceBootSecurity#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#owners DataIntersightBootDeviceBootSecurity#owners}
   */
   readonly owners?: string[];
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#rn DataIntersightBootDeviceBootSecurity#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#rn DataIntersightBootDeviceBootSecurity#rn}
   */
   readonly rn?: string;
   /**
   * The user desired BIOS secure boot as configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#secure_boot DataIntersightBootDeviceBootSecurity#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#secure_boot DataIntersightBootDeviceBootSecurity#secure_boot}
   */
   readonly secureBoot?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#shared_scope DataIntersightBootDeviceBootSecurity#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#shared_scope DataIntersightBootDeviceBootSecurity#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#ancestors DataIntersightBootDeviceBootSecurity#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#ancestors DataIntersightBootDeviceBootSecurity#ancestors}
   */
   readonly ancestors?: DataIntersightBootDeviceBootSecurityAncestors[] | cdktf.IResolvable;
   /**
   * compute_physical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#compute_physical DataIntersightBootDeviceBootSecurity#compute_physical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#compute_physical DataIntersightBootDeviceBootSecurity#compute_physical}
   */
   readonly computePhysical?: DataIntersightBootDeviceBootSecurityComputePhysical;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#inventory_device_info DataIntersightBootDeviceBootSecurity#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#inventory_device_info DataIntersightBootDeviceBootSecurity#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBootDeviceBootSecurityInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#parent DataIntersightBootDeviceBootSecurity#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#parent DataIntersightBootDeviceBootSecurity#parent}
   */
   readonly parent?: DataIntersightBootDeviceBootSecurityParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#permission_resources DataIntersightBootDeviceBootSecurity#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#permission_resources DataIntersightBootDeviceBootSecurity#permission_resources}
   */
   readonly permissionResources?: DataIntersightBootDeviceBootSecurityPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#registered_device DataIntersightBootDeviceBootSecurity#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#registered_device DataIntersightBootDeviceBootSecurity#registered_device}
   */
   readonly registeredDevice?: DataIntersightBootDeviceBootSecurityRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#tags DataIntersightBootDeviceBootSecurity#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#tags DataIntersightBootDeviceBootSecurity#tags}
   */
   readonly tags?: DataIntersightBootDeviceBootSecurityTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#version_context DataIntersightBootDeviceBootSecurity#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#version_context DataIntersightBootDeviceBootSecurity#version_context}
   */
   readonly versionContext?: DataIntersightBootDeviceBootSecurityVersionContext;
 }
@@ -1516,7 +1516,7 @@ export class DataIntersightBootDeviceBootSecurityResultsList extends cdktf.Compl
 }
 export interface DataIntersightBootDeviceBootSecurityAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1524,19 +1524,19 @@ export interface DataIntersightBootDeviceBootSecurityAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1549,7 +1549,7 @@ export interface DataIntersightBootDeviceBootSecurityAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -1781,7 +1781,7 @@ export class DataIntersightBootDeviceBootSecurityAncestorsList extends cdktf.Com
 }
 export interface DataIntersightBootDeviceBootSecurityComputePhysical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1789,19 +1789,19 @@ export interface DataIntersightBootDeviceBootSecurityComputePhysical {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1814,7 +1814,7 @@ export interface DataIntersightBootDeviceBootSecurityComputePhysical {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -2014,7 +2014,7 @@ export class DataIntersightBootDeviceBootSecurityComputePhysicalOutputReference 
 }
 export interface DataIntersightBootDeviceBootSecurityInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2022,19 +2022,19 @@ export interface DataIntersightBootDeviceBootSecurityInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2047,7 +2047,7 @@ export interface DataIntersightBootDeviceBootSecurityInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -2247,7 +2247,7 @@ export class DataIntersightBootDeviceBootSecurityInventoryDeviceInfoOutputRefere
 }
 export interface DataIntersightBootDeviceBootSecurityParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2255,19 +2255,19 @@ export interface DataIntersightBootDeviceBootSecurityParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2280,7 +2280,7 @@ export interface DataIntersightBootDeviceBootSecurityParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -2480,7 +2480,7 @@ export class DataIntersightBootDeviceBootSecurityParentOutputReference extends c
 }
 export interface DataIntersightBootDeviceBootSecurityPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2488,19 +2488,19 @@ export interface DataIntersightBootDeviceBootSecurityPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2513,7 +2513,7 @@ export interface DataIntersightBootDeviceBootSecurityPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -2745,7 +2745,7 @@ export class DataIntersightBootDeviceBootSecurityPermissionResourcesList extends
 }
 export interface DataIntersightBootDeviceBootSecurityRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2753,19 +2753,19 @@ export interface DataIntersightBootDeviceBootSecurityRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2778,7 +2778,7 @@ export interface DataIntersightBootDeviceBootSecurityRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -2978,7 +2978,7 @@ export class DataIntersightBootDeviceBootSecurityRegisteredDeviceOutputReference
 }
 export interface DataIntersightBootDeviceBootSecurityTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2986,19 +2986,19 @@ export interface DataIntersightBootDeviceBootSecurityTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3011,7 +3011,7 @@ export interface DataIntersightBootDeviceBootSecurityTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -3243,7 +3243,7 @@ export class DataIntersightBootDeviceBootSecurityTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightBootDeviceBootSecurityTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3251,19 +3251,19 @@ export interface DataIntersightBootDeviceBootSecurityTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3276,7 +3276,7 @@ export interface DataIntersightBootDeviceBootSecurityTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -3476,25 +3476,25 @@ export class DataIntersightBootDeviceBootSecurityTagsDefinitionOutputReference e
 }
 export interface DataIntersightBootDeviceBootSecurityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#key DataIntersightBootDeviceBootSecurity#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#key DataIntersightBootDeviceBootSecurity#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#propagated DataIntersightBootDeviceBootSecurity#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#propagated DataIntersightBootDeviceBootSecurity#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#sys_tag DataIntersightBootDeviceBootSecurity#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#sys_tag DataIntersightBootDeviceBootSecurity#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -3502,25 +3502,25 @@ export interface DataIntersightBootDeviceBootSecurityTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#type DataIntersightBootDeviceBootSecurity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#type DataIntersightBootDeviceBootSecurity#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#value DataIntersightBootDeviceBootSecurity#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#value DataIntersightBootDeviceBootSecurity#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#ancestor_definitions DataIntersightBootDeviceBootSecurity#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#ancestor_definitions DataIntersightBootDeviceBootSecurity#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBootDeviceBootSecurityTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#definition DataIntersightBootDeviceBootSecurity#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#definition DataIntersightBootDeviceBootSecurity#definition}
   */
   readonly definition?: DataIntersightBootDeviceBootSecurityTagsDefinition;
 }
@@ -3839,7 +3839,7 @@ export class DataIntersightBootDeviceBootSecurityTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightBootDeviceBootSecurityVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3847,19 +3847,19 @@ export interface DataIntersightBootDeviceBootSecurityVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3872,7 +3872,7 @@ export interface DataIntersightBootDeviceBootSecurityVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -4104,7 +4104,7 @@ export class DataIntersightBootDeviceBootSecurityVersionContextInterestedMosList
 }
 export interface DataIntersightBootDeviceBootSecurityVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4112,19 +4112,19 @@ export interface DataIntersightBootDeviceBootSecurityVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#moid DataIntersightBootDeviceBootSecurity#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4137,7 +4137,7 @@ export interface DataIntersightBootDeviceBootSecurityVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#selector DataIntersightBootDeviceBootSecurity#selector}
   */
   readonly selector?: string;
 }
@@ -4337,7 +4337,7 @@ export class DataIntersightBootDeviceBootSecurityVersionContextRefMoOutputRefere
 }
 export interface DataIntersightBootDeviceBootSecurityVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#additional_properties DataIntersightBootDeviceBootSecurity#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4345,32 +4345,32 @@ export interface DataIntersightBootDeviceBootSecurityVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#class_id DataIntersightBootDeviceBootSecurity#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#marked_for_deletion DataIntersightBootDeviceBootSecurity#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#marked_for_deletion DataIntersightBootDeviceBootSecurity#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#nr_version DataIntersightBootDeviceBootSecurity#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#nr_version DataIntersightBootDeviceBootSecurity#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#object_type DataIntersightBootDeviceBootSecurity#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#timestamp DataIntersightBootDeviceBootSecurity#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#timestamp DataIntersightBootDeviceBootSecurity#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4381,19 +4381,19 @@ export interface DataIntersightBootDeviceBootSecurityVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#version_type DataIntersightBootDeviceBootSecurity#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#version_type DataIntersightBootDeviceBootSecurity#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#interested_mos DataIntersightBootDeviceBootSecurity#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#interested_mos DataIntersightBootDeviceBootSecurity#interested_mos}
   */
   readonly interestedMos?: DataIntersightBootDeviceBootSecurityVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#ref_mo DataIntersightBootDeviceBootSecurity#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#ref_mo DataIntersightBootDeviceBootSecurity#ref_mo}
   */
   readonly refMo?: DataIntersightBootDeviceBootSecurityVersionContextRefMo;
 }
@@ -4709,7 +4709,7 @@ export class DataIntersightBootDeviceBootSecurityVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security intersight_boot_device_boot_security}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security intersight_boot_device_boot_security}
 */
 export class DataIntersightBootDeviceBootSecurity extends cdktf.TerraformDataSource {
 
@@ -4725,7 +4725,7 @@ export class DataIntersightBootDeviceBootSecurity extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightBootDeviceBootSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBootDeviceBootSecurity to import
-  * @param importFromId The id of the existing DataIntersightBootDeviceBootSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBootDeviceBootSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBootDeviceBootSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4737,7 +4737,7 @@ export class DataIntersightBootDeviceBootSecurity extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_device_boot_security intersight_boot_device_boot_security} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/boot_device_boot_security intersight_boot_device_boot_security} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4748,8 +4748,8 @@ export class DataIntersightBootDeviceBootSecurity extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_boot_device_boot_security',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

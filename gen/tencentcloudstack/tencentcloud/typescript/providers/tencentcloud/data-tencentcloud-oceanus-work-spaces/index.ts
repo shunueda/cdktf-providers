@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudOceanusWorkSpacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#id DataTencentcloudOceanusWorkSpaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#id DataTencentcloudOceanusWorkSpaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataTencentcloudOceanusWorkSpacesConfig extends cdktf.Terraform
   /**
   * 1:sort by creation time in descending order (default); 2:sort by creation time in ascending order; 3:sort by status in descending order; 4:sort by status in ascending order; default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#order_type DataTencentcloudOceanusWorkSpaces#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#order_type DataTencentcloudOceanusWorkSpaces#order_type}
   */
   readonly orderType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#result_output_file DataTencentcloudOceanusWorkSpaces#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#result_output_file DataTencentcloudOceanusWorkSpaces#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#filters DataTencentcloudOceanusWorkSpaces#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#filters DataTencentcloudOceanusWorkSpaces#filters}
   */
   readonly filters?: DataTencentcloudOceanusWorkSpacesFilters[] | cdktf.IResolvable;
 }
@@ -479,13 +479,13 @@ export interface DataTencentcloudOceanusWorkSpacesFilters {
   /**
   * Field to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#name DataTencentcloudOceanusWorkSpaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#name DataTencentcloudOceanusWorkSpaces#name}
   */
   readonly name: string;
   /**
   * Filter values for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#values DataTencentcloudOceanusWorkSpaces#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#values DataTencentcloudOceanusWorkSpaces#values}
   */
   readonly values: string[];
 }
@@ -624,7 +624,7 @@ export class DataTencentcloudOceanusWorkSpacesFiltersList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces tencentcloud_oceanus_work_spaces}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces tencentcloud_oceanus_work_spaces}
 */
 export class DataTencentcloudOceanusWorkSpaces extends cdktf.TerraformDataSource {
 
@@ -640,7 +640,7 @@ export class DataTencentcloudOceanusWorkSpaces extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudOceanusWorkSpaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusWorkSpaces to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusWorkSpaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusWorkSpaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusWorkSpaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -652,7 +652,7 @@ export class DataTencentcloudOceanusWorkSpaces extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/data-sources/oceanus_work_spaces tencentcloud_oceanus_work_spaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/data-sources/oceanus_work_spaces tencentcloud_oceanus_work_spaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -663,8 +663,8 @@ export class DataTencentcloudOceanusWorkSpaces extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_oceanus_work_spaces',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

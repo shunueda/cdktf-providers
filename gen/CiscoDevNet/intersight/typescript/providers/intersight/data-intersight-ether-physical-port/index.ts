@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataIntersightEtherPhysicalPortConfig extends cdktf.TerraformMe
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#account_moid DataIntersightEtherPhysicalPort#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#account_moid DataIntersightEtherPhysicalPort#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Administratively configured speed for this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#admin_speed DataIntersightEtherPhysicalPort#admin_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#admin_speed DataIntersightEtherPhysicalPort#admin_speed}
   */
   readonly adminSpeed?: string;
   /**
   * Administratively configured state (enabled/disabled) for this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#admin_state DataIntersightEtherPhysicalPort#admin_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#admin_state DataIntersightEtherPhysicalPort#admin_state}
   */
   readonly adminState?: string;
   /**
   * Breakout port member in the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#aggregate_port_id DataIntersightEtherPhysicalPort#aggregate_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#aggregate_port_id DataIntersightEtherPhysicalPort#aggregate_port_id}
   */
   readonly aggregatePortId?: number;
   /**
@@ -40,35 +40,35 @@ export interface DataIntersightEtherPhysicalPortConfig extends cdktf.TerraformMe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#create_time DataIntersightEtherPhysicalPort#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#create_time DataIntersightEtherPhysicalPort#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#device_mo_id DataIntersightEtherPhysicalPort#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#device_mo_id DataIntersightEtherPhysicalPort#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#dn DataIntersightEtherPhysicalPort#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#dn DataIntersightEtherPhysicalPort#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#domain_group_moid DataIntersightEtherPhysicalPort#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#domain_group_moid DataIntersightEtherPhysicalPort#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#id DataIntersightEtherPhysicalPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#id DataIntersightEtherPhysicalPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,211 +77,211 @@ export interface DataIntersightEtherPhysicalPortConfig extends cdktf.TerraformMe
   /**
   * The number of days this port's license has been in Grace Period for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#license_grace DataIntersightEtherPhysicalPort#license_grace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#license_grace DataIntersightEtherPhysicalPort#license_grace}
   */
   readonly licenseGrace?: string;
   /**
   * The state of the port's licensing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#license_state DataIntersightEtherPhysicalPort#license_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#license_state DataIntersightEtherPhysicalPort#license_state}
   */
   readonly licenseState?: string;
   /**
   * Mac Address of a port in the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#mac_address DataIntersightEtherPhysicalPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#mac_address DataIntersightEtherPhysicalPort#mac_address}
   */
   readonly macAddress?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#mod_time DataIntersightEtherPhysicalPort#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#mod_time DataIntersightEtherPhysicalPort#mod_time}
   */
   readonly modTime?: string;
   /**
   * Operating mode of this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#mode DataIntersightEtherPhysicalPort#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#mode DataIntersightEtherPhysicalPort#mode}
   */
   readonly mode?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * Name of the Physical Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#name DataIntersightEtherPhysicalPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#name DataIntersightEtherPhysicalPort#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
   * Current Operational speed for this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#oper_speed DataIntersightEtherPhysicalPort#oper_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#oper_speed DataIntersightEtherPhysicalPort#oper_speed}
   */
   readonly operSpeed?: string;
   /**
   * Operational state of this port (enabled/disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#oper_state DataIntersightEtherPhysicalPort#oper_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#oper_state DataIntersightEtherPhysicalPort#oper_state}
   */
   readonly operState?: string;
   /**
   * Reason for this port's Operational state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#oper_state_qual DataIntersightEtherPhysicalPort#oper_state_qual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#oper_state_qual DataIntersightEtherPhysicalPort#oper_state_qual}
   */
   readonly operStateQual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#owners DataIntersightEtherPhysicalPort#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#owners DataIntersightEtherPhysicalPort#owners}
   */
   readonly owners?: string[];
   /**
   * PeerDn for ethernet physical port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#peer_dn DataIntersightEtherPhysicalPort#peer_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#peer_dn DataIntersightEtherPhysicalPort#peer_dn}
   */
   readonly peerDn?: string;
   /**
   * Port channel id for port channel created on FI switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#port_channel_id DataIntersightEtherPhysicalPort#port_channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#port_channel_id DataIntersightEtherPhysicalPort#port_channel_id}
   */
   readonly portChannelId?: number;
   /**
   * Switch physical port identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#port_id DataIntersightEtherPhysicalPort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#port_id DataIntersightEtherPhysicalPort#port_id}
   */
   readonly portId?: number;
   /**
   * Defines the transport type for this port (ethernet OR fc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#port_type DataIntersightEtherPhysicalPort#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#port_type DataIntersightEtherPhysicalPort#port_type}
   */
   readonly portType?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#rn DataIntersightEtherPhysicalPort#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#rn DataIntersightEtherPhysicalPort#rn}
   */
   readonly rn?: string;
   /**
   * The role assigned to this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#role DataIntersightEtherPhysicalPort#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#role DataIntersightEtherPhysicalPort#role}
   */
   readonly role?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#shared_scope DataIntersightEtherPhysicalPort#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#shared_scope DataIntersightEtherPhysicalPort#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Switch expansion slot module identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#slot_id DataIntersightEtherPhysicalPort#slot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#slot_id DataIntersightEtherPhysicalPort#slot_id}
   */
   readonly slotId?: number;
   /**
   * Switch Identifier that is local to a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#switch_id DataIntersightEtherPhysicalPort#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#switch_id DataIntersightEtherPhysicalPort#switch_id}
   */
   readonly switchId?: string;
   /**
   * Transceiver model attached to a port in the Fabric Interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#transceiver_type DataIntersightEtherPhysicalPort#transceiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#transceiver_type DataIntersightEtherPhysicalPort#transceiver_type}
   */
   readonly transceiverType?: string;
   /**
   * The user defined label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#user_label DataIntersightEtherPhysicalPort#user_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#user_label DataIntersightEtherPhysicalPort#user_label}
   */
   readonly userLabel?: string;
   /**
   * acknowledged_peer_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#acknowledged_peer_interface DataIntersightEtherPhysicalPort#acknowledged_peer_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#acknowledged_peer_interface DataIntersightEtherPhysicalPort#acknowledged_peer_interface}
   */
   readonly acknowledgedPeerInterface?: DataIntersightEtherPhysicalPortAcknowledgedPeerInterface;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#ancestors DataIntersightEtherPhysicalPort#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#ancestors DataIntersightEtherPhysicalPort#ancestors}
   */
   readonly ancestors?: DataIntersightEtherPhysicalPortAncestors[] | cdktf.IResolvable;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#inventory_device_info DataIntersightEtherPhysicalPort#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#inventory_device_info DataIntersightEtherPhysicalPort#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightEtherPhysicalPortInventoryDeviceInfo;
   /**
   * macsec_oper_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#macsec_oper_data DataIntersightEtherPhysicalPort#macsec_oper_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#macsec_oper_data DataIntersightEtherPhysicalPort#macsec_oper_data}
   */
   readonly macsecOperData?: DataIntersightEtherPhysicalPortMacsecOperData;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#parent DataIntersightEtherPhysicalPort#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#parent DataIntersightEtherPhysicalPort#parent}
   */
   readonly parent?: DataIntersightEtherPhysicalPortParent;
   /**
   * peer_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#peer_interface DataIntersightEtherPhysicalPort#peer_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#peer_interface DataIntersightEtherPhysicalPort#peer_interface}
   */
   readonly peerInterface?: DataIntersightEtherPhysicalPortPeerInterface;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#permission_resources DataIntersightEtherPhysicalPort#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#permission_resources DataIntersightEtherPhysicalPort#permission_resources}
   */
   readonly permissionResources?: DataIntersightEtherPhysicalPortPermissionResources[] | cdktf.IResolvable;
   /**
   * port_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#port_group DataIntersightEtherPhysicalPort#port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#port_group DataIntersightEtherPhysicalPort#port_group}
   */
   readonly portGroup?: DataIntersightEtherPhysicalPortPortGroup;
   /**
   * port_sub_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#port_sub_group DataIntersightEtherPhysicalPort#port_sub_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#port_sub_group DataIntersightEtherPhysicalPort#port_sub_group}
   */
   readonly portSubGroup?: DataIntersightEtherPhysicalPortPortSubGroup;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#registered_device DataIntersightEtherPhysicalPort#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#registered_device DataIntersightEtherPhysicalPort#registered_device}
   */
   readonly registeredDevice?: DataIntersightEtherPhysicalPortRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#tags DataIntersightEtherPhysicalPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#tags DataIntersightEtherPhysicalPort#tags}
   */
   readonly tags?: DataIntersightEtherPhysicalPortTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#version_context DataIntersightEtherPhysicalPort#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#version_context DataIntersightEtherPhysicalPort#version_context}
   */
   readonly versionContext?: DataIntersightEtherPhysicalPortVersionContext;
 }
@@ -2173,7 +2173,7 @@ export class DataIntersightEtherPhysicalPortResultsList extends cdktf.ComplexLis
 }
 export interface DataIntersightEtherPhysicalPortAcknowledgedPeerInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2181,19 +2181,19 @@ export interface DataIntersightEtherPhysicalPortAcknowledgedPeerInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2206,7 +2206,7 @@ export interface DataIntersightEtherPhysicalPortAcknowledgedPeerInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -2406,7 +2406,7 @@ export class DataIntersightEtherPhysicalPortAcknowledgedPeerInterfaceOutputRefer
 }
 export interface DataIntersightEtherPhysicalPortAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2414,19 +2414,19 @@ export interface DataIntersightEtherPhysicalPortAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2439,7 +2439,7 @@ export interface DataIntersightEtherPhysicalPortAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -2671,7 +2671,7 @@ export class DataIntersightEtherPhysicalPortAncestorsList extends cdktf.ComplexL
 }
 export interface DataIntersightEtherPhysicalPortInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2679,19 +2679,19 @@ export interface DataIntersightEtherPhysicalPortInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2704,7 +2704,7 @@ export interface DataIntersightEtherPhysicalPortInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -2904,19 +2904,19 @@ export class DataIntersightEtherPhysicalPortInventoryDeviceInfoOutputReference e
 }
 export interface DataIntersightEtherPhysicalPortMacsecOperData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The authentication mode used for MACsec encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#auth_mode DataIntersightEtherPhysicalPort#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#auth_mode DataIntersightEtherPhysicalPort#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Cipher suite to be used for MACsec encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#cipher_suite DataIntersightEtherPhysicalPort#cipher_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#cipher_suite DataIntersightEtherPhysicalPort#cipher_suite}
   */
   readonly cipherSuite?: string;
   /**
@@ -2924,38 +2924,38 @@ export interface DataIntersightEtherPhysicalPortMacsecOperData {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The MACsec confidentiality offset specifies the number of bytes starting from the frame header. MACsec encrypts only the bytes after the offset in a frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#confidentiality_offset DataIntersightEtherPhysicalPort#confidentiality_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#confidentiality_offset DataIntersightEtherPhysicalPort#confidentiality_offset}
   */
   readonly confidentialityOffset?: string;
   /**
   * The value indicates that the device is acting as a key server, responsible for distributing encryption keys to other devices in the MACsec-enabled session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#key_server DataIntersightEtherPhysicalPort#key_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#key_server DataIntersightEtherPhysicalPort#key_server}
   */
   readonly keyServer?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The state of the MACsec session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#session_state DataIntersightEtherPhysicalPort#session_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#session_state DataIntersightEtherPhysicalPort#session_state}
   */
   readonly sessionState?: string;
   /**
   * The reason for the MACsec session state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#state_reason DataIntersightEtherPhysicalPort#state_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#state_reason DataIntersightEtherPhysicalPort#state_reason}
   */
   readonly stateReason?: string;
 }
@@ -3271,7 +3271,7 @@ export class DataIntersightEtherPhysicalPortMacsecOperDataOutputReference extend
 }
 export interface DataIntersightEtherPhysicalPortParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3279,19 +3279,19 @@ export interface DataIntersightEtherPhysicalPortParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3304,7 +3304,7 @@ export interface DataIntersightEtherPhysicalPortParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -3504,7 +3504,7 @@ export class DataIntersightEtherPhysicalPortParentOutputReference extends cdktf.
 }
 export interface DataIntersightEtherPhysicalPortPeerInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3512,19 +3512,19 @@ export interface DataIntersightEtherPhysicalPortPeerInterface {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3537,7 +3537,7 @@ export interface DataIntersightEtherPhysicalPortPeerInterface {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -3737,7 +3737,7 @@ export class DataIntersightEtherPhysicalPortPeerInterfaceOutputReference extends
 }
 export interface DataIntersightEtherPhysicalPortPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3745,19 +3745,19 @@ export interface DataIntersightEtherPhysicalPortPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3770,7 +3770,7 @@ export interface DataIntersightEtherPhysicalPortPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -4002,7 +4002,7 @@ export class DataIntersightEtherPhysicalPortPermissionResourcesList extends cdkt
 }
 export interface DataIntersightEtherPhysicalPortPortGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4010,19 +4010,19 @@ export interface DataIntersightEtherPhysicalPortPortGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4035,7 +4035,7 @@ export interface DataIntersightEtherPhysicalPortPortGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -4235,7 +4235,7 @@ export class DataIntersightEtherPhysicalPortPortGroupOutputReference extends cdk
 }
 export interface DataIntersightEtherPhysicalPortPortSubGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4243,19 +4243,19 @@ export interface DataIntersightEtherPhysicalPortPortSubGroup {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4268,7 +4268,7 @@ export interface DataIntersightEtherPhysicalPortPortSubGroup {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -4468,7 +4468,7 @@ export class DataIntersightEtherPhysicalPortPortSubGroupOutputReference extends 
 }
 export interface DataIntersightEtherPhysicalPortRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4476,19 +4476,19 @@ export interface DataIntersightEtherPhysicalPortRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4501,7 +4501,7 @@ export interface DataIntersightEtherPhysicalPortRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -4701,7 +4701,7 @@ export class DataIntersightEtherPhysicalPortRegisteredDeviceOutputReference exte
 }
 export interface DataIntersightEtherPhysicalPortTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4709,19 +4709,19 @@ export interface DataIntersightEtherPhysicalPortTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4734,7 +4734,7 @@ export interface DataIntersightEtherPhysicalPortTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -4966,7 +4966,7 @@ export class DataIntersightEtherPhysicalPortTagsAncestorDefinitionsList extends 
 }
 export interface DataIntersightEtherPhysicalPortTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4974,19 +4974,19 @@ export interface DataIntersightEtherPhysicalPortTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4999,7 +4999,7 @@ export interface DataIntersightEtherPhysicalPortTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -5199,25 +5199,25 @@ export class DataIntersightEtherPhysicalPortTagsDefinitionOutputReference extend
 }
 export interface DataIntersightEtherPhysicalPortTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#key DataIntersightEtherPhysicalPort#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#key DataIntersightEtherPhysicalPort#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#propagated DataIntersightEtherPhysicalPort#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#propagated DataIntersightEtherPhysicalPort#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the tag is user-defined or owned by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#sys_tag DataIntersightEtherPhysicalPort#sys_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#sys_tag DataIntersightEtherPhysicalPort#sys_tag}
   */
   readonly sysTag?: boolean | cdktf.IResolvable;
   /**
@@ -5225,25 +5225,25 @@ export interface DataIntersightEtherPhysicalPortTags {
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#type DataIntersightEtherPhysicalPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#type DataIntersightEtherPhysicalPort#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#value DataIntersightEtherPhysicalPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#value DataIntersightEtherPhysicalPort#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#ancestor_definitions DataIntersightEtherPhysicalPort#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#ancestor_definitions DataIntersightEtherPhysicalPort#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightEtherPhysicalPortTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#definition DataIntersightEtherPhysicalPort#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#definition DataIntersightEtherPhysicalPort#definition}
   */
   readonly definition?: DataIntersightEtherPhysicalPortTagsDefinition;
 }
@@ -5562,7 +5562,7 @@ export class DataIntersightEtherPhysicalPortTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightEtherPhysicalPortVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5570,19 +5570,19 @@ export interface DataIntersightEtherPhysicalPortVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5595,7 +5595,7 @@ export interface DataIntersightEtherPhysicalPortVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -5827,7 +5827,7 @@ export class DataIntersightEtherPhysicalPortVersionContextInterestedMosList exte
 }
 export interface DataIntersightEtherPhysicalPortVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5835,19 +5835,19 @@ export interface DataIntersightEtherPhysicalPortVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#moid DataIntersightEtherPhysicalPort#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5860,7 +5860,7 @@ export interface DataIntersightEtherPhysicalPortVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#selector DataIntersightEtherPhysicalPort#selector}
   */
   readonly selector?: string;
 }
@@ -6060,7 +6060,7 @@ export class DataIntersightEtherPhysicalPortVersionContextRefMoOutputReference e
 }
 export interface DataIntersightEtherPhysicalPortVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#additional_properties DataIntersightEtherPhysicalPort#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6068,32 +6068,32 @@ export interface DataIntersightEtherPhysicalPortVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#class_id DataIntersightEtherPhysicalPort#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#marked_for_deletion DataIntersightEtherPhysicalPort#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#marked_for_deletion DataIntersightEtherPhysicalPort#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#nr_version DataIntersightEtherPhysicalPort#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#nr_version DataIntersightEtherPhysicalPort#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#object_type DataIntersightEtherPhysicalPort#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#timestamp DataIntersightEtherPhysicalPort#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#timestamp DataIntersightEtherPhysicalPort#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -6104,19 +6104,19 @@ export interface DataIntersightEtherPhysicalPortVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#version_type DataIntersightEtherPhysicalPort#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#version_type DataIntersightEtherPhysicalPort#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#interested_mos DataIntersightEtherPhysicalPort#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#interested_mos DataIntersightEtherPhysicalPort#interested_mos}
   */
   readonly interestedMos?: DataIntersightEtherPhysicalPortVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#ref_mo DataIntersightEtherPhysicalPort#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#ref_mo DataIntersightEtherPhysicalPort#ref_mo}
   */
   readonly refMo?: DataIntersightEtherPhysicalPortVersionContextRefMo;
 }
@@ -6432,7 +6432,7 @@ export class DataIntersightEtherPhysicalPortVersionContextOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port intersight_ether_physical_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port intersight_ether_physical_port}
 */
 export class DataIntersightEtherPhysicalPort extends cdktf.TerraformDataSource {
 
@@ -6448,7 +6448,7 @@ export class DataIntersightEtherPhysicalPort extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightEtherPhysicalPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightEtherPhysicalPort to import
-  * @param importFromId The id of the existing DataIntersightEtherPhysicalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightEtherPhysicalPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightEtherPhysicalPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6460,7 +6460,7 @@ export class DataIntersightEtherPhysicalPort extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/ether_physical_port intersight_ether_physical_port} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.74/docs/data-sources/ether_physical_port intersight_ether_physical_port} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6471,8 +6471,8 @@ export class DataIntersightEtherPhysicalPort extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_ether_physical_port',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.73',
-        providerVersionConstraint: '1.0.73'
+        providerVersion: '1.0.74',
+        providerVersionConstraint: '1.0.74'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbClusterPasswordComplexityConfig extends cdktf.TerraformM
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#cluster_id CynosdbClusterPasswordComplexity#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#cluster_id CynosdbClusterPasswordComplexity#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#id CynosdbClusterPasswordComplexity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#id CynosdbClusterPasswordComplexity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface CynosdbClusterPasswordComplexityConfig extends cdktf.TerraformM
   /**
   * Data dictionary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_dictionary CynosdbClusterPasswordComplexity#validate_password_dictionary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_dictionary CynosdbClusterPasswordComplexity#validate_password_dictionary}
   */
   readonly validatePasswordDictionary?: string[];
   /**
   * Password length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_length CynosdbClusterPasswordComplexity#validate_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_length CynosdbClusterPasswordComplexity#validate_password_length}
   */
   readonly validatePasswordLength: number;
   /**
   * Number of uppercase and lowercase characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_mixed_case_count CynosdbClusterPasswordComplexity#validate_password_mixed_case_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_mixed_case_count CynosdbClusterPasswordComplexity#validate_password_mixed_case_count}
   */
   readonly validatePasswordMixedCaseCount: number;
   /**
   * Number of digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_number_count CynosdbClusterPasswordComplexity#validate_password_number_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_number_count CynosdbClusterPasswordComplexity#validate_password_number_count}
   */
   readonly validatePasswordNumberCount: number;
   /**
   * Password strength (MEDIUM, STRONG).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_policy CynosdbClusterPasswordComplexity#validate_password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_policy CynosdbClusterPasswordComplexity#validate_password_policy}
   */
   readonly validatePasswordPolicy: string;
   /**
   * Number of special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#validate_password_special_char_count CynosdbClusterPasswordComplexity#validate_password_special_char_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#validate_password_special_char_count CynosdbClusterPasswordComplexity#validate_password_special_char_count}
   */
   readonly validatePasswordSpecialCharCount: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity tencentcloud_cynosdb_cluster_password_complexity}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity tencentcloud_cynosdb_cluster_password_complexity}
 */
 export class CynosdbClusterPasswordComplexity extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CynosdbClusterPasswordComplexity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbClusterPasswordComplexity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbClusterPasswordComplexity to import
-  * @param importFromId The id of the existing CynosdbClusterPasswordComplexity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbClusterPasswordComplexity that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbClusterPasswordComplexity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CynosdbClusterPasswordComplexity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.40/docs/resources/cynosdb_cluster_password_complexity tencentcloud_cynosdb_cluster_password_complexity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.41/docs/resources/cynosdb_cluster_password_complexity tencentcloud_cynosdb_cluster_password_complexity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CynosdbClusterPasswordComplexity extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster_password_complexity',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.40',
-        providerVersionConstraint: '1.82.40'
+        providerVersion: '1.82.41',
+        providerVersionConstraint: '1.82.41'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
